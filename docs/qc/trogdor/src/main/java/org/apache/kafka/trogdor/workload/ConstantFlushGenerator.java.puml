@@ -2,7 +2,7 @@
 !pragma layout smetana
 "FlushGenerator" <|-- "org.apache.kafka.trogdor.workload.ConstantFlushGenerator"
 class org.apache.kafka.trogdor.workload.ConstantFlushGenerator {
-+ConstantFlushGenerator(int) : ConstantFlushGenerator [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantFlushGenerator.java.html#55]]]
-+messagesPerFlush() : int [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantFlushGenerator.java.html#60]]]
++ConstantFlushGenerator(int) : ConstantFlushGenerator [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantFlushGenerator.java.html#49]]]
++messagesPerFlush() : int [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantFlushGenerator.java.html#54]]]
 } 
 @enduml

@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00099"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#99"
+ , "c5" : "00097"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#97"
  , "c1" : "String"
  , "c2" : "messageWithFallback()"
  , "c3" : "2"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00105"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#105"
+ , "c5" : "00103"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#103"
  , "c1" : "ApiException"
  , "c2" : "exception()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00110"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#110"
+ , "c5" : "00108"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#108"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00115"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#115"
+ , "c5" : "00113"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#113"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00125"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#125"
+ , "c5" : "00123"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#123"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -232,7 +232,7 @@ var maDataBlocs = {
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.requests.ApiError.fromThrowable@POLYN154750 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.requests.ApiError.fromThrowable@POLYN154690 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -250,45 +250,45 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#100"
+ , "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.requests.ApiError.messageWithFallback@POLYN156839 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.requests.ApiError.messageWithFallback@POLYN156773 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00113"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#113"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00113] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#115"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00115] For method equals arguments Object  o"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.common.requests.ApiError.equals@POLYN157270 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#117"
+ , "c1" : "00124"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.common.requests.ApiError.equals@POLYN157336 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.common.requests.ApiError.toString@POLYN157760 the MagicNumber/String  'ApiError(error=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#126"
+ , "c1" : "00124"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.common.requests.ApiError.toString@POLYN157826 the MagicNumber/String  'ApiError(error=' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.common.requests.ApiError.toString@POLYN157760 the MagicNumber/String  ', message=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#126"
+ , "c1" : "00124"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.common.requests.ApiError.toString@POLYN157826 the MagicNumber/String  ', message=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#126"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.common.requests.ApiError.toString@POLYN157826 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.common.requests.ApiError.toString@POLYN157760 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -309,7 +309,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ApiError.exception@POLYN157036"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ApiError.exception@POLYN156970"
 }} 
 ]
 , 

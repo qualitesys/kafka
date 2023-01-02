@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java 23 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java 18 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.xml" 
  , "fic3"  : "" 
 }
@@ -98,14 +98,14 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "9"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -216,13 +216,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.HerderConnectorContext.requestTaskReconfiguration@POLYN146180"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#56"
  , "c2" : "BLOCKER"
@@ -255,34 +248,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#59"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN146525 the MagicNumber/String 'been shut down.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#43"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00043] In the recursive method org.apache.kafka.connect.runtime.HerderConnectorContext.requestTaskReconfiguration@POLYN146180 the MagicNumber/String 'The request for task reconfiguration has been rejected ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#44"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00044] In the recursive method org.apache.kafka.connect.runtime.HerderConnectorContext.requestTaskReconfiguration@POLYN146180 the MagicNumber/String '' has already ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#44"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00044] In the recursive method org.apache.kafka.connect.runtime.HerderConnectorContext.requestTaskReconfiguration@POLYN146180 the MagicNumber/String 'because this instance of the connector '' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#45"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00045] In the recursive method org.apache.kafka.connect.runtime.HerderConnectorContext.requestTaskReconfiguration@POLYN146180 the MagicNumber/String 'been shut down.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

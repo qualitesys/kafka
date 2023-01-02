@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java 942 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java 950 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.xml" 
  , "fic3"  : "" 
 }
@@ -877,7 +877,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "46"
+ , "c4" : "54"
 }}
 ,
 { "ligne" : { "" : ""
@@ -3210,7 +3210,7 @@ var maDataBlocs = {
  , "c1" : "01939"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1939"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01939] For method handleDescribeTopicsByNames list of called methods Object monObjet|java.util.Map errors_getN1051243|Uuid cluster_topicIdN1051809|org.apache.kafka.clients.admin.TopicDescription getTopicDescriptionFromClusterN1052017"
+ , "c3" : "QC-JAV000007[01939] For method handleDescribeTopicsByNames list of called methods Object monObjet|java.util.Map errors_getN1051243|org.apache.kafka.common.Uuid cluster_topicIdN1051809|org.apache.kafka.clients.admin.TopicDescription getTopicDescriptionFromClusterN1052017"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4999,6 +4999,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "03211"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3211"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03211] For method describeConsumerGroups list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture DescribeConsumerGroupsHandler_newFutureN1123970"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "03212"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3212"
  , "c2" : "CRITICAL"
@@ -5216,6 +5223,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "03403"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3403"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03403] For method listConsumerGroupOffsets list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture ListConsumerGroupOffsetsHandler_newFutureN1134686"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "03404"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3404"
  , "c2" : "CRITICAL"
@@ -5232,6 +5246,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "03413"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3413"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03413] For method deleteConsumerGroups list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture DeleteConsumerGroupsHandler_newFutureN1135415"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03413"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3413"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[03413] The argument options is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -5241,6 +5262,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3423"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03423] For method deleteConsumerGroupOffsets arguments String  groupId|Set&lt;TopicPartition &gt;  partitions|DeleteConsumerGroupOffsetsOptions  options"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03423"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3423"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[03423] For method deleteConsumerGroupOffsets list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture DeleteConsumerGroupOffsetsHandler_newFutureN1136260"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5646,7 +5674,7 @@ var maDataBlocs = {
  , "c1" : "03756"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3756"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03756] For method removeMembersFromConsumerGroup list of called methods Object monObjet|java.util.List getMembersFromGroupN1155259"
+ , "c3" : "QC-JAV000007[03756] For method removeMembersFromConsumerGroup list of called methods Object monObjet|java.util.List getMembersFromGroupN1155259|AdminApiFuture.SimpleAdminApiFuture RemoveMembersFromConsumerGroupHandler_newFutureN1155740"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6576,6 +6604,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "04461"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4461"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[04461] For method describeProducers list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture DescribeProducersHandler_newFutureN1197880"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04461"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4461"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[04461] The argument options is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -6585,6 +6620,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4470"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[04470] For method describeTransactions arguments Collection&lt;String &gt;  transactionalIds|DescribeTransactionsOptions  options"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04470"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4470"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[04470] For method describeTransactions list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture DescribeTransactionsHandler_newFutureN1198475"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6632,6 +6674,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "04488"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4488"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[04488] For method listTransactions list of called methods Object monObjet|org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture ListTransactionsHandler_newFutureN1199640"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04488"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4488"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[04488] The argument options is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -6641,6 +6690,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4497"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[04497] For method fenceProducers arguments Collection&lt;String &gt;  transactionalIds|FenceProducersOptions  options"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04497"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4497"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[04497] For method fenceProducers list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture FenceProducersHandler_newFutureN1200216"
 }} 
 ,
 { "ligne" : {"" : ""

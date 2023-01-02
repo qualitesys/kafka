@@ -1,0 +1,14 @@
+@startuml
+!pragma layout smetana
+"AdminApiHandler.Batched<CoordinatorKey,Map<MemberIdentity,Errors>>" <|-- "org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler"
+class org.apache.kafka.clients.admin.internals.RemoveMembersFromConsumerGroupHandler {
++RemoveMembersFromConsumerGroupHandler(String;List<MemberIdentity>;LogContext) : RemoveMembersFromConsumerGroupHandler [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#45]]]
++apiName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#57]]]
++lookupStrategy() : AdminApiLookupStrategy<CoordinatorKey> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#62]]]
++newFuture(String) : AdminApiFuture.SimpleAdminApiFuture<CoordinatorKey,Map<MemberIdentity,Errors>> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#66]]]
+-validateKeys(Set<CoordinatorKey>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#72]]]
++buildBatchedRequest(int;Set<CoordinatorKey>) : LeaveGroupRequest.Builder [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#82]]]
++handleResponse(Node;Set<CoordinatorKey>;AbstractResponse) : ApiResult<CoordinatorKey,Map<MemberIdentity,Errors>> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#88]]]
+-handleGroupError(CoordinatorKey;Errors;Map<CoordinatorKey,Throwable>;Set<CoordinatorKey>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#117]]]
+} 
+@enduml

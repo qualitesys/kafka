@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java 229 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java 230 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.xml" 
  , "fic3"  : "" 
 }
@@ -444,7 +444,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "8"
+ , "c4" : "9"
 }}
  ] 
 ,
@@ -594,6 +594,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#206"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.connect.runtime.WorkerSinkTask.execute@POLYN288517 the MagicNumber/String  'but succeeded during a later attempt' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00210"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#210"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00210] For method iteration list of called methods Object monObjet|java.lang.Long workerConfig_getLongN289055"
 }} 
 ,
 { "ligne" : {"" : ""

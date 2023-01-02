@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java 307 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java 301 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.xml" 
  , "fic3"  : "" 
 }
@@ -593,7 +593,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "83"
+ , "c4" : "78"
 }}
 ,
 { "ligne" : { "" : ""
@@ -607,7 +607,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "18"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2037,7 +2037,7 @@ var maDataBlocs = {
  , "c1" : "01268"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1268"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01268] For method createQueue list of called methods Object monObjet|org.apache.kafka.clients.admin.ConfigEntry.ConfigSource topology_sourceN355390|org.apache.kafka.streams.processor.TimestampExtractor source_getTimestampExtractorN355706"
+ , "c3" : "QC-JAV000007[01268] For method createQueue list of called methods Object monObjet|java.lang.String topology_sourceN355390|org.apache.kafka.streams.processor.TimestampExtractor source_getTimestampExtractorN355706"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2122,13 +2122,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.suspend@POLYN316185"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.closeCleanAndRecycleState@POLYN326410"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2437,41 +2430,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#309"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00309] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.suspend@POLYN316185 the MagicNumber/String 'Unknown state ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00564"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#564"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00564] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.closeCleanAndRecycleState@POLYN326410 the MagicNumber/String ' while recycling active task ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00564"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#564"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00564] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.closeCleanAndRecycleState@POLYN326410 the MagicNumber/String 'Illegal state ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00566"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#566"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00566] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.closeCleanAndRecycleState@POLYN326410 the MagicNumber/String ' while recycling active task ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00566"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#566"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00566] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.closeCleanAndRecycleState@POLYN326410 the MagicNumber/String 'Unknown state ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00573"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#573"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00573] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.closeCleanAndRecycleState@POLYN326410 the MagicNumber/String 'Closed clean and recycled state' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

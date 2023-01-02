@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.GaussianFlushGenerator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00071"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#71"
+ , "c5" : "00063"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#63"
  , "c1" : "GaussianFlushGenerator"
  , "c2" : "GaussianFlushGenerator(int;double)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00079"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#79"
+ , "c5" : "00071"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#71"
  , "c1" : "int"
  , "c2" : "messagesPerFlushAverage()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#84"
+ , "c5" : "00076"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#76"
  , "c1" : "double"
  , "c2" : "messagesPerFlushDeviation()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#88"
+ , "c5" : "00080"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#80"
  , "c1" : "void"
  , "c2" : "calculateFlushSize()"
  , "c3" : "1"
@@ -116,52 +116,52 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#80"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00080] Lock statement on synchronized method calculateFlushSize"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#81"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.trogdor.workload.GaussianFlushGenerator.calculateFlushSize@POLYN155887 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00082"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#82"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.trogdor.workload.GaussianFlushGenerator.calculateFlushSize@POLYN155887 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#86"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00086] Lock statement on synchronized method "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#86"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00086] The argument producer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAVCWE390[00094] Detection of error condition without action (see http://cwe.mitre.org/data/definitions/390.html)"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#88"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00088] Lock statement on synchronized method calculateFlushSize"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.trogdor.workload.GaussianFlushGenerator.calculateFlushSize@POLYN156151 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#90"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.trogdor.workload.GaussianFlushGenerator.calculateFlushSize@POLYN156151 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#94"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00094] Lock statement on synchronized method "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#94"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00094] The argument producer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#102"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE390[00102] Detection of error condition without action (see http://cwe.mitre.org/data/definitions/390.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianFlushGenerator.java.html#96"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.trogdor.workload.GaussianFlushGenerator the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.trogdor.workload.GaussianFlushGenerator the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 , 

@@ -4,12 +4,12 @@
 class org.apache.kafka.common.requests.StopReplicaRequest {
 -StopReplicaRequest(StopReplicaRequestData;short) : StopReplicaRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#101]]]
 +getErrorResponse(int;Throwable) : StopReplicaResponse [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#107]]]
-+topicStates() : Iterable<StopReplicaTopicState> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#137]]]
-+partitionStates() : Map<TopicPartition,StopReplicaPartitionState> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#162]]]
-+controllerId() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#197]]]
-+controllerEpoch() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#202]]]
-+brokerEpoch() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#207]]]
-+parse(ByteBuffer;short) : StopReplicaRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#211]]]
-+data() : StopReplicaRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#216]]]
++topicStates() : Iterable<StopReplicaTopicState> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#135]]]
++partitionStates() : Map<TopicPartition,StopReplicaPartitionState> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#160]]]
++controllerId() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#195]]]
++controllerEpoch() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#200]]]
++brokerEpoch() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#205]]]
++parse(ByteBuffer;short) : StopReplicaRequest [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#209]]]
++data() : StopReplicaRequestData [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#214]]]
 } 
 @enduml

@@ -721,7 +721,7 @@ var maDataBlocs = {
  , "c1" : "00363"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#363"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00363] For method maybeAddNativeGssapiCredentials list of called methods Object monObjet|boolean Boolean_getBooleanN224804|java.lang.String kerberosName_serviceNameN225427|java.lang.String kerberosName_hostNameN225507"
+ , "c3" : "QC-JAV000007[00363] For method maybeAddNativeGssapiCredentials list of called methods Object monObjet|boolean Boolean_getBooleanN224804|java.lang.String SaslClientAuthenticator_firstPrincipalN225043|java.lang.String kerberosName_serviceNameN225427|java.lang.String kerberosName_hostNameN225507"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java 61 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java 50 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.xml" 
  , "fic3"  : "" 
 }
@@ -161,7 +161,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "19"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -175,7 +175,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -196,7 +196,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -241,6 +241,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#83"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.AssignorConfiguration@POLYN178525 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00095"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#95"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00095] For method rebalanceProtocol list of called methods Object monObjet|java.lang.String streamsConfig_getStringN180704"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -293,6 +300,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00144"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#144"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00144] For method configuredMetadataVersion list of called methods Object monObjet|java.lang.String streamsConfig_getStringN182341"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#146"
  , "c2" : "MAJOR"
@@ -332,6 +346,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#184"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.configuredMetadataVersion@POLYN182236 the MagicNumber/String  'Unknown configuration value for parameter 'upgrade.from': ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00191"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#191"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00191] For method userEndPoint list of called methods Object monObjet|java.lang.String streamsConfig_getStringN183849"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -482,20 +503,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.configuredMetadataVersion@POLYN182236"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.rebalanceProtocol@POLYN180624"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#58"
  , "c2" : "BLOCKER"
@@ -542,90 +549,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#249"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00249] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.assignmentListener@POLYN185689 the MagicNumber/String '%s is not an instance of %s' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#146"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.configuredMetadataVersion@POLYN182236 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#150"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00150] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.configuredMetadataVersion@POLYN182236 the MagicNumber/String 'Downgrading metadata version from {} to 1 for upgrade from 0.10.0.x.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#153"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00153] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.configuredMetadataVersion@POLYN182236 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#160"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00160] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.configuredMetadataVersion@POLYN182236 the MagicNumber/String 'Downgrading metadata version from {} to 2 for upgrade from {}.x.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00164"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#164"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00164] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.configuredMetadataVersion@POLYN182236 the MagicNumber/String 2 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00184"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#184"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00184] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.configuredMetadataVersion@POLYN182236 the MagicNumber/String 'Unknown configuration value for parameter 'upgrade.from': ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#97"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00097] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.rebalanceProtocol@POLYN180624 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#113"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.rebalanceProtocol@POLYN180624 the MagicNumber/String 'Eager rebalancing protocol is enabled now for upgrade from {}.x' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#114"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00114] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.rebalanceProtocol@POLYN180624 the MagicNumber/String 'The eager rebalancing protocol is deprecated and will stop being supported in a future release.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#115"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00115] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.rebalanceProtocol@POLYN180624 the MagicNumber/String ' Please be prepared to remove the 'upgrade.from' config soon.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#129"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00129] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.rebalanceProtocol@POLYN180624 the MagicNumber/String 'Unknown configuration value for parameter 'upgrade.from': ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#136"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00136] In the recursive method org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.rebalanceProtocol@POLYN180624 the MagicNumber/String 'Cooperative rebalancing protocol is enabled now' MUST BE CONVERTED to const"
 }} 
 ]
 , 

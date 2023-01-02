@@ -2,10 +2,10 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.common.utils.Checksums"
 class org.apache.kafka.common.utils.Checksums {
--Checksums() : Checksums [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#35]]]
-+update(Checksum;ByteBuffer;int) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#38]]]
-+update(Checksum;ByteBuffer;int;int) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#42]]]
-+updateInt(Checksum;int) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#52]]]
-+updateLong(Checksum;long) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#59]]]
+-Checksums() : Checksums [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#33]]]
++update(Checksum;ByteBuffer;int) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#36]]]
++update(Checksum;ByteBuffer;int;int) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#40]]]
++updateInt(Checksum;int) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#50]]]
++updateLong(Checksum;long) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Checksums.java.html#57]]]
 } 
 @enduml

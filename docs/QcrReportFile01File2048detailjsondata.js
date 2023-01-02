@@ -176,7 +176,7 @@ var maDataBlocs = {
  , "c1" : "00048"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ContextualRecord.java.html#48"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00048] For method deserialize list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.ProcessorRecordContext ProcessorRecordContext_deserializeN149156"
+ , "c3" : "QC-JAV000007[00048] For method deserialize list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.ProcessorRecordContext ProcessorRecordContext_deserializeN149156|byte[] getNullableSizePrefixedArrayN149261"
 }} 
 ,
 { "ligne" : {"" : ""

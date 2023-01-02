@@ -2,8 +2,8 @@
 !pragma layout smetana
 "PayloadGenerator" <|-- "org.apache.kafka.trogdor.workload.TimestampConstantPayloadGenerator"
 class org.apache.kafka.trogdor.workload.TimestampConstantPayloadGenerator {
-+TimestampConstantPayloadGenerator(int) : TimestampConstantPayloadGenerator [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampConstantPayloadGenerator.java.html#54]]]
-+size() : int [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampConstantPayloadGenerator.java.html#64]]]
-+generate(long) : byte[] [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampConstantPayloadGenerator.java.html#69]]]
++TimestampConstantPayloadGenerator(int) : TimestampConstantPayloadGenerator [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampConstantPayloadGenerator.java.html#52]]]
++size() : int [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampConstantPayloadGenerator.java.html#62]]]
++generate(long) : byte[] [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampConstantPayloadGenerator.java.html#67]]]
 } 
 @enduml

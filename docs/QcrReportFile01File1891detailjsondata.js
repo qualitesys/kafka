@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java 131 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java 96 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.xml" 
  , "fic3"  : "" 
 }
@@ -273,7 +273,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "43"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : { "" : ""
@@ -287,7 +287,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "8"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
@@ -919,21 +919,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.PartitionGroup.nextRecord@POLYN201019"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.PartitionGroup.partitionTimestamp@POLYN198406"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -986,41 +972,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00257"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#257"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00257] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.nextRecord@POLYN201019 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00262"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#262"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00262] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.nextRecord@POLYN201019 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00266"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#266"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00266] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.nextRecord@POLYN201019 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00271"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#271"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00271] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.nextRecord@POLYN201019 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00279"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#279"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00279] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.nextRecord@POLYN201019 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00212"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#212"
  , "c2" : "BLOCKER"
@@ -1039,202 +990,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#213"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.partitionTimestamp@POLYN198406 the MagicNumber/String 'Partition ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#110"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#120"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String 'Ready for processing because max.task.idle.ms is disabled.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#121"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00121] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String '\n\tThere may be out-of-order processing for this task as a result.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#122"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00122] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String '\n\tBuffered partitions: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#123"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String '\n\tNon-buffered partitions: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#127"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00127] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#131"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#148"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String 'Waiting to fetch data for {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#149"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00149] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#150"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00150] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String 0L MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#154"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00154] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String 'Lag for {} is currently {}, but no data is buffered locally. Waiting to buffer some records.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00158"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#158"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00158] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#170"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00170] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String 'Lag for {} is currently 0 and current time is {}. Waiting for new data to be produced for configured idle time {} -deadline is {}-.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00176"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#176"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00176] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#179"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00179] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#187"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00187] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00188"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#188"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00188] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String 'All partitions were buffered locally, so this task is ready for processing.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#189"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00189] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#191"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00191] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String 'No partitions were buffered locally, so this task is not ready for processing.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00192"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#192"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00192] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00194"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#194"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00194] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String 1.0d MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#195"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00195] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String 'Continuing to process although some partitions are empty on the broker.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00196"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#196"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00196] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String '\n\tThere may be out-of-order processing for this task as a result.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00197"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#197"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00197] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String '\n\tPartitions with local data: {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#198"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00198] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String '\n\tPartitions we gave up waiting for, with their corresponding deadlines: {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00199"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#199"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00199] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String '\n\tConfigured max.task.idle.ms: {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00200"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#200"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00200] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String '\n\tCurrent wall-clock time: {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00205"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#205"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00205] In the recursive method org.apache.kafka.streams.processor.internals.PartitionGroup.readyToProcess@POLYN194187 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
 , 

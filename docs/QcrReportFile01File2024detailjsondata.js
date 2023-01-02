@@ -920,7 +920,7 @@ var maDataBlocs = {
  , "c1" : "00251"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#251"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00251] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl ProcessorContextUtils_getMetricsImplN204663|org.apache.kafka.streams.processor.TaskId context_taskIdN204862|Sensor TaskMetrics_droppedRecordsSensorN204956|org.apache.kafka.streams.query.Position StoreQueryUtils_readPositionFromCheckpointN205484"
+ , "c3" : "QC-JAV000007[00251] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl ProcessorContextUtils_getMetricsImplN204663|org.apache.kafka.streams.processor.TaskId context_taskIdN204862|org.apache.kafka.common.metrics.Sensor TaskMetrics_droppedRecordsSensorN204956|org.apache.kafka.streams.query.Position StoreQueryUtils_readPositionFromCheckpointN205484|boolean StreamsConfig_InternalConfig_getBooleanN205865"
 }} 
 ,
 { "ligne" : {"" : ""

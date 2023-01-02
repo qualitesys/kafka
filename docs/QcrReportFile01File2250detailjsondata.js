@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java 87 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java 88 rule violations " 
  , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.xml" 
  , "fic3"  : "" 
 }
@@ -145,7 +145,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -442,6 +442,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#220"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000004[00220] Void method close is empty or contains only a return. Interface segregation"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00226"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#226"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00226] For method run list of called methods Object monObjet|int WorkerUtils_perSecToPerPeriodN194118"
 }} 
 ,
 { "ligne" : {"" : ""

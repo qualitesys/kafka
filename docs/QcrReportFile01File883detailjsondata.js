@@ -142,7 +142,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S1:org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN164176" }
 ,
-{ "ligne" : "S1:org.apache.kafka.common.metrics.Metrics.removeMetric@POLYN301031" }
+{ "ligne" : "S1:org.apache.kafka.common.metrics.Metrics.removeMetric@POLYN301553" }
  ]
  } }
 ,
@@ -162,7 +162,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S3:org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN164176" }
 ,
-{ "ligne" : "S3:org.apache.kafka.common.metrics.Metrics.removeMetric@POLYN301031" }
+{ "ligne" : "S3:org.apache.kafka.common.metrics.Metrics.removeMetric@POLYN301553" }
  ]
  } }
 ]

@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#57"
+ , "c5" : "00055"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#55"
  , "c1" : "ApiException"
  , "c2" : "error()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#65"
+ , "c5" : "00063"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#63"
  , "c1" : "Map<TopicPartition,ReplicaInfo>"
  , "c2" : "replicaInfos()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00073"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#73"
+ , "c5" : "00071"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#71"
  , "c1" : "OptionalLong"
  , "c2" : "totalBytes()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00081"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#81"
+ , "c5" : "00079"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#79"
  , "c1" : "OptionalLong"
  , "c2" : "usableBytes()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00086"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#86"
+ , "c5" : "00084"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#84"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -122,45 +122,45 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#85"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.clients.admin.LogDirDescription.toString@POLYN154483 the MagicNumber/String  'LogDirDescription(' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#86"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.clients.admin.LogDirDescription.toString@POLYN154483 the MagicNumber/String  'replicaInfos=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.clients.admin.LogDirDescription.toString@POLYN154549 the MagicNumber/String  'LogDirDescription(' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.clients.admin.LogDirDescription.toString@POLYN154483 the MagicNumber/String  ', error=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.clients.admin.LogDirDescription.toString@POLYN154549 the MagicNumber/String  'replicaInfos=' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.clients.admin.LogDirDescription.toString@POLYN154483 the MagicNumber/String  ', totalBytes=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.admin.LogDirDescription.toString@POLYN154549 the MagicNumber/String  ', error=' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.admin.LogDirDescription.toString@POLYN154483 the MagicNumber/String  ', usableBytes=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.clients.admin.LogDirDescription.toString@POLYN154549 the MagicNumber/String  ', totalBytes=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#91"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.clients.admin.LogDirDescription.toString@POLYN154549 the MagicNumber/String  ', usableBytes=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#92"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.clients.admin.LogDirDescription.toString@POLYN154549 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.clients.admin.LogDirDescription.toString@POLYN154483 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 , 

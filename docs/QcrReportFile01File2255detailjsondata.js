@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchWorker.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchWorker.java 139 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchWorker.java 136 rule violations " 
  , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchWorker.java.xml" 
  , "fic3"  : "" 
 }
@@ -89,7 +89,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "34"
+ , "c4" : "32"
 }}
 ,
 { "ligne" : { "" : ""
@@ -103,7 +103,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "12"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : { "" : ""
@@ -805,13 +805,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchWorker.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ConsumeBenchWorker.ThreadSafeConsumer.close@POLYN249108"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchWorker.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ConsumeBenchWorker.CloseStatusUpdater.run@POLYN239863"
 }} 
 ,
@@ -960,20 +953,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchWorker.java.html#490"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00490] In the recursive method org.apache.kafka.trogdor.workload.ConsumeBenchWorker.stop@POLYN247031 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00523"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchWorker.java.html#523"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00523] In the recursive method org.apache.kafka.trogdor.workload.ConsumeBenchWorker.ThreadSafeConsumer.close@POLYN249108 the MagicNumber/String 'consumer' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00524"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchWorker.java.html#524"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00524] In the recursive method org.apache.kafka.trogdor.workload.ConsumeBenchWorker.ThreadSafeConsumer.close@POLYN249108 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

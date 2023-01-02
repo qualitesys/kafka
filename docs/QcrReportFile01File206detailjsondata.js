@@ -1302,13 +1302,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.wakeup@POLYN252887"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.poll@POLYN254983 ending with method org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.handlePendingDisconnects@POLYN261883"
 }} 
@@ -1391,6 +1384,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.wakeup@POLYN252887"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00260"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#260"
  , "c2" : "BLOCKER"
@@ -1461,20 +1461,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#189"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00189] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.wakeup@POLYN252887 the MagicNumber/String 'Received user wakeup' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#190"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00190] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.wakeup@POLYN252887 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00445"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#445"
  , "c2" : "BLOCKER"
@@ -1521,6 +1507,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#324"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00324] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.transmitSends@POLYN257217 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00189"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#189"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00189] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.wakeup@POLYN252887 the MagicNumber/String 'Received user wakeup' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00190"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#190"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00190] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.wakeup@POLYN252887 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
 , 

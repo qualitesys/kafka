@@ -2,8 +2,8 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.clients.admin.internals.AdminApiLookupStrategy"
 class org.apache.kafka.clients.admin.internals.AdminApiLookupStrategy {
-lookupScope(T) : ApiRequestScope [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiLookupStrategy.java.html#56]]]
-buildRequest(Set<T>) : AbstractRequest.Builder<?> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiLookupStrategy.java.html#67]]]
-handleResponse(Set<T>;AbstractResponse) : LookupResult<T> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiLookupStrategy.java.html#88]]]
+lookupScope(T) : ApiRequestScope [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiLookupStrategy.java.html#52]]]
+buildRequest(Set<T>) : AbstractRequest.Builder<?> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiLookupStrategy.java.html#63]]]
+handleResponse(Set<T>;AbstractResponse) : LookupResult<T> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiLookupStrategy.java.html#82]]]
 } 
 @enduml

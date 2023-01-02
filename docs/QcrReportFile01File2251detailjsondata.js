@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.ConstantFlushGenerator" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantFlushGenerator.java.html#55"
+ , "c5" : "00049"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantFlushGenerator.java.html#49"
  , "c1" : "ConstantFlushGenerator"
  , "c2" : "ConstantFlushGenerator(int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantFlushGenerator.java.html#60"
+ , "c5" : "00054"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantFlushGenerator.java.html#54"
  , "c1" : "int"
  , "c2" : "messagesPerFlush()"
  , "c3" : "1"
@@ -98,38 +98,38 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantFlushGenerator.java.html#65"
+ , "c1" : "00059"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantFlushGenerator.java.html#59"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00065] Lock statement on synchronized method "
+ , "c3" : "QC-JAV000019[00059] Lock statement on synchronized method "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00059"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantFlushGenerator.java.html#59"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00059] The argument producer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantFlushGenerator.java.html#68"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAVCWE390[00068] Detection of error condition without action (see http://cwe.mitre.org/data/definitions/390.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00061"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantFlushGenerator.java.html#61"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.trogdor.workload.ConstantFlushGenerator the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00065"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantFlushGenerator.java.html#65"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00065] The argument producer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantFlushGenerator.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE390[00074] Detection of error condition without action (see http://cwe.mitre.org/data/definitions/390.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantFlushGenerator.java.html#67"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.trogdor.workload.ConstantFlushGenerator the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConstantFlushGenerator.java.html#71"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.trogdor.workload.ConstantFlushGenerator the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.trogdor.workload.ConstantFlushGenerator the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

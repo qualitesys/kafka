@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.authorizer.Authorizer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00093"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#93"
+ , "c5" : "00091"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#91"
  , "c1" : "Map<Endpoint,?extendsCompletionStage<Void>>"
  , "c2" : "start(AuthorizerServerInfo)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00109"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#109"
+ , "c5" : "00105"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#105"
  , "c1" : "List<AuthorizationResult>"
  , "c2" : "authorize(AuthorizableRequestContext;List<Action>)"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00126"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#126"
+ , "c5" : "00122"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#122"
  , "c1" : "List<?extendsCompletionStage<AclCreateResult>>"
  , "c2" : "createAcls(AuthorizableRequestContext;List<AclBinding>)"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00147"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#147"
+ , "c5" : "00143"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#143"
  , "c1" : "List<?extendsCompletionStage<AclDeleteResult>>"
  , "c2" : "deleteAcls(AuthorizableRequestContext;List<AclBindingFilter>)"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00158"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#158"
+ , "c5" : "00154"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#154"
  , "c1" : "Iterable<AclBinding>"
  , "c2" : "acls(AclBindingFilter)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00164"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#164"
+ , "c5" : "00160"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#160"
  , "c1" : "int"
  , "c2" : "aclCount()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00188"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#188"
+ , "c5" : "00184"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#184"
  , "c1" : "AuthorizationResult"
  , "c2" : "authorizeByResourceType(AuthorizableRequestContext;AclOperation;ResourceType)"
  , "c3" : "21"
@@ -122,10 +122,10 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00188"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#188"
+ , "c1" : "00184"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/Authorizer.java.html#184"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00188] The argument requestContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00184] The argument requestContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 , 

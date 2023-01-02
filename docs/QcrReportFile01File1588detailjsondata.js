@@ -2040,7 +2040,7 @@ var maDataBlocs = {
  , "c1" : "01832"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1832"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01832] For method start list of called methods Object monObjet|int processStreamThreadN551586"
+ , "c3" : "QC-JAV000007[01832] For method start list of called methods Object monObjet|int processStreamThreadN551586|java.lang.Long applicationConfigs_getLongN551784"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -181,7 +181,7 @@ var maDataBlocs = {
  , "c1" : "00108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00108] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.ProcessorNode internalProcessorContext_currentNodeN203051|java.lang.Long internalProcessorContext_processorMetadataForKeyN203902"
+ , "c3" : "QC-JAV000007[00108] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.ProcessorNode internalProcessorContext_currentNodeN203051|java.lang.Long internalProcessorContext_processorMetadataForKeyN203902|long StreamsConfig_InternalConfig_getLongN204141"
 }} 
 ,
 { "ligne" : {"" : ""

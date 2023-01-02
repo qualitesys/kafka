@@ -271,7 +271,7 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#82"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00082] For method start list of called methods Object monObjet|java.lang.String config_sourceClusterAliasN189740|org.apache.kafka.connect.mirror.MirrorMetrics config_metricsN189814|java.time.Duration config_consumerPollTimeoutN189888|long config_maxOffsetLagN189962|org.apache.kafka.connect.mirror.ReplicationPolicy config_replicationPolicyN190036|java.lang.String config_offsetSyncsTopicN190193|KafkaConsumer MirrorUtils_newConsumerN190267|org.apache.kafka.clients.producer.KafkaProducer MirrorUtils_newProducerN190380|java.util.Set config_taskTopicPartitionsN190515"
+ , "c3" : "QC-JAV000007[00082] For method start list of called methods Object monObjet|java.lang.String config_sourceClusterAliasN189740|org.apache.kafka.connect.mirror.MirrorMetrics config_metricsN189814|java.time.Duration config_consumerPollTimeoutN189888|long config_maxOffsetLagN189962|org.apache.kafka.connect.mirror.ReplicationPolicy config_replicationPolicyN190036|java.lang.String config_offsetSyncsTopicN190193|org.apache.kafka.clients.consumer.KafkaConsumer MirrorUtils_newConsumerN190267|org.apache.kafka.clients.producer.KafkaProducer MirrorUtils_newProducerN190380|java.util.Set config_taskTopicPartitionsN190515"
 }} 
 ,
 { "ligne" : {"" : ""

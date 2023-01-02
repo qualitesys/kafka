@@ -3,8 +3,8 @@
 "java.lang.Object" <|-- "org.apache.kafka.clients.NetworkClientUtils"
 class org.apache.kafka.clients.NetworkClientUtils {
 -NetworkClientUtils() : NetworkClientUtils [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClientUtils.java.html#32]]]
-+isReady(KafkaClient;Node;long) : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClientUtils.java.html#43]]]
-+awaitReady(KafkaClient;Node;Time;long) : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClientUtils.java.html#110]]]
-+sendAndReceive(KafkaClient;ClientRequest;Time) : ClientResponse [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClientUtils.java.html#110]]]
++isReady(KafkaClient;Node;long) : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClientUtils.java.html#41]]]
++awaitReady(KafkaClient;Node;Time;long) : boolean [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClientUtils.java.html#58]]]
++sendAndReceive(KafkaClient;ClientRequest;Time) : ClientResponse [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/NetworkClientUtils.java.html#91]]]
 } 
 @enduml

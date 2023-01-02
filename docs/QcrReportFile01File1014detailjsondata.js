@@ -232,14 +232,14 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00075] For method serializeValue list of called methods Object monObjet|Struct headerStructN161588|Struct valueStructN161674"
+ , "c3" : "QC-JAV000007[00075] For method serializeValue list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct headerStructN161588|org.apache.kafka.common.protocol.types.Struct valueStructN161674"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00086"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#86"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00086] For method serializeKey list of called methods Object monObjet|Struct keyStructN162273"
+ , "c3" : "QC-JAV000007[00086] For method serializeKey list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct keyStructN162273"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -253,7 +253,7 @@ var maDataBlocs = {
  , "c1" : "00094"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#94"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00094] For method deserializeRecord list of called methods Object monObjet|Struct HEADER_SCHEMA_readN162894|org.apache.kafka.common.protocol.types.Schema valueSchemaN163082|Struct KEY_SCHEMA_readN163301"
+ , "c3" : "QC-JAV000007[00094] For method deserializeRecord list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct HEADER_SCHEMA_readN162894|java.lang.Short headerStruct_getShortN162988|org.apache.kafka.common.protocol.types.Schema valueSchemaN163082|java.lang.Long valueStruct_getLongN163207|org.apache.kafka.common.protocol.types.Struct KEY_SCHEMA_readN163301|java.lang.String keyStruct_getStringN163454|java.lang.String keyStruct_getStringN163548"
 }} 
 ,
 { "ligne" : {"" : ""

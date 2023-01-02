@@ -791,7 +791,7 @@ var maDataBlocs = {
  , "c1" : "00238"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#238"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00238] For method clientLevelSensor list of called methods Object monObjet|Sensor metrics_getSensorN286512"
+ , "c3" : "QC-JAV000007[00238] For method clientLevelSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor metrics_getSensorN286512"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1379,7 +1379,7 @@ var maDataBlocs = {
  , "c1" : "00577"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#577"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00577] For method customInvocationRateAndCountSensor list of called methods Object monObjet|Sensor metrics_sensorN304186"
+ , "c3" : "QC-JAV000007[00577] For method customInvocationRateAndCountSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor metrics_sensorN304186"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1393,7 +1393,7 @@ var maDataBlocs = {
  , "c1" : "00596"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#596"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00596] For method addLatencyRateTotalSensor list of called methods Object monObjet|java.lang.String groupNameFromScopeN305013|java.util.Map customizedTagsN305141|Sensor customInvocationRateAndCountSensorN305298"
+ , "c3" : "QC-JAV000007[00596] For method addLatencyRateTotalSensor list of called methods Object monObjet|java.lang.String groupNameFromScopeN305013|java.util.Map customizedTagsN305141|org.apache.kafka.common.metrics.Sensor customInvocationRateAndCountSensorN305298"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1715,7 +1715,7 @@ var maDataBlocs = {
  , "c1" : "00891"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#891"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00891] For method getSensors list of called methods Object monObjet|Sensor metrics_getSensorN316803"
+ , "c3" : "QC-JAV000007[00891] For method getSensors list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor metrics_getSensorN316803"
 }} 
 ,
 { "ligne" : {"" : ""

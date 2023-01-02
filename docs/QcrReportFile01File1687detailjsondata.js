@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.streams.kstream.internals.AbstractStream" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00060"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#60"
+ , "c5" : "00058"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#58"
  , "c1" : "AbstractStream"
  , "c2" : "AbstractStream(AbstractStream<K,V>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00069"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#69"
+ , "c5" : "00067"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#67"
  , "c1" : "AbstractStream"
  , "c2" : "AbstractStream(String;Serde<K>;Serde<V>;Set<String>;GraphNode;InternalStreamsBuilder)"
  , "c3" : "2"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00089"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#89"
+ , "c5" : "00087"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#87"
  , "c1" : "InternalTopologyBuilder"
  , "c2" : "internalTopologyBuilder()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00093"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#93"
+ , "c5" : "00091"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#91"
  , "c1" : "Set<String>"
  , "c2" : "ensureCopartitionWith(Collection<?extendsAbstractStream<K,?>>)"
  , "c3" : "2"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00155"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#155"
+ , "c5" : "00153"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#153"
  , "c1" : "Serde<K>"
  , "c2" : "keySerde()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00159"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#159"
+ , "c5" : "00157"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#157"
  , "c1" : "Serde<V>"
  , "c2" : "valueSerde()"
  , "c3" : "1"
@@ -127,87 +127,87 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#60"
+ , "c1" : "00058"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#58"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00060] The argument stream is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00058] The argument stream is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#75"
+ , "c1" : "00073"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.kstream.internals.AbstractStream.AbstractStream@POLYN168807 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.streams.kstream.internals.AbstractStream.AbstractStream@POLYN168741 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#76"
+ , "c1" : "00074"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.kstream.internals.AbstractStream.AbstractStream@POLYN168807 the MagicNumber/String  'parameter &amp;lt;sourceNodes&amp;gt; must not be null or empty' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.kstream.internals.AbstractStream.AbstractStream@POLYN168741 the MagicNumber/String  'parameter &amp;lt;sourceNodes&amp;gt; must not be null or empty' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#93"
+ , "c1" : "00091"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#91"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00093] For method ensureCopartitionWith arguments Collection&lt;?  extends AbstractStream&lt;K ,? &gt; &gt;  otherStreams"
+ , "c3" : "QC-JAV000006[00091] For method ensureCopartitionWith arguments Collection&lt;?  extends AbstractStream&lt;K ,? &gt; &gt;  otherStreams"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#103"
+ , "c1" : "00101"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#101"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00103] The argument joiner is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00101] The argument joiner is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#107"
+ , "c1" : "00105"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#105"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00107] The argument joiner is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00105] The argument joiner is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#111"
+ , "c1" : "00109"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#109"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00111] The argument valueMapper is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00109] The argument valueMapper is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#112"
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.kstream.internals.AbstractStream the MagicNumber/String  'valueMapper can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.kstream.internals.AbstractStream the MagicNumber/String  'valueMapper can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#117"
+ , "c1" : "00115"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#115"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00117] The argument valueTransformerSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00115] The argument valueTransformerSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#118"
+ , "c1" : "00116"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.kstream.internals.AbstractStream the MagicNumber/String  'valueTransformerSupplier can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.kstream.internals.AbstractStream the MagicNumber/String  'valueTransformerSupplier can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#149"
+ , "c1" : "00147"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#147"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00149] The argument valueJoiner is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00147] The argument valueJoiner is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#150"
+ , "c1" : "00148"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.streams.kstream.internals.AbstractStream the MagicNumber/String  'joiner can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.kstream.internals.AbstractStream the MagicNumber/String  'joiner can't be null' should be converted to const"
 }} 
 ]
 , 

@@ -7,8 +7,8 @@ class org.apache.kafka.connect.util.LoggingContext {
 +forValidation(String) : LoggingContext [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#115]]]
 +forTask(ConnectorTaskId) : LoggingContext [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#127]]]
 +forOffsets(ConnectorTaskId) : LoggingContext [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#140]]]
-prefixFor(String;Scope;Integer) : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#192]]]
--LoggingContext() : LoggingContext [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#214]]]
-+close() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#224]]]
+prefixFor(String;Scope;Integer) : String [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#186]]]
+-LoggingContext() : LoggingContext [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#208]]]
++close() : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#218]]]
 } 
 @enduml

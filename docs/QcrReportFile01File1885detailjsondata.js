@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java 88 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java 64 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.xml" 
  , "fic3"  : "" 
 }
@@ -184,6 +184,7 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
+{ "ligne" :  "R0:org.apache.kafka.streams.processor.internals.GlobalStreamThread.this" }
 ]
 ,
 "data12b" : [
@@ -197,7 +198,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "31"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : { "" : ""
@@ -211,7 +212,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "9"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -591,34 +592,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStreamThread.StateConsumer.close@POLYN210424"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStreamThread.closeStateConsumer@POLYN215566"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN204738"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN210808"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStreamThread.stillRunning@POLYN205917"
 }} 
 ,
@@ -697,146 +670,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#420"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00420] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN213567 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00277"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#277"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00277] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.StateConsumer.close@POLYN210424 the MagicNumber/String 'Failed to close global consumer due to the following error:' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00424"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#424"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00424] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.closeStateConsumer@POLYN215566 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00428"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#428"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00428] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.closeStateConsumer@POLYN215566 the MagicNumber/String 'Failed to close state consumer due to the following error:' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00164"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#164"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00164] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN204738 the MagicNumber/String 'Unexpected state transition from {} to {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#165"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00165] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN204738 the MagicNumber/String ' to ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#165"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00165] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN204738 the MagicNumber/String 'Unexpected state transition from ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#167"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00167] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN204738 the MagicNumber/String 'State transition from {} to {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#173"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN204738 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00288"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#288"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00288] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN210808 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00297"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#297"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00297] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN210808 the MagicNumber/String 'Error happened during initialization of the global state store; this thread has shutdown.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00305"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#305"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN210808 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00308"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#308"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00308] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN210808 the MagicNumber/String 1L MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00309"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#309"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00309] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN210808 the MagicNumber/String 1L MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00315"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#315"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00315] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN210808 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00317"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#317"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00317] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN210808 the MagicNumber/String 'Updating global state failed due to inconsistent local state. Will attempt to clean up the local state. You can restart KafkaStreams to recover from this error.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00321"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#321"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00321] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN210808 the MagicNumber/String 'Updating global state failed. You can restart KafkaStreams to launch a new GlobalStreamThread to recover from this error.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00326"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#326"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00326] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN210808 the MagicNumber/String 'Error happened while maintaining global state store. The streams application or client will now close to ERROR.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00334"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#334"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00334] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN210808 the MagicNumber/String 'Shutting down' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00339"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#339"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00339] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN210808 the MagicNumber/String 'Failed to close state maintainer due to the following error:' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00347"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#347"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00347] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN210808 the MagicNumber/String 'Shutdown complete' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -459,7 +459,7 @@ var maDataBlocs = {
  , "c1" : "00188"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#188"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00188] For method configKeysForEntityType list of called methods Object monObjet|boolean entity_containsKeyN205147|boolean entity_containsKeyN205249|boolean entity_containsKeyN205351|ConfigDef QuotaConfigs_ipConfigsN205924|ConfigDef QuotaConfigs_userConfigsN206286|ConfigDef QuotaConfigs_userConfigsN206429|ConfigDef QuotaConfigs_clientConfigsN206572"
+ , "c3" : "QC-JAV000007[00188] For method configKeysForEntityType list of called methods Object monObjet|boolean entity_containsKeyN205147|boolean entity_containsKeyN205249|boolean entity_containsKeyN205351|org.apache.kafka.common.config.ConfigDef QuotaConfigs_ipConfigsN205924|org.apache.kafka.common.config.ConfigDef QuotaConfigs_userConfigsN206286|org.apache.kafka.common.config.ConfigDef QuotaConfigs_userConfigsN206429|org.apache.kafka.common.config.ConfigDef QuotaConfigs_clientConfigsN206572"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -3,9 +3,9 @@
 "java.lang.Object" <|-- "org.apache.kafka.server.authorizer.AuthorizerServerInfo"
 class org.apache.kafka.server.authorizer.AuthorizerServerInfo {
 clusterResource() : ClusterResource [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html#34]]]
-brokerId() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html#41]]]
-endpoints() : Collection<Endpoint> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html#47]]]
-interBrokerEndpoint() : Endpoint [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html#52]]]
-earlyStartListeners() : Collection<String> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html#57]]]
+brokerId() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html#39]]]
+endpoints() : Collection<Endpoint> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html#45]]]
+interBrokerEndpoint() : Endpoint [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html#50]]]
+earlyStartListeners() : Collection<String> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AuthorizerServerInfo.java.html#55]]]
 } 
 @enduml

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RoundTripWorker.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/RoundTripWorker.java 150 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/RoundTripWorker.java 144 rule violations " 
  , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RoundTripWorker.java.xml" 
  , "fic3"  : "" 
 }
@@ -90,14 +90,14 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "35"
+ , "c4" : "30"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -936,13 +936,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RoundTripWorker.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.RoundTripWorker.ConsumerRunnable.ConsumerRunnable@POLYN225448"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00230"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RoundTripWorker.java.html#230"
  , "c2" : "BLOCKER"
@@ -1150,41 +1143,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RoundTripWorker.java.html#321"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00321] In the recursive method org.apache.kafka.trogdor.workload.RoundTripWorker.ToReceiveTracker.log@POLYN224428 the MagicNumber/String ', ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00331"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RoundTripWorker.java.html#331"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00331] In the recursive method org.apache.kafka.trogdor.workload.RoundTripWorker.ConsumerRunnable.ConsumerRunnable@POLYN225448 the MagicNumber/String 'consumer.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00332"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RoundTripWorker.java.html#332"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00332] In the recursive method org.apache.kafka.trogdor.workload.RoundTripWorker.ConsumerRunnable.ConsumerRunnable@POLYN225448 the MagicNumber/String 'round-trip-consumer-group-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00333"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RoundTripWorker.java.html#333"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00333] In the recursive method org.apache.kafka.trogdor.workload.RoundTripWorker.ConsumerRunnable.ConsumerRunnable@POLYN225448 the MagicNumber/String 'earliest' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00334"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RoundTripWorker.java.html#334"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00334] In the recursive method org.apache.kafka.trogdor.workload.RoundTripWorker.ConsumerRunnable.ConsumerRunnable@POLYN225448 the MagicNumber/String 105000 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00335"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RoundTripWorker.java.html#335"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00335] In the recursive method org.apache.kafka.trogdor.workload.RoundTripWorker.ConsumerRunnable.ConsumerRunnable@POLYN225448 the MagicNumber/String 100000 MUST BE CONVERTED to const"
 }} 
 ]
 , 

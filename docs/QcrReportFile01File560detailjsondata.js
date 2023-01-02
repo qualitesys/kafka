@@ -224,7 +224,7 @@ var maDataBlocs = {
  , "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/EndTransactionMarker.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00071] For method serializeValue list of called methods Object monObjet|Struct buildRecordValueN158845"
+ , "c3" : "QC-JAV000007[00071] For method serializeValue list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct buildRecordValueN158845"
 }} 
 ,
 { "ligne" : {"" : ""

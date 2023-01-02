@@ -75,17 +75,17 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/InternalQueryResultUtil.java.html#38"
+ , "c1" : "00036"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/InternalQueryResultUtil.java.html#36"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00038] The argument rawResult is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00036] The argument rawResult is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/InternalQueryResultUtil.java.html#43"
+ , "c1" : "00041"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/InternalQueryResultUtil.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.streams.query.internals.InternalQueryResultUtil the MagicNumber/String  'Callers must avoid calling this method on a failed result.' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.query.internals.InternalQueryResultUtil the MagicNumber/String  'Callers must avoid calling this method on a failed result.' should be converted to const"
 }} 
 ]
 , 

@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.server.quota.ClientQuotaEntity" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaEntity.java.html#63"
+ , "c5" : "00061"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaEntity.java.html#61"
  , "c1" : "List<ConfigEntity>"
  , "c2" : "configEntities()"
  , "c3" : "1"

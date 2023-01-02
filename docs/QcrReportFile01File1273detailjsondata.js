@@ -139,7 +139,7 @@ var maDataBlocs = {
  , "c1" : "00076"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchRequestBenchmark.java.html#76"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00076] For method setup list of called methods Object monObjet|org.apache.kafka.common.requests.FetchRequest.Builder FetchRequest_Builder_forConsumerN166335|org.apache.kafka.common.requests.FetchRequest.Builder FetchRequest_Builder_forReplicaN166611"
+ , "c3" : "QC-JAV000007[00076] For method setup list of called methods Object monObjet|org.apache.kafka.common.Uuid Uuid_randomUuidN165312|org.apache.kafka.common.Uuid Uuid_randomUuidN165407|org.apache.kafka.common.requests.FetchRequest.Builder FetchRequest_Builder_forConsumerN166335|org.apache.kafka.common.requests.FetchRequest.Builder FetchRequest_Builder_forReplicaN166611"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -307,14 +307,14 @@ var maDataBlocs = {
  , "c1" : "00120"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchRequestBenchmark.java.html#120"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00120] For method testSerializeFetchRequestForConsumer list of called methods Object monObjet|org.apache.kafka.common.record.DefaultRecordsSend consumerRequest_toSendN168202"
+ , "c3" : "QC-JAV000007[00120] For method testSerializeFetchRequestForConsumer list of called methods Object monObjet|org.apache.kafka.common.network.Send consumerRequest_toSendN168202"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchRequestBenchmark.java.html#128"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00128] For method testSerializeFetchRequestForReplica list of called methods Object monObjet|org.apache.kafka.common.record.DefaultRecordsSend replicaRequest_toSendN168632"
+ , "c3" : "QC-JAV000007[00128] For method testSerializeFetchRequestForReplica list of called methods Object monObjet|org.apache.kafka.common.network.Send replicaRequest_toSendN168632"
 }} 
 ]
 , 

@@ -458,7 +458,7 @@ var maDataBlocs = {
  , "c1" : "00148"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#148"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00148] For method extractWindow list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes ByteBuffer_wrapN186561|java.lang.Long buffer_getLongN186660"
+ , "c3" : "QC-JAV000007[00148] For method extractWindow list of called methods Object monObjet|java.lang.Long buffer_getLongN186660"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -633,7 +633,7 @@ var maDataBlocs = {
  , "c1" : "00241"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#241"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00241] For method extractStoreWindow list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes ByteBuffer_wrapN192265|java.lang.Long buffer_getLongN192364"
+ , "c3" : "QC-JAV000007[00241] For method extractStoreWindow list of called methods Object monObjet|java.lang.Long buffer_getLongN192364"
 }} 
 ]
 , 

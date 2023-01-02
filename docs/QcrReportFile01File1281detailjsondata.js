@@ -94,7 +94,7 @@ var maDataBlocs = {
  , "c1" : "00073"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetchsession/FetchSessionBenchmark.java.html#73"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00073] For method setUp list of called methods Object monObjet|org.apache.kafka.clients.FetchSessionHandler.Builder handler_newBuilderN163673"
+ , "c3" : "QC-JAV000007[00073] For method setUp list of called methods Object monObjet|org.apache.kafka.clients.FetchSessionHandler.Builder handler_newBuilderN163673|org.apache.kafka.common.Uuid Uuid_randomUuidN163748"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -125,7 +125,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S0:org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN163202 (R0 in line [00076],R1 in line [00076])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.raft.Batch.lastOffset@POLYN162318" }
+{ "ligne" : "S0:org.apache.kafka.raft.Batch.lastOffset@POLYN162252" }
  ]
  } }
 ,

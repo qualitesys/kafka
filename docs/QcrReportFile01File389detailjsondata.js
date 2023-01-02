@@ -18,10 +18,19 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.errors.NotLeaderOrFollowerException" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
+ , "c5" : "00032"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/NotLeaderOrFollowerException.java.html#32"
+ , "c1" : "NotLeaderOrFollowerException"
+ , "c2" : "NotLeaderOrFollowerException()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
  , "c5" : "00036"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/NotLeaderOrFollowerException.java.html#36"
  , "c1" : "NotLeaderOrFollowerException"
- , "c2" : "NotLeaderOrFollowerException()"
+ , "c2" : "NotLeaderOrFollowerException(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -30,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00040"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/NotLeaderOrFollowerException.java.html#40"
  , "c1" : "NotLeaderOrFollowerException"
- , "c2" : "NotLeaderOrFollowerException(String)"
+ , "c2" : "NotLeaderOrFollowerException(Throwable)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -38,15 +47,6 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00044"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/NotLeaderOrFollowerException.java.html#44"
- , "c1" : "NotLeaderOrFollowerException"
- , "c2" : "NotLeaderOrFollowerException(Throwable)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/NotLeaderOrFollowerException.java.html#48"
  , "c1" : "NotLeaderOrFollowerException"
  , "c2" : "NotLeaderOrFollowerException(String;Throwable)"
  , "c3" : "1"

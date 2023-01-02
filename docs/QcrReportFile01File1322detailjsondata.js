@@ -1358,7 +1358,7 @@ var maDataBlocs = {
  , "c1" : "00632"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#632"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00632] For method createTopic list of called methods Object monObjet|java.util.Map translateCreationConfigsN521184|org.apache.kafka.common.requests.ApiError maybeCheckCreateTopicPolicyN526965|java.util.Map configurationControl_computeEffectiveTopicConfigsN527759|V effectiveConfig_getN528154"
+ , "c3" : "QC-JAV000007[00632] For method createTopic list of called methods Object monObjet|java.util.Map translateCreationConfigsN521184|org.apache.kafka.common.requests.ApiError maybeCheckCreateTopicPolicyN526965|org.apache.kafka.common.Uuid Uuid_randomUuidN527326|java.util.Map configurationControl_computeEffectiveTopicConfigsN527759|V effectiveConfig_getN528154"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00137"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#137"
+ , "c5" : "00135"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#135"
  , "c1" : "Iterable<StopReplicaTopicState>"
  , "c2" : "topicStates()"
  , "c3" : "6"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00162"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#162"
+ , "c5" : "00160"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#160"
  , "c1" : "Map<TopicPartition,StopReplicaPartitionState>"
  , "c2" : "partitionStates()"
  , "c3" : "10"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00197"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#197"
+ , "c5" : "00195"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#195"
  , "c1" : "int"
  , "c2" : "controllerId()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00202"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#202"
+ , "c5" : "00200"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#200"
  , "c1" : "int"
  , "c2" : "controllerEpoch()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00207"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#207"
+ , "c5" : "00205"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#205"
  , "c1" : "long"
  , "c2" : "brokerEpoch()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00211"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#211"
+ , "c5" : "00209"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#209"
  , "c1" : "StopReplicaRequest"
  , "c2" : "parse(ByteBuffer;short)"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00216"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#216"
+ , "c5" : "00214"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#214"
  , "c1" : "StopReplicaRequestData"
  , "c2" : "data()"
  , "c3" : "1"
@@ -194,70 +194,70 @@ var maDataBlocs = {
  , "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.requests.StopReplicaRequest.Builder.build@POLYN176809 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.requests.StopReplicaRequest.Builder.build@POLYN176749 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.requests.StopReplicaRequest.Builder.build@POLYN176809 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.requests.StopReplicaRequest.Builder.build@POLYN176749 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.requests.StopReplicaRequest.Builder.toString@POLYN178654 the MagicNumber/String  '(type=StopReplicaRequest' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.requests.StopReplicaRequest.Builder.toString@POLYN178594 the MagicNumber/String  '(type=StopReplicaRequest' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.requests.StopReplicaRequest.Builder.toString@POLYN178654 the MagicNumber/String  ', controllerId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.requests.StopReplicaRequest.Builder.toString@POLYN178594 the MagicNumber/String  ', controllerId=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.requests.StopReplicaRequest.Builder.toString@POLYN178654 the MagicNumber/String  ', controllerEpoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.requests.StopReplicaRequest.Builder.toString@POLYN178594 the MagicNumber/String  ', controllerEpoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.requests.StopReplicaRequest.Builder.toString@POLYN178654 the MagicNumber/String  ', brokerEpoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.requests.StopReplicaRequest.Builder.toString@POLYN178594 the MagicNumber/String  ', brokerEpoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.requests.StopReplicaRequest.Builder.toString@POLYN178654 the MagicNumber/String  ', deletePartitions=' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.requests.StopReplicaRequest.Builder.toString@POLYN178594 the MagicNumber/String  ', deletePartitions=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.requests.StopReplicaRequest.Builder.toString@POLYN178654 the MagicNumber/String  ', topicStates=' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.requests.StopReplicaRequest.Builder.toString@POLYN178594 the MagicNumber/String  ', topicStates=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.requests.StopReplicaRequest.Builder.toString@POLYN178654 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.requests.StopReplicaRequest.Builder.toString@POLYN178594 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00094"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.requests.StopReplicaRequest.Builder.toString@POLYN178654 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.requests.StopReplicaRequest.Builder.toString@POLYN178594 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -275,136 +275,136 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#137"
+ , "c1" : "00135"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#135"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00137] For method topicStates list of called methods Object monObjet|V topicStates_computeIfAbsentN181443"
+ , "c3" : "QC-JAV000007[00135] For method topicStates list of called methods Object monObjet|V topicStates_computeIfAbsentN181377"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#141"
+ , "c1" : "00139"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00141] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00139] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00138"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#138"
+ , "c1" : "00136"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.common.requests.StopReplicaRequest.topicStates@POLYN181068 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.requests.StopReplicaRequest.topicStates@POLYN181002 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#148"
+ , "c1" : "00146"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.common.requests.StopReplicaRequest.topicStates@POLYN181068 the MagicNumber/String  3 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00175"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#175"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00175] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#185"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00185] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#165"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.common.requests.StopReplicaRequest.partitionStates@POLYN182718 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.common.requests.StopReplicaRequest.topicStates@POLYN181002 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.requests.StopReplicaRequest.partitionStates@POLYN182718 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000001[00173] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00211"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#211"
+ , "c1" : "00183"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#183"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00183] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00163"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#163"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.common.requests.StopReplicaRequest.partitionStates@POLYN182652 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00171"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#171"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.common.requests.StopReplicaRequest.partitionStates@POLYN182652 the MagicNumber/String  3 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00209"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#209"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00211] For method parse arguments ByteBuffer  buffer|short  version"
+ , "c3" : "QC-JAV000006[00209] For method parse arguments ByteBuffer  buffer|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.StopReplicaRequest.Builder.build@POLYN176809"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.StopReplicaRequest.Builder.build@POLYN176749"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.StopReplicaRequest.brokerEpoch@POLYN184669"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.StopReplicaRequest.brokerEpoch@POLYN184603"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.StopReplicaRequest.controllerEpoch@POLYN184549"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.StopReplicaRequest.controllerEpoch@POLYN184483"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.StopReplicaRequest.controllerId@POLYN184429"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.StopReplicaRequest.controllerId@POLYN184363"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.StopReplicaRequest.getErrorResponse@POLYN179713"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.StopReplicaRequest.getErrorResponse@POLYN179653"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.StopReplicaRequest.topicStates@POLYN181068"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.StopReplicaRequest.topicStates@POLYN181002"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#59"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.common.requests.StopReplicaRequest.Builder.build@POLYN176809 the MagicNumber/String 3 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.common.requests.StopReplicaRequest.Builder.build@POLYN176749 the MagicNumber/String 3 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#61"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.common.requests.StopReplicaRequest.Builder.build@POLYN176809 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.common.requests.StopReplicaRequest.Builder.build@POLYN176749 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00138"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#138"
+ , "c1" : "00136"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#136"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00138] In the recursive method org.apache.kafka.common.requests.StopReplicaRequest.topicStates@POLYN181068 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00136] In the recursive method org.apache.kafka.common.requests.StopReplicaRequest.topicStates@POLYN181002 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#148"
+ , "c1" : "00146"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/StopReplicaRequest.java.html#146"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.common.requests.StopReplicaRequest.topicStates@POLYN181068 the MagicNumber/String 3 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.common.requests.StopReplicaRequest.topicStates@POLYN181002 the MagicNumber/String 3 MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java 71 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java 72 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.xml" 
  , "fic3"  : "" 
 }
@@ -196,7 +196,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -206,6 +206,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#481"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00481] For method postProcessParsedConfig arguments Map&lt;String ,Object &gt;  parsedValues"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00481"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#481"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00481] For method postProcessParsedConfig list of called methods Object monObjet|java.util.Map CommonClientConfigs_postProcessReconnectBackoffConfigsN236034"
 }} 
 ,
 { "ligne" : {"" : ""

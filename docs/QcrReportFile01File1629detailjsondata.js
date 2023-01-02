@@ -271,7 +271,7 @@ var maDataBlocs = {
  , "c1" : "00135"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#135"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00135] For method failedStreamThreadSensor list of called methods Object monObjet|Sensor streamsMetrics_clientLevelSensorN160585"
+ , "c3" : "QC-JAV000007[00135] For method failedStreamThreadSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_clientLevelSensorN160585"
 }} 
 ,
 { "ligne" : {"" : ""

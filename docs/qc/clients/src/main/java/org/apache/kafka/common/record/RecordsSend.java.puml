@@ -7,6 +7,6 @@ RecordsSend(T;int) : RecordsSend [[[./../../../../../../../../../.././qc/clients
 +writeTo(TransferableChannel) : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/RecordsSend.java.html#46]]]
 +size() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/RecordsSend.java.html#64]]]
 records() : T [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/RecordsSend.java.html#68]]]
-writeTo(TransferableChannel;long;int) : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/RecordsSend.java.html#97]]]
+writeTo(TransferableChannel;long;int) : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/RecordsSend.java.html#83]]]
 } 
 @enduml

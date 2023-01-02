@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html" 
- , "texte" : "File connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java 16 rule violations " 
+ , "texte" : "File connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java 15 rule violations " 
  , "fic2"  : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.xml" 
  , "fic3"  : "" 
 }
@@ -240,7 +240,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -291,14 +291,14 @@ var maDataBlocs = {
  , "c1" : "00101"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#101"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00101] For method serializeValue list of called methods Object monObjet|Struct headerStructN169472"
+ , "c3" : "QC-JAV000007[00101] For method serializeValue list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct headerStructN169472"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00112"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#112"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00112] For method serializeKey list of called methods Object monObjet|Struct keyStructN170243"
+ , "c3" : "QC-JAV000007[00112] For method serializeKey list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct keyStructN170243"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -312,7 +312,7 @@ var maDataBlocs = {
  , "c1" : "00120"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#120"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00120] For method deserializeRecord list of called methods Object monObjet|Struct HEADER_SCHEMA_readN170864|org.apache.kafka.connect.mirror.Checkpoint header_getShortN170958|Struct valueSchema_readN171138|Struct KEY_SCHEMA_readN171514"
+ , "c3" : "QC-JAV000007[00120] For method deserializeRecord list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct HEADER_SCHEMA_readN170864|org.apache.kafka.connect.mirror.Checkpoint header_getShortN170958|org.apache.kafka.common.protocol.types.Struct valueSchema_readN171138|java.lang.Long valueStruct_getLongN171232|java.lang.Long valueStruct_getLongN171326|java.lang.String valueStruct_getStringN171420|org.apache.kafka.common.protocol.types.Struct KEY_SCHEMA_readN171514|java.lang.String keyStruct_getStringN171667|java.lang.String keyStruct_getStringN171761|java.lang.Integer keyStruct_getIntN171855"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -369,13 +369,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Checkpoint.connectPartition@POLYN173614"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.Checkpoint.deserializeRecord@POLYN170604"
 }} 
 ]
 , 

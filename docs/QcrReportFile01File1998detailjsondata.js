@@ -169,7 +169,7 @@ var maDataBlocs = {
  , "c1" : "00054"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00054] For method buildFromEndpoint list of called methods Object monObjet|int getPortN155521"
+ , "c3" : "QC-JAV000007[00054] For method buildFromEndpoint list of called methods Object monObjet|java.lang.String getHostN155430|java.lang.Integer getPortN155521"
 }} 
 ,
 { "ligne" : {"" : ""

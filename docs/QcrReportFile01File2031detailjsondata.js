@@ -205,7 +205,7 @@ var maDataBlocs = {
  , "c1" : "00070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00070] For method deserialize list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.ProcessorRecordContext ProcessorRecordContext_deserializeN162210"
+ , "c3" : "QC-JAV000007[00070] For method deserialize list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.ProcessorRecordContext ProcessorRecordContext_deserializeN162210|byte[] getNullableSizePrefixedArrayN162315|byte[] getNullableArrayN162664|byte[] getNullableSizePrefixedArrayN162786"
 }} 
 ,
 { "ligne" : {"" : ""

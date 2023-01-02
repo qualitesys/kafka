@@ -521,7 +521,7 @@ var maDataBlocs = {
  , "c1" : "00134"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#134"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00134] For method extractWindow list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes ByteBuffer_wrapN179660|java.lang.Long buffer_getLongN179759|java.lang.Long buffer_getLongN179888"
+ , "c3" : "QC-JAV000007[00134] For method extractWindow list of called methods Object monObjet|java.lang.Long buffer_getLongN179759|java.lang.Long buffer_getLongN179888"
 }} 
 ,
 { "ligne" : {"" : ""

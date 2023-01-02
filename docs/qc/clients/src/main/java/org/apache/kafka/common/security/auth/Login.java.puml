@@ -2,10 +2,10 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.common.security.auth.Login"
 class org.apache.kafka.common.security.auth.Login {
-configure(Map<String,?>;String;Configuration;AuthenticateCallbackHandler) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/Login.java.html#66]]]
-login() : LoginContext [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/Login.java.html#66]]]
-subject() : Subject [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/Login.java.html#66]]]
-serviceName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/Login.java.html#66]]]
-close() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/Login.java.html#66]]]
+configure(Map<String,?>;String;Configuration;AuthenticateCallbackHandler) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/Login.java.html#46]]]
+login() : LoginContext [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/Login.java.html#52]]]
+subject() : Subject [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/Login.java.html#57]]]
+serviceName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/Login.java.html#62]]]
+close() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/Login.java.html#67]]]
 } 
 @enduml

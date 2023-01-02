@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java 280 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java 283 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.xml" 
  , "fic3"  : "" 
 }
@@ -400,7 +400,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "9"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : { "" : ""
@@ -428,7 +428,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "6"
+ , "c4" : "10"
 }}
  ] 
 ,
@@ -703,7 +703,7 @@ var maDataBlocs = {
  , "c1" : "00511"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#511"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00511] For method newSender list of called methods Object monObjet|java.lang.Integer producerConfig_getIntN525290|java.lang.Integer producerConfig_getIntN525392|org.apache.kafka.common.network.ChannelBuilder ClientUtils_createChannelBuilderN525494|Sensor Sender_throttleTimeSensorN525735|short Short_parseShortN526819"
+ , "c3" : "QC-JAV000007[00511] For method newSender list of called methods Object monObjet|java.lang.Integer producerConfig_getIntN525290|java.lang.Integer producerConfig_getIntN525392|org.apache.kafka.common.network.ChannelBuilder ClientUtils_createChannelBuilderN525494|org.apache.kafka.common.metrics.Sensor Sender_throttleTimeSensorN525735|short Short_parseShortN526819"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -808,7 +808,7 @@ var maDataBlocs = {
  , "c1" : "00580"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#580"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00580] For method configureTransactionState list of called methods Object monObjet|TransactionManager config_getStringN529266|TransactionManager config_getIntN529373|TransactionManager config_getLongN529480"
+ , "c3" : "QC-JAV000007[00580] For method configureTransactionState list of called methods Object monObjet|org.apache.kafka.clients.producer.internals.TransactionManager config_getStringN529266|org.apache.kafka.clients.producer.internals.TransactionManager config_getIntN529373|org.apache.kafka.clients.producer.internals.TransactionManager config_getLongN529480"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -840,6 +840,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00632"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#632"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00632] For method initTransactions list of called methods Object monObjet|org.apache.kafka.clients.producer.internals.TransactionalRequestResult transactionManager_initializeTransactionsN531365"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00694"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#694"
  , "c2" : "MINOR"
@@ -856,8 +863,29 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00741"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#741"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00741] For method sendOffsetsToTransaction list of called methods Object monObjet|org.apache.kafka.clients.producer.internals.TransactionalRequestResult transactionManager_sendOffsetsToTransactionN536879"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00741"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#741"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00741] The argument offsets is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00785"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#785"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00785] For method commitTransaction list of called methods Object monObjet|org.apache.kafka.clients.producer.internals.TransactionalRequestResult transactionManager_beginCommitN538961"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00817"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#817"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00817] For method abortTransaction list of called methods Object monObjet|org.apache.kafka.clients.producer.internals.TransactionalRequestResult transactionManager_beginAbortN540763"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1782,13 +1810,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.KafkaProducer.sendOffsetsToTransaction@POLYN536408"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.KafkaProducer.beginTransaction@POLYN532353"
 }} 
 ,
 { "ligne" : {"" : ""

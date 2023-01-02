@@ -454,7 +454,7 @@ var maDataBlocs = {
  , "c1" : "00150"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00150] For method init list of called methods Object monObjet|org.apache.kafka.streams.query.Position StoreQueryUtils_readPositionFromCheckpointN250087"
+ , "c3" : "QC-JAV000007[00150] For method init list of called methods Object monObjet|org.apache.kafka.streams.query.Position StoreQueryUtils_readPositionFromCheckpointN250087|boolean StreamsConfig_InternalConfig_getBooleanN250476"
 }} 
 ,
 { "ligne" : {"" : ""

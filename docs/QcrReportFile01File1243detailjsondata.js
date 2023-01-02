@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "kafka.examples.KafkaExactlyOnceDemo" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00084"
- , "c5link" : "././qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#84"
+ , "c5" : "00078"
+ , "c5link" : "././qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#78"
  , "c1" : "void"
  , "c2" : "main(String[])"
  , "c3" : "6"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00134"
- , "c5link" : "././qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#134"
+ , "c5" : "00128"
+ , "c5link" : "././qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#128"
  , "c1" : "void"
  , "c2" : "recreateTopics(int)"
  , "c3" : "7"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00189"
- , "c5link" : "././qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#189"
+ , "c5" : "00183"
+ , "c5link" : "././qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#183"
  , "c1" : "void"
  , "c2" : "deleteTopic(Admin;List<String>)"
  , "c3" : "2"
@@ -107,332 +107,332 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#84"
+ , "c1" : "00078"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#78"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00084] For method main arguments String[]  args"
+ , "c3" : "QC-JAV000006[00078] For method main arguments String[]  args"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00078"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#78"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00078] The argument args is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#105"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00105] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#79"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00079] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174083 the MagicNumber/String  3 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#80"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00080] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174083 the MagicNumber/String  'Should accept 3 parameters: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#81"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00081] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174083 the MagicNumber/String  '[number of partitions], [number of instances], [number of records]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00084"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#84"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00084] The argument args is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00111] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000010[00084] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174083 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174281 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174083 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00086"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174281 the MagicNumber/String  'Should accept 3 parameters: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#87"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174281 the MagicNumber/String  '[number of partitions], [number of instances], [number of records]' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#90"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174281 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174083 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174281 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174083 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#92"
+ , "c1" : "00094"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174281 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174083 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00094] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174083 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00094] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174083 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#94"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00094] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174083 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00097"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174281 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174083 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#100"
+ , "c1" : "00098"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174281 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#100"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174281 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#100"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174281 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#100"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174281 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#103"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174281 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174083 the MagicNumber/String  'Timeout after 5 minutes waiting for data pre-population' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174281 the MagicNumber/String  'Timeout after 5 minutes waiting for data pre-population' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174083 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174281 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174083 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#116"
+ , "c1" : "00111"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174281 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174083 the MagicNumber/String  'Timeout after 5 minutes waiting for transactionally message copy' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#114"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00114] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174083 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00117"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174281 the MagicNumber/String  'Timeout after 5 minutes waiting for transactionally message copy' should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174083 the MagicNumber/String  'Verify-consumer' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00117"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#117"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00117] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174083 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174281 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174083 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#123"
+ , "c1" : "00121"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174281 the MagicNumber/String  'Verify-consumer' should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174083 the MagicNumber/String  'Timeout after 5 minutes waiting for output data consumption' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#123"
+ , "c1" : "00125"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174281 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174083 the MagicNumber/String  'All finished!' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#126"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174281 the MagicNumber/String  5 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#127"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174281 the MagicNumber/String  'Timeout after 5 minutes waiting for output data consumption' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#131"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method kafka.examples.KafkaExactlyOnceDemo.main@POLYN174281 the MagicNumber/String  'All finished!' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#134"
+ , "c1" : "00128"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#128"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00134] For method recreateTopics arguments int  numPartitions"
+ , "c3" : "QC-JAV000006[00128] For method recreateTopics arguments int  numPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#150"
+ , "c1" : "00144"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00150] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#154"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00154] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#169"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00169] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00176"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#176"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00176] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#177"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00177] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00138"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#138"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method kafka.examples.KafkaExactlyOnceDemo.recreateTopics@POLYN176975 the MagicNumber/String  ':' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#147"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method kafka.examples.KafkaExactlyOnceDemo.recreateTopics@POLYN176975 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000001[00144] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00148"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method kafka.examples.KafkaExactlyOnceDemo.recreateTopics@POLYN176975 the MagicNumber/String  'Making sure the topics are deleted successfully: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00151"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#151"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method kafka.examples.KafkaExactlyOnceDemo.recreateTopics@POLYN176975 the MagicNumber/String  'Current list of topics: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00153"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#153"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method kafka.examples.KafkaExactlyOnceDemo.recreateTopics@POLYN176975 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00156"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#156"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method kafka.examples.KafkaExactlyOnceDemo.recreateTopics@POLYN176975 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000001[00148] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00163"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method kafka.examples.KafkaExactlyOnceDemo.recreateTopics@POLYN176975 the MagicNumber/String  1000 should be converted to const"
+ , "c3" : "QC-JAV000001[00163] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#167"
+ , "c1" : "00170"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method kafka.examples.KafkaExactlyOnceDemo.recreateTopics@POLYN176975 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000001[00170] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00171"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#171"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00171] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#132"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00132] In method kafka.examples.KafkaExactlyOnceDemo.recreateTopics@POLYN176777 the MagicNumber/String  ':' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00141"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#141"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00141] In method kafka.examples.KafkaExactlyOnceDemo.recreateTopics@POLYN176777 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00142"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#142"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00142] In method kafka.examples.KafkaExactlyOnceDemo.recreateTopics@POLYN176777 the MagicNumber/String  'Making sure the topics are deleted successfully: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00145"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#145"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00145] In method kafka.examples.KafkaExactlyOnceDemo.recreateTopics@POLYN176777 the MagicNumber/String  'Current list of topics: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00147"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#147"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00147] In method kafka.examples.KafkaExactlyOnceDemo.recreateTopics@POLYN176777 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00150"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#150"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00150] In method kafka.examples.KafkaExactlyOnceDemo.recreateTopics@POLYN176777 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00157"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#157"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00157] In method kafka.examples.KafkaExactlyOnceDemo.recreateTopics@POLYN176777 the MagicNumber/String  1000 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00161"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#161"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00161] In method kafka.examples.KafkaExactlyOnceDemo.recreateTopics@POLYN176777 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00162"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#162"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00162] In method kafka.examples.KafkaExactlyOnceDemo.recreateTopics@POLYN176777 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00168"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method kafka.examples.KafkaExactlyOnceDemo.recreateTopics@POLYN176975 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method kafka.examples.KafkaExactlyOnceDemo.recreateTopics@POLYN176777 the MagicNumber/String  'Created new topics: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00174"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method kafka.examples.KafkaExactlyOnceDemo.recreateTopics@POLYN176975 the MagicNumber/String  'Created new topics: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method kafka.examples.KafkaExactlyOnceDemo.recreateTopics@POLYN176777 the MagicNumber/String  'Metadata of the old topics are not cleared yet...' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00180"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#180"
+ , "c1" : "00178"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method kafka.examples.KafkaExactlyOnceDemo.recreateTopics@POLYN176975 the MagicNumber/String  'Metadata of the old topics are not cleared yet...' should be converted to const"
+ , "c3" : "QC-JAV000010[00178] In method kafka.examples.KafkaExactlyOnceDemo.recreateTopics@POLYN176777 the MagicNumber/String  1000 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00184"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#184"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method kafka.examples.KafkaExactlyOnceDemo.recreateTopics@POLYN176975 the MagicNumber/String  1000 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#189"
+ , "c1" : "00183"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#183"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00189] For method deleteTopic arguments Admin  adminClient|List&lt;String &gt;  topicsToDelete"
+ , "c3" : "QC-JAV000006[00183] For method deleteTopic arguments Admin  adminClient|List&lt;String &gt;  topicsToDelete"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#189"
+ , "c1" : "00183"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#183"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00189] The argument adminClient is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00183] The argument adminClient is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00197"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#197"
+ , "c1" : "00191"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method kafka.examples.KafkaExactlyOnceDemo.deleteTopic@POLYN179569 the MagicNumber/String  'Encountered exception during topic deletion: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method kafka.examples.KafkaExactlyOnceDemo.deleteTopic@POLYN179371 the MagicNumber/String  'Encountered exception during topic deletion: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00199"
- , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#199"
+ , "c1" : "00193"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method kafka.examples.KafkaExactlyOnceDemo.deleteTopic@POLYN179569 the MagicNumber/String  'Deleted old topics: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method kafka.examples.KafkaExactlyOnceDemo.deleteTopic@POLYN179371 the MagicNumber/String  'Deleted old topics: ' should be converted to const"
 }} 
 ]
 , 

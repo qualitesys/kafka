@@ -341,7 +341,7 @@ var maDataBlocs = {
  , "c1" : "00099"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html#99"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00099] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.TaskId context_taskIdN223333|Sensor TaskMetrics_droppedRecordsSensorN223665"
+ , "c3" : "QC-JAV000007[00099] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.TaskId context_taskIdN223333|org.apache.kafka.common.metrics.Sensor TaskMetrics_droppedRecordsSensorN223665|boolean StreamsConfig_InternalConfig_getBooleanN224025"
 }} 
 ,
 { "ligne" : {"" : ""

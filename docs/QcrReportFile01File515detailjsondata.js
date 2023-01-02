@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java 264 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java 265 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.xml" 
  , "fic3"  : "" 
 }
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00227"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#227"
+ , "c5" : "00225"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#225"
  , "c1" : "int"
  , "c2" : "readFromSocketChannel()"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00238"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#238"
+ , "c5" : "00236"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#236"
  , "c1" : "boolean"
  , "c2" : "flush(ByteBuffer)"
  , "c3" : "2"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00271"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#271"
+ , "c5" : "00269"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#269"
  , "c1" : "void"
  , "c2" : "handshake()"
  , "c3" : "9"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00326"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#326"
+ , "c5" : "00324"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#324"
  , "c1" : "void"
  , "c2" : "doHandshake()"
  , "c3" : "26"
@@ -162,8 +162,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00417"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#417"
+ , "c5" : "00415"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#415"
  , "c1" : "SSLHandshakeException"
  , "c2" : "renegotiationException()"
  , "c3" : "1"
@@ -171,8 +171,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00421"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#421"
+ , "c5" : "00419"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#419"
  , "c1" : "IllegalStateException"
  , "c2" : "closingException()"
  , "c3" : "1"
@@ -180,8 +180,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00429"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#429"
+ , "c5" : "00427"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#427"
  , "c1" : "HandshakeStatus"
  , "c2" : "runDelegatedTasks()"
  , "c3" : "3"
@@ -189,8 +189,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00444"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#444"
+ , "c5" : "00442"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#442"
  , "c1" : "void"
  , "c2" : "handshakeFinished()"
  , "c3" : "5"
@@ -198,8 +198,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00476"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#476"
+ , "c5" : "00474"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#474"
  , "c1" : "SSLEngineResult"
  , "c2" : "handshakeWrap(boolean)"
  , "c3" : "4"
@@ -207,8 +207,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00507"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#507"
+ , "c5" : "00505"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#505"
  , "c1" : "SSLEngineResult"
  , "c2" : "handshakeUnwrap(boolean;boolean)"
  , "c3" : "6"
@@ -216,8 +216,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00550"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#550"
+ , "c5" : "00548"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#548"
  , "c1" : "int"
  , "c2" : "read(ByteBuffer)"
  , "c3" : "28"
@@ -225,8 +225,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00656"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#656"
+ , "c5" : "00654"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#654"
  , "c1" : "long"
  , "c2" : "read(ByteBuffer[])"
  , "c3" : "1"
@@ -234,8 +234,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00670"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#670"
+ , "c5" : "00668"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#668"
  , "c1" : "long"
  , "c2" : "read(ByteBuffer[];int;int)"
  , "c3" : "7"
@@ -243,8 +243,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00700"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#700"
+ , "c5" : "00698"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#698"
  , "c1" : "int"
  , "c2" : "write(ByteBuffer)"
  , "c3" : "12"
@@ -252,8 +252,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00744"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#744"
+ , "c5" : "00742"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#742"
  , "c1" : "long"
  , "c2" : "write(ByteBuffer[];int;int)"
  , "c3" : "7"
@@ -261,8 +261,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00775"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#775"
+ , "c5" : "00773"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#773"
  , "c1" : "long"
  , "c2" : "write(ByteBuffer[])"
  , "c3" : "1"
@@ -270,8 +270,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00784"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#784"
+ , "c5" : "00782"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#782"
  , "c1" : "Principal"
  , "c2" : "peerPrincipal()"
  , "c3" : "1"
@@ -279,8 +279,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00797"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#797"
+ , "c5" : "00795"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#795"
  , "c1" : "SSLSession"
  , "c2" : "sslSession()"
  , "c3" : "1"
@@ -288,8 +288,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00806"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#806"
+ , "c5" : "00804"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#804"
  , "c1" : "void"
  , "c2" : "addInterestOps(int)"
  , "c3" : "4"
@@ -297,8 +297,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00820"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#820"
+ , "c5" : "00818"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#818"
  , "c1" : "void"
  , "c2" : "removeInterestOps(int)"
  , "c3" : "4"
@@ -306,8 +306,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00833"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#833"
+ , "c5" : "00831"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#831"
  , "c1" : "Runnable"
  , "c2" : "delegatedTask()"
  , "c3" : "1"
@@ -315,8 +315,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00841"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#841"
+ , "c5" : "00839"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#839"
  , "c1" : "int"
  , "c2" : "readFromAppBuffer(ByteBuffer)"
  , "c3" : "2"
@@ -324,8 +324,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00854"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#854"
+ , "c5" : "00852"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#852"
  , "c1" : "int"
  , "c2" : "netReadBufferSize()"
  , "c3" : "1"
@@ -333,8 +333,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00858"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#858"
+ , "c5" : "00856"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#856"
  , "c1" : "int"
  , "c2" : "netWriteBufferSize()"
  , "c3" : "1"
@@ -342,8 +342,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00862"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#862"
+ , "c5" : "00860"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#860"
  , "c1" : "int"
  , "c2" : "applicationBufferSize()"
  , "c3" : "1"
@@ -351,8 +351,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00866"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#866"
+ , "c5" : "00864"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#864"
  , "c1" : "ByteBuffer"
  , "c2" : "netReadBuffer()"
  , "c3" : "1"
@@ -360,8 +360,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00871"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#871"
+ , "c5" : "00869"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#869"
  , "c1" : "ByteBuffer"
  , "c2" : "appReadBuffer()"
  , "c3" : "1"
@@ -369,8 +369,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00882"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#882"
+ , "c5" : "00878"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#878"
  , "c1" : "void"
  , "c2" : "handshakeFailure(SSLException;boolean)"
  , "c3" : "3"
@@ -378,8 +378,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00917"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#917"
+ , "c5" : "00913"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#913"
  , "c1" : "void"
  , "c2" : "maybeProcessHandshakeFailure(SSLException;boolean;IOException)"
  , "c3" : "5"
@@ -387,8 +387,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00932"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#932"
+ , "c5" : "00928"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#928"
  , "c1" : "void"
  , "c2" : "maybeThrowSslAuthenticationException()"
  , "c3" : "2"
@@ -396,8 +396,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00953"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#953"
+ , "c5" : "00945"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#945"
  , "c1" : "boolean"
  , "c2" : "handshakeWrapAfterFailure(boolean)"
  , "c3" : "4"
@@ -405,8 +405,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00970"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#970"
+ , "c5" : "00962"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#962"
  , "c1" : "void"
  , "c2" : "clearWriteBuffer()"
  , "c3" : "2"
@@ -414,8 +414,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00978"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#978"
+ , "c5" : "00970"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#970"
  , "c1" : "boolean"
  , "c2" : "isMute()"
  , "c3" : "1"
@@ -423,8 +423,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00983"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#983"
+ , "c5" : "00975"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#975"
  , "c1" : "boolean"
  , "c2" : "hasBytesBuffered()"
  , "c3" : "1"
@@ -432,8 +432,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00991"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#991"
+ , "c5" : "00983"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#983"
  , "c1" : "void"
  , "c2" : "updateBytesBuffered(boolean)"
  , "c3" : "3"
@@ -441,8 +441,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00999"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#999"
+ , "c5" : "00991"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#991"
  , "c1" : "long"
  , "c2" : "transferFrom(FileChannel;long;long)"
  , "c3" : "12"
@@ -550,7 +550,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "10"
+ , "c4" : "11"
 }}
  ] 
 ,
@@ -573,1834 +573,1841 @@ var maDataBlocs = {
  , "c1" : "00106"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.network.SslTransportLayer.SslTransportLayer@POLYN294557 the MagicNumber/String  '[SslTransportLayer channelId=%s key=%s] ' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.network.SslTransportLayer.SslTransportLayer@POLYN294317 the MagicNumber/String  '[SslTransportLayer channelId=%s key=%s] ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00113"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.common.network.SslTransportLayer.startHandshake@POLYN295424 the MagicNumber/String  'startHandshake() can only be called once, state ' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.common.network.SslTransportLayer.startHandshake@POLYN295184 the MagicNumber/String  'startHandshake() can only be called once, state ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00118"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.common.network.SslTransportLayer.startHandshake@POLYN295424 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.common.network.SslTransportLayer.startHandshake@POLYN295184 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00119"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.common.network.SslTransportLayer.startHandshake@POLYN295424 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.common.network.SslTransportLayer.startHandshake@POLYN295184 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#136"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00136] For method finishConnect list of called methods Object monObjet|boolean socketChannel_finishConnectN296644"
+ , "c3" : "QC-JAV000007[00136] For method finishConnect list of called methods Object monObjet|boolean socketChannel_finishConnectN296404"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00183"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#183"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297553 the MagicNumber/String  'Remaining data in the network buffer, can't send SSL close message.' should be converted to const"
+ , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297313 the MagicNumber/String  'Remaining data in the network buffer, can't send SSL close message.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00191"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297553 the MagicNumber/String  'Unexpected status returned by SSLEngine.wrap, expected CLOSED, received ' should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297313 the MagicNumber/String  'Unexpected status returned by SSLEngine.wrap, expected CLOSED, received ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00192"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297553 the MagicNumber/String  '. Will not send close message to peer.' should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297313 the MagicNumber/String  '. Will not send close message to peer.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00198"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297553 the MagicNumber/String  'Failed to send SSL Close message' should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297313 the MagicNumber/String  'Failed to send SSL Close message' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00202"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#202"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297553 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297313 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00203"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297553 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297313 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297553 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297313 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00205"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#205"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297553 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297313 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00206"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297553 the MagicNumber/String  'fileChannelBuffer' should be converted to const"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297313 the MagicNumber/String  'fileChannelBuffer' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00207"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#207"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297553 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297313 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00238"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#238"
+ , "c1" : "00236"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#236"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00238] For method flush arguments ByteBuffer  buf"
+ , "c3" : "QC-JAV000006[00236] For method flush arguments ByteBuffer  buf"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00238"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#238"
+ , "c1" : "00236"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#236"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00238] For method flush list of called methods Object monObjet|long socketChannel_writeN300185"
+ , "c3" : "QC-JAV000007[00236] For method flush list of called methods Object monObjet|long socketChannel_writeN299939"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00238"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#238"
+ , "c1" : "00236"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#236"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00238] The argument buf is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00236] The argument buf is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00240"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#240"
+ , "c1" : "00238"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#238"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.common.network.SslTransportLayer.flush@POLYN299928 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.common.network.SslTransportLayer.flush@POLYN299682 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00244"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#244"
+ , "c1" : "00242"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#242"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.common.network.SslTransportLayer.flush@POLYN299928 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.common.network.SslTransportLayer.flush@POLYN299682 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00276"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#276"
+ , "c1" : "00274"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#274"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00276"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#276"
+ , "c1" : "00274"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#274"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00284"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#284"
+ , "c1" : "00282"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#282"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00293"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#293"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00295"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#295"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00297"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#297"
+ , "c1" : "00295"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#295"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00297"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#297"
+ , "c1" : "00303"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#303"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String  'Process any available bytes from peer, netReadBuffer {} netWriterBuffer {} handshakeStatus {} readable? {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00305"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#305"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String  'Process any available bytes from peer, netReadBuffer {} netWriterBuffer {} handshakeStatus {} readable? {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00306"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#306"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00306"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#306"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00307"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#307"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00308"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#308"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00308"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#308"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00309"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#309"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00311"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#311"
+ , "c1" : "00317"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#317"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00319"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#319"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String  'EOF during handshake, handshake status is ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00321"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#321"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String  'EOF during handshake, handshake status is ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00326"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#326"
+ , "c1" : "00324"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#324"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00326] For method doHandshake list of called methods Object monObjet|HandshakeStatus runDelegatedTasksN304321|SSLEngineResult handshakeWrapN304657|int netWriteBufferSizeN304842|SSLEngineResult handshakeUnwrapN306532|int applicationBufferSizeN306741|int netReadBufferSizeN307390"
+ , "c3" : "QC-JAV000007[00324] For method doHandshake list of called methods Object monObjet|HandshakeStatus runDelegatedTasksN304075|SSLEngineResult handshakeWrapN304411|int netWriteBufferSizeN304596|java.nio.ByteBuffer Utils_ensureCapacityN304714|SSLEngineResult handshakeUnwrapN306286|int applicationBufferSizeN306495|java.nio.ByteBuffer Utils_ensureCapacityN306561|int netReadBufferSizeN307144|java.nio.ByteBuffer Utils_ensureCapacityN307210"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00339"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#339"
+ , "c1" : "00337"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#337"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String  'SSLHandshake NEED_TASK channelId {}, appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String  'SSLHandshake NEED_TASK channelId {}, appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00344"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#344"
+ , "c1" : "00342"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#342"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String  'SSLHandshake NEED_WRAP channelId {}, appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String  'SSLHandshake NEED_WRAP channelId {}, appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00353"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#353"
+ , "c1" : "00351"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#351"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String  'Buffer overflow when available data size (' should be converted to const"
+ , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String  'Buffer overflow when available data size (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00354"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#354"
+ , "c1" : "00352"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#352"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String  ') &amp;gt;= network buffer size (' should be converted to const"
+ , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String  ') &amp;gt;= network buffer size (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00354"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#354"
+ , "c1" : "00352"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#352"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00357"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#357"
+ , "c1" : "00355"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#355"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String  'Should not have received BUFFER_UNDERFLOW during handshake WRAP.' should be converted to const"
+ , "c3" : "QC-JAV000010[00355] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String  'Should not have received BUFFER_UNDERFLOW during handshake WRAP.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00361"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#361"
+ , "c1" : "00359"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#359"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00361] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String  'SSLHandshake NEED_WRAP channelId {}, handshakeResult {}, appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00359] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String  'SSLHandshake NEED_WRAP channelId {}, handshakeResult {}, appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00370"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#370"
+ , "c1" : "00368"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#368"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00370] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String  'SSLHandshake NEED_UNWRAP channelId {}, appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String  'SSLHandshake NEED_UNWRAP channelId {}, appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00373"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#373"
+ , "c1" : "00371"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#371"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00378"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#378"
+ , "c1" : "00376"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#376"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00378] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String  'Buffer underflow when available data size (' should be converted to const"
+ , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String  'Buffer underflow when available data size (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00379"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#379"
+ , "c1" : "00377"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#377"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String  ') &amp;gt; packet buffer size (' should be converted to const"
+ , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String  ') &amp;gt; packet buffer size (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00379"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#379"
+ , "c1" : "00377"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#377"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00387"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#387"
+ , "c1" : "00385"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#385"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00387] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String  'Buffer underflow when there is available data' should be converted to const"
+ , "c3" : "QC-JAV000010[00385] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String  'Buffer underflow when there is available data' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00388"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#388"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String  'SSL handshake status CLOSED during handshake UNWRAP' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00390"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#390"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00390] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String  'SSL handshake status CLOSED during handshake UNWRAP' should be converted to const"
+ , "c3" : "QC-JAV000010[00390] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String  'SSLHandshake NEED_UNWRAP channelId {}, handshakeResult {}, appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00392"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#392"
+ , "c1" : "00411"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#411"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String  'SSLHandshake NEED_UNWRAP channelId {}, handshakeResult {}, appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String  'Unexpected status [%s]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00413"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#413"
+ , "c1" : "00416"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#416"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00413] In method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String  'Unexpected status [%s]' should be converted to const"
+ , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.common.network.SslTransportLayer.renegotiationException@POLYN308734 the MagicNumber/String  'Renegotiation is not supported' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00418"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#418"
+ , "c1" : "00420"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#420"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.common.network.SslTransportLayer.renegotiationException@POLYN308980 the MagicNumber/String  'Renegotiation is not supported' should be converted to const"
+ , "c3" : "QC-JAV000010[00420] In method org.apache.kafka.common.network.SslTransportLayer.closingException@POLYN308860 the MagicNumber/String  'Channel is in closing state' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00422"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#422"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.common.network.SslTransportLayer.closingException@POLYN309106 the MagicNumber/String  'Channel is in closing state' should be converted to const"
+ , "c1" : "00427"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#427"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00427] For method runDelegatedTasks list of called methods Object monObjet|Runnable delegatedTaskN309152"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00429"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#429"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00429] For method runDelegatedTasks list of called methods Object monObjet|Runnable delegatedTaskN309398"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00431"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#431"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00431] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00429] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00435"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#435"
+ , "c1" : "00433"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#433"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE572[00435] The program calls a thread's run() method instead of calling start()"
+ , "c3" : "QC-JAVCWE572[00433] The program calls a thread's run() method instead of calling start()"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00432"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#432"
+ , "c1" : "00430"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#430"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00432] In method org.apache.kafka.common.network.SslTransportLayer.runDelegatedTasks@POLYN309285 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.common.network.SslTransportLayer.runDelegatedTasks@POLYN309039 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00457"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#457"
+ , "c1" : "00455"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#455"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00457] In method org.apache.kafka.common.network.SslTransportLayer.handshakeFinished@POLYN309701 the MagicNumber/String  'SSL handshake completed successfully with peerHost '{}' peerPort {} peerPrincipal '{}' cipherSuite '{}'' should be converted to const"
+ , "c3" : "QC-JAV000010[00455] In method org.apache.kafka.common.network.SslTransportLayer.handshakeFinished@POLYN309455 the MagicNumber/String  'SSL handshake completed successfully with peerHost '{}' peerPort {} peerPrincipal '{}' cipherSuite '{}'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00463"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#463"
+ , "c1" : "00461"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#461"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.common.network.SslTransportLayer.handshakeFinished@POLYN309701 the MagicNumber/String  'SSLHandshake FINISHED channelId {}, appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00461] In method org.apache.kafka.common.network.SslTransportLayer.handshakeFinished@POLYN309455 the MagicNumber/String  'SSLHandshake FINISHED channelId {}, appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {} ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00466"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#466"
+ , "c1" : "00464"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#464"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00466] In method org.apache.kafka.common.network.SslTransportLayer.handshakeFinished@POLYN309701 the MagicNumber/String  'NOT_HANDSHAKING during handshake' should be converted to const"
+ , "c3" : "QC-JAV000010[00464] In method org.apache.kafka.common.network.SslTransportLayer.handshakeFinished@POLYN309455 the MagicNumber/String  'NOT_HANDSHAKING during handshake' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00476"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#476"
+ , "c1" : "00474"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#474"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00476] For method handshakeWrap arguments boolean  doWrite"
+ , "c3" : "QC-JAV000006[00474] For method handshakeWrap arguments boolean  doWrite"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00476"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#476"
+ , "c1" : "00474"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#474"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00476] For method handshakeWrap list of called methods Object monObjet|HandshakeStatus runDelegatedTasksN312128"
+ , "c3" : "QC-JAV000007[00474] For method handshakeWrap list of called methods Object monObjet|HandshakeStatus runDelegatedTasksN311882"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00475"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#475"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00475] In method org.apache.kafka.common.network.SslTransportLayer.handshakeWrap@POLYN311007 the MagicNumber/String  'SSLHandshake handshakeWrap {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00477"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#477"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00477] In method org.apache.kafka.common.network.SslTransportLayer.handshakeWrap@POLYN311253 the MagicNumber/String  'SSLHandshake handshakeWrap {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00477] In method org.apache.kafka.common.network.SslTransportLayer.handshakeWrap@POLYN311007 the MagicNumber/String  'handshakeWrap called with netWriteBuffer not empty' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00479"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#479"
+ , "c1" : "00505"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#505"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00505] For method handshakeUnwrap arguments boolean  doRead|boolean  ignoreHandshakeStatus"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00505"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#505"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00505] For method handshakeUnwrap list of called methods Object monObjet|int readFromSocketChannelN312566|HandshakeStatus runDelegatedTasksN313230"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00506"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#506"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00479] In method org.apache.kafka.common.network.SslTransportLayer.handshakeWrap@POLYN311253 the MagicNumber/String  'handshakeWrap called with netWriteBuffer not empty' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00507"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#507"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00507] For method handshakeUnwrap arguments boolean  doRead|boolean  ignoreHandshakeStatus"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00507"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#507"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00507] For method handshakeUnwrap list of called methods Object monObjet|int readFromSocketChannelN312812|HandshakeStatus runDelegatedTasksN313476"
+ , "c3" : "QC-JAV000010[00506] In method org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312218 the MagicNumber/String  'SSLHandshake handshakeUnwrap {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00508"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#508"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312464 the MagicNumber/String  'SSLHandshake handshakeUnwrap {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312218 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00510"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#510"
+ , "c1" : "00526"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#526"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312464 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00526] In method org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312218 the MagicNumber/String  'SSLHandshake handshakeUnwrap: handshakeStatus {} status {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00528"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#528"
+ , "c1" : "00527"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#527"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00528] In method org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312464 the MagicNumber/String  'SSLHandshake handshakeUnwrap: handshakeStatus {} status {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00527] In method org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312218 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00529"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#529"
+ , "c1" : "00531"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#531"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00529] In method org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312464 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00531] In method org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312218 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00533"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#533"
+ , "c1" : "00532"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#532"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00533] In method org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312464 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00532] In method org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312218 the MagicNumber/String  'EOF during handshake, handshake status is ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00534"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#534"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00534] In method org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312464 the MagicNumber/String  'EOF during handshake, handshake status is ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00550"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#550"
+ , "c1" : "00548"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#548"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00550] For method read arguments ByteBuffer  dst"
+ , "c3" : "QC-JAV000006[00548] For method read arguments ByteBuffer  dst"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00550"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#550"
+ , "c1" : "00548"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#548"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00550] For method read list of called methods Object monObjet|int readFromAppBufferN315036|int readFromSocketChannelN315608|int readFromAppBufferN317470|int applicationBufferSizeN317655|int readFromAppBufferN318169|int netReadBufferSizeN318369"
+ , "c3" : "QC-JAV000007[00548] For method read list of called methods Object monObjet|int readFromAppBufferN314790|java.nio.ByteBuffer Utils_ensureCapacityN315142|int readFromSocketChannelN315362|int readFromAppBufferN317224|int applicationBufferSizeN317409|java.nio.ByteBuffer Utils_ensureCapacityN317475|int readFromAppBufferN317923|int netReadBufferSizeN318123|java.nio.ByteBuffer Utils_ensureCapacityN318189"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00550"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#550"
+ , "c1" : "00548"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#548"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00550] The argument dst is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00574"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#574"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00574] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00581"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#581"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00581] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00574"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#574"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00574] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00581"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#581"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00581] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00591"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#591"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00591] The same method call unwrapResult.getHandshakeStatus()unwrapResult.getStatus()sslEngine.getSession() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00551"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#551"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00551] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00552"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#552"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00552] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00555"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#555"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00555] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00556"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#556"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00556] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00560"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#560"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00560] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00561"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#561"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00561] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00563"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#563"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00563] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00564"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#564"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00564] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00566"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#566"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00566] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00568"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#568"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00568] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00569"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#569"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00569] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAVCWE476[00548] The argument dst is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00572"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#572"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00572] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000001[00572] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00577"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#577"
+ , "c1" : "00579"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#579"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00577] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000001[00579] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00585"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#585"
+ , "c1" : "00572"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#572"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00585] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  'Failed to process post-handshake messages' should be converted to const"
+ , "c3" : "QC-JAV000001[00572] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00595"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#595"
+ , "c1" : "00579"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#579"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00595] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  'Renegotiation requested, but it is not supported, channelId {}, ' should be converted to const"
+ , "c3" : "QC-JAV000001[00579] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00596"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#596"
+ , "c1" : "00589"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#589"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00596] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  'appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {} handshakeStatus {}' should be converted to const"
+ , "c3" : "QC-JAV000021[00589] The same method call unwrapResult.getHandshakeStatus()unwrapResult.getStatus()sslEngine.getSession() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00607"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#607"
+ , "c1" : "00549"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#549"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00607] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  'Buffer overflow when available data size (' should be converted to const"
+ , "c3" : "QC-JAV000010[00549] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00608"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#608"
+ , "c1" : "00550"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#550"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00608] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  ') &amp;gt;= application buffer size (' should be converted to const"
+ , "c3" : "QC-JAV000010[00550] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00608"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#608"
+ , "c1" : "00553"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#553"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00608] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00553] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00622"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#622"
+ , "c1" : "00554"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#554"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00622] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  'Buffer underflow when available data size (' should be converted to const"
+ , "c3" : "QC-JAV000010[00554] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00623"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#623"
+ , "c1" : "00558"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#558"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00623] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  ') &amp;gt; packet buffer size (' should be converted to const"
+ , "c3" : "QC-JAV000010[00558] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00623"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#623"
+ , "c1" : "00559"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#559"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00623] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00559] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00628"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#628"
+ , "c1" : "00561"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#561"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00628] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00561] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00628"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#628"
+ , "c1" : "00562"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#562"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00628] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00562] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00631"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#631"
+ , "c1" : "00564"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#564"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00631] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00564] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00566"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#566"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00566] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00567"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#567"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00567] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00570"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#570"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00570] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00575"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#575"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00575] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00583"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#583"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00583] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  'Failed to process post-handshake messages' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00593"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#593"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00593] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  'Renegotiation requested, but it is not supported, channelId {}, ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00594"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#594"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00594] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  'appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {} handshakeStatus {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00605"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#605"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00605] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  'Buffer overflow when available data size (' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00606"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#606"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00606] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  ') &amp;gt;= application buffer size (' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00606"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#606"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00606] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00620"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#620"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00620] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  'Buffer underflow when available data size (' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00621"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#621"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00621] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  ') &amp;gt; packet buffer size (' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00621"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#621"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00621] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00626"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#626"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00626] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00626"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#626"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00626] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00629"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#629"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00629] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00634"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#634"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00634] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00634"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#634"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00634] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00635"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#635"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00635] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  'EOF during read' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00636"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#636"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00636] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00636] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00636"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#636"
+ , "c1" : "00639"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#639"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00636] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00639] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314337 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00637"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#637"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00637] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  'EOF during read' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00638"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#638"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00638] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00641"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#641"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00641] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN314583 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00656"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#656"
+ , "c1" : "00654"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#654"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00656] For method read arguments ByteBuffer[]  dsts"
+ , "c3" : "QC-JAV000006[00654] For method read arguments ByteBuffer[]  dsts"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00656"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#656"
+ , "c1" : "00654"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#654"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00656] The argument dsts is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00654] The argument dsts is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00657"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#657"
+ , "c1" : "00655"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#655"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00657] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN319855 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00655] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN319609 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00670"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#670"
+ , "c1" : "00668"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#668"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00670] For method read arguments ByteBuffer[]  dsts|int  offset|int  length"
+ , "c3" : "QC-JAV000006[00668] For method read arguments ByteBuffer[]  dsts|int  offset|int  length"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00670"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#670"
+ , "c1" : "00668"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#668"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00670] For method read list of called methods Object monObjet|long readN321253"
+ , "c3" : "QC-JAV000007[00668] For method read list of called methods Object monObjet|long readN321007"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00670"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#670"
+ , "c1" : "00668"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#668"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00670] The argument dsts is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00668] The argument dsts is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00671"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#671"
+ , "c1" : "00669"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#669"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00671] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN320511 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00669] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN320265 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00671"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#671"
+ , "c1" : "00669"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#669"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00671] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN320511 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00669] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN320265 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00674"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#674"
+ , "c1" : "00672"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#672"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00674] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN320511 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00672] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN320265 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00679"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#679"
+ , "c1" : "00677"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#677"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00679] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN320511 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00677] In method org.apache.kafka.common.network.SslTransportLayer.read@POLYN320265 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00700"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#700"
+ , "c1" : "00698"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#698"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00700] For method write arguments ByteBuffer  src"
+ , "c3" : "QC-JAV000006[00698] For method write arguments ByteBuffer  src"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00700"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#700"
+ , "c1" : "00698"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#698"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00698] For method write list of called methods Object monObjet|java.nio.ByteBuffer Utils_ensureCapacityN322964"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00698"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#698"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00700] The argument src is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00698] The argument src is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00709"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#709"
+ , "c1" : "00707"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#707"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00709] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00707] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00702"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#702"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00702] In method org.apache.kafka.common.network.SslTransportLayer.write@POLYN321657 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00704"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#704"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00704] In method org.apache.kafka.common.network.SslTransportLayer.write@POLYN321903 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00704] In method org.apache.kafka.common.network.SslTransportLayer.write@POLYN321657 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00706"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#706"
+ , "c1" : "00724"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#724"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00706] In method org.apache.kafka.common.network.SslTransportLayer.write@POLYN321903 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00724] In method org.apache.kafka.common.network.SslTransportLayer.write@POLYN321657 the MagicNumber/String  'SSL BUFFER_UNDERFLOW during write' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00726"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#726"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00726] In method org.apache.kafka.common.network.SslTransportLayer.write@POLYN321903 the MagicNumber/String  'SSL BUFFER_UNDERFLOW during write' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00744"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#744"
+ , "c1" : "00742"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#742"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00744] For method write arguments ByteBuffer[]  srcs|int  offset|int  length"
+ , "c3" : "QC-JAV000006[00742] For method write arguments ByteBuffer[]  srcs|int  offset|int  length"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00744"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#744"
+ , "c1" : "00742"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#742"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00744] For method write list of called methods Object monObjet|long writeN324954"
+ , "c3" : "QC-JAV000007[00742] For method write list of called methods Object monObjet|long writeN324708"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00744"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#744"
+ , "c1" : "00742"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#742"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00744] The argument srcs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00742] The argument srcs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00743"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#743"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00743] In method org.apache.kafka.common.network.SslTransportLayer.write@POLYN323932 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00743"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#743"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00743] In method org.apache.kafka.common.network.SslTransportLayer.write@POLYN323932 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00745"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#745"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00745] In method org.apache.kafka.common.network.SslTransportLayer.write@POLYN324178 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00745] In method org.apache.kafka.common.network.SslTransportLayer.write@POLYN323932 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00745"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#745"
+ , "c1" : "00750"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#750"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00745] In method org.apache.kafka.common.network.SslTransportLayer.write@POLYN324178 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00750] In method org.apache.kafka.common.network.SslTransportLayer.write@POLYN323932 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00747"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#747"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00747] In method org.apache.kafka.common.network.SslTransportLayer.write@POLYN324178 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00752"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#752"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00752] In method org.apache.kafka.common.network.SslTransportLayer.write@POLYN324178 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00775"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#775"
+ , "c1" : "00773"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#773"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00775] For method write arguments ByteBuffer[]  srcs"
+ , "c3" : "QC-JAV000006[00773] For method write arguments ByteBuffer[]  srcs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00775"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#775"
+ , "c1" : "00773"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#773"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00775] The argument srcs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00773] The argument srcs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00776"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#776"
+ , "c1" : "00774"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#774"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00776] In method org.apache.kafka.common.network.SslTransportLayer.write@POLYN325653 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00774] In method org.apache.kafka.common.network.SslTransportLayer.write@POLYN325407 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00788"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#788"
+ , "c1" : "00786"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#786"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00788] In method org.apache.kafka.common.network.SslTransportLayer.peerPrincipal@POLYN325923 the MagicNumber/String  'SSL peer is not authenticated, returning ANONYMOUS instead' should be converted to const"
+ , "c3" : "QC-JAV000010[00786] In method org.apache.kafka.common.network.SslTransportLayer.peerPrincipal@POLYN325677 the MagicNumber/String  'SSL peer is not authenticated, returning ANONYMOUS instead' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00806"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#806"
+ , "c1" : "00804"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#804"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00806] For method addInterestOps arguments int  ops"
+ , "c3" : "QC-JAV000006[00804] For method addInterestOps arguments int  ops"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00810"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#810"
+ , "c1" : "00808"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#808"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00810] In method org.apache.kafka.common.network.SslTransportLayer.addInterestOps@POLYN326494 the MagicNumber/String  'handshake is not completed' should be converted to const"
+ , "c3" : "QC-JAV000010[00808] In method org.apache.kafka.common.network.SslTransportLayer.addInterestOps@POLYN326248 the MagicNumber/String  'handshake is not completed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00820"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#820"
+ , "c1" : "00818"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#818"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00820] For method removeInterestOps arguments int  ops"
+ , "c3" : "QC-JAV000006[00818] For method removeInterestOps arguments int  ops"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00824"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#824"
+ , "c1" : "00822"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#822"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00824] In method org.apache.kafka.common.network.SslTransportLayer.removeInterestOps@POLYN326986 the MagicNumber/String  'handshake is not completed' should be converted to const"
+ , "c3" : "QC-JAV000010[00822] In method org.apache.kafka.common.network.SslTransportLayer.removeInterestOps@POLYN326740 the MagicNumber/String  'handshake is not completed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00841"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#841"
+ , "c1" : "00839"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#839"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00841] For method readFromAppBuffer arguments ByteBuffer  dst"
+ , "c3" : "QC-JAV000006[00839] For method readFromAppBuffer arguments ByteBuffer  dst"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00841"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#841"
+ , "c1" : "00839"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#839"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00841] The argument dst is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00839] The argument dst is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00844"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#844"
+ , "c1" : "00842"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#842"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00844] In method org.apache.kafka.common.network.SslTransportLayer.readFromAppBuffer@POLYN327631 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00842] In method org.apache.kafka.common.network.SslTransportLayer.readFromAppBuffer@POLYN327385 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00882"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#882"
+ , "c1" : "00878"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#878"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00882] For method handshakeFailure arguments SSLException  sslException|boolean  flush"
+ , "c3" : "QC-JAV000006[00878] For method handshakeFailure arguments SSLException  sslException|boolean  flush"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00884"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#884"
+ , "c1" : "00880"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#880"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00884] In method org.apache.kafka.common.network.SslTransportLayer.handshakeFailure@POLYN329117 the MagicNumber/String  'SSL Handshake failed' should be converted to const"
+ , "c3" : "QC-JAV000010[00880] In method org.apache.kafka.common.network.SslTransportLayer.handshakeFailure@POLYN328865 the MagicNumber/String  'SSL Handshake failed' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00885"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#885"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00885] In method org.apache.kafka.common.network.SslTransportLayer.handshakeFailure@POLYN328865 the MagicNumber/String  'SSLEngine.closeInBound() raised an exception.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00889"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#889"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00889] In method org.apache.kafka.common.network.SslTransportLayer.handshakeFailure@POLYN329117 the MagicNumber/String  'SSLEngine.closeInBound() raised an exception.' should be converted to const"
+ , "c3" : "QC-JAV000010[00889] In method org.apache.kafka.common.network.SslTransportLayer.handshakeFailure@POLYN328865 the MagicNumber/String  'SSL handshake failed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00893"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#893"
+ , "c1" : "00897"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#897"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00893] In method org.apache.kafka.common.network.SslTransportLayer.handshakeFailure@POLYN329117 the MagicNumber/String  'SSL handshake failed' should be converted to const"
+ , "c3" : "QC-JAV000010[00897] In method org.apache.kafka.common.network.SslTransportLayer.handshakeFailure@POLYN328865 the MagicNumber/String  'Delay propagation of handshake exception till {} bytes remaining are flushed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00901"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#901"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00901] In method org.apache.kafka.common.network.SslTransportLayer.handshakeFailure@POLYN329117 the MagicNumber/String  'Delay propagation of handshake exception till {} bytes remaining are flushed' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00908"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#908"
+ , "c1" : "00904"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#904"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00908] For method maybeProcessHandshakeFailure arguments SSLException  sslException|boolean  flush|IOException  ioException"
+ , "c3" : "QC-JAV000006[00904] For method maybeProcessHandshakeFailure arguments SSLException  sslException|boolean  flush|IOException  ioException"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00913"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#913"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00913] The argument sslException is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00916"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#916"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00916] The same method call sslException.getMessage() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00916"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#916"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00916] In method org.apache.kafka.common.network.SslTransportLayer.maybeProcessHandshakeFailure@POLYN329750 the MagicNumber/String  'Unrecognized SSL message' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00917"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#917"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00917] The argument sslException is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00920"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#920"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00920] The same method call sslException.getMessage() is used several times, should be optimized "
+ , "c3" : "QC-JAV000010[00917] In method org.apache.kafka.common.network.SslTransportLayer.maybeProcessHandshakeFailure@POLYN329750 the MagicNumber/String  'Received fatal alert: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00920"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#920"
+ , "c1" : "00919"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#919"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00920] In method org.apache.kafka.common.network.SslTransportLayer.maybeProcessHandshakeFailure@POLYN330002 the MagicNumber/String  'Unrecognized SSL message' should be converted to const"
+ , "c3" : "QC-JAV000010[00919] In method org.apache.kafka.common.network.SslTransportLayer.maybeProcessHandshakeFailure@POLYN329750 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00921"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#921"
+ , "c1" : "00922"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#922"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00921] In method org.apache.kafka.common.network.SslTransportLayer.maybeProcessHandshakeFailure@POLYN330002 the MagicNumber/String  'Received fatal alert: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00922] In method org.apache.kafka.common.network.SslTransportLayer.maybeProcessHandshakeFailure@POLYN329750 the MagicNumber/String  'SSLException while unwrapping data after IOException, original IOException will be propagated' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00923"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#923"
+ , "c1" : "00929"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#929"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00923] In method org.apache.kafka.common.network.SslTransportLayer.maybeProcessHandshakeFailure@POLYN330002 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00929] In method org.apache.kafka.common.network.SslTransportLayer.maybeThrowSslAuthenticationException@POLYN330525 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00926"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#926"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00926] In method org.apache.kafka.common.network.SslTransportLayer.maybeProcessHandshakeFailure@POLYN330002 the MagicNumber/String  'SSLException while unwrapping data after IOException, original IOException will be propagated' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00933"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#933"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00933] In method org.apache.kafka.common.network.SslTransportLayer.maybeThrowSslAuthenticationException@POLYN330777 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00953"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#953"
+ , "c1" : "00945"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#945"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00953] For method handshakeWrapAfterFailure arguments boolean  doWrite"
+ , "c3" : "QC-JAV000006[00945] For method handshakeWrapAfterFailure arguments boolean  doWrite"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00955"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#955"
+ , "c1" : "00947"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#947"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00955] In method org.apache.kafka.common.network.SslTransportLayer.handshakeWrapAfterFailure@POLYN331279 the MagicNumber/String  'handshakeWrapAfterFailure status {} doWrite {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00947] In method org.apache.kafka.common.network.SslTransportLayer.handshakeWrapAfterFailure@POLYN331015 the MagicNumber/String  'handshakeWrapAfterFailure status {} doWrite {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00962"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#962"
+ , "c1" : "00954"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#954"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00962] In method org.apache.kafka.common.network.SslTransportLayer.handshakeWrapAfterFailure@POLYN331279 the MagicNumber/String  'Failed to wrap and flush all bytes before closing channel' should be converted to const"
+ , "c3" : "QC-JAV000010[00954] In method org.apache.kafka.common.network.SslTransportLayer.handshakeWrapAfterFailure@POLYN331015 the MagicNumber/String  'Failed to wrap and flush all bytes before closing channel' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00972"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#972"
+ , "c1" : "00964"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#964"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00972] In method org.apache.kafka.common.network.SslTransportLayer.clearWriteBuffer@POLYN332157 the MagicNumber/String  'Discarding write buffer {} since peer has disconnected' should be converted to const"
+ , "c3" : "QC-JAV000010[00964] In method org.apache.kafka.common.network.SslTransportLayer.clearWriteBuffer@POLYN331893 the MagicNumber/String  'Discarding write buffer {} since peer has disconnected' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00973"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#973"
+ , "c1" : "00965"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#965"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00973] In method org.apache.kafka.common.network.SslTransportLayer.clearWriteBuffer@POLYN332157 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00965] In method org.apache.kafka.common.network.SslTransportLayer.clearWriteBuffer@POLYN331893 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00974"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#974"
+ , "c1" : "00966"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#966"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00974] In method org.apache.kafka.common.network.SslTransportLayer.clearWriteBuffer@POLYN332157 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00966] In method org.apache.kafka.common.network.SslTransportLayer.clearWriteBuffer@POLYN331893 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00979"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#979"
+ , "c1" : "00971"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#971"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00979] In method org.apache.kafka.common.network.SslTransportLayer.isMute@POLYN332515 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00971] In method org.apache.kafka.common.network.SslTransportLayer.isMute@POLYN332251 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00983"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#983"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00983] For method updateBytesBuffered arguments boolean  madeProgress"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00985"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#985"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00985] In method org.apache.kafka.common.network.SslTransportLayer.updateBytesBuffered@POLYN332567 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00985"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#985"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00985] In method org.apache.kafka.common.network.SslTransportLayer.updateBytesBuffered@POLYN332567 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00987"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#987"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00987] In method org.apache.kafka.common.network.SslTransportLayer.updateBytesBuffered@POLYN332567 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00991"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#991"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00991] For method updateBytesBuffered arguments boolean  madeProgress"
+ , "c3" : "QC-JAV000006[00991] For method transferFrom arguments FileChannel  fileChannel|long  position|long  count"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00993"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#993"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00993] In method org.apache.kafka.common.network.SslTransportLayer.updateBytesBuffered@POLYN332831 the MagicNumber/String  0 should be converted to const"
+ , "c1" : "00991"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#991"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00991] For method transferFrom list of called methods Object monObjet|int fileChannel_sizeN333383"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00993"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#993"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00993] In method org.apache.kafka.common.network.SslTransportLayer.updateBytesBuffered@POLYN332831 the MagicNumber/String  0 should be converted to const"
+ , "c1" : "00991"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#991"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00991] The argument fileChannel is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00995"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#995"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00995] In method org.apache.kafka.common.network.SslTransportLayer.updateBytesBuffered@POLYN332831 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00995] In method org.apache.kafka.common.network.SslTransportLayer.transferFrom@POLYN332907 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00999"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#999"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00999] For method transferFrom arguments FileChannel  fileChannel|long  position|long  count"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00999"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#999"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00999] For method transferFrom list of called methods Object monObjet|int fileChannel_sizeN333647"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00999"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#999"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00999] The argument fileChannel is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01003"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1003"
+ , "c1" : "00998"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#998"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01003] In method org.apache.kafka.common.network.SslTransportLayer.transferFrom@POLYN333171 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00998] In method org.apache.kafka.common.network.SslTransportLayer.transferFrom@POLYN332907 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01006"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1006"
+ , "c1" : "01002"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1002"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01006] In method org.apache.kafka.common.network.SslTransportLayer.transferFrom@POLYN333171 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01002] In method org.apache.kafka.common.network.SslTransportLayer.transferFrom@POLYN332907 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01010"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1010"
+ , "c1" : "01005"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1005"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01010] In method org.apache.kafka.common.network.SslTransportLayer.transferFrom@POLYN333171 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01005] In method org.apache.kafka.common.network.SslTransportLayer.transferFrom@POLYN332907 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01013"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1013"
+ , "c1" : "01009"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1009"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01013] In method org.apache.kafka.common.network.SslTransportLayer.transferFrom@POLYN333171 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01009] In method org.apache.kafka.common.network.SslTransportLayer.transferFrom@POLYN332907 the MagicNumber/String  32768 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1017"
+ , "c1" : "01020"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1020"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01017] In method org.apache.kafka.common.network.SslTransportLayer.transferFrom@POLYN333171 the MagicNumber/String  32768 should be converted to const"
+ , "c3" : "QC-JAV000010[01020] In method org.apache.kafka.common.network.SslTransportLayer.transferFrom@POLYN332907 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1028"
+ , "c1" : "01030"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1030"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01028] In method org.apache.kafka.common.network.SslTransportLayer.transferFrom@POLYN333171 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01030] In method org.apache.kafka.common.network.SslTransportLayer.transferFrom@POLYN332907 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1038"
+ , "c1" : "01046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1046"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01038] In method org.apache.kafka.common.network.SslTransportLayer.transferFrom@POLYN333171 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1054"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01054] In method org.apache.kafka.common.network.SslTransportLayer.transferFrom@POLYN333171 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01046] In method org.apache.kafka.common.network.SslTransportLayer.transferFrom@POLYN332907 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.handshakeFailure@POLYN329117"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.handshakeFailure@POLYN328865"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.maybeProcessHandshakeFailure@POLYN330002"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.maybeProcessHandshakeFailure@POLYN329750"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.runDelegatedTasks@POLYN309285"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.runDelegatedTasks@POLYN309039"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.handshakeWrap@POLYN311253"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.handshakeWrap@POLYN311007"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.write@POLYN325653"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.write@POLYN325407"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312464"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312218"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.handshakeFinished@POLYN309701"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.handshakeFinished@POLYN309455"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.handshakeWrapAfterFailure@POLYN331279"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.handshakeWrapAfterFailure@POLYN331015"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.clearWriteBuffer@POLYN332157"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.clearWriteBuffer@POLYN331893"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.close@POLYN297553"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.close@POLYN297313"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.finishConnect@POLYN296557"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.finishConnect@POLYN296317"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.isConnected@POLYN297394"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.isConnected@POLYN297154"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.isOpen@POLYN297274"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.isOpen@POLYN297034"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.peerPrincipal@POLYN325923"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SslTransportLayer.peerPrincipal@POLYN325677"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00884"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#884"
+ , "c1" : "00880"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#880"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00884] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeFailure@POLYN329117 the MagicNumber/String 'SSL Handshake failed' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00880] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeFailure@POLYN328865 the MagicNumber/String 'SSL Handshake failed' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00885"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#885"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00885] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeFailure@POLYN328865 the MagicNumber/String 'SSLEngine.closeInBound-- raised an exception.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00889"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#889"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00889] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeFailure@POLYN329117 the MagicNumber/String 'SSLEngine.closeInBound-- raised an exception.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00889] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeFailure@POLYN328865 the MagicNumber/String 'SSL handshake failed' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00893"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#893"
+ , "c1" : "00897"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#897"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00893] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeFailure@POLYN329117 the MagicNumber/String 'SSL handshake failed' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00897] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeFailure@POLYN328865 the MagicNumber/String 'Delay propagation of handshake exception till {} bytes remaining are flushed' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00901"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#901"
+ , "c1" : "00916"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#916"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00901] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeFailure@POLYN329117 the MagicNumber/String 'Delay propagation of handshake exception till {} bytes remaining are flushed' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00916] In the recursive method org.apache.kafka.common.network.SslTransportLayer.maybeProcessHandshakeFailure@POLYN329750 the MagicNumber/String 'Unrecognized SSL message' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00920"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#920"
+ , "c1" : "00917"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#917"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00920] In the recursive method org.apache.kafka.common.network.SslTransportLayer.maybeProcessHandshakeFailure@POLYN330002 the MagicNumber/String 'Unrecognized SSL message' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00917] In the recursive method org.apache.kafka.common.network.SslTransportLayer.maybeProcessHandshakeFailure@POLYN329750 the MagicNumber/String 'Received fatal alert: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00921"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#921"
+ , "c1" : "00919"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#919"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00921] In the recursive method org.apache.kafka.common.network.SslTransportLayer.maybeProcessHandshakeFailure@POLYN330002 the MagicNumber/String 'Received fatal alert: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00919] In the recursive method org.apache.kafka.common.network.SslTransportLayer.maybeProcessHandshakeFailure@POLYN329750 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00923"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#923"
+ , "c1" : "00922"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#922"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00923] In the recursive method org.apache.kafka.common.network.SslTransportLayer.maybeProcessHandshakeFailure@POLYN330002 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00922] In the recursive method org.apache.kafka.common.network.SslTransportLayer.maybeProcessHandshakeFailure@POLYN329750 the MagicNumber/String 'SSLException while unwrapping data after IOException, original IOException will be propagated' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00926"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#926"
+ , "c1" : "00337"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#337"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00926] In the recursive method org.apache.kafka.common.network.SslTransportLayer.maybeProcessHandshakeFailure@POLYN330002 the MagicNumber/String 'SSLException while unwrapping data after IOException, original IOException will be propagated' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00337] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String 'SSLHandshake NEED_TASK channelId {}, appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00339"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#339"
+ , "c1" : "00342"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#342"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00339] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String 'SSLHandshake NEED_TASK channelId {}, appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00342] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String 'SSLHandshake NEED_WRAP channelId {}, appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00344"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#344"
+ , "c1" : "00351"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#351"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00344] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String 'SSLHandshake NEED_WRAP channelId {}, appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00351] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String 'Buffer overflow when available data size -' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00353"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#353"
+ , "c1" : "00352"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#352"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00353] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String 'Buffer overflow when available data size -' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00352] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String '- &amp;gt;= network buffer size -' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00354"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#354"
+ , "c1" : "00352"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#352"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00354] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String '- &amp;gt;= network buffer size -' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00352] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String '-' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00354"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#354"
+ , "c1" : "00355"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#355"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00354] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String '-' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00355] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String 'Should not have received BUFFER_UNDERFLOW during handshake WRAP.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00357"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#357"
+ , "c1" : "00359"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#359"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00357] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String 'Should not have received BUFFER_UNDERFLOW during handshake WRAP.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00359] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String 'SSLHandshake NEED_WRAP channelId {}, handshakeResult {}, appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00361"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#361"
+ , "c1" : "00368"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#368"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00361] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String 'SSLHandshake NEED_WRAP channelId {}, handshakeResult {}, appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00368] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String 'SSLHandshake NEED_UNWRAP channelId {}, appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00370"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#370"
+ , "c1" : "00371"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#371"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00370] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String 'SSLHandshake NEED_UNWRAP channelId {}, appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00371] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00373"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#373"
+ , "c1" : "00376"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#376"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00373] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00376] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String 'Buffer underflow when available data size -' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00378"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#378"
+ , "c1" : "00377"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#377"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00378] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String 'Buffer underflow when available data size -' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00377] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String '- &amp;gt; packet buffer size -' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00379"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#379"
+ , "c1" : "00377"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#377"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00379] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String '- &amp;gt; packet buffer size -' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00377] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String '-' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00379"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#379"
+ , "c1" : "00385"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#385"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00379] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String '-' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00385] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String 'Buffer underflow when there is available data' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00387"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#387"
+ , "c1" : "00388"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#388"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00387] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String 'Buffer underflow when there is available data' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00388] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String 'SSL handshake status CLOSED during handshake UNWRAP' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00390"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#390"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00390] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String 'SSL handshake status CLOSED during handshake UNWRAP' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00390] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String 'SSLHandshake NEED_UNWRAP channelId {}, handshakeResult {}, appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00392"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#392"
+ , "c1" : "00411"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#411"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00392] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String 'SSLHandshake NEED_UNWRAP channelId {}, handshakeResult {}, appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00411] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303199 the MagicNumber/String 'Unexpected status [%s]' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00413"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#413"
+ , "c1" : "00430"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#430"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00413] In the recursive method org.apache.kafka.common.network.SslTransportLayer.doHandshake@POLYN303445 the MagicNumber/String 'Unexpected status [%s]' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00430] In the recursive method org.apache.kafka.common.network.SslTransportLayer.runDelegatedTasks@POLYN309039 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00432"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#432"
+ , "c1" : "00475"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#475"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00432] In the recursive method org.apache.kafka.common.network.SslTransportLayer.runDelegatedTasks@POLYN309285 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00475] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeWrap@POLYN311007 the MagicNumber/String 'SSLHandshake handshakeWrap {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00477"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#477"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00477] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeWrap@POLYN311253 the MagicNumber/String 'SSLHandshake handshakeWrap {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00477] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeWrap@POLYN311007 the MagicNumber/String 'handshakeWrap called with netWriteBuffer not empty' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00479"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#479"
+ , "c1" : "00774"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#774"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00479] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeWrap@POLYN311253 the MagicNumber/String 'handshakeWrap called with netWriteBuffer not empty' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00774] In the recursive method org.apache.kafka.common.network.SslTransportLayer.write@POLYN325407 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00776"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#776"
+ , "c1" : "00506"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#506"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00776] In the recursive method org.apache.kafka.common.network.SslTransportLayer.write@POLYN325653 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00506] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312218 the MagicNumber/String 'SSLHandshake handshakeUnwrap {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00508"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#508"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00508] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312464 the MagicNumber/String 'SSLHandshake handshakeUnwrap {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00508] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312218 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00510"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#510"
+ , "c1" : "00526"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#526"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00510] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312464 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00526] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312218 the MagicNumber/String 'SSLHandshake handshakeUnwrap: handshakeStatus {} status {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00528"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#528"
+ , "c1" : "00527"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#527"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00528] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312464 the MagicNumber/String 'SSLHandshake handshakeUnwrap: handshakeStatus {} status {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00527] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312218 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00529"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#529"
+ , "c1" : "00531"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#531"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00529] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312464 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00531] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312218 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00533"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#533"
+ , "c1" : "00532"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#532"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00533] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312464 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00532] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312218 the MagicNumber/String 'EOF during handshake, handshake status is ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00534"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#534"
+ , "c1" : "00455"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#455"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00534] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeUnwrap@POLYN312464 the MagicNumber/String 'EOF during handshake, handshake status is ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00455] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeFinished@POLYN309455 the MagicNumber/String 'SSL handshake completed successfully with peerHost '{}' peerPort {} peerPrincipal '{}' cipherSuite '{}'' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00457"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#457"
+ , "c1" : "00461"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#461"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00457] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeFinished@POLYN309701 the MagicNumber/String 'SSL handshake completed successfully with peerHost '{}' peerPort {} peerPrincipal '{}' cipherSuite '{}'' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00461] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeFinished@POLYN309455 the MagicNumber/String 'SSLHandshake FINISHED channelId {}, appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {} ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00463"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#463"
+ , "c1" : "00464"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#464"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00463] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeFinished@POLYN309701 the MagicNumber/String 'SSLHandshake FINISHED channelId {}, appReadBuffer pos {}, netReadBuffer pos {}, netWriteBuffer pos {} ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00464] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeFinished@POLYN309455 the MagicNumber/String 'NOT_HANDSHAKING during handshake' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00466"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#466"
+ , "c1" : "00274"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#274"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00466] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeFinished@POLYN309701 the MagicNumber/String 'NOT_HANDSHAKING during handshake' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00274] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00276"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#276"
+ , "c1" : "00274"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#274"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00276] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00274] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00276"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#276"
+ , "c1" : "00282"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#282"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00276] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00282] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00284"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#284"
+ , "c1" : "00293"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#293"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00284] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00293] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00295"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#295"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00295] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00295] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00297"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#297"
+ , "c1" : "00295"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#295"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00297] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00295] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00297"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#297"
+ , "c1" : "00303"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#303"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00297] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00303] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String 'Process any available bytes from peer, netReadBuffer {} netWriterBuffer {} handshakeStatus {} readable? {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00305"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#305"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String 'Process any available bytes from peer, netReadBuffer {} netWriterBuffer {} handshakeStatus {} readable? {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00306"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#306"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00306] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00306"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#306"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00306] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00307"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#307"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00307] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00308"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#308"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00308] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00308"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#308"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00308] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00307] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00309"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#309"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00309] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00309] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00311"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#311"
+ , "c1" : "00317"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#317"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00311] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00317] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00319"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#319"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00319] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00319] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301078 the MagicNumber/String 'EOF during handshake, handshake status is ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00321"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#321"
+ , "c1" : "00947"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#947"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00321] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshake@POLYN301324 the MagicNumber/String 'EOF during handshake, handshake status is ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00947] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeWrapAfterFailure@POLYN331015 the MagicNumber/String 'handshakeWrapAfterFailure status {} doWrite {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00955"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#955"
+ , "c1" : "00954"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#954"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00955] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeWrapAfterFailure@POLYN331279 the MagicNumber/String 'handshakeWrapAfterFailure status {} doWrite {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00954] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeWrapAfterFailure@POLYN331015 the MagicNumber/String 'Failed to wrap and flush all bytes before closing channel' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00962"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#962"
+ , "c1" : "00964"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#964"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00962] In the recursive method org.apache.kafka.common.network.SslTransportLayer.handshakeWrapAfterFailure@POLYN331279 the MagicNumber/String 'Failed to wrap and flush all bytes before closing channel' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00964] In the recursive method org.apache.kafka.common.network.SslTransportLayer.clearWriteBuffer@POLYN331893 the MagicNumber/String 'Discarding write buffer {} since peer has disconnected' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00972"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#972"
+ , "c1" : "00965"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#965"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00972] In the recursive method org.apache.kafka.common.network.SslTransportLayer.clearWriteBuffer@POLYN332157 the MagicNumber/String 'Discarding write buffer {} since peer has disconnected' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00965] In the recursive method org.apache.kafka.common.network.SslTransportLayer.clearWriteBuffer@POLYN331893 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00973"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#973"
+ , "c1" : "00966"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#966"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00973] In the recursive method org.apache.kafka.common.network.SslTransportLayer.clearWriteBuffer@POLYN332157 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00974"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#974"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00974] In the recursive method org.apache.kafka.common.network.SslTransportLayer.clearWriteBuffer@POLYN332157 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00966] In the recursive method org.apache.kafka.common.network.SslTransportLayer.clearWriteBuffer@POLYN331893 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00183"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#183"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00183] In the recursive method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297553 the MagicNumber/String 'Remaining data in the network buffer, can't send SSL close message.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00183] In the recursive method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297313 the MagicNumber/String 'Remaining data in the network buffer, can't send SSL close message.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00191"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#191"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00191] In the recursive method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297553 the MagicNumber/String 'Unexpected status returned by SSLEngine.wrap, expected CLOSED, received ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00191] In the recursive method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297313 the MagicNumber/String 'Unexpected status returned by SSLEngine.wrap, expected CLOSED, received ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00192"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#192"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00192] In the recursive method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297553 the MagicNumber/String '. Will not send close message to peer.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00192] In the recursive method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297313 the MagicNumber/String '. Will not send close message to peer.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00198"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#198"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00198] In the recursive method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297553 the MagicNumber/String 'Failed to send SSL Close message' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00198] In the recursive method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297313 the MagicNumber/String 'Failed to send SSL Close message' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00202"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#202"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00202] In the recursive method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297553 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00202] In the recursive method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297313 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00203"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#203"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297553 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297313 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#204"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00204] In the recursive method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297553 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00204] In the recursive method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297313 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00205"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#205"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00205] In the recursive method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297553 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00205] In the recursive method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297313 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00206"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#206"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00206] In the recursive method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297553 the MagicNumber/String 'fileChannelBuffer' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00206] In the recursive method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297313 the MagicNumber/String 'fileChannelBuffer' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00207"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#207"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00207] In the recursive method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297553 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00207] In the recursive method org.apache.kafka.common.network.SslTransportLayer.close@POLYN297313 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00788"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#788"
+ , "c1" : "00786"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslTransportLayer.java.html#786"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00788] In the recursive method org.apache.kafka.common.network.SslTransportLayer.peerPrincipal@POLYN325923 the MagicNumber/String 'SSL peer is not authenticated, returning ANONYMOUS instead' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00786] In the recursive method org.apache.kafka.common.network.SslTransportLayer.peerPrincipal@POLYN325677 the MagicNumber/String 'SSL peer is not authenticated, returning ANONYMOUS instead' MUST BE CONVERTED to const"
 }} 
 ]
 , 

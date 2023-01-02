@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+"AdminApiHandler.Batched<TopicPartition,PartitionProducerState>" <|-- "org.apache.kafka.clients.admin.internals.DescribeProducersHandler"
+class org.apache.kafka.clients.admin.internals.DescribeProducersHandler {
++DescribeProducersHandler(DescribeProducersOptions;LogContext) : DescribeProducersHandler [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#54]]]
++newFuture(Collection<TopicPartition>) : AdminApiFuture.SimpleAdminApiFuture<TopicPartition,PartitionProducerState> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#68]]]
++apiName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#75]]]
++lookupStrategy() : AdminApiLookupStrategy<TopicPartition> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#80]]]
++buildBatchedRequest(int;Set<TopicPartition>) : DescribeProducersRequest.Builder [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#85]]]
+-handlePartitionError(TopicPartition;ApiError;Map<TopicPartition,Throwable>;List<TopicPartition>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#101]]]
++handleResponse(Node;Set<TopicPartition>;AbstractResponse) : ApiResult<TopicPartition,PartitionProducerState> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#157]]]
+} 
+@enduml

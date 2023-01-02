@@ -2,8 +2,8 @@
 !pragma layout smetana
 "java.lang.Object" <|-- "org.apache.kafka.raft.QuorumStateStore"
 class org.apache.kafka.raft.QuorumStateStore {
-readElectionState() : ElectionState [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/QuorumStateStore.java.html#35]]]
-writeElectionState(ElectionState) : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/QuorumStateStore.java.html#42]]]
-clear() : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/QuorumStateStore.java.html#47]]]
+readElectionState() : ElectionState [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/QuorumStateStore.java.html#33]]]
+writeElectionState(ElectionState) : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/QuorumStateStore.java.html#40]]]
+clear() : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/QuorumStateStore.java.html#45]]]
 } 
 @enduml

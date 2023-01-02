@@ -131,7 +131,7 @@ var maDataBlocs = {
  , "c1" : "00066"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/ForeignJoinSubscriptionProcessorSupplier.java.html#66"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00066] For method init list of called methods Object monObjet|Sensor TaskMetrics_droppedRecordsSensorN164622"
+ , "c3" : "QC-JAV000007[00066] For method init list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor TaskMetrics_droppedRecordsSensorN164622"
 }} 
 ,
 { "ligne" : {"" : ""

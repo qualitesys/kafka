@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.common.security.kerberos.KerberosName" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#41"
+ , "c5" : "00039"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#39"
  , "c1" : "KerberosName"
  , "c2" : "KerberosName(String;String;String)"
  , "c3" : "2"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#52"
+ , "c5" : "00050"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#50"
  , "c1" : "KerberosName"
  , "c2" : "parse(String)"
  , "c3" : "5"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00069"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#69"
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#67"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "3"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00087"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#87"
+ , "c5" : "00085"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#85"
  , "c1" : "String"
  , "c2" : "serviceName()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00095"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#95"
+ , "c5" : "00093"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#93"
  , "c1" : "String"
  , "c2" : "hostName()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00103"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#103"
+ , "c5" : "00101"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#101"
  , "c1" : "String"
  , "c2" : "realm()"
  , "c3" : "1"
@@ -134,115 +134,115 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#42"
+ , "c1" : "00040"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.security.kerberos.KerberosName.KerberosName@POLYN151904 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.security.kerberos.KerberosName.KerberosName@POLYN151838 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#43"
+ , "c1" : "00041"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.security.kerberos.KerberosName.KerberosName@POLYN151904 the MagicNumber/String  'serviceName must not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.security.kerberos.KerberosName.KerberosName@POLYN151838 the MagicNumber/String  'serviceName must not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#52"
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#50"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method parse arguments String  principalName"
+ , "c3" : "QC-JAV000006[00050] For method parse arguments String  principalName"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#52"
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#50"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00052] The argument principalName is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00050] The argument principalName is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#55"
+ , "c1" : "00053"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.security.kerberos.KerberosName.parse@POLYN152403 the MagicNumber/String  '@' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.security.kerberos.KerberosName.parse@POLYN152337 the MagicNumber/String  '@' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#54"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.security.kerberos.KerberosName.parse@POLYN152337 the MagicNumber/String  'Malformed Kerberos name: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.security.kerberos.KerberosName.parse@POLYN152403 the MagicNumber/String  'Malformed Kerberos name: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.security.kerberos.KerberosName.parse@POLYN152337 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#58"
+ , "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.security.kerberos.KerberosName.parse@POLYN152403 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.security.kerberos.KerberosName.parse@POLYN152337 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#58"
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.security.kerberos.KerberosName.parse@POLYN152403 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.security.kerberos.KerberosName.parse@POLYN152337 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#61"
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.security.kerberos.KerberosName.parse@POLYN152403 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.security.kerberos.KerberosName.parse@POLYN152337 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#61"
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.security.kerberos.KerberosName.parse@POLYN152403 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.security.kerberos.KerberosName.parse@POLYN152337 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#61"
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.security.kerberos.KerberosName.parse@POLYN152403 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.security.kerberos.KerberosName.toString@POLYN153231 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#72"
+ , "c1" : "00071"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.security.kerberos.KerberosName.toString@POLYN153297 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.security.kerberos.KerberosName.toString@POLYN153231 the MagicNumber/String  '/' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#73"
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.security.kerberos.KerberosName.toString@POLYN153297 the MagicNumber/String  '/' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.security.kerberos.KerberosName.toString@POLYN153231 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#76"
+ , "c1" : "00075"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.security.kerberos.KerberosName.toString@POLYN153297 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.security.kerberos.KerberosName.toString@POLYN153231 the MagicNumber/String  '@' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.security.kerberos.KerberosName.toString@POLYN153297 the MagicNumber/String  '@' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#52"
+ , "c1" : "00050"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosName.java.html#50"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00052] Public method parse is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00050] Public method parse is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 

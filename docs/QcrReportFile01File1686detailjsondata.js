@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java 60 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java 46 rule violations " 
  , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.xml" 
  , "fic3"  : "" 
 }
@@ -161,7 +161,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "17"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -175,7 +175,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -219,7 +219,7 @@ var maDataBlocs = {
  , "c1" : "00071"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00071] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl internalProcessorContext_metricsN177785|org.apache.kafka.streams.processor.internals.ProcessorNode internalProcessorContext_currentNodeN177965|java.lang.Long internalProcessorContext_processorMetadataForKeyN178808"
+ , "c3" : "QC-JAV000007[00071] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl internalProcessorContext_metricsN177785|org.apache.kafka.streams.processor.internals.ProcessorNode internalProcessorContext_currentNodeN177965|java.lang.Long internalProcessorContext_processorMetadataForKeyN178808|long StreamsConfig_InternalConfig_getLongN179047"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -503,13 +503,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN181049"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00206"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#206"
  , "c2" : "BLOCKER"
@@ -535,97 +528,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#91"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.init@POLYN177384 the MagicNumber/String 1000L MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#142"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00142] In the recursive method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN181049 the MagicNumber/String 'Skipping record for expired window. ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#143"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00143] In the recursive method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN181049 the MagicNumber/String 'topic=[{}] ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#144"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN181049 the MagicNumber/String 'partition=[{}] ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#145"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00145] In the recursive method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN181049 the MagicNumber/String 'offset=[{}] ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#146"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN181049 the MagicNumber/String 'timestamp=[{}] ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#147"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00147] In the recursive method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN181049 the MagicNumber/String 'window={} ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#148"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN181049 the MagicNumber/String 'expiration=[{}] ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#149"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00149] In the recursive method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN181049 the MagicNumber/String 'streamTime=[{}]' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00159"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#159"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00159] In the recursive method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN181049 the MagicNumber/String 'Skipping record for expired window. Topic, partition, and offset not known. ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#160"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00160] In the recursive method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN181049 the MagicNumber/String 'timestamp=[{}] ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#161"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00161] In the recursive method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN181049 the MagicNumber/String 'window={} ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#162"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00162] In the recursive method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN181049 the MagicNumber/String 'expiration=[{}] ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00163"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#163"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00163] In the recursive method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN181049 the MagicNumber/String 'streamTime=[{}]' MUST BE CONVERTED to const"
 }} 
 ]
 , 

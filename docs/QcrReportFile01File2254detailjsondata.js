@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.ConsumeBenchSpec" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00110"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#110"
+ , "c5" : "00108"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#108"
  , "c1" : "ConsumeBenchSpec"
  , "c2" : "ConsumeBenchSpec(long;long;String;String;int;long;String;Map<String,String>;Map<String,String>;Map<String,String>;Integer;Optional<RecordProcessor>;List<String>)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00138"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#138"
+ , "c5" : "00136"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#136"
  , "c1" : "String"
  , "c2" : "consumerNode()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00143"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#143"
+ , "c5" : "00141"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#141"
  , "c1" : "String"
  , "c2" : "consumerGroup()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00148"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#148"
+ , "c5" : "00146"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#146"
  , "c1" : "String"
  , "c2" : "bootstrapServers()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00153"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#153"
+ , "c5" : "00151"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#151"
  , "c1" : "int"
  , "c2" : "targetMessagesPerSec()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00158"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#158"
+ , "c5" : "00156"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#156"
  , "c1" : "long"
  , "c2" : "maxMessages()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00163"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#163"
+ , "c5" : "00161"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#161"
  , "c1" : "int"
  , "c2" : "threadsPerWorker()"
  , "c3" : "1"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00168"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#168"
+ , "c5" : "00166"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#166"
  , "c1" : "Optional<RecordProcessor>"
  , "c2" : "recordProcessor()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00173"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#173"
+ , "c5" : "00171"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#171"
  , "c1" : "Map<String,String>"
  , "c2" : "consumerConf()"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00178"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#178"
+ , "c5" : "00176"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#176"
  , "c1" : "Map<String,String>"
  , "c2" : "commonClientConf()"
  , "c3" : "1"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00183"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#183"
+ , "c5" : "00181"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#181"
  , "c1" : "Map<String,String>"
  , "c2" : "adminClientConf()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00188"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#188"
+ , "c5" : "00186"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#186"
  , "c1" : "List<String>"
  , "c2" : "activeTopics()"
  , "c3" : "1"
@@ -126,8 +126,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00193"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#193"
+ , "c5" : "00191"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#191"
  , "c1" : "TaskController"
  , "c2" : "newController(String)"
  , "c3" : "1"
@@ -135,8 +135,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00198"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#198"
+ , "c5" : "00196"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#196"
  , "c1" : "TaskWorker"
  , "c2" : "newTaskWorker(String)"
  , "c3" : "1"
@@ -144,8 +144,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00209"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#209"
+ , "c5" : "00207"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#207"
  , "c1" : "Map<String,List<TopicPartition>>"
  , "c2" : "materializeTopics()"
  , "c3" : "7"
@@ -153,8 +153,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00239"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#239"
+ , "c5" : "00237"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#237"
  , "c1" : "Set<String>"
  , "c2" : "expandTopicName(String)"
  , "c3" : "3"
@@ -224,199 +224,199 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#124"
+ , "c1" : "00122"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.ConsumeBenchSpec@POLYN187037 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.ConsumeBenchSpec@POLYN186971 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#124"
+ , "c1" : "00122"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.ConsumeBenchSpec@POLYN187037 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.ConsumeBenchSpec@POLYN186971 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#125"
+ , "c1" : "00123"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.ConsumeBenchSpec@POLYN187037 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.ConsumeBenchSpec@POLYN186971 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#125"
+ , "c1" : "00123"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.ConsumeBenchSpec@POLYN187037 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.ConsumeBenchSpec@POLYN186971 the MagicNumber/String  '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00129"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#129"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.ConsumeBenchSpec@POLYN186971 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00130"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#130"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.ConsumeBenchSpec@POLYN186971 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00130"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#130"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.ConsumeBenchSpec@POLYN186971 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.ConsumeBenchSpec@POLYN187037 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.ConsumeBenchSpec@POLYN186971 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#132"
+ , "c1" : "00131"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.ConsumeBenchSpec@POLYN187037 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.ConsumeBenchSpec@POLYN186971 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#132"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.ConsumeBenchSpec@POLYN187037 the MagicNumber/String  '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#133"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.ConsumeBenchSpec@POLYN187037 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#133"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.ConsumeBenchSpec@POLYN187037 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#193"
+ , "c1" : "00191"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#191"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00193] For method newController arguments String  id"
+ , "c3" : "QC-JAV000006[00191] For method newController arguments String  id"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#198"
+ , "c1" : "00196"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#196"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00198] For method newTaskWorker arguments String  id"
+ , "c3" : "QC-JAV000006[00196] For method newTaskWorker arguments String  id"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00209"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#209"
+ , "c1" : "00207"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#207"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00209] For method materializeTopics list of called methods Object monObjet|java.util.Set expandTopicNameN191871|java.lang.String[] topicName_splitN192440"
+ , "c3" : "QC-JAV000007[00207] For method materializeTopics list of called methods Object monObjet|java.util.Set expandTopicNameN191805|java.lang.String[] topicName_splitN192374"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#213"
+ , "c1" : "00211"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00213] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00217"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#217"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00217] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#218"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00218] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00220"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#220"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00220] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#218"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00218] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00220"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#220"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00220] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00211] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00215"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.materializeTopics@POLYN191549 the MagicNumber/String  'Expanded topic name %s is invalid' should be converted to const"
+ , "c3" : "QC-JAV000001[00215] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00216"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#216"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00216] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00218"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.materializeTopics@POLYN191549 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000001[00218] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00216"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#216"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00216] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00218"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#218"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00218] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00213"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#213"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.materializeTopics@POLYN191483 the MagicNumber/String  'Expanded topic name %s is invalid' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00216"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#216"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.materializeTopics@POLYN191483 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00217"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#217"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.materializeTopics@POLYN191483 the MagicNumber/String  ':' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00218"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#218"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.materializeTopics@POLYN191483 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00219"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.materializeTopics@POLYN191549 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.materializeTopics@POLYN191483 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00220"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.materializeTopics@POLYN191549 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.materializeTopics@POLYN191483 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00221"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#221"
+ , "c1" : "00225"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.materializeTopics@POLYN191549 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.materializeTopics@POLYN191483 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00222"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#222"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.materializeTopics@POLYN191549 the MagicNumber/String  1 should be converted to const"
+ , "c1" : "00237"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#237"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00237] For method expandTopicName arguments String  topicName"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00227"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#227"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.materializeTopics@POLYN191549 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00237"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#237"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00237] For method expandTopicName list of called methods Object monObjet|java.util.HashSet StringExpander_expandN193362"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00239"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#239"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00239] For method expandTopicName arguments String  topicName"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00239"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#239"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00239] For method expandTopicName list of called methods Object monObjet|java.util.HashSet StringExpander_expandN193428"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#241"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.expandTopicName@POLYN193310 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.trogdor.workload.ConsumeBenchSpec.expandTopicName@POLYN193244 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 , 

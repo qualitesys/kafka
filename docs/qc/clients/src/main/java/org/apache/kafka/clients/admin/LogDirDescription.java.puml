@@ -4,10 +4,10 @@
 class org.apache.kafka.clients.admin.LogDirDescription {
 +LogDirDescription(ApiException;Map<TopicPartition,ReplicaInfo>) : LogDirDescription [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#37]]]
 +LogDirDescription(ApiException;Map<TopicPartition,ReplicaInfo>;long;long) : LogDirDescription [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#41]]]
-+error() : ApiException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#57]]]
-+replicaInfos() : Map<TopicPartition,ReplicaInfo> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#65]]]
-+totalBytes() : OptionalLong [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#73]]]
-+usableBytes() : OptionalLong [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#81]]]
-+toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#86]]]
++error() : ApiException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#55]]]
++replicaInfos() : Map<TopicPartition,ReplicaInfo> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#63]]]
++totalBytes() : OptionalLong [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#71]]]
++usableBytes() : OptionalLong [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#79]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#84]]]
 } 
 @enduml

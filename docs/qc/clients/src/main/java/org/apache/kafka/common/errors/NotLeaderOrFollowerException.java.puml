@@ -2,9 +2,9 @@
 !pragma layout smetana
 "NotLeaderForPartitionException" <|-- "org.apache.kafka.common.errors.NotLeaderOrFollowerException"
 class org.apache.kafka.common.errors.NotLeaderOrFollowerException {
-+NotLeaderOrFollowerException() : NotLeaderOrFollowerException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NotLeaderOrFollowerException.java.html#36]]]
-+NotLeaderOrFollowerException(String) : NotLeaderOrFollowerException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NotLeaderOrFollowerException.java.html#40]]]
-+NotLeaderOrFollowerException(Throwable) : NotLeaderOrFollowerException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NotLeaderOrFollowerException.java.html#44]]]
-+NotLeaderOrFollowerException(String;Throwable) : NotLeaderOrFollowerException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NotLeaderOrFollowerException.java.html#48]]]
++NotLeaderOrFollowerException() : NotLeaderOrFollowerException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NotLeaderOrFollowerException.java.html#32]]]
++NotLeaderOrFollowerException(String) : NotLeaderOrFollowerException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NotLeaderOrFollowerException.java.html#36]]]
++NotLeaderOrFollowerException(Throwable) : NotLeaderOrFollowerException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NotLeaderOrFollowerException.java.html#40]]]
++NotLeaderOrFollowerException(String;Throwable) : NotLeaderOrFollowerException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NotLeaderOrFollowerException.java.html#44]]]
 } 
 @enduml

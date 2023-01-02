@@ -1,0 +1,19 @@
+@startuml
+!pragma layout smetana
+"java.lang.Object" <|-- "org.apache.kafka.message.MessageSpec"
+class org.apache.kafka.message.MessageSpec {
++MessageSpec(String;String;List<FieldSpec>;Short;MessageSpecType;List<StructSpec>;String;List<RequestListenerType>) : MessageSpec [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#43]]]
++struct() : StructSpec [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#75]]]
++name() : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#80]]]
++validVersions() : Versions [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#84]]]
++validVersionsString() : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#89]]]
++fields() : List<FieldSpec> [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#94]]]
++apiKey() : Optional<Short> [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#99]]]
++type() : MessageSpecType [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#104]]]
++commonStructs() : List<StructSpec> [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#109]]]
++flexibleVersions() : Versions [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#113]]]
++flexibleVersionsString() : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#118]]]
++listeners() : List<RequestListenerType> [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#123]]]
++dataClassName() : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageSpec.java.html#127]]]
+} 
+@enduml

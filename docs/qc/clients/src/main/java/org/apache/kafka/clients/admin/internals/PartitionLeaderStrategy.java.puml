@@ -1,0 +1,13 @@
+@startuml
+!pragma layout smetana
+"AdminApiLookupStrategy<TopicPartition>" <|-- "org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy"
+class org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy {
++PartitionLeaderStrategy(LogContext) : PartitionLeaderStrategy [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#46]]]
++lookupScope(TopicPartition) : ApiRequestScope [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#51]]]
++buildRequest(Set<TopicPartition>) : MetadataRequest.Builder [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#58]]]
+-handleTopicError(String;Errors;Set<TopicPartition>;Map<TopicPartition,Throwable>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#67]]]
+-failAllPartitionsForTopic(String;Set<TopicPartition>;Map<TopicPartition,Throwable>;Function<TopicPartition,Throwable>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#105]]]
+-handlePartitionError(TopicPartition;Errors;Map<TopicPartition,Throwable>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#116]]]
++handleResponse(Set<TopicPartition>;AbstractResponse) : LookupResult<TopicPartition> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#140]]]
+} 
+@enduml

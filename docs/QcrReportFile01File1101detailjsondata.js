@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java 42 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java 40 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.xml" 
  , "fic3"  : "" 
 }
@@ -102,27 +102,11 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "2"
 }}
 ,
@@ -188,7 +172,7 @@ var maDataBlocs = {
  , "c1" : "00160"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#160"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00160] For method deserializeMetadata list of called methods Object monObjet|Struct CONNECT_PROTOCOL_HEADER_SCHEMA_readN211013|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState header_getShortN211107|Struct CONFIG_STATE_V0_readN211264"
+ , "c3" : "QC-JAV000007[00160] For method deserializeMetadata list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct CONNECT_PROTOCOL_HEADER_SCHEMA_readN211013|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState header_getShortN211107|org.apache.kafka.common.protocol.types.Struct CONFIG_STATE_V0_readN211264|java.lang.Long struct_getLongN211358|java.lang.String struct_getStringN211452"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -230,7 +214,7 @@ var maDataBlocs = {
  , "c1" : "00213"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#213"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00213] For method deserializeAssignment list of called methods Object monObjet|Struct CONNECT_PROTOCOL_HEADER_SCHEMA_readN214046|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment header_getShortN214140|Struct ASSIGNMENT_V0_readN214297|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment assignment_getStringN215164"
+ , "c3" : "QC-JAV000007[00213] For method deserializeAssignment list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct CONNECT_PROTOCOL_HEADER_SCHEMA_readN214046|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment header_getShortN214140|org.apache.kafka.common.protocol.types.Struct ASSIGNMENT_V0_readN214297|java.lang.Short struct_getShortN214391|java.lang.String struct_getStringN214485|java.lang.String struct_getStringN214579|java.lang.Long struct_getLongN214673|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment assignment_getStringN215164"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -434,20 +418,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#403"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00403] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.checkVersionCompatibility@POLYN221229 the MagicNumber/String  'Unsupported subscription version: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.ConnectProtocol.deserializeAssignment@POLYN213949"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.ConnectProtocol.deserializeMetadata@POLYN210916"
 }} 
 ]
 , 

@@ -11,10 +11,10 @@ class org.apache.kafka.common.requests.ApiError {
 +isSuccess() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#78]]]
 +error() : Errors [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#82]]]
 +message() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#89]]]
-+messageWithFallback() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#99]]]
-+exception() : ApiException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#105]]]
-+hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#110]]]
-+equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#115]]]
-+toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#125]]]
++messageWithFallback() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#97]]]
++exception() : ApiException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#103]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#108]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#113]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiError.java.html#123]]]
 } 
 @enduml

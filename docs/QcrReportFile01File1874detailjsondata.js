@@ -656,7 +656,7 @@ var maDataBlocs = {
  , "c1" : "00193"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#193"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00193] For method recordSizeInBytes list of called methods Object monObjet|long header_valueN184357"
+ , "c3" : "QC-JAV000007[00193] For method recordSizeInBytes list of called methods Object monObjet|byte[] Utils_utf8N184139|byte[] header_valueN184357"
 }} 
 ,
 { "ligne" : {"" : ""

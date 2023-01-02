@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00247"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#247"
+ , "c5" : "00088"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#88"
  , "c1" : "LoginManager"
  , "c2" : "acquireLoginManager(JaasContext;String;Class<?extendsLogin>;Map<String,?>)"
  , "c3" : "5"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00247"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#247"
+ , "c5" : "00121"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#121"
  , "c1" : "Subject"
  , "c2" : "subject()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00247"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#247"
+ , "c5" : "00125"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#125"
  , "c1" : "String"
  , "c2" : "serviceName()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00247"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#247"
+ , "c5" : "00130"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#130"
  , "c1" : "Object"
  , "c2" : "cacheKey()"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00247"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#247"
+ , "c5" : "00134"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#134"
  , "c1" : "LoginManager"
  , "c2" : "acquire()"
  , "c3" : "1"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00247"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#247"
+ , "c5" : "00143"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#143"
  , "c1" : "void"
  , "c2" : "release()"
  , "c3" : "6"
@@ -81,8 +81,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1"
+ , "c5" : "00162"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#162"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1"
+ , "c5" : "00170"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#170"
  , "c1" : "void"
  , "c2" : "closeAll()"
  , "c3" : "3"
@@ -145,17 +145,17 @@ var maDataBlocs = {
  "seq" : "1" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "2"
- , "sourcenoligne" : "[00247]"
- , "c3" : ["java.util.HashMap.get@POLYN617768.return" , "---java.util.HashMap.get@POLYN617768" , "org.apache.kafka.common.security.authenticator.LoginManager.acquireLoginManager@POLYN183388.loginManager"]
- , "c4" : "//QC-JAVCWE099[00247] In org.apache.kafka.common.security.authenticator.LoginManager.acquireLoginManager@POLYN183388[00247] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "sourcenoligne" : "[00103]"
+ , "c3" : ["java.util.HashMap.get@POLYN617768.return" , "---java.util.HashMap.get@POLYN617768" , "org.apache.kafka.common.security.authenticator.LoginManager.acquireLoginManager@POLYN183217.loginManager"]
+ , "c4" : "//QC-JAVCWE099[00103] In org.apache.kafka.common.security.authenticator.LoginManager.acquireLoginManager@POLYN183217[00103] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "1"
- , "sourcenoligne" : "[00247]"
- , "c3" : ["org.apache.kafka.common.security.authenticator.LoginManager.acquireLoginManager@POLYN183388.loginManager" , "---java.util.HashMap.put@POLYN621128" , "java.util.HashMap.put@POLYN621128.value"]
- , "c4" : "//QC-JAVCWE099[00247] In org.apache.kafka.common.security.authenticator.LoginManager.acquireLoginManager@POLYN183388[00247] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "sourcenoligne" : "[00106]"
+ , "c3" : ["org.apache.kafka.common.security.authenticator.LoginManager.acquireLoginManager@POLYN183217.loginManager" , "---java.util.HashMap.put@POLYN621128" , "java.util.HashMap.put@POLYN621128.value"]
+ , "c4" : "//QC-JAVCWE099[00106] In org.apache.kafka.common.security.authenticator.LoginManager.acquireLoginManager@POLYN183217[00106] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
@@ -265,227 +265,227 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#247"
+ , "c1" : "00088"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00247] For method acquireLoginManager arguments JaasContext  jaasContext|String  saslMechanism|Class&lt;?  extends Login &gt;  defaultLoginClass|Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00088] For method acquireLoginManager arguments JaasContext  jaasContext|String  saslMechanism|Class&lt;?  extends Login &gt;  defaultLoginClass|Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#247"
+ , "c1" : "00088"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00247] For method acquireLoginManager list of called methods Object monObjet|boolean OAuthBearerLoginModule_OAUTHBEARER_MECHANISM_equalsN183866|org.apache.kafka.common.config.types.Password jaasContext_dynamicJaasConfigN184333|V DYNAMIC_INSTANCES_getN184648|V STATIC_INSTANCES_getN185275"
+ , "c3" : "QC-JAV000007[00088] For method acquireLoginManager list of called methods Object monObjet|boolean OAuthBearerLoginModule_OAUTHBEARER_MECHANISM_equalsN183695|org.apache.kafka.common.config.types.Password jaasContext_dynamicJaasConfigN184162|V DYNAMIC_INSTANCES_getN184477|V STATIC_INSTANCES_getN185104"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#247"
+ , "c1" : "00088"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#88"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00247] The argument jaasContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00088] The argument jaasContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#247"
+ , "c1" : "00098"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#98"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00247] Lock statement on synchronized resource"
+ , "c3" : "QC-JAV000019[00098] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#247"
+ , "c1" : "00101"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.common.security.authenticator.LoginManager.acquireLoginManager@POLYN183388 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.common.security.authenticator.LoginManager.acquireLoginManager@POLYN183217 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#247"
+ , "c1" : "00104"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.common.security.authenticator.LoginManager.acquireLoginManager@POLYN183388 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.security.authenticator.LoginManager.acquireLoginManager@POLYN183217 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#247"
+ , "c1" : "00111"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.common.security.authenticator.LoginManager.acquireLoginManager@POLYN183388 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.common.security.authenticator.LoginManager.acquireLoginManager@POLYN183217 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#247"
+ , "c1" : "00136"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.common.security.authenticator.LoginManager.acquire@POLYN186105 the MagicNumber/String  '{} acquired' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.security.authenticator.LoginManager.acquire@POLYN185934 the MagicNumber/String  '{} acquired' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#247"
+ , "c1" : "00144"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#144"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00247] Lock statement on synchronized resource"
+ , "c3" : "QC-JAV000019[00144] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#247"
+ , "c1" : "00145"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.common.security.authenticator.LoginManager.release@POLYN186377 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.common.security.authenticator.LoginManager.release@POLYN186206 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1"
+ , "c1" : "00146"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.security.authenticator.LoginManager.release@POLYN186377 the MagicNumber/String  'release() called on disposed ' should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.common.security.authenticator.LoginManager.release@POLYN186206 the MagicNumber/String  'release() called on disposed ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1"
+ , "c1" : "00147"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.security.authenticator.LoginManager.release@POLYN186377 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.security.authenticator.LoginManager.release@POLYN186206 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1"
+ , "c1" : "00157"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.security.authenticator.LoginManager.release@POLYN186377 the MagicNumber/String  '{} released' should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.common.security.authenticator.LoginManager.release@POLYN186206 the MagicNumber/String  '{} released' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1"
+ , "c1" : "00163"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.security.authenticator.LoginManager.toString@POLYN187197 the MagicNumber/String  'LoginManager(serviceName=' should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.common.security.authenticator.LoginManager.toString@POLYN187026 the MagicNumber/String  'LoginManager(serviceName=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1"
+ , "c1" : "00165"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.security.authenticator.LoginManager.toString@POLYN187197 the MagicNumber/String  ', publicCredentials=' should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.common.security.authenticator.LoginManager.toString@POLYN187026 the MagicNumber/String  ', publicCredentials=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1"
+ , "c1" : "00166"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.security.authenticator.LoginManager.toString@POLYN187197 the MagicNumber/String  ', refCount=' should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.common.security.authenticator.LoginManager.toString@POLYN187026 the MagicNumber/String  ', refCount=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1"
+ , "c1" : "00166"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.security.authenticator.LoginManager.toString@POLYN187197 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.common.security.authenticator.LoginManager.toString@POLYN187026 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1"
+ , "c1" : "00171"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#171"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00001] Lock statement on synchronized resource"
+ , "c3" : "QC-JAV000019[00171] Lock statement on synchronized resource"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1"
+ , "c1" : "00179"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#179"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00001] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00179] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1"
+ , "c1" : "00180"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#180"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00001] The argument jaasContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00180] The argument jaasContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1"
+ , "c1" : "00184"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.security.authenticator.LoginManager the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.common.security.authenticator.LoginManager the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1"
+ , "c1" : "00185"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.security.authenticator.LoginManager the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.common.security.authenticator.LoginManager the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1"
+ , "c1" : "00187"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.security.authenticator.LoginManager the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.security.authenticator.LoginManager the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1"
+ , "c1" : "00187"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.security.authenticator.LoginManager the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.security.authenticator.LoginManager the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1"
+ , "c1" : "00188"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.security.authenticator.LoginManager the MagicNumber/String  ' cannot be specified with multiple login modules in the JAAS context. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.common.security.authenticator.LoginManager the MagicNumber/String  ' cannot be specified with multiple login modules in the JAAS context. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1"
+ , "c1" : "00189"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.security.authenticator.LoginManager the MagicNumber/String  ' must be configured to override mechanism-specific configs.' should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.common.security.authenticator.LoginManager the MagicNumber/String  ' must be configured to override mechanism-specific configs.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1"
+ , "c1" : "00192"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.security.authenticator.LoginManager the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.common.security.authenticator.LoginManager the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1"
+ , "c1" : "00215"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#215"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00215] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1"
+ , "c1" : "00217"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00001] The same method call o.getClass() is used several times, should be optimized "
+ , "c3" : "QC-JAV000021[00217] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1"
+ , "c1" : "00216"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.security.authenticator.LoginManager.LoginMetadata.equals@POLYN190109 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.common.security.authenticator.LoginManager.LoginMetadata.equals@POLYN189938 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1"
+ , "c1" : "00217"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.security.authenticator.LoginManager.LoginMetadata.equals@POLYN190109 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.common.security.authenticator.LoginManager.LoginMetadata.equals@POLYN189938 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#1"
+ , "c1" : "00217"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.security.authenticator.LoginManager.LoginMetadata.equals@POLYN190109 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.common.security.authenticator.LoginManager.LoginMetadata.equals@POLYN189938 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

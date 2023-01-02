@@ -189,7 +189,7 @@ var maDataBlocs = {
  , "c1" : "00142"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#142"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00142] For method init list of called methods Object monObjet|Sensor ProcessorNodeMetrics_suppressionEmitSensorN181863"
+ , "c3" : "QC-JAV000007[00142] For method init list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor ProcessorNodeMetrics_suppressionEmitSensorN181863"
 }} 
 ,
 { "ligne" : {"" : ""

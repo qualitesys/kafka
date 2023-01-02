@@ -18,8 +18,8 @@ var maDataBlocs = {
 { "classe" : 
  { "nomclasse" : "org.apache.kafka.trogdor.workload.TimestampRecordProcessor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00064"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#64"
+ , "c5" : "00062"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#62"
  , "c1" : "TimestampRecordProcessor"
  , "c2" : "TimestampRecordProcessor(int;int;int)"
  , "c3" : "1"
@@ -27,8 +27,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#76"
+ , "c5" : "00074"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#74"
  , "c1" : "int"
  , "c2" : "histogramMaxMs()"
  , "c3" : "1"
@@ -36,8 +36,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00081"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#81"
+ , "c5" : "00079"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#79"
  , "c1" : "int"
  , "c2" : "histogramMinMs()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00086"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#86"
+ , "c5" : "00084"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#84"
  , "c1" : "int"
  , "c2" : "histogramStepMs()"
  , "c3" : "1"
@@ -54,8 +54,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00090"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#90"
+ , "c5" : "00088"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#88"
  , "c1" : "void"
  , "c2" : "putHistogram(long)"
  , "c3" : "1"
@@ -63,8 +63,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00095"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#95"
+ , "c5" : "00093"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#93"
  , "c1" : "void"
  , "c2" : "processRecords(ConsumerRecords<byte[],byte[]>)"
  , "c3" : "2"
@@ -72,8 +72,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00111"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#111"
+ , "c5" : "00109"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#109"
  , "c1" : "JsonNode"
  , "c2" : "processorStatus()"
  , "c3" : "1"
@@ -114,23 +114,23 @@ var maDataBlocs = {
 "data12a" : [
 { "ligne" :  "R0:org.apache.kafka.trogdor.workload.TimestampRecordProcessor.this" }
 ,
-{ "ligne" :  "R1:org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163860.consumerRecords" }
+{ "ligne" :  "R1:org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163794.consumerRecords" }
 ]
 ,
 "data12b" : [
 { "sequence" : { "noseq" : "0" , "pas" : [
-{ "ligne" : "S0:org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163860 (R0 in line [00095],R1 in line [00095])" }
+{ "ligne" : "S0:org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163794 (R0 in line [00093],R1 in line [00093])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.common.utils.Time.milliseconds@POLYN153549" }
+{ "ligne" : "S0:org.apache.kafka.common.utils.Time.milliseconds@POLYN153489" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "1" , "pas" : [
-{ "ligne" : "S1:org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163860 (R0 in line [00095],R1 in line [00095])" }
+{ "ligne" : "S1:org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163794 (R0 in line [00093],R1 in line [00093])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163860 (R0 in line [00095],R1 in line [00095])" }
+{ "ligne" : "S1:org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163794 (R0 in line [00093],R1 in line [00093])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.common.utils.Time.milliseconds@POLYN153549" }
+{ "ligne" : "S1:org.apache.kafka.common.utils.Time.milliseconds@POLYN153489" }
  ]
  } }
 ]
@@ -198,87 +198,87 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#90"
+ , "c1" : "00088"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00090] For method putHistogram arguments long  latency"
+ , "c3" : "QC-JAV000006[00088] For method putHistogram arguments long  latency"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#91"
+ , "c1" : "00089"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.trogdor.workload.TimestampRecordProcessor.putHistogram@POLYN163578 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.trogdor.workload.TimestampRecordProcessor.putHistogram@POLYN163512 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#95"
+ , "c1" : "00093"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#93"
  , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00095] Lock statement on synchronized method processRecords"
+ , "c3" : "QC-JAV000019[00093] Lock statement on synchronized method processRecords"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#95"
+ , "c1" : "00093"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#93"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00095] For method processRecords arguments ConsumerRecords&lt;byte[] ,byte[] &gt;  consumerRecords"
+ , "c3" : "QC-JAV000006[00093] For method processRecords arguments ConsumerRecords&lt;byte[] ,byte[] &gt;  consumerRecords"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#95"
+ , "c1" : "00093"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#93"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00095] For method processRecords list of called methods Object monObjet|long Time_SYSTEM_millisecondsN164002"
+ , "c3" : "QC-JAV000007[00093] For method processRecords list of called methods Object monObjet|long Time_SYSTEM_millisecondsN163936"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#104"
+ , "c1" : "00102"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00104] Avoid declaring class instance within loop, performance impact"
+ , "c3" : "QC-JAV000001[00102] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#101"
+ , "c1" : "00099"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163860 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163794 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#105"
+ , "c1" : "00103"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163860 the MagicNumber/String  'Error in processRecords:' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163794 the MagicNumber/String  'Error in processRecords:' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#111"
+ , "c1" : "00109"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#109"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00111] For method processorStatus list of called methods Object monObjet|org.apache.kafka.trogdor.workload.Histogram.Summary histogram_summarizeN164803"
+ , "c3" : "QC-JAV000007[00109] For method processorStatus list of called methods Object monObjet|org.apache.kafka.trogdor.workload.Histogram.Summary histogram_summarizeN164737"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00113"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#113"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processorStatus@POLYN164654 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#114"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processorStatus@POLYN164654 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processorStatus@POLYN164720 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#116"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processorStatus@POLYN164720 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#117"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processorStatus@POLYN164720 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processorStatus@POLYN164654 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -292,28 +292,28 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163860.consumerRecords"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163794.consumerRecords"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163860"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163794"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#101"
+ , "c1" : "00099"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#99"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163860 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00099] In the recursive method org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163794 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#105"
+ , "c1" : "00103"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#103"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163860 the MagicNumber/String 'Error in processRecords:' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.trogdor.workload.TimestampRecordProcessor.processRecords@POLYN163794 the MagicNumber/String 'Error in processRecords:' MUST BE CONVERTED to const"
 }} 
 ]
 , 

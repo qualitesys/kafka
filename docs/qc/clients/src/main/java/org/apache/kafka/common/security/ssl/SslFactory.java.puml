@@ -11,9 +11,9 @@ class org.apache.kafka.common.security.ssl.SslFactory {
 -instantiateSslEngineFactory(Map<String,Object>) : SslEngineFactory [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#130]]]
 -createNewSslEngineFactory(Map<String,?>) : SslEngineFactory [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#145]]]
 +createSslEngine(Socket) : SSLEngine [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#188]]]
-+createSslEngine(String;int) : SSLEngine [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#202]]]
--peerHost(Socket) : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#247]]]
-+sslEngineFactory() : SslEngineFactory [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#251]]]
-+close() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#290]]]
++createSslEngine(String;int) : SSLEngine [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#196]]]
+-peerHost(Socket) : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#241]]]
++sslEngineFactory() : SslEngineFactory [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#245]]]
++close() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#284]]]
 } 
 @enduml

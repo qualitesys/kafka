@@ -1,0 +1,15 @@
+@startuml
+!pragma layout smetana
+"AdminApiHandler.Batched<CoordinatorKey,ConsumerGroupDescription>" <|-- "org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler"
+class org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler {
++DescribeConsumerGroupsHandler(boolean;LogContext) : DescribeConsumerGroupsHandler [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#60]]]
+-buildKeySet(Collection<String>) : Set<CoordinatorKey> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#69]]]
++newFuture(Collection<String>) : AdminApiFuture.SimpleAdminApiFuture<CoordinatorKey,ConsumerGroupDescription> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#75]]]
++apiName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#82]]]
++lookupStrategy() : AdminApiLookupStrategy<CoordinatorKey> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#87]]]
++buildBatchedRequest(int;Set<CoordinatorKey>) : DescribeGroupsRequest.Builder [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#92]]]
++handleResponse(Node;Set<CoordinatorKey>;AbstractResponse) : ApiResult<CoordinatorKey,ConsumerGroupDescription> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#107]]]
+-handleError(CoordinatorKey;Errors;Map<CoordinatorKey,Throwable>;Set<CoordinatorKey>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#161]]]
+-validAclOperations(int) : Set<AclOperation> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#194]]]
+} 
+@enduml
