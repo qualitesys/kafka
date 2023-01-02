@@ -90,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00383"
- , "c5link" : "././qc/secujava/java.lang.Object.java.html#383"
+ , "c5" : "00382"
+ , "c5link" : "././qc/secujava/java.lang.Object.java.html#382"
  , "c1" : "void"
  , "c2" : "wait(long)"
  , "c3" : "1"
@@ -99,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00447"
- , "c5link" : "././qc/secujava/java.lang.Object.java.html#447"
+ , "c5" : "00446"
+ , "c5link" : "././qc/secujava/java.lang.Object.java.html#446"
  , "c1" : "void"
  , "c2" : "wait(long;int)"
  , "c3" : "4"
@@ -108,8 +108,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00502"
- , "c5link" : "././qc/secujava/java.lang.Object.java.html#502"
+ , "c5" : "00501"
+ , "c5link" : "././qc/secujava/java.lang.Object.java.html#501"
  , "c1" : "void"
  , "c2" : "wait()"
  , "c3" : "1"
@@ -117,8 +117,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00553"
- , "c5link" : "././qc/secujava/java.lang.Object.java.html#553"
+ , "c5" : "00552"
+ , "c5link" : "././qc/secujava/java.lang.Object.java.html#552"
  , "c1" : "void"
  , "c2" : "finalize()"
  , "c3" : "1"
@@ -184,84 +184,84 @@ var maDataBlocs = {
  , "c1" : "00238"
  , "c1link" : "./qc/secujava/java.lang.Object.java.html#238"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00238] In method java.lang.Object.toString@POLYN292446 the MagicNumber/String  '@' should be converted to const"
+ , "c3" : "QC-JAV000010[00238] In method java.lang.Object.toString@POLYN292752 the MagicNumber/String  '@' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00383"
- , "c1link" : "./qc/secujava/java.lang.Object.java.html#383"
+ , "c1" : "00382"
+ , "c1link" : "./qc/secujava/java.lang.Object.java.html#382"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00383] For method wait arguments long  timeout"
+ , "c3" : "QC-JAV000006[00382] For method wait arguments long  timeout"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00446"
+ , "c1link" : "./qc/secujava/java.lang.Object.java.html#446"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00446] For method wait arguments long  timeout|int  nanos"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00447"
  , "c1link" : "./qc/secujava/java.lang.Object.java.html#447"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00447] For method wait arguments long  timeout|int  nanos"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00447] In method java.lang.Object.wait@POLYN299903 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00448"
  , "c1link" : "./qc/secujava/java.lang.Object.java.html#448"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00448] In method java.lang.Object.wait@POLYN299612 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00448] In method java.lang.Object.wait@POLYN299903 the MagicNumber/String  'timeout value is negative' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00449"
- , "c1link" : "./qc/secujava/java.lang.Object.java.html#449"
+ , "c1" : "00451"
+ , "c1link" : "./qc/secujava/java.lang.Object.java.html#451"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00449] In method java.lang.Object.wait@POLYN299612 the MagicNumber/String  'timeout value is negative' should be converted to const"
+ , "c3" : "QC-JAV000010[00451] In method java.lang.Object.wait@POLYN299903 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00452"
- , "c1link" : "./qc/secujava/java.lang.Object.java.html#452"
+ , "c1" : "00451"
+ , "c1link" : "./qc/secujava/java.lang.Object.java.html#451"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00452] In method java.lang.Object.wait@POLYN299612 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00451] In method java.lang.Object.wait@POLYN299903 the MagicNumber/String  999999 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00452"
- , "c1link" : "./qc/secujava/java.lang.Object.java.html#452"
+ , "c1" : "00453"
+ , "c1link" : "./qc/secujava/java.lang.Object.java.html#453"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00452] In method java.lang.Object.wait@POLYN299612 the MagicNumber/String  999999 should be converted to const"
+ , "c3" : "QC-JAV000010[00453] In method java.lang.Object.wait@POLYN299903 the MagicNumber/String  'nanosecond timeout value out of range' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00454"
- , "c1link" : "./qc/secujava/java.lang.Object.java.html#454"
+ , "c1" : "00456"
+ , "c1link" : "./qc/secujava/java.lang.Object.java.html#456"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00454] In method java.lang.Object.wait@POLYN299612 the MagicNumber/String  'nanosecond timeout value out of range' should be converted to const"
+ , "c3" : "QC-JAV000010[00456] In method java.lang.Object.wait@POLYN299903 the MagicNumber/String  500000 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00457"
- , "c1link" : "./qc/secujava/java.lang.Object.java.html#457"
+ , "c1" : "00456"
+ , "c1link" : "./qc/secujava/java.lang.Object.java.html#456"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00457] In method java.lang.Object.wait@POLYN299612 the MagicNumber/String  500000 should be converted to const"
+ , "c3" : "QC-JAV000010[00456] In method java.lang.Object.wait@POLYN299903 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00457"
- , "c1link" : "./qc/secujava/java.lang.Object.java.html#457"
+ , "c1" : "00456"
+ , "c1link" : "./qc/secujava/java.lang.Object.java.html#456"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00457] In method java.lang.Object.wait@POLYN299612 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00456] In method java.lang.Object.wait@POLYN299903 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00457"
- , "c1link" : "./qc/secujava/java.lang.Object.java.html#457"
+ , "c1" : "00502"
+ , "c1link" : "./qc/secujava/java.lang.Object.java.html#502"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00457] In method java.lang.Object.wait@POLYN299612 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00503"
- , "c1link" : "./qc/secujava/java.lang.Object.java.html#503"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00503] In method java.lang.Object.wait@POLYN301583 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00502] In method java.lang.Object.wait@POLYN301874 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

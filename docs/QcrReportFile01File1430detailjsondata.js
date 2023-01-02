@@ -135,14 +135,14 @@ var maDataBlocs = {
  , "c1" : "00049"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.raft.internals.BlockingMessageQueue.poll@POLYN147833 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.raft.internals.BlockingMessageQueue.poll@POLYN148265 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00050"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.raft.internals.BlockingMessageQueue.poll@POLYN147833 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.raft.internals.BlockingMessageQueue.poll@POLYN148265 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -156,35 +156,35 @@ var maDataBlocs = {
  , "c1" : "00068"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.raft.internals.BlockingMessageQueue.isEmpty@POLYN148644 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.raft.internals.BlockingMessageQueue.isEmpty@POLYN149076 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.internals.BlockingMessageQueue.add@POLYN148436"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.internals.BlockingMessageQueue.add@POLYN148868"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.internals.BlockingMessageQueue.poll@POLYN147833"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.internals.BlockingMessageQueue.poll@POLYN148265"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00049"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#49"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.raft.internals.BlockingMessageQueue.poll@POLYN147833 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.raft.internals.BlockingMessageQueue.poll@POLYN148265 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00050"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#50"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.raft.internals.BlockingMessageQueue.poll@POLYN147833 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.raft.internals.BlockingMessageQueue.poll@POLYN148265 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

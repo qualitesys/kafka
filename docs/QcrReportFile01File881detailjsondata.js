@@ -85,7 +85,7 @@ var maDataBlocs = {
  , "c1" : "00022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidSerializer.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.serialization.VoidSerializer.serialize@POLYN140613 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.serialization.VoidSerializer.serialize@POLYN141045 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

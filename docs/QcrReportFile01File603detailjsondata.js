@@ -160,21 +160,21 @@ var maDataBlocs = {
  , "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.requests.AlterConfigsRequest.Config.Config@POLYN158906 the MagicNumber/String  'entries' should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.requests.AlterConfigsRequest.Config.Config@POLYN159338 the MagicNumber/String  'entries' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.requests.AlterConfigsRequest.ConfigEntry.ConfigEntry@POLYN159351 the MagicNumber/String  'name' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.requests.AlterConfigsRequest.ConfigEntry.ConfigEntry@POLYN159783 the MagicNumber/String  'name' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.requests.AlterConfigsRequest.ConfigEntry.ConfigEntry@POLYN159351 the MagicNumber/String  'value' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.requests.AlterConfigsRequest.ConfigEntry.ConfigEntry@POLYN159783 the MagicNumber/String  'value' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -202,7 +202,7 @@ var maDataBlocs = {
  , "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.requests.AlterConfigsRequest.Builder.Builder@POLYN160033 the MagicNumber/String  'configs' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.requests.AlterConfigsRequest.Builder.Builder@POLYN160465 the MagicNumber/String  'configs' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -223,7 +223,7 @@ var maDataBlocs = {
  , "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.html#120"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00120] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN162843"
+ , "c3" : "QC-JAV000007[00120] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN163275"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -237,14 +237,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AlterConfigsRequest.getErrorResponse@POLYN162721"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AlterConfigsRequest.getErrorResponse@POLYN163153"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AlterConfigsRequest.validateOnly@POLYN162501"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AlterConfigsRequest.validateOnly@POLYN162933"
 }} 
 ]
 , 

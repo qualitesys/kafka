@@ -230,7 +230,7 @@ var maDataBlocs = {
  , "c1" : "00059"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.state.internals.RocksDBWindowStore.put@POLYN163949 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.streams.state.internals.RocksDBWindowStore.put@POLYN164381 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -251,7 +251,7 @@ var maDataBlocs = {
  , "c1" : "00071"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00071] For method fetch list of called methods Object monObjet|S wrappedN164984"
+ , "c3" : "QC-JAV000007[00071] For method fetch list of called methods Object monObjet|S wrappedN165416"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -265,7 +265,7 @@ var maDataBlocs = {
  , "c1" : "00077"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.html#77"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00077] For method backwardFetch list of called methods Object monObjet|S wrappedN165470"
+ , "c3" : "QC-JAV000007[00077] For method backwardFetch list of called methods Object monObjet|S wrappedN165902"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -279,7 +279,7 @@ var maDataBlocs = {
  , "c1" : "00083"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00083] For method fetch list of called methods Object monObjet|S wrappedN166021"
+ , "c3" : "QC-JAV000007[00083] For method fetch list of called methods Object monObjet|S wrappedN166453"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -293,21 +293,21 @@ var maDataBlocs = {
  , "c1" : "00092"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00092] For method backwardFetch list of called methods Object monObjet|S wrappedN166594"
+ , "c3" : "QC-JAV000007[00092] For method backwardFetch list of called methods Object monObjet|S wrappedN167026"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.html#101"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00101] For method all list of called methods Object monObjet|S wrappedN167058"
+ , "c3" : "QC-JAV000007[00101] For method all list of called methods Object monObjet|S wrappedN167490"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00107"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.html#107"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00107] For method backwardAll list of called methods Object monObjet|S wrappedN167437"
+ , "c3" : "QC-JAV000007[00107] For method backwardAll list of called methods Object monObjet|S wrappedN167869"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -321,7 +321,7 @@ var maDataBlocs = {
  , "c1" : "00113"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.html#113"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00113] For method fetchAll list of called methods Object monObjet|S wrappedN167869"
+ , "c3" : "QC-JAV000007[00113] For method fetchAll list of called methods Object monObjet|S wrappedN168301"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -335,84 +335,84 @@ var maDataBlocs = {
  , "c1" : "00119"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.html#119"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00119] For method backwardFetchAll list of called methods Object monObjet|S wrappedN168342"
+ , "c3" : "QC-JAV000007[00119] For method backwardFetchAll list of called methods Object monObjet|S wrappedN168774"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.state.internals.RocksDBWindowStore.maybeUpdateSeqnumForDups@POLYN168950 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.state.internals.RocksDBWindowStore.maybeUpdateSeqnumForDups@POLYN169382 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.state.internals.RocksDBWindowStore.maybeUpdateSeqnumForDups@POLYN168950 the MagicNumber/String  0x7FFFFFFF should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.streams.state.internals.RocksDBWindowStore.maybeUpdateSeqnumForDups@POLYN169382 the MagicNumber/String  0x7FFFFFFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBWindowStore.backwardFetch@POLYN166362"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBWindowStore.backwardFetch@POLYN166794"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBWindowStore.fetch@POLYN165789"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBWindowStore.fetch@POLYN166221"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBWindowStore.all@POLYN166935"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBWindowStore.all@POLYN167367"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBWindowStore.backwardAll@POLYN167314"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBWindowStore.backwardAll@POLYN167746"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBWindowStore.backwardFetchAll@POLYN168166"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBWindowStore.backwardFetchAll@POLYN168598"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBWindowStore.fetchAll@POLYN167693"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBWindowStore.fetchAll@POLYN168125"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBWindowStore.init@POLYN163672"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBWindowStore.init@POLYN164104"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBWindowStore.put@POLYN163949"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBWindowStore.put@POLYN164381"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBWindowStore.java.html#59"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.streams.state.internals.RocksDBWindowStore.put@POLYN163949 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.streams.state.internals.RocksDBWindowStore.put@POLYN164381 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

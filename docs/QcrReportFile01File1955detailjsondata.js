@@ -112,7 +112,7 @@ var maDataBlocs = {
  , "c2" : "1"
  , "c3" : "3"
  , "c4" : "2"
- , "c5" : ["java.util.Map.getKey@POLYN432691.return" , "java.util.HashMap.put@POLYN620675.value"]
+ , "c5" : ["java.util.Map.getKey@POLYN434311.return" , "java.util.HashMap.put@POLYN621128.value"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -127,7 +127,7 @@ var maDataBlocs = {
  , "c2" : "2"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.util.HashMap.get@POLYN617315.return" , "java.util.HashMap.put@POLYN620675.value"]
+ , "c5" : ["java.util.HashMap.get@POLYN617768.return" , "java.util.HashMap.put@POLYN621128.value"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -143,15 +143,15 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "3"
  , "sourcenoligne" : "[00077]"
- , "c3" : ["java.util.Map.getKey@POLYN432691.return" , "---java.util.Map.getKey@POLYN432691" , "org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assign@POLYN184001.clientId"]
- , "c4" : "//QC-JAVCWE099[00077] In org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assign@POLYN184001[00077] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
+ , "c3" : ["java.util.Map.getKey@POLYN434311.return" , "---java.util.Map.getKey@POLYN434311" , "org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assign@POLYN184433.clientId"]
+ , "c4" : "//QC-JAVCWE099[00077] In org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assign@POLYN184433[00077] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00081]"
- , "c3" : ["org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assign@POLYN184001.clientId" , "---org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN188797" , "org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN188797.activeTaskClient"]
+ , "c3" : ["org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assign@POLYN184433.clientId" , "---org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN189229" , "org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN189229.activeTaskClient"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -159,8 +159,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00211]"
- , "c3" : ["org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN188797.activeTaskClient" , "---java.util.HashMap.put@POLYN620675" , "java.util.HashMap.put@POLYN620675.value"]
- , "c4" : "//QC-JAVCWE099[00211] In org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN188797[00211] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c3" : ["org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN189229.activeTaskClient" , "---java.util.HashMap.put@POLYN621128" , "java.util.HashMap.put@POLYN621128.value"]
+ , "c4" : "//QC-JAVCWE099[00211] In org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN189229[00211] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
@@ -205,16 +205,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00173]"
- , "c3" : ["java.util.HashMap.get@POLYN617315.return" , "---java.util.HashMap.get@POLYN617315" , "org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN188797.numRemainingStandbys"]
- , "c4" : "//QC-JAVCWE099[00173] In org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN188797[00173] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c3" : ["java.util.HashMap.get@POLYN617768.return" , "---java.util.HashMap.get@POLYN617768" , "org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN189229.numRemainingStandbys"]
+ , "c4" : "//QC-JAVCWE099[00173] In org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN189229[00173] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00212]"
- , "c3" : ["org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN188797.numRemainingStandbys" , "---java.util.HashMap.put@POLYN620675" , "java.util.HashMap.put@POLYN620675.value"]
- , "c4" : "//QC-JAVCWE099[00212] In org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN188797[00212] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c3" : ["org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN189229.numRemainingStandbys" , "---java.util.HashMap.put@POLYN621128" , "java.util.HashMap.put@POLYN621128.value"]
+ , "c4" : "//QC-JAVCWE099[00212] In org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN189229[00212] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
@@ -385,7 +385,7 @@ var maDataBlocs = {
  , "c1" : "00104"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assign@POLYN184001 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assign@POLYN184433 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -434,7 +434,7 @@ var maDataBlocs = {
  , "c1" : "00130"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#130"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00130] For method isAllowedTaskMovement list of called methods Object monObjet|java.util.Map source_clientTagsN187119|java.util.Map destination_clientTagsN187236"
+ , "c3" : "QC-JAV000007[00130] For method isAllowedTaskMovement list of called methods Object monObjet|java.util.Map source_clientTagsN187551|java.util.Map destination_clientTagsN187668"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -455,14 +455,14 @@ var maDataBlocs = {
  , "c1" : "00136"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.isAllowedTaskMovement@POLYN186949 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.isAllowedTaskMovement@POLYN187381 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00140"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.isAllowedTaskMovement@POLYN186949 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.isAllowedTaskMovement@POLYN187381 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -518,7 +518,7 @@ var maDataBlocs = {
  , "c1" : "00159"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#159"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00159] For method assignStandbyTasksToClientsWithDifferentTags list of called methods Object monObjet|V tasksToRemainingStandbys_getN189541|java.util.UUID standbyTaskClientsByTaskLoad_pollN190059|V clientStates_getN190358"
+ , "c3" : "QC-JAV000007[00159] For method assignStandbyTasksToClientsWithDifferentTags list of called methods Object monObjet|V tasksToRemainingStandbys_getN189973|java.util.UUID standbyTaskClientsByTaskLoad_pollN190491|V clientStates_getN190790"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -567,84 +567,84 @@ var maDataBlocs = {
  , "c1" : "00172"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN188797 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN189229 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00193"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN188797 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN189229 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00201"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN188797 the MagicNumber/String  'Assigning {} out of {} standby tasks for an active task [{}] with client tags {}. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN189229 the MagicNumber/String  'Assigning {} out of {} standby tasks for an active task [{}] with client tags {}. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00202"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#202"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN188797 the MagicNumber/String  'Standby task client tags are {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN189229 the MagicNumber/String  'Standby task client tags are {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00208"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN188797 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN189229 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00210"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#210"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN188797 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN189229 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00213"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN188797 the MagicNumber/String  'Rack aware standby task assignment was not able to assign {} of {} standby tasks for the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN189229 the MagicNumber/String  'Rack aware standby task assignment was not able to assign {} of {} standby tasks for the ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00214"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN188797 the MagicNumber/String  'active task [{}] with the rack aware assignment tags {}. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN189229 the MagicNumber/String  'active task [{}] with the rack aware assignment tags {}. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00215"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN188797 the MagicNumber/String  'This may happen when there aren't enough application instances on different tag ' should be converted to const"
+ , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN189229 the MagicNumber/String  'This may happen when there aren't enough application instances on different tag ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00216"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN188797 the MagicNumber/String  'dimensions compared to an active and corresponding standby task. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN189229 the MagicNumber/String  'dimensions compared to an active and corresponding standby task. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00217"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN188797 the MagicNumber/String  'Consider launching application instances on different tag dimensions than [{}]. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN189229 the MagicNumber/String  'Consider launching application instances on different tag dimensions than [{}]. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00218"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN188797 the MagicNumber/String  'Standby task assignment will fall back to assigning standby tasks to the least loaded clients.' should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignStandbyTasksToClientsWithDifferentTags@POLYN189229 the MagicNumber/String  'Standby task assignment will fall back to assigning standby tasks to the least loaded clients.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -672,7 +672,7 @@ var maDataBlocs = {
  , "c1" : "00233"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#233"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00233] For method updateClientsOnAlreadyUsedTagEntries list of called methods Object monObjet|V clientStates_getN192592|V tagKeyToValues_getN193201|V tagEntryToClients_getN193827"
+ , "c3" : "QC-JAV000007[00233] For method updateClientsOnAlreadyUsedTagEntries list of called methods Object monObjet|V clientStates_getN193024|V tagKeyToValues_getN193633|V tagEntryToClients_getN194259"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -749,14 +749,14 @@ var maDataBlocs = {
  , "c1" : "00246"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.updateClientsOnAlreadyUsedTagEntries@POLYN192054 the MagicNumber/String  'Client tag with key [{}] will be ignored when computing rack aware standby ' should be converted to const"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.updateClientsOnAlreadyUsedTagEntries@POLYN192486 the MagicNumber/String  'Client tag with key [{}] will be ignored when computing rack aware standby ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00247"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#247"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.updateClientsOnAlreadyUsedTagEntries@POLYN192054 the MagicNumber/String  'task assignment because it is not part of the configured rack awareness [{}].' should be converted to const"
+ , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.updateClientsOnAlreadyUsedTagEntries@POLYN192486 the MagicNumber/String  'task assignment because it is not part of the configured rack awareness [{}].' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -777,28 +777,28 @@ var maDataBlocs = {
  , "c1" : "00324"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#324"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.TagEntry.equals@POLYN194353 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.TagEntry.equals@POLYN194785 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00325"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#325"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.TagEntry.equals@POLYN194353 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.TagEntry.equals@POLYN194785 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00325"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#325"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.TagEntry.equals@POLYN194353 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.TagEntry.equals@POLYN194785 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignPendingStandbyTasksToLeastLoadedClients@POLYN186222"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.assignPendingStandbyTasksToLeastLoadedClients@POLYN186654"
 }} 
 ]
 , 

@@ -89,14 +89,14 @@ var maDataBlocs = {
  , "c1" : "00032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.server.authorizer.AclCreateResult.AclCreateResult@POLYN143426 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.server.authorizer.AclCreateResult.AclCreateResult@POLYN143858 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.server.authorizer.AclCreateResult.exception@POLYN143747 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.server.authorizer.AclCreateResult.exception@POLYN144179 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

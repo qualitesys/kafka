@@ -22,10 +22,10 @@ class java.lang.Double {
 +doubleValue() : double [[[./../.././qc/secujava/java.lang.Double.java.html#700]]]
 +hashCode() : int [[[./../.././qc/secujava/java.lang.Double.java.html#725]]]
 +equals(Object) : boolean [[[./../.././qc/secujava/java.lang.Double.java.html#769]]]
-+doubleToLongBits(double) : long [[[./../.././qc/secujava/java.lang.Double.java.html#806]]]
-+doubleToRawLongBits(double) : long [[[./../.././qc/secujava/java.lang.Double.java.html#852]]]
-+longBitsToDouble(long) : double [[[./../.././qc/secujava/java.lang.Double.java.html#915]]]
-+compareTo(Double) : int [[[./../.././qc/secujava/java.lang.Double.java.html#947]]]
-+compare(double;double) : int [[[./../.././qc/secujava/java.lang.Double.java.html#969]]]
++doubleToLongBits(double) : long [[[./../.././qc/secujava/java.lang.Double.java.html#805]]]
++doubleToRawLongBits(double) : long [[[./../.././qc/secujava/java.lang.Double.java.html#850]]]
++longBitsToDouble(long) : double [[[./../.././qc/secujava/java.lang.Double.java.html#913]]]
++compareTo(Double) : int [[[./../.././qc/secujava/java.lang.Double.java.html#945]]]
++compare(double;double) : int [[[./../.././qc/secujava/java.lang.Double.java.html#967]]]
 } 
 @enduml

@@ -148,7 +148,7 @@ var maDataBlocs = {
  , "c2" : "1"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.util.HashMap.get@POLYN617315.return" , "java.util.HashMap.put@POLYN620675.key"]
+ , "c5" : ["java.util.HashMap.get@POLYN617768.return" , "java.util.HashMap.put@POLYN621128.key"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -164,16 +164,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00116]"
- , "c3" : ["java.util.HashMap.get@POLYN617315.return" , "---java.util.HashMap.get@POLYN617315" , "org.apache.kafka.raft.internals.RecordsIterator.createMemoryRecords@POLYN174884.buffer"]
- , "c4" : "//QC-JAVCWE099[00116] In org.apache.kafka.raft.internals.RecordsIterator.createMemoryRecords@POLYN174884[00116] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c3" : ["java.util.HashMap.get@POLYN617768.return" , "---java.util.HashMap.get@POLYN617768" , "org.apache.kafka.raft.internals.RecordsIterator.createMemoryRecords@POLYN175316.buffer"]
+ , "c4" : "//QC-JAVCWE099[00116] In org.apache.kafka.raft.internals.RecordsIterator.createMemoryRecords@POLYN175316[00116] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00133]"
- , "c3" : ["org.apache.kafka.raft.internals.RecordsIterator.createMemoryRecords@POLYN174884.buffer" , "---java.util.HashMap.put@POLYN620675" , "java.util.HashMap.put@POLYN620675.key"]
- , "c4" : "//QC-JAVCWE099[00133] In org.apache.kafka.raft.internals.RecordsIterator.createMemoryRecords@POLYN174884[00133] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c3" : ["org.apache.kafka.raft.internals.RecordsIterator.createMemoryRecords@POLYN175316.buffer" , "---java.util.HashMap.put@POLYN621128" , "java.util.HashMap.put@POLYN621128.key"]
+ , "c4" : "//QC-JAVCWE099[00133] In org.apache.kafka.raft.internals.RecordsIterator.createMemoryRecords@POLYN175316[00133] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
@@ -265,35 +265,35 @@ var maDataBlocs = {
  , "c1" : "00066"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#66"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00066] For method hasNext list of called methods Object monObjet|java.util.Optional nextBatchN173293"
+ , "c3" : "QC-JAV000007[00066] For method hasNext list of called methods Object monObjet|java.util.Optional nextBatchN173725"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00077"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#77"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00077] For method next list of called methods Object monObjet|V nextBatch_getN173671"
+ , "c3" : "QC-JAV000007[00077] For method next list of called methods Object monObjet|V nextBatch_getN174103"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.raft.internals.RecordsIterator.next@POLYN173429 the MagicNumber/String  'Batch iterator doesn't have any more elements' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.raft.internals.RecordsIterator.next@POLYN173861 the MagicNumber/String  'Batch iterator doesn't have any more elements' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.raft.internals.RecordsIterator.close@POLYN173837 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.raft.internals.RecordsIterator.close@POLYN174269 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00097"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.raft.internals.RecordsIterator.ensureOpen@POLYN174091 the MagicNumber/String  'Serde record batch itererator was closed' should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.raft.internals.RecordsIterator.ensureOpen@POLYN174523 the MagicNumber/String  'Serde record batch itererator was closed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -321,7 +321,7 @@ var maDataBlocs = {
  , "c1" : "00106"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.raft.internals.RecordsIterator.readFileRecords@POLYN174265 the MagicNumber/String  'Failed to read records into memory' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.raft.internals.RecordsIterator.readFileRecords@POLYN174697 the MagicNumber/String  'Failed to read records into memory' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -335,35 +335,35 @@ var maDataBlocs = {
  , "c1" : "00113"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#113"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00113] For method createMemoryRecords list of called methods Object monObjet|V allocatedBuffer_getN175083|org.apache.kafka.common.record.MemoryRecords readFileRecordsN175499"
+ , "c3" : "QC-JAV000007[00113] For method createMemoryRecords list of called methods Object monObjet|V allocatedBuffer_getN175515|org.apache.kafka.common.record.MemoryRecords readFileRecordsN175931"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00140"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#140"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00140] For method nextBatches list of called methods Object monObjet|int records_sizeInBytesN176282|org.apache.kafka.common.record.MemoryRecords createMemoryRecordsN176718"
+ , "c3" : "QC-JAV000007[00140] For method nextBatches list of called methods Object monObjet|int records_sizeInBytesN176714|org.apache.kafka.common.record.MemoryRecords createMemoryRecordsN177150"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00150"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.raft.internals.RecordsIterator.nextBatches@POLYN176207 the MagicNumber/String  'Unexpected Records type %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.raft.internals.RecordsIterator.nextBatches@POLYN176639 the MagicNumber/String  'Unexpected Records type %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00159"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#159"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00159] For method nextBatch list of called methods Object monObjet|java.util.Iterator nextBatchesN177280|org.apache.kafka.raft.Batch nextBatches_nextN177419"
+ , "c3" : "QC-JAV000007[00159] For method nextBatch list of called methods Object monObjet|java.util.Iterator nextBatchesN177712|org.apache.kafka.raft.Batch nextBatches_nextN177851"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00172"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.raft.internals.RecordsIterator.nextBatch@POLYN177128 the MagicNumber/String  'DefaultRecordBatch expected by record type was %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.raft.internals.RecordsIterator.nextBatch@POLYN177560 the MagicNumber/String  'DefaultRecordBatch expected by record type was %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -377,7 +377,7 @@ var maDataBlocs = {
  , "c1" : "00182"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#182"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00182] For method readBatch list of called methods Object monObjet|java.lang.Integer batch_countOrNullN178643"
+ , "c3" : "QC-JAV000007[00182] For method readBatch list of called methods Object monObjet|java.lang.Integer batch_countOrNullN179075"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -398,21 +398,21 @@ var maDataBlocs = {
  , "c1" : "00194"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.raft.internals.RecordsIterator.readBatch@POLYN178122 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.raft.internals.RecordsIterator.readBatch@POLYN178554 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00195"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#195"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.raft.internals.RecordsIterator.readBatch@POLYN178122 the MagicNumber/String  'Expected a record count for the records batch' should be converted to const"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.raft.internals.RecordsIterator.readBatch@POLYN178554 the MagicNumber/String  'Expected a record count for the records batch' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00200"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#200"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.raft.internals.RecordsIterator.readBatch@POLYN178122 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.raft.internals.RecordsIterator.readBatch@POLYN178554 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -426,7 +426,7 @@ var maDataBlocs = {
  , "c1" : "00218"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#218"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00218] For method readRecord list of called methods Object monObjet|long input_readVarlongN179942|int input_readVarintN180197|int input_readVarintN180452|T serde_readN180655|int input_readVarintN180771"
+ , "c3" : "QC-JAV000007[00218] For method readRecord list of called methods Object monObjet|long input_readVarlongN180374|int input_readVarintN180629|int input_readVarintN180884|T serde_readN181087|int input_readVarintN181203"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -440,35 +440,35 @@ var maDataBlocs = {
  , "c1" : "00226"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.raft.internals.RecordsIterator.readRecord@POLYN179741 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.raft.internals.RecordsIterator.readRecord@POLYN180173 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00234"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.raft.internals.RecordsIterator.readRecord@POLYN179741 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.raft.internals.RecordsIterator.readRecord@POLYN180173 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00235"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.raft.internals.RecordsIterator.readRecord@POLYN179741 the MagicNumber/String  'Unexpected key size ' should be converted to const"
+ , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.raft.internals.RecordsIterator.readRecord@POLYN180173 the MagicNumber/String  'Unexpected key size ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00239"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#239"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.raft.internals.RecordsIterator.readRecord@POLYN179741 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.raft.internals.RecordsIterator.readRecord@POLYN180173 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00247"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#247"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.raft.internals.RecordsIterator.readRecord@POLYN179741 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.raft.internals.RecordsIterator.readRecord@POLYN180173 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

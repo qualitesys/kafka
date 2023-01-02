@@ -130,42 +130,42 @@ var maDataBlocs = {
  , "c1" : "00059"
  , "c1link" : "./qc/secujava/java.io.BufferedOutputStream.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method java.io.BufferedOutputStream.BufferedOutputStream@POLYN158134 the MagicNumber/String  8192 should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method java.io.BufferedOutputStream.BufferedOutputStream@POLYN158566 the MagicNumber/String  8192 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00073"
  , "c1link" : "./qc/secujava/java.io.BufferedOutputStream.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method java.io.BufferedOutputStream.BufferedOutputStream@POLYN158466 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method java.io.BufferedOutputStream.BufferedOutputStream@POLYN158898 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/secujava/java.io.BufferedOutputStream.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method java.io.BufferedOutputStream.BufferedOutputStream@POLYN158466 the MagicNumber/String  'Buffer size &amp;lt;= 0' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method java.io.BufferedOutputStream.BufferedOutputStream@POLYN158898 the MagicNumber/String  'Buffer size &amp;lt;= 0' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00081"
  , "c1link" : "./qc/secujava/java.io.BufferedOutputStream.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method java.io.BufferedOutputStream.flushBuffer@POLYN158854 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method java.io.BufferedOutputStream.flushBuffer@POLYN159286 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/secujava/java.io.BufferedOutputStream.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method java.io.BufferedOutputStream.flushBuffer@POLYN158854 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method java.io.BufferedOutputStream.flushBuffer@POLYN159286 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/secujava/java.io.BufferedOutputStream.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method java.io.BufferedOutputStream.flushBuffer@POLYN158854 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method java.io.BufferedOutputStream.flushBuffer@POLYN159286 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

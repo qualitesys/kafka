@@ -210,7 +210,7 @@ var maDataBlocs = {
  , "c1" : "00064"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.image.ClientQuotaImage.write@POLYN158669 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.image.ClientQuotaImage.write@POLYN159101 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -245,35 +245,35 @@ var maDataBlocs = {
  , "c1" : "00102"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.image.ClientQuotaImage.equals@POLYN161470 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.image.ClientQuotaImage.equals@POLYN161902 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00114"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.image.ClientQuotaImage.toString@POLYN161968 the MagicNumber/String  'ClientQuotaImage(quotas=' should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.image.ClientQuotaImage.toString@POLYN162400 the MagicNumber/String  'ClientQuotaImage(quotas=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.image.ClientQuotaImage.toString@POLYN161968 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.image.ClientQuotaImage.toString@POLYN162400 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.image.ClientQuotaImage.toString@POLYN161968 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.image.ClientQuotaImage.toString@POLYN162400 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.image.ClientQuotaImage.toString@POLYN161968 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.image.ClientQuotaImage.toString@POLYN162400 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -294,21 +294,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClientQuotaImage.equals@POLYN161470"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClientQuotaImage.equals@POLYN161902"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClientQuotaImage.isEmpty@POLYN161350"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClientQuotaImage.isEmpty@POLYN161782"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#102"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.image.ClientQuotaImage.equals@POLYN161470 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.image.ClientQuotaImage.equals@POLYN161902 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

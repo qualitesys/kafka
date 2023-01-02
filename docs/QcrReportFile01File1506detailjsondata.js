@@ -263,42 +263,42 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.springframework.http.ResponseEntity.ResponseEntity@POLYN232423 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.springframework.http.ResponseEntity.ResponseEntity@POLYN232855 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.springframework.http.ResponseEntity.ResponseEntity@POLYN232423 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.springframework.http.ResponseEntity.ResponseEntity@POLYN232855 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00097"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.springframework.http.ResponseEntity.ResponseEntity@POLYN232716 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.springframework.http.ResponseEntity.ResponseEntity@POLYN233148 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00106"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.springframework.http.ResponseEntity.ResponseEntity@POLYN233046 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.springframework.http.ResponseEntity.ResponseEntity@POLYN233478 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00117"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.springframework.http.ResponseEntity.ResponseEntity@POLYN233420 the MagicNumber/String  'HttpStatus must not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.springframework.http.ResponseEntity.ResponseEntity@POLYN233852 the MagicNumber/String  'HttpStatus must not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00130"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.springframework.http.ResponseEntity.ResponseEntity@POLYN234064 the MagicNumber/String  'HttpStatus must not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.springframework.http.ResponseEntity.ResponseEntity@POLYN234496 the MagicNumber/String  'HttpStatus must not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -312,63 +312,63 @@ var maDataBlocs = {
  , "c1" : "00166"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.springframework.http.ResponseEntity.equals@POLYN235313 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.springframework.http.ResponseEntity.equals@POLYN235745 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00169"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.springframework.http.ResponseEntity.equals@POLYN235313 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method org.springframework.http.ResponseEntity.equals@POLYN235745 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.springframework.http.ResponseEntity.hashCode@POLYN235872 the MagicNumber/String  29 should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.springframework.http.ResponseEntity.hashCode@POLYN236304 the MagicNumber/String  29 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00182"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.springframework.http.ResponseEntity.toString@POLYN236107 the MagicNumber/String  '&amp;lt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.springframework.http.ResponseEntity.toString@POLYN236539 the MagicNumber/String  '&amp;lt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00185"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.springframework.http.ResponseEntity.toString@POLYN236107 the MagicNumber/String  ' ' should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.springframework.http.ResponseEntity.toString@POLYN236539 the MagicNumber/String  ' ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00188"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.springframework.http.ResponseEntity.toString@POLYN236107 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.springframework.http.ResponseEntity.toString@POLYN236539 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00191"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.springframework.http.ResponseEntity.toString@POLYN236107 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.springframework.http.ResponseEntity.toString@POLYN236539 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00193"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.springframework.http.ResponseEntity.toString@POLYN236107 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.springframework.http.ResponseEntity.toString@POLYN236539 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00196"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.springframework.http.ResponseEntity.toString@POLYN236107 the MagicNumber/String  '&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.springframework.http.ResponseEntity.toString@POLYN236539 the MagicNumber/String  '&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -382,7 +382,7 @@ var maDataBlocs = {
  , "c1" : "00210"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#210"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00210] In method org.springframework.http.ResponseEntity.status@POLYN237382 the MagicNumber/String  'HttpStatus must not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00210] In method org.springframework.http.ResponseEntity.status@POLYN237814 the MagicNumber/String  'HttpStatus must not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -431,7 +431,7 @@ var maDataBlocs = {
  , "c1" : "00493"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#493"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00493] In method org.springframework.http.ResponseEntity.DefaultBuilder.headers@POLYN245599 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00493] In method org.springframework.http.ResponseEntity.DefaultBuilder.headers@POLYN246031 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -487,35 +487,35 @@ var maDataBlocs = {
  , "c1" : "00525"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#525"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00525] In method org.springframework.http.ResponseEntity.DefaultBuilder.eTag@POLYN246805 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00525] In method org.springframework.http.ResponseEntity.DefaultBuilder.eTag@POLYN247237 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00525"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#525"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00525] In method org.springframework.http.ResponseEntity.DefaultBuilder.eTag@POLYN246805 the MagicNumber/String  'W/\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00525] In method org.springframework.http.ResponseEntity.DefaultBuilder.eTag@POLYN247237 the MagicNumber/String  'W/\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00526"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#526"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00526] In method org.springframework.http.ResponseEntity.DefaultBuilder.eTag@POLYN246805 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00526] In method org.springframework.http.ResponseEntity.DefaultBuilder.eTag@POLYN247237 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00528"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#528"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00528] In method org.springframework.http.ResponseEntity.DefaultBuilder.eTag@POLYN246805 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00528] In method org.springframework.http.ResponseEntity.DefaultBuilder.eTag@POLYN247237 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00529"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#529"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00529] In method org.springframework.http.ResponseEntity.DefaultBuilder.eTag@POLYN246805 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00529] In method org.springframework.http.ResponseEntity.DefaultBuilder.eTag@POLYN247237 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -571,14 +571,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.springframework.http.ResponseEntity.getStatusCode@POLYN234575"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.springframework.http.ResponseEntity.getStatusCode@POLYN235007"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.springframework.http.ResponseEntity.getStatusCodeValue@POLYN234983"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.springframework.http.ResponseEntity.getStatusCodeValue@POLYN235415"
 }} 
 ]
 , 

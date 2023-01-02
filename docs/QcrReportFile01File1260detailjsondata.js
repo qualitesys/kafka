@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java 35 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java 41 rule violations " 
  , "fic2"  : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.xml" 
  , "fic3"  : "" 
 }
@@ -102,11 +102,34 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "5"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "1"
 }}
 ,
@@ -151,7 +174,7 @@ var maDataBlocs = {
  , "c1" : "00042"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00042] For method registerMessageType list of called methods Object monObjet|java.util.Optional spec_apiKeyN156904|V apis_putN156999"
+ , "c3" : "QC-JAV000007[00042] For method registerMessageType list of called methods Object monObjet|V apis_putN157431"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -165,35 +188,35 @@ var maDataBlocs = {
  , "c1" : "00046"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.registerMessageType@POLYN156712 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.registerMessageType@POLYN157144 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00047"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.registerMessageType@POLYN156712 the MagicNumber/String  'Duplicate metadata record entry for type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.registerMessageType@POLYN157144 the MagicNumber/String  'Duplicate metadata record entry for type ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00048"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.registerMessageType@POLYN156712 the MagicNumber/String  '. Original claimant: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.registerMessageType@POLYN157144 the MagicNumber/String  '. Original claimant: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00048"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.registerMessageType@POLYN156712 the MagicNumber/String  '. New ' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.registerMessageType@POLYN157144 the MagicNumber/String  '. New ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00049"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.registerMessageType@POLYN156712 the MagicNumber/String  'claimant: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.registerMessageType@POLYN157144 the MagicNumber/String  'claimant: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -207,35 +230,35 @@ var maDataBlocs = {
  , "c1" : "00056"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateAndWrite@POLYN157429 the MagicNumber/String  'public class MetadataJsonConverters {%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateAndWrite@POLYN157861 the MagicNumber/String  'public class MetadataJsonConverters {%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateAndWrite@POLYN157429 the MagicNumber/String  '%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateAndWrite@POLYN157861 the MagicNumber/String  '%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateAndWrite@POLYN157429 the MagicNumber/String  '%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateAndWrite@POLYN157861 the MagicNumber/String  '%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateAndWrite@POLYN157429 the MagicNumber/String  '}%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateAndWrite@POLYN157861 the MagicNumber/String  '}%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00070] For method generateWriteJson list of called methods Object monObjet|java.lang.String MessageGenerator_capitalizeFirstN158820"
+ , "c3" : "QC-JAV000007[00070] For method generateWriteJson list of called methods Object monObjet|java.lang.String MessageGenerator_capitalizeFirstN159252"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -249,70 +272,70 @@ var maDataBlocs = {
  , "c1" : "00074"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateWriteJson@POLYN158202 the MagicNumber/String  'public static JsonNode writeJson(ApiMessage apiMessage, short apiVersion) {%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateWriteJson@POLYN158634 the MagicNumber/String  'public static JsonNode writeJson(ApiMessage apiMessage, short apiVersion) {%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateWriteJson@POLYN158202 the MagicNumber/String  'switch (apiMessage.apiKey()) {%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateWriteJson@POLYN158634 the MagicNumber/String  'switch (apiMessage.apiKey()) {%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateWriteJson@POLYN158202 the MagicNumber/String  'case %d:%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateWriteJson@POLYN158634 the MagicNumber/String  'case %d:%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateWriteJson@POLYN158202 the MagicNumber/String  'return %sJsonConverter.write((%s) apiMessage, apiVersion);%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateWriteJson@POLYN158634 the MagicNumber/String  'return %sJsonConverter.write((%s) apiMessage, apiVersion);%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateWriteJson@POLYN158202 the MagicNumber/String  'default:%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateWriteJson@POLYN158634 the MagicNumber/String  'default:%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateWriteJson@POLYN158202 the MagicNumber/String  'throw new UnsupportedVersionException(\'Unknown metadata id \'' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateWriteJson@POLYN158634 the MagicNumber/String  'throw new UnsupportedVersionException(\'Unknown metadata id \'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateWriteJson@POLYN158202 the MagicNumber/String  ' + apiMessage.apiKey());%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateWriteJson@POLYN158634 the MagicNumber/String  ' + apiMessage.apiKey());%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateWriteJson@POLYN158202 the MagicNumber/String  '}%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateWriteJson@POLYN158634 the MagicNumber/String  '}%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00094"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateWriteJson@POLYN158202 the MagicNumber/String  '}%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateWriteJson@POLYN158634 the MagicNumber/String  '}%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00097"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00097] For method generateReadJson list of called methods Object monObjet|java.lang.String MessageGenerator_capitalizeFirstN160484"
+ , "c3" : "QC-JAV000007[00097] For method generateReadJson list of called methods Object monObjet|java.lang.String MessageGenerator_capitalizeFirstN160916"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -326,63 +349,105 @@ var maDataBlocs = {
  , "c1" : "00101"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateReadJson@POLYN159866 the MagicNumber/String  'public static ApiMessage readJson(JsonNode json, short apiKey, short apiVersion) {%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateReadJson@POLYN160298 the MagicNumber/String  'public static ApiMessage readJson(JsonNode json, short apiKey, short apiVersion) {%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00103"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateReadJson@POLYN159866 the MagicNumber/String  'switch (apiKey) {%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateReadJson@POLYN160298 the MagicNumber/String  'switch (apiKey) {%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00107"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateReadJson@POLYN159866 the MagicNumber/String  'case %d:%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateReadJson@POLYN160298 the MagicNumber/String  'case %d:%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateReadJson@POLYN159866 the MagicNumber/String  'return %sJsonConverter.read(json, apiVersion);%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateReadJson@POLYN160298 the MagicNumber/String  'return %sJsonConverter.read(json, apiVersion);%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00112"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateReadJson@POLYN159866 the MagicNumber/String  'default:%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateReadJson@POLYN160298 the MagicNumber/String  'default:%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateReadJson@POLYN159866 the MagicNumber/String  'throw new UnsupportedVersionException(\'Unknown metadata id \'' should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateReadJson@POLYN160298 the MagicNumber/String  'throw new UnsupportedVersionException(\'Unknown metadata id \'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateReadJson@POLYN159866 the MagicNumber/String  ' + apiKey);%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateReadJson@POLYN160298 the MagicNumber/String  ' + apiKey);%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00119"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateReadJson@POLYN159866 the MagicNumber/String  '}%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateReadJson@POLYN160298 the MagicNumber/String  '}%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00121"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateReadJson@POLYN159866 the MagicNumber/String  '}%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateReadJson@POLYN160298 the MagicNumber/String  '}%n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.MetadataJsonConvertersGenerator.registerMessageType@POLYN157144"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00046"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#46"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00046] In the recursive method org.apache.kafka.message.MetadataJsonConvertersGenerator.registerMessageType@POLYN157144 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00047"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#47"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00047] In the recursive method org.apache.kafka.message.MetadataJsonConvertersGenerator.registerMessageType@POLYN157144 the MagicNumber/String 'Duplicate metadata record entry for type ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#48"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.message.MetadataJsonConvertersGenerator.registerMessageType@POLYN157144 the MagicNumber/String '. New ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#48"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00048] In the recursive method org.apache.kafka.message.MetadataJsonConvertersGenerator.registerMessageType@POLYN157144 the MagicNumber/String '. Original claimant: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00049"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#49"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.message.MetadataJsonConvertersGenerator.registerMessageType@POLYN157144 the MagicNumber/String 'claimant: ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

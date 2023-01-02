@@ -222,56 +222,56 @@ var maDataBlocs = {
  , "c1" : "00104"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.trogdor.workload.SustainedConnectionSpec.SustainedConnectionSpec@POLYN166284 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.trogdor.workload.SustainedConnectionSpec.SustainedConnectionSpec@POLYN166716 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.trogdor.workload.SustainedConnectionSpec.SustainedConnectionSpec@POLYN166284 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.trogdor.workload.SustainedConnectionSpec.SustainedConnectionSpec@POLYN166716 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.trogdor.workload.SustainedConnectionSpec.SustainedConnectionSpec@POLYN166284 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.trogdor.workload.SustainedConnectionSpec.SustainedConnectionSpec@POLYN166716 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.trogdor.workload.SustainedConnectionSpec.SustainedConnectionSpec@POLYN166284 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.trogdor.workload.SustainedConnectionSpec.SustainedConnectionSpec@POLYN166716 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.trogdor.workload.SustainedConnectionSpec.SustainedConnectionSpec@POLYN166284 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.trogdor.workload.SustainedConnectionSpec.SustainedConnectionSpec@POLYN166716 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.trogdor.workload.SustainedConnectionSpec.SustainedConnectionSpec@POLYN166284 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.trogdor.workload.SustainedConnectionSpec.SustainedConnectionSpec@POLYN166716 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00117"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.trogdor.workload.SustainedConnectionSpec.SustainedConnectionSpec@POLYN166284 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.trogdor.workload.SustainedConnectionSpec.SustainedConnectionSpec@POLYN166716 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00117"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionSpec.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.trogdor.workload.SustainedConnectionSpec.SustainedConnectionSpec@POLYN166284 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.trogdor.workload.SustainedConnectionSpec.SustainedConnectionSpec@POLYN166716 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

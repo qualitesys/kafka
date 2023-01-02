@@ -126,42 +126,42 @@ var maDataBlocs = {
  , "c1" : "00055"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier.KTableSuppressProcessorSupplier@POLYN176422 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier.KTableSuppressProcessorSupplier@POLYN176854 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#64"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00064] For method view list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.KTableValueGetterSupplier parentKTable_valueGetterSupplierN177334|org.apache.kafka.streams.state.internals.Maybe buffer_priorValueForBufferedN178335|java.lang.String[] parentValueGetterSupplier_storeNamesN178845"
+ , "c3" : "QC-JAV000007[00064] For method view list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.KTableValueGetterSupplier parentKTable_valueGetterSupplierN177766|org.apache.kafka.streams.state.internals.Maybe buffer_priorValueForBufferedN178767|java.lang.String[] parentValueGetterSupplier_storeNamesN179277"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00103"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier.view@POLYN177217 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier.view@POLYN177649 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier.view@POLYN177217 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier.view@POLYN177649 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier.view@POLYN177217 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier.view@POLYN177649 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier.view@POLYN177217 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier.view@POLYN177649 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -189,7 +189,7 @@ var maDataBlocs = {
  , "c1" : "00142"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#142"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00142] For method init list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor ProcessorNodeMetrics_suppressionEmitSensorN181431"
+ , "c3" : "QC-JAV000007[00142] For method init list of called methods Object monObjet|Sensor ProcessorNodeMetrics_suppressionEmitSensorN181863"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -224,7 +224,7 @@ var maDataBlocs = {
  , "c1" : "00163"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#163"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00163] For method buffer list of called methods Object monObjet|long bufferTimeDefinition_timeN182473"
+ , "c3" : "QC-JAV000007[00163] For method buffer list of called methods Object monObjet|long bufferTimeDefinition_timeN182905"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -238,21 +238,21 @@ var maDataBlocs = {
  , "c1" : "00182"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier.KTableSuppressProcessor.enforceConstraints@POLYN182714 the MagicNumber/String  '%s buffer exceeded its max capacity. Currently [%d/%d] records and [%d/%d] bytes.' should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier.KTableSuppressProcessor.enforceConstraints@POLYN183146 the MagicNumber/String  '%s buffer exceeded its max capacity. Currently [%d/%d] records and [%d/%d] bytes.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00189"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier.KTableSuppressProcessor.enforceConstraints@POLYN182714 the MagicNumber/String  'The bufferFullStrategy [' should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier.KTableSuppressProcessor.enforceConstraints@POLYN183146 the MagicNumber/String  'The bufferFullStrategy [' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00190"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#190"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier.KTableSuppressProcessor.enforceConstraints@POLYN182714 the MagicNumber/String  '] is not implemented. This is a bug in Kafka Streams.' should be converted to const"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier.KTableSuppressProcessor.enforceConstraints@POLYN183146 the MagicNumber/String  '] is not implemented. This is a bug in Kafka Streams.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -266,7 +266,7 @@ var maDataBlocs = {
  , "c1" : "00200"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#200"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00200] For method emit list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.ProcessorRecordContext internalProcessorContext_recordContextN184245"
+ , "c3" : "QC-JAV000007[00200] For method emit list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.ProcessorRecordContext internalProcessorContext_recordContextN184677"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -280,7 +280,7 @@ var maDataBlocs = {
  , "c1" : "00208"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier.KTableSuppressProcessor.emit@POLYN183999 the MagicNumber/String  1.0d should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier.KTableSuppressProcessor.emit@POLYN184431 the MagicNumber/String  1.0d should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -301,7 +301,7 @@ var maDataBlocs = {
  , "c1" : "00216"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier.KTableSuppressProcessor.shouldForward@POLYN184863 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier.KTableSuppressProcessor.shouldForward@POLYN185295 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

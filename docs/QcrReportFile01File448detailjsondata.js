@@ -250,7 +250,7 @@ var maDataBlocs = {
  , "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.internals.PartitionStates.moveToEnd@POLYN169783 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.internals.PartitionStates.moveToEnd@POLYN170215 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -362,49 +362,49 @@ var maDataBlocs = {
  , "c1" : "00174"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.equals@POLYN174553 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.equals@POLYN174985 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00175"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.equals@POLYN174553 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.equals@POLYN174985 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00176"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.equals@POLYN174553 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.equals@POLYN174985 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00186"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.hashCode@POLYN175153 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.hashCode@POLYN175585 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00196"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.toString@POLYN175534 the MagicNumber/String  'PartitionState(' should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.toString@POLYN175966 the MagicNumber/String  'PartitionState(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00196"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.toString@POLYN175534 the MagicNumber/String  '=' should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.toString@POLYN175966 the MagicNumber/String  '=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00196"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.toString@POLYN175534 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.common.internals.PartitionStates.PartitionState.toString@POLYN175966 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 , 

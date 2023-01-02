@@ -203,35 +203,35 @@ var maDataBlocs = {
  , "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.acl.AclBindingFilter.AclBindingFilter@POLYN154631 the MagicNumber/String  'patternFilter' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.acl.AclBindingFilter.AclBindingFilter@POLYN155063 the MagicNumber/String  'patternFilter' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.acl.AclBindingFilter.AclBindingFilter@POLYN154631 the MagicNumber/String  'entryFilter' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.acl.AclBindingFilter.AclBindingFilter@POLYN155063 the MagicNumber/String  'entryFilter' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.acl.AclBindingFilter.toString@POLYN155470 the MagicNumber/String  '(patternFilter=' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.acl.AclBindingFilter.toString@POLYN155902 the MagicNumber/String  '(patternFilter=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.acl.AclBindingFilter.toString@POLYN155470 the MagicNumber/String  ', entryFilter=' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.acl.AclBindingFilter.toString@POLYN155902 the MagicNumber/String  ', entryFilter=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.acl.AclBindingFilter.toString@POLYN155470 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.acl.AclBindingFilter.toString@POLYN155902 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -252,35 +252,35 @@ var maDataBlocs = {
  , "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.acl.AclBindingFilter.equals@POLYN155664 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.acl.AclBindingFilter.equals@POLYN156096 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.acl.AclBindingFilter.equals@POLYN155664 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.acl.AclBindingFilter.equals@POLYN156096 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.acl.AclBindingFilter.equals@POLYN155664 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.acl.AclBindingFilter.equals@POLYN156096 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00097"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00097] For method findIndefiniteField list of called methods Object monObjet|java.lang.String patternFilter_findIndefiniteFieldN156671"
+ , "c3" : "QC-JAV000007[00097] For method findIndefiniteField list of called methods Object monObjet|java.lang.String patternFilter_findIndefiniteFieldN157103"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00099"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.acl.AclBindingFilter.findIndefiniteField@POLYN156596 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.acl.AclBindingFilter.findIndefiniteField@POLYN157028 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -301,14 +301,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.acl.AclBindingFilter.findIndefiniteField@POLYN156596"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.acl.AclBindingFilter.findIndefiniteField@POLYN157028"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00099"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html#99"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00099] In the recursive method org.apache.kafka.common.acl.AclBindingFilter.findIndefiniteField@POLYN156596 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00099] In the recursive method org.apache.kafka.common.acl.AclBindingFilter.findIndefiniteField@POLYN157028 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -139,21 +139,21 @@ var maDataBlocs = {
  , "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.record.RecordConversionStats.RecordConversionStats@POLYN147454 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.record.RecordConversionStats.RecordConversionStats@POLYN147886 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.record.RecordConversionStats.RecordConversionStats@POLYN147454 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.record.RecordConversionStats.RecordConversionStats@POLYN147886 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.record.RecordConversionStats.RecordConversionStats@POLYN147454 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.record.RecordConversionStats.RecordConversionStats@POLYN147886 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -174,7 +174,7 @@ var maDataBlocs = {
  , "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordConversionStats.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.record.RecordConversionStats.toString@POLYN148526 the MagicNumber/String  'RecordConversionStats(temporaryMemoryBytes=%d, numRecordsConverted=%d, conversionTimeNanos=%d)' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.record.RecordConversionStats.toString@POLYN148958 the MagicNumber/String  'RecordConversionStats(temporaryMemoryBytes=%d, numRecordsConverted=%d, conversionTimeNanos=%d)' should be converted to const"
 }} 
 ]
 , 

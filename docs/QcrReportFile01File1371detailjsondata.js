@@ -320,42 +320,42 @@ var maDataBlocs = {
  , "c1" : "00122"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.createLogger@POLYN228308 the MagicNumber/String  '[StandardAuthorizer ' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.createLogger@POLYN228740 the MagicNumber/String  '[StandardAuthorizer ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00122"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.createLogger@POLYN228308 the MagicNumber/String  '] ' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.createLogger@POLYN228740 the MagicNumber/String  '] ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00126"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.auditLogger@POLYN228556 the MagicNumber/String  'kafka.authorizer.logger' should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.auditLogger@POLYN228988 the MagicNumber/String  'kafka.authorizer.logger' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00130"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.createEmpty@POLYN228683 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.createEmpty@POLYN229115 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.createEmpty@POLYN228683 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.createEmpty@POLYN229115 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00132"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.createEmpty@POLYN228683 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.createEmpty@POLYN229115 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -397,7 +397,7 @@ var maDataBlocs = {
  , "c1" : "00201"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.copyWithNewAcls@POLYN230846 the MagicNumber/String  'Applied {} acl(s) from image.' should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.copyWithNewAcls@POLYN231278 the MagicNumber/String  'Applied {} acl(s) from image.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -411,49 +411,49 @@ var maDataBlocs = {
  , "c1" : "00208"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.addAcl@POLYN231652 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.addAcl@POLYN232084 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00209"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.addAcl@POLYN231652 the MagicNumber/String  'An ACL with ID ' should be converted to const"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.addAcl@POLYN232084 the MagicNumber/String  'An ACL with ID ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00209"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.addAcl@POLYN231652 the MagicNumber/String  ' already exists.' should be converted to const"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.addAcl@POLYN232084 the MagicNumber/String  ' already exists.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00213"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.addAcl@POLYN231652 the MagicNumber/String  'Unable to add the ACL with ID ' should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.addAcl@POLYN232084 the MagicNumber/String  'Unable to add the ACL with ID ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00214"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.addAcl@POLYN231652 the MagicNumber/String  ' to aclsByResource' should be converted to const"
+ , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.addAcl@POLYN232084 the MagicNumber/String  ' to aclsByResource' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00216"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.addAcl@POLYN231652 the MagicNumber/String  'Added ACL {}: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.addAcl@POLYN232084 the MagicNumber/String  'Added ACL {}: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00218"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.addAcl@POLYN231652 the MagicNumber/String  'addAcl error' should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.addAcl@POLYN232084 the MagicNumber/String  'addAcl error' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -467,49 +467,49 @@ var maDataBlocs = {
  , "c1" : "00226"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.removeAcl@POLYN232649 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.removeAcl@POLYN233081 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00227"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#227"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.removeAcl@POLYN232649 the MagicNumber/String  'ID ' should be converted to const"
+ , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.removeAcl@POLYN233081 the MagicNumber/String  'ID ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00227"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#227"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.removeAcl@POLYN232649 the MagicNumber/String  ' not found in aclsById.' should be converted to const"
+ , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.removeAcl@POLYN233081 the MagicNumber/String  ' not found in aclsById.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00230"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#230"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.removeAcl@POLYN232649 the MagicNumber/String  'Unable to remove the ACL with ID ' should be converted to const"
+ , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.removeAcl@POLYN233081 the MagicNumber/String  'Unable to remove the ACL with ID ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00231"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#231"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.removeAcl@POLYN232649 the MagicNumber/String  ' from aclsByResource' should be converted to const"
+ , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.removeAcl@POLYN233081 the MagicNumber/String  ' from aclsByResource' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00233"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#233"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.removeAcl@POLYN232649 the MagicNumber/String  'Removed ACL {}: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.removeAcl@POLYN233081 the MagicNumber/String  'Removed ACL {}: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00235"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.removeAcl@POLYN232649 the MagicNumber/String  'removeAcl error' should be converted to const"
+ , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.removeAcl@POLYN233081 the MagicNumber/String  'removeAcl error' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -530,7 +530,7 @@ var maDataBlocs = {
  , "c1" : "00280"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#280"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.authorize@POLYN234174 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.authorize@POLYN234606 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -565,70 +565,70 @@ var maDataBlocs = {
  , "c1" : "00299"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#299"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.buildAuditMessage@POLYN235282 the MagicNumber/String  'Principal = ' should be converted to const"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.buildAuditMessage@POLYN235714 the MagicNumber/String  'Principal = ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00300"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#300"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.buildAuditMessage@POLYN235282 the MagicNumber/String  ' is ' should be converted to const"
+ , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.buildAuditMessage@POLYN235714 the MagicNumber/String  ' is ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00300"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#300"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.buildAuditMessage@POLYN235282 the MagicNumber/String  'Allowed' should be converted to const"
+ , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.buildAuditMessage@POLYN235714 the MagicNumber/String  'Allowed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00300"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#300"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.buildAuditMessage@POLYN235282 the MagicNumber/String  'Denied' should be converted to const"
+ , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.buildAuditMessage@POLYN235714 the MagicNumber/String  'Denied' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00301"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#301"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.buildAuditMessage@POLYN235282 the MagicNumber/String  ' operation = ' should be converted to const"
+ , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.buildAuditMessage@POLYN235714 the MagicNumber/String  ' operation = ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00302"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#302"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.buildAuditMessage@POLYN235282 the MagicNumber/String  ' from host = ' should be converted to const"
+ , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.buildAuditMessage@POLYN235714 the MagicNumber/String  ' from host = ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00303"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#303"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.buildAuditMessage@POLYN235282 the MagicNumber/String  ' on resource = ' should be converted to const"
+ , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.buildAuditMessage@POLYN235714 the MagicNumber/String  ' on resource = ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00305"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#305"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.buildAuditMessage@POLYN235282 the MagicNumber/String  ' for request = ' should be converted to const"
+ , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.buildAuditMessage@POLYN235714 the MagicNumber/String  ' for request = ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00306"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#306"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.buildAuditMessage@POLYN235282 the MagicNumber/String  ' with resourceRefCount = ' should be converted to const"
+ , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.buildAuditMessage@POLYN235714 the MagicNumber/String  ' with resourceRefCount = ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00307"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#307"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.buildAuditMessage@POLYN235282 the MagicNumber/String  ' based on rule ' should be converted to const"
+ , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.buildAuditMessage@POLYN235714 the MagicNumber/String  ' based on rule ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -656,14 +656,14 @@ var maDataBlocs = {
  , "c1" : "00313"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#313"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.appendResourcePattern@POLYN236832 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.appendResourcePattern@POLYN237264 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00315"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#315"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.appendResourcePattern@POLYN236832 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.appendResourcePattern@POLYN237264 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -712,28 +712,28 @@ var maDataBlocs = {
  , "c1" : "00376"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#376"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.findAclRule@POLYN238542 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.findAclRule@POLYN238974 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00377"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#377"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.findAclRule@POLYN238542 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.findAclRule@POLYN238974 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00392"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#392"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.findAclRule@POLYN238542 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.findAclRule@POLYN238974 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00393"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#393"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.findAclRule@POLYN238542 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.findAclRule@POLYN238974 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -775,7 +775,7 @@ var maDataBlocs = {
  , "c1" : "00407"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#407"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00407] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.checkSection@POLYN239851 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00407] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.checkSection@POLYN240283 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -859,42 +859,42 @@ var maDataBlocs = {
  , "c1" : "00496"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#496"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00496] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.findResult@POLYN243849 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00496] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.findResult@POLYN244281 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00500"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#500"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00500] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.findResult@POLYN243849 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00500] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.findResult@POLYN244281 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00513"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#513"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.findResult@POLYN243849 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.findResult@POLYN244281 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00516"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#516"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.findResult@POLYN243849 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.findResult@POLYN244281 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00520"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#520"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00520] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.findResult@POLYN243849 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00520] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.findResult@POLYN244281 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00525"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#525"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00525] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.findResult@POLYN243849 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00525] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.findResult@POLYN244281 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -908,7 +908,7 @@ var maDataBlocs = {
  , "c1" : "00557"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#557"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00557] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.AclIterator.AclIterator@POLYN246269 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00557] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.AclIterator.AclIterator@POLYN246701 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -922,91 +922,91 @@ var maDataBlocs = {
  , "c1" : "00562"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#562"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00562] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.AclIterator.hasNext@POLYN246568 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00562] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.AclIterator.hasNext@POLYN247000 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00563"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#563"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00563] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.AclIterator.hasNext@POLYN246568 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00563] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.AclIterator.hasNext@POLYN247000 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00569"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#569"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00569] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.AclIterator.hasNext@POLYN246568 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00569] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.AclIterator.hasNext@POLYN247000 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00578"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#578"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00578] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.AclIterator.next@POLYN247084 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00578] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.AclIterator.next@POLYN247516 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00597"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#597"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00597] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.SuperUserRule.toString@POLYN247743 the MagicNumber/String  'SuperUser' should be converted to const"
+ , "c3" : "QC-JAV000010[00597] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.SuperUserRule.toString@POLYN248175 the MagicNumber/String  'SuperUser' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00615"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#615"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00615] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.DefaultRule.toString@POLYN248168 the MagicNumber/String  'DefaultAllow' should be converted to const"
+ , "c3" : "QC-JAV000010[00615] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.DefaultRule.toString@POLYN248600 the MagicNumber/String  'DefaultAllow' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00615"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#615"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00615] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.DefaultRule.toString@POLYN248168 the MagicNumber/String  'DefaultDeny' should be converted to const"
+ , "c3" : "QC-JAV000010[00615] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.DefaultRule.toString@POLYN248600 the MagicNumber/String  'DefaultDeny' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00635"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#635"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00635] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.MatchingAclRule.toString@POLYN248873 the MagicNumber/String  'MatchingAcl(acl=' should be converted to const"
+ , "c3" : "QC-JAV000010[00635] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.MatchingAclRule.toString@POLYN249305 the MagicNumber/String  'MatchingAcl(acl=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00635"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#635"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00635] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.MatchingAclRule.toString@POLYN248873 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00635] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.MatchingAclRule.toString@POLYN249305 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00644"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#644"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00644] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.MatchingAclBuilder.foundDeny@POLYN249122 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00644] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.MatchingAclBuilder.foundDeny@POLYN249554 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00648"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#648"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00648] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.MatchingAclBuilder.build@POLYN249227 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00648] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.MatchingAclBuilder.build@POLYN249659 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00650"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#650"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00650] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.MatchingAclBuilder.build@POLYN249227 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00650] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.MatchingAclBuilder.build@POLYN249659 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00653"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#653"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00653] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.MatchingAclBuilder.build@POLYN249227 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00653] In method org.apache.kafka.metadata.authorizer.StandardAuthorizerData.MatchingAclBuilder.build@POLYN249659 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

@@ -278,7 +278,7 @@ var maDataBlocs = {
  , "c1" : "00219"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImplJoin.java.html#219"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00219] For method assertWindowSettings list of called methods Object monObjet|long supplier_retentionPeriodN213588"
+ , "c3" : "QC-JAV000007[00219] For method assertWindowSettings list of called methods Object monObjet|long supplier_retentionPeriodN214020"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -299,21 +299,21 @@ var maDataBlocs = {
  , "c1" : "00221"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImplJoin.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.streams.kstream.internals.KStreamImplJoin.assertWindowSettings@POLYN213305 the MagicNumber/String  'The StoreSupplier must set retainDuplicates=true, found retainDuplicates=false' should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.streams.kstream.internals.KStreamImplJoin.assertWindowSettings@POLYN213737 the MagicNumber/String  'The StoreSupplier must set retainDuplicates=true, found retainDuplicates=false' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00226"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImplJoin.java.html#226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.streams.kstream.internals.KStreamImplJoin.assertWindowSettings@POLYN213305 the MagicNumber/String  'Window settings mismatch. WindowBytesStoreSupplier settings %s must match JoinWindows settings %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.streams.kstream.internals.KStreamImplJoin.assertWindowSettings@POLYN213737 the MagicNumber/String  'Window settings mismatch. WindowBytesStoreSupplier settings %s must match JoinWindows settings %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00227"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImplJoin.java.html#227"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.streams.kstream.internals.KStreamImplJoin.assertWindowSettings@POLYN213305 the MagicNumber/String  ' for the window size and retention period' should be converted to const"
+ , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.streams.kstream.internals.KStreamImplJoin.assertWindowSettings@POLYN213737 the MagicNumber/String  ' for the window size and retention period' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -327,21 +327,21 @@ var maDataBlocs = {
  , "c1" : "00234"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImplJoin.java.html#234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.streams.kstream.internals.KStreamImplJoin.assertUniqueStoreNames@POLYN214064 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.streams.kstream.internals.KStreamImplJoin.assertUniqueStoreNames@POLYN214496 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00235"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImplJoin.java.html#235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.streams.kstream.internals.KStreamImplJoin.assertUniqueStoreNames@POLYN214064 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.streams.kstream.internals.KStreamImplJoin.assertUniqueStoreNames@POLYN214496 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00237"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImplJoin.java.html#237"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.streams.kstream.internals.KStreamImplJoin.assertUniqueStoreNames@POLYN214064 the MagicNumber/String  'Both StoreSuppliers have the same name.  StoreSuppliers must provide unique names' should be converted to const"
+ , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.streams.kstream.internals.KStreamImplJoin.assertUniqueStoreNames@POLYN214496 the MagicNumber/String  'Both StoreSuppliers have the same name.  StoreSuppliers must provide unique names' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

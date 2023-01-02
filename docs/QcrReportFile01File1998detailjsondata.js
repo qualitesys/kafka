@@ -169,49 +169,49 @@ var maDataBlocs = {
  , "c1" : "00054"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00054] For method buildFromEndpoint list of called methods Object monObjet|java.lang.String getHostN154998|java.lang.Integer getPortN155089"
+ , "c3" : "QC-JAV000007[00054] For method buildFromEndpoint list of called methods Object monObjet|int getPortN155521"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.state.HostInfo.buildFromEndpoint@POLYN154767 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.state.HostInfo.buildFromEndpoint@POLYN155199 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.state.HostInfo.buildFromEndpoint@POLYN154767 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.state.HostInfo.buildFromEndpoint@POLYN155199 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.state.HostInfo.buildFromEndpoint@POLYN154767 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.state.HostInfo.buildFromEndpoint@POLYN155199 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.state.HostInfo.buildFromEndpoint@POLYN154767 the MagicNumber/String  'Error parsing host address %s. Expected format host:port.' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.state.HostInfo.buildFromEndpoint@POLYN155199 the MagicNumber/String  'Error parsing host address %s. Expected format host:port.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.state.HostInfo.unavailable@POLYN155584 the MagicNumber/String  'unavailable' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.state.HostInfo.unavailable@POLYN156016 the MagicNumber/String  'unavailable' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.state.HostInfo.unavailable@POLYN155584 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.state.HostInfo.unavailable@POLYN156016 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -232,70 +232,70 @@ var maDataBlocs = {
  , "c1" : "00080"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.state.HostInfo.equals@POLYN155757 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.state.HostInfo.equals@POLYN156189 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.state.HostInfo.equals@POLYN155757 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.state.HostInfo.equals@POLYN156189 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.state.HostInfo.equals@POLYN155757 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.state.HostInfo.equals@POLYN156189 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#91"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00091] For method hashCode list of called methods Object monObjet|int host_hashCodeN156429"
+ , "c3" : "QC-JAV000007[00091] For method hashCode list of called methods Object monObjet|int host_hashCodeN156861"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.state.HostInfo.hashCode@POLYN156354 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.state.HostInfo.hashCode@POLYN156786 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00107"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.streams.state.HostInfo.toString@POLYN156801 the MagicNumber/String  'HostInfo{' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.streams.state.HostInfo.toString@POLYN157233 the MagicNumber/String  'HostInfo{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.state.HostInfo.toString@POLYN156801 the MagicNumber/String  'host=\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.state.HostInfo.toString@POLYN157233 the MagicNumber/String  'host=\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.state.HostInfo.toString@POLYN156801 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.state.HostInfo.toString@POLYN157233 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.state.HostInfo.toString@POLYN156801 the MagicNumber/String  ', port=' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.state.HostInfo.toString@POLYN157233 the MagicNumber/String  ', port=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.state.HostInfo.toString@POLYN156801 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.streams.state.HostInfo.toString@POLYN157233 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

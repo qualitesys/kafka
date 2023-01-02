@@ -146,21 +146,21 @@ var maDataBlocs = {
  , "c1" : "00079"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.trogdor.workload.GaussianThroughputGenerator.GaussianThroughputGenerator@POLYN158232 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.trogdor.workload.GaussianThroughputGenerator.GaussianThroughputGenerator@POLYN158664 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.trogdor.workload.GaussianThroughputGenerator.GaussianThroughputGenerator@POLYN158232 the MagicNumber/String  100 should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.trogdor.workload.GaussianThroughputGenerator.GaussianThroughputGenerator@POLYN158664 the MagicNumber/String  100 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.trogdor.workload.GaussianThroughputGenerator.GaussianThroughputGenerator@POLYN158232 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.trogdor.workload.GaussianThroughputGenerator.GaussianThroughputGenerator@POLYN158664 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -181,42 +181,42 @@ var maDataBlocs = {
  , "c1" : "00111"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#111"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00111] For method calculateNextWindow list of called methods Object monObjet|long Time_SYSTEM_millisecondsN159557"
+ , "c3" : "QC-JAV000007[00111] For method calculateNextWindow list of called methods Object monObjet|long Time_SYSTEM_millisecondsN159989"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00113"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.trogdor.workload.GaussianThroughputGenerator.calculateNextWindow@POLYN159408 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.trogdor.workload.GaussianThroughputGenerator.calculateNextWindow@POLYN159840 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00117"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.trogdor.workload.GaussianThroughputGenerator.calculateNextWindow@POLYN159408 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.trogdor.workload.GaussianThroughputGenerator.calculateNextWindow@POLYN159840 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.trogdor.workload.GaussianThroughputGenerator.calculateNextWindow@POLYN159408 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.trogdor.workload.GaussianThroughputGenerator.calculateNextWindow@POLYN159840 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.trogdor.workload.GaussianThroughputGenerator.calculateNextWindow@POLYN159408 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.trogdor.workload.GaussianThroughputGenerator.calculateNextWindow@POLYN159840 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.trogdor.workload.GaussianThroughputGenerator.calculateNextWindow@POLYN159408 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.trogdor.workload.GaussianThroughputGenerator.calculateNextWindow@POLYN159840 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -230,14 +230,14 @@ var maDataBlocs = {
  , "c1" : "00140"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.trogdor.workload.GaussianThroughputGenerator.throttle@POLYN160380 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.trogdor.workload.GaussianThroughputGenerator.throttle@POLYN160812 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/GaussianThroughputGenerator.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.trogdor.workload.GaussianThroughputGenerator.throttle@POLYN160380 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.trogdor.workload.GaussianThroughputGenerator.throttle@POLYN160812 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 , 

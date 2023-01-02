@@ -103,7 +103,7 @@ var maDataBlocs = {
  , "c1" : "00032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.metrics.stats.WindowedSum.WindowedSum@POLYN144251 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.metrics.stats.WindowedSum.WindowedSum@POLYN144683 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -131,7 +131,7 @@ var maDataBlocs = {
  , "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.metrics.stats.WindowedSum.combine@POLYN144591 the MagicNumber/String  0.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.metrics.stats.WindowedSum.combine@POLYN145023 the MagicNumber/String  0.0 should be converted to const"
 }} 
 ]
 , 

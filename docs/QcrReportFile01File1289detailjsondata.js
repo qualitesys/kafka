@@ -101,35 +101,35 @@ var maDataBlocs = {
  , "c1" : "00053"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/CompressedRecordBatchValidationBenchmark.java.html#53"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00053] For method measureValidateMessagesAndAssignOffsetsCompressed list of called methods Object monObjet|org.apache.kafka.common.record.MemoryRecords MemoryRecords_readableRecordsN150325"
+ , "c3" : "QC-JAV000007[00053] For method measureValidateMessagesAndAssignOffsetsCompressed list of called methods Object monObjet|org.apache.kafka.common.record.MemoryRecords MemoryRecords_readableRecordsN150757"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/CompressedRecordBatchValidationBenchmark.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark.measureValidateMessagesAndAssignOffsetsCompressed@POLYN150232 the MagicNumber/String  'a' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark.measureValidateMessagesAndAssignOffsetsCompressed@POLYN150664 the MagicNumber/String  'a' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/CompressedRecordBatchValidationBenchmark.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark.measureValidateMessagesAndAssignOffsetsCompressed@POLYN150232 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark.measureValidateMessagesAndAssignOffsetsCompressed@POLYN150664 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/CompressedRecordBatchValidationBenchmark.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark.measureValidateMessagesAndAssignOffsetsCompressed@POLYN150232 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark.measureValidateMessagesAndAssignOffsetsCompressed@POLYN150664 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/CompressedRecordBatchValidationBenchmark.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark.measureValidateMessagesAndAssignOffsetsCompressed@POLYN150232 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark.measureValidateMessagesAndAssignOffsetsCompressed@POLYN150664 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

@@ -144,21 +144,21 @@ var maDataBlocs = {
  , "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ClientInformation.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.network.ClientInformation.toString@POLYN145950 the MagicNumber/String  'ClientInformation(softwareName=' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.network.ClientInformation.toString@POLYN146382 the MagicNumber/String  'ClientInformation(softwareName=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ClientInformation.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.network.ClientInformation.toString@POLYN145950 the MagicNumber/String  ', softwareVersion=' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.network.ClientInformation.toString@POLYN146382 the MagicNumber/String  ', softwareVersion=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ClientInformation.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.network.ClientInformation.toString@POLYN145950 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.network.ClientInformation.toString@POLYN146382 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -172,21 +172,21 @@ var maDataBlocs = {
  , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ClientInformation.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.network.ClientInformation.equals@POLYN146305 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.network.ClientInformation.equals@POLYN146737 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ClientInformation.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.network.ClientInformation.equals@POLYN146305 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.network.ClientInformation.equals@POLYN146737 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ClientInformation.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.network.ClientInformation.equals@POLYN146305 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.network.ClientInformation.equals@POLYN146737 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

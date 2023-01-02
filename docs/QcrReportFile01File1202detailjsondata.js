@@ -155,7 +155,7 @@ var maDataBlocs = {
  , "c1" : "00105"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.connect.util.LoggingContext.forConnector@POLYN182919 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.connect.util.LoggingContext.forConnector@POLYN183351 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -169,7 +169,7 @@ var maDataBlocs = {
  , "c1" : "00117"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.connect.util.LoggingContext.forValidation@POLYN183519 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.connect.util.LoggingContext.forValidation@POLYN183951 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -218,49 +218,49 @@ var maDataBlocs = {
  , "c1" : "00194"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.connect.util.LoggingContext.prefixFor@POLYN186587 the MagicNumber/String  '[' should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.connect.util.LoggingContext.prefixFor@POLYN187019 the MagicNumber/String  '[' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00196"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.connect.util.LoggingContext.prefixFor@POLYN186587 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.connect.util.LoggingContext.prefixFor@POLYN187019 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00198"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.connect.util.LoggingContext.prefixFor@POLYN186587 the MagicNumber/String  '|' should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.connect.util.LoggingContext.prefixFor@POLYN187019 the MagicNumber/String  '|' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00200"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#200"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.connect.util.LoggingContext.prefixFor@POLYN186587 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.connect.util.LoggingContext.prefixFor@POLYN187019 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00205"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#205"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.connect.util.LoggingContext.prefixFor@POLYN186587 the MagicNumber/String  '|' should be converted to const"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.connect.util.LoggingContext.prefixFor@POLYN187019 the MagicNumber/String  '|' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00208"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.connect.util.LoggingContext.prefixFor@POLYN186587 the MagicNumber/String  '] ' should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.connect.util.LoggingContext.prefixFor@POLYN187019 the MagicNumber/String  '] ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00226"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/LoggingContext.java.html#226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.connect.util.LoggingContext.close@POLYN188020 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.connect.util.LoggingContext.close@POLYN188452 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

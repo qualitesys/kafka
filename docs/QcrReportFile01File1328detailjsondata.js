@@ -156,7 +156,7 @@ var maDataBlocs = {
  , "c1" : "00058"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#58"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00058] For method apply list of called methods Object monObjet|V changes_getN151676"
+ , "c3" : "QC-JAV000007[00058] For method apply list of called methods Object monObjet|V changes_getN152108"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -170,7 +170,7 @@ var maDataBlocs = {
  , "c1" : "00062"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.image.ClientQuotaDelta.apply@POLYN151270 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.image.ClientQuotaDelta.apply@POLYN151702 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

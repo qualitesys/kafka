@@ -92,14 +92,14 @@ var maDataBlocs = {
  , "c1" : "00028"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.connect.storage.OffsetUtils.validateFormat@POLYN146410 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.connect.storage.OffsetUtils.validateFormat@POLYN146842 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00032"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.connect.storage.OffsetUtils.validateFormat@POLYN146410 the MagicNumber/String  'Offsets must be specified as a Map' should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.connect.storage.OffsetUtils.validateFormat@POLYN146842 the MagicNumber/String  'Offsets must be specified as a Map' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

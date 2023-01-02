@@ -311,7 +311,7 @@ var maDataBlocs = {
  , "c1" : "00118"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.connect.transforms.Cast.configure@POLYN224429 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.connect.transforms.Cast.configure@POLYN224861 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -325,14 +325,14 @@ var maDataBlocs = {
  , "c1" : "00123"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.connect.transforms.Cast.apply@POLYN225034 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.connect.transforms.Cast.apply@POLYN225466 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.connect.transforms.Cast.apply@POLYN225034 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.connect.transforms.Cast.apply@POLYN225466 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -353,35 +353,35 @@ var maDataBlocs = {
  , "c1" : "00145"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.connect.transforms.Cast.applySchemaless@POLYN225658 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.connect.transforms.Cast.applySchemaless@POLYN226090 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.connect.transforms.Cast.applySchemaless@POLYN225658 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.connect.transforms.Cast.applySchemaless@POLYN226090 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.connect.transforms.Cast.applySchemaless@POLYN225658 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.connect.transforms.Cast.applySchemaless@POLYN226090 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00153"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.connect.transforms.Cast.applySchemaless@POLYN225658 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.connect.transforms.Cast.applySchemaless@POLYN226090 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.connect.transforms.Cast.applySchemaless@POLYN225658 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.connect.transforms.Cast.applySchemaless@POLYN226090 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -416,21 +416,21 @@ var maDataBlocs = {
  , "c1" : "00163"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.connect.transforms.Cast.applyWithSchema@POLYN226917 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.connect.transforms.Cast.applyWithSchema@POLYN227349 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.connect.transforms.Cast.applyWithSchema@POLYN226917 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.connect.transforms.Cast.applyWithSchema@POLYN227349 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00174"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.connect.transforms.Cast.applyWithSchema@POLYN226917 the MagicNumber/String  'Cast field '{}' from '{}' to '{}'' should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.connect.transforms.Cast.applyWithSchema@POLYN227349 the MagicNumber/String  'Cast field '{}' from '{}' to '{}'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -465,28 +465,28 @@ var maDataBlocs = {
  , "c1" : "00182"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.connect.transforms.Cast.getOrBuildSchema@POLYN228663 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.connect.transforms.Cast.getOrBuildSchema@POLYN229095 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00186"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.connect.transforms.Cast.getOrBuildSchema@POLYN228663 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.connect.transforms.Cast.getOrBuildSchema@POLYN229095 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00195"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#195"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.connect.transforms.Cast.getOrBuildSchema@POLYN228663 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.connect.transforms.Cast.getOrBuildSchema@POLYN229095 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00208"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.connect.transforms.Cast.getOrBuildSchema@POLYN228663 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.connect.transforms.Cast.getOrBuildSchema@POLYN229095 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -500,7 +500,7 @@ var maDataBlocs = {
  , "c1" : "00235"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.connect.transforms.Cast.convertFieldType@POLYN231044 the MagicNumber/String  'Unexpected type in Cast transformation: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.connect.transforms.Cast.convertFieldType@POLYN231476 the MagicNumber/String  'Unexpected type in Cast transformation: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -535,77 +535,77 @@ var maDataBlocs = {
  , "c1" : "00253"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#253"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.connect.transforms.Cast.castValueToType@POLYN232711 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.connect.transforms.Cast.castValueToType@POLYN233143 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00253"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#253"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.connect.transforms.Cast.castValueToType@POLYN232711 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.connect.transforms.Cast.castValueToType@POLYN233143 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00255"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#255"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.connect.transforms.Cast.castValueToType@POLYN232711 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.connect.transforms.Cast.castValueToType@POLYN233143 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00257"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#257"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.connect.transforms.Cast.castValueToType@POLYN232711 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.connect.transforms.Cast.castValueToType@POLYN233143 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00258"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#258"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.connect.transforms.Cast.castValueToType@POLYN232711 the MagicNumber/String  'Cast transformation was passed a value of type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.connect.transforms.Cast.castValueToType@POLYN233143 the MagicNumber/String  'Cast transformation was passed a value of type ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00259"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#259"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00259] In method org.apache.kafka.connect.transforms.Cast.castValueToType@POLYN232711 the MagicNumber/String  ' which is not supported by Connect's data API' should be converted to const"
+ , "c3" : "QC-JAV000010[00259] In method org.apache.kafka.connect.transforms.Cast.castValueToType@POLYN233143 the MagicNumber/String  ' which is not supported by Connect's data API' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00265"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#265"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.connect.transforms.Cast.castValueToType@POLYN232711 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.connect.transforms.Cast.castValueToType@POLYN233143 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00265"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#265"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.connect.transforms.Cast.castValueToType@POLYN232711 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.connect.transforms.Cast.castValueToType@POLYN233143 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00287"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#287"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.connect.transforms.Cast.castValueToType@POLYN232711 the MagicNumber/String  ' is not supported in the Cast transformation.' should be converted to const"
+ , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.connect.transforms.Cast.castValueToType@POLYN233143 the MagicNumber/String  ' is not supported in the Cast transformation.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00290"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#290"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.connect.transforms.Cast.castValueToType@POLYN232711 the MagicNumber/String  'Value (' should be converted to const"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.connect.transforms.Cast.castValueToType@POLYN233143 the MagicNumber/String  'Value (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00290"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#290"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.connect.transforms.Cast.castValueToType@POLYN232711 the MagicNumber/String  ') was out of range for requested data type' should be converted to const"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.connect.transforms.Cast.castValueToType@POLYN233143 the MagicNumber/String  ') was out of range for requested data type' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -626,21 +626,21 @@ var maDataBlocs = {
  , "c1" : "00298"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#298"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.connect.transforms.Cast.castToInt8@POLYN234957 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.connect.transforms.Cast.castToInt8@POLYN235389 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00298"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#298"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.connect.transforms.Cast.castToInt8@POLYN234957 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.connect.transforms.Cast.castToInt8@POLYN235389 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00302"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#302"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.connect.transforms.Cast.castToInt8@POLYN234957 the MagicNumber/String  'Unexpected type in Cast transformation: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.connect.transforms.Cast.castToInt8@POLYN235389 the MagicNumber/String  'Unexpected type in Cast transformation: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -661,21 +661,21 @@ var maDataBlocs = {
  , "c1" : "00309"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#309"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.connect.transforms.Cast.castToInt16@POLYN235642 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.connect.transforms.Cast.castToInt16@POLYN236074 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00309"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#309"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.connect.transforms.Cast.castToInt16@POLYN235642 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.connect.transforms.Cast.castToInt16@POLYN236074 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00313"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#313"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.connect.transforms.Cast.castToInt16@POLYN235642 the MagicNumber/String  'Unexpected type in Cast transformation: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.connect.transforms.Cast.castToInt16@POLYN236074 the MagicNumber/String  'Unexpected type in Cast transformation: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -696,21 +696,21 @@ var maDataBlocs = {
  , "c1" : "00320"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#320"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.connect.transforms.Cast.castToInt32@POLYN236327 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.connect.transforms.Cast.castToInt32@POLYN236759 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00320"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#320"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.connect.transforms.Cast.castToInt32@POLYN236327 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.connect.transforms.Cast.castToInt32@POLYN236759 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00324"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#324"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.connect.transforms.Cast.castToInt32@POLYN236327 the MagicNumber/String  'Unexpected type in Cast transformation: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.connect.transforms.Cast.castToInt32@POLYN236759 the MagicNumber/String  'Unexpected type in Cast transformation: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -731,21 +731,21 @@ var maDataBlocs = {
  , "c1" : "00331"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#331"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.connect.transforms.Cast.castToInt64@POLYN236974 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.connect.transforms.Cast.castToInt64@POLYN237406 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00331"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#331"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.connect.transforms.Cast.castToInt64@POLYN236974 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.connect.transforms.Cast.castToInt64@POLYN237406 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00335"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#335"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00335] In method org.apache.kafka.connect.transforms.Cast.castToInt64@POLYN236974 the MagicNumber/String  'Unexpected type in Cast transformation: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00335] In method org.apache.kafka.connect.transforms.Cast.castToInt64@POLYN237406 the MagicNumber/String  'Unexpected type in Cast transformation: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -766,21 +766,21 @@ var maDataBlocs = {
  , "c1" : "00342"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#342"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.connect.transforms.Cast.castToFloat32@POLYN237659 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.connect.transforms.Cast.castToFloat32@POLYN238091 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00342"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#342"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.connect.transforms.Cast.castToFloat32@POLYN237659 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.connect.transforms.Cast.castToFloat32@POLYN238091 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00346"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#346"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00346] In method org.apache.kafka.connect.transforms.Cast.castToFloat32@POLYN237659 the MagicNumber/String  'Unexpected type in Cast transformation: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00346] In method org.apache.kafka.connect.transforms.Cast.castToFloat32@POLYN238091 the MagicNumber/String  'Unexpected type in Cast transformation: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -801,21 +801,21 @@ var maDataBlocs = {
  , "c1" : "00353"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#353"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.connect.transforms.Cast.castToFloat64@POLYN238330 the MagicNumber/String  1. should be converted to const"
+ , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.connect.transforms.Cast.castToFloat64@POLYN238762 the MagicNumber/String  1. should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00353"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#353"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.connect.transforms.Cast.castToFloat64@POLYN238330 the MagicNumber/String  0. should be converted to const"
+ , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.connect.transforms.Cast.castToFloat64@POLYN238762 the MagicNumber/String  0. should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00357"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#357"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.connect.transforms.Cast.castToFloat64@POLYN238330 the MagicNumber/String  'Unexpected type in Cast transformation: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.connect.transforms.Cast.castToFloat64@POLYN238762 the MagicNumber/String  'Unexpected type in Cast transformation: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -836,14 +836,14 @@ var maDataBlocs = {
  , "c1" : "00362"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#362"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.connect.transforms.Cast.castToBoolean@POLYN238977 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.connect.transforms.Cast.castToBoolean@POLYN239409 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00368"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#368"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.connect.transforms.Cast.castToBoolean@POLYN238977 the MagicNumber/String  'Unexpected type in Cast transformation: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.connect.transforms.Cast.castToBoolean@POLYN239409 the MagicNumber/String  'Unexpected type in Cast transformation: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -927,98 +927,98 @@ var maDataBlocs = {
  , "c1" : "00394"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#394"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00394] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN240858 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00394] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN241290 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00396"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#396"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00396] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN240858 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00396] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN241290 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00397"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#397"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00397] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN240858 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00397] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN241290 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00398"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#398"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00398] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN240858 the MagicNumber/String  'Invalid rename mapping: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00398] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN241290 the MagicNumber/String  'Invalid rename mapping: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00400"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#400"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00400] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN240858 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00400] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN241290 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00401"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#401"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00401] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN240858 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00401] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN241290 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00403"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#403"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00403] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN240858 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00403] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN241290 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00407"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#407"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00407] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN240858 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00407] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN241290 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00409"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#409"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00409] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN240858 the MagicNumber/String  'Invalid type found in casting spec: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00409] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN241290 the MagicNumber/String  'Invalid type found in casting spec: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00409"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#409"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00409] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN240858 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00409] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN241290 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00411"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#411"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN240858 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN241290 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00414"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#414"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN240858 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN241290 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00415"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#415"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00415] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN240858 the MagicNumber/String  'Cast transformations that specify a type to cast the entire value to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00415] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN241290 the MagicNumber/String  'Cast transformations that specify a type to cast the entire value to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00416"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#416"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN240858 the MagicNumber/String  'may ony specify a single cast in their spec' should be converted to const"
+ , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.connect.transforms.Cast.parseFieldTypes@POLYN241290 the MagicNumber/String  'may ony specify a single cast in their spec' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1032,28 +1032,28 @@ var maDataBlocs = {
  , "c1" : "00429"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#429"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00429] In method org.apache.kafka.connect.transforms.Cast.validCastType@POLYN243079 the MagicNumber/String  'Cast transformation does not support casting from ' should be converted to const"
+ , "c3" : "QC-JAV000010[00429] In method org.apache.kafka.connect.transforms.Cast.validCastType@POLYN243511 the MagicNumber/String  'Cast transformation does not support casting from ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00430"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#430"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.connect.transforms.Cast.validCastType@POLYN243079 the MagicNumber/String  '; supported types are ' should be converted to const"
+ , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.connect.transforms.Cast.validCastType@POLYN243511 the MagicNumber/String  '; supported types are ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00435"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#435"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00435] In method org.apache.kafka.connect.transforms.Cast.validCastType@POLYN243079 the MagicNumber/String  'Cast transformation does not support casting to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00435] In method org.apache.kafka.connect.transforms.Cast.validCastType@POLYN243511 the MagicNumber/String  'Cast transformation does not support casting to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00436"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#436"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00436] In method org.apache.kafka.connect.transforms.Cast.validCastType@POLYN243079 the MagicNumber/String  '; supported types are ' should be converted to const"
+ , "c3" : "QC-JAV000010[00436] In method org.apache.kafka.connect.transforms.Cast.validCastType@POLYN243511 the MagicNumber/String  '; supported types are ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

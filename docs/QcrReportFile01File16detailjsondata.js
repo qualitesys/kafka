@@ -173,7 +173,7 @@ var maDataBlocs = {
  , "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.ManualMetadataUpdater.ManualMetadataUpdater@POLYN148665 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.ManualMetadataUpdater.ManualMetadataUpdater@POLYN149097 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -194,7 +194,7 @@ var maDataBlocs = {
  , "c1" : "00064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.clients.ManualMetadataUpdater.isUpdateDue@POLYN149297 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.clients.ManualMetadataUpdater.isUpdateDue@POLYN149729 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

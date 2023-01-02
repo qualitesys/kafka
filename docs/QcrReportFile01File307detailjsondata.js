@@ -2,30 +2,22 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/TopicConfig.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/TopicConfig.java 0 rule violation " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/TopicConfig.java 1 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/TopicConfig.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
-{ "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.common.config.TopicConfig"
-}} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.config.TopicConfig" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "" , "link" : "" , "methodes" : [ 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/config/TopicConfig.java.png" 
-
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/config/TopicConfig.java.svg" }
-
 ] 
 , 
 "data04" : [
@@ -47,6 +39,24 @@ var maDataBlocs = {
 ]
 , 
 "data14" : [
+]
+, 
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999999"
+ , "c3" : "Syntax analysis failure on the source code"
+ , "c4" : "1"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00018"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/TopicConfig.java.html#18"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999999[00018] syntax analysis failed on file /home/runner/work/kafka/kafka/clients/src/main/java/org/apache/kafka/common/config/TopicConfig.java near following tokens and ` * limitations under the License . ` */ package org . apache . kafka . common . config ; "
+}} 
 ]
 , 
 "data15" : {

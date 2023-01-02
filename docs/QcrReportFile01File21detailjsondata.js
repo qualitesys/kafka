@@ -140,7 +140,7 @@ var maDataBlocs = {
  , "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClientUtils.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.NetworkClientUtils.isReady@POLYN160623 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.NetworkClientUtils.isReady@POLYN161055 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -154,7 +154,7 @@ var maDataBlocs = {
  , "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClientUtils.java.html#110"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00110] For method awaitReady list of called methods Object monObjet|long time_millisecondsN161808|long time_millisecondsN162110|long time_millisecondsN162962"
+ , "c3" : "QC-JAV000007[00110] For method awaitReady list of called methods Object monObjet|long time_millisecondsN162240|long time_millisecondsN162542|long time_millisecondsN163394"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -175,42 +175,42 @@ var maDataBlocs = {
  , "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClientUtils.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.NetworkClientUtils.awaitReady@POLYN161475 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.NetworkClientUtils.awaitReady@POLYN161907 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClientUtils.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.NetworkClientUtils.awaitReady@POLYN161475 the MagicNumber/String  'Timeout needs to be greater than 0' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.NetworkClientUtils.awaitReady@POLYN161907 the MagicNumber/String  'Timeout needs to be greater than 0' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClientUtils.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.NetworkClientUtils.awaitReady@POLYN161475 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.NetworkClientUtils.awaitReady@POLYN161907 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClientUtils.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.NetworkClientUtils.awaitReady@POLYN161475 the MagicNumber/String  'Connection to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.NetworkClientUtils.awaitReady@POLYN161907 the MagicNumber/String  'Connection to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClientUtils.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.NetworkClientUtils.awaitReady@POLYN161475 the MagicNumber/String  ' failed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.NetworkClientUtils.awaitReady@POLYN161907 the MagicNumber/String  ' failed.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClientUtils.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.NetworkClientUtils.awaitReady@POLYN161475 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.NetworkClientUtils.awaitReady@POLYN161907 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -259,35 +259,35 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClientUtils.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.NetworkClientUtils.sendAndReceive@POLYN163461 the MagicNumber/String  'Connection to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.NetworkClientUtils.sendAndReceive@POLYN163893 the MagicNumber/String  'Connection to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClientUtils.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.NetworkClientUtils.sendAndReceive@POLYN163461 the MagicNumber/String  ' was disconnected before the response was read' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.NetworkClientUtils.sendAndReceive@POLYN163893 the MagicNumber/String  ' was disconnected before the response was read' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClientUtils.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.NetworkClientUtils.sendAndReceive@POLYN163461 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.NetworkClientUtils.sendAndReceive@POLYN163893 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClientUtils.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.NetworkClientUtils.sendAndReceive@POLYN163461 the MagicNumber/String  'Client was shutdown before response was read' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.NetworkClientUtils.sendAndReceive@POLYN163893 the MagicNumber/String  'Client was shutdown before response was read' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClientUtils.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.NetworkClientUtils.sendAndReceive@POLYN163461 the MagicNumber/String  'Client was shutdown before response was read' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.NetworkClientUtils.sendAndReceive@POLYN163893 the MagicNumber/String  'Client was shutdown before response was read' should be converted to const"
 }} 
 ]
 , 

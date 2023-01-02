@@ -276,7 +276,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method unmap list of called methods Object monObjet|org.apache.kafka.clients.admin.internals.AdminApiLookupStrategy handler_lookupStrategyN221609|java.util.OptionalInt lookupScope_destinationBrokerIdN221723"
+ , "c3" : "QC-JAV000007[00001] For method unmap list of called methods Object monObjet|org.apache.kafka.clients.admin.internals.AdminApiLookupStrategy handler_lookupStrategyN222041|java.util.OptionalInt lookupScope_destinationBrokerIdN222155"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -381,7 +381,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method onResponse list of called methods Object monObjet|ApiResult handler_handleResponseN225718|org.apache.kafka.clients.admin.internals.AdminApiLookupStrategy handler_lookupStrategyN226125"
+ , "c3" : "QC-JAV000007[00001] For method onResponse list of called methods Object monObjet|ApiResult handler_handleResponseN226150|org.apache.kafka.clients.admin.internals.AdminApiLookupStrategy handler_lookupStrategyN226557"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -409,14 +409,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.onFailure@POLYN226531 the MagicNumber/String  'Node disconnected before response could be received for request {}. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.onFailure@POLYN226963 the MagicNumber/String  'Node disconnected before response could be received for request {}. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.onFailure@POLYN226531 the MagicNumber/String  'Will attempt retry' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.onFailure@POLYN226963 the MagicNumber/String  'Will attempt retry' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -430,7 +430,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method clearInflightRequest list of called methods Object monObjet|V requestStates_getN228350"
+ , "c3" : "QC-JAV000007[00001] For method clearInflightRequest list of called methods Object monObjet|V requestStates_getN228782"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -444,7 +444,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.clearInflightRequest@POLYN228211 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.clearInflightRequest@POLYN228643 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -549,63 +549,63 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN232914 the MagicNumber/String  'RequestSpec(' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN233346 the MagicNumber/String  'RequestSpec(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN232914 the MagicNumber/String  'name=' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN233346 the MagicNumber/String  'name=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN232914 the MagicNumber/String  ', scope=' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN233346 the MagicNumber/String  ', scope=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN232914 the MagicNumber/String  ', keys=' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN233346 the MagicNumber/String  ', keys=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN232914 the MagicNumber/String  ', request=' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN233346 the MagicNumber/String  ', request=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN232914 the MagicNumber/String  ', nextAllowedTryMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN233346 the MagicNumber/String  ', nextAllowedTryMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN232914 the MagicNumber/String  ', deadlineMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN233346 the MagicNumber/String  ', deadlineMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN232914 the MagicNumber/String  ', tries=' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN233346 the MagicNumber/String  ', tries=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN232914 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.RequestSpec.toString@POLYN233346 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -640,21 +640,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.FulfillmentScope.equals@POLYN234816 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.FulfillmentScope.equals@POLYN235248 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.FulfillmentScope.equals@POLYN234816 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.FulfillmentScope.equals@POLYN235248 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.FulfillmentScope.equals@POLYN234816 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.FulfillmentScope.equals@POLYN235248 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -675,21 +675,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method remove list of called methods Object monObjet|V map_getN236697"
+ , "c3" : "QC-JAV000007[00001] For method remove list of called methods Object monObjet|V map_getN237129"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.BiMultimap.remove@POLYN236416 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.BiMultimap.remove@POLYN236848 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.BiMultimap.remove@POLYN236416 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.clients.admin.internals.AdminApiDriver.BiMultimap.remove@POLYN236848 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

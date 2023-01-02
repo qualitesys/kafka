@@ -153,70 +153,70 @@ var maDataBlocs = {
  , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/DelegationToken.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.security.token.delegation.DelegationToken.equals@POLYN147726 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.security.token.delegation.DelegationToken.equals@POLYN148158 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/DelegationToken.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.security.token.delegation.DelegationToken.equals@POLYN147726 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.security.token.delegation.DelegationToken.equals@POLYN148158 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/DelegationToken.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.security.token.delegation.DelegationToken.equals@POLYN147726 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.security.token.delegation.DelegationToken.equals@POLYN148158 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/DelegationToken.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.security.token.delegation.DelegationToken.hashCode@POLYN148376 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.security.token.delegation.DelegationToken.hashCode@POLYN148808 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/DelegationToken.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.security.token.delegation.DelegationToken.hashCode@POLYN148376 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.security.token.delegation.DelegationToken.hashCode@POLYN148808 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/DelegationToken.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.security.token.delegation.DelegationToken.hashCode@POLYN148376 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.security.token.delegation.DelegationToken.hashCode@POLYN148808 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/DelegationToken.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.security.token.delegation.DelegationToken.toString@POLYN148760 the MagicNumber/String  'DelegationToken{' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.security.token.delegation.DelegationToken.toString@POLYN149192 the MagicNumber/String  'DelegationToken{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/DelegationToken.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.security.token.delegation.DelegationToken.toString@POLYN148760 the MagicNumber/String  'tokenInformation=' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.security.token.delegation.DelegationToken.toString@POLYN149192 the MagicNumber/String  'tokenInformation=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/DelegationToken.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.security.token.delegation.DelegationToken.toString@POLYN148760 the MagicNumber/String  ', hmac=[*******]' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.security.token.delegation.DelegationToken.toString@POLYN149192 the MagicNumber/String  ', hmac=[*******]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/DelegationToken.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.security.token.delegation.DelegationToken.toString@POLYN148760 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.security.token.delegation.DelegationToken.toString@POLYN149192 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 

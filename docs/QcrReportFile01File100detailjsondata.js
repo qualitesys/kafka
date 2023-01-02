@@ -146,14 +146,14 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureMetadata.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.clients.admin.FeatureMetadata.equals@POLYN155816 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.clients.admin.FeatureMetadata.equals@POLYN156248 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureMetadata.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.admin.FeatureMetadata.equals@POLYN155816 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.admin.FeatureMetadata.equals@POLYN156248 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -188,14 +188,14 @@ var maDataBlocs = {
  , "c1" : "00106"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureMetadata.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.clients.admin.FeatureMetadata.toString@POLYN157255 the MagicNumber/String  'FeatureMetadata{finalizedFeatures:%s, finalizedFeaturesEpoch:%s, supportedFeatures:%s}' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.clients.admin.FeatureMetadata.toString@POLYN157687 the MagicNumber/String  'FeatureMetadata{finalizedFeatures:%s, finalizedFeaturesEpoch:%s, supportedFeatures:%s}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureMetadata.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.clients.admin.FeatureMetadata.toString@POLYN157255 the MagicNumber/String  '&amp;lt;none&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.clients.admin.FeatureMetadata.toString@POLYN157687 the MagicNumber/String  '&amp;lt;none&amp;gt;' should be converted to const"
 }} 
 ]
 , 

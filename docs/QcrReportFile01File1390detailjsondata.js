@@ -198,56 +198,56 @@ var maDataBlocs = {
  , "c1" : "00104"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.raft.Batch.toString@POLYN162819 the MagicNumber/String  'Batch(' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.raft.Batch.toString@POLYN163251 the MagicNumber/String  'Batch(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.raft.Batch.toString@POLYN162819 the MagicNumber/String  'baseOffset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.raft.Batch.toString@POLYN163251 the MagicNumber/String  'baseOffset=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00106"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.raft.Batch.toString@POLYN162819 the MagicNumber/String  ', epoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.raft.Batch.toString@POLYN163251 the MagicNumber/String  ', epoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00107"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.raft.Batch.toString@POLYN162819 the MagicNumber/String  ', appendTimestamp=' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.raft.Batch.toString@POLYN163251 the MagicNumber/String  ', appendTimestamp=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.raft.Batch.toString@POLYN162819 the MagicNumber/String  ', sizeInBytes=' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.raft.Batch.toString@POLYN163251 the MagicNumber/String  ', sizeInBytes=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.raft.Batch.toString@POLYN162819 the MagicNumber/String  ', lastOffset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.raft.Batch.toString@POLYN163251 the MagicNumber/String  ', lastOffset=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.raft.Batch.toString@POLYN162819 the MagicNumber/String  ', records=' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.raft.Batch.toString@POLYN163251 the MagicNumber/String  ', records=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.raft.Batch.toString@POLYN162819 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.raft.Batch.toString@POLYN163251 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -268,21 +268,21 @@ var maDataBlocs = {
  , "c1" : "00116"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.raft.Batch.equals@POLYN163221 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.raft.Batch.equals@POLYN163653 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00117"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.raft.Batch.equals@POLYN163221 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.raft.Batch.equals@POLYN163653 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00117"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.raft.Batch.equals@POLYN163221 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.raft.Batch.equals@POLYN163653 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -310,7 +310,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/Batch.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.Batch.iterator@POLYN162699"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.Batch.iterator@POLYN163131"
 }} 
 ]
 , 

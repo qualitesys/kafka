@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.connect.tools.PredicateDoc"
-class org.apache.kafka.connect.tools.PredicateDoc {
--printPredicateHtml(PrintStream;DocInfo) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#60]]]
--printHtml(PrintStream) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#76]]]
-+main(String...) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#82]]]
-} 
-@enduml

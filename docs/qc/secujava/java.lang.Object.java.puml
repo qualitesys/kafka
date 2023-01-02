@@ -10,9 +10,9 @@ clone() : Object [[[./../.././qc/secujava/java.lang.Object.java.html#213]]]
 +toString() : String [[[./../.././qc/secujava/java.lang.Object.java.html#237]]]
 +notify() : void [[[./../.././qc/secujava/java.lang.Object.java.html#273]]]
 +notifyAll() : void [[[./../.././qc/secujava/java.lang.Object.java.html#297]]]
-+wait(long) : void [[[./../.././qc/secujava/java.lang.Object.java.html#383]]]
-+wait(long;int) : void [[[./../.././qc/secujava/java.lang.Object.java.html#447]]]
-+wait() : void [[[./../.././qc/secujava/java.lang.Object.java.html#502]]]
-finalize() : void [[[./../.././qc/secujava/java.lang.Object.java.html#553]]]
++wait(long) : void [[[./../.././qc/secujava/java.lang.Object.java.html#382]]]
++wait(long;int) : void [[[./../.././qc/secujava/java.lang.Object.java.html#446]]]
++wait() : void [[[./../.././qc/secujava/java.lang.Object.java.html#501]]]
+finalize() : void [[[./../.././qc/secujava/java.lang.Object.java.html#552]]]
 } 
 @enduml

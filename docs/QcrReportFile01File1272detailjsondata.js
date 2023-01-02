@@ -110,14 +110,14 @@ var maDataBlocs = {
  , "c1" : "00084"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.jmh.cache.LRUCacheBenchmark.setUp@POLYN152489 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.jmh.cache.LRUCacheBenchmark.setUp@POLYN152921 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00084"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.jmh.cache.LRUCacheBenchmark.setUp@POLYN152489 the MagicNumber/String  100 should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.jmh.cache.LRUCacheBenchmark.setUp@POLYN152921 the MagicNumber/String  100 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -138,7 +138,7 @@ var maDataBlocs = {
  , "c1" : "00084"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.jmh.cache.LRUCacheBenchmark.main@POLYN153517 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.jmh.cache.LRUCacheBenchmark.main@POLYN153949 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

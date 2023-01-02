@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java 100 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java 112 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.xml" 
  , "fic3"  : "" 
 }
@@ -456,6 +456,13 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999995"
+ , "c3" : "Recursivity with depth over 1 between method xx and method yy"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-JAV000003"
  , "c3" : "High risk of strong class coupling"
  , "c4" : "5"
@@ -465,7 +472,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "13"
+ , "c4" : "19"
 }}
 ,
 { "ligne" : { "" : ""
@@ -516,7 +523,7 @@ var maDataBlocs = {
  , "c1" : "00083"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.clients.producer.internals.ProducerBatch.ProducerBatch@POLYN225254 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.clients.producer.internals.ProducerBatch.ProducerBatch@POLYN225686 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -530,7 +537,7 @@ var maDataBlocs = {
  , "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.producer.internals.ProducerBatch.ProducerBatch@POLYN225489 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.producer.internals.ProducerBatch.ProducerBatch@POLYN225921 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -544,35 +551,35 @@ var maDataBlocs = {
  , "c1" : "00107"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.clients.producer.internals.ProducerBatch.tryAppend@POLYN226548 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.clients.producer.internals.ProducerBatch.tryAppend@POLYN226980 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.clients.producer.internals.ProducerBatch.tryAppend@POLYN226548 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.clients.producer.internals.ProducerBatch.tryAppend@POLYN226980 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.clients.producer.internals.ProducerBatch.tryAppend@POLYN226548 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.clients.producer.internals.ProducerBatch.tryAppend@POLYN226980 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.clients.producer.internals.ProducerBatch.tryAppend@POLYN226548 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.clients.producer.internals.ProducerBatch.tryAppend@POLYN226980 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.clients.producer.internals.ProducerBatch.tryAppend@POLYN226548 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.clients.producer.internals.ProducerBatch.tryAppend@POLYN226980 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -593,42 +600,42 @@ var maDataBlocs = {
  , "c1" : "00132"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.clients.producer.internals.ProducerBatch.tryAppendForSplit@POLYN228244 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.clients.producer.internals.ProducerBatch.tryAppendForSplit@POLYN228676 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00140"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.clients.producer.internals.ProducerBatch.tryAppendForSplit@POLYN228244 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.clients.producer.internals.ProducerBatch.tryAppendForSplit@POLYN228676 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00140"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.clients.producer.internals.ProducerBatch.tryAppendForSplit@POLYN228244 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.clients.producer.internals.ProducerBatch.tryAppendForSplit@POLYN228676 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.clients.producer.internals.ProducerBatch.tryAppendForSplit@POLYN228244 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.clients.producer.internals.ProducerBatch.tryAppendForSplit@POLYN228676 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.clients.producer.internals.ProducerBatch.tryAppendForSplit@POLYN228244 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.clients.producer.internals.ProducerBatch.tryAppendForSplit@POLYN228676 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.clients.producer.internals.ProducerBatch.tryAppendForSplit@POLYN228244 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.clients.producer.internals.ProducerBatch.tryAppendForSplit@POLYN228676 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -642,28 +649,28 @@ var maDataBlocs = {
  , "c1" : "00157"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.clients.producer.internals.ProducerBatch.abort@POLYN229856 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.clients.producer.internals.ProducerBatch.abort@POLYN230288 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00158"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.clients.producer.internals.ProducerBatch.abort@POLYN229856 the MagicNumber/String  'Batch has already been completed in final state ' should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.clients.producer.internals.ProducerBatch.abort@POLYN230288 the MagicNumber/String  'Batch has already been completed in final state ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00160"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.clients.producer.internals.ProducerBatch.abort@POLYN229856 the MagicNumber/String  'Aborting batch for partition {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.clients.producer.internals.ProducerBatch.abort@POLYN230288 the MagicNumber/String  'Aborting batch for partition {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.clients.producer.internals.ProducerBatch.isDone@POLYN230541 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.clients.producer.internals.ProducerBatch.isDone@POLYN230973 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -677,14 +684,14 @@ var maDataBlocs = {
  , "c1" : "00184"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.clients.producer.internals.ProducerBatch.complete@POLYN230875 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.clients.producer.internals.ProducerBatch.complete@POLYN231307 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00184"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.clients.producer.internals.ProducerBatch.complete@POLYN230875 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.clients.producer.internals.ProducerBatch.complete@POLYN231307 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -705,70 +712,70 @@ var maDataBlocs = {
  , "c1" : "00230"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#230"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN232606 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00232"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN232606 the MagicNumber/String  'Successfully produced messages to {} with base offset {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038 the MagicNumber/String  'Successfully produced messages to {} with base offset {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00234"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN232606 the MagicNumber/String  'Failed to produce messages to {} with base offset {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038 the MagicNumber/String  'Failed to produce messages to {} with base offset {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00237"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#237"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN232606 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00239"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#239"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN232606 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00245"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#245"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN232606 the MagicNumber/String  'ProduceResponse returned {} for {} after batch with base offset {} had already been {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038 the MagicNumber/String  'ProduceResponse returned {} for {} after batch with base offset {} had already been {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00249"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#249"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN232606 the MagicNumber/String  'Ignored state transition {} -&amp;gt; {} for {} batch with base offset {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038 the MagicNumber/String  'Ignored state transition {} -&amp;gt; {} for {} batch with base offset {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00254"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#254"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN232606 the MagicNumber/String  'A ' should be converted to const"
+ , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038 the MagicNumber/String  'A ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00254"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#254"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN232606 the MagicNumber/String  ' batch must not attempt another state change to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038 the MagicNumber/String  ' batch must not attempt another state change to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00256"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#256"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN232606 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -810,42 +817,42 @@ var maDataBlocs = {
  , "c1" : "00268"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#268"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.clients.producer.internals.ProducerBatch.completeFutureAndFireCallbacks@POLYN234395 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.clients.producer.internals.ProducerBatch.completeFutureAndFireCallbacks@POLYN234827 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00271"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#271"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.clients.producer.internals.ProducerBatch.completeFutureAndFireCallbacks@POLYN234395 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.clients.producer.internals.ProducerBatch.completeFutureAndFireCallbacks@POLYN234827 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00272"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#272"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.clients.producer.internals.ProducerBatch.completeFutureAndFireCallbacks@POLYN234395 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.clients.producer.internals.ProducerBatch.completeFutureAndFireCallbacks@POLYN234827 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00274"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#274"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.clients.producer.internals.ProducerBatch.completeFutureAndFireCallbacks@POLYN234395 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.clients.producer.internals.ProducerBatch.completeFutureAndFireCallbacks@POLYN234827 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00277"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#277"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.clients.producer.internals.ProducerBatch.completeFutureAndFireCallbacks@POLYN234395 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.clients.producer.internals.ProducerBatch.completeFutureAndFireCallbacks@POLYN234827 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00281"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#281"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00281] In method org.apache.kafka.clients.producer.internals.ProducerBatch.completeFutureAndFireCallbacks@POLYN234395 the MagicNumber/String  'Error executing user-provided callback on message for topic-partition '{}'' should be converted to const"
+ , "c3" : "QC-JAV000010[00281] In method org.apache.kafka.clients.producer.internals.ProducerBatch.completeFutureAndFireCallbacks@POLYN234827 the MagicNumber/String  'Error executing user-provided callback on message for topic-partition '{}'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -859,7 +866,7 @@ var maDataBlocs = {
  , "c1" : "00288"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#288"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00288] For method split list of called methods Object monObjet|org.apache.kafka.common.record.MemoryRecords recordsBuilder_buildN235968|Iterable memoryRecords_batchesN236064|Iterable createBatchOffAccumulatorForRecordN237628"
+ , "c3" : "QC-JAV000007[00288] For method split list of called methods Object monObjet|org.apache.kafka.common.record.MemoryRecords recordsBuilder_buildN236400|Iterable memoryRecords_batchesN236496|Iterable createBatchOffAccumulatorForRecordN238060"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -873,49 +880,49 @@ var maDataBlocs = {
  , "c1" : "00294"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#294"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.clients.producer.internals.ProducerBatch.split@POLYN235766 the MagicNumber/String  'Cannot split an empty producer batch.' should be converted to const"
+ , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.clients.producer.internals.ProducerBatch.split@POLYN236198 the MagicNumber/String  'Cannot split an empty producer batch.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00298"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#298"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.clients.producer.internals.ProducerBatch.split@POLYN235766 the MagicNumber/String  'Batch splitting cannot be used with non-compressed messages ' should be converted to const"
+ , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.clients.producer.internals.ProducerBatch.split@POLYN236198 the MagicNumber/String  'Batch splitting cannot be used with non-compressed messages ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00299"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#299"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.clients.producer.internals.ProducerBatch.split@POLYN235766 the MagicNumber/String  'with version v0 and v1' should be converted to const"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.clients.producer.internals.ProducerBatch.split@POLYN236198 the MagicNumber/String  'with version v0 and v1' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00302"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#302"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.clients.producer.internals.ProducerBatch.split@POLYN235766 the MagicNumber/String  'A producer batch should only have one record batch.' should be converted to const"
+ , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.clients.producer.internals.ProducerBatch.split@POLYN236198 the MagicNumber/String  'A producer batch should only have one record batch.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00307"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#307"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.clients.producer.internals.ProducerBatch.split@POLYN235766 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.clients.producer.internals.ProducerBatch.split@POLYN236198 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00312"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#312"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.clients.producer.internals.ProducerBatch.split@POLYN235766 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.clients.producer.internals.ProducerBatch.split@POLYN236198 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00325"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#325"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.clients.producer.internals.ProducerBatch.split@POLYN235766 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.clients.producer.internals.ProducerBatch.split@POLYN236198 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -929,7 +936,7 @@ var maDataBlocs = {
  , "c1" : "00344"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#344"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00344] For method createBatchOffAccumulatorForRecord list of called methods Object monObjet|org.apache.kafka.common.record.MemoryRecordsBuilder MemoryRecords_builderN239498"
+ , "c3" : "QC-JAV000007[00344] For method createBatchOffAccumulatorForRecord list of called methods Object monObjet|org.apache.kafka.common.record.MemoryRecordsBuilder MemoryRecords_builderN239930"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -943,35 +950,35 @@ var maDataBlocs = {
  , "c1" : "00353"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#353"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.clients.producer.internals.ProducerBatch.createBatchOffAccumulatorForRecord@POLYN238947 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.clients.producer.internals.ProducerBatch.createBatchOffAccumulatorForRecord@POLYN239379 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00354"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#354"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.clients.producer.internals.ProducerBatch.createBatchOffAccumulatorForRecord@POLYN238947 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.clients.producer.internals.ProducerBatch.createBatchOffAccumulatorForRecord@POLYN239379 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00376"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#376"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.clients.producer.internals.ProducerBatch.toString@POLYN240388 the MagicNumber/String  'ProducerBatch(topicPartition=' should be converted to const"
+ , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.clients.producer.internals.ProducerBatch.toString@POLYN240820 the MagicNumber/String  'ProducerBatch(topicPartition=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00376"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#376"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.clients.producer.internals.ProducerBatch.toString@POLYN240388 the MagicNumber/String  ', recordCount=' should be converted to const"
+ , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.clients.producer.internals.ProducerBatch.toString@POLYN240820 the MagicNumber/String  ', recordCount=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00376"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#376"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.clients.producer.internals.ProducerBatch.toString@POLYN240388 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.clients.producer.internals.ProducerBatch.toString@POLYN240820 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -992,7 +999,7 @@ var maDataBlocs = {
  , "c1" : "00395"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#395"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.clients.producer.internals.ProducerBatch.reenqueued@POLYN240954 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.clients.producer.internals.ProducerBatch.reenqueued@POLYN241386 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1006,7 +1013,7 @@ var maDataBlocs = {
  , "c1" : "00403"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#403"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00403] In method org.apache.kafka.clients.producer.internals.ProducerBatch.waitedTimeMs@POLYN241461 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00403] In method org.apache.kafka.clients.producer.internals.ProducerBatch.waitedTimeMs@POLYN241893 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1048,28 +1055,28 @@ var maDataBlocs = {
  , "c1" : "00442"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#442"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.clients.producer.internals.ProducerBatch.resetProducerState@POLYN242749 the MagicNumber/String  'Resetting sequence number of batch with current sequence {} for partition {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.clients.producer.internals.ProducerBatch.resetProducerState@POLYN243181 the MagicNumber/String  'Resetting sequence number of batch with current sequence {} for partition {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00444"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#444"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00444] In method org.apache.kafka.clients.producer.internals.ProducerBatch.resetProducerState@POLYN242749 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00444] In method org.apache.kafka.clients.producer.internals.ProducerBatch.resetProducerState@POLYN243181 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00463"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#463"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.clients.producer.internals.ProducerBatch.close@POLYN243450 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.clients.producer.internals.ProducerBatch.close@POLYN243882 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00510"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#510"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.clients.producer.internals.ProducerBatch.lastSequence@POLYN245158 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.clients.producer.internals.ProducerBatch.lastSequence@POLYN245590 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1111,105 +1118,189 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN232606"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038 ending with method org.apache.kafka.clients.producer.internals.ProducerBatch.completeFutureAndFireCallbacks@POLYN234827"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.clients.producer.internals.ProducerBatch.completeFutureAndFireCallbacks@POLYN234827"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.clients.producer.internals.ProducerBatch.completeFutureAndFireCallbacks@POLYN234827 ending with method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.clients.producer.internals.ProducerBatch.completeFutureAndFireCallbacks@POLYN234827"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.ProducerBatch.abort@POLYN229856"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.ProducerBatch.abort@POLYN230288"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00230"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#230"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00230] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN232606 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00230] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00232"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#232"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00232] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN232606 the MagicNumber/String 'Successfully produced messages to {} with base offset {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00232] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038 the MagicNumber/String 'Successfully produced messages to {} with base offset {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00234"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#234"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00234] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN232606 the MagicNumber/String 'Failed to produce messages to {} with base offset {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00234] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038 the MagicNumber/String 'Failed to produce messages to {} with base offset {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00237"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#237"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00237] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN232606 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00237] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00239"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#239"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00239] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN232606 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00239] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00245"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#245"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00245] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN232606 the MagicNumber/String 'ProduceResponse returned {} for {} after batch with base offset {} had already been {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00245] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038 the MagicNumber/String 'ProduceResponse returned {} for {} after batch with base offset {} had already been {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00249"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#249"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00249] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN232606 the MagicNumber/String 'Ignored state transition {} -&amp;gt; {} for {} batch with base offset {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00249] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038 the MagicNumber/String 'Ignored state transition {} -&amp;gt; {} for {} batch with base offset {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00254"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#254"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00254] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN232606 the MagicNumber/String ' batch must not attempt another state change to ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00254] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038 the MagicNumber/String ' batch must not attempt another state change to ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00254"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#254"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00254] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN232606 the MagicNumber/String 'A ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00254] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038 the MagicNumber/String 'A ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00256"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#256"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00256] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN232606 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00256] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.done@POLYN233038 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00268"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#268"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00268] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.completeFutureAndFireCallbacks@POLYN234827 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00271"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#271"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00271] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.completeFutureAndFireCallbacks@POLYN234827 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00272"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#272"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00272] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.completeFutureAndFireCallbacks@POLYN234827 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00274"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#274"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00274] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.completeFutureAndFireCallbacks@POLYN234827 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00277"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#277"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00277] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.completeFutureAndFireCallbacks@POLYN234827 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00281"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#281"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00281] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.completeFutureAndFireCallbacks@POLYN234827 the MagicNumber/String 'Error executing user-provided callback on message for topic-partition '{}'' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#157"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00157] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.abort@POLYN229856 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00157] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.abort@POLYN230288 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00158"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#158"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00158] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.abort@POLYN229856 the MagicNumber/String 'Batch has already been completed in final state ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00158] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.abort@POLYN230288 the MagicNumber/String 'Batch has already been completed in final state ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00160"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#160"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00160] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.abort@POLYN229856 the MagicNumber/String 'Aborting batch for partition {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00160] In the recursive method org.apache.kafka.clients.producer.internals.ProducerBatch.abort@POLYN230288 the MagicNumber/String 'Aborting batch for partition {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

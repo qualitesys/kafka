@@ -818,7 +818,7 @@ var maDataBlocs = {
  , "c1" : "00245"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#245"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519264 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519696 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -832,259 +832,259 @@ var maDataBlocs = {
  , "c1" : "00279"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#279"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00279"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#279"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  'connect-' should be converted to const"
+ , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  'connect-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00280"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#280"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  '[Worker clientId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  '[Worker clientId=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00280"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#280"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  ', groupId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  ', groupId=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00280"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#280"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  '] ' should be converted to const"
+ , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  '] ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00283"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#283"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00288"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#288"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00288"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#288"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00288"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#288"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00290"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#290"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00292"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#292"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00292"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#292"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  '-%d' should be converted to const"
+ , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  '-%d' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00292"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#292"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00294"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#294"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00296"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#296"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  'ForwardRequestExecutor-' should be converted to const"
+ , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  'ForwardRequestExecutor-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00296"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#296"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  '-%d' should be converted to const"
+ , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  '-%d' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00296"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#296"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00299"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#299"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  'StartAndStopExecutor-' should be converted to const"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  'StartAndStopExecutor-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00299"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#299"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  '-%d' should be converted to const"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  '-%d' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00299"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#299"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00302"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#302"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00304"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#304"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00305"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#305"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00306"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#306"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00307"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#307"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00310"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#310"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00318"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#318"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  'Internal request verification will be disabled for this cluster as this worker's {} configuration has been set to '{}'. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  'Internal request verification will be disabled for this cluster as this worker's {} configuration has been set to '{}'. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00319"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#319"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  'If this is not intentional, either remove the '{}' configuration from the worker config file or change its value ' should be converted to const"
+ , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  'If this is not intentional, either remove the '{}' configuration from the worker config file or change its value ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00320"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#320"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  'to '{}'. If this configuration is left as-is, the cluster will be insecure; for more information, see KIP-507: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  'to '{}'. If this configuration is left as-is, the cluster will be insecure; for more information, see KIP-507: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00321"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#321"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN519953 the MagicNumber/String  'https://cwiki.apache.org/confluence/display/KAFKA/KIP-507%3A+Securing+Internal+Connect+REST+Endpoints' should be converted to const"
+ , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerder@POLYN520385 the MagicNumber/String  'https://cwiki.apache.org/confluence/display/KAFKA/KIP-507%3A+Securing+Internal+Connect+REST+Endpoints' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00338"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#338"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.run@POLYN524960 the MagicNumber/String  'Herder starting' should be converted to const"
+ , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.run@POLYN525392 the MagicNumber/String  'Herder starting' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00343"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#343"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.run@POLYN524960 the MagicNumber/String  'Herder started' should be converted to const"
+ , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.run@POLYN525392 the MagicNumber/String  'Herder started' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00344"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.run@POLYN524960 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.run@POLYN525392 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00352"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#352"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.run@POLYN524960 the MagicNumber/String  'Herder stopped' should be converted to const"
+ , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.run@POLYN525392 the MagicNumber/String  'Herder stopped' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00355"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#355"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00355] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.run@POLYN524960 the MagicNumber/String  'Uncaught exception in herder work thread, exiting: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00355] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.run@POLYN525392 the MagicNumber/String  'Uncaught exception in herder work thread, exiting: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00356"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#356"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.run@POLYN524960 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.run@POLYN525392 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00358"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#358"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.run@POLYN524960 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.run@POLYN525392 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1119,189 +1119,189 @@ var maDataBlocs = {
  , "c1" : "00374"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#374"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00380"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#380"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  'Ensuring group membership is still active' should be converted to const"
+ , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  'Ensuring group membership is still active' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00388"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#388"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  'Woken up while ensure group membership is still active' should be converted to const"
+ , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  'Woken up while ensure group membership is still active' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00396"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#396"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00396] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  'Reclaiming write privileges for config topic after being fenced out' should be converted to const"
+ , "c3" : "QC-JAV000010[00396] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  'Reclaiming write privileges for config topic after being fenced out' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00398"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#398"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00398] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00398] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00399"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#399"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00399] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  'Successfully reclaimed write privileges for config topic after being fenced out' should be converted to const"
+ , "c3" : "QC-JAV000010[00399] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  'Successfully reclaimed write privileges for config topic after being fenced out' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00401"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#401"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00401] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  'Unable to claim write privileges for config topic. Will backoff and possibly retry if still the leader' should be converted to const"
+ , "c3" : "QC-JAV000010[00401] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  'Unable to claim write privileges for config topic. Will backoff and possibly retry if still the leader' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00406"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#406"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00406] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  'Relinquished write privileges for config topic after being fenced out, since worker is no longer the leader of the cluster' should be converted to const"
+ , "c3" : "QC-JAV000010[00406] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  'Relinquished write privileges for config topic after being fenced out, since worker is no longer the leader of the cluster' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00408"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#408"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00408] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00408] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00415"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#415"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00415] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  'Distributing new session key' should be converted to const"
+ , "c3" : "QC-JAV000010[00415] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  'Distributing new session key' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00421"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#421"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  'Failed to write new session key to config topic; forcing a read to the end of the config topic before possibly retrying' should be converted to const"
+ , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  'Failed to write new session key to config topic; forcing a read to the end of the config topic before possibly retrying' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00422"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#422"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00435"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#435"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00435] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00435] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00437"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#437"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00437] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00437] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00453"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#453"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00453] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00453] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00454"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#454"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00454] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00454] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00455"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#455"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00455] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  'Scheduled rebalance at: {} (now: {} nextRequestTimeoutMs: {}) ' should be converted to const"
+ , "c3" : "QC-JAV000010[00455] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  'Scheduled rebalance at: {} (now: {} nextRequestTimeoutMs: {}) ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00459"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#459"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00459] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00459] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00460"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#460"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00460] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  'Scheduled next key rotation at: {} (now: {} nextRequestTimeoutMs: {}) ' should be converted to const"
+ , "c3" : "QC-JAV000010[00460] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  'Scheduled next key rotation at: {} (now: {} nextRequestTimeoutMs: {}) ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00479"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#479"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00479] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00479] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00483"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#483"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00483] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00483] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00490"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#490"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00490] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00490] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00494"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#494"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00494] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00494] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00498"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#498"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00498] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00498] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00509"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#509"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  'Polling for group activity; will wait for {}ms or until poll is interrupted by ' should be converted to const"
+ , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  'Polling for group activity; will wait for {}ms or until poll is interrupted by ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00510"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#510"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  'either config backing store updates or a new external request' should be converted to const"
+ , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  'either config backing store updates or a new external request' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00516"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#516"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN525920 the MagicNumber/String  'Woken up while polling for group activity' should be converted to const"
+ , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tick@POLYN526352 the MagicNumber/String  'Woken up while polling for group activity' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1322,84 +1322,84 @@ var maDataBlocs = {
  , "c1" : "00527"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#527"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00527] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN531921 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00527] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN532353 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00527"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#527"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00527] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN531921 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00527] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN532353 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00537"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#537"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00537] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN531921 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00537] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN532353 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00538"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#538"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00538] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN531921 the MagicNumber/String  'Internal request signing is enabled but no session key has been distributed yet. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00538] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN532353 the MagicNumber/String  'Internal request signing is enabled but no session key has been distributed yet. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00539"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#539"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00539] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN531921 the MagicNumber/String  'Distributing new key now.' should be converted to const"
+ , "c3" : "QC-JAV000010[00539] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN532353 the MagicNumber/String  'Distributing new key now.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00540"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#540"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00540] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN531921 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00540] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN532353 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00542"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#542"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00542] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN531921 the MagicNumber/String  'Existing key has expired. Distributing new key now.' should be converted to const"
+ , "c3" : "QC-JAV000010[00542] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN532353 the MagicNumber/String  'Existing key has expired. Distributing new key now.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00543"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#543"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00543] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN531921 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00543] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN532353 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00546"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#546"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00546] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN531921 the MagicNumber/String  'Previously-distributed key uses different algorithm/key size ' should be converted to const"
+ , "c3" : "QC-JAV000010[00546] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN532353 the MagicNumber/String  'Previously-distributed key uses different algorithm/key size ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00547"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#547"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00547] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN531921 the MagicNumber/String  'than required by current worker configuration. Distributing new key now.' should be converted to const"
+ , "c3" : "QC-JAV000010[00547] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN532353 the MagicNumber/String  'than required by current worker configuration. Distributing new key now.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00548"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#548"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00548] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN531921 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00548] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN532353 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00552"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#552"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00552] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN531921 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00552] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN532353 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1434,56 +1434,56 @@ var maDataBlocs = {
  , "c1" : "00561"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#561"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00561] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithEager@POLYN533512 the MagicNumber/String  'Handling config updates with eager rebalancing' should be converted to const"
+ , "c3" : "QC-JAV000010[00561] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithEager@POLYN533944 the MagicNumber/String  'Handling config updates with eager rebalancing' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00571"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#571"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00571] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithEager@POLYN533512 the MagicNumber/String  'Requesting rebalance due to reconfiguration of tasks (needsReconfigRebalance: {})' should be converted to const"
+ , "c3" : "QC-JAV000010[00571] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithEager@POLYN533944 the MagicNumber/String  'Requesting rebalance due to reconfiguration of tasks (needsReconfigRebalance: {})' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00574"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#574"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00574] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithEager@POLYN533512 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00574] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithEager@POLYN533944 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00578"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#578"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00578] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithEager@POLYN533512 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00578] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithEager@POLYN533944 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00596"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#596"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00596] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithEager@POLYN533512 the MagicNumber/String  'Skipping config updates with eager rebalancing ' should be converted to const"
+ , "c3" : "QC-JAV000010[00596] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithEager@POLYN533944 the MagicNumber/String  'Skipping config updates with eager rebalancing ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00597"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#597"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00597] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithEager@POLYN533512 the MagicNumber/String  'since no config rebalance is required ' should be converted to const"
+ , "c3" : "QC-JAV000010[00597] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithEager@POLYN533944 the MagicNumber/String  'since no config rebalance is required ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00598"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#598"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00598] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithEager@POLYN533512 the MagicNumber/String  'and there are no connector config, task config, or target state changes pending' should be converted to const"
+ , "c3" : "QC-JAV000010[00598] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithEager@POLYN533944 the MagicNumber/String  'and there are no connector config, task config, or target state changes pending' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00600"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#600"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00600] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithEager@POLYN533512 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00600] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithEager@POLYN533944 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1525,56 +1525,56 @@ var maDataBlocs = {
  , "c1" : "00606"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#606"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00606] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithIncrementalCooperative@POLYN535060 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00606] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithIncrementalCooperative@POLYN535492 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00612"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#612"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00612] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithIncrementalCooperative@POLYN535060 the MagicNumber/String  'Handling config updates with incremental cooperative rebalancing' should be converted to const"
+ , "c3" : "QC-JAV000010[00612] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithIncrementalCooperative@POLYN535492 the MagicNumber/String  'Handling config updates with incremental cooperative rebalancing' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00619"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#619"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00619] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithIncrementalCooperative@POLYN535060 the MagicNumber/String  'Requesting rebalance due to reconfiguration of tasks (needsReconfigRebalance: {})' should be converted to const"
+ , "c3" : "QC-JAV000010[00619] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithIncrementalCooperative@POLYN535492 the MagicNumber/String  'Requesting rebalance due to reconfiguration of tasks (needsReconfigRebalance: {})' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00622"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#622"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00622] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithIncrementalCooperative@POLYN535060 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00622] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithIncrementalCooperative@POLYN535492 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00623"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#623"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00623] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithIncrementalCooperative@POLYN535060 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00623] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithIncrementalCooperative@POLYN535492 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00647"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#647"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00647] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithIncrementalCooperative@POLYN535060 the MagicNumber/String  'Skipping config updates with incremental cooperative rebalancing ' should be converted to const"
+ , "c3" : "QC-JAV000010[00647] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithIncrementalCooperative@POLYN535492 the MagicNumber/String  'Skipping config updates with incremental cooperative rebalancing ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00648"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#648"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00648] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithIncrementalCooperative@POLYN535060 the MagicNumber/String  'since no config rebalance is required ' should be converted to const"
+ , "c3" : "QC-JAV000010[00648] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithIncrementalCooperative@POLYN535492 the MagicNumber/String  'since no config rebalance is required ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00649"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#649"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00649] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithIncrementalCooperative@POLYN535060 the MagicNumber/String  'and there are no connector config, task config, or target state changes pending' should be converted to const"
+ , "c3" : "QC-JAV000010[00649] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateConfigsWithIncrementalCooperative@POLYN535492 the MagicNumber/String  'and there are no connector config, task config, or target state changes pending' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1588,70 +1588,70 @@ var maDataBlocs = {
  , "c1" : "00657"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#657"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00657] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processConnectorConfigUpdates@POLYN536901 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00657] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processConnectorConfigUpdates@POLYN537333 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00658"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#658"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00658] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processConnectorConfigUpdates@POLYN536901 the MagicNumber/String  'Processing connector config updates; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00658] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processConnectorConfigUpdates@POLYN537333 the MagicNumber/String  'Processing connector config updates; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00659"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#659"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00659] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processConnectorConfigUpdates@POLYN536901 the MagicNumber/String  'currently-owned connectors are {}, and to-be-updated connectors are {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00659] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processConnectorConfigUpdates@POLYN537333 the MagicNumber/String  'currently-owned connectors are {}, and to-be-updated connectors are {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00664"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#664"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00664] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processConnectorConfigUpdates@POLYN536901 the MagicNumber/String  'Skipping config update for connector {} as it is not owned by this worker' should be converted to const"
+ , "c3" : "QC-JAV000010[00664] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processConnectorConfigUpdates@POLYN537333 the MagicNumber/String  'Skipping config update for connector {} as it is not owned by this worker' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00669"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#669"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00669] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processConnectorConfigUpdates@POLYN536901 the MagicNumber/String  'Handling connector-only config update by {} connector {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00669] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processConnectorConfigUpdates@POLYN537333 the MagicNumber/String  'Handling connector-only config update by {} connector {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00670"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#670"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00670] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processConnectorConfigUpdates@POLYN536901 the MagicNumber/String  'restarting' should be converted to const"
+ , "c3" : "QC-JAV000010[00670] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processConnectorConfigUpdates@POLYN537333 the MagicNumber/String  'restarting' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00670"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#670"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00670] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processConnectorConfigUpdates@POLYN536901 the MagicNumber/String  'stopping' should be converted to const"
+ , "c3" : "QC-JAV000010[00670] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processConnectorConfigUpdates@POLYN537333 the MagicNumber/String  'stopping' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00675"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#675"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00675] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processConnectorConfigUpdates@POLYN536901 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00675] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processConnectorConfigUpdates@POLYN537333 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00676"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#676"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00676] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processConnectorConfigUpdates@POLYN536901 the MagicNumber/String  'Failed to start connector '' should be converted to const"
+ , "c3" : "QC-JAV000010[00676] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processConnectorConfigUpdates@POLYN537333 the MagicNumber/String  'Failed to start connector '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00676"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#676"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00676] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processConnectorConfigUpdates@POLYN536901 the MagicNumber/String  ''' should be converted to const"
+ , "c3" : "QC-JAV000010[00676] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processConnectorConfigUpdates@POLYN537333 the MagicNumber/String  ''' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1672,35 +1672,35 @@ var maDataBlocs = {
  , "c1" : "00684"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#684"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00684] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processTargetStateChanges@POLYN538439 the MagicNumber/String  'Processing target state updates; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00684] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processTargetStateChanges@POLYN538871 the MagicNumber/String  'Processing target state updates; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00685"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#685"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00685] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processTargetStateChanges@POLYN538439 the MagicNumber/String  'currently-known connectors are {}, and to-be-updated connectors are {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00685] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processTargetStateChanges@POLYN538871 the MagicNumber/String  'currently-known connectors are {}, and to-be-updated connectors are {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00690"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#690"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00690] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processTargetStateChanges@POLYN538439 the MagicNumber/String  'Received target state change for unknown connector: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00690] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processTargetStateChanges@POLYN538871 the MagicNumber/String  'Received target state change for unknown connector: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00697"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#697"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00697] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processTargetStateChanges@POLYN538439 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00697] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processTargetStateChanges@POLYN538871 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00698"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#698"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00698] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processTargetStateChanges@POLYN538439 the MagicNumber/String  'Failed to transition connector to target state' should be converted to const"
+ , "c3" : "QC-JAV000010[00698] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processTargetStateChanges@POLYN538871 the MagicNumber/String  'Failed to transition connector to target state' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1721,21 +1721,21 @@ var maDataBlocs = {
  , "c1" : "00711"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#711"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00711] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processTaskConfigUpdatesWithIncrementalCooperative@POLYN539562 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00711] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processTaskConfigUpdatesWithIncrementalCooperative@POLYN539994 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00714"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#714"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00714] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processTaskConfigUpdatesWithIncrementalCooperative@POLYN539562 the MagicNumber/String  'Processing task config updates with incremental cooperative rebalance protocol; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00714] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processTaskConfigUpdatesWithIncrementalCooperative@POLYN539994 the MagicNumber/String  'Processing task config updates with incremental cooperative rebalance protocol; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00715"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#715"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00715] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processTaskConfigUpdatesWithIncrementalCooperative@POLYN539562 the MagicNumber/String  'currently-owned tasks are {}, and to-be-updated tasks are {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00715] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processTaskConfigUpdatesWithIncrementalCooperative@POLYN539994 the MagicNumber/String  'currently-owned tasks are {}, and to-be-updated tasks are {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1756,14 +1756,14 @@ var maDataBlocs = {
  , "c1" : "00723"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#723"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00723] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.stopReconfiguredTasks@POLYN540288 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00723] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.stopReconfiguredTasks@POLYN540720 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00737"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#737"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00737] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.stopReconfiguredTasks@POLYN540288 the MagicNumber/String  'Handling task config update by stopping tasks {}, which will be restarted after rebalance if still assigned to this worker' should be converted to const"
+ , "c3" : "QC-JAV000010[00737] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.stopReconfiguredTasks@POLYN540720 the MagicNumber/String  'Handling task config update by stopping tasks {}, which will be restarted after rebalance if still assigned to this worker' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1777,42 +1777,42 @@ var maDataBlocs = {
  , "c1" : "00746"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#746"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00746] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.halt@POLYN541206 the MagicNumber/String  'Stopping connectors and tasks that are still assigned to this worker.' should be converted to const"
+ , "c3" : "QC-JAV000010[00746] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.halt@POLYN541638 the MagicNumber/String  'Stopping connectors and tasks that are still assigned to this worker.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00761"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#761"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00761] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.halt@POLYN541206 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00761] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.halt@POLYN541638 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00762"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#762"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00762] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.halt@POLYN541206 the MagicNumber/String  'Worker is shutting down' should be converted to const"
+ , "c3" : "QC-JAV000010[00762] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.halt@POLYN541638 the MagicNumber/String  'Worker is shutting down' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00762"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#762"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00762] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.halt@POLYN541206 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00762] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.halt@POLYN541638 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00775"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#775"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00775] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.stopServices@POLYN542539 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00775] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.stopServices@POLYN542971 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00775"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#775"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00775] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.stopServices@POLYN542539 the MagicNumber/String  '&amp;lt;unknown&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00775] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.stopServices@POLYN542971 the MagicNumber/String  '&amp;lt;unknown&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1826,28 +1826,28 @@ var maDataBlocs = {
  , "c1" : "00781"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#781"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00781] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.stop@POLYN542977 the MagicNumber/String  'Herder stopping' should be converted to const"
+ , "c3" : "QC-JAV000010[00781] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.stop@POLYN543409 the MagicNumber/String  'Herder stopping' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00783"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#783"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00783] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.stop@POLYN542977 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00783] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.stop@POLYN543409 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00801"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#801"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00801] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.stop@POLYN542977 the MagicNumber/String  'Herder stopped' should be converted to const"
+ , "c3" : "QC-JAV000010[00801] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.stop@POLYN543409 the MagicNumber/String  'Herder stopped' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00802"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#802"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00802] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.stop@POLYN542977 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00802] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.stop@POLYN543409 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1868,21 +1868,21 @@ var maDataBlocs = {
  , "c1" : "00807"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#807"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00807] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectors@POLYN544075 the MagicNumber/String  'Submitting connector listing request' should be converted to const"
+ , "c3" : "QC-JAV000010[00807] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectors@POLYN544507 the MagicNumber/String  'Submitting connector listing request' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00812"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#812"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00812] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectors@POLYN544075 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00812] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectors@POLYN544507 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00813"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#813"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00813] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectors@POLYN544075 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00813] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectors@POLYN544507 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1903,49 +1903,49 @@ var maDataBlocs = {
  , "c1" : "00821"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#821"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00821] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectorInfo@POLYN544630 the MagicNumber/String  'Submitting connector info request {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00821] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectorInfo@POLYN545062 the MagicNumber/String  'Submitting connector info request {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00826"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#826"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00826] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectorInfo@POLYN544630 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00826] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectorInfo@POLYN545062 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00830"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#830"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00830] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectorInfo@POLYN544630 the MagicNumber/String  'Connector ' should be converted to const"
+ , "c3" : "QC-JAV000010[00830] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectorInfo@POLYN545062 the MagicNumber/String  'Connector ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00830"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#830"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00830] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectorInfo@POLYN544630 the MagicNumber/String  ' not found' should be converted to const"
+ , "c3" : "QC-JAV000010[00830] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectorInfo@POLYN545062 the MagicNumber/String  ' not found' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00830"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#830"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00830] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectorInfo@POLYN544630 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00830] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectorInfo@POLYN545062 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00832"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#832"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00832] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectorInfo@POLYN544630 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00832] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectorInfo@POLYN545062 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00834"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#834"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00834] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectorInfo@POLYN544630 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00834] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectorInfo@POLYN545062 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1966,49 +1966,49 @@ var maDataBlocs = {
  , "c1" : "00842"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#842"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00842] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tasksConfig@POLYN545551 the MagicNumber/String  'Submitting tasks config request {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00842] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tasksConfig@POLYN545983 the MagicNumber/String  'Submitting tasks config request {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00847"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#847"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00847] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tasksConfig@POLYN545551 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00847] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tasksConfig@POLYN545983 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00850"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#850"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00850] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tasksConfig@POLYN545551 the MagicNumber/String  'Connector ' should be converted to const"
+ , "c3" : "QC-JAV000010[00850] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tasksConfig@POLYN545983 the MagicNumber/String  'Connector ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00850"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#850"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00850] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tasksConfig@POLYN545551 the MagicNumber/String  ' not found' should be converted to const"
+ , "c3" : "QC-JAV000010[00850] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tasksConfig@POLYN545983 the MagicNumber/String  ' not found' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00850"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#850"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00850] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tasksConfig@POLYN545551 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00850] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tasksConfig@POLYN545983 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00852"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#852"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00852] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tasksConfig@POLYN545551 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00852] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tasksConfig@POLYN545983 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00854"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#854"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00854] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tasksConfig@POLYN545551 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00854] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.tasksConfig@POLYN545983 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2029,7 +2029,7 @@ var maDataBlocs = {
  , "c1" : "00867"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#867"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00867] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectorConfig@POLYN546741 the MagicNumber/String  'Submitting connector config read request {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00867] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectorConfig@POLYN547173 the MagicNumber/String  'Submitting connector config read request {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2050,84 +2050,84 @@ var maDataBlocs = {
  , "c1" : "00875"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#875"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00875] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.deleteConnectorConfig@POLYN547090 the MagicNumber/String  'Handling connector config request {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00875] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.deleteConnectorConfig@POLYN547522 the MagicNumber/String  'Handling connector config request {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00877"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#877"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00877] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.deleteConnectorConfig@POLYN547090 the MagicNumber/String  'Only the leader can delete connector configs.' should be converted to const"
+ , "c3" : "QC-JAV000010[00877] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.deleteConnectorConfig@POLYN547522 the MagicNumber/String  'Only the leader can delete connector configs.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00877"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#877"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00877] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.deleteConnectorConfig@POLYN547090 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00877] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.deleteConnectorConfig@POLYN547522 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00878"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#878"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00878] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.deleteConnectorConfig@POLYN547090 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00878] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.deleteConnectorConfig@POLYN547522 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00882"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#882"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00882] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.deleteConnectorConfig@POLYN547090 the MagicNumber/String  'Connector ' should be converted to const"
+ , "c3" : "QC-JAV000010[00882] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.deleteConnectorConfig@POLYN547522 the MagicNumber/String  'Connector ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00882"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#882"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00882] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.deleteConnectorConfig@POLYN547090 the MagicNumber/String  ' not found' should be converted to const"
+ , "c3" : "QC-JAV000010[00882] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.deleteConnectorConfig@POLYN547522 the MagicNumber/String  ' not found' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00882"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#882"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00882] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.deleteConnectorConfig@POLYN547090 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00882] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.deleteConnectorConfig@POLYN547522 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00884"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#884"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00884] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.deleteConnectorConfig@POLYN547090 the MagicNumber/String  'Removing connector config {} {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00884] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.deleteConnectorConfig@POLYN547522 the MagicNumber/String  'Removing connector config {} {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00886"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#886"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00886] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.deleteConnectorConfig@POLYN547090 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00886] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.deleteConnectorConfig@POLYN547522 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00886"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#886"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00886] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.deleteConnectorConfig@POLYN547090 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00886] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.deleteConnectorConfig@POLYN547522 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00886"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#886"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00886] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.deleteConnectorConfig@POLYN547090 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00886] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.deleteConnectorConfig@POLYN547522 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00888"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#888"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00888] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.deleteConnectorConfig@POLYN547090 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00888] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.deleteConnectorConfig@POLYN547522 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2162,14 +2162,14 @@ var maDataBlocs = {
  , "c1" : "00914"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#914"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00914] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSinkConnectorGroupId@POLYN549621 the MagicNumber/String  'Consumer group for sink connector named ' should be converted to const"
+ , "c3" : "QC-JAV000010[00914] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSinkConnectorGroupId@POLYN550053 the MagicNumber/String  'Consumer group for sink connector named ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00915"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#915"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00915] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSinkConnectorGroupId@POLYN549621 the MagicNumber/String  ' conflicts with Connect worker group ' should be converted to const"
+ , "c3" : "QC-JAV000010[00915] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSinkConnectorGroupId@POLYN550053 the MagicNumber/String  ' conflicts with Connect worker group ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2197,91 +2197,91 @@ var maDataBlocs = {
  , "c1" : "00930"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#930"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00930] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550188 the MagicNumber/String  'This worker does not have exactly-once source support enabled.' should be converted to const"
+ , "c3" : "QC-JAV000010[00930] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550620 the MagicNumber/String  'This worker does not have exactly-once source support enabled.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00938"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#938"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00938] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550188 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00938] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550620 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00939"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#939"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00939] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550188 the MagicNumber/String  'The connector does not implement the API required for preflight validation of exactly-once ' should be converted to const"
+ , "c3" : "QC-JAV000010[00939] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550620 the MagicNumber/String  'The connector does not implement the API required for preflight validation of exactly-once ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00940"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#940"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00940] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550188 the MagicNumber/String  'source support. Please consult the documentation for the connector to determine whether it supports exactly-once ' should be converted to const"
+ , "c3" : "QC-JAV000010[00940] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550620 the MagicNumber/String  'source support. Please consult the documentation for the connector to determine whether it supports exactly-once ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00941"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#941"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00941] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550188 the MagicNumber/String  'guarantees, and then consider reconfiguring the connector to use the value \'' should be converted to const"
+ , "c3" : "QC-JAV000010[00941] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550620 the MagicNumber/String  'guarantees, and then consider reconfiguring the connector to use the value \'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00943"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#943"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00943] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550188 the MagicNumber/String  '\' for this property (which will disable this preflight check and allow the connector to be created).' should be converted to const"
+ , "c3" : "QC-JAV000010[00943] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550620 the MagicNumber/String  '\' for this property (which will disable this preflight check and allow the connector to be created).' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00945"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#945"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00945] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550188 the MagicNumber/String  'The connector does not support exactly-once delivery guarantees with the provided configuration.' should be converted to const"
+ , "c3" : "QC-JAV000010[00945] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550620 the MagicNumber/String  'The connector does not support exactly-once delivery guarantees with the provided configuration.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00947"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#947"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00947] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550188 the MagicNumber/String  'Unexpected value returned from SourceConnector::exactlyOnceSupport: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00947] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550620 the MagicNumber/String  'Unexpected value returned from SourceConnector::exactlyOnceSupport: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00952"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#952"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00952] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550188 the MagicNumber/String  'Failed while validating connector support for exactly-once guarantees' should be converted to const"
+ , "c3" : "QC-JAV000010[00952] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550620 the MagicNumber/String  'Failed while validating connector support for exactly-once guarantees' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00953"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#953"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00953] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550188 the MagicNumber/String  'An unexpected error occurred during validation' should be converted to const"
+ , "c3" : "QC-JAV000010[00953] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550620 the MagicNumber/String  'An unexpected error occurred during validation' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00955"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#955"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00955] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550188 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00955] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550620 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00956"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#956"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00956] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550188 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00956] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550620 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00958"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#958"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00958] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550188 the MagicNumber/String  '; please see the worker logs for more details.' should be converted to const"
+ , "c3" : "QC-JAV000010[00958] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorExactlyOnceSupport@POLYN550620 the MagicNumber/String  '; please see the worker logs for more details.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2309,91 +2309,91 @@ var maDataBlocs = {
  , "c1" : "00978"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#978"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00978] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552500 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00978] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552932 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00980"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#980"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00980] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552500 the MagicNumber/String  'This connector has returned a null value from its canDefineTransactionBoundaries method, which is not permitted. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00980] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552932 the MagicNumber/String  'This connector has returned a null value from its canDefineTransactionBoundaries method, which is not permitted. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00981"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#981"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00981] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552500 the MagicNumber/String  'The connector will be treated as if it cannot define its own transaction boundaries, and cannot be configured with ' should be converted to const"
+ , "c3" : "QC-JAV000010[00981] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552932 the MagicNumber/String  'The connector will be treated as if it cannot define its own transaction boundaries, and cannot be configured with ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00982"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#982"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00982] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552500 the MagicNumber/String  ''' should be converted to const"
+ , "c3" : "QC-JAV000010[00982] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552932 the MagicNumber/String  ''' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00982"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#982"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00982] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552500 the MagicNumber/String  '' set to '' should be converted to const"
+ , "c3" : "QC-JAV000010[00982] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552932 the MagicNumber/String  '' set to '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00982"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#982"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00982] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552500 the MagicNumber/String  ''.' should be converted to const"
+ , "c3" : "QC-JAV000010[00982] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552932 the MagicNumber/String  ''.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00986"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#986"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00986] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552500 the MagicNumber/String  'The connector does not support connector-defined transaction boundaries with the given configuration. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00986] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552932 the MagicNumber/String  'The connector does not support connector-defined transaction boundaries with the given configuration. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00987"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#987"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00987] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552500 the MagicNumber/String  'Please reconfigure it to use a different transaction boundary definition.' should be converted to const"
+ , "c3" : "QC-JAV000010[00987] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552932 the MagicNumber/String  'Please reconfigure it to use a different transaction boundary definition.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00990"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#990"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00990] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552500 the MagicNumber/String  'Failed while validating connector support for defining its own transaction boundaries' should be converted to const"
+ , "c3" : "QC-JAV000010[00990] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552932 the MagicNumber/String  'Failed while validating connector support for defining its own transaction boundaries' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00991"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#991"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00991] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552500 the MagicNumber/String  'An unexpected error occurred during validation' should be converted to const"
+ , "c3" : "QC-JAV000010[00991] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552932 the MagicNumber/String  'An unexpected error occurred during validation' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00993"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#993"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00993] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552500 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00993] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552932 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00994"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#994"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00994] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552500 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00994] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552932 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00996"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#996"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00996] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552500 the MagicNumber/String  '; please see the worker logs for more details.' should be converted to const"
+ , "c3" : "QC-JAV000010[00996] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSourceConnectorTransactionBoundary@POLYN552932 the MagicNumber/String  '; please see the worker logs for more details.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2428,14 +2428,14 @@ var maDataBlocs = {
  , "c1" : "01018"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1018"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01018] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectorUsesSeparateOffsetsTopicClients@POLYN555176 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01018] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectorUsesSeparateOffsetsTopicClients@POLYN555608 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01021"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1021"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01021] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectorUsesSeparateOffsetsTopicClients@POLYN555176 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[01021] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectorUsesSeparateOffsetsTopicClients@POLYN555608 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2456,112 +2456,112 @@ var maDataBlocs = {
  , "c1" : "01027"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1027"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01027] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN555711 the MagicNumber/String  'Submitting connector config write request {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01027] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN556143 the MagicNumber/String  'Submitting connector config write request {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01031"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1031"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01031] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN555711 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01031] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN556143 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01032"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1032"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01032] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN555711 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01032] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN556143 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01042"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1042"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01042] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN555711 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01042] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN556143 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01045"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1045"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01045] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN555711 the MagicNumber/String  'Handling connector config request {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01045] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN556143 the MagicNumber/String  'Handling connector config request {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01047"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1047"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01047] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN555711 the MagicNumber/String  'Only the leader can set connector configs.' should be converted to const"
+ , "c3" : "QC-JAV000010[01047] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN556143 the MagicNumber/String  'Only the leader can set connector configs.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01047"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1047"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01047] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN555711 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01047] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN556143 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01048"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1048"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01048] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN555711 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01048] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN556143 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01052"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1052"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01052] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN555711 the MagicNumber/String  'Connector ' should be converted to const"
+ , "c3" : "QC-JAV000010[01052] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN556143 the MagicNumber/String  'Connector ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01052"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1052"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01052] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN555711 the MagicNumber/String  ' already exists' should be converted to const"
+ , "c3" : "QC-JAV000010[01052] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN556143 the MagicNumber/String  ' already exists' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01052"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1052"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01052] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN555711 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01052] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN556143 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01053"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1053"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01053] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN555711 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01053] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN556143 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01056"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1056"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01056] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN555711 the MagicNumber/String  'Submitting connector config {} {} {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01056] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN556143 the MagicNumber/String  'Submitting connector config {} {} {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01064"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1064"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01064] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN555711 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01064] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN556143 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01065"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1065"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01065] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN555711 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01065] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN556143 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01070"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1070"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01070] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN555711 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01070] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putConnectorConfig@POLYN556143 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2575,35 +2575,35 @@ var maDataBlocs = {
  , "c1" : "01078"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1078"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01078] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestTaskReconfiguration@POLYN558314 the MagicNumber/String  'Submitting connector task reconfiguration request {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01078] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestTaskReconfiguration@POLYN558746 the MagicNumber/String  'Submitting connector task reconfiguration request {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01083"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1083"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01083] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestTaskReconfiguration@POLYN558314 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01083] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestTaskReconfiguration@POLYN558746 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01086"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1086"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01086] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestTaskReconfiguration@POLYN558314 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01086] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestTaskReconfiguration@POLYN558746 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01087"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1087"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01087] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestTaskReconfiguration@POLYN558314 the MagicNumber/String  'Unexpected error during task reconfiguration: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01087] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestTaskReconfiguration@POLYN558746 the MagicNumber/String  'Unexpected error during task reconfiguration: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01088"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1088"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01088] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestTaskReconfiguration@POLYN558314 the MagicNumber/String  'Task reconfiguration for {} failed unexpectedly, this connector will not be properly reconfigured unless manually triggered.' should be converted to const"
+ , "c3" : "QC-JAV000010[01088] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestTaskReconfiguration@POLYN558746 the MagicNumber/String  'Task reconfiguration for {} failed unexpectedly, this connector will not be properly reconfigured unless manually triggered.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2631,56 +2631,56 @@ var maDataBlocs = {
  , "c1" : "01096"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1096"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01096] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.taskConfigs@POLYN559033 the MagicNumber/String  'Submitting get task configuration request {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01096] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.taskConfigs@POLYN559465 the MagicNumber/String  'Submitting get task configuration request {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01101"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01101] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.taskConfigs@POLYN559033 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01101] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.taskConfigs@POLYN559465 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01104"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01104] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.taskConfigs@POLYN559033 the MagicNumber/String  'Connector ' should be converted to const"
+ , "c3" : "QC-JAV000010[01104] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.taskConfigs@POLYN559465 the MagicNumber/String  'Connector ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01104"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01104] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.taskConfigs@POLYN559033 the MagicNumber/String  ' not found' should be converted to const"
+ , "c3" : "QC-JAV000010[01104] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.taskConfigs@POLYN559465 the MagicNumber/String  ' not found' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01104"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01104] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.taskConfigs@POLYN559033 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01104] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.taskConfigs@POLYN559465 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01107"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01107] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.taskConfigs@POLYN559033 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01107] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.taskConfigs@POLYN559465 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01111"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01111] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.taskConfigs@POLYN559033 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01111] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.taskConfigs@POLYN559465 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01113"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01113] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.taskConfigs@POLYN559033 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01113] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.taskConfigs@POLYN559465 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2701,63 +2701,63 @@ var maDataBlocs = {
  , "c1" : "01121"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01121] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putTaskConfigs@POLYN560537 the MagicNumber/String  'Submitting put task configuration request {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01121] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putTaskConfigs@POLYN560969 the MagicNumber/String  'Submitting put task configuration request {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01129"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01129] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putTaskConfigs@POLYN560537 the MagicNumber/String  'Only the leader may write task configurations.' should be converted to const"
+ , "c3" : "QC-JAV000010[01129] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putTaskConfigs@POLYN560969 the MagicNumber/String  'Only the leader may write task configurations.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01129"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01129] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putTaskConfigs@POLYN560537 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01129] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putTaskConfigs@POLYN560969 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01131"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01131] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putTaskConfigs@POLYN560537 the MagicNumber/String  'Connector ' should be converted to const"
+ , "c3" : "QC-JAV000010[01131] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putTaskConfigs@POLYN560969 the MagicNumber/String  'Connector ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01131"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01131] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putTaskConfigs@POLYN560537 the MagicNumber/String  ' not found' should be converted to const"
+ , "c3" : "QC-JAV000010[01131] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putTaskConfigs@POLYN560969 the MagicNumber/String  ' not found' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01131"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01131] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putTaskConfigs@POLYN560537 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01131] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putTaskConfigs@POLYN560969 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01134"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01134] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putTaskConfigs@POLYN560537 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01134] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putTaskConfigs@POLYN560969 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01134"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01134] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putTaskConfigs@POLYN560537 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01134] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putTaskConfigs@POLYN560969 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01136"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01136] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putTaskConfigs@POLYN560537 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01136] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.putTaskConfigs@POLYN560969 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2771,7 +2771,7 @@ var maDataBlocs = {
  , "c1" : "01145"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01145] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN561915 the MagicNumber/String  'Submitting zombie fencing request {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01145] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562347 the MagicNumber/String  'Submitting zombie fencing request {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2799,112 +2799,112 @@ var maDataBlocs = {
  , "c1" : "01155"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01155] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562349 the MagicNumber/String  'Performing preflight zombie check for task {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01155] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562781 the MagicNumber/String  'Performing preflight zombie check for task {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01157"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01157] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562349 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01157] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562781 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01158"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01158] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562349 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01158] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562781 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01158"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01158] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562349 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01158] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562781 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01160"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01160] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562349 the MagicNumber/String  'connectors/' should be converted to const"
+ , "c3" : "QC-JAV000010[01160] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562781 the MagicNumber/String  'connectors/' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01160"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01160] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562349 the MagicNumber/String  '/fence' should be converted to const"
+ , "c3" : "QC-JAV000010[01160] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562781 the MagicNumber/String  '/fence' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01161"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01161] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562349 the MagicNumber/String  'Forwarding zombie fencing request for connector {} to leader at {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01161] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562781 the MagicNumber/String  'Forwarding zombie fencing request for connector {} to leader at {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01164"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01164] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562349 the MagicNumber/String  'PUT' should be converted to const"
+ , "c3" : "QC-JAV000010[01164] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562781 the MagicNumber/String  'PUT' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01164"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01164] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562349 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01164] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562781 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01164"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01164] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562349 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01164] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562781 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01164"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01164] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562349 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01164] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562781 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01165"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01165] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562349 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01165] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562781 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01165"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01165] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562349 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01165] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562781 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01167"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01167] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562349 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01167] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562781 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01171"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01171] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562349 the MagicNumber/String  'Failed to perform zombie fencing' should be converted to const"
+ , "c3" : "QC-JAV000010[01171] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562781 the MagicNumber/String  'Failed to perform zombie fencing' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01172"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01172] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562349 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01172] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN562781 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2932,203 +2932,203 @@ var maDataBlocs = {
  , "c1" : "01181"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01181] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  'Performing zombie fencing request for connector {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01181] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  'Performing zombie fencing request for connector {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01183"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1183"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01183] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  'Only the leader may perform zombie fencing.' should be converted to const"
+ , "c3" : "QC-JAV000010[01183] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  'Only the leader may perform zombie fencing.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01183"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1183"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01183] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01183] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01185"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01185] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  'Connector ' should be converted to const"
+ , "c3" : "QC-JAV000010[01185] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  'Connector ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01185"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01185] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  ' not found' should be converted to const"
+ , "c3" : "QC-JAV000010[01185] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  ' not found' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01185"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01185] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01185] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01187"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01187] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  'Connector ' should be converted to const"
+ , "c3" : "QC-JAV000010[01187] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  'Connector ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01187"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01187] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  ' is not a source connector' should be converted to const"
+ , "c3" : "QC-JAV000010[01187] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  ' is not a source connector' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01187"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01187] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01187] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01190"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1190"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01190] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  'Failed to read to end of config topic before performing zombie fencing' should be converted to const"
+ , "c3" : "QC-JAV000010[01190] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  'Failed to read to end of config topic before performing zombie fencing' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01196"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01196] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01196] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01197"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01197] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01197] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01202"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1202"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01202] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01202] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01203"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01203] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01203] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01203"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01203] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01203] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01206"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01206] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01206] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01209"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01209] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01209] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01213"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01213] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01213] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01218"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01218] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01218] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01224"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1224"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01224] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  'Skipping zombie fencing round for connector {} as all old task generations have already been fenced out' should be converted to const"
+ , "c3" : "QC-JAV000010[01224] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  'Skipping zombie fencing round for connector {} as all old task generations have already been fenced out' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01226"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01226] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01226] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01230"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1230"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01230] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  'Skipping zombie fencing round but writing task count record for connector {} ' should be converted to const"
+ , "c3" : "QC-JAV000010[01230] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  'Skipping zombie fencing round but writing task count record for connector {} ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01231"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1231"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01231] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  'as it is being brought up for the first time with exactly-once source support' should be converted to const"
+ , "c3" : "QC-JAV000010[01231] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  'as it is being brought up for the first time with exactly-once source support' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01235"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01235] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  'Skipping zombie fencing round but writing task count record for connector {} ' should be converted to const"
+ , "c3" : "QC-JAV000010[01235] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  'Skipping zombie fencing round but writing task count record for connector {} ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01236"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1236"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01236] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  'as both the most recent and the current generation of task configs only contain one task' should be converted to const"
+ , "c3" : "QC-JAV000010[01236] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  'as both the most recent and the current generation of task configs only contain one task' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01240"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1240"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01240] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01240] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01240"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1240"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01240] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01240] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01241"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1241"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01241] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01241] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01243"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1243"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01243] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564085 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01243] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN564517 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3142,7 +3142,7 @@ var maDataBlocs = {
  , "c1" : "01251"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1251"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01251] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnector@POLYN567699 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01251] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnector@POLYN568131 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3163,70 +3163,70 @@ var maDataBlocs = {
  , "c1" : "01260"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1260"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01260] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnector@POLYN567945 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01260] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnector@POLYN568377 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01263"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1263"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01263] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnector@POLYN567945 the MagicNumber/String  'Unknown connector: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01263] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnector@POLYN568377 the MagicNumber/String  'Unknown connector: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01263"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1263"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01263] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnector@POLYN567945 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01263] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnector@POLYN568377 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01264"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01264] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnector@POLYN567945 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01264] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnector@POLYN568377 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01272"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1272"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01272] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnector@POLYN567945 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01272] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnector@POLYN568377 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01275"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1275"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01275] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnector@POLYN567945 the MagicNumber/String  'Cannot restart connector since it is not assigned to this member' should be converted to const"
+ , "c3" : "QC-JAV000010[01275] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnector@POLYN568377 the MagicNumber/String  'Cannot restart connector since it is not assigned to this member' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01275"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1275"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01275] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnector@POLYN567945 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01275] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnector@POLYN568377 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01277"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1277"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01277] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnector@POLYN567945 the MagicNumber/String  'Only the leader can process restart requests.' should be converted to const"
+ , "c3" : "QC-JAV000010[01277] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnector@POLYN568377 the MagicNumber/String  'Only the leader can process restart requests.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01277"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1277"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01277] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnector@POLYN567945 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01277] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnector@POLYN568377 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01279"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1279"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01279] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnector@POLYN567945 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01279] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnector@POLYN568377 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3254,126 +3254,126 @@ var maDataBlocs = {
  , "c1" : "01289"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1289"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01289] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN569587 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01289] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN570019 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01292"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1292"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01292] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN569587 the MagicNumber/String  'Unknown connector: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01292] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN570019 the MagicNumber/String  'Unknown connector: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01292"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1292"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01292] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN569587 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01292] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN570019 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01293"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01293] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN569587 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01293] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN570019 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01296"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1296"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01296] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN569587 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01296] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN570019 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01297"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1297"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01297] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN569587 the MagicNumber/String  'Unknown task: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01297] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN570019 the MagicNumber/String  'Unknown task: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01297"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1297"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01297] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN569587 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01297] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN570019 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01298"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1298"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01298] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN569587 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01298] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN570019 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01305"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1305"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01305] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN569587 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01305] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN570019 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01305"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1305"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01305] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN569587 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01305] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN570019 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01307"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1307"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01307] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN569587 the MagicNumber/String  'Failed to start task: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01307] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN570019 the MagicNumber/String  'Failed to start task: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01307"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1307"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01307] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN569587 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01307] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN570019 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01309"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1309"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01309] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN569587 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01309] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN570019 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01312"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1312"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01312] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN569587 the MagicNumber/String  'Cannot restart task since it is not assigned to this member' should be converted to const"
+ , "c3" : "QC-JAV000010[01312] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN570019 the MagicNumber/String  'Cannot restart task since it is not assigned to this member' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01312"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1312"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01312] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN569587 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01312] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN570019 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01314"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1314"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01314] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN569587 the MagicNumber/String  'Cannot restart task since it is not assigned to this member' should be converted to const"
+ , "c3" : "QC-JAV000010[01314] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN570019 the MagicNumber/String  'Cannot restart task since it is not assigned to this member' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01314"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1314"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01314] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN569587 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01314] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN570019 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01316"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1316"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01316] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN569587 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01316] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartTask@POLYN570019 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3401,84 +3401,84 @@ var maDataBlocs = {
  , "c1" : "01332"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1332"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01332] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnectorAndTasks@POLYN571856 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01332] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnectorAndTasks@POLYN572288 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01335"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1335"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01335] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnectorAndTasks@POLYN571856 the MagicNumber/String  'Unknown connector: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01335] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnectorAndTasks@POLYN572288 the MagicNumber/String  'Unknown connector: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01335"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1335"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01335] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnectorAndTasks@POLYN571856 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01335] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnectorAndTasks@POLYN572288 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01336"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1336"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01336] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnectorAndTasks@POLYN571856 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01336] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnectorAndTasks@POLYN572288 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01344"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01344] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnectorAndTasks@POLYN571856 the MagicNumber/String  'Status for connector ' should be converted to const"
+ , "c3" : "QC-JAV000010[01344] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnectorAndTasks@POLYN572288 the MagicNumber/String  'Status for connector ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01344"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01344] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnectorAndTasks@POLYN571856 the MagicNumber/String  ' not found' should be converted to const"
+ , "c3" : "QC-JAV000010[01344] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnectorAndTasks@POLYN572288 the MagicNumber/String  ' not found' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01344"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01344] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnectorAndTasks@POLYN571856 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01344] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnectorAndTasks@POLYN572288 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01344"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01344] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnectorAndTasks@POLYN571856 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01344] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnectorAndTasks@POLYN572288 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01346"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1346"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01346] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnectorAndTasks@POLYN571856 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01346] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnectorAndTasks@POLYN572288 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01349"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1349"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01349] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnectorAndTasks@POLYN571856 the MagicNumber/String  'Only the leader can process restart requests.' should be converted to const"
+ , "c3" : "QC-JAV000010[01349] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnectorAndTasks@POLYN572288 the MagicNumber/String  'Only the leader can process restart requests.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01349"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1349"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01349] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnectorAndTasks@POLYN571856 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01349] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnectorAndTasks@POLYN572288 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01351"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1351"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01351] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnectorAndTasks@POLYN571856 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01351] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.restartConnectorAndTasks@POLYN572288 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3492,14 +3492,14 @@ var maDataBlocs = {
  , "c1" : "01376"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1376"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01376] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processRestartRequests@POLYN573668 the MagicNumber/String  'Unexpected error while trying to process ' should be converted to const"
+ , "c3" : "QC-JAV000010[01376] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processRestartRequests@POLYN574100 the MagicNumber/String  'Unexpected error while trying to process ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01376"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1376"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01376] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processRestartRequests@POLYN573668 the MagicNumber/String  ', the restart request will be skipped.' should be converted to const"
+ , "c3" : "QC-JAV000010[01376] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.processRestartRequests@POLYN574100 the MagicNumber/String  ', the restart request will be skipped.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3527,105 +3527,105 @@ var maDataBlocs = {
  , "c1" : "01391"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1391"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01391] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN574636 the MagicNumber/String  'Skipping restart of connector '{}' since no status is available: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01391] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN575068 the MagicNumber/String  'Skipping restart of connector '{}' since no status is available: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01395"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1395"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01395] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN574636 the MagicNumber/String  'Executing {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01395] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN575068 the MagicNumber/String  'Executing {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01419"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1419"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01419] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN574636 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01419] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN575068 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01420"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1420"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01420] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN574636 the MagicNumber/String  'Connector '{}' restart successful' should be converted to const"
+ , "c3" : "QC-JAV000010[01420] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN575068 the MagicNumber/String  'Connector '{}' restart successful' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01422"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1422"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01422] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN574636 the MagicNumber/String  'Connector '{}' restart failed' should be converted to const"
+ , "c3" : "QC-JAV000010[01422] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN575068 the MagicNumber/String  'Connector '{}' restart failed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01426"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1426"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01426] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN574636 the MagicNumber/String  'Connector '{}' restart failed' should be converted to const"
+ , "c3" : "QC-JAV000010[01426] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN575068 the MagicNumber/String  'Connector '{}' restart failed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01430"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1430"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01430] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN574636 the MagicNumber/String  'Restarting {} of {} tasks for {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01430] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN575068 the MagicNumber/String  'Restarting {} of {} tasks for {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01434"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1434"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01434] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN574636 the MagicNumber/String  'Task '{}' restart successful' should be converted to const"
+ , "c3" : "QC-JAV000010[01434] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN575068 the MagicNumber/String  'Task '{}' restart successful' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01436"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1436"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01436] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN574636 the MagicNumber/String  'Task '{}' restart failed' should be converted to const"
+ , "c3" : "QC-JAV000010[01436] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN575068 the MagicNumber/String  'Task '{}' restart failed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01439"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1439"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01439] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN574636 the MagicNumber/String  'Task '{}' restart failed' should be converted to const"
+ , "c3" : "QC-JAV000010[01439] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN575068 the MagicNumber/String  'Task '{}' restart failed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01442"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1442"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01442] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN574636 the MagicNumber/String  'Restarted {} of {} tasks for {} as requested' should be converted to const"
+ , "c3" : "QC-JAV000010[01442] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN575068 the MagicNumber/String  'Restarted {} of {} tasks for {} as requested' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01444"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1444"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01444] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN574636 the MagicNumber/String  'Completed {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01444] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN575068 the MagicNumber/String  'Completed {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01449"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1449"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01449] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.isLeader@POLYN578005 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01449] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.isLeader@POLYN578437 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01456"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1456"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01456] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.leaderUrl@POLYN578305 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01456] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.leaderUrl@POLYN578737 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01457"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1457"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01457] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.leaderUrl@POLYN578305 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01457] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.leaderUrl@POLYN578737 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3653,196 +3653,196 @@ var maDataBlocs = {
  , "c1" : "01474"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1474"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01474] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.writeToConfigTopicAsLeader@POLYN579008 the MagicNumber/String  'Failed to write to config topic as leader; will rejoin group if necessary and, if still leader, attempt to reclaim write privileges for the config topic' should be converted to const"
+ , "c3" : "QC-JAV000010[01474] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.writeToConfigTopicAsLeader@POLYN579440 the MagicNumber/String  'Failed to write to config topic as leader; will rejoin group if necessary and, if still leader, attempt to reclaim write privileges for the config topic' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01475"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1475"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01475] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.writeToConfigTopicAsLeader@POLYN579008 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01475] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.writeToConfigTopicAsLeader@POLYN579440 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01476"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1476"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01476] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.writeToConfigTopicAsLeader@POLYN579008 the MagicNumber/String  'Failed to write to config topic; this may be due to a transient error and the request can be safely retried' should be converted to const"
+ , "c3" : "QC-JAV000010[01476] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.writeToConfigTopicAsLeader@POLYN579440 the MagicNumber/String  'Failed to write to config topic; this may be due to a transient error and the request can be safely retried' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01488"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1488"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01488] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  'Returning early because rebalance is marked as resolved (rebalanceResolved: true)' should be converted to const"
+ , "c3" : "QC-JAV000010[01488] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  'Returning early because rebalance is marked as resolved (rebalanceResolved: true)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01489"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1489"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01489] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01489] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01491"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1491"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01491] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  'Handling completed but unresolved rebalance' should be converted to const"
+ , "c3" : "QC-JAV000010[01491] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  'Handling completed but unresolved rebalance' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01504"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1504"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01504] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01504] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01505"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1505"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01505] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01505] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01507"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1507"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01507] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01507] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01509"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1509"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01509] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  'Join group completed, but assignment failed and we are the leader. Reading to end of config and retrying.' should be converted to const"
+ , "c3" : "QC-JAV000010[01509] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  'Join group completed, but assignment failed and we are the leader. Reading to end of config and retrying.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01510"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1510"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01510] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01510] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01512"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1512"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01512] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  'Join group completed, but assignment failed and we lagging. Reading to end of config and retrying.' should be converted to const"
+ , "c3" : "QC-JAV000010[01512] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  'Join group completed, but assignment failed and we lagging. Reading to end of config and retrying.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01513"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1513"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01513] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01513] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01515"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1515"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01515] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  'Join group completed, but assignment failed. We were up to date, so just retrying.' should be converted to const"
+ , "c3" : "QC-JAV000010[01515] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  'Join group completed, but assignment failed. We were up to date, so just retrying.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01519"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1519"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01519] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  'Catching up to assignment's config offset.' should be converted to const"
+ , "c3" : "QC-JAV000010[01519] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  'Catching up to assignment's config offset.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01520"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1520"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01520] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01520] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01526"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1526"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01526] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  'Requesting rebalance because scheduled rebalance timeout has been reached ' should be converted to const"
+ , "c3" : "QC-JAV000010[01526] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  'Requesting rebalance because scheduled rebalance timeout has been reached ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01527"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1527"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01527] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  '(now: {} scheduledRebalance: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01527] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  '(now: {} scheduledRebalance: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01529"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1529"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01529] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01529] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01539"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1539"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01539] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01539] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01541"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1541"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01541] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01541] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01542"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1542"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01542] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01542] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01548"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1548"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01548] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01548] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01554"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1554"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01554] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  'Current config state offset {} does not match group assignment {}. Forcing rebalance.' should be converted to const"
+ , "c3" : "QC-JAV000010[01554] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  'Current config state offset {} does not match group assignment {}. Forcing rebalance.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01556"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1556"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01556] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01556] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01565"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1565"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01565] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01565] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01571"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1571"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01571] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01571] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01573"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1573"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01573] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN579588 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01573] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN580020 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3856,35 +3856,35 @@ var maDataBlocs = {
  , "c1" : "01584"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1584"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01584] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.readConfigToEnd@POLYN582962 the MagicNumber/String  'Current config state offset {} is behind group assignment {}, reading to end of config log' should be converted to const"
+ , "c3" : "QC-JAV000010[01584] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.readConfigToEnd@POLYN583394 the MagicNumber/String  'Current config state offset {} is behind group assignment {}, reading to end of config log' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01586"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1586"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01586] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.readConfigToEnd@POLYN582962 the MagicNumber/String  'Reading to end of config log; current config state offset: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01586] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.readConfigToEnd@POLYN583394 the MagicNumber/String  'Reading to end of config log; current config state offset: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01590"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1590"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01590] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.readConfigToEnd@POLYN582962 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01590] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.readConfigToEnd@POLYN583394 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01594"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1594"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01594] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.readConfigToEnd@POLYN582962 the MagicNumber/String  'taking too long to read the log' should be converted to const"
+ , "c3" : "QC-JAV000010[01594] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.readConfigToEnd@POLYN583394 the MagicNumber/String  'taking too long to read the log' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01596"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1596"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01596] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.readConfigToEnd@POLYN582962 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01596] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.readConfigToEnd@POLYN583394 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3898,35 +3898,35 @@ var maDataBlocs = {
  , "c1" : "01609"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1609"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01609] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.refreshConfigSnapshot@POLYN583953 the MagicNumber/String  'Finished reading to end of log and updated config snapshot, new config log offset: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01609] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.refreshConfigSnapshot@POLYN584385 the MagicNumber/String  'Finished reading to end of log and updated config snapshot, new config log offset: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01610"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1610"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01610] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.refreshConfigSnapshot@POLYN583953 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01610] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.refreshConfigSnapshot@POLYN584385 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01612"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1612"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01612] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.refreshConfigSnapshot@POLYN583953 the MagicNumber/String  'Didn't reach end of config log quickly enough' should be converted to const"
+ , "c3" : "QC-JAV000010[01612] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.refreshConfigSnapshot@POLYN584385 the MagicNumber/String  'Didn't reach end of config log quickly enough' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01613"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1613"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01613] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.refreshConfigSnapshot@POLYN583953 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01613] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.refreshConfigSnapshot@POLYN584385 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01614"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1614"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01614] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.refreshConfigSnapshot@POLYN583953 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01614] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.refreshConfigSnapshot@POLYN584385 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3947,28 +3947,28 @@ var maDataBlocs = {
  , "c1" : "01624"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1624"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01624] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.backoff@POLYN584599 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01624] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.backoff@POLYN585031 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01626"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1626"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01626] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.backoff@POLYN584599 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[01626] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.backoff@POLYN585031 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01636"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1636"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01636] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.backoff@POLYN584599 the MagicNumber/String  'Revoking current running assignment {} because after {} retries the worker ' should be converted to const"
+ , "c3" : "QC-JAV000010[01636] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.backoff@POLYN585031 the MagicNumber/String  'Revoking current running assignment {} because after {} retries the worker ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01637"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1637"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01637] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.backoff@POLYN584599 the MagicNumber/String  'has not caught up with the latest Connect cluster updates' should be converted to const"
+ , "c3" : "QC-JAV000010[01637] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.backoff@POLYN585031 the MagicNumber/String  'has not caught up with the latest Connect cluster updates' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4003,35 +4003,35 @@ var maDataBlocs = {
  , "c1" : "01659"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1659"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01659] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startWork@POLYN585888 the MagicNumber/String  'Starting connectors and tasks using config offset {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01659] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startWork@POLYN586320 the MagicNumber/String  'Starting connectors and tasks using config offset {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01660"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1660"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01660] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startWork@POLYN585888 the MagicNumber/String  'Received assignment: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01660] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startWork@POLYN586320 the MagicNumber/String  'Received assignment: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01661"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1661"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01661] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startWork@POLYN585888 the MagicNumber/String  'Currently running assignment: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01661] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startWork@POLYN586320 the MagicNumber/String  'Currently running assignment: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01671"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1671"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01671] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startWork@POLYN585888 the MagicNumber/String  'Tasks to restart from currently running assignment: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01671] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startWork@POLYN586320 the MagicNumber/String  'Tasks to restart from currently running assignment: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01687"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1687"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01687] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startWork@POLYN585888 the MagicNumber/String  'Finished starting connectors and tasks' should be converted to const"
+ , "c3" : "QC-JAV000010[01687] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startWork@POLYN586320 the MagicNumber/String  'Finished starting connectors and tasks' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4059,35 +4059,35 @@ var maDataBlocs = {
  , "c1" : "01701"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1701"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01701] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startTask@POLYN588054 the MagicNumber/String  'Starting task {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01701] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startTask@POLYN588486 the MagicNumber/String  'Starting task {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01729"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1729"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01729] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startTask@POLYN588054 the MagicNumber/String  'Interrupted while attempting to perform round of zombie fencing' should be converted to const"
+ , "c3" : "QC-JAV000010[01729] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startTask@POLYN588486 the MagicNumber/String  'Interrupted while attempting to perform round of zombie fencing' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01732"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1732"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01732] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startTask@POLYN588054 the MagicNumber/String  'Failed to perform round of zombie fencing' should be converted to const"
+ , "c3" : "QC-JAV000010[01732] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startTask@POLYN588486 the MagicNumber/String  'Failed to perform round of zombie fencing' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01750"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1750"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01750] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startTask@POLYN588054 the MagicNumber/String  'Failed to start task ' should be converted to const"
+ , "c3" : "QC-JAV000010[01750] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startTask@POLYN588486 the MagicNumber/String  'Failed to start task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01750"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1750"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01750] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startTask@POLYN588054 the MagicNumber/String  ' since it is not a recognizable type (source or sink)' should be converted to const"
+ , "c3" : "QC-JAV000010[01750] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startTask@POLYN588486 the MagicNumber/String  ' since it is not a recognizable type (source or sink)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4101,14 +4101,14 @@ var maDataBlocs = {
  , "c1" : "01759"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1759"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01759] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.getTaskStartingCallable@POLYN590503 the MagicNumber/String  'Couldn't instantiate task {} because it has an invalid task configuration. This task will not execute until reconfigured.' should be converted to const"
+ , "c3" : "QC-JAV000010[01759] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.getTaskStartingCallable@POLYN590935 the MagicNumber/String  'Couldn't instantiate task {} because it has an invalid task configuration. This task will not execute until reconfigured.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01763"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1763"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01763] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.getTaskStartingCallable@POLYN590503 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01763] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.getTaskStartingCallable@POLYN590935 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4122,7 +4122,7 @@ var maDataBlocs = {
  , "c1" : "01770"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1770"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01770] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.getTaskStoppingCallable@POLYN591023 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01770] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.getTaskStoppingCallable@POLYN591455 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4143,63 +4143,63 @@ var maDataBlocs = {
  , "c1" : "01778"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1778"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01778] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startConnector@POLYN591252 the MagicNumber/String  'Starting connector {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01778] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startConnector@POLYN591684 the MagicNumber/String  'Starting connector {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01783"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1783"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01783] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startConnector@POLYN591252 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01783] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startConnector@POLYN591684 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01784"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1784"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01784] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startConnector@POLYN591252 the MagicNumber/String  'Failed to start connector: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01784] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startConnector@POLYN591684 the MagicNumber/String  'Failed to start connector: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01784"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1784"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01784] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startConnector@POLYN591252 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01784] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startConnector@POLYN591684 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01796"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1796"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01796] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startConnector@POLYN591252 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01796] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startConnector@POLYN591684 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01796"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1796"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01796] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startConnector@POLYN591252 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01796] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startConnector@POLYN591684 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01797"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1797"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01797] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startConnector@POLYN591252 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01797] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startConnector@POLYN591684 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01802"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1802"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01802] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startConnector@POLYN591252 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01802] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startConnector@POLYN591684 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01802"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1802"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01802] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startConnector@POLYN591252 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01802] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.startConnector@POLYN591684 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4213,35 +4213,35 @@ var maDataBlocs = {
  , "c1" : "01812"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1812"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01812] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.getConnectorStartingCallable@POLYN592971 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01812] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.getConnectorStartingCallable@POLYN593403 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01813"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1813"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01813] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.getConnectorStartingCallable@POLYN592971 the MagicNumber/String  'Failed to start connector '' should be converted to const"
+ , "c3" : "QC-JAV000010[01813] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.getConnectorStartingCallable@POLYN593403 the MagicNumber/String  'Failed to start connector '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01813"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1813"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01813] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.getConnectorStartingCallable@POLYN592971 the MagicNumber/String  ''' should be converted to const"
+ , "c3" : "QC-JAV000010[01813] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.getConnectorStartingCallable@POLYN593403 the MagicNumber/String  ''' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01817"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1817"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01817] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.getConnectorStartingCallable@POLYN592971 the MagicNumber/String  'Unexpected error while trying to start connector ' should be converted to const"
+ , "c3" : "QC-JAV000010[01817] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.getConnectorStartingCallable@POLYN593403 the MagicNumber/String  'Unexpected error while trying to start connector ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01820"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1820"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01820] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.getConnectorStartingCallable@POLYN592971 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01820] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.getConnectorStartingCallable@POLYN593403 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4255,14 +4255,14 @@ var maDataBlocs = {
  , "c1" : "01829"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1829"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01829] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.getConnectorStoppingCallable@POLYN593763 the MagicNumber/String  'Failed to shut down connector ' should be converted to const"
+ , "c3" : "QC-JAV000010[01829] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.getConnectorStoppingCallable@POLYN594195 the MagicNumber/String  'Failed to shut down connector ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01831"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1831"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01831] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.getConnectorStoppingCallable@POLYN593763 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01831] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.getConnectorStoppingCallable@POLYN594195 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4276,49 +4276,49 @@ var maDataBlocs = {
  , "c1" : "01841"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1841"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01841] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnectorTasksWithRetry@POLYN594177 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01841] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnectorTasksWithRetry@POLYN594609 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01843"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1843"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01843] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnectorTasksWithRetry@POLYN594177 the MagicNumber/String  'Failed to reconfigure connector's tasks ({}), possibly due to expired session key. Retrying after backoff' should be converted to const"
+ , "c3" : "QC-JAV000010[01843] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnectorTasksWithRetry@POLYN594609 the MagicNumber/String  'Failed to reconfigure connector's tasks ({}), possibly due to expired session key. Retrying after backoff' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01845"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1845"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01845] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnectorTasksWithRetry@POLYN594177 the MagicNumber/String  'Failed to reconfigure connector's tasks ({}), retrying after backoff:' should be converted to const"
+ , "c3" : "QC-JAV000010[01845] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnectorTasksWithRetry@POLYN594609 the MagicNumber/String  'Failed to reconfigure connector's tasks ({}), retrying after backoff:' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01850"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1850"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01850] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnectorTasksWithRetry@POLYN594177 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01850] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnectorTasksWithRetry@POLYN594609 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01852"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1852"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01852] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnectorTasksWithRetry@POLYN594177 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01852] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnectorTasksWithRetry@POLYN594609 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01853"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1853"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01853] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnectorTasksWithRetry@POLYN594177 the MagicNumber/String  'Unexpected error during connector task reconfiguration: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01853] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnectorTasksWithRetry@POLYN594609 the MagicNumber/String  'Unexpected error during connector task reconfiguration: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01854"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1854"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01854] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnectorTasksWithRetry@POLYN594177 the MagicNumber/String  'Task reconfiguration for {} failed unexpectedly, this connector will not be properly reconfigured unless manually triggered.' should be converted to const"
+ , "c3" : "QC-JAV000010[01854] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnectorTasksWithRetry@POLYN594609 the MagicNumber/String  'Task reconfiguration for {} failed unexpectedly, this connector will not be properly reconfigured unless manually triggered.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4332,14 +4332,14 @@ var maDataBlocs = {
  , "c1" : "01866"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1866"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01866] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.isPossibleExpiredKeyException@POLYN595347 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01866] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.isPossibleExpiredKeyException@POLYN595779 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01868"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1868"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01868] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.isPossibleExpiredKeyException@POLYN595347 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01868] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.isPossibleExpiredKeyException@POLYN595779 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4360,168 +4360,168 @@ var maDataBlocs = {
  , "c1" : "01876"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1876"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01876] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN595862 the MagicNumber/String  'Skipping reconfiguration of connector {} since it is not running' should be converted to const"
+ , "c3" : "QC-JAV000010[01876] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN596294 the MagicNumber/String  'Skipping reconfiguration of connector {} since it is not running' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01890"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1890"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01890] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN595862 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01890] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN596294 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01893"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1893"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01893] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN595862 the MagicNumber/String  'Change in connector task count from {} to {}, writing updated task configurations' should be converted to const"
+ , "c3" : "QC-JAV000010[01893] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN596294 the MagicNumber/String  'Change in connector task count from {} to {}, writing updated task configurations' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01894"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1894"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01894] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN595862 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01894] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN596294 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01896"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1896"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01896] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN595862 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01896] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN596294 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01899"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1899"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01899] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN595862 the MagicNumber/String  'Change in task configurations, writing updated task configurations' should be converted to const"
+ , "c3" : "QC-JAV000010[01899] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN596294 the MagicNumber/String  'Change in task configurations, writing updated task configurations' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01900"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1900"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01900] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN595862 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01900] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN596294 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01910"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1910"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01910] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN595862 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01910] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN596294 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01910"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1910"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01910] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN595862 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01910] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN596294 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01918"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1918"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01918] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN595862 the MagicNumber/String  'Request to leader to ' should be converted to const"
+ , "c3" : "QC-JAV000010[01918] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN596294 the MagicNumber/String  'Request to leader to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01919"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1919"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01919] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN595862 the MagicNumber/String  'reconfigure connector tasks failed ' should be converted to const"
+ , "c3" : "QC-JAV000010[01919] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN596294 the MagicNumber/String  'reconfigure connector tasks failed ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01920"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1920"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01920] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN595862 the MagicNumber/String  'because the URL of the leader's REST interface is empty!' should be converted to const"
+ , "c3" : "QC-JAV000010[01920] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN596294 the MagicNumber/String  'because the URL of the leader's REST interface is empty!' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01920"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1920"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01920] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN595862 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01920] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN596294 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01924"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1924"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01924] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN595862 the MagicNumber/String  'connectors' should be converted to const"
+ , "c3" : "QC-JAV000010[01924] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN596294 the MagicNumber/String  'connectors' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01926"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1926"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01926] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN595862 the MagicNumber/String  'tasks' should be converted to const"
+ , "c3" : "QC-JAV000010[01926] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN596294 the MagicNumber/String  'tasks' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01929"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1929"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01929] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN595862 the MagicNumber/String  'Forwarding task configurations for connector {} to leader' should be converted to const"
+ , "c3" : "QC-JAV000010[01929] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN596294 the MagicNumber/String  'Forwarding task configurations for connector {} to leader' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01930"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1930"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01930] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN595862 the MagicNumber/String  'POST' should be converted to const"
+ , "c3" : "QC-JAV000010[01930] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN596294 the MagicNumber/String  'POST' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01930"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1930"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01930] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN595862 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01930] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN596294 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01930"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1930"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01930] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN595862 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01930] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN596294 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01931"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1931"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01931] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN595862 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01931] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN596294 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01931"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1931"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01931] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN595862 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01931] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN596294 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01933"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1933"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01933] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN595862 the MagicNumber/String  'Request to leader to reconfigure connector tasks failed' should be converted to const"
+ , "c3" : "QC-JAV000010[01933] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN596294 the MagicNumber/String  'Request to leader to reconfigure connector tasks failed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01934"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1934"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01934] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN595862 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01934] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN596294 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01940"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1940"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01940] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN595862 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01940] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.reconfigureConnector@POLYN596294 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4535,28 +4535,28 @@ var maDataBlocs = {
  , "c1" : "01947"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1947"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01947] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.verifyTaskGenerationAndOwnership@POLYN600054 the MagicNumber/String  'Reading to end of config topic to ensure it is still safe to bring up source task {} with exactly-once support' should be converted to const"
+ , "c3" : "QC-JAV000010[01947] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.verifyTaskGenerationAndOwnership@POLYN600486 the MagicNumber/String  'Reading to end of config topic to ensure it is still safe to bring up source task {} with exactly-once support' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01949"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1949"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01949] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.verifyTaskGenerationAndOwnership@POLYN600054 the MagicNumber/String  'Failed to read to end of config topic' should be converted to const"
+ , "c3" : "QC-JAV000010[01949] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.verifyTaskGenerationAndOwnership@POLYN600486 the MagicNumber/String  'Failed to read to end of config topic' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01962"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1962"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01962] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.verifyTaskGenerationAndOwnership@POLYN600054 the MagicNumber/String  'Interrupted while performing preflight check for task ' should be converted to const"
+ , "c3" : "QC-JAV000010[01962] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.verifyTaskGenerationAndOwnership@POLYN600486 the MagicNumber/String  'Interrupted while performing preflight check for task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01965"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1965"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01965] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.verifyTaskGenerationAndOwnership@POLYN600054 the MagicNumber/String  'Failed to perform preflight check for task ' should be converted to const"
+ , "c3" : "QC-JAV000010[01965] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.verifyTaskGenerationAndOwnership@POLYN600486 the MagicNumber/String  'Failed to perform preflight check for task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4584,49 +4584,49 @@ var maDataBlocs = {
  , "c1" : "01973"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1973"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01973] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.verifyTaskGenerationAndOwnership@POLYN601211 the MagicNumber/String  'Cannot start source task ' should be converted to const"
+ , "c3" : "QC-JAV000010[01973] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.verifyTaskGenerationAndOwnership@POLYN601643 the MagicNumber/String  'Cannot start source task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01974"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1974"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01974] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.verifyTaskGenerationAndOwnership@POLYN601211 the MagicNumber/String  ' with exactly-once support as the connector has already generated a new set of task configs' should be converted to const"
+ , "c3" : "QC-JAV000010[01974] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.verifyTaskGenerationAndOwnership@POLYN601643 the MagicNumber/String  ' with exactly-once support as the connector has already generated a new set of task configs' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01978"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1978"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01978] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.verifyTaskGenerationAndOwnership@POLYN601211 the MagicNumber/String  'Cannot start source task ' should be converted to const"
+ , "c3" : "QC-JAV000010[01978] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.verifyTaskGenerationAndOwnership@POLYN601643 the MagicNumber/String  'Cannot start source task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01979"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1979"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01979] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.verifyTaskGenerationAndOwnership@POLYN601211 the MagicNumber/String  ' as it has already been revoked from this worker' should be converted to const"
+ , "c3" : "QC-JAV000010[01979] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.verifyTaskGenerationAndOwnership@POLYN601643 the MagicNumber/String  ' as it has already been revoked from this worker' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01982"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1982"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01982] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.verifyTaskGenerationAndOwnership@POLYN601211 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01982] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.verifyTaskGenerationAndOwnership@POLYN601643 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01982"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1982"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01982] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.verifyTaskGenerationAndOwnership@POLYN601211 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01982] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.verifyTaskGenerationAndOwnership@POLYN601643 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01983"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1983"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01983] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.verifyTaskGenerationAndOwnership@POLYN601211 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01983] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.verifyTaskGenerationAndOwnership@POLYN601643 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4647,28 +4647,28 @@ var maDataBlocs = {
  , "c1" : "01990"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1990"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01990] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkRebalanceNeeded@POLYN602083 the MagicNumber/String  'Request cannot be completed because a rebalance is expected' should be converted to const"
+ , "c3" : "QC-JAV000010[01990] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkRebalanceNeeded@POLYN602515 the MagicNumber/String  'Request cannot be completed because a rebalance is expected' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01990"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1990"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01990] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkRebalanceNeeded@POLYN602083 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01990] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkRebalanceNeeded@POLYN602515 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01991"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1991"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01991] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkRebalanceNeeded@POLYN602083 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01991] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkRebalanceNeeded@POLYN602515 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01993"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1993"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01993] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkRebalanceNeeded@POLYN602083 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01993] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkRebalanceNeeded@POLYN602515 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4682,7 +4682,7 @@ var maDataBlocs = {
  , "c1" : "02007"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2007"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02007] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.runOnTickThread@POLYN602778 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02007] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.runOnTickThread@POLYN603210 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4696,7 +4696,7 @@ var maDataBlocs = {
  , "c1" : "02014"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2014"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02014] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.addRequest@POLYN603251 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02014] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.addRequest@POLYN603683 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4731,21 +4731,21 @@ var maDataBlocs = {
  , "c1" : "02028"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2028"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02028] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.runRequest@POLYN604102 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02028] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.runRequest@POLYN604534 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02028"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2028"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02028] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.runRequest@POLYN604102 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02028] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.runRequest@POLYN604534 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02030"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2030"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02030] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.runRequest@POLYN604102 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02030] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.runRequest@POLYN604534 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4766,14 +4766,14 @@ var maDataBlocs = {
  , "c1" : "02044"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2044"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02044] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.peekWithoutException@POLYN604824 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02044] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.peekWithoutException@POLYN605256 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02049"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2049"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02049] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.peekWithoutException@POLYN604824 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02049] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.peekWithoutException@POLYN605256 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4794,14 +4794,14 @@ var maDataBlocs = {
  , "c1" : "02055"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2055"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02055] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onConnectorConfigRemove@POLYN605159 the MagicNumber/String  'Connector {} config removed' should be converted to const"
+ , "c3" : "QC-JAV000010[02055] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onConnectorConfigRemove@POLYN605591 the MagicNumber/String  'Connector {} config removed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02060"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2060"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02060] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onConnectorConfigRemove@POLYN605159 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[02060] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onConnectorConfigRemove@POLYN605591 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4822,14 +4822,14 @@ var maDataBlocs = {
  , "c1" : "02068"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2068"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02068] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onConnectorConfigUpdate@POLYN605641 the MagicNumber/String  'Connector {} config updated' should be converted to const"
+ , "c3" : "QC-JAV000010[02068] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onConnectorConfigUpdate@POLYN606073 the MagicNumber/String  'Connector {} config updated' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02075"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2075"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02075] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onConnectorConfigUpdate@POLYN605641 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[02075] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onConnectorConfigUpdate@POLYN606073 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4857,28 +4857,28 @@ var maDataBlocs = {
  , "c1" : "02083"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2083"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02083] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onTaskConfigUpdate@POLYN606132 the MagicNumber/String  'Tasks {} configs updated' should be converted to const"
+ , "c3" : "QC-JAV000010[02083] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onTaskConfigUpdate@POLYN606564 the MagicNumber/String  'Tasks {} configs updated' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02094"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2094"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02094] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onTaskConfigUpdate@POLYN606132 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[02094] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onTaskConfigUpdate@POLYN606564 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02103"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02103] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onTaskConfigUpdate@POLYN606132 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02103] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onTaskConfigUpdate@POLYN606564 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02106"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02106] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onTaskConfigUpdate@POLYN606132 the MagicNumber/String  'Failed to complete zombie fencing because a new set of task configs was generated' should be converted to const"
+ , "c3" : "QC-JAV000010[02106] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onTaskConfigUpdate@POLYN606564 the MagicNumber/String  'Failed to complete zombie fencing because a new set of task configs was generated' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4899,7 +4899,7 @@ var maDataBlocs = {
  , "c1" : "02116"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02116] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onConnectorTargetStateChange@POLYN607126 the MagicNumber/String  'Connector {} target state change' should be converted to const"
+ , "c3" : "QC-JAV000010[02116] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onConnectorTargetStateChange@POLYN607558 the MagicNumber/String  'Connector {} target state change' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4927,14 +4927,14 @@ var maDataBlocs = {
  , "c1" : "02126"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02126] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onSessionKeyUpdate@POLYN607479 the MagicNumber/String  'Session key updated' should be converted to const"
+ , "c3" : "QC-JAV000010[02126] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onSessionKeyUpdate@POLYN607911 the MagicNumber/String  'Session key updated' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02134"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02134] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onSessionKeyUpdate@POLYN607479 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02134] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onSessionKeyUpdate@POLYN607911 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4962,35 +4962,35 @@ var maDataBlocs = {
  , "c1" : "02142"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02142] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onRestartRequest@POLYN607977 the MagicNumber/String  'Received and enqueuing {}' should be converted to const"
+ , "c3" : "QC-JAV000010[02142] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onRestartRequest@POLYN608409 the MagicNumber/String  'Received and enqueuing {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02148"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02148] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onRestartRequest@POLYN607977 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02148] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onRestartRequest@POLYN608409 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02148"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02148] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onRestartRequest@POLYN607977 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02148] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onRestartRequest@POLYN608409 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02149"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02149] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onRestartRequest@POLYN607977 the MagicNumber/String  'Overwriting existing {} and enqueuing the higher impact {}' should be converted to const"
+ , "c3" : "QC-JAV000010[02149] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onRestartRequest@POLYN608409 the MagicNumber/String  'Overwriting existing {} and enqueuing the higher impact {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02152"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02152] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onRestartRequest@POLYN607977 the MagicNumber/String  'Preserving existing higher impact {} and ignoring incoming {}' should be converted to const"
+ , "c3" : "QC-JAV000010[02152] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ConfigUpdateListener.onRestartRequest@POLYN608409 the MagicNumber/String  'Preserving existing higher impact {} and ignoring incoming {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5004,7 +5004,7 @@ var maDataBlocs = {
  , "c1" : "02190"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2190"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02190] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerderRequest.compareTo@POLYN610040 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02190] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerderRequest.compareTo@POLYN610472 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5018,21 +5018,21 @@ var maDataBlocs = {
  , "c1" : "02195"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2195"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02195] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerderRequest.equals@POLYN610428 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[02195] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerderRequest.equals@POLYN610860 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02197"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02197] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerderRequest.equals@POLYN610428 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[02197] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerderRequest.equals@POLYN610860 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02199"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02199] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerderRequest.equals@POLYN610428 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02199] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.DistributedHerderRequest.equals@POLYN610860 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5053,21 +5053,21 @@ var maDataBlocs = {
  , "c1" : "02210"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2210"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02210] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.forwardErrorCallback@POLYN611060 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02210] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.forwardErrorCallback@POLYN611492 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02211"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02211] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.forwardErrorCallback@POLYN611060 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02211] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.forwardErrorCallback@POLYN611492 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02220"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02220] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateDeletedConnectorStatus@POLYN611364 the MagicNumber/String  'Cleaning status information for connector {}' should be converted to const"
+ , "c3" : "QC-JAV000010[02220] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.updateDeletedConnectorStatus@POLYN611796 the MagicNumber/String  'Cleaning status information for connector {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5102,84 +5102,84 @@ var maDataBlocs = {
  , "c1" : "02259"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2259"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02259] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onAssigned@POLYN612919 the MagicNumber/String  'Joined group at generation {} with protocol version {} and got assignment: {} with rebalance delay: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[02259] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onAssigned@POLYN613351 the MagicNumber/String  'Joined group at generation {} with protocol version {} and got assignment: {} with rebalance delay: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02269"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2269"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02269] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onAssigned@POLYN612919 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02269] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onAssigned@POLYN613351 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02278"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2278"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02278] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onAssigned@POLYN612919 the MagicNumber/String  'Internal request validation has been re-enabled' should be converted to const"
+ , "c3" : "QC-JAV000010[02278] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onAssigned@POLYN613351 the MagicNumber/String  'Internal request validation has been re-enabled' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02281"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2281"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02281] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onAssigned@POLYN612919 the MagicNumber/String  'The protocol used by this Connect cluster has been downgraded from '{}' to '{}' and internal request ' should be converted to const"
+ , "c3" : "QC-JAV000010[02281] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onAssigned@POLYN613351 the MagicNumber/String  'The protocol used by this Connect cluster has been downgraded from '{}' to '{}' and internal request ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02282"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2282"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02282] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onAssigned@POLYN612919 the MagicNumber/String  'validation is now disabled. This is most likely caused by a new worker joining the cluster with an ' should be converted to const"
+ , "c3" : "QC-JAV000010[02282] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onAssigned@POLYN613351 the MagicNumber/String  'validation is now disabled. This is most likely caused by a new worker joining the cluster with an ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02283"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2283"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02283] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onAssigned@POLYN612919 the MagicNumber/String  'older protocol specified for the {} configuration; if this is not intentional, either remove the {} ' should be converted to const"
+ , "c3" : "QC-JAV000010[02283] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onAssigned@POLYN613351 the MagicNumber/String  'older protocol specified for the {} configuration; if this is not intentional, either remove the {} ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02284"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2284"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02284] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onAssigned@POLYN612919 the MagicNumber/String  'configuration from that worker's config file, or change its value to '{}'. If this configuration is ' should be converted to const"
+ , "c3" : "QC-JAV000010[02284] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onAssigned@POLYN613351 the MagicNumber/String  'configuration from that worker's config file, or change its value to '{}'. If this configuration is ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02285"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02285] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onAssigned@POLYN612919 the MagicNumber/String  'left as-is, the cluster will be insecure; for more information, see KIP-507: ' should be converted to const"
+ , "c3" : "QC-JAV000010[02285] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onAssigned@POLYN613351 the MagicNumber/String  'left as-is, the cluster will be insecure; for more information, see KIP-507: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02286"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2286"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02286] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onAssigned@POLYN612919 the MagicNumber/String  'https://cwiki.apache.org/confluence/display/KAFKA/KIP-507%3A+Securing+Internal+Connect+REST+Endpoints' should be converted to const"
+ , "c3" : "QC-JAV000010[02286] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onAssigned@POLYN613351 the MagicNumber/String  'https://cwiki.apache.org/confluence/display/KAFKA/KIP-507%3A+Securing+Internal+Connect+REST+Endpoints' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02296"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2296"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02296] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onAssigned@POLYN612919 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[02296] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onAssigned@POLYN613351 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02311"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2311"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02311] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onAssigned@POLYN612919 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[02311] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onAssigned@POLYN613351 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02312"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2312"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02312] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onAssigned@POLYN612919 the MagicNumber/String  'Unable to claim write privileges for config topic after being elected leader during rebalance' should be converted to const"
+ , "c3" : "QC-JAV000010[02312] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onAssigned@POLYN613351 the MagicNumber/String  'Unable to claim write privileges for config topic after being elected leader during rebalance' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5200,35 +5200,35 @@ var maDataBlocs = {
  , "c1" : "02344"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02344] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onRevoked@POLYN615313 the MagicNumber/String  'Finished stopping tasks in preparation for rebalance' should be converted to const"
+ , "c3" : "QC-JAV000010[02344] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onRevoked@POLYN615745 the MagicNumber/String  'Finished stopping tasks in preparation for rebalance' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02347"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2347"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02347] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onRevoked@POLYN615313 the MagicNumber/String  'Removing connectors from running assignment {}' should be converted to const"
+ , "c3" : "QC-JAV000010[02347] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onRevoked@POLYN615745 the MagicNumber/String  'Removing connectors from running assignment {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02349"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2349"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02349] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onRevoked@POLYN615313 the MagicNumber/String  'Removing tasks from running assignment {}' should be converted to const"
+ , "c3" : "QC-JAV000010[02349] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onRevoked@POLYN615745 the MagicNumber/String  'Removing tasks from running assignment {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02363"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2363"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02363] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onRevoked@POLYN615313 the MagicNumber/String  'Finished flushing status backing store in preparation for rebalance' should be converted to const"
+ , "c3" : "QC-JAV000010[02363] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onRevoked@POLYN615745 the MagicNumber/String  'Finished flushing status backing store in preparation for rebalance' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02365"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2365"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02365] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onRevoked@POLYN615313 the MagicNumber/String  'Wasn't able to resume work after last rebalance, can skip stopping connectors and tasks' should be converted to const"
+ , "c3" : "QC-JAV000010[02365] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.RebalanceListener.onRevoked@POLYN615745 the MagicNumber/String  'Wasn't able to resume work after last rebalance, can skip stopping connectors and tasks' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5277,84 +5277,84 @@ var maDataBlocs = {
  , "c1" : "02395"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2395"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02395] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN618076 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02395] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN618508 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02396"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2396"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02396] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN618076 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02396] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN618508 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02397"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2397"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02397] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN618076 the MagicNumber/String  'Internal request missing required signature' should be converted to const"
+ , "c3" : "QC-JAV000010[02397] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN618508 the MagicNumber/String  'Internal request missing required signature' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02400"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2400"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02400] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN618076 the MagicNumber/String  'This worker does not support the '%s' key signing algorithm used by other workers. ' should be converted to const"
+ , "c3" : "QC-JAV000010[02400] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN618508 the MagicNumber/String  'This worker does not support the '%s' key signing algorithm used by other workers. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02401"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2401"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02401] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN618076 the MagicNumber/String  'This worker is currently configured to use: %s. ' should be converted to const"
+ , "c3" : "QC-JAV000010[02401] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN618508 the MagicNumber/String  'This worker is currently configured to use: %s. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02402"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2402"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02402] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN618076 the MagicNumber/String  'Check that all workers' configuration files permit the same set of signature algorithms, ' should be converted to const"
+ , "c3" : "QC-JAV000010[02402] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN618508 the MagicNumber/String  'Check that all workers' configuration files permit the same set of signature algorithms, ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02403"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2403"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02403] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN618076 the MagicNumber/String  'and correct any misconfigured worker and restart it.' should be converted to const"
+ , "c3" : "QC-JAV000010[02403] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN618508 the MagicNumber/String  'and correct any misconfigured worker and restart it.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02411"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2411"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02411] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN618076 the MagicNumber/String  'Internal request contained invalid signature.' should be converted to const"
+ , "c3" : "QC-JAV000010[02411] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN618508 the MagicNumber/String  'Internal request contained invalid signature.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02415"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2415"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02415] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN618076 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02415] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN618508 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02416"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2416"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02416] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN618076 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02416] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN618508 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02417"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2417"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02417] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN618076 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[02417] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN618508 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02421"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2421"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02421] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN618076 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[02421] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN618508 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5368,63 +5368,63 @@ var maDataBlocs = {
  , "c1" : "02454"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2454"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02454] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.start@POLYN620666 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02454] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.start@POLYN621098 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02455"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2455"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02455] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.start@POLYN620666 the MagicNumber/String  'Cannot invoke start() multiple times' should be converted to const"
+ , "c3" : "QC-JAV000010[02455] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.start@POLYN621098 the MagicNumber/String  'Cannot invoke start() multiple times' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02467"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2467"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02467] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.start@POLYN620666 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02467] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.start@POLYN621098 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02483"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2483"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02483] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.onZombieFencingSuccess@POLYN621493 the MagicNumber/String  'Failed to read to end of config topic' should be converted to const"
+ , "c3" : "QC-JAV000010[02483] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.onZombieFencingSuccess@POLYN621925 the MagicNumber/String  'Failed to read to end of config topic' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02488"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2488"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02488] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.onZombieFencingSuccess@POLYN621493 the MagicNumber/String  'Fencing failed because new task configurations were generated for the connector' should be converted to const"
+ , "c3" : "QC-JAV000010[02488] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.onZombieFencingSuccess@POLYN621925 the MagicNumber/String  'Fencing failed because new task configurations were generated for the connector' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02492"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2492"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02492] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.onZombieFencingSuccess@POLYN621493 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02492] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.onZombieFencingSuccess@POLYN621925 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02495"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2495"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02495] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.onZombieFencingSuccess@POLYN621493 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02495] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.onZombieFencingSuccess@POLYN621925 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02502"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2502"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02502] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.awaitFollowup@POLYN622242 the MagicNumber/String  'Interrupted while performing zombie fencing' should be converted to const"
+ , "c3" : "QC-JAV000010[02502] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.awaitFollowup@POLYN622674 the MagicNumber/String  'Interrupted while performing zombie fencing' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02505"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2505"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02505] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.awaitFollowup@POLYN622242 the MagicNumber/String  'Failed to perform round of zombie fencing' should be converted to const"
+ , "c3" : "QC-JAV000010[02505] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.awaitFollowup@POLYN622674 the MagicNumber/String  'Failed to perform round of zombie fencing' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5438,7 +5438,7 @@ var maDataBlocs = {
  , "c1" : "02515"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2515"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02515] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.completeExceptionally@POLYN622846 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02515] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.completeExceptionally@POLYN623278 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5459,49 +5459,49 @@ var maDataBlocs = {
  , "c1" : "02525"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2525"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02525] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.addCallback@POLYN623329 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02525] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.addCallback@POLYN623761 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02526"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2526"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02526] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.addCallback@POLYN623329 the MagicNumber/String  'The start() method must be invoked before adding callbacks for this zombie fencing' should be converted to const"
+ , "c3" : "QC-JAV000010[02526] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.addCallback@POLYN623761 the MagicNumber/String  'The start() method must be invoked before adding callbacks for this zombie fencing' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02529"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2529"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02529] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.addCallback@POLYN623329 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02529] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.addCallback@POLYN623761 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02531"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2531"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02531] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.addCallback@POLYN623329 the MagicNumber/String  'Failed to perform zombie fencing' should be converted to const"
+ , "c3" : "QC-JAV000010[02531] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.addCallback@POLYN623761 the MagicNumber/String  'Failed to perform zombie fencing' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02532"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2532"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02532] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.addCallback@POLYN623329 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02532] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.addCallback@POLYN623761 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02535"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2535"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02535] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.addCallback@POLYN623329 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02535] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.addCallback@POLYN623761 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02535"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2535"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02535] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.addCallback@POLYN623329 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02535] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.ZombieFencing.addCallback@POLYN623761 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5515,28 +5515,28 @@ var maDataBlocs = {
  , "c1" : "02558"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2558"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02558] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.HerderMetrics.HerderMetrics@POLYN624403 the MagicNumber/String  1.0d should be converted to const"
+ , "c3" : "QC-JAV000010[02558] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.HerderMetrics.HerderMetrics@POLYN624835 the MagicNumber/String  1.0d should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02558"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2558"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02558] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.HerderMetrics.HerderMetrics@POLYN624403 the MagicNumber/String  0.0d should be converted to const"
+ , "c3" : "QC-JAV000010[02558] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.HerderMetrics.HerderMetrics@POLYN624835 the MagicNumber/String  0.0d should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02560"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2560"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02560] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.HerderMetrics.HerderMetrics@POLYN624403 the MagicNumber/String  'completed-rebalance-count' should be converted to const"
+ , "c3" : "QC-JAV000010[02560] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.HerderMetrics.HerderMetrics@POLYN624835 the MagicNumber/String  'completed-rebalance-count' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02563"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2563"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02563] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.HerderMetrics.HerderMetrics@POLYN624403 the MagicNumber/String  'rebalance-time' should be converted to const"
+ , "c3" : "QC-JAV000010[02563] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.HerderMetrics.HerderMetrics@POLYN624835 the MagicNumber/String  'rebalance-time' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5550,7 +5550,7 @@ var maDataBlocs = {
  , "c1" : "02577"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2577"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02577] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.HerderMetrics.rebalanceStarted@POLYN626342 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[02577] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.HerderMetrics.rebalanceStarted@POLYN626774 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5564,21 +5564,21 @@ var maDataBlocs = {
  , "c1" : "02581"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2581"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02581] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.HerderMetrics.rebalanceSucceeded@POLYN626510 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[02581] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.HerderMetrics.rebalanceSucceeded@POLYN626942 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02582"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2582"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02582] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.HerderMetrics.rebalanceSucceeded@POLYN626510 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[02582] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.HerderMetrics.rebalanceSucceeded@POLYN626942 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02583"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2583"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02583] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.HerderMetrics.rebalanceSucceeded@POLYN626510 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[02583] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.HerderMetrics.rebalanceSucceeded@POLYN626942 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ]
 , 

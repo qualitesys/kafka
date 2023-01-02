@@ -80,7 +80,7 @@ var maDataBlocs = {
  , "c1" : "00028"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskStatus.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.connect.runtime.TaskStatus.TaskStatus@POLYN149168 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.connect.runtime.TaskStatus.TaskStatus@POLYN149600 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

@@ -211,7 +211,7 @@ var maDataBlocs = {
  , "c2" : "1"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.util.HashMap.get@POLYN617315.return" , "java.util.HashMap.put@POLYN620675.value"]
+ , "c5" : ["java.util.HashMap.get@POLYN617768.return" , "java.util.HashMap.put@POLYN621128.value"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -227,16 +227,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00369]"
- , "c3" : ["java.util.HashMap.get@POLYN617315.return" , "---java.util.HashMap.get@POLYN617315" , "org.apache.kafka.controller.BrokerHeartbeatManager.touch@POLYN231523.broker"]
- , "c4" : "//QC-JAVCWE099[00369] In org.apache.kafka.controller.BrokerHeartbeatManager.touch@POLYN231523[00369] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c3" : ["java.util.HashMap.get@POLYN617768.return" , "---java.util.HashMap.get@POLYN617768" , "org.apache.kafka.controller.BrokerHeartbeatManager.touch@POLYN231955.broker"]
+ , "c4" : "//QC-JAVCWE099[00369] In org.apache.kafka.controller.BrokerHeartbeatManager.touch@POLYN231955[00369] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00372]"
- , "c3" : ["org.apache.kafka.controller.BrokerHeartbeatManager.touch@POLYN231523.broker" , "---java.util.HashMap.put@POLYN620675" , "java.util.HashMap.put@POLYN620675.value"]
- , "c4" : "//QC-JAVCWE099[00372] In org.apache.kafka.controller.BrokerHeartbeatManager.touch@POLYN231523[00372] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c3" : ["org.apache.kafka.controller.BrokerHeartbeatManager.touch@POLYN231955.broker" , "---java.util.HashMap.put@POLYN621128" , "java.util.HashMap.put@POLYN621128.value"]
+ , "c4" : "//QC-JAVCWE099[00372] In org.apache.kafka.controller.BrokerHeartbeatManager.touch@POLYN231955[00372] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
@@ -351,49 +351,49 @@ var maDataBlocs = {
  , "c1" : "00094"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatState.BrokerHeartbeatState@POLYN222275 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatState.BrokerHeartbeatState@POLYN222707 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00095"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatState.BrokerHeartbeatState@POLYN222275 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatState.BrokerHeartbeatState@POLYN222707 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00096"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatState.BrokerHeartbeatState@POLYN222275 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatState.BrokerHeartbeatState@POLYN222707 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00097"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatState.BrokerHeartbeatState@POLYN222275 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatState.BrokerHeartbeatState@POLYN222707 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatState.BrokerHeartbeatState@POLYN222275 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatState.BrokerHeartbeatState@POLYN222707 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00112"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatState.fenced@POLYN222916 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatState.fenced@POLYN223348 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00119"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatState.shuttingDown@POLYN223077 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatState.shuttingDown@POLYN223509 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -407,49 +407,49 @@ var maDataBlocs = {
  , "c1" : "00129"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.controller.BrokerHeartbeatManager.MetadataOffsetComparator.compare@POLYN223361 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.controller.BrokerHeartbeatManager.MetadataOffsetComparator.compare@POLYN223793 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.controller.BrokerHeartbeatManager.MetadataOffsetComparator.compare@POLYN223361 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.controller.BrokerHeartbeatManager.MetadataOffsetComparator.compare@POLYN223793 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.controller.BrokerHeartbeatManager.MetadataOffsetComparator.compare@POLYN223361 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.controller.BrokerHeartbeatManager.MetadataOffsetComparator.compare@POLYN223793 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00135"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.controller.BrokerHeartbeatManager.MetadataOffsetComparator.compare@POLYN223361 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.controller.BrokerHeartbeatManager.MetadataOffsetComparator.compare@POLYN223793 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.controller.BrokerHeartbeatManager.MetadataOffsetComparator.compare@POLYN223361 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.controller.BrokerHeartbeatManager.MetadataOffsetComparator.compare@POLYN223793 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00150"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatStateList.BrokerHeartbeatStateList@POLYN224177 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatStateList.BrokerHeartbeatStateList@POLYN224609 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00160"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatStateList.first@POLYN224523 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatStateList.first@POLYN224955 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -470,7 +470,7 @@ var maDataBlocs = {
  , "c1" : "00169"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatStateList.add@POLYN224822 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatStateList.add@POLYN225254 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -491,28 +491,28 @@ var maDataBlocs = {
  , "c1" : "00185"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatStateList.remove@POLYN225512 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatStateList.remove@POLYN225944 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00186"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatStateList.remove@POLYN225512 the MagicNumber/String  ' is not in the  list.' should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatStateList.remove@POLYN225944 the MagicNumber/String  ' is not in the  list.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00190"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#190"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatStateList.remove@POLYN225512 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatStateList.remove@POLYN225944 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00191"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatStateList.remove@POLYN225512 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatStateList.remove@POLYN225944 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -533,14 +533,14 @@ var maDataBlocs = {
  , "c1" : "00283"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#283"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00283] For method fence list of called methods Object monObjet|V brokers_getN228674"
+ , "c3" : "QC-JAV000007[00283] For method fence list of called methods Object monObjet|V brokers_getN229106"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00285"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.controller.BrokerHeartbeatManager.fence@POLYN228581 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.controller.BrokerHeartbeatManager.fence@POLYN229013 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -554,7 +554,7 @@ var maDataBlocs = {
  , "c1" : "00297"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#297"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.controller.BrokerHeartbeatManager.remove@POLYN228949 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.controller.BrokerHeartbeatManager.remove@POLYN229381 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -582,21 +582,21 @@ var maDataBlocs = {
  , "c1" : "00324"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#324"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00324] For method hasValidSession list of called methods Object monObjet|V brokers_getN229980"
+ , "c3" : "QC-JAV000007[00324] For method hasValidSession list of called methods Object monObjet|V brokers_getN230412"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00326"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#326"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.controller.BrokerHeartbeatManager.hasValidSession@POLYN229883 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.controller.BrokerHeartbeatManager.hasValidSession@POLYN230315 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00326"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#326"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.controller.BrokerHeartbeatManager.hasValidSession@POLYN229883 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.controller.BrokerHeartbeatManager.hasValidSession@POLYN230315 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -617,7 +617,7 @@ var maDataBlocs = {
  , "c1" : "00339"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#339"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.controller.BrokerHeartbeatManager.hasValidSession@POLYN230343 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.controller.BrokerHeartbeatManager.hasValidSession@POLYN230775 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -631,21 +631,21 @@ var maDataBlocs = {
  , "c1" : "00352"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#352"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00352] For method register list of called methods Object monObjet|V brokers_getN230909"
+ , "c3" : "QC-JAV000007[00352] For method register list of called methods Object monObjet|V brokers_getN231341"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00354"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#354"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.controller.BrokerHeartbeatManager.register@POLYN230791 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.controller.BrokerHeartbeatManager.register@POLYN231223 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00355"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#355"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00355] In method org.apache.kafka.controller.BrokerHeartbeatManager.register@POLYN230791 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00355] In method org.apache.kafka.controller.BrokerHeartbeatManager.register@POLYN231223 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -659,21 +659,21 @@ var maDataBlocs = {
  , "c1" : "00368"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#368"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00368] For method touch list of called methods Object monObjet|V brokers_getN231666"
+ , "c3" : "QC-JAV000007[00368] For method touch list of called methods Object monObjet|V brokers_getN232098"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00370"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#370"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00370] In method org.apache.kafka.controller.BrokerHeartbeatManager.touch@POLYN231523 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00370] In method org.apache.kafka.controller.BrokerHeartbeatManager.touch@POLYN231955 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00384"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#384"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00384] In method org.apache.kafka.controller.BrokerHeartbeatManager.touch@POLYN231523 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00384] In method org.apache.kafka.controller.BrokerHeartbeatManager.touch@POLYN231955 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -687,49 +687,49 @@ var maDataBlocs = {
  , "c1" : "00408"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#408"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00408] For method updateControlledShutdownOffset list of called methods Object monObjet|V brokers_getN233210"
+ , "c3" : "QC-JAV000007[00408] For method updateControlledShutdownOffset list of called methods Object monObjet|V brokers_getN233642"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00410"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#410"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.controller.BrokerHeartbeatManager.updateControlledShutdownOffset@POLYN233092 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.controller.BrokerHeartbeatManager.updateControlledShutdownOffset@POLYN233524 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00411"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#411"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.controller.BrokerHeartbeatManager.updateControlledShutdownOffset@POLYN233092 the MagicNumber/String  'Unable to locate broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.controller.BrokerHeartbeatManager.updateControlledShutdownOffset@POLYN233524 the MagicNumber/String  'Unable to locate broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00414"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#414"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.controller.BrokerHeartbeatManager.updateControlledShutdownOffset@POLYN233092 the MagicNumber/String  'Fenced brokers cannot enter controlled shutdown.' should be converted to const"
+ , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.controller.BrokerHeartbeatManager.updateControlledShutdownOffset@POLYN233524 the MagicNumber/String  'Fenced brokers cannot enter controlled shutdown.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00418"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#418"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.controller.BrokerHeartbeatManager.updateControlledShutdownOffset@POLYN233092 the MagicNumber/String  'Updated the controlled shutdown offset for broker {} to {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.controller.BrokerHeartbeatManager.updateControlledShutdownOffset@POLYN233524 the MagicNumber/String  'Updated the controlled shutdown offset for broker {} to {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00428"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#428"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.controller.BrokerHeartbeatManager.nextCheckTimeNs@POLYN233929 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.controller.BrokerHeartbeatManager.nextCheckTimeNs@POLYN234361 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00441"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#441"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00441] For method findOneStaleBroker list of called methods Object monObjet|org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatState iterator_nextN234613"
+ , "c3" : "QC-JAV000007[00441] For method findOneStaleBroker list of called methods Object monObjet|org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatState iterator_nextN235045"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -743,42 +743,42 @@ var maDataBlocs = {
  , "c1" : "00470"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#470"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00470] In method org.apache.kafka.controller.BrokerHeartbeatManager.UsableBrokerIterator.UsableBrokerIterator@POLYN235436 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00470] In method org.apache.kafka.controller.BrokerHeartbeatManager.UsableBrokerIterator.UsableBrokerIterator@POLYN235868 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00475"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#475"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00475] In method org.apache.kafka.controller.BrokerHeartbeatManager.UsableBrokerIterator.hasNext@POLYN235819 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00475] In method org.apache.kafka.controller.BrokerHeartbeatManager.UsableBrokerIterator.hasNext@POLYN236251 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00476"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#476"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.controller.BrokerHeartbeatManager.UsableBrokerIterator.hasNext@POLYN235819 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.controller.BrokerHeartbeatManager.UsableBrokerIterator.hasNext@POLYN236251 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00481"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#481"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00481] In method org.apache.kafka.controller.BrokerHeartbeatManager.UsableBrokerIterator.hasNext@POLYN235819 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00481] In method org.apache.kafka.controller.BrokerHeartbeatManager.UsableBrokerIterator.hasNext@POLYN236251 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00487"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#487"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00487] In method org.apache.kafka.controller.BrokerHeartbeatManager.UsableBrokerIterator.hasNext@POLYN235819 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00487] In method org.apache.kafka.controller.BrokerHeartbeatManager.UsableBrokerIterator.hasNext@POLYN236251 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00496"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#496"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00496] In method org.apache.kafka.controller.BrokerHeartbeatManager.UsableBrokerIterator.next@POLYN236640 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00496] In method org.apache.kafka.controller.BrokerHeartbeatManager.UsableBrokerIterator.next@POLYN237072 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -806,7 +806,7 @@ var maDataBlocs = {
  , "c1" : "00522"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#522"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00522] For method calculateNextBrokerState list of called methods Object monObjet|V brokers_getOrDefaultN237757|org.apache.kafka.controller.BrokerControlState currentBrokerStateN237911"
+ , "c3" : "QC-JAV000007[00522] For method calculateNextBrokerState list of called methods Object monObjet|V brokers_getOrDefaultN238189|org.apache.kafka.controller.BrokerControlState currentBrokerStateN238343"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -827,252 +827,252 @@ var maDataBlocs = {
  , "c1" : "00532"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#532"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00532] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String  'Fenced broker {} has requested and been granted an immediate ' should be converted to const"
+ , "c3" : "QC-JAV000010[00532] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237996 the MagicNumber/String  'Fenced broker {} has requested and been granted an immediate ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00533"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#533"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00533] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String  'shutdown.' should be converted to const"
+ , "c3" : "QC-JAV000010[00533] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237996 the MagicNumber/String  'shutdown.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00537"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#537"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00537] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String  'The request from broker {} to unfence has been granted ' should be converted to const"
+ , "c3" : "QC-JAV000010[00537] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237996 the MagicNumber/String  'The request from broker {} to unfence has been granted ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00538"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#538"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00538] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String  'because it has caught up with the last committed metadata ' should be converted to const"
+ , "c3" : "QC-JAV000010[00538] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237996 the MagicNumber/String  'because it has caught up with the last committed metadata ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00539"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#539"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00539] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String  'offset {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00539] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237996 the MagicNumber/String  'offset {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00543"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#543"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00543] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String  'The request from broker {} to unfence cannot yet ' should be converted to const"
+ , "c3" : "QC-JAV000010[00543] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237996 the MagicNumber/String  'The request from broker {} to unfence cannot yet ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00544"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#544"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00544] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String  'be granted because it has not caught up with the last ' should be converted to const"
+ , "c3" : "QC-JAV000010[00544] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237996 the MagicNumber/String  'be granted because it has not caught up with the last ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00545"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#545"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00545] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String  'committed metadata offset {}. It is still at offset {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00545] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237996 the MagicNumber/String  'committed metadata offset {}. It is still at offset {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00556"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#556"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00556] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String  'Unfenced broker {} has requested and been granted an ' should be converted to const"
+ , "c3" : "QC-JAV000010[00556] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237996 the MagicNumber/String  'Unfenced broker {} has requested and been granted an ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00557"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#557"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00557] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String  'immediate shutdown.' should be converted to const"
+ , "c3" : "QC-JAV000010[00557] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237996 the MagicNumber/String  'immediate shutdown.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00560"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#560"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00560] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String  'Unfenced broker {} has requested and been granted ' should be converted to const"
+ , "c3" : "QC-JAV000010[00560] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237996 the MagicNumber/String  'Unfenced broker {} has requested and been granted ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00561"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#561"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00561] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String  'fencing' should be converted to const"
+ , "c3" : "QC-JAV000010[00561] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237996 the MagicNumber/String  'fencing' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00566"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#566"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00566] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String  'Unfenced broker {} has requested and been granted a ' should be converted to const"
+ , "c3" : "QC-JAV000010[00566] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237996 the MagicNumber/String  'Unfenced broker {} has requested and been granted a ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00567"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#567"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00567] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String  'controlled shutdown.' should be converted to const"
+ , "c3" : "QC-JAV000010[00567] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237996 the MagicNumber/String  'controlled shutdown.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00570"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#570"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00570] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String  'Unfenced broker {} has requested and been granted an ' should be converted to const"
+ , "c3" : "QC-JAV000010[00570] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237996 the MagicNumber/String  'Unfenced broker {} has requested and been granted an ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00571"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#571"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00571] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String  'immediate shutdown.' should be converted to const"
+ , "c3" : "QC-JAV000010[00571] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237996 the MagicNumber/String  'immediate shutdown.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00579"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#579"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00579] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String  'Broker {} is in controlled shutdown state, but can not ' should be converted to const"
+ , "c3" : "QC-JAV000010[00579] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237996 the MagicNumber/String  'Broker {} is in controlled shutdown state, but can not ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00580"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#580"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00580] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String  'shut down because more leaders still need to be moved.' should be converted to const"
+ , "c3" : "QC-JAV000010[00580] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237996 the MagicNumber/String  'shut down because more leaders still need to be moved.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00585"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#585"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00585] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String  'The request from broker {} to shut down has been granted ' should be converted to const"
+ , "c3" : "QC-JAV000010[00585] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237996 the MagicNumber/String  'The request from broker {} to shut down has been granted ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00586"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#586"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00586] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String  'since the lowest active offset {} is now greater than the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00586] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237996 the MagicNumber/String  'since the lowest active offset {} is now greater than the ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00587"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#587"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00587] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String  'broker's controlled shutdown offset {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00587] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237996 the MagicNumber/String  'broker's controlled shutdown offset {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00591"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#591"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00591] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String  'The request from broker {} to shut down can not yet be granted ' should be converted to const"
+ , "c3" : "QC-JAV000010[00591] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237996 the MagicNumber/String  'The request from broker {} to shut down can not yet be granted ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00592"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#592"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00592] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String  'because the lowest active offset {} is not greater than the broker's ' should be converted to const"
+ , "c3" : "QC-JAV000010[00592] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237996 the MagicNumber/String  'because the lowest active offset {} is not greater than the broker's ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00593"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#593"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00593] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237564 the MagicNumber/String  'shutdown offset {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00593] In method org.apache.kafka.controller.BrokerHeartbeatManager.calculateNextBrokerState@POLYN237996 the MagicNumber/String  'shutdown offset {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.controller.BrokerHeartbeatManager.remove@POLYN228949 ending with method org.apache.kafka.controller.BrokerHeartbeatManager.untrack@POLYN229376"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.controller.BrokerHeartbeatManager.remove@POLYN229381 ending with method org.apache.kafka.controller.BrokerHeartbeatManager.untrack@POLYN229808"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.controller.BrokerHeartbeatManager.remove@POLYN228949"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.controller.BrokerHeartbeatManager.remove@POLYN229381"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.controller.BrokerHeartbeatManager.untrack@POLYN229376"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.controller.BrokerHeartbeatManager.untrack@POLYN229808"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.BrokerHeartbeatManager.updateControlledShutdownOffset@POLYN233092"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.BrokerHeartbeatManager.updateControlledShutdownOffset@POLYN233524"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.controller.BrokerHeartbeatManager.untrack@POLYN229376 ending with method org.apache.kafka.controller.BrokerHeartbeatManager.remove@POLYN228949"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.controller.BrokerHeartbeatManager.untrack@POLYN229808 ending with method org.apache.kafka.controller.BrokerHeartbeatManager.remove@POLYN229381"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.controller.BrokerHeartbeatManager.untrack@POLYN229376"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.controller.BrokerHeartbeatManager.untrack@POLYN229808"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.controller.BrokerHeartbeatManager.remove@POLYN228949"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.controller.BrokerHeartbeatManager.remove@POLYN229381"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00297"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#297"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00297] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.remove@POLYN228949 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00297] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.remove@POLYN229381 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00410"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#410"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00410] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.updateControlledShutdownOffset@POLYN233092 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00410] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.updateControlledShutdownOffset@POLYN233524 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00411"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#411"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00411] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.updateControlledShutdownOffset@POLYN233092 the MagicNumber/String 'Unable to locate broker ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00411] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.updateControlledShutdownOffset@POLYN233524 the MagicNumber/String 'Unable to locate broker ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00414"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#414"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00414] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.updateControlledShutdownOffset@POLYN233092 the MagicNumber/String 'Fenced brokers cannot enter controlled shutdown.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00414] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.updateControlledShutdownOffset@POLYN233524 the MagicNumber/String 'Fenced brokers cannot enter controlled shutdown.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00418"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#418"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00418] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.updateControlledShutdownOffset@POLYN233092 the MagicNumber/String 'Updated the controlled shutdown offset for broker {} to {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00418] In the recursive method org.apache.kafka.controller.BrokerHeartbeatManager.updateControlledShutdownOffset@POLYN233524 the MagicNumber/String 'Updated the controlled shutdown offset for broker {} to {}.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -169,7 +169,7 @@ var maDataBlocs = {
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00070] For method onAssignment list of called methods Object monObjet|int metadata_generationIdN166163"
+ , "c3" : "QC-JAV000007[00070] For method onAssignment list of called methods Object monObjet|int metadata_generationIdN166595"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -204,7 +204,7 @@ var maDataBlocs = {
  , "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.consumer.CooperativeStickyAssignor.memberData@POLYN166837 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.consumer.CooperativeStickyAssignor.memberData@POLYN167269 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -218,7 +218,7 @@ var maDataBlocs = {
  , "c1" : "00107"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.clients.consumer.CooperativeStickyAssignor.assign@POLYN167778 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.clients.consumer.CooperativeStickyAssignor.assign@POLYN168210 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -253,7 +253,7 @@ var maDataBlocs = {
  , "c1" : "00123"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#123"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00123] For method computePartitionsTransferringOwnership list of called methods Object monObjet|V subscriptions_getN169689"
+ , "c3" : "QC-JAV000007[00123] For method computePartitionsTransferringOwnership list of called methods Object monObjet|V subscriptions_getN170121"
 }} 
 ,
 { "ligne" : {"" : ""

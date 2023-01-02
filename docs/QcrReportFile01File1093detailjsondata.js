@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java 42 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java 50 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.xml" 
  , "fic3"  : "" 
 }
@@ -140,6 +140,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -150,7 +157,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -194,140 +201,140 @@ var maDataBlocs = {
  , "c1" : "00048"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.WorkerMetricsGroup@POLYN166475 the MagicNumber/String  'connector-startup-results' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.WorkerMetricsGroup@POLYN166907 the MagicNumber/String  'connector-startup-results' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.WorkerMetricsGroup@POLYN166475 the MagicNumber/String  'connector-startup-attempts' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.WorkerMetricsGroup@POLYN166907 the MagicNumber/String  'connector-startup-attempts' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.WorkerMetricsGroup@POLYN166475 the MagicNumber/String  'connector-startup-successes' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.WorkerMetricsGroup@POLYN166907 the MagicNumber/String  'connector-startup-successes' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.WorkerMetricsGroup@POLYN166475 the MagicNumber/String  'connector-startup-failures' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.WorkerMetricsGroup@POLYN166907 the MagicNumber/String  'connector-startup-failures' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.WorkerMetricsGroup@POLYN166475 the MagicNumber/String  'task-startup-results' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.WorkerMetricsGroup@POLYN166907 the MagicNumber/String  'task-startup-results' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.WorkerMetricsGroup@POLYN166475 the MagicNumber/String  'task-startup-attempts' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.WorkerMetricsGroup@POLYN166907 the MagicNumber/String  'task-startup-attempts' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00069"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.WorkerMetricsGroup@POLYN166475 the MagicNumber/String  'task-startup-successes' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.WorkerMetricsGroup@POLYN166907 the MagicNumber/String  'task-startup-successes' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.WorkerMetricsGroup@POLYN166475 the MagicNumber/String  'task-startup-failures' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.WorkerMetricsGroup@POLYN166907 the MagicNumber/String  'task-startup-failures' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00081"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordConnectorStartupFailure@POLYN169764 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordConnectorStartupFailure@POLYN170196 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordConnectorStartupFailure@POLYN169764 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordConnectorStartupFailure@POLYN170196 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordConnectorStartupFailure@POLYN169764 the MagicNumber/String  0.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordConnectorStartupFailure@POLYN170196 the MagicNumber/String  0.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordConnectorStartupSuccess@POLYN170019 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordConnectorStartupSuccess@POLYN170451 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordConnectorStartupSuccess@POLYN170019 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordConnectorStartupSuccess@POLYN170451 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordConnectorStartupSuccess@POLYN170019 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordConnectorStartupSuccess@POLYN170451 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordTaskFailure@POLYN170274 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordTaskFailure@POLYN170706 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00094"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordTaskFailure@POLYN170274 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordTaskFailure@POLYN170706 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00095"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordTaskFailure@POLYN170274 the MagicNumber/String  0.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordTaskFailure@POLYN170706 the MagicNumber/String  0.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00099"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordTaskSuccess@POLYN170529 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordTaskSuccess@POLYN170961 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordTaskSuccess@POLYN170529 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordTaskSuccess@POLYN170961 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordTaskSuccess@POLYN170529 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordTaskSuccess@POLYN170961 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -355,7 +362,7 @@ var maDataBlocs = {
  , "c1" : "00126"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.ConnectorStatusListener.onStartup@POLYN171513 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.ConnectorStatusListener.onStartup@POLYN171945 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -411,7 +418,7 @@ var maDataBlocs = {
  , "c1" : "00176"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.TaskStatusListener.onStartup@POLYN173127 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.connect.runtime.WorkerMetricsGroup.TaskStatusListener.onStartup@POLYN173559 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -460,7 +467,63 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerMetricsGroup.close@POLYN169676"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordConnectorStartupFailure@POLYN170196"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordTaskFailure@POLYN170706"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerMetricsGroup.close@POLYN170108"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#81"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordConnectorStartupFailure@POLYN170196 the MagicNumber/String 1.0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00082"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#82"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordConnectorStartupFailure@POLYN170196 the MagicNumber/String 1.0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#83"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00083] In the recursive method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordConnectorStartupFailure@POLYN170196 the MagicNumber/String 0.0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#93"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordTaskFailure@POLYN170706 the MagicNumber/String 1.0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#94"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00094] In the recursive method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordTaskFailure@POLYN170706 the MagicNumber/String 1.0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00095"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#95"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.connect.runtime.WorkerMetricsGroup.recordTaskFailure@POLYN170706 the MagicNumber/String 0.0 MUST BE CONVERTED to const"
 }} 
 ]
 , 

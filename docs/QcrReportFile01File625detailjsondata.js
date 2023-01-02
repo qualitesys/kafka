@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java 17 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java 16 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.xml" 
  , "fic3"  : "" 
 }
@@ -150,7 +150,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -194,7 +194,7 @@ var maDataBlocs = {
  , "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#78"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00078] For method getErrorResponse list of called methods Object monObjet|AclCreationResult CreateAclsRequest_aclResultN163672"
+ , "c3" : "QC-JAV000007[00078] For method getErrorResponse list of called methods Object monObjet|AclCreationResult CreateAclsRequest_aclResultN164104"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -222,21 +222,21 @@ var maDataBlocs = {
  , "c1" : "00091"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.requests.CreateAclsRequest.validate@POLYN164385 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.requests.CreateAclsRequest.validate@POLYN164817 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.requests.CreateAclsRequest.validate@POLYN164385 the MagicNumber/String  'Version 0 only supports literal resource pattern types' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.requests.CreateAclsRequest.validate@POLYN164817 the MagicNumber/String  'Version 0 only supports literal resource pattern types' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.requests.CreateAclsRequest.validate@POLYN164385 the MagicNumber/String  'CreatableAcls contain unknown elements: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.requests.CreateAclsRequest.validate@POLYN164817 the MagicNumber/String  'CreatableAcls contain unknown elements: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -278,21 +278,14 @@ var maDataBlocs = {
  , "c1" : "00131"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#131"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00131] For method aclResult list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN167178"
+ , "c3" : "QC-JAV000007[00131] For method aclResult list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN167610"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.CreateAclsRequest.Builder.toString@POLYN162849"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.CreateAclsRequest.aclCreations@POLYN163322"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.CreateAclsRequest.Builder.toString@POLYN163281"
 }} 
 ]
 , 

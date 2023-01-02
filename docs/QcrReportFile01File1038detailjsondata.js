@@ -191,21 +191,21 @@ var maDataBlocs = {
  , "c1" : "00066"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.mirror.OffsetSync.toString@POLYN156894 the MagicNumber/String  'OffsetSync{topicPartition=%s, upstreamOffset=%d, downstreamOffset=%d}' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.mirror.OffsetSync.toString@POLYN157326 the MagicNumber/String  'OffsetSync{topicPartition=%s, upstreamOffset=%d, downstreamOffset=%d}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00070] For method serializeValue list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct valueStructN157157"
+ , "c3" : "QC-JAV000007[00070] For method serializeValue list of called methods Object monObjet|Struct valueStructN157589"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#78"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00078] For method serializeKey list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct keyStructN157583"
+ , "c3" : "QC-JAV000007[00078] For method serializeKey list of called methods Object monObjet|Struct keyStructN158015"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -219,7 +219,7 @@ var maDataBlocs = {
  , "c1" : "00086"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#86"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00086] For method deserializeRecord list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct KEY_SCHEMA_readN158090|java.lang.String keyStruct_getStringN158243|java.lang.Integer keyStruct_getIntN158337|org.apache.kafka.common.protocol.types.Struct VALUE_SCHEMA_readN158431|java.lang.Long valueStruct_getLongN158584|java.lang.Long valueStruct_getLongN158678"
+ , "c3" : "QC-JAV000007[00086] For method deserializeRecord list of called methods Object monObjet|Struct KEY_SCHEMA_readN158522|Struct VALUE_SCHEMA_readN158863"
 }} 
 ,
 { "ligne" : {"" : ""
