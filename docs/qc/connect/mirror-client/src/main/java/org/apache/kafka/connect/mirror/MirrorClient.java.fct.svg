@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="586px" preserveAspectRatio="none" style="width:859px;height:586px;background:#000000;" version="1.1" viewBox="0 0 859 586" width="859px" zoomAndPan="magnify"><defs/><g><rect fill="#21201B" height="1" style="stroke:#21201B;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="4" x="5" y="30.9688"> </text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="399" x="5" y="44.9375">&lt;b&gt;This version of PlantUML is 139 days old, so you should</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="408" x="5" y="58.9063">&lt;b&gt;consider upgrading from https://plantuml.com/download</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="847" x="5" y="68.875"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="188" x="6" y="83.875">[From string (line 103) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="104.1719"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="120.4688">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="136.7656">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="153.0625">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="169.3594">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="408" x="5" y="185.6563">constructor MirrorClient(Map&lt;String,Object&gt;props)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="201.9531">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="175" x="5" y="218.25">... ( skipping 78 lines )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="234.5469">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="431" x="5" y="250.8438">:return listTopics().stream().filter(this::isRemoteTopic)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="675" x="5" y="267.1406">.filter(x-&gt;source.equals(replicationPolicy.topicSource(x))).collect(Collectors.toSet());;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="283.4375">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="299.7344">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="316.0313">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="332.3281">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="718" x="5" y="348.625">Map&lt;TopicPartition,OffsetAndMetadata&gt;remoteConsumerOffsets(StringconsumerGroupId,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="336" x="5" y="364.9219">StringremoteClusterAlias,Durationtimeout)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="381.2188">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="341" x="5" y="397.5156">:longdeadline=System.currentTimeMillis()+</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="143" x="5" y="413.8125">timeout.toMillis();;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="554" x="5" y="430.1094">:Map&lt;TopicPartition,OffsetAndMetadata&gt;offsets=new HashMap&lt;&gt;();;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="186" x="5" y="446.4063">switch (try/catch block)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="76" x="5" y="462.7031">case (try)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="643" x="5" y="479">:StringcheckpointTopic=replicationPolicy.checkpointsTopic(remoteClusterAlias);;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="847" x="5" y="495.2969">:List&lt;TopicPartition&gt;checkpointAssignment=Collections.singletonList(new TopicPartition(checkpointTopic,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="34" x="5" y="511.5938">0));;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="345" x="5" y="527.8906">:consumer.assign(checkpointAssignment);;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="430" x="5" y="544.1875">:consumer.seekToBeginning(checkpointAssignment);;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="568" x="5" y="560.4844">while (System.currentTimeMillis()&lt;deadline&amp;&amp;!endOfStream(consumer,</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="576.7813">Syntax Error?</text><!--MD5=[faa128bd5d586c8225013b2edd0400d8]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="586px" preserveAspectRatio="none" style="width:864px;height:586px;background:#000000;" version="1.1" viewBox="0 0 864 586" width="864px" zoomAndPan="magnify"><defs/><g><rect fill="#070A06" height="1" style="stroke:#070A06;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="4" x="5" y="30.9688"> </text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="399" x="5" y="44.9375">&lt;b&gt;This version of PlantUML is 140 days old, so you should</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="408" x="5" y="58.9063">&lt;b&gt;consider upgrading from https://plantuml.com/download</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="852" x="5" y="68.875"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="188" x="6" y="83.875">[From string (line 103) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="104.1719"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="120.4688">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="136.7656">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="153.0625">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="169.3594">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="413" x="5" y="185.6563">constructor MirrorClient(Map&lt;String,Object&gt; props)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="201.9531">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="175" x="5" y="218.25">... ( skipping 78 lines )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="234.5469">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="431" x="5" y="250.8438">:return listTopics().stream().filter(this::isRemoteTopic)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="675" x="5" y="267.1406">.filter(x-&gt;source.equals(replicationPolicy.topicSource(x))).collect(Collectors.toSet());;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="283.4375">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="299.7344">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="316.0313">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="332.3281">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="728" x="5" y="348.625">Map&lt;TopicPartition,OffsetAndMetadata&gt; remoteConsumerOffsets(String consumerGroupId,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="346" x="5" y="364.9219">String remoteClusterAlias,Duration timeout)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="381.2188">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="346" x="5" y="397.5156">:long deadline=System.currentTimeMillis()+</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="143" x="5" y="413.8125">timeout.toMillis();;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="559" x="5" y="430.1094">:Map&lt;TopicPartition,OffsetAndMetadata&gt; offsets=new HashMap&lt;&gt;();;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="186" x="5" y="446.4063">switch (try/catch block)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="76" x="5" y="462.7031">case (try)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="648" x="5" y="479">:String checkpointTopic=replicationPolicy.checkpointsTopic(remoteClusterAlias);;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="852" x="5" y="495.2969">:List&lt;TopicPartition&gt; checkpointAssignment=Collections.singletonList(new TopicPartition(checkpointTopic,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="34" x="5" y="511.5938">0));;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="345" x="5" y="527.8906">:consumer.assign(checkpointAssignment);;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="430" x="5" y="544.1875">:consumer.seekToBeginning(checkpointAssignment);;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="568" x="5" y="560.4844">while (System.currentTimeMillis()&lt;deadline&amp;&amp;!endOfStream(consumer,</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="576.7813">Syntax Error?</text><!--MD5=[708b5816819754f73bd207002a41eeb4]
 @startuml
 !pragma layout smetana
 start
 note right
-constructor MirrorClient(Map<String,Object>props)
+constructor MirrorClient(Map<String,Object> props)
 end note
 :this(new MirrorClientConfig(props));;
 end
 start
 note right
-constructor MirrorClient(MirrorClientConfigconfig)
+constructor MirrorClient(MirrorClientConfig config)
 end note
 :adminClient=AdminClient.create(config.adminConfig());;
 :consumerConfig=config.consumerConfig();;
@@ -17,9 +17,9 @@ end note
 end
 start
 note right
-constructor MirrorClient(AdminClientadminClient,
-ReplicationPolicyreplicationPolicy,Map<String,
-Object>consumerConfig)
+constructor MirrorClient(AdminClient adminClient,
+ReplicationPolicy replicationPolicy,Map<String,
+Object> consumerConfig)
 end note
 :this.adminClient=adminClient;;
 :this.replicationPolicy=replicationPolicy;;
@@ -33,14 +33,14 @@ end note
 end
 start
 note right
-ReplicationPolicyreplicationPolicy()
+ReplicationPolicy replicationPolicy()
 end note
 :return replicationPolicy;;
 stop
 end
 start
 note right
-intreplicationHops(StringupstreamClusterAlias)
+int replicationHops(String upstreamClusterAlias)
 end note
 :return heartbeatTopics().stream().map(x->countHopsForTopic(x,
 upstreamClusterAlias)).filter(x->x!=-1).mapToInt(x->x).min().orElse(-1);;
@@ -48,7 +48,7 @@ stop
 end
 start
 note right
-Set<String>heartbeatTopics()
+Set<String> heartbeatTopics()
 end note
 :return listTopics().stream().filter(this::isHeartbeatTopic)
 .collect(Collectors.toSet());;
@@ -56,7 +56,7 @@ stop
 end
 start
 note right
-Set<String>checkpointTopics()
+Set<String> checkpointTopics()
 end note
 :return listTopics().stream().filter(this::isCheckpointTopic)
 .collect(Collectors.toSet());;
@@ -64,7 +64,7 @@ stop
 end
 start
 note right
-Set<String>upstreamClusters()
+Set<String> upstreamClusters()
 end note
 :return listTopics().stream().filter(this::isHeartbeatTopic)
 .flatMap(x->allSources(x).stream()).collect(Collectors.toSet());;
@@ -72,7 +72,7 @@ stop
 end
 start
 note right
-Set<String>remoteTopics()
+Set<String> remoteTopics()
 end note
 :return listTopics().stream().filter(this::isRemoteTopic)
 .collect(Collectors.toSet());;
@@ -80,7 +80,7 @@ stop
 end
 start
 note right
-Set<String>remoteTopics(Stringsource)
+Set<String> remoteTopics(String source)
 end note
 :return listTopics().stream().filter(this::isRemoteTopic)
 .filter(x->source.equals(replicationPolicy.topicSource(x))).collect(Collectors.toSet());;
@@ -88,30 +88,30 @@ stop
 end
 start
 note right
-Map<TopicPartition,OffsetAndMetadata>remoteConsumerOffsets(StringconsumerGroupId,
-StringremoteClusterAlias,Durationtimeout)
+Map<TopicPartition,OffsetAndMetadata> remoteConsumerOffsets(String consumerGroupId,
+String remoteClusterAlias,Duration timeout)
 end note
-:longdeadline=System.currentTimeMillis()+
+:long deadline=System.currentTimeMillis()+
 timeout.toMillis();;
-:Map<TopicPartition,OffsetAndMetadata>offsets=new HashMap<>();;
+:Map<TopicPartition,OffsetAndMetadata> offsets=new HashMap<>();;
 switch (try/catch block)
 case (try)
-:StringcheckpointTopic=replicationPolicy.checkpointsTopic(remoteClusterAlias);;
-:List<TopicPartition>checkpointAssignment=Collections.singletonList(new TopicPartition(checkpointTopic,
+:String checkpointTopic=replicationPolicy.checkpointsTopic(remoteClusterAlias);;
+:List<TopicPartition> checkpointAssignment=Collections.singletonList(new TopicPartition(checkpointTopic,
 0));;
 :consumer.assign(checkpointAssignment);;
 :consumer.seekToBeginning(checkpointAssignment);;
 while (System.currentTimeMillis()<deadline&&!endOfStream(consumer,
 checkpointAssignment))
-:ConsumerRecords<byte[],byte[]>records=consumer.poll(timeout);;
+:ConsumerRecords<byte[],byte[]> records=consumer.poll(timeout);;
 switch (try/catch block)
 case (try)
-:Checkpointcheckpoint=Checkpoint.deserializeRecord(record);;
+:Checkpoint checkpoint=Checkpoint.deserializeRecord(record);;
 if (checkpoint.consumerGroupId().equals(consumerGroupId)) then (yes) 
 :offsets.put(checkpoint.topicPartition(),
 checkpoint.offsetAndMetadata());;
 endif 
-case (catch (SchemaExceptione))
+case (catch (SchemaException e))
 :log.info("Could not deserialize record. Skipping.",e);;
 endswitch
 endwhile
@@ -123,26 +123,26 @@ stop
 end
 start
 note right
-Set<String>listTopics()
+Set<String> listTopics()
 end note
 switch (try/catch block)
 case (try)
 :return adminClient.listTopics().names().get();;
 stop
-case (catch (ExecutionExceptione))
+case (catch (ExecutionException e))
 :throw new KafkaException(e.getCause());;
 stop
 endswitch
 end
 start
 note right
-intcountHopsForTopic(Stringtopic,StringsourceClusterAlias)
+int countHopsForTopic(String topic,String sourceClusterAlias)
 end note
-:inthops=0;;
-:Set<String>visited=new HashSet<>();;
+:int hops=0;;
+:Set<String> visited=new HashSet<>();;
 while (true)
 :hops++;;
-:Stringsource=replicationPolicy.topicSource(topic);;
+:String source=replicationPolicy.topicSource(topic);;
 if (source==null ) then (yes) 
 :return -1;;
 stop
@@ -161,31 +161,31 @@ endwhile
 end
 start
 note right
-booleanisHeartbeatTopic(Stringtopic)
+boolean isHeartbeatTopic(String topic)
 end note
 :return replicationPolicy.isHeartbeatsTopic(topic);;
 stop
 end
 start
 note right
-booleanisCheckpointTopic(Stringtopic)
+boolean isCheckpointTopic(String topic)
 end note
 :return replicationPolicy.isCheckpointsTopic(topic);;
 stop
 end
 start
 note right
-booleanisRemoteTopic(Stringtopic)
+boolean isRemoteTopic(String topic)
 end note
 :return !replicationPolicy.isInternalTopic(topic)&&replicationPolicy.topicSource(topic)!=null ;;
 stop
 end
 start
 note right
-Set<String>allSources(Stringtopic)
+Set<String> allSources(String topic)
 end note
-:Set<String>sources=new HashSet<>();;
-:Stringsource=replicationPolicy.topicSource(topic);;
+:Set<String> sources=new HashSet<>();;
+:String source=replicationPolicy.topicSource(topic);;
 while (source!=null &&!sources.contains(source))
 :sources.add(source);;
 :topic=replicationPolicy.upstreamTopic(topic);;
@@ -196,10 +196,10 @@ stop
 end
 start
 note right
-booleanendOfStream(Consumer<? ,? >consumer,
-Collection<TopicPartition>assignments)
+boolean endOfStream(Consumer<?,?> consumer,
+Collection<TopicPartition> assignments)
 end note
-:Map<TopicPartition,Long>endOffsets=consumer.endOffsets(assignments);;
+:Map<TopicPartition,Long> endOffsets=consumer.endOffsets(assignments);;
 if (consumer.position(topicPartition)<endOffsets.get(topicPartition)) then (yes) 
 :return false;;
 stop

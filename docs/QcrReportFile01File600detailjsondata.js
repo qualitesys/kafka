@@ -130,7 +130,7 @@ var maDataBlocs = {
  , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsResponse.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.requests.AllocateProducerIdsResponse.errorCounts@POLYN147524 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.requests.AllocateProducerIdsResponse.errorCounts@POLYN148372 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -144,7 +144,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AllocateProducerIdsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AllocateProducerIdsResponse.throttleTimeMs@POLYN147746"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.AllocateProducerIdsResponse.throttleTimeMs@POLYN148594"
 }} 
 ]
 , 

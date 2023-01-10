@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="586px" preserveAspectRatio="none" style="width:1046px;height:586px;background:#000000;" version="1.1" viewBox="0 0 1046 586" width="1046px" zoomAndPan="magnify"><defs/><g><rect fill="#0C2707" height="1" style="stroke:#0C2707;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="4" x="5" y="30.9688"> </text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="399" x="5" y="44.9375">&lt;b&gt;This version of PlantUML is 139 days old, so you should</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="408" x="5" y="58.9063">&lt;b&gt;consider upgrading from https://plantuml.com/download</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="1034" x="5" y="68.875"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="188" x="6" y="83.875">[From string (line 137) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="104.1719"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="120.4688">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="136.7656">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="153.0625">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="169.3594">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="528" x="5" y="185.6563">constructor QuorumInfo(IntegerleaderId,List&lt;ReplicaState&gt;voters,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="201.9531">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="185" x="5" y="218.25">... ( skipping 111 lines )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="234.5469">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="111" x="5" y="250.8438">:return false;;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="267.1406">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="283.4375">endif</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="277" x="5" y="299.7344">:ReplicaStatethat=(ReplicaState)o;;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="1034" x="5" y="316.0313">:return replicaId==that.replicaId&amp;&amp;logEndOffset==that.logEndOffset&amp;&amp;lastFetchTimeMs.equals(that.lastFetchTimeMs)&amp;&amp;lastCa ...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="332.3281">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="348.625">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="364.9219">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="381.2188">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="111" x="5" y="397.5156">inthashCode()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="413.8125">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="349" x="5" y="430.1094">:return Objects.hash(replicaId,logEndOffset,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="320" x="5" y="446.4063">lastFetchTimeMs,lastCaughtUpTimeMs);;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="462.7031">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="479">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="495.2969">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="511.5938">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="122" x="5" y="527.8906">StringtoString()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="544.1875">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="374" x="5" y="560.4844">:return "ReplicaState("+"replicaId="+replicaId+</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="576.7813">Syntax Error?</text><!--MD5=[15f69f6335bde33e6f424b8b406b89f4]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="586px" preserveAspectRatio="none" style="width:1046px;height:586px;background:#000000;" version="1.1" viewBox="0 0 1046 586" width="1046px" zoomAndPan="magnify"><defs/><g><rect fill="#1D1800" height="1" style="stroke:#1D1800;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="4" x="5" y="30.9688"> </text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="399" x="5" y="44.9375">&lt;b&gt;This version of PlantUML is 140 days old, so you should</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="408" x="5" y="58.9063">&lt;b&gt;consider upgrading from https://plantuml.com/download</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="1034" x="5" y="68.875"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="188" x="6" y="83.875">[From string (line 137) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="104.1719"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="120.4688">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="136.7656">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="153.0625">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="169.3594">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="538" x="5" y="185.6563">constructor QuorumInfo(Integer leaderId,List&lt;ReplicaState&gt; voters,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="201.9531">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="185" x="5" y="218.25">... ( skipping 111 lines )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="234.5469">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="111" x="5" y="250.8438">:return false;;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="267.1406">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="283.4375">endif</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="287" x="5" y="299.7344">:ReplicaState that=(ReplicaState )o;;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="1034" x="5" y="316.0313">:return replicaId==that.replicaId&amp;&amp;logEndOffset==that.logEndOffset&amp;&amp;lastFetchTimeMs.equals(that.lastFetchTimeMs)&amp;&amp;lastCa ...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="332.3281">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="348.625">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="364.9219">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="381.2188">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="116" x="5" y="397.5156">int hashCode()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="413.8125">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="349" x="5" y="430.1094">:return Objects.hash(replicaId,logEndOffset,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="320" x="5" y="446.4063">lastFetchTimeMs,lastCaughtUpTimeMs);;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="462.7031">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="479">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="495.2969">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="511.5938">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="527.8906">String toString()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="544.1875">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="374" x="5" y="560.4844">:return "ReplicaState("+"replicaId="+replicaId+</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="576.7813">Syntax Error?</text><!--MD5=[3d0324f8d682bd47c27e5b3fda2842fd]
 @startuml
 !pragma layout smetana
 start
 note right
-constructor QuorumInfo(IntegerleaderId,List<ReplicaState>voters,
-List<ReplicaState>observers)
+constructor QuorumInfo(Integer leaderId,List<ReplicaState> voters,
+List<ReplicaState> observers)
 end note
 :this.leaderId=leaderId;;
 :this.voters=voters;;
@@ -12,28 +12,28 @@ end note
 end
 start
 note right
-IntegerleaderId()
+Integer leaderId()
 end note
 :return leaderId;;
 stop
 end
 start
 note right
-List<ReplicaState>voters()
+List<ReplicaState> voters()
 end note
 :return voters;;
 stop
 end
 start
 note right
-List<ReplicaState>observers()
+List<ReplicaState> observers()
 end note
 :return observers;;
 stop
 end
 start
 note right
-booleanequals(Objecto)
+boolean equals(Object o)
 end note
 if (this==o) then (yes) 
 :return true;;
@@ -43,20 +43,20 @@ if (o==null ||getClass()!=o.getClass()) then (yes)
 :return false;;
 stop
 endif 
-:QuorumInfothat=(QuorumInfo)o;;
+:QuorumInfo that=(QuorumInfo )o;;
 :return leaderId.equals(that.leaderId)&&voters.equals(that.voters)&&observers.equals(that.observers);;
 stop
 end
 start
 note right
-inthashCode()
+int hashCode()
 end note
 :return Objects.hash(leaderId,voters,observers);;
 stop
 end
 start
 note right
-StringtoString()
+String toString()
 end note
 :return "QuorumInfo("+"leaderId="+leaderId+
 ", voters="+voters+", observers="+observers+
@@ -71,8 +71,8 @@ end note
 end
 start
 note right
-constructor ReplicaState(intreplicaId,longlogEndOffset,
-OptionalLonglastFetchTimeMs,OptionalLonglastCaughtUpTimeMs)
+constructor ReplicaState(int replicaId,long logEndOffset,
+OptionalLong lastFetchTimeMs,OptionalLong lastCaughtUpTimeMs)
 end note
 :this.replicaId=replicaId;;
 :this.logEndOffset=logEndOffset;;
@@ -81,35 +81,35 @@ end note
 end
 start
 note right
-intreplicaId()
+int replicaId()
 end note
 :return replicaId;;
 stop
 end
 start
 note right
-longlogEndOffset()
+long logEndOffset()
 end note
 :return logEndOffset;;
 stop
 end
 start
 note right
-OptionalLonglastFetchTimeMs()
+OptionalLong lastFetchTimeMs()
 end note
 :return lastFetchTimeMs;;
 stop
 end
 start
 note right
-OptionalLonglastCaughtUpTimeMs()
+OptionalLong lastCaughtUpTimeMs()
 end note
 :return lastCaughtUpTimeMs;;
 stop
 end
 start
 note right
-booleanequals(Objecto)
+boolean equals(Object o)
 end note
 if (this==o) then (yes) 
 :return true;;
@@ -119,13 +119,13 @@ if (o==null ||getClass()!=o.getClass()) then (yes)
 :return false;;
 stop
 endif 
-:ReplicaStatethat=(ReplicaState)o;;
+:ReplicaState that=(ReplicaState )o;;
 :return replicaId==that.replicaId&&logEndOffset==that.logEndOffset&&lastFetchTimeMs.equals(that.lastFetchTimeMs)&&lastCaughtUpTimeMs.equals(that.lastCaughtUpTimeMs);;
 stop
 end
 start
 note right
-inthashCode()
+int hashCode()
 end note
 :return Objects.hash(replicaId,logEndOffset,
 lastFetchTimeMs,lastCaughtUpTimeMs);;
@@ -133,7 +133,7 @@ stop
 end
 start
 note right
-StringtoString()
+String toString()
 end note
 :return "ReplicaState("+"replicaId="+replicaId+
 ", logEndOffset="+logEndOffset+", lastFetchTimeMs="+
@@ -147,8 +147,8 @@ end
 !pragma layout smetana
 start
 note right
-constructor QuorumInfo(IntegerleaderId,List<ReplicaState>voters,
-List<ReplicaState>observers)
+constructor QuorumInfo(Integer leaderId,List<ReplicaState> voters,
+List<ReplicaState> observers)
 end note
 :this.leaderId=leaderId;;
 :this.voters=voters;;
@@ -156,28 +156,28 @@ end note
 end
 start
 note right
-IntegerleaderId()
+Integer leaderId()
 end note
 :return leaderId;;
 stop
 end
 start
 note right
-List<ReplicaState>voters()
+List<ReplicaState> voters()
 end note
 :return voters;;
 stop
 end
 start
 note right
-List<ReplicaState>observers()
+List<ReplicaState> observers()
 end note
 :return observers;;
 stop
 end
 start
 note right
-booleanequals(Objecto)
+boolean equals(Object o)
 end note
 if (this==o) then (yes) 
 :return true;;
@@ -187,20 +187,20 @@ if (o==null ||getClass()!=o.getClass()) then (yes)
 :return false;;
 stop
 endif 
-:QuorumInfothat=(QuorumInfo)o;;
+:QuorumInfo that=(QuorumInfo )o;;
 :return leaderId.equals(that.leaderId)&&voters.equals(that.voters)&&observers.equals(that.observers);;
 stop
 end
 start
 note right
-inthashCode()
+int hashCode()
 end note
 :return Objects.hash(leaderId,voters,observers);;
 stop
 end
 start
 note right
-StringtoString()
+String toString()
 end note
 :return "QuorumInfo("+"leaderId="+leaderId+
 ", voters="+voters+", observers="+observers+
@@ -214,8 +214,8 @@ end note
 end
 start
 note right
-constructor ReplicaState(intreplicaId,longlogEndOffset,
-OptionalLonglastFetchTimeMs,OptionalLonglastCaughtUpTimeMs)
+constructor ReplicaState(int replicaId,long logEndOffset,
+OptionalLong lastFetchTimeMs,OptionalLong lastCaughtUpTimeMs)
 end note
 :this.replicaId=replicaId;;
 :this.logEndOffset=logEndOffset;;
@@ -224,35 +224,35 @@ end note
 end
 start
 note right
-intreplicaId()
+int replicaId()
 end note
 :return replicaId;;
 stop
 end
 start
 note right
-longlogEndOffset()
+long logEndOffset()
 end note
 :return logEndOffset;;
 stop
 end
 start
 note right
-OptionalLonglastFetchTimeMs()
+OptionalLong lastFetchTimeMs()
 end note
 :return lastFetchTimeMs;;
 stop
 end
 start
 note right
-OptionalLonglastCaughtUpTimeMs()
+OptionalLong lastCaughtUpTimeMs()
 end note
 :return lastCaughtUpTimeMs;;
 stop
 end
 start
 note right
-booleanequals(Objecto)
+boolean equals(Object o)
 end note
 if (this==o) then (yes) 
 :return true;;
@@ -262,13 +262,13 @@ if (o==null ||getClass()!=o.getClass()) then (yes)
 :return false;;
 stop
 endif 
-:ReplicaStatethat=(ReplicaState)o;;
+:ReplicaState that=(ReplicaState )o;;
 :return replicaId==that.replicaId&&logEndOffset==that.logEndOffset&&lastFetchTimeMs.equals(that.lastFetchTimeMs)&&lastCaughtUpTimeMs.equals(that.lastCaughtUpTimeMs);;
 stop
 end
 start
 note right
-inthashCode()
+int hashCode()
 end note
 :return Objects.hash(replicaId,logEndOffset,
 lastFetchTimeMs,lastCaughtUpTimeMs);;
@@ -276,7 +276,7 @@ stop
 end
 start
 note right
-StringtoString()
+String toString()
 end note
 :return "ReplicaState("+"replicaId="+replicaId+
 ", logEndOffset="+logEndOffset+", lastFetchTimeMs="+

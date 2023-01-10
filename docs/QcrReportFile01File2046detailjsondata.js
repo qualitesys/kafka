@@ -203,7 +203,7 @@ var maDataBlocs = {
  , "c1" : "00046"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00046] For method findSessions list of called methods Object monObjet|java.util.Set storeProvider_storesN176055"
+ , "c3" : "QC-JAV000007[00046] For method findSessions list of called methods Object monObjet|java.util.Set storeProvider_storesN176903"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -224,35 +224,35 @@ var maDataBlocs = {
  , "c1" : "00049"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN175741 the MagicNumber/String  'key can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN176589 the MagicNumber/String  'key can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN175741 the MagicNumber/String  'State store  [' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN176589 the MagicNumber/String  'State store  [' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN175741 the MagicNumber/String  '] is not available anymore' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN176589 the MagicNumber/String  '] is not available anymore' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN175741 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN176589 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00065"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN175741 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN176589 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -266,7 +266,7 @@ var maDataBlocs = {
  , "c1" : "00074"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00074] For method backwardFindSessions list of called methods Object monObjet|java.util.Set storeProvider_storesN177351"
+ , "c3" : "QC-JAV000007[00074] For method backwardFindSessions list of called methods Object monObjet|java.util.Set storeProvider_storesN178199"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -287,35 +287,35 @@ var maDataBlocs = {
  , "c1" : "00077"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN177037 the MagicNumber/String  'key can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN177885 the MagicNumber/String  'key can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN177037 the MagicNumber/String  'State store  [' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN177885 the MagicNumber/String  'State store  [' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN177037 the MagicNumber/String  '] is not available anymore' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN177885 the MagicNumber/String  '] is not available anymore' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN177037 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN177885 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN177037 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN177885 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -329,7 +329,7 @@ var maDataBlocs = {
  , "c1" : "00100"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#100"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00100] For method findSessions list of called methods Object monObjet|java.util.Set storeProvider_storesN178580"
+ , "c3" : "QC-JAV000007[00100] For method findSessions list of called methods Object monObjet|java.util.Set storeProvider_storesN179428"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -350,28 +350,28 @@ var maDataBlocs = {
  , "c1" : "00116"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN178333 the MagicNumber/String  'State store  [' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN179181 the MagicNumber/String  'State store  [' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN178333 the MagicNumber/String  '] is not available anymore' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN179181 the MagicNumber/String  '] is not available anymore' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00117"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN178333 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN179181 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00118"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN178333 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.findSessions@POLYN179181 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -385,7 +385,7 @@ var maDataBlocs = {
  , "c1" : "00127"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#127"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00127] For method backwardFindSessions list of called methods Object monObjet|java.util.Set storeProvider_storesN179831"
+ , "c3" : "QC-JAV000007[00127] For method backwardFindSessions list of called methods Object monObjet|java.util.Set storeProvider_storesN180679"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -406,28 +406,28 @@ var maDataBlocs = {
  , "c1" : "00143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN179584 the MagicNumber/String  'State store  [' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN180432 the MagicNumber/String  'State store  [' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN179584 the MagicNumber/String  '] is not available anymore' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN180432 the MagicNumber/String  '] is not available anymore' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN179584 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN180432 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00145"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN179584 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFindSessions@POLYN180432 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -441,7 +441,7 @@ var maDataBlocs = {
  , "c1" : "00154"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#154"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00154] For method fetchSession list of called methods Object monObjet|java.util.Set storeProvider_storesN181091"
+ , "c3" : "QC-JAV000007[00154] For method fetchSession list of called methods Object monObjet|java.util.Set storeProvider_storesN181939"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -455,42 +455,42 @@ var maDataBlocs = {
  , "c1" : "00155"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180777 the MagicNumber/String  'key can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN181625 the MagicNumber/String  'key can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00162"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180777 the MagicNumber/String  'State store  [' should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN181625 the MagicNumber/String  'State store  [' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00162"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180777 the MagicNumber/String  '] is not available anymore' should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN181625 the MagicNumber/String  '] is not available anymore' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00163"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180777 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN181625 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00164"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180777 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN181625 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00169"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180777 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN181625 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -504,7 +504,7 @@ var maDataBlocs = {
  , "c1" : "00173"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#173"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00173] For method fetch list of called methods Object monObjet|java.util.Set storeProvider_storesN182043"
+ , "c3" : "QC-JAV000007[00173] For method fetch list of called methods Object monObjet|java.util.Set storeProvider_storesN182891"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -525,42 +525,42 @@ var maDataBlocs = {
  , "c1" : "00174"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetch@POLYN181785 the MagicNumber/String  'key can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetch@POLYN182633 the MagicNumber/String  'key can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00185"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetch@POLYN181785 the MagicNumber/String  'State store  [' should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetch@POLYN182633 the MagicNumber/String  'State store  [' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00185"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetch@POLYN181785 the MagicNumber/String  '] is not available anymore' should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetch@POLYN182633 the MagicNumber/String  '] is not available anymore' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00186"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetch@POLYN181785 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetch@POLYN182633 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00187"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetch@POLYN181785 the MagicNumber/String  'please re-discover its location from the state metadata. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetch@POLYN182633 the MagicNumber/String  'please re-discover its location from the state metadata. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00188"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetch@POLYN181785 the MagicNumber/String  'Original error message: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetch@POLYN182633 the MagicNumber/String  'Original error message: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -574,7 +574,7 @@ var maDataBlocs = {
  , "c1" : "00195"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#195"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00195] For method backwardFetch list of called methods Object monObjet|java.util.Set storeProvider_storesN183283"
+ , "c3" : "QC-JAV000007[00195] For method backwardFetch list of called methods Object monObjet|java.util.Set storeProvider_storesN184131"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -595,35 +595,35 @@ var maDataBlocs = {
  , "c1" : "00196"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFetch@POLYN183025 the MagicNumber/String  'key can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFetch@POLYN183873 the MagicNumber/String  'key can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00208"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFetch@POLYN183025 the MagicNumber/String  'State store  [' should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFetch@POLYN183873 the MagicNumber/String  'State store  [' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00208"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFetch@POLYN183025 the MagicNumber/String  '] is not available anymore' should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFetch@POLYN183873 the MagicNumber/String  '] is not available anymore' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00209"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFetch@POLYN183025 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFetch@POLYN183873 the MagicNumber/String  ' and may have been migrated to another instance; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00210"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#210"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFetch@POLYN183025 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
+ , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.backwardFetch@POLYN183873 the MagicNumber/String  'please re-discover its location from the state metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -644,49 +644,49 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180777"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN181625"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#155"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00155] In the recursive method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180777 the MagicNumber/String 'key can't be null' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00155] In the recursive method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN181625 the MagicNumber/String 'key can't be null' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00162"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#162"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00162] In the recursive method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180777 the MagicNumber/String 'State store  [' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00162] In the recursive method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN181625 the MagicNumber/String 'State store  [' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00162"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#162"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00162] In the recursive method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180777 the MagicNumber/String '] is not available anymore' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00162] In the recursive method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN181625 the MagicNumber/String '] is not available anymore' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00163"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#163"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00163] In the recursive method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180777 the MagicNumber/String ' and may have been migrated to another instance; ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00163] In the recursive method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN181625 the MagicNumber/String ' and may have been migrated to another instance; ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00164"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#164"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00164] In the recursive method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180777 the MagicNumber/String 'please re-discover its location from the state metadata.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00164] In the recursive method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN181625 the MagicNumber/String 'please re-discover its location from the state metadata.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00169"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#169"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00169] In the recursive method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN180777 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00169] In the recursive method org.apache.kafka.streams.state.internals.CompositeReadOnlySessionStore.fetchSession@POLYN181625 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -195,28 +195,28 @@ var maDataBlocs = {
  , "c1" : "00077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN153463 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN154311 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN153463 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN154311 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN153463 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN154311 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN153463 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN154311 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -230,35 +230,35 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN153463"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN154311"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#77"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN153463 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN154311 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#82"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN153463 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN154311 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#82"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN153463 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN154311 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#82"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN153463 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.common.requests.BeginQuorumEpochResponse.errorCounts@POLYN154311 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

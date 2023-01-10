@@ -116,14 +116,14 @@ var maDataBlocs = {
  , "c1" : "00045"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionBytesStoreSupplier.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.state.internals.InMemorySessionBytesStoreSupplier.metricsScope@POLYN145131 the MagicNumber/String  'in-memory-session' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.streams.state.internals.InMemorySessionBytesStoreSupplier.metricsScope@POLYN145979 the MagicNumber/String  'in-memory-session' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionBytesStoreSupplier.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.state.internals.InMemorySessionBytesStoreSupplier.segmentIntervalMs@POLYN145233 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.streams.state.internals.InMemorySessionBytesStoreSupplier.segmentIntervalMs@POLYN146081 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 , 

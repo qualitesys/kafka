@@ -131,7 +131,7 @@ var maDataBlocs = {
  , "c1" : "00085"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ImplicitLinkedHashCollectionBenchmark.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark.TestElement.equals@POLYN156310 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark.TestElement.equals@POLYN157158 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -145,28 +145,28 @@ var maDataBlocs = {
  , "c1" : "00108"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ImplicitLinkedHashCollectionBenchmark.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark.setup@POLYN157283 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark.setup@POLYN158131 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ImplicitLinkedHashCollectionBenchmark.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark.TestElement.equals@POLYN156310"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark.TestElement.equals@POLYN157158"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ImplicitLinkedHashCollectionBenchmark.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark.TestElement.hashCode@POLYN156190"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark.TestElement.hashCode@POLYN157038"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ImplicitLinkedHashCollectionBenchmark.java.html#85"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark.TestElement.equals@POLYN156310 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark.TestElement.equals@POLYN157158 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

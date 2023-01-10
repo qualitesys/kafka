@@ -154,7 +154,7 @@ var maDataBlocs = {
  , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00051] For method assign list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupAssignment metadata_partitionCountForTopicN163066|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupAssignment assignN163514"
+ , "c3" : "QC-JAV000007[00051] For method assign list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupAssignment metadata_partitionCountForTopicN163914|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupAssignment assignN164362"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -182,21 +182,21 @@ var maDataBlocs = {
  , "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN162297 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN163145 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN162297 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN163145 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN162297 the MagicNumber/String  'Skipping assignment for topic {} since no metadata is available' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN163145 the MagicNumber/String  'Skipping assignment for topic {} since no metadata is available' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -217,7 +217,7 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.partitions@POLYN164604 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.partitions@POLYN165452 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -238,14 +238,14 @@ var maDataBlocs = {
  , "c1" : "00103"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo.compareTo@POLYN165569 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo.compareTo@POLYN166417 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo.compareTo@POLYN165569 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo.compareTo@POLYN166417 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -259,56 +259,56 @@ var maDataBlocs = {
  , "c1" : "00127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo.toString@POLYN166732 the MagicNumber/String  'MemberInfo [member.id: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo.toString@POLYN167580 the MagicNumber/String  'MemberInfo [member.id: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo.toString@POLYN166732 the MagicNumber/String  ', group.instance.id: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo.toString@POLYN167580 the MagicNumber/String  ', group.instance.id: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo.toString@POLYN166732 the MagicNumber/String  '{}' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo.toString@POLYN167580 the MagicNumber/String  '{}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo.toString@POLYN166732 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo.toString@POLYN167580 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN162297"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN163145"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#60"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN162297 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN163145 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#60"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN162297 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN163145 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#63"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN162297 the MagicNumber/String 'Skipping assignment for topic {} since no metadata is available' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.assign@POLYN163145 the MagicNumber/String 'Skipping assignment for topic {} since no metadata is available' MUST BE CONVERTED to const"
 }} 
 ]
 , 

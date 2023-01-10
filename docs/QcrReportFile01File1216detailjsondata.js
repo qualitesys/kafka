@@ -230,7 +230,7 @@ var maDataBlocs = {
  , "c1" : "00067"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.connect.transforms.Flatten.configure@POLYN190602 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.connect.transforms.Flatten.configure@POLYN191450 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -244,14 +244,14 @@ var maDataBlocs = {
  , "c1" : "00072"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.connect.transforms.Flatten.apply@POLYN191083 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.connect.transforms.Flatten.apply@POLYN191931 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.transforms.Flatten.apply@POLYN191083 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.transforms.Flatten.apply@POLYN191931 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -286,14 +286,14 @@ var maDataBlocs = {
  , "c1" : "00099"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN191967 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN192815 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN191967 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN192815 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -349,56 +349,56 @@ var maDataBlocs = {
  , "c1" : "00107"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN192560 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN193408 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN192560 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN193408 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00113"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN192560 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN193408 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00114"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN192560 the MagicNumber/String  'Flatten transformation was passed a value of type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN193408 the MagicNumber/String  'Flatten transformation was passed a value of type ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN192560 the MagicNumber/String  ' which is not supported by Connect's data API' should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN193408 the MagicNumber/String  ' which is not supported by Connect's data API' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00135"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN192560 the MagicNumber/String  'Flatten transformation does not support ' should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN193408 the MagicNumber/String  'Flatten transformation does not support ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN192560 the MagicNumber/String  ' for record without schemas (for field ' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN193408 the MagicNumber/String  ' for record without schemas (for field ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN192560 the MagicNumber/String  ').' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.connect.transforms.Flatten.applySchemaless@POLYN193408 the MagicNumber/String  ').' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -412,35 +412,35 @@ var maDataBlocs = {
  , "c1" : "00146"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.connect.transforms.Flatten.applyWithSchema@POLYN194841 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.connect.transforms.Flatten.applyWithSchema@POLYN195689 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00149"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.connect.transforms.Flatten.applyWithSchema@POLYN194841 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.connect.transforms.Flatten.applyWithSchema@POLYN195689 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00153"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.connect.transforms.Flatten.applyWithSchema@POLYN194841 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.connect.transforms.Flatten.applyWithSchema@POLYN195689 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00154"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.connect.transforms.Flatten.applyWithSchema@POLYN194841 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.connect.transforms.Flatten.applyWithSchema@POLYN195689 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.connect.transforms.Flatten.applyWithSchema@POLYN194841 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.connect.transforms.Flatten.applyWithSchema@POLYN195689 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -489,42 +489,42 @@ var maDataBlocs = {
  , "c1" : "00177"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.connect.transforms.Flatten.buildUpdatedSchema@POLYN196867 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.connect.transforms.Flatten.buildUpdatedSchema@POLYN197715 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00178"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.connect.transforms.Flatten.buildUpdatedSchema@POLYN196867 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.connect.transforms.Flatten.buildUpdatedSchema@POLYN197715 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00180"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.connect.transforms.Flatten.buildUpdatedSchema@POLYN196867 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.connect.transforms.Flatten.buildUpdatedSchema@POLYN197715 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00200"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#200"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.connect.transforms.Flatten.buildUpdatedSchema@POLYN196867 the MagicNumber/String  'Flatten transformation does not support ' should be converted to const"
+ , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.connect.transforms.Flatten.buildUpdatedSchema@POLYN197715 the MagicNumber/String  'Flatten transformation does not support ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00201"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.connect.transforms.Flatten.buildUpdatedSchema@POLYN196867 the MagicNumber/String  ' for record with schemas (for field ' should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.connect.transforms.Flatten.buildUpdatedSchema@POLYN197715 the MagicNumber/String  ' for record with schemas (for field ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00201"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.connect.transforms.Flatten.buildUpdatedSchema@POLYN196867 the MagicNumber/String  ').' should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.connect.transforms.Flatten.buildUpdatedSchema@POLYN197715 the MagicNumber/String  ').' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -538,7 +538,7 @@ var maDataBlocs = {
  , "c1" : "00221"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.connect.transforms.Flatten.convertFieldSchema@POLYN199245 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.connect.transforms.Flatten.convertFieldSchema@POLYN200093 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -566,28 +566,28 @@ var maDataBlocs = {
  , "c1" : "00227"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#227"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.connect.transforms.Flatten.buildWithSchema@POLYN199729 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.connect.transforms.Flatten.buildWithSchema@POLYN200577 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00249"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#249"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.connect.transforms.Flatten.buildWithSchema@POLYN199729 the MagicNumber/String  'Flatten transformation does not support ' should be converted to const"
+ , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.connect.transforms.Flatten.buildWithSchema@POLYN200577 the MagicNumber/String  'Flatten transformation does not support ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00250"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#250"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.connect.transforms.Flatten.buildWithSchema@POLYN199729 the MagicNumber/String  ' for record with schemas (for field ' should be converted to const"
+ , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.connect.transforms.Flatten.buildWithSchema@POLYN200577 the MagicNumber/String  ' for record with schemas (for field ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00250"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#250"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.connect.transforms.Flatten.buildWithSchema@POLYN199729 the MagicNumber/String  ').' should be converted to const"
+ , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.connect.transforms.Flatten.buildWithSchema@POLYN200577 the MagicNumber/String  ').' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

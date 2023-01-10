@@ -107,14 +107,14 @@ var maDataBlocs = {
  , "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateResourceException.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.errors.DuplicateResourceException.DuplicateResourceException@POLYN148138 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.errors.DuplicateResourceException.DuplicateResourceException@POLYN148986 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/DuplicateResourceException.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.errors.DuplicateResourceException.DuplicateResourceException@POLYN148353 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.errors.DuplicateResourceException.DuplicateResourceException@POLYN149201 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

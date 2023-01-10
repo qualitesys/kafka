@@ -87,14 +87,14 @@ var maDataBlocs = {
  , "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ExponentialBackoff.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.utils.ExponentialBackoff.ExponentialBackoff@POLYN147618 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.utils.ExponentialBackoff.ExponentialBackoff@POLYN148466 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ExponentialBackoff.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.utils.ExponentialBackoff.ExponentialBackoff@POLYN147618 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.utils.ExponentialBackoff.ExponentialBackoff@POLYN148466 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -108,28 +108,28 @@ var maDataBlocs = {
  , "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ExponentialBackoff.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.utils.ExponentialBackoff.backoff@POLYN148292 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.utils.ExponentialBackoff.backoff@POLYN149140 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ExponentialBackoff.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.utils.ExponentialBackoff.backoff@POLYN148292 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.utils.ExponentialBackoff.backoff@POLYN149140 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ExponentialBackoff.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.utils.ExponentialBackoff.backoff@POLYN148292 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.utils.ExponentialBackoff.backoff@POLYN149140 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ExponentialBackoff.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.utils.ExponentialBackoff.backoff@POLYN148292 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.utils.ExponentialBackoff.backoff@POLYN149140 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 , 

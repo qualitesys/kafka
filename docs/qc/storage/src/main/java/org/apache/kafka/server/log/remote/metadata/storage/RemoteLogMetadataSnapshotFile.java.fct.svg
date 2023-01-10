@@ -1,44 +1,44 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="586px" preserveAspectRatio="none" style="width:1074px;height:586px;background:#000000;" version="1.1" viewBox="0 0 1074 586" width="1074px" zoomAndPan="magnify"><defs/><g><rect fill="#182524" height="1" style="stroke:#182524;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="4" x="5" y="30.9688"> </text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="399" x="5" y="44.9375">&lt;b&gt;This version of PlantUML is 139 days old, so you should</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="408" x="5" y="58.9063">&lt;b&gt;consider upgrading from https://plantuml.com/download</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="1062" x="5" y="68.875"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="188" x="6" y="83.875">[From string (line 181) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="104.1719"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="120.4688">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="136.7656">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="153.0625">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="169.3594">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="545" x="5" y="185.6563">constructor RemoteLogMetadataSnapshotFile(PathmetadataStoreDir)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="201.9531">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="185" x="5" y="218.25">... ( skipping 156 lines )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="234.5469">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="250.8438">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="267.1406">endif</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="273" x="5" y="283.4375">:Snapshotsnapshot=(Snapshot)o;;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="1062" x="5" y="299.7344">:return version==snapshot.version&amp;&amp;metadataPartition==snapshot.metadataPartition&amp;&amp;metadataPartitionOffset==snapshot.meta ...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="407" x="5" y="316.0313">snapshot.remoteLogSegmentMetadataSnapshots);;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="332.3281">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="348.625">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="364.9219">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="381.2188">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="111" x="5" y="397.5156">inthashCode()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="413.8125">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="378" x="5" y="430.1094">:return Objects.hash(version,metadataPartition,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="522" x="5" y="446.4063">metadataPartitionOffset,remoteLogSegmentMetadataSnapshots);;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="462.7031">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="479">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="495.2969">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="511.5938">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="122" x="5" y="527.8906">StringtoString()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="544.1875">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="526" x="5" y="560.4844">:return "Snapshot{"+"version="+version+", metadataPartition="+</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="576.7813">Syntax Error?</text><!--MD5=[784cabac3370fc344d141ac860b85bda]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="586px" preserveAspectRatio="none" style="width:1074px;height:586px;background:#000000;" version="1.1" viewBox="0 0 1074 586" width="1074px" zoomAndPan="magnify"><defs/><g><rect fill="#1C151A" height="1" style="stroke:#1C151A;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="4" x="5" y="30.9688"> </text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="399" x="5" y="44.9375">&lt;b&gt;This version of PlantUML is 140 days old, so you should</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="408" x="5" y="58.9063">&lt;b&gt;consider upgrading from https://plantuml.com/download</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="1062" x="5" y="68.875"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="188" x="6" y="83.875">[From string (line 181) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="104.1719"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="120.4688">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="136.7656">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="153.0625">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="169.3594">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="550" x="5" y="185.6563">constructor RemoteLogMetadataSnapshotFile(Path metadataStoreDir)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="201.9531">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="185" x="5" y="218.25">... ( skipping 156 lines )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="234.5469">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="250.8438">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="267.1406">endif</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="283" x="5" y="283.4375">:Snapshot snapshot=(Snapshot )o;;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="1062" x="5" y="299.7344">:return version==snapshot.version&amp;&amp;metadataPartition==snapshot.metadataPartition&amp;&amp;metadataPartitionOffset==snapshot.meta ...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="407" x="5" y="316.0313">snapshot.remoteLogSegmentMetadataSnapshots);;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="332.3281">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="348.625">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="364.9219">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="381.2188">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="116" x="5" y="397.5156">int hashCode()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="413.8125">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="378" x="5" y="430.1094">:return Objects.hash(version,metadataPartition,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="522" x="5" y="446.4063">metadataPartitionOffset,remoteLogSegmentMetadataSnapshots);;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="462.7031">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="479">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="495.2969">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="511.5938">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="527.8906">String toString()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="544.1875">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="526" x="5" y="560.4844">:return "Snapshot{"+"version="+version+", metadataPartition="+</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="576.7813">Syntax Error?</text><!--MD5=[0a0ad33408b326976833072543e30315]
 @startuml
 !pragma layout smetana
 start
 note right
-constructor RemoteLogMetadataSnapshotFile(PathmetadataStoreDir)
+constructor RemoteLogMetadataSnapshotFile(Path metadataStoreDir)
 end note
 :this.metadataStoreFile=new File(metadataStoreDir.toFile(),
 COMMITTED_LOG_METADATA_SNAPSHOT_FILE_NAME);;
 switch (try/catch block)
 case (try)
-:final booleanfileExists=Files.exists(metadataStoreFile.toPath());;
+:final boolean fileExists=Files.exists(metadataStoreFile.toPath());;
 if (!fileExists) then (yes) 
 :Files.createFile(metadataStoreFile.toPath());;
 endif 
 :log.info("Remote log metadata snapshot file: [{}],
  newFileCreated: [{}]",metadataStoreFile,
 !fileExists);;
-case (catch (IOExceptione))
+case (catch (IOException e))
 :throw new KafkaException(e);;
 stop
 endswitch
 end
 start
 note right
-void write(Snapshotsnapshot)
+void write(Snapshot snapshot)
 end note
-:PathnewMetadataSnapshotFilePath=new File(metadataStoreFile.getAbsolutePath()+
+:Path newMetadataSnapshotFilePath=new File(metadataStoreFile.getAbsolutePath()+
 ".tmp").toPath();;
 switch (try/catch block)
 case (try)
-:ByteBufferheaderBuffer=ByteBuffer.allocate(HEADER_SIZE);;
+:ByteBuffer headerBuffer=ByteBuffer.allocate(HEADER_SIZE);;
 :headerBuffer.putShort(snapshot.version());;
 :headerBuffer.putInt(snapshot.metadataPartition());;
 :headerBuffer.putLong(snapshot.metadataPartitionOffset());;
-:Collection<RemoteLogSegmentMetadataSnapshot>metadataSnapshots=snapshot.remoteLogSegmentMetadataSnapshots();;
+:Collection<RemoteLogSegmentMetadataSnapshot> metadataSnapshots=snapshot.remoteLogSegmentMetadataSnapshots();;
 :headerBuffer.putInt(metadataSnapshots.size());;
 :headerBuffer.flip();;
 :fileChannel.write(headerBuffer);;
-:ByteBufferlenBuffer=ByteBuffer.allocate(4);;
-:final byte[]serializedBytes=serde.serialize(metadataSnapshot);;
+:ByteBuffer lenBuffer=ByteBuffer.allocate(4);;
+:final byte[] serializedBytes=serde.serialize(metadataSnapshot);;
 :lenBuffer.putInt(serializedBytes.length);;
 :lenBuffer.flip();;
 :fileChannel.write(lenBuffer);;
@@ -51,7 +51,7 @@ metadataStoreFile.toPath());;
 end
 start
 note right
-Optional<Snapshot>read()
+Optional<Snapshot> read()
 end note
 if (metadataStoreFile.length()==0) then (yes) 
 :return Optional.empty();;
@@ -59,16 +59,16 @@ stop
 endif 
 switch (try/catch block)
 case (try)
-:ByteBufferheaderBuffer=ByteBuffer.allocate(HEADER_SIZE);;
+:ByteBuffer headerBuffer=ByteBuffer.allocate(HEADER_SIZE);;
 :channel.read(headerBuffer);;
 :headerBuffer.rewind();;
-:shortversion=headerBuffer.getShort();;
-:intmetadataPartition=headerBuffer.getInt();;
-:longmetadataPartitionOffset=headerBuffer.getLong();;
-:intmetadataSnapshotsSize=headerBuffer.getInt();;
-:List<RemoteLogSegmentMetadataSnapshot>result=new ArrayList<>(metadataSnapshotsSize);;
-:ByteBufferlenBuffer=ByteBuffer.allocate(4);;
-:intlenBufferReadCt;;
+:short version=headerBuffer.getShort();;
+:int metadataPartition=headerBuffer.getInt();;
+:long metadataPartitionOffset=headerBuffer.getLong();;
+:int metadataSnapshotsSize=headerBuffer.getInt();;
+:List<RemoteLogSegmentMetadataSnapshot> result=new ArrayList<>(metadataSnapshotsSize);;
+:ByteBuffer lenBuffer=ByteBuffer.allocate(4);;
+:int lenBufferReadCt;;
 while ((lenBufferReadCt=channel.read(lenBuffer))>0)
 :lenBuffer.rewind();;
 if (lenBufferReadCt!=lenBuffer.capacity()) then (yes) 
@@ -76,16 +76,16 @@ if (lenBufferReadCt!=lenBuffer.capacity()) then (yes)
  file may have been corrupted.");;
 stop
 endif 
-:final intlen=lenBuffer.getInt();;
+:final int len=lenBuffer.getInt();;
 :lenBuffer.rewind();;
-:ByteBufferdata=ByteBuffer.allocate(len);;
-:final intread=channel.read(data);;
+:ByteBuffer data=ByteBuffer.allocate(len);;
+:final int read=channel.read(data);;
 if (read!=len) then (yes) 
 :throw new IOException("Invalid amount of data read,
  file may have been corrupted.");;
 stop
 endif 
-:final RemoteLogSegmentMetadataSnapshotremoteLogSegmentMetadata=(RemoteLogSegmentMetadataSnapshot)serde.deserialize(data.array());;
+:final RemoteLogSegmentMetadataSnapshot remoteLogSegmentMetadata=(RemoteLogSegmentMetadataSnapshot )serde.deserialize(data.array());;
 :result.add(remoteLogSegmentMetadata);;
 endwhile
 if (metadataSnapshotsSize!=result.size()) then (yes) 
@@ -101,16 +101,16 @@ endswitch
 end
 start
 note right
-constructor Snapshot(intmetadataPartition,
-longmetadataPartitionOffset,Collection<RemoteLogSegmentMetadataSnapshot>remoteLogSegmentMetadataSnapshots)
+constructor Snapshot(int metadataPartition,
+long metadataPartitionOffset,Collection<RemoteLogSegmentMetadataSnapshot> remoteLogSegmentMetadataSnapshots)
 end note
 :this(CURRENT_VERSION,metadataPartition,metadataPartitionOffset,
 remoteLogSegmentMetadataSnapshots);;
 end
 start
 note right
-constructor Snapshot(shortversion,intmetadataPartition,
-longmetadataPartitionOffset,Collection<RemoteLogSegmentMetadataSnapshot>remoteLogSegmentMetadataSnapshots)
+constructor Snapshot(short version,int metadataPartition,
+long metadataPartitionOffset,Collection<RemoteLogSegmentMetadataSnapshot> remoteLogSegmentMetadataSnapshots)
 end note
 if (version!=CURRENT_VERSION) then (yes) 
 :throw new IllegalArgumentException("Unexpected version received: "+
@@ -124,52 +124,52 @@ endif
 end
 start
 note right
-shortversion()
+short version()
 end note
 :return version;;
 stop
 end
 start
 note right
-intmetadataPartition()
+int metadataPartition()
 end note
 :return metadataPartition;;
 stop
 end
 start
 note right
-longmetadataPartitionOffset()
+long metadataPartitionOffset()
 end note
 :return metadataPartitionOffset;;
 stop
 end
 start
 note right
-Collection<RemoteLogSegmentMetadataSnapshot>remoteLogSegmentMetadataSnapshots()
+Collection<RemoteLogSegmentMetadataSnapshot> remoteLogSegmentMetadataSnapshots()
 end note
 :return remoteLogSegmentMetadataSnapshots;;
 stop
 end
 start
 note right
-booleanequals(Objecto)
+boolean equals(Object o)
 end note
 if (this==o) then (yes) 
 :return true;;
 stop
 endif 
-if (!(o instanceof Snapshot)) then (yes) 
+if (!(o instanceof Snapshot )) then (yes) 
 :return false;;
 stop
 endif 
-:Snapshotsnapshot=(Snapshot)o;;
+:Snapshot snapshot=(Snapshot )o;;
 :return version==snapshot.version&&metadataPartition==snapshot.metadataPartition&&metadataPartitionOffset==snapshot.metadataPartitionOffset&&Objects.equals(remoteLogSegmentMetadataSnapshots,
 snapshot.remoteLogSegmentMetadataSnapshots);;
 stop
 end
 start
 note right
-inthashCode()
+int hashCode()
 end note
 :return Objects.hash(version,metadataPartition,
 metadataPartitionOffset,remoteLogSegmentMetadataSnapshots);;
@@ -177,7 +177,7 @@ stop
 end
 start
 note right
-StringtoString()
+String toString()
 end note
 :return "Snapshot{"+"version="+version+", metadataPartition="+
 metadataPartition+", metadataPartitionOffset="+
@@ -192,42 +192,42 @@ end
 !pragma layout smetana
 start
 note right
-constructor RemoteLogMetadataSnapshotFile(PathmetadataStoreDir)
+constructor RemoteLogMetadataSnapshotFile(Path metadataStoreDir)
 end note
 :this.metadataStoreFile=new File(metadataStoreDir.toFile(),
 COMMITTED_LOG_METADATA_SNAPSHOT_FILE_NAME);;
 switch (try/catch block)
 case (try)
-:final booleanfileExists=Files.exists(metadataStoreFile.toPath());;
+:final boolean fileExists=Files.exists(metadataStoreFile.toPath());;
 if (!fileExists) then (yes) 
 :Files.createFile(metadataStoreFile.toPath());;
 endif 
 :log.info("Remote log metadata snapshot file: [{}],
  newFileCreated: [{}]",metadataStoreFile,
 !fileExists);;
-case (catch (IOExceptione))
+case (catch (IOException e))
 :throw new KafkaException(e);;
 stop
 endswitch
 end
 start
 note right
-void write(Snapshotsnapshot)
+void write(Snapshot snapshot)
 end note
-:PathnewMetadataSnapshotFilePath=new File(metadataStoreFile.getAbsolutePath()+
+:Path newMetadataSnapshotFilePath=new File(metadataStoreFile.getAbsolutePath()+
 ".tmp").toPath();;
 switch (try/catch block)
 case (try)
-:ByteBufferheaderBuffer=ByteBuffer.allocate(HEADER_SIZE);;
+:ByteBuffer headerBuffer=ByteBuffer.allocate(HEADER_SIZE);;
 :headerBuffer.putShort(snapshot.version());;
 :headerBuffer.putInt(snapshot.metadataPartition());;
 :headerBuffer.putLong(snapshot.metadataPartitionOffset());;
-:Collection<RemoteLogSegmentMetadataSnapshot>metadataSnapshots=snapshot.remoteLogSegmentMetadataSnapshots();;
+:Collection<RemoteLogSegmentMetadataSnapshot> metadataSnapshots=snapshot.remoteLogSegmentMetadataSnapshots();;
 :headerBuffer.putInt(metadataSnapshots.size());;
 :headerBuffer.flip();;
 :fileChannel.write(headerBuffer);;
-:ByteBufferlenBuffer=ByteBuffer.allocate(4);;
-:final byte[]serializedBytes=serde.serialize(metadataSnapshot);;
+:ByteBuffer lenBuffer=ByteBuffer.allocate(4);;
+:final byte[] serializedBytes=serde.serialize(metadataSnapshot);;
 :lenBuffer.putInt(serializedBytes.length);;
 :lenBuffer.flip();;
 :fileChannel.write(lenBuffer);;
@@ -240,7 +240,7 @@ metadataStoreFile.toPath());;
 end
 start
 note right
-Optional<Snapshot>read()
+Optional<Snapshot> read()
 end note
 if (metadataStoreFile.length()==0) then (yes) 
 :return Optional.empty();;
@@ -248,16 +248,16 @@ stop
 endif 
 switch (try/catch block)
 case (try)
-:ByteBufferheaderBuffer=ByteBuffer.allocate(HEADER_SIZE);;
+:ByteBuffer headerBuffer=ByteBuffer.allocate(HEADER_SIZE);;
 :channel.read(headerBuffer);;
 :headerBuffer.rewind();;
-:shortversion=headerBuffer.getShort();;
-:intmetadataPartition=headerBuffer.getInt();;
-:longmetadataPartitionOffset=headerBuffer.getLong();;
-:intmetadataSnapshotsSize=headerBuffer.getInt();;
-:List<RemoteLogSegmentMetadataSnapshot>result=new ArrayList<>(metadataSnapshotsSize);;
-:ByteBufferlenBuffer=ByteBuffer.allocate(4);;
-:intlenBufferReadCt;;
+:short version=headerBuffer.getShort();;
+:int metadataPartition=headerBuffer.getInt();;
+:long metadataPartitionOffset=headerBuffer.getLong();;
+:int metadataSnapshotsSize=headerBuffer.getInt();;
+:List<RemoteLogSegmentMetadataSnapshot> result=new ArrayList<>(metadataSnapshotsSize);;
+:ByteBuffer lenBuffer=ByteBuffer.allocate(4);;
+:int lenBufferReadCt;;
 while ((lenBufferReadCt=channel.read(lenBuffer))>0)
 :lenBuffer.rewind();;
 if (lenBufferReadCt!=lenBuffer.capacity()) then (yes) 
@@ -265,16 +265,16 @@ if (lenBufferReadCt!=lenBuffer.capacity()) then (yes)
  file may have been corrupted.");;
 stop
 endif 
-:final intlen=lenBuffer.getInt();;
+:final int len=lenBuffer.getInt();;
 :lenBuffer.rewind();;
-:ByteBufferdata=ByteBuffer.allocate(len);;
-:final intread=channel.read(data);;
+:ByteBuffer data=ByteBuffer.allocate(len);;
+:final int read=channel.read(data);;
 if (read!=len) then (yes) 
 :throw new IOException("Invalid amount of data read,
  file may have been corrupted.");;
 stop
 endif 
-:final RemoteLogSegmentMetadataSnapshotremoteLogSegmentMetadata=(RemoteLogSegmentMetadataSnapshot)serde.deserialize(data.array());;
+:final RemoteLogSegmentMetadataSnapshot remoteLogSegmentMetadata=(RemoteLogSegmentMetadataSnapshot )serde.deserialize(data.array());;
 :result.add(remoteLogSegmentMetadata);;
 endwhile
 if (metadataSnapshotsSize!=result.size()) then (yes) 
@@ -290,16 +290,16 @@ endswitch
 end
 start
 note right
-constructor Snapshot(intmetadataPartition,
-longmetadataPartitionOffset,Collection<RemoteLogSegmentMetadataSnapshot>remoteLogSegmentMetadataSnapshots)
+constructor Snapshot(int metadataPartition,
+long metadataPartitionOffset,Collection<RemoteLogSegmentMetadataSnapshot> remoteLogSegmentMetadataSnapshots)
 end note
 :this(CURRENT_VERSION,metadataPartition,metadataPartitionOffset,
 remoteLogSegmentMetadataSnapshots);;
 end
 start
 note right
-constructor Snapshot(shortversion,intmetadataPartition,
-longmetadataPartitionOffset,Collection<RemoteLogSegmentMetadataSnapshot>remoteLogSegmentMetadataSnapshots)
+constructor Snapshot(short version,int metadataPartition,
+long metadataPartitionOffset,Collection<RemoteLogSegmentMetadataSnapshot> remoteLogSegmentMetadataSnapshots)
 end note
 if (version!=CURRENT_VERSION) then (yes) 
 :throw new IllegalArgumentException("Unexpected version received: "+
@@ -313,52 +313,52 @@ endif
 end
 start
 note right
-shortversion()
+short version()
 end note
 :return version;;
 stop
 end
 start
 note right
-intmetadataPartition()
+int metadataPartition()
 end note
 :return metadataPartition;;
 stop
 end
 start
 note right
-longmetadataPartitionOffset()
+long metadataPartitionOffset()
 end note
 :return metadataPartitionOffset;;
 stop
 end
 start
 note right
-Collection<RemoteLogSegmentMetadataSnapshot>remoteLogSegmentMetadataSnapshots()
+Collection<RemoteLogSegmentMetadataSnapshot> remoteLogSegmentMetadataSnapshots()
 end note
 :return remoteLogSegmentMetadataSnapshots;;
 stop
 end
 start
 note right
-booleanequals(Objecto)
+boolean equals(Object o)
 end note
 if (this==o) then (yes) 
 :return true;;
 stop
 endif 
-if (!(o instanceof Snapshot)) then (yes) 
+if (!(o instanceof Snapshot )) then (yes) 
 :return false;;
 stop
 endif 
-:Snapshotsnapshot=(Snapshot)o;;
+:Snapshot snapshot=(Snapshot )o;;
 :return version==snapshot.version&&metadataPartition==snapshot.metadataPartition&&metadataPartitionOffset==snapshot.metadataPartitionOffset&&Objects.equals(remoteLogSegmentMetadataSnapshots,
 snapshot.remoteLogSegmentMetadataSnapshots);;
 stop
 end
 start
 note right
-inthashCode()
+int hashCode()
 end note
 :return Objects.hash(version,metadataPartition,
 metadataPartitionOffset,remoteLogSegmentMetadataSnapshots);;
@@ -366,7 +366,7 @@ stop
 end
 start
 note right
-StringtoString()
+String toString()
 end note
 :return "Snapshot{"+"version="+version+", metadataPartition="+
 metadataPartition+", metadataPartitionOffset="+

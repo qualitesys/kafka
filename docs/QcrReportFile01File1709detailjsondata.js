@@ -108,7 +108,7 @@ var maDataBlocs = {
  , "c1" : "00046"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamBranch.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.kstream.internals.KStreamBranch.KStreamBranchProcessor.process@POLYN149444 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.kstream.internals.KStreamBranch.KStreamBranchProcessor.process@POLYN150292 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

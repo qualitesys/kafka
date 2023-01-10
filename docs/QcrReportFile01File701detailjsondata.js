@@ -352,21 +352,21 @@ var maDataBlocs = {
  , "c1" : "00473"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#473"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00473] In method org.apache.kafka.common.requests.MetadataResponse.errors@POLYN214399 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00473] In method org.apache.kafka.common.requests.MetadataResponse.errors@POLYN215247 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00473"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#473"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00473] In method org.apache.kafka.common.requests.MetadataResponse.errors@POLYN214399 the MagicNumber/String  'Use errorsByTopicId() when managing topic using topic id' should be converted to const"
+ , "c3" : "QC-JAV000010[00473] In method org.apache.kafka.common.requests.MetadataResponse.errors@POLYN215247 the MagicNumber/String  'Use errorsByTopicId() when managing topic using topic id' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00473"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#473"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00473] In method org.apache.kafka.common.requests.MetadataResponse.errorsByTopicId@POLYN215253 the MagicNumber/String  'Use errors() when managing topic using topic name' should be converted to const"
+ , "c3" : "QC-JAV000010[00473] In method org.apache.kafka.common.requests.MetadataResponse.errorsByTopicId@POLYN216101 the MagicNumber/String  'Use errors() when managing topic using topic name' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -401,7 +401,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.buildCluster@POLYN217383 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.buildCluster@POLYN218231 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -422,7 +422,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.toPartitionInfo@POLYN218967 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.toPartitionInfo@POLYN219815 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -436,7 +436,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method convertToNodeArray list of called methods Object monObjet|V nodesById_getN219899"
+ , "c3" : "QC-JAV000007[00001] For method convertToNodeArray list of called methods Object monObjet|V nodesById_getN220747"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -457,21 +457,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.convertToNodeArray@POLYN219619 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.convertToNodeArray@POLYN220467 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.convertToNodeArray@POLYN219619 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.convertToNodeArray@POLYN220467 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.convertToNodeArray@POLYN219619 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.convertToNodeArray@POLYN220467 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -485,7 +485,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.topicAuthorizedOperations@POLYN220337 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.topicAuthorizedOperations@POLYN221185 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -499,14 +499,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.holder@POLYN220898 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.holder@POLYN221746 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.holder@POLYN220898 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.holder@POLYN221746 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -520,7 +520,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.hasReliableLeaderEpochs@POLYN222530 the MagicNumber/String  9 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.hasReliableLeaderEpochs@POLYN223378 the MagicNumber/String  9 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -555,175 +555,175 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.equals@POLYN224911 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.equals@POLYN225759 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.equals@POLYN224911 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.equals@POLYN225759 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.equals@POLYN224911 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.equals@POLYN225759 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.toString@POLYN226046 the MagicNumber/String  'TopicMetadata{' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.toString@POLYN226894 the MagicNumber/String  'TopicMetadata{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.toString@POLYN226046 the MagicNumber/String  'error=' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.toString@POLYN226894 the MagicNumber/String  'error=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.toString@POLYN226046 the MagicNumber/String  ', topic='' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.toString@POLYN226894 the MagicNumber/String  ', topic='' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.toString@POLYN226046 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.toString@POLYN226894 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.toString@POLYN226046 the MagicNumber/String  ', topicId='' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.toString@POLYN226894 the MagicNumber/String  ', topicId='' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.toString@POLYN226046 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.toString@POLYN226894 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.toString@POLYN226046 the MagicNumber/String  ', isInternal=' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.toString@POLYN226894 the MagicNumber/String  ', isInternal=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.toString@POLYN226046 the MagicNumber/String  ', partitionMetadata=' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.toString@POLYN226894 the MagicNumber/String  ', partitionMetadata=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.toString@POLYN226046 the MagicNumber/String  ', authorizedOperations=' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.toString@POLYN226894 the MagicNumber/String  ', authorizedOperations=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.toString@POLYN226046 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.TopicMetadata.toString@POLYN226894 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN228207 the MagicNumber/String  'PartitionMetadata(' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN229055 the MagicNumber/String  'PartitionMetadata(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN228207 the MagicNumber/String  'error=' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN229055 the MagicNumber/String  'error=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN228207 the MagicNumber/String  ', partition=' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN229055 the MagicNumber/String  ', partition=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN228207 the MagicNumber/String  ', leader=' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN229055 the MagicNumber/String  ', leader=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN228207 the MagicNumber/String  ', leaderEpoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN229055 the MagicNumber/String  ', leaderEpoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN228207 the MagicNumber/String  ', replicas=' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN229055 the MagicNumber/String  ', replicas=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN228207 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN229055 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN228207 the MagicNumber/String  ', isr=' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN229055 the MagicNumber/String  ', isr=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN228207 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN229055 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN228207 the MagicNumber/String  ', offlineReplicas=' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN229055 the MagicNumber/String  ', offlineReplicas=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN228207 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN229055 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN228207 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata.toString@POLYN229055 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -856,7 +856,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.Holder.createTopicMetadata@POLYN230077 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.Holder.createTopicMetadata@POLYN230925 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -898,63 +898,63 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.shouldClientThrottle@POLYN233991 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.common.requests.MetadataResponse.shouldClientThrottle@POLYN234839 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.MetadataResponse.clusterAuthorizedOperations@POLYN220792"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.MetadataResponse.clusterAuthorizedOperations@POLYN221640"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.MetadataResponse.clusterId@POLYN222102"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.MetadataResponse.clusterId@POLYN222950"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.MetadataResponse.errors@POLYN214399"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.MetadataResponse.errors@POLYN215247"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.MetadataResponse.errorsByTopicId@POLYN215253"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.MetadataResponse.errorsByTopicId@POLYN216101"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.MetadataResponse.throttleTimeMs@POLYN214188"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.MetadataResponse.throttleTimeMs@POLYN215036"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00473"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#473"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00473] In the recursive method org.apache.kafka.common.requests.MetadataResponse.errors@POLYN214399 the MagicNumber/String 'Use errorsByTopicId-- when managing topic using topic id' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00473] In the recursive method org.apache.kafka.common.requests.MetadataResponse.errors@POLYN215247 the MagicNumber/String 'Use errorsByTopicId-- when managing topic using topic id' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00473"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#473"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00473] In the recursive method org.apache.kafka.common.requests.MetadataResponse.errors@POLYN214399 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00473] In the recursive method org.apache.kafka.common.requests.MetadataResponse.errors@POLYN215247 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00473"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#473"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00473] In the recursive method org.apache.kafka.common.requests.MetadataResponse.errorsByTopicId@POLYN215253 the MagicNumber/String 'Use errors-- when managing topic using topic name' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00473] In the recursive method org.apache.kafka.common.requests.MetadataResponse.errorsByTopicId@POLYN216101 the MagicNumber/String 'Use errors-- when managing topic using topic name' MUST BE CONVERTED to const"
 }} 
 ]
 , 

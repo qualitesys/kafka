@@ -137,21 +137,21 @@ var maDataBlocs = {
  , "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CircularIterator.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.utils.CircularIterator.CircularIterator@POLYN155152 the MagicNumber/String  'CircularIterator can only be used on non-empty lists' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.utils.CircularIterator.CircularIterator@POLYN156000 the MagicNumber/String  'CircularIterator can only be used on non-empty lists' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CircularIterator.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.utils.CircularIterator.hasNext@POLYN155770 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.utils.CircularIterator.hasNext@POLYN156618 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CircularIterator.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00071] For method next list of called methods Object monObjet|T advanceN156006"
+ , "c3" : "QC-JAV000007[00071] For method next list of called methods Object monObjet|T advanceN156854"
 }} 
 ]
 , 

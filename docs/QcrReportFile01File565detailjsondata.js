@@ -507,91 +507,91 @@ var maDataBlocs = {
  , "c1" : "00096"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.record.LegacyRecord.LegacyRecord@POLYN231579 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.record.LegacyRecord.LegacyRecord@POLYN232427 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00096"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.record.LegacyRecord.LegacyRecord@POLYN231579 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.record.LegacyRecord.LegacyRecord@POLYN232427 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00139"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.common.record.LegacyRecord.ensureValid@POLYN232974 the MagicNumber/String  'Record is corrupt (crc could not be retrieved as the record is too ' should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.common.record.LegacyRecord.ensureValid@POLYN233822 the MagicNumber/String  'Record is corrupt (crc could not be retrieved as the record is too ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00140"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.common.record.LegacyRecord.ensureValid@POLYN232974 the MagicNumber/String  'small, size = ' should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.common.record.LegacyRecord.ensureValid@POLYN233822 the MagicNumber/String  'small, size = ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00140"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.common.record.LegacyRecord.ensureValid@POLYN232974 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.common.record.LegacyRecord.ensureValid@POLYN233822 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.common.record.LegacyRecord.ensureValid@POLYN232974 the MagicNumber/String  'Record is corrupt (stored crc = ' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.common.record.LegacyRecord.ensureValid@POLYN233822 the MagicNumber/String  'Record is corrupt (stored crc = ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.common.record.LegacyRecord.ensureValid@POLYN232974 the MagicNumber/String  ', computed crc = ' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.common.record.LegacyRecord.ensureValid@POLYN233822 the MagicNumber/String  ', computed crc = ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.common.record.LegacyRecord.ensureValid@POLYN232974 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.common.record.LegacyRecord.ensureValid@POLYN233822 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00172"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.common.record.LegacyRecord.hasKey@POLYN234182 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.common.record.LegacyRecord.hasKey@POLYN235030 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00180"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.common.record.LegacyRecord.valueSizeOffset@POLYN234348 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.common.record.LegacyRecord.valueSizeOffset@POLYN235196 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00182"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.common.record.LegacyRecord.valueSizeOffset@POLYN234348 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.common.record.LegacyRecord.valueSizeOffset@POLYN235196 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00198"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.common.record.LegacyRecord.hasNullValue@POLYN235065 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.common.record.LegacyRecord.hasNullValue@POLYN235913 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00230"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#230"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.common.record.LegacyRecord.timestamp@POLYN235848 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.common.record.LegacyRecord.timestamp@POLYN236696 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -626,77 +626,77 @@ var maDataBlocs = {
  , "c1" : "00283"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#283"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.common.record.LegacyRecord.toString@POLYN237594 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.common.record.LegacyRecord.toString@POLYN238442 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00284"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#284"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.common.record.LegacyRecord.toString@POLYN237594 the MagicNumber/String  'Record(magic=%d, attributes=%d, compression=%s, crc=%d, %s=%d, key=%d bytes, value=%d bytes)' should be converted to const"
+ , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.common.record.LegacyRecord.toString@POLYN238442 the MagicNumber/String  'Record(magic=%d, attributes=%d, compression=%s, crc=%d, %s=%d, key=%d bytes, value=%d bytes)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00291"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#291"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.common.record.LegacyRecord.toString@POLYN237594 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.common.record.LegacyRecord.toString@POLYN238442 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00291"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#291"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.common.record.LegacyRecord.toString@POLYN237594 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.common.record.LegacyRecord.toString@POLYN238442 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00292"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#292"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.common.record.LegacyRecord.toString@POLYN237594 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.common.record.LegacyRecord.toString@POLYN238442 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00292"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#292"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.common.record.LegacyRecord.toString@POLYN237594 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.common.record.LegacyRecord.toString@POLYN238442 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00294"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#294"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.common.record.LegacyRecord.toString@POLYN237594 the MagicNumber/String  'Record(magic=%d, attributes=%d, compression=%s, crc=%d, key=%d bytes, value=%d bytes)' should be converted to const"
+ , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.common.record.LegacyRecord.toString@POLYN238442 the MagicNumber/String  'Record(magic=%d, attributes=%d, compression=%s, crc=%d, key=%d bytes, value=%d bytes)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00299"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#299"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.common.record.LegacyRecord.toString@POLYN237594 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.common.record.LegacyRecord.toString@POLYN238442 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00299"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#299"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.common.record.LegacyRecord.toString@POLYN237594 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.common.record.LegacyRecord.toString@POLYN238442 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00300"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#300"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.common.record.LegacyRecord.toString@POLYN237594 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.common.record.LegacyRecord.toString@POLYN238442 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00300"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#300"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.common.record.LegacyRecord.toString@POLYN237594 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.common.record.LegacyRecord.toString@POLYN238442 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -710,28 +710,28 @@ var maDataBlocs = {
  , "c1" : "00305"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#305"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.common.record.LegacyRecord.equals@POLYN238750 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.common.record.LegacyRecord.equals@POLYN239598 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00306"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#306"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.common.record.LegacyRecord.equals@POLYN238750 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.common.record.LegacyRecord.equals@POLYN239598 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00307"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#307"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.common.record.LegacyRecord.equals@POLYN238750 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.common.record.LegacyRecord.equals@POLYN239598 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00309"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#309"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.common.record.LegacyRecord.equals@POLYN238750 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.common.record.LegacyRecord.equals@POLYN239598 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -745,28 +745,28 @@ var maDataBlocs = {
  , "c1" : "00336"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#336"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.common.record.LegacyRecord.create@POLYN239839 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.common.record.LegacyRecord.create@POLYN240687 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00336"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#336"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.common.record.LegacyRecord.create@POLYN239839 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.common.record.LegacyRecord.create@POLYN240687 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00337"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#337"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.common.record.LegacyRecord.create@POLYN239839 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.common.record.LegacyRecord.create@POLYN240687 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00337"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#337"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.common.record.LegacyRecord.create@POLYN239839 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.common.record.LegacyRecord.create@POLYN240687 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -787,7 +787,7 @@ var maDataBlocs = {
  , "c1" : "00360"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#360"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00360] For method writeCompressedRecordHeader list of called methods Object monObjet|long crc32N242513"
+ , "c3" : "QC-JAV000007[00360] For method writeCompressedRecordHeader list of called methods Object monObjet|long crc32N243361"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -801,14 +801,14 @@ var maDataBlocs = {
  , "c1" : "00370"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#370"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00370] In method org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN241696 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00370] In method org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00370"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#370"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00370] In method org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN241696 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00370] In method org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -836,7 +836,7 @@ var maDataBlocs = {
  , "c1" : "00419"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#419"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00419] For method write list of called methods Object monObjet|byte computeAttributesN244580|long computeChecksumN244710"
+ , "c3" : "QC-JAV000007[00419] For method write list of called methods Object monObjet|byte computeAttributesN245428|long computeChecksumN245558"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -864,56 +864,56 @@ var maDataBlocs = {
  , "c1" : "00455"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#455"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00455] In method org.apache.kafka.common.record.LegacyRecord.write@POLYN245663 the MagicNumber/String  'Invalid magic value ' should be converted to const"
+ , "c3" : "QC-JAV000010[00455] In method org.apache.kafka.common.record.LegacyRecord.write@POLYN246511 the MagicNumber/String  'Invalid magic value ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00456"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#456"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00456] In method org.apache.kafka.common.record.LegacyRecord.write@POLYN245663 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00456] In method org.apache.kafka.common.record.LegacyRecord.write@POLYN246511 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00457"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#457"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00457] In method org.apache.kafka.common.record.LegacyRecord.write@POLYN245663 the MagicNumber/String  'Invalid message timestamp ' should be converted to const"
+ , "c3" : "QC-JAV000010[00457] In method org.apache.kafka.common.record.LegacyRecord.write@POLYN246511 the MagicNumber/String  'Invalid message timestamp ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00460"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#460"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00460] In method org.apache.kafka.common.record.LegacyRecord.write@POLYN245663 the MagicNumber/String  0xffffffffL should be converted to const"
+ , "c3" : "QC-JAV000010[00460] In method org.apache.kafka.common.record.LegacyRecord.write@POLYN246511 the MagicNumber/String  0xffffffffL should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00471"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#471"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.common.record.LegacyRecord.write@POLYN245663 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.common.record.LegacyRecord.write@POLYN246511 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00472"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#472"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00472] In method org.apache.kafka.common.record.LegacyRecord.write@POLYN245663 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00472] In method org.apache.kafka.common.record.LegacyRecord.write@POLYN246511 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00479"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#479"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00479] In method org.apache.kafka.common.record.LegacyRecord.write@POLYN245663 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00479] In method org.apache.kafka.common.record.LegacyRecord.write@POLYN246511 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00480"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#480"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00480] In method org.apache.kafka.common.record.LegacyRecord.write@POLYN245663 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00480] In method org.apache.kafka.common.record.LegacyRecord.write@POLYN246511 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -927,28 +927,28 @@ var maDataBlocs = {
  , "c1" : "00489"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#489"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.common.record.LegacyRecord.recordSize@POLYN247601 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.common.record.LegacyRecord.recordSize@POLYN248449 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00489"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#489"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.common.record.LegacyRecord.recordSize@POLYN247601 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.common.record.LegacyRecord.recordSize@POLYN248449 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00489"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#489"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.common.record.LegacyRecord.recordSize@POLYN247601 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.common.record.LegacyRecord.recordSize@POLYN248449 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00489"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#489"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.common.record.LegacyRecord.recordSize@POLYN247601 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.common.record.LegacyRecord.recordSize@POLYN248449 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -976,28 +976,28 @@ var maDataBlocs = {
  , "c1" : "00498"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#498"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00498] In method org.apache.kafka.common.record.LegacyRecord.computeAttributes@POLYN248257 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00498] In method org.apache.kafka.common.record.LegacyRecord.computeAttributes@POLYN249105 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00499"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#499"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00499] In method org.apache.kafka.common.record.LegacyRecord.computeAttributes@POLYN248257 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00499] In method org.apache.kafka.common.record.LegacyRecord.computeAttributes@POLYN249105 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00503"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#503"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00503] In method org.apache.kafka.common.record.LegacyRecord.computeAttributes@POLYN248257 the MagicNumber/String  'Timestamp type must be provided to compute attributes for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00503] In method org.apache.kafka.common.record.LegacyRecord.computeAttributes@POLYN249105 the MagicNumber/String  'Timestamp type must be provided to compute attributes for ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00504"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#504"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00504] In method org.apache.kafka.common.record.LegacyRecord.computeAttributes@POLYN248257 the MagicNumber/String  'message format v1' should be converted to const"
+ , "c3" : "QC-JAV000010[00504] In method org.apache.kafka.common.record.LegacyRecord.computeAttributes@POLYN249105 the MagicNumber/String  'message format v1' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1025,28 +1025,28 @@ var maDataBlocs = {
  , "c1" : "00532"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#532"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00532] In method org.apache.kafka.common.record.LegacyRecord.computeChecksum@POLYN249850 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00532] In method org.apache.kafka.common.record.LegacyRecord.computeChecksum@POLYN250698 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00533"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#533"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00533] In method org.apache.kafka.common.record.LegacyRecord.computeChecksum@POLYN249850 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00533] In method org.apache.kafka.common.record.LegacyRecord.computeChecksum@POLYN250698 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00540"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#540"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00540] In method org.apache.kafka.common.record.LegacyRecord.computeChecksum@POLYN249850 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00540] In method org.apache.kafka.common.record.LegacyRecord.computeChecksum@POLYN250698 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00541"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#541"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00541] In method org.apache.kafka.common.record.LegacyRecord.computeChecksum@POLYN249850 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00541] In method org.apache.kafka.common.record.LegacyRecord.computeChecksum@POLYN250698 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1060,21 +1060,21 @@ var maDataBlocs = {
  , "c1" : "00551"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#551"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00551] In method org.apache.kafka.common.record.LegacyRecord.recordOverhead@POLYN251415 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00551] In method org.apache.kafka.common.record.LegacyRecord.recordOverhead@POLYN252263 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00553"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#553"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00553] In method org.apache.kafka.common.record.LegacyRecord.recordOverhead@POLYN251415 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00553] In method org.apache.kafka.common.record.LegacyRecord.recordOverhead@POLYN252263 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00555"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#555"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00555] In method org.apache.kafka.common.record.LegacyRecord.recordOverhead@POLYN251415 the MagicNumber/String  'Invalid magic used in LegacyRecord: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00555] In method org.apache.kafka.common.record.LegacyRecord.recordOverhead@POLYN252263 the MagicNumber/String  'Invalid magic used in LegacyRecord: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1088,21 +1088,21 @@ var maDataBlocs = {
  , "c1" : "00559"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#559"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00559] In method org.apache.kafka.common.record.LegacyRecord.headerSize@POLYN251764 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00559] In method org.apache.kafka.common.record.LegacyRecord.headerSize@POLYN252612 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00561"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#561"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00561] In method org.apache.kafka.common.record.LegacyRecord.headerSize@POLYN251764 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00561] In method org.apache.kafka.common.record.LegacyRecord.headerSize@POLYN252612 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00563"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#563"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00563] In method org.apache.kafka.common.record.LegacyRecord.headerSize@POLYN251764 the MagicNumber/String  'Invalid magic used in LegacyRecord: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00563] In method org.apache.kafka.common.record.LegacyRecord.headerSize@POLYN252612 the MagicNumber/String  'Invalid magic used in LegacyRecord: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1116,21 +1116,21 @@ var maDataBlocs = {
  , "c1" : "00567"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#567"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00567] In method org.apache.kafka.common.record.LegacyRecord.keyOffset@POLYN252118 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00567] In method org.apache.kafka.common.record.LegacyRecord.keyOffset@POLYN252966 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00569"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#569"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00569] In method org.apache.kafka.common.record.LegacyRecord.keyOffset@POLYN252118 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00569] In method org.apache.kafka.common.record.LegacyRecord.keyOffset@POLYN252966 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00571"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#571"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00571] In method org.apache.kafka.common.record.LegacyRecord.keyOffset@POLYN252118 the MagicNumber/String  'Invalid magic used in LegacyRecord: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00571] In method org.apache.kafka.common.record.LegacyRecord.keyOffset@POLYN252966 the MagicNumber/String  'Invalid magic used in LegacyRecord: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1144,21 +1144,21 @@ var maDataBlocs = {
  , "c1" : "00575"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#575"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00575] In method org.apache.kafka.common.record.LegacyRecord.timestampType@POLYN252472 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00575] In method org.apache.kafka.common.record.LegacyRecord.timestampType@POLYN253320 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00577"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#577"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00577] In method org.apache.kafka.common.record.LegacyRecord.timestampType@POLYN252472 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00577] In method org.apache.kafka.common.record.LegacyRecord.timestampType@POLYN253320 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00580"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#580"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00580] In method org.apache.kafka.common.record.LegacyRecord.timestampType@POLYN252472 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00580] In method org.apache.kafka.common.record.LegacyRecord.timestampType@POLYN253320 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1249,49 +1249,49 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.LegacyRecord.create@POLYN240871"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.LegacyRecord.create@POLYN241719"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.LegacyRecord.equals@POLYN238750"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.LegacyRecord.equals@POLYN239598"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.LegacyRecord.hashCode@POLYN239318"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.LegacyRecord.hashCode@POLYN240166"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00305"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#305"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.common.record.LegacyRecord.equals@POLYN238750 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.common.record.LegacyRecord.equals@POLYN239598 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00306"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#306"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00306] In the recursive method org.apache.kafka.common.record.LegacyRecord.equals@POLYN238750 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00306] In the recursive method org.apache.kafka.common.record.LegacyRecord.equals@POLYN239598 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00307"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#307"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00307] In the recursive method org.apache.kafka.common.record.LegacyRecord.equals@POLYN238750 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00307] In the recursive method org.apache.kafka.common.record.LegacyRecord.equals@POLYN239598 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00309"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#309"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00309] In the recursive method org.apache.kafka.common.record.LegacyRecord.equals@POLYN238750 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00309] In the recursive method org.apache.kafka.common.record.LegacyRecord.equals@POLYN239598 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

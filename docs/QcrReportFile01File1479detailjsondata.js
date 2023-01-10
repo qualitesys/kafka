@@ -347,28 +347,28 @@ var maDataBlocs = {
  , "c1" : "00276"
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#276"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00276] For method toHexString list of called methods Object monObjet|java.lang.String Double_toHexStringN362652"
+ , "c3" : "QC-JAV000007[00276] For method toHexString list of called methods Object monObjet|java.lang.String Double_toHexStringN363500"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00278"
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#278"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00278] In method java.lang.Float.toHexString@POLYN362391 the MagicNumber/String  0.0f should be converted to const"
+ , "c3" : "QC-JAV000010[00278] In method java.lang.Float.toHexString@POLYN363239 the MagicNumber/String  0.0f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00286"
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#286"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00286] In method java.lang.Float.toHexString@POLYN362391 the MagicNumber/String  'p-1022$' should be converted to const"
+ , "c3" : "QC-JAV000010[00286] In method java.lang.Float.toHexString@POLYN363239 the MagicNumber/String  'p-1022$' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00286"
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#286"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00286] In method java.lang.Float.toHexString@POLYN362391 the MagicNumber/String  'p-126' should be converted to const"
+ , "c3" : "QC-JAV000010[00286] In method java.lang.Float.toHexString@POLYN363239 the MagicNumber/String  'p-126' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -424,21 +424,21 @@ var maDataBlocs = {
  , "c1" : "00712"
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#712"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00712] For method floatToIntBits list of called methods Object monObjet|int floatToRawIntBitsN376518"
+ , "c3" : "QC-JAV000007[00712] For method floatToIntBits list of called methods Object monObjet|int floatToRawIntBitsN377366"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00718"
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#718"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00718] In method java.lang.Float.floatToIntBits@POLYN376421 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00718] In method java.lang.Float.floatToIntBits@POLYN377269 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00719"
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#719"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00719] In method java.lang.Float.floatToIntBits@POLYN376421 the MagicNumber/String  0x7fc00000 should be converted to const"
+ , "c3" : "QC-JAV000010[00719] In method java.lang.Float.floatToIntBits@POLYN377269 the MagicNumber/String  0x7fc00000 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -480,98 +480,98 @@ var maDataBlocs = {
  , "c1" : "00875"
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#875"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00875] For method compare list of called methods Object monObjet|int Float_floatToIntBitsN382323|int Float_floatToIntBitsN382417"
+ , "c3" : "QC-JAV000007[00875] For method compare list of called methods Object monObjet|int Float_floatToIntBitsN383171|int Float_floatToIntBitsN383265"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00877"
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#877"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00877] In method java.lang.Float.compare@POLYN382010 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00877] In method java.lang.Float.compare@POLYN382858 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00879"
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#879"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00879] In method java.lang.Float.compare@POLYN382010 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00879] In method java.lang.Float.compare@POLYN382858 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00885"
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#885"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00885] In method java.lang.Float.compare@POLYN382010 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00885] In method java.lang.Float.compare@POLYN382858 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00886"
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#886"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00886] In method java.lang.Float.compare@POLYN382010 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00886] In method java.lang.Float.compare@POLYN382858 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00887"
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#887"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00887] In method java.lang.Float.compare@POLYN382010 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00887] In method java.lang.Float.compare@POLYN382858 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.byteValue@POLYN371853"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.byteValue@POLYN372701"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.doubleValue@POLYN373263"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.doubleValue@POLYN374111"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.intValue@POLYN372466"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.intValue@POLYN373314"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.isInfinite@POLYN371142"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.isInfinite@POLYN371990"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.isNaN@POLYN370810"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.isNaN@POLYN371658"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.longValue@POLYN372762"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.longValue@POLYN373610"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.shortValue@POLYN372167"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.shortValue@POLYN373015"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.toString@POLYN371534"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.toString@POLYN372382"
 }} 
 ]
 , 

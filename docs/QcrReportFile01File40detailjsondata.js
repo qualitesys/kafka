@@ -89,7 +89,7 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterPartitionReassignmentsResult.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.clients.admin.AlterPartitionReassignmentsResult.all@POLYN148759 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.clients.admin.AlterPartitionReassignmentsResult.all@POLYN149607 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

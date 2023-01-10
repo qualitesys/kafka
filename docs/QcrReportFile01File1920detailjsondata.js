@@ -294,59 +294,59 @@ var maDataBlocs = {
 "data12a" : [
 { "ligne" :  "R0:org.apache.kafka.streams.processor.internals.StateDirectory.this" }
 ,
-{ "ligne" :  "R1:org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasks@POLYN258984.cleanupDelayMs" }
+{ "ligne" :  "R1:org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasks@POLYN259832.cleanupDelayMs" }
 ,
-{ "ligne" :  "R2:org.apache.kafka.streams.processor.internals.StateDirectory.unlock@POLYN255979.taskId" }
+{ "ligne" :  "R2:org.apache.kafka.streams.processor.internals.StateDirectory.unlock@POLYN256827.taskId" }
 ,
 { "ligne" :  "R3:org.apache.kafka.streams.processor.internals.StateDirectory.taskDirCreationLock" }
 ]
 ,
 "data12b" : [
 { "sequence" : { "noseq" : "0" , "pas" : [
-{ "ligne" : "S0:org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasks@POLYN258984 (R0 in line [00001],R1 in line [00001])" }
+{ "ligne" : "S0:org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasks@POLYN259832 (R0 in line [00001],R1 in line [00001])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasksCalledByCleanerThread@POLYN259279" }
+{ "ligne" : "S0:org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasksCalledByCleanerThread@POLYN260127" }
 ,
-{ "ligne" : "S0:org.apache.kafka.common.utils.Utils.delete@POLYN444733" }
+{ "ligne" : "S0:org.apache.kafka.common.utils.Utils.delete@POLYN445581" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "1" , "pas" : [
-{ "ligne" : "S1:org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasks@POLYN258984 (R0 in line [00001],R1 in line [00001])" }
+{ "ligne" : "S1:org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasks@POLYN259832 (R0 in line [00001],R1 in line [00001])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasksCalledByCleanerThread@POLYN259279" }
+{ "ligne" : "S1:org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasksCalledByCleanerThread@POLYN260127" }
 ,
-{ "ligne" : "S1:org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasksCalledByCleanerThread@POLYN259279" }
+{ "ligne" : "S1:org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasksCalledByCleanerThread@POLYN260127" }
 ,
-{ "ligne" : "S1:org.apache.kafka.streams.processor.internals.StateDirectory.unlock@POLYN255979 (R0 in line [00001],R2 in line [00001])" }
+{ "ligne" : "S1:org.apache.kafka.streams.processor.internals.StateDirectory.unlock@POLYN256827 (R0 in line [00001],R2 in line [00001])" }
 ,
-{ "ligne" : "S1:java.util.HashMap.remove@POLYN650114" }
+{ "ligne" : "S1:java.util.HashMap.remove@POLYN650962" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "2" , "pas" : [
-{ "ligne" : "S2:org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN254774 (R0 in line [00001])" }
+{ "ligne" : "S2:org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN255622 (R0 in line [00001])" }
 ,
-{ "ligne" : "S2:org.apache.kafka.streams.processor.internals.StateDirectory.getOrCreateDirectoryForTask@POLYN249834 (R3 in line [00001])" }
+{ "ligne" : "S2:org.apache.kafka.streams.processor.internals.StateDirectory.getOrCreateDirectoryForTask@POLYN250682 (R3 in line [00001])" }
 ,
-{ "ligne" : "S2:org.apache.kafka.streams.processor.internals.StateDirectory.getTaskDirectoryParentName@POLYN251222" }
+{ "ligne" : "S2:org.apache.kafka.streams.processor.internals.StateDirectory.getTaskDirectoryParentName@POLYN252070" }
 ,
-{ "ligne" : "S2:org.apache.kafka.streams.processor.TaskId.topologyName@POLYN166989" }
+{ "ligne" : "S2:org.apache.kafka.streams.processor.TaskId.topologyName@POLYN167837" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "3" , "pas" : [
-{ "ligne" : "S3:org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasks@POLYN258984 (R0 in line [00001],R1 in line [00001])" }
+{ "ligne" : "S3:org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasks@POLYN259832 (R0 in line [00001],R1 in line [00001])" }
 ,
-{ "ligne" : "S3:org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasksCalledByCleanerThread@POLYN259279" }
+{ "ligne" : "S3:org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasksCalledByCleanerThread@POLYN260127" }
 ,
-{ "ligne" : "S3:org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasksCalledByCleanerThread@POLYN259279" }
+{ "ligne" : "S3:org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasksCalledByCleanerThread@POLYN260127" }
 ,
-{ "ligne" : "S3:org.apache.kafka.streams.processor.internals.StateDirectory.unlock@POLYN255979 (R0 in line [00001],R2 in line [00001])" }
+{ "ligne" : "S3:org.apache.kafka.streams.processor.internals.StateDirectory.unlock@POLYN256827 (R0 in line [00001],R2 in line [00001])" }
 ,
-{ "ligne" : "S3:org.apache.kafka.streams.processor.internals.StateDirectory.unlock@POLYN255979 (R0 in line [00001],R2 in line [00001])" }
+{ "ligne" : "S3:org.apache.kafka.streams.processor.internals.StateDirectory.unlock@POLYN256827 (R0 in line [00001],R2 in line [00001])" }
 ,
-{ "ligne" : "S3:java.util.HashMap.remove@POLYN650114" }
+{ "ligne" : "S3:java.util.HashMap.remove@POLYN650962" }
  ]
  } }
 ]
@@ -438,7 +438,7 @@ var maDataBlocs = {
  , "c1" : "00624"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#624"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00624] In method org.apache.kafka.streams.processor.internals.StateDirectory.StateDirectoryProcessFile.StateDirectoryProcessFile@POLYN242384 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00624] In method org.apache.kafka.streams.processor.internals.StateDirectory.StateDirectoryProcessFile.StateDirectoryProcessFile@POLYN243232 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -452,56 +452,56 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.StateDirectory@POLYN243594 the MagicNumber/String  'base state directory [%s] doesn't exist and couldn't be created' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.StateDirectory@POLYN244442 the MagicNumber/String  'base state directory [%s] doesn't exist and couldn't be created' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.StateDirectory@POLYN243594 the MagicNumber/String  'state directory [%s] doesn't exist and couldn't be created' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.StateDirectory@POLYN244442 the MagicNumber/String  'state directory [%s] doesn't exist and couldn't be created' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.StateDirectory@POLYN243594 the MagicNumber/String  'state directory [%s] can't be created as there is an existing file with the same name' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.StateDirectory@POLYN244442 the MagicNumber/String  'state directory [%s] can't be created as there is an existing file with the same name' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.StateDirectory@POLYN243594 the MagicNumber/String  'java.io.tmpdir' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.StateDirectory@POLYN244442 the MagicNumber/String  'java.io.tmpdir' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.StateDirectory@POLYN243594 the MagicNumber/String  'Using an OS temp directory in the state.dir property can cause failures with writing' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.StateDirectory@POLYN244442 the MagicNumber/String  'Using an OS temp directory in the state.dir property can cause failures with writing' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.StateDirectory@POLYN243594 the MagicNumber/String  ' the checkpoint file due to the fact that this directory can be cleared by the OS.' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.StateDirectory@POLYN244442 the MagicNumber/String  ' the checkpoint file due to the fact that this directory can be cleared by the OS.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.StateDirectory@POLYN243594 the MagicNumber/String  ' Resolved state.dir: [' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.StateDirectory@POLYN244442 the MagicNumber/String  ' Resolved state.dir: [' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.StateDirectory@POLYN243594 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.StateDirectory@POLYN244442 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -522,154 +522,154 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.configurePermissions@POLYN245679 the MagicNumber/String  'posix' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.configurePermissions@POLYN246527 the MagicNumber/String  'posix' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.configurePermissions@POLYN245679 the MagicNumber/String  'rwxr-x---' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.configurePermissions@POLYN246527 the MagicNumber/String  'rwxr-x---' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.configurePermissions@POLYN245679 the MagicNumber/String  'Error changing permissions for the directory {} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.configurePermissions@POLYN246527 the MagicNumber/String  'Error changing permissions for the directory {} ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.configurePermissions@POLYN245679 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.configurePermissions@POLYN246527 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.configurePermissions@POLYN245679 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.configurePermissions@POLYN246527 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.configurePermissions@POLYN245679 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.configurePermissions@POLYN246527 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.configurePermissions@POLYN245679 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.configurePermissions@POLYN246527 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.configurePermissions@POLYN245679 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.configurePermissions@POLYN246527 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.configurePermissions@POLYN245679 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.configurePermissions@POLYN246527 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.configurePermissions@POLYN245679 the MagicNumber/String  'Failed to change permissions for the directory {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.configurePermissions@POLYN246527 the MagicNumber/String  'Failed to change permissions for the directory {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.lockStateDirectory@POLYN246952 the MagicNumber/String  'Unable to lock the state directory due to unexpected exception' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.lockStateDirectory@POLYN247800 the MagicNumber/String  'Unable to lock the state directory due to unexpected exception' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.lockStateDirectory@POLYN246952 the MagicNumber/String  'Failed to lock the state directory [%s] during startup' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.lockStateDirectory@POLYN247800 the MagicNumber/String  'Failed to lock the state directory [%s] during startup' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.lockStateDirectory@POLYN246952 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.lockStateDirectory@POLYN247800 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN247782 the MagicNumber/String  'Unable to obtain lock as state directory is already locked by another process' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN248630 the MagicNumber/String  'Unable to obtain lock as state directory is already locked by another process' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN247782 the MagicNumber/String  'Unable to initialize state, this can happen if multiple instances of ' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN248630 the MagicNumber/String  'Unable to initialize state, this can happen if multiple instances of ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN247782 the MagicNumber/String  'Kafka Streams are running in the same state directory ' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN248630 the MagicNumber/String  'Kafka Streams are running in the same state directory ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN247782 the MagicNumber/String  '(current state directory is [%s]' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN248630 the MagicNumber/String  '(current state directory is [%s]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN247782 the MagicNumber/String  'Reading UUID from process file: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN248630 the MagicNumber/String  'Reading UUID from process file: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN247782 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN248630 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN247782 the MagicNumber/String  'Failed to read json process file' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN248630 the MagicNumber/String  'Failed to read json process file' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN247782 the MagicNumber/String  'No process id found on disk, got fresh process id {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN248630 the MagicNumber/String  'No process id found on disk, got fresh process id {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN247782 the MagicNumber/String  'Unable to read/write process file due to unexpected exception' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN248630 the MagicNumber/String  'Unable to read/write process file due to unexpected exception' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -683,7 +683,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method getOrCreateDirectoryForTask list of called methods Object monObjet|java.io.File getTaskDirectoryParentNameN249939"
+ , "c3" : "QC-JAV000007[00001] For method getOrCreateDirectoryForTask list of called methods Object monObjet|java.io.File getTaskDirectoryParentNameN250787"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -697,21 +697,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.getOrCreateDirectoryForTask@POLYN249834 the MagicNumber/String  'Parent [%s] of task directory [%s] doesn't exist and couldn't be created' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.getOrCreateDirectoryForTask@POLYN250682 the MagicNumber/String  'Parent [%s] of task directory [%s] doesn't exist and couldn't be created' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.getOrCreateDirectoryForTask@POLYN249834 the MagicNumber/String  'task directory [%s] doesn't exist and couldn't be created' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.getOrCreateDirectoryForTask@POLYN250682 the MagicNumber/String  'task directory [%s] doesn't exist and couldn't be created' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.getOrCreateDirectoryForTask@POLYN249834 the MagicNumber/String  'state directory [%s] can't be created as there is an existing file with the same name' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.getOrCreateDirectoryForTask@POLYN250682 the MagicNumber/String  'state directory [%s] can't be created as there is an existing file with the same name' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -725,7 +725,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method getTaskDirectoryParentName list of called methods Object monObjet|java.lang.String taskId_topologyNameN251327"
+ , "c3" : "QC-JAV000007[00001] For method getTaskDirectoryParentName list of called methods Object monObjet|java.lang.String taskId_topologyNameN252175"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -739,14 +739,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.getTaskDirectoryParentName@POLYN251222 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.getTaskDirectoryParentName@POLYN252070 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.getTaskDirectoryParentName@POLYN251222 the MagicNumber/String  'Tried to lookup taskId with named topology, but StateDirectory thinks hasNamedTopologies = false' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.getTaskDirectoryParentName@POLYN252070 the MagicNumber/String  'Tried to lookup taskId with named topology, but StateDirectory thinks hasNamedTopologies = false' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -760,14 +760,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.getNamedTopologyDirName@POLYN251766 the MagicNumber/String  '__' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.getNamedTopologyDirName@POLYN252614 the MagicNumber/String  '__' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.getNamedTopologyDirName@POLYN251766 the MagicNumber/String  '__' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.getNamedTopologyDirName@POLYN252614 the MagicNumber/String  '__' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -788,7 +788,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method directoryForTaskIsEmpty list of called methods Object monObjet|java.io.File getOrCreateDirectoryForTaskN252345"
+ , "c3" : "QC-JAV000007[00001] For method directoryForTaskIsEmpty list of called methods Object monObjet|java.io.File getOrCreateDirectoryForTaskN253193"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -802,7 +802,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method taskDirIsEmpty list of called methods Object monObjet|java.io.File[] taskDir_listFilesN252584"
+ , "c3" : "QC-JAV000007[00001] For method taskDirIsEmpty list of called methods Object monObjet|java.io.File[] taskDir_listFilesN253432"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -816,70 +816,70 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN252473 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN253321 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN252473 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN253321 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN252473 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN253321 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN252473 the MagicNumber/String  'Error encountered deleting lock file in {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN253321 the MagicNumber/String  'Error encountered deleting lock file in {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN252473 the MagicNumber/String  'TaskDir {} was not empty, found {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN253321 the MagicNumber/String  'TaskDir {} was not empty, found {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN252473 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN253321 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.globalStateDir@POLYN253655 the MagicNumber/String  'global' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.globalStateDir@POLYN254503 the MagicNumber/String  'global' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.globalStateDir@POLYN253655 the MagicNumber/String  'global state directory [%s] doesn't exist and couldn't be created' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.globalStateDir@POLYN254503 the MagicNumber/String  'global state directory [%s] doesn't exist and couldn't be created' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.globalStateDir@POLYN253655 the MagicNumber/String  'global state directory [%s] can't be created as there is an existing file with the same name' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.globalStateDir@POLYN254503 the MagicNumber/String  'global state directory [%s] can't be created as there is an existing file with the same name' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.logPrefix@POLYN254475 the MagicNumber/String  'stream-thread [%s]' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.logPrefix@POLYN255323 the MagicNumber/String  'stream-thread [%s]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -900,63 +900,63 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method lock list of called methods Object monObjet|V lockedTasksToOwner_getN254975"
+ , "c3" : "QC-JAV000007[00001] For method lock list of called methods Object monObjet|V lockedTasksToOwner_getN255823"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN254774 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN255622 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN254774 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN255622 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN254774 the MagicNumber/String  '{} Found cached state dir lock for task {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN255622 the MagicNumber/String  '{} Found cached state dir lock for task {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN254774 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN255622 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN254774 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN255622 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN254774 the MagicNumber/String  'Tried to lock task directory for {} but the state directory does not exist' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN255622 the MagicNumber/String  'Tried to lock task directory for {} but the state directory does not exist' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN254774 the MagicNumber/String  'The state directory has been deleted' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN255622 the MagicNumber/String  'The state directory has been deleted' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN254774 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN255622 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -977,56 +977,56 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method unlock list of called methods Object monObjet|V lockedTasksToOwner_getN256080"
+ , "c3" : "QC-JAV000007[00001] For method unlock list of called methods Object monObjet|V lockedTasksToOwner_getN256928"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.unlock@POLYN255979 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.unlock@POLYN256827 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.unlock@POLYN255979 the MagicNumber/String  '{} Released state dir lock for task {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.unlock@POLYN256827 the MagicNumber/String  '{} Released state dir lock for task {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.close@POLYN256501 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.close@POLYN257349 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.close@POLYN256501 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.close@POLYN257349 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.close@POLYN256501 the MagicNumber/String  'Unexpected exception while unlocking the state dir' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.close@POLYN257349 the MagicNumber/String  'Unexpected exception while unlocking the state dir' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.close@POLYN256501 the MagicNumber/String  'Failed to release the lock on the state directory [%s]' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.close@POLYN257349 the MagicNumber/String  'Failed to release the lock on the state directory [%s]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.close@POLYN256501 the MagicNumber/String  'Some task directories still locked while closing state, this indicates unclean shutdown: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.close@POLYN257349 the MagicNumber/String  'Some task directories still locked while closing state, this indicates unclean shutdown: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1040,21 +1040,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.clean@POLYN257333 the MagicNumber/String  '%s Failed to delete global state directory of %s due to an unexpected exception' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.clean@POLYN258181 the MagicNumber/String  '%s Failed to delete global state directory of %s due to an unexpected exception' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.clean@POLYN257333 the MagicNumber/String  '%s Failed to delete state store directory of %s for it is not empty' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.clean@POLYN258181 the MagicNumber/String  '%s Failed to delete state store directory of %s for it is not empty' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.clean@POLYN257333 the MagicNumber/String  '%s Failed to delete state store directory of %s due to an unexpected exception' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.clean@POLYN258181 the MagicNumber/String  '%s Failed to delete state store directory of %s due to an unexpected exception' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1075,7 +1075,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasks@POLYN258984 the MagicNumber/String  'Should have swallowed exception.' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasks@POLYN259832 the MagicNumber/String  'Should have swallowed exception.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1089,7 +1089,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method cleanRemovedTasksCalledByCleanerThread list of called methods Object monObjet|java.io.File taskDir_fileN259469"
+ , "c3" : "QC-JAV000007[00001] For method cleanRemovedTasksCalledByCleanerThread list of called methods Object monObjet|java.io.File taskDir_fileN260317"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1117,21 +1117,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasksCalledByCleanerThread@POLYN259279 the MagicNumber/String  '{} Deleting obsolete state directory {} for task {} as {}ms has elapsed (cleanup delay is {}ms).' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasksCalledByCleanerThread@POLYN260127 the MagicNumber/String  '{} Deleting obsolete state directory {} for task {} as {}ms has elapsed (cleanup delay is {}ms).' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasksCalledByCleanerThread@POLYN259279 the MagicNumber/String  '%s Swallowed the following exception during deletion of obsolete state directory %s for task %s:' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasksCalledByCleanerThread@POLYN260127 the MagicNumber/String  '%s Swallowed the following exception during deletion of obsolete state directory %s for task %s:' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasksCalledByCleanerThread@POLYN259279 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasksCalledByCleanerThread@POLYN260127 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1145,7 +1145,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method maybeCleanEmptyNamedTopologyDirs list of called methods Object monObjet|java.io.File[] stateDir_listFilesN261383|java.io.File[] namedTopologyDir_listFilesN261785"
+ , "c3" : "QC-JAV000007[00001] For method maybeCleanEmptyNamedTopologyDirs list of called methods Object monObjet|java.io.File[] stateDir_listFilesN262231|java.io.File[] namedTopologyDir_listFilesN262633"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1166,56 +1166,56 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261045 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261893 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261045 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261893 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261045 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261893 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261045 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261893 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261045 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261893 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261045 the MagicNumber/String  '%sSwallowed the following exception during deletion of named topology directory %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261893 the MagicNumber/String  '%sSwallowed the following exception during deletion of named topology directory %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261045 the MagicNumber/String  '%s Failed to delete named topology directory %s with exception:' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261893 the MagicNumber/String  '%s Failed to delete named topology directory %s with exception:' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261045 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261893 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1229,42 +1229,42 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.clearLocalStateForNamedTopology@POLYN262839 the MagicNumber/String  'Tried to clear out the local state for NamedTopology {} but none was found' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.clearLocalStateForNamedTopology@POLYN263687 the MagicNumber/String  'Tried to clear out the local state for NamedTopology {} but none was found' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.clearLocalStateForNamedTopology@POLYN262839 the MagicNumber/String  'Hit an unexpected error while clearing local state for topology ' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.clearLocalStateForNamedTopology@POLYN263687 the MagicNumber/String  'Hit an unexpected error while clearing local state for topology ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.clearLocalStateForNamedTopology@POLYN262839 the MagicNumber/String  'Unable to delete state for the named topology ' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.clearLocalStateForNamedTopology@POLYN263687 the MagicNumber/String  'Unable to delete state for the named topology ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.clearLocalStateForNamedTopology@POLYN262839 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.clearLocalStateForNamedTopology@POLYN263687 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.clearLocalStateForNamedTopology@POLYN262839 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.clearLocalStateForNamedTopology@POLYN263687 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method cleanStateAndTaskDirectoriesCalledByUser list of called methods Object monObjet|java.io.File taskDir_fileN264250|V firstException_getN265537"
+ , "c3" : "QC-JAV000007[00001] For method cleanStateAndTaskDirectoriesCalledByUser list of called methods Object monObjet|java.io.File taskDir_fileN265098|V firstException_getN266385"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1292,70 +1292,70 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN263785 the MagicNumber/String  'Found some still-locked task directories when user requested to cleaning up the state, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN264633 the MagicNumber/String  'Found some still-locked task directories when user requested to cleaning up the state, ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN263785 the MagicNumber/String  'since Streams is not running any more these will be ignored to complete the cleanup' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN264633 the MagicNumber/String  'since Streams is not running any more these will be ignored to complete the cleanup' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN263785 the MagicNumber/String  '{} Deleting task directory {} for {} as user calling cleanup.' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN264633 the MagicNumber/String  '{} Deleting task directory {} for {} as user calling cleanup.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN263785 the MagicNumber/String  '{} Task {} in state directory {} was still locked by {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN264633 the MagicNumber/String  '{} Task {} in state directory {} was still locked by {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN263785 the MagicNumber/String  '%s Failed to delete task directory %s for %s with exception:' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN264633 the MagicNumber/String  '%s Failed to delete task directory %s for %s with exception:' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN263785 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN264633 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN263785 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN264633 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN263785 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN264633 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN263785 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN264633 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.listNonEmptyTaskDirectories@POLYN265819 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.listNonEmptyTaskDirectories@POLYN266667 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1369,7 +1369,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method listTaskDirectories list of called methods Object monObjet|java.lang.String parseNamedTopologyFromDirectoryN267135|java.io.File[] namedTopologyDir_listFilesN267252|java.io.File[] stateDir_listFilesN267749"
+ , "c3" : "QC-JAV000007[00001] For method listTaskDirectories list of called methods Object monObjet|java.lang.String parseNamedTopologyFromDirectoryN267983|java.io.File[] namedTopologyDir_listFilesN268100|java.io.File[] stateDir_listFilesN268597"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1390,49 +1390,49 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.listTaskDirectories@POLYN266691 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.listTaskDirectories@POLYN267539 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.listTaskDirectories@POLYN266691 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.listTaskDirectories@POLYN267539 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.listTaskDirectories@POLYN266691 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.listTaskDirectories@POLYN267539 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method listNamedTopologyDirs list of called methods Object monObjet|java.io.File[] stateDir_listFilesN268339"
+ , "c3" : "QC-JAV000007[00001] For method listNamedTopologyDirs list of called methods Object monObjet|java.io.File[] stateDir_listFilesN269187"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.listNamedTopologyDirs@POLYN268253 the MagicNumber/String  '__' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.listNamedTopologyDirs@POLYN269101 the MagicNumber/String  '__' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.listNamedTopologyDirs@POLYN268253 the MagicNumber/String  '__' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.listNamedTopologyDirs@POLYN269101 the MagicNumber/String  '__' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.listNamedTopologyDirs@POLYN268253 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.listNamedTopologyDirs@POLYN269101 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1453,14 +1453,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.parseNamedTopologyFromDirectory@POLYN268741 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.parseNamedTopologyFromDirectory@POLYN269589 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.parseNamedTopologyFromDirectory@POLYN268741 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.parseNamedTopologyFromDirectory@POLYN269589 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1481,7 +1481,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.tryLock@POLYN268959 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.tryLock@POLYN269807 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1502,21 +1502,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.TaskDirectory.equals@POLYN269735 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.TaskDirectory.equals@POLYN270583 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.TaskDirectory.equals@POLYN269735 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.TaskDirectory.equals@POLYN270583 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.TaskDirectory.equals@POLYN269735 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.TaskDirectory.equals@POLYN270583 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1537,14 +1537,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasks@POLYN258984.cleanupDelayMs"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasks@POLYN259832.cleanupDelayMs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.streams.processor.internals.StateDirectory.unlock@POLYN255979.taskId"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.streams.processor.internals.StateDirectory.unlock@POLYN256827.taskId"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1558,476 +1558,476 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasksCalledByCleanerThread@POLYN259279"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasksCalledByCleanerThread@POLYN260127"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261045"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261893"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StateDirectory.unlock@POLYN255979"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StateDirectory.unlock@POLYN256827"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN254774"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN255622"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StateDirectory.clean@POLYN257333"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StateDirectory.clean@POLYN258181"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN263785"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN264633"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN252473"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN253321"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StateDirectory.clearLocalStateForNamedTopology@POLYN262839"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StateDirectory.clearLocalStateForNamedTopology@POLYN263687"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StateDirectory.close@POLYN256501"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StateDirectory.close@POLYN257349"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN247782"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN248630"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasksCalledByCleanerThread@POLYN259279 the MagicNumber/String '%s Swallowed the following exception during deletion of obsolete state directory %s for task %s:' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasksCalledByCleanerThread@POLYN260127 the MagicNumber/String '%s Swallowed the following exception during deletion of obsolete state directory %s for task %s:' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasksCalledByCleanerThread@POLYN259279 the MagicNumber/String '{} Deleting obsolete state directory {} for task {} as {}ms has elapsed -cleanup delay is {}ms-.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasksCalledByCleanerThread@POLYN260127 the MagicNumber/String '{} Deleting obsolete state directory {} for task {} as {}ms has elapsed -cleanup delay is {}ms-.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasksCalledByCleanerThread@POLYN259279 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.cleanRemovedTasksCalledByCleanerThread@POLYN260127 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261045 the MagicNumber/String '%s Failed to delete named topology directory %s with exception:' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261893 the MagicNumber/String '%s Failed to delete named topology directory %s with exception:' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261045 the MagicNumber/String '%sSwallowed the following exception during deletion of named topology directory %s' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261893 the MagicNumber/String '%sSwallowed the following exception during deletion of named topology directory %s' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261045 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261893 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261045 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261893 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261045 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261893 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261045 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261893 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261045 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261893 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261045 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.maybeCleanEmptyNamedTopologyDirs@POLYN261893 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.unlock@POLYN255979 the MagicNumber/String '{} Released state dir lock for task {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.unlock@POLYN256827 the MagicNumber/String '{} Released state dir lock for task {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.unlock@POLYN255979 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.unlock@POLYN256827 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN254774 the MagicNumber/String 'The state directory has been deleted' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN255622 the MagicNumber/String 'The state directory has been deleted' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN254774 the MagicNumber/String 'Tried to lock task directory for {} but the state directory does not exist' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN255622 the MagicNumber/String 'Tried to lock task directory for {} but the state directory does not exist' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN254774 the MagicNumber/String '{} Found cached state dir lock for task {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN255622 the MagicNumber/String '{} Found cached state dir lock for task {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN254774 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN255622 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN254774 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN255622 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN254774 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN255622 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN254774 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN255622 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN254774 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN255622 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.clean@POLYN257333 the MagicNumber/String '%s Failed to delete global state directory of %s due to an unexpected exception' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.clean@POLYN258181 the MagicNumber/String '%s Failed to delete global state directory of %s due to an unexpected exception' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.clean@POLYN257333 the MagicNumber/String '%s Failed to delete state store directory of %s due to an unexpected exception' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.clean@POLYN258181 the MagicNumber/String '%s Failed to delete state store directory of %s due to an unexpected exception' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.clean@POLYN257333 the MagicNumber/String '%s Failed to delete state store directory of %s for it is not empty' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.clean@POLYN258181 the MagicNumber/String '%s Failed to delete state store directory of %s for it is not empty' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN263785 the MagicNumber/String '%s Failed to delete task directory %s for %s with exception:' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN264633 the MagicNumber/String '%s Failed to delete task directory %s for %s with exception:' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN263785 the MagicNumber/String 'Found some still-locked task directories when user requested to cleaning up the state, ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN264633 the MagicNumber/String 'Found some still-locked task directories when user requested to cleaning up the state, ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN263785 the MagicNumber/String 'since Streams is not running any more these will be ignored to complete the cleanup' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN264633 the MagicNumber/String 'since Streams is not running any more these will be ignored to complete the cleanup' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN263785 the MagicNumber/String '{} Deleting task directory {} for {} as user calling cleanup.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN264633 the MagicNumber/String '{} Deleting task directory {} for {} as user calling cleanup.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN263785 the MagicNumber/String '{} Task {} in state directory {} was still locked by {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN264633 the MagicNumber/String '{} Task {} in state directory {} was still locked by {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN263785 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN264633 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN263785 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN264633 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN263785 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN264633 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN263785 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.cleanStateAndTaskDirectoriesCalledByUser@POLYN264633 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN252473 the MagicNumber/String 'Error encountered deleting lock file in {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN253321 the MagicNumber/String 'Error encountered deleting lock file in {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN252473 the MagicNumber/String 'TaskDir {} was not empty, found {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN253321 the MagicNumber/String 'TaskDir {} was not empty, found {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN252473 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN253321 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN252473 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN253321 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN252473 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN253321 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN252473 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.taskDirIsEmpty@POLYN253321 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.clearLocalStateForNamedTopology@POLYN262839 the MagicNumber/String 'Hit an unexpected error while clearing local state for topology ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.clearLocalStateForNamedTopology@POLYN263687 the MagicNumber/String 'Hit an unexpected error while clearing local state for topology ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.clearLocalStateForNamedTopology@POLYN262839 the MagicNumber/String 'Tried to clear out the local state for NamedTopology {} but none was found' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.clearLocalStateForNamedTopology@POLYN263687 the MagicNumber/String 'Tried to clear out the local state for NamedTopology {} but none was found' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.clearLocalStateForNamedTopology@POLYN262839 the MagicNumber/String 'Unable to delete state for the named topology ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.clearLocalStateForNamedTopology@POLYN263687 the MagicNumber/String 'Unable to delete state for the named topology ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.clearLocalStateForNamedTopology@POLYN262839 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.clearLocalStateForNamedTopology@POLYN263687 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.clearLocalStateForNamedTopology@POLYN262839 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.clearLocalStateForNamedTopology@POLYN263687 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.close@POLYN256501 the MagicNumber/String 'Failed to release the lock on the state directory [%s]' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.close@POLYN257349 the MagicNumber/String 'Failed to release the lock on the state directory [%s]' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.close@POLYN256501 the MagicNumber/String 'Some task directories still locked while closing state, this indicates unclean shutdown: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.close@POLYN257349 the MagicNumber/String 'Some task directories still locked while closing state, this indicates unclean shutdown: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.close@POLYN256501 the MagicNumber/String 'Unexpected exception while unlocking the state dir' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.close@POLYN257349 the MagicNumber/String 'Unexpected exception while unlocking the state dir' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.close@POLYN256501 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.close@POLYN257349 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.close@POLYN256501 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.close@POLYN257349 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN247782 the MagicNumber/String '-current state directory is [%s]' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN248630 the MagicNumber/String '-current state directory is [%s]' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN247782 the MagicNumber/String 'Failed to read json process file' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN248630 the MagicNumber/String 'Failed to read json process file' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN247782 the MagicNumber/String 'Kafka Streams are running in the same state directory ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN248630 the MagicNumber/String 'Kafka Streams are running in the same state directory ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN247782 the MagicNumber/String 'No process id found on disk, got fresh process id {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN248630 the MagicNumber/String 'No process id found on disk, got fresh process id {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN247782 the MagicNumber/String 'Reading UUID from process file: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN248630 the MagicNumber/String 'Reading UUID from process file: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN247782 the MagicNumber/String 'Unable to initialize state, this can happen if multiple instances of ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN248630 the MagicNumber/String 'Unable to initialize state, this can happen if multiple instances of ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN247782 the MagicNumber/String 'Unable to obtain lock as state directory is already locked by another process' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN248630 the MagicNumber/String 'Unable to obtain lock as state directory is already locked by another process' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN247782 the MagicNumber/String 'Unable to read/write process file due to unexpected exception' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN248630 the MagicNumber/String 'Unable to read/write process file due to unexpected exception' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN247782 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.streams.processor.internals.StateDirectory.initializeProcessId@POLYN248630 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

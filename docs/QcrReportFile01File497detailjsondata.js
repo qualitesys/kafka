@@ -121,7 +121,7 @@ var maDataBlocs = {
  , "c1" : "00025"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/DefaultChannelMetadataRegistry.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.common.network.DefaultChannelMetadataRegistry.registerCipherInformation@POLYN143160 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.common.network.DefaultChannelMetadataRegistry.registerCipherInformation@POLYN144008 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -135,14 +135,14 @@ var maDataBlocs = {
  , "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/DefaultChannelMetadataRegistry.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.network.DefaultChannelMetadataRegistry.close@POLYN143754 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.network.DefaultChannelMetadataRegistry.close@POLYN144602 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/DefaultChannelMetadataRegistry.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.network.DefaultChannelMetadataRegistry.close@POLYN143754 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.network.DefaultChannelMetadataRegistry.close@POLYN144602 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

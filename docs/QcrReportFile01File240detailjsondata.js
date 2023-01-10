@@ -182,14 +182,14 @@ var maDataBlocs = {
  , "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.clients.producer.internals.ProduceRequestResult.done@POLYN158781 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.clients.producer.internals.ProduceRequestResult.done@POLYN159629 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.clients.producer.internals.ProduceRequestResult.done@POLYN158781 the MagicNumber/String  'The method  set  must be invoked before this method.' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.clients.producer.internals.ProduceRequestResult.done@POLYN159629 the MagicNumber/String  'The method  set  must be invoked before this method.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -210,21 +210,21 @@ var maDataBlocs = {
  , "c1" : "00114"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.clients.producer.internals.ProduceRequestResult.error@POLYN160066 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.clients.producer.internals.ProduceRequestResult.error@POLYN160914 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.clients.producer.internals.ProduceRequestResult.error@POLYN160066 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.clients.producer.internals.ProduceRequestResult.error@POLYN160914 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00132"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.clients.producer.internals.ProduceRequestResult.completed@POLYN160514 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.clients.producer.internals.ProduceRequestResult.completed@POLYN161362 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

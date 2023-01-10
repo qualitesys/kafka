@@ -203,42 +203,42 @@ var maDataBlocs = {
  , "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.memory.SimpleMemoryPool.SimpleMemoryPool@POLYN156799 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.memory.SimpleMemoryPool.SimpleMemoryPool@POLYN157647 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.memory.SimpleMemoryPool.SimpleMemoryPool@POLYN156799 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.memory.SimpleMemoryPool.SimpleMemoryPool@POLYN157647 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.memory.SimpleMemoryPool.SimpleMemoryPool@POLYN156799 the MagicNumber/String  'must provide a positive size and max single allocation size smaller than size.' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.memory.SimpleMemoryPool.SimpleMemoryPool@POLYN157647 the MagicNumber/String  'must provide a positive size and max single allocation size smaller than size.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.memory.SimpleMemoryPool.SimpleMemoryPool@POLYN156799 the MagicNumber/String  'provided ' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.memory.SimpleMemoryPool.SimpleMemoryPool@POLYN157647 the MagicNumber/String  'provided ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.memory.SimpleMemoryPool.SimpleMemoryPool@POLYN156799 the MagicNumber/String  ' and ' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.memory.SimpleMemoryPool.SimpleMemoryPool@POLYN157647 the MagicNumber/String  ' and ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.memory.SimpleMemoryPool.SimpleMemoryPool@POLYN156799 the MagicNumber/String  ' respectively' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.memory.SimpleMemoryPool.SimpleMemoryPool@POLYN157647 the MagicNumber/String  ' respectively' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -252,7 +252,7 @@ var maDataBlocs = {
  , "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00054] For method tryAllocate list of called methods Object monObjet|V availableMemory_getN158336"
+ , "c3" : "QC-JAV000007[00054] For method tryAllocate list of called methods Object monObjet|V availableMemory_getN159184"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -266,77 +266,77 @@ var maDataBlocs = {
  , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN157654 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN158502 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN157654 the MagicNumber/String  'requested size ' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN158502 the MagicNumber/String  'requested size ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN157654 the MagicNumber/String  '&amp;lt;=0' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN158502 the MagicNumber/String  '&amp;lt;=0' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN157654 the MagicNumber/String  'requested size ' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN158502 the MagicNumber/String  'requested size ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN157654 the MagicNumber/String  ' is larger than maxSingleAllocationSize ' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN158502 the MagicNumber/String  ' is larger than maxSingleAllocationSize ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN157654 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN158502 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN157654 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN158502 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN157654 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN158502 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN157654 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN158502 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN157654 the MagicNumber/String  'refused to allocate buffer of size {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN158502 the MagicNumber/String  'refused to allocate buffer of size {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN157654 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN158502 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -350,21 +350,21 @@ var maDataBlocs = {
  , "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.memory.SimpleMemoryPool.release@POLYN159245 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.memory.SimpleMemoryPool.release@POLYN160093 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.memory.SimpleMemoryPool.release@POLYN159245 the MagicNumber/String  'provided null buffer' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.memory.SimpleMemoryPool.release@POLYN160093 the MagicNumber/String  'provided null buffer' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.memory.SimpleMemoryPool.isOutOfMemory@POLYN159879 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.memory.SimpleMemoryPool.isOutOfMemory@POLYN160727 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -385,7 +385,7 @@ var maDataBlocs = {
  , "c1" : "00114"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.common.memory.SimpleMemoryPool.bufferToBeReturned@POLYN160001 the MagicNumber/String  'allocated buffer of size {} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.common.memory.SimpleMemoryPool.bufferToBeReturned@POLYN160849 the MagicNumber/String  'allocated buffer of size {} ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -406,140 +406,140 @@ var maDataBlocs = {
  , "c1" : "00119"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.common.memory.SimpleMemoryPool.bufferToBeReleased@POLYN160179 the MagicNumber/String  'released buffer of size {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.common.memory.SimpleMemoryPool.bufferToBeReleased@POLYN161027 the MagicNumber/String  'released buffer of size {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.memory.SimpleMemoryPool.toString@POLYN160379 the MagicNumber/String  'SimpleMemoryPool{' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.memory.SimpleMemoryPool.toString@POLYN161227 the MagicNumber/String  'SimpleMemoryPool{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.memory.SimpleMemoryPool.toString@POLYN160379 the MagicNumber/String  '/' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.memory.SimpleMemoryPool.toString@POLYN161227 the MagicNumber/String  '/' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.memory.SimpleMemoryPool.toString@POLYN160379 the MagicNumber/String  ' used}' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.memory.SimpleMemoryPool.toString@POLYN161227 the MagicNumber/String  ' used}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.memory.SimpleMemoryPool.maybeRecordEndOfDrySpell@POLYN160726 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.memory.SimpleMemoryPool.maybeRecordEndOfDrySpell@POLYN161574 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00130"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.memory.SimpleMemoryPool.maybeRecordEndOfDrySpell@POLYN160726 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.memory.SimpleMemoryPool.maybeRecordEndOfDrySpell@POLYN161574 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.common.memory.SimpleMemoryPool.maybeRecordEndOfDrySpell@POLYN160726 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.common.memory.SimpleMemoryPool.maybeRecordEndOfDrySpell@POLYN161574 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.common.memory.SimpleMemoryPool.maybeRecordEndOfDrySpell@POLYN160726 the MagicNumber/String  1000000.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.common.memory.SimpleMemoryPool.maybeRecordEndOfDrySpell@POLYN161574 the MagicNumber/String  1000000.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN157654"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN158502"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#55"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN157654 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN158502 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#56"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN157654 the MagicNumber/String '&amp;lt;=0' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN158502 the MagicNumber/String '&amp;lt;=0' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#56"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN157654 the MagicNumber/String 'requested size ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN158502 the MagicNumber/String 'requested size ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#58"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN157654 the MagicNumber/String ' is larger than maxSingleAllocationSize ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN158502 the MagicNumber/String ' is larger than maxSingleAllocationSize ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#58"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN157654 the MagicNumber/String 'requested size ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN158502 the MagicNumber/String 'requested size ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#61"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN157654 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN158502 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#65"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN157654 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN158502 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#75"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00075] In the recursive method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN157654 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00075] In the recursive method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN158502 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#76"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN157654 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN158502 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#78"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN157654 the MagicNumber/String 'refused to allocate buffer of size {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN158502 the MagicNumber/String 'refused to allocate buffer of size {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/SimpleMemoryPool.java.html#79"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN157654 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.common.memory.SimpleMemoryPool.tryAllocate@POLYN158502 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

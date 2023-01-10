@@ -218,7 +218,7 @@ var maDataBlocs = {
  , "c1" : "00071"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.connect.mirror.Heartbeat.toString@POLYN161217 the MagicNumber/String  'Heartbeat{sourceClusterAlias=%s, targetClusterAlias=%s, timestamp=%d}' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.connect.mirror.Heartbeat.toString@POLYN162065 the MagicNumber/String  'Heartbeat{sourceClusterAlias=%s, targetClusterAlias=%s, timestamp=%d}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -232,14 +232,14 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00075] For method serializeValue list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct headerStructN161588|org.apache.kafka.common.protocol.types.Struct valueStructN161674"
+ , "c3" : "QC-JAV000007[00075] For method serializeValue list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct headerStructN162436|org.apache.kafka.common.protocol.types.Struct valueStructN162522"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00086"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#86"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00086] For method serializeKey list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct keyStructN162273"
+ , "c3" : "QC-JAV000007[00086] For method serializeKey list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct keyStructN163121"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -253,7 +253,7 @@ var maDataBlocs = {
  , "c1" : "00094"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#94"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00094] For method deserializeRecord list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct HEADER_SCHEMA_readN162894|java.lang.Short headerStruct_getShortN162988|org.apache.kafka.common.protocol.types.Schema valueSchemaN163082|java.lang.Long valueStruct_getLongN163207|org.apache.kafka.common.protocol.types.Struct KEY_SCHEMA_readN163301|java.lang.String keyStruct_getStringN163454|java.lang.String keyStruct_getStringN163548"
+ , "c3" : "QC-JAV000007[00094] For method deserializeRecord list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct HEADER_SCHEMA_readN163742|java.lang.Short headerStruct_getShortN163836|org.apache.kafka.common.protocol.types.Schema valueSchemaN163930|java.lang.Long valueStruct_getLongN164055|org.apache.kafka.common.protocol.types.Struct KEY_SCHEMA_readN164149|java.lang.String keyStruct_getStringN164302|java.lang.String keyStruct_getStringN164396"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -288,7 +288,7 @@ var maDataBlocs = {
  , "c1" : "00141"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.connect.mirror.Heartbeat.valueSchema@POLYN165369 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.connect.mirror.Heartbeat.valueSchema@POLYN166217 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

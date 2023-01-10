@@ -194,7 +194,7 @@ var maDataBlocs = {
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.ListConsumerGroupOffsetsHandler@POLYN163738 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.ListConsumerGroupOffsetsHandler@POLYN164586 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -215,7 +215,7 @@ var maDataBlocs = {
  , "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.apiName@POLYN164963 the MagicNumber/String  'offsetFetch' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.apiName@POLYN165811 the MagicNumber/String  'offsetFetch' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -236,21 +236,21 @@ var maDataBlocs = {
  , "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.validateKeys@POLYN165164 the MagicNumber/String  'Received unexpected group ids ' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.validateKeys@POLYN166012 the MagicNumber/String  'Received unexpected group ids ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.validateKeys@POLYN165164 the MagicNumber/String  ' (expected only ' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.validateKeys@POLYN166012 the MagicNumber/String  ' (expected only ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.validateKeys@POLYN165164 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.validateKeys@POLYN166012 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -264,7 +264,7 @@ var maDataBlocs = {
  , "c1" : "00094"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.buildBatchedRequest@POLYN165621 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.buildBatchedRequest@POLYN166469 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -278,28 +278,28 @@ var maDataBlocs = {
  , "c1" : "00098"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#98"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00098] For method handleResponse list of called methods Object monObjet|Errors response_groupLevelErrorN166358"
+ , "c3" : "QC-JAV000007[00098] For method handleResponse list of called methods Object monObjet|Errors response_groupLevelErrorN167206"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00126"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleResponse@POLYN166048 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleResponse@POLYN166896 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleResponse@POLYN166048 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleResponse@POLYN166896 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00132"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleResponse@POLYN166048 the MagicNumber/String  'Skipping return offset for {} due to error {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleResponse@POLYN166896 the MagicNumber/String  'Skipping return offset for {} due to error {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -348,91 +348,91 @@ var maDataBlocs = {
  , "c1" : "00148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN168336 the MagicNumber/String  ' OffsetFetch  request for group id {} failed due to error {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN169184 the MagicNumber/String  ' OffsetFetch  request for group id {} failed due to error {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00153"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN168336 the MagicNumber/String  ' OffsetFetch  request for group id {} failed because the coordinator ' should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN169184 the MagicNumber/String  ' OffsetFetch  request for group id {} failed because the coordinator ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00154"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN168336 the MagicNumber/String  'is still in the process of loading state. Will retry' should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN169184 the MagicNumber/String  'is still in the process of loading state. Will retry' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN168336 the MagicNumber/String  ' OffsetFetch  request for group id {} returned error {}. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN169184 the MagicNumber/String  ' OffsetFetch  request for group id {} returned error {}. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00162"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN168336 the MagicNumber/String  'Will attempt to find the coordinator again and retry' should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN169184 the MagicNumber/String  'Will attempt to find the coordinator again and retry' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00167"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN168336 the MagicNumber/String  ' OffsetFetch  request for group id {} failed due to unexpected error {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN169184 the MagicNumber/String  ' OffsetFetch  request for group id {} failed due to unexpected error {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN168336"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN169184"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#148"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN168336 the MagicNumber/String ' OffsetFetch  request for group id {} failed due to error {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN169184 the MagicNumber/String ' OffsetFetch  request for group id {} failed due to error {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00153"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#153"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00153] In the recursive method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN168336 the MagicNumber/String ' OffsetFetch  request for group id {} failed because the coordinator ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00153] In the recursive method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN169184 the MagicNumber/String ' OffsetFetch  request for group id {} failed because the coordinator ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00154"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#154"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00154] In the recursive method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN168336 the MagicNumber/String 'is still in the process of loading state. Will retry' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00154] In the recursive method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN169184 the MagicNumber/String 'is still in the process of loading state. Will retry' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#161"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00161] In the recursive method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN168336 the MagicNumber/String ' OffsetFetch  request for group id {} returned error {}. ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00161] In the recursive method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN169184 the MagicNumber/String ' OffsetFetch  request for group id {} returned error {}. ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00162"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#162"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00162] In the recursive method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN168336 the MagicNumber/String 'Will attempt to find the coordinator again and retry' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00162] In the recursive method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN169184 the MagicNumber/String 'Will attempt to find the coordinator again and retry' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00167"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#167"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00167] In the recursive method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN168336 the MagicNumber/String ' OffsetFetch  request for group id {} failed due to unexpected error {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00167] In the recursive method org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler.handleGroupError@POLYN169184 the MagicNumber/String ' OffsetFetch  request for group id {} failed due to unexpected error {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

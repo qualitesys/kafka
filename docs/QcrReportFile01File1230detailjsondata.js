@@ -163,7 +163,7 @@ var maDataBlocs = {
  , "c1" : "00053"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.transforms.predicates.TopicNameMatches.test@POLYN151033 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.transforms.predicates.TopicNameMatches.test@POLYN151881 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -177,28 +177,28 @@ var maDataBlocs = {
  , "c1" : "00069"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.connect.transforms.predicates.TopicNameMatches.configure@POLYN151347 the MagicNumber/String  'entry must be a Java-compatible regular expression: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.connect.transforms.predicates.TopicNameMatches.configure@POLYN152195 the MagicNumber/String  'entry must be a Java-compatible regular expression: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.transforms.predicates.TopicNameMatches.toString@POLYN152097 the MagicNumber/String  'TopicNameMatches{' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.transforms.predicates.TopicNameMatches.toString@POLYN152945 the MagicNumber/String  'TopicNameMatches{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00077"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.transforms.predicates.TopicNameMatches.toString@POLYN152097 the MagicNumber/String  'pattern=' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.transforms.predicates.TopicNameMatches.toString@POLYN152945 the MagicNumber/String  'pattern=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.transforms.predicates.TopicNameMatches.toString@POLYN152097 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.transforms.predicates.TopicNameMatches.toString@POLYN152945 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

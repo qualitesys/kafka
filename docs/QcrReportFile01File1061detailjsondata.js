@@ -437,7 +437,7 @@ var maDataBlocs = {
  , "c1" : "00241"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#241"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.AbstractWorkerSourceTask@POLYN258346 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.AbstractWorkerSourceTask@POLYN259194 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -458,91 +458,91 @@ var maDataBlocs = {
  , "c1" : "00252"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#252"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.initialize@POLYN260566 the MagicNumber/String  '{} Task failed initialization and will not be started.' should be converted to const"
+ , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.initialize@POLYN261414 the MagicNumber/String  '{} Task failed initialization and will not be started.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00267"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#267"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.initializeAndStart@POLYN260973 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.initializeAndStart@POLYN261821 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00270"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#270"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.initializeAndStart@POLYN260973 the MagicNumber/String  '{} Source task finished initialization and start' should be converted to const"
+ , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.initializeAndStart@POLYN261821 the MagicNumber/String  '{} Source task finished initialization and start' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00296"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#296"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.removeMetrics@POLYN261868 the MagicNumber/String  'source task metrics tracker' should be converted to const"
+ , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.removeMetrics@POLYN262716 the MagicNumber/String  'source task metrics tracker' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00303"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#303"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.close@POLYN262068 the MagicNumber/String  'source task' should be converted to const"
+ , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.close@POLYN262916 the MagicNumber/String  'source task' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00306"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#306"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.close@POLYN262068 the MagicNumber/String  30 should be converted to const"
+ , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.close@POLYN262916 the MagicNumber/String  30 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00308"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#308"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.close@POLYN262068 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.close@POLYN262916 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00309"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#309"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.close@POLYN262068 the MagicNumber/String  30 should be converted to const"
+ , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.close@POLYN262916 the MagicNumber/String  30 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00309"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#309"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.close@POLYN262068 the MagicNumber/String  'source task admin' should be converted to const"
+ , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.close@POLYN262916 the MagicNumber/String  'source task admin' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00311"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#311"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.close@POLYN262068 the MagicNumber/String  'transformation chain' should be converted to const"
+ , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.close@POLYN262916 the MagicNumber/String  'transformation chain' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00312"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#312"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.close@POLYN262068 the MagicNumber/String  'retry operator' should be converted to const"
+ , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.close@POLYN262916 the MagicNumber/String  'retry operator' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00313"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#313"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.close@POLYN262068 the MagicNumber/String  'offset reader' should be converted to const"
+ , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.close@POLYN262916 the MagicNumber/String  'offset reader' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00314"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#314"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.close@POLYN262068 the MagicNumber/String  'offset backing store' should be converted to const"
+ , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.close@POLYN262916 the MagicNumber/String  'offset backing store' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -556,21 +556,21 @@ var maDataBlocs = {
  , "c1" : "00318"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#318"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.closeProducer@POLYN263044 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.closeProducer@POLYN263892 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00319"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#319"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.closeProducer@POLYN263044 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.closeProducer@POLYN263892 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00320"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#320"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.closeProducer@POLYN263044 the MagicNumber/String  'source task producer' should be converted to const"
+ , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.closeProducer@POLYN263892 the MagicNumber/String  'source task producer' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -584,63 +584,63 @@ var maDataBlocs = {
  , "c1" : "00340"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#340"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00340] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN263416 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00340] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN264264 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00343"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#343"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN263416 the MagicNumber/String  '{} Nothing to send to Kafka. Polling source for additional records' should be converted to const"
+ , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN264264 the MagicNumber/String  '{} Nothing to send to Kafka. Polling source for additional records' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00346"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#346"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00346] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN263416 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00346] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN264264 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00350"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#350"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00350] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN263416 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00350] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN264264 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00352"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#352"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN263416 the MagicNumber/String  '{} About to send {} records to Kafka' should be converted to const"
+ , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN264264 the MagicNumber/String  '{} About to send {} records to Kafka' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00363"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#363"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00363] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN263416 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00363] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN264264 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00365"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#365"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00365] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN263416 the MagicNumber/String  'Failed to commit offsets for already-failing task' should be converted to const"
+ , "c3" : "QC-JAV000010[00365] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN264264 the MagicNumber/String  'Failed to commit offsets for already-failing task' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00369"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#369"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN263416 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN264264 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00378"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#378"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00378] For method sendRecords list of called methods Object monObjet|int toSend_sizeN265785|org.apache.kafka.clients.producer.ProducerRecord convertTransformedRecordN266311"
+ , "c3" : "QC-JAV000007[00378] For method sendRecords list of called methods Object monObjet|int toSend_sizeN266633|org.apache.kafka.clients.producer.ProducerRecord convertTransformedRecordN267159"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -703,140 +703,140 @@ var maDataBlocs = {
  , "c1" : "00379"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#379"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00382"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#382"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00382"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#382"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00387"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#387"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00387] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00387] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00393"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#393"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String  '{} Appending record to the topic {} with key {}, value {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String  '{} Appending record to the topic {} with key {}, value {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00401"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#401"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00401] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00401] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00403"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#403"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00403] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String  '{} failed to send record to {}; this is expected as the producer has already been closed' should be converted to const"
+ , "c3" : "QC-JAV000010[00403] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String  '{} failed to send record to {}; this is expected as the producer has already been closed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00405"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#405"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00405] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String  '{} failed to send record to {}: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00405] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String  '{} failed to send record to {}: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00407"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#407"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00407] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String  '{} Failed record: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00407] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String  '{} Failed record: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00408"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#408"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00408] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00408] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00411"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#411"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String  '{} Wrote record successfully: topic {} partition {} offset {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String  '{} Wrote record successfully: topic {} partition {} offset {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00424"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#424"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00424] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String  '{} Failed to send record to topic '{}' and partition '{}'. Backing off before retrying: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00424] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String  '{} Failed to send record to topic '{}' and partition '{}'. Backing off before retrying: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00429"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#429"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00429] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00429] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00431"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#431"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00431] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String  '{} Failed to send record to topic '{}' and partition '{}' due to an unrecoverable exception: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00431] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String  '{} Failed to send record to topic '{}' and partition '{}' due to an unrecoverable exception: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00433"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#433"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00433] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String  '{} Failed to send {} with unrecoverable exception: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00433] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String  '{} Failed to send {} with unrecoverable exception: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00436"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#436"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00436] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00436] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00441"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#441"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00442"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#442"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00449"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#449"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00449] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.poll@POLYN270018 the MagicNumber/String  '{} failed to poll records from SourceTask. Will retry operation.' should be converted to const"
+ , "c3" : "QC-JAV000010[00449] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.poll@POLYN270866 the MagicNumber/String  '{} failed to poll records from SourceTask. Will retry operation.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00451"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#451"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00451] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.poll@POLYN270018 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00451] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.poll@POLYN270866 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -850,21 +850,21 @@ var maDataBlocs = {
  , "c1" : "00463"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#463"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.convertTransformedRecord@POLYN270646 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.convertTransformedRecord@POLYN271494 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00464"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#464"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00464] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.convertTransformedRecord@POLYN270646 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00464] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.convertTransformedRecord@POLYN271494 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00476"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#476"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.convertTransformedRecord@POLYN270646 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.convertTransformedRecord@POLYN271494 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -878,112 +878,112 @@ var maDataBlocs = {
  , "c1" : "00485"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#485"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00485] For method maybeCreateTopic list of called methods Object monObjet|org.apache.kafka.connect.util.TopicCreationGroup topicCreation_findFirstGroupN273135|org.apache.kafka.clients.admin.NewTopic topicGroup_newTopicN273346"
+ , "c3" : "QC-JAV000007[00485] For method maybeCreateTopic list of called methods Object monObjet|org.apache.kafka.connect.util.TopicCreationGroup topicCreation_findFirstGroupN273983|org.apache.kafka.clients.admin.NewTopic topicGroup_newTopicN274194"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00487"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#487"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00487] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN272179 the MagicNumber/String  'Topic creation by the connector is disabled or the topic {} was previously created.' should be converted to const"
+ , "c3" : "QC-JAV000010[00487] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN273027 the MagicNumber/String  'Topic creation by the connector is disabled or the topic {} was previously created.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00488"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#488"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00488] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN272179 the MagicNumber/String  'If auto.create.topics.enable is enabled on the broker, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00488] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN273027 the MagicNumber/String  'If auto.create.topics.enable is enabled on the broker, ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00489"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#489"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN272179 the MagicNumber/String  'the topic will be created with default settings' should be converted to const"
+ , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN273027 the MagicNumber/String  'the topic will be created with default settings' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00492"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#492"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00492] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN272179 the MagicNumber/String  'The task will send records to topic '{}' for the first time. Checking ' should be converted to const"
+ , "c3" : "QC-JAV000010[00492] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN273027 the MagicNumber/String  'The task will send records to topic '{}' for the first time. Checking ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00493"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#493"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00493] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN272179 the MagicNumber/String  'whether topic exists' should be converted to const"
+ , "c3" : "QC-JAV000010[00493] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN273027 the MagicNumber/String  'whether topic exists' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00496"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#496"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00496] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN272179 the MagicNumber/String  'Topic '{}' already exists.' should be converted to const"
+ , "c3" : "QC-JAV000010[00496] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN273027 the MagicNumber/String  'Topic '{}' already exists.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00501"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#501"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00501] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN272179 the MagicNumber/String  'Creating topic '{}'' should be converted to const"
+ , "c3" : "QC-JAV000010[00501] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN273027 the MagicNumber/String  'Creating topic '{}'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00503"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#503"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00503] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN272179 the MagicNumber/String  'Topic '{}' matched topic creation group: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00503] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN273027 the MagicNumber/String  'Topic '{}' matched topic creation group: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00509"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#509"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN272179 the MagicNumber/String  'Created topic '{}' using creation group {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN273027 the MagicNumber/String  'Created topic '{}' using creation group {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00512"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#512"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00512] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN272179 the MagicNumber/String  'Found existing topic '{}'' should be converted to const"
+ , "c3" : "QC-JAV000010[00512] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN273027 the MagicNumber/String  'Found existing topic '{}'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00515"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#515"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00515] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN272179 the MagicNumber/String  'Request to create new topic '{}' failed' should be converted to const"
+ , "c3" : "QC-JAV000010[00515] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN273027 the MagicNumber/String  'Request to create new topic '{}' failed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00516"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#516"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN272179 the MagicNumber/String  'Task failed to create new topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN273027 the MagicNumber/String  'Task failed to create new topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00516"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#516"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN272179 the MagicNumber/String  '. Ensure ' should be converted to const"
+ , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN273027 the MagicNumber/String  '. Ensure ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00517"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#517"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00517] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN272179 the MagicNumber/String  'that the task is authorized to create topics or that the topic exists and ' should be converted to const"
+ , "c3" : "QC-JAV000010[00517] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN273027 the MagicNumber/String  'that the task is authorized to create topics or that the topic exists and ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00518"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#518"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00518] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN272179 the MagicNumber/String  'restart the task' should be converted to const"
+ , "c3" : "QC-JAV000010[00518] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.maybeCreateTopic@POLYN273027 the MagicNumber/String  'restart the task' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -997,7 +997,7 @@ var maDataBlocs = {
  , "c1" : "00522"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#522"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00522] For method convertHeaderFor list of called methods Object monObjet|org.apache.kafka.common.header.internals.RecordHeaders record_topicN274693|org.apache.kafka.common.header.internals.RecordHeaders header_keyN274842|byte[] headerConverter_fromConnectHeaderN274923"
+ , "c3" : "QC-JAV000007[00522] For method convertHeaderFor list of called methods Object monObjet|org.apache.kafka.common.header.internals.RecordHeaders record_topicN275541|org.apache.kafka.common.header.internals.RecordHeaders header_keyN275690|byte[] headerConverter_fromConnectHeaderN275771"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1018,7 +1018,7 @@ var maDataBlocs = {
  , "c1" : "00525"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#525"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00525] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.convertHeaderFor@POLYN274374 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00525] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.convertHeaderFor@POLYN275222 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1032,14 +1032,14 @@ var maDataBlocs = {
  , "c1" : "00540"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#540"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00540] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.commitTaskRecord@POLYN275225 the MagicNumber/String  '{} Exception thrown while calling task.commitRecord()' should be converted to const"
+ , "c3" : "QC-JAV000010[00540] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.commitTaskRecord@POLYN276073 the MagicNumber/String  '{} Exception thrown while calling task.commitRecord()' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00548"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#548"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00548] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.commitSourceTask@POLYN275589 the MagicNumber/String  '{} Exception thrown while calling task.commit()' should be converted to const"
+ , "c3" : "QC-JAV000010[00548] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.commitSourceTask@POLYN276437 the MagicNumber/String  '{} Exception thrown while calling task.commit()' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1053,49 +1053,49 @@ var maDataBlocs = {
  , "c1" : "00566"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#566"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00566] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceRecordWriteCounter.SourceRecordWriteCounter@POLYN276364 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00566] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceRecordWriteCounter.SourceRecordWriteCounter@POLYN277212 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00567"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#567"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00567] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceRecordWriteCounter.SourceRecordWriteCounter@POLYN276364 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00567] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceRecordWriteCounter.SourceRecordWriteCounter@POLYN277212 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00573"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#573"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00573] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceRecordWriteCounter.skipRecord@POLYN276748 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00573] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceRecordWriteCounter.skipRecord@POLYN277596 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00573"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#573"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00573] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceRecordWriteCounter.skipRecord@POLYN276748 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00573] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceRecordWriteCounter.skipRecord@POLYN277596 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00578"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#578"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00578] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceRecordWriteCounter.completeRecord@POLYN276964 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00578] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceRecordWriteCounter.completeRecord@POLYN277812 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00578"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#578"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00578] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceRecordWriteCounter.completeRecord@POLYN276964 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00578] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceRecordWriteCounter.completeRecord@POLYN277812 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00588"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#588"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00588] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceRecordWriteCounter.finishedAllWrites@POLYN277265 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00588] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceRecordWriteCounter.finishedAllWrites@POLYN278113 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1123,28 +1123,28 @@ var maDataBlocs = {
  , "c1" : "00609"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#609"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00609] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceTaskMetricsGroup.SourceTaskMetricsGroup@POLYN277835 the MagicNumber/String  'source-record-poll' should be converted to const"
+ , "c3" : "QC-JAV000010[00609] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceTaskMetricsGroup.SourceTaskMetricsGroup@POLYN278683 the MagicNumber/String  'source-record-poll' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00613"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#613"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00613] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceTaskMetricsGroup.SourceTaskMetricsGroup@POLYN277835 the MagicNumber/String  'source-record-write' should be converted to const"
+ , "c3" : "QC-JAV000010[00613] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceTaskMetricsGroup.SourceTaskMetricsGroup@POLYN278683 the MagicNumber/String  'source-record-write' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00617"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#617"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00617] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceTaskMetricsGroup.SourceTaskMetricsGroup@POLYN277835 the MagicNumber/String  'poll-batch-time' should be converted to const"
+ , "c3" : "QC-JAV000010[00617] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceTaskMetricsGroup.SourceTaskMetricsGroup@POLYN278683 the MagicNumber/String  'poll-batch-time' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00621"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#621"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00621] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceTaskMetricsGroup.SourceTaskMetricsGroup@POLYN277835 the MagicNumber/String  'source-record-active-count' should be converted to const"
+ , "c3" : "QC-JAV000010[00621] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceTaskMetricsGroup.SourceTaskMetricsGroup@POLYN278683 the MagicNumber/String  'source-record-active-count' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1165,294 +1165,294 @@ var maDataBlocs = {
  , "c1" : "00642"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#642"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00642] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceTaskMetricsGroup.recordWrite@POLYN280633 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00642] In method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceTaskMetricsGroup.recordWrite@POLYN281481 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.initializeAndStart@POLYN260973"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.initializeAndStart@POLYN261821"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceTaskMetricsGroup.close@POLYN280195"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.SourceTaskMetricsGroup.close@POLYN281043"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.poll@POLYN270018"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.poll@POLYN270866"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN263416"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN264264"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.commitSourceTask@POLYN275589"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.commitSourceTask@POLYN276437"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.commitTaskRecord@POLYN275225"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.commitTaskRecord@POLYN276073"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.convertHeaderFor@POLYN274374"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.convertHeaderFor@POLYN275222"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00379"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#379"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00379] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00379] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00382"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#382"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00382] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00382] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00382"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#382"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00382] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00382] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00387"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#387"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00387] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00387] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00393"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#393"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00393] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String '{} Appending record to the topic {} with key {}, value {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00393] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String '{} Appending record to the topic {} with key {}, value {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00401"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#401"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00401] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00401] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00403"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#403"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00403] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String '{} failed to send record to {}; this is expected as the producer has already been closed' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00403] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String '{} failed to send record to {}; this is expected as the producer has already been closed' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00405"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#405"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00405] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String '{} failed to send record to {}: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00405] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String '{} failed to send record to {}: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00407"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#407"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00407] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String '{} Failed record: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00407] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String '{} Failed record: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00408"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#408"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00408] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00408] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00411"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#411"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00411] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String '{} Wrote record successfully: topic {} partition {} offset {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00411] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String '{} Wrote record successfully: topic {} partition {} offset {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00424"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#424"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00424] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String '{} Failed to send record to topic '{}' and partition '{}'. Backing off before retrying: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00424] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String '{} Failed to send record to topic '{}' and partition '{}'. Backing off before retrying: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00429"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#429"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00429] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00429] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00431"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#431"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00431] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String '{} Failed to send record to topic '{}' and partition '{}' due to an unrecoverable exception: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00431] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String '{} Failed to send record to topic '{}' and partition '{}' due to an unrecoverable exception: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00433"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#433"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00433] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String '{} Failed to send {} with unrecoverable exception: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00433] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String '{} Failed to send {} with unrecoverable exception: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00436"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#436"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00436] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00436] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00441"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#441"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00441] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00441] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00442"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#442"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00442] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN265565 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00442] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.sendRecords@POLYN266413 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00267"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#267"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00267] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.initializeAndStart@POLYN260973 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00267] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.initializeAndStart@POLYN261821 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00270"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#270"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00270] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.initializeAndStart@POLYN260973 the MagicNumber/String '{} Source task finished initialization and start' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00270] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.initializeAndStart@POLYN261821 the MagicNumber/String '{} Source task finished initialization and start' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00449"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#449"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00449] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.poll@POLYN270018 the MagicNumber/String '{} failed to poll records from SourceTask. Will retry operation.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00449] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.poll@POLYN270866 the MagicNumber/String '{} failed to poll records from SourceTask. Will retry operation.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00451"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#451"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00451] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.poll@POLYN270018 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00451] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.poll@POLYN270866 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00340"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#340"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00340] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN263416 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00340] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN264264 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00343"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#343"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00343] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN263416 the MagicNumber/String '{} Nothing to send to Kafka. Polling source for additional records' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00343] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN264264 the MagicNumber/String '{} Nothing to send to Kafka. Polling source for additional records' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00346"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#346"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00346] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN263416 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00346] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN264264 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00350"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#350"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00350] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN263416 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00350] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN264264 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00352"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#352"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00352] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN263416 the MagicNumber/String '{} About to send {} records to Kafka' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00352] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN264264 the MagicNumber/String '{} About to send {} records to Kafka' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00363"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#363"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00363] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN263416 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00363] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN264264 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00365"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#365"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00365] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN263416 the MagicNumber/String 'Failed to commit offsets for already-failing task' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00365] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN264264 the MagicNumber/String 'Failed to commit offsets for already-failing task' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00369"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#369"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00369] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN263416 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00369] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.execute@POLYN264264 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00548"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#548"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00548] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.commitSourceTask@POLYN275589 the MagicNumber/String '{} Exception thrown while calling task.commit--' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00548] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.commitSourceTask@POLYN276437 the MagicNumber/String '{} Exception thrown while calling task.commit--' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00540"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#540"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00540] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.commitTaskRecord@POLYN275225 the MagicNumber/String '{} Exception thrown while calling task.commitRecord--' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00540] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.commitTaskRecord@POLYN276073 the MagicNumber/String '{} Exception thrown while calling task.commitRecord--' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00525"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#525"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00525] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.convertHeaderFor@POLYN274374 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00525] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.convertHeaderFor@POLYN275222 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

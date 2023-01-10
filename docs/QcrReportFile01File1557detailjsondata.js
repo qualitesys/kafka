@@ -230,14 +230,14 @@ var maDataBlocs = {
  , "c1" : "00131"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.initializeConsumerAssignment@POLYN193355 the MagicNumber/String  'Encountered error while building committed offsets from the file. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.initializeConsumerAssignment@POLYN194203 the MagicNumber/String  'Encountered error while building committed offsets from the file. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00132"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.initializeConsumerAssignment@POLYN193355 the MagicNumber/String  'Consumer will consume from the earliest offset for the assigned partitions.' should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.initializeConsumerAssignment@POLYN194203 the MagicNumber/String  'Consumer will consume from the earliest offset for the assigned partitions.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -258,42 +258,42 @@ var maDataBlocs = {
  , "c1" : "00156"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.run@POLYN195238 the MagicNumber/String  'Started Consumer task thread.' should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.run@POLYN196086 the MagicNumber/String  'Started Consumer task thread.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00162"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.run@POLYN195238 the MagicNumber/String  'Polling consumer to receive remote log metadata topic records' should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.run@POLYN196086 the MagicNumber/String  'Polling consumer to receive remote log metadata topic records' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00168"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.run@POLYN195238 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.run@POLYN196086 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00171"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.run@POLYN195238 the MagicNumber/String  'Error occurred in consumer task, close:[{}]' should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.run@POLYN196086 the MagicNumber/String  'Error occurred in consumer task, close:[{}]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.run@POLYN195238 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.run@POLYN196086 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00175"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.run@POLYN195238 the MagicNumber/String  'Exiting from consumer task thread' should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.run@POLYN196086 the MagicNumber/String  'Exiting from consumer task thread' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -321,7 +321,7 @@ var maDataBlocs = {
  , "c1" : "00188"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.processConsumerRecord@POLYN196420 the MagicNumber/String  'This event {} is skipped as the topic partition is not assigned for this instance.' should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.processConsumerRecord@POLYN197268 the MagicNumber/String  'This event {} is skipped as the topic partition is not assigned for this instance.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -349,49 +349,49 @@ var maDataBlocs = {
  , "c1" : "00198"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.maybeSyncCommittedDataAndOffsets@POLYN197123 the MagicNumber/String  'Skip syncing committed offsets, noConsumedOffsetUpdates: {}, forceSync: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.maybeSyncCommittedDataAndOffsets@POLYN197971 the MagicNumber/String  'Skip syncing committed offsets, noConsumedOffsetUpdates: {}, forceSync: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00209"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.maybeSyncCommittedDataAndOffsets@POLYN197123 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.maybeSyncCommittedDataAndOffsets@POLYN197971 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00212"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#212"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.maybeSyncCommittedDataAndOffsets@POLYN197123 the MagicNumber/String  'Skipping syncup of the remote-log-metadata-file for partition:{} , with remote log metadata partition{}, and no offset' should be converted to const"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.maybeSyncCommittedDataAndOffsets@POLYN197971 the MagicNumber/String  'Skipping syncup of the remote-log-metadata-file for partition:{} , with remote log metadata partition{}, and no offset' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00225"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.maybeSyncCommittedDataAndOffsets@POLYN197123 the MagicNumber/String  'Error encountered while writing committed offsets to a local file' should be converted to const"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.maybeSyncCommittedDataAndOffsets@POLYN197971 the MagicNumber/String  'Error encountered while writing committed offsets to a local file' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00230"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#230"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.closeConsumer@POLYN198630 the MagicNumber/String  'Closing the consumer instance' should be converted to const"
+ , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.closeConsumer@POLYN199478 the MagicNumber/String  'Closing the consumer instance' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00232"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.closeConsumer@POLYN198630 the MagicNumber/String  30 should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.closeConsumer@POLYN199478 the MagicNumber/String  30 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00234"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.closeConsumer@POLYN198630 the MagicNumber/String  'Error encountered while closing the consumer' should be converted to const"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.closeConsumer@POLYN199478 the MagicNumber/String  'Error encountered while closing the consumer' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -412,14 +412,14 @@ var maDataBlocs = {
  , "c1" : "00249"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#249"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.maybeWaitForPartitionsAssignment@POLYN199019 the MagicNumber/String  'Waiting for assigned remote log metadata partitions..' should be converted to const"
+ , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.maybeWaitForPartitionsAssignment@POLYN199867 the MagicNumber/String  'Waiting for assigned remote log metadata partitions..' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00270"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#270"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.maybeWaitForPartitionsAssignment@POLYN199019 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.maybeWaitForPartitionsAssignment@POLYN199867 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -440,7 +440,7 @@ var maDataBlocs = {
  , "c1" : "00284"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#284"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.executeReassignment@POLYN200211 the MagicNumber/String  'Reassigning partitions to consumer task [{}]' should be converted to const"
+ , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.executeReassignment@POLYN201059 the MagicNumber/String  'Reassigning partitions to consumer task [{}]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -489,49 +489,49 @@ var maDataBlocs = {
  , "c1" : "00298"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#298"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.updateAssignmentsForPartitions@POLYN201119 the MagicNumber/String  'Updating assignments for addedPartitions: {} and removedPartition: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.updateAssignmentsForPartitions@POLYN201967 the MagicNumber/String  'Updating assignments for addedPartitions: {} and removedPartition: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00300"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#300"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.updateAssignmentsForPartitions@POLYN201119 the MagicNumber/String  'addedPartitions must not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.updateAssignmentsForPartitions@POLYN201967 the MagicNumber/String  'addedPartitions must not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00301"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#301"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.updateAssignmentsForPartitions@POLYN201119 the MagicNumber/String  'removedPartitions must not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.updateAssignmentsForPartitions@POLYN201967 the MagicNumber/String  'removedPartitions must not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00322"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#322"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.updateAssignmentsForPartitions@POLYN201119 the MagicNumber/String  'Assigned topic partitions: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.updateAssignmentsForPartitions@POLYN201967 the MagicNumber/String  'Assigned topic partitions: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00326"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#326"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.updateAssignmentsForPartitions@POLYN201119 the MagicNumber/String  'Assigned metadata topic partitions: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.updateAssignmentsForPartitions@POLYN201967 the MagicNumber/String  'Assigned metadata topic partitions: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00328"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#328"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.updateAssignmentsForPartitions@POLYN201119 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.updateAssignmentsForPartitions@POLYN201967 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00331"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#331"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.updateAssignmentsForPartitions@POLYN201119 the MagicNumber/String  'No change in assigned metadata topic partitions: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.updateAssignmentsForPartitions@POLYN201967 the MagicNumber/String  'No change in assigned metadata topic partitions: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -559,7 +559,7 @@ var maDataBlocs = {
  , "c1" : "00350"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#350"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00350] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.close@POLYN203490 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00350] In method org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask.close@POLYN204338 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 

@@ -220,7 +220,7 @@ var maDataBlocs = {
  , "c2" : "1"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.util.Map.getKey@POLYN434311.return" , "java.util.HashMap.put@POLYN621128.key"]
+ , "c5" : ["java.util.Map.getKey@POLYN435159.return" , "java.util.HashMap.put@POLYN621976.key"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -235,7 +235,7 @@ var maDataBlocs = {
  , "c2" : "2"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.util.Map.getValue@POLYN434644.return" , "java.util.HashMap.put@POLYN621128.value"]
+ , "c5" : ["java.util.Map.getValue@POLYN435492.return" , "java.util.HashMap.put@POLYN621976.value"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -250,7 +250,7 @@ var maDataBlocs = {
  , "c2" : "3"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.util.HashMap.get@POLYN617768.return" , "java.util.HashMap.put@POLYN621128.value"]
+ , "c5" : ["java.util.HashMap.get@POLYN618616.return" , "java.util.HashMap.put@POLYN621976.value"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -266,16 +266,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00319]"
- , "c3" : ["java.util.Map.getKey@POLYN434311.return" , "---java.util.Map.getKey@POLYN434311" , "org.apache.kafka.connect.mirror.MirrorCheckpointTask.getConvertedUpstreamOffset@POLYN206423.consumerId"]
- , "c4" : "//QC-JAVCWE099[00319] In org.apache.kafka.connect.mirror.MirrorCheckpointTask.getConvertedUpstreamOffset@POLYN206423[00319] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
+ , "c3" : ["java.util.Map.getKey@POLYN435159.return" , "---java.util.Map.getKey@POLYN435159" , "org.apache.kafka.connect.mirror.MirrorCheckpointTask.getConvertedUpstreamOffset@POLYN207271.consumerId"]
+ , "c4" : "//QC-JAVCWE099[00319] In org.apache.kafka.connect.mirror.MirrorCheckpointTask.getConvertedUpstreamOffset@POLYN207271[00319] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00324]"
- , "c3" : ["org.apache.kafka.connect.mirror.MirrorCheckpointTask.getConvertedUpstreamOffset@POLYN206423.consumerId" , "---java.util.HashMap.put@POLYN621128" , "java.util.HashMap.put@POLYN621128.key"]
- , "c4" : "//QC-JAVCWE099[00324] In org.apache.kafka.connect.mirror.MirrorCheckpointTask.getConvertedUpstreamOffset@POLYN206423[00324] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c3" : ["org.apache.kafka.connect.mirror.MirrorCheckpointTask.getConvertedUpstreamOffset@POLYN207271.consumerId" , "---java.util.HashMap.put@POLYN621976" , "java.util.HashMap.put@POLYN621976.key"]
+ , "c4" : "//QC-JAVCWE099[00324] In org.apache.kafka.connect.mirror.MirrorCheckpointTask.getConvertedUpstreamOffset@POLYN207271[00324] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
@@ -320,16 +320,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00263]"
- , "c3" : ["java.util.Map.getValue@POLYN434644.return" , "---java.util.Map.getValue@POLYN434644" , "org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN203351.convertedUpstreamOffset"]
- , "c4" : "//QC-JAVCWE099[00263] In org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN203351[00263] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
+ , "c3" : ["java.util.Map.getValue@POLYN435492.return" , "---java.util.Map.getValue@POLYN435492" , "org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199.convertedUpstreamOffset"]
+ , "c4" : "//QC-JAVCWE099[00263] In org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199[00263] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00270]"
- , "c3" : ["org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN203351.convertedUpstreamOffset" , "---java.util.HashMap.put@POLYN621128" , "java.util.HashMap.put@POLYN621128.value"]
- , "c4" : "//QC-JAVCWE099[00270] In org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN203351[00270] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c3" : ["org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199.convertedUpstreamOffset" , "---java.util.HashMap.put@POLYN621976" , "java.util.HashMap.put@POLYN621976.value"]
+ , "c4" : "//QC-JAVCWE099[00270] In org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199[00270] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
@@ -374,16 +374,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00277]"
- , "c3" : ["java.util.HashMap.get@POLYN617768.return" , "---java.util.HashMap.get@POLYN617768" , "org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN203351.convertedOffset"]
- , "c4" : "//QC-JAVCWE099[00277] In org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN203351[00277] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c3" : ["java.util.HashMap.get@POLYN618616.return" , "---java.util.HashMap.get@POLYN618616" , "org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199.convertedOffset"]
+ , "c4" : "//QC-JAVCWE099[00277] In org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199[00277] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00280]"
- , "c3" : ["org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN203351.convertedOffset" , "---java.util.HashMap.put@POLYN621128" , "java.util.HashMap.put@POLYN621128.value"]
- , "c4" : "//QC-JAVCWE099[00280] In org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN203351[00280] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c3" : ["org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199.convertedOffset" , "---java.util.HashMap.put@POLYN621976" , "java.util.HashMap.put@POLYN621976.value"]
+ , "c4" : "//QC-JAVCWE099[00280] In org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199[00280] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
@@ -505,105 +505,105 @@ var maDataBlocs = {
  , "c1" : "00086"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#86"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00086] For method start list of called methods Object monObjet|java.lang.String config_sourceClusterAliasN194117|java.lang.String config_targetClusterAliasN194191|java.util.Set config_taskConsumerGroupsN194265|java.util.Set config_checkpointsTopicN194339|java.util.Set config_topicFilterN194413|java.util.Set config_replicationPolicyN194487|java.util.Set config_emitCheckpointsIntervalN194561|java.util.Set config_consumerPollTimeoutN194635|java.util.Set config_metricsN195027"
+ , "c3" : "QC-JAV000007[00086] For method start list of called methods Object monObjet|java.lang.String config_sourceClusterAliasN194965|java.lang.String config_targetClusterAliasN195039|java.util.Set config_taskConsumerGroupsN195113|java.util.Set config_checkpointsTopicN195187|java.util.Set config_topicFilterN195261|java.util.Set config_replicationPolicyN195335|java.util.Set config_emitCheckpointsIntervalN195409|java.util.Set config_consumerPollTimeoutN195483|java.util.Set config_metricsN195875"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.start@POLYN193839 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.start@POLYN194687 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.start@POLYN193839 the MagicNumber/String  'refreshing idle consumers group offsets at target cluster' should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.start@POLYN194687 the MagicNumber/String  'refreshing idle consumers group offsets at target cluster' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00107"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.start@POLYN193839 the MagicNumber/String  'sync idle consumer group offset from source to target' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.start@POLYN194687 the MagicNumber/String  'sync idle consumer group offset from source to target' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00118"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.stop@POLYN195741 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.stop@POLYN196589 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00119"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.stop@POLYN195741 the MagicNumber/String  'topic filter' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.stop@POLYN196589 the MagicNumber/String  'topic filter' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.stop@POLYN195741 the MagicNumber/String  'offset sync store' should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.stop@POLYN196589 the MagicNumber/String  'offset sync store' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00121"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.stop@POLYN195741 the MagicNumber/String  'source admin client' should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.stop@POLYN196589 the MagicNumber/String  'source admin client' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00122"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.stop@POLYN195741 the MagicNumber/String  'target admin client' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.stop@POLYN196589 the MagicNumber/String  'target admin client' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00123"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.stop@POLYN195741 the MagicNumber/String  'metrics' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.stop@POLYN196589 the MagicNumber/String  'metrics' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.stop@POLYN195741 the MagicNumber/String  'scheduler' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.stop@POLYN196589 the MagicNumber/String  'scheduler' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00125"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.stop@POLYN195741 the MagicNumber/String  'Stopping {} took {} ms.' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.stop@POLYN196589 the MagicNumber/String  'Stopping {} took {} ms.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.poll@POLYN196864 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.poll@POLYN197712 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.poll@POLYN196864 the MagicNumber/String  'Failure polling consumer state for checkpoints.' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.poll@POLYN197712 the MagicNumber/String  'Failure polling consumer state for checkpoints.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00152"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.poll@POLYN196864 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.poll@POLYN197712 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -617,7 +617,7 @@ var maDataBlocs = {
  , "c1" : "00166"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.sourceRecordsForGroup@POLYN197904 the MagicNumber/String  'Error querying offsets for consumer group {} on cluster {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.sourceRecordsForGroup@POLYN198752 the MagicNumber/String  'Error querying offsets for consumer group {} on cluster {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -631,7 +631,7 @@ var maDataBlocs = {
  , "c1" : "00176"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.checkpointsForGroup@POLYN198777 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.checkpointsForGroup@POLYN199625 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -652,7 +652,7 @@ var maDataBlocs = {
  , "c1" : "00189"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#189"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00189] For method checkpoint list of called methods Object monObjet|long offsetAndMetadata_offsetN200143|java.util.OptionalLong offsetSyncStore_translateDownstreamN200218"
+ , "c3" : "QC-JAV000007[00189] For method checkpoint list of called methods Object monObjet|long offsetAndMetadata_offsetN200991|java.util.OptionalLong offsetSyncStore_translateDownstreamN201066"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -680,14 +680,14 @@ var maDataBlocs = {
  , "c1" : "00203"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.checkpointRecord@POLYN200720 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.checkpointRecord@POLYN201568 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.checkpointRecord@POLYN200720 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.checkpointRecord@POLYN201568 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -729,7 +729,7 @@ var maDataBlocs = {
  , "c1" : "00233"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#233"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00233] For method refreshIdleConsumerGroupOffset list of called methods Object monObjet|org.apache.kafka.clients.admin.DescribeConsumerGroupsResult targetAdminClient_describeConsumerGroupsN202451"
+ , "c3" : "QC-JAV000007[00233] For method refreshIdleConsumerGroupOffset list of called methods Object monObjet|org.apache.kafka.clients.admin.DescribeConsumerGroupsResult targetAdminClient_describeConsumerGroupsN203299"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -764,14 +764,14 @@ var maDataBlocs = {
  , "c1" : "00250"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#250"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.refreshIdleConsumerGroupOffset@POLYN202322 the MagicNumber/String  'Error querying for consumer group {} on cluster {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.refreshIdleConsumerGroupOffset@POLYN203170 the MagicNumber/String  'Error querying for consumer group {} on cluster {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00255"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#255"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00255] For method syncGroupOffset list of called methods Object monObjet|V idleConsumerGroupsOffset_getN204109|V convertedUpstreamOffset_getN204677|V targetConsumerOffset_getN204978"
+ , "c3" : "QC-JAV000007[00255] For method syncGroupOffset list of called methods Object monObjet|V idleConsumerGroupsOffset_getN204957|V convertedUpstreamOffset_getN205525|V targetConsumerOffset_getN205826"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -841,35 +841,35 @@ var maDataBlocs = {
  , "c1" : "00267"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#267"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN203351 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00288"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#288"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN203351 the MagicNumber/String  'latestDownstreamOffset {} is larger than or equal to convertedUpstreamOffset {} for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199 the MagicNumber/String  'latestDownstreamOffset {} is larger than or equal to convertedUpstreamOffset {} for ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00289"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#289"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN203351 the MagicNumber/String  'TopicPartition {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199 the MagicNumber/String  'TopicPartition {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00295"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#295"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN203351 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00296"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#296"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN203351 the MagicNumber/String  'skip syncing the offset for consumer group: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199 the MagicNumber/String  'skip syncing the offset for consumer group: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -890,14 +890,14 @@ var maDataBlocs = {
  , "c1" : "00308"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#308"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN205915 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN206763 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00310"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#310"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN205915 the MagicNumber/String  'sync-ed the offset for consumer group: {} with {} number of offset entries' should be converted to const"
+ , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN206763 the MagicNumber/String  'sync-ed the offset for consumer group: {} with {} number of offset entries' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -925,98 +925,98 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN203351"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorCheckpointTask.poll@POLYN196864"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorCheckpointTask.poll@POLYN197712"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorCheckpointTask.refreshIdleConsumerGroupOffset@POLYN202322"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorCheckpointTask.refreshIdleConsumerGroupOffset@POLYN203170"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorCheckpointTask.sourceRecordsForGroup@POLYN197904"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorCheckpointTask.sourceRecordsForGroup@POLYN198752"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00267"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#267"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00267] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN203351 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00267] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00288"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#288"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00288] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN203351 the MagicNumber/String 'latestDownstreamOffset {} is larger than or equal to convertedUpstreamOffset {} for ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00288] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199 the MagicNumber/String 'latestDownstreamOffset {} is larger than or equal to convertedUpstreamOffset {} for ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00289"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#289"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN203351 the MagicNumber/String 'TopicPartition {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199 the MagicNumber/String 'TopicPartition {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00295"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#295"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00295] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN203351 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00295] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00296"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#296"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00296] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN203351 the MagicNumber/String 'skip syncing the offset for consumer group: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00296] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199 the MagicNumber/String 'skip syncing the offset for consumer group: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#146"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.poll@POLYN196864 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.poll@POLYN197712 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#151"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00151] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.poll@POLYN196864 the MagicNumber/String 'Failure polling consumer state for checkpoints.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00151] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.poll@POLYN197712 the MagicNumber/String 'Failure polling consumer state for checkpoints.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00152"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#152"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00152] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.poll@POLYN196864 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00152] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.poll@POLYN197712 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00250"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#250"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00250] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.refreshIdleConsumerGroupOffset@POLYN202322 the MagicNumber/String 'Error querying for consumer group {} on cluster {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00250] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.refreshIdleConsumerGroupOffset@POLYN203170 the MagicNumber/String 'Error querying for consumer group {} on cluster {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00166"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#166"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00166] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.sourceRecordsForGroup@POLYN197904 the MagicNumber/String 'Error querying offsets for consumer group {} on cluster {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00166] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.sourceRecordsForGroup@POLYN198752 the MagicNumber/String 'Error querying offsets for consumer group {} on cluster {}.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

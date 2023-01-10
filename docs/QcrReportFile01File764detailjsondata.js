@@ -151,7 +151,7 @@ var maDataBlocs = {
  , "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.build@POLYN164897 the MagicNumber/String  'Unhandled authentication context type: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.build@POLYN165745 the MagicNumber/String  'Unhandled authentication context type: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -165,21 +165,21 @@ var maDataBlocs = {
  , "c1" : "00091"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#91"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00091] For method applyKerberosShortNamer list of called methods Object monObjet|org.apache.kafka.common.security.kerberos.KerberosName KerberosName_parseN166194"
+ , "c3" : "QC-JAV000007[00091] For method applyKerberosShortNamer list of called methods Object monObjet|org.apache.kafka.common.security.kerberos.KerberosName KerberosName_parseN167042"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00097"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.applyKerberosShortNamer@POLYN166097 the MagicNumber/String  'Failed to set name for '' should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.applyKerberosShortNamer@POLYN166945 the MagicNumber/String  'Failed to set name for '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.applyKerberosShortNamer@POLYN166097 the MagicNumber/String  '' based on Kerberos authentication rules.' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.applyKerberosShortNamer@POLYN166945 the MagicNumber/String  '' based on Kerberos authentication rules.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -200,14 +200,14 @@ var maDataBlocs = {
  , "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.applySslPrincipalMapper@POLYN166670 the MagicNumber/String  'Failed to map name for '' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.applySslPrincipalMapper@POLYN167518 the MagicNumber/String  'Failed to map name for '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.applySslPrincipalMapper@POLYN166670 the MagicNumber/String  '' based on SSL principal mapping rules.' should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.applySslPrincipalMapper@POLYN167518 the MagicNumber/String  '' based on SSL principal mapping rules.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -235,7 +235,7 @@ var maDataBlocs = {
  , "c1" : "00129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultKafkaPrincipalBuilder.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.deserialize@POLYN167887 the MagicNumber/String  'Invalid principal data version ' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.security.authenticator.DefaultKafkaPrincipalBuilder.deserialize@POLYN168735 the MagicNumber/String  'Invalid principal data version ' should be converted to const"
 }} 
 ]
 , 

@@ -454,7 +454,7 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079.dq" }
+{ "ligne" :  "R0:org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927.dq" }
 ]
 ,
 "data12b" : [
@@ -561,21 +561,21 @@ var maDataBlocs = {
  , "c1" : "00127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.RecordAccumulator@POLYN320118 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.RecordAccumulator@POLYN320966 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.RecordAccumulator@POLYN320118 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.RecordAccumulator@POLYN320966 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.RecordAccumulator@POLYN320118 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.RecordAccumulator@POLYN320966 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -596,42 +596,42 @@ var maDataBlocs = {
  , "c1" : "00196"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.registerMetrics@POLYN323405 the MagicNumber/String  'waiting-threads' should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.registerMetrics@POLYN324253 the MagicNumber/String  'waiting-threads' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00197"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.registerMetrics@POLYN323405 the MagicNumber/String  'The number of user threads blocked waiting for buffer memory to enqueue their records' should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.registerMetrics@POLYN324253 the MagicNumber/String  'The number of user threads blocked waiting for buffer memory to enqueue their records' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00201"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.registerMetrics@POLYN323405 the MagicNumber/String  'buffer-total-bytes' should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.registerMetrics@POLYN324253 the MagicNumber/String  'buffer-total-bytes' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00202"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#202"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.registerMetrics@POLYN323405 the MagicNumber/String  'The maximum amount of buffer memory the client can use (whether or not it is currently used).' should be converted to const"
+ , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.registerMetrics@POLYN324253 the MagicNumber/String  'The maximum amount of buffer memory the client can use (whether or not it is currently used).' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00206"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.registerMetrics@POLYN323405 the MagicNumber/String  'buffer-available-bytes' should be converted to const"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.registerMetrics@POLYN324253 the MagicNumber/String  'buffer-available-bytes' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00207"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#207"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.registerMetrics@POLYN323405 the MagicNumber/String  'The total amount of buffer memory that is not being used (either unallocated or in the free list).' should be converted to const"
+ , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.registerMetrics@POLYN324253 the MagicNumber/String  'The total amount of buffer memory that is not being used (either unallocated or in the free list).' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -645,7 +645,7 @@ var maDataBlocs = {
  , "c1" : "00212"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#212"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.setPartition@POLYN324219 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.setPartition@POLYN325067 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -659,7 +659,7 @@ var maDataBlocs = {
  , "c1" : "00236"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#236"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00236] For method append list of called methods Object monObjet|V topicInfoMap_computeIfAbsentN325456"
+ , "c3" : "QC-JAV000007[00236] For method append list of called methods Object monObjet|V topicInfoMap_computeIfAbsentN326304"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -708,105 +708,105 @@ var maDataBlocs = {
  , "c1" : "00252"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#252"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00253"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#253"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00256"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#256"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00267"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#267"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00279"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#279"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String  'Partition {} for topic {} switched by a concurrent append, retrying' should be converted to const"
+ , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String  'Partition {} for topic {} switched by a concurrent append, retrying' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00284"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#284"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00293"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00293"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00293"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00293"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00293"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00296"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#296"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00299"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#299"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String  'Allocating a new {} byte message buffer for topic {} partition {} with remaining timeout {}ms' should be converted to const"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String  'Allocating a new {} byte message buffer for topic {} partition {} with remaining timeout {}ms' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00306"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#306"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String  'Partition {} for topic {} switched by a concurrent append, retrying' should be converted to const"
+ , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String  'Partition {} for topic {} switched by a concurrent append, retrying' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00313"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#313"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -820,7 +820,7 @@ var maDataBlocs = {
  , "c1" : "00337"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#337"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00337] For method appendNewBatch list of called methods Object monObjet|org.apache.kafka.clients.producer.internals.RecordAccumulator.RecordAppendResult tryAppendN330111"
+ , "c3" : "QC-JAV000007[00337] For method appendNewBatch list of called methods Object monObjet|org.apache.kafka.clients.producer.internals.RecordAccumulator.RecordAppendResult tryAppendN330959"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -834,28 +834,28 @@ var maDataBlocs = {
  , "c1" : "00351"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#351"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.appendNewBatch@POLYN329637 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.appendNewBatch@POLYN330485 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00364"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#364"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.appendNewBatch@POLYN329637 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.appendNewBatch@POLYN330485 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00364"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#364"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.appendNewBatch@POLYN329637 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.appendNewBatch@POLYN330485 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00364"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#364"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.appendNewBatch@POLYN329637 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.appendNewBatch@POLYN330485 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -869,28 +869,28 @@ var maDataBlocs = {
  , "c1" : "00368"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#368"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.recordsBuilder@POLYN331395 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.recordsBuilder@POLYN332243 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00369"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#369"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.recordsBuilder@POLYN331395 the MagicNumber/String  'Attempting to use idempotence with a broker which does not ' should be converted to const"
+ , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.recordsBuilder@POLYN332243 the MagicNumber/String  'Attempting to use idempotence with a broker which does not ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00370"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#370"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00370] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.recordsBuilder@POLYN331395 the MagicNumber/String  'support the required message format (v2). The broker must be version 0.11 or later.' should be converted to const"
+ , "c3" : "QC-JAV000010[00370] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.recordsBuilder@POLYN332243 the MagicNumber/String  'support the required message format (v2). The broker must be version 0.11 or later.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00372"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#372"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.recordsBuilder@POLYN331395 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.recordsBuilder@POLYN332243 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -904,7 +904,7 @@ var maDataBlocs = {
  , "c1" : "00383"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#383"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00383] For method tryAppend list of called methods Object monObjet|int last_estimatedSizeInBytesN332742|org.apache.kafka.clients.producer.internals.FutureRecordMetadata last_tryAppendN332817|int last_estimatedSizeInBytesN333165"
+ , "c3" : "QC-JAV000007[00383] For method tryAppend list of called methods Object monObjet|int last_estimatedSizeInBytesN333590|org.apache.kafka.clients.producer.internals.FutureRecordMetadata last_tryAppendN333665|int last_estimatedSizeInBytesN334013"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -918,49 +918,49 @@ var maDataBlocs = {
  , "c1" : "00386"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#386"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00386] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN332201 the MagicNumber/String  'Producer closed while send in progress' should be converted to const"
+ , "c3" : "QC-JAV000010[00386] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN333049 the MagicNumber/String  'Producer closed while send in progress' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00388"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#388"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN332201 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN333049 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00391"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#391"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00391] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN332201 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00391] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN333049 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00395"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#395"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN332201 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN333049 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00395"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#395"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN332201 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN333049 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00395"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#395"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN332201 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN333049 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00398"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#398"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00398] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN332201 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00398] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN333049 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -988,21 +988,21 @@ var maDataBlocs = {
  , "c1" : "00410"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#410"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.maybeUpdateNextBatchExpiryTime@POLYN333772 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.maybeUpdateNextBatchExpiryTime@POLYN334620 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00415"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#415"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00415] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.maybeUpdateNextBatchExpiryTime@POLYN333772 the MagicNumber/String  'Skipping next batch expiry time update due to addition overflow: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00415] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.maybeUpdateNextBatchExpiryTime@POLYN334620 the MagicNumber/String  'Skipping next batch expiry time update due to addition overflow: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00416"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#416"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.maybeUpdateNextBatchExpiryTime@POLYN333772 the MagicNumber/String  'batch.createMs={}, deliveryTimeoutMs={}' should be converted to const"
+ , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.maybeUpdateNextBatchExpiryTime@POLYN334620 the MagicNumber/String  'batch.createMs={}, deliveryTimeoutMs={}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1058,7 +1058,7 @@ var maDataBlocs = {
  , "c1" : "00454"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#454"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00454] For method reenqueue list of called methods Object monObjet|java.util.Deque getOrCreateDequeN335818"
+ , "c3" : "QC-JAV000007[00454] For method reenqueue list of called methods Object monObjet|java.util.Deque getOrCreateDequeN336666"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1079,7 +1079,7 @@ var maDataBlocs = {
  , "c1" : "00458"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#458"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00458] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.reenqueue@POLYN335608 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00458] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.reenqueue@POLYN336456 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1093,7 +1093,7 @@ var maDataBlocs = {
  , "c1" : "00469"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#469"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00469] For method splitAndReenqueue list of called methods Object monObjet|java.util.Deque bigBatch_splitN336620"
+ , "c3" : "QC-JAV000007[00469] For method splitAndReenqueue list of called methods Object monObjet|java.util.Deque bigBatch_splitN337468"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1121,14 +1121,14 @@ var maDataBlocs = {
  , "c1" : "00474"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#474"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.splitAndReenqueue@POLYN336257 the MagicNumber/String  1.0f should be converted to const"
+ , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.splitAndReenqueue@POLYN337105 the MagicNumber/String  1.0f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00483"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#483"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00483] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.splitAndReenqueue@POLYN336257 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00483] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.splitAndReenqueue@POLYN337105 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1142,7 +1142,7 @@ var maDataBlocs = {
  , "c1" : "00503"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#503"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00503] For method insertInSequenceOrder list of called methods Object monObjet|int orderedBatches_sizeN339129"
+ , "c3" : "QC-JAV000007[00503] For method insertInSequenceOrder list of called methods Object monObjet|int orderedBatches_sizeN339977"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1177,77 +1177,77 @@ var maDataBlocs = {
  , "c1" : "00508"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#508"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.insertInSequenceOrder@POLYN337514 the MagicNumber/String  'Trying to re-enqueue a batch which doesn't have a sequence even ' should be converted to const"
+ , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.insertInSequenceOrder@POLYN338362 the MagicNumber/String  'Trying to re-enqueue a batch which doesn't have a sequence even ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00509"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#509"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.insertInSequenceOrder@POLYN337514 the MagicNumber/String  'though idempotency is enabled.' should be converted to const"
+ , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.insertInSequenceOrder@POLYN338362 the MagicNumber/String  'though idempotency is enabled.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00512"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#512"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00512] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.insertInSequenceOrder@POLYN337514 the MagicNumber/String  'We are re-enqueueing a batch which is not tracked as part of the in flight ' should be converted to const"
+ , "c3" : "QC-JAV000010[00512] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.insertInSequenceOrder@POLYN338362 the MagicNumber/String  'We are re-enqueueing a batch which is not tracked as part of the in flight ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00513"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#513"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.insertInSequenceOrder@POLYN337514 the MagicNumber/String  'requests. batch.topicPartition: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.insertInSequenceOrder@POLYN338362 the MagicNumber/String  'requests. batch.topicPartition: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00513"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#513"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.insertInSequenceOrder@POLYN337514 the MagicNumber/String  '; batch.baseSequence: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.insertInSequenceOrder@POLYN338362 the MagicNumber/String  '; batch.baseSequence: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00516"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#516"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.insertInSequenceOrder@POLYN337514 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.insertInSequenceOrder@POLYN338362 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00526"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#526"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00526] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.insertInSequenceOrder@POLYN337514 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00526] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.insertInSequenceOrder@POLYN338362 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00529"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#529"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00529] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.insertInSequenceOrder@POLYN337514 the MagicNumber/String  'Reordered incoming batch with sequence {} for partition {}. It was placed in the queue at ' should be converted to const"
+ , "c3" : "QC-JAV000010[00529] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.insertInSequenceOrder@POLYN338362 the MagicNumber/String  'Reordered incoming batch with sequence {} for partition {}. It was placed in the queue at ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00530"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#530"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.insertInSequenceOrder@POLYN337514 the MagicNumber/String  'position {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.insertInSequenceOrder@POLYN338362 the MagicNumber/String  'position {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00537"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#537"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00537] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.insertInSequenceOrder@POLYN337514 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00537] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.insertInSequenceOrder@POLYN338362 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00537"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#537"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00537] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.insertInSequenceOrder@POLYN337514 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00537] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.insertInSequenceOrder@POLYN338362 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1268,14 +1268,14 @@ var maDataBlocs = {
  , "c1" : "00567"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#567"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00567] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.batchReady@POLYN339859 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00567] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.batchReady@POLYN340707 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00577"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#577"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00577] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.batchReady@POLYN339859 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00577] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.batchReady@POLYN340707 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1289,7 +1289,7 @@ var maDataBlocs = {
  , "c1" : "00601"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#601"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00601] For method partitionReady list of called methods Object monObjet|org.apache.kafka.common.Node cluster_leaderForN343081|int part_partitionN343426|long batch_waitedTimeMsN343945|int batch_attemptsN344038|int deque_sizeN344180|V nodeStats_getN344775|long batchReadyN345157"
+ , "c3" : "QC-JAV000007[00601] For method partitionReady list of called methods Object monObjet|org.apache.kafka.common.Node cluster_leaderForN343929|int part_partitionN344274|long batch_waitedTimeMsN344793|int batch_attemptsN344886|int deque_sizeN345028|V nodeStats_getN345623|long batchReadyN346005"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1359,98 +1359,98 @@ var maDataBlocs = {
  , "c1" : "00606"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#606"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00606] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN341692 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00606] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN342540 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00607"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#607"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00607] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN341692 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00607] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN342540 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00618"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#618"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00618] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN341692 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00618] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN342540 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00619"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#619"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00619] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN341692 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00619] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN342540 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00625"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#625"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00625] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN341692 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00625] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN342540 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00625"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#625"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00625] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN341692 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00625] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN342540 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00648"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#648"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00648] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN341692 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00648] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN342540 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00653"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#653"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00653] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN341692 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00653] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN342540 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00655"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#655"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00655] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN341692 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00655] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN342540 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00658"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#658"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00658] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN341692 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00658] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN342540 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00663"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#663"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00663] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN341692 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00663] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN342540 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00665"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#665"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00665] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN341692 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00665] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN342540 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00669"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#669"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00669] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN341692 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00669] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN342540 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00687"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#687"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00687] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN341692 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00687] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.partitionReady@POLYN342540 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1464,7 +1464,7 @@ var maDataBlocs = {
  , "c1" : "00712"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#712"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00712] For method ready list of called methods Object monObjet|long partitionReadyN347048"
+ , "c3" : "QC-JAV000007[00712] For method ready list of called methods Object monObjet|long partitionReadyN347896"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1492,14 +1492,14 @@ var maDataBlocs = {
  , "c1" : "00733"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#733"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00733] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.hasUndrained@POLYN347435 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00733] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.hasUndrained@POLYN348283 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00737"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#737"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00737] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.hasUndrained@POLYN347435 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00737] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.hasUndrained@POLYN348283 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1513,7 +1513,7 @@ var maDataBlocs = {
  , "c1" : "00740"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#740"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00740] For method shouldStopDrainBatchesForPartition list of called methods Object monObjet|org.apache.kafka.common.utils.ProducerIdAndEpoch transactionManager_producerIdAndEpochN348260|int transactionManager_firstInFlightSequenceN348817"
+ , "c3" : "QC-JAV000007[00740] For method shouldStopDrainBatchesForPartition list of called methods Object monObjet|org.apache.kafka.common.utils.ProducerIdAndEpoch transactionManager_producerIdAndEpochN349108|int transactionManager_firstInFlightSequenceN349665"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1527,56 +1527,56 @@ var maDataBlocs = {
  , "c1" : "00741"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#741"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00741] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.shouldStopDrainBatchesForPartition@POLYN347892 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00741] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.shouldStopDrainBatchesForPartition@POLYN348740 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00742"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#742"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00742] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.shouldStopDrainBatchesForPartition@POLYN347892 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00742] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.shouldStopDrainBatchesForPartition@POLYN348740 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00744"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#744"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00744] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.shouldStopDrainBatchesForPartition@POLYN347892 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00744] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.shouldStopDrainBatchesForPartition@POLYN348740 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00749"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#749"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00749] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.shouldStopDrainBatchesForPartition@POLYN347892 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00749] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.shouldStopDrainBatchesForPartition@POLYN348740 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00755"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#755"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00755] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.shouldStopDrainBatchesForPartition@POLYN347892 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00755] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.shouldStopDrainBatchesForPartition@POLYN348740 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00763"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#763"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00763] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.shouldStopDrainBatchesForPartition@POLYN347892 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00763] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.shouldStopDrainBatchesForPartition@POLYN348740 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00771"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#771"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00771] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.shouldStopDrainBatchesForPartition@POLYN347892 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00771] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.shouldStopDrainBatchesForPartition@POLYN348740 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00775"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#775"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00775] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.shouldStopDrainBatchesForPartition@POLYN347892 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00775] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.shouldStopDrainBatchesForPartition@POLYN348740 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1590,7 +1590,7 @@ var maDataBlocs = {
  , "c1" : "00778"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#778"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00778] For method drainBatchesForOneNode list of called methods Object monObjet|java.util.List cluster_partitionsForNodeN349411"
+ , "c3" : "QC-JAV000007[00778] For method drainBatchesForOneNode list of called methods Object monObjet|java.util.List cluster_partitionsForNodeN350259"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1660,77 +1660,77 @@ var maDataBlocs = {
  , "c1" : "00779"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#779"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00779] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN349161 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00779] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN350009 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00789"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#789"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00789] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN349161 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00789] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN350009 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00795"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#795"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00795] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN349161 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00795] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN350009 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00802"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#802"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00802] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN349161 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00802] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN350009 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00806"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#806"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00806] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN349161 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00806] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN350009 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00822"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#822"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00822] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN349161 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00822] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN350009 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00824"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#824"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00824] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN349161 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00824] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN350009 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00824"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#824"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00824] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN349161 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00824] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN350009 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00825"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#825"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00825] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN349161 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00825] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN350009 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00842"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#842"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00842] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN349161 the MagicNumber/String  'Assigned producerId {} and producerEpoch {} to batch with base sequence ' should be converted to const"
+ , "c3" : "QC-JAV000010[00842] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN350009 the MagicNumber/String  'Assigned producerId {} and producerEpoch {} to batch with base sequence ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00843"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#843"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00843] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN349161 the MagicNumber/String  '{} being sent to partition {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00843] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.drainBatchesForOneNode@POLYN350009 the MagicNumber/String  '{} being sent to partition {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1744,7 +1744,7 @@ var maDataBlocs = {
  , "c1" : "00863"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#863"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00863] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.getDrainIndex@POLYN352857 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00863] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.getDrainIndex@POLYN353705 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1765,7 +1765,7 @@ var maDataBlocs = {
  , "c1" : "00880"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#880"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00880] For method drain list of called methods Object monObjet|java.util.List drainBatchesForOneNodeN354201"
+ , "c3" : "QC-JAV000007[00880] For method drain list of called methods Object monObjet|java.util.List drainBatchesForOneNodeN355049"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1793,14 +1793,14 @@ var maDataBlocs = {
  , "c1" : "00892"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#892"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00892] For method updateNodeLatencyStats list of called methods Object monObjet|V nodeStats_computeIfAbsentN354687"
+ , "c3" : "QC-JAV000007[00892] For method updateNodeLatencyStats list of called methods Object monObjet|V nodeStats_computeIfAbsentN355535"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00894"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#894"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00894] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.updateNodeLatencyStats@POLYN354472 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00894] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.updateNodeLatencyStats@POLYN355320 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1828,7 +1828,7 @@ var maDataBlocs = {
  , "c1" : "00930"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#930"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00930] For method getDeque list of called methods Object monObjet|V topicInfoMap_getN355579"
+ , "c3" : "QC-JAV000007[00930] For method getDeque list of called methods Object monObjet|V topicInfoMap_getN356427"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1842,14 +1842,14 @@ var maDataBlocs = {
  , "c1" : "00932"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#932"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00932] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.getDeque@POLYN355482 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00932] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.getDeque@POLYN356330 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00933"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#933"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00933] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.getDeque@POLYN355482 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00933] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.getDeque@POLYN356330 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1863,7 +1863,7 @@ var maDataBlocs = {
  , "c1" : "00940"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#940"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00940] For method getOrCreateDeque list of called methods Object monObjet|V topicInfoMap_computeIfAbsentN356047"
+ , "c3" : "QC-JAV000007[00940] For method getOrCreateDeque list of called methods Object monObjet|V topicInfoMap_computeIfAbsentN356895"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1891,21 +1891,21 @@ var maDataBlocs = {
  , "c1" : "00969"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#969"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00969] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.flushInProgress@POLYN357043 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00969] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.flushInProgress@POLYN357891 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00983"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#983"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00983] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.appendsInProgress@POLYN357385 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00983] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.appendsInProgress@POLYN358233 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#1032"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01032] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.abortBatches@POLYN358442 the MagicNumber/String  'Producer is closed forcefully.' should be converted to const"
+ , "c3" : "QC-JAV000010[01032] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.abortBatches@POLYN359290 the MagicNumber/String  'Producer is closed forcefully.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1919,7 +1919,7 @@ var maDataBlocs = {
  , "c1" : "01038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#1038"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01038] For method abortBatches list of called methods Object monObjet|java.util.Deque getDequeN358851"
+ , "c3" : "QC-JAV000007[01038] For method abortBatches list of called methods Object monObjet|java.util.Deque getDequeN359699"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1947,7 +1947,7 @@ var maDataBlocs = {
  , "c1" : "01053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#1053"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01053] For method abortUndrainedBatches list of called methods Object monObjet|java.util.Deque getDequeN359470"
+ , "c3" : "QC-JAV000007[01053] For method abortUndrainedBatches list of called methods Object monObjet|java.util.Deque getDequeN360318"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1968,28 +1968,28 @@ var maDataBlocs = {
  , "c1" : "01056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#1056"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01056] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.abortUndrainedBatches@POLYN359262 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01056] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.abortUndrainedBatches@POLYN360110 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#1058"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01058] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.abortUndrainedBatches@POLYN359262 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01058] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.abortUndrainedBatches@POLYN360110 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#1058"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01058] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.abortUndrainedBatches@POLYN359262 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01058] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.abortUndrainedBatches@POLYN360110 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#1059"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01059] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.abortUndrainedBatches@POLYN359262 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01059] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.abortUndrainedBatches@POLYN360110 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2010,21 +2010,21 @@ var maDataBlocs = {
  , "c1" : "01083"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#1083"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01083] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.close@POLYN360599 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01083] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.close@POLYN361447 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01109"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#1109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01109] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.PartitionerConfig.PartitionerConfig@POLYN361396 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01109] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.PartitionerConfig.PartitionerConfig@POLYN362244 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01109"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#1109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01109] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.PartitionerConfig.PartitionerConfig@POLYN361396 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01109] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.PartitionerConfig.PartitionerConfig@POLYN362244 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2101,168 +2101,168 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN332201"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN333049"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00252"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#252"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00252] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00252] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00253"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#253"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00253] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00253] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00256"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#256"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00256] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00256] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00267"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#267"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00267] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00267] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00279"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#279"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00279] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String 'Partition {} for topic {} switched by a concurrent append, retrying' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00279] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String 'Partition {} for topic {} switched by a concurrent append, retrying' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00284"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#284"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00284] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00284] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00293"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#293"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00293] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00293] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00293"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#293"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00293] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00293] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00293"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#293"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00293] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00293] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00293"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#293"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00293] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00293] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00293"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#293"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00293] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00293] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00296"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#296"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00296] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00296] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00299"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#299"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00299] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String 'Allocating a new {} byte message buffer for topic {} partition {} with remaining timeout {}ms' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00299] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String 'Allocating a new {} byte message buffer for topic {} partition {} with remaining timeout {}ms' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00306"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#306"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00306] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String 'Partition {} for topic {} switched by a concurrent append, retrying' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00306] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String 'Partition {} for topic {} switched by a concurrent append, retrying' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00313"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#313"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00313] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325079 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00313] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN325927 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00386"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#386"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00386] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN332201 the MagicNumber/String 'Producer closed while send in progress' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00386] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN333049 the MagicNumber/String 'Producer closed while send in progress' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00388"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#388"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00388] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN332201 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00388] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN333049 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00391"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#391"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00391] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN332201 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00391] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN333049 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00395"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#395"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00395] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN332201 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00395] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN333049 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00395"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#395"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00395] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN332201 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00395] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN333049 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00395"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#395"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00395] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN332201 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00395] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN333049 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00398"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#398"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00398] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN332201 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00398] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.tryAppend@POLYN333049 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

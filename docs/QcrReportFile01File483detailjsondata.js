@@ -212,7 +212,7 @@ var maDataBlocs = {
  , "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.metrics.stats.SampledStat.SampledStat@POLYN161411 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.metrics.stats.SampledStat.SampledStat@POLYN162259 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -226,14 +226,14 @@ var maDataBlocs = {
  , "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00047] For method record list of called methods Object monObjet|org.apache.kafka.common.metrics.stats.SampledStat.Sample currentN161809|org.apache.kafka.common.metrics.stats.SampledStat.Sample advanceN161989"
+ , "c3" : "QC-JAV000007[00047] For method record list of called methods Object monObjet|org.apache.kafka.common.metrics.stats.SampledStat.Sample currentN162657|org.apache.kafka.common.metrics.stats.SampledStat.Sample advanceN162837"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.metrics.stats.SampledStat.record@POLYN161666 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.metrics.stats.SampledStat.record@POLYN162514 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -247,7 +247,7 @@ var maDataBlocs = {
  , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00055] For method advance list of called methods Object monObjet|org.apache.kafka.common.metrics.stats.SampledStat.Sample newSampleN162653|org.apache.kafka.common.metrics.stats.SampledStat.Sample currentN162872"
+ , "c3" : "QC-JAV000007[00055] For method advance list of called methods Object monObjet|org.apache.kafka.common.metrics.stats.SampledStat.Sample newSampleN163501|org.apache.kafka.common.metrics.stats.SampledStat.Sample currentN163720"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -261,7 +261,7 @@ var maDataBlocs = {
  , "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.metrics.stats.SampledStat.advance@POLYN162268 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.metrics.stats.SampledStat.advance@POLYN163116 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -289,7 +289,7 @@ var maDataBlocs = {
  , "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.metrics.stats.SampledStat.current@POLYN163538 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.metrics.stats.SampledStat.current@POLYN164386 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -310,56 +310,56 @@ var maDataBlocs = {
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.metrics.stats.SampledStat.oldest@POLYN163895 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.metrics.stats.SampledStat.oldest@POLYN164743 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.metrics.stats.SampledStat.oldest@POLYN163895 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.metrics.stats.SampledStat.oldest@POLYN164743 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.metrics.stats.SampledStat.oldest@POLYN163895 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.metrics.stats.SampledStat.oldest@POLYN164743 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.metrics.stats.SampledStat.toString@POLYN164737 the MagicNumber/String  'SampledStat(' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.metrics.stats.SampledStat.toString@POLYN165585 the MagicNumber/String  'SampledStat(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00099"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.metrics.stats.SampledStat.toString@POLYN164737 the MagicNumber/String  'initialValue=' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.metrics.stats.SampledStat.toString@POLYN165585 the MagicNumber/String  'initialValue=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.metrics.stats.SampledStat.toString@POLYN164737 the MagicNumber/String  ', current=' should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.metrics.stats.SampledStat.toString@POLYN165585 the MagicNumber/String  ', current=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.common.metrics.stats.SampledStat.toString@POLYN164737 the MagicNumber/String  ', samples=' should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.common.metrics.stats.SampledStat.toString@POLYN165585 the MagicNumber/String  ', samples=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.metrics.stats.SampledStat.toString@POLYN164737 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.metrics.stats.SampledStat.toString@POLYN165585 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -387,7 +387,7 @@ var maDataBlocs = {
  , "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#110"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00110] For method purgeObsoleteSamples list of called methods Object monObjet|org.apache.kafka.common.metrics.MetricConfig config_samplesN165373"
+ , "c3" : "QC-JAV000007[00110] For method purgeObsoleteSamples list of called methods Object monObjet|org.apache.kafka.common.metrics.MetricConfig config_samplesN166221"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -429,7 +429,7 @@ var maDataBlocs = {
  , "c1" : "00126"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.common.metrics.stats.SampledStat.Sample.Sample@POLYN165888 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.common.metrics.stats.SampledStat.Sample.Sample@POLYN166736 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -443,7 +443,7 @@ var maDataBlocs = {
  , "c1" : "00132"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.common.metrics.stats.SampledStat.Sample.reset@POLYN166234 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.common.metrics.stats.SampledStat.Sample.reset@POLYN167082 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -464,49 +464,49 @@ var maDataBlocs = {
  , "c1" : "00143"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.common.metrics.stats.SampledStat.Sample.toString@POLYN166774 the MagicNumber/String  'Sample(' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.common.metrics.stats.SampledStat.Sample.toString@POLYN167622 the MagicNumber/String  'Sample(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.common.metrics.stats.SampledStat.Sample.toString@POLYN166774 the MagicNumber/String  'value=' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.common.metrics.stats.SampledStat.Sample.toString@POLYN167622 the MagicNumber/String  'value=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00145"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.common.metrics.stats.SampledStat.Sample.toString@POLYN166774 the MagicNumber/String  ', eventCount=' should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.common.metrics.stats.SampledStat.Sample.toString@POLYN167622 the MagicNumber/String  ', eventCount=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.common.metrics.stats.SampledStat.Sample.toString@POLYN166774 the MagicNumber/String  ', lastWindowMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.common.metrics.stats.SampledStat.Sample.toString@POLYN167622 the MagicNumber/String  ', lastWindowMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.metrics.stats.SampledStat.Sample.toString@POLYN166774 the MagicNumber/String  ', initialValue=' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.metrics.stats.SampledStat.Sample.toString@POLYN167622 the MagicNumber/String  ', initialValue=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.common.metrics.stats.SampledStat.Sample.toString@POLYN166774 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.common.metrics.stats.SampledStat.Sample.toString@POLYN167622 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.stats.SampledStat.newSample@POLYN163043"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.stats.SampledStat.newSample@POLYN163891"
 }} 
 ]
 , 

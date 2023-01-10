@@ -237,7 +237,7 @@ var maDataBlocs = {
  , "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.clients.InFlightRequests.add@POLYN169155 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.clients.InFlightRequests.add@POLYN170003 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -251,21 +251,21 @@ var maDataBlocs = {
  , "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00059] For method requestQueue list of called methods Object monObjet|java.util.Deque requests_getN170014"
+ , "c3" : "QC-JAV000007[00059] For method requestQueue list of called methods Object monObjet|java.util.Deque requests_getN170862"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.InFlightRequests.requestQueue@POLYN169888 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.InFlightRequests.requestQueue@POLYN170736 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.clients.InFlightRequests.requestQueue@POLYN169888 the MagicNumber/String  'There are no in-flight requests for node ' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.clients.InFlightRequests.requestQueue@POLYN170736 the MagicNumber/String  'There are no in-flight requests for node ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -279,7 +279,7 @@ var maDataBlocs = {
  , "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00069] For method completeNext list of called methods Object monObjet|java.util.Deque requestQueueN170498"
+ , "c3" : "QC-JAV000007[00069] For method completeNext list of called methods Object monObjet|java.util.Deque requestQueueN171346"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -300,7 +300,7 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00088] For method completeLastSent list of called methods Object monObjet|java.util.Deque requestQueueN171161"
+ , "c3" : "QC-JAV000007[00088] For method completeLastSent list of called methods Object monObjet|java.util.Deque requestQueueN172009"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -314,14 +314,14 @@ var maDataBlocs = {
  , "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#100"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00100] For method canSendMore list of called methods Object monObjet|boolean requests_getN171584"
+ , "c3" : "QC-JAV000007[00100] For method canSendMore list of called methods Object monObjet|boolean requests_getN172432"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.clients.InFlightRequests.canSendMore@POLYN171458 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.clients.InFlightRequests.canSendMore@POLYN172306 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -335,21 +335,21 @@ var maDataBlocs = {
  , "c1" : "00111"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#111"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00111] For method count list of called methods Object monObjet|int requests_getN172155"
+ , "c3" : "QC-JAV000007[00111] For method count list of called methods Object monObjet|int requests_getN173003"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00113"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.clients.InFlightRequests.count@POLYN172029 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.clients.InFlightRequests.count@POLYN172877 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00113"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.clients.InFlightRequests.count@POLYN172029 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.clients.InFlightRequests.count@POLYN172877 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -363,28 +363,28 @@ var maDataBlocs = {
  , "c1" : "00119"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#119"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00119] For method isEmpty list of called methods Object monObjet|boolean requests_getN172550"
+ , "c3" : "QC-JAV000007[00119] For method isEmpty list of called methods Object monObjet|boolean requests_getN173398"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00121"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.clients.InFlightRequests.isEmpty@POLYN172424 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.clients.InFlightRequests.isEmpty@POLYN173272 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.clients.InFlightRequests.isEmpty@POLYN172975 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.clients.InFlightRequests.isEmpty@POLYN173823 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00139"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.clients.InFlightRequests.isEmpty@POLYN172975 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.clients.InFlightRequests.isEmpty@POLYN173823 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -398,14 +398,14 @@ var maDataBlocs = {
  , "c1" : "00148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#148"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00148] For method clearAll list of called methods Object monObjet|Iterable requests_getN173595|Iterable requests_removeN173868"
+ , "c3" : "QC-JAV000007[00148] For method clearAll list of called methods Object monObjet|Iterable requests_getN174443|Iterable requests_removeN174716"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00150"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.clients.InFlightRequests.clearAll@POLYN173469 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.clients.InFlightRequests.clearAll@POLYN174317 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -419,14 +419,14 @@ var maDataBlocs = {
  , "c1" : "00162"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.clients.InFlightRequests.hasExpiredRequest@POLYN174125 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.clients.InFlightRequests.hasExpiredRequest@POLYN174973 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00164"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.clients.InFlightRequests.hasExpiredRequest@POLYN174125 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.clients.InFlightRequests.hasExpiredRequest@POLYN174973 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

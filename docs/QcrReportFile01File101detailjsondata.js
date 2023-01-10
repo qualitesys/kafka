@@ -155,28 +155,28 @@ var maDataBlocs = {
  , "c1" : "00083"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.clients.admin.FeatureUpdate.FeatureUpdate@POLYN157715 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.clients.admin.FeatureUpdate.FeatureUpdate@POLYN158563 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.clients.admin.FeatureUpdate.FeatureUpdate@POLYN157715 the MagicNumber/String  'The downgradeType flag should be set to SAFE or UNSAFE when the provided maxVersionLevel:%d is &amp;lt; 1.' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.clients.admin.FeatureUpdate.FeatureUpdate@POLYN158563 the MagicNumber/String  'The downgradeType flag should be set to SAFE or UNSAFE when the provided maxVersionLevel:%d is &amp;lt; 1.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.clients.admin.FeatureUpdate.FeatureUpdate@POLYN157715 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.clients.admin.FeatureUpdate.FeatureUpdate@POLYN158563 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.admin.FeatureUpdate.FeatureUpdate@POLYN157715 the MagicNumber/String  'Cannot specify a negative version level.' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.admin.FeatureUpdate.FeatureUpdate@POLYN158563 the MagicNumber/String  'Cannot specify a negative version level.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -190,21 +190,21 @@ var maDataBlocs = {
  , "c1" : "00111"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.clients.admin.FeatureUpdate.equals@POLYN158689 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.clients.admin.FeatureUpdate.equals@POLYN159537 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.clients.admin.FeatureUpdate.equals@POLYN158689 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.clients.admin.FeatureUpdate.equals@POLYN159537 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FeatureUpdate.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.clients.admin.FeatureUpdate.toString@POLYN159411 the MagicNumber/String  'FeatureUpdate{maxVersionLevel:%d, downgradeType:%s}' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.clients.admin.FeatureUpdate.toString@POLYN160259 the MagicNumber/String  'FeatureUpdate{maxVersionLevel:%d, downgradeType:%s}' should be converted to const"
 }} 
 ]
 , 

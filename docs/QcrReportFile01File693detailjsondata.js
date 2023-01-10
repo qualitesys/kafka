@@ -153,21 +153,21 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsResponse.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.requests.ListGroupsResponse.shouldClientThrottle@POLYN146553 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.requests.ListGroupsResponse.shouldClientThrottle@POLYN147401 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ListGroupsResponse.errorCounts@POLYN146089"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ListGroupsResponse.errorCounts@POLYN146937"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ListGroupsResponse.throttleTimeMs@POLYN145932"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ListGroupsResponse.throttleTimeMs@POLYN146780"
 }} 
 ]
 , 

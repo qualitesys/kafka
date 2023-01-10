@@ -293,7 +293,7 @@ var maDataBlocs = {
  , "c1" : "00073"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method java.lang.Byte.toString@POLYN235429 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method java.lang.Byte.toString@POLYN236277 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -307,7 +307,7 @@ var maDataBlocs = {
  , "c1" : "00101"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method java.lang.Byte.valueOf@POLYN236619 the MagicNumber/String  128 should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method java.lang.Byte.valueOf@POLYN237467 the MagicNumber/String  128 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -321,21 +321,21 @@ var maDataBlocs = {
  , "c1" : "00146"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#146"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00146] For method parseByte list of called methods Object monObjet|int Integer_parseIntN238388"
+ , "c3" : "QC-JAV000007[00146] For method parseByte list of called methods Object monObjet|int Integer_parseIntN239236"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method java.lang.Byte.parseByte@POLYN238254 the MagicNumber/String  'Value out of range. Value:\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method java.lang.Byte.parseByte@POLYN239102 the MagicNumber/String  'Value out of range. Value:\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method java.lang.Byte.parseByte@POLYN238254 the MagicNumber/String  '\' Radix:' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method java.lang.Byte.parseByte@POLYN239102 the MagicNumber/String  '\' Radix:' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -349,7 +349,7 @@ var maDataBlocs = {
  , "c1" : "00174"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method java.lang.Byte.parseByte@POLYN239430 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method java.lang.Byte.parseByte@POLYN240278 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -370,7 +370,7 @@ var maDataBlocs = {
  , "c1" : "00230"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#230"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method java.lang.Byte.valueOf@POLYN241294 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[00230] In method java.lang.Byte.valueOf@POLYN242142 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -384,28 +384,28 @@ var maDataBlocs = {
  , "c1" : "00275"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#275"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00275] For method decode list of called methods Object monObjet|java.lang.Integer Integer_decodeN243247"
+ , "c3" : "QC-JAV000007[00275] For method decode list of called methods Object monObjet|java.lang.Integer Integer_decodeN244095"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00279"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#279"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00279] In method java.lang.Byte.decode@POLYN243138 the MagicNumber/String  'Value ' should be converted to const"
+ , "c3" : "QC-JAV000010[00279] In method java.lang.Byte.decode@POLYN243986 the MagicNumber/String  'Value ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00279"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#279"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00279] In method java.lang.Byte.decode@POLYN243138 the MagicNumber/String  ' out of range from input ' should be converted to const"
+ , "c3" : "QC-JAV000010[00279] In method java.lang.Byte.decode@POLYN243986 the MagicNumber/String  ' out of range from input ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00315"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#315"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00315] In method java.lang.Byte.Byte@POLYN244446 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[00315] In method java.lang.Byte.Byte@POLYN245294 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -419,7 +419,7 @@ var maDataBlocs = {
  , "c1" : "00404"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#404"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00404] In method java.lang.Byte.equals@POLYN246750 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00404] In method java.lang.Byte.equals@POLYN247598 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -447,91 +447,91 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Byte.parseByte@POLYN238254"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Byte.parseByte@POLYN239102"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Byte.valueOf@POLYN241294"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Byte.valueOf@POLYN242142"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Byte.doubleValue@POLYN245634"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Byte.doubleValue@POLYN246482"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Byte.floatValue@POLYN245449"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Byte.floatValue@POLYN246297"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Byte.hashCode@POLYN246340"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Byte.hashCode@POLYN247188"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Byte.intValue@POLYN245079"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Byte.intValue@POLYN245927"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Byte.longValue@POLYN245264"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Byte.longValue@POLYN246112"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Byte.parseByte@POLYN239430"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Byte.parseByte@POLYN240278"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Byte.shortValue@POLYN244894"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Byte.shortValue@POLYN245742"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#151"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00151] In the recursive method java.lang.Byte.parseByte@POLYN238254 the MagicNumber/String 'Value out of range. Value:\'' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00151] In the recursive method java.lang.Byte.parseByte@POLYN239102 the MagicNumber/String 'Value out of range. Value:\'' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#151"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00151] In the recursive method java.lang.Byte.parseByte@POLYN238254 the MagicNumber/String '\' Radix:' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00151] In the recursive method java.lang.Byte.parseByte@POLYN239102 the MagicNumber/String '\' Radix:' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00230"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#230"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00230] In the recursive method java.lang.Byte.valueOf@POLYN241294 the MagicNumber/String 10 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00230] In the recursive method java.lang.Byte.valueOf@POLYN242142 the MagicNumber/String 10 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00174"
  , "c1link" : "./qc/secujava/java.lang.Byte.java.html#174"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00174] In the recursive method java.lang.Byte.parseByte@POLYN239430 the MagicNumber/String 10 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00174] In the recursive method java.lang.Byte.parseByte@POLYN240278 the MagicNumber/String 10 MUST BE CONVERTED to const"
 }} 
 ]
 , 

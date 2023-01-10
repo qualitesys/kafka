@@ -163,21 +163,21 @@ var maDataBlocs = {
  , "c1" : "00042"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.name@POLYN151466 the MagicNumber/String  'history' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.name@POLYN152314 the MagicNumber/String  'history' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00047"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.description@POLYN151568 the MagicNumber/String  'Print command history.' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.description@POLYN152416 the MagicNumber/String  'Print command history.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.shellOnly@POLYN151670 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.shellOnly@POLYN152518 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -198,21 +198,21 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.addArguments@POLYN151764 the MagicNumber/String  'numEntriesToShow' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.addArguments@POLYN152612 the MagicNumber/String  'numEntriesToShow' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.addArguments@POLYN151764 the MagicNumber/String  '?' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.addArguments@POLYN152612 the MagicNumber/String  '?' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.addArguments@POLYN151764 the MagicNumber/String  'The number of entries to show.' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.addArguments@POLYN152612 the MagicNumber/String  'The number of entries to show.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -233,14 +233,14 @@ var maDataBlocs = {
  , "c1" : "00065"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.createHandler@POLYN152061 the MagicNumber/String  'numEntriesToShow' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.createHandler@POLYN152909 the MagicNumber/String  'numEntriesToShow' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.createHandler@POLYN152061 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType.createHandler@POLYN152909 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -275,7 +275,7 @@ var maDataBlocs = {
  , "c1" : "00084"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#84"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00084] For method run list of called methods Object monObjet|V shell_getN153134"
+ , "c3" : "QC-JAV000007[00084] For method run list of called methods Object monObjet|V shell_getN153982"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -303,14 +303,14 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.shell.HistoryCommandHandler.run@POLYN152738 the MagicNumber/String  'The history command requires a shell.' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.shell.HistoryCommandHandler.run@POLYN153586 the MagicNumber/String  'The history command requires a shell.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.shell.HistoryCommandHandler.run@POLYN152738 the MagicNumber/String  '% 5d  %s%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.shell.HistoryCommandHandler.run@POLYN153586 the MagicNumber/String  '% 5d  %s%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -324,28 +324,28 @@ var maDataBlocs = {
  , "c1" : "00104"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.shell.HistoryCommandHandler.equals@POLYN153689 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.shell.HistoryCommandHandler.equals@POLYN154537 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.HistoryCommandHandler.run@POLYN152738"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.HistoryCommandHandler.run@POLYN153586"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#88"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.shell.HistoryCommandHandler.run@POLYN152738 the MagicNumber/String 'The history command requires a shell.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.shell.HistoryCommandHandler.run@POLYN153586 the MagicNumber/String 'The history command requires a shell.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/HistoryCommandHandler.java.html#93"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.shell.HistoryCommandHandler.run@POLYN152738 the MagicNumber/String '% 5d  %s%n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.shell.HistoryCommandHandler.run@POLYN153586 the MagicNumber/String '% 5d  %s%n' MUST BE CONVERTED to const"
 }} 
 ]
 , 
