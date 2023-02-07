@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java 496 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java 495 rule violations " 
  , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.xml" 
  , "fic3"  : "" 
 }
@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00177"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#177"
  , "c1" : "KafkaRaftClient"
- , "c2" : "KafkaRaftClient(RecordSerde<T>;NetworkChannel;ReplicatedLog;QuorumStateStore;Time;Metrics;ExpirationService;LogContext;String;OptionalInt;RaftConfig)"
+ , "c2" : "KafkaRaftClient(RecordSerde&lt;T&gt;;NetworkChannel;ReplicatedLog;QuorumStateStore;Time;Metrics;ExpirationService;LogContext;String;OptionalInt;RaftConfig)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00207"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#207"
  , "c1" : "KafkaRaftClient"
- , "c2" : "KafkaRaftClient(RecordSerde<T>;NetworkChannel;RaftMessageQueue;ReplicatedLog;QuorumStateStore;MemoryPool;Time;Metrics;ExpirationService;int;String;OptionalInt;LogContext;Random;RaftConfig)"
+ , "c2" : "KafkaRaftClient(RecordSerde&lt;T&gt;;NetworkChannel;RaftMessageQueue;ReplicatedLog;QuorumStateStore;MemoryPool;Time;Metrics;ExpirationService;int;String;OptionalInt;LogContext;Random;RaftConfig)"
  , "c3" : "1"
  , "c4" : "21"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00274"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#274"
  , "c1" : "void"
- , "c2" : "updateLeaderEndOffsetAndTimestamp(LeaderState<T>;long)"
+ , "c2" : "updateLeaderEndOffsetAndTimestamp(LeaderState&lt;T&gt;;long)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00287"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#287"
  , "c1" : "void"
- , "c2" : "onUpdateLeaderHighWatermark(LeaderState<T>;long)"
+ , "c2" : "onUpdateLeaderHighWatermark(LeaderState&lt;T&gt;;long)"
  , "c3" : "1"
  , "c4" : "5"
 }} 
@@ -74,7 +74,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00334"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#334"
- , "c1" : "Optional<SnapshotReader<T>>"
+ , "c1" : "Optional&lt;SnapshotReader&lt;T&gt;&gt;"
  , "c2" : "latestSnapshot()"
  , "c3" : "1"
  , "c4" : "1"
@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00340"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#340"
  , "c1" : "void"
- , "c2" : "maybeFireHandleCommit(long;int;long;int;List<T>)"
+ , "c2" : "maybeFireHandleCommit(long;int;long;int;List&lt;T&gt;)"
  , "c3" : "3"
  , "c4" : "2"
 }} 
@@ -93,7 +93,7 @@ var maDataBlocs = {
  , "c5" : "00350"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#350"
  , "c1" : "void"
- , "c2" : "maybeFireLeaderChange(LeaderState<T>)"
+ , "c2" : "maybeFireLeaderChange(LeaderState&lt;T&gt;)"
  , "c3" : "2"
  , "c4" : "1"
 }} 
@@ -120,7 +120,7 @@ var maDataBlocs = {
  , "c5" : "00385"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#385"
  , "c1" : "void"
- , "c2" : "register(Listener<T>)"
+ , "c2" : "register(Listener&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -129,7 +129,7 @@ var maDataBlocs = {
  , "c5" : "00391"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#391"
  , "c1" : "void"
- , "c2" : "unregister(Listener<T>)"
+ , "c2" : "unregister(Listener&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -183,7 +183,7 @@ var maDataBlocs = {
  , "c5" : "00443"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#443"
  , "c1" : "void"
- , "c2" : "flushLeaderLog(LeaderState<T>;long)"
+ , "c2" : "flushLeaderLog(LeaderState&lt;T&gt;;long)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -228,7 +228,7 @@ var maDataBlocs = {
  , "c5" : "00478"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#478"
  , "c1" : "void"
- , "c2" : "transitionToResigned(List<Integer>)"
+ , "c2" : "transitionToResigned(List&lt;Integer&gt;)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -354,7 +354,7 @@ var maDataBlocs = {
  , "c5" : "00813"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#813"
  , "c1" : "long"
- , "c2" : "endEpochElectionBackoff(List<Integer>)"
+ , "c2" : "endEpochElectionBackoff(List&lt;Integer&gt;)"
  , "c3" : "3"
  , "c4" : "3"
 }} 
@@ -372,7 +372,7 @@ var maDataBlocs = {
  , "c5" : "00860"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#860"
  , "c1" : "FetchResponseData"
- , "c2" : "buildFetchResponse(Errors;Records;ValidOffsetAndEpoch;Optional<LogOffsetMetadata>)"
+ , "c2" : "buildFetchResponse(Errors;Records;ValidOffsetAndEpoch;Optional&lt;LogOffsetMetadata&gt;)"
  , "c3" : "3"
  , "c4" : "7"
 }} 
@@ -381,7 +381,7 @@ var maDataBlocs = {
  , "c5" : "00895"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#895"
  , "c1" : "FetchResponseData"
- , "c2" : "buildEmptyFetchResponse(Errors;Optional<LogOffsetMetadata>)"
+ , "c2" : "buildEmptyFetchResponse(Errors;Optional&lt;LogOffsetMetadata&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -398,7 +398,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00930"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#930"
- , "c1" : "CompletableFuture<FetchResponseData>"
+ , "c1" : "CompletableFuture&lt;FetchResponseData&gt;"
  , "c2" : "handleFetchRequest(RaftRequest.Inbound;long)"
  , "c3" : "7"
  , "c4" : "17"
@@ -426,7 +426,7 @@ var maDataBlocs = {
  , "c5" : "01036"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1036"
  , "c1" : "String"
- , "c2" : "listenerName(Listener<?>)"
+ , "c2" : "listenerName(Listener&lt;?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -488,8 +488,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01416"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1416"
- , "c1" : "List<ReplicaState>"
- , "c2" : "convertToReplicaStates(Map<Integer,Long>)"
+ , "c1" : "List&lt;ReplicaState&gt;"
+ , "c2" : "convertToReplicaStates(Map&lt;Integer,Long&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -506,7 +506,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01455"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1455"
- , "c1" : "Optional<Boolean>"
+ , "c1" : "Optional&lt;Boolean&gt;"
  , "c2" : "maybeHandleCommonResponse(Errors;OptionalInt;int;long)"
  , "c3" : "14"
  , "c4" : "10"
@@ -551,7 +551,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01582"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1582"
- , "c1" : "Optional<Errors>"
+ , "c1" : "Optional&lt;Errors&gt;"
  , "c2" : "validateVoterOnlyRequest(int;int)"
  , "c3" : "7"
  , "c4" : "4"
@@ -560,7 +560,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01599"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1599"
- , "c1" : "Optional<Errors>"
+ , "c1" : "Optional&lt;Errors&gt;"
  , "c2" : "validateLeaderOnlyRequest(int)"
  , "c3" : "9"
  , "c4" : "5"
@@ -588,7 +588,7 @@ var maDataBlocs = {
  , "c5" : "01685"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1685"
  , "c1" : "long"
- , "c2" : "maybeSendRequest(long;int;Supplier<ApiMessage>)"
+ , "c2" : "maybeSendRequest(long;int;Supplier&lt;ApiMessage&gt;)"
  , "c3" : "4"
  , "c4" : "18"
 }} 
@@ -606,7 +606,7 @@ var maDataBlocs = {
  , "c5" : "01746"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1746"
  , "c1" : "long"
- , "c2" : "maybeSendRequests(long;Set<Integer>;Supplier<ApiMessage>)"
+ , "c2" : "maybeSendRequests(long;Set&lt;Integer&gt;;Supplier&lt;ApiMessage&gt;)"
  , "c3" : "3"
  , "c4" : "4"
 }} 
@@ -687,7 +687,7 @@ var maDataBlocs = {
  , "c5" : "01848"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1848"
  , "c1" : "void"
- , "c2" : "appendBatch(LeaderState<T>;BatchAccumulator.CompletedBatch<T>;long)"
+ , "c2" : "appendBatch(LeaderState&lt;T&gt;;BatchAccumulator.CompletedBatch&lt;T&gt;;long)"
  , "c3" : "3"
  , "c4" : "13"
 }} 
@@ -696,7 +696,7 @@ var maDataBlocs = {
  , "c5" : "01878"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1878"
  , "c1" : "long"
- , "c2" : "maybeAppendBatches(LeaderState<T>;long)"
+ , "c2" : "maybeAppendBatches(LeaderState&lt;T&gt;;long)"
  , "c3" : "4"
  , "c4" : "8"
 }} 
@@ -831,7 +831,7 @@ var maDataBlocs = {
  , "c5" : "02139"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2139"
  , "c1" : "void"
- , "c2" : "processRegistration(Registration<T>)"
+ , "c2" : "processRegistration(Registration&lt;T&gt;)"
  , "c3" : "7"
  , "c4" : "6"
 }} 
@@ -876,7 +876,7 @@ var maDataBlocs = {
  , "c5" : "02254"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2254"
  , "c1" : "long"
- , "c2" : "scheduleAppend(int;List<T>)"
+ , "c2" : "scheduleAppend(int;List&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -885,7 +885,7 @@ var maDataBlocs = {
  , "c5" : "02259"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2259"
  , "c1" : "long"
- , "c2" : "scheduleAtomicAppend(int;List<T>)"
+ , "c2" : "scheduleAtomicAppend(int;List&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -894,7 +894,7 @@ var maDataBlocs = {
  , "c5" : "02263"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2263"
  , "c1" : "long"
- , "c2" : "append(int;List<T>;boolean)"
+ , "c2" : "append(int;List&lt;T&gt;;boolean)"
  , "c3" : "4"
  , "c4" : "8"
 }} 
@@ -902,7 +902,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02289"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2289"
- , "c1" : "CompletableFuture<Void>"
+ , "c1" : "CompletableFuture&lt;Void&gt;"
  , "c2" : "shutdown(int)"
  , "c3" : "1"
  , "c4" : "5"
@@ -920,7 +920,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02347"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2347"
- , "c1" : "Optional<SnapshotWriter<T>>"
+ , "c1" : "Optional&lt;SnapshotWriter&lt;T&gt;&gt;"
  , "c2" : "createSnapshot(long;int;long)"
  , "c3" : "1"
  , "c4" : "1"
@@ -1026,7 +1026,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "15"
+ , "c4" : "14"
 }}
 ,
 { "ligne" : { "" : ""
@@ -4150,13 +4150,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.KafkaRaftClient.appendAsLeader@POLYN575056"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.KafkaRaftClient.pollCandidate@POLYN611000"
 }} 
 ,
@@ -4248,7 +4241,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.KafkaRaftClient.wakeup@POLYN622415"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.KafkaRaftClient.appendAsLeader@POLYN575056"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4291,20 +4284,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1883"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[01883] In the recursive method org.apache.kafka.raft.KafkaRaftClient.maybeAppendBatches@POLYN607588 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01152"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1152"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01152] In the recursive method org.apache.kafka.raft.KafkaRaftClient.appendAsLeader@POLYN575056 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01154"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1154"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01154] In the recursive method org.apache.kafka.raft.KafkaRaftClient.appendAsLeader@POLYN575056 the MagicNumber/String 'Leader appended records at base offset {}, new end offset is {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4543,6 +4522,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#368"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00368] In the recursive method org.apache.kafka.raft.KafkaRaftClient.initialize@POLYN538371 the MagicNumber/String 'Voter cannot initialize as a Leader' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01152"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1152"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01152] In the recursive method org.apache.kafka.raft.KafkaRaftClient.appendAsLeader@POLYN575056 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01154"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1154"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01154] In the recursive method org.apache.kafka.raft.KafkaRaftClient.appendAsLeader@POLYN575056 the MagicNumber/String 'Leader appended records at base offset {}, new end offset is {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

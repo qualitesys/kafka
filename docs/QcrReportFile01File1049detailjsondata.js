@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00044"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/NoneConnectorClientConfigOverridePolicy.java.html#44"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

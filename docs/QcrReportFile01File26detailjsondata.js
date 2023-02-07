@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00034"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AbortTransactionResult.java.html#34"
  , "c1" : "AbortTransactionResult"
- , "c2" : "AbortTransactionResult(Map<TopicPartition,KafkaFuture<Void>>)"
+ , "c2" : "AbortTransactionResult(Map&lt;TopicPartition,KafkaFuture&lt;Void&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00045"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AbortTransactionResult.java.html#45"
- , "c1" : "KafkaFuture<Void>"
+ , "c1" : "KafkaFuture&lt;Void&gt;"
  , "c2" : "all()"
  , "c3" : "1"
  , "c4" : "1"

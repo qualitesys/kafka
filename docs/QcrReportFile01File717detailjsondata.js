@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00035"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#35"
- , "c1" : "Optional<Integer>"
+ , "c1" : "Optional&lt;Integer&gt;"
  , "c2" : "getLeaderEpoch(int)"
  , "c3" : "1"
  , "c4" : "1"
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00050"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#50"
  , "c1" : "boolean"
- , "c2" : "flag(ProduceRequest;Predicate<RecordBatch>)"
+ , "c2" : "flag(ProduceRequest;Predicate&lt;RecordBatch&gt;)"
  , "c3" : "5"
  , "c4" : "3"
 }} 

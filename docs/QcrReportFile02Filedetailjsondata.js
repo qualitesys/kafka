@@ -3591,6 +3591,7 @@ var maDataBlocs = {
    "classe"  : "(2) Serializable" ,
 "children" : [
   { "child"  : "(1) java.io.File" }, 
+  { "child"  : "(1) java.lang.Throwable" }, 
   { "child"  : "(1) org.apache.kafka.clients.consumer.OffsetAndMetadata" }, 
   { "child"  : "(1) org.apache.kafka.common.TopicPartition" }, 
   { "child"  : "(1) org.apache.kafka.common.TopicPartitionReplica" }, 
@@ -5579,6 +5580,11 @@ var maDataBlocs = {
 }},
 {"ligne" : {
    "classe"  : "(1) java.lang.StringBuilder" ,
+"children" : [
+]
+}},
+{"ligne" : {
+   "classe"  : "(1) java.lang.Throwable" ,
 "children" : [
 ]
 }},

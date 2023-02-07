@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00029"
  , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/Target.java.html#29"
  , "c1" : "Target"
- , "c2" : "Target(FieldSpec;String;String;Function<String,String>)"
+ , "c2" : "Target(FieldSpec;String;String;Function&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00059"
  , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/Target.java.html#59"
  , "c1" : "Target"
- , "c2" : "arrayElementTarget(Function<String,String>)"
+ , "c2" : "arrayElementTarget(Function&lt;String,String&gt;)"
  , "c3" : "2"
  , "c4" : "4"
 }} 

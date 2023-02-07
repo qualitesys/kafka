@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00030"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestExtensionContextImpl.java.html#30"
  , "c1" : "ConnectRestExtensionContextImpl"
- , "c2" : "ConnectRestExtensionContextImpl(Configurable<?extendsConfigurable<?>>;ConnectClusterState)"
+ , "c2" : "ConnectRestExtensionContextImpl(Configurable&lt;?extendsConfigurable&lt;?&gt;&gt;;ConnectClusterState)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00039"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestExtensionContextImpl.java.html#39"
- , "c1" : "Configurable<?extendsConfigurable<?>>"
+ , "c1" : "Configurable&lt;?extendsConfigurable&lt;?&gt;&gt;"
  , "c2" : "configurable()"
  , "c3" : "1"
  , "c4" : "1"

@@ -20,8 +20,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00067"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerInterceptor.java.html#67"
- , "c1" : "ProducerRecord<K,V>"
- , "c2" : "onSend(ProducerRecord<K,V>)"
+ , "c1" : "ProducerRecord&lt;K,V&gt;"
+ , "c2" : "onSend(ProducerRecord&lt;K,V&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

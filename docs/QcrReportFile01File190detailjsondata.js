@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00034"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#34"
  , "c1" : "OffsetAndTimestamp"
- , "c2" : "OffsetAndTimestamp(long;long;Optional<Integer>)"
+ , "c2" : "OffsetAndTimestamp(long;long;Optional&lt;Integer&gt;)"
  , "c3" : "3"
  , "c4" : "5"
 }} 
@@ -56,7 +56,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00060"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndTimestamp.java.html#60"
- , "c1" : "Optional<Integer>"
+ , "c1" : "Optional&lt;Integer&gt;"
  , "c2" : "leaderEpoch()"
  , "c3" : "1"
  , "c4" : "1"

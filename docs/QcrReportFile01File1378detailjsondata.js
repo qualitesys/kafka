@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00046"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#46"
  , "c1" : "SnapshotFileWriter"
- , "c2" : "SnapshotFileWriter(FileChannel;BatchAccumulator<ApiMessageAndVersion>)"
+ , "c2" : "SnapshotFileWriter(FileChannel;BatchAccumulator&lt;ApiMessageAndVersion&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00055"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#55"
  , "c1" : "void"
- , "c2" : "append(List<ApiMessageAndVersion>)"
+ , "c2" : "append(List&lt;ApiMessageAndVersion&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

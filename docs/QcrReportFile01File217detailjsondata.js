@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00027"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java.html#27"
  , "c1" : "void"
- , "c2" : "onSuccess(F;RequestFuture<T>)"
+ , "c2" : "onSuccess(F;RequestFuture&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00029"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java.html#29"
  , "c1" : "void"
- , "c2" : "onFailure(RuntimeException;RequestFuture<T>)"
+ , "c2" : "onFailure(RuntimeException;RequestFuture&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00069"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#69"
  , "c1" : "ProduceResponse"
- , "c2" : "ProduceResponse(Map<TopicPartition,PartitionResponse>)"
+ , "c2" : "ProduceResponse(Map&lt;TopicPartition,PartitionResponse&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00079"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#79"
  , "c1" : "ProduceResponse"
- , "c2" : "ProduceResponse(Map<TopicPartition,PartitionResponse>;int)"
+ , "c2" : "ProduceResponse(Map&lt;TopicPartition,PartitionResponse&gt;;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00083"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#83"
  , "c1" : "ProduceResponseData"
- , "c2" : "toData(Map<TopicPartition,PartitionResponse>;int)"
+ , "c2" : "toData(Map&lt;TopicPartition,PartitionResponse&gt;;int)"
  , "c3" : "2"
  , "c4" : "7"
 }} 
@@ -74,7 +74,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00120"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#120"
- , "c1" : "Map<Errors,Integer>"
+ , "c1" : "Map&lt;Errors,Integer&gt;"
  , "c2" : "errorCounts()"
  , "c3" : "1"
  , "c4" : "3"

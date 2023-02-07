@@ -20,8 +20,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00071"
  , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#71"
- , "c1" : "Supplier<Configuration>"
- , "c2" : "initializeConfiguration(Supplier<Configuration>)"
+ , "c1" : "Supplier&lt;Configuration&gt;"
+ , "c2" : "initializeConfiguration(Supplier&lt;Configuration&gt;)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00091"
  , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#91"
  , "c1" : "BasicAuthSecurityRestExtension"
- , "c2" : "BasicAuthSecurityRestExtension(Supplier<Configuration>)"
+ , "c2" : "BasicAuthSecurityRestExtension(Supplier&lt;Configuration&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00108"
  , "c5link" : "././qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#108"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

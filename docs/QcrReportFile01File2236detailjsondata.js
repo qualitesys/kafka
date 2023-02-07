@@ -1,36 +1,54 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStarting.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStarting.java 1 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStarting.java.xml" 
+   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerRunning.java.html" 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerRunning.java 2 rule violations " 
+ , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerRunning.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "WorkerState"
- , "c2" : "org.apache.kafka.trogdor.rest.WorkerStarting"
+ , "c2" : "org.apache.kafka.trogdor.rest.WorkerRunning"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.rest.WorkerStarting" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.trogdor.rest.WorkerRunning" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00031"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStarting.java.html#31"
- , "c1" : "WorkerStarting"
- , "c2" : "WorkerStarting(String;TaskSpec)"
+ , "c5" : "00042"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerRunning.java.html#42"
+ , "c1" : "WorkerRunning"
+ , "c2" : "WorkerRunning(String;TaskSpec;long;JsonNode)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00053"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerRunning.java.html#53"
+ , "c1" : "long"
+ , "c2" : "startedMs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStarting.java.html#37"
+ , "c5" : "00059"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerRunning.java.html#59"
  , "c1" : "JsonNode"
  , "c2" : "status()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00064"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerRunning.java.html#64"
+ , "c1" : "boolean"
+ , "c2" : "running()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,9 +57,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStarting.java.png" 
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerRunning.java.png" 
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStarting.java.svg" }
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerRunning.java.svg" }
 
 ] 
 , 
@@ -71,21 +89,28 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStarting.java.html#38"
+ , "c1" : "00048"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerRunning.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.trogdor.rest.WorkerStarting.status@POLYN144856 the MagicNumber/String  'starting' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.trogdor.rest.WorkerRunning.WorkerRunning@POLYN147752 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00065"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerRunning.java.html#65"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.trogdor.rest.WorkerRunning.running@POLYN148607 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStarting.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerRunning.java.fct.svg" 
 
 , 
 }

@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00043"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsOptions.java.html#43"
  , "c1" : "ListConsumerGroupOffsetsOptions"
- , "c2" : "topicPartitions(List<TopicPartition>)"
+ , "c2" : "topicPartitions(List&lt;TopicPartition&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00059"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsOptions.java.html#59"
- , "c1" : "List<TopicPartition>"
+ , "c1" : "List&lt;TopicPartition&gt;"
  , "c2" : "topicPartitions()"
  , "c3" : "1"
  , "c4" : "1"

@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00047"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationValidator.java.html#47"
  , "c1" : "void"
- , "c2" : "validate(ConfigResource;Map<String,String>)"
+ , "c2" : "validate(ConfigResource;Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

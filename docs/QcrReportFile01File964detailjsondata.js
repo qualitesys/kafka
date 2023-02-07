@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00054"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#54"
- , "c1" : "Iterator<Header>"
+ , "c1" : "Iterator&lt;Header&gt;"
  , "c2" : "allWithName(String)"
  , "c3" : "1"
  , "c4" : "1"
@@ -165,7 +165,7 @@ var maDataBlocs = {
  , "c5" : "00181"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#181"
  , "c1" : "Headers"
- , "c2" : "addList(String;List<?>;Schema)"
+ , "c2" : "addList(String;List&lt;?&gt;;Schema)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -174,7 +174,7 @@ var maDataBlocs = {
  , "c5" : "00192"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/Headers.java.html#192"
  , "c1" : "Headers"
- , "c2" : "addMap(String;Map<?,?>;Schema)"
+ , "c2" : "addMap(String;Map&lt;?,?&gt;;Schema)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

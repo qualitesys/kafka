@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00063"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#63"
  , "c1" : "void"
- , "c2" : "addTransientTopics(Set<String>)"
+ , "c2" : "addTransientTopics(Set&lt;String&gt;)"
  , "c3" : "2"
  , "c4" : "2"
 }} 

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/Metadata.java 190 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/Metadata.java 187 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.xml" 
  , "fic3"  : "" 
 }
@@ -92,7 +92,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00192"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#192"
- , "c1" : "Optional<Integer>"
+ , "c1" : "Optional&lt;Integer&gt;"
  , "c2" : "lastSeenLeaderEpoch(TopicPartition)"
  , "c3" : "1"
  , "c4" : "1"
@@ -110,7 +110,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00208"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#208"
- , "c1" : "Optional<MetadataResponse.PartitionMetadata>"
+ , "c1" : "Optional&lt;MetadataResponse.PartitionMetadata&gt;"
  , "c2" : "partitionMetadataIfCurrent(TopicPartition)"
  , "c3" : "3"
  , "c4" : "4"
@@ -119,7 +119,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00223"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#223"
- , "c1" : "Map<String,Uuid>"
+ , "c1" : "Map&lt;String,Uuid&gt;"
  , "c2" : "topicIds()"
  , "c3" : "1"
  , "c4" : "1"
@@ -138,7 +138,7 @@ var maDataBlocs = {
  , "c5" : "00238"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#238"
  , "c1" : "void"
- , "c2" : "bootstrap(List<InetSocketAddress>)"
+ , "c2" : "bootstrap(List&lt;InetSocketAddress&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -200,7 +200,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00388"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#388"
- , "c1" : "Optional<MetadataResponse.PartitionMetadata>"
+ , "c1" : "Optional&lt;MetadataResponse.PartitionMetadata&gt;"
  , "c2" : "updateLatestMetadata(MetadataResponse.PartitionMetadata;boolean;Uuid;Uuid)"
  , "c3" : "7"
  , "c4" : "13"
@@ -237,7 +237,7 @@ var maDataBlocs = {
  , "c5" : "00454"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#454"
  , "c1" : "void"
- , "c2" : "clearErrorsAndMaybeThrowException(Supplier<KafkaException>)"
+ , "c2" : "clearErrorsAndMaybeThrowException(Supplier&lt;KafkaException&gt;)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -408,6 +408,12 @@ var maDataBlocs = {
 { "ligne" :  "R7:org.apache.kafka.clients.Metadata.update@POLYN253647.nowMs" }
 ,
 { "ligne" :  "R8:org.apache.kafka.clients.Metadata.bootstrap@POLYN252681.addresses" }
+,
+{ "ligne" :  "R9:org.apache.kafka.clients.Metadata.maybeThrowExceptionForTopic@POLYN263601.topic" }
+,
+{ "ligne" :  "R10:org.apache.kafka.clients.Metadata.failedUpdate@POLYN265309.now" }
+,
+{ "ligne" :  "R11:org.apache.kafka.clients.Metadata.fatalError@POLYN265569.exception" }
 ]
 ,
 "data12b" : [
@@ -416,27 +422,50 @@ var maDataBlocs = {
 ,
 { "ligne" : "S0:org.apache.kafka.clients.Metadata.update@POLYN253647 (R0 in line [00263],R4 in line [00263],R5 in line [00263],R6 in line [00263],R7 in line [00263])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.common.ClusterResource.clusterId@POLYN148319" }
+{ "ligne" : "S0:org.apache.kafka.clients.Metadata.update@POLYN253647.dummymethode_00264" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "1" , "pas" : [
 { "ligne" : "S1:org.apache.kafka.clients.Metadata.bootstrap@POLYN252681 (R0 in line [00238],R8 in line [00238])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.clients.MetadataCache.bootstrap@POLYN189925" }
+{ "ligne" : "S1:org.apache.kafka.clients.Metadata.bootstrap@POLYN252681.dummymethode_00239" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "2" , "pas" : [
-{ "ligne" : "S2:org.apache.kafka.clients.Metadata.updateWithCurrentRequestVersion@POLYN253073 (R0 in line [00249],R1 in line [00249],R2 in line [00249],R3 in line [00249])" }
+{ "ligne" : "S2:org.apache.kafka.clients.Metadata.maybeThrowExceptionForTopic@POLYN263601 (R0 in line [00450],R9 in line [00450])" }
 ,
-{ "ligne" : "S2:org.apache.kafka.clients.Metadata.update@POLYN253647 (R0 in line [00263],R4 in line [00263],R5 in line [00263],R6 in line [00263],R7 in line [00263])" }
+{ "ligne" : "S2:org.apache.kafka.clients.Metadata.maybeThrowExceptionForTopic@POLYN263601.dummymethode_00451" }
+ ]
+ } }
 ,
-{ "ligne" : "S2:org.apache.kafka.clients.Metadata.handleMetadataResponse@POLYN256651" }
+{ "sequence" : { "noseq" : "3" , "pas" : [
+{ "ligne" : "S3:org.apache.kafka.clients.Metadata.failedUpdate@POLYN265309 (R0 in line [00490],R10 in line [00490])" }
 ,
-{ "ligne" : "S2:org.apache.kafka.clients.Metadata.handleMetadataResponse@POLYN256651" }
+{ "ligne" : "S3:org.apache.kafka.clients.Metadata.failedUpdate@POLYN265309.dummymethode_00491" }
+ ]
+ } }
 ,
-{ "ligne" : "S2:org.apache.kafka.clients.Metadata.requestUpdate@POLYN248167 (R0 in line [00145])" }
+{ "sequence" : { "noseq" : "4" , "pas" : [
+{ "ligne" : "S4:org.apache.kafka.clients.Metadata.fatalError@POLYN265569 (R0 in line [00500],R11 in line [00500])" }
+,
+{ "ligne" : "S4:org.apache.kafka.clients.Metadata.fatalError@POLYN265569.dummymethode_00501" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "5" , "pas" : [
+{ "ligne" : "S5:org.apache.kafka.clients.Metadata.updateWithCurrentRequestVersion@POLYN253073 (R0 in line [00249],R1 in line [00249],R2 in line [00249],R3 in line [00249])" }
+,
+{ "ligne" : "S5:org.apache.kafka.clients.Metadata.update@POLYN253647 (R0 in line [00263],R4 in line [00263],R5 in line [00263],R6 in line [00263],R7 in line [00263])" }
+,
+{ "ligne" : "S5:org.apache.kafka.clients.Metadata.handleMetadataResponse@POLYN256651" }
+,
+{ "ligne" : "S5:org.apache.kafka.clients.Metadata.handleMetadataResponse@POLYN256651" }
+,
+{ "ligne" : "S5:org.apache.kafka.clients.Metadata.requestUpdate@POLYN248167 (R0 in line [00145])" }
+,
+{ "ligne" : "S5:org.apache.kafka.clients.Metadata.requestUpdate@POLYN248167.dummymethode_00146" }
  ]
  } }
 ]
@@ -449,7 +478,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAVCWE833"
  , "c3" : "Potential deadlock between at least two ressources"
- , "c4" : "9"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : { "" : ""
@@ -463,7 +492,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "34"
+ , "c4" : "29"
 }}
 ,
 { "ligne" : { "" : ""
@@ -477,7 +506,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "8"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1563,6 +1592,27 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R9 : org.apache.kafka.clients.Metadata.maybeThrowExceptionForTopic@POLYN263601.topic"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R10 : org.apache.kafka.clients.Metadata.failedUpdate@POLYN265309.now"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R11 : org.apache.kafka.clients.Metadata.fatalError@POLYN265569.exception"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.topicIds@POLYN251734"
 }} 
@@ -1586,13 +1636,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.update@POLYN253647"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN266413"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1726,41 +1769,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#291"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00291] In the recursive method org.apache.kafka.clients.Metadata.update@POLYN253647 the MagicNumber/String 'Updated cluster metadata updateVersion {} to {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00536"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#536"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00536] In the recursive method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN266413 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00537"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#537"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00537] In the recursive method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN266413 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00543"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#543"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00543] In the recursive method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN266413 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00545"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#545"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00545] In the recursive method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN266413 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00547"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#547"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00547] In the recursive method org.apache.kafka.clients.Metadata.newMetadataRequestAndVersion@POLYN266413 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

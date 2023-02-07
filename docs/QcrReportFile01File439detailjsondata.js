@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00039"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/SupportedVersionRange.java.html#39"
  , "c1" : "SupportedVersionRange"
- , "c2" : "fromMap(Map<String,Short>)"
+ , "c2" : "fromMap(Map&lt;String,Short&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

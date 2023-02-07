@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00055"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#55"
  , "c1" : "void"
- , "c2" : "putConnectorConfig(String;Map<String,String>)"
+ , "c2" : "putConnectorConfig(String;Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00068"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#68"
  , "c1" : "void"
- , "c2" : "putTaskConfigs(String;List<Map<String,String>>)"
+ , "c2" : "putTaskConfigs(String;List&lt;Map&lt;String,String&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

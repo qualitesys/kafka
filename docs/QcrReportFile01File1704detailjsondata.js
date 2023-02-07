@@ -1,63 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinWindowsInternal.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinWindowsInternal.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinWindowsInternal.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Joined<K,V,VO>"
- , "c2" : "org.apache.kafka.streams.kstream.internals.JoinedInternal"
+ , "c1" : "JoinWindows"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.JoinWindowsInternal"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.kstream.internals.JoinedInternal" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.JoinWindowsInternal" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.html#24"
- , "c1" : "JoinedInternal"
- , "c2" : "JoinedInternal(Joined<K,V,VO>)"
+ , "c5" : "00023"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinWindowsInternal.java.html#23"
+ , "c1" : "JoinWindowsInternal"
+ , "c2" : "JoinWindowsInternal(JoinWindows)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00028"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.html#28"
- , "c1" : "Serde<K>"
- , "c2" : "keySerde()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.html#32"
- , "c1" : "Serde<V>"
- , "c2" : "valueSerde()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.html#36"
- , "c1" : "Serde<VO>"
- , "c2" : "otherValueSerde()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.html#40"
- , "c1" : "String"
- , "c2" : "name()"
+ , "c5" : "00027"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinWindowsInternal.java.html#27"
+ , "c1" : "boolean"
+ , "c2" : "spuriousResultFixEnabled()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -66,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinWindowsInternal.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinWindowsInternal.java.svg" }
 
 ] 
 , 
@@ -94,7 +67,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinedInternal.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/JoinWindowsInternal.java.fct.svg" 
 
 , 
 }

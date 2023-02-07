@@ -128,8 +128,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00048"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/Readable.java.html#48"
- , "c1" : "List<RawTaggedField>"
- , "c2" : "readUnknownTaggedField(List<RawTaggedField>;int;int)"
+ , "c1" : "List&lt;RawTaggedField&gt;"
+ , "c2" : "readUnknownTaggedField(List&lt;RawTaggedField&gt;;int;int)"
  , "c3" : "2"
  , "c4" : "5"
 }} 

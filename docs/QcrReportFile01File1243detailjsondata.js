@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00183"
  , "c5link" : "././qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#183"
  , "c1" : "void"
- , "c2" : "deleteTopic(Admin;List<String>)"
+ , "c2" : "deleteTopic(Admin;List&lt;String&gt;)"
  , "c3" : "2"
  , "c4" : "4"
 }} 

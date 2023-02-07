@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00028"
  , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/formatters/OffsetSyncFormatter.java.html#28"
  , "c1" : "void"
- , "c2" : "writeTo(ConsumerRecord<byte[],byte[]>;PrintStream)"
+ , "c2" : "writeTo(ConsumerRecord&lt;byte[],byte[]&gt;;PrintStream)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

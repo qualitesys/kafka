@@ -133,16 +133,14 @@ var maDataBlocs = {
 { "sequence" : { "noseq" : "0" , "pas" : [
 { "ligne" : "S0:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN162309 (R0 in line [00060],R1 in line [00060],R2 in line [00060],R3 in line [00060],R4 in line [00060])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN164207" }
+{ "ligne" : "S0:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN162309.dummymethode_00062" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "1" , "pas" : [
 { "ligne" : "S1:org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN163089 (R0 in line [00072],R5 in line [00072],R6 in line [00072],R7 in line [00072])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN165024" }
-,
-{ "ligne" : "S1:org.apache.kafka.common.metrics.Metrics.removeMetric@POLYN302401" }
+{ "ligne" : "S1:org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN163089.dummymethode_00075" }
  ]
  } }
 ,
@@ -151,7 +149,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S2:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN162309 (R0 in line [00060],R1 in line [00060],R2 in line [00060],R3 in line [00060],R4 in line [00060])" }
 ,
-{ "ligne" : "S2:org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN164207" }
+{ "ligne" : "S2:org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN162309.dummymethode_00062" }
  ]
  } }
 ,
@@ -160,9 +158,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S3:org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN163089 (R0 in line [00072],R5 in line [00072],R6 in line [00072],R7 in line [00072])" }
 ,
-{ "ligne" : "S3:org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN165024" }
-,
-{ "ligne" : "S3:org.apache.kafka.common.metrics.Metrics.removeMetric@POLYN302401" }
+{ "ligne" : "S3:org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN163089.dummymethode_00075" }
  ]
  } }
 ]

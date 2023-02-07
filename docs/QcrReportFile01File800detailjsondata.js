@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00113"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredValidatorCallbackHandler.java.html#113"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>;String;List<AppConfigurationEntry>)"
+ , "c2" : "configure(Map&lt;String,?&gt;;String;List&lt;AppConfigurationEntry&gt;)"
  , "c3" : "3"
  , "c4" : "5"
 }} 
@@ -92,7 +92,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00189"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredValidatorCallbackHandler.java.html#189"
- , "c1" : "List<String>"
+ , "c1" : "List&lt;String&gt;"
  , "c2" : "requiredScope()"
  , "c3" : "1"
  , "c4" : "2"

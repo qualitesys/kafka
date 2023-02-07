@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00045"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#45"
  , "c1" : "FollowerState"
- , "c2" : "FollowerState(Time;int;int;Set<Integer>;Optional<LogOffsetMetadata>;int;LogContext)"
+ , "c2" : "FollowerState(Time;int;int;Set&lt;Integer&gt;;Optional&lt;LogOffsetMetadata&gt;;int;LogContext)"
  , "c3" : "1"
  , "c4" : "8"
 }} 
@@ -110,7 +110,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00132"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#132"
- , "c1" : "Optional<LogOffsetMetadata>"
+ , "c1" : "Optional&lt;LogOffsetMetadata&gt;"
  , "c2" : "highWatermark()"
  , "c3" : "1"
  , "c4" : "1"
@@ -119,7 +119,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00136"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#136"
- , "c1" : "Optional<RawSnapshotWriter>"
+ , "c1" : "Optional&lt;RawSnapshotWriter&gt;"
  , "c2" : "fetchingSnapshot()"
  , "c3" : "1"
  , "c4" : "1"
@@ -129,7 +129,7 @@ var maDataBlocs = {
  , "c5" : "00140"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#140"
  , "c1" : "void"
- , "c2" : "setFetchingSnapshot(Optional<RawSnapshotWriter>)"
+ , "c2" : "setFetchingSnapshot(Optional&lt;RawSnapshotWriter&gt;)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -432,7 +432,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.FollowerState.close@POLYN164659"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.FollowerState.FollowerState@POLYN159970"
 }} 
 ]
 , 

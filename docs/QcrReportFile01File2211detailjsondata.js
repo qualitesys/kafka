@@ -1,45 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateTaskRequest.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateTaskRequest.java 0 rule violation " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateTaskRequest.java.xml" 
+   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CoordinatorStatusResponse.java.html" 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/rest/CoordinatorStatusResponse.java 0 rule violation " 
+ , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CoordinatorStatusResponse.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "Message"
- , "c2" : "org.apache.kafka.trogdor.rest.CreateTaskRequest"
+ , "c2" : "org.apache.kafka.trogdor.rest.CoordinatorStatusResponse"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.rest.CreateTaskRequest" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.trogdor.rest.CoordinatorStatusResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateTaskRequest.java.html#32"
- , "c1" : "CreateTaskRequest"
- , "c2" : "CreateTaskRequest(String;TaskSpec)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateTaskRequest.java.html#39"
- , "c1" : "String"
- , "c2" : "id()"
+ , "c5" : "00030"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CoordinatorStatusResponse.java.html#30"
+ , "c1" : "CoordinatorStatusResponse"
+ , "c2" : "CoordinatorStatusResponse(long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateTaskRequest.java.html#44"
- , "c1" : "TaskSpec"
- , "c2" : "spec()"
+ , "c5" : "00035"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CoordinatorStatusResponse.java.html#35"
+ , "c1" : "long"
+ , "c2" : "serverStartMs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateTaskRequest.java.png" 
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CoordinatorStatusResponse.java.png" 
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateTaskRequest.java.svg" }
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CoordinatorStatusResponse.java.svg" }
 
 ] 
 , 
@@ -76,7 +67,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CreateTaskRequest.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CoordinatorStatusResponse.java.fct.svg" 
 
 , 
 }

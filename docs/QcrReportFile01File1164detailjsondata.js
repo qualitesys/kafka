@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00041"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneConfig.java.html#41"
  , "c1" : "StandaloneConfig"
- , "c2" : "StandaloneConfig(Map<String,String>)"
+ , "c2" : "StandaloneConfig(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java 12 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java 14 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.xml" 
  , "fic3"  : "" 
 }
@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00039"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#39"
  , "c1" : "ConsumerInterceptors"
- , "c2" : "ConsumerInterceptors(List<ConsumerInterceptor<K,V>>)"
+ , "c2" : "ConsumerInterceptors(List&lt;ConsumerInterceptor&lt;K,V&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -29,8 +29,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00057"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#57"
- , "c1" : "ConsumerRecords<K,V>"
- , "c2" : "onConsume(ConsumerRecords<K,V>)"
+ , "c1" : "ConsumerRecords&lt;K,V&gt;"
+ , "c2" : "onConsume(ConsumerRecords&lt;K,V&gt;)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00079"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#79"
  , "c1" : "void"
- , "c2" : "onCommit(Map<TopicPartition,OffsetAndMetadata>)"
+ , "c2" : "onCommit(Map&lt;TopicPartition,OffsetAndMetadata&gt;)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -98,14 +98,14 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -191,6 +191,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerInterceptors.close@POLYN159550"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerInterceptors.onCommit@POLYN159037"
 }} 
 ,
@@ -199,6 +206,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerInterceptors.onConsume@POLYN158159"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00099"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#99"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00099] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerInterceptors.close@POLYN159550 the MagicNumber/String 'Failed to close consumer interceptor ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

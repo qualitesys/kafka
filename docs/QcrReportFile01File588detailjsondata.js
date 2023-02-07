@@ -20,7 +20,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00032"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#32"
- , "c1" : "Optional<ReplicaView>"
+ , "c1" : "Optional&lt;ReplicaView&gt;"
  , "c2" : "select(TopicPartition;ClientMetadata;PartitionView)"
  , "c3" : "7"
  , "c4" : "5"

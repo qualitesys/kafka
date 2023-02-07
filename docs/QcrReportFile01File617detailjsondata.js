@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00074"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/BeginQuorumEpochResponse.java.html#74"
- , "c1" : "Map<Errors,Integer>"
+ , "c1" : "Map&lt;Errors,Integer&gt;"
  , "c2" : "errorCounts()"
  , "c3" : "3"
  , "c4" : "4"

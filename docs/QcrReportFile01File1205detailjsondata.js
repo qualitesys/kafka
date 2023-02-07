@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00054"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#54"
  , "c1" : "SharedTopicAdmin"
- , "c2" : "SharedTopicAdmin(Map<String,Object>)"
+ , "c2" : "SharedTopicAdmin(Map&lt;String,Object&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00059"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#59"
  , "c1" : "SharedTopicAdmin"
- , "c2" : "SharedTopicAdmin(Map<String,Object>;Function<Map<String,Object>,TopicAdmin>)"
+ , "c2" : "SharedTopicAdmin(Map&lt;String,Object&gt;;Function&lt;Map&lt;String,Object&gt;,TopicAdmin&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 

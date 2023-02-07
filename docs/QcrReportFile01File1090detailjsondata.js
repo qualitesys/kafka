@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java 28 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java 23 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.xml" 
  , "fic3"  : "" 
 }
@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00046"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#46"
  , "c1" : "WorkerConfigTransformer"
- , "c2" : "WorkerConfigTransformer(Worker;Map<String,ConfigProvider>)"
+ , "c2" : "WorkerConfigTransformer(Worker;Map&lt;String,ConfigProvider&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -29,8 +29,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00052"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#52"
- , "c1" : "Map<String,String>"
- , "c2" : "transform(Map<String,String>)"
+ , "c1" : "Map&lt;String,String&gt;"
+ , "c2" : "transform(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -38,8 +38,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00056"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#56"
- , "c1" : "Map<String,String>"
- , "c2" : "transform(String;Map<String,String>)"
+ , "c1" : "Map&lt;String,String&gt;"
+ , "c2" : "transform(String;Map&lt;String,String&gt;)"
  , "c3" : "5"
  , "c4" : "8"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00074"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#74"
  , "c1" : "void"
- , "c2" : "scheduleReload(String;Map<String,Long>)"
+ , "c2" : "scheduleReload(String;Map&lt;String,Long&gt;)"
  , "c3" : "2"
  , "c4" : "1"
 }} 
@@ -96,82 +96,6 @@ var maDataBlocs = {
 "data08" : [
 ]
 , 
-"data09a" : [
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1090Seq1.html#seq1"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1090&numSeq=1"
- , "c2" : "1"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.HashMap.get@POLYN618616.return" , "java.util.HashMap.put@POLYN621976.value"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-]
-,
-"data09b" : [
-{ "sequence" : { 
- "seq" : "1" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00081]"
- , "c3" : ["java.util.HashMap.get@POLYN618616.return" , "---java.util.HashMap.get@POLYN618616" , "org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN161040.connectorRequests"]
- , "c4" : "//QC-JAVCWE099[00081] In org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN161040[00081] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00084]"
- , "c3" : ["org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN161040.connectorRequests" , "---java.util.HashMap.put@POLYN621976" , "java.util.HashMap.put@POLYN621976.value"]
- , "c4" : "//QC-JAVCWE099[00084] In org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN161040[00084] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-]
-, 
-"data10" : [
-]
-, 
 "data11" : [
 ]
 , 
@@ -192,7 +116,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "9"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -206,7 +130,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -355,42 +279,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerConfigTransformer.transform@POLYN159440"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerConfigTransformer.scheduleReload@POLYN161040"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#57"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.connect.runtime.WorkerConfigTransformer.transform@POLYN159440 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#57"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.connect.runtime.WorkerConfigTransformer.transform@POLYN159440 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#59"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.connect.runtime.WorkerConfigTransformer.transform@POLYN159440 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#62"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00062] In the recursive method org.apache.kafka.connect.runtime.WorkerConfigTransformer.transform@POLYN159440 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

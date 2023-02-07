@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java 57 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java 56 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.xml" 
  , "fic3"  : "" 
 }
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00064"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#64"
- , "c1" : "Map<Uuid,TopicDelta>"
+ , "c1" : "Map&lt;Uuid,TopicDelta&gt;"
  , "c2" : "changedTopics()"
  , "c3" : "1"
  , "c4" : "1"
@@ -137,7 +137,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00169"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#169"
- , "c1" : "Set<Uuid>"
+ , "c1" : "Set&lt;Uuid&gt;"
  , "c2" : "deletedTopicIds()"
  , "c3" : "1"
  , "c4" : "1"
@@ -193,37 +193,7 @@ var maDataBlocs = {
  , "c2" : "1"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.util.Map.getKey@POLYN435159.return" , "java.util.HashMap.put@POLYN621976.key"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1347Seq2.html#seq2"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1347&numSeq=2"
- , "c2" : "2"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.Map.getValue@POLYN435492.return" , "java.util.HashMap.put@POLYN621976.value"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1347Seq3.html#seq3"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1347&numSeq=3"
- , "c2" : "3"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.HashMap.get@POLYN618616.return" , "java.util.HashMap.put@POLYN621976.value"]
+ , "c5" : ["java.util.Map.getValue@POLYN435492.return" , "org.apache.kafka.image.TopicsDelta.apply@POLYN179574.cibledummy_00135"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -238,125 +208,17 @@ var maDataBlocs = {
  "seq" : "1" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "2"
- , "sourcenoligne" : "[00129]"
- , "c3" : ["java.util.Map.getKey@POLYN435159.return" , "---java.util.Map.getKey@POLYN435159" , "org.apache.kafka.image.TopicsDelta.apply@POLYN179574.id"]
- , "c4" : "//QC-JAVCWE099[00129] In org.apache.kafka.image.TopicsDelta.apply@POLYN179574[00129] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00134]"
- , "c3" : ["org.apache.kafka.image.TopicsDelta.apply@POLYN179574.id" , "---java.util.HashMap.put@POLYN621976" , "java.util.HashMap.put@POLYN621976.key"]
- , "c4" : "//QC-JAVCWE099[00134] In org.apache.kafka.image.TopicsDelta.apply@POLYN179574[00134] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "2" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "2"
  , "sourcenoligne" : "[00130]"
  , "c3" : ["java.util.Map.getValue@POLYN435492.return" , "---java.util.Map.getValue@POLYN435492" , "org.apache.kafka.image.TopicsDelta.apply@POLYN179574.prevTopicImage"]
- , "c4" : "//QC-JAVCWE099[00130] In org.apache.kafka.image.TopicsDelta.apply@POLYN179574[00130] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
+ , "c4" : "//QC-JAVCWE099[00130] In org.apache.kafka.image.TopicsDelta.apply@POLYN179574[00130] source data PATHtainted (java.util.Map.get) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "1"
- , "sourcenoligne" : "[00134]"
- , "c3" : ["org.apache.kafka.image.TopicsDelta.apply@POLYN179574.prevTopicImage" , "---java.util.HashMap.put@POLYN621976" , "java.util.HashMap.put@POLYN621976.value"]
- , "c4" : "//QC-JAVCWE099[00134] In org.apache.kafka.image.TopicsDelta.apply@POLYN179574[00134] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "3" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00075]"
- , "c3" : ["java.util.HashMap.get@POLYN618616.return" , "---java.util.HashMap.get@POLYN618616" , "org.apache.kafka.image.TopicsDelta.getOrCreateTopicDelta@POLYN177044.topicDelta"]
- , "c4" : "//QC-JAVCWE099[00075] In org.apache.kafka.image.TopicsDelta.getOrCreateTopicDelta@POLYN177044[00075] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00078]"
- , "c3" : ["org.apache.kafka.image.TopicsDelta.getOrCreateTopicDelta@POLYN177044.topicDelta" , "---java.util.HashMap.put@POLYN621976" , "java.util.HashMap.put@POLYN621976.value"]
- , "c4" : "//QC-JAVCWE099[00078] In org.apache.kafka.image.TopicsDelta.getOrCreateTopicDelta@POLYN177044[00078] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "sourcenoligne" : "[00135]"
+ , "c3" : ["org.apache.kafka.image.TopicsDelta.apply@POLYN179574.prevTopicImage" , "---java.util.Map.put@POLYN429794" , "org.apache.kafka.image.TopicsDelta.apply@POLYN179574.cibledummy_00135"]
+ , "c4" : "//QC-JAVCWE099[00135] In org.apache.kafka.image.TopicsDelta.apply@POLYN179574[00135] target data PATHtainted (java.util.Map.put) RiskOnOutput"
  , "c5" : "input"
 }}
 ,
@@ -441,7 +303,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -801,13 +663,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.TopicsDelta.apply@POLYN179574"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.TopicsDelta.localChanges@POLYN182779"
 }} 
 ,
 { "ligne" : {"" : ""

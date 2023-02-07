@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00036"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionDescription.java.html#36"
  , "c1" : "TransactionDescription"
- , "c2" : "TransactionDescription(int;TransactionState;long;int;long;OptionalLong;Set<TopicPartition>)"
+ , "c2" : "TransactionDescription(int;TransactionState;long;int;long;OptionalLong;Set&lt;TopicPartition&gt;)"
  , "c3" : "1"
  , "c4" : "7"
 }} 
@@ -83,7 +83,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00078"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionDescription.java.html#78"
- , "c1" : "Set<TopicPartition>"
+ , "c1" : "Set&lt;TopicPartition&gt;"
  , "c2" : "topicPartitions()"
  , "c3" : "1"
  , "c4" : "1"

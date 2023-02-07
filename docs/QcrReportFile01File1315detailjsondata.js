@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00085"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#85"
  , "c1" : "PartitionChangeBuilder"
- , "c2" : "PartitionChangeBuilder(PartitionRegistration;Uuid;int;Function<Integer,Boolean>;boolean)"
+ , "c2" : "PartitionChangeBuilder(PartitionRegistration;Uuid;int;Function&lt;Integer,Boolean&gt;;boolean)"
  , "c3" : "1"
  , "c4" : "10"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00102"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#102"
  , "c1" : "PartitionChangeBuilder"
- , "c2" : "setTargetIsr(List<Integer>)"
+ , "c2" : "setTargetIsr(List&lt;Integer&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00107"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#107"
  , "c1" : "PartitionChangeBuilder"
- , "c2" : "setTargetReplicas(List<Integer>)"
+ , "c2" : "setTargetReplicas(List&lt;Integer&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00117"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#117"
  , "c1" : "PartitionChangeBuilder"
- , "c2" : "setTargetRemoving(List<Integer>)"
+ , "c2" : "setTargetRemoving(List&lt;Integer&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00122"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#122"
  , "c1" : "PartitionChangeBuilder"
- , "c2" : "setTargetAdding(List<Integer>)"
+ , "c2" : "setTargetAdding(List&lt;Integer&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -155,7 +155,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00299"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#299"
- , "c1" : "Optional<ApiMessageAndVersion>"
+ , "c1" : "Optional&lt;ApiMessageAndVersion&gt;"
  , "c2" : "build()"
  , "c3" : "8"
  , "c4" : "11"

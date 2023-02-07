@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00069"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#69"
  , "c1" : "ProducerRecord"
- , "c2" : "ProducerRecord(String;Integer;Long;K;V;Iterable<Header>)"
+ , "c2" : "ProducerRecord(String;Integer;Long;K;V;Iterable&lt;Header&gt;)"
  , "c3" : "4"
  , "c4" : "9"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00109"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#109"
  , "c1" : "ProducerRecord"
- , "c2" : "ProducerRecord(String;Integer;K;V;Iterable<Header>)"
+ , "c2" : "ProducerRecord(String;Integer;K;V;Iterable&lt;Header&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

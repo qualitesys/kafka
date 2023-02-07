@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00035"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SecurityProviderCreator.java.html#35"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "0"
 }} 

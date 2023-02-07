@@ -1,70 +1,70 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java 23 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java 32 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.kstream.SlidingWindows"
+ , "c2" : "org.apache.kafka.streams.kstream.SessionWindows"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.kstream.SlidingWindows" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.SessionWindows" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
  , "c5" : "00082"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#82"
- , "c1" : "SlidingWindows"
- , "c2" : "SlidingWindows(long;long)"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#82"
+ , "c1" : "SessionWindows"
+ , "c2" : "SessionWindows(long;long;boolean)"
  , "c3" : "3"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00110"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#110"
+ , "c1" : "SessionWindows"
+ , "c2" : "ofInactivityGapWithNoGrace(Duration)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00132"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#132"
+ , "c1" : "SessionWindows"
+ , "c2" : "ofInactivityGapAndGrace(Duration;Duration)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00151"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#151"
+ , "c1" : "SessionWindows"
+ , "c2" : "with(Duration)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00173"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#173"
+ , "c1" : "SessionWindows"
+ , "c2" : "grace(Duration)"
+ , "c3" : "2"
  , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00107"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#107"
- , "c1" : "SlidingWindows"
- , "c2" : "ofTimeDifferenceWithNoGrace(Duration)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00121"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#121"
- , "c1" : "SlidingWindows"
- , "c2" : "ofTimeDifferenceAndGrace(Duration;Duration)"
- , "c3" : "1"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00142"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#142"
- , "c1" : "SlidingWindows"
- , "c2" : "withTimeDifferenceAndGrace(Duration;Duration)"
- , "c3" : "1"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00152"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#152"
- , "c1" : "long"
- , "c2" : "timeDifferenceMs()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00156"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#156"
+ , "c5" : "00185"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#185"
  , "c1" : "long"
  , "c2" : "gracePeriodMs()"
  , "c3" : "1"
@@ -72,8 +72,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00161"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#161"
+ , "c5" : "00194"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#194"
+ , "c1" : "long"
+ , "c2" : "inactivityGap()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00199"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#199"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -81,8 +90,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00174"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#174"
+ , "c5" : "00212"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#212"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -90,8 +99,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00179"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#179"
+ , "c5" : "00217"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#217"
  , "c1" : "String"
  , "c2" : "toString()"
  , "c3" : "1"
@@ -102,9 +111,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.svg" }
 
 ] 
 , 
@@ -134,14 +143,14 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV000003"
  , "c3" : "High risk of strong class coupling"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "15"
+ , "c4" : "20"
 }}
 ,
 { "ligne" : { "" : ""
@@ -155,182 +164,245 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "4"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#86"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.kstream.SlidingWindows.SlidingWindows@POLYN183757 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00087"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#87"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.kstream.SlidingWindows.SlidingWindows@POLYN183757 the MagicNumber/String  'Window time difference must not be negative.' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.kstream.SessionWindows.SessionWindows@POLYN188666 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#90"
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.kstream.SlidingWindows.SlidingWindows@POLYN183757 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.kstream.SessionWindows.SessionWindows@POLYN188666 the MagicNumber/String  'Gap time cannot be zero or negative.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#91"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.kstream.SlidingWindows.SlidingWindows@POLYN183757 the MagicNumber/String  'Window grace period must not be negative.' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.kstream.SessionWindows.SessionWindows@POLYN188666 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#107"
+ , "c1" : "00092"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#92"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.kstream.SessionWindows.SessionWindows@POLYN188666 the MagicNumber/String  'Grace period must not be negative.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#110"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00107] For method ofTimeDifferenceWithNoGrace arguments Duration  timeDifference"
+ , "c3" : "QC-JAV000006[00110] For method ofInactivityGapWithNoGrace arguments Duration  inactivityGap"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#121"
+ , "c1" : "00132"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#132"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00121] For method ofTimeDifferenceAndGrace arguments Duration  timeDifference|Duration  afterWindowEnd"
+ , "c3" : "QC-JAV000006[00132] For method ofInactivityGapAndGrace arguments Duration  inactivityGap|Duration  afterWindowEnd"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#121"
+ , "c1" : "00132"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#132"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00121] For method ofTimeDifferenceAndGrace list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN185707|long validateMillisecondDurationN185822|java.lang.String prepareMillisCheckFailMsgPrefixN185935|long validateMillisecondDurationN186050"
+ , "c3" : "QC-JAV000007[00132] For method ofInactivityGapAndGrace list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN190951|long validateMillisecondDurationN191066|java.lang.String prepareMillisCheckFailMsgPrefixN191179|long validateMillisecondDurationN191294"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#122"
+ , "c1" : "00133"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.streams.kstream.SlidingWindows.ofTimeDifferenceAndGrace@POLYN185562 the MagicNumber/String  'timeDifference' should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.kstream.SessionWindows.ofInactivityGapAndGrace@POLYN190818 the MagicNumber/String  'inactivityGap' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#124"
+ , "c1" : "00136"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.kstream.SlidingWindows.ofTimeDifferenceAndGrace@POLYN185562 the MagicNumber/String  'afterWindowEnd' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.streams.kstream.SessionWindows.ofInactivityGapAndGrace@POLYN190818 the MagicNumber/String  'afterWindowEnd' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#142"
+ , "c1" : "00139"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#139"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.streams.kstream.SessionWindows.ofInactivityGapAndGrace@POLYN190818 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00151"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#151"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00142] For method withTimeDifferenceAndGrace arguments Duration  timeDifference|Duration  grace"
+ , "c3" : "QC-JAV000006[00151] For method with arguments Duration  inactivityGap"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#142"
+ , "c1" : "00151"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#151"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00142] For method withTimeDifferenceAndGrace list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN186947|long validateMillisecondDurationN187062|java.lang.String prepareMillisCheckFailMsgPrefixN187175|long validateMillisecondDurationN187290"
+ , "c3" : "QC-JAV000007[00151] For method with list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN191917|long validateMillisecondDurationN192032"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#143"
+ , "c1" : "00152"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.kstream.SlidingWindows.withTimeDifferenceAndGrace@POLYN186802 the MagicNumber/String  'timeDifference' should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.kstream.SessionWindows.with@POLYN191812 the MagicNumber/String  'inactivityGap' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#146"
+ , "c1" : "00155"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.kstream.SlidingWindows.withTimeDifferenceAndGrace@POLYN186802 the MagicNumber/String  'grace' should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.kstream.SessionWindows.with@POLYN191812 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#161"
+ , "c1" : "00155"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#155"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.kstream.SessionWindows.with@POLYN191812 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00173"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#173"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00161] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00173] For method grace arguments Duration  afterWindowEnd"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#165"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00165] The same method call o.getClass() is used several times, should be optimized "
+ , "c1" : "00173"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#173"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00173] For method grace list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN193170|long validateMillisecondDurationN193285"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00163"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#163"
+ , "c1" : "00176"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.kstream.SlidingWindows.equals@POLYN187655 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.kstream.SessionWindows.grace@POLYN192918 the MagicNumber/String  'Cannot call grace() after setting grace value via ofInactivityGapAndGrace or ofInactivityGapWithNoGrace.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#165"
+ , "c1" : "00179"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.kstream.SlidingWindows.equals@POLYN187655 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00166"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#166"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.streams.kstream.SlidingWindows.equals@POLYN187655 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00180"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#180"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.kstream.SlidingWindows.toString@POLYN188396 the MagicNumber/String  'SlidingWindows{' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00181"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#181"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.streams.kstream.SlidingWindows.toString@POLYN188396 the MagicNumber/String  ', sizeMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.kstream.SessionWindows.grace@POLYN192918 the MagicNumber/String  'afterWindowEnd' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00182"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#182"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.kstream.SlidingWindows.toString@POLYN188396 the MagicNumber/String  ', graceMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.kstream.SessionWindows.grace@POLYN192918 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00183"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#183"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.streams.kstream.SlidingWindows.toString@POLYN188396 the MagicNumber/String  '}' should be converted to const"
+ , "c1" : "00199"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#199"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00199] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#107"
+ , "c1" : "00203"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#203"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00203] The same method call o.getClass() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00201"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#201"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.streams.kstream.SessionWindows.equals@POLYN193766 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00203"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#203"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.streams.kstream.SessionWindows.equals@POLYN193766 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00204"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#204"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.streams.kstream.SessionWindows.equals@POLYN193766 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00218"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#218"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.streams.kstream.SessionWindows.toString@POLYN194507 the MagicNumber/String  'SessionWindows{' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00219"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#219"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.streams.kstream.SessionWindows.toString@POLYN194507 the MagicNumber/String  'gapMs=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00220"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#220"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.streams.kstream.SessionWindows.toString@POLYN194507 the MagicNumber/String  ', graceMs=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00221"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#221"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.streams.kstream.SessionWindows.toString@POLYN194507 the MagicNumber/String  '}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00107] Public method ofTimeDifferenceWithNoGrace is dealing with none of the public properties of the class. Risk of useless strong coupling"
+ , "c3" : "QC-JAV000003[00110] Public method ofInactivityGapWithNoGrace is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#132"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00132] Public method ofInactivityGapAndGrace is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00151"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#151"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00151] Public method with is dealing with none of the public properties of the class. Risk of useless strong coupling"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.fct.svg" 
 
 , 
 }

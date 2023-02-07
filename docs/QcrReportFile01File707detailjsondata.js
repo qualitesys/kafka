@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00133"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#133"
  , "c1" : "OffsetFetchResponse"
- , "c2" : "OffsetFetchResponse(Errors;Map<TopicPartition,PartitionData>)"
+ , "c2" : "OffsetFetchResponse(Errors;Map&lt;TopicPartition,PartitionData&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00143"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#143"
  , "c1" : "OffsetFetchResponse"
- , "c2" : "OffsetFetchResponse(int;Errors;Map<TopicPartition,PartitionData>)"
+ , "c2" : "OffsetFetchResponse(int;Errors;Map&lt;TopicPartition,PartitionData&gt;)"
  , "c3" : "2"
  , "c4" : "9"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00175"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#175"
  , "c1" : "OffsetFetchResponse"
- , "c2" : "OffsetFetchResponse(int;Map<String,Errors>;Map<String,Map<TopicPartition,PartitionData>>)"
+ , "c2" : "OffsetFetchResponse(int;Map&lt;String,Errors&gt;;Map&lt;String,Map&lt;TopicPartition,PartitionData&gt;&gt;)"
  , "c3" : "3"
  , "c4" : "14"
 }} 
@@ -119,7 +119,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00268"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#268"
- , "c1" : "Map<Errors,Integer>"
+ , "c1" : "Map&lt;Errors,Integer&gt;"
  , "c2" : "errorCounts()"
  , "c3" : "5"
  , "c4" : "6"
@@ -128,7 +128,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00291"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#291"
- , "c1" : "Map<TopicPartition,PartitionData>"
+ , "c1" : "Map&lt;TopicPartition,PartitionData&gt;"
  , "c2" : "responseDataV0ToV7()"
  , "c3" : "3"
  , "c4" : "3"
@@ -137,7 +137,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00306"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#306"
- , "c1" : "Map<TopicPartition,PartitionData>"
+ , "c1" : "Map&lt;TopicPartition,PartitionData&gt;"
  , "c2" : "buildResponseData(String)"
  , "c3" : "3"
  , "c4" : "4"
@@ -146,7 +146,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00327"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchResponse.java.html#327"
- , "c1" : "Map<TopicPartition,PartitionData>"
+ , "c1" : "Map&lt;TopicPartition,PartitionData&gt;"
  , "c2" : "partitionDataMap(String)"
  , "c3" : "2"
  , "c4" : "2"
@@ -211,7 +211,7 @@ var maDataBlocs = {
  , "c2" : "1"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.util.Map.getOrDefault@POLYN441854.return" , "java.util.HashMap.put@POLYN621976.value"]
+ , "c5" : ["java.util.Map.getKey@POLYN435159.return" , "org.apache.kafka.common.requests.OffsetFetchResponse.OffsetFetchResponse@POLYN203706.cibledummy_00203"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -226,17 +226,17 @@ var maDataBlocs = {
  "seq" : "1" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "2"
- , "sourcenoligne" : "[00148]"
- , "c3" : ["java.util.Map.getOrDefault@POLYN441854.return" , "---java.util.Map.getOrDefault@POLYN441854" , "org.apache.kafka.common.requests.OffsetFetchResponse.OffsetFetchResponse@POLYN201826.topic"]
- , "c4" : "//QC-JAVCWE099[00148] In org.apache.kafka.common.requests.OffsetFetchResponse.OffsetFetchResponse@POLYN201826[00148] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
+ , "sourcenoligne" : "[00181]"
+ , "c3" : ["java.util.Map.getKey@POLYN435159.return" , "---java.util.Map.getKey@POLYN435159" , "org.apache.kafka.common.requests.OffsetFetchResponse.OffsetFetchResponse@POLYN203706.groupName"]
+ , "c4" : "//QC-JAVCWE099[00181] In org.apache.kafka.common.requests.OffsetFetchResponse.OffsetFetchResponse@POLYN203706[00181] source data PATHtainted (java.util.Map.get) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "1"
- , "sourcenoligne" : "[00159]"
- , "c3" : ["org.apache.kafka.common.requests.OffsetFetchResponse.OffsetFetchResponse@POLYN201826.topic" , "---java.util.HashMap.put@POLYN621976" , "java.util.HashMap.put@POLYN621976.value"]
- , "c4" : "//QC-JAVCWE099[00159] In org.apache.kafka.common.requests.OffsetFetchResponse.OffsetFetchResponse@POLYN201826[00159] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "sourcenoligne" : "[00203]"
+ , "c3" : ["org.apache.kafka.common.requests.OffsetFetchResponse.OffsetFetchResponse@POLYN203706.groupName" , "---java.util.Map.put@POLYN429794" , "org.apache.kafka.common.requests.OffsetFetchResponse.OffsetFetchResponse@POLYN203706.cibledummy_00203"]
+ , "c4" : "//QC-JAVCWE099[00203] In org.apache.kafka.common.requests.OffsetFetchResponse.OffsetFetchResponse@POLYN203706[00203] target data PATHtainted (java.util.Map.put) RiskOnOutput"
  , "c5" : "input"
 }}
 ,

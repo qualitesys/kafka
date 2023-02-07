@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00061"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/ConfigSynonym.java.html#61"
  , "c1" : "ConfigSynonym"
- , "c2" : "ConfigSynonym(String;Function<String,String>)"
+ , "c2" : "ConfigSynonym(String;Function&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -56,7 +56,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00074"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/ConfigSynonym.java.html#74"
- , "c1" : "Function<String,String>"
+ , "c1" : "Function&lt;String,String&gt;"
  , "c2" : "converter()"
  , "c3" : "1"
  , "c4" : "1"

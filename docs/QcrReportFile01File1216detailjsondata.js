@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00064"
  , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#64"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -93,7 +93,7 @@ var maDataBlocs = {
  , "c5" : "00103"
  , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#103"
  , "c1" : "void"
- , "c2" : "applySchemaless(Map<String,Object>;String;Map<String,Object>)"
+ , "c2" : "applySchemaless(Map&lt;String,Object&gt;;String;Map&lt;String,Object&gt;)"
  , "c3" : "15"
  , "c4" : "12"
 }} 

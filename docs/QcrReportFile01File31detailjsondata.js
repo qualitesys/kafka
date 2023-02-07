@@ -20,8 +20,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00225"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html#225"
- , "c1" : "Map<String,Object>"
- , "c2" : "postProcessParsedConfig(Map<String,Object>)"
+ , "c1" : "Map&lt;String,Object&gt;"
+ , "c2" : "postProcessParsedConfig(Map&lt;String,Object&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00230"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html#230"
  , "c1" : "AdminClientConfig"
- , "c2" : "AdminClientConfig(Map<?,?>)"
+ , "c2" : "AdminClientConfig(Map&lt;?,?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00234"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html#234"
  , "c1" : "AdminClientConfig"
- , "c2" : "AdminClientConfig(Map<?,?>;boolean)"
+ , "c2" : "AdminClientConfig(Map&lt;?,?&gt;;boolean)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00238"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html#238"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "configNames()"
  , "c3" : "1"
  , "c4" : "1"

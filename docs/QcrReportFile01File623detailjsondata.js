@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00052"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ControlledShutdownResponse.java.html#52"
- , "c1" : "Map<Errors,Integer>"
+ , "c1" : "Map&lt;Errors,Integer&gt;"
  , "c2" : "errorCounts()"
  , "c3" : "1"
  , "c4" : "1"
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00070"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ControlledShutdownResponse.java.html#70"
  , "c1" : "ControlledShutdownResponse"
- , "c2" : "prepareResponse(Errors;Set<TopicPartition>)"
+ , "c2" : "prepareResponse(Errors;Set&lt;TopicPartition&gt;)"
  , "c3" : "1"
  , "c4" : "7"
 }} 

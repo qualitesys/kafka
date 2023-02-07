@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java 168 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java 159 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.xml" 
  , "fic3"  : "" 
 }
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00121"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#121"
  , "c1" : "Metrics"
- , "c2" : "Metrics(MetricConfig;List<MetricsReporter>;Time)"
+ , "c2" : "Metrics(MetricConfig;List&lt;MetricsReporter&gt;;Time)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00133"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#133"
  , "c1" : "Metrics"
- , "c2" : "Metrics(MetricConfig;List<MetricsReporter>;Time;MetricsContext)"
+ , "c2" : "Metrics(MetricConfig;List&lt;MetricsReporter&gt;;Time;MetricsContext)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00144"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#144"
  , "c1" : "Metrics"
- , "c2" : "Metrics(MetricConfig;List<MetricsReporter>;Time;boolean)"
+ , "c2" : "Metrics(MetricConfig;List&lt;MetricsReporter&gt;;Time;boolean)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00157"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#157"
  , "c1" : "Metrics"
- , "c2" : "Metrics(MetricConfig;List<MetricsReporter>;Time;boolean;MetricsContext)"
+ , "c2" : "Metrics(MetricConfig;List&lt;MetricsReporter&gt;;Time;boolean;MetricsContext)"
  , "c3" : "4"
  , "c4" : "13"
 }} 
@@ -93,7 +93,7 @@ var maDataBlocs = {
  , "c5" : "00193"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#193"
  , "c1" : "MetricName"
- , "c2" : "metricName(String;String;String;Map<String,String>)"
+ , "c2" : "metricName(String;String;String;Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -129,7 +129,7 @@ var maDataBlocs = {
  , "c5" : "00242"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#242"
  , "c1" : "MetricName"
- , "c2" : "metricName(String;String;Map<String,String>)"
+ , "c2" : "metricName(String;String;Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -138,7 +138,7 @@ var maDataBlocs = {
  , "c5" : "00256"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#256"
  , "c1" : "String"
- , "c2" : "toHtmlTable(String;Iterable<MetricNameTemplate>)"
+ , "c2" : "toHtmlTable(String;Iterable&lt;MetricNameTemplate&gt;)"
  , "c3" : "8"
  , "c4" : "32"
 }} 
@@ -264,7 +264,7 @@ var maDataBlocs = {
  , "c5" : "00507"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#507"
  , "c1" : "void"
- , "c2" : "addMetric(MetricName;MetricConfig;MetricValueProvider<?>)"
+ , "c2" : "addMetric(MetricName;MetricConfig;MetricValueProvider&lt;?&gt;)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -273,7 +273,7 @@ var maDataBlocs = {
  , "c5" : "00527"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#527"
  , "c1" : "void"
- , "c2" : "addMetric(MetricName;MetricValueProvider<?>)"
+ , "c2" : "addMetric(MetricName;MetricValueProvider&lt;?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -282,7 +282,7 @@ var maDataBlocs = {
  , "c5" : "00540"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#540"
  , "c1" : "KafkaMetric"
- , "c2" : "addMetricIfAbsent(MetricName;MetricConfig;MetricValueProvider<?>)"
+ , "c2" : "addMetricIfAbsent(MetricName;MetricConfig;MetricValueProvider&lt;?&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -326,7 +326,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00618"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#618"
- , "c1" : "Map<MetricName,KafkaMetric>"
+ , "c1" : "Map&lt;MetricName,KafkaMetric&gt;"
  , "c2" : "metrics()"
  , "c3" : "1"
  , "c4" : "1"
@@ -335,7 +335,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00622"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#622"
- , "c1" : "List<MetricsReporter>"
+ , "c1" : "List&lt;MetricsReporter&gt;"
  , "c2" : "reporters()"
  , "c3" : "1"
  , "c4" : "1"
@@ -353,7 +353,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00656"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#656"
- , "c1" : "Map<Sensor,List<Sensor>>"
+ , "c1" : "Map&lt;Sensor,List&lt;Sensor&gt;&gt;"
  , "c2" : "childrenSensors()"
  , "c3" : "1"
  , "c4" : "1"
@@ -372,7 +372,7 @@ var maDataBlocs = {
  , "c5" : "00664"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#664"
  , "c1" : "MetricName"
- , "c2" : "metricInstance(MetricNameTemplate;Map<String,String>)"
+ , "c2" : "metricInstance(MetricNameTemplate;Map&lt;String,String&gt;)"
  , "c3" : "2"
  , "c4" : "5"
 }} 
@@ -411,159 +411,6 @@ var maDataBlocs = {
 "data08" : [
 ]
 , 
-"data09a" : [
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File462Seq1.html#seq1"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=462&numSeq=1"
- , "c2" : "1"
- , "c3" : "3"
- , "c4" : "2"
- , "c5" : ["java.util.Map.get@POLYN428707.return" , "java.util.concurrent.ConcurrentHashMap.add@POLYN1669444.e"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File462Seq2.html#seq2"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=462&numSeq=2"
- , "c2" : "2"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.HashMap.get@POLYN618616.return" , "java.util.HashMap.remove@POLYN650962.key"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-]
-,
-"data09b" : [
-{ "sequence" : { 
- "seq" : "1" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "3"
- , "sourcenoligne" : "[00325]"
- , "c3" : ["java.util.Map.get@POLYN428707.return" , "---java.util.Map.get@POLYN428707" , "org.apache.kafka.common.metrics.Metrics.getSensor@POLYN291719.return"]
- , "c4" : "//QC-JAVCWE099[00325] In org.apache.kafka.common.metrics.Metrics.getSensor@POLYN291719[00325] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00411]"
- , "c3" : ["org.apache.kafka.common.metrics.Metrics.getSensor@POLYN291719.return" , "---org.apache.kafka.common.metrics.Metrics.getSensor@POLYN291719" , "org.apache.kafka.common.metrics.Metrics.sensor@POLYN295170.s"]
- , "c4" : ""
- , "c5" : "none"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00418]"
- , "c3" : ["org.apache.kafka.common.metrics.Metrics.sensor@POLYN295170.s" , "---java.util.concurrent.ConcurrentHashMap.add@POLYN1669444" , "java.util.concurrent.ConcurrentHashMap.add@POLYN1669444.e"]
- , "c4" : "//QC-JAVCWE099[00418] In org.apache.kafka.common.metrics.Metrics.sensor@POLYN295170[00418] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "2" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00446]"
- , "c3" : ["java.util.HashMap.get@POLYN618616.return" , "---java.util.HashMap.get@POLYN618616" , "org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN297264.sensor"]
- , "c4" : "//QC-JAVCWE099[00446] In org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN297264[00446] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00455]"
- , "c3" : ["org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN297264.sensor" , "---java.util.HashMap.remove@POLYN650962" , "java.util.HashMap.remove@POLYN650962.key"]
- , "c4" : "//QC-JAVCWE099[00455] In org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN297264[00455] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-]
-, 
-"data10" : [
-]
-, 
 "data11" : [
 ]
 , 
@@ -571,9 +418,9 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN297264.sensor" }
+{ "ligne" :  "R0:org.apache.kafka.common.metrics.Metrics.this" }
 ,
-{ "ligne" :  "R1:org.apache.kafka.common.metrics.Metrics.this" }
+{ "ligne" :  "R1:org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN297264.sensor" }
 ,
 { "ligne" :  "R2:org.apache.kafka.common.metrics.Metrics.addReporter@POLYN303183.reporter" }
 ,
@@ -581,39 +428,6 @@ var maDataBlocs = {
 ]
 ,
 "data12b" : [
-{ "sequence" : { "noseq" : "0" , "pas" : [
-{ "ligne" : "S0:org.apache.kafka.common.metrics.Metrics.ExpireSensorTask.run@POLYN305411" }
-,
-{ "ligne" : "S0:org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN297264 (R0 in line [00449],R1 in line [00450])" }
-,
-{ "ligne" : "S0:java.util.HashMap.get@POLYN618616" }
- ]
- } }
-,
-{ "sequence" : { "noseq" : "1" , "pas" : [
-{ "ligne" : "S1:org.apache.kafka.common.metrics.Metrics.ExpireSensorTask.run@POLYN305411" }
-,
-{ "ligne" : "S1:org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN297264 (R0 in line [00449],R1 in line [00450])" }
-,
-{ "ligne" : "S1:org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN297264 (R0 in line [00449],R1 in line [00450])" }
-,
-{ "ligne" : "S1:java.util.HashMap.get@POLYN618616" }
- ]
- } }
-,
-{ "sequence" : { "noseq" : "2" , "pas" : [
-{ "ligne" : "S2:org.apache.kafka.common.metrics.Metrics.addReporter@POLYN303183 (R1 in line [00576],R2 in line [00576])" }
-,
-{ "ligne" : "S2:java.util.concurrent.ConcurrentHashMap.add@POLYN1669444" }
- ]
- } }
-,
-{ "sequence" : { "noseq" : "3" , "pas" : [
-{ "ligne" : "S3:org.apache.kafka.common.metrics.Metrics.removeReporter@POLYN303539 (R1 in line [00584],R3 in line [00584])" }
-,
-{ "ligne" : "S3:org.apache.kafka.common.metrics.JmxReporter.close@POLYN199541" }
- ]
- } }
 ]
 ,
 "data12c" : [
@@ -622,16 +436,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAVCWE833"
- , "c3" : "Potential deadlock between at least two ressources"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "22"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : { "" : ""
@@ -645,7 +452,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "7"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1633,48 +1440,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN297264.sensor"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.common.metrics.Metrics.this"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.common.metrics.Metrics.addReporter@POLYN303183.reporter"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.common.metrics.Metrics.removeReporter@POLYN303539.reporter"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.Metrics.removeMetric@POLYN302401"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN297264"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.Metrics.sensor@POLYN295170"
 }} 
@@ -1704,56 +1469,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.Metrics.removeMetric@POLYN302401"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.Metrics.close@POLYN307477"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00560"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#560"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00560] In the recursive method org.apache.kafka.common.metrics.Metrics.removeMetric@POLYN302401 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00565"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#565"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00565] In the recursive method org.apache.kafka.common.metrics.Metrics.removeMetric@POLYN302401 the MagicNumber/String 'Error when removing metric from ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00568"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#568"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00568] In the recursive method org.apache.kafka.common.metrics.Metrics.removeMetric@POLYN302401 the MagicNumber/String 'Removed metric named {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00447"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#447"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00447] In the recursive method org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN297264 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00448"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#448"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00448] In the recursive method org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN297264 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00454"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#454"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00454] In the recursive method org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN297264 the MagicNumber/String 'Removed sensor with name {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00462"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#462"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00462] In the recursive method org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN297264 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1817,6 +1540,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#243"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00243] In the recursive method org.apache.kafka.common.metrics.Metrics.metricName@POLYN286803 the MagicNumber/String '' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00560"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#560"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00560] In the recursive method org.apache.kafka.common.metrics.Metrics.removeMetric@POLYN302401 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00565"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#565"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00565] In the recursive method org.apache.kafka.common.metrics.Metrics.removeMetric@POLYN302401 the MagicNumber/String 'Error when removing metric from ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00568"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#568"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00568] In the recursive method org.apache.kafka.common.metrics.Metrics.removeMetric@POLYN302401 the MagicNumber/String 'Removed metric named {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

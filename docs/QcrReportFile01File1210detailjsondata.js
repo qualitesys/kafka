@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00045"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#45"
  , "c1" : "TopicCreation"
- , "c2" : "TopicCreation(boolean;TopicCreationGroup;Map<String,TopicCreationGroup>;Set<String>)"
+ , "c2" : "TopicCreation(boolean;TopicCreationGroup;Map&lt;String,TopicCreationGroup&gt;;Set&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00055"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#55"
  , "c1" : "TopicCreation"
- , "c2" : "newTopicCreation(WorkerConfig;Map<String,TopicCreationGroup>)"
+ , "c2" : "newTopicCreation(WorkerConfig;Map&lt;String,TopicCreationGroup&gt;)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -74,7 +74,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00115"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#115"
- , "c1" : "Map<String,TopicCreationGroup>"
+ , "c1" : "Map&lt;String,TopicCreationGroup&gt;"
  , "c2" : "topicGroups()"
  , "c3" : "1"
  , "c4" : "1"

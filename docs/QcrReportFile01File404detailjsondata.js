@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00047"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/RecordTooLargeException.java.html#47"
  , "c1" : "RecordTooLargeException"
- , "c2" : "RecordTooLargeException(String;Map<TopicPartition,Long>)"
+ , "c2" : "RecordTooLargeException(String;Map&lt;TopicPartition,Long&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -65,7 +65,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00052"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/RecordTooLargeException.java.html#52"
- , "c1" : "Map<TopicPartition,Long>"
+ , "c1" : "Map&lt;TopicPartition,Long&gt;"
  , "c2" : "recordTooLargePartitions()"
  , "c3" : "1"
  , "c4" : "1"

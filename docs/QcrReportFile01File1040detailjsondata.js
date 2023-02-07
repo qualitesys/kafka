@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00042"
  , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/Scheduler.java.html#42"
  , "c1" : "Scheduler"
- , "c2" : "Scheduler(Class<?>;Duration)"
+ , "c2" : "Scheduler(Class&lt;?&gt;;Duration)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

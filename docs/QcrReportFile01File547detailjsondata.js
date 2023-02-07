@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java 81 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java 83 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.xml" 
  , "fic3"  : "" 
 }
@@ -326,7 +326,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00229"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#229"
- , "c1" : "Iterator<Record>"
+ , "c1" : "Iterator&lt;Record&gt;"
  , "c2" : "iterator()"
  , "c3" : "1"
  , "c4" : "1"
@@ -335,7 +335,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00233"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#233"
- , "c1" : "CloseableIterator<Record>"
+ , "c1" : "CloseableIterator&lt;Record&gt;"
  , "c2" : "iterator(BufferSupplier)"
  , "c3" : "3"
  , "c4" : "8"
@@ -344,7 +344,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00264"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#264"
- , "c1" : "CloseableIterator<Record>"
+ , "c1" : "CloseableIterator&lt;Record&gt;"
  , "c2" : "streamingIterator(BufferSupplier)"
  , "c3" : "1"
  , "c4" : "1"
@@ -399,6 +399,15 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -419,6 +428,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1023,6 +1039,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#609"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00609] In method org.apache.kafka.common.record.AbstractLegacyRecordBatch.LegacyFileChannelRecordBatch.isControlBatch@POLYN233296 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.AbstractLegacyRecordBatch.iterator@POLYN218155"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.AbstractLegacyRecordBatch.ensureValid@POLYN213720"
 }} 
 ]
 , 

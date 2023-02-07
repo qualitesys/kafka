@@ -120,7 +120,7 @@ var maDataBlocs = {
  , "c5" : "00120"
  , "c5link" : "././qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#120"
  , "c1" : "KafkaApisBuilder"
- , "c2" : "setAuthorizer(Optional<Authorizer>)"
+ , "c2" : "setAuthorizer(Optional&lt;Authorizer&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 

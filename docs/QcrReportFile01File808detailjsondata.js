@@ -20,8 +20,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00055"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#55"
- , "c1" : "Set<String>"
- , "c2" : "validateScopes(String;Collection<String>)"
+ , "c1" : "Set&lt;String&gt;"
+ , "c2" : "validateScopes(String;Collection&lt;String&gt;)"
  , "c3" : "4"
  , "c4" : "6"
 }} 

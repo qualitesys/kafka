@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java 26 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java 25 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.xml" 
  , "fic3"  : "" 
 }
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00037"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#37"
  , "c1" : "CopyOnWriteMap"
- , "c2" : "CopyOnWriteMap(Map<K,V>)"
+ , "c2" : "CopyOnWriteMap(Map&lt;K,V&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -56,7 +56,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00052"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#52"
- , "c1" : "Set<java.util.Map.Entry<K,V>>"
+ , "c1" : "Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt;"
  , "c2" : "entrySet()"
  , "c3" : "1"
  , "c4" : "1"
@@ -83,7 +83,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00067"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#67"
- , "c1" : "Set<K>"
+ , "c1" : "Set&lt;K&gt;"
  , "c2" : "keySet()"
  , "c3" : "1"
  , "c4" : "1"
@@ -101,7 +101,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00077"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#77"
- , "c1" : "Collection<V>"
+ , "c1" : "Collection&lt;V&gt;"
  , "c2" : "values()"
  , "c3" : "1"
  , "c4" : "1"
@@ -129,7 +129,7 @@ var maDataBlocs = {
  , "c5" : "00095"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#95"
  , "c1" : "void"
- , "c2" : "putAll(Map<?extendsK,?extendsV>)"
+ , "c2" : "putAll(Map&lt;?extendsK,?extendsV&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -210,26 +210,7 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.common.utils.CopyOnWriteMap.this" }
-,
-{ "ligne" :  "R1:org.apache.kafka.common.utils.CopyOnWriteMap.putAll@POLYN160447.entries" }
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
@@ -433,13 +414,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#142"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.common.utils.CopyOnWriteMap.replace@POLYN162709 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.CopyOnWriteMap.put@POLYN159913"
 }} 
 ]
 , 

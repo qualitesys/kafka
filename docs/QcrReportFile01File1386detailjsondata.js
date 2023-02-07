@@ -83,7 +83,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00130"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashSet.java.html#130"
- , "c1" : "Iterator<T>"
+ , "c1" : "Iterator&lt;T&gt;"
  , "c2" : "iterator()"
  , "c3" : "1"
  , "c4" : "1"
@@ -92,7 +92,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00134"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashSet.java.html#134"
- , "c1" : "Iterator<T>"
+ , "c1" : "Iterator&lt;T&gt;"
  , "c2" : "iterator(long)"
  , "c3" : "1"
  , "c4" : "1"
@@ -129,7 +129,7 @@ var maDataBlocs = {
  , "c5" : "00180"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashSet.java.html#180"
  , "c1" : "boolean"
- , "c2" : "containsAll(Collection<?>)"
+ , "c2" : "containsAll(Collection&lt;?&gt;)"
  , "c3" : "3"
  , "c4" : "2"
 }} 
@@ -138,7 +138,7 @@ var maDataBlocs = {
  , "c5" : "00188"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashSet.java.html#188"
  , "c1" : "boolean"
- , "c2" : "addAll(Collection<?extendsT>)"
+ , "c2" : "addAll(Collection&lt;?extendsT&gt;)"
  , "c3" : "3"
  , "c4" : "3"
 }} 
@@ -147,7 +147,7 @@ var maDataBlocs = {
  , "c5" : "00199"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashSet.java.html#199"
  , "c1" : "boolean"
- , "c2" : "retainAll(Collection<?>)"
+ , "c2" : "retainAll(Collection&lt;?&gt;)"
  , "c3" : "3"
  , "c4" : "6"
 }} 
@@ -156,7 +156,7 @@ var maDataBlocs = {
  , "c5" : "00213"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashSet.java.html#213"
  , "c1" : "boolean"
- , "c2" : "removeAll(Collection<?>)"
+ , "c2" : "removeAll(Collection&lt;?&gt;)"
  , "c3" : "3"
  , "c4" : "6"
 }} 

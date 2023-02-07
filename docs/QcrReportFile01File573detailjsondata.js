@@ -218,7 +218,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00239"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatch.java.html#239"
- , "c1" : "CloseableIterator<Record>"
+ , "c1" : "CloseableIterator&lt;Record&gt;"
  , "c2" : "streamingIterator(BufferSupplier)"
  , "c3" : "1"
  , "c4" : "1"

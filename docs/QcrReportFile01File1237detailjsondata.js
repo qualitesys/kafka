@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00056"
  , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#56"
  , "c1" : "LogManagerBuilder"
- , "c2" : "setLogDirs(List<File>)"
+ , "c2" : "setLogDirs(List&lt;File&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00061"
  , "c5link" : "././qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#61"
  , "c1" : "LogManagerBuilder"
- , "c2" : "setInitialOfflineDirs(List<File>)"
+ , "c2" : "setInitialOfflineDirs(List&lt;File&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 

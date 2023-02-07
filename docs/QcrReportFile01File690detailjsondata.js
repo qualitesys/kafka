@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00095"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupRequest.java.html#95"
- , "c1" : "List<MemberIdentity>"
+ , "c1" : "List&lt;MemberIdentity&gt;"
  , "c2" : "members()"
  , "c3" : "1"
  , "c4" : "1"

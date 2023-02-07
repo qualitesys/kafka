@@ -29,8 +29,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00047"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#47"
- , "c1" : "List<InetSocketAddress>"
- , "c2" : "parseAndValidateAddresses(List<String>;String)"
+ , "c1" : "List&lt;InetSocketAddress&gt;"
+ , "c2" : "parseAndValidateAddresses(List&lt;String&gt;;String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -38,8 +38,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00051"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#51"
- , "c1" : "List<InetSocketAddress>"
- , "c2" : "parseAndValidateAddresses(List<String>;ClientDnsLookup)"
+ , "c1" : "List&lt;InetSocketAddress&gt;"
+ , "c2" : "parseAndValidateAddresses(List&lt;String&gt;;ClientDnsLookup)"
  , "c3" : "12"
  , "c4" : "16"
 }} 
@@ -56,7 +56,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00109"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#109"
- , "c1" : "List<InetAddress>"
+ , "c1" : "List&lt;InetAddress&gt;"
  , "c2" : "resolve(String;HostResolver)"
  , "c3" : "2"
  , "c4" : "4"
@@ -65,7 +65,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00124"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#124"
- , "c1" : "List<InetAddress>"
+ , "c1" : "List&lt;InetAddress&gt;"
  , "c2" : "filterPreferredAddresses(InetAddress[])"
  , "c3" : "4"
  , "c4" : "5"
@@ -440,21 +440,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.ClientUtils.resolve@POLYN168674"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.ClientUtils.createChannelBuilder@POLYN168039"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#113"
+ , "c1" : "00105"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#105"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.clients.ClientUtils.resolve@POLYN168674 the MagicNumber/String ',' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.clients.ClientUtils.createChannelBuilder@POLYN168039 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#113"
+ , "c1" : "00106"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#106"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.clients.ClientUtils.resolve@POLYN168674 the MagicNumber/String 'Resolved host {} as {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.clients.ClientUtils.createChannelBuilder@POLYN168039 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
 , 

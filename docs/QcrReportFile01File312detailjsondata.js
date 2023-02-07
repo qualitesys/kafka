@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00042"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#42"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "0"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00081"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#81"
  , "c1" : "ConfigData"
- , "c2" : "get(String;Set<String>)"
+ , "c2" : "get(String;Set&lt;String&gt;)"
  , "c3" : "4"
  , "c4" : "9"
 }} 

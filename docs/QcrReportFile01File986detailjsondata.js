@@ -20,7 +20,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00035"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTaskContext.java.html#35"
- , "c1" : "Map<String,String>"
+ , "c1" : "Map&lt;String,String&gt;"
  , "c2" : "configs()"
  , "c3" : "1"
  , "c4" : "1"

@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00057"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#57"
  , "c1" : "void"
- , "c2" : "set(long;long;Function<Integer,RuntimeException>)"
+ , "c2" : "set(long;long;Function&lt;Integer,RuntimeException&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 

@@ -56,7 +56,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00063"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/header/Headers.java.html#63"
- , "c1" : "Iterable<Header>"
+ , "c1" : "Iterable&lt;Header&gt;"
  , "c2" : "headers(String)"
  , "c3" : "1"
  , "c4" : "1"

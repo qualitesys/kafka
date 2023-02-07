@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java 545 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java 550 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.xml" 
  , "fic3"  : "" 
 }
@@ -56,8 +56,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00206"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#206"
- , "c1" : "Map<String,ByteBuffer>"
- , "c2" : "onLeaderElected(String;String;List<JoinGroupResponseData.JoinGroupResponseMember>;boolean)"
+ , "c1" : "Map&lt;String,ByteBuffer&gt;"
+ , "c2" : "onLeaderElected(String;String;List&lt;JoinGroupResponseData.JoinGroupResponseMember&gt;;boolean)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -92,7 +92,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00283"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#283"
- , "c1" : "RequestFuture<Void>"
+ , "c1" : "RequestFuture&lt;Void&gt;"
  , "c2" : "lookupCoordinator()"
  , "c3" : "4"
  , "c4" : "5"
@@ -191,7 +191,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00507"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#507"
- , "c1" : "RequestFuture<ByteBuffer>"
+ , "c1" : "RequestFuture&lt;ByteBuffer&gt;"
  , "c2" : "initiateJoinGroup()"
  , "c3" : "3"
  , "c4" : "6"
@@ -200,7 +200,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00547"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#547"
- , "c1" : "RequestFuture<ByteBuffer>"
+ , "c1" : "RequestFuture&lt;ByteBuffer&gt;"
  , "c2" : "sendJoinGroupRequest()"
  , "c3" : "2"
  , "c4" : "6"
@@ -209,7 +209,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00692"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#692"
- , "c1" : "RequestFuture<ByteBuffer>"
+ , "c1" : "RequestFuture&lt;ByteBuffer&gt;"
  , "c2" : "onJoinFollower()"
  , "c3" : "1"
  , "c4" : "3"
@@ -218,7 +218,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00709"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#709"
- , "c1" : "RequestFuture<ByteBuffer>"
+ , "c1" : "RequestFuture&lt;ByteBuffer&gt;"
  , "c2" : "onLeaderElected(JoinGroupResponse)"
  , "c3" : "2"
  , "c4" : "7"
@@ -227,7 +227,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00745"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#745"
- , "c1" : "RequestFuture<ByteBuffer>"
+ , "c1" : "RequestFuture&lt;ByteBuffer&gt;"
  , "c2" : "sendSyncGroupRequest(SyncGroupRequest.Builder)"
  , "c3" : "2"
  , "c4" : "2"
@@ -245,7 +245,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00852"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#852"
- , "c1" : "RequestFuture<Void>"
+ , "c1" : "RequestFuture&lt;Void&gt;"
  , "c2" : "sendFindCoordinatorRequest(Node)"
  , "c3" : "1"
  , "c4" : "4"
@@ -434,7 +434,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01103"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1103"
- , "c1" : "RequestFuture<Void>"
+ , "c1" : "RequestFuture&lt;Void&gt;"
  , "c2" : "maybeLeaveGroup(String)"
  , "c3" : "2"
  , "c4" : "7"
@@ -452,7 +452,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01158"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1158"
- , "c1" : "RequestFuture<Void>"
+ , "c1" : "RequestFuture&lt;Void&gt;"
  , "c2" : "sendHeartbeatRequest()"
  , "c3" : "1"
  , "c4" : "3"
@@ -579,23 +579,39 @@ var maDataBlocs = {
 ,
 { "ligne" :  "R3:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN418495.error" }
 ,
-{ "ligne" :  "R4:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN421470.reason" }
+{ "ligne" :  "R4:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin@POLYN422501.shortReason" }
 ,
-{ "ligne" :  "R5:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN421470.shouldResetMemberId" }
+{ "ligne" :  "R5:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin@POLYN422809.shortReason" }
 ,
-{ "ligne" :  "R6:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN420771.reason" }
+{ "ligne" :  "R6:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin@POLYN422809.fullReason" }
 ,
-{ "ligne" :  "R7:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN420771.shouldResetMemberId" }
+{ "ligne" :  "R7:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN421470.reason" }
 ,
-{ "ligne" :  "R8:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN421768.api" }
+{ "ligne" :  "R8:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN421470.shouldResetMemberId" }
 ,
-{ "ligne" :  "R9:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN421768.error" }
+{ "ligne" :  "R9:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN420771.reason" }
 ,
-{ "ligne" :  "R10:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN421768.shouldResetMemberId" }
+{ "ligne" :  "R10:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN420771.shouldResetMemberId" }
 ,
-{ "ligne" :  "R11:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.pollHeartbeat@POLYN391767.now" }
+{ "ligne" :  "R11:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN421768.api" }
 ,
-{ "ligne" :  "R12:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN418694.cause" }
+{ "ligne" :  "R12:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN421768.error" }
+,
+{ "ligne" :  "R13:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN421768.shouldResetMemberId" }
+,
+{ "ligne" :  "R14:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN418694.cause" }
+,
+{ "ligne" :  "R15:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoinIfNecessary@POLYN422246.shortReason" }
+,
+{ "ligne" :  "R16:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoinIfNecessary@POLYN422246.fullReason" }
+,
+{ "ligne" :  "R17:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.pollHeartbeat@POLYN391767.now" }
+,
+{ "ligne" :  "R18:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.setLastRebalanceTime@POLYN446661.timestamp" }
+,
+{ "ligne" :  "R19:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.setNewGeneration@POLYN447471.generation" }
+,
+{ "ligne" :  "R20:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.setNewState@POLYN447606.state" }
 ]
 ,
 "data12b" : [
@@ -610,9 +626,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S0:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN418849 (R0 in line [00947],R1 in line [00947],R2 in line [00947])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN418849 (R0 in line [00947],R1 in line [00947],R2 in line [00947])" }
-,
-{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.disconnectAsync@POLYN263297" }
+{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN418849.dummymethode_00949" }
  ]
  } }
 ,
@@ -622,53 +636,119 @@ var maDataBlocs = {
 { "ligne" : "S1:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.JoinGroupResponseHandler.handle@POLYN400605" }
 ,
 { "ligne" : "S1:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN418495 (R0 in line [00939],R3 in line [00939])" }
+,
+{ "ligne" : "S1:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN418495.dummymethode_00940" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "2" , "pas" : [
-{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureActiveGroup@POLYN393086" }
+{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatResponseHandler.handle@POLYN428102" }
 ,
-{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN394710" }
+{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatResponseHandler.handle@POLYN428102" }
 ,
-{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN421470 (R0 in line [01017],R4 in line [01017],R5 in line [01017])" }
+{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin@POLYN422501 (R0 in line [01039],R4 in line [01039])" }
 ,
-{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN420771 (R0 in line [01004],R6 in line [01004],R7 in line [01004])" }
+{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin@POLYN422809 (R0 in line [01050],R5 in line [01050],R6 in line [01050])" }
+,
+{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin@POLYN422809 (R0 in line [01050],R5 in line [01050],R6 in line [01050])" }
+,
+{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin@POLYN422809.dummymethode_01053" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "3" , "pas" : [
-{ "ligne" : "S3:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN421768 (R0 in line [01023],R8 in line [01023],R9 in line [01023],R10 in line [01023])" }
+{ "ligne" : "S3:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.ensureActiveGroup@POLYN393086" }
 ,
-{ "ligne" : "S3:java.lang.String.format@POLYN907077" }
+{ "ligne" : "S3:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.joinGroupIfNeeded@POLYN394710" }
+,
+{ "ligne" : "S3:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN421470 (R0 in line [01017],R7 in line [01017],R8 in line [01017])" }
+,
+{ "ligne" : "S3:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN420771 (R0 in line [01004],R9 in line [01004],R10 in line [01004])" }
+,
+{ "ligne" : "S3:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN420771.dummymethode_01005" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "4" , "pas" : [
-{ "ligne" : "S4:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.pollHeartbeat@POLYN391767 (R0 in line [00322],R11 in line [00322])" }
+{ "ligne" : "S4:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN421768 (R0 in line [01023],R11 in line [01023],R12 in line [01023],R13 in line [01023])" }
 ,
-{ "ligne" : "S4:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.failureCause@POLYN440096" }
-,
-{ "ligne" : "S4:java.util.HashMap.get@POLYN618616" }
+{ "ligne" : "S4:java.lang.String.format@POLYN907077" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "5" , "pas" : [
-{ "ligne" : "S5:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN418694 (R0 in line [00943],R12 in line [00943])" }
+{ "ligne" : "S5:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN418694 (R0 in line [00943],R14 in line [00943])" }
 ,
 { "ligne" : "S5:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN418849 (R0 in line [00947],R1 in line [00947],R2 in line [00947])" }
 ,
-{ "ligne" : "S5:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN418849 (R0 in line [00947],R1 in line [00947],R2 in line [00947])" }
-,
-{ "ligne" : "S5:org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.disconnectAsync@POLYN263297" }
+{ "ligne" : "S5:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN418849.dummymethode_00949" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "6" , "pas" : [
-{ "ligne" : "S6:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN421768 (R0 in line [01023],R8 in line [01023],R9 in line [01023],R10 in line [01023])" }
+{ "ligne" : "S6:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoinIfNecessary@POLYN422246 (R0 in line [01032],R15 in line [01032],R16 in line [01032])" }
 ,
-{ "ligne" : "S6:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN421470 (R0 in line [01017],R4 in line [01017],R5 in line [01017])" }
+{ "ligne" : "S6:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin@POLYN422809 (R0 in line [01050],R5 in line [01050],R6 in line [01050])" }
 ,
-{ "ligne" : "S6:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN420771 (R0 in line [01004],R6 in line [01004],R7 in line [01004])" }
+{ "ligne" : "S6:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin@POLYN422809 (R0 in line [01050],R5 in line [01050],R6 in line [01050])" }
+,
+{ "ligne" : "S6:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin@POLYN422809.dummymethode_01053" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "7" , "pas" : [
+{ "ligne" : "S7:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.pollHeartbeat@POLYN391767 (R0 in line [00322],R17 in line [00322])" }
+,
+{ "ligne" : "S7:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatThread.failureCause@POLYN440096" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "8" , "pas" : [
+{ "ligne" : "S8:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.setLastRebalanceTime@POLYN446661 (R0 in line [01592],R18 in line [01592])" }
+,
+{ "ligne" : "S8:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.setLastRebalanceTime@POLYN446661.dummymethode_01593" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "9" , "pas" : [
+{ "ligne" : "S9:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.setNewGeneration@POLYN447471 (R0 in line [01617],R19 in line [01617])" }
+,
+{ "ligne" : "S9:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.setNewGeneration@POLYN447471.dummymethode_01618" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "10" , "pas" : [
+{ "ligne" : "S10:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.setNewState@POLYN447606 (R0 in line [01621],R20 in line [01621])" }
+,
+{ "ligne" : "S10:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.setNewState@POLYN447606.dummymethode_01622" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "11" , "pas" : [
+{ "ligne" : "S11:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.closeHeartbeatThread@POLYN393638 (R0 in line [00383])" }
+,
+{ "ligne" : "S11:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close@POLYN423414" }
+,
+{ "ligne" : "S11:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.close@POLYN423606 (R0 in line [01078])" }
+,
+{ "ligne" : "S11:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.checkAndGetCoordinator@POLYN418040 (R0 in line [00926])" }
+,
+{ "ligne" : "S11:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN418849 (R0 in line [00947],R1 in line [00947],R2 in line [00947])" }
+,
+{ "ligne" : "S11:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN418849 (R0 in line [00947],R1 in line [00947],R2 in line [00947])" }
+,
+{ "ligne" : "S11:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN418849.dummymethode_00949" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "12" , "pas" : [
+{ "ligne" : "S12:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN421768 (R0 in line [01023],R11 in line [01023],R12 in line [01023],R13 in line [01023])" }
+,
+{ "ligne" : "S12:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN421470 (R0 in line [01017],R7 in line [01017],R8 in line [01017])" }
+,
+{ "ligne" : "S12:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN420771 (R0 in line [01004],R9 in line [01004],R10 in line [01004])" }
+,
+{ "ligne" : "S12:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN420771.dummymethode_01005" }
  ]
  } }
 ]
@@ -681,7 +761,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAVCWE833"
  , "c3" : "Potential deadlock between at least two ressources"
- , "c4" : "13"
+ , "c4" : "21"
 }}
 ,
 { "ligne" : { "" : ""
@@ -709,7 +789,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "121"
+ , "c4" : "120"
 }}
 ,
 { "ligne" : { "" : ""
@@ -723,7 +803,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "22"
+ , "c4" : "20"
 }}
 ,
 { "ligne" : { "" : ""
@@ -3441,63 +3521,119 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R4 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN421470.reason"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R4 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin@POLYN422501.shortReason"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R5 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN421470.shouldResetMemberId"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R5 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin@POLYN422809.shortReason"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R6 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN420771.reason"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R6 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoin@POLYN422809.fullReason"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R7 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN420771.shouldResetMemberId"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R7 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN421470.reason"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R8 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN421768.api"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R8 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndRejoin@POLYN421470.shouldResetMemberId"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R9 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN421768.error"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R9 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN420771.reason"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R10 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN421768.shouldResetMemberId"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R10 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateAndGeneration@POLYN420771.shouldResetMemberId"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R11 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.pollHeartbeat@POLYN391767.now"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R11 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN421768.api"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R12 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN418694.cause"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R12 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN421768.error"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R13 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.resetStateOnResponseError@POLYN421768.shouldResetMemberId"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R14 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.markCoordinatorUnknown@POLYN418694.cause"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R15 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoinIfNecessary@POLYN422246.shortReason"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R16 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.requestRejoinIfNecessary@POLYN422246.fullReason"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R17 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.pollHeartbeat@POLYN391767.now"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R18 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.setLastRebalanceTime@POLYN446661.timestamp"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R19 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.setNewGeneration@POLYN447471.generation"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R20 : org.apache.kafka.clients.consumer.internals.AbstractCoordinator.setNewState@POLYN447606.state"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3700,6 +3836,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN409784"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.onJoinFollower@POLYN406425"
 }} 
 ,
@@ -3707,28 +3850,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.timeToNextHeartbeat@POLYN392361"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onFailure@POLYN417217"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN415216"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN409784"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4376,83 +4498,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00701"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#701"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00701] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.onJoinFollower@POLYN406425 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00705"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#705"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00705] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.onJoinFollower@POLYN406425 the MagicNumber/String 'Sending follower SyncGroup to coordinator {}: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00901"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#901"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00901] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onFailure@POLYN417217 the MagicNumber/String 'FindCoordinator request failed due to {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00867"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#867"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00867] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN415216 the MagicNumber/String 'Received FindCoordinator response {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00870"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#870"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00870] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN415216 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00871"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#871"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00871] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN415216 the MagicNumber/String 'Group coordinator lookup failed: Invalid response containing more than a single coordinator' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00872"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#872"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00872] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN415216 the MagicNumber/String 'Group coordinator lookup failed: Invalid response containing more than a single coordinator' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00874"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#874"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00874] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN415216 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00886"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#886"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00886] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN415216 the MagicNumber/String 'Discovered group coordinator {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00890"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#890"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00890] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN415216 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00894"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#894"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00894] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN415216 the MagicNumber/String 'Group coordinator lookup failed: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00768"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#768"
  , "c2" : "BLOCKER"
@@ -4576,6 +4621,76 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#841"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00841] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.SyncGroupResponseHandler.handle@POLYN409784 the MagicNumber/String 'Unexpected error from SyncGroup: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00701"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#701"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00701] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.onJoinFollower@POLYN406425 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00705"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#705"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00705] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.onJoinFollower@POLYN406425 the MagicNumber/String 'Sending follower SyncGroup to coordinator {}: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00867"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#867"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00867] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN415216 the MagicNumber/String 'Received FindCoordinator response {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00870"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#870"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00870] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN415216 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00871"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#871"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00871] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN415216 the MagicNumber/String 'Group coordinator lookup failed: Invalid response containing more than a single coordinator' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00872"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#872"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00872] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN415216 the MagicNumber/String 'Group coordinator lookup failed: Invalid response containing more than a single coordinator' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00874"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#874"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00874] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN415216 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00886"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#886"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00886] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN415216 the MagicNumber/String 'Discovered group coordinator {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00890"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#890"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00890] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN415216 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00894"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#894"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00894] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractCoordinator.FindCoordinatorResponseHandler.onSuccess@POLYN415216 the MagicNumber/String 'Group coordinator lookup failed: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

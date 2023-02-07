@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00042"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html#42"
- , "c1" : "Map<ConfigResource,ConfigurationDelta>"
+ , "c1" : "Map&lt;ConfigResource,ConfigurationDelta&gt;"
  , "c2" : "changes()"
  , "c3" : "1"
  , "c4" : "1"

@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00028"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/OptionalStringComparator.java.html#28"
  , "c1" : "int"
- , "c2" : "compare(Optional<String>;Optional<String>)"
+ , "c2" : "compare(Optional&lt;String&gt;;Optional&lt;String&gt;)"
  , "c3" : "6"
  , "c4" : "4"
 }} 

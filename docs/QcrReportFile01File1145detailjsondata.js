@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00040"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#40"
  , "c1" : "ConfigKeyInfo"
- , "c2" : "ConfigKeyInfo(String;String;boolean;String;String;String;String;int;String;String;List<String>)"
+ , "c2" : "ConfigKeyInfo(String;String;boolean;String;String;String;String;int;String;String;List&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "11"
 }} 
@@ -119,7 +119,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00115"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ConfigKeyInfo.java.html#115"
- , "c1" : "List<String>"
+ , "c1" : "List&lt;String&gt;"
  , "c2" : "dependents()"
  , "c3" : "1"
  , "c4" : "1"

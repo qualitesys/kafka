@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.Long.java.html" 
- , "texte" : "File secujava/java.lang.Long.java 255 rule violations " 
+ , "texte" : "File secujava/java.lang.Long.java 252 rule violations " 
  , "fic2"  : "./qc/secujava/java.lang.Long.java.xml" 
  , "fic3"  : "" 
 }
@@ -422,7 +422,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "13"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : { "" : ""
@@ -436,7 +436,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "10"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2097,13 +2097,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Long.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Long.toString@POLYN432704"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Long.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Long.bitCount@POLYN447235"
 }} 
 ,
@@ -2147,13 +2140,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Long.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Long.longValue@POLYN431927"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Long.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Long.parseLong@POLYN422348"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2245,13 +2231,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Long.java.html#780"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00780] In the recursive method java.lang.Long.hashCode@POLYN433177 the MagicNumber/String 32 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00483"
- , "c1link" : "./qc/secujava/java.lang.Long.java.html#483"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00483] In the recursive method java.lang.Long.parseLong@POLYN422348 the MagicNumber/String 10 MUST BE CONVERTED to const"
 }} 
 ]
 , 

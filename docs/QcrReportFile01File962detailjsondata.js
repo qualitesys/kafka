@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java 102 rule violations " 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java 103 rule violations " 
  , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.xml" 
  , "fic3"  : "" 
 }
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00054"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#54"
  , "c1" : "ConnectHeaders"
- , "c2" : "ConnectHeaders(Iterable<Header>)"
+ , "c2" : "ConnectHeaders(Iterable&lt;Header&gt;)"
  , "c3" : "6"
  , "c4" : "6"
 }} 
@@ -183,7 +183,7 @@ var maDataBlocs = {
  , "c5" : "00161"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#161"
  , "c1" : "Headers"
- , "c2" : "addList(String;List<?>;Schema)"
+ , "c2" : "addList(String;List&lt;?&gt;;Schema)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -192,7 +192,7 @@ var maDataBlocs = {
  , "c5" : "00170"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#170"
  , "c1" : "Headers"
- , "c2" : "addMap(String;Map<?,?>;Schema)"
+ , "c2" : "addMap(String;Map&lt;?,?&gt;;Schema)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -254,7 +254,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00241"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#241"
- , "c1" : "Iterator<Header>"
+ , "c1" : "Iterator&lt;Header&gt;"
  , "c2" : "allWithName(String)"
  , "c3" : "1"
  , "c4" : "1"
@@ -263,7 +263,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00246"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#246"
- , "c1" : "Iterator<Header>"
+ , "c1" : "Iterator&lt;Header&gt;"
  , "c2" : "iterator()"
  , "c3" : "1"
  , "c4" : "1"
@@ -422,7 +422,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1173,14 +1173,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.header.ConnectHeaders.apply@POLYN222455"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.header.ConnectHeaders.add@POLYN210852"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00326"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#326"
+ , "c1" : "00092"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#92"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00326] In the recursive method org.apache.kafka.connect.header.ConnectHeaders.apply@POLYN222455 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00092] In the recursive method org.apache.kafka.connect.header.ConnectHeaders.add@POLYN210852 the MagicNumber/String 'Unable to add a null header.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#93"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.connect.header.ConnectHeaders.add@POLYN210852 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -1,99 +1,189 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java 20 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.processor.internals.InternalTopicConfig"
+ , "c1" : "ProcessorContext"
+ , "c2" : "org.apache.kafka.streams.processor.internals.InternalProcessorContext"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.processor.internals.InternalTopicConfig" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.processor.internals.InternalProcessorContext" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#43"
- , "c1" : "InternalTopicConfig"
- , "c2" : "InternalTopicConfig(String;Map<String,String>)"
+ , "c5" : "00048"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#48"
+ , "c1" : "StreamsMetricsImpl"
+ , "c2" : "metrics()"
  , "c3" : "1"
- , "c4" : "4"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#50"
- , "c1" : "InternalTopicConfig"
- , "c2" : "InternalTopicConfig(String;Map<String,String>;int;boolean)"
+ , "c5" : "00053"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#53"
+ , "c1" : "void"
+ , "c2" : "setSystemTimeMs(long)"
  , "c3" : "1"
- , "c4" : "6"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00059"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#59"
+ , "c1" : "ProcessorRecordContext"
+ , "c2" : "recordContext()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00064"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#64"
+ , "c1" : "void"
+ , "c2" : "setRecordContext(ProcessorRecordContext)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00069"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#69"
- , "c1" : "Map<String,String>"
- , "c2" : "getProperties(Map<String,String>;long)"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#69"
+ , "c1" : "void"
+ , "c2" : "setCurrentNode(ProcessorNode&lt;?,?,?,?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00071"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#71"
- , "c1" : "boolean"
- , "c2" : "hasEnforcedNumberOfPartitions()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#75"
- , "c1" : "String"
- , "c2" : "name()"
+ , "c5" : "00074"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#74"
+ , "c1" : "ProcessorNode&lt;?,?,?,?&gt;"
+ , "c2" : "currentNode()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00079"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#79"
- , "c1" : "Optional<Integer>"
- , "c2" : "numberOfPartitions()"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#79"
+ , "c1" : "ThreadCache"
+ , "c2" : "cache()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00083"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#83"
+ , "c5" : "00084"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#84"
  , "c1" : "void"
- , "c2" : "setNumberOfPartitions(int)"
- , "c3" : "2"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00094"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#94"
- , "c1" : "void"
- , "c2" : "validateNumberOfPartitions(int)"
- , "c3" : "2"
+ , "c2" : "initialize()"
+ , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00101"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#101"
+ , "c5" : "00089"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#89"
+ , "c1" : "void"
+ , "c2" : "uninitialize()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00127"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#127"
+ , "c1" : "TaskType"
+ , "c2" : "taskType()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00127"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#127"
+ , "c1" : "void"
+ , "c2" : "transitionToActive(StreamTask;RecordCollector;ThreadCache)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00127"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#127"
+ , "c1" : "void"
+ , "c2" : "transitionToStandby(ThreadCache)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00127"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#127"
+ , "c1" : "void"
+ , "c2" : "registerCacheFlushListener(String;DirtyEntryFlushListener)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00127"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#127"
+ , "c1" : "void"
+ , "c2" : "logChange(String;Bytes;byte[];long;Position)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00127"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#127"
  , "c1" : "String"
- , "c2" : "toString()"
+ , "c2" : "changelogFor(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00127"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#127"
+ , "c1" : "void"
+ , "c2" : "addProcessorMetadataKeyValue(String;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00127"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#127"
+ , "c1" : "Long"
+ , "c2" : "processorMetadataForKey(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00127"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#127"
+ , "c1" : "void"
+ , "c2" : "setProcessorMetadata(ProcessorMetadata)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00127"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.html#127"
+ , "c1" : "ProcessorMetadata"
+ , "c2" : "getProcessorMetadata()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -102,9 +192,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.svg" }
 
 ] 
 , 
@@ -129,173 +219,8 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000003"
- , "c3" : "High risk of strong class coupling"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "15"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "3"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#44"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.InternalTopicConfig@POLYN154668 the MagicNumber/String  'name can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#46"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.InternalTopicConfig@POLYN154668 the MagicNumber/String  'topicConfigs can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#47"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.InternalTopicConfig@POLYN154668 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#54"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.InternalTopicConfig@POLYN155182 the MagicNumber/String  'name can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.InternalTopicConfig@POLYN155182 the MagicNumber/String  'topicConfigs can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#69"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00069] For method getProperties arguments Map&lt;String ,String &gt;  defaultProperties|long  additionalRetentionMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#83"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00083] For method setNumberOfPartitions arguments int  numberOfPartitions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#85"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.setNumberOfPartitions@POLYN156582 the MagicNumber/String  'number of partitions are enforced on topic ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#86"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.setNumberOfPartitions@POLYN156582 the MagicNumber/String  '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#86"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.setNumberOfPartitions@POLYN156582 the MagicNumber/String  ' and can't be altered.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#94"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00094] For method validateNumberOfPartitions arguments int  numberOfPartitions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#95"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.validateNumberOfPartitions@POLYN157038 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#96"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.validateNumberOfPartitions@POLYN157038 the MagicNumber/String  'Number of partitions must be at least 1.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#102"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.toString@POLYN157275 the MagicNumber/String  'InternalTopicConfig(' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#103"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.toString@POLYN157275 the MagicNumber/String  'name=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#104"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.toString@POLYN157275 the MagicNumber/String  ', topicConfigs=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#105"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.toString@POLYN157275 the MagicNumber/String  ', enforceNumberOfPartitions=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.processor.internals.InternalTopicConfig.toString@POLYN157275 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#69"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00069] Public method getProperties is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#79"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000003[00079] Public method numberOfPartitions is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-]
-, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalProcessorContext.java.fct.svg" 
 
 , 
 }

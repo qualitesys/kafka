@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00055"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/expiring/ExpiringCredentialRefreshConfig.java.html#55"
  , "c1" : "ExpiringCredentialRefreshConfig"
- , "c2" : "ExpiringCredentialRefreshConfig(Map<String,?>;boolean)"
+ , "c2" : "ExpiringCredentialRefreshConfig(Map&lt;String,?&gt;;boolean)"
  , "c3" : "1"
  , "c4" : "6"
 }} 

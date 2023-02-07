@@ -1,45 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskSpec.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskSpec.java 2 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskSpec.java.xml" 
+   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskController.java.html" 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskController.java 1 rule violations " 
+ , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskController.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "TaskSpec"
- , "c2" : "org.apache.kafka.trogdor.task.NoOpTaskSpec"
+ , "c1" : "TaskController"
+ , "c2" : "org.apache.kafka.trogdor.task.NoOpTaskController"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.task.NoOpTaskSpec" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.trogdor.task.NoOpTaskController" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskSpec.java.html#30"
- , "c1" : "NoOpTaskSpec"
- , "c2" : "NoOpTaskSpec(long;long)"
+ , "c5" : "00029"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskController.java.html#29"
+ , "c1" : "NoOpTaskController"
+ , "c2" : "NoOpTaskController()"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "0"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00036"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskSpec.java.html#36"
- , "c1" : "TaskController"
- , "c2" : "newController(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskSpec.java.html#41"
- , "c1" : "TaskWorker"
- , "c2" : "newTaskWorker(String)"
+ , "c5" : "00033"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskController.java.html#33"
+ , "c1" : "Set&lt;String&gt;"
+ , "c2" : "targetNodes(Topology)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskSpec.java.png" 
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskController.java.png" 
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskSpec.java.svg" }
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskController.java.svg" }
 
 ] 
 , 
@@ -80,28 +71,21 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00036"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskSpec.java.html#36"
+ , "c1" : "00033"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskController.java.html#33"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method newController arguments String  id"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskSpec.java.html#41"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method newTaskWorker arguments String  id"
+ , "c3" : "QC-JAV000006[00033] For method targetNodes arguments Topology  topology"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskSpec.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskController.java.fct.svg" 
 
 , 
 }

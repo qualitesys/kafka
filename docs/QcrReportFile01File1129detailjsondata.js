@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java 82 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java 79 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.xml" 
  , "fic3"  : "" 
 }
@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00110"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#110"
  , "c1" : "DelegatingClassLoader"
- , "c2" : "DelegatingClassLoader(List<String>;ClassLoader)"
+ , "c2" : "DelegatingClassLoader(List&lt;String&gt;;ClassLoader)"
  , "c3" : "1"
  , "c4" : "13"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00126"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#126"
  , "c1" : "DelegatingClassLoader"
- , "c2" : "DelegatingClassLoader(List<String>)"
+ , "c2" : "DelegatingClassLoader(List&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00135"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#135"
- , "c1" : "Set<PluginDesc<Connector>>"
+ , "c1" : "Set&lt;PluginDesc&lt;Connector&gt;&gt;"
  , "c2" : "connectors()"
  , "c3" : "1"
  , "c4" : "3"
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00141"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#141"
- , "c1" : "Set<PluginDesc<SinkConnector>>"
+ , "c1" : "Set&lt;PluginDesc&lt;SinkConnector&gt;&gt;"
  , "c2" : "sinkConnectors()"
  , "c3" : "1"
  , "c4" : "1"
@@ -56,7 +56,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00145"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#145"
- , "c1" : "Set<PluginDesc<SourceConnector>>"
+ , "c1" : "Set&lt;PluginDesc&lt;SourceConnector&gt;&gt;"
  , "c2" : "sourceConnectors()"
  , "c3" : "1"
  , "c4" : "1"
@@ -65,7 +65,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00149"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#149"
- , "c1" : "Set<PluginDesc<Converter>>"
+ , "c1" : "Set&lt;PluginDesc&lt;Converter&gt;&gt;"
  , "c2" : "converters()"
  , "c3" : "1"
  , "c4" : "1"
@@ -74,7 +74,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00153"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#153"
- , "c1" : "Set<PluginDesc<HeaderConverter>>"
+ , "c1" : "Set&lt;PluginDesc&lt;HeaderConverter&gt;&gt;"
  , "c2" : "headerConverters()"
  , "c3" : "1"
  , "c4" : "1"
@@ -83,7 +83,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00157"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#157"
- , "c1" : "Set<PluginDesc<Transformation<?>>>"
+ , "c1" : "Set&lt;PluginDesc&lt;Transformation&lt;?&gt;&gt;&gt;"
  , "c2" : "transformations()"
  , "c3" : "1"
  , "c4" : "1"
@@ -92,7 +92,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00161"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#161"
- , "c1" : "Set<PluginDesc<Predicate<?>>>"
+ , "c1" : "Set&lt;PluginDesc&lt;Predicate&lt;?&gt;&gt;&gt;"
  , "c2" : "predicates()"
  , "c3" : "1"
  , "c4" : "1"
@@ -101,7 +101,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00165"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#165"
- , "c1" : "Set<PluginDesc<ConfigProvider>>"
+ , "c1" : "Set&lt;PluginDesc&lt;ConfigProvider&gt;&gt;"
  , "c2" : "configProviders()"
  , "c3" : "1"
  , "c4" : "1"
@@ -110,7 +110,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00169"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#169"
- , "c1" : "Set<PluginDesc<ConnectRestExtension>>"
+ , "c1" : "Set&lt;PluginDesc&lt;ConnectRestExtension&gt;&gt;"
  , "c2" : "restExtensions()"
  , "c3" : "1"
  , "c4" : "1"
@@ -119,7 +119,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00173"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#173"
- , "c1" : "Set<PluginDesc<ConnectorClientConfigOverridePolicy>>"
+ , "c1" : "Set&lt;PluginDesc&lt;ConnectorClientConfigOverridePolicy&gt;&gt;"
  , "c2" : "connectorClientConfigPolicies()"
  , "c3" : "1"
  , "c4" : "1"
@@ -218,7 +218,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00379"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#379"
- , "c1" : "Collection<PluginDesc<Predicate<?>>>"
+ , "c1" : "Collection&lt;PluginDesc&lt;Predicate&lt;?&gt;&gt;&gt;"
  , "c2" : "getPredicatePluginDesc(ClassLoader;Reflections)"
  , "c3" : "1"
  , "c4" : "1"
@@ -227,7 +227,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00384"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#384"
- , "c1" : "Collection<PluginDesc<Transformation<?>>>"
+ , "c1" : "Collection&lt;PluginDesc&lt;Transformation&lt;?&gt;&gt;&gt;"
  , "c2" : "getTransformationPluginDesc(ClassLoader;Reflections)"
  , "c3" : "1"
  , "c4" : "1"
@@ -236,7 +236,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00445"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#445"
- , "c1" : "Class<?>"
+ , "c1" : "Class&lt;?&gt;"
  , "c2" : "loadClass(String;boolean)"
  , "c3" : "2"
  , "c4" : "5"
@@ -263,7 +263,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00520"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#520"
- , "c1" : "Enumeration<URL>"
+ , "c1" : "Enumeration&lt;URL&gt;"
  , "c2" : "getResources(String)"
  , "c3" : "3"
  , "c4" : "2"
@@ -323,7 +323,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "14"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : { "" : ""
@@ -337,7 +337,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "5"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -840,13 +840,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.InternalReflections.scan@POLYN247734"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00299"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#299"
  , "c2" : "BLOCKER"
@@ -928,20 +921,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#271"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00271] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.initPluginLoader@POLYN233731 the MagicNumber/String 'Could not instantiate plugins in: {}. Ignoring.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00501"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#501"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00501] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.InternalReflections.scan@POLYN247734 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00502"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#502"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00502] In the recursive method org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader.InternalReflections.scan@POLYN247734 the MagicNumber/String 'could not create Vfs.Dir from url. ignoring the exception and continuing' MUST BE CONVERTED to const"
 }} 
 ]
 , 

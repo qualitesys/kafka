@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00029"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ActiveTopicsInfo.java.html#29"
  , "c1" : "ActiveTopicsInfo"
- , "c2" : "ActiveTopicsInfo(String;Collection<String>)"
+ , "c2" : "ActiveTopicsInfo(String;Collection&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00039"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/ActiveTopicsInfo.java.html#39"
- , "c1" : "Collection<String>"
+ , "c1" : "Collection&lt;String&gt;"
  , "c2" : "topics()"
  , "c3" : "1"
  , "c4" : "1"

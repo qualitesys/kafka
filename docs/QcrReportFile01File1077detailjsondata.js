@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00084"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#84"
  , "c1" : "SinkConnectorConfig"
- , "c2" : "SinkConnectorConfig(Plugins;Map<String,String>)"
+ , "c2" : "SinkConnectorConfig(Plugins;Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00092"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#92"
  , "c1" : "void"
- , "c2" : "validate(Map<String,String>)"
+ , "c2" : "validate(Map&lt;String,String&gt;)"
  , "c3" : "8"
  , "c4" : "11"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00127"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#127"
  , "c1" : "boolean"
- , "c2" : "hasTopicsConfig(Map<String,String>)"
+ , "c2" : "hasTopicsConfig(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00132"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#132"
  , "c1" : "boolean"
- , "c2" : "hasTopicsRegexConfig(Map<String,String>)"
+ , "c2" : "hasTopicsRegexConfig(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00137"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#137"
  , "c1" : "boolean"
- , "c2" : "hasDlqTopicConfig(Map<String,String>)"
+ , "c2" : "hasDlqTopicConfig(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -74,8 +74,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00143"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#143"
- , "c1" : "List<String>"
- , "c2" : "parseTopicsList(Map<String,String>)"
+ , "c1" : "List&lt;String&gt;"
+ , "c2" : "parseTopicsList(Map&lt;String,String&gt;)"
  , "c3" : "2"
  , "c4" : "3"
 }} 

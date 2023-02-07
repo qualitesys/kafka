@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00051"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#51"
  , "c1" : "ConnectRecord"
- , "c2" : "ConnectRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>)"
+ , "c2" : "ConnectRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable&lt;Header&gt;)"
  , "c3" : "3"
  , "c4" : "9"
 }} 
@@ -120,7 +120,7 @@ var maDataBlocs = {
  , "c5" : "00135"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/ConnectRecord.java.html#135"
  , "c1" : "R"
- , "c2" : "newRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>)"
+ , "c2" : "newRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable&lt;Header&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

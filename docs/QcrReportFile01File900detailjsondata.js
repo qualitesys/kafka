@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00030"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/FlattenedIterator.java.html#30"
  , "c1" : "FlattenedIterator"
- , "c2" : "FlattenedIterator(Iterator<O>;Function<O,Iterator<I>>)"
+ , "c2" : "FlattenedIterator(Iterator&lt;O&gt;;Function&lt;O,Iterator&lt;I&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 

@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00064"
  , "c5link" : "././qc/secujava/java.lang.Object.java.html#64"
- , "c1" : "Class<?>"
+ , "c1" : "Class&lt;?&gt;"
  , "c2" : "getClass()"
  , "c3" : "1"
  , "c4" : "1"

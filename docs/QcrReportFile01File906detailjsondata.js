@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00075"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#75"
  , "c1" : "Object"
- , "c2" : "createSignalHandler(Map<String,Object>)"
+ , "c2" : "createSignalHandler(Map&lt;String,Object&gt;)"
  , "c3" : "2"
  , "c4" : "9"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00100"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#100"
  , "c1" : "void"
- , "c2" : "register(String;Map<String,Object>)"
+ , "c2" : "register(String;Map&lt;String,Object&gt;)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -254,7 +254,7 @@ var maDataBlocs = {
  , "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#100"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00100] For method register list of called methods Object monObjet|java.lang.Object createSignalHandlerN161216"
+ , "c3" : "QC-JAV000007[00100] For method register list of called methods Object monObjet|T signalConstructor_newInstanceN161122|java.lang.Object createSignalHandlerN161216"
 }} 
 ,
 { "ligne" : {"" : ""

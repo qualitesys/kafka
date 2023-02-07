@@ -20,7 +20,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00024"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/EpochState.java.html#24"
- , "c1" : "Optional<LogOffsetMetadata>"
+ , "c1" : "Optional&lt;LogOffsetMetadata&gt;"
  , "c2" : "highWatermark()"
  , "c3" : "1"
  , "c4" : "1"

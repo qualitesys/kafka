@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00033"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListPartitionReassignmentsResult.java.html#33"
  , "c1" : "ListPartitionReassignmentsResult"
- , "c2" : "ListPartitionReassignmentsResult(KafkaFuture<Map<TopicPartition,PartitionReassignment>>)"
+ , "c2" : "ListPartitionReassignmentsResult(KafkaFuture&lt;Map&lt;TopicPartition,PartitionReassignment&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00040"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListPartitionReassignmentsResult.java.html#40"
- , "c1" : "KafkaFuture<Map<TopicPartition,PartitionReassignment>>"
+ , "c1" : "KafkaFuture&lt;Map&lt;TopicPartition,PartitionReassignment&gt;&gt;"
  , "c2" : "reassignments()"
  , "c3" : "1"
  , "c4" : "1"

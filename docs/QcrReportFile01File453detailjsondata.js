@@ -20,7 +20,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00029"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/CompoundStat.java.html#29"
- , "c1" : "List<NamedMeasurable>"
+ , "c1" : "List&lt;NamedMeasurable&gt;"
  , "c2" : "stats()"
  , "c3" : "1"
  , "c4" : "1"

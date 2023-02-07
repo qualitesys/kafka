@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00041"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataResponse.java.html#41"
- , "c1" : "Map<Errors,Integer>"
+ , "c1" : "Map&lt;Errors,Integer&gt;"
  , "c2" : "errorCounts()"
  , "c3" : "1"
  , "c4" : "1"

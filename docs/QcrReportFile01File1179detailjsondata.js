@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00093"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#93"
  , "c1" : "void"
- , "c2" : "offset(Map<String,?>;Map<String,?>)"
+ , "c2" : "offset(Map&lt;String,?&gt;;Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -65,8 +65,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00137"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#137"
- , "c1" : "Future<Void>"
- , "c2" : "doFlush(Callback<Void>)"
+ , "c1" : "Future&lt;Void&gt;"
+ , "c2" : "doFlush(Callback&lt;Void&gt;)"
  , "c3" : "3"
  , "c4" : "19"
 }} 
@@ -122,6 +122,10 @@ var maDataBlocs = {
 , 
 "data12a" : [
 { "ligne" :  "R0:org.apache.kafka.connect.storage.OffsetStorageWriter.this" }
+,
+{ "ligne" :  "R1:org.apache.kafka.connect.storage.OffsetStorageWriter.offset@POLYN180334.partition" }
+,
+{ "ligne" :  "R2:org.apache.kafka.connect.storage.OffsetStorageWriter.offset@POLYN180334.offset" }
 ]
 ,
 "data12b" : [

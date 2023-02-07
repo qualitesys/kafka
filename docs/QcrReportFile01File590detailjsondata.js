@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00049"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaView.java.html#49"
- , "c1" : "Comparator<ReplicaView>"
+ , "c1" : "Comparator&lt;ReplicaView&gt;"
  , "c2" : "comparator()"
  , "c3" : "1"
  , "c4" : "1"

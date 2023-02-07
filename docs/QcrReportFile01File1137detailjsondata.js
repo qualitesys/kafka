@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java 19 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java 22 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.xml" 
  , "fic3"  : "" 
 }
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00076"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#76"
  , "c1" : "ResourceConfig"
- , "c2" : "register(Object;Map<Class<?>,Integer>)"
+ , "c2" : "register(Object;Map&lt;Class&lt;?&gt;,Integer&gt;)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00084"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#84"
  , "c1" : "ResourceConfig"
- , "c2" : "register(Object;Class<?>...)"
+ , "c2" : "register(Object;Class&lt;?&gt;...)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00092"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#92"
  , "c1" : "ResourceConfig"
- , "c2" : "register(Class<?>;Map<Class<?>,Integer>)"
+ , "c2" : "register(Class&lt;?&gt;;Map&lt;Class&lt;?&gt;,Integer&gt;)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -93,7 +93,7 @@ var maDataBlocs = {
  , "c5" : "00100"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#100"
  , "c1" : "ResourceConfig"
- , "c2" : "register(Class<?>;Class<?>...)"
+ , "c2" : "register(Class&lt;?&gt;;Class&lt;?&gt;...)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -102,7 +102,7 @@ var maDataBlocs = {
  , "c5" : "00108"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#108"
  , "c1" : "ResourceConfig"
- , "c2" : "register(Class<?>;int)"
+ , "c2" : "register(Class&lt;?&gt;;int)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -111,7 +111,7 @@ var maDataBlocs = {
  , "c5" : "00116"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#116"
  , "c1" : "ResourceConfig"
- , "c2" : "register(Class<?>)"
+ , "c2" : "register(Class&lt;?&gt;)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -129,7 +129,7 @@ var maDataBlocs = {
  , "c5" : "00131"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#131"
  , "c1" : "boolean"
- , "c2" : "allowedToRegister(Class<?>)"
+ , "c2" : "allowedToRegister(Class&lt;?&gt;)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -186,7 +186,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
@@ -307,7 +307,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.register@POLYN159397"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.register@POLYN157274"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.register@POLYN159059"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -322,6 +329,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.allowedToRegister@POLYN160001"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.register@POLYN156998"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable.register@POLYN157597"
 }} 
 ,
 { "ligne" : {"" : ""

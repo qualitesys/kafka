@@ -38,8 +38,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00097"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#97"
- , "c1" : "Future<Void>"
- , "c2" : "executeFailed(Stage;Class<?>;ConsumerRecord<byte[],byte[]>;Throwable)"
+ , "c1" : "Future&lt;Void&gt;"
+ , "c2" : "executeFailed(Stage;Class&lt;?&gt;;ConsumerRecord&lt;byte[],byte[]&gt;;Throwable)"
  , "c3" : "2"
  , "c4" : "9"
 }} 
@@ -47,8 +47,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00114"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#114"
- , "c1" : "Future<Void>"
- , "c2" : "executeFailed(Stage;Class<?>;SourceRecord;Throwable)"
+ , "c1" : "Future&lt;Void&gt;"
+ , "c2" : "executeFailed(Stage;Class&lt;?&gt;;SourceRecord;Throwable)"
  , "c3" : "2"
  , "c4" : "9"
 }} 
@@ -120,7 +120,7 @@ var maDataBlocs = {
  , "c5" : "00296"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#296"
  , "c1" : "void"
- , "c2" : "reporters(List<ErrorReporter>)"
+ , "c2" : "reporters(List&lt;ErrorReporter&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -138,7 +138,7 @@ var maDataBlocs = {
  , "c5" : "00314"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#314"
  , "c1" : "void"
- , "c2" : "consumerRecord(ConsumerRecord<byte[],byte[]>)"
+ , "c2" : "consumerRecord(ConsumerRecord&lt;byte[],byte[]&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -204,11 +204,13 @@ var maDataBlocs = {
 "data12a" : [
 { "ligne" :  "R0:org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.this" }
 ,
-{ "ligne" :  "R1:org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.reporters@POLYN202647.reporters" }
+{ "ligne" :  "R1:org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.metrics@POLYN202018.errorHandlingMetrics" }
 ,
-{ "ligne" :  "R2:org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.sourceRecord@POLYN202900.preTransformRecord" }
+{ "ligne" :  "R2:org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.reporters@POLYN202647.reporters" }
 ,
-{ "ligne" :  "R3:org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.consumerRecord@POLYN203129.consumedMessage" }
+{ "ligne" :  "R3:org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.sourceRecord@POLYN202900.preTransformRecord" }
+,
+{ "ligne" :  "R4:org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.consumerRecord@POLYN203129.consumedMessage" }
 ]
 ,
 "data12b" : [

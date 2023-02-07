@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java 26 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java 24 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java.xml" 
  , "fic3"  : "" 
 }
@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00033"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java.html#33"
  , "c1" : "PluginDesc"
- , "c2" : "PluginDesc(Class<?extendsT>;String;ClassLoader)"
+ , "c2" : "PluginDesc(Class&lt;?extendsT&gt;;String;ClassLoader)"
  , "c3" : "1"
  , "c4" : "7"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00058"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java.html#58"
- , "c1" : "Class<?extendsT>"
+ , "c1" : "Class&lt;?extendsT&gt;"
  , "c2" : "pluginClass()"
  , "c3" : "1"
  , "c4" : "1"
@@ -111,7 +111,7 @@ var maDataBlocs = {
  , "c5" : "00106"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java.html#106"
  , "c1" : "int"
- , "c2" : "compareTo(PluginDesc<T>)"
+ , "c2" : "compareTo(PluginDesc&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -147,35 +147,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -367,20 +344,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java.html#108"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.connect.runtime.isolation.PluginDesc.compareTo@POLYN156750 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.isolation.PluginDesc.compareTo@POLYN156750"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java.html#108"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00108] In the recursive method org.apache.kafka.connect.runtime.isolation.PluginDesc.compareTo@POLYN156750 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 , 

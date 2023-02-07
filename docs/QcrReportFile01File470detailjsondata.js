@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00057"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#57"
- , "c1" : "Map<String,String>"
+ , "c1" : "Map&lt;String,String&gt;"
  , "c2" : "getTags(String...)"
  , "c3" : "3"
  , "c4" : "6"

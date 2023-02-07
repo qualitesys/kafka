@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00049"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverterConfig.java.html#49"
  , "c1" : "StringConverterConfig"
- , "c2" : "StringConverterConfig(Map<String,?>)"
+ , "c2" : "StringConverterConfig(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

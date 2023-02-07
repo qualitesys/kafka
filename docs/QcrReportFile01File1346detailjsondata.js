@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00048"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.html#48"
  , "c1" : "TopicImage"
- , "c2" : "TopicImage(String;Uuid;Map<Integer,PartitionRegistration>)"
+ , "c2" : "TopicImage(String;Uuid;Map&lt;Integer,PartitionRegistration&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00064"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.html#64"
- , "c1" : "Map<Integer,PartitionRegistration>"
+ , "c1" : "Map&lt;Integer,PartitionRegistration&gt;"
  , "c2" : "partitions()"
  , "c3" : "1"
  , "c4" : "1"
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00068"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.html#68"
  , "c1" : "void"
- , "c2" : "write(Consumer<List<ApiMessageAndVersion>>)"
+ , "c2" : "write(Consumer&lt;List&lt;ApiMessageAndVersion&gt;&gt;)"
  , "c3" : "2"
  , "c4" : "6"
 }} 

@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00037"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigData.java.html#37"
  , "c1" : "ConfigData"
- , "c2" : "ConfigData(Map<String,String>;Long)"
+ , "c2" : "ConfigData(Map&lt;String,String&gt;;Long)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00047"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigData.java.html#47"
  , "c1" : "ConfigData"
- , "c2" : "ConfigData(Map<String,String>)"
+ , "c2" : "ConfigData(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00056"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigData.java.html#56"
- , "c1" : "Map<String,String>"
+ , "c1" : "Map&lt;String,String&gt;"
  , "c2" : "data()"
  , "c3" : "1"
  , "c4" : "1"

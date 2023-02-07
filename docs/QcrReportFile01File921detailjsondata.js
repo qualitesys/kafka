@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Utils.java 308 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Utils.java 302 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.xml" 
  , "fic3"  : "" 
 }
@@ -263,7 +263,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00636"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#636"
- , "c1" : "Map<String,String>"
+ , "c1" : "Map&lt;String,String&gt;"
  , "c2" : "parseMap(String;String;String)"
  , "c3" : "3"
  , "c4" : "5"
@@ -282,7 +282,7 @@ var maDataBlocs = {
  , "c5" : "00664"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#664"
  , "c1" : "Properties"
- , "c2" : "loadProps(String;List<String>)"
+ , "c2" : "loadProps(String;List&lt;String&gt;)"
  , "c3" : "5"
  , "c4" : "9"
 }} 
@@ -290,7 +290,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00690"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#690"
- , "c1" : "Map<String,String>"
+ , "c1" : "Map&lt;String,String&gt;"
  , "c2" : "propsToStringMap(Properties)"
  , "c3" : "2"
  , "c4" : "3"
@@ -345,7 +345,7 @@ var maDataBlocs = {
  , "c5" : "00823"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#823"
  , "c1" : "Properties"
- , "c2" : "mkProperties(Map<String,String>)"
+ , "c2" : "mkProperties(Map&lt;String,String&gt;)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -354,7 +354,7 @@ var maDataBlocs = {
  , "c5" : "00837"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#837"
  , "c1" : "Properties"
- , "c2" : "mkObjectProperties(Map<String,Object>)"
+ , "c2" : "mkObjectProperties(Map&lt;String,Object&gt;)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -435,7 +435,7 @@ var maDataBlocs = {
  , "c5" : "01012"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1012"
  , "c1" : "void"
- , "c2" : "closeQuietly(AutoCloseable;String;AtomicReference<Throwable>)"
+ , "c2" : "closeQuietly(AutoCloseable;String;AtomicReference&lt;Throwable&gt;)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -444,7 +444,7 @@ var maDataBlocs = {
  , "c5" : "01029"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1029"
  , "c1" : "void"
- , "c2" : "closeAllQuietly(AtomicReference<Throwable>;String;AutoCloseable...)"
+ , "c2" : "closeAllQuietly(AtomicReference&lt;Throwable&gt;;String;AutoCloseable...)"
  , "c3" : "2"
  , "c4" : "1"
 }} 
@@ -525,7 +525,7 @@ var maDataBlocs = {
  , "c5" : "01224"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1224"
  , "c1" : "int"
- , "c2" : "to32BitField(Set<Byte>)"
+ , "c2" : "to32BitField(Set&lt;Byte&gt;)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -542,7 +542,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01239"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1239"
- , "c1" : "Set<Byte>"
+ , "c1" : "Set&lt;Byte&gt;"
  , "c2" : "from32BitField(int)"
  , "c3" : "3"
  , "c4" : "6"
@@ -551,7 +551,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01344"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1344"
- , "c1" : "Map<String,Object>"
+ , "c1" : "Map&lt;String,Object&gt;"
  , "c2" : "propsToMap(Properties)"
  , "c3" : "4"
  , "c4" : "5"
@@ -579,7 +579,7 @@ var maDataBlocs = {
  , "c5" : "01424"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1424"
  , "c1" : "String[]"
- , "c2" : "enumOptions(Class<?extendsEnum<?>>)"
+ , "c2" : "enumOptions(Class&lt;?extendsEnum&lt;?&gt;&gt;)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -609,90 +609,6 @@ var maDataBlocs = {
 "data08" : [
 ]
 , 
-"data09a" : [
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File921Seq1.html#seq1"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=921&numSeq=1"
- , "c2" : "1"
- , "c3" : "3"
- , "c4" : "2"
- , "c5" : ["java.io.BufferedInputStream.read@POLYN245332.return" , "java.io.BufferedInputStream.read@POLYN245332.off"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ok"
- , "secu2" : "Ok"
- , "secu3" : "Ok"
- , "secu4" : "Ok"
-}}
-]
-,
-"data09b" : [
-{ "sequence" : { 
- "seq" : "1" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "3"
- , "sourcenoligne" : "[01117]"
- , "c3" : ["java.io.BufferedInputStream.read@POLYN245332.return" , "---java.io.BufferedInputStream.read@POLYN245332" , "org.apache.kafka.common.utils.Utils.readFully@POLYN455991.bytesRead"]
- , "c4" : "//QC-JAVCWE099[01117] In org.apache.kafka.common.utils.Utils.readFully@POLYN455991[01117] source data PATHtainted (java.io.BufferedInputStream.read) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[01118]"
- , "c3" : ["org.apache.kafka.common.utils.Utils.readFully@POLYN455991.bytesRead" , "---dummymethode" , "org.apache.kafka.common.utils.Utils.readFully@POLYN455991.currentPosition"]
- , "c4" : ""
- , "c5" : "none"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[01117]"
- , "c3" : ["org.apache.kafka.common.utils.Utils.readFully@POLYN455991.currentPosition" , "---java.io.BufferedInputStream.read@POLYN245332" , "java.io.BufferedInputStream.read@POLYN245332.off"]
- , "c4" : "//QC-JAVCWE099[01117] In org.apache.kafka.common.utils.Utils.readFully@POLYN455991[01117] source data PATHtainted (java.io.BufferedInputStream.read) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-]
-, 
-"data10" : [
-]
-, 
 "data11" : [
 ]
 , 
@@ -713,7 +629,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "10"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -734,7 +650,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "5"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2822,14 +2738,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.Utils.closeQuietly@POLYN451626"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.Utils.closeQuietly@POLYN451158"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.Utils.utf8@POLYN412903"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2851,41 +2760,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.Utils.readBytes@POLYN440301"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01013"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1013"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01013] In the recursive method org.apache.kafka.common.utils.Utils.closeQuietly@POLYN451626 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1017"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01017] In the recursive method org.apache.kafka.common.utils.Utils.closeQuietly@POLYN451626 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01018"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1018"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01018] In the recursive method org.apache.kafka.common.utils.Utils.closeQuietly@POLYN451626 the MagicNumber/String 'Failed to close {} with type {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01003"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1003"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01003] In the recursive method org.apache.kafka.common.utils.Utils.closeQuietly@POLYN451158 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01007"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1007"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01007] In the recursive method org.apache.kafka.common.utils.Utils.closeQuietly@POLYN451158 the MagicNumber/String 'Failed to close {} with type {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

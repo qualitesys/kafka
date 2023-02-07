@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00091"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#91"
  , "c1" : "void"
- , "c2" : "putConnectorConfig(String;Map<String,String>)"
+ , "c2" : "putConnectorConfig(String;Map&lt;String,String&gt;)"
  , "c3" : "4"
  , "c4" : "4"
 }} 
@@ -102,7 +102,7 @@ var maDataBlocs = {
  , "c5" : "00124"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#124"
  , "c1" : "void"
- , "c2" : "putTaskConfigs(String;List<Map<String,String>>)"
+ , "c2" : "putTaskConfigs(String;List&lt;Map&lt;String,String&gt;&gt;)"
  , "c3" : "3"
  , "c4" : "5"
 }} 
@@ -164,8 +164,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00184"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#184"
- , "c1" : "Map<ConnectorTaskId,Map<String,String>>"
- , "c2" : "taskConfigListAsMap(String;List<Map<String,String>>)"
+ , "c1" : "Map&lt;ConnectorTaskId,Map&lt;String,String&gt;&gt;"
+ , "c2" : "taskConfigListAsMap(String;List&lt;Map&lt;String,String&gt;&gt;)"
  , "c3" : "2"
  , "c4" : "4"
 }} 

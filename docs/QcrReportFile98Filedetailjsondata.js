@@ -10406,6 +10406,13 @@ var maDataBlocs = {
   , "OKKO2"  : "" 
 }},
  { "ligne" : {
+  "fic"  : "secujava/java.lang.Throwable.java" 
+  , "Fic1"  : "qc/secujava/java.lang.Throwable.java.qre.nonreg.html" 
+  , "OKKO1"  : "" 
+  , "Fic2"  : "qc/secujava/java.lang.Throwable.java.xml.nonreg.html" 
+  , "OKKO2"  : "" 
+}},
+ { "ligne" : {
   "fic"  : "secujava/java.lang.Void.java" 
   , "Fic1"  : "qc/secujava/java.lang.Void.java.qre.nonreg.html" 
   , "OKKO1"  : "" 

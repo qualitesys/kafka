@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.InputStreamReader.java.html" 
- , "texte" : "File secujava/java.io.InputStreamReader.java 9 rule violations " 
+ , "texte" : "File secujava/java.io.InputStreamReader.java 8 rule violations " 
  , "fic2"  : "./qc/secujava/java.io.InputStreamReader.java.xml" 
  , "fic3"  : "" 
 }
@@ -129,23 +129,7 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
@@ -216,13 +200,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.InputStreamReader.java.html#183"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00183] For method read arguments char[]  cbuf|int  offset|int  length"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.io.InputStreamReader.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.InputStreamReader.close@POLYN171053"
 }} 
 ]
 , 

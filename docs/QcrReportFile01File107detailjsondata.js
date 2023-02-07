@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00037"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsResult.java.html#37"
  , "c1" : "ListConsumerGroupOffsetsResult"
- , "c2" : "ListConsumerGroupOffsetsResult(KafkaFuture<Map<TopicPartition,OffsetAndMetadata>>)"
+ , "c2" : "ListConsumerGroupOffsetsResult(KafkaFuture&lt;Map&lt;TopicPartition,OffsetAndMetadata&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00045"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsResult.java.html#45"
- , "c1" : "KafkaFuture<Map<TopicPartition,OffsetAndMetadata>>"
+ , "c1" : "KafkaFuture&lt;Map&lt;TopicPartition,OffsetAndMetadata&gt;&gt;"
  , "c2" : "partitionsToOffsetAndMetadata()"
  , "c3" : "1"
  , "c4" : "1"

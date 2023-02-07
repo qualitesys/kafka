@@ -1,25 +1,25 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowUpdateStrategy.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowUpdateStrategy.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowUpdateStrategy.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowCloseStrategy.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowCloseStrategy.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowCloseStrategy.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "EmitStrategy"
- , "c2" : "org.apache.kafka.streams.kstream.internals.emitstrategy.WindowUpdateStrategy"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.emitstrategy.WindowCloseStrategy"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.kstream.internals.emitstrategy.WindowUpdateStrategy" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.emitstrategy.WindowCloseStrategy" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
  , "c5" : "00027"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowUpdateStrategy.java.html#27"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowCloseStrategy.java.html#27"
  , "c1" : "StrategyType"
  , "c2" : "type()"
  , "c3" : "1"
@@ -30,9 +30,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowUpdateStrategy.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowCloseStrategy.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowUpdateStrategy.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowCloseStrategy.java.svg" }
 
 ] 
 , 
@@ -58,7 +58,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowUpdateStrategy.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/emitstrategy/WindowCloseStrategy.java.fct.svg" 
 
 , 
 }

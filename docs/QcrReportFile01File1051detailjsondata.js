@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00045"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#45"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "0"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00049"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#49"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>;boolean)"
+ , "c2" : "configure(Map&lt;String,?&gt;;boolean)"
  , "c3" : "1"
  , "c4" : "0"
 }} 

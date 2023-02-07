@@ -92,7 +92,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00398"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#398"
- , "c1" : "Iterator<T>"
+ , "c1" : "Iterator&lt;T&gt;"
  , "c2" : "snapshottableIterator(long)"
  , "c3" : "3"
  , "c4" : "2"

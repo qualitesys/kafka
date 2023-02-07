@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00071"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/SyncGroupRequest.java.html#71"
- , "c1" : "Map<String,ByteBuffer>"
+ , "c1" : "Map&lt;String,ByteBuffer&gt;"
  , "c2" : "groupAssignments()"
  , "c3" : "2"
  , "c4" : "3"

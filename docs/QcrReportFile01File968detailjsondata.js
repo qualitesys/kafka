@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00035"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#35"
  , "c1" : "ConnectorHealth"
- , "c2" : "ConnectorHealth(String;ConnectorState;Map<Integer,TaskState>;ConnectorType)"
+ , "c2" : "ConnectorHealth(String;ConnectorState;Map&lt;Integer,TaskState&gt;;ConnectorType)"
  , "c3" : "2"
  , "c4" : "8"
 }} 
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00074"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html#74"
- , "c1" : "Map<Integer,TaskState>"
+ , "c1" : "Map&lt;Integer,TaskState&gt;"
  , "c2" : "tasksState()"
  , "c3" : "1"
  , "c4" : "1"

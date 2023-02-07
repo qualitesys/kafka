@@ -1,56 +1,56 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessor.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessor.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessor.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualProcessor.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualProcessor.java 1 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualProcessor.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.processor.api.FixedKeyProcessor"
+ , "c1" : "Processor<KIn,VIn,KOut,VOut>"
+ , "c2" : "org.apache.kafka.streams.processor.api.ContextualProcessor"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.processor.api.FixedKeyProcessor" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.processor.api.ContextualProcessor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessor.java.html#45"
- , "c1" : "void"
- , "c2" : "init(FixedKeyProcessorContext<KIn,VOut>)"
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualProcessor.java.html#32"
+ , "c1" : "ContextualProcessor"
+ , "c2" : "ContextualProcessor()"
  , "c3" : "1"
  , "c4" : "0"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessor.java.html#52"
+ , "c5" : "00035"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualProcessor.java.html#35"
  , "c1" : "void"
- , "c2" : "process(FixedKeyRecord<KIn,VIn>)"
+ , "c2" : "init(ProcessorContext&lt;KOut,VOut&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00061"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessor.java.html#61"
- , "c1" : "void"
- , "c2" : "close()"
+ , "c5" : "00044"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualProcessor.java.html#44"
+ , "c1" : "ProcessorContext&lt;KOut,VOut&gt;"
+ , "c2" : "context()"
  , "c3" : "1"
- , "c4" : "0"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessor.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualProcessor.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessor.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualProcessor.java.svg" }
 
 ] 
 , 
@@ -75,8 +75,26 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000006"
+ , "c3" : "Argument list of the method"
+ , "c4" : "1"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00035"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualProcessor.java.html#35"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00035] For method init arguments ProcessorContext&lt;KOut ,VOut &gt;  context"
+}} 
+]
+, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessor.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualProcessor.java.fct.svg" 
 
 , 
 }

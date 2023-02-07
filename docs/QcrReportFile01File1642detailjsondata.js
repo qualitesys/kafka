@@ -1,99 +1,144 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java 18 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java 40 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "NamedOperation<Joined<K,V,VO>>"
- , "c2" : "org.apache.kafka.streams.kstream.Joined"
+ , "c1" : "Windows<Window>"
+ , "c2" : "org.apache.kafka.streams.kstream.JoinWindows"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.kstream.Joined" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.JoinWindows" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#33"
- , "c1" : "Joined"
- , "c2" : "Joined(Serde<K>;Serde<V>;Serde<VO>;String)"
+ , "c5" : "00085"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#85"
+ , "c1" : "JoinWindows"
+ , "c2" : "JoinWindows(JoinWindows)"
  , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00089"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#89"
+ , "c1" : "JoinWindows"
+ , "c2" : "JoinWindows(long;long;long;boolean)"
+ , "c3" : "3"
+ , "c4" : "6"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00123"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#123"
+ , "c1" : "JoinWindows"
+ , "c2" : "ofTimeDifferenceAndGrace(Duration;Duration)"
+ , "c3" : "1"
+ , "c4" : "5"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00145"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#145"
+ , "c1" : "JoinWindows"
+ , "c2" : "ofTimeDifferenceWithNoGrace(Duration)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00160"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#160"
+ , "c1" : "JoinWindows"
+ , "c2" : "of(Duration)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00176"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#176"
+ , "c1" : "JoinWindows"
+ , "c2" : "before(Duration)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00192"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#192"
+ , "c1" : "JoinWindows"
+ , "c2" : "after(Duration)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00205"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#205"
+ , "c1" : "Map&lt;Long,Window&gt;"
+ , "c2" : "windowsFor(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00210"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#210"
+ , "c1" : "long"
+ , "c2" : "size()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00227"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#227"
+ , "c1" : "JoinWindows"
+ , "c2" : "grace(Duration)"
+ , "c3" : "2"
  , "c4" : "4"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#43"
- , "c1" : "Joined"
- , "c2" : "Joined(Joined<K,V,VO>)"
+ , "c5" : "00240"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#240"
+ , "c1" : "long"
+ , "c2" : "gracePeriodMs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00156"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#156"
- , "c1" : "Joined<K,V,VO>"
- , "c2" : "withKeySerde(Serde<K>)"
+ , "c5" : "00245"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#245"
+ , "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "3"
+ , "c4" : "4"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00259"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#259"
+ , "c1" : "int"
+ , "c2" : "hashCode()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00167"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#167"
- , "c1" : "Joined<K,V,VO>"
- , "c2" : "withValueSerde(Serde<V>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00178"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#178"
- , "c1" : "Joined<K,V,VO>"
- , "c2" : "withOtherValueSerde(Serde<VO>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00191"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#191"
- , "c1" : "Joined<K,V,VO>"
- , "c2" : "withName(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00195"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#195"
- , "c1" : "Serde<K>"
- , "c2" : "keySerde()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00199"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#199"
- , "c1" : "Serde<V>"
- , "c2" : "valueSerde()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00203"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#203"
- , "c1" : "Serde<VO>"
- , "c2" : "otherValueSerde()"
+ , "c5" : "00264"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#264"
+ , "c1" : "String"
+ , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -102,9 +147,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.svg" }
 
 ] 
 , 
@@ -141,147 +186,315 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "13"
+ , "c4" : "25"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000021"
+ , "c3" : "The same method is called several times, might be optimized"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "4"
+ , "c4" : "8"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "5"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#43"
+ , "c1" : "00085"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#85"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00043] The argument joined is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00085] The argument joinWindows is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#62"
+ , "c1" : "00093"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.kstream.Joined the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.kstream.JoinWindows.JoinWindows@POLYN198390 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#101"
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.kstream.Joined the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.kstream.JoinWindows.JoinWindows@POLYN198390 the MagicNumber/String  'Window interval (ie, beforeMs+afterMs) must not be negative.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#101"
+ , "c1" : "00097"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.kstream.Joined the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.streams.kstream.JoinWindows.JoinWindows@POLYN198390 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#101"
+ , "c1" : "00098"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.kstream.Joined the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.kstream.JoinWindows.JoinWindows@POLYN198390 the MagicNumber/String  'Grace period must not be negative.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#115"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.kstream.Joined the MagicNumber/String  null should be converted to const"
+ , "c1" : "00123"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#123"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00123] For method ofTimeDifferenceAndGrace arguments Duration  timeDifference|Duration  afterWindowEnd"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#115"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.kstream.Joined the MagicNumber/String  null should be converted to const"
+ , "c1" : "00123"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#123"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00123] For method ofTimeDifferenceAndGrace list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN199984|long validateMillisecondDurationN200099|java.lang.String prepareMillisCheckFailMsgPrefixN200212|long validateMillisecondDurationN200327"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#115"
+ , "c1" : "00124"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.kstream.Joined the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.kstream.JoinWindows.ofTimeDifferenceAndGrace@POLYN199851 the MagicNumber/String  'timeDifference' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#129"
+ , "c1" : "00127"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.streams.kstream.Joined the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.kstream.JoinWindows.ofTimeDifferenceAndGrace@POLYN199851 the MagicNumber/String  'afterWindowEnd' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#129"
+ , "c1" : "00130"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.streams.kstream.Joined the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#129"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.streams.kstream.Joined the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.streams.kstream.JoinWindows.ofTimeDifferenceAndGrace@POLYN199851 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00145"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#145"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#145"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00145] For method ofTimeDifferenceWithNoGrace arguments Duration  timeDifference"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00160"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#160"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00160] For method of arguments Duration  timeDifference"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00160"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#160"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00160] For method of list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN201869|long validateMillisecondDurationN201984"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00161"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.kstream.Joined the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.streams.kstream.JoinWindows.of@POLYN201752 the MagicNumber/String  'timeDifference' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#145"
+ , "c1" : "00163"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.kstream.Joined the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.kstream.JoinWindows.of@POLYN201752 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#145"
+ , "c1" : "00163"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.kstream.Joined the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.kstream.JoinWindows.of@POLYN201752 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00156"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#156"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00156] For method withKeySerde arguments Serde&lt;K &gt;  keySerde"
+ , "c1" : "00163"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#163"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.kstream.JoinWindows.of@POLYN201752 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#167"
+ , "c1" : "00176"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#176"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00167] For method withValueSerde arguments Serde&lt;V &gt;  valueSerde"
+ , "c3" : "QC-JAV000006[00176] For method before arguments Duration  timeDifference"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#178"
+ , "c1" : "00176"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#176"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00178] For method withOtherValueSerde arguments Serde&lt;VO &gt;  otherValueSerde"
+ , "c3" : "QC-JAV000007[00176] For method before list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN202872|long validateMillisecondDurationN202987"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#191"
+ , "c1" : "00177"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#177"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.streams.kstream.JoinWindows.before@POLYN202755 the MagicNumber/String  'timeDifference' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00192"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#192"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00191] For method withName arguments String  name"
+ , "c3" : "QC-JAV000006[00192] For method after arguments Duration  timeDifference"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00192"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#192"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00192] For method after list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN203764|long validateMillisecondDurationN203879"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00193"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#193"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.kstream.JoinWindows.after@POLYN203647 the MagicNumber/String  'timeDifference' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00205"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#205"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00205] For method windowsFor arguments long  timestamp"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00206"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#206"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.streams.kstream.JoinWindows.windowsFor@POLYN204257 the MagicNumber/String  'windowsFor() is not supported by JoinWindows.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00227"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#227"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00227] For method grace arguments Duration  afterWindowEnd"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00227"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#227"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00227] For method grace list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN205272|long validateMillisecondDurationN205387"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00231"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#231"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.streams.kstream.JoinWindows.grace@POLYN205020 the MagicNumber/String  'Cannot call grace() after setting grace value via ofTimeDifferenceAndGrace or ofTimeDifferenceWithNoGrace.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00234"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#234"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.streams.kstream.JoinWindows.grace@POLYN205020 the MagicNumber/String  'afterWindowEnd' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00236"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#236"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.streams.kstream.JoinWindows.grace@POLYN205020 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00245"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#245"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00245] For method equals arguments Object  o"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00249"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#249"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000021[00249] The same method call o.getClass() is used several times, should be optimized "
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00247"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#247"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.streams.kstream.JoinWindows.equals@POLYN205726 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00249"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#249"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.streams.kstream.JoinWindows.equals@POLYN205726 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00250"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#250"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.streams.kstream.JoinWindows.equals@POLYN205726 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00265"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#265"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.streams.kstream.JoinWindows.toString@POLYN206541 the MagicNumber/String  'JoinWindows{' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00266"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#266"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.streams.kstream.JoinWindows.toString@POLYN206541 the MagicNumber/String  'beforeMs=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00267"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#267"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.streams.kstream.JoinWindows.toString@POLYN206541 the MagicNumber/String  ', afterMs=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00268"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#268"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.streams.kstream.JoinWindows.toString@POLYN206541 the MagicNumber/String  ', graceMs=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00269"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#269"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.streams.kstream.JoinWindows.toString@POLYN206541 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.fct.svg" 
 
 , 
 }

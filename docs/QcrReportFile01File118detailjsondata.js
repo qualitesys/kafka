@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00037"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#37"
  , "c1" : "LogDirDescription"
- , "c2" : "LogDirDescription(ApiException;Map<TopicPartition,ReplicaInfo>)"
+ , "c2" : "LogDirDescription(ApiException;Map&lt;TopicPartition,ReplicaInfo&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00041"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#41"
  , "c1" : "LogDirDescription"
- , "c2" : "LogDirDescription(ApiException;Map<TopicPartition,ReplicaInfo>;long;long)"
+ , "c2" : "LogDirDescription(ApiException;Map&lt;TopicPartition,ReplicaInfo&gt;;long;long)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00063"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/LogDirDescription.java.html#63"
- , "c1" : "Map<TopicPartition,ReplicaInfo>"
+ , "c1" : "Map&lt;TopicPartition,ReplicaInfo&gt;"
  , "c2" : "replicaInfos()"
  , "c3" : "1"
  , "c4" : "1"

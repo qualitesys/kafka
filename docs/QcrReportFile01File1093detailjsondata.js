@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00038"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerMetricsGroup.java.html#38"
  , "c1" : "WorkerMetricsGroup"
- , "c2" : "WorkerMetricsGroup(Map<String,WorkerConnector>;Map<ConnectorTaskId,WorkerTask>;ConnectMetrics)"
+ , "c2" : "WorkerMetricsGroup(Map&lt;String,WorkerConnector&gt;;Map&lt;ConnectorTaskId,WorkerTask&gt;;ConnectMetrics)"
  , "c3" : "1"
  , "c4" : "26"
 }} 

@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00040"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/MessageFormatter.java.html#40"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "0"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00047"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/MessageFormatter.java.html#47"
  , "c1" : "void"
- , "c2" : "writeTo(ConsumerRecord<byte[],byte[]>;PrintStream)"
+ , "c2" : "writeTo(ConsumerRecord&lt;byte[],byte[]&gt;;PrintStream)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

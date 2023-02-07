@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00086"
  , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#86"
  , "c1" : "OffsetSync"
- , "c2" : "deserializeRecord(ConsumerRecord<byte[],byte[]>)"
+ , "c2" : "deserializeRecord(ConsumerRecord&lt;byte[],byte[]&gt;)"
  , "c3" : "1"
  , "c4" : "7"
 }} 

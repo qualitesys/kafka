@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00025"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/TopicAuthorizationException.java.html#25"
  , "c1" : "TopicAuthorizationException"
- , "c2" : "TopicAuthorizationException(String;Set<String>)"
+ , "c2" : "TopicAuthorizationException(String;Set&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00030"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/TopicAuthorizationException.java.html#30"
  , "c1" : "TopicAuthorizationException"
- , "c2" : "TopicAuthorizationException(Set<String>)"
+ , "c2" : "TopicAuthorizationException(Set&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00044"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/TopicAuthorizationException.java.html#44"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "unauthorizedTopics()"
  , "c3" : "1"
  , "c4" : "1"

@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00034"
  , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/GroupFilter.java.html#34"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "0"
 }} 

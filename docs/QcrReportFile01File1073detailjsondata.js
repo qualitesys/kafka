@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00041"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#41"
  , "c1" : "PredicatedTransformation"
- , "c2" : "PredicatedTransformation(Predicate<R>;boolean;Transformation<R>)"
+ , "c2" : "PredicatedTransformation(Predicate&lt;R&gt;;boolean;Transformation&lt;R&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00048"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#48"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

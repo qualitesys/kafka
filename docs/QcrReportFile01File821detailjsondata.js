@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00061"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/Retry.java.html#61"
  , "c1" : "R"
- , "c2" : "execute(Retryable<R>)"
+ , "c2" : "execute(Retryable&lt;R&gt;)"
  , "c3" : "6"
  , "c4" : "18"
 }} 

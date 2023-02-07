@@ -83,7 +83,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00106"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html#106"
- , "c1" : "List<ClientResponse>"
+ , "c1" : "List&lt;ClientResponse&gt;"
  , "c2" : "poll(long;long)"
  , "c3" : "1"
  , "c4" : "1"
@@ -174,7 +174,7 @@ var maDataBlocs = {
  , "c5" : "00178"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html#178"
  , "c1" : "ClientRequest"
- , "c2" : "newClientRequest(String;AbstractRequest.Builder<?>;long;boolean)"
+ , "c2" : "newClientRequest(String;AbstractRequest.Builder&lt;?&gt;;long;boolean)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -183,7 +183,7 @@ var maDataBlocs = {
  , "c5" : "00193"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/KafkaClient.java.html#193"
  , "c1" : "ClientRequest"
- , "c2" : "newClientRequest(String;AbstractRequest.Builder<?>;long;boolean;int;RequestCompletionHandler)"
+ , "c2" : "newClientRequest(String;AbstractRequest.Builder&lt;?&gt;;long;boolean;int;RequestCompletionHandler)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

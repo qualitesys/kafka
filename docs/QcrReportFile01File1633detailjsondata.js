@@ -1,72 +1,63 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/CogroupedKStream.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/CogroupedKStream.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/CogroupedKStream.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/BranchedKStream.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/BranchedKStream.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/BranchedKStream.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.kstream.CogroupedKStream"
+ , "c2" : "org.apache.kafka.streams.kstream.BranchedKStream"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.kstream.CogroupedKStream" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.BranchedKStream" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00112"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/CogroupedKStream.java.html#112"
- , "c1" : "KTable<K,VOut>"
- , "c2" : "aggregate(Initializer<VOut>)"
+ , "c5" : "00127"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/BranchedKStream.java.html#127"
+ , "c1" : "BranchedKStream&lt;K,V&gt;"
+ , "c2" : "branch(Predicate&lt;?superK,?superV&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00163"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/CogroupedKStream.java.html#163"
- , "c1" : "KTable<K,VOut>"
- , "c2" : "aggregate(Initializer<VOut>;Named)"
+ , "c5" : "00141"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/BranchedKStream.java.html#141"
+ , "c1" : "BranchedKStream&lt;K,V&gt;"
+ , "c2" : "branch(Predicate&lt;?superK,?superV&gt;;Branched&lt;K,V&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00215"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/CogroupedKStream.java.html#215"
- , "c1" : "KTable<K,VOut>"
- , "c2" : "aggregate(Initializer<VOut>;Materialized<K,VOut,KeyValueStore<Bytes,byte[]>>)"
+ , "c5" : "00150"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/BranchedKStream.java.html#150"
+ , "c1" : "Map&lt;String,KStream&lt;K,V&gt;&gt;"
+ , "c2" : "defaultBranch()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00269"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/CogroupedKStream.java.html#269"
- , "c1" : "KTable<K,VOut>"
- , "c2" : "aggregate(Initializer<VOut>;Named;Materialized<K,VOut,KeyValueStore<Bytes,byte[]>>)"
+ , "c5" : "00162"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/BranchedKStream.java.html#162"
+ , "c1" : "Map&lt;String,KStream&lt;K,V&gt;&gt;"
+ , "c2" : "defaultBranch(Branched&lt;K,V&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00290"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/CogroupedKStream.java.html#290"
- , "c1" : "TimeWindowedCogroupedKStream<K,VOut>"
- , "c2" : "windowedBy(SlidingWindows)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00299"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/CogroupedKStream.java.html#299"
- , "c1" : "SessionWindowedCogroupedKStream<K,VOut>"
- , "c2" : "windowedBy(SessionWindows)"
+ , "c5" : "00171"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/BranchedKStream.java.html#171"
+ , "c1" : "Map&lt;String,KStream&lt;K,V&gt;&gt;"
+ , "c2" : "noDefaultBranch()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -75,9 +66,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/CogroupedKStream.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/BranchedKStream.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/CogroupedKStream.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/BranchedKStream.java.svg" }
 
 ] 
 , 
@@ -103,7 +94,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/CogroupedKStream.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/BranchedKStream.java.fct.svg" 
 
 , 
 }

@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00044"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/PluginInfo.java.html#44"
  , "c1" : "PluginInfo"
- , "c2" : "PluginInfo(PluginDesc<?>)"
+ , "c2" : "PluginInfo(PluginDesc&lt;?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00106"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AddPartitionsToTxnRequest.java.html#106"
- , "c1" : "List<TopicPartition>"
+ , "c1" : "List&lt;TopicPartition&gt;"
  , "c2" : "partitions()"
  , "c3" : "2"
  , "c4" : "3"

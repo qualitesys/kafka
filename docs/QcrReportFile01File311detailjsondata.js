@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00048"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#48"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "0"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00072"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#72"
  , "c1" : "ConfigData"
- , "c2" : "get(String;Set<String>)"
+ , "c2" : "get(String;Set&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00078"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#78"
  , "c1" : "ConfigData"
- , "c2" : "get(String;Predicate<Path>)"
+ , "c2" : "get(String;Predicate&lt;Path&gt;)"
  , "c3" : "4"
  , "c4" : "7"
 }} 

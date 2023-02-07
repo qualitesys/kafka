@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00312"
  , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#312"
  , "c1" : "int"
- , "c2" : "maybeResetInputAndSeekToEndIntermediateTopicOffsets(Map<Object,Object>;boolean)"
+ , "c2" : "maybeResetInputAndSeekToEndIntermediateTopicOffsets(Map&lt;Object,Object&gt;;boolean)"
  , "c3" : "22"
  , "c4" : "42"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00423"
  , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#423"
  , "c1" : "void"
- , "c2" : "maybeSeekToEnd(String;Consumer<byte[],byte[]>;Set<TopicPartition>)"
+ , "c2" : "maybeSeekToEnd(String;Consumer&lt;byte[],byte[]&gt;;Set&lt;TopicPartition&gt;)"
  , "c3" : "4"
  , "c4" : "3"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00437"
  , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#437"
  , "c1" : "void"
- , "c2" : "maybeReset(String;Consumer<byte[],byte[]>;Set<TopicPartition>)"
+ , "c2" : "maybeReset(String;Consumer&lt;byte[],byte[]&gt;;Set&lt;TopicPartition&gt;)"
  , "c3" : "17"
  , "c4" : "15"
 }} 
@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00475"
  , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#475"
  , "c1" : "void"
- , "c2" : "resetOffsetsFromResetPlan(Consumer<byte[],byte[]>;Set<TopicPartition>;Map<TopicPartition,Long>)"
+ , "c2" : "resetOffsetsFromResetPlan(Consumer&lt;byte[],byte[]&gt;;Set&lt;TopicPartition&gt;;Map&lt;TopicPartition,Long&gt;)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -92,7 +92,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00489"
  , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#489"
- , "c1" : "Map<TopicPartition,Long>"
+ , "c1" : "Map&lt;TopicPartition,Long&gt;"
  , "c2" : "getTopicPartitionOffsetFromResetPlan(String)"
  , "c3" : "1"
  , "c4" : "2"
@@ -102,7 +102,7 @@ var maDataBlocs = {
  , "c5" : "00496"
  , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#496"
  , "c1" : "void"
- , "c2" : "resetByDuration(Consumer<byte[],byte[]>;Set<TopicPartition>;Duration)"
+ , "c2" : "resetByDuration(Consumer&lt;byte[],byte[]&gt;;Set&lt;TopicPartition&gt;;Duration)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -111,7 +111,7 @@ var maDataBlocs = {
  , "c5" : "00503"
  , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#503"
  , "c1" : "void"
- , "c2" : "resetToDatetime(Consumer<byte[],byte[]>;Set<TopicPartition>;Long)"
+ , "c2" : "resetToDatetime(Consumer&lt;byte[],byte[]&gt;;Set&lt;TopicPartition&gt;;Long)"
  , "c3" : "5"
  , "c4" : "7"
 }} 
@@ -120,7 +120,7 @@ var maDataBlocs = {
  , "c5" : "00528"
  , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#528"
  , "c1" : "void"
- , "c2" : "shiftOffsetsBy(Consumer<byte[],byte[]>;Set<TopicPartition>;long)"
+ , "c2" : "shiftOffsetsBy(Consumer&lt;byte[],byte[]&gt;;Set&lt;TopicPartition&gt;;long)"
  , "c3" : "3"
  , "c4" : "8"
 }} 
@@ -129,7 +129,7 @@ var maDataBlocs = {
  , "c5" : "00550"
  , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#550"
  , "c1" : "void"
- , "c2" : "resetOffsetsTo(Consumer<byte[],byte[]>;Set<TopicPartition>;Long)"
+ , "c2" : "resetOffsetsTo(Consumer&lt;byte[],byte[]&gt;;Set&lt;TopicPartition&gt;;Long)"
  , "c3" : "3"
  , "c4" : "6"
 }} 
@@ -137,7 +137,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00570"
  , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#570"
- , "c1" : "Map<TopicPartition,Long>"
+ , "c1" : "Map&lt;TopicPartition,Long&gt;"
  , "c2" : "parseResetPlan(String)"
  , "c3" : "4"
  , "c4" : "11"
@@ -146,8 +146,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00593"
  , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#593"
- , "c1" : "Map<TopicPartition,Long>"
- , "c2" : "checkOffsetRange(Map<TopicPartition,Long>;Map<TopicPartition,Long>;Map<TopicPartition,Long>)"
+ , "c1" : "Map&lt;TopicPartition,Long&gt;"
+ , "c2" : "checkOffsetRange(Map&lt;TopicPartition,Long&gt;;Map&lt;TopicPartition,Long&gt;;Map&lt;TopicPartition,Long&gt;)"
  , "c3" : "6"
  , "c4" : "10"
 }} 
@@ -183,7 +183,7 @@ var maDataBlocs = {
  , "c5" : "00656"
  , "c5link" : "././qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#656"
  , "c1" : "void"
- , "c2" : "doDelete(List<String>;Admin)"
+ , "c2" : "doDelete(List&lt;String&gt;;Admin)"
  , "c3" : "3"
  , "c4" : "8"
 }} 

@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00074"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#74"
- , "c1" : "Future<Void>"
+ , "c1" : "Future&lt;Void&gt;"
  , "c2" : "report(SinkRecord;Throwable)"
  , "c3" : "6"
  , "c4" : "16"
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00122"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#122"
  , "c1" : "void"
- , "c2" : "awaitFutures(Collection<TopicPartition>)"
+ , "c2" : "awaitFutures(Collection&lt;TopicPartition&gt;)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00137"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#137"
  , "c1" : "void"
- , "c2" : "cancelFutures(Collection<TopicPartition>)"
+ , "c2" : "cancelFutures(Collection&lt;TopicPartition&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -56,8 +56,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00149"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#149"
- , "c1" : "Collection<Future<Void>>"
- , "c2" : "futuresFor(Collection<TopicPartition>)"
+ , "c1" : "Collection&lt;Future&lt;Void&gt;&gt;"
+ , "c2" : "futuresFor(Collection&lt;TopicPartition&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

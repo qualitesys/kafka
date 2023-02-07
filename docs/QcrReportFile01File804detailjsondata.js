@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00048"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java.html#48"
  , "c1" : "AccessTokenRetriever"
- , "c2" : "create(Map<String,?>;Map<String,Object>)"
+ , "c2" : "create(Map&lt;String,?&gt;;Map&lt;String,Object&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00052"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java.html#52"
  , "c1" : "AccessTokenRetriever"
- , "c2" : "create(Map<String,?>;String;Map<String,Object>)"
+ , "c2" : "create(Map&lt;String,?&gt;;String;Map&lt;String,Object&gt;)"
  , "c3" : "4"
  , "c4" : "10"
 }} 

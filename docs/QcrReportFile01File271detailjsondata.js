@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00033"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#33"
  , "c1" : "TopicIdCollection"
- , "c2" : "ofTopicIds(Collection<Uuid>)"
+ , "c2" : "ofTopicIds(Collection&lt;Uuid&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00040"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#40"
  , "c1" : "TopicNameCollection"
- , "c2" : "ofTopicNames(Collection<String>)"
+ , "c2" : "ofTopicNames(Collection&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

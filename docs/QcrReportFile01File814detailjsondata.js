@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00048"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/JaasOptionsUtils.java.html#48"
  , "c1" : "JaasOptionsUtils"
- , "c2" : "JaasOptionsUtils(Map<String,Object>)"
+ , "c2" : "JaasOptionsUtils(Map&lt;String,Object&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -29,8 +29,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00052"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/JaasOptionsUtils.java.html#52"
- , "c1" : "Map<String,Object>"
- , "c2" : "getOptions(String;List<AppConfigurationEntry>)"
+ , "c1" : "Map&lt;String,Object&gt;"
+ , "c2" : "getOptions(String;List&lt;AppConfigurationEntry&gt;)"
  , "c3" : "3"
  , "c4" : "3"
 }} 
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00066"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/JaasOptionsUtils.java.html#66"
- , "c1" : "Map<String,?>"
+ , "c1" : "Map&lt;String,?&gt;"
  , "c2" : "getSslClientConfig()"
  , "c3" : "1"
  , "c4" : "4"

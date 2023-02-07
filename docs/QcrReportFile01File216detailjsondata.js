@@ -129,7 +129,7 @@ var maDataBlocs = {
  , "c5" : "00187"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#187"
  , "c1" : "void"
- , "c2" : "addListener(RequestFutureListener<T>)"
+ , "c2" : "addListener(RequestFutureListener&lt;T&gt;)"
  , "c3" : "4"
  , "c4" : "3"
 }} 
@@ -138,7 +138,7 @@ var maDataBlocs = {
  , "c5" : "00217"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#217"
  , "c1" : "void"
- , "c2" : "chain(RequestFuture<T>)"
+ , "c2" : "chain(RequestFuture&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -146,7 +146,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00237"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#237"
- , "c1" : "RequestFuture<Void>"
+ , "c1" : "RequestFuture&lt;Void&gt;"
  , "c2" : "voidSuccess()"
  , "c3" : "1"
  , "c4" : "3"

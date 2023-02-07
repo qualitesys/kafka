@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00047"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#47"
  , "c1" : "void"
- , "c2" : "maybeAddAll(List<?>)"
+ , "c2" : "maybeAddAll(List&lt;?&gt;)"
  , "c3" : "2"
  , "c4" : "1"
 }} 

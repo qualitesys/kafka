@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java 485 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java 483 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.xml" 
  , "fic3"  : "" 
 }
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00110"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#110"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "names()"
  , "c3" : "1"
  , "c4" : "1"
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00114"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#114"
- , "c1" : "Map<String,Object>"
+ , "c1" : "Map&lt;String,Object&gt;"
  , "c2" : "defaultValues()"
  , "c3" : "3"
  , "c4" : "3"
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00150"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#150"
  , "c1" : "ConfigDef"
- , "c2" : "define(String;Type;Object;Validator;Importance;String;String;int;Width;String;List<String>;Recommender)"
+ , "c2" : "define(String;Type;Object;Validator;Importance;String;String;int;Width;String;List&lt;String&gt;;Recommender)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00170"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#170"
  , "c1" : "ConfigDef"
- , "c2" : "define(String;Type;Object;Validator;Importance;String;String;int;Width;String;List<String>)"
+ , "c2" : "define(String;Type;Object;Validator;Importance;String;String;int;Width;String;List&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -102,7 +102,7 @@ var maDataBlocs = {
  , "c5" : "00229"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#229"
  , "c1" : "ConfigDef"
- , "c2" : "define(String;Type;Object;Importance;String;String;int;Width;String;List<String>;Recommender)"
+ , "c2" : "define(String;Type;Object;Importance;String;String;int;Width;String;List&lt;String&gt;;Recommender)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -111,7 +111,7 @@ var maDataBlocs = {
  , "c5" : "00248"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#248"
  , "c1" : "ConfigDef"
- , "c2" : "define(String;Type;Object;Importance;String;String;int;Width;String;List<String>)"
+ , "c2" : "define(String;Type;Object;Importance;String;String;int;Width;String;List&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -138,7 +138,7 @@ var maDataBlocs = {
  , "c5" : "00304"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#304"
  , "c1" : "ConfigDef"
- , "c2" : "define(String;Type;Importance;String;String;int;Width;String;List<String>;Recommender)"
+ , "c2" : "define(String;Type;Importance;String;String;int;Width;String;List&lt;String&gt;;Recommender)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -147,7 +147,7 @@ var maDataBlocs = {
  , "c5" : "00322"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#322"
  , "c1" : "ConfigDef"
- , "c2" : "define(String;Type;Importance;String;String;int;Width;String;List<String>)"
+ , "c2" : "define(String;Type;Importance;String;String;int;Width;String;List&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -218,7 +218,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00433"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#433"
- , "c1" : "Map<String,ConfigKey>"
+ , "c1" : "Map&lt;String,ConfigKey&gt;"
  , "c2" : "configKeys()"
  , "c3" : "1"
  , "c4" : "1"
@@ -227,7 +227,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00441"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#441"
- , "c1" : "List<String>"
+ , "c1" : "List&lt;String&gt;"
  , "c2" : "groups()"
  , "c3" : "1"
  , "c4" : "1"
@@ -254,8 +254,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00473"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#473"
- , "c1" : "Map<String,Object>"
- , "c2" : "parse(Map<?,?>)"
+ , "c1" : "Map&lt;String,Object&gt;"
+ , "c2" : "parse(Map&lt;?,?&gt;)"
  , "c3" : "3"
  , "c4" : "6"
 }} 
@@ -272,8 +272,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00510"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#510"
- , "c1" : "List<ConfigValue>"
- , "c2" : "validate(Map<String,String>)"
+ , "c1" : "List&lt;ConfigValue&gt;"
+ , "c2" : "validate(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -281,8 +281,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00514"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#514"
- , "c1" : "Map<String,ConfigValue>"
- , "c2" : "validateAll(Map<String,String>)"
+ , "c1" : "Map&lt;String,ConfigValue&gt;"
+ , "c2" : "validateAll(Map&lt;String,String&gt;)"
  , "c3" : "3"
  , "c4" : "9"
 }} 
@@ -290,8 +290,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00533"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#533"
- , "c1" : "Map<String,Object>"
- , "c2" : "parseForValidate(Map<String,String>;Map<String,ConfigValue>)"
+ , "c1" : "Map&lt;String,Object&gt;"
+ , "c2" : "parseForValidate(Map&lt;String,String&gt;;Map&lt;String,ConfigValue&gt;)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -299,8 +299,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00543"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#543"
- , "c1" : "Map<String,ConfigValue>"
- , "c2" : "validate(Map<String,Object>;Map<String,ConfigValue>)"
+ , "c1" : "Map&lt;String,ConfigValue&gt;"
+ , "c2" : "validate(Map&lt;String,Object&gt;;Map&lt;String,ConfigValue&gt;)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -308,7 +308,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00551"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#551"
- , "c1" : "List<String>"
+ , "c1" : "List&lt;String&gt;"
  , "c2" : "undefinedDependentConfigs()"
  , "c3" : "4"
  , "c4" : "3"
@@ -317,7 +317,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00564"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#564"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "getConfigsWithNoParent()"
  , "c3" : "3"
  , "c4" : "8"
@@ -327,7 +327,7 @@ var maDataBlocs = {
  , "c5" : "00581"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#581"
  , "c1" : "void"
- , "c2" : "parseForValidate(String;Map<String,String>;Map<String,Object>;Map<String,ConfigValue>)"
+ , "c2" : "parseForValidate(String;Map&lt;String,String&gt;;Map&lt;String,Object&gt;;Map&lt;String,ConfigValue&gt;)"
  , "c3" : "8"
  , "c4" : "13"
 }} 
@@ -336,7 +336,7 @@ var maDataBlocs = {
  , "c5" : "00615"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#615"
  , "c1" : "void"
- , "c2" : "validate(String;Map<String,Object>;Map<String,ConfigValue>)"
+ , "c2" : "validate(String;Map&lt;String,Object&gt;;Map&lt;String,ConfigValue&gt;)"
  , "c3" : "5"
  , "c4" : "12"
 }} 
@@ -362,8 +362,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00782"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#782"
- , "c1" : "Map<String,String>"
- , "c2" : "convertToStringMapWithPasswordValues(Map<String,?>)"
+ , "c1" : "Map&lt;String,String&gt;"
+ , "c2" : "convertToStringMapWithPasswordValues(Map&lt;String,?&gt;)"
  , "c3" : "9"
  , "c4" : "9"
 }} 
@@ -371,7 +371,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01196"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1196"
- , "c1" : "List<String>"
+ , "c1" : "List&lt;String&gt;"
  , "c2" : "headers()"
  , "c3" : "1"
  , "c4" : "1"
@@ -435,7 +435,7 @@ var maDataBlocs = {
  , "c5" : "01302"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1302"
  , "c1" : "String"
- , "c2" : "toHtmlTable(Map<String,String>)"
+ , "c2" : "toHtmlTable(Map&lt;String,String&gt;)"
  , "c3" : "8"
  , "c4" : "18"
 }} 
@@ -470,7 +470,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01426"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1426"
- , "c1" : "List<ConfigKey>"
+ , "c1" : "List&lt;ConfigKey&gt;"
  , "c2" : "sortedConfigs()"
  , "c3" : "2"
  , "c4" : "6"
@@ -480,7 +480,7 @@ var maDataBlocs = {
  , "c5" : "01438"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1438"
  , "c1" : "int"
- , "c2" : "compare(ConfigKey;ConfigKey;Map<String,Integer>)"
+ , "c2" : "compare(ConfigKey;ConfigKey;Map&lt;String,Integer&gt;)"
  , "c3" : "8"
  , "c4" : "7"
 }} 
@@ -506,8 +506,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01500"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1500"
- , "c1" : "List<String>"
- , "c2" : "embeddedDependents(String;List<String>)"
+ , "c1" : "List&lt;String&gt;"
+ , "c2" : "embeddedDependents(String;List&lt;String&gt;)"
  , "c3" : "3"
  , "c4" : "4"
 }} 
@@ -534,7 +534,7 @@ var maDataBlocs = {
  , "c5" : "01550"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1550"
  , "c1" : "String"
- , "c2" : "toHtml(int;Function<String,String>)"
+ , "c2" : "toHtml(int;Function&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -543,7 +543,7 @@ var maDataBlocs = {
  , "c5" : "01561"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1561"
  , "c1" : "String"
- , "c2" : "toHtml(Map<String,String>)"
+ , "c2" : "toHtml(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -552,7 +552,7 @@ var maDataBlocs = {
  , "c5" : "01574"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1574"
  , "c1" : "String"
- , "c2" : "toHtml(int;Function<String,String>;Map<String,String>)"
+ , "c2" : "toHtml(int;Function&lt;String,String&gt;;Map&lt;String,String&gt;)"
  , "c3" : "8"
  , "c4" : "20"
 }} 
@@ -596,9 +596,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File296Seq1.html#seq1"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=296&numSeq=1"
  , "c2" : "1"
- , "c3" : "2"
+ , "c3" : "3"
  , "c4" : "2"
- , "c5" : ["java.util.HashMap.get@POLYN618616.return" , "java.util.HashMap.put@POLYN621976.value"]
+ , "c5" : ["java.util.HashMap.getValue@POLYN607725.return" , "org.apache.kafka.common.config.ConfigDef.convertToStringMapWithPasswordValues@POLYN481038.cibledummy_00796"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -612,18 +612,26 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "1" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00620]"
- , "c3" : ["java.util.HashMap.get@POLYN618616.return" , "---java.util.HashMap.get@POLYN618616" , "org.apache.kafka.common.config.ConfigDef.validate@POLYN472155.value"]
- , "c4" : "//QC-JAVCWE099[00620] In org.apache.kafka.common.config.ConfigDef.validate@POLYN472155[00620] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c1" : "3"
+ , "sourcenoligne" : "[00785]"
+ , "c3" : ["java.util.HashMap.getValue@POLYN607725.return" , "---java.util.HashMap.getValue@POLYN607725" , "org.apache.kafka.common.config.ConfigDef.convertToStringMapWithPasswordValues@POLYN481038.value"]
+ , "c4" : "//QC-JAVCWE099[00785] In org.apache.kafka.common.config.ConfigDef.convertToStringMapWithPasswordValues@POLYN481038[00785] source data PATHtainted (java.util.HashMap.get) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00790]"
+ , "c3" : ["org.apache.kafka.common.config.ConfigDef.convertToStringMapWithPasswordValues@POLYN481038.value" , "---org.apache.kafka.common.config.ConfigDef.convertToString@POLYN479607" , "org.apache.kafka.common.config.ConfigDef.convertToStringMapWithPasswordValues@POLYN481038.strValue"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "1"
- , "sourcenoligne" : "[00636]"
- , "c3" : ["org.apache.kafka.common.config.ConfigDef.validate@POLYN472155.value" , "---java.util.HashMap.put@POLYN621976" , "java.util.HashMap.put@POLYN621976.value"]
- , "c4" : "//QC-JAVCWE099[00636] In org.apache.kafka.common.config.ConfigDef.validate@POLYN472155[00636] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "sourcenoligne" : "[00796]"
+ , "c3" : ["org.apache.kafka.common.config.ConfigDef.convertToStringMapWithPasswordValues@POLYN481038.strValue" , "---java.util.Map.put@POLYN429794" , "org.apache.kafka.common.config.ConfigDef.convertToStringMapWithPasswordValues@POLYN481038.cibledummy_00796"]
+ , "c4" : "//QC-JAVCWE099[00796] In org.apache.kafka.common.config.ConfigDef.convertToStringMapWithPasswordValues@POLYN481038[00796] target data PATHtainted (java.util.Map.put) RiskOnOutput"
  , "c5" : "input"
 }}
 ,
@@ -694,7 +702,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "29"
+ , "c4" : "28"
 }}
 ,
 { "ligne" : { "" : ""
@@ -708,7 +716,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -3916,6 +3924,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.ConfigDef.define@POLYN460382"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.ConfigDef.parseType@POLYN474127"
 }} 
 ,
@@ -3927,17 +3942,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.ConfigDef.validate@POLYN472155"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.ConfigDef.define@POLYN460382"
+ , "c1" : "00398"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#398"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00398] In the recursive method org.apache.kafka.common.config.ConfigDef.define@POLYN460382 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4127,20 +4135,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#601"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00601] In the recursive method org.apache.kafka.common.config.ConfigDef.parseForValidate@POLYN470063 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00621"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#621"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00621] In the recursive method org.apache.kafka.common.config.ConfigDef.validate@POLYN472155 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00398"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#398"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00398] In the recursive method org.apache.kafka.common.config.ConfigDef.define@POLYN460382 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

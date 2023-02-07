@@ -1,171 +1,171 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/secujava/javax.servlet.http.HttpSession.java.html" 
- , "texte" : "File secujava/javax.servlet.http.HttpSession.java 0 rule violation " 
- , "fic2"  : "./qc/secujava/javax.servlet.http.HttpSession.java.xml" 
+   "fic1"  : "./qc/secujava/javax.servlet.http.HttpServletResponse.java.html" 
+ , "texte" : "File secujava/javax.servlet.http.HttpServletResponse.java 0 rule violation " 
+ , "fic2"  : "./qc/secujava/javax.servlet.http.HttpServletResponse.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "javax.servlet.http.HttpSession"
+ , "c1" : "ServletResponse"
+ , "c2" : "javax.servlet.http.HttpServletResponse"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "javax.servlet.http.HttpSession" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "javax.servlet.http.HttpServletResponse" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00089"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#89"
- , "c1" : "long"
- , "c2" : "getCreationTime()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00100"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#100"
- , "c1" : "String"
- , "c2" : "getId()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00123"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#123"
- , "c1" : "long"
- , "c2" : "getLastAccessedTime()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00132"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#132"
- , "c1" : "ServletContext"
- , "c2" : "getServletContext()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00145"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#145"
+ , "c5" : "00063"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#63"
  , "c1" : "void"
- , "c2" : "setMaxInactiveInterval(int)"
+ , "c2" : "addCookie(Cookie)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00164"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#164"
- , "c1" : "int"
- , "c2" : "getMaxInactiveInterval()"
+ , "c5" : "00075"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#75"
+ , "c1" : "boolean"
+ , "c2" : "containsHeader(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00177"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#177"
- , "c1" : "HttpSessionContext"
- , "c2" : "getSessionContext()"
+ , "c5" : "00095"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#95"
+ , "c1" : "String"
+ , "c2" : "encodeURL(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00191"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#191"
- , "c1" : "Object"
- , "c2" : "getAttribute(String)"
+ , "c5" : "00120"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#120"
+ , "c1" : "String"
+ , "c2" : "encodeRedirectURL(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00206"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#206"
- , "c1" : "Object"
- , "c2" : "getValue(String)"
+ , "c5" : "00130"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#130"
+ , "c1" : "String"
+ , "c2" : "encodeUrl(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00141"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#141"
+ , "c1" : "String"
+ , "c2" : "encodeRedirectUrl(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00165"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#165"
+ , "c1" : "void"
+ , "c2" : "sendError(int;String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00181"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#181"
+ , "c1" : "void"
+ , "c2" : "sendError(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00203"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#203"
+ , "c1" : "void"
+ , "c2" : "sendRedirect(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00221"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#221"
- , "c1" : "Enumeration<String>"
- , "c2" : "getAttributeNames()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00237"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#237"
- , "c1" : "String[]"
- , "c2" : "getValueNames()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00268"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#268"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#221"
  , "c1" : "void"
- , "c2" : "setAttribute(String;Object)"
+ , "c2" : "setDateHeader(String;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00284"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#284"
+ , "c5" : "00236"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#236"
  , "c1" : "void"
- , "c2" : "putValue(String;Object)"
+ , "c2" : "addDateHeader(String;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00305"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#305"
+ , "c5" : "00255"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#255"
  , "c1" : "void"
- , "c2" : "removeAttribute(String)"
+ , "c2" : "setHeader(String;String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00319"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#319"
+ , "c5" : "00270"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#270"
  , "c1" : "void"
- , "c2" : "removeValue(String)"
+ , "c2" : "addHeader(String;String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00329"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#329"
+ , "c5" : "00286"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#286"
  , "c1" : "void"
- , "c2" : "invalidate()"
+ , "c2" : "setIntHeader(String;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00346"
- , "c5link" : "././qc/secujava/javax.servlet.http.HttpSession.java.html#346"
- , "c1" : "boolean"
- , "c2" : "isNew()"
+ , "c5" : "00299"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#299"
+ , "c1" : "void"
+ , "c2" : "addIntHeader(String;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00318"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#318"
+ , "c1" : "void"
+ , "c2" : "setStatus(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00332"
+ , "c5link" : "././qc/secujava/javax.servlet.http.HttpServletResponse.java.html#332"
+ , "c1" : "void"
+ , "c2" : "setStatus(int;String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -174,9 +174,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/secujava/javax.servlet.http.HttpSession.java.png" 
+   {"ligne" : "./qc/secujava/javax.servlet.http.HttpServletResponse.java.png" 
 
- , "ligneplantuml" : "./qc/secujava/javax.servlet.http.HttpSession.java.svg" }
+ , "ligneplantuml" : "./qc/secujava/javax.servlet.http.HttpServletResponse.java.svg" }
 
 ] 
 , 
@@ -202,7 +202,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/secujava/javax.servlet.http.HttpSession.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/secujava/javax.servlet.http.HttpServletResponse.java.fct.svg" 
 
 , 
 }

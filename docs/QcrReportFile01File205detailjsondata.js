@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00031"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetrics.java.html#31"
  , "c1" : "ConsumerMetrics"
- , "c2" : "ConsumerMetrics(Set<String>;String)"
+ , "c2" : "ConsumerMetrics(Set&lt;String&gt;;String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00039"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetrics.java.html#39"
- , "c1" : "List<MetricNameTemplate>"
+ , "c1" : "List&lt;MetricNameTemplate&gt;"
  , "c2" : "getAllTemplates()"
  , "c3" : "1"
  , "c4" : "2"

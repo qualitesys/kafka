@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00098"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelBuilders.java.html#98"
  , "c1" : "ChannelBuilder"
- , "c2" : "serverChannelBuilder(ListenerName;boolean;SecurityProtocol;AbstractConfig;CredentialCache;DelegationTokenCache;Time;LogContext;Supplier<ApiVersionsResponse>)"
+ , "c2" : "serverChannelBuilder(ListenerName;boolean;SecurityProtocol;AbstractConfig;CredentialCache;DelegationTokenCache;Time;LogContext;Supplier&lt;ApiVersionsResponse&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00112"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelBuilders.java.html#112"
  , "c1" : "ChannelBuilder"
- , "c2" : "create(SecurityProtocol;Mode;JaasContext.Type;AbstractConfig;ListenerName;boolean;String;boolean;CredentialCache;DelegationTokenCache;Time;LogContext;Supplier<ApiVersionsResponse>)"
+ , "c2" : "create(SecurityProtocol;Mode;JaasContext.Type;AbstractConfig;ListenerName;boolean;String;boolean;CredentialCache;DelegationTokenCache;Time;LogContext;Supplier&lt;ApiVersionsResponse&gt;)"
  , "c3" : "11"
  , "c4" : "24"
 }} 
@@ -56,7 +56,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00200"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelBuilders.java.html#200"
- , "c1" : "Map<String,Object>"
+ , "c1" : "Map&lt;String,Object&gt;"
  , "c2" : "channelBuilderConfigs(AbstractConfig;ListenerName)"
  , "c3" : "3"
  , "c4" : "5"
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00223"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/ChannelBuilders.java.html#223"
  , "c1" : "KafkaPrincipalBuilder"
- , "c2" : "createPrincipalBuilder(Map<String,?>;KerberosShortNamer;SslPrincipalMapper)"
+ , "c2" : "createPrincipalBuilder(Map&lt;String,?&gt;;KerberosShortNamer;SslPrincipalMapper)"
  , "c3" : "6"
  , "c4" : "7"
 }} 

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java 56 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java 41 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.xml" 
  , "fic3"  : "" 
 }
@@ -65,7 +65,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00084"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#84"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "topics()"
  , "c3" : "1"
  , "c4" : "1"
@@ -74,7 +74,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00089"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#89"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "newTopics()"
  , "c3" : "1"
  , "c4" : "1"
@@ -188,39 +188,6 @@ var maDataBlocs = {
 ]
 ,
 "data12b" : [
-{ "sequence" : { "noseq" : "0" , "pas" : [
-{ "ligne" : "S0:org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN162495 (R0 in line [00067],R1 in line [00067],R2 in line [00067])" }
-,
-{ "ligne" : "S0:org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN162495 (R0 in line [00067],R1 in line [00067],R2 in line [00067])" }
-,
-{ "ligne" : "S0:org.apache.kafka.clients.Metadata.requestUpdateForNewTopics@POLYN248334" }
- ]
- } }
-,
-{ "sequence" : { "noseq" : "1" , "pas" : [
-{ "ligne" : "S1:org.apache.kafka.clients.producer.internals.ProducerMetadata.awaitUpdate@POLYN164536 (R0 in line [00116],R3 in line [00116],R4 in line [00116])" }
-,
-{ "ligne" : "S1:org.apache.kafka.common.utils.Time.milliseconds@POLYN154337" }
- ]
- } }
-,
-{ "sequence" : { "noseq" : "2" , "pas" : [
-{ "ligne" : "S2:org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN165308 (R0 in line [00130],R5 in line [00130],R6 in line [00130],R7 in line [00130],R8 in line [00130])" }
-,
-{ "ligne" : "S2:org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN165308 (R0 in line [00130],R5 in line [00130],R6 in line [00130],R7 in line [00130],R8 in line [00130])" }
-,
-{ "ligne" : "S2:java.util.HashMap.remove@POLYN650962" }
- ]
- } }
-,
-{ "sequence" : { "noseq" : "3" , "pas" : [
-{ "ligne" : "S3:org.apache.kafka.clients.producer.internals.ProducerMetadata.fatalError@POLYN165921 (R0 in line [00145],R9 in line [00145])" }
-,
-{ "ligne" : "S3:org.apache.kafka.clients.producer.internals.ProducerMetadata.fatalError@POLYN165921 (R0 in line [00145],R9 in line [00145])" }
-,
-{ "ligne" : "S3:java.lang.Object.notifyAll@POLYN295582" }
- ]
- } }
 ]
 ,
 "data12c" : [
@@ -229,16 +196,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAVCWE833"
- , "c3" : "Potential deadlock between at least two ressources"
- , "c4" : "10"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "8"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
@@ -252,7 +212,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -526,113 +486,8 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : org.apache.kafka.clients.producer.internals.ProducerMetadata.this"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN162495.topic"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN162495.nowMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.clients.producer.internals.ProducerMetadata.awaitUpdate@POLYN164536.lastVersion"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R4 : org.apache.kafka.clients.producer.internals.ProducerMetadata.awaitUpdate@POLYN164536.timeoutMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R5 : org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN165308.requestVersion"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R6 : org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN165308.response"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R7 : org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN165308.isPartialUpdate"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R8 : org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN165308.nowMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R9 : org.apache.kafka.clients.producer.internals.ProducerMetadata.fatalError@POLYN165921.fatalException"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN162495"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.ProducerMetadata.retainTopic@POLYN163645"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN165308"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.ProducerMetadata.fatalError@POLYN165921"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#68"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN162495 the MagicNumber/String 'topic cannot be null' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#69"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN162495 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

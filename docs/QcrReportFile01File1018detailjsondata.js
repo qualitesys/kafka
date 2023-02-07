@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00049"
  , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#49"
  , "c1" : "int"
- , "c2" : "replicationHops(Map<String,Object>;String)"
+ , "c2" : "replicationHops(Map&lt;String,Object&gt;;String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -38,8 +38,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00057"
  , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#57"
- , "c1" : "Set<String>"
- , "c2" : "heartbeatTopics(Map<String,Object>)"
+ , "c1" : "Set&lt;String&gt;"
+ , "c2" : "heartbeatTopics(Map&lt;String,Object&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -47,8 +47,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00065"
  , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#65"
- , "c1" : "Set<String>"
- , "c2" : "checkpointTopics(Map<String,Object>)"
+ , "c1" : "Set&lt;String&gt;"
+ , "c2" : "checkpointTopics(Map&lt;String,Object&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -56,8 +56,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00073"
  , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#73"
- , "c1" : "Set<String>"
- , "c2" : "upstreamClusters(Map<String,Object>)"
+ , "c1" : "Set&lt;String&gt;"
+ , "c2" : "upstreamClusters(Map&lt;String,Object&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -65,8 +65,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00087"
  , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#87"
- , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
- , "c2" : "translateOffsets(Map<String,Object>;String;String;Duration)"
+ , "c1" : "Map&lt;TopicPartition,OffsetAndMetadata&gt;"
+ , "c2" : "translateOffsets(Map&lt;String,Object&gt;;String;String;Duration)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

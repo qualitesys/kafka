@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00048"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#48"
- , "c1" : "Optional<String>"
+ , "c1" : "Optional&lt;String&gt;"
  , "c2" : "listenerName()"
  , "c3" : "1"
  , "c4" : "1"

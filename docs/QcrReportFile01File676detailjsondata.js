@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00062"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#62"
  , "c1" : "FetchSnapshotRequestData"
- , "c2" : "singleton(String;TopicPartition;UnaryOperator<FetchSnapshotRequestData.PartitionSnapshot>)"
+ , "c2" : "singleton(String;TopicPartition;UnaryOperator&lt;FetchSnapshotRequestData.PartitionSnapshot&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -56,7 +56,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00089"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotRequest.java.html#89"
- , "c1" : "Optional<FetchSnapshotRequestData.PartitionSnapshot>"
+ , "c1" : "Optional&lt;FetchSnapshotRequestData.PartitionSnapshot&gt;"
  , "c2" : "forTopicPartition(FetchSnapshotRequestData;TopicPartition)"
  , "c3" : "1"
  , "c4" : "1"

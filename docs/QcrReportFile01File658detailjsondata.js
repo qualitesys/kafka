@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00052"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java.html#52"
- , "c1" : "Map<Errors,Integer>"
+ , "c1" : "Map&lt;Errors,Integer&gt;"
  , "c2" : "errorCounts()"
  , "c3" : "3"
  , "c4" : "4"
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00075"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java.html#75"
  , "c1" : "DescribeQuorumResponseData"
- , "c2" : "singletonResponse(TopicPartition;int;int;long;List<ReplicaState>;List<ReplicaState>)"
+ , "c2" : "singletonResponse(TopicPartition;int;int;long;List&lt;ReplicaState&gt;;List&lt;ReplicaState&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

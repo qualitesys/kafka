@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00066"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.html#66"
  , "c1" : "void"
- , "c2" : "resetSequenceNumbers(Consumer<ProducerBatch>)"
+ , "c2" : "resetSequenceNumbers(Consumer&lt;ProducerBatch&gt;)"
  , "c3" : "2"
  , "c4" : "4"
 }} 

@@ -38,8 +38,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00044"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.html#44"
- , "c1" : "AbstractRequest.Builder<?>"
- , "c2" : "buildRequest(Set<K>)"
+ , "c1" : "AbstractRequest.Builder&lt;?&gt;"
+ , "c2" : "buildRequest(Set&lt;K&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -47,8 +47,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00049"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.html#49"
- , "c1" : "LookupResult<K>"
- , "c2" : "handleResponse(Set<K>;AbstractResponse)"
+ , "c1" : "LookupResult&lt;K&gt;"
+ , "c2" : "handleResponse(Set&lt;K&gt;;AbstractResponse)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

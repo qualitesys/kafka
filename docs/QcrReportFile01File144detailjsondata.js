@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00030"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UnregisterBrokerResult.java.html#30"
  , "c1" : "UnregisterBrokerResult"
- , "c2" : "UnregisterBrokerResult(KafkaFuture<Void>)"
+ , "c2" : "UnregisterBrokerResult(KafkaFuture&lt;Void&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00037"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UnregisterBrokerResult.java.html#37"
- , "c1" : "KafkaFuture<Void>"
+ , "c1" : "KafkaFuture&lt;Void&gt;"
  , "c2" : "all()"
  , "c3" : "1"
  , "c4" : "1"

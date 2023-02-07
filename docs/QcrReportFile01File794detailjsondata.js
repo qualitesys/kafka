@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00152"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/expiring/ExpiringCredentialRefreshingLogin.java.html#152"
  , "c1" : "ExpiringCredentialRefreshingLogin"
- , "c2" : "ExpiringCredentialRefreshingLogin(String;Configuration;ExpiringCredentialRefreshConfig;AuthenticateCallbackHandler;Class<?>)"
+ , "c2" : "ExpiringCredentialRefreshingLogin(String;Configuration;ExpiringCredentialRefreshConfig;AuthenticateCallbackHandler;Class&lt;?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00159"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/expiring/ExpiringCredentialRefreshingLogin.java.html#159"
  , "c1" : "ExpiringCredentialRefreshingLogin"
- , "c2" : "ExpiringCredentialRefreshingLogin(String;Configuration;ExpiringCredentialRefreshConfig;AuthenticateCallbackHandler;Class<?>;LoginContextFactory;Time)"
+ , "c2" : "ExpiringCredentialRefreshingLogin(String;Configuration;ExpiringCredentialRefreshConfig;AuthenticateCallbackHandler;Class&lt;?&gt;;LoginContextFactory;Time)"
  , "c3" : "1"
  , "c4" : "7"
 }} 

@@ -20,7 +20,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00041"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/MetadataUpdater.java.html#41"
- , "c1" : "List<Node>"
+ , "c1" : "List&lt;Node&gt;"
  , "c2" : "fetchNodes()"
  , "c3" : "1"
  , "c4" : "1"
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00070"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/MetadataUpdater.java.html#70"
  , "c1" : "void"
- , "c2" : "handleServerDisconnect(long;String;Optional<AuthenticationException>)"
+ , "c2" : "handleServerDisconnect(long;String;Optional&lt;AuthenticationException&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00078"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/MetadataUpdater.java.html#78"
  , "c1" : "void"
- , "c2" : "handleFailedRequest(long;Optional<KafkaException>)"
+ , "c2" : "handleFailedRequest(long;Optional&lt;KafkaException&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

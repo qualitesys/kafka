@@ -29,8 +29,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00852"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#852"
- , "c1" : "Map<String,ByteBuffer>"
- , "c2" : "performAssignment(String;String;List<JoinGroupResponseMember>;WorkerCoordinator)"
+ , "c1" : "Map&lt;String,ByteBuffer&gt;"
+ , "c2" : "performAssignment(String;String;List&lt;JoinGroupResponseMember&gt;;WorkerCoordinator)"
  , "c3" : "3"
  , "c4" : "11"
 }} 
@@ -47,8 +47,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c1" : "Map<String,ByteBuffer>"
- , "c2" : "performTaskAssignment(String;long;Map<String,ExtendedWorkerState>;WorkerCoordinator;short)"
+ , "c1" : "Map&lt;String,ByteBuffer&gt;"
+ , "c2" : "performTaskAssignment(String;long;Map&lt;String,ExtendedWorkerState&gt;;WorkerCoordinator;short)"
  , "c3" : "1"
  , "c4" : "7"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c1" : "ClusterAssignment"
- , "c2" : "performTaskAssignment(ClusterConfigState;int;int;Map<String,ConnectorsAndTasks>)"
+ , "c2" : "performTaskAssignment(ClusterConfigState;int;int;Map&lt;String,ConnectorsAndTasks&gt;)"
  , "c3" : "6"
  , "c4" : "62"
 }} 
@@ -65,8 +65,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c1" : "Map<String,ConnectorsAndTasks>"
- , "c2" : "computeDeleted(ConnectorsAndTasks;Map<String,Collection<String>>;Map<String,Collection<ConnectorTaskId>>)"
+ , "c1" : "Map&lt;String,ConnectorsAndTasks&gt;"
+ , "c2" : "computeDeleted(ConnectorsAndTasks;Map&lt;String,Collection&lt;String&gt;&gt;;Map&lt;String,Collection&lt;ConnectorTaskId&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "7"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c1" : "ConnectorsAndTasks"
- , "c2" : "computePreviousAssignment(Map<String,ConnectorsAndTasks>;Map<String,Collection<String>>;Map<String,Collection<ConnectorTaskId>>;ConnectorsAndTasks)"
+ , "c2" : "computePreviousAssignment(Map&lt;String,ConnectorsAndTasks&gt;;Map&lt;String,Collection&lt;String&gt;&gt;;Map&lt;String,Collection&lt;ConnectorTaskId&gt;&gt;;ConnectorsAndTasks)"
  , "c3" : "2"
  , "c4" : "8"
 }} 
@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c1" : "ConnectorsAndTasks"
- , "c2" : "duplicatedAssignments(Map<String,ConnectorsAndTasks>)"
+ , "c2" : "duplicatedAssignments(Map&lt;String,ConnectorsAndTasks&gt;)"
  , "c3" : "1"
  , "c4" : "5"
 }} 
@@ -92,8 +92,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c1" : "Map<String,ConnectorsAndTasks>"
- , "c2" : "computeDuplicatedAssignments(Map<String,ConnectorsAndTasks>;Map<String,Collection<String>>;Map<String,Collection<ConnectorTaskId>>)"
+ , "c1" : "Map&lt;String,ConnectorsAndTasks&gt;"
+ , "c2" : "computeDuplicatedAssignments(Map&lt;String,ConnectorsAndTasks&gt;;Map&lt;String,Collection&lt;String&gt;&gt;;Map&lt;String,Collection&lt;ConnectorTaskId&gt;&gt;)"
  , "c3" : "5"
  , "c4" : "12"
 }} 
@@ -102,7 +102,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c1" : "void"
- , "c2" : "handleLostAssignments(ConnectorsAndTasks;ConnectorsAndTasks;List<WorkerLoad>)"
+ , "c2" : "handleLostAssignments(ConnectorsAndTasks;ConnectorsAndTasks;List&lt;WorkerLoad&gt;)"
  , "c3" : "14"
  , "c4" : "33"
 }} 
@@ -119,8 +119,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c1" : "Set<String>"
- , "c2" : "candidateWorkersForReassignment(List<WorkerLoad>)"
+ , "c1" : "Set&lt;String&gt;"
+ , "c2" : "candidateWorkersForReassignment(List&lt;WorkerLoad&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -128,8 +128,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c1" : "List<WorkerLoad>"
- , "c2" : "pickCandidateWorkerForReassignment(List<WorkerLoad>)"
+ , "c1" : "List&lt;WorkerLoad&gt;"
+ , "c2" : "pickCandidateWorkerForReassignment(List&lt;WorkerLoad&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -137,8 +137,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c1" : "Map<String,ConnectorsAndTasks>"
- , "c2" : "performTaskRevocation(ConnectorsAndTasks;Collection<WorkerLoad>)"
+ , "c1" : "Map&lt;String,ConnectorsAndTasks&gt;"
+ , "c2" : "performTaskRevocation(ConnectorsAndTasks;Collection&lt;WorkerLoad&gt;)"
  , "c3" : "7"
  , "c4" : "34"
 }} 
@@ -146,8 +146,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c1" : "Map<String,ExtendedAssignment>"
- , "c2" : "fillAssignments(Collection<String>;short;String;String;long;ClusterAssignment;int;short)"
+ , "c1" : "Map&lt;String,ExtendedAssignment&gt;"
+ , "c2" : "fillAssignments(Collection&lt;String&gt;;short;String;String;long;ClusterAssignment;int;short)"
  , "c3" : "2"
  , "c4" : "10"
 }} 
@@ -155,8 +155,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c1" : "Map<String,ByteBuffer>"
- , "c2" : "serializeAssignments(Map<String,ExtendedAssignment>;short)"
+ , "c1" : "Map&lt;String,ByteBuffer&gt;"
+ , "c2" : "serializeAssignments(Map&lt;String,ExtendedAssignment&gt;;short)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -174,7 +174,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c1" : "ConnectorsAndTasks"
- , "c2" : "assignment(Map<String,ConnectorsAndTasks>)"
+ , "c2" : "assignment(Map&lt;String,ConnectorsAndTasks&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -192,7 +192,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c1" : "void"
- , "c2" : "assignConnectors(List<WorkerLoad>;Collection<String>)"
+ , "c2" : "assignConnectors(List&lt;WorkerLoad&gt;;Collection&lt;String&gt;)"
  , "c3" : "4"
  , "c4" : "9"
 }} 
@@ -201,7 +201,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c1" : "void"
- , "c2" : "assignTasks(List<WorkerLoad>;Collection<ConnectorTaskId>)"
+ , "c2" : "assignTasks(List&lt;WorkerLoad&gt;;Collection&lt;ConnectorTaskId&gt;)"
  , "c3" : "4"
  , "c4" : "9"
 }} 
@@ -209,8 +209,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c1" : "List<WorkerLoad>"
- , "c2" : "workerAssignment(Map<String,ConnectorsAndTasks>;ConnectorsAndTasks)"
+ , "c1" : "List&lt;WorkerLoad&gt;"
+ , "c2" : "workerAssignment(Map&lt;String,ConnectorsAndTasks&gt;;ConnectorsAndTasks)"
  , "c3" : "1"
  , "c4" : "2"
 }} 

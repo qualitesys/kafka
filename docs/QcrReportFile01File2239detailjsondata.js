@@ -1,36 +1,63 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java 4 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.xml" 
+   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html" 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java 3 rule violations " 
+ , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "WorkerStatusTracker"
- , "c2" : "org.apache.kafka.trogdor.task.AgentWorkerStatusTracker"
+ , "c1" : "WorkerState"
+ , "c2" : "org.apache.kafka.trogdor.rest.WorkerStopping"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.task.AgentWorkerStatusTracker" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.trogdor.rest.WorkerStopping" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html#30"
- , "c1" : "void"
- , "c2" : "update(JsonNode)"
+ , "c5" : "00042"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#42"
+ , "c1" : "WorkerStopping"
+ , "c2" : "WorkerStopping(String;TaskSpec;long;JsonNode)"
  , "c3" : "1"
- , "c4" : "2"
+ , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00040"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html#40"
+ , "c5" : "00053"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#53"
+ , "c1" : "long"
+ , "c2" : "startedMs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00059"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#59"
  , "c1" : "JsonNode"
- , "c2" : "get()"
+ , "c2" : "status()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00064"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#64"
+ , "c1" : "boolean"
+ , "c2" : "stopping()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00069"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#69"
+ , "c1" : "boolean"
+ , "c2" : "running()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,9 +66,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.png" 
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.png" 
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.svg" }
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.svg" }
 
 ] 
 , 
@@ -68,59 +95,38 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "INFO"
- , "c2" : "QC-JAV000019"
- , "c3" : "Lock statement"
- , "c4" : "2"
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "3"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html#30"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method update arguments JsonNode  newStatus"
+ , "c1" : "00048"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#48"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.trogdor.rest.WorkerStopping.WorkerStopping@POLYN148064 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00030"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html#30"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00030] The argument newStatus is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1" : "00065"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#65"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.trogdor.rest.WorkerStopping.stopping@POLYN148919 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html#32"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00032] Lock statement on synchronized resource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00040"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html#40"
- , "c2" : "INFO"
- , "c3" : "QC-JAV000019[00040] Lock statement on synchronized method get"
+ , "c1" : "00070"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.html#70"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.trogdor.rest.WorkerStopping.running@POLYN149021 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerStopping.java.fct.svg" 
 
 , 
 }

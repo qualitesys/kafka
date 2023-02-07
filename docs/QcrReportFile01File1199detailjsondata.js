@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00040"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConvertingFutureCallback.java.html#40"
  , "c1" : "ConvertingFutureCallback"
- , "c2" : "ConvertingFutureCallback(Callback<T>)"
+ , "c2" : "ConvertingFutureCallback(Callback&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 

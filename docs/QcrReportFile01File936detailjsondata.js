@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00076"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#76"
  , "c1" : "void"
- , "c2" : "initialize(ConnectorContext;List<Map<String,String>>)"
+ , "c2" : "initialize(ConnectorContext;List&lt;Map&lt;String,String&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00097"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#97"
  , "c1" : "void"
- , "c2" : "start(Map<String,String>)"
+ , "c2" : "start(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00107"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#107"
  , "c1" : "void"
- , "c2" : "reconfigure(Map<String,String>)"
+ , "c2" : "reconfigure(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -65,7 +65,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00115"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#115"
- , "c1" : "Class<?extendsTask>"
+ , "c1" : "Class&lt;?extendsTask&gt;"
  , "c2" : "taskClass()"
  , "c3" : "1"
  , "c4" : "1"
@@ -74,7 +74,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00124"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#124"
- , "c1" : "List<Map<String,String>>"
+ , "c1" : "List&lt;Map&lt;String,String&gt;&gt;"
  , "c2" : "taskConfigs(int)"
  , "c3" : "1"
  , "c4" : "1"
@@ -93,7 +93,7 @@ var maDataBlocs = {
  , "c5" : "00137"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#137"
  , "c1" : "Config"
- , "c2" : "validate(Map<String,String>)"
+ , "c2" : "validate(Map&lt;String,String&gt;)"
  , "c3" : "2"
  , "c4" : "4"
 }} 

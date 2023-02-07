@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00072"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#72"
  , "c1" : "EndQuorumEpochRequestData"
- , "c2" : "singletonRequest(TopicPartition;int;int;List<Integer>)"
+ , "c2" : "singletonRequest(TopicPartition;int;int;List&lt;Integer&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00079"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#79"
  , "c1" : "EndQuorumEpochRequestData"
- , "c2" : "singletonRequest(TopicPartition;String;int;int;List<Integer>)"
+ , "c2" : "singletonRequest(TopicPartition;String;int;int;List&lt;Integer&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

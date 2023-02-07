@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00058"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasImage.java.html#58"
  , "c1" : "ClientQuotasImage"
- , "c2" : "ClientQuotasImage(Map<ClientQuotaEntity,ClientQuotaImage>)"
+ , "c2" : "ClientQuotasImage(Map&lt;ClientQuotaEntity,ClientQuotaImage&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00066"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasImage.java.html#66"
- , "c1" : "Map<ClientQuotaEntity,ClientQuotaImage>"
+ , "c1" : "Map&lt;ClientQuotaEntity,ClientQuotaImage&gt;"
  , "c2" : "entities()"
  , "c3" : "1"
  , "c4" : "1"
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00070"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasImage.java.html#70"
  , "c1" : "void"
- , "c2" : "write(Consumer<List<ApiMessageAndVersion>>)"
+ , "c2" : "write(Consumer&lt;List&lt;ApiMessageAndVersion&gt;&gt;)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00140"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasImage.java.html#140"
  , "c1" : "boolean"
- , "c2" : "matches(ClientQuotaEntity;Map<String,String>;Set<String>;boolean)"
+ , "c2" : "matches(ClientQuotaEntity;Map&lt;String,String&gt;;Set&lt;String&gt;;boolean)"
  , "c3" : "8"
  , "c4" : "5"
 }} 

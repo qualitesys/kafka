@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00038"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#38"
  , "c1" : "ClientQuotaFilter"
- , "c2" : "ClientQuotaFilter(Collection<ClientQuotaFilterComponent>;boolean)"
+ , "c2" : "ClientQuotaFilter(Collection&lt;ClientQuotaFilterComponent&gt;;boolean)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00049"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#49"
  , "c1" : "ClientQuotaFilter"
- , "c2" : "contains(Collection<ClientQuotaFilterComponent>)"
+ , "c2" : "contains(Collection&lt;ClientQuotaFilterComponent&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00059"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#59"
  , "c1" : "ClientQuotaFilter"
- , "c2" : "containsOnly(Collection<ClientQuotaFilterComponent>)"
+ , "c2" : "containsOnly(Collection&lt;ClientQuotaFilterComponent&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -56,7 +56,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00073"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#73"
- , "c1" : "Collection<ClientQuotaFilterComponent>"
+ , "c1" : "Collection&lt;ClientQuotaFilterComponent&gt;"
  , "c2" : "components()"
  , "c3" : "1"
  , "c4" : "1"

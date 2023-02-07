@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00076"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#76"
  , "c1" : "void"
- , "c2" : "loadSnapshot(Map<Uuid,StandardAcl>)"
+ , "c2" : "loadSnapshot(Map&lt;Uuid,StandardAcl&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -83,8 +83,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00099"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#99"
- , "c1" : "List<?extendsCompletionStage<AclCreateResult>>"
- , "c2" : "createAcls(AuthorizableRequestContext;List<AclBinding>)"
+ , "c1" : "List&lt;?extendsCompletionStage&lt;AclCreateResult&gt;&gt;"
+ , "c2" : "createAcls(AuthorizableRequestContext;List&lt;AclBinding&gt;)"
  , "c3" : "6"
  , "c4" : "12"
 }} 
@@ -92,8 +92,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00139"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#139"
- , "c1" : "List<?extendsCompletionStage<AclDeleteResult>>"
- , "c2" : "deleteAcls(AuthorizableRequestContext;List<AclBindingFilter>)"
+ , "c1" : "List&lt;?extendsCompletionStage&lt;AclDeleteResult&gt;&gt;"
+ , "c2" : "deleteAcls(AuthorizableRequestContext;List&lt;AclBindingFilter&gt;)"
  , "c3" : "6"
  , "c4" : "12"
 }} 

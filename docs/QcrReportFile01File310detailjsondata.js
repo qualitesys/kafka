@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00049"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/provider/ConfigProvider.java.html#49"
  , "c1" : "ConfigData"
- , "c2" : "get(String;Set<String>)"
+ , "c2" : "get(String;Set&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00059"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/provider/ConfigProvider.java.html#59"
  , "c1" : "void"
- , "c2" : "subscribe(String;Set<String>;ConfigChangeCallback)"
+ , "c2" : "subscribe(String;Set&lt;String&gt;;ConfigChangeCallback)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00071"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/config/provider/ConfigProvider.java.html#71"
  , "c1" : "void"
- , "c2" : "unsubscribe(String;Set<String>;ConfigChangeCallback)"
+ , "c2" : "unsubscribe(String;Set&lt;String&gt;;ConfigChangeCallback)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

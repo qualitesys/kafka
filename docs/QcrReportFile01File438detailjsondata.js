@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/feature/Features.java 15 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/feature/Features.java 14 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.xml" 
  , "fic3"  : "" 
 }
@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00045"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#45"
  , "c1" : "Features"
- , "c2" : "Features(Map<String,VersionRangeType>)"
+ , "c2" : "Features(Map&lt;String,VersionRangeType&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -29,8 +29,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00055"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#55"
- , "c1" : "Features<SupportedVersionRange>"
- , "c2" : "supportedFeatures(Map<String,SupportedVersionRange>)"
+ , "c1" : "Features&lt;SupportedVersionRange&gt;"
+ , "c2" : "supportedFeatures(Map&lt;String,SupportedVersionRange&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00059"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#59"
- , "c1" : "Features<SupportedVersionRange>"
+ , "c1" : "Features&lt;SupportedVersionRange&gt;"
  , "c2" : "emptySupportedFeatures()"
  , "c3" : "1"
  , "c4" : "1"
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00063"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#63"
- , "c1" : "Map<String,VersionRangeType>"
+ , "c1" : "Map&lt;String,VersionRangeType&gt;"
  , "c2" : "features()"
  , "c3" : "1"
  , "c4" : "1"
@@ -83,7 +83,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00096"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#96"
- , "c1" : "Map<String,Map<String,Short>>"
+ , "c1" : "Map&lt;String,Map&lt;String,Short&gt;&gt;"
  , "c2" : "toMap()"
  , "c3" : "1"
  , "c4" : "1"
@@ -92,8 +92,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00134"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#134"
- , "c1" : "Features<SupportedVersionRange>"
- , "c2" : "fromSupportedFeaturesMap(Map<String,Map<String,Short>>)"
+ , "c1" : "Features&lt;SupportedVersionRange&gt;"
+ , "c2" : "fromSupportedFeaturesMap(Map&lt;String,Map&lt;String,Short&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -147,15 +147,6 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -169,13 +160,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -290,13 +274,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#134"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00134] Public method fromSupportedFeaturesMap is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.feature.Features.get@POLYN165345"
 }} 
 ]
 , 

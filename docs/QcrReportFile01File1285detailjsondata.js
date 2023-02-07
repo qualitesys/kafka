@@ -20,7 +20,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00043"
  , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerRecordBenchmark.java.html#43"
- , "c1" : "ProducerRecord<String,String>"
+ , "c1" : "ProducerRecord&lt;String,String&gt;"
  , "c2" : "constructorBenchmark()"
  , "c3" : "1"
  , "c4" : "1"

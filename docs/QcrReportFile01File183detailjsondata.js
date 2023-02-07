@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00065"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#65"
- , "c1" : "List<RebalanceProtocol>"
+ , "c1" : "List&lt;RebalanceProtocol&gt;"
  , "c2" : "supportedProtocols()"
  , "c3" : "1"
  , "c4" : "1"
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00075"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#75"
  , "c1" : "ByteBuffer"
- , "c2" : "subscriptionUserData(Set<String>)"
+ , "c2" : "subscriptionUserData(Set&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "6"
 }} 
@@ -65,8 +65,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00103"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#103"
- , "c1" : "Map<String,List<TopicPartition>>"
- , "c2" : "assign(Map<String,Integer>;Map<String,Subscription>)"
+ , "c1" : "Map&lt;String,List&lt;TopicPartition&gt;&gt;"
+ , "c2" : "assign(Map&lt;String,Integer&gt;;Map&lt;String,Subscription&gt;)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00116"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#116"
  , "c1" : "void"
- , "c2" : "adjustAssignment(Map<String,List<TopicPartition>>;Map<TopicPartition,String>)"
+ , "c2" : "adjustAssignment(Map&lt;String,List&lt;TopicPartition&gt;&gt;;Map&lt;TopicPartition,String&gt;)"
  , "c3" : "2"
  , "c4" : "1"
 }} 
@@ -83,8 +83,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00123"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#123"
- , "c1" : "Map<TopicPartition,String>"
- , "c2" : "computePartitionsTransferringOwnership(Map<String,Subscription>;Map<String,List<TopicPartition>>)"
+ , "c1" : "Map&lt;TopicPartition,String&gt;"
+ , "c2" : "computePartitionsTransferringOwnership(Map&lt;String,Subscription&gt;;Map&lt;String,List&lt;TopicPartition&gt;&gt;)"
  , "c3" : "6"
  , "c4" : "11"
 }} 

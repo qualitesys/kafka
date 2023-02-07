@@ -29,8 +29,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00075"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#75"
- , "c1" : "Map<String,List<MemberInfo>>"
- , "c2" : "consumersPerTopic(Map<String,Subscription>)"
+ , "c1" : "Map&lt;String,List&lt;MemberInfo&gt;&gt;"
+ , "c2" : "consumersPerTopic(Map&lt;String,Subscription&gt;)"
  , "c3" : "3"
  , "c4" : "5"
 }} 
@@ -38,8 +38,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00088"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#88"
- , "c1" : "Map<String,List<TopicPartition>>"
- , "c2" : "assign(Map<String,Integer>;Map<String,Subscription>)"
+ , "c1" : "Map&lt;String,List&lt;TopicPartition&gt;&gt;"
+ , "c2" : "assign(Map&lt;String,Integer&gt;;Map&lt;String,Subscription&gt;)"
  , "c3" : "5"
  , "c4" : "17"
 }} 

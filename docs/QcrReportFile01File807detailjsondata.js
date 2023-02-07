@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00064"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#64"
  , "c1" : "BasicOAuthBearerToken"
- , "c2" : "BasicOAuthBearerToken(String;Set<String>;long;String;Long)"
+ , "c2" : "BasicOAuthBearerToken(String;Set&lt;String&gt;;long;String;Long)"
  , "c3" : "1"
  , "c4" : "5"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00104"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/BasicOAuthBearerToken.java.html#104"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "scope()"
  , "c3" : "1"
  , "c4" : "1"

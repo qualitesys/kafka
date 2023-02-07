@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00123"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwksVerificationKeyResolver.java.html#123"
  , "c1" : "Key"
- , "c2" : "resolveKey(JsonWebSignature;List<JsonWebStructure>)"
+ , "c2" : "resolveKey(JsonWebSignature;List&lt;JsonWebStructure&gt;)"
  , "c3" : "4"
  , "c4" : "14"
 }} 

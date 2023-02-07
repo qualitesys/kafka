@@ -1,45 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRunning.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRunning.java 0 rule violation " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRunning.java.xml" 
+   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java.html" 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java 2 rule violations " 
+ , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "TaskState"
- , "c2" : "org.apache.kafka.trogdor.rest.TaskRunning"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.trogdor.rest.TaskRequest"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.rest.TaskRunning" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.trogdor.rest.TaskRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRunning.java.html#35"
- , "c1" : "TaskRunning"
- , "c2" : "TaskRunning(TaskSpec;long;JsonNode)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRunning.java.html#43"
- , "c1" : "long"
- , "c2" : "startedMs()"
+ , "c5" : "00030"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java.html#30"
+ , "c1" : "TaskRequest"
+ , "c2" : "TaskRequest(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00048"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRunning.java.html#48"
- , "c1" : "TaskStateType"
- , "c2" : "stateType()"
+ , "c5" : "00035"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java.html#35"
+ , "c1" : "String"
+ , "c2" : "taskId()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRunning.java.png" 
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java.png" 
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRunning.java.svg" }
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java.svg" }
 
 ] 
 , 
@@ -75,8 +66,33 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "2"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00031"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java.html#31"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.trogdor.rest.TaskRequest.TaskRequest@POLYN143649 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00031"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java.html#31"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.trogdor.rest.TaskRequest.TaskRequest@POLYN143649 the MagicNumber/String  '' should be converted to const"
+}} 
+]
+, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRunning.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskRequest.java.fct.svg" 
 
 , 
 }

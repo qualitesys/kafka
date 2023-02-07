@@ -1,81 +1,72 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.TaskMetadata"
+ , "c2" : "org.apache.kafka.streams.StreamsMetrics"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.TaskMetadata" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.StreamsMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html#37"
- , "c1" : "TaskId"
- , "c2" : "taskId()"
+ , "c5" : "00035"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#35"
+ , "c1" : "Map&lt;MetricName,?extendsMetric&gt;"
+ , "c2" : "metrics()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html#44"
- , "c1" : "Set<TopicPartition>"
- , "c2" : "topicPartitions()"
+ , "c5" : "00064"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#64"
+ , "c1" : "Sensor"
+ , "c2" : "addLatencyRateTotalSensor(String;String;String;Sensor.RecordingLevel;String...)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00051"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html#51"
- , "c1" : "Map<TopicPartition,Long>"
- , "c2" : "committedOffsets()"
+ , "c5" : "00094"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#94"
+ , "c1" : "Sensor"
+ , "c2" : "addRateTotalSensor(String;String;String;Sensor.RecordingLevel;String...)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html#58"
- , "c1" : "Map<TopicPartition,Long>"
- , "c2" : "endOffsets()"
+ , "c5" : "00115"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#115"
+ , "c1" : "Sensor"
+ , "c2" : "addSensor(String;Sensor.RecordingLevel)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html#65"
- , "c1" : "Optional<Long>"
- , "c2" : "timeCurrentIdlingStarted()"
+ , "c5" : "00133"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#133"
+ , "c1" : "Sensor"
+ , "c2" : "addSensor(String;Sensor.RecordingLevel;Sensor...)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00073"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html#73"
- , "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00085"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.html#85"
- , "c1" : "int"
- , "c2" : "hashCode()"
+ , "c5" : "00141"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.html#141"
+ , "c1" : "void"
+ , "c2" : "removeSensor(Sensor)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -84,9 +75,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.svg" }
 
 ] 
 , 
@@ -112,7 +103,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/TaskMetadata.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsMetrics.java.fct.svg" 
 
 , 
 }

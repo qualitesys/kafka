@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00066"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestContext.java.html#66"
  , "c1" : "RequestContext"
- , "c2" : "RequestContext(RequestHeader;String;InetAddress;KafkaPrincipal;ListenerName;SecurityProtocol;ClientInformation;boolean;Optional<KafkaPrincipalSerde>)"
+ , "c2" : "RequestContext(RequestHeader;String;InetAddress;KafkaPrincipal;ListenerName;SecurityProtocol;ClientInformation;boolean;Optional&lt;KafkaPrincipalSerde&gt;)"
  , "c3" : "1"
  , "c4" : "9"
 }} 

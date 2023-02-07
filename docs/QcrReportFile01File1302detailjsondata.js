@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java 92 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java 73 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.xml" 
  , "fic3"  : "" 
 }
@@ -156,34 +156,11 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "18"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "1"
 }}
 ,
@@ -726,139 +703,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#304"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.controller.BrokersToIsrs.hasLeaderships@POLYN204526 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.BrokersToIsrs.remove@POLYN201235"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00252"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#252"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00252] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN201235 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#253"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00253] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN201235 the MagicNumber/String ' has no isrMembers ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#253"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00253] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN201235 the MagicNumber/String 'Broker ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00254"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#254"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00254] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN201235 the MagicNumber/String ':' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00254"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#254"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00254] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN201235 the MagicNumber/String 'entry, so we can't remove ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00257"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#257"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00257] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN201235 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00258"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#258"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00258] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN201235 the MagicNumber/String ' has no ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00258"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#258"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00258] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN201235 the MagicNumber/String 'Broker ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00259"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#259"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00259] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN201235 the MagicNumber/String 'entry in isrMembers for topic ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00261"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#261"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00261] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN201235 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00262"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#262"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00262] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN201235 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00263"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#263"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00263] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN201235 the MagicNumber/String ' has no ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00263"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#263"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00263] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN201235 the MagicNumber/String 'Broker ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00264"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#264"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00264] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN201235 the MagicNumber/String ':' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00264"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#264"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00264] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN201235 the MagicNumber/String 'entry in isrMembers for ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00271"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#271"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00271] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN201235 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00272"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#272"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00272] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN201235 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00273"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#273"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00273] In the recursive method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN201235 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 , 

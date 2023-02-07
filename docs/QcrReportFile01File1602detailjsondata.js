@@ -1,45 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/BrokerNotFoundException.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/errors/BrokerNotFoundException.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/BrokerNotFoundException.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyDescription.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/TopologyDescription.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyDescription.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "StreamsException"
- , "c2" : "org.apache.kafka.streams.errors.BrokerNotFoundException"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.TopologyDescription"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.errors.BrokerNotFoundException" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.TopologyDescription" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00030"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/BrokerNotFoundException.java.html#30"
- , "c1" : "BrokerNotFoundException"
- , "c2" : "BrokerNotFoundException(String)"
+ , "c5" : "00165"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/TopologyDescription.java.html#165"
+ , "c1" : "Set&lt;Subtopology&gt;"
+ , "c2" : "subtopologies()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/BrokerNotFoundException.java.html#34"
- , "c1" : "BrokerNotFoundException"
- , "c2" : "BrokerNotFoundException(String;Throwable)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/BrokerNotFoundException.java.html#38"
- , "c1" : "BrokerNotFoundException"
- , "c2" : "BrokerNotFoundException(Throwable)"
+ , "c5" : "00171"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/TopologyDescription.java.html#171"
+ , "c1" : "Set&lt;GlobalStore&gt;"
+ , "c2" : "globalStores()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/BrokerNotFoundException.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyDescription.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/BrokerNotFoundException.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyDescription.java.svg" }
 
 ] 
 , 
@@ -76,7 +67,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/BrokerNotFoundException.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyDescription.java.fct.svg" 
 
 , 
 }

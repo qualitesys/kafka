@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00186"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#186"
  , "c1" : "String"
- , "c2" : "post(HttpURLConnection;Map<String,String>;String;Integer;Integer)"
+ , "c2" : "post(HttpURLConnection;Map&lt;String,String&gt;;String;Integer;Integer)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00196"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#196"
  , "c1" : "void"
- , "c2" : "handleInput(HttpURLConnection;Map<String,String>;String;Integer;Integer)"
+ , "c2" : "handleInput(HttpURLConnection;Map&lt;String,String&gt;;String;Integer;Integer)"
  , "c3" : "7"
  , "c4" : "15"
 }} 

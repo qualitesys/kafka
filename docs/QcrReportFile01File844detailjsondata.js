@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00081"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#81"
  , "c1" : "ScramSaslServer"
- , "c2" : "ScramSaslServer(ScramMechanism;Map<String,?>;CallbackHandler)"
+ , "c2" : "ScramSaslServer(ScramMechanism;Map&lt;String,?&gt;;CallbackHandler)"
  , "c3" : "1"
  , "c4" : "4"
 }} 

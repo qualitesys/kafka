@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00100"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterConfigsRequest.java.html#100"
- , "c1" : "Map<ConfigResource,Config>"
+ , "c1" : "Map&lt;ConfigResource,Config&gt;"
  , "c2" : "configs()"
  , "c3" : "1"
  , "c4" : "1"

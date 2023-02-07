@@ -129,7 +129,7 @@ var maDataBlocs = {
  , "c5" : "00123"
  , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#123"
  , "c1" : "ReplicaManagerBuilder"
- , "c2" : "setDelayedProducePurgatory(DelayedOperationPurgatory<DelayedProduce>)"
+ , "c2" : "setDelayedProducePurgatory(DelayedOperationPurgatory&lt;DelayedProduce&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -138,7 +138,7 @@ var maDataBlocs = {
  , "c5" : "00128"
  , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#128"
  , "c1" : "ReplicaManagerBuilder"
- , "c2" : "setDelayedFetchPurgatory(DelayedOperationPurgatory<DelayedFetch>)"
+ , "c2" : "setDelayedFetchPurgatory(DelayedOperationPurgatory&lt;DelayedFetch&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -147,7 +147,7 @@ var maDataBlocs = {
  , "c5" : "00133"
  , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#133"
  , "c1" : "ReplicaManagerBuilder"
- , "c2" : "setDelayedDeleteRecordsPurgatory(DelayedOperationPurgatory<DelayedDeleteRecords>)"
+ , "c2" : "setDelayedDeleteRecordsPurgatory(DelayedOperationPurgatory&lt;DelayedDeleteRecords&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -156,7 +156,7 @@ var maDataBlocs = {
  , "c5" : "00138"
  , "c5link" : "././qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#138"
  , "c1" : "ReplicaManagerBuilder"
- , "c2" : "setDelayedElectLeaderPurgatoryParam(DelayedOperationPurgatory<DelayedElectLeader>)"
+ , "c2" : "setDelayedElectLeaderPurgatoryParam(DelayedOperationPurgatory&lt;DelayedElectLeader&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 

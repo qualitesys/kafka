@@ -1,47 +1,56 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java 6 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java 2 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Window"
- , "c2" : "org.apache.kafka.streams.kstream.internals.UnlimitedWindow"
+ , "c1" : "TransformerSupplier<KIn,VIn,Iterable<KeyValue<KOut,VOut>>>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.TransformerSupplierAdapter"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.kstream.internals.UnlimitedWindow" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.TransformerSupplierAdapter" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#42"
- , "c1" : "UnlimitedWindow"
- , "c2" : "UnlimitedWindow(long)"
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.html#32"
+ , "c1" : "TransformerSupplierAdapter"
+ , "c2" : "TransformerSupplierAdapter(TransformerSupplier&lt;KIn,VIn,KeyValue&lt;KOut,VOut&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#55"
- , "c1" : "boolean"
- , "c2" : "overlap(Window)"
+ , "c5" : "00037"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.html#37"
+ , "c1" : "Transformer&lt;KIn,VIn,Iterable&lt;KeyValue&lt;KOut,VOut&gt;&gt;&gt;"
+ , "c2" : "get()"
  , "c3" : "2"
- , "c4" : "2"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00064"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.html#64"
+ , "c1" : "Set&lt;StoreBuilder&lt;?&gt;&gt;"
+ , "c2" : "stores()"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.svg" }
 
 ] 
 , 
@@ -68,80 +77,38 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000021"
- , "c3" : "The same method is called several times, might be optimized"
  , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
  , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#55"
+ , "c1" : "00037"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.html#37"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method overlap arguments Window  other"
+ , "c3" : "QC-JAV000007[00037] For method get list of called methods Object monObjet|org.apache.kafka.streams.kstream.Transformer transformerSupplier_getN150926"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#55"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00055] The argument other is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#56"
+ , "c1" : "00050"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00056] The same method call other.getClass() is used several times, should be optimized "
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.kstream.internals.UnlimitedWindow.overlap@POLYN151094 the MagicNumber/String  'Cannot compare windows of different type. Other window has type ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#58"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.kstream.internals.UnlimitedWindow.overlap@POLYN151094 the MagicNumber/String  '.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.html#60"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.kstream.internals.UnlimitedWindow.overlap@POLYN151094 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.streams.kstream.internals.TransformerSupplierAdapter.get@POLYN150590 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/UnlimitedWindow.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.fct.svg" 
 
 , 
 }

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html" 
- , "texte" : "File connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java 43 rule violations " 
+ , "texte" : "File connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java 42 rule violations " 
  , "fic2"  : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.xml" 
  , "fic3"  : "" 
 }
@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00063"
  , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#63"
  , "c1" : "MirrorClient"
- , "c2" : "MirrorClient(Map<String,Object>)"
+ , "c2" : "MirrorClient(Map&lt;String,Object&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00074"
  , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#74"
  , "c1" : "MirrorClient"
- , "c2" : "MirrorClient(AdminClient;ReplicationPolicy;Map<String,Object>)"
+ , "c2" : "MirrorClient(AdminClient;ReplicationPolicy;Map&lt;String,Object&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -74,7 +74,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00106"
  , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#106"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "heartbeatTopics()"
  , "c3" : "1"
  , "c4" : "1"
@@ -83,7 +83,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00113"
  , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#113"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "checkpointTopics()"
  , "c3" : "1"
  , "c4" : "1"
@@ -92,7 +92,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00120"
  , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#120"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "upstreamClusters()"
  , "c3" : "1"
  , "c4" : "1"
@@ -101,7 +101,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00128"
  , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#128"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "remoteTopics()"
  , "c3" : "1"
  , "c4" : "1"
@@ -110,7 +110,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00135"
  , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#135"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "remoteTopics(String)"
  , "c3" : "1"
  , "c4" : "1"
@@ -119,7 +119,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00148"
  , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#148"
- , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
+ , "c1" : "Map&lt;TopicPartition,OffsetAndMetadata&gt;"
  , "c2" : "remoteConsumerOffsets(String;String;Duration)"
  , "c3" : "4"
  , "c4" : "12"
@@ -128,7 +128,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00181"
  , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#181"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "listTopics()"
  , "c3" : "1"
  , "c4" : "2"
@@ -173,7 +173,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00224"
  , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#224"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "allSources(String)"
  , "c3" : "2"
  , "c4" : "6"
@@ -183,7 +183,7 @@ var maDataBlocs = {
  , "c5" : "00236"
  , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#236"
  , "c1" : "boolean"
- , "c2" : "endOfStream(Consumer<?,?>;Collection<TopicPartition>)"
+ , "c2" : "endOfStream(Consumer&lt;?,?&gt;;Collection&lt;TopicPartition&gt;)"
  , "c3" : "3"
  , "c4" : "3"
 }} 
@@ -247,7 +247,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -523,13 +523,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#243"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.connect.mirror.MirrorClient.endOfStream@POLYN188410 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorClient.close@POLYN180944"
 }} 
 ,
 { "ligne" : {"" : ""

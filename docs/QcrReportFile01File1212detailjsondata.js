@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00114"
  , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#114"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -209,8 +209,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00392"
  , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#392"
- , "c1" : "Map<String,Schema.Type>"
- , "c2" : "parseFieldTypes(List<String>)"
+ , "c1" : "Map&lt;String,Schema.Type&gt;"
+ , "c2" : "parseFieldTypes(List&lt;String&gt;)"
  , "c3" : "6"
  , "c4" : "13"
 }} 

@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00060"
  , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#60"
  , "c1" : "void"
- , "c2" : "start(Map<String,String>)"
+ , "c2" : "start(Map&lt;String,String&gt;)"
  , "c3" : "3"
  , "c4" : "4"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00077"
  , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#77"
  , "c1" : "void"
- , "c2" : "put(Collection<SinkRecord>)"
+ , "c2" : "put(Collection&lt;SinkRecord&gt;)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00085"
  , "c5link" : "././qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#85"
  , "c1" : "void"
- , "c2" : "flush(Map<TopicPartition,OffsetAndMetadata>)"
+ , "c2" : "flush(Map&lt;TopicPartition,OffsetAndMetadata&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 

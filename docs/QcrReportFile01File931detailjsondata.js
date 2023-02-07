@@ -20,7 +20,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00040"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#40"
- , "c1" : "Map<String,String>"
+ , "c1" : "Map&lt;String,String&gt;"
  , "c2" : "quotaMetricTags(ClientQuotaType;KafkaPrincipal;String)"
  , "c3" : "1"
  , "c4" : "1"
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00054"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaCallback.java.html#54"
  , "c1" : "Double"
- , "c2" : "quotaLimit(ClientQuotaType;Map<String,String>)"
+ , "c2" : "quotaLimit(ClientQuotaType;Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

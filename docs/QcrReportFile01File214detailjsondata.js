@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00027"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/NoOpConsumerRebalanceListener.java.html#27"
  , "c1" : "void"
- , "c2" : "onPartitionsAssigned(Collection<TopicPartition>)"
+ , "c2" : "onPartitionsAssigned(Collection&lt;TopicPartition&gt;)"
  , "c3" : "1"
  , "c4" : "0"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00030"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/NoOpConsumerRebalanceListener.java.html#30"
  , "c1" : "void"
- , "c2" : "onPartitionsRevoked(Collection<TopicPartition>)"
+ , "c2" : "onPartitionsRevoked(Collection&lt;TopicPartition&gt;)"
  , "c3" : "1"
  , "c4" : "0"
 }} 

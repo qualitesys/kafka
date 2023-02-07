@@ -29,8 +29,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00054"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#54"
- , "c1" : "Map<String,ByteBuffer>"
- , "c2" : "performAssignment(String;String;List<JoinGroupResponseMember>;WorkerCoordinator)"
+ , "c1" : "Map&lt;String,ByteBuffer&gt;"
+ , "c2" : "performAssignment(String;String;List&lt;JoinGroupResponseMember&gt;;WorkerCoordinator)"
  , "c3" : "3"
  , "c4" : "7"
 }} 
@@ -47,8 +47,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00090"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#90"
- , "c1" : "Map<String,ByteBuffer>"
- , "c2" : "performTaskAssignment(String;long;Map<String,ExtendedWorkerState>;WorkerCoordinator)"
+ , "c1" : "Map&lt;String,ByteBuffer&gt;"
+ , "c2" : "performTaskAssignment(String;long;Map&lt;String,ExtendedWorkerState&gt;;WorkerCoordinator)"
  , "c3" : "4"
  , "c4" : "14"
 }} 
@@ -56,8 +56,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00124"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#124"
- , "c1" : "Map<String,ByteBuffer>"
- , "c2" : "fillAssignmentsAndSerialize(Collection<String>;short;String;String;long;Map<String,Collection<String>>;Map<String,Collection<ConnectorTaskId>>)"
+ , "c1" : "Map&lt;String,ByteBuffer&gt;"
+ , "c2" : "fillAssignmentsAndSerialize(Collection&lt;String&gt;;short;String;String;long;Map&lt;String,Collection&lt;String&gt;&gt;;Map&lt;String,Collection&lt;ConnectorTaskId&gt;&gt;)"
  , "c3" : "4"
  , "c4" : "10"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00150"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#150"
  , "c1" : "long"
- , "c2" : "findMaxMemberConfigOffset(Map<String,ExtendedWorkerState>;WorkerCoordinator)"
+ , "c2" : "findMaxMemberConfigOffset(Map&lt;String,ExtendedWorkerState&gt;;WorkerCoordinator)"
  , "c3" : "4"
  , "c4" : "6"
 }} 

@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00033"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#33"
  , "c1" : "SaslExtensions"
- , "c2" : "SaslExtensions(Map<String,String>)"
+ , "c2" : "SaslExtensions(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00040"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensions.java.html#40"
- , "c1" : "Map<String,String>"
+ , "c1" : "Map&lt;String,String&gt;"
  , "c2" : "map()"
  , "c3" : "1"
  , "c4" : "1"

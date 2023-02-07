@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00043"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#43"
- , "c1" : "Map<String,Optional<Short>>"
+ , "c1" : "Map&lt;String,Optional&lt;Short&gt;&gt;"
  , "c2" : "changes()"
  , "c3" : "1"
  , "c4" : "1"
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00047"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#47"
- , "c1" : "Optional<MetadataVersion>"
+ , "c1" : "Optional&lt;MetadataVersion&gt;"
  , "c2" : "metadataVersionChange()"
  , "c3" : "1"
  , "c4" : "1"
@@ -103,6 +103,82 @@ var maDataBlocs = {
 ]
 , 
 "data08" : [
+]
+, 
+"data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1338Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1338&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.util.Map.getKey@POLYN435159.return" , "org.apache.kafka.image.FeaturesDelta.apply@POLYN157003.cibledummy_00078"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+]
+,
+"data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00075]"
+ , "c3" : ["java.util.Map.getKey@POLYN435159.return" , "---java.util.Map.getKey@POLYN435159" , "org.apache.kafka.image.FeaturesDelta.apply@POLYN157003.name"]
+ , "c4" : "//QC-JAVCWE099[00075] In org.apache.kafka.image.FeaturesDelta.apply@POLYN157003[00075] source data PATHtainted (java.util.Map.get) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00078]"
+ , "c3" : ["org.apache.kafka.image.FeaturesDelta.apply@POLYN157003.name" , "---java.util.Map.put@POLYN429794" , "org.apache.kafka.image.FeaturesDelta.apply@POLYN157003.cibledummy_00078"]
+ , "c4" : "//QC-JAVCWE099[00078] In org.apache.kafka.image.FeaturesDelta.apply@POLYN157003[00078] target data PATHtainted (java.util.Map.put) RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+]
+, 
+"data10" : [
 ]
 , 
 "data11" : [

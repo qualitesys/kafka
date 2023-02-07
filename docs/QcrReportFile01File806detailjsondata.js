@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00035"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java.html#35"
  , "c1" : "AccessTokenValidator"
- , "c2" : "create(Map<String,?>)"
+ , "c2" : "create(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00039"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java.html#39"
  , "c1" : "AccessTokenValidator"
- , "c2" : "create(Map<String,?>;String)"
+ , "c2" : "create(Map&lt;String,?&gt;;String)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00046"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java.html#46"
  , "c1" : "AccessTokenValidator"
- , "c2" : "create(Map<String,?>;VerificationKeyResolver)"
+ , "c2" : "create(Map&lt;String,?&gt;;VerificationKeyResolver)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00051"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java.html#51"
  , "c1" : "AccessTokenValidator"
- , "c2" : "create(Map<String,?>;String;VerificationKeyResolver)"
+ , "c2" : "create(Map&lt;String,?&gt;;String;VerificationKeyResolver)"
  , "c3" : "2"
  , "c4" : "9"
 }} 

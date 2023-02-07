@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java 113 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java 122 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.xml" 
  , "fic3"  : "" 
 }
@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00057"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#57"
  , "c1" : "Plugins"
- , "c2" : "Plugins(Map<String,String>)"
+ , "c2" : "Plugins(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00063"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#63"
  , "c1" : "DelegatingClassLoader"
- , "c2" : "newDelegatingClassLoader(List<String>)"
+ , "c2" : "newDelegatingClassLoader(List&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -92,7 +92,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00162"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#162"
- , "c1" : "Set<PluginDesc<SinkConnector>>"
+ , "c1" : "Set&lt;PluginDesc&lt;SinkConnector&gt;&gt;"
  , "c2" : "sinkConnectors()"
  , "c3" : "1"
  , "c4" : "1"
@@ -101,7 +101,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00166"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#166"
- , "c1" : "Set<PluginDesc<SourceConnector>>"
+ , "c1" : "Set&lt;PluginDesc&lt;SourceConnector&gt;&gt;"
  , "c2" : "sourceConnectors()"
  , "c3" : "1"
  , "c4" : "1"
@@ -110,7 +110,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00170"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#170"
- , "c1" : "Set<PluginDesc<Converter>>"
+ , "c1" : "Set&lt;PluginDesc&lt;Converter&gt;&gt;"
  , "c2" : "converters()"
  , "c3" : "1"
  , "c4" : "1"
@@ -119,7 +119,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00174"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#174"
- , "c1" : "Set<PluginDesc<HeaderConverter>>"
+ , "c1" : "Set&lt;PluginDesc&lt;HeaderConverter&gt;&gt;"
  , "c2" : "headerConverters()"
  , "c3" : "1"
  , "c4" : "1"
@@ -128,7 +128,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00178"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#178"
- , "c1" : "Set<PluginDesc<Transformation<?>>>"
+ , "c1" : "Set&lt;PluginDesc&lt;Transformation&lt;?&gt;&gt;&gt;"
  , "c2" : "transformations()"
  , "c3" : "1"
  , "c4" : "1"
@@ -137,7 +137,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00182"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#182"
- , "c1" : "Set<PluginDesc<Predicate<?>>>"
+ , "c1" : "Set&lt;PluginDesc&lt;Predicate&lt;?&gt;&gt;&gt;"
  , "c2" : "predicates()"
  , "c3" : "1"
  , "c4" : "1"
@@ -164,7 +164,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00196"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#196"
- , "c1" : "Class<?extendsConnector>"
+ , "c1" : "Class&lt;?extendsConnector&gt;"
  , "c2" : "connectorClass(String)"
  , "c3" : "5"
  , "c4" : "12"
@@ -174,7 +174,7 @@ var maDataBlocs = {
  , "c5" : "00239"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#239"
  , "c1" : "Task"
- , "c2" : "newTask(Class<?extendsTask>)"
+ , "c2" : "newTask(Class&lt;?extendsTask&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -192,7 +192,7 @@ var maDataBlocs = {
  , "c5" : "00313"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#313"
  , "c1" : "Converter"
- , "c2" : "newInternalConverter(boolean;String;Map<String,String>)"
+ , "c2" : "newInternalConverter(boolean;String;Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "9"
 }} 
@@ -267,7 +267,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "20"
+ , "c4" : "29"
 }}
 ,
 { "ligne" : { "" : ""
@@ -920,14 +920,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.isolation.Plugins.newConverter@POLYN223921"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN230343"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.isolation.Plugins.compareAndSwapLoaders@POLYN219233"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.isolation.Plugins.newConverter@POLYN223921"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -963,6 +963,69 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.isolation.Plugins.transformations@POLYN220597"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00395"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#395"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00395] In the recursive method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN230343 the MagicNumber/String '.class' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00399"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#399"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00399] In the recursive method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN230343 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00401"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#401"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00401] In the recursive method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN230343 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00414"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#414"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00414] In the recursive method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN230343 the MagicNumber/String 'Failed to find any class that implements ConfigProvider and which name matches ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00415"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#415"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00415] In the recursive method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN230343 the MagicNumber/String ', available ConfigProviders are: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00421"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#421"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00421] In the recursive method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN230343 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00422"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#422"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00422] In the recursive method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN230343 the MagicNumber/String ''' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00422"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#422"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00422] In the recursive method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN230343 the MagicNumber/String 'Unable to initialize the ConfigProvider specified in '' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00426"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#426"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00426] In the recursive method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN230343 the MagicNumber/String '.param.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -74,7 +74,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00086"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#86"
- , "c1" : "Optional<SnapshotPath>"
+ , "c1" : "Optional&lt;SnapshotPath&gt;"
  , "c2" : "parse(Path)"
  , "c3" : "7"
  , "c4" : "11"

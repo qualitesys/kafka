@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00125"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#125"
  , "c1" : "ConnectMetricsRegistry"
- , "c2" : "ConnectMetricsRegistry(Set<String>)"
+ , "c2" : "ConnectMetricsRegistry(Set&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "102"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00385"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#385"
  , "c1" : "MetricNameTemplate"
- , "c2" : "createTemplate(String;String;String;Set<String>)"
+ , "c2" : "createTemplate(String;String;String;Set&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00391"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#391"
- , "c1" : "List<MetricNameTemplate>"
+ , "c1" : "List&lt;MetricNameTemplate&gt;"
  , "c2" : "getAllTemplates()"
  , "c3" : "1"
  , "c4" : "1"

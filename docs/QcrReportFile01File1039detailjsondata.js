@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00047"
  , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#47"
  , "c1" : "OffsetSyncStore"
- , "c2" : "OffsetSyncStore(KafkaConsumer<byte[],byte[]>;TopicPartition)"
+ , "c2" : "OffsetSyncStore(KafkaConsumer&lt;byte[],byte[]&gt;;TopicPartition)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00080"
  , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#80"
  , "c1" : "void"
- , "c2" : "handleRecord(ConsumerRecord<byte[],byte[]>)"
+ , "c2" : "handleRecord(ConsumerRecord&lt;byte[],byte[]&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -74,7 +74,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00086"
  , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#86"
- , "c1" : "Optional<OffsetSync>"
+ , "c1" : "Optional&lt;OffsetSync&gt;"
  , "c2" : "latestOffsetSync(TopicPartition)"
  , "c3" : "1"
  , "c4" : "1"

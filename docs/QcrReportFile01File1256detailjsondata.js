@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java 647 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java 648 rule violations " 
  , "fic2"  : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.xml" 
  , "fic3"  : "" 
 }
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00077"
  , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#77"
  , "c1" : "void"
- , "c2" : "generateClass(Optional<MessageSpec>;String;StructSpec;Versions)"
+ , "c2" : "generateClass(Optional&lt;MessageSpec&gt;;String;StructSpec;Versions)"
  , "c3" : "7"
  , "c4" : "45"
 }} 
@@ -577,7 +577,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "8"
+ , "c4" : "9"
 }}
  ] 
 ,
@@ -2875,7 +2875,7 @@ var maDataBlocs = {
  , "c1" : "00870"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#870"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00870] For method generateVariableLengthWriter list of called methods Object monObjet|java.lang.String String_formatN465474|java.lang.String String_formatN465610|java.lang.String String_formatN465799|java.lang.String String_formatN465985|java.lang.String String_formatN467710"
+ , "c3" : "QC-JAV000007[00870] For method generateVariableLengthWriter list of called methods Object monObjet|java.lang.String String_formatN465474|java.lang.String String_formatN465610|java.lang.String String_formatN465799|java.lang.String String_formatN465985|java.lang.Class arrayType_elementTypeN467635|java.lang.String String_formatN467710"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3373,6 +3373,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1109"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01109] For method generateVariableLengthFieldSize arguments FieldSpec  field|Versions  possibleVersions|boolean  tagged"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01109"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1109"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01109] For method generateVariableLengthFieldSize list of called methods Object monObjet|java.lang.Class arrayType_elementTypeN480308"
 }} 
 ,
 { "ligne" : {"" : ""

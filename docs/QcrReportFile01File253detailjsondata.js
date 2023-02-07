@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00057"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#57"
  , "c1" : "Cluster"
- , "c2" : "Cluster(String;Collection<Node>;Collection<PartitionInfo>;Set<String>;Set<String>)"
+ , "c2" : "Cluster(String;Collection&lt;Node&gt;;Collection&lt;PartitionInfo&gt;;Set&lt;String&gt;;Set&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00070"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#70"
  , "c1" : "Cluster"
- , "c2" : "Cluster(String;Collection<Node>;Collection<PartitionInfo>;Set<String>;Set<String>;Node)"
+ , "c2" : "Cluster(String;Collection&lt;Node&gt;;Collection&lt;PartitionInfo&gt;;Set&lt;String&gt;;Set&lt;String&gt;;Node)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00084"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#84"
  , "c1" : "Cluster"
- , "c2" : "Cluster(String;Collection<Node>;Collection<PartitionInfo>;Set<String>;Set<String>;Set<String>;Node)"
+ , "c2" : "Cluster(String;Collection&lt;Node&gt;;Collection&lt;PartitionInfo&gt;;Set&lt;String&gt;;Set&lt;String&gt;;Set&lt;String&gt;;Node)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00099"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#99"
  , "c1" : "Cluster"
- , "c2" : "Cluster(String;Collection<Node>;Collection<PartitionInfo>;Set<String>;Set<String>;Set<String>;Node;Map<String,Uuid>)"
+ , "c2" : "Cluster(String;Collection&lt;Node&gt;;Collection&lt;PartitionInfo&gt;;Set&lt;String&gt;;Set&lt;String&gt;;Set&lt;String&gt;;Node;Map&lt;String,Uuid&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00110"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#110"
  , "c1" : "Cluster"
- , "c2" : "Cluster(String;boolean;Collection<Node>;Collection<PartitionInfo>;Set<String>;Set<String>;Set<String>;Node;Map<String,Uuid>)"
+ , "c2" : "Cluster(String;boolean;Collection&lt;Node&gt;;Collection&lt;PartitionInfo&gt;;Set&lt;String&gt;;Set&lt;String&gt;;Set&lt;String&gt;;Node;Map&lt;String,Uuid&gt;)"
  , "c3" : "10"
  , "c4" : "41"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00211"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#211"
  , "c1" : "Cluster"
- , "c2" : "bootstrap(List<InetSocketAddress>)"
+ , "c2" : "bootstrap(List&lt;InetSocketAddress&gt;)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00223"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#223"
  , "c1" : "Cluster"
- , "c2" : "withPartitions(Map<TopicPartition,PartitionInfo>)"
+ , "c2" : "withPartitions(Map&lt;TopicPartition,PartitionInfo&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -92,7 +92,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00234"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#234"
- , "c1" : "List<Node>"
+ , "c1" : "List&lt;Node&gt;"
  , "c2" : "nodes()"
  , "c3" : "1"
  , "c4" : "1"
@@ -110,7 +110,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00253"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#253"
- , "c1" : "Optional<Node>"
+ , "c1" : "Optional&lt;Node&gt;"
  , "c2" : "nodeIfOnline(TopicPartition;int)"
  , "c3" : "3"
  , "c4" : "3"
@@ -137,7 +137,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00289"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#289"
- , "c1" : "List<PartitionInfo>"
+ , "c1" : "List&lt;PartitionInfo&gt;"
  , "c2" : "partitionsForTopic(String)"
  , "c3" : "1"
  , "c4" : "1"
@@ -155,7 +155,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00308"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#308"
- , "c1" : "List<PartitionInfo>"
+ , "c1" : "List&lt;PartitionInfo&gt;"
  , "c2" : "availablePartitionsForTopic(String)"
  , "c3" : "1"
  , "c4" : "1"
@@ -164,7 +164,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00317"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#317"
- , "c1" : "List<PartitionInfo>"
+ , "c1" : "List&lt;PartitionInfo&gt;"
  , "c2" : "partitionsForNode(int)"
  , "c3" : "1"
  , "c4" : "1"
@@ -173,7 +173,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00325"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#325"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "topics()"
  , "c3" : "1"
  , "c4" : "1"
@@ -182,7 +182,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00329"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#329"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "unauthorizedTopics()"
  , "c3" : "1"
  , "c4" : "1"
@@ -191,7 +191,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00333"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#333"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "invalidTopics()"
  , "c3" : "1"
  , "c4" : "1"
@@ -200,7 +200,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00337"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#337"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "internalTopics()"
  , "c3" : "1"
  , "c4" : "1"
@@ -236,7 +236,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00353"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#353"
- , "c1" : "Collection<Uuid>"
+ , "c1" : "Collection&lt;Uuid&gt;"
  , "c2" : "topicIds()"
  , "c3" : "1"
  , "c4" : "1"
@@ -310,82 +310,6 @@ var maDataBlocs = {
 ]
 , 
 "data08" : [
-]
-, 
-"data09a" : [
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File253Seq1.html#seq1"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=253&numSeq=1"
- , "c2" : "1"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.HashMap.getKey@POLYN607634.return" , "java.util.HashMap.put@POLYN621976.key"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-]
-,
-"data09b" : [
-{ "sequence" : { 
- "seq" : "1" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00164]"
- , "c3" : ["java.util.HashMap.getKey@POLYN607634.return" , "---java.util.HashMap.getKey@POLYN607634" , "org.apache.kafka.common.Cluster.Cluster@POLYN211690.topic"]
- , "c4" : "//QC-JAVCWE099[00164] In org.apache.kafka.common.Cluster.Cluster@POLYN211690[00164] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00166]"
- , "c3" : ["org.apache.kafka.common.Cluster.Cluster@POLYN211690.topic" , "---java.util.HashMap.put@POLYN621976" , "java.util.HashMap.put@POLYN621976.key"]
- , "c4" : "//QC-JAVCWE099[00166] In org.apache.kafka.common.Cluster.Cluster@POLYN211690[00166] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-]
-, 
-"data10" : [
 ]
 , 
 "data11" : [

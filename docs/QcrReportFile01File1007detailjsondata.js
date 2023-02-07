@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00266"
  , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#266"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "5"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00277"
  , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#277"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>;boolean)"
+ , "c2" : "configure(Map&lt;String,?&gt;;boolean)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -193,98 +193,6 @@ var maDataBlocs = {
 ]
 , 
 "data08" : [
-]
-, 
-"data09a" : [
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1007Seq1.html#seq1"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1007&numSeq=1"
- , "c2" : "1"
- , "c3" : "4"
- , "c4" : "2"
- , "c5" : ["java.util.HashMap.get@POLYN618616.return" , "java.util.concurrent.ConcurrentHashMap.add@POLYN1669444.e"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-]
-,
-"data09b" : [
-{ "sequence" : { 
- "seq" : "1" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "4"
- , "sourcenoligne" : "[00351]"
- , "c3" : ["java.util.HashMap.get@POLYN618616.return" , "---java.util.HashMap.get@POLYN618616" , "org.apache.kafka.connect.json.JsonConverter.asJsonSchema@POLYN288090.cached"]
- , "c4" : "//QC-JAVCWE099[00351] In org.apache.kafka.connect.json.JsonConverter.asJsonSchema@POLYN288090[00351] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "3"
- , "sourcenoligne" : "[00353]"
- , "c3" : ["org.apache.kafka.connect.json.JsonConverter.asJsonSchema@POLYN288090.cached" , "---dummymethode" , "org.apache.kafka.connect.json.JsonConverter.asJsonSchema@POLYN288090.return"]
- , "c4" : ""
- , "c5" : "none"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00397]"
- , "c3" : ["org.apache.kafka.connect.json.JsonConverter.asJsonSchema@POLYN288090.return" , "---org.apache.kafka.connect.json.JsonConverter.asJsonSchema@POLYN288090" , "org.apache.kafka.connect.json.JsonConverter.asJsonSchema@POLYN288090.fieldJsonSchema"]
- , "c4" : ""
- , "c5" : "none"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00399]"
- , "c3" : ["org.apache.kafka.connect.json.JsonConverter.asJsonSchema@POLYN288090.fieldJsonSchema" , "---java.util.concurrent.ConcurrentHashMap.add@POLYN1669444" , "java.util.concurrent.ConcurrentHashMap.add@POLYN1669444.e"]
- , "c4" : "//QC-JAVCWE099[00399] In org.apache.kafka.connect.json.JsonConverter.asJsonSchema@POLYN288090[00399] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-]
-, 
-"data10" : [
 ]
 , 
 "data11" : [

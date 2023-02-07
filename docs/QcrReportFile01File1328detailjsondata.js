@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00037"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaDelta.java.html#37"
- , "c1" : "Map<String,OptionalDouble>"
+ , "c1" : "Map&lt;String,OptionalDouble&gt;"
  , "c2" : "changes()"
  , "c3" : "1"
  , "c4" : "1"

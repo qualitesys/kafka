@@ -1,290 +1,128 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/secujava/javax.servlet.ServletRequest.java.html" 
- , "texte" : "File secujava/javax.servlet.ServletRequest.java 0 rule violation " 
- , "fic2"  : "./qc/secujava/javax.servlet.ServletRequest.java.xml" 
+   "fic1"  : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.html" 
+ , "texte" : "File secujava/java.util.concurrent.ConcurrentMap.java 6 rule violations " 
+ , "fic2"  : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "javax.servlet.ServletRequest"
+ , "c1" : "Map<K,V>"
+ , "c2" : "java.util.concurrent.ConcurrentMap"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "javax.servlet.ServletRequest" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "java.util.concurrent.ConcurrentMap" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00087"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#87"
- , "c1" : "Object"
- , "c2" : "getAttribute(String)"
+ , "c5" : "00078"
+ , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#78"
+ , "c1" : "V"
+ , "c2" : "getOrDefault(Object;V)"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00104"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#104"
- , "c1" : "Enumeration"
- , "c2" : "getAttributeNames()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00121"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#121"
- , "c1" : "String"
- , "c2" : "getCharacterEncoding()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00136"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#136"
+ , "c5" : "00102"
+ , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#102"
  , "c1" : "void"
- , "c2" : "setCharacterEncoding(String)"
+ , "c2" : "forEach(BiConsumer&lt;?superK,?superV&gt;)"
+ , "c3" : "2"
+ , "c4" : "7"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00150"
+ , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#150"
+ , "c1" : "V"
+ , "c2" : "putIfAbsent(K;V)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00153"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#153"
- , "c1" : "int"
- , "c2" : "getContentLength()"
+ , "c5" : "00180"
+ , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#180"
+ , "c1" : "boolean"
+ , "c2" : "remove(Object;Object)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00169"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#169"
- , "c1" : "String"
- , "c2" : "getContentType()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00189"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#189"
- , "c1" : "ServletInputStream"
- , "c2" : "getInputStream()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00223"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#223"
- , "c1" : "String"
- , "c2" : "getParameter(String)"
+ , "c5" : "00211"
+ , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#211"
+ , "c1" : "boolean"
+ , "c2" : "replace(K;V;V)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00244"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#244"
- , "c1" : "Enumeration"
- , "c2" : "getParameterNames()"
+ , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#244"
+ , "c1" : "V"
+ , "c2" : "replace(K;V)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00267"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#267"
- , "c1" : "String[]"
- , "c2" : "getParameterValues(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00281"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#281"
- , "c1" : "Map"
- , "c2" : "getParameterMap()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00398"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#398"
- , "c1" : "String"
- , "c2" : "getProtocol()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00398"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#398"
- , "c1" : "String"
- , "c2" : "getScheme()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00398"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#398"
- , "c1" : "String"
- , "c2" : "getServerName()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00398"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#398"
- , "c1" : "int"
- , "c2" : "getServerPort()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00398"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#398"
- , "c1" : "BufferedReader"
- , "c2" : "getReader()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
- , "c1" : "String"
- , "c2" : "getRemoteAddr()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
- , "c1" : "String"
- , "c2" : "getRemoteHost()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
+ , "c5" : "00275"
+ , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#275"
  , "c1" : "void"
- , "c2" : "setAttribute(String;Object)"
- , "c3" : "1"
- , "c4" : "1"
+ , "c2" : "replaceAll(BiFunction&lt;?superK,?superV,?extendsV&gt;)"
+ , "c3" : "3"
+ , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
- , "c1" : "void"
- , "c2" : "removeAttribute(String)"
+ , "c5" : "00319"
+ , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#319"
+ , "c1" : "V"
+ , "c2" : "computeIfAbsent(K;Function&lt;?superK,?extendsV&gt;)"
  , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
- , "c1" : "Locale"
- , "c2" : "getLocale()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c5" : "00362"
+ , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#362"
+ , "c1" : "V"
+ , "c2" : "computeIfPresent(K;BiFunction&lt;?superK,?superV,?extendsV&gt;)"
+ , "c3" : "6"
+ , "c4" : "6"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
- , "c1" : "Enumeration"
- , "c2" : "getLocales()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c5" : "00416"
+ , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#416"
+ , "c1" : "V"
+ , "c2" : "compute(K;BiFunction&lt;?superK,?superV,?extendsV&gt;)"
+ , "c3" : "11"
+ , "c4" : "11"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
- , "c1" : "boolean"
- , "c2" : "isSecure()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
- , "c1" : "RequestDispatcher"
- , "c2" : "getRequestDispatcher(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
- , "c1" : "String"
- , "c2" : "getRealPath(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
- , "c1" : "int"
- , "c2" : "getRemotePort()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
- , "c1" : "String"
- , "c2" : "getLocalName()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
- , "c1" : "String"
- , "c2" : "getLocalAddr()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00001"
- , "c5link" : "././qc/secujava/javax.servlet.ServletRequest.java.html#1"
- , "c1" : "int"
- , "c2" : "getLocalPort()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c5" : "00495"
+ , "c5link" : "././qc/secujava/java.util.concurrent.ConcurrentMap.java.html#495"
+ , "c1" : "V"
+ , "c2" : "merge(K;V;BiFunction&lt;?superV,?superV,?extendsV&gt;)"
+ , "c3" : "9"
+ , "c4" : "10"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/secujava/javax.servlet.ServletRequest.java.png" 
+   {"ligne" : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.png" 
 
- , "ligneplantuml" : "./qc/secujava/javax.servlet.ServletRequest.java.svg" }
+ , "ligneplantuml" : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.svg" }
 
 ] 
 , 
@@ -309,8 +147,61 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "6"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.html#102"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00102] The argument action is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00275"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.html#275"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00275] The argument function is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00320"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.html#320"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00320] The argument mappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00363"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.html#363"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00363] The argument remappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00417"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.html#417"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00417] The argument remappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00496"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.html#496"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00496] The argument remappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+]
+, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/secujava/javax.servlet.ServletRequest.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.fct.svg" 
 
 , 
 }

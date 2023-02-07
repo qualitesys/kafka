@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00040"
  , "c5link" : "././qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#40"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "2"
  , "c4" : "3"
 }} 

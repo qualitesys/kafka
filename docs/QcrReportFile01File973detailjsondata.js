@@ -20,7 +20,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00036"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/rest/ConnectRestExtensionContext.java.html#36"
- , "c1" : "Configurable<?extendsConfigurable<?>>"
+ , "c1" : "Configurable&lt;?extendsConfigurable&lt;?&gt;&gt;"
  , "c2" : "configurable()"
  , "c3" : "1"
  , "c4" : "1"

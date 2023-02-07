@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00049"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/VerificationKeyResolverFactory.java.html#49"
  , "c1" : "CloseableVerificationKeyResolver"
- , "c2" : "create(Map<String,?>;Map<String,Object>)"
+ , "c2" : "create(Map&lt;String,?&gt;;Map&lt;String,Object&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00054"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/VerificationKeyResolverFactory.java.html#54"
  , "c1" : "CloseableVerificationKeyResolver"
- , "c2" : "create(Map<String,?>;String;Map<String,Object>)"
+ , "c2" : "create(Map&lt;String,?&gt;;String;Map&lt;String,Object&gt;)"
  , "c3" : "5"
  , "c4" : "15"
 }} 

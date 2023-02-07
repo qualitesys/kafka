@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00061"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#61"
- , "c1" : "Map<String,TopicCreationGroup>"
+ , "c1" : "Map&lt;String,TopicCreationGroup&gt;"
  , "c2" : "configuredGroups(SourceConnectorConfig)"
  , "c3" : "3"
  , "c4" : "6"

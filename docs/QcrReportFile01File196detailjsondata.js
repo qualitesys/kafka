@@ -20,8 +20,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00104"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/RoundRobinAssignor.java.html#104"
- , "c1" : "Map<String,List<TopicPartition>>"
- , "c2" : "assign(Map<String,Integer>;Map<String,Subscription>)"
+ , "c1" : "Map&lt;String,List&lt;TopicPartition&gt;&gt;"
+ , "c2" : "assign(Map&lt;String,Integer&gt;;Map&lt;String,Subscription&gt;)"
  , "c3" : "4"
  , "c4" : "9"
 }} 
@@ -29,8 +29,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00125"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/RoundRobinAssignor.java.html#125"
- , "c1" : "List<TopicPartition>"
- , "c2" : "allPartitionsSorted(Map<String,Integer>;Map<String,Subscription>)"
+ , "c1" : "List&lt;TopicPartition&gt;"
+ , "c2" : "allPartitionsSorted(Map&lt;String,Integer&gt;;Map&lt;String,Subscription&gt;)"
  , "c3" : "4"
  , "c4" : "6"
 }} 

@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00309"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#309"
  , "c1" : "void"
- , "c2" : "logInternalConverterRemovalWarnings(Map<String,String>)"
+ , "c2" : "logInternalConverterRemovalWarnings(Map&lt;String,String&gt;)"
  , "c3" : "4"
  , "c4" : "4"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00330"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#330"
  , "c1" : "void"
- , "c2" : "logPluginPathConfigProviderWarning(Map<String,String>)"
+ , "c2" : "logPluginPathConfigProviderWarning(Map&lt;String,String&gt;)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -119,8 +119,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00413"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#413"
- , "c1" : "Map<String,Object>"
- , "c2" : "postProcessParsedConfig(Map<String,Object>)"
+ , "c1" : "Map&lt;String,Object&gt;"
+ , "c2" : "postProcessParsedConfig(Map&lt;String,Object&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -128,8 +128,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00417"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#417"
- , "c1" : "List<String>"
- , "c2" : "pluginLocations(Map<String,String>)"
+ , "c1" : "List&lt;String&gt;"
+ , "c2" : "pluginLocations(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -138,7 +138,7 @@ var maDataBlocs = {
  , "c5" : "00424"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#424"
  , "c1" : "WorkerConfig"
- , "c2" : "WorkerConfig(ConfigDef;Map<String,String>)"
+ , "c2" : "WorkerConfig(ConfigDef;Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 

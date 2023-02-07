@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java 13 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java 11 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.xml" 
  , "fic3"  : "" 
 }
@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00047"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#47"
  , "c1" : "FeaturesImage"
- , "c2" : "FeaturesImage(Map<String,Short>;MetadataVersion)"
+ , "c2" : "FeaturesImage(Map&lt;String,Short&gt;;MetadataVersion)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00060"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#60"
- , "c1" : "Map<String,Short>"
+ , "c1" : "Map&lt;String,Short&gt;"
  , "c2" : "finalizedVersions()"
  , "c3" : "1"
  , "c4" : "1"
@@ -56,7 +56,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00064"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#64"
- , "c1" : "Optional<Short>"
+ , "c1" : "Optional&lt;Short&gt;"
  , "c2" : "finalizedVersion(String)"
  , "c3" : "1"
  , "c4" : "1"
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00068"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#68"
  , "c1" : "void"
- , "c2" : "write(Consumer<List<ApiMessageAndVersion>>)"
+ , "c2" : "write(Consumer&lt;List&lt;ApiMessageAndVersion&gt;&gt;)"
  , "c3" : "3"
  , "c4" : "5"
 }} 
@@ -140,13 +140,6 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -157,7 +150,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -243,13 +236,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.FeaturesImage.equals@POLYN156267"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.FeaturesImage.hashCode@POLYN156147"
 }} 
 ,
@@ -258,13 +244,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.FeaturesImage.isEmpty@POLYN154499"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#93"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.image.FeaturesImage.equals@POLYN156267 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

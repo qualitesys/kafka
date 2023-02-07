@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00021"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/FutureCallback.java.html#21"
  , "c1" : "FutureCallback"
- , "c2" : "FutureCallback(Callback<T>)"
+ , "c2" : "FutureCallback(Callback&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

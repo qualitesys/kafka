@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00164"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/SenderMetricsRegistry.java.html#164"
  , "c1" : "MetricName"
- , "c2" : "topicRecordSendRate(Map<String,String>)"
+ , "c2" : "topicRecordSendRate(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00168"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/SenderMetricsRegistry.java.html#168"
  , "c1" : "MetricName"
- , "c2" : "topicRecordSendTotal(Map<String,String>)"
+ , "c2" : "topicRecordSendTotal(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00172"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/SenderMetricsRegistry.java.html#172"
  , "c1" : "MetricName"
- , "c2" : "topicByteRate(Map<String,String>)"
+ , "c2" : "topicByteRate(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00176"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/SenderMetricsRegistry.java.html#176"
  , "c1" : "MetricName"
- , "c2" : "topicByteTotal(Map<String,String>)"
+ , "c2" : "topicByteTotal(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00180"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/SenderMetricsRegistry.java.html#180"
  , "c1" : "MetricName"
- , "c2" : "topicCompressionRate(Map<String,String>)"
+ , "c2" : "topicCompressionRate(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -93,7 +93,7 @@ var maDataBlocs = {
  , "c5" : "00184"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/SenderMetricsRegistry.java.html#184"
  , "c1" : "MetricName"
- , "c2" : "topicRecordRetryRate(Map<String,String>)"
+ , "c2" : "topicRecordRetryRate(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -102,7 +102,7 @@ var maDataBlocs = {
  , "c5" : "00188"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/SenderMetricsRegistry.java.html#188"
  , "c1" : "MetricName"
- , "c2" : "topicRecordRetryTotal(Map<String,String>)"
+ , "c2" : "topicRecordRetryTotal(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -111,7 +111,7 @@ var maDataBlocs = {
  , "c5" : "00192"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/SenderMetricsRegistry.java.html#192"
  , "c1" : "MetricName"
- , "c2" : "topicRecordErrorRate(Map<String,String>)"
+ , "c2" : "topicRecordErrorRate(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -120,7 +120,7 @@ var maDataBlocs = {
  , "c5" : "00196"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/SenderMetricsRegistry.java.html#196"
  , "c1" : "MetricName"
- , "c2" : "topicRecordErrorTotal(Map<String,String>)"
+ , "c2" : "topicRecordErrorTotal(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -128,7 +128,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00200"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/SenderMetricsRegistry.java.html#200"
- , "c1" : "List<MetricNameTemplate>"
+ , "c1" : "List&lt;MetricNameTemplate&gt;"
  , "c2" : "allTemplates()"
  , "c3" : "1"
  , "c4" : "1"
@@ -165,7 +165,7 @@ var maDataBlocs = {
  , "c5" : "00216"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/SenderMetricsRegistry.java.html#216"
  , "c1" : "MetricNameTemplate"
- , "c2" : "createTemplate(String;String;String;Set<String>)"
+ , "c2" : "createTemplate(String;String;String;Set&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 

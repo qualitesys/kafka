@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00036"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeAclsResult.java.html#36"
  , "c1" : "DescribeAclsResult"
- , "c2" : "DescribeAclsResult(KafkaFuture<Collection<AclBinding>>)"
+ , "c2" : "DescribeAclsResult(KafkaFuture&lt;Collection&lt;AclBinding&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00043"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeAclsResult.java.html#43"
- , "c1" : "KafkaFuture<Collection<AclBinding>>"
+ , "c1" : "KafkaFuture&lt;Collection&lt;AclBinding&gt;&gt;"
  , "c2" : "values()"
  , "c3" : "1"
  , "c4" : "1"

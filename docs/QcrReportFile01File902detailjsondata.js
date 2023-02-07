@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00055"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashMultiCollection.java.html#55"
  , "c1" : "ImplicitLinkedHashMultiCollection"
- , "c2" : "ImplicitLinkedHashMultiCollection(Iterator<E>)"
+ , "c2" : "ImplicitLinkedHashMultiCollection(Iterator&lt;E&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -65,7 +65,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00122"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashMultiCollection.java.html#122"
- , "c1" : "List<E>"
+ , "c1" : "List&lt;E&gt;"
  , "c2" : "findAll(E)"
  , "c3" : "5"
  , "c4" : "11"

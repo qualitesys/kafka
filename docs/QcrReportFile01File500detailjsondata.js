@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java 97 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java 93 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.xml" 
  , "fic3"  : "" 
 }
@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00138"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#138"
  , "c1" : "KafkaChannel"
- , "c2" : "KafkaChannel(String;TransportLayer;Supplier<Authenticator>;int;MemoryPool;ChannelMetadataRegistry)"
+ , "c2" : "KafkaChannel(String;TransportLayer;Supplier&lt;Authenticator&gt;;int;MemoryPool;ChannelMetadataRegistry)"
  , "c3" : "1"
  , "c4" : "11"
 }} 
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00165"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#165"
- , "c1" : "Optional<KafkaPrincipalSerde>"
+ , "c1" : "Optional&lt;KafkaPrincipalSerde&gt;"
  , "c2" : "principalSerde()"
  , "c3" : "1"
  , "c4" : "1"
@@ -363,7 +363,7 @@ var maDataBlocs = {
  , "c5" : "00530"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#530"
  , "c1" : "boolean"
- , "c2" : "maybeBeginServerReauthentication(NetworkReceive;Supplier<Long>)"
+ , "c2" : "maybeBeginServerReauthentication(NetworkReceive;Supplier&lt;Long&gt;)"
  , "c3" : "4"
  , "c4" : "7"
 }} 
@@ -372,7 +372,7 @@ var maDataBlocs = {
  , "c5" : "00587"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#587"
  , "c1" : "boolean"
- , "c2" : "maybeBeginClientReauthentication(Supplier<Long>)"
+ , "c2" : "maybeBeginClientReauthentication(Supplier&lt;Long&gt;)"
  , "c3" : "4"
  , "c4" : "7"
 }} 
@@ -398,7 +398,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00648"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#648"
- , "c1" : "Optional<NetworkReceive>"
+ , "c1" : "Optional&lt;NetworkReceive&gt;"
  , "c2" : "pollResponseReceivedDuringReauthentication()"
  , "c3" : "1"
  , "c4" : "1"
@@ -476,7 +476,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "7"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -497,7 +497,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "9"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1122,13 +1122,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.KafkaChannel.equals@POLYN266407"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.KafkaChannel.hashCode@POLYN266944"
 }} 
 ,
@@ -1186,27 +1179,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#186"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00186] In the recursive method org.apache.kafka.common.network.KafkaChannel.prepare@POLYN255213 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00472"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#472"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00472] In the recursive method org.apache.kafka.common.network.KafkaChannel.equals@POLYN266407 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00474"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#474"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00474] In the recursive method org.apache.kafka.common.network.KafkaChannel.equals@POLYN266407 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00475"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#475"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00475] In the recursive method org.apache.kafka.common.network.KafkaChannel.equals@POLYN266407 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

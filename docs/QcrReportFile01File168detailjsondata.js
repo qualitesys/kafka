@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00047"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#47"
  , "c1" : "ListConsumerGroupOffsetsHandler"
- , "c2" : "ListConsumerGroupOffsetsHandler(String;List<TopicPartition>;LogContext)"
+ , "c2" : "ListConsumerGroupOffsetsHandler(String;List&lt;TopicPartition&gt;;LogContext)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00055"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#55"
  , "c1" : "ListConsumerGroupOffsetsHandler"
- , "c2" : "ListConsumerGroupOffsetsHandler(String;List<TopicPartition>;boolean;LogContext)"
+ , "c2" : "ListConsumerGroupOffsetsHandler(String;List&lt;TopicPartition&gt;;boolean;LogContext)"
  , "c3" : "1"
  , "c4" : "5"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00068"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#68"
- , "c1" : "AdminApiFuture.SimpleAdminApiFuture<CoordinatorKey,Map<TopicPartition,OffsetAndMetadata>>"
+ , "c1" : "AdminApiFuture.SimpleAdminApiFuture&lt;CoordinatorKey,Map&lt;TopicPartition,OffsetAndMetadata&gt;&gt;"
  , "c2" : "newFuture(String)"
  , "c3" : "1"
  , "c4" : "1"
@@ -56,7 +56,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00080"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#80"
- , "c1" : "AdminApiLookupStrategy<CoordinatorKey>"
+ , "c1" : "AdminApiLookupStrategy&lt;CoordinatorKey&gt;"
  , "c2" : "lookupStrategy()"
  , "c3" : "1"
  , "c4" : "1"
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00084"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#84"
  , "c1" : "void"
- , "c2" : "validateKeys(Set<CoordinatorKey>)"
+ , "c2" : "validateKeys(Set&lt;CoordinatorKey&gt;)"
  , "c3" : "2"
  , "c4" : "1"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00092"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#92"
  , "c1" : "OffsetFetchRequest.Builder"
- , "c2" : "buildBatchedRequest(int;Set<CoordinatorKey>)"
+ , "c2" : "buildBatchedRequest(int;Set&lt;CoordinatorKey&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -83,8 +83,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00098"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#98"
- , "c1" : "ApiResult<CoordinatorKey,Map<TopicPartition,OffsetAndMetadata>>"
- , "c2" : "handleResponse(Node;Set<CoordinatorKey>;AbstractResponse)"
+ , "c1" : "ApiResult&lt;CoordinatorKey,Map&lt;TopicPartition,OffsetAndMetadata&gt;&gt;"
+ , "c2" : "handleResponse(Node;Set&lt;CoordinatorKey&gt;;AbstractResponse)"
  , "c3" : "7"
  , "c4" : "17"
 }} 
@@ -93,7 +93,7 @@ var maDataBlocs = {
  , "c5" : "00140"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#140"
  , "c1" : "void"
- , "c2" : "handleGroupError(CoordinatorKey;Errors;Map<CoordinatorKey,Throwable>;Set<CoordinatorKey>)"
+ , "c2" : "handleGroupError(CoordinatorKey;Errors;Map&lt;CoordinatorKey,Throwable&gt;;Set&lt;CoordinatorKey&gt;)"
  , "c3" : "5"
  , "c4" : "10"
 }} 

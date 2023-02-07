@@ -20,7 +20,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00034"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorReporter.java.html#34"
- , "c1" : "Future<RecordMetadata>"
+ , "c1" : "Future&lt;RecordMetadata&gt;"
  , "c2" : "report(ProcessingContext)"
  , "c3" : "1"
  , "c4" : "1"

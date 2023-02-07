@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java 293 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java 288 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.xml" 
  , "fic3"  : "" 
 }
@@ -29,8 +29,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00072"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#72"
- , "c1" : "Map<String,List<TopicPartition>>"
- , "c2" : "assign(Map<String,Integer>;Map<String,Subscription>)"
+ , "c1" : "Map&lt;String,List&lt;TopicPartition&gt;&gt;"
+ , "c2" : "assign(Map&lt;String,Integer&gt;;Map&lt;String,Subscription&gt;)"
  , "c3" : "3"
  , "c4" : "8"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00095"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#95"
  , "c1" : "boolean"
- , "c2" : "allSubscriptionsEqual(Set<String>;Map<String,Subscription>;Map<String,List<TopicPartition>>;Set<TopicPartition>)"
+ , "c2" : "allSubscriptionsEqual(Set&lt;String&gt;;Map&lt;String,Subscription&gt;;Map&lt;String,List&lt;TopicPartition&gt;&gt;;Set&lt;TopicPartition&gt;)"
  , "c3" : "12"
  , "c4" : "23"
 }} 
@@ -47,8 +47,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00182"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#182"
- , "c1" : "Map<String,List<TopicPartition>>"
- , "c2" : "constrainedAssign(Map<String,Integer>;Map<String,List<TopicPartition>>;Set<TopicPartition>)"
+ , "c1" : "Map&lt;String,List&lt;TopicPartition&gt;&gt;"
+ , "c2" : "constrainedAssign(Map&lt;String,Integer&gt;;Map&lt;String,List&lt;TopicPartition&gt;&gt;;Set&lt;TopicPartition&gt;)"
  , "c3" : "32"
  , "c4" : "60"
 }} 
@@ -56,8 +56,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00353"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#353"
- , "c1" : "List<TopicPartition>"
- , "c2" : "getAllTopicPartitions(Map<String,Integer>;List<String>;int)"
+ , "c1" : "List&lt;TopicPartition&gt;"
+ , "c2" : "getAllTopicPartitions(Map&lt;String,Integer&gt;;List&lt;String&gt;;int)"
  , "c3" : "3"
  , "c4" : "6"
 }} 
@@ -65,8 +65,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00383"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#383"
- , "c1" : "Map<String,List<TopicPartition>>"
- , "c2" : "generalAssign(Map<String,Integer>;Map<String,Subscription>;Map<String,List<TopicPartition>>)"
+ , "c1" : "Map&lt;String,List&lt;TopicPartition&gt;&gt;"
+ , "c2" : "generalAssign(Map&lt;String,Integer&gt;;Map&lt;String,Subscription&gt;;Map&lt;String,List&lt;TopicPartition&gt;&gt;)"
  , "c3" : "16"
  , "c4" : "43"
 }} 
@@ -74,8 +74,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00501"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#501"
- , "c1" : "List<TopicPartition>"
- , "c2" : "getUnassignedPartitions(List<TopicPartition>;List<TopicPartition>;Map<String,List<String>>)"
+ , "c1" : "List&lt;TopicPartition&gt;"
+ , "c2" : "getUnassignedPartitions(List&lt;TopicPartition&gt;;List&lt;TopicPartition&gt;;Map&lt;String,List&lt;String&gt;&gt;)"
  , "c3" : "7"
  , "c4" : "10"
 }} 
@@ -83,8 +83,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00549"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#549"
- , "c1" : "List<TopicPartition>"
- , "c2" : "getUnassignedPartitions(int;Map<String,Integer>;List<TopicPartition>)"
+ , "c1" : "List&lt;TopicPartition&gt;"
+ , "c2" : "getUnassignedPartitions(int;Map&lt;String,Integer&gt;;List&lt;TopicPartition&gt;)"
  , "c3" : "8"
  , "c4" : "15"
 }} 
@@ -93,7 +93,7 @@ var maDataBlocs = {
  , "c5" : "00597"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#597"
  , "c1" : "void"
- , "c2" : "updatePrevAssignment(Map<TopicPartition,ConsumerGenerationPair>;List<TopicPartition>;String;int)"
+ , "c2" : "updatePrevAssignment(Map&lt;TopicPartition,ConsumerGenerationPair&gt;;List&lt;TopicPartition&gt;;String;int)"
  , "c3" : "5"
  , "c4" : "2"
 }} 
@@ -102,7 +102,7 @@ var maDataBlocs = {
  , "c5" : "00619"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#619"
  , "c1" : "void"
- , "c2" : "prepopulateCurrentAssignments(Map<String,Subscription>;Map<TopicPartition,ConsumerGenerationPair>)"
+ , "c2" : "prepopulateCurrentAssignments(Map&lt;String,Subscription&gt;;Map&lt;TopicPartition,ConsumerGenerationPair&gt;)"
  , "c3" : "6"
  , "c4" : "6"
 }} 
@@ -111,7 +111,7 @@ var maDataBlocs = {
  , "c5" : "00656"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#656"
  , "c1" : "boolean"
- , "c2" : "isBalanced(Map<String,List<TopicPartition>>;TreeSet<String>;Map<String,List<String>>;Map<String,Integer>;int)"
+ , "c2" : "isBalanced(Map&lt;String,List&lt;TopicPartition&gt;&gt;;TreeSet&lt;String&gt;;Map&lt;String,List&lt;String&gt;&gt;;Map&lt;String,Integer&gt;;int)"
  , "c3" : "11"
  , "c4" : "22"
 }} 
@@ -120,7 +120,7 @@ var maDataBlocs = {
  , "c5" : "00720"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#720"
  , "c1" : "int"
- , "c2" : "getMaxAssignmentSize(int;List<String>;Map<String,Integer>)"
+ , "c2" : "getMaxAssignmentSize(int;List&lt;String&gt;;Map&lt;String,Integer&gt;)"
  , "c3" : "3"
  , "c4" : "4"
 }} 
@@ -129,7 +129,7 @@ var maDataBlocs = {
  , "c5" : "00737"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#737"
  , "c1" : "int"
- , "c2" : "getBalanceScore(Map<String,List<TopicPartition>>)"
+ , "c2" : "getBalanceScore(Map&lt;String,List&lt;TopicPartition&gt;&gt;)"
  , "c3" : "4"
  , "c4" : "9"
 }} 
@@ -138,7 +138,7 @@ var maDataBlocs = {
  , "c5" : "00759"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#759"
  , "c1" : "void"
- , "c2" : "assignPartition(TopicPartition;TreeSet<String>;Map<String,List<TopicPartition>>;Map<String,List<String>>;Map<TopicPartition,String>)"
+ , "c2" : "assignPartition(TopicPartition;TreeSet&lt;String&gt;;Map&lt;String,List&lt;TopicPartition&gt;&gt;;Map&lt;String,List&lt;String&gt;&gt;;Map&lt;TopicPartition,String&gt;)"
  , "c3" : "3"
  , "c4" : "5"
 }} 
@@ -147,7 +147,7 @@ var maDataBlocs = {
  , "c5" : "00775"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#775"
  , "c1" : "boolean"
- , "c2" : "canParticipateInReassignment(String;Map<String,List<String>>)"
+ , "c2" : "canParticipateInReassignment(String;Map&lt;String,List&lt;String&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -156,7 +156,7 @@ var maDataBlocs = {
  , "c5" : "00781"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#781"
  , "c1" : "boolean"
- , "c2" : "canParticipateInReassignment(String;Map<String,List<TopicPartition>>;Map<String,List<String>>;Map<String,List<String>>;Map<String,Integer>;int)"
+ , "c2" : "canParticipateInReassignment(String;Map&lt;String,List&lt;TopicPartition&gt;&gt;;Map&lt;String,List&lt;String&gt;&gt;;Map&lt;String,List&lt;String&gt;&gt;;Map&lt;String,Integer&gt;;int)"
  , "c3" : "5"
  , "c4" : "8"
 }} 
@@ -165,7 +165,7 @@ var maDataBlocs = {
  , "c5" : "00811"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#811"
  , "c1" : "void"
- , "c2" : "balance(Map<String,List<TopicPartition>>;Map<TopicPartition,ConsumerGenerationPair>;List<TopicPartition>;List<TopicPartition>;TreeSet<String>;Map<String,List<String>>;Map<String,List<String>>;Map<TopicPartition,String>;boolean;Map<String,Integer>;int)"
+ , "c2" : "balance(Map&lt;String,List&lt;TopicPartition&gt;&gt;;Map&lt;TopicPartition,ConsumerGenerationPair&gt;;List&lt;TopicPartition&gt;;List&lt;TopicPartition&gt;;TreeSet&lt;String&gt;;Map&lt;String,List&lt;String&gt;&gt;;Map&lt;String,List&lt;String&gt;&gt;;Map&lt;TopicPartition,String&gt;;boolean;Map&lt;String,Integer&gt;;int)"
  , "c3" : "11"
  , "c4" : "23"
 }} 
@@ -174,7 +174,7 @@ var maDataBlocs = {
  , "c5" : "00885"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#885"
  , "c1" : "boolean"
- , "c2" : "performReassignments(List<TopicPartition>;Map<String,List<TopicPartition>>;Map<TopicPartition,ConsumerGenerationPair>;TreeSet<String>;Map<String,List<String>>;Map<String,List<String>>;Map<TopicPartition,String>;Map<String,Integer>;int)"
+ , "c2" : "performReassignments(List&lt;TopicPartition&gt;;Map&lt;String,List&lt;TopicPartition&gt;&gt;;Map&lt;TopicPartition,ConsumerGenerationPair&gt;;TreeSet&lt;String&gt;;Map&lt;String,List&lt;String&gt;&gt;;Map&lt;String,List&lt;String&gt;&gt;;Map&lt;TopicPartition,String&gt;;Map&lt;String,Integer&gt;;int)"
  , "c3" : "9"
  , "c4" : "18"
 }} 
@@ -183,7 +183,7 @@ var maDataBlocs = {
  , "c5" : "00939"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#939"
  , "c1" : "void"
- , "c2" : "reassignPartition(TopicPartition;Map<String,List<TopicPartition>>;TreeSet<String>;Map<TopicPartition,String>;Map<String,List<String>>)"
+ , "c2" : "reassignPartition(TopicPartition;Map&lt;String,List&lt;TopicPartition&gt;&gt;;TreeSet&lt;String&gt;;Map&lt;TopicPartition,String&gt;;Map&lt;String,List&lt;String&gt;&gt;)"
  , "c3" : "3"
  , "c4" : "5"
 }} 
@@ -192,7 +192,7 @@ var maDataBlocs = {
  , "c5" : "00958"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#958"
  , "c1" : "void"
- , "c2" : "reassignPartition(TopicPartition;Map<String,List<TopicPartition>>;TreeSet<String>;Map<TopicPartition,String>;String)"
+ , "c2" : "reassignPartition(TopicPartition;Map&lt;String,List&lt;TopicPartition&gt;&gt;;TreeSet&lt;String&gt;;Map&lt;TopicPartition,String&gt;;String)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -201,7 +201,7 @@ var maDataBlocs = {
  , "c5" : "00969"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#969"
  , "c1" : "void"
- , "c2" : "processPartitionMovement(TopicPartition;String;Map<String,List<TopicPartition>>;TreeSet<String>;Map<TopicPartition,String>)"
+ , "c2" : "processPartitionMovement(TopicPartition;String;Map&lt;String,List&lt;TopicPartition&gt;&gt;;TreeSet&lt;String&gt;;Map&lt;TopicPartition,String&gt;)"
  , "c3" : "1"
  , "c4" : "9"
 }} 
@@ -219,7 +219,7 @@ var maDataBlocs = {
  , "c5" : "00992"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#992"
  , "c1" : "void"
- , "c2" : "deepCopy(Map<String,List<TopicPartition>>;Map<String,List<TopicPartition>>)"
+ , "c2" : "deepCopy(Map&lt;String,List&lt;TopicPartition&gt;&gt;;Map&lt;String,List&lt;TopicPartition&gt;&gt;)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -227,8 +227,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00998"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#998"
- , "c1" : "Map<String,List<TopicPartition>>"
- , "c2" : "deepCopy(Map<String,List<TopicPartition>>)"
+ , "c1" : "Map&lt;String,List&lt;TopicPartition&gt;&gt;"
+ , "c2" : "deepCopy(Map&lt;String,List&lt;TopicPartition&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -258,183 +258,6 @@ var maDataBlocs = {
 "data08" : [
 ]
 , 
-"data09a" : [
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File200Seq1.html#seq1"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=200&numSeq=1"
- , "c2" : "1"
- , "c3" : "6"
- , "c4" : "2"
- , "c5" : ["java.util.Map.get@POLYN428707.return" , "java.util.HashMap.put@POLYN621976.key"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File200Seq2.html#seq2"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=200&numSeq=2"
- , "c2" : "2"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.HashMap.get@POLYN618616.return" , "java.util.HashMap.get@POLYN618616.key"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-]
-,
-"data09b" : [
-{ "sequence" : { 
- "seq" : "1" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "6"
- , "sourcenoligne" : "[01109]"
- , "c3" : ["java.util.Map.get@POLYN428707.return" , "---java.util.Map.get@POLYN428707" , "org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.getTheActualPartitionToBeMoved@POLYN404643.return"]
- , "c4" : "//QC-JAVCWE099[01109] In org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.getTheActualPartitionToBeMoved@POLYN404643[01109] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "5"
- , "sourcenoligne" : "[00965]"
- , "c3" : ["org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.getTheActualPartitionToBeMoved@POLYN404643.return" , "---org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.getTheActualPartitionToBeMoved@POLYN404643" , "org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.reassignPartition@POLYN396686.partitionToBeMoved"]
- , "c4" : ""
- , "c5" : "none"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "4"
- , "sourcenoligne" : "[00966]"
- , "c3" : ["org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.reassignPartition@POLYN396686.partitionToBeMoved" , "---org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.processPartitionMovement@POLYN397348" , "org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.processPartitionMovement@POLYN397348.partition"]
- , "c4" : ""
- , "c5" : "none"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "3"
- , "sourcenoligne" : "[00979]"
- , "c3" : ["org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.processPartitionMovement@POLYN397348.partition" , "---org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.movePartition@POLYN403803" , "org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.movePartition@POLYN403803.partition"]
- , "c4" : ""
- , "c5" : "none"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[01089]"
- , "c3" : ["org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.movePartition@POLYN403803.partition" , "---org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.addPartitionMovementRecord@POLYN402877" , "org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.addPartitionMovementRecord@POLYN402877.partition"]
- , "c4" : ""
- , "c5" : "none"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[01063]"
- , "c3" : ["org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.addPartitionMovementRecord@POLYN402877.partition" , "---java.util.HashMap.put@POLYN621976" , "java.util.HashMap.put@POLYN621976.key"]
- , "c4" : "//QC-JAVCWE099[01063] In org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.addPartitionMovementRecord@POLYN402877[01063] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "2" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00974]"
- , "c3" : ["java.util.HashMap.get@POLYN618616.return" , "---java.util.HashMap.get@POLYN618616" , "org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.processPartitionMovement@POLYN397348.oldConsumer"]
- , "c4" : "//QC-JAVCWE099[00974] In org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.processPartitionMovement@POLYN397348[00974] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00981]"
- , "c3" : ["org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.processPartitionMovement@POLYN397348.oldConsumer" , "---java.util.HashMap.get@POLYN618616" , "java.util.HashMap.get@POLYN618616.key"]
- , "c4" : "//QC-JAVCWE099[00981] In org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.processPartitionMovement@POLYN397348[00981] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-]
-, 
-"data10" : [
-]
-, 
 "data11" : [
 ]
 , 
@@ -455,7 +278,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "8"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -469,7 +292,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2501,42 +2324,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.isLinked@POLYN405771"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.canParticipateInReassignment@POLYN387148"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01114"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1114"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01114] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.isLinked@POLYN405771 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01117"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1117"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01117] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.isLinked@POLYN405771 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01122"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1122"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01122] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.isLinked@POLYN405771 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01133"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1133"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01133] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.isLinked@POLYN405771 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

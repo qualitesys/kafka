@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00052"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientCallbackHandler.java.html#52"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>;String;List<AppConfigurationEntry>)"
+ , "c2" : "configure(Map&lt;String,?&gt;;String;List&lt;AppConfigurationEntry&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

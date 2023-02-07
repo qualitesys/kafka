@@ -1,45 +1,27 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualFixedKeyProcessor.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualFixedKeyProcessor.java 1 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualFixedKeyProcessor.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/WallclockTimestampExtractor.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/WallclockTimestampExtractor.java 1 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/WallclockTimestampExtractor.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "FixedKeyProcessor<KIn,VIn,VOut>"
- , "c2" : "org.apache.kafka.streams.processor.api.ContextualFixedKeyProcessor"
+ , "c1" : "TimestampExtractor"
+ , "c2" : "org.apache.kafka.streams.processor.WallclockTimestampExtractor"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.processor.api.ContextualFixedKeyProcessor" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.processor.WallclockTimestampExtractor" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualFixedKeyProcessor.java.html#32"
- , "c1" : "ContextualFixedKeyProcessor"
- , "c2" : "ContextualFixedKeyProcessor()"
- , "c3" : "1"
- , "c4" : "0"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00035"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualFixedKeyProcessor.java.html#35"
- , "c1" : "void"
- , "c2" : "init(FixedKeyProcessorContext<KIn,VOut>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualFixedKeyProcessor.java.html#44"
- , "c1" : "FixedKeyProcessorContext<KIn,VOut>"
- , "c2" : "context()"
+ , "c5" : "00043"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/WallclockTimestampExtractor.java.html#43"
+ , "c1" : "long"
+ , "c2" : "extract(ConsumerRecord&lt;Object,Object&gt;;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,9 +30,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualFixedKeyProcessor.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/WallclockTimestampExtractor.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualFixedKeyProcessor.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/WallclockTimestampExtractor.java.svg" }
 
 ] 
 , 
@@ -86,15 +68,15 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00035"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualFixedKeyProcessor.java.html#35"
+ , "c1" : "00043"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/WallclockTimestampExtractor.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00035] For method init arguments FixedKeyProcessorContext&lt;KIn ,VOut &gt;  context"
+ , "c3" : "QC-JAV000006[00043] For method extract arguments ConsumerRecord&lt;Object ,Object &gt;  record|long  partitionTime"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualFixedKeyProcessor.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/WallclockTimestampExtractor.java.fct.svg" 
 
 , 
 }

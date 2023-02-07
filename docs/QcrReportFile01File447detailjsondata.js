@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00042"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#42"
  , "c1" : "KafkaFutureImpl"
- , "c2" : "KafkaFutureImpl(boolean;KafkaCompletableFuture<T>)"
+ , "c2" : "KafkaFutureImpl(boolean;KafkaCompletableFuture&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00048"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#48"
- , "c1" : "CompletionStage<T>"
+ , "c1" : "CompletionStage&lt;T&gt;"
  , "c2" : "toCompletionStage()"
  , "c3" : "1"
  , "c4" : "1"
@@ -47,8 +47,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00104"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#104"
- , "c1" : "KafkaFuture<T>"
- , "c2" : "whenComplete(BiConsumer<?superT,?superThrowable>)"
+ , "c1" : "KafkaFuture&lt;T&gt;"
+ , "c2" : "whenComplete(BiConsumer&lt;?superT,?superThrowable&gt;)"
  , "c3" : "3"
  , "c4" : "5"
 }} 

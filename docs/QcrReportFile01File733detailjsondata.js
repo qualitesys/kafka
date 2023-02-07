@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00052"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#52"
- , "c1" : "Map<Errors,Integer>"
+ , "c1" : "Map&lt;Errors,Integer&gt;"
  , "c2" : "errorCounts()"
  , "c3" : "2"
  , "c4" : "4"
@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00080"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#80"
  , "c1" : "UpdateFeaturesResponse"
- , "c2" : "createWithErrors(ApiError;Map<String,ApiError>;int)"
+ , "c2" : "createWithErrors(ApiError;Map&lt;String,ApiError&gt;;int)"
  , "c3" : "2"
  , "c4" : "8"
 }} 

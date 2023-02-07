@@ -1,135 +1,54 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/WindowBytesStoreSupplier.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/WindowBytesStoreSupplier.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/WindowBytesStoreSupplier.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "StateStore"
- , "c2" : "org.apache.kafka.streams.state.WindowStore"
+ , "c1" : "StoreSupplier<WindowStore<Bytes,byte[]>>"
+ , "c2" : "org.apache.kafka.streams.state.WindowBytesStoreSupplier"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.state.WindowStore" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.state.WindowBytesStoreSupplier" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#49"
- , "c1" : "void"
- , "c2" : "put(K;V;long)"
+ , "c5" : "00038"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowBytesStoreSupplier.java.html#38"
+ , "c1" : "long"
+ , "c2" : "segmentIntervalMs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00086"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#86"
- , "c1" : "WindowStoreIterator<V>"
- , "c2" : "fetch(K;long;long)"
+ , "c5" : "00045"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowBytesStoreSupplier.java.html#45"
+ , "c1" : "long"
+ , "c2" : "windowSize()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00089"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#89"
- , "c1" : "WindowStoreIterator<V>"
- , "c2" : "fetch(K;Instant;Instant)"
+ , "c5" : "00054"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowBytesStoreSupplier.java.html#54"
+ , "c1" : "boolean"
+ , "c2" : "retainDuplicates()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#98"
- , "c1" : "WindowStoreIterator<V>"
- , "c2" : "backwardFetch(K;long;long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00105"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#105"
- , "c1" : "WindowStoreIterator<V>"
- , "c2" : "backwardFetch(K;Instant;Instant)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00130"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#130"
- , "c1" : "KeyValueIterator<Windowed<K>,V>"
- , "c2" : "fetch(K;K;long;long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00133"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#133"
- , "c1" : "KeyValueIterator<Windowed<K>,V>"
- , "c2" : "fetch(K;K;Instant;Instant)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00144"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#144"
- , "c1" : "KeyValueIterator<Windowed<K>,V>"
- , "c2" : "backwardFetch(K;K;long;long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00152"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#152"
- , "c1" : "KeyValueIterator<Windowed<K>,V>"
- , "c2" : "backwardFetch(K;K;Instant;Instant)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00173"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#173"
- , "c1" : "KeyValueIterator<Windowed<K>,V>"
- , "c2" : "fetchAll(long;long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00176"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#176"
- , "c1" : "KeyValueIterator<Windowed<K>,V>"
- , "c2" : "fetchAll(Instant;Instant)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00182"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#182"
- , "c1" : "KeyValueIterator<Windowed<K>,V>"
- , "c2" : "backwardFetchAll(long;long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00187"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.html#187"
- , "c1" : "KeyValueIterator<Windowed<K>,V>"
- , "c2" : "backwardFetchAll(Instant;Instant)"
+ , "c5" : "00061"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/WindowBytesStoreSupplier.java.html#61"
+ , "c1" : "long"
+ , "c2" : "retentionPeriod()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -138,9 +57,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/WindowBytesStoreSupplier.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/WindowBytesStoreSupplier.java.svg" }
 
 ] 
 , 
@@ -166,7 +85,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/WindowStore.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/WindowBytesStoreSupplier.java.fct.svg" 
 
 , 
 }

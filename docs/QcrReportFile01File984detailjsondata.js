@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00048"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#48"
  , "c1" : "SourceRecord"
- , "c2" : "SourceRecord(Map<String,?>;Map<String,?>;String;Integer;Schema;Object)"
+ , "c2" : "SourceRecord(Map&lt;String,?&gt;;Map&lt;String,?&gt;;String;Integer;Schema;Object)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00053"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#53"
  , "c1" : "SourceRecord"
- , "c2" : "SourceRecord(Map<String,?>;Map<String,?>;String;Schema;Object)"
+ , "c2" : "SourceRecord(Map&lt;String,?&gt;;Map&lt;String,?&gt;;String;Schema;Object)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00058"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#58"
  , "c1" : "SourceRecord"
- , "c2" : "SourceRecord(Map<String,?>;Map<String,?>;String;Schema;Object;Schema;Object)"
+ , "c2" : "SourceRecord(Map&lt;String,?&gt;;Map&lt;String,?&gt;;String;Schema;Object;Schema;Object)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00063"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#63"
  , "c1" : "SourceRecord"
- , "c2" : "SourceRecord(Map<String,?>;Map<String,?>;String;Integer;Schema;Object;Schema;Object)"
+ , "c2" : "SourceRecord(Map&lt;String,?&gt;;Map&lt;String,?&gt;;String;Integer;Schema;Object;Schema;Object)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00069"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#69"
  , "c1" : "SourceRecord"
- , "c2" : "SourceRecord(Map<String,?>;Map<String,?>;String;Integer;Schema;Object;Schema;Object;Long)"
+ , "c2" : "SourceRecord(Map&lt;String,?&gt;;Map&lt;String,?&gt;;String;Integer;Schema;Object;Schema;Object;Long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00077"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#77"
  , "c1" : "SourceRecord"
- , "c2" : "SourceRecord(Map<String,?>;Map<String,?>;String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>)"
+ , "c2" : "SourceRecord(Map&lt;String,?&gt;;Map&lt;String,?&gt;;String;Integer;Schema;Object;Schema;Object;Long;Iterable&lt;Header&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -74,7 +74,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00087"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#87"
- , "c1" : "Map<String,?>"
+ , "c1" : "Map&lt;String,?&gt;"
  , "c2" : "sourcePartition()"
  , "c3" : "1"
  , "c4" : "1"
@@ -83,7 +83,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00091"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#91"
- , "c1" : "Map<String,?>"
+ , "c1" : "Map&lt;String,?&gt;"
  , "c2" : "sourceOffset()"
  , "c3" : "1"
  , "c4" : "1"
@@ -102,7 +102,7 @@ var maDataBlocs = {
  , "c5" : "00101"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#101"
  , "c1" : "SourceRecord"
- , "c2" : "newRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>)"
+ , "c2" : "newRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable&lt;Header&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

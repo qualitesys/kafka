@@ -83,7 +83,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00119"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#119"
- , "c1" : "java.util.Iterator<ConvertedRecords<?>>"
+ , "c1" : "java.util.Iterator&lt;ConvertedRecords&lt;?&gt;&gt;"
  , "c2" : "iterator(long)"
  , "c3" : "1"
  , "c4" : "3"

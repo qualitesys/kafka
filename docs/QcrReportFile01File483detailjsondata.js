@@ -102,7 +102,7 @@ var maDataBlocs = {
  , "c5" : "00107"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/SampledStat.java.html#107"
  , "c1" : "double"
- , "c2" : "combine(List<Sample>;MetricConfig;long)"
+ , "c2" : "combine(List&lt;Sample&gt;;MetricConfig;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

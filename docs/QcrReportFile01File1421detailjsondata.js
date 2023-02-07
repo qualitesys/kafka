@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00041"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#41"
  , "c1" : "UnattachedState"
- , "c2" : "UnattachedState(Time;int;Set<Integer>;Optional<LogOffsetMetadata>;long;LogContext)"
+ , "c2" : "UnattachedState(Time;int;Set&lt;Integer&gt;;Optional&lt;LogOffsetMetadata&gt;;long;LogContext)"
  , "c3" : "1"
  , "c4" : "6"
 }} 
@@ -83,7 +83,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00092"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#92"
- , "c1" : "Optional<LogOffsetMetadata>"
+ , "c1" : "Optional&lt;LogOffsetMetadata&gt;"
  , "c2" : "highWatermark()"
  , "c3" : "1"
  , "c4" : "1"

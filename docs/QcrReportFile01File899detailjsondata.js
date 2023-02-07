@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00037"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#37"
  , "c1" : "boolean"
- , "c2" : "removeEldestEntry(Map.Entry<K,V>)"
+ , "c2" : "removeEldestEntry(Map.Entry&lt;K,V&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00054"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#54"
- , "c1" : "FixedOrderMap<K,V>"
+ , "c1" : "FixedOrderMap&lt;K,V&gt;"
  , "c2" : "clone()"
  , "c3" : "1"
  , "c4" : "1"

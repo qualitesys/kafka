@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00039"
  , "c5link" : "././qc/examples/src/main/java/kafka/examples/Consumer.java.html#39"
  , "c1" : "Consumer"
- , "c2" : "Consumer(String;String;Optional<String>;boolean;int;CountDownLatch)"
+ , "c2" : "Consumer(String;String;Optional&lt;String&gt;;boolean;int;CountDownLatch)"
  , "c3" : "2"
  , "c4" : "18"
 }} 
@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00068"
  , "c5link" : "././qc/examples/src/main/java/kafka/examples/Consumer.java.html#68"
- , "c1" : "KafkaConsumer<Integer,String>"
+ , "c1" : "KafkaConsumer&lt;Integer,String&gt;"
  , "c2" : "get()"
  , "c3" : "1"
  , "c4" : "1"

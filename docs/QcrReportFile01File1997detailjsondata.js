@@ -1,101 +1,38 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java 9 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/InternalQueryResultUtil.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/query/internals/InternalQueryResultUtil.java 2 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/InternalQueryResultUtil.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractQueryResult<R>QueryResult<R>"
- , "c2" : "org.apache.kafka.streams.query.internals.SucceededQueryResult"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.query.internals.InternalQueryResultUtil"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.query.internals.SucceededQueryResult" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.query.internals.InternalQueryResultUtil" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00038"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#38"
- , "c1" : "SucceededQueryResult"
- , "c2" : "SucceededQueryResult(R)"
+ , "c5" : "00029"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/InternalQueryResultUtil.java.html#29"
+ , "c1" : "InternalQueryResultUtil"
+ , "c2" : "InternalQueryResultUtil()"
  , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#45"
- , "c1" : "SucceededQueryResult"
- , "c2" : "SucceededQueryResult(R;List<String>;Position)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00056"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#56"
- , "c1" : "boolean"
- , "c2" : "isSuccess()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00065"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#65"
- , "c1" : "boolean"
- , "c2" : "isFailure()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00074"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#74"
- , "c1" : "FailureReason"
- , "c2" : "getFailureReason()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00085"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#85"
- , "c1" : "String"
- , "c2" : "getFailureMessage()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00099"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#99"
- , "c1" : "R"
- , "c2" : "getResult()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00104"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#104"
- , "c1" : "String"
- , "c2" : "toString()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "0"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/InternalQueryResultUtil.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/InternalQueryResultUtil.java.svg" }
 
 ] 
 , 
@@ -122,80 +59,38 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "9"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#57"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.isSuccess@POLYN154923 the MagicNumber/String  true should be converted to const"
+ , "c1" : "00036"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/InternalQueryResultUtil.java.html#36"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00036] The argument rawResult is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#66"
+ , "c1" : "00041"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/InternalQueryResultUtil.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.isFailure@POLYN155136 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#76"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.getFailureReason@POLYN155328 the MagicNumber/String  'Cannot get failure reason because this query did not fail.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#87"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.getFailureMessage@POLYN155561 the MagicNumber/String  'Cannot get failure message because this query did not fail.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#105"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.toString@POLYN156083 the MagicNumber/String  'SucceededQueryResult{' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#106"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.toString@POLYN156083 the MagicNumber/String  'result=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#107"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.toString@POLYN156083 the MagicNumber/String  ', executionInfo=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#108"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.toString@POLYN156083 the MagicNumber/String  ', position=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#109"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.toString@POLYN156083 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.query.internals.InternalQueryResultUtil the MagicNumber/String  'Callers must avoid calling this method on a failed result.' should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/InternalQueryResultUtil.java.fct.svg" 
 
 , 
 }

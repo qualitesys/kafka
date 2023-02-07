@@ -1,81 +1,45 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java 3 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java 3 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ReadOnlyKeyValueStore<K,V>"
- , "c2" : "org.apache.kafka.streams.state.internals.ReadOnlyKeyValueStoreFacade"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.state.internals.QueryableStoreProvider"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.state.internals.ReadOnlyKeyValueStoreFacade" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.QueryableStoreProvider" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html#29"
- , "c1" : "ReadOnlyKeyValueStoreFacade"
- , "c2" : "ReadOnlyKeyValueStoreFacade(TimestampedKeyValueStore<K,V>)"
+ , "c5" : "00038"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#38"
+ , "c1" : "QueryableStoreProvider"
+ , "c2" : "QueryableStoreProvider(GlobalStateStoreProvider)"
  , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html#34"
- , "c1" : "V"
- , "c2" : "get(K)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html#39"
- , "c1" : "KeyValueIterator<K,V>"
- , "c2" : "range(K;K)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html#45"
- , "c1" : "KeyValueIterator<K,V>"
- , "c2" : "reverseRange(K;K)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00057"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html#57"
- , "c1" : "KeyValueIterator<K,V>"
- , "c2" : "all()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00062"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html#62"
- , "c1" : "KeyValueIterator<K,V>"
- , "c2" : "reverseAll()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00067"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html#67"
- , "c1" : "long"
- , "c2" : "approximateNumEntries()"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#67"
+ , "c1" : "void"
+ , "c2" : "addStoreProviderForThread(String;StreamThreadStateStoreProvider)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00071"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#71"
+ , "c1" : "void"
+ , "c2" : "removeStoreProviderForThread(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -84,9 +48,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.svg" }
 
 ] 
 , 
@@ -113,38 +77,45 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "3"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html#34"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method get arguments K  key"
+ , "c1" : "00054"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#54"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00054] The argument storeQueryParameters is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00039"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html#39"
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00039] For method range arguments K  from|K  to"
+ , "c3" : "QC-JAV000006[00067] For method addStoreProviderForThread arguments String  threadName|StreamThreadStateStoreProvider  streamThreadStateStoreProvider"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.html#45"
+ , "c1" : "00071"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method reverseRange arguments K  from|K  to"
+ , "c3" : "QC-JAV000006[00071] For method removeStoreProviderForThread arguments String  threadName"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ReadOnlyKeyValueStoreFacade.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/QueryableStoreProvider.java.fct.svg" 
 
 , 
 }

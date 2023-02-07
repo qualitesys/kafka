@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00192"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#192"
  , "c1" : "boolean"
- , "c2" : "completeExceptionally(RuntimeException;Function<Integer,RuntimeException>)"
+ , "c2" : "completeExceptionally(RuntimeException;Function&lt;Integer,RuntimeException&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -93,7 +93,7 @@ var maDataBlocs = {
  , "c5" : "00220"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#220"
  , "c1" : "boolean"
- , "c2" : "done(long;long;RuntimeException;Function<Integer,RuntimeException>)"
+ , "c2" : "done(long;long;RuntimeException;Function&lt;Integer,RuntimeException&gt;)"
  , "c3" : "8"
  , "c4" : "9"
 }} 
@@ -102,7 +102,7 @@ var maDataBlocs = {
  , "c5" : "00255"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#255"
  , "c1" : "void"
- , "c2" : "completeFutureAndFireCallbacks(long;long;Function<Integer,RuntimeException>)"
+ , "c2" : "completeFutureAndFireCallbacks(long;long;Function&lt;Integer,RuntimeException&gt;)"
  , "c3" : "5"
  , "c4" : "10"
 }} 
@@ -110,7 +110,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00284"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#284"
- , "c1" : "Deque<ProducerBatch>"
+ , "c1" : "Deque&lt;ProducerBatch&gt;"
  , "c2" : "split(int)"
  , "c3" : "10"
  , "c4" : "25"

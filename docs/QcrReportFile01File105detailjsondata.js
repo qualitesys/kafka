@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java 950 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java 970 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.xml" 
  , "fic3"  : "" 
 }
@@ -147,7 +147,7 @@ var maDataBlocs = {
  , "c5" : "01564"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1564"
  , "c1" : "CreateTopicsResult"
- , "c2" : "createTopics(Collection<NewTopic>;CreateTopicsOptions)"
+ , "c2" : "createTopics(Collection&lt;NewTopic&gt;;CreateTopicsOptions)"
  , "c3" : "6"
  , "c4" : "12"
 }} 
@@ -156,7 +156,7 @@ var maDataBlocs = {
  , "c5" : "01589"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1589"
  , "c1" : "Call"
- , "c2" : "getCreateTopicsCall(CreateTopicsOptions;Map<String,KafkaFutureImpl<TopicMetadataAndConfig>>;CreatableTopicCollection;Map<String,ThrottlingQuotaExceededException>;long;long)"
+ , "c2" : "getCreateTopicsCall(CreateTopicsOptions;Map&lt;String,KafkaFutureImpl&lt;TopicMetadataAndConfig&gt;&gt;;CreatableTopicCollection;Map&lt;String,ThrottlingQuotaExceededException&gt;;long;long)"
  , "c3" : "16"
  , "c4" : "28"
 }} 
@@ -173,8 +173,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01701"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1701"
- , "c1" : "Map<String,KafkaFuture<Void>>"
- , "c2" : "handleDeleteTopicsUsingNames(Collection<String>;DeleteTopicsOptions)"
+ , "c1" : "Map&lt;String,KafkaFuture&lt;Void&gt;&gt;"
+ , "c2" : "handleDeleteTopicsUsingNames(Collection&lt;String&gt;;DeleteTopicsOptions)"
  , "c3" : "6"
  , "c4" : "12"
 }} 
@@ -182,8 +182,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01726"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1726"
- , "c1" : "Map<Uuid,KafkaFuture<Void>>"
- , "c2" : "handleDeleteTopicsUsingIds(Collection<Uuid>;DeleteTopicsOptions)"
+ , "c1" : "Map&lt;Uuid,KafkaFuture&lt;Void&gt;&gt;"
+ , "c2" : "handleDeleteTopicsUsingIds(Collection&lt;Uuid&gt;;DeleteTopicsOptions)"
  , "c3" : "6"
  , "c4" : "12"
 }} 
@@ -192,7 +192,7 @@ var maDataBlocs = {
  , "c5" : "01751"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1751"
  , "c1" : "Call"
- , "c2" : "getDeleteTopicsCall(DeleteTopicsOptions;Map<String,KafkaFutureImpl<Void>>;List<String>;Map<String,ThrottlingQuotaExceededException>;long;long)"
+ , "c2" : "getDeleteTopicsCall(DeleteTopicsOptions;Map&lt;String,KafkaFutureImpl&lt;Void&gt;&gt;;List&lt;String&gt;;Map&lt;String,ThrottlingQuotaExceededException&gt;;long;long)"
  , "c3" : "12"
  , "c4" : "21"
 }} 
@@ -201,7 +201,7 @@ var maDataBlocs = {
  , "c5" : "01823"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1823"
  , "c1" : "Call"
- , "c2" : "getDeleteTopicsWithIdsCall(DeleteTopicsOptions;Map<Uuid,KafkaFutureImpl<Void>>;List<Uuid>;Map<Uuid,ThrottlingQuotaExceededException>;long;long)"
+ , "c2" : "getDeleteTopicsWithIdsCall(DeleteTopicsOptions;Map&lt;Uuid,KafkaFutureImpl&lt;Void&gt;&gt;;List&lt;Uuid&gt;;Map&lt;Uuid,ThrottlingQuotaExceededException&gt;;long;long)"
  , "c3" : "12"
  , "c4" : "21"
 }} 
@@ -227,8 +227,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01939"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1939"
- , "c1" : "Map<String,KafkaFuture<TopicDescription>>"
- , "c2" : "handleDescribeTopicsByNames(Collection<String>;DescribeTopicsOptions)"
+ , "c1" : "Map&lt;String,KafkaFuture&lt;TopicDescription&gt;&gt;"
+ , "c2" : "handleDescribeTopicsByNames(Collection&lt;String&gt;;DescribeTopicsOptions)"
  , "c3" : "12"
  , "c4" : "32"
 }} 
@@ -236,8 +236,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02015"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2015"
- , "c1" : "Map<Uuid,KafkaFuture<TopicDescription>>"
- , "c2" : "handleDescribeTopicsByIds(Collection<Uuid>;DescribeTopicsOptions)"
+ , "c1" : "Map&lt;Uuid,KafkaFuture&lt;TopicDescription&gt;&gt;"
+ , "c2" : "handleDescribeTopicsByIds(Collection&lt;Uuid&gt;;DescribeTopicsOptions)"
  , "c3" : "9"
  , "c4" : "27"
 }} 
@@ -282,7 +282,7 @@ var maDataBlocs = {
  , "c5" : "02226"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2226"
  , "c1" : "CreateAclsResult"
- , "c2" : "createAcls(Collection<AclBinding>;CreateAclsOptions)"
+ , "c2" : "createAcls(Collection&lt;AclBinding&gt;;CreateAclsOptions)"
  , "c3" : "10"
  , "c4" : "25"
 }} 
@@ -291,7 +291,7 @@ var maDataBlocs = {
  , "c5" : "02285"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2285"
  , "c1" : "DeleteAclsResult"
- , "c2" : "deleteAcls(Collection<AclBindingFilter>;DeleteAclsOptions)"
+ , "c2" : "deleteAcls(Collection&lt;AclBindingFilter&gt;;DeleteAclsOptions)"
  , "c3" : "9"
  , "c4" : "25"
 }} 
@@ -300,7 +300,7 @@ var maDataBlocs = {
  , "c5" : "02344"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2344"
  , "c1" : "DescribeConfigsResult"
- , "c2" : "describeConfigs(Collection<ConfigResource>;DescribeConfigsOptions)"
+ , "c2" : "describeConfigs(Collection&lt;ConfigResource&gt;;DescribeConfigsOptions)"
  , "c3" : "11"
  , "c4" : "22"
 }} 
@@ -327,7 +327,7 @@ var maDataBlocs = {
  , "c5" : "02466"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2466"
  , "c1" : "AlterConfigsResult"
- , "c2" : "alterConfigs(Map<ConfigResource,Config>;AlterConfigsOptions)"
+ , "c2" : "alterConfigs(Map&lt;ConfigResource,Config&gt;;AlterConfigsOptions)"
  , "c3" : "5"
  , "c4" : "8"
 }} 
@@ -335,8 +335,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02486"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2486"
- , "c1" : "Map<ConfigResource,KafkaFutureImpl<Void>>"
- , "c2" : "alterConfigs(Map<ConfigResource,Config>;AlterConfigsOptions;Collection<ConfigResource>;NodeProvider)"
+ , "c1" : "Map&lt;ConfigResource,KafkaFutureImpl&lt;Void&gt;&gt;"
+ , "c2" : "alterConfigs(Map&lt;ConfigResource,Config&gt;;AlterConfigsOptions;Collection&lt;ConfigResource&gt;;NodeProvider)"
  , "c3" : "6"
  , "c4" : "16"
 }} 
@@ -345,7 +345,7 @@ var maDataBlocs = {
  , "c5" : "02531"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2531"
  , "c1" : "AlterConfigsResult"
- , "c2" : "incrementalAlterConfigs(Map<ConfigResource,Collection<AlterConfigOp>>;AlterConfigsOptions)"
+ , "c2" : "incrementalAlterConfigs(Map&lt;ConfigResource,Collection&lt;AlterConfigOp&gt;&gt;;AlterConfigsOptions)"
  , "c3" : "5"
  , "c4" : "8"
 }} 
@@ -353,8 +353,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02553"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2553"
- , "c1" : "Map<ConfigResource,KafkaFutureImpl<Void>>"
- , "c2" : "incrementalAlterConfigs(Map<ConfigResource,Collection<AlterConfigOp>>;AlterConfigsOptions;Collection<ConfigResource>;NodeProvider)"
+ , "c1" : "Map&lt;ConfigResource,KafkaFutureImpl&lt;Void&gt;&gt;"
+ , "c2" : "incrementalAlterConfigs(Map&lt;ConfigResource,Collection&lt;AlterConfigOp&gt;&gt;;AlterConfigsOptions;Collection&lt;ConfigResource&gt;;NodeProvider)"
  , "c3" : "5"
  , "c4" : "13"
 }} 
@@ -363,7 +363,7 @@ var maDataBlocs = {
  , "c5" : "02593"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2593"
  , "c1" : "AlterReplicaLogDirsResult"
- , "c2" : "alterReplicaLogDirs(Map<TopicPartitionReplica,String>;AlterReplicaLogDirsOptions)"
+ , "c2" : "alterReplicaLogDirs(Map&lt;TopicPartitionReplica,String&gt;;AlterReplicaLogDirsOptions)"
  , "c3" : "12"
  , "c4" : "29"
 }} 
@@ -372,7 +372,7 @@ var maDataBlocs = {
  , "c5" : "02674"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2674"
  , "c1" : "DescribeLogDirsResult"
- , "c2" : "describeLogDirs(Collection<Integer>;DescribeLogDirsOptions)"
+ , "c2" : "describeLogDirs(Collection&lt;Integer&gt;;DescribeLogDirsOptions)"
  , "c3" : "4"
  , "c4" : "13"
 }} 
@@ -380,7 +380,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02715"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2715"
- , "c1" : "Map<String,LogDirDescription>"
+ , "c1" : "Map&lt;String,LogDirDescription&gt;"
  , "c2" : "logDirDescriptions(DescribeLogDirsResponse)"
  , "c3" : "4"
  , "c4" : "5"
@@ -390,7 +390,7 @@ var maDataBlocs = {
  , "c5" : "02736"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2736"
  , "c1" : "DescribeReplicaLogDirsResult"
- , "c2" : "describeReplicaLogDirs(Collection<TopicPartitionReplica>;DescribeReplicaLogDirsOptions)"
+ , "c2" : "describeReplicaLogDirs(Collection&lt;TopicPartitionReplica&gt;;DescribeReplicaLogDirsOptions)"
  , "c3" : "17"
  , "c4" : "33"
 }} 
@@ -399,7 +399,7 @@ var maDataBlocs = {
  , "c5" : "02831"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2831"
  , "c1" : "CreatePartitionsResult"
- , "c2" : "createPartitions(Map<String,NewPartitions>;CreatePartitionsOptions)"
+ , "c2" : "createPartitions(Map&lt;String,NewPartitions&gt;;CreatePartitionsOptions)"
  , "c3" : "3"
  , "c4" : "13"
 }} 
@@ -408,7 +408,7 @@ var maDataBlocs = {
  , "c5" : "02859"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2859"
  , "c1" : "Call"
- , "c2" : "getCreatePartitionsCall(CreatePartitionsOptions;Map<String,KafkaFutureImpl<Void>>;CreatePartitionsTopicCollection;Map<String,ThrottlingQuotaExceededException>;long;long)"
+ , "c2" : "getCreatePartitionsCall(CreatePartitionsOptions;Map&lt;String,KafkaFutureImpl&lt;Void&gt;&gt;;CreatePartitionsTopicCollection;Map&lt;String,ThrottlingQuotaExceededException&gt;;long;long)"
  , "c3" : "12"
  , "c4" : "21"
 }} 
@@ -417,7 +417,7 @@ var maDataBlocs = {
  , "c5" : "02933"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2933"
  , "c1" : "DeleteRecordsResult"
- , "c2" : "deleteRecords(Map<TopicPartition,RecordsToDelete>;DeleteRecordsOptions)"
+ , "c2" : "deleteRecords(Map&lt;TopicPartition,RecordsToDelete&gt;;DeleteRecordsOptions)"
  , "c3" : "14"
  , "c4" : "36"
 }} 
@@ -462,7 +462,7 @@ var maDataBlocs = {
  , "c5" : "03202"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3202"
  , "c1" : "void"
- , "c2" : "rescheduleMetadataTask(MetadataOperationContext<?,?>;Supplier<List<Call>>)"
+ , "c2" : "rescheduleMetadataTask(MetadataOperationContext&lt;?,?&gt;;Supplier&lt;List&lt;Call&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -471,7 +471,7 @@ var maDataBlocs = {
  , "c5" : "03211"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3211"
  , "c1" : "DescribeConsumerGroupsResult"
- , "c2" : "describeConsumerGroups(Collection<String>;DescribeConsumerGroupsOptions)"
+ , "c2" : "describeConsumerGroups(Collection&lt;String&gt;;DescribeConsumerGroupsOptions)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -479,7 +479,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "03261"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3261"
- , "c1" : "Set<AclOperation>"
+ , "c1" : "Set&lt;AclOperation&gt;"
  , "c2" : "validAclOperations(int)"
  , "c3" : "2"
  , "c4" : "2"
@@ -507,7 +507,7 @@ var maDataBlocs = {
  , "c5" : "03413"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3413"
  , "c1" : "DeleteConsumerGroupsResult"
- , "c2" : "deleteConsumerGroups(Collection<String>;DeleteConsumerGroupsOptions)"
+ , "c2" : "deleteConsumerGroups(Collection&lt;String&gt;;DeleteConsumerGroupsOptions)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -516,7 +516,7 @@ var maDataBlocs = {
  , "c5" : "03423"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3423"
  , "c1" : "DeleteConsumerGroupOffsetsResult"
- , "c2" : "deleteConsumerGroupOffsets(String;Set<TopicPartition>;DeleteConsumerGroupOffsetsOptions)"
+ , "c2" : "deleteConsumerGroupOffsets(String;Set&lt;TopicPartition&gt;;DeleteConsumerGroupOffsetsOptions)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -524,7 +524,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "03435"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3435"
- , "c1" : "Map<MetricName,?extendsMetric>"
+ , "c1" : "Map&lt;MetricName,?extendsMetric&gt;"
  , "c2" : "metrics()"
  , "c3" : "1"
  , "c4" : "1"
@@ -534,7 +534,7 @@ var maDataBlocs = {
  , "c5" : "03440"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3440"
  , "c1" : "ElectLeadersResult"
- , "c2" : "electLeaders(ElectionType;Set<TopicPartition>;ElectLeadersOptions)"
+ , "c2" : "electLeaders(ElectionType;Set&lt;TopicPartition&gt;;ElectLeadersOptions)"
  , "c3" : "2"
  , "c4" : "12"
 }} 
@@ -543,7 +543,7 @@ var maDataBlocs = {
  , "c5" : "03479"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3479"
  , "c1" : "AlterPartitionReassignmentsResult"
- , "c2" : "alterPartitionReassignments(Map<TopicPartition,Optional<NewPartitionReassignment>>;AlterPartitionReassignmentsOptions)"
+ , "c2" : "alterPartitionReassignments(Map&lt;TopicPartition,Optional&lt;NewPartitionReassignment&gt;&gt;;AlterPartitionReassignmentsOptions)"
  , "c3" : "23"
  , "c4" : "58"
 }} 
@@ -552,7 +552,7 @@ var maDataBlocs = {
  , "c5" : "03627"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3627"
  , "c1" : "ListPartitionReassignmentsResult"
- , "c2" : "listPartitionReassignments(Optional<Set<TopicPartition>>;ListPartitionReassignmentsOptions)"
+ , "c2" : "listPartitionReassignments(Optional&lt;Set&lt;TopicPartition&gt;&gt;;ListPartitionReassignmentsOptions)"
  , "c3" : "14"
  , "c4" : "28"
 }} 
@@ -587,7 +587,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "03732"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3732"
- , "c1" : "List<MemberIdentity>"
+ , "c1" : "List&lt;MemberIdentity&gt;"
  , "c2" : "getMembersFromGroup(String;String)"
  , "c3" : "4"
  , "c4" : "9"
@@ -606,7 +606,7 @@ var maDataBlocs = {
  , "c5" : "03778"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3778"
  , "c1" : "AlterConsumerGroupOffsetsResult"
- , "c2" : "alterConsumerGroupOffsets(String;Map<TopicPartition,OffsetAndMetadata>;AlterConsumerGroupOffsetsOptions)"
+ , "c2" : "alterConsumerGroupOffsets(String;Map&lt;TopicPartition,OffsetAndMetadata&gt;;AlterConsumerGroupOffsetsOptions)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -615,7 +615,7 @@ var maDataBlocs = {
  , "c5" : "03791"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3791"
  , "c1" : "ListOffsetsResult"
- , "c2" : "listOffsets(Map<TopicPartition,OffsetSpec>;ListOffsetsOptions)"
+ , "c2" : "listOffsets(Map&lt;TopicPartition,OffsetSpec&gt;;ListOffsetsOptions)"
  , "c3" : "2"
  , "c4" : "10"
 }} 
@@ -623,8 +623,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "03816"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3816"
- , "c1" : "List<Call>"
- , "c2" : "getListOffsetsCalls(MetadataOperationContext<ListOffsetsResultInfo,ListOffsetsOptions>;Map<TopicPartition,OffsetSpec>;Map<TopicPartition,KafkaFutureImpl<ListOffsetsResultInfo>>)"
+ , "c1" : "List&lt;Call&gt;"
+ , "c2" : "getListOffsetsCalls(MetadataOperationContext&lt;ListOffsetsResultInfo,ListOffsetsOptions&gt;;Map&lt;TopicPartition,OffsetSpec&gt;;Map&lt;TopicPartition,KafkaFutureImpl&lt;ListOffsetsResultInfo&gt;&gt;)"
  , "c3" : "26"
  , "c4" : "50"
 }} 
@@ -642,7 +642,7 @@ var maDataBlocs = {
  , "c5" : "03982"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3982"
  , "c1" : "AlterClientQuotasResult"
- , "c2" : "alterClientQuotas(Collection<ClientQuotaAlteration>;AlterClientQuotasOptions)"
+ , "c2" : "alterClientQuotas(Collection&lt;ClientQuotaAlteration&gt;;AlterClientQuotasOptions)"
  , "c3" : "2"
  , "c4" : "9"
 }} 
@@ -651,7 +651,7 @@ var maDataBlocs = {
  , "c5" : "04013"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4013"
  , "c1" : "DescribeUserScramCredentialsResult"
- , "c2" : "describeUserScramCredentials(List<String>;DescribeUserScramCredentialsOptions)"
+ , "c2" : "describeUserScramCredentials(List&lt;String&gt;;DescribeUserScramCredentialsOptions)"
  , "c3" : "6"
  , "c4" : "16"
 }} 
@@ -660,7 +660,7 @@ var maDataBlocs = {
  , "c5" : "04059"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4059"
  , "c1" : "AlterUserScramCredentialsResult"
- , "c2" : "alterUserScramCredentials(List<UserScramCredentialAlteration>;AlterUserScramCredentialsOptions)"
+ , "c2" : "alterUserScramCredentials(List&lt;UserScramCredentialAlteration&gt;;AlterUserScramCredentialsOptions)"
  , "c3" : "17"
  , "c4" : "42"
 }} 
@@ -705,7 +705,7 @@ var maDataBlocs = {
  , "c5" : "04254"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4254"
  , "c1" : "UpdateFeaturesResult"
- , "c2" : "updateFeatures(Map<String,FeatureUpdate>;UpdateFeaturesOptions)"
+ , "c2" : "updateFeatures(Map&lt;String,FeatureUpdate&gt;;UpdateFeaturesOptions)"
  , "c3" : "13"
  , "c4" : "32"
 }} 
@@ -732,7 +732,7 @@ var maDataBlocs = {
  , "c5" : "04461"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4461"
  , "c1" : "DescribeProducersResult"
- , "c2" : "describeProducers(Collection<TopicPartition>;DescribeProducersOptions)"
+ , "c2" : "describeProducers(Collection&lt;TopicPartition&gt;;DescribeProducersOptions)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -741,7 +741,7 @@ var maDataBlocs = {
  , "c5" : "04470"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4470"
  , "c1" : "DescribeTransactionsResult"
- , "c2" : "describeTransactions(Collection<String>;DescribeTransactionsOptions)"
+ , "c2" : "describeTransactions(Collection&lt;String&gt;;DescribeTransactionsOptions)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -768,7 +768,7 @@ var maDataBlocs = {
  , "c5" : "04497"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4497"
  , "c1" : "FenceProducersResult"
- , "c2" : "fenceProducers(Collection<String>;FenceProducersOptions)"
+ , "c2" : "fenceProducers(Collection&lt;String&gt;;FenceProducersOptions)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -828,7 +828,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "94"
+ , "c4" : "112"
 }}
 ,
 { "ligne" : { "" : ""
@@ -842,7 +842,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "20"
+ , "c4" : "22"
 }}
 ,
 { "ligne" : { "" : ""
@@ -6822,6 +6822,20 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.generateClientId@POLYN975801"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN977430"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.configureDefaultApiTimeoutMs@POLYN985760"
 }} 
 ,
@@ -7320,6 +7334,132 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1117"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[01117] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCall@POLYN1004069 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00450"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#450"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00450] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.generateClientId@POLYN975801 the MagicNumber/String 'adminclient-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00489"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#489"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00489] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN977430 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00490"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#490"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00490] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN977430 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00493"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#493"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00493] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN977430 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00494"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#494"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00494] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN977430 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00511"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#511"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00511] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN977430 the MagicNumber/String 'client-id' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00522"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#522"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00522] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN977430 the MagicNumber/String 'admin-client' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00528"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#528"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00528] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN977430 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00531"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#531"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00531] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN977430 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00536"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#536"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00536] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN977430 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00540"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#540"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00540] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN977430 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00542"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#542"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00542] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN977430 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00544"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#544"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00544] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN977430 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00548"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#548"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00548] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN977430 the MagicNumber/String 'Metrics' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00549"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#549"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00549] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN977430 the MagicNumber/String 'NetworkClient' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00550"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#550"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00550] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN977430 the MagicNumber/String 'Selector' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00551"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#551"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00551] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN977430 the MagicNumber/String 'ChannelBuilder' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00552"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#552"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00552] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.createInternal@POLYN977430 the MagicNumber/String 'Failed to create new KafkaAdminClient' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

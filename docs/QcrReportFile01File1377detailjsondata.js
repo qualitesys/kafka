@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00062"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#62"
  , "c1" : "SnapshotFileReader"
- , "c2" : "SnapshotFileReader(String;RaftClient.Listener<ApiMessageAndVersion>)"
+ , "c2" : "SnapshotFileReader(String;RaftClient.Listener&lt;ApiMessageAndVersion&gt;)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -92,7 +92,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00201"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#201"
- , "c1" : "CompletableFuture<Void>"
+ , "c1" : "CompletableFuture&lt;Void&gt;"
  , "c2" : "caughtUpFuture()"
  , "c3" : "1"
  , "c4" : "1"

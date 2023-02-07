@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java 26 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java 27 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.xml" 
  , "fic3"  : "" 
 }
@@ -65,7 +65,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00079"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#79"
- , "c1" : "Map<Errors,Integer>"
+ , "c1" : "Map&lt;Errors,Integer&gt;"
  , "c2" : "errorCounts()"
  , "c3" : "1"
  , "c4" : "1"
@@ -74,7 +74,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00083"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#83"
- , "c1" : "List<DescribeAclsResource>"
+ , "c1" : "List&lt;DescribeAclsResource&gt;"
  , "c2" : "acls()"
  , "c3" : "1"
  , "c4" : "1"
@@ -102,7 +102,7 @@ var maDataBlocs = {
  , "c5" : "00096"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#96"
  , "c1" : "void"
- , "c2" : "validate(Optional<Short>)"
+ , "c2" : "validate(Optional&lt;Short&gt;)"
  , "c3" : "7"
  , "c4" : "4"
 }} 
@@ -110,7 +110,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00116"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#116"
- , "c1" : "Stream<AclBinding>"
+ , "c1" : "Stream&lt;AclBinding&gt;"
  , "c2" : "aclBindings(DescribeAclsResource)"
  , "c3" : "1"
  , "c4" : "4"
@@ -119,8 +119,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00131"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#131"
- , "c1" : "List<AclBinding>"
- , "c2" : "aclBindings(List<DescribeAclsResource>)"
+ , "c1" : "List&lt;AclBinding&gt;"
+ , "c2" : "aclBindings(List&lt;DescribeAclsResource&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -128,8 +128,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00135"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#135"
- , "c1" : "List<DescribeAclsResource>"
- , "c2" : "aclsResources(Collection<AclBinding>)"
+ , "c1" : "List&lt;DescribeAclsResource&gt;"
+ , "c2" : "aclsResources(Collection&lt;AclBinding&gt;)"
  , "c3" : "4"
  , "c4" : "10"
 }} 
@@ -186,7 +186,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -385,6 +385,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeAclsResponse.acls@POLYN170201"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeAclsResponse.aclsResources@POLYN173291"
 }} 
 ,
 { "ligne" : {"" : ""

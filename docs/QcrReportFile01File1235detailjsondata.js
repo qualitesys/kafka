@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00029"
  , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SimpleConfig.java.html#29"
  , "c1" : "SimpleConfig"
- , "c2" : "SimpleConfig(ConfigDef;Map<?,?>)"
+ , "c2" : "SimpleConfig(ConfigDef;Map&lt;?,?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

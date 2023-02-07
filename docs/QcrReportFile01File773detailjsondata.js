@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00038"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#38"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>;String;List<AppConfigurationEntry>)"
+ , "c2" : "configure(Map&lt;String,?&gt;;String;List&lt;AppConfigurationEntry&gt;)"
  , "c3" : "2"
  , "c4" : "1"
 }} 

@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00081"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterReplicaLogDirsRequest.java.html#81"
- , "c1" : "Map<TopicPartition,String>"
+ , "c1" : "Map&lt;TopicPartition,String&gt;"
  , "c2" : "partitionDirs()"
  , "c3" : "1"
  , "c4" : "3"

@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00040"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenOptions.java.html#40"
  , "c1" : "DescribeDelegationTokenOptions"
- , "c2" : "owners(List<KafkaPrincipal>)"
+ , "c2" : "owners(List&lt;KafkaPrincipal&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00045"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenOptions.java.html#45"
- , "c1" : "List<KafkaPrincipal>"
+ , "c1" : "List&lt;KafkaPrincipal&gt;"
  , "c2" : "owners()"
  , "c3" : "1"
  , "c4" : "1"

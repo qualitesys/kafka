@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00098"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#98"
  , "c1" : "void"
- , "c2" : "ensureProperty(Map<String,?superString>;String;String;String;boolean)"
+ , "c2" : "ensureProperty(Map&lt;String,?superString&gt;;String;String;String;boolean)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -56,8 +56,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00118"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#118"
- , "c1" : "Optional<String>"
- , "c2" : "ensurePropertyAndGetWarning(Map<String,?superString>;String;String;String;boolean)"
+ , "c1" : "Optional&lt;String&gt;"
+ , "c2" : "ensurePropertyAndGetWarning(Map&lt;String,?superString&gt;;String;String;String;boolean)"
  , "c3" : "3"
  , "c4" : "8"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00149"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#149"
  , "c1" : "void"
- , "c2" : "addMetricsContextProperties(Map<String,Object>;WorkerConfig;String)"
+ , "c2" : "addMetricsContextProperties(Map&lt;String,Object&gt;;WorkerConfig;String)"
  , "c3" : "2"
  , "c4" : "4"
 }} 

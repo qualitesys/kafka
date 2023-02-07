@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00064"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#64"
  , "c1" : "ConfigEntry"
- , "c2" : "ConfigEntry(String;String;ConfigSource;boolean;boolean;List<ConfigSynonym>;ConfigType;String)"
+ , "c2" : "ConfigEntry(String;String;ConfigSource;boolean;boolean;List&lt;ConfigSynonym&gt;;ConfigType;String)"
  , "c3" : "1"
  , "c4" : "9"
 }} 
@@ -92,7 +92,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00131"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#131"
- , "c1" : "List<ConfigSynonym>"
+ , "c1" : "List&lt;ConfigSynonym&gt;"
  , "c2" : "synonyms()"
  , "c3" : "1"
  , "c4" : "1"

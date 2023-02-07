@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00091"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#91"
  , "c1" : "AdminApiDriver"
- , "c2" : "AdminApiDriver(AdminApiHandler<K,V>;AdminApiFuture<K,V>;long;long;LogContext)"
+ , "c2" : "AdminApiDriver(AdminApiHandler&lt;K,V&gt;;AdminApiFuture&lt;K,V&gt;;long;long;LogContext)"
  , "c3" : "1"
  , "c4" : "6"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00133"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#133"
  , "c1" : "void"
- , "c2" : "clear(Collection<K>)"
+ , "c2" : "clear(Collection&lt;K&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00152"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#152"
  , "c1" : "void"
- , "c2" : "completeExceptionally(Map<K,Throwable>)"
+ , "c2" : "completeExceptionally(Map&lt;K,Throwable&gt;)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00159"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#159"
  , "c1" : "void"
- , "c2" : "completeLookupExceptionally(Map<K,Throwable>)"
+ , "c2" : "completeLookupExceptionally(Map&lt;K,Throwable&gt;)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00166"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#166"
  , "c1" : "void"
- , "c2" : "retryLookup(Collection<K>)"
+ , "c2" : "retryLookup(Collection&lt;K&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -93,7 +93,7 @@ var maDataBlocs = {
  , "c5" : "00174"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#174"
  , "c1" : "void"
- , "c2" : "complete(Map<K,V>)"
+ , "c2" : "complete(Map&lt;K,V&gt;)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -102,7 +102,7 @@ var maDataBlocs = {
  , "c5" : "00181"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#181"
  , "c1" : "void"
- , "c2" : "completeLookup(Map<K,Integer>)"
+ , "c2" : "completeLookup(Map&lt;K,Integer&gt;)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -110,7 +110,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00196"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#196"
- , "c1" : "List<RequestSpec<K>>"
+ , "c1" : "List&lt;RequestSpec&lt;K&gt;&gt;"
  , "c2" : "poll()"
  , "c3" : "1"
  , "c4" : "4"
@@ -120,7 +120,7 @@ var maDataBlocs = {
  , "c5" : "00206"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#206"
  , "c1" : "void"
- , "c2" : "onResponse(long;RequestSpec<K>;AbstractResponse;Node)"
+ , "c2" : "onResponse(long;RequestSpec&lt;K&gt;;AbstractResponse;Node)"
  , "c3" : "3"
  , "c4" : "9"
 }} 
@@ -129,7 +129,7 @@ var maDataBlocs = {
  , "c5" : "00238"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#238"
  , "c1" : "void"
- , "c2" : "onFailure(long;RequestSpec<K>;Throwable)"
+ , "c2" : "onFailure(long;RequestSpec&lt;K&gt;;Throwable)"
  , "c3" : "7"
  , "c4" : "10"
 }} 
@@ -138,7 +138,7 @@ var maDataBlocs = {
  , "c5" : "00276"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#276"
  , "c1" : "void"
- , "c2" : "clearInflightRequest(long;RequestSpec<K>)"
+ , "c2" : "clearInflightRequest(long;RequestSpec&lt;K&gt;)"
  , "c3" : "4"
  , "c4" : "3"
 }} 
@@ -147,7 +147,7 @@ var maDataBlocs = {
  , "c5" : "00332"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#332"
  , "c1" : "void"
- , "c2" : "collectLookupRequests(List<RequestSpec<K>>)"
+ , "c2" : "collectLookupRequests(List&lt;RequestSpec&lt;K&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -156,7 +156,7 @@ var maDataBlocs = {
  , "c5" : "00340"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#340"
  , "c1" : "void"
- , "c2" : "collectFulfillmentRequests(List<RequestSpec<K>>)"
+ , "c2" : "collectFulfillmentRequests(List&lt;RequestSpec&lt;K&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

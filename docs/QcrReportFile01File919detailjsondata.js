@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00073"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/Time.java.html#73"
  , "c1" : "void"
- , "c2" : "waitObject(Object;Supplier<Boolean>;long)"
+ , "c2" : "waitObject(Object;Supplier&lt;Boolean&gt;;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

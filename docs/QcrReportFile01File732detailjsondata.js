@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00099"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesRequest.java.html#99"
- , "c1" : "Collection<FeatureUpdateItem>"
+ , "c1" : "Collection&lt;FeatureUpdateItem&gt;"
  , "c2" : "featureUpdates()"
  , "c3" : "1"
  , "c4" : "1"

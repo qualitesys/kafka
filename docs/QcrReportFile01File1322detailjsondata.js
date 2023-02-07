@@ -20,7 +20,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00270"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#270"
- , "c1" : "Map<String,String>"
+ , "c1" : "Map&lt;String,String&gt;"
  , "c2" : "translateCreationConfigs(CreateableTopicConfigCollection)"
  , "c3" : "1"
  , "c4" : "3"
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00373"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#373"
  , "c1" : "ReplicationControlManager"
- , "c2" : "ReplicationControlManager(SnapshotRegistry;LogContext;short;int;int;ConfigurationControlManager;ClusterControlManager;ControllerMetrics;Optional<CreateTopicPolicy>;FeatureControlManager)"
+ , "c2" : "ReplicationControlManager(SnapshotRegistry;LogContext;short;int;int;ConfigurationControlManager;ClusterControlManager;ControllerMetrics;Optional&lt;CreateTopicPolicy&gt;;FeatureControlManager)"
  , "c3" : "1"
  , "c4" : "17"
 }} 
@@ -83,8 +83,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00561"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#561"
- , "c1" : "ControllerResult<CreateTopicsResponseData>"
- , "c2" : "createTopics(CreateTopicsRequestData;Set<String>)"
+ , "c1" : "ControllerResult&lt;CreateTopicsResponseData&gt;"
+ , "c2" : "createTopics(CreateTopicsRequestData;Set&lt;String&gt;)"
  , "c3" : "10"
  , "c4" : "30"
 }} 
@@ -93,7 +93,7 @@ var maDataBlocs = {
  , "c5" : "00632"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#632"
  , "c1" : "ApiError"
- , "c2" : "createTopic(CreatableTopic;List<ApiMessageAndVersion>;Map<String,CreatableTopicResult>;boolean)"
+ , "c2" : "createTopic(CreatableTopic;List&lt;ApiMessageAndVersion&gt;;Map&lt;String,CreatableTopicResult&gt;;boolean)"
  , "c3" : "20"
  , "c4" : "47"
 }} 
@@ -102,7 +102,7 @@ var maDataBlocs = {
  , "c5" : "00764"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#764"
  , "c1" : "ApiError"
- , "c2" : "maybeCheckCreateTopicPolicy(Supplier<CreateTopicPolicy.RequestMetadata>)"
+ , "c2" : "maybeCheckCreateTopicPolicy(Supplier&lt;CreateTopicPolicy.RequestMetadata&gt;)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -111,7 +111,7 @@ var maDataBlocs = {
  , "c5" : "00775"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#775"
  , "c1" : "void"
- , "c2" : "validateNewTopicNames(Map<String,ApiError>;CreatableTopicCollection;Map<String,?extendsSet<String>>)"
+ , "c2" : "validateNewTopicNames(Map&lt;String,ApiError&gt;;CreatableTopicCollection;Map&lt;String,?extendsSet&lt;String&gt;&gt;)"
  , "c3" : "5"
  , "c4" : "6"
 }} 
@@ -119,8 +119,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00799"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#799"
- , "c1" : "Map<ConfigResource,Map<String,Entry<OpType,String>>>"
- , "c2" : "computeConfigChanges(Map<String,ApiError>;CreatableTopicCollection)"
+ , "c1" : "Map&lt;ConfigResource,Map&lt;String,Entry&lt;OpType,String&gt;&gt;&gt;"
+ , "c2" : "computeConfigChanges(Map&lt;String,ApiError&gt;;CreatableTopicCollection)"
  , "c3" : "9"
  , "c4" : "9"
 }} 
@@ -128,8 +128,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00823"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#823"
- , "c1" : "Map<String,ResultOrError<Uuid>>"
- , "c2" : "findTopicIds(long;Collection<String>)"
+ , "c1" : "Map&lt;String,ResultOrError&lt;Uuid&gt;&gt;"
+ , "c2" : "findTopicIds(long;Collection&lt;String&gt;)"
  , "c3" : "6"
  , "c4" : "6"
 }} 
@@ -137,7 +137,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00841"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#841"
- , "c1" : "Map<String,Uuid>"
+ , "c1" : "Map&lt;String,Uuid&gt;"
  , "c2" : "findAllTopicIds(long)"
  , "c3" : "2"
  , "c4" : "3"
@@ -146,8 +146,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00849"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#849"
- , "c1" : "Map<Uuid,ResultOrError<String>>"
- , "c2" : "findTopicNames(long;Collection<Uuid>)"
+ , "c1" : "Map&lt;Uuid,ResultOrError&lt;String&gt;&gt;"
+ , "c2" : "findTopicNames(long;Collection&lt;Uuid&gt;)"
  , "c3" : "6"
  , "c4" : "6"
 }} 
@@ -155,8 +155,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00867"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#867"
- , "c1" : "ControllerResult<Map<Uuid,ApiError>>"
- , "c2" : "deleteTopics(Collection<Uuid>)"
+ , "c1" : "ControllerResult&lt;Map&lt;Uuid,ApiError&gt;&gt;"
+ , "c2" : "deleteTopics(Collection&lt;Uuid&gt;)"
  , "c3" : "2"
  , "c4" : "8"
 }} 
@@ -165,7 +165,7 @@ var maDataBlocs = {
  , "c5" : "00884"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#884"
  , "c1" : "void"
- , "c2" : "deleteTopic(Uuid;List<ApiMessageAndVersion>)"
+ , "c2" : "deleteTopic(Uuid;List&lt;ApiMessageAndVersion&gt;)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -209,7 +209,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00917"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#917"
- , "c1" : "Set<TopicIdPartition>"
+ , "c1" : "Set&lt;TopicIdPartition&gt;"
  , "c2" : "imbalancedPartitions()"
  , "c3" : "1"
  , "c4" : "1"
@@ -218,7 +218,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00921"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#921"
- , "c1" : "ControllerResult<AlterPartitionResponseData>"
+ , "c1" : "ControllerResult&lt;AlterPartitionResponseData&gt;"
  , "c2" : "alterPartition(ControllerRequestContext;AlterPartitionRequestData)"
  , "c3" : "12"
  , "c4" : "33"
@@ -236,7 +236,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01141"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1141"
- , "c1" : "List<IneligibleReplica>"
+ , "c1" : "List&lt;IneligibleReplica&gt;"
  , "c2" : "ineligibleReplicasForIsr(int[])"
  , "c3" : "7"
  , "c4" : "6"
@@ -246,7 +246,7 @@ var maDataBlocs = {
  , "c5" : "01165"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1165"
  , "c1" : "void"
- , "c2" : "handleBrokerFenced(int;List<ApiMessageAndVersion>)"
+ , "c2" : "handleBrokerFenced(int;List&lt;ApiMessageAndVersion&gt;)"
  , "c3" : "4"
  , "c4" : "5"
 }} 
@@ -255,7 +255,7 @@ var maDataBlocs = {
  , "c5" : "01194"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1194"
  , "c1" : "void"
- , "c2" : "handleBrokerUnregistered(int;long;List<ApiMessageAndVersion>)"
+ , "c2" : "handleBrokerUnregistered(int;long;List&lt;ApiMessageAndVersion&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -264,7 +264,7 @@ var maDataBlocs = {
  , "c5" : "01214"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1214"
  , "c1" : "void"
- , "c2" : "handleBrokerUnfenced(int;long;List<ApiMessageAndVersion>)"
+ , "c2" : "handleBrokerUnfenced(int;long;List&lt;ApiMessageAndVersion&gt;)"
  , "c3" : "3"
  , "c4" : "3"
 }} 
@@ -273,7 +273,7 @@ var maDataBlocs = {
  , "c5" : "01239"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1239"
  , "c1" : "void"
- , "c2" : "handleBrokerInControlledShutdown(int;long;List<ApiMessageAndVersion>)"
+ , "c2" : "handleBrokerInControlledShutdown(int;long;List&lt;ApiMessageAndVersion&gt;)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -281,7 +281,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01251"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1251"
- , "c1" : "ControllerResult<ElectLeadersResponseData>"
+ , "c1" : "ControllerResult&lt;ElectLeadersResponseData&gt;"
  , "c2" : "electLeaders(ElectLeadersRequestData)"
  , "c3" : "9"
  , "c4" : "14"
@@ -300,7 +300,7 @@ var maDataBlocs = {
  , "c5" : "01307"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1307"
  , "c1" : "ApiError"
- , "c2" : "electLeader(String;int;ElectionType;List<ApiMessageAndVersion>)"
+ , "c2" : "electLeader(String;int;ElectionType;List&lt;ApiMessageAndVersion&gt;)"
  , "c3" : "9"
  , "c4" : "16"
 }} 
@@ -308,7 +308,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01351"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1351"
- , "c1" : "ControllerResult<BrokerHeartbeatReply>"
+ , "c1" : "ControllerResult&lt;BrokerHeartbeatReply&gt;"
  , "c2" : "processBrokerHeartbeat(BrokerHeartbeatRequestData;long)"
  , "c3" : "6"
  , "c4" : "18"
@@ -317,7 +317,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01387"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1387"
- , "c1" : "ControllerResult<Void>"
+ , "c1" : "ControllerResult&lt;Void&gt;"
  , "c2" : "unregisterBroker(int)"
  , "c3" : "2"
  , "c4" : "5"
@@ -326,7 +326,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01398"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1398"
- , "c1" : "ControllerResult<Void>"
+ , "c1" : "ControllerResult&lt;Void&gt;"
  , "c2" : "maybeFenceOneStaleBroker()"
  , "c3" : "1"
  , "c4" : "7"
@@ -344,7 +344,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01424"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1424"
- , "c1" : "ControllerResult<Boolean>"
+ , "c1" : "ControllerResult&lt;Boolean&gt;"
  , "c2" : "maybeBalancePartitionLeaders()"
  , "c3" : "5"
  , "c4" : "14"
@@ -353,8 +353,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01462"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1462"
- , "c1" : "ControllerResult<List<CreatePartitionsTopicResult>>"
- , "c2" : "createPartitions(List<CreatePartitionsTopic>)"
+ , "c1" : "ControllerResult&lt;List&lt;CreatePartitionsTopicResult&gt;&gt;"
+ , "c2" : "createPartitions(List&lt;CreatePartitionsTopic&gt;)"
  , "c3" : "2"
  , "c4" : "9"
 }} 
@@ -363,7 +363,7 @@ var maDataBlocs = {
  , "c5" : "01483"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1483"
  , "c1" : "void"
- , "c2" : "createPartitions(CreatePartitionsTopic;List<ApiMessageAndVersion>)"
+ , "c2" : "createPartitions(CreatePartitionsTopic;List&lt;ApiMessageAndVersion&gt;)"
  , "c3" : "16"
  , "c4" : "36"
 }} 
@@ -372,7 +372,7 @@ var maDataBlocs = {
  , "c5" : "01578"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1578"
  , "c1" : "void"
- , "c2" : "validateManualPartitionAssignment(List<Integer>;OptionalInt)"
+ , "c2" : "validateManualPartitionAssignment(List&lt;Integer&gt;;OptionalInt)"
  , "c3" : "6"
  , "c4" : "8"
 }} 
@@ -381,7 +381,7 @@ var maDataBlocs = {
  , "c5" : "01621"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1621"
  , "c1" : "void"
- , "c2" : "generateLeaderAndIsrUpdates(String;int;int;List<ApiMessageAndVersion>;Iterator<TopicIdPartition>)"
+ , "c2" : "generateLeaderAndIsrUpdates(String;int;int;List&lt;ApiMessageAndVersion&gt;;Iterator&lt;TopicIdPartition&gt;)"
  , "c3" : "10"
  , "c4" : "21"
 }} 
@@ -389,7 +389,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01691"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1691"
- , "c1" : "ControllerResult<AlterPartitionReassignmentsResponseData>"
+ , "c1" : "ControllerResult&lt;AlterPartitionReassignmentsResponseData&gt;"
  , "c2" : "alterPartitionReassignments(AlterPartitionReassignmentsRequestData)"
  , "c3" : "3"
  , "c4" : "14"
@@ -399,7 +399,7 @@ var maDataBlocs = {
  , "c5" : "01723"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1723"
  , "c1" : "void"
- , "c2" : "alterPartitionReassignment(String;ReassignablePartition;List<ApiMessageAndVersion>)"
+ , "c2" : "alterPartitionReassignment(String;ReassignablePartition;List&lt;ApiMessageAndVersion&gt;)"
  , "c3" : "6"
  , "c4" : "11"
 }} 
@@ -407,7 +407,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01751"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1751"
- , "c1" : "Optional<ApiMessageAndVersion>"
+ , "c1" : "Optional&lt;ApiMessageAndVersion&gt;"
  , "c2" : "cancelPartitionReassignment(String;TopicIdPartition;PartitionRegistration)"
  , "c3" : "5"
  , "c4" : "7"
@@ -416,7 +416,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01808"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1808"
- , "c1" : "Optional<ApiMessageAndVersion>"
+ , "c1" : "Optional&lt;ApiMessageAndVersion&gt;"
  , "c2" : "changePartitionReassignment(TopicIdPartition;PartitionRegistration;ReassignablePartition)"
  , "c3" : "4"
  , "c4" : "8"
@@ -426,7 +426,7 @@ var maDataBlocs = {
  , "c5" : "01834"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1834"
  , "c1" : "ListPartitionReassignmentsResponseData"
- , "c2" : "listPartitionReassignments(List<ListPartitionReassignmentsTopics>)"
+ , "c2" : "listPartitionReassignments(List&lt;ListPartitionReassignmentsTopics&gt;)"
  , "c3" : "6"
  , "c4" : "5"
 }} 
@@ -435,7 +435,7 @@ var maDataBlocs = {
  , "c5" : "01855"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1855"
  , "c1" : "void"
- , "c2" : "listReassigningTopic(ListPartitionReassignmentsResponseData;Uuid;List<Integer>)"
+ , "c2" : "listReassigningTopic(ListPartitionReassignmentsResponseData;Uuid;List&lt;Integer&gt;)"
  , "c3" : "5"
  , "c4" : "6"
 }} 
@@ -443,7 +443,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01875"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1875"
- , "c1" : "Optional<OngoingPartitionReassignment>"
+ , "c1" : "Optional&lt;OngoingPartitionReassignment&gt;"
  , "c2" : "getOngoingPartitionReassignment(TopicControlInfo;int)"
  , "c3" : "2"
  , "c4" : "3"
@@ -481,82 +481,6 @@ var maDataBlocs = {
 ]
 , 
 "data08" : [
-]
-, 
-"data09a" : [
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1322Seq1.html#seq1"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1322&numSeq=1"
- , "c2" : "1"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.HashMap.get@POLYN618616.return" , "java.util.concurrent.ConcurrentHashMap.add@POLYN1669444.e"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-]
-,
-"data09b" : [
-{ "sequence" : { 
- "seq" : "1" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[01553]"
- , "c3" : ["java.util.HashMap.get@POLYN618616.return" , "---java.util.HashMap.get@POLYN618616" , "org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN569661.isr"]
- , "c4" : "//QC-JAVCWE099[01553] In org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN569661[01553] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[01540]"
- , "c3" : ["org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN569661.isr" , "---java.util.concurrent.ConcurrentHashMap.add@POLYN1669444" , "java.util.concurrent.ConcurrentHashMap.add@POLYN1669444.e"]
- , "c4" : "//QC-JAVCWE099[01540] In org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN569661[01540] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-]
-, 
-"data10" : [
 ]
 , 
 "data11" : [
@@ -4060,6 +3984,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN568348"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.deleteTopics@POLYN538251"
 }} 
 ,
@@ -4068,13 +3999,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.replay@POLYN511134"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN568348"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4274,6 +4198,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01472"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1472"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01472] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN568348 the MagicNumber/String 'Unexpected createPartitions error for {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00877"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#877"
  , "c2" : "BLOCKER"
@@ -4376,13 +4307,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#511"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00511] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN511134 the MagicNumber/String 'Replayed partition change {} for topic {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01472"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1472"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01472] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN568348 the MagicNumber/String 'Unexpected createPartitions error for {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

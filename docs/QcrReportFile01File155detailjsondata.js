@@ -29,8 +29,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00063"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiLookupStrategy.java.html#63"
- , "c1" : "AbstractRequest.Builder<?>"
- , "c2" : "buildRequest(Set<T>)"
+ , "c1" : "AbstractRequest.Builder&lt;?&gt;"
+ , "c2" : "buildRequest(Set&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -38,8 +38,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00082"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiLookupStrategy.java.html#82"
- , "c1" : "LookupResult<T>"
- , "c2" : "handleResponse(Set<T>;AbstractResponse)"
+ , "c1" : "LookupResult&lt;T&gt;"
+ , "c2" : "handleResponse(Set&lt;T&gt;;AbstractResponse)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

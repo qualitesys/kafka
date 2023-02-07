@@ -20,7 +20,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00061"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaEntity.java.html#61"
- , "c1" : "List<ConfigEntity>"
+ , "c1" : "List&lt;ConfigEntity&gt;"
  , "c2" : "configEntities()"
  , "c3" : "1"
  , "c4" : "1"

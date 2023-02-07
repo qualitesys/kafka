@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00039"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#39"
  , "c1" : "ProducerInterceptors"
- , "c2" : "ProducerInterceptors(List<ProducerInterceptor<K,V>>)"
+ , "c2" : "ProducerInterceptors(List&lt;ProducerInterceptor&lt;K,V&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -29,8 +29,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00057"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#57"
- , "c1" : "ProducerRecord<K,V>"
- , "c2" : "onSend(ProducerRecord<K,V>)"
+ , "c1" : "ProducerRecord&lt;K,V&gt;"
+ , "c2" : "onSend(ProducerRecord&lt;K,V&gt;)"
  , "c3" : "4"
  , "c4" : "5"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00106"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#106"
  , "c1" : "void"
- , "c2" : "onSendError(ProducerRecord<K,V>;TopicPartition;Exception)"
+ , "c2" : "onSendError(ProducerRecord&lt;K,V&gt;;TopicPartition;Exception)"
  , "c3" : "5"
  , "c4" : "4"
 }} 

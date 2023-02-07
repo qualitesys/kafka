@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00028"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeMetadataQuorumResult.java.html#28"
  , "c1" : "DescribeMetadataQuorumResult"
- , "c2" : "DescribeMetadataQuorumResult(KafkaFuture<QuorumInfo>)"
+ , "c2" : "DescribeMetadataQuorumResult(KafkaFuture&lt;QuorumInfo&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00035"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeMetadataQuorumResult.java.html#35"
- , "c1" : "KafkaFuture<QuorumInfo>"
+ , "c1" : "KafkaFuture&lt;QuorumInfo&gt;"
  , "c2" : "quorumInfo()"
  , "c3" : "1"
  , "c4" : "1"

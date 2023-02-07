@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java 38 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java 40 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.xml" 
  , "fic3"  : "" 
 }
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00043"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#43"
  , "c1" : "RecordHeaders"
- , "c2" : "RecordHeaders(Iterable<Header>)"
+ , "c2" : "RecordHeaders(Iterable&lt;Header&gt;)"
  , "c3" : "6"
  , "c4" : "5"
 }} 
@@ -83,7 +83,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00097"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#97"
- , "c1" : "Iterable<Header>"
+ , "c1" : "Iterable&lt;Header&gt;"
  , "c2" : "headers(String)"
  , "c3" : "1"
  , "c4" : "2"
@@ -92,7 +92,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00103"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#103"
- , "c1" : "Iterator<Header>"
+ , "c1" : "Iterator&lt;Header&gt;"
  , "c2" : "iterator()"
  , "c3" : "1"
  , "c4" : "1"
@@ -137,8 +137,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00125"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#125"
- , "c1" : "Iterator<Header>"
- , "c2" : "closeAware(Iterator<Header>)"
+ , "c1" : "Iterator&lt;Header&gt;"
+ , "c2" : "closeAware(Iterator&lt;Header&gt;)"
  , "c3" : "1"
  , "c4" : "5"
 }} 
@@ -212,6 +212,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -222,7 +229,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -526,6 +533,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.header.internals.RecordHeaders.add@POLYN165408"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.header.internals.RecordHeaders.add@POLYN165066"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#60"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.common.header.internals.RecordHeaders.add@POLYN165066 the MagicNumber/String 'Header cannot be null.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

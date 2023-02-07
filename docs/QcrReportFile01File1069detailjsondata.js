@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00076"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#76"
  , "c1" : "void"
- , "c2" : "connectors(Callback<Collection<String>>)"
+ , "c2" : "connectors(Callback&lt;Collection&lt;String&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00081"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#81"
  , "c1" : "void"
- , "c2" : "connectorInfo(String;Callback<ConnectorInfo>)"
+ , "c2" : "connectorInfo(String;Callback&lt;ConnectorInfo&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00088"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#88"
  , "c1" : "void"
- , "c2" : "connectorConfig(String;Callback<Map<String,String>>)"
+ , "c2" : "connectorConfig(String;Callback&lt;Map&lt;String,String&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00095"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#95"
  , "c1" : "void"
- , "c2" : "tasksConfig(String;Callback<Map<ConnectorTaskId,Map<String,String>>>)"
+ , "c2" : "tasksConfig(String;Callback&lt;Map&lt;ConnectorTaskId,Map&lt;String,String&gt;&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00105"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#105"
  , "c1" : "void"
- , "c2" : "putConnectorConfig(String;Map<String,String>;boolean;Callback<Created<ConnectorInfo>>)"
+ , "c2" : "putConnectorConfig(String;Map&lt;String,String&gt;;boolean;Callback&lt;Created&lt;ConnectorInfo&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -93,7 +93,7 @@ var maDataBlocs = {
  , "c5" : "00112"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#112"
  , "c1" : "void"
- , "c2" : "deleteConnectorConfig(String;Callback<Created<ConnectorInfo>>)"
+ , "c2" : "deleteConnectorConfig(String;Callback&lt;Created&lt;ConnectorInfo&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -111,7 +111,7 @@ var maDataBlocs = {
  , "c5" : "00127"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#127"
  , "c1" : "void"
- , "c2" : "taskConfigs(String;Callback<List<TaskInfo>>)"
+ , "c2" : "taskConfigs(String;Callback&lt;List&lt;TaskInfo&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -120,7 +120,7 @@ var maDataBlocs = {
  , "c5" : "00139"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#139"
  , "c1" : "void"
- , "c2" : "putTaskConfigs(String;List<Map<String,String>>;Callback<Void>;InternalRequestSignature)"
+ , "c2" : "putTaskConfigs(String;List&lt;Map&lt;String,String&gt;&gt;;Callback&lt;Void&gt;;InternalRequestSignature)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -129,7 +129,7 @@ var maDataBlocs = {
  , "c5" : "00151"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#151"
  , "c1" : "void"
- , "c2" : "fenceZombieSourceTasks(String;Callback<Void>;InternalRequestSignature)"
+ , "c2" : "fenceZombieSourceTasks(String;Callback&lt;Void&gt;;InternalRequestSignature)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -137,7 +137,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00157"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#157"
- , "c1" : "Collection<String>"
+ , "c1" : "Collection&lt;String&gt;"
  , "c2" : "connectors()"
  , "c3" : "1"
  , "c4" : "1"
@@ -201,7 +201,7 @@ var maDataBlocs = {
  , "c5" : "00204"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#204"
  , "c1" : "void"
- , "c2" : "validateConnectorConfig(Map<String,String>;Callback<ConfigInfos>)"
+ , "c2" : "validateConnectorConfig(Map&lt;String,String&gt;;Callback&lt;ConfigInfos&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -210,7 +210,7 @@ var maDataBlocs = {
  , "c5" : "00213"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#213"
  , "c1" : "void"
- , "c2" : "validateConnectorConfig(Map<String,String>;Callback<ConfigInfos>;boolean)"
+ , "c2" : "validateConnectorConfig(Map&lt;String,String&gt;;Callback&lt;ConfigInfos&gt;;boolean)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -219,7 +219,7 @@ var maDataBlocs = {
  , "c5" : "00222"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#222"
  , "c1" : "void"
- , "c2" : "restartTask(ConnectorTaskId;Callback<Void>)"
+ , "c2" : "restartTask(ConnectorTaskId;Callback&lt;Void&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -228,7 +228,7 @@ var maDataBlocs = {
  , "c5" : "00229"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#229"
  , "c1" : "void"
- , "c2" : "restartConnector(String;Callback<Void>)"
+ , "c2" : "restartConnector(String;Callback&lt;Void&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -237,7 +237,7 @@ var maDataBlocs = {
  , "c5" : "00238"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#238"
  , "c1" : "HerderRequest"
- , "c2" : "restartConnector(long;String;Callback<Void>)"
+ , "c2" : "restartConnector(long;String;Callback&lt;Void&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -246,7 +246,7 @@ var maDataBlocs = {
  , "c5" : "00245"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#245"
  , "c1" : "void"
- , "c2" : "restartConnectorAndTasks(RestartRequest;Callback<ConnectorStateInfo>)"
+ , "c2" : "restartConnectorAndTasks(RestartRequest;Callback&lt;ConnectorStateInfo&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -290,7 +290,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00280"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#280"
- , "c1" : "List<ConfigKeyInfo>"
+ , "c1" : "List&lt;ConfigKeyInfo&gt;"
  , "c2" : "connectorPluginConfig(String)"
  , "c3" : "1"
  , "c4" : "1"

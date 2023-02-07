@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00089"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecord.java.html#89"
  , "c1" : "ConsumerRecord"
- , "c2" : "ConsumerRecord(String;int;long;long;TimestampType;int;int;K;V;Headers;Optional<Integer>)"
+ , "c2" : "ConsumerRecord(String;int;long;long;TimestampType;int;int;K;V;Headers;Optional&lt;Integer&gt;)"
  , "c3" : "3"
  , "c4" : "13"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00202"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecord.java.html#202"
  , "c1" : "ConsumerRecord"
- , "c2" : "ConsumerRecord(String;int;long;long;TimestampType;Long;int;int;K;V;Headers;Optional<Integer>)"
+ , "c2" : "ConsumerRecord(String;int;long;long;TimestampType;Long;int;int;K;V;Headers;Optional&lt;Integer&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -155,7 +155,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00295"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecord.java.html#295"
- , "c1" : "Optional<Integer>"
+ , "c1" : "Optional&lt;Integer&gt;"
  , "c2" : "leaderEpoch()"
  , "c3" : "1"
  , "c4" : "1"

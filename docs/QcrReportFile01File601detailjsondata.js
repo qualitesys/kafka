@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00091"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasRequest.java.html#91"
- , "c1" : "List<ClientQuotaAlteration>"
+ , "c1" : "List&lt;ClientQuotaAlteration&gt;"
  , "c2" : "entries()"
  , "c3" : "4"
  , "c4" : "8"

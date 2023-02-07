@@ -20,7 +20,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00038"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#38"
- , "c1" : "Set<K>"
+ , "c1" : "Set&lt;K&gt;"
  , "c2" : "lookupKeys()"
  , "c3" : "1"
  , "c4" : "1"
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00045"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#45"
  , "c1" : "void"
- , "c2" : "complete(Map<K,V>)"
+ , "c2" : "complete(Map&lt;K,V&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00053"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#53"
  , "c1" : "void"
- , "c2" : "completeLookup(Map<K,Integer>)"
+ , "c2" : "completeLookup(Map&lt;K,Integer&gt;)"
  , "c3" : "1"
  , "c4" : "0"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00061"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#61"
  , "c1" : "void"
- , "c2" : "completeLookupExceptionally(Map<K,Throwable>)"
+ , "c2" : "completeLookupExceptionally(Map&lt;K,Throwable&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00070"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#70"
  , "c1" : "void"
- , "c2" : "completeExceptionally(Map<K,Throwable>)"
+ , "c2" : "completeExceptionally(Map&lt;K,Throwable&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

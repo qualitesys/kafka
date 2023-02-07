@@ -1,75 +1,23 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaClientSupplier.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/KafkaClientSupplier.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaClientSupplier.java.xml" 
+   "fic1"  : "./qc/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java.html" 
+ , "texte" : "File streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java 1 rule violations " 
+ , "fic2"  : "./qc/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
-{ "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.KafkaClientSupplier"
-}} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.KafkaClientSupplier" , "link" : "" , "methodes" : [ 
-{ "ligne" : { "" : ""
- , "c5" : "00039"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaClientSupplier.java.html#39"
- , "c1" : "Admin"
- , "c2" : "getAdmin(Map<String,Object>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00050"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaClientSupplier.java.html#50"
- , "c1" : "Producer<byte[],byte[]>"
- , "c2" : "getProducer(Map<String,Object>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00059"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaClientSupplier.java.html#59"
- , "c1" : "Consumer<byte[],byte[]>"
- , "c2" : "getConsumer(Map<String,Object>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaClientSupplier.java.html#68"
- , "c1" : "Consumer<byte[],byte[]>"
- , "c2" : "getRestoreConsumer(Map<String,Object>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/KafkaClientSupplier.java.html#77"
- , "c1" : "Consumer<byte[],byte[]>"
- , "c2" : "getGlobalConsumer(Map<String,Object>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
+ { "nomclasse" : "" , "link" : "" , "methodes" : [ 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaClientSupplier.java.png" 
-
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaClientSupplier.java.svg" }
-
 ] 
 , 
 "data04" : [
@@ -93,8 +41,26 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999999"
+ , "c3" : "Syntax analysis failure on the source code"
+ , "c4" : "1"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00017"
+ , "c1link" : "./qc/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java.html#17"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999999[00017] syntax analysis failed on file /home/runner/work/kafka/kafka/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java near following tokens and ` * limitations under the License . ` */ package $ { package } ; import org . apache . "
+}} 
+]
+, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaClientSupplier.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java.fct.svg" 
 
 , 
 }

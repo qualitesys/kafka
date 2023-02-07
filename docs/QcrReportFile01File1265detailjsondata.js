@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00039"
  , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#39"
  , "c1" : "StructSpec"
- , "c2" : "StructSpec(String;String;List<FieldSpec>)"
+ , "c2" : "StructSpec(String;String;List&lt;FieldSpec&gt;)"
  , "c3" : "8"
  , "c4" : "13"
 }} 
@@ -56,7 +56,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00092"
  , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html#92"
- , "c1" : "List<FieldSpec>"
+ , "c1" : "List&lt;FieldSpec&gt;"
  , "c2" : "fields()"
  , "c3" : "1"
  , "c4" : "1"

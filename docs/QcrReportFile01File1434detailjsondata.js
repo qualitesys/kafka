@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00033"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#33"
  , "c1" : "MemoryBatchReader"
- , "c2" : "MemoryBatchReader(long;long;Iterator<Batch<T>>;CloseListener<BatchReader<T>>)"
+ , "c2" : "MemoryBatchReader(long;long;Iterator&lt;Batch&lt;T&gt;&gt;;CloseListener&lt;BatchReader&lt;T&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00051"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/MemoryBatchReader.java.html#51"
- , "c1" : "Batch<T>"
+ , "c1" : "Batch&lt;T&gt;"
  , "c2" : "next()"
  , "c3" : "1"
  , "c4" : "1"

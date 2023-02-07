@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00068"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#68"
  , "c1" : "BatchAccumulator"
- , "c2" : "BatchAccumulator(int;long;int;int;MemoryPool;Time;CompressionType;RecordSerde<T>)"
+ , "c2" : "BatchAccumulator(int;long;int;int;MemoryPool;Time;CompressionType;RecordSerde&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "12"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00111"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#111"
  , "c1" : "long"
- , "c2" : "append(int;List<T>)"
+ , "c2" : "append(int;List&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00131"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#131"
  , "c1" : "long"
- , "c2" : "appendAtomic(int;List<T>)"
+ , "c2" : "appendAtomic(int;List&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00135"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#135"
  , "c1" : "long"
- , "c2" : "append(int;List<T>;boolean)"
+ , "c2" : "append(int;List&lt;T&gt;;boolean)"
  , "c3" : "8"
  , "c4" : "14"
 }} 
@@ -65,8 +65,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00182"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#182"
- , "c1" : "BatchBuilder<T>"
- , "c2" : "maybeAllocateBatch(Collection<T>;ObjectSerializationCache)"
+ , "c1" : "BatchBuilder&lt;T&gt;"
+ , "c2" : "maybeAllocateBatch(Collection&lt;T&gt;;ObjectSerializationCache)"
  , "c3" : "6"
  , "c4" : "6"
 }} 
@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00230"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#230"
  , "c1" : "void"
- , "c2" : "appendControlMessage(Function<ByteBuffer,MemoryRecords>)"
+ , "c2" : "appendControlMessage(Function&lt;ByteBuffer,MemoryRecords&gt;)"
  , "c3" : "3"
  , "c4" : "9"
 }} 
@@ -173,7 +173,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00414"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#414"
- , "c1" : "List<CompletedBatch<T>>"
+ , "c1" : "List&lt;CompletedBatch&lt;T&gt;&gt;"
  , "c2" : "drain()"
  , "c3" : "5"
  , "c4" : "6"
@@ -182,7 +182,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00438"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#438"
- , "c1" : "List<CompletedBatch<T>>"
+ , "c1" : "List&lt;CompletedBatch&lt;T&gt;&gt;"
  , "c2" : "drainCompleted()"
  , "c3" : "4"
  , "c4" : "4"

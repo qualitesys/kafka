@@ -272,7 +272,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00419"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#419"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "connectingNodes()"
  , "c3" : "1"
  , "c4" : "1"
@@ -308,7 +308,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00458"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#458"
- , "c1" : "List<String>"
+ , "c1" : "List&lt;String&gt;"
  , "c2" : "nodesWithConnectionSetupTimeout(long)"
  , "c3" : "1"
  , "c4" : "1"
@@ -1103,14 +1103,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.ClusterConnectionStates.remove@POLYN241292"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.ClusterConnectionStates.connecting@POLYN231392"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.ClusterConnectionStates.connecting@POLYN231392"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.ClusterConnectionStates.remove@POLYN241292"
 }} 
 ,
 { "ligne" : {"" : ""

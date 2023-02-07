@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java 71 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java 69 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.xml" 
  , "fic3"  : "" 
 }
@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00102"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#102"
  , "c1" : "SaslChannelBuilder"
- , "c2" : "SaslChannelBuilder(Mode;Map<String,JaasContext>;SecurityProtocol;ListenerName;boolean;String;boolean;CredentialCache;DelegationTokenCache;String;Time;LogContext;Supplier<ApiVersionsResponse>)"
+ , "c2" : "SaslChannelBuilder(Mode;Map&lt;String,JaasContext&gt;;SecurityProtocol;ListenerName;boolean;String;boolean;CredentialCache;DelegationTokenCache;String;Time;LogContext;Supplier&lt;ApiVersionsResponse&gt;)"
  , "c3" : "2"
  , "c4" : "19"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00141"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#141"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "9"
  , "c4" : "22"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00189"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#189"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "reconfigurableConfigs()"
  , "c3" : "1"
  , "c4" : "1"
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00194"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#194"
  , "c1" : "void"
- , "c2" : "validateReconfiguration(Map<String,?>)"
+ , "c2" : "validateReconfiguration(Map&lt;String,?&gt;)"
  , "c3" : "2"
  , "c4" : "1"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00200"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#200"
  , "c1" : "void"
- , "c2" : "reconfigure(Map<String,?>)"
+ , "c2" : "reconfigure(Map&lt;String,?&gt;)"
  , "c3" : "2"
  , "c4" : "1"
 }} 
@@ -102,7 +102,7 @@ var maDataBlocs = {
  , "c5" : "00267"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#267"
  , "c1" : "SaslServerAuthenticator"
- , "c2" : "buildServerAuthenticator(Map<String,?>;Map<String,AuthenticateCallbackHandler>;String;TransportLayer;Map<String,Subject>;Map<String,Long>;ChannelMetadataRegistry)"
+ , "c2" : "buildServerAuthenticator(Map&lt;String,?&gt;;Map&lt;String,AuthenticateCallbackHandler&gt;;String;TransportLayer;Map&lt;String,Subject&gt;;Map&lt;String,Long&gt;;ChannelMetadataRegistry)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -111,7 +111,7 @@ var maDataBlocs = {
  , "c5" : "00280"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#280"
  , "c1" : "SaslClientAuthenticator"
- , "c2" : "buildClientAuthenticator(Map<String,?>;AuthenticateCallbackHandler;String;String;String;TransportLayer;Subject)"
+ , "c2" : "buildClientAuthenticator(Map&lt;String,?&gt;;AuthenticateCallbackHandler;String;String;String;TransportLayer;Subject)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -119,7 +119,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00291"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#291"
- , "c1" : "Map<String,LoginManager>"
+ , "c1" : "Map&lt;String,LoginManager&gt;"
  , "c2" : "loginManagers()"
  , "c3" : "1"
  , "c4" : "1"
@@ -138,7 +138,7 @@ var maDataBlocs = {
  , "c5" : "00300"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#300"
  , "c1" : "void"
- , "c2" : "createClientCallbackHandler(Map<String,?>)"
+ , "c2" : "createClientCallbackHandler(Map&lt;String,?&gt;)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -147,7 +147,7 @@ var maDataBlocs = {
  , "c5" : "00309"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#309"
  , "c1" : "void"
- , "c2" : "createServerCallbackHandlers(Map<String,?>)"
+ , "c2" : "createServerCallbackHandlers(Map&lt;String,?&gt;)"
  , "c3" : "10"
  , "c4" : "9"
 }} 
@@ -156,7 +156,7 @@ var maDataBlocs = {
  , "c5" : "00330"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#330"
  , "c1" : "void"
- , "c2" : "createConnectionsMaxReauthMsMap(Map<String,?>)"
+ , "c2" : "createConnectionsMaxReauthMsMap(Map&lt;String,?&gt;)"
  , "c3" : "4"
  , "c4" : "4"
 }} 
@@ -164,7 +164,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00341"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#341"
- , "c1" : "Class<?extendsLogin>"
+ , "c1" : "Class&lt;?extendsLogin&gt;"
  , "c2" : "defaultLoginClass()"
  , "c3" : "3"
  , "c4" : "3"
@@ -173,7 +173,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00349"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#349"
- , "c1" : "Class<?extendsAuthenticateCallbackHandler>"
+ , "c1" : "Class&lt;?extendsAuthenticateCallbackHandler&gt;"
  , "c2" : "clientCallbackHandlerClass()"
  , "c3" : "3"
  , "c4" : "3"
@@ -231,82 +231,6 @@ var maDataBlocs = {
 "data08" : [
 ]
 , 
-"data09a" : [
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File510Seq1.html#seq1"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=510&numSeq=1"
- , "c2" : "1"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.HashMap.getKey@POLYN607634.return" , "java.util.HashMap.put@POLYN621976.key"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-]
-,
-"data09b" : [
-{ "sequence" : { 
- "seq" : "1" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00150]"
- , "c3" : ["java.util.HashMap.getKey@POLYN607634.return" , "---java.util.HashMap.getKey@POLYN607634" , "org.apache.kafka.common.network.SaslChannelBuilder.configure@POLYN213637.mechanism"]
- , "c4" : "//QC-JAVCWE099[00150] In org.apache.kafka.common.network.SaslChannelBuilder.configure@POLYN213637[00150] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00171]"
- , "c3" : ["org.apache.kafka.common.network.SaslChannelBuilder.configure@POLYN213637.mechanism" , "---java.util.HashMap.put@POLYN621976" , "java.util.HashMap.put@POLYN621976.key"]
- , "c4" : "//QC-JAVCWE099[00171] In org.apache.kafka.common.network.SaslChannelBuilder.configure@POLYN213637[00171] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-]
-, 
-"data10" : [
-]
-, 
 "data11" : [
 ]
 , 
@@ -327,7 +251,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "10"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : { "" : ""
@@ -341,7 +265,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -791,13 +715,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SaslChannelBuilder.close@POLYN219494"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SaslChannelBuilder.buildChannel@POLYN217497"
 }} 
 ,
@@ -848,13 +765,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#391"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00391] In the recursive method org.apache.kafka.common.network.SaslChannelBuilder.maybeAddNativeGssapiCredentials@POLYN225559 the MagicNumber/String 'Cannot add private credential to subject; clients authentication may fail' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00251"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#251"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00251] In the recursive method org.apache.kafka.common.network.SaslChannelBuilder.close@POLYN219494 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

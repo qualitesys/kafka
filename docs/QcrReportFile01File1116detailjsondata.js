@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00038"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerRebalanceListener.java.html#38"
  , "c1" : "void"
- , "c2" : "onRevoked(String;Collection<String>;Collection<ConnectorTaskId>)"
+ , "c2" : "onRevoked(String;Collection&lt;String&gt;;Collection&lt;ConnectorTaskId&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00029"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#29"
  , "c1" : "ControllerResultAndOffset"
- , "c2" : "ControllerResultAndOffset(long;ControllerResult<T>)"
+ , "c2" : "ControllerResultAndOffset(long;ControllerResult&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 

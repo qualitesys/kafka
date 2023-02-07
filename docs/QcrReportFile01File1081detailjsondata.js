@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00071"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#71"
  , "c1" : "SubmittedRecord"
- , "c2" : "submit(Map<String,Object>;Map<String,Object>)"
+ , "c2" : "submit(Map&lt;String,Object&gt;;Map&lt;String,Object&gt;)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -65,8 +65,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00142"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#142"
- , "c1" : "Map<String,Object>"
- , "c2" : "committableOffset(Deque<SubmittedRecord>)"
+ , "c1" : "Map&lt;String,Object&gt;"
+ , "c2" : "committableOffset(Deque&lt;SubmittedRecord&gt;)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00150"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#150"
  , "c1" : "boolean"
- , "c2" : "canCommitHead(Deque<SubmittedRecord>)"
+ , "c2" : "canCommitHead(Deque&lt;SubmittedRecord&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

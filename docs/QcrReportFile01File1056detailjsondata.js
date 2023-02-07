@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00056"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#56"
  , "c1" : "NumberConverter"
- , "c2" : "NumberConverter(String;Schema;Serializer<T>;Deserializer<T>)"
+ , "c2" : "NumberConverter(String;Schema;Serializer&lt;T&gt;;Deserializer&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "8"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00073"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#73"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00082"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#82"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>;boolean)"
+ , "c2" : "configure(Map&lt;String,?&gt;;boolean)"
  , "c3" : "1"
  , "c4" : "3"
 }} 

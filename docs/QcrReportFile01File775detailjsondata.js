@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java 205 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java 199 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.xml" 
  , "fic3"  : "" 
 }
@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00085"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#85"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>;String;Configuration;AuthenticateCallbackHandler)"
+ , "c2" : "configure(Map&lt;String,?&gt;;String;Configuration;AuthenticateCallbackHandler)"
  , "c3" : "1"
  , "c4" : "6"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00288"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#288"
  , "c1" : "String"
- , "c2" : "getServiceName(Map<String,?>;String;Configuration)"
+ , "c2" : "getServiceName(Map&lt;String,?&gt;;String;Configuration)"
  , "c3" : "4"
  , "c4" : "8"
 }} 
@@ -188,7 +188,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "71"
+ , "c4" : "69"
 }}
 ,
 { "ligne" : { "" : ""
@@ -202,7 +202,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "9"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1167,34 +1167,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.kerberos.KerberosLogin.logout@POLYN210194"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.kerberos.KerberosLogin.login@POLYN210067"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.kerberos.KerberosLogin.configure@POLYN195231"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.kerberos.KerberosLogin.close@POLYN204581"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#108"
  , "c2" : "BLOCKER"
@@ -1675,20 +1647,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#373"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00373] In the recursive method org.apache.kafka.common.security.kerberos.KerberosLogin.reLogin@POLYN208951 the MagicNumber/String 'Initiating re-login for {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00267"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#267"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00267] In the recursive method org.apache.kafka.common.security.kerberos.KerberosLogin.close@POLYN204581 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00272"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#272"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00272] In the recursive method org.apache.kafka.common.security.kerberos.KerberosLogin.close@POLYN204581 the MagicNumber/String '[Principal={}]: Error while waiting for Login thread to shutdown.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

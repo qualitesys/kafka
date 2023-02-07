@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00032"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetric.java.html#32"
  , "c1" : "KafkaMetric"
- , "c2" : "KafkaMetric(Object;MetricName;MetricValueProvider<?>;MetricConfig;Time)"
+ , "c2" : "KafkaMetric(Object;MetricName;MetricValueProvider&lt;?&gt;;MetricConfig;Time)"
  , "c3" : "2"
  , "c4" : "6"
 }} 

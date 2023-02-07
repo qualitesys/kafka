@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00072"
  , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertHeader.java.html#72"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 

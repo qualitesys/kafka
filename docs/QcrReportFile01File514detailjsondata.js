@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00066"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#66"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "2"
  , "c4" : "7"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00082"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#82"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "reconfigurableConfigs()"
  , "c3" : "1"
  , "c4" : "1"
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00087"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#87"
  , "c1" : "void"
- , "c2" : "validateReconfiguration(Map<String,?>)"
+ , "c2" : "validateReconfiguration(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00092"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#92"
  , "c1" : "void"
- , "c2" : "reconfigure(Map<String,?>)"
+ , "c2" : "reconfigure(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

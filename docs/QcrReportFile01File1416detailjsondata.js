@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00056"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#56"
  , "c1" : "FetchRequestData"
- , "c2" : "singletonFetchRequest(TopicPartition;Uuid;Consumer<FetchRequestData.FetchPartition>)"
+ , "c2" : "singletonFetchRequest(TopicPartition;Uuid;Consumer&lt;FetchRequestData.FetchPartition&gt;)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00076"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#76"
  , "c1" : "FetchResponseData"
- , "c2" : "singletonFetchResponse(TopicPartition;Uuid;Errors;Consumer<FetchResponseData.PartitionData>)"
+ , "c2" : "singletonFetchResponse(TopicPartition;Uuid;Errors;Consumer&lt;FetchResponseData.PartitionData&gt;)"
  , "c3" : "1"
  , "c4" : "5"
 }} 

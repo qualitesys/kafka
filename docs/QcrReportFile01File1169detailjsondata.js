@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00063"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#63"
  , "c1" : "ConnectorOffsetBackingStore"
- , "c2" : "withConnectorAndWorkerStores(Supplier<LoggingContext>;OffsetBackingStore;KafkaOffsetBackingStore;String;TopicAdmin)"
+ , "c2" : "withConnectorAndWorkerStores(Supplier&lt;LoggingContext&gt;;OffsetBackingStore;KafkaOffsetBackingStore;String;TopicAdmin)"
  , "c3" : "1"
  , "c4" : "6"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00095"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#95"
  , "c1" : "ConnectorOffsetBackingStore"
- , "c2" : "withOnlyWorkerStore(Supplier<LoggingContext>;OffsetBackingStore;String)"
+ , "c2" : "withOnlyWorkerStore(Supplier&lt;LoggingContext&gt;;OffsetBackingStore;String)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00115"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#115"
  , "c1" : "ConnectorOffsetBackingStore"
- , "c2" : "withOnlyConnectorStore(Supplier<LoggingContext>;KafkaOffsetBackingStore;String;TopicAdmin)"
+ , "c2" : "withOnlyConnectorStore(Supplier&lt;LoggingContext&gt;;KafkaOffsetBackingStore;String;TopicAdmin)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00141"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#141"
  , "c1" : "ConnectorOffsetBackingStore"
- , "c2" : "ConnectorOffsetBackingStore(Time;Supplier<LoggingContext>;String;OffsetBackingStore;KafkaOffsetBackingStore;TopicAdmin)"
+ , "c2" : "ConnectorOffsetBackingStore(Time;Supplier&lt;LoggingContext&gt;;String;OffsetBackingStore;KafkaOffsetBackingStore;TopicAdmin)"
  , "c3" : "2"
  , "c4" : "7"
 }} 
@@ -83,8 +83,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00316"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#316"
- , "c1" : "Future<Map<ByteBuffer,ByteBuffer>>"
- , "c2" : "get(Collection<ByteBuffer>)"
+ , "c1" : "Future&lt;Map&lt;ByteBuffer,ByteBuffer&gt;&gt;"
+ , "c2" : "get(Collection&lt;ByteBuffer&gt;)"
  , "c3" : "1"
  , "c4" : "15"
 }} 
@@ -92,8 +92,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#1"
- , "c1" : "Future<Void>"
- , "c2" : "set(Map<ByteBuffer,ByteBuffer>;Callback<Void>)"
+ , "c1" : "Future&lt;Void&gt;"
+ , "c2" : "set(Map&lt;ByteBuffer,ByteBuffer&gt;;Callback&lt;Void&gt;)"
  , "c3" : "10"
  , "c4" : "14"
 }} 
@@ -137,8 +137,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#1"
- , "c1" : "Future<Map<ByteBuffer,ByteBuffer>>"
- , "c2" : "getFromStore(Optional<?extendsOffsetBackingStore>;Collection<ByteBuffer>)"
+ , "c1" : "Future&lt;Map&lt;ByteBuffer,ByteBuffer&gt;&gt;"
+ , "c2" : "getFromStore(Optional&lt;?extendsOffsetBackingStore&gt;;Collection&lt;ByteBuffer&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

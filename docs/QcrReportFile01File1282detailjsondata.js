@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00166"
  , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#166"
- , "c1" : "List<UpdateMetadataEndpoint>"
+ , "c1" : "List&lt;UpdateMetadataEndpoint&gt;"
  , "c2" : "endpoints(int)"
  , "c3" : "1"
  , "c4" : "1"

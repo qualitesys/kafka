@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00079"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#79"
  , "c1" : "MetricName"
- , "c2" : "MetricName(String;String;String;Map<String,String>)"
+ , "c2" : "MetricName(String;String;String;Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00094"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html#94"
- , "c1" : "Map<String,String>"
+ , "c1" : "Map&lt;String,String&gt;"
  , "c2" : "tags()"
  , "c3" : "1"
  , "c4" : "1"

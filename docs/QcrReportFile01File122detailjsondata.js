@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00034"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitionReassignment.java.html#34"
  , "c1" : "NewPartitionReassignment"
- , "c2" : "NewPartitionReassignment(List<Integer>)"
+ , "c2" : "NewPartitionReassignment(List&lt;Integer&gt;)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00040"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitionReassignment.java.html#40"
- , "c1" : "List<Integer>"
+ , "c1" : "List&lt;Integer&gt;"
  , "c2" : "targetReplicas()"
  , "c3" : "1"
  , "c4" : "1"

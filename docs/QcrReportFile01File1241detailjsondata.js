@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00143"
  , "c5link" : "././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#143"
- , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
+ , "c1" : "Map&lt;TopicPartition,OffsetAndMetadata&gt;"
  , "c2" : "consumerOffsets()"
  , "c3" : "2"
  , "c4" : "3"
@@ -56,8 +56,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00155"
  , "c5link" : "././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#155"
- , "c1" : "ProducerRecord<Integer,String>"
- , "c2" : "transform(ConsumerRecord<Integer,String>)"
+ , "c1" : "ProducerRecord&lt;Integer,String&gt;"
+ , "c2" : "transform(ConsumerRecord&lt;Integer,String&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00160"
  , "c5link" : "././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#160"
  , "c1" : "long"
- , "c2" : "messagesRemaining(KafkaConsumer<Integer,String>)"
+ , "c2" : "messagesRemaining(KafkaConsumer&lt;Integer,String&gt;)"
  , "c3" : "3"
  , "c4" : "7"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00177"
  , "c5link" : "././qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#177"
  , "c1" : "void"
- , "c2" : "resetToLastCommittedPositions(KafkaConsumer<Integer,String>)"
+ , "c2" : "resetToLastCommittedPositions(KafkaConsumer&lt;Integer,String&gt;)"
  , "c3" : "3"
  , "c4" : "5"
 }} 

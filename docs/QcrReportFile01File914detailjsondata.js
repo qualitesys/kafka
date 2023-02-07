@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00079"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#79"
  , "c1" : "void"
- , "c2" : "addConfiguredSecurityProviders(Map<String,?>)"
+ , "c2" : "addConfiguredSecurityProviders(Map&lt;String,?&gt;)"
  , "c3" : "3"
  , "c4" : "11"
 }} 

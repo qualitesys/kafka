@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00046"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetricsContext.java.html#46"
  , "c1" : "KafkaMetricsContext"
- , "c2" : "KafkaMetricsContext(String;Map<String,?>)"
+ , "c2" : "KafkaMetricsContext(String;Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00052"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetricsContext.java.html#52"
- , "c1" : "Map<String,String>"
+ , "c1" : "Map&lt;String,String&gt;"
  , "c2" : "contextLabels()"
  , "c3" : "1"
  , "c4" : "1"

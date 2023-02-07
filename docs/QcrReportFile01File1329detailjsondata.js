@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java 17 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java 15 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.xml" 
  , "fic3"  : "" 
 }
@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00049"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#49"
  , "c1" : "ClientQuotaImage"
- , "c2" : "ClientQuotaImage(Map<String,Double>)"
+ , "c2" : "ClientQuotaImage(Map&lt;String,Double&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00053"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#53"
- , "c1" : "Map<String,Double>"
+ , "c1" : "Map&lt;String,Double&gt;"
  , "c2" : "quotas()"
  , "c3" : "1"
  , "c4" : "1"
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00057"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#57"
  , "c1" : "void"
- , "c2" : "write(ClientQuotaEntity;Consumer<List<ApiMessageAndVersion>>)"
+ , "c2" : "write(ClientQuotaEntity;Consumer&lt;List&lt;ApiMessageAndVersion&gt;&gt;)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00070"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#70"
- , "c1" : "List<EntityData>"
+ , "c1" : "List&lt;EntityData&gt;"
  , "c2" : "entityToData(ClientQuotaEntity)"
  , "c3" : "2"
  , "c4" : "3"
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00080"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#80"
  , "c1" : "ClientQuotaEntity"
- , "c2" : "dataToEntity(List<EntityData>)"
+ , "c2" : "dataToEntity(List&lt;EntityData&gt;)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -65,7 +65,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00088"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#88"
- , "c1" : "List<ValueData>"
+ , "c1" : "List&lt;ValueData&gt;"
  , "c2" : "toDescribeValues()"
  , "c3" : "2"
  , "c4" : "3"
@@ -156,13 +156,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -173,7 +166,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -294,21 +287,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClientQuotaImage.equals@POLYN162750"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClientQuotaImage.isEmpty@POLYN162630"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#102"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.image.ClientQuotaImage.equals@POLYN162750 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

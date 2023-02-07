@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00048"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#48"
- , "c1" : "Map<Integer,PartitionRegistration>"
+ , "c1" : "Map&lt;Integer,PartitionRegistration&gt;"
  , "c2" : "partitionChanges()"
  , "c3" : "1"
  , "c4" : "1"
@@ -139,22 +139,7 @@ var maDataBlocs = {
  , "c2" : "1"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.util.Map.getKey@POLYN435159.return" , "java.util.HashMap.put@POLYN621976.key"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1345Seq2.html#seq2"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1345&numSeq=2"
- , "c2" : "2"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.HashMap.get@POLYN618616.return" , "java.util.HashMap.put@POLYN621976.value"]
+ , "c5" : ["java.util.Map.getKey@POLYN435159.return" , "org.apache.kafka.image.TopicDelta.apply@POLYN167226.cibledummy_00082"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -171,69 +156,15 @@ var maDataBlocs = {
  , "c1" : "2"
  , "sourcenoligne" : "[00079]"
  , "c3" : ["java.util.Map.getKey@POLYN435159.return" , "---java.util.Map.getKey@POLYN435159" , "org.apache.kafka.image.TopicDelta.apply@POLYN167226.partitionId"]
- , "c4" : "//QC-JAVCWE099[00079] In org.apache.kafka.image.TopicDelta.apply@POLYN167226[00079] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
+ , "c4" : "//QC-JAVCWE099[00079] In org.apache.kafka.image.TopicDelta.apply@POLYN167226[00079] source data PATHtainted (java.util.Map.get) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "1"
- , "sourcenoligne" : "[00084]"
- , "c3" : ["org.apache.kafka.image.TopicDelta.apply@POLYN167226.partitionId" , "---java.util.HashMap.put@POLYN621976" , "java.util.HashMap.put@POLYN621976.key"]
- , "c4" : "//QC-JAVCWE099[00084] In org.apache.kafka.image.TopicDelta.apply@POLYN167226[00084] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "2" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00080]"
- , "c3" : ["java.util.HashMap.get@POLYN618616.return" , "---java.util.HashMap.get@POLYN618616" , "org.apache.kafka.image.TopicDelta.apply@POLYN167226.changedPartition"]
- , "c4" : "//QC-JAVCWE099[00080] In org.apache.kafka.image.TopicDelta.apply@POLYN167226[00080] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00084]"
- , "c3" : ["org.apache.kafka.image.TopicDelta.apply@POLYN167226.changedPartition" , "---java.util.HashMap.put@POLYN621976" , "java.util.HashMap.put@POLYN621976.value"]
- , "c4" : "//QC-JAVCWE099[00084] In org.apache.kafka.image.TopicDelta.apply@POLYN167226[00084] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "sourcenoligne" : "[00082]"
+ , "c3" : ["org.apache.kafka.image.TopicDelta.apply@POLYN167226.partitionId" , "---java.util.Map.put@POLYN429794" , "org.apache.kafka.image.TopicDelta.apply@POLYN167226.cibledummy_00082"]
+ , "c4" : "//QC-JAVCWE099[00082] In org.apache.kafka.image.TopicDelta.apply@POLYN167226[00082] target data PATHtainted (java.util.Map.put) RiskOnOutput"
  , "c5" : "input"
 }}
 ,

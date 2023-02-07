@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java 82 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java 88 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.xml" 
  , "fic3"  : "" 
 }
@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00083"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#83"
  , "c1" : "KafkaOffsetBackingStore"
- , "c2" : "forTask(String;Producer<byte[],byte[]>;Consumer<byte[],byte[]>;TopicAdmin)"
+ , "c2" : "forTask(String;Producer&lt;byte[],byte[]&gt;;Consumer&lt;byte[],byte[]&gt;;TopicAdmin)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00114"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#114"
  , "c1" : "KafkaOffsetBackingStore"
- , "c2" : "forConnector(String;Consumer<byte[],byte[]>;TopicAdmin)"
+ , "c2" : "forConnector(String;Consumer&lt;byte[],byte[]&gt;;TopicAdmin)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00162"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#162"
  , "c1" : "KafkaOffsetBackingStore"
- , "c2" : "KafkaOffsetBackingStore(Supplier<TopicAdmin>)"
+ , "c2" : "KafkaOffsetBackingStore(Supplier&lt;TopicAdmin&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -65,8 +65,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00217"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#217"
- , "c1" : "KafkaBasedLog<byte[],byte[]>"
- , "c2" : "createKafkaBasedLog(String;Map<String,Object>;Map<String,Object>;Callback<ConsumerRecord<byte[],byte[]>>;NewTopic;Supplier<TopicAdmin>)"
+ , "c1" : "KafkaBasedLog&lt;byte[],byte[]&gt;"
+ , "c2" : "createKafkaBasedLog(String;Map&lt;String,Object&gt;;Map&lt;String,Object&gt;;Callback&lt;ConsumerRecord&lt;byte[],byte[]&gt;&gt;;NewTopic;Supplier&lt;TopicAdmin&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -83,7 +83,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00237"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#237"
- , "c1" : "java.util.function.Consumer<TopicAdmin>"
+ , "c1" : "java.util.function.Consumer&lt;TopicAdmin&gt;"
  , "c2" : "initialize(String;NewTopic)"
  , "c3" : "2"
  , "c4" : "5"
@@ -110,8 +110,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00297"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#297"
- , "c1" : "Future<Map<ByteBuffer,ByteBuffer>>"
- , "c2" : "get(Collection<ByteBuffer>)"
+ , "c1" : "Future&lt;Map&lt;ByteBuffer,ByteBuffer&gt;&gt;"
+ , "c2" : "get(Collection&lt;ByteBuffer&gt;)"
  , "c3" : "2"
  , "c4" : "6"
 }} 
@@ -119,8 +119,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00316"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#316"
- , "c1" : "Future<Void>"
- , "c2" : "set(Map<ByteBuffer,ByteBuffer>;Callback<Void>)"
+ , "c1" : "Future&lt;Void&gt;"
+ , "c2" : "set(Map&lt;ByteBuffer,ByteBuffer&gt;;Callback&lt;Void&gt;)"
  , "c3" : "2"
  , "c4" : "5"
 }} 
@@ -170,7 +170,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "10"
+ , "c4" : "15"
 }}
 ,
 { "ligne" : { "" : ""
@@ -184,7 +184,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -718,63 +718,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaOffsetBackingStore.configure@POLYN219534"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaOffsetBackingStore.initialize@POLYN224202"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaOffsetBackingStore.initialize@POLYN224202"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaOffsetBackingStore.start@POLYN224902"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#170"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00170] In the recursive method org.apache.kafka.connect.storage.KafkaOffsetBackingStore.configure@POLYN219534 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#170"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00170] In the recursive method org.apache.kafka.connect.storage.KafkaOffsetBackingStore.configure@POLYN219534 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00171"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#171"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00171] In the recursive method org.apache.kafka.connect.storage.KafkaOffsetBackingStore.configure@POLYN219534 the MagicNumber/String 'Offset storage topic must be specified' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#187"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00187] In the recursive method org.apache.kafka.connect.storage.KafkaOffsetBackingStore.configure@POLYN219534 the MagicNumber/String 'false' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00197"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#197"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00197] In the recursive method org.apache.kafka.connect.storage.KafkaOffsetBackingStore.configure@POLYN219534 the MagicNumber/String 'for the worker offsets topic consumer when exactly-once source support is enabled' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#198"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00198] In the recursive method org.apache.kafka.connect.storage.KafkaOffsetBackingStore.configure@POLYN219534 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00205"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#205"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00205] In the recursive method org.apache.kafka.connect.storage.KafkaOffsetBackingStore.configure@POLYN219534 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaOffsetBackingStore.stop@POLYN226206"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -796,6 +754,90 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#246"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.connect.storage.KafkaOffsetBackingStore.initialize@POLYN224202 the MagicNumber/String 'source connector offsets' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00253"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#253"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00253] In the recursive method org.apache.kafka.connect.storage.KafkaOffsetBackingStore.start@POLYN224902 the MagicNumber/String 'Starting KafkaOffsetBackingStore' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00259"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#259"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00259] In the recursive method org.apache.kafka.connect.storage.KafkaOffsetBackingStore.start@POLYN224902 the MagicNumber/String 'Enabling exactly-once support for source connectors requires a Kafka broker version that allows ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00260"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#260"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00260] In the recursive method org.apache.kafka.connect.storage.KafkaOffsetBackingStore.start@POLYN224902 the MagicNumber/String 'admin clients to read consumer offsets. Please either disable the worker's exactly-once ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00261"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#261"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00261] In the recursive method org.apache.kafka.connect.storage.KafkaOffsetBackingStore.start@POLYN224902 the MagicNumber/String 'support for source connectors, or upgrade to a newer Kafka broker version.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00263"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#263"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00263] In the recursive method org.apache.kafka.connect.storage.KafkaOffsetBackingStore.start@POLYN224902 the MagicNumber/String 'When ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00263"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#263"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00263] In the recursive method org.apache.kafka.connect.storage.KafkaOffsetBackingStore.start@POLYN224902 the MagicNumber/String 'is set to ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00265"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#265"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00265] In the recursive method org.apache.kafka.connect.storage.KafkaOffsetBackingStore.start@POLYN224902 the MagicNumber/String ', a Kafka broker version that allows admin clients to read consumer offsets is required. ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00266"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#266"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00266] In the recursive method org.apache.kafka.connect.storage.KafkaOffsetBackingStore.start@POLYN224902 the MagicNumber/String 'Please either reconfigure the worker or connector, or upgrade to a newer Kafka broker version.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00270"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#270"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00270] In the recursive method org.apache.kafka.connect.storage.KafkaOffsetBackingStore.start@POLYN224902 the MagicNumber/String 'Finished reading offsets topic and starting KafkaOffsetBackingStore' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00285"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#285"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00285] In the recursive method org.apache.kafka.connect.storage.KafkaOffsetBackingStore.stop@POLYN226206 the MagicNumber/String 'Stopping KafkaOffsetBackingStore' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#289"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.connect.storage.KafkaOffsetBackingStore.stop@POLYN226206 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00293"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#293"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00293] In the recursive method org.apache.kafka.connect.storage.KafkaOffsetBackingStore.stop@POLYN226206 the MagicNumber/String 'Stopped KafkaOffsetBackingStore' MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -74,7 +74,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00096"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/Message.java.html#96"
- , "c1" : "List<RawTaggedField>"
+ , "c1" : "List&lt;RawTaggedField&gt;"
  , "c2" : "unknownTaggedFields()"
  , "c3" : "1"
  , "c4" : "1"

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java 46 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java 47 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.xml" 
  , "fic3"  : "" 
 }
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00219"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#219"
  , "c1" : "ConfigDef"
- , "c2" : "enrich(ConfigDef;Map<String,String>;AbstractConfig)"
+ , "c2" : "enrich(ConfigDef;Map&lt;String,String&gt;;AbstractConfig)"
  , "c3" : "3"
  , "c4" : "14"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00243"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#243"
  , "c1" : "SourceConnectorConfig"
- , "c2" : "SourceConnectorConfig(Plugins;Map<String,String>;boolean)"
+ , "c2" : "SourceConnectorConfig(Plugins;Map&lt;String,String&gt;;boolean)"
  , "c3" : "3"
  , "c4" : "10"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00268"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#268"
  , "c1" : "boolean"
- , "c2" : "usesTopicCreation(Map<String,String>)"
+ , "c2" : "usesTopicCreation(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -110,7 +110,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00298"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#298"
- , "c1" : "List<String>"
+ , "c1" : "List&lt;String&gt;"
  , "c2" : "topicCreationInclude(String)"
  , "c3" : "1"
  , "c4" : "1"
@@ -119,7 +119,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00302"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#302"
- , "c1" : "List<String>"
+ , "c1" : "List&lt;String&gt;"
  , "c2" : "topicCreationExclude(String)"
  , "c3" : "1"
  , "c4" : "1"
@@ -146,7 +146,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00314"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#314"
- , "c1" : "Map<String,Object>"
+ , "c1" : "Map&lt;String,Object&gt;"
  , "c2" : "topicCreationOtherConfigs(String)"
  , "c3" : "2"
  , "c4" : "4"
@@ -225,7 +225,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -515,6 +515,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#314"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00314] For method topicCreationOtherConfigs arguments String  group"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00314"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#314"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00314] For method topicCreationOtherConfigs list of called methods Object monObjet|K e_getKeyN206726"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -1,97 +1,34 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html" 
- , "texte" : "File storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java 19 rule violations " 
- , "fic2"  : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.xml" 
+   "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html" 
+ , "texte" : "File shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java 17 rule violations " 
+ , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.server.log.remote.storage.LogSegmentData"
+ , "c1" : "Commands.Handler"
+ , "c2" : "org.apache.kafka.shell.PwdCommandHandler"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.server.log.remote.storage.LogSegmentData" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.shell.PwdCommandHandler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00051"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#51"
- , "c1" : "LogSegmentData"
- , "c2" : "LogSegmentData(Path;Path;Path;Optional<Path>;Path;ByteBuffer)"
+ , "c5" : "00071"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#71"
+ , "c1" : "void"
+ , "c2" : "run(Optional&lt;InteractiveShell&gt;;PrintWriter;MetadataNodeManager)"
  , "c3" : "1"
- , "c4" : "6"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#68"
- , "c1" : "Path"
- , "c2" : "logSegment()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00075"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#75"
- , "c1" : "Path"
- , "c2" : "offsetIndex()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00082"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#82"
- , "c1" : "Path"
- , "c2" : "timeIndex()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00089"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#89"
- , "c1" : "Optional<Path>"
- , "c2" : "transactionIndex()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00096"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#96"
- , "c1" : "Path"
- , "c2" : "producerSnapshotIndex()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00103"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#103"
- , "c1" : "ByteBuffer"
- , "c2" : "leaderEpochIndex()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00108"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#108"
- , "c1" : "boolean"
- , "c2" : "equals(Object)"
- , "c3" : "3"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00125"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#125"
+ , "c5" : "00080"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#80"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -99,21 +36,21 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00130"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#130"
- , "c1" : "String"
- , "c2" : "toString()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c5" : "00085"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#85"
+ , "c1" : "boolean"
+ , "c2" : "equals(Object)"
+ , "c3" : "2"
+ , "c4" : "2"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.png" 
+   {"ligne" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.png" 
 
- , "ligneplantuml" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.svg" }
+ , "ligneplantuml" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.svg" }
 
 ] 
 , 
@@ -140,164 +77,164 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "17"
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
- , "c2" : "QC-JAV000021"
- , "c3" : "The same method is called several times, might be optimized"
- , "c4" : "1"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "1"
+ , "c4" : "5"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#57"
+ , "c1" : "00040"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.server.log.remote.storage.LogSegmentData.LogSegmentData@POLYN158656 the MagicNumber/String  'logSegment can not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.shell.PwdCommandHandler.PwdCommandType.name@POLYN148452 the MagicNumber/String  'pwd' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#58"
+ , "c1" : "00045"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.server.log.remote.storage.LogSegmentData.LogSegmentData@POLYN158656 the MagicNumber/String  'offsetIndex can not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.shell.PwdCommandHandler.PwdCommandType.description@POLYN148554 the MagicNumber/String  'Print the current working directory.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#50"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.shell.PwdCommandHandler.PwdCommandType.shellOnly@POLYN148656 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#54"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00054] For method addArguments arguments ArgumentParser  parser"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.server.log.remote.storage.LogSegmentData.LogSegmentData@POLYN158656 the MagicNumber/String  'timeIndex can not be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#60"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.server.log.remote.storage.LogSegmentData.LogSegmentData@POLYN158656 the MagicNumber/String  'transactionIndex can not be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#61"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.server.log.remote.storage.LogSegmentData.LogSegmentData@POLYN158656 the MagicNumber/String  'producerSnapshotIndex can not be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#62"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.server.log.remote.storage.LogSegmentData.LogSegmentData@POLYN158656 the MagicNumber/String  'leaderEpochIndex can not be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#108"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00108] For method equals arguments Object  o"
+ , "c3" : "QC-JAV000006[00059] For method createHandler arguments Namespace  namespace"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#112"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000021[00112] The same method call o.getClass() is used several times, should be optimized "
+ , "c1" : "00064"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#64"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00064] For method completeNext arguments MetadataNodeManager  nodeManager|List&lt;String &gt;  nextWords|List&lt;Candidate &gt;  candidates"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#110"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.server.log.remote.storage.LogSegmentData.equals@POLYN160468 the MagicNumber/String  true should be converted to const"
+ , "c1" : "00054"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#54"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00054] Void method addArguments is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#112"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.server.log.remote.storage.LogSegmentData.equals@POLYN160468 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00054"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#54"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00054] Void method addArguments is empty or contains only a return. Interface segregation"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#113"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.server.log.remote.storage.LogSegmentData.equals@POLYN160468 the MagicNumber/String  false should be converted to const"
+ , "c1" : "00064"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#64"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00064] Void method completeNext is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#131"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.server.log.remote.storage.LogSegmentData.toString@POLYN161731 the MagicNumber/String  'LogSegmentData{' should be converted to const"
+ , "c1" : "00064"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#64"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00064] Void method completeNext is empty or contains only a return. Interface segregation"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#132"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.server.log.remote.storage.LogSegmentData.toString@POLYN161731 the MagicNumber/String  'logSegment=' should be converted to const"
+ , "c1" : "00071"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#71"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00071] For method run arguments Optional&lt;InteractiveShell &gt;  shell|PrintWriter  writer|MetadataNodeManager  manager"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#133"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.server.log.remote.storage.LogSegmentData.toString@POLYN161731 the MagicNumber/String  ', offsetIndex=' should be converted to const"
+ , "c1" : "00072"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#72"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00072] The argument writer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#134"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.server.log.remote.storage.LogSegmentData.toString@POLYN161731 the MagicNumber/String  ', timeIndex=' should be converted to const"
+ , "c1" : "00073"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#73"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00073] The argument manager is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00135"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#135"
+ , "c1" : "00081"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.server.log.remote.storage.LogSegmentData.toString@POLYN161731 the MagicNumber/String  ', txnIndex=' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.shell.PwdCommandHandler.hashCode@POLYN149507 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#136"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.server.log.remote.storage.LogSegmentData.toString@POLYN161731 the MagicNumber/String  ', producerSnapshotIndex=' should be converted to const"
+ , "c1" : "00085"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#85"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00085] For method equals arguments Object  other"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#137"
+ , "c1" : "00086"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.server.log.remote.storage.LogSegmentData.toString@POLYN161731 the MagicNumber/String  ', leaderEpochIndex=' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.shell.PwdCommandHandler.equals@POLYN149609 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00138"
- , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.html#138"
+ , "c1" : "00087"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.server.log.remote.storage.LogSegmentData.toString@POLYN161731 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.shell.PwdCommandHandler.equals@POLYN149609 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/LogSegmentData.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.fct.svg" 
 
 , 
 }

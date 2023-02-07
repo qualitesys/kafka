@@ -20,7 +20,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00209"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#209"
- , "c1" : "List<TopicPartition>"
+ , "c1" : "List&lt;TopicPartition&gt;"
  , "c2" : "partitions()"
  , "c3" : "4"
  , "c4" : "4"
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00230"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#230"
- , "c1" : "Map<String,List<TopicPartition>>"
+ , "c1" : "Map&lt;String,List&lt;TopicPartition&gt;&gt;"
  , "c2" : "groupIdsToPartitions()"
  , "c3" : "5"
  , "c4" : "6"
@@ -56,7 +56,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00247"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#247"
- , "c1" : "Map<String,List<OffsetFetchRequestTopics>>"
+ , "c1" : "Map&lt;String,List&lt;OffsetFetchRequestTopics&gt;&gt;"
  , "c2" : "groupIdsToTopics()"
  , "c3" : "1"
  , "c4" : "3"
@@ -65,7 +65,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00254"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#254"
- , "c1" : "List<String>"
+ , "c1" : "List&lt;String&gt;"
  , "c2" : "groupIds()"
  , "c3" : "1"
  , "c4" : "1"
@@ -659,13 +659,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetFetchRequest.getErrorResponse@POLYN206352"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetFetchRequest.groupIds@POLYN203422"
 }} 
 ,
@@ -674,6 +667,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetFetchRequest.Builder.toString@POLYN200410"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetFetchRequest.getErrorResponse@POLYN206352"
 }} 
 ,
 { "ligne" : {"" : ""

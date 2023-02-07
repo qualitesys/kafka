@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00061"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#61"
  , "c1" : "LeaderState"
- , "c2" : "LeaderState(int;int;long;Set<Integer>;Set<Integer>;BatchAccumulator<T>;LogContext)"
+ , "c2" : "LeaderState(int;int;long;Set&lt;Integer&gt;;Set&lt;Integer&gt;;BatchAccumulator&lt;T&gt;;LogContext)"
  , "c3" : "2"
  , "c4" : "9"
 }} 
@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00084"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#84"
- , "c1" : "BatchAccumulator<T>"
+ , "c1" : "BatchAccumulator&lt;T&gt;"
  , "c2" : "accumulator()"
  , "c3" : "1"
  , "c4" : "1"
@@ -38,8 +38,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00088"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#88"
- , "c1" : "List<Voter>"
- , "c2" : "convertToVoters(Set<Integer>)"
+ , "c1" : "List&lt;Voter&gt;"
+ , "c2" : "convertToVoters(Set&lt;Integer&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -74,7 +74,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00117"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#117"
- , "c1" : "Optional<LogOffsetMetadata>"
+ , "c1" : "Optional&lt;LogOffsetMetadata&gt;"
  , "c2" : "highWatermark()"
  , "c3" : "1"
  , "c4" : "1"
@@ -101,7 +101,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00131"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#131"
- , "c1" : "Set<Integer>"
+ , "c1" : "Set&lt;Integer&gt;"
  , "c2" : "grantingVoters()"
  , "c3" : "1"
  , "c4" : "1"
@@ -119,7 +119,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00139"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#139"
- , "c1" : "Set<Integer>"
+ , "c1" : "Set&lt;Integer&gt;"
  , "c2" : "nonAcknowledgingVoters()"
  , "c3" : "3"
  , "c4" : "3"
@@ -155,7 +155,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00236"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#236"
- , "c1" : "List<Integer>"
+ , "c1" : "List&lt;Integer&gt;"
  , "c2" : "nonLeaderVotersByDescendingFetchOffset()"
  , "c3" : "1"
  , "c4" : "1"
@@ -164,7 +164,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00243"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#243"
- , "c1" : "List<ReplicaState>"
+ , "c1" : "List&lt;ReplicaState&gt;"
  , "c2" : "followersByDescendingFetchOffset()"
  , "c3" : "1"
  , "c4" : "1"
@@ -218,7 +218,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00293"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#293"
- , "c1" : "Map<Integer,Long>"
+ , "c1" : "Map&lt;Integer,Long&gt;"
  , "c2" : "getVoterEndOffsets()"
  , "c3" : "1"
  , "c4" : "1"
@@ -227,7 +227,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00297"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#297"
- , "c1" : "Map<Integer,Long>"
+ , "c1" : "Map&lt;Integer,Long&gt;"
  , "c2" : "getObserverStates(long)"
  , "c3" : "1"
  , "c4" : "2"
@@ -810,28 +810,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.LeaderState.canGrantVote@POLYN203756"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN194848"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN194848"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00367"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#367"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00367] In the recursive method org.apache.kafka.raft.LeaderState.canGrantVote@POLYN203756 the MagicNumber/String 'Rejecting vote request from candidate {} since we are already leader in epoch {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00369"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#369"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00369] In the recursive method org.apache.kafka.raft.LeaderState.canGrantVote@POLYN203756 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.LeaderState.canGrantVote@POLYN203756"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -909,6 +895,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#202"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00202] In the recursive method org.apache.kafka.raft.LeaderState.updateHighWatermark@POLYN194848 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00367"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#367"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00367] In the recursive method org.apache.kafka.raft.LeaderState.canGrantVote@POLYN203756 the MagicNumber/String 'Rejecting vote request from candidate {} since we are already leader in epoch {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00369"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#369"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00369] In the recursive method org.apache.kafka.raft.LeaderState.canGrantVote@POLYN203756 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

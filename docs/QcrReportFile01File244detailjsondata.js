@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00038"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetrics.java.html#38"
- , "c1" : "List<MetricNameTemplate>"
+ , "c1" : "List&lt;MetricNameTemplate&gt;"
  , "c2" : "getAllTemplates()"
  , "c3" : "1"
  , "c4" : "2"

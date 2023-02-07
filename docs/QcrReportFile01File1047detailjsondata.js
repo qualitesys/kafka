@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00035"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#35"
- , "c1" : "List<ConfigValue>"
+ , "c1" : "List&lt;ConfigValue&gt;"
  , "c2" : "validate(ConnectorClientConfigRequest)"
  , "c3" : "1"
  , "c4" : "2"
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00040"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#40"
  , "c1" : "ConfigValue"
- , "c2" : "configValue(Map.Entry<String,Object>)"
+ , "c2" : "configValue(Map.Entry&lt;String,Object&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 

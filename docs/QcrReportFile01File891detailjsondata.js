@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00050"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CircularIterator.java.html#50"
  , "c1" : "CircularIterator"
- , "c2" : "CircularIterator(Collection<T>)"
+ , "c2" : "CircularIterator(Collection&lt;T&gt;)"
  , "c3" : "2"
  , "c4" : "4"
 }} 

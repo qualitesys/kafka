@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00049"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#49"
  , "c1" : "ClientQuotaEntity"
- , "c2" : "ClientQuotaEntity(Map<String,String>)"
+ , "c2" : "ClientQuotaEntity(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00056"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaEntity.java.html#56"
- , "c1" : "Map<String,String>"
+ , "c1" : "Map&lt;String,String&gt;"
  , "c2" : "entries()"
  , "c3" : "1"
  , "c4" : "1"

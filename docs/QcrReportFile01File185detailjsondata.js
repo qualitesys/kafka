@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java 324 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java 323 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.xml" 
  , "fic3"  : "" 
 }
@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
  , "c1" : "KafkaConsumer"
- , "c2" : "KafkaConsumer(Map<String,Object>)"
+ , "c2" : "KafkaConsumer(Map&lt;String,Object&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
  , "c1" : "KafkaConsumer"
- , "c2" : "KafkaConsumer(Properties;Deserializer<K>;Deserializer<V>)"
+ , "c2" : "KafkaConsumer(Properties;Deserializer&lt;K&gt;;Deserializer&lt;V&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
  , "c1" : "KafkaConsumer"
- , "c2" : "KafkaConsumer(Map<String,Object>;Deserializer<K>;Deserializer<V>)"
+ , "c2" : "KafkaConsumer(Map&lt;String,Object&gt;;Deserializer&lt;K&gt;;Deserializer&lt;V&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
  , "c1" : "KafkaConsumer"
- , "c2" : "KafkaConsumer(ConsumerConfig;Deserializer<K>;Deserializer<V>)"
+ , "c2" : "KafkaConsumer(ConsumerConfig;Deserializer&lt;K&gt;;Deserializer&lt;V&gt;)"
  , "c3" : "11"
  , "c4" : "53"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
  , "c1" : "KafkaConsumer"
- , "c2" : "KafkaConsumer(LogContext;String;ConsumerCoordinator;Deserializer<K>;Deserializer<V>;Fetcher<K,V>;ConsumerInterceptors<K,V>;Time;ConsumerNetworkClient;Metrics;SubscriptionState;ConsumerMetadata;long;long;int;List<ConsumerPartitionAssignor>;String)"
+ , "c2" : "KafkaConsumer(LogContext;String;ConsumerCoordinator;Deserializer&lt;K&gt;;Deserializer&lt;V&gt;;Fetcher&lt;K,V&gt;;ConsumerInterceptors&lt;K,V&gt;;Time;ConsumerNetworkClient;Metrics;SubscriptionState;ConsumerMetadata;long;long;int;List&lt;ConsumerPartitionAssignor&gt;;String)"
  , "c3" : "1"
  , "c4" : "19"
 }} 
@@ -83,7 +83,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
- , "c1" : "Set<TopicPartition>"
+ , "c1" : "Set&lt;TopicPartition&gt;"
  , "c2" : "assignment()"
  , "c3" : "1"
  , "c4" : "3"
@@ -92,7 +92,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "subscription()"
  , "c3" : "1"
  , "c4" : "3"
@@ -102,7 +102,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
  , "c1" : "void"
- , "c2" : "subscribe(Collection<String>;ConsumerRebalanceListener)"
+ , "c2" : "subscribe(Collection&lt;String&gt;;ConsumerRebalanceListener)"
  , "c3" : "7"
  , "c4" : "10"
 }} 
@@ -111,7 +111,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
  , "c1" : "void"
- , "c2" : "subscribe(Collection<String>)"
+ , "c2" : "subscribe(Collection&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -147,7 +147,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
  , "c1" : "void"
- , "c2" : "assign(Collection<TopicPartition>)"
+ , "c2" : "assign(Collection&lt;TopicPartition&gt;)"
  , "c3" : "9"
  , "c4" : "10"
 }} 
@@ -155,7 +155,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
- , "c1" : "ConsumerRecords<K,V>"
+ , "c1" : "ConsumerRecords&lt;K,V&gt;"
  , "c2" : "poll(long)"
  , "c3" : "1"
  , "c4" : "1"
@@ -164,7 +164,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
- , "c1" : "ConsumerRecords<K,V>"
+ , "c1" : "ConsumerRecords&lt;K,V&gt;"
  , "c2" : "poll(Duration)"
  , "c3" : "1"
  , "c4" : "1"
@@ -173,7 +173,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
- , "c1" : "ConsumerRecords<K,V>"
+ , "c1" : "ConsumerRecords&lt;K,V&gt;"
  , "c2" : "poll(Timer;boolean)"
  , "c3" : "10"
  , "c4" : "14"
@@ -191,7 +191,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
- , "c1" : "Fetch<K,V>"
+ , "c1" : "Fetch&lt;K,V&gt;"
  , "c2" : "pollForFetches(Timer)"
  , "c3" : "3"
  , "c4" : "11"
@@ -219,7 +219,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
  , "c1" : "void"
- , "c2" : "commitSync(Map<TopicPartition,OffsetAndMetadata>)"
+ , "c2" : "commitSync(Map&lt;TopicPartition,OffsetAndMetadata&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -228,7 +228,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
  , "c1" : "void"
- , "c2" : "commitSync(Map<TopicPartition,OffsetAndMetadata>;Duration)"
+ , "c2" : "commitSync(Map&lt;TopicPartition,OffsetAndMetadata&gt;;Duration)"
  , "c3" : "2"
  , "c4" : "7"
 }} 
@@ -255,7 +255,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
  , "c1" : "void"
- , "c2" : "commitAsync(Map<TopicPartition,OffsetAndMetadata>;OffsetCommitCallback)"
+ , "c2" : "commitAsync(Map&lt;TopicPartition,OffsetAndMetadata&gt;;OffsetCommitCallback)"
  , "c3" : "1"
  , "c4" : "6"
 }} 
@@ -282,7 +282,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
  , "c1" : "void"
- , "c2" : "seekToBeginning(Collection<TopicPartition>)"
+ , "c2" : "seekToBeginning(Collection&lt;TopicPartition&gt;)"
  , "c3" : "2"
  , "c4" : "5"
 }} 
@@ -291,7 +291,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
  , "c1" : "void"
- , "c2" : "seekToEnd(Collection<TopicPartition>)"
+ , "c2" : "seekToEnd(Collection&lt;TopicPartition&gt;)"
  , "c3" : "2"
  , "c4" : "5"
 }} 
@@ -335,8 +335,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
- , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
- , "c2" : "committed(Set<TopicPartition>)"
+ , "c1" : "Map&lt;TopicPartition,OffsetAndMetadata&gt;"
+ , "c2" : "committed(Set&lt;TopicPartition&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -344,8 +344,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
- , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
- , "c2" : "committed(Set<TopicPartition>;Duration)"
+ , "c1" : "Map&lt;TopicPartition,OffsetAndMetadata&gt;"
+ , "c2" : "committed(Set&lt;TopicPartition&gt;;Duration)"
  , "c3" : "3"
  , "c4" : "10"
 }} 
@@ -353,7 +353,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
- , "c1" : "Map<MetricName,?extendsMetric>"
+ , "c1" : "Map&lt;MetricName,?extendsMetric&gt;"
  , "c2" : "metrics()"
  , "c3" : "1"
  , "c4" : "1"
@@ -362,7 +362,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
- , "c1" : "List<PartitionInfo>"
+ , "c1" : "List&lt;PartitionInfo&gt;"
  , "c2" : "partitionsFor(String)"
  , "c3" : "1"
  , "c4" : "1"
@@ -371,7 +371,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
- , "c1" : "List<PartitionInfo>"
+ , "c1" : "List&lt;PartitionInfo&gt;"
  , "c2" : "partitionsFor(String;Duration)"
  , "c3" : "2"
  , "c4" : "8"
@@ -380,7 +380,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
- , "c1" : "Map<String,List<PartitionInfo>>"
+ , "c1" : "Map&lt;String,List&lt;PartitionInfo&gt;&gt;"
  , "c2" : "listTopics()"
  , "c3" : "1"
  , "c4" : "1"
@@ -389,7 +389,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
- , "c1" : "Map<String,List<PartitionInfo>>"
+ , "c1" : "Map&lt;String,List&lt;PartitionInfo&gt;&gt;"
  , "c2" : "listTopics(Duration)"
  , "c3" : "1"
  , "c4" : "3"
@@ -399,7 +399,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
  , "c1" : "void"
- , "c2" : "pause(Collection<TopicPartition>)"
+ , "c2" : "pause(Collection&lt;TopicPartition&gt;)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -408,7 +408,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
  , "c1" : "void"
- , "c2" : "resume(Collection<TopicPartition>)"
+ , "c2" : "resume(Collection&lt;TopicPartition&gt;)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -416,7 +416,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
- , "c1" : "Set<TopicPartition>"
+ , "c1" : "Set&lt;TopicPartition&gt;"
  , "c2" : "paused()"
  , "c3" : "1"
  , "c4" : "3"
@@ -425,8 +425,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
- , "c1" : "Map<TopicPartition,OffsetAndTimestamp>"
- , "c2" : "offsetsForTimes(Map<TopicPartition,Long>)"
+ , "c1" : "Map&lt;TopicPartition,OffsetAndTimestamp&gt;"
+ , "c2" : "offsetsForTimes(Map&lt;TopicPartition,Long&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -434,8 +434,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
- , "c1" : "Map<TopicPartition,OffsetAndTimestamp>"
- , "c2" : "offsetsForTimes(Map<TopicPartition,Long>;Duration)"
+ , "c1" : "Map&lt;TopicPartition,OffsetAndTimestamp&gt;"
+ , "c2" : "offsetsForTimes(Map&lt;TopicPartition,Long&gt;;Duration)"
  , "c3" : "3"
  , "c4" : "4"
 }} 
@@ -443,8 +443,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
- , "c1" : "Map<TopicPartition,Long>"
- , "c2" : "beginningOffsets(Collection<TopicPartition>)"
+ , "c1" : "Map&lt;TopicPartition,Long&gt;"
+ , "c2" : "beginningOffsets(Collection&lt;TopicPartition&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -452,8 +452,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
- , "c1" : "Map<TopicPartition,Long>"
- , "c2" : "beginningOffsets(Collection<TopicPartition>;Duration)"
+ , "c1" : "Map&lt;TopicPartition,Long&gt;"
+ , "c2" : "beginningOffsets(Collection&lt;TopicPartition&gt;;Duration)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -461,8 +461,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
- , "c1" : "Map<TopicPartition,Long>"
- , "c2" : "endOffsets(Collection<TopicPartition>)"
+ , "c1" : "Map&lt;TopicPartition,Long&gt;"
+ , "c2" : "endOffsets(Collection&lt;TopicPartition&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -470,8 +470,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
- , "c1" : "Map<TopicPartition,Long>"
- , "c2" : "endOffsets(Collection<TopicPartition>;Duration)"
+ , "c1" : "Map&lt;TopicPartition,Long&gt;"
+ , "c2" : "endOffsets(Collection&lt;TopicPartition&gt;;Duration)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -543,7 +543,7 @@ var maDataBlocs = {
  , "c5" : "00001"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
  , "c1" : "ClusterResourceListeners"
- , "c2" : "configureClusterResourceListeners(Deserializer<K>;Deserializer<V>;List<?>...)"
+ , "c2" : "configureClusterResourceListeners(Deserializer&lt;K&gt;;Deserializer&lt;V&gt;;List&lt;?&gt;...)"
  , "c3" : "2"
  , "c4" : "5"
 }} 
@@ -683,7 +683,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "94"
+ , "c4" : "93"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2330,14 +2330,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN850141"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.KafkaConsumer.buildMetrics@POLYN841077"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.KafkaConsumer.updateAssignmentMetadataIfNeeded@POLYN914742"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.KafkaConsumer.subscribe@POLYN850141"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2989,13 +2989,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.clients.consumer.KafkaConsumer.close@POLYN909604 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/KafkaConsumer.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.clients.consumer.KafkaConsumer.updateAssignmentMetadataIfNeeded@POLYN914742 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
 , 

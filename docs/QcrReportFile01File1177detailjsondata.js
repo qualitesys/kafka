@@ -38,8 +38,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00058"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetBackingStore.java.html#58"
- , "c1" : "Future<Map<ByteBuffer,ByteBuffer>>"
- , "c2" : "get(Collection<ByteBuffer>)"
+ , "c1" : "Future&lt;Map&lt;ByteBuffer,ByteBuffer&gt;&gt;"
+ , "c2" : "get(Collection&lt;ByteBuffer&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -47,8 +47,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00066"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetBackingStore.java.html#66"
- , "c1" : "Future<Void>"
- , "c2" : "set(Map<ByteBuffer,ByteBuffer>;Callback<Void>)"
+ , "c1" : "Future&lt;Void&gt;"
+ , "c2" : "set(Map&lt;ByteBuffer,ByteBuffer&gt;;Callback&lt;Void&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

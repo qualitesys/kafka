@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00033"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberDescription.java.html#33"
  , "c1" : "MemberDescription"
- , "c2" : "MemberDescription(String;Optional<String>;String;String;MemberAssignment)"
+ , "c2" : "MemberDescription(String;Optional&lt;String&gt;;String;String;MemberAssignment)"
  , "c3" : "1"
  , "c4" : "5"
 }} 
@@ -65,7 +65,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00080"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberDescription.java.html#80"
- , "c1" : "Optional<String>"
+ , "c1" : "Optional&lt;String&gt;"
  , "c2" : "groupInstanceId()"
  , "c3" : "1"
  , "c4" : "1"

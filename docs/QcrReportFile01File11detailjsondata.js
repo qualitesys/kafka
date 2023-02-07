@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java 158 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java 159 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.xml" 
  , "fic3"  : "" 
 }
@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00085"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#85"
- , "c1" : "Map<Uuid,String>"
+ , "c1" : "Map&lt;Uuid,String&gt;"
  , "c2" : "sessionTopicNames()"
  , "c3" : "1"
  , "c4" : "1"
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00386"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#386"
  , "c1" : "String"
- , "c2" : "topicPartitionsToLogString(Collection<TopicPartition>)"
+ , "c2" : "topicPartitionsToLogString(Collection&lt;TopicPartition&gt;)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00393"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#393"
  , "c1" : "String"
- , "c2" : "topicIdPartitionsToLogString(Collection<TopicIdPartition>)"
+ , "c2" : "topicIdPartitionsToLogString(Collection&lt;TopicIdPartition&gt;)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00425"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#425"
  , "c1" : "String"
- , "c2" : "verifyFullFetchResponsePartitions(Set<TopicPartition>;Set<Uuid>;short)"
+ , "c2" : "verifyFullFetchResponsePartitions(Set&lt;TopicPartition&gt;;Set&lt;Uuid&gt;;short)"
  , "c3" : "6"
  , "c4" : "11"
 }} 
@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00459"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#459"
  , "c1" : "String"
- , "c2" : "verifyIncrementalFetchResponsePartitions(Set<TopicPartition>;Set<Uuid>;short)"
+ , "c2" : "verifyIncrementalFetchResponsePartitions(Set&lt;TopicPartition&gt;;Set&lt;Uuid&gt;;short)"
  , "c3" : "5"
  , "c4" : "9"
 }} 
@@ -93,7 +93,7 @@ var maDataBlocs = {
  , "c5" : "00484"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#484"
  , "c1" : "String"
- , "c2" : "responseDataToLogString(Set<TopicPartition>)"
+ , "c2" : "responseDataToLogString(Set&lt;TopicPartition&gt;)"
  , "c3" : "6"
  , "c4" : "13"
 }} 
@@ -141,82 +141,6 @@ var maDataBlocs = {
 "data08" : [
 ]
 , 
-"data09a" : [
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File11Seq1.html#seq1"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=11&numSeq=1"
- , "c2" : "1"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.HashMap.remove@POLYN650962.return" , "java.util.HashMap.put@POLYN621976.value"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-]
-,
-"data09b" : [
-{ "sequence" : { 
- "seq" : "1" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00299]"
- , "c3" : ["java.util.HashMap.remove@POLYN650962.return" , "---java.util.HashMap.remove@POLYN650962" , "org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN247614.nextData"]
- , "c4" : "//QC-JAVCWE099[00299] In org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN247614[00299] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00338]"
- , "c3" : ["org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN247614.nextData" , "---java.util.HashMap.put@POLYN621976" , "java.util.HashMap.put@POLYN621976.value"]
- , "c4" : "//QC-JAVCWE099[00338] In org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN247614[00338] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-]
-, 
-"data10" : [
-]
-, 
 "data11" : [
 ]
 , 
@@ -258,7 +182,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1163,13 +1087,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.FetchSessionHandler.newBuilder@POLYN253607"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN247614"
 }} 
 ,
@@ -1178,6 +1095,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.FetchSessionHandler.handleError@POLYN265986"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.FetchSessionHandler.newBuilder@POLYN253266"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.FetchSessionHandler.newBuilder@POLYN253607"
 }} 
 ,
 { "ligne" : {"" : ""

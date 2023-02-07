@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00113"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ValidatorAccessTokenValidator.java.html#113"
  , "c1" : "ValidatorAccessTokenValidator"
- , "c2" : "ValidatorAccessTokenValidator(Integer;Set<String>;String;VerificationKeyResolver;String;String)"
+ , "c2" : "ValidatorAccessTokenValidator(Integer;Set&lt;String&gt;;String;VerificationKeyResolver;String;String)"
  , "c3" : "4"
  , "c4" : "7"
 }} 

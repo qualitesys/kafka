@@ -20,7 +20,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00037"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaSelector.java.html#37"
- , "c1" : "Optional<ReplicaView>"
+ , "c1" : "Optional&lt;ReplicaView&gt;"
  , "c2" : "select(TopicPartition;ClientMetadata;PartitionView)"
  , "c3" : "1"
  , "c4" : "1"
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00046"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/replica/ReplicaSelector.java.html#46"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "0"
 }} 

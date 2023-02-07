@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00071"
  , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#71"
  , "c1" : "MirrorSourceTask"
- , "c2" : "MirrorSourceTask(KafkaConsumer<byte[],byte[]>;MirrorMetrics;String;ReplicationPolicy;long)"
+ , "c2" : "MirrorSourceTask(KafkaConsumer&lt;byte[],byte[]&gt;;MirrorMetrics;String;ReplicationPolicy;long)"
  , "c3" : "1"
  , "c4" : "6"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00082"
  , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#82"
  , "c1" : "void"
- , "c2" : "start(Map<String,String>)"
+ , "c2" : "start(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "19"
 }} 
@@ -74,7 +74,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00133"
  , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#133"
- , "c1" : "List<SourceRecord>"
+ , "c1" : "List&lt;SourceRecord&gt;"
  , "c2" : "poll()"
  , "c3" : "6"
  , "c4" : "18"
@@ -110,8 +110,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00225"
  , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#225"
- , "c1" : "Map<TopicPartition,Long>"
- , "c2" : "loadOffsets(Set<TopicPartition>)"
+ , "c1" : "Map&lt;TopicPartition,Long&gt;"
+ , "c2" : "loadOffsets(Set&lt;TopicPartition&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -129,7 +129,7 @@ var maDataBlocs = {
  , "c5" : "00236"
  , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#236"
  , "c1" : "SourceRecord"
- , "c2" : "convertRecord(ConsumerRecord<byte[],byte[]>)"
+ , "c2" : "convertRecord(ConsumerRecord&lt;byte[],byte[]&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -138,7 +138,7 @@ var maDataBlocs = {
  , "c5" : "00248"
  , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#248"
  , "c1" : "Headers"
- , "c2" : "convertHeaders(ConsumerRecord<byte[],byte[]>)"
+ , "c2" : "convertHeaders(ConsumerRecord&lt;byte[],byte[]&gt;)"
  , "c3" : "2"
  , "c4" : "3"
 }} 

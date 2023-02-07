@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00149"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#149"
  , "c1" : "SaslServerAuthenticator"
- , "c2" : "SaslServerAuthenticator(Map<String,?>;Map<String,AuthenticateCallbackHandler>;String;Map<String,Subject>;KerberosShortNamer;ListenerName;SecurityProtocol;TransportLayer;Map<String,Long>;ChannelMetadataRegistry;Time;Supplier<ApiVersionsResponse>)"
+ , "c2" : "SaslServerAuthenticator(Map&lt;String,?&gt;;Map&lt;String,AuthenticateCallbackHandler&gt;;String;Map&lt;String,Subject&gt;;KerberosShortNamer;ListenerName;SecurityProtocol;TransportLayer;Map&lt;String,Long&gt;;ChannelMetadataRegistry;Time;Supplier&lt;ApiVersionsResponse&gt;)"
  , "c3" : "5"
  , "c4" : "20"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00213"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#213"
  , "c1" : "SaslServer"
- , "c2" : "createSaslKerberosServer(AuthenticateCallbackHandler;Map<String,?>;Subject)"
+ , "c2" : "createSaslKerberosServer(AuthenticateCallbackHandler;Map&lt;String,?&gt;;Subject)"
  , "c3" : "1"
  , "c4" : "9"
 }} 
@@ -65,7 +65,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00314"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#314"
- , "c1" : "Optional<KafkaPrincipalSerde>"
+ , "c1" : "Optional&lt;KafkaPrincipalSerde&gt;"
  , "c2" : "principalSerde()"
  , "c3" : "1"
  , "c4" : "1"

@@ -1,47 +1,38 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java 2 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedSerializer.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedSerializer.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedSerializer.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "StreamPartitioner<Windowed<K>,V>"
- , "c2" : "org.apache.kafka.streams.kstream.internals.WindowedStreamPartitioner"
+ , "c1" : "Serializer<Windowed<T>>"
+ , "c2" : "org.apache.kafka.streams.kstream.internals.WindowedSerializer"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.kstream.internals.WindowedStreamPartitioner" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.kstream.internals.WindowedSerializer" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.html#27"
- , "c1" : "WindowedStreamPartitioner"
- , "c2" : "WindowedStreamPartitioner(WindowedSerializer<K>)"
+ , "c5" : "00024"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedSerializer.java.html#24"
+ , "c1" : "byte[]"
+ , "c2" : "serializeBaseKey(String;Windowed&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00043"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.html#43"
- , "c1" : "Integer"
- , "c2" : "partition(String;Windowed<K>;V;int)"
- , "c3" : "1"
- , "c4" : "2"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedSerializer.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedSerializer.java.svg" }
 
 ] 
 , 
@@ -66,40 +57,8 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.html#43"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method partition arguments String  topic|Windowed&lt;K &gt;  windowedKey|V  value|int  numPartitions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.html#43"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00043] For method partition list of called methods Object monObjet|byte[] serializer_serializeBaseKeyN149090"
-}} 
-]
-, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedSerializer.java.fct.svg" 
 
 , 
 }

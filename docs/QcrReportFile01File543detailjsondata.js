@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00083"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaAlteration.java.html#83"
  , "c1" : "ClientQuotaAlteration"
- , "c2" : "ClientQuotaAlteration(ClientQuotaEntity;Collection<Op>)"
+ , "c2" : "ClientQuotaAlteration(ClientQuotaEntity;Collection&lt;Op&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00098"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaAlteration.java.html#98"
- , "c1" : "Collection<Op>"
+ , "c1" : "Collection&lt;Op&gt;"
  , "c2" : "ops()"
  , "c3" : "1"
  , "c4" : "1"

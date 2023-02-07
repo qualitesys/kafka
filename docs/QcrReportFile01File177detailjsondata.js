@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00034"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerGroupMetadata.java.html#34"
  , "c1" : "ConsumerGroupMetadata"
- , "c2" : "ConsumerGroupMetadata(String;int;String;Optional<String>)"
+ , "c2" : "ConsumerGroupMetadata(String;int;String;Optional&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -65,7 +65,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00063"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerGroupMetadata.java.html#63"
- , "c1" : "Optional<String>"
+ , "c1" : "Optional&lt;String&gt;"
  , "c2" : "groupInstanceId()"
  , "c3" : "1"
  , "c4" : "1"

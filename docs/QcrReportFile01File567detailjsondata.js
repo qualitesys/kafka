@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java 158 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java 159 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.xml" 
  , "fic3"  : "" 
 }
@@ -65,7 +65,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00115"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#115"
- , "c1" : "ConvertedRecords<MemoryRecords>"
+ , "c1" : "ConvertedRecords&lt;MemoryRecords&gt;"
  , "c2" : "downConvert(byte;long;Time)"
  , "c3" : "1"
  , "c4" : "1"
@@ -74,7 +74,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00120"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#120"
- , "c1" : "AbstractIterator<MutableRecordBatch>"
+ , "c1" : "AbstractIterator&lt;MutableRecordBatch&gt;"
  , "c2" : "batchIterator()"
  , "c3" : "1"
  , "c4" : "1"
@@ -102,7 +102,7 @@ var maDataBlocs = {
  , "c5" : "00161"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#161"
  , "c1" : "FilterResult"
- , "c2" : "filterTo(TopicPartition;Iterable<MutableRecordBatch>;RecordFilter;ByteBuffer;int;BufferSupplier)"
+ , "c2" : "filterTo(TopicPartition;Iterable&lt;MutableRecordBatch&gt;;RecordFilter;ByteBuffer;int;BufferSupplier)"
  , "c3" : "13"
  , "c4" : "34"
 }} 
@@ -111,7 +111,7 @@ var maDataBlocs = {
  , "c5" : "00243"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#243"
  , "c1" : "BatchFilterResult"
- , "c2" : "filterBatch(RecordBatch;BufferSupplier;FilterResult;RecordFilter;byte;boolean;List<Record>)"
+ , "c2" : "filterBatch(RecordBatch;BufferSupplier;FilterResult;RecordFilter;byte;boolean;List&lt;Record&gt;)"
  , "c3" : "7"
  , "c4" : "10"
 }} 
@@ -120,7 +120,7 @@ var maDataBlocs = {
  , "c5" : "00292"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#292"
  , "c1" : "MemoryRecordsBuilder"
- , "c2" : "buildRetainedRecordsInto(RecordBatch;List<Record>;ByteBufferOutputStream;long)"
+ , "c2" : "buildRetainedRecordsInto(RecordBatch;List&lt;Record&gt;;ByteBufferOutputStream;long)"
  , "c3" : "3"
  , "c4" : "8"
 }} 
@@ -137,7 +137,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00328"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#328"
- , "c1" : "Iterable<MutableRecordBatch>"
+ , "c1" : "Iterable&lt;MutableRecordBatch&gt;"
  , "c2" : "batches()"
  , "c3" : "1"
  , "c4" : "1"
@@ -551,7 +551,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1659,7 +1659,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.MemoryRecords.equals@POLYN276424"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.MemoryRecords.builder@POLYN283515"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.MemoryRecords.builder@POLYN285874"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.MemoryRecords.withRecords@POLYN287885"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1670,31 +1684,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.MemoryRecords.withTransactionalRecords@POLYN291780"
+ , "c1" : "00524"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#524"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00524] In the recursive method org.apache.kafka.common.record.MemoryRecords.builder@POLYN283515 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00342"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#342"
+ , "c1" : "00576"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#576"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00342] In the recursive method org.apache.kafka.common.record.MemoryRecords.equals@POLYN276424 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00576] In the recursive method org.apache.kafka.common.record.MemoryRecords.builder@POLYN285874 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00343"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#343"
+ , "c1" : "00607"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#607"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00343] In the recursive method org.apache.kafka.common.record.MemoryRecords.equals@POLYN276424 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00344"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#344"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00344] In the recursive method org.apache.kafka.common.record.MemoryRecords.equals@POLYN276424 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00607] In the recursive method org.apache.kafka.common.record.MemoryRecords.withRecords@POLYN287885 the MagicNumber/String 0L MUST BE CONVERTED to const"
 }} 
 ]
 , 

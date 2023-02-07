@@ -1,43 +1,43 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html" 
- , "texte" : "File shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java 27 rule violations " 
- , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.xml" 
+   "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html" 
+ , "texte" : "File shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java 31 rule violations " 
+ , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "Commands.Handler"
- , "c2" : "org.apache.kafka.shell.CdCommandHandler"
+ , "c2" : "org.apache.kafka.shell.CatCommandHandler"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.shell.CdCommandHandler" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.shell.CatCommandHandler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00078"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#78"
- , "c1" : "CdCommandHandler"
- , "c2" : "CdCommandHandler(Optional<String>)"
+ , "c5" : "00082"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#82"
+ , "c1" : "CatCommandHandler"
+ , "c2" : "CatCommandHandler(List&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00083"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#83"
+ , "c5" : "00087"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#87"
  , "c1" : "void"
- , "c2" : "run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager)"
- , "c3" : "5"
- , "c4" : "6"
+ , "c2" : "run(Optional&lt;InteractiveShell&gt;;PrintWriter;MetadataNodeManager)"
+ , "c3" : "7"
+ , "c4" : "7"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00106"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#106"
+ , "c5" : "00109"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#109"
  , "c1" : "int"
  , "c2" : "hashCode()"
  , "c3" : "1"
@@ -45,8 +45,8 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00111"
- , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#111"
+ , "c5" : "00114"
+ , "c5link" : "././qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#114"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "3"
@@ -57,9 +57,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.png" 
+   {"ligne" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.png" 
 
- , "ligneplantuml" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.svg" }
+ , "ligneplantuml" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.svg" }
 
 ] 
 , 
@@ -94,9 +94,16 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000001"
+ , "c3" : "Instance is created within a loop, huge performance impact"
+ , "c4" : "5"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "17"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : { "" : ""
@@ -109,197 +116,225 @@ var maDataBlocs = {
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.shell.CdCommandHandler.CdCommandType.name@POLYN154398 the MagicNumber/String  'cd' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00047"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#47"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.shell.CdCommandHandler.CdCommandType.description@POLYN154500 the MagicNumber/String  'Set the current working directory.' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.shell.CatCommandHandler.CatCommandType.name@POLYN155142 the MagicNumber/String  'cat' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#52"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.shell.CdCommandHandler.CdCommandType.shellOnly@POLYN154602 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#56"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method addArguments arguments ArgumentParser  parser"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#56"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00056] The argument parser is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.shell.CatCommandHandler.CatCommandType.description@POLYN155244 the MagicNumber/String  'Show the contents of metadata nodes.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#57"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.shell.CdCommandHandler.CdCommandType.addArguments@POLYN154696 the MagicNumber/String  'target' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.shell.CatCommandHandler.CatCommandType.shellOnly@POLYN155346 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#58"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.shell.CdCommandHandler.CdCommandType.addArguments@POLYN154696 the MagicNumber/String  '?' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#59"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.shell.CdCommandHandler.CdCommandType.addArguments@POLYN154696 the MagicNumber/String  'The directory to change to.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#63"
+ , "c1" : "00061"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00063] For method createHandler arguments Namespace  namespace"
+ , "c3" : "QC-JAV000006[00061] For method addArguments arguments ArgumentParser  parser"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00061"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#61"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00061] The argument parser is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#62"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.shell.CatCommandHandler.CatCommandType.addArguments@POLYN155440 the MagicNumber/String  'targets' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#63"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00063] The argument namespace is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#63"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.shell.CatCommandHandler.CatCommandType.addArguments@POLYN155440 the MagicNumber/String  '+' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#64"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.shell.CdCommandHandler.CdCommandType.createHandler@POLYN154944 the MagicNumber/String  'target' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.shell.CatCommandHandler.CatCommandType.addArguments@POLYN155440 the MagicNumber/String  'The metadata nodes to display.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#68"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00068] For method completeNext arguments MetadataNodeManager  nodeManager|List&lt;String &gt;  nextWords|List&lt;Candidate &gt;  candidates"
+ , "c3" : "QC-JAV000006[00068] For method createHandler arguments Namespace  namespace"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#68"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#68"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00068] The argument nextWords is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00068] The argument namespace is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#70"
+ , "c1" : "00069"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.shell.CdCommandHandler.CdCommandType.completeNext@POLYN155176 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.shell.CatCommandHandler.CatCommandType.createHandler@POLYN155688 the MagicNumber/String  'targets' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#71"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.shell.CdCommandHandler.CdCommandType.completeNext@POLYN155176 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#83"
+ , "c1" : "00073"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#73"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00083] For method run arguments Optional&lt;InteractiveShell &gt;  shell|PrintWriter  writer|MetadataNodeManager  manager"
+ , "c3" : "QC-JAV000006[00073] For method completeNext arguments MetadataNodeManager  nodeManager|List&lt;String &gt;  nextWords|List&lt;Candidate &gt;  candidates"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#84"
+ , "c1" : "00073"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#73"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00084] The argument writer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00073] The argument nextWords is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#85"
+ , "c1" : "00075"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#75"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.shell.CatCommandHandler.CatCommandType.completeNext@POLYN155881 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#87"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00087] For method run arguments Optional&lt;InteractiveShell &gt;  shell|PrintWriter  writer|MetadataNodeManager  manager"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00088"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#88"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00085] The argument manager is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00088] The argument writer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#86"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.shell.CdCommandHandler.run@POLYN155823 the MagicNumber/String  '/' should be converted to const"
+ , "c1" : "00089"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#89"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00089] The argument manager is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#93"
+ , "c1" : "00094"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.shell.CdCommandHandler.run@POLYN155823 the MagicNumber/String  'cd: ' should be converted to const"
+ , "c3" : "QC-JAV000001[00094] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#93"
+ , "c1" : "00095"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.shell.CdCommandHandler.run@POLYN155823 the MagicNumber/String  ': not a directory.' should be converted to const"
+ , "c3" : "QC-JAV000001[00095] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#97"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00097] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#98"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.shell.CdCommandHandler.run@POLYN155823 the MagicNumber/String  'cd: ' should be converted to const"
+ , "c3" : "QC-JAV000001[00098] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#98"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.shell.CdCommandHandler.run@POLYN155823 the MagicNumber/String  ': no such directory.' should be converted to const"
+ , "c3" : "QC-JAV000001[00098] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#111"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00111] For method equals arguments Object  other"
+ , "c1" : "00090"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#90"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.shell.CatCommandHandler.run@POLYN156474 the MagicNumber/String  'cat ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#112"
+ , "c1" : "00096"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.shell.CdCommandHandler.equals@POLYN157165 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.shell.CatCommandHandler.run@POLYN156474 the MagicNumber/String  'cat: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00096"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#96"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.shell.CatCommandHandler.run@POLYN156474 the MagicNumber/String  ': Is a directory' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#102"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.shell.CatCommandHandler.run@POLYN156474 the MagicNumber/String  'cat: ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#102"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.shell.CatCommandHandler.run@POLYN156474 the MagicNumber/String  ': No such file or directory.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00114"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#114"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.shell.CdCommandHandler.equals@POLYN157165 the MagicNumber/String  false should be converted to const"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#114"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00114] For method equals arguments Object  other"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.html#115"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.shell.CdCommandHandler.equals@POLYN157165 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.shell.CatCommandHandler.equals@POLYN157804 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00117"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#117"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.shell.CatCommandHandler.equals@POLYN157804 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00118"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.html#118"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.shell.CatCommandHandler.equals@POLYN157804 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/shell/src/main/java/org/apache/kafka/shell/CdCommandHandler.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/shell/src/main/java/org/apache/kafka/shell/CatCommandHandler.java.fct.svg" 
 
 , 
 }

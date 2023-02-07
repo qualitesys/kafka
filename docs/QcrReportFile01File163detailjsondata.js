@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00057"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#57"
- , "c1" : "AdminApiLookupStrategy<CoordinatorKey>"
+ , "c1" : "AdminApiLookupStrategy&lt;CoordinatorKey&gt;"
  , "c2" : "lookupStrategy()"
  , "c3" : "1"
  , "c4" : "1"
@@ -47,8 +47,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00061"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#61"
- , "c1" : "AdminApiFuture.SimpleAdminApiFuture<CoordinatorKey,Void>"
- , "c2" : "newFuture(Collection<String>)"
+ , "c1" : "AdminApiFuture.SimpleAdminApiFuture&lt;CoordinatorKey,Void&gt;"
+ , "c2" : "newFuture(Collection&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -56,8 +56,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00067"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#67"
- , "c1" : "Set<CoordinatorKey>"
- , "c2" : "buildKeySet(Collection<String>)"
+ , "c1" : "Set&lt;CoordinatorKey&gt;"
+ , "c2" : "buildKeySet(Collection&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00074"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#74"
  , "c1" : "DeleteGroupsRequest.Builder"
- , "c2" : "buildBatchedRequest(int;Set<CoordinatorKey>)"
+ , "c2" : "buildBatchedRequest(int;Set&lt;CoordinatorKey&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -74,8 +74,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00085"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#85"
- , "c1" : "ApiResult<CoordinatorKey,Void>"
- , "c2" : "handleResponse(Node;Set<CoordinatorKey>;AbstractResponse)"
+ , "c1" : "ApiResult&lt;CoordinatorKey,Void&gt;"
+ , "c2" : "handleResponse(Node;Set&lt;CoordinatorKey&gt;;AbstractResponse)"
  , "c3" : "3"
  , "c4" : "10"
 }} 
@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00109"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#109"
  , "c1" : "void"
- , "c2" : "handleError(CoordinatorKey;Errors;Map<CoordinatorKey,Throwable>;Set<CoordinatorKey>)"
+ , "c2" : "handleError(CoordinatorKey;Errors;Map&lt;CoordinatorKey,Throwable&gt;;Set&lt;CoordinatorKey&gt;)"
  , "c3" : "8"
  , "c4" : "10"
 }} 
@@ -360,14 +360,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.DeleteConsumerGroupsHandler.handleError@POLYN163537"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.DeleteConsumerGroupsHandler.buildBatchedRequest@POLYN161528"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.DeleteConsumerGroupsHandler.buildBatchedRequest@POLYN161528"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.DeleteConsumerGroupsHandler.handleError@POLYN163537"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/CandidateState.java 41 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/CandidateState.java 44 rule violations " 
  , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.xml" 
  , "fic3"  : "" 
 }
@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00051"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#51"
  , "c1" : "CandidateState"
- , "c2" : "CandidateState(Time;int;int;Set<Integer>;Optional<LogOffsetMetadata>;int;int;LogContext)"
+ , "c2" : "CandidateState(Time;int;int;Set&lt;Integer&gt;;Optional&lt;LogOffsetMetadata&gt;;int;int;LogContext)"
  , "c3" : "2"
  , "c4" : "11"
 }} 
@@ -128,7 +128,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00176"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#176"
- , "c1" : "Set<Integer>"
+ , "c1" : "Set&lt;Integer&gt;"
  , "c2" : "unrecordedVoters()"
  , "c3" : "1"
  , "c4" : "1"
@@ -137,7 +137,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00185"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#185"
- , "c1" : "Set<Integer>"
+ , "c1" : "Set&lt;Integer&gt;"
  , "c2" : "grantingVoters()"
  , "c3" : "1"
  , "c4" : "1"
@@ -146,7 +146,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00194"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#194"
- , "c1" : "Set<Integer>"
+ , "c1" : "Set&lt;Integer&gt;"
  , "c2" : "rejectingVoters()"
  , "c3" : "1"
  , "c4" : "1"
@@ -155,7 +155,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00198"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#198"
- , "c1" : "Set<Integer>"
+ , "c1" : "Set&lt;Integer&gt;"
  , "c2" : "votersInState(State)"
  , "c3" : "1"
  , "c4" : "1"
@@ -218,7 +218,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00239"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#239"
- , "c1" : "Optional<LogOffsetMetadata>"
+ , "c1" : "Optional&lt;LogOffsetMetadata&gt;"
  , "c2" : "highWatermark()"
  , "c3" : "1"
  , "c4" : "1"
@@ -319,7 +319,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "2"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -333,7 +333,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -629,7 +629,28 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.CandidateState.CandidateState@POLYN178407"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.CandidateState.canGrantVote@POLYN185848"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00065"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#65"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.raft.CandidateState.CandidateState@POLYN178407 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#68"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.raft.CandidateState.CandidateState@POLYN178407 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

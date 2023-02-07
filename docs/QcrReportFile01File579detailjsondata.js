@@ -20,8 +20,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00042"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#42"
- , "c1" : "ConvertedRecords<MemoryRecords>"
- , "c2" : "downConvert(Iterable<?extendsRecordBatch>;byte;long;Time)"
+ , "c1" : "ConvertedRecords&lt;MemoryRecords&gt;"
+ , "c2" : "downConvert(Iterable&lt;?extendsRecordBatch&gt;;byte;long;Time)"
  , "c3" : "15"
  , "c4" : "28"
 }} 

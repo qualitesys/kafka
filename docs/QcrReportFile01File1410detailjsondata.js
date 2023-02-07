@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00103"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#103"
  , "c1" : "void"
- , "c2" : "register(Listener<T>)"
+ , "c2" : "register(Listener&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00115"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#115"
  , "c1" : "void"
- , "c2" : "unregister(Listener<T>)"
+ , "c2" : "unregister(Listener&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00160"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#160"
  , "c1" : "long"
- , "c2" : "scheduleAppend(int;List<T>)"
+ , "c2" : "scheduleAppend(int;List&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00183"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#183"
  , "c1" : "long"
- , "c2" : "scheduleAtomicAppend(int;List<T>)"
+ , "c2" : "scheduleAtomicAppend(int;List&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -92,7 +92,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00198"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#198"
- , "c1" : "CompletableFuture<Void>"
+ , "c1" : "CompletableFuture&lt;Void&gt;"
  , "c2" : "shutdown(int)"
  , "c3" : "1"
  , "c4" : "1"
@@ -110,7 +110,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00231"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#231"
- , "c1" : "Optional<SnapshotWriter<T>>"
+ , "c1" : "Optional&lt;SnapshotWriter&lt;T&gt;&gt;"
  , "c2" : "createSnapshot(long;int;long)"
  , "c3" : "1"
  , "c4" : "1"

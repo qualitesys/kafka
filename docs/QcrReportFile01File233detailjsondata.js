@@ -146,7 +146,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00342"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/BufferPool.java.html#342"
- , "c1" : "Deque<Condition>"
+ , "c1" : "Deque&lt;Condition&gt;"
  , "c2" : "waiters()"
  , "c3" : "1"
  , "c4" : "1"

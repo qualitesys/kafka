@@ -20,8 +20,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00177"
  , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#177"
- , "c1" : "List<TypeClassGenerator>"
- , "c2" : "createTypeClassGenerators(String;List<String>)"
+ , "c1" : "List&lt;TypeClassGenerator&gt;"
+ , "c2" : "createTypeClassGenerators(String;List&lt;String&gt;)"
  , "c3" : "6"
  , "c4" : "10"
 }} 
@@ -29,8 +29,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00199"
  , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#199"
- , "c1" : "List<MessageClassGenerator>"
- , "c2" : "createMessageClassGenerators(String;List<String>)"
+ , "c1" : "List&lt;MessageClassGenerator&gt;"
+ , "c2" : "createMessageClassGenerators(String;List&lt;String&gt;)"
  , "c3" : "5"
  , "c4" : "8"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00218"
  , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#218"
  , "c1" : "void"
- , "c2" : "processDirectories(String;String;String;List<String>;List<String>)"
+ , "c2" : "processDirectories(String;String;String;List&lt;String&gt;;List&lt;String&gt;)"
  , "c3" : "7"
  , "c4" : "19"
 }} 

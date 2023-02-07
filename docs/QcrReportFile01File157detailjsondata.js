@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java 47 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java 48 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.xml" 
  , "fic3"  : "" 
 }
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00068"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#68"
  , "c1" : "MetadataRequest.Builder"
- , "c2" : "buildRequest(Set<BrokerKey>)"
+ , "c2" : "buildRequest(Set&lt;BrokerKey&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -47,8 +47,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00075"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#75"
- , "c1" : "LookupResult<BrokerKey>"
- , "c2" : "handleResponse(Set<BrokerKey>;AbstractResponse)"
+ , "c1" : "LookupResult&lt;BrokerKey&gt;"
+ , "c2" : "handleResponse(Set&lt;BrokerKey&gt;;AbstractResponse)"
  , "c3" : "3"
  , "c4" : "8"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00100"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#100"
  , "c1" : "void"
- , "c2" : "validateLookupKeys(Set<BrokerKey>)"
+ , "c2" : "validateLookupKeys(Set&lt;BrokerKey&gt;)"
  , "c3" : "3"
  , "c4" : "3"
 }} 
@@ -121,7 +121,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -453,6 +453,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.complete@POLYN178258"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.completeExceptionally@POLYN178636"
 }} 
 ,
 { "ligne" : {"" : ""

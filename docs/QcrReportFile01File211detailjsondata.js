@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java 23 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java 27 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.xml" 
  , "fic3"  : "" 
 }
@@ -197,7 +197,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "4"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -211,7 +211,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -364,6 +364,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Heartbeat.Heartbeat@POLYN156684"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#73"
  , "c2" : "BLOCKER"
@@ -389,6 +396,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#87"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.clients.consumer.internals.Heartbeat.failHeartbeat@POLYN158757 the MagicNumber/String 'Heartbeat failed, reset the timer to {}ms remaining' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00044"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#44"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00044] In the recursive method org.apache.kafka.clients.consumer.internals.Heartbeat.Heartbeat@POLYN156684 the MagicNumber/String 'Heartbeat must be set lower than the session timeout' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#52"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.clients.consumer.internals.Heartbeat.Heartbeat@POLYN156684 the MagicNumber/String '[Heartbeat groupID=' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#52"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.clients.consumer.internals.Heartbeat.Heartbeat@POLYN156684 the MagicNumber/String '] ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

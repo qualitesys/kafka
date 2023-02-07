@@ -1,378 +1,513 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/secujava/java.sql.Statement.java.html" 
- , "texte" : "File secujava/java.sql.Statement.java 0 rule violation " 
- , "fic2"  : "./qc/secujava/java.sql.Statement.java.xml" 
+   "fic1"  : "./qc/secujava/java.sql.PreparedStatement.java.html" 
+ , "texte" : "File secujava/java.sql.PreparedStatement.java 0 rule violation " 
+ , "fic2"  : "./qc/secujava/java.sql.PreparedStatement.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Wrapper"
- , "c2" : "java.sql.Statement"
+ , "c1" : "Statement"
+ , "c2" : "java.sql.PreparedStatement"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "java.sql.Statement" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "java.sql.PreparedStatement" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00058"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#58"
+ , "c5" : "00071"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#71"
  , "c1" : "ResultSet"
- , "c2" : "executeQuery(String)"
+ , "c2" : "executeQuery()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00076"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#76"
+ , "c5" : "00086"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#86"
  , "c1" : "int"
- , "c2" : "executeUpdate(String)"
+ , "c2" : "executeUpdate()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00095"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#95"
+ , "c5" : "00106"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#106"
  , "c1" : "void"
- , "c2" : "close()"
+ , "c2" : "setNull(int;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00115"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#115"
- , "c1" : "int"
- , "c2" : "getMaxFieldSize()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00136"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#136"
+ , "c5" : "00120"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#120"
  , "c1" : "void"
- , "c2" : "setMaxFieldSize(int)"
+ , "c2" : "setBoolean(int;boolean)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00151"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#151"
- , "c1" : "int"
- , "c2" : "getMaxRows()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00166"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#166"
+ , "c5" : "00133"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#133"
  , "c1" : "void"
- , "c2" : "setMaxRows(int)"
+ , "c2" : "setByte(int;byte)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00182"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#182"
+ , "c5" : "00146"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#146"
  , "c1" : "void"
- , "c2" : "setEscapeProcessing(boolean)"
+ , "c2" : "setShort(int;short)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00196"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#196"
- , "c1" : "int"
- , "c2" : "getQueryTimeout()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00214"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#214"
+ , "c5" : "00159"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#159"
  , "c1" : "void"
- , "c2" : "setQueryTimeout(int)"
+ , "c2" : "setInt(int;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00172"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#172"
+ , "c1" : "void"
+ , "c2" : "setLong(int;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00185"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#185"
+ , "c1" : "void"
+ , "c2" : "setFloat(int;float)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00198"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#198"
+ , "c1" : "void"
+ , "c2" : "setDouble(int;double)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00211"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#211"
+ , "c1" : "void"
+ , "c2" : "setBigDecimal(int;BigDecimal)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00227"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#227"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#227"
  , "c1" : "void"
- , "c2" : "cancel()"
+ , "c2" : "setString(int;String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00249"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#249"
- , "c1" : "SQLWarning"
- , "c2" : "getWarnings()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00261"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#261"
+ , "c5" : "00241"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#241"
  , "c1" : "void"
- , "c2" : "clearWarnings()"
+ , "c2" : "setBytes(int;byte[])"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00286"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#286"
+ , "c5" : "00256"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#256"
  , "c1" : "void"
- , "c2" : "setCursorName(String)"
+ , "c2" : "setDate(int;java.sql.Date)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00314"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#314"
- , "c1" : "boolean"
- , "c2" : "execute(String)"
+ , "c5" : "00270"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#270"
+ , "c1" : "void"
+ , "c2" : "setTime(int;java.sql.Time)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00326"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#326"
- , "c1" : "ResultSet"
- , "c2" : "getResultSet()"
+ , "c5" : "00284"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#284"
+ , "c1" : "void"
+ , "c2" : "setTimestamp(int;java.sql.Timestamp)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00339"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#339"
- , "c1" : "int"
- , "c2" : "getUpdateCount()"
+ , "c5" : "00307"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#307"
+ , "c1" : "void"
+ , "c2" : "setAsciiStream(int;java.io.InputStream;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00338"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#338"
+ , "c1" : "void"
+ , "c2" : "setUnicodeStream(int;java.io.InputStream;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00360"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#360"
- , "c1" : "boolean"
- , "c2" : "getMoreResults()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00386"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#386"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#360"
  , "c1" : "void"
- , "c2" : "setFetchDirection(int)"
+ , "c2" : "setBinaryStream(int;java.io.InputStream;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00403"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#403"
- , "c1" : "int"
- , "c2" : "getFetchDirection()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00419"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#419"
+ , "c5" : "00374"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#374"
  , "c1" : "void"
- , "c2" : "setFetchSize(int)"
+ , "c2" : "clearParameters()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00436"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#436"
- , "c1" : "int"
- , "c2" : "getFetchSize()"
+ , "c5" : "00400"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#400"
+ , "c1" : "void"
+ , "c2" : "setObject(int;Object;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00448"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#448"
- , "c1" : "int"
- , "c2" : "getResultSetConcurrency()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00461"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#461"
- , "c1" : "int"
- , "c2" : "getResultSetType()"
+ , "c5" : "00442"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#442"
+ , "c1" : "void"
+ , "c2" : "setObject(int;Object)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00478"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#478"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#478"
+ , "c1" : "boolean"
+ , "c2" : "execute()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00527"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#527"
  , "c1" : "void"
- , "c2" : "addBatch(String)"
+ , "c2" : "addBatch()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00491"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#491"
+ , "c5" : "00597"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#597"
  , "c1" : "void"
- , "c2" : "clearBatch()"
+ , "c2" : "setCharacterStream(int;java.io.Reader;int)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00545"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#545"
- , "c1" : "int[]"
- , "c2" : "executeBatch()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00555"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#555"
- , "c1" : "Connection"
- , "c2" : "getConnection()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00653"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#653"
- , "c1" : "boolean"
- , "c2" : "getMoreResults(int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00671"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#671"
- , "c1" : "ResultSet"
- , "c2" : "getGeneratedKeys()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00702"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#702"
- , "c1" : "int"
- , "c2" : "executeUpdate(String;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00730"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#730"
- , "c1" : "int"
- , "c2" : "executeUpdate(String;int[])"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00758"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#758"
- , "c1" : "int"
- , "c2" : "executeUpdate(String;String[])"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00803"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#803"
- , "c1" : "boolean"
- , "c2" : "execute(String;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00845"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#845"
- , "c1" : "boolean"
- , "c2" : "execute(String;int[])"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00888"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#888"
- , "c1" : "boolean"
- , "c2" : "execute(String;String[])"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00901"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#901"
- , "c1" : "int"
- , "c2" : "getResultSetHoldability()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00910"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#910"
- , "c1" : "boolean"
- , "c2" : "isClosed()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00934"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#934"
+ , "c5" : "00619"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#619"
  , "c1" : "void"
- , "c2" : "setPoolable(boolean)"
+ , "c2" : "setRef(int;Ref)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00951"
- , "c5link" : "././qc/secujava/java.sql.Statement.java.html#951"
- , "c1" : "boolean"
- , "c2" : "isPoolable()"
+ , "c5" : "00619"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#619"
+ , "c1" : "void"
+ , "c2" : "setBlob(int;Blob)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00619"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#619"
+ , "c1" : "void"
+ , "c2" : "setClob(int;Clob)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setArray(int;Array)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "ResultSetMetaData"
+ , "c2" : "getMetaData()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setDate(int;java.sql.Date;Calendar)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setTime(int;java.sql.Time;Calendar)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setTimestamp(int;java.sql.Timestamp;Calendar)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setNull(int;int;String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setURL(int;java.net.URL)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "ParameterMetaData"
+ , "c2" : "getParameterMetaData()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setRowId(int;RowId)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setNString(int;String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setNCharacterStream(int;Reader;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setNClob(int;NClob)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setClob(int;Reader;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setBlob(int;InputStream;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setNClob(int;Reader;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setSQLXML(int;SQLXML)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setObject(int;Object;int;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setAsciiStream(int;java.io.InputStream;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setBinaryStream(int;java.io.InputStream;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setCharacterStream(int;java.io.Reader;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setAsciiStream(int;java.io.InputStream)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setBinaryStream(int;java.io.InputStream)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setCharacterStream(int;java.io.Reader)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setNCharacterStream(int;Reader)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setClob(int;Reader)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setBlob(int;InputStream)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00001"
+ , "c5link" : "././qc/secujava/java.sql.PreparedStatement.java.html#1"
+ , "c1" : "void"
+ , "c2" : "setNClob(int;Reader)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -381,9 +516,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/secujava/java.sql.Statement.java.png" 
+   {"ligne" : "./qc/secujava/java.sql.PreparedStatement.java.png" 
 
- , "ligneplantuml" : "./qc/secujava/java.sql.Statement.java.svg" }
+ , "ligneplantuml" : "./qc/secujava/java.sql.PreparedStatement.java.svg" }
 
 ] 
 , 
@@ -409,7 +544,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/secujava/java.sql.Statement.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/secujava/java.sql.PreparedStatement.java.fct.svg" 
 
 , 
 }

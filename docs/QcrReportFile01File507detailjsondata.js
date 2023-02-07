@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java 24 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java 22 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.xml" 
  , "fic3"  : "" 
 }
@@ -290,7 +290,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "6"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -440,20 +440,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#92"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000004[00092] Void method handshake is empty or contains only a return. Interface segregation"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.PlaintextTransportLayer.read@POLYN175467"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.PlaintextTransportLayer.write@POLYN176935"
 }} 
 ,
 { "ligne" : {"" : ""

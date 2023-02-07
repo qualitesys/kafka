@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00132"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#132"
  , "c1" : "ConfigurationControlManager"
- , "c2" : "ConfigurationControlManager(LogContext;SnapshotRegistry;KafkaConfigSchema;Consumer<ConfigResource>;Optional<AlterConfigPolicy>;ConfigurationValidator;Map<String,Object>;int)"
+ , "c2" : "ConfigurationControlManager(LogContext;SnapshotRegistry;KafkaConfigSchema;Consumer&lt;ConfigResource&gt;;Optional&lt;AlterConfigPolicy&gt;;ConfigurationValidator;Map&lt;String,Object&gt;;int)"
  , "c3" : "1"
  , "c4" : "9"
 }} 
@@ -38,8 +38,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00168"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#168"
- , "c1" : "ControllerResult<Map<ConfigResource,ApiError>>"
- , "c2" : "incrementalAlterConfigs(Map<ConfigResource,Map<String,Entry<OpType,String>>>;boolean)"
+ , "c1" : "ControllerResult&lt;Map&lt;ConfigResource,ApiError&gt;&gt;"
+ , "c2" : "incrementalAlterConfigs(Map&lt;ConfigResource,Map&lt;String,Entry&lt;OpType,String&gt;&gt;&gt;;boolean)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00184"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#184"
  , "c1" : "void"
- , "c2" : "incrementalAlterConfigResource(ConfigResource;Map<String,Entry<OpType,String>>;boolean;List<ApiMessageAndVersion>;Map<ConfigResource,ApiError>)"
+ , "c2" : "incrementalAlterConfigResource(ConfigResource;Map&lt;String,Entry&lt;OpType,String&gt;&gt;;boolean;List&lt;ApiMessageAndVersion&gt;;Map&lt;ConfigResource,ApiError&gt;)"
  , "c3" : "15"
  , "c4" : "26"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00248"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#248"
  , "c1" : "ApiError"
- , "c2" : "validateAlterConfig(ConfigResource;List<ApiMessageAndVersion>;boolean)"
+ , "c2" : "validateAlterConfig(ConfigResource;List&lt;ApiMessageAndVersion&gt;;boolean)"
  , "c3" : "7"
  , "c4" : "12"
 }} 
@@ -65,8 +65,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00287"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#287"
- , "c1" : "ControllerResult<Map<ConfigResource,ApiError>>"
- , "c2" : "legacyAlterConfigs(Map<ConfigResource,Map<String,String>>;boolean)"
+ , "c1" : "ControllerResult&lt;Map&lt;ConfigResource,ApiError&gt;&gt;"
+ , "c2" : "legacyAlterConfigs(Map&lt;ConfigResource,Map&lt;String,String&gt;&gt;;boolean)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00304"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#304"
  , "c1" : "void"
- , "c2" : "legacyAlterConfigResource(ConfigResource;Map<String,String>;boolean;List<ApiMessageAndVersion>;Map<ConfigResource,ApiError>)"
+ , "c2" : "legacyAlterConfigResource(ConfigResource;Map&lt;String,String&gt;;boolean;List&lt;ApiMessageAndVersion&gt;;Map&lt;ConfigResource,ApiError&gt;)"
  , "c3" : "7"
  , "c4" : "13"
 }} 
@@ -83,7 +83,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00344"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#344"
- , "c1" : "List<String>"
+ , "c1" : "List&lt;String&gt;"
  , "c2" : "getParts(String;String;ConfigResource)"
  , "c3" : "5"
  , "c4" : "6"
@@ -101,7 +101,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00386"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#386"
- , "c1" : "Map<String,String>"
+ , "c1" : "Map&lt;String,String&gt;"
  , "c2" : "getConfigs(ConfigResource)"
  , "c3" : "3"
  , "c4" : "3"
@@ -110,8 +110,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00395"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#395"
- , "c1" : "Map<ConfigResource,ResultOrError<Map<String,String>>>"
- , "c2" : "describeConfigs(long;Map<ConfigResource,Collection<String>>)"
+ , "c1" : "Map&lt;ConfigResource,ResultOrError&lt;Map&lt;String,String&gt;&gt;&gt;"
+ , "c2" : "describeConfigs(long;Map&lt;ConfigResource,Collection&lt;String&gt;&gt;)"
  , "c3" : "8"
  , "c4" : "15"
 }} 
@@ -137,8 +137,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00440"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#440"
- , "c1" : "Map<String,ConfigEntry>"
- , "c2" : "computeEffectiveTopicConfigs(Map<String,String>)"
+ , "c1" : "Map&lt;String,ConfigEntry&gt;"
+ , "c2" : "computeEffectiveTopicConfigs(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -146,7 +146,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00445"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#445"
- , "c1" : "Map<String,String>"
+ , "c1" : "Map&lt;String,String&gt;"
  , "c2" : "clusterConfig()"
  , "c3" : "1"
  , "c4" : "2"
@@ -155,7 +155,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00450"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#450"
- , "c1" : "Map<String,String>"
+ , "c1" : "Map&lt;String,String&gt;"
  , "c2" : "currentControllerConfig()"
  , "c3" : "1"
  , "c4" : "2"
@@ -193,82 +193,6 @@ var maDataBlocs = {
 ]
 , 
 "data08" : [
-]
-, 
-"data09a" : [
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1305Seq1.html#seq1"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1305&numSeq=1"
- , "c2" : "1"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.Map.getKey@POLYN435159.return" , "java.util.HashMap.get@POLYN618616.key"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-]
-,
-"data09b" : [
-{ "sequence" : { 
- "seq" : "1" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00191]"
- , "c3" : ["java.util.Map.getKey@POLYN435159.return" , "---java.util.Map.getKey@POLYN435159" , "org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN230661.key"]
- , "c4" : "//QC-JAVCWE099[00191] In org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN230661[00191] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00195]"
- , "c3" : ["org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN230661.key" , "---java.util.HashMap.get@POLYN618616" , "java.util.HashMap.get@POLYN618616.key"]
- , "c4" : "//QC-JAVCWE099[00195] In org.apache.kafka.controller.ConfigurationControlManager.incrementalAlterConfigResource@POLYN230661[00195] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-]
-, 
-"data10" : [
 ]
 , 
 "data11" : [

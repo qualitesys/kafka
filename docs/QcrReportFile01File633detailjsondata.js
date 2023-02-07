@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00098"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsRequest.java.html#98"
- , "c1" : "List<AclBindingFilter>"
+ , "c1" : "List&lt;AclBindingFilter&gt;"
  , "c2" : "filters()"
  , "c3" : "1"
  , "c4" : "1"

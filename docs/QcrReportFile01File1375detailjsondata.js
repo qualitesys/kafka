@@ -56,7 +56,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00430"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#430"
- , "c1" : "List<List<Integer>>"
+ , "c1" : "List&lt;List&lt;Integer&gt;&gt;"
  , "c2" : "place(PlacementSpec;ClusterDescriber)"
  , "c3" : "2"
  , "c4" : "9"

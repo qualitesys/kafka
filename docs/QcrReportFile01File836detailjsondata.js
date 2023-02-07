@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00041"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#41"
  , "c1" : "void"
- , "c2" : "initialize(Subject;CallbackHandler;Map<String,?>;Map<String,?>)"
+ , "c2" : "initialize(Subject;CallbackHandler;Map&lt;String,?&gt;;Map&lt;String,?&gt;)"
  , "c3" : "4"
  , "c4" : "7"
 }} 

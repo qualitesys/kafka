@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00046"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#46"
  , "c1" : "void"
- , "c2" : "validate(String;String;Consumer<String>)"
+ , "c2" : "validate(String;String;Consumer&lt;String&gt;)"
  , "c3" : "5"
  , "c4" : "4"
 }} 

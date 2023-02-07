@@ -20,8 +20,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00068"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerInterceptor.java.html#68"
- , "c1" : "ConsumerRecords<K,V>"
- , "c2" : "onConsume(ConsumerRecords<K,V>)"
+ , "c1" : "ConsumerRecords&lt;K,V&gt;"
+ , "c2" : "onConsume(ConsumerRecords&lt;K,V&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00077"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerInterceptor.java.html#77"
  , "c1" : "void"
- , "c2" : "onCommit(Map<TopicPartition,OffsetAndMetadata>)"
+ , "c2" : "onCommit(Map&lt;TopicPartition,OffsetAndMetadata&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

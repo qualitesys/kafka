@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00073"
  , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#73"
  , "c1" : "MirrorCheckpointTask"
- , "c2" : "MirrorCheckpointTask(String;String;ReplicationPolicy;OffsetSyncStore;Map<String,Map<TopicPartition,OffsetAndMetadata>>;Map<String,List<Checkpoint>>)"
+ , "c2" : "MirrorCheckpointTask(String;String;ReplicationPolicy;OffsetSyncStore;Map&lt;String,Map&lt;TopicPartition,OffsetAndMetadata&gt;&gt;;Map&lt;String,List&lt;Checkpoint&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "6"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00086"
  , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#86"
  , "c1" : "void"
- , "c2" : "start(Map<String,String>)"
+ , "c2" : "start(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "19"
 }} 
@@ -74,7 +74,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00134"
  , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#134"
- , "c1" : "List<SourceRecord>"
+ , "c1" : "List&lt;SourceRecord&gt;"
  , "c2" : "poll()"
  , "c3" : "5"
  , "c4" : "8"
@@ -83,7 +83,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00157"
  , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#157"
- , "c1" : "List<SourceRecord>"
+ , "c1" : "List&lt;SourceRecord&gt;"
  , "c2" : "sourceRecordsForGroup(String)"
  , "c3" : "1"
  , "c4" : "6"
@@ -92,7 +92,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00171"
  , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#171"
- , "c1" : "List<Checkpoint>"
+ , "c1" : "List&lt;Checkpoint&gt;"
  , "c2" : "checkpointsForGroup(String)"
  , "c3" : "1"
  , "c4" : "1"
@@ -101,7 +101,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00180"
  , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#180"
- , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
+ , "c1" : "Map&lt;TopicPartition,OffsetAndMetadata&gt;"
  , "c2" : "listConsumerGroupOffsets(String)"
  , "c3" : "2"
  , "c4" : "2"
@@ -110,7 +110,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00189"
  , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#189"
- , "c1" : "Optional<Checkpoint>"
+ , "c1" : "Optional&lt;Checkpoint&gt;"
  , "c2" : "checkpoint(String;TopicPartition;OffsetAndMetadata)"
  , "c3" : "3"
  , "c4" : "4"
@@ -164,7 +164,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00255"
  , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#255"
- , "c1" : "Map<String,Map<TopicPartition,OffsetAndMetadata>>"
+ , "c1" : "Map&lt;String,Map&lt;TopicPartition,OffsetAndMetadata&gt;&gt;"
  , "c2" : "syncGroupOffset()"
  , "c3" : "7"
  , "c4" : "22"
@@ -174,7 +174,7 @@ var maDataBlocs = {
  , "c5" : "00307"
  , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#307"
  , "c1" : "void"
- , "c2" : "syncGroupOffset(String;Map<TopicPartition,OffsetAndMetadata>)"
+ , "c2" : "syncGroupOffset(String;Map&lt;TopicPartition,OffsetAndMetadata&gt;)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -182,7 +182,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00315"
  , "c5link" : "././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#315"
- , "c1" : "Map<String,Map<TopicPartition,OffsetAndMetadata>>"
+ , "c1" : "Map&lt;String,Map&lt;TopicPartition,OffsetAndMetadata&gt;&gt;"
  , "c2" : "getConvertedUpstreamOffset()"
  , "c3" : "3"
  , "c4" : "6"
@@ -211,220 +211,6 @@ var maDataBlocs = {
 ]
 , 
 "data08" : [
-]
-, 
-"data09a" : [
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1027Seq1.html#seq1"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1027&numSeq=1"
- , "c2" : "1"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.Map.getKey@POLYN435159.return" , "java.util.HashMap.put@POLYN621976.key"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1027Seq2.html#seq2"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1027&numSeq=2"
- , "c2" : "2"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.Map.getValue@POLYN435492.return" , "java.util.HashMap.put@POLYN621976.value"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1027Seq3.html#seq3"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1027&numSeq=3"
- , "c2" : "3"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.HashMap.get@POLYN618616.return" , "java.util.HashMap.put@POLYN621976.value"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-]
-,
-"data09b" : [
-{ "sequence" : { 
- "seq" : "1" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00319]"
- , "c3" : ["java.util.Map.getKey@POLYN435159.return" , "---java.util.Map.getKey@POLYN435159" , "org.apache.kafka.connect.mirror.MirrorCheckpointTask.getConvertedUpstreamOffset@POLYN207271.consumerId"]
- , "c4" : "//QC-JAVCWE099[00319] In org.apache.kafka.connect.mirror.MirrorCheckpointTask.getConvertedUpstreamOffset@POLYN207271[00319] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00324]"
- , "c3" : ["org.apache.kafka.connect.mirror.MirrorCheckpointTask.getConvertedUpstreamOffset@POLYN207271.consumerId" , "---java.util.HashMap.put@POLYN621976" , "java.util.HashMap.put@POLYN621976.key"]
- , "c4" : "//QC-JAVCWE099[00324] In org.apache.kafka.connect.mirror.MirrorCheckpointTask.getConvertedUpstreamOffset@POLYN207271[00324] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "2" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00263]"
- , "c3" : ["java.util.Map.getValue@POLYN435492.return" , "---java.util.Map.getValue@POLYN435492" , "org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199.convertedUpstreamOffset"]
- , "c4" : "//QC-JAVCWE099[00263] In org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199[00263] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00270]"
- , "c3" : ["org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199.convertedUpstreamOffset" , "---java.util.HashMap.put@POLYN621976" , "java.util.HashMap.put@POLYN621976.value"]
- , "c4" : "//QC-JAVCWE099[00270] In org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199[00270] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "3" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00277]"
- , "c3" : ["java.util.HashMap.get@POLYN618616.return" , "---java.util.HashMap.get@POLYN618616" , "org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199.convertedOffset"]
- , "c4" : "//QC-JAVCWE099[00277] In org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199[00277] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00280]"
- , "c3" : ["org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199.convertedOffset" , "---java.util.HashMap.put@POLYN621976" , "java.util.HashMap.put@POLYN621976.value"]
- , "c4" : "//QC-JAVCWE099[00280] In org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199[00280] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-]
-, 
-"data10" : [
 ]
 , 
 "data11" : [
@@ -925,6 +711,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorCheckpointTask.sourceRecordsForGroup@POLYN198752"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorCheckpointTask.syncGroupOffset@POLYN204199"
 }} 
 ,
@@ -943,10 +736,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorCheckpointTask.sourceRecordsForGroup@POLYN198752"
+ , "c1" : "00166"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#166"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00166] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.sourceRecordsForGroup@POLYN198752 the MagicNumber/String 'Error querying offsets for consumer group {} on cluster {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1010,13 +803,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#250"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00250] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.refreshIdleConsumerGroupOffset@POLYN203170 the MagicNumber/String 'Error querying for consumer group {} on cluster {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00166"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#166"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00166] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.sourceRecordsForGroup@POLYN198752 the MagicNumber/String 'Error querying offsets for consumer group {} on cluster {}.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

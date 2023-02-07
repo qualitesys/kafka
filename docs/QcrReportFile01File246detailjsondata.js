@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00156"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#156"
- , "c1" : "List<ProducerBatch>"
+ , "c1" : "List&lt;ProducerBatch&gt;"
  , "c2" : "inFlightBatches(TopicPartition)"
  , "c3" : "1"
  , "c4" : "1"
@@ -56,7 +56,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00178"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#178"
- , "c1" : "List<ProducerBatch>"
+ , "c1" : "List&lt;ProducerBatch&gt;"
  , "c2" : "getExpiredInflightBatches(long)"
  , "c3" : "9"
  , "c4" : "14"
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00212"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#212"
  , "c1" : "void"
- , "c2" : "addToInflightBatches(List<ProducerBatch>)"
+ , "c2" : "addToInflightBatches(List&lt;ProducerBatch&gt;)"
  , "c3" : "3"
  , "c4" : "4"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00223"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#223"
  , "c1" : "void"
- , "c2" : "addToInflightBatches(Map<Integer,List<ProducerBatch>>)"
+ , "c2" : "addToInflightBatches(Map&lt;Integer,List&lt;ProducerBatch&gt;&gt;)"
  , "c3" : "2"
  , "c4" : "1"
 }} 
@@ -183,7 +183,7 @@ var maDataBlocs = {
  , "c5" : "00549"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#549"
  , "c1" : "void"
- , "c2" : "handleProduceResponse(ClientResponse;Map<TopicPartition,ProducerBatch>;long)"
+ , "c2" : "handleProduceResponse(ClientResponse;Map&lt;TopicPartition,ProducerBatch&gt;;long)"
  , "c3" : "10"
  , "c4" : "15"
 }} 
@@ -246,7 +246,7 @@ var maDataBlocs = {
  , "c5" : "00754"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#754"
  , "c1" : "void"
- , "c2" : "failBatch(ProducerBatch;RuntimeException;Function<Integer,RuntimeException>;boolean)"
+ , "c2" : "failBatch(ProducerBatch;RuntimeException;Function&lt;Integer,RuntimeException&gt;;boolean)"
  , "c3" : "3"
  , "c4" : "3"
 }} 
@@ -264,7 +264,7 @@ var maDataBlocs = {
  , "c5" : "00788"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#788"
  , "c1" : "void"
- , "c2" : "sendProduceRequests(Map<Integer,List<ProducerBatch>>;long)"
+ , "c2" : "sendProduceRequests(Map&lt;Integer,List&lt;ProducerBatch&gt;&gt;;long)"
  , "c3" : "2"
  , "c4" : "1"
 }} 
@@ -273,7 +273,7 @@ var maDataBlocs = {
  , "c5" : "00796"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#796"
  , "c1" : "void"
- , "c2" : "sendProduceRequest(long;int;short;int;List<ProducerBatch>)"
+ , "c2" : "sendProduceRequest(long;int;short;int;List&lt;ProducerBatch&gt;)"
  , "c3" : "8"
  , "c4" : "21"
 }} 
@@ -319,151 +319,6 @@ var maDataBlocs = {
 ]
 , 
 "data08" : [
-]
-, 
-"data09a" : [
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File246Seq1.html#seq1"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=246&numSeq=1"
- , "c2" : "1"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.HashMap.get@POLYN618616.return" , "java.util.HashMap.put@POLYN621976.value"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File246Seq2.html#seq2"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=246&numSeq=2"
- , "c2" : "2"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.HashMap.find@POLYN698842.return" , "java.util.concurrent.ConcurrentHashMap.add@POLYN1669444.e"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-]
-,
-"data09b" : [
-{ "sequence" : { 
- "seq" : "1" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00214]"
- , "c3" : ["java.util.HashMap.get@POLYN618616.return" , "---java.util.HashMap.get@POLYN618616" , "org.apache.kafka.clients.producer.internals.Sender.addToInflightBatches@POLYN305209.inflightBatchList"]
- , "c4" : "//QC-JAVCWE099[00214] In org.apache.kafka.clients.producer.internals.Sender.addToInflightBatches@POLYN305209[00214] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00217]"
- , "c3" : ["org.apache.kafka.clients.producer.internals.Sender.addToInflightBatches@POLYN305209.inflightBatchList" , "---java.util.HashMap.put@POLYN621976" , "java.util.HashMap.put@POLYN621976.value"]
- , "c4" : "//QC-JAVCWE099[00217] In org.apache.kafka.clients.producer.internals.Sender.addToInflightBatches@POLYN305209[00217] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "2" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00822]"
- , "c3" : ["java.util.HashMap.find@POLYN698842.return" , "---java.util.HashMap.find@POLYN698842" , "org.apache.kafka.clients.producer.internals.Sender.sendProduceRequest@POLYN332524.tpData"]
- , "c4" : "//QC-JAVCWE099[00822] In org.apache.kafka.clients.producer.internals.Sender.sendProduceRequest@POLYN332524[00822] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00825]"
- , "c3" : ["org.apache.kafka.clients.producer.internals.Sender.sendProduceRequest@POLYN332524.tpData" , "---java.util.concurrent.ConcurrentHashMap.add@POLYN1669444" , "java.util.concurrent.ConcurrentHashMap.add@POLYN1669444.e"]
- , "c4" : "//QC-JAVCWE099[00825] In org.apache.kafka.clients.producer.internals.Sender.sendProduceRequest@POLYN332524[00825] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-]
-, 
-"data10" : [
 ]
 , 
 "data11" : [

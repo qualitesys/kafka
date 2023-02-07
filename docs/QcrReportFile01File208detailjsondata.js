@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00052"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#52"
  , "c1" : "Fetch"
- , "c2" : "Fetch(Map<TopicPartition,List<ConsumerRecord<K,V>>>;boolean;int)"
+ , "c2" : "Fetch(Map&lt;TopicPartition,List&lt;ConsumerRecord&lt;K,V&gt;&gt;&gt;;boolean;int)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00069"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#69"
  , "c1" : "void"
- , "c2" : "add(Fetch<K,V>)"
+ , "c2" : "add(Fetch&lt;K,V&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00078"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#78"
- , "c1" : "Map<TopicPartition,List<ConsumerRecord<K,V>>>"
+ , "c1" : "Map&lt;TopicPartition,List&lt;ConsumerRecord&lt;K,V&gt;&gt;&gt;"
  , "c2" : "records()"
  , "c3" : "1"
  , "c4" : "1"
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00106"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#106"
  , "c1" : "void"
- , "c2" : "addRecords(Map<TopicPartition,List<ConsumerRecord<K,V>>>)"
+ , "c2" : "addRecords(Map&lt;TopicPartition,List&lt;ConsumerRecord&lt;K,V&gt;&gt;&gt;)"
  , "c3" : "3"
  , "c4" : "8"
 }} 

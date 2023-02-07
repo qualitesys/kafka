@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00227"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#227"
  , "c1" : "ConnectorConfig"
- , "c2" : "ConnectorConfig(Plugins;Map<String,String>)"
+ , "c2" : "ConnectorConfig(Plugins;Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00231"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#231"
  , "c1" : "ConnectorConfig"
- , "c2" : "ConnectorConfig(Plugins;ConfigDef;Map<String,String>)"
+ , "c2" : "ConnectorConfig(Plugins;ConfigDef;Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -120,7 +120,7 @@ var maDataBlocs = {
  , "c5" : "00310"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#310"
  , "c1" : "ConfigDef"
- , "c2" : "enrich(Plugins;ConfigDef;Map<String,String>;boolean)"
+ , "c2" : "enrich(Plugins;ConfigDef;Map&lt;String,String&gt;;boolean)"
  , "c3" : "4"
  , "c4" : "16"
 }} 

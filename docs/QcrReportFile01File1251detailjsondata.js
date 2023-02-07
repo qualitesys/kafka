@@ -119,7 +119,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00497"
  , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html#497"
- , "c1" : "Optional<Integer>"
+ , "c1" : "Optional&lt;Integer&gt;"
  , "c2" : "fixedLength()"
  , "c3" : "1"
  , "c4" : "1"

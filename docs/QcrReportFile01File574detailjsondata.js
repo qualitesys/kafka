@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00030"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatchIterator.java.html#30"
  , "c1" : "RecordBatchIterator"
- , "c2" : "RecordBatchIterator(LogInputStream<T>)"
+ , "c2" : "RecordBatchIterator(LogInputStream&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

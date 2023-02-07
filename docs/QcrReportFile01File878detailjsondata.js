@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00034"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDDeserializer.java.html#34"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>;boolean)"
+ , "c2" : "configure(Map&lt;String,?&gt;;boolean)"
  , "c3" : "3"
  , "c4" : "4"
 }} 

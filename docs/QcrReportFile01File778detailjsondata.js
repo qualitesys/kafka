@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00041"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#41"
  , "c1" : "KerberosShortNamer"
- , "c2" : "KerberosShortNamer(List<KerberosRule>)"
+ , "c2" : "KerberosShortNamer(List&lt;KerberosRule&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00045"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#45"
  , "c1" : "KerberosShortNamer"
- , "c2" : "fromUnparsedRules(String;List<String>)"
+ , "c2" : "fromUnparsedRules(String;List&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -38,8 +38,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00050"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#50"
- , "c1" : "List<KerberosRule>"
- , "c2" : "parseRules(String;List<String>)"
+ , "c1" : "List&lt;KerberosRule&gt;"
+ , "c2" : "parseRules(String;List&lt;String&gt;)"
  , "c3" : "6"
  , "c4" : "7"
 }} 

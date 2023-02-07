@@ -29,8 +29,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00126"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#126"
- , "c1" : "ControllerResult<Map<String,ApiError>>"
- , "c2" : "updateFeatures(Map<String,Short>;Map<String,FeatureUpdate.UpgradeType>;Map<Integer,Map<String,VersionRange>>;boolean)"
+ , "c1" : "ControllerResult&lt;Map&lt;String,ApiError&gt;&gt;"
+ , "c2" : "updateFeatures(Map&lt;String,Short&gt;;Map&lt;String,FeatureUpdate.UpgradeType&gt;;Map&lt;Integer,Map&lt;String,VersionRange&gt;&gt;;boolean)"
  , "c3" : "4"
  , "c4" : "5"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00150"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#150"
  , "c1" : "ApiError"
- , "c2" : "updateFeature(String;short;FeatureUpdate.UpgradeType;Map<Integer,Map<String,VersionRange>>;List<ApiMessageAndVersion>)"
+ , "c2" : "updateFeature(String;short;FeatureUpdate.UpgradeType;Map&lt;Integer,Map&lt;String,VersionRange&gt;&gt;;List&lt;ApiMessageAndVersion&gt;)"
  , "c3" : "14"
  , "c4" : "14"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00221"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#221"
  , "c1" : "ApiError"
- , "c2" : "updateMetadataVersion(short;boolean;Consumer<ApiMessageAndVersion>)"
+ , "c2" : "updateMetadataVersion(short;boolean;Consumer&lt;ApiMessageAndVersion&gt;)"
  , "c3" : "7"
  , "c4" : "11"
 }} 

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java 9 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java 8 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.xml" 
  , "fic3"  : "" 
 }
@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00039"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#39"
  , "c1" : "ConsumerRecords"
- , "c2" : "ConsumerRecords(Map<TopicPartition,List<ConsumerRecord<K,V>>>)"
+ , "c2" : "ConsumerRecords(Map&lt;TopicPartition,List&lt;ConsumerRecord&lt;K,V&gt;&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00048"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#48"
- , "c1" : "List<ConsumerRecord<K,V>>"
+ , "c1" : "List&lt;ConsumerRecord&lt;K,V&gt;&gt;"
  , "c2" : "records(TopicPartition)"
  , "c3" : "3"
  , "c4" : "3"
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00059"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#59"
- , "c1" : "Iterable<ConsumerRecord<K,V>>"
+ , "c1" : "Iterable&lt;ConsumerRecord&lt;K,V&gt;&gt;"
  , "c2" : "records(String)"
  , "c3" : "4"
  , "c4" : "4"
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00074"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#74"
- , "c1" : "Set<TopicPartition>"
+ , "c1" : "Set&lt;TopicPartition&gt;"
  , "c2" : "partitions()"
  , "c3" : "1"
  , "c4" : "1"
@@ -56,7 +56,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00079"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#79"
- , "c1" : "Iterator<ConsumerRecord<K,V>>"
+ , "c1" : "Iterator&lt;ConsumerRecord&lt;K,V&gt;&gt;"
  , "c2" : "iterator()"
  , "c3" : "1"
  , "c4" : "1"
@@ -111,23 +111,7 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
@@ -205,13 +189,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#108"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.clients.consumer.ConsumerRecords.ConcatenatedIterable.iterator@POLYN165542 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerRecords.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.ConsumerRecords.isEmpty@POLYN166439"
 }} 
 ]
 , 

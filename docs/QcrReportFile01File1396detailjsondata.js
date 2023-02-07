@@ -56,8 +56,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00131"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#131"
- , "c1" : "List<Voter>"
- , "c2" : "voters(Set<Integer>)"
+ , "c1" : "List&lt;Voter&gt;"
+ , "c2" : "voters(Set&lt;Integer&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

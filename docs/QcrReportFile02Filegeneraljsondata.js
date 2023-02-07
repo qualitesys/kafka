@@ -1402,6 +1402,7 @@ var mavar =
 ' { "namespace":"java.lang" , "classe":"Short" , "nbMethodes":"21" , "nbComplexite":"1.20"} ,' + 
 ' { "namespace":"java.lang" , "classe":"String" , "nbMethodes":"85" , "nbComplexite":"2.86"} ,' + 
 ' { "namespace":"java.lang" , "classe":"StringBuilder" , "nbMethodes":"42" , "nbComplexite":"1.20"} ,' + 
+' { "namespace":"java.lang" , "classe":"Throwable" , "nbMethodes":"26" , "nbComplexite":"2.58"} ,' + 
 ' { "namespace":"java.lang" , "classe":"Void" , "nbMethodes":"1" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"java.net" , "classe":"CacheRequest" , "nbMethodes":"2" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"java.net" , "classe":"CacheResponse" , "nbMethodes":"2" , "nbComplexite":"1.00"} ,' + 

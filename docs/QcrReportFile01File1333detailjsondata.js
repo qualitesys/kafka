@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ClusterImage.java 11 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ClusterImage.java 9 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.xml" 
  , "fic3"  : "" 
 }
@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00041"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#41"
  , "c1" : "ClusterImage"
- , "c2" : "ClusterImage(Map<Integer,BrokerRegistration>)"
+ , "c2" : "ClusterImage(Map&lt;Integer,BrokerRegistration&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00049"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#49"
- , "c1" : "Map<Integer,BrokerRegistration>"
+ , "c1" : "Map&lt;Integer,BrokerRegistration&gt;"
  , "c2" : "brokers()"
  , "c3" : "1"
  , "c4" : "1"
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00057"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#57"
  , "c1" : "void"
- , "c2" : "write(Consumer<List<ApiMessageAndVersion>>;MetadataVersion)"
+ , "c2" : "write(Consumer&lt;List&lt;ApiMessageAndVersion&gt;&gt;;MetadataVersion)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -131,13 +131,6 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -148,7 +141,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -220,13 +213,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClusterImage.equals@POLYN152320"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClusterImage.hashCode@POLYN152200"
 }} 
 ,
@@ -235,13 +221,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClusterImage.isEmpty@POLYN151297"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#72"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.image.ClusterImage.equals@POLYN152320 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -34,7 +34,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00065"
  , "c5link" : "././qc/examples/src/main/java/kafka/examples/Producer.java.html#65"
- , "c1" : "KafkaProducer<Integer,String>"
+ , "c1" : "KafkaProducer&lt;Integer,String&gt;"
  , "c2" : "get()"
  , "c3" : "1"
  , "c4" : "1"

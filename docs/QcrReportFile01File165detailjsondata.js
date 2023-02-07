@@ -29,8 +29,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00068"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#68"
- , "c1" : "AdminApiFuture.SimpleAdminApiFuture<TopicPartition,PartitionProducerState>"
- , "c2" : "newFuture(Collection<TopicPartition>)"
+ , "c1" : "AdminApiFuture.SimpleAdminApiFuture&lt;TopicPartition,PartitionProducerState&gt;"
+ , "c2" : "newFuture(Collection&lt;TopicPartition&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00080"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#80"
- , "c1" : "AdminApiLookupStrategy<TopicPartition>"
+ , "c1" : "AdminApiLookupStrategy&lt;TopicPartition&gt;"
  , "c2" : "lookupStrategy()"
  , "c3" : "1"
  , "c4" : "1"
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00085"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#85"
  , "c1" : "DescribeProducersRequest.Builder"
- , "c2" : "buildBatchedRequest(int;Set<TopicPartition>)"
+ , "c2" : "buildBatchedRequest(int;Set&lt;TopicPartition&gt;)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00101"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#101"
  , "c1" : "void"
- , "c2" : "handlePartitionError(TopicPartition;ApiError;Map<TopicPartition,Throwable>;List<TopicPartition>)"
+ , "c2" : "handlePartitionError(TopicPartition;ApiError;Map&lt;TopicPartition,Throwable&gt;;List&lt;TopicPartition&gt;)"
  , "c3" : "7"
  , "c4" : "17"
 }} 
@@ -74,8 +74,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00157"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#157"
- , "c1" : "ApiResult<TopicPartition,PartitionProducerState>"
- , "c2" : "handleResponse(Node;Set<TopicPartition>;AbstractResponse)"
+ , "c1" : "ApiResult&lt;TopicPartition,PartitionProducerState&gt;"
+ , "c2" : "handleResponse(Node;Set&lt;TopicPartition&gt;;AbstractResponse)"
  , "c3" : "4"
  , "c4" : "15"
 }} 

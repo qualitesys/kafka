@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00070"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SslEngineFactory.java.html#70"
  , "c1" : "boolean"
- , "c2" : "shouldBeRebuilt(Map<String,Object>)"
+ , "c2" : "shouldBeRebuilt(Map&lt;String,Object&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00076"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SslEngineFactory.java.html#76"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "reconfigurableConfigs()"
  , "c3" : "1"
  , "c4" : "1"

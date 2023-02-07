@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java 15 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java 20 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.xml" 
  , "fic3"  : "" 
 }
@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00041"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#41"
- , "c1" : "Map<Errors,Integer>"
+ , "c1" : "Map&lt;Errors,Integer&gt;"
  , "c2" : "errorCounts()"
  , "c3" : "4"
  , "c4" : "5"
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00088"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#88"
  , "c1" : "FetchSnapshotResponseData"
- , "c2" : "singleton(TopicPartition;UnaryOperator<FetchSnapshotResponseData.PartitionSnapshot>)"
+ , "c2" : "singleton(TopicPartition;UnaryOperator&lt;FetchSnapshotResponseData.PartitionSnapshot&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -74,7 +74,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00113"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#113"
- , "c1" : "Optional<FetchSnapshotResponseData.PartitionSnapshot>"
+ , "c1" : "Optional&lt;FetchSnapshotResponseData.PartitionSnapshot&gt;"
  , "c2" : "forTopicPartition(FetchSnapshotResponseData;TopicPartition)"
  , "c3" : "1"
  , "c4" : "1"
@@ -131,6 +131,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "4"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -141,7 +148,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -269,7 +276,42 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FetchSnapshotResponse.errorCounts@POLYN158705"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FetchSnapshotResponse.throttleTimeMs@POLYN159715"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#46"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00046] In the recursive method org.apache.kafka.common.requests.FetchSnapshotResponse.errorCounts@POLYN158705 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#52"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.common.requests.FetchSnapshotResponse.errorCounts@POLYN158705 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#52"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.common.requests.FetchSnapshotResponse.errorCounts@POLYN158705 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#52"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.common.requests.FetchSnapshotResponse.errorCounts@POLYN158705 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

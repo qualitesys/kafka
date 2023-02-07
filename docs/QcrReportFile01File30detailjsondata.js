@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00048"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClient.java.html#48"
  , "c1" : "AdminClient"
- , "c2" : "create(Map<String,Object>)"
+ , "c2" : "create(Map&lt;String,Object&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

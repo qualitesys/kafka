@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00052"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#52"
  , "c1" : "ExactlyOnceSupport"
- , "c2" : "exactlyOnceSupport(Map<String,String>)"
+ , "c2" : "exactlyOnceSupport(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00071"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#71"
  , "c1" : "ConnectorTransactionBoundaries"
- , "c2" : "canDefineTransactionBoundaries(Map<String,String>)"
+ , "c2" : "canDefineTransactionBoundaries(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

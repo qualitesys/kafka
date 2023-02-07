@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00037"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#37"
- , "c1" : "Map<ClientQuotaEntity,ClientQuotaDelta>"
+ , "c1" : "Map&lt;ClientQuotaEntity,ClientQuotaDelta&gt;"
  , "c2" : "changes()"
  , "c3" : "1"
  , "c4" : "1"
@@ -112,7 +112,7 @@ var maDataBlocs = {
  , "c2" : "1"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.util.Map.getKey@POLYN435159.return" , "java.util.HashMap.put@POLYN621976.key"]
+ , "c5" : ["java.util.Map.getKey@POLYN435159.return" , "org.apache.kafka.image.ClientQuotasDelta.apply@POLYN154859.cibledummy_00070"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -129,15 +129,15 @@ var maDataBlocs = {
  , "c1" : "2"
  , "sourcenoligne" : "[00067]"
  , "c3" : ["java.util.Map.getKey@POLYN435159.return" , "---java.util.Map.getKey@POLYN435159" , "org.apache.kafka.image.ClientQuotasDelta.apply@POLYN154859.entity"]
- , "c4" : "//QC-JAVCWE099[00067] In org.apache.kafka.image.ClientQuotasDelta.apply@POLYN154859[00067] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
+ , "c4" : "//QC-JAVCWE099[00067] In org.apache.kafka.image.ClientQuotasDelta.apply@POLYN154859[00067] source data PATHtainted (java.util.Map.get) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "1"
- , "sourcenoligne" : "[00074]"
- , "c3" : ["org.apache.kafka.image.ClientQuotasDelta.apply@POLYN154859.entity" , "---java.util.HashMap.put@POLYN621976" , "java.util.HashMap.put@POLYN621976.key"]
- , "c4" : "//QC-JAVCWE099[00074] In org.apache.kafka.image.ClientQuotasDelta.apply@POLYN154859[00074] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "sourcenoligne" : "[00070]"
+ , "c3" : ["org.apache.kafka.image.ClientQuotasDelta.apply@POLYN154859.entity" , "---java.util.Map.put@POLYN429794" , "org.apache.kafka.image.ClientQuotasDelta.apply@POLYN154859.cibledummy_00070"]
+ , "c4" : "//QC-JAVCWE099[00070] In org.apache.kafka.image.ClientQuotasDelta.apply@POLYN154859[00070] target data PATHtainted (java.util.Map.put) RiskOnOutput"
  , "c5" : "input"
 }}
 ,

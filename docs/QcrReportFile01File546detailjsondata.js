@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00039"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilterComponent.java.html#39"
  , "c1" : "ClientQuotaFilterComponent"
- , "c2" : "ClientQuotaFilterComponent(String;Optional<String>)"
+ , "c2" : "ClientQuotaFilterComponent(String;Optional&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -65,7 +65,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00088"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilterComponent.java.html#88"
- , "c1" : "Optional<String>"
+ , "c1" : "Optional&lt;String&gt;"
  , "c2" : "match()"
  , "c3" : "1"
  , "c4" : "1"

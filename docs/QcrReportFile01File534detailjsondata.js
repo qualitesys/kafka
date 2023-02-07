@@ -83,7 +83,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00102"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/CompactArrayOf.java.html#102"
- , "c1" : "Optional<Type>"
+ , "c1" : "Optional&lt;Type&gt;"
  , "c2" : "arrayElementType()"
  , "c3" : "1"
  , "c4" : "1"

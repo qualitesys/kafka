@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00126"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/LoginAccessTokenValidator.java.html#126"
  , "c1" : "Object"
- , "c2" : "getClaim(Map<String,Object>;String)"
+ , "c2" : "getClaim(Map&lt;String,Object&gt;;String)"
  , "c3" : "1"
  , "c4" : "3"
 }} 

@@ -20,7 +20,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00032"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Reconfigurable.java.html#32"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "reconfigurableConfigs()"
  , "c3" : "1"
  , "c4" : "1"
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00043"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Reconfigurable.java.html#43"
  , "c1" : "void"
- , "c2" : "validateReconfiguration(Map<String,?>)"
+ , "c2" : "validateReconfiguration(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00052"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/Reconfigurable.java.html#52"
  , "c1" : "void"
- , "c2" : "reconfigure(Map<String,?>)"
+ , "c2" : "reconfigure(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

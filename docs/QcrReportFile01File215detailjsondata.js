@@ -29,8 +29,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00053"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#53"
- , "c1" : "AbstractRequest.Builder<OffsetsForLeaderEpochRequest>"
- , "c2" : "prepareRequest(Node;Map<TopicPartition,SubscriptionState.FetchPosition>)"
+ , "c1" : "AbstractRequest.Builder&lt;OffsetsForLeaderEpochRequest&gt;"
+ , "c2" : "prepareRequest(Node;Map&lt;TopicPartition,SubscriptionState.FetchPosition&gt;)"
  , "c3" : "2"
  , "c4" : "7"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00075"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#75"
  , "c1" : "OffsetForEpochResult"
- , "c2" : "handleResponse(Node;Map<TopicPartition,SubscriptionState.FetchPosition>;OffsetsForLeaderEpochResponse)"
+ , "c2" : "handleResponse(Node;Map&lt;TopicPartition,SubscriptionState.FetchPosition&gt;;OffsetsForLeaderEpochResponse)"
  , "c3" : "16"
  , "c4" : "21"
 }} 

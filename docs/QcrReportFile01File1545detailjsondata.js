@@ -1,99 +1,54 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.html" 
- , "texte" : "File storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java 0 rule violation " 
- , "fic2"  : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.xml" 
+   "fic1"  : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java.html" 
+ , "texte" : "File storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java 1 rule violations " 
+ , "fic2"  : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Configurable"
- , "c2" : "org.apache.kafka.server.log.remote.storage.RemoteLogMetadataManager"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.server.log.remote.storage.RemoteLogMetadata"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.server.log.remote.storage.RemoteLogMetadataManager" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.server.log.remote.storage.RemoteLogMetadata" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.html#68"
- , "c1" : "CompletableFuture<Void>"
- , "c2" : "addRemoteLogSegmentMetadata(RemoteLogSegmentMetadata)"
+ , "c5" : "00039"
+ , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java.html#39"
+ , "c1" : "RemoteLogMetadata"
+ , "c2" : "RemoteLogMetadata(int;long)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00047"
+ , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java.html#47"
+ , "c1" : "long"
+ , "c2" : "eventTimestampMs()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00111"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.html#111"
- , "c1" : "CompletableFuture<Void>"
- , "c2" : "updateRemoteLogSegmentMetadata(RemoteLogSegmentMetadataUpdate)"
+ , "c5" : "00054"
+ , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java.html#54"
+ , "c1" : "int"
+ , "c2" : "brokerId()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00124"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.html#124"
- , "c1" : "Optional<RemoteLogSegmentMetadata>"
- , "c2" : "remoteLogSegmentMetadata(TopicIdPartition;int;long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00139"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.html#139"
- , "c1" : "Optional<Long>"
- , "c2" : "highestOffsetForEpoch(TopicIdPartition;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00161"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.html#161"
- , "c1" : "CompletableFuture<Void>"
- , "c2" : "putRemotePartitionDeleteMetadata(RemotePartitionDeleteMetadata)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00172"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.html#172"
- , "c1" : "Iterator<RemoteLogSegmentMetadata>"
- , "c2" : "listRemoteLogSegments(TopicIdPartition)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00184"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.html#184"
- , "c1" : "Iterator<RemoteLogSegmentMetadata>"
- , "c2" : "listRemoteLogSegments(TopicIdPartition;int)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00194"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.html#194"
- , "c1" : "void"
- , "c2" : "onPartitionLeadershipChanges(Set<TopicIdPartition>;Set<TopicIdPartition>)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00203"
- , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.html#203"
- , "c1" : "void"
- , "c2" : "onStopPartitions(Set<TopicIdPartition>)"
+ , "c5" : "00061"
+ , "c5link" : "././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java.html#61"
+ , "c1" : "TopicIdPartition"
+ , "c2" : "topicIdPartition()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -102,9 +57,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.png" 
+   {"ligne" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java.png" 
 
- , "ligneplantuml" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.svg" }
+ , "ligneplantuml" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java.svg" }
 
 ] 
 , 
@@ -129,8 +84,26 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000003"
+ , "c3" : "High risk of strong class coupling"
+ , "c4" : "1"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00061"
+ , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java.html#61"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000003[00061] Public method topicIdPartition is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+]
+, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadataManager.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogMetadata.java.fct.svg" 
 
 , 
 }

@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00109"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#109"
  , "c1" : "KafkaConfigSchema"
- , "c2" : "KafkaConfigSchema(Map<ConfigResource.Type,ConfigDef>;Map<String,List<ConfigSynonym>>)"
+ , "c2" : "KafkaConfigSchema(Map&lt;ConfigResource.Type,ConfigDef&gt;;Map&lt;String,List&lt;ConfigSynonym&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -83,8 +83,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00160"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#160"
- , "c1" : "Map<String,ConfigEntry>"
- , "c2" : "resolveEffectiveTopicConfigs(Map<String,?extendsObject>;Map<String,?extendsObject>;Map<String,?extendsObject>;Map<String,?extendsObject>)"
+ , "c1" : "Map&lt;String,ConfigEntry&gt;"
+ , "c2" : "resolveEffectiveTopicConfigs(Map&lt;String,?extendsObject&gt;;Map&lt;String,?extendsObject&gt;;Map&lt;String,?extendsObject&gt;;Map&lt;String,?extendsObject&gt;)"
  , "c3" : "2"
  , "c4" : "5"
 }} 
@@ -93,7 +93,7 @@ var maDataBlocs = {
  , "c5" : "00175"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#175"
  , "c1" : "ConfigEntry"
- , "c2" : "resolveEffectiveTopicConfig(ConfigDef.ConfigKey;Map<String,?extendsObject>;Map<String,?extendsObject>;Map<String,?extendsObject>;Map<String,?extendsObject>)"
+ , "c2" : "resolveEffectiveTopicConfig(ConfigDef.ConfigKey;Map&lt;String,?extendsObject&gt;;Map&lt;String,?extendsObject&gt;;Map&lt;String,?extendsObject&gt;;Map&lt;String,?extendsObject&gt;)"
  , "c3" : "8"
  , "c4" : "6"
 }} 
@@ -102,7 +102,7 @@ var maDataBlocs = {
  , "c5" : "00208"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#208"
  , "c1" : "ConfigEntry"
- , "c2" : "toConfigEntry(ConfigDef.ConfigKey;Object;ConfigSource;Function<String,String>)"
+ , "c2" : "toConfigEntry(ConfigDef.ConfigKey;Object;ConfigSource;Function&lt;String,String&gt;)"
  , "c3" : "7"
  , "c4" : "7"
 }} 

@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00029"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/TaskInfo.java.html#29"
  , "c1" : "TaskInfo"
- , "c2" : "TaskInfo(ConnectorTaskId;Map<String,String>)"
+ , "c2" : "TaskInfo(ConnectorTaskId;Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00040"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/TaskInfo.java.html#40"
- , "c1" : "Map<String,String>"
+ , "c1" : "Map&lt;String,String&gt;"
  , "c2" : "config()"
  , "c3" : "1"
  , "c4" : "1"

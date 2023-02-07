@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00042"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsOptions.java.html#42"
  , "c1" : "ListConsumerGroupsOptions"
- , "c2" : "inStates(Set<ConsumerGroupState>)"
+ , "c2" : "inStates(Set&lt;ConsumerGroupState&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00050"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsOptions.java.html#50"
- , "c1" : "Set<ConsumerGroupState>"
+ , "c1" : "Set&lt;ConsumerGroupState&gt;"
  , "c2" : "states()"
  , "c3" : "1"
  , "c4" : "1"

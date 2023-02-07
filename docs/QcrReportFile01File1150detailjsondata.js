@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00030"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/CreateConnectorRequest.java.html#30"
  , "c1" : "CreateConnectorRequest"
- , "c2" : "CreateConnectorRequest(String;Map<String,String>)"
+ , "c2" : "CreateConnectorRequest(String;Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00041"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/CreateConnectorRequest.java.html#41"
- , "c1" : "Map<String,String>"
+ , "c1" : "Map&lt;String,String&gt;"
  , "c2" : "config()"
  , "c3" : "1"
  , "c4" : "1"

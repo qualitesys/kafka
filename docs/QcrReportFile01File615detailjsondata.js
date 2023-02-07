@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00068"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#68"
- , "c1" : "Map<Errors,Integer>"
+ , "c1" : "Map&lt;Errors,Integer&gt;"
  , "c2" : "errorCounts()"
  , "c3" : "1"
  , "c4" : "1"
@@ -111,7 +111,7 @@ var maDataBlocs = {
  , "c5" : "00125"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#125"
  , "c1" : "ApiVersionsResponse"
- , "c2" : "createApiVersionsResponse(int;RecordVersion;Features<SupportedVersionRange>;Map<String,Short>;long;NodeApiVersions;ListenerType)"
+ , "c2" : "createApiVersionsResponse(int;RecordVersion;Features&lt;SupportedVersionRange&gt;;Map&lt;String,Short&gt;;long;NodeApiVersions;ListenerType)"
  , "c3" : "3"
  , "c4" : "4"
 }} 
@@ -120,7 +120,7 @@ var maDataBlocs = {
  , "c5" : "00151"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#151"
  , "c1" : "ApiVersionsResponse"
- , "c2" : "createApiVersionsResponse(int;ApiVersionCollection;Features<SupportedVersionRange>;Map<String,Short>;long)"
+ , "c2" : "createApiVersionsResponse(int;ApiVersionCollection;Features&lt;SupportedVersionRange&gt;;Map&lt;String,Short&gt;;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -138,7 +138,7 @@ var maDataBlocs = {
  , "c5" : "00183"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#183"
  , "c1" : "ApiVersionCollection"
- , "c2" : "collectApis(Set<ApiKeys>)"
+ , "c2" : "collectApis(Set&lt;ApiKeys&gt;)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -147,7 +147,7 @@ var maDataBlocs = {
  , "c5" : "00200"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#200"
  , "c1" : "ApiVersionCollection"
- , "c2" : "intersectForwardableApis(ApiMessageType.ListenerType;RecordVersion;Map<ApiKeys,ApiVersion>)"
+ , "c2" : "intersectForwardableApis(ApiMessageType.ListenerType;RecordVersion;Map&lt;ApiKeys,ApiVersion&gt;)"
  , "c3" : "7"
  , "c4" : "9"
 }} 
@@ -156,7 +156,7 @@ var maDataBlocs = {
  , "c5" : "00230"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#230"
  , "c1" : "ApiVersionsResponseData"
- , "c2" : "createApiVersionsResponseData(int;Errors;ApiVersionCollection;Features<SupportedVersionRange>;Map<String,Short>;long)"
+ , "c2" : "createApiVersionsResponseData(int;Errors;ApiVersionCollection;Features&lt;SupportedVersionRange&gt;;Map&lt;String,Short&gt;;long)"
  , "c3" : "1"
  , "c4" : "8"
 }} 
@@ -165,7 +165,7 @@ var maDataBlocs = {
  , "c5" : "00249"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#249"
  , "c1" : "SupportedFeatureKeyCollection"
- , "c2" : "createSupportedFeatureKeys(Features<SupportedVersionRange>)"
+ , "c2" : "createSupportedFeatureKeys(Features&lt;SupportedVersionRange&gt;)"
  , "c3" : "2"
  , "c4" : "8"
 }} 
@@ -174,7 +174,7 @@ var maDataBlocs = {
  , "c5" : "00264"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#264"
  , "c1" : "FinalizedFeatureKeyCollection"
- , "c2" : "createFinalizedFeatureKeys(Map<String,Short>)"
+ , "c2" : "createFinalizedFeatureKeys(Map&lt;String,Short&gt;)"
  , "c3" : "2"
  , "c4" : "8"
 }} 
@@ -182,7 +182,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00279"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#279"
- , "c1" : "Optional<ApiVersion>"
+ , "c1" : "Optional&lt;ApiVersion&gt;"
  , "c2" : "intersect(ApiVersion;ApiVersion)"
  , "c3" : "3"
  , "c4" : "5"

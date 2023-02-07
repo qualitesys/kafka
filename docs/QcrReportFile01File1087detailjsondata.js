@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00036"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TransformationChain.java.html#36"
  , "c1" : "TransformationChain"
- , "c2" : "TransformationChain(List<Transformation<R>>;RetryWithToleranceOperator)"
+ , "c2" : "TransformationChain(List&lt;Transformation&lt;R&gt;&gt;;RetryWithToleranceOperator)"
  , "c3" : "1"
  , "c4" : "2"
 }} 

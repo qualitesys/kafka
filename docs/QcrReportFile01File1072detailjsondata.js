@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00035"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.html#35"
  , "c1" : "InternalSinkRecord"
- , "c2" : "InternalSinkRecord(ConsumerRecord<byte[],byte[]>;SinkRecord)"
+ , "c2" : "InternalSinkRecord(ConsumerRecord&lt;byte[],byte[]&gt;;SinkRecord)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00042"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.html#42"
  , "c1" : "InternalSinkRecord"
- , "c2" : "InternalSinkRecord(ConsumerRecord<byte[],byte[]>;String;int;Schema;Object;Schema;Object;long;Long;TimestampType;Iterable<Header>)"
+ , "c2" : "InternalSinkRecord(ConsumerRecord&lt;byte[],byte[]&gt;;String;int;Schema;Object;Schema;Object;long;Long;TimestampType;Iterable&lt;Header&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00051"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.html#51"
  , "c1" : "SinkRecord"
- , "c2" : "newRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>)"
+ , "c2" : "newRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable&lt;Header&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -74,7 +74,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00078"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.html#78"
- , "c1" : "ConsumerRecord<byte[],byte[]>"
+ , "c1" : "ConsumerRecord&lt;byte[],byte[]&gt;"
  , "c2" : "originalRecord()"
  , "c3" : "1"
  , "c4" : "1"

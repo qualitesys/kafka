@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00060"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/SnapshotGenerator.java.html#60"
  , "c1" : "SnapshotGenerator"
- , "c2" : "SnapshotGenerator(LogContext;SnapshotWriter<ApiMessageAndVersion>;int;List<Section>)"
+ , "c2" : "SnapshotGenerator(LogContext;SnapshotWriter&lt;ApiMessageAndVersion&gt;;int;List&lt;Section&gt;)"
  , "c3" : "1"
  , "c4" : "9"
 }} 

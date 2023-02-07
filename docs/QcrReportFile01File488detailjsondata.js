@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00041"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#41"
  , "c1" : "double"
- , "c2" : "combine(List<Sample>;MetricConfig;long)"
+ , "c2" : "combine(List&lt;Sample&gt;;MetricConfig;long)"
  , "c3" : "2"
  , "c4" : "3"
 }} 

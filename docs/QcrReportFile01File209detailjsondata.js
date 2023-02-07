@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java 545 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java 541 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.xml" 
  , "fic3"  : "" 
 }
@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00165"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#165"
  , "c1" : "Fetcher"
- , "c2" : "Fetcher(LogContext;ConsumerNetworkClient;int;int;int;int;int;boolean;String;Deserializer<K>;Deserializer<V>;ConsumerMetadata;SubscriptionState;Metrics;FetcherMetricsRegistry;Time;long;long;IsolationLevel;ApiVersions)"
+ , "c2" : "Fetcher(LogContext;ConsumerNetworkClient;int;int;int;int;int;boolean;String;Deserializer&lt;K&gt;;Deserializer&lt;V&gt;;ConsumerMetadata;SubscriptionState;Metrics;FetcherMetricsRegistry;Time;long;long;IsolationLevel;ApiVersions)"
  , "c3" : "1"
  , "c4" : "24"
 }} 
@@ -56,7 +56,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00366"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#366"
- , "c1" : "Map<String,List<PartitionInfo>>"
+ , "c1" : "Map&lt;String,List&lt;PartitionInfo&gt;&gt;"
  , "c2" : "getAllTopicMetadata(Timer)"
  , "c3" : "1"
  , "c4" : "1"
@@ -65,7 +65,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00377"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#377"
- , "c1" : "Map<String,List<PartitionInfo>>"
+ , "c1" : "Map&lt;String,List&lt;PartitionInfo&gt;&gt;"
  , "c2" : "getTopicMetadata(MetadataRequest.Builder;Timer)"
  , "c3" : "17"
  , "c4" : "23"
@@ -74,7 +74,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00441"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#441"
- , "c1" : "RequestFuture<ClientResponse>"
+ , "c1" : "RequestFuture&lt;ClientResponse&gt;"
  , "c2" : "sendMetadataRequest(MetadataRequest.Builder)"
  , "c3" : "3"
  , "c4" : "3"
@@ -119,8 +119,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00516"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#516"
- , "c1" : "Map<TopicPartition,OffsetAndTimestamp>"
- , "c2" : "offsetsForTimes(Map<TopicPartition,Long>;Timer)"
+ , "c1" : "Map&lt;TopicPartition,OffsetAndTimestamp&gt;"
+ , "c2" : "offsetsForTimes(Map&lt;TopicPartition,Long&gt;;Timer)"
  , "c3" : "3"
  , "c4" : "8"
 }} 
@@ -129,7 +129,7 @@ var maDataBlocs = {
  , "c5" : "00542"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#542"
  , "c1" : "ListOffsetResult"
- , "c2" : "fetchOffsetsByTimes(Map<TopicPartition,Long>;Timer;boolean)"
+ , "c2" : "fetchOffsetsByTimes(Map&lt;TopicPartition,Long&gt;;Timer;boolean)"
  , "c3" : "14"
  , "c4" : "21"
 }} 
@@ -137,8 +137,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00609"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#609"
- , "c1" : "Map<TopicPartition,Long>"
- , "c2" : "beginningOffsets(Collection<TopicPartition>;Timer)"
+ , "c1" : "Map&lt;TopicPartition,Long&gt;"
+ , "c2" : "beginningOffsets(Collection&lt;TopicPartition&gt;;Timer)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -146,8 +146,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00613"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#613"
- , "c1" : "Map<TopicPartition,Long>"
- , "c2" : "endOffsets(Collection<TopicPartition>;Timer)"
+ , "c1" : "Map&lt;TopicPartition,Long&gt;"
+ , "c2" : "endOffsets(Collection&lt;TopicPartition&gt;;Timer)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -155,8 +155,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00617"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#617"
- , "c1" : "Map<TopicPartition,Long>"
- , "c2" : "beginningOrEndOffset(Collection<TopicPartition>;long;Timer)"
+ , "c1" : "Map&lt;TopicPartition,Long&gt;"
+ , "c2" : "beginningOrEndOffset(Collection&lt;TopicPartition&gt;;long;Timer)"
  , "c3" : "1"
  , "c4" : "5"
 }} 
@@ -164,7 +164,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00645"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#645"
- , "c1" : "Fetch<K,V>"
+ , "c1" : "Fetch&lt;K,V&gt;"
  , "c2" : "collectFetch()"
  , "c3" : "11"
  , "c4" : "20"
@@ -173,7 +173,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00699"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#699"
- , "c1" : "Fetch<K,V>"
+ , "c1" : "Fetch&lt;K,V&gt;"
  , "c2" : "fetchRecords(CompletedFetch;int)"
  , "c3" : "11"
  , "c4" : "20"
@@ -192,7 +192,7 @@ var maDataBlocs = {
  , "c5" : "00768"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#768"
  , "c1" : "void"
- , "c2" : "resetOffsetsAsync(Map<TopicPartition,Long>)"
+ , "c2" : "resetOffsetsAsync(Map&lt;TopicPartition,Long&gt;)"
  , "c3" : "5"
  , "c4" : "15"
 }} 
@@ -210,7 +210,7 @@ var maDataBlocs = {
  , "c5" : "00819"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#819"
  , "c1" : "void"
- , "c2" : "validateOffsetsAsync(Map<TopicPartition,FetchPosition>)"
+ , "c2" : "validateOffsetsAsync(Map&lt;TopicPartition,FetchPosition&gt;)"
  , "c3" : "8"
  , "c4" : "25"
 }} 
@@ -219,7 +219,7 @@ var maDataBlocs = {
  , "c5" : "00891"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#891"
  , "c1" : "LogTruncationException"
- , "c2" : "buildLogTruncationException(List<SubscriptionState.LogTruncation>)"
+ , "c2" : "buildLogTruncationException(List&lt;SubscriptionState.LogTruncation&gt;)"
  , "c3" : "2"
  , "c4" : "5"
 }} 
@@ -236,8 +236,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00917"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#917"
- , "c1" : "RequestFuture<ListOffsetResult>"
- , "c2" : "sendListOffsetsRequests(Map<TopicPartition,Long>;boolean)"
+ , "c1" : "RequestFuture&lt;ListOffsetResult&gt;"
+ , "c2" : "sendListOffsetsRequests(Map&lt;TopicPartition,Long&gt;;boolean)"
  , "c3" : "5"
  , "c4" : "14"
 }} 
@@ -245,8 +245,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00965"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#965"
- , "c1" : "Map<Node,Map<TopicPartition,ListOffsetsPartition>>"
- , "c2" : "groupListOffsetRequests(Map<TopicPartition,Long>;Set<TopicPartition>)"
+ , "c1" : "Map&lt;Node,Map&lt;TopicPartition,ListOffsetsPartition&gt;&gt;"
+ , "c2" : "groupListOffsetRequests(Map&lt;TopicPartition,Long&gt;;Set&lt;TopicPartition&gt;)"
  , "c3" : "6"
  , "c4" : "14"
 }} 
@@ -254,8 +254,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01009"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1009"
- , "c1" : "RequestFuture<ListOffsetResult>"
- , "c2" : "sendListOffsetRequest(Node;Map<TopicPartition,ListOffsetsPartition>;boolean)"
+ , "c1" : "RequestFuture&lt;ListOffsetResult&gt;"
+ , "c2" : "sendListOffsetRequest(Node;Map&lt;TopicPartition,ListOffsetsPartition&gt;;boolean)"
  , "c3" : "1"
  , "c4" : "6"
 }} 
@@ -264,7 +264,7 @@ var maDataBlocs = {
  , "c5" : "01038"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1038"
  , "c1" : "void"
- , "c2" : "handleListOffsetResponse(ListOffsetsResponse;RequestFuture<ListOffsetResult>)"
+ , "c2" : "handleListOffsetResponse(ListOffsetsResponse;RequestFuture&lt;ListOffsetResult&gt;)"
  , "c3" : "22"
  , "c4" : "31"
 }} 
@@ -272,7 +272,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01134"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1134"
- , "c1" : "List<TopicPartition>"
+ , "c1" : "List&lt;TopicPartition&gt;"
  , "c2" : "fetchablePartitions()"
  , "c3" : "3"
  , "c4" : "4"
@@ -299,7 +299,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01183"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1183"
- , "c1" : "Map<Node,FetchSessionHandler.FetchRequestData>"
+ , "c1" : "Map&lt;Node,FetchSessionHandler.FetchRequestData&gt;"
  , "c2" : "prepareFetchRequests()"
  , "c3" : "11"
  , "c4" : "26"
@@ -308,8 +308,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01244"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1244"
- , "c1" : "Map<Node,Map<TopicPartition,FetchPosition>>"
- , "c2" : "regroupFetchPositionsByLeader(Map<TopicPartition,FetchPosition>)"
+ , "c1" : "Map&lt;Node,Map&lt;TopicPartition,FetchPosition&gt;&gt;"
+ , "c2" : "regroupFetchPositionsByLeader(Map&lt;TopicPartition,FetchPosition&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -335,7 +335,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01412"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1412"
- , "c1" : "ConsumerRecord<K,V>"
+ , "c1" : "ConsumerRecord&lt;K,V&gt;"
  , "c2" : "parseRecord(TopicPartition;RecordBatch;Record)"
  , "c3" : "1"
  , "c4" : "13"
@@ -344,7 +344,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01439"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1439"
- , "c1" : "Optional<Integer>"
+ , "c1" : "Optional&lt;Integer&gt;"
  , "c2" : "maybeLeaderEpoch(int)"
  , "c3" : "1"
  , "c4" : "1"
@@ -354,7 +354,7 @@ var maDataBlocs = {
  , "c5" : "01448"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1448"
  , "c1" : "void"
- , "c2" : "clearBufferedDataForUnassignedPartitions(Collection<TopicPartition>)"
+ , "c2" : "clearBufferedDataForUnassignedPartitions(Collection&lt;TopicPartition&gt;)"
  , "c3" : "4"
  , "c4" : "7"
 }} 
@@ -363,7 +363,7 @@ var maDataBlocs = {
  , "c5" : "01470"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1470"
  , "c1" : "void"
- , "c2" : "clearBufferedDataForUnassignedTopics(Collection<String>)"
+ , "c2" : "clearBufferedDataForUnassignedTopics(Collection&lt;String&gt;)"
  , "c3" : "3"
  , "c4" : "3"
 }} 
@@ -398,8 +398,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01943"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1943"
- , "c1" : "Set<String>"
- , "c2" : "topicsForPartitions(Collection<TopicPartition>)"
+ , "c1" : "Set&lt;String&gt;"
+ , "c2" : "topicsForPartitions(Collection&lt;TopicPartition&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -434,39 +434,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File209Seq1.html#seq1"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=209&numSeq=1"
  , "c2" : "1"
- , "c3" : "3"
- , "c4" : "2"
- , "c5" : ["java.util.Map.get@POLYN428707.return" , "java.util.HashMap.put@POLYN621976.value"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File209Seq2.html#seq2"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=209&numSeq=2"
- , "c2" : "2"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.util.HashMap.get@POLYN618616.return" , "java.util.HashMap.put@POLYN621976.value"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File209Seq3.html#seq3"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=209&numSeq=3"
- , "c2" : "3"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.HashMap.getKey@POLYN607634.return" , "java.util.concurrent.ConcurrentHashMap.add@POLYN1669444.e"]
+ , "c5" : ["java.util.HashMap.getKey@POLYN607634.return" , "org.apache.kafka.clients.consumer.internals.Fetcher.groupListOffsetRequests@POLYN514632.cibledummy_00991"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -480,134 +450,18 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "1" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "3"
- , "sourcenoligne" : "[01482]"
- , "c3" : ["java.util.Map.get@POLYN428707.return" , "---java.util.Map.get@POLYN428707" , "org.apache.kafka.clients.consumer.internals.Fetcher.sessionHandler@POLYN543657.return"]
- , "c4" : "//QC-JAVCWE099[01482] In org.apache.kafka.clients.consumer.internals.Fetcher.sessionHandler@POLYN543657[01482] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[01219]"
- , "c3" : ["org.apache.kafka.clients.consumer.internals.Fetcher.sessionHandler@POLYN543657.return" , "---org.apache.kafka.clients.consumer.internals.Fetcher.sessionHandler@POLYN543657" , "org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN525918.handler"]
- , "c4" : ""
- , "c5" : "none"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[01222]"
- , "c3" : ["org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN525918.handler" , "---java.util.HashMap.put@POLYN621976" , "java.util.HashMap.put@POLYN621976.value"]
- , "c4" : "//QC-JAVCWE099[01222] In org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN525918[01222] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "2" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[01216]"
- , "c3" : ["java.util.HashMap.get@POLYN618616.return" , "---java.util.HashMap.get@POLYN618616" , "org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN525918.builder"]
- , "c4" : "//QC-JAVCWE099[01216] In org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN525918[01216] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[01225]"
- , "c3" : ["org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN525918.builder" , "---java.util.HashMap.put@POLYN621976" , "java.util.HashMap.put@POLYN621976.value"]
- , "c4" : "//QC-JAVCWE099[01225] In org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN525918[01225] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "3" , "contenu" : [ 
-{ "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00970]"
  , "c3" : ["java.util.HashMap.getKey@POLYN607634.return" , "---java.util.HashMap.getKey@POLYN607634" , "org.apache.kafka.clients.consumer.internals.Fetcher.groupListOffsetRequests@POLYN514632.tp"]
- , "c4" : "//QC-JAVCWE099[00970] In org.apache.kafka.clients.consumer.internals.Fetcher.groupListOffsetRequests@POLYN514632[00970] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
+ , "c4" : "//QC-JAVCWE099[00970] In org.apache.kafka.clients.consumer.internals.Fetcher.groupListOffsetRequests@POLYN514632[00970] source data PATHtainted (java.util.HashMap.get) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "1"
- , "sourcenoligne" : "[00977]"
- , "c3" : ["org.apache.kafka.clients.consumer.internals.Fetcher.groupListOffsetRequests@POLYN514632.tp" , "---java.util.concurrent.ConcurrentHashMap.add@POLYN1669444" , "java.util.concurrent.ConcurrentHashMap.add@POLYN1669444.e"]
- , "c4" : "//QC-JAVCWE099[00977] In org.apache.kafka.clients.consumer.internals.Fetcher.groupListOffsetRequests@POLYN514632[00977] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
+ , "sourcenoligne" : "[00991]"
+ , "c3" : ["org.apache.kafka.clients.consumer.internals.Fetcher.groupListOffsetRequests@POLYN514632.tp" , "---java.util.Map.put@POLYN429794" , "org.apache.kafka.clients.consumer.internals.Fetcher.groupListOffsetRequests@POLYN514632.cibledummy_00991"]
+ , "c4" : "//QC-JAVCWE099[00991] In org.apache.kafka.clients.consumer.internals.Fetcher.groupListOffsetRequests@POLYN514632[00991] target data PATHtainted (java.util.Map.put) RiskOnOutput"
  , "c5" : "input"
 }}
 ,
@@ -672,7 +526,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "107"
+ , "c4" : "104"
 }}
 ,
 { "ligne" : { "" : ""
@@ -693,7 +547,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "12"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : { "" : ""
@@ -3782,13 +3636,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.maybeEnsureValid@POLYN547306"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN518344"
 }} 
 ,
@@ -4350,27 +4197,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1022"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[01022] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.sendListOffsetRequest@POLYN516802 the MagicNumber/String 'Received ListOffsetResponse {} from broker {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01562"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1562"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01562] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.maybeEnsureValid@POLYN547306 the MagicNumber/String ' at offset ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01562"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1562"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01562] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.maybeEnsureValid@POLYN547306 the MagicNumber/String 'Record for partition ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01563"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1563"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01563] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.maybeEnsureValid@POLYN547306 the MagicNumber/String ' is invalid, cause: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

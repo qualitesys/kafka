@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java 76 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java 77 rule violations " 
  , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.xml" 
  , "fic3"  : "" 
 }
@@ -164,7 +164,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00147"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#147"
- , "c1" : "Optional<MetadataVersion>"
+ , "c1" : "Optional&lt;MetadataVersion&gt;"
  , "c2" : "metadataVersionChanged()"
  , "c3" : "3"
  , "c4" : "2"
@@ -174,7 +174,7 @@ var maDataBlocs = {
  , "c5" : "00155"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#155"
  , "c1" : "void"
- , "c2" : "read(long;int;Iterator<List<ApiMessageAndVersion>>)"
+ , "c2" : "read(long;int;Iterator&lt;List&lt;ApiMessageAndVersion&gt;&gt;)"
  , "c3" : "3"
  , "c4" : "2"
 }} 
@@ -409,7 +409,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -972,6 +972,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.MetadataDelta.MetadataDelta@POLYN188911"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.MetadataDelta.finishSnapshot@POLYN198529"
 }} 
 ]
 , 

@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00050"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskConfig.java.html#50"
  , "c1" : "TaskConfig"
- , "c2" : "TaskConfig(Map<String,?>)"
+ , "c2" : "TaskConfig(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

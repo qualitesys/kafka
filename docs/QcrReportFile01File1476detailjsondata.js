@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.Double.java.html" 
- , "texte" : "File secujava/java.lang.Double.java 54 rule violations " 
+ , "texte" : "File secujava/java.lang.Double.java 51 rule violations " 
  , "fic2"  : "./qc/secujava/java.lang.Double.java.xml" 
  , "fic3"  : "" 
 }
@@ -301,7 +301,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "10"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -639,13 +639,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.toString@POLYN390554"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.byteValue@POLYN390880"
 }} 
 ,
@@ -668,20 +661,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.intValue@POLYN391493"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.isInfinite@POLYN390174"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.isNaN@POLYN389842"
 }} 
 ,
 { "ligne" : {"" : ""

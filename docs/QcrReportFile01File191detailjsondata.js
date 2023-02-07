@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00053"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetCommitCallback.java.html#53"
  , "c1" : "void"
- , "c2" : "onComplete(Map<TopicPartition,OffsetAndMetadata>;Exception)"
+ , "c2" : "onComplete(Map&lt;TopicPartition,OffsetAndMetadata&gt;;Exception)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00091"
  , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#91"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "6"
 }} 
@@ -29,8 +29,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00105"
  , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#105"
- , "c1" : "Map<String,String>"
- , "c2" : "parseRenameMappings(List<String>)"
+ , "c1" : "Map&lt;String,String&gt;"
+ , "c2" : "parseRenameMappings(List&lt;String&gt;)"
  , "c3" : "3"
  , "c4" : "5"
 }} 
@@ -38,8 +38,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00117"
  , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#117"
- , "c1" : "Map<String,String>"
- , "c2" : "invert(Map<String,String>)"
+ , "c1" : "Map&lt;String,String&gt;"
+ , "c2" : "invert(Map&lt;String,String&gt;)"
  , "c3" : "2"
  , "c4" : "3"
 }} 

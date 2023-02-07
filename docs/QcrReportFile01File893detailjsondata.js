@@ -29,8 +29,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00067"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#67"
- , "c1" : "Map<String,List<Integer>>"
- , "c2" : "groupPartitionsByTopic(Collection<TopicPartition>)"
+ , "c1" : "Map&lt;String,List&lt;Integer&gt;&gt;"
+ , "c2" : "groupPartitionsByTopic(Collection&lt;TopicPartition&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

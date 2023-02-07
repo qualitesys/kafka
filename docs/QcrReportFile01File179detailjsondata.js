@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00056"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#56"
  , "c1" : "ByteBuffer"
- , "c2" : "subscriptionUserData(Set<String>)"
+ , "c2" : "subscriptionUserData(Set&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00081"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#81"
- , "c1" : "List<RebalanceProtocol>"
+ , "c1" : "List&lt;RebalanceProtocol&gt;"
  , "c2" : "supportedProtocols()"
  , "c3" : "1"
  , "c4" : "1"
@@ -74,8 +74,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00266"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#266"
- , "c1" : "List<ConsumerPartitionAssignor>"
- , "c2" : "getAssignorInstances(List<String>;Map<String,Object>)"
+ , "c1" : "List&lt;ConsumerPartitionAssignor&gt;"
+ , "c2" : "getAssignorInstances(List&lt;String&gt;;Map&lt;String,Object&gt;)"
  , "c3" : "10"
  , "c4" : "14"
 }} 

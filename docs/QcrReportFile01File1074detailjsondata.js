@@ -56,7 +56,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00092"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/RestartPlan.java.html#92"
- , "c1" : "Collection<ConnectorTaskId>"
+ , "c1" : "Collection&lt;ConnectorTaskId&gt;"
  , "c2" : "taskIdsToRestart()"
  , "c3" : "1"
  , "c4" : "1"

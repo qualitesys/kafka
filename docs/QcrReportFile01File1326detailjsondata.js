@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00053"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#53"
- , "c1" : "Map<Uuid,Optional<StandardAcl>>"
+ , "c1" : "Map&lt;Uuid,Optional&lt;StandardAcl&gt;&gt;"
  , "c2" : "changes()"
  , "c3" : "1"
  , "c4" : "1"

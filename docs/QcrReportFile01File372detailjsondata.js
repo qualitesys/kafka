@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00055"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidTopicException.java.html#55"
  , "c1" : "InvalidTopicException"
- , "c2" : "InvalidTopicException(Set<String>)"
+ , "c2" : "InvalidTopicException(Set&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00060"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidTopicException.java.html#60"
  , "c1" : "InvalidTopicException"
- , "c2" : "InvalidTopicException(String;Set<String>)"
+ , "c2" : "InvalidTopicException(String;Set&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -74,7 +74,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00065"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidTopicException.java.html#65"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "invalidTopics()"
  , "c3" : "1"
  , "c4" : "1"

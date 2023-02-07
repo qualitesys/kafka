@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00027"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/cache/SynchronizedCache.java.html#27"
  , "c1" : "SynchronizedCache"
- , "c2" : "SynchronizedCache(Cache<K,V>)"
+ , "c2" : "SynchronizedCache(Cache&lt;K,V&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

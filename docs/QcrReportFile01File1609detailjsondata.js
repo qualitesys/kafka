@@ -1,36 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java 8 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndContinueExceptionHandler.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/errors/LogAndContinueExceptionHandler.java 8 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndContinueExceptionHandler.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "DeserializationExceptionHandler"
- , "c2" : "org.apache.kafka.streams.errors.LogAndFailExceptionHandler"
+ , "c2" : "org.apache.kafka.streams.errors.LogAndContinueExceptionHandler"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.errors.LogAndFailExceptionHandler" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.errors.LogAndContinueExceptionHandler" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
  , "c5" : "00035"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#35"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndContinueExceptionHandler.java.html#35"
  , "c1" : "DeserializationHandlerResponse"
- , "c2" : "handle(ProcessorContext;ConsumerRecord<byte[],byte[]>;Exception)"
+ , "c2" : "handle(ProcessorContext;ConsumerRecord&lt;byte[],byte[]&gt;;Exception)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00048"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#48"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndContinueExceptionHandler.java.html#48"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "0"
 }} 
@@ -39,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndContinueExceptionHandler.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndContinueExceptionHandler.java.svg" }
 
 ] 
 , 
@@ -106,63 +106,63 @@ var maDataBlocs = {
 "data13b" : [
 { "ligne" : {"" : ""
  , "c1" : "00035"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#35"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndContinueExceptionHandler.java.html#35"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00035] For method handle arguments ProcessorContext  context|ConsumerRecord&lt;byte[] ,byte[] &gt;  record|Exception  exception"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00035"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#35"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndContinueExceptionHandler.java.html#35"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00035] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00036"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#36"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndContinueExceptionHandler.java.html#36"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00036] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00039"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#39"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndContinueExceptionHandler.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.errors.LogAndFailExceptionHandler.handle@POLYN146107 the MagicNumber/String  'Exception caught during Deserialization, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.streams.errors.LogAndContinueExceptionHandler.handle@POLYN146053 the MagicNumber/String  'Exception caught during Deserialization, ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00040"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#40"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndContinueExceptionHandler.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.errors.LogAndFailExceptionHandler.handle@POLYN146107 the MagicNumber/String  'taskId: {}, topic: {}, partition: {}, offset: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.streams.errors.LogAndContinueExceptionHandler.handle@POLYN146053 the MagicNumber/String  'taskId: {}, topic: {}, partition: {}, offset: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00048"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#48"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndContinueExceptionHandler.java.html#48"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00048] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00048"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#48"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndContinueExceptionHandler.java.html#48"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000005[00048] Void method configure is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00048"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#48"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndContinueExceptionHandler.java.html#48"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000004[00048] Void method configure is empty or contains only a return. Interface segregation"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndContinueExceptionHandler.java.fct.svg" 
 
 , 
 }

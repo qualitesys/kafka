@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00037"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitions.java.html#37"
  , "c1" : "NewPartitions"
- , "c2" : "NewPartitions(int;List<List<Integer>>)"
+ , "c2" : "NewPartitions(int;List&lt;List&lt;Integer&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00076"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitions.java.html#76"
  , "c1" : "NewPartitions"
- , "c2" : "increaseTo(int;List<List<Integer>>)"
+ , "c2" : "increaseTo(int;List&lt;List&lt;Integer&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -56,7 +56,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00090"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitions.java.html#90"
- , "c1" : "List<List<Integer>>"
+ , "c1" : "List&lt;List&lt;Integer&gt;&gt;"
  , "c2" : "assignments()"
  , "c3" : "1"
  , "c4" : "1"

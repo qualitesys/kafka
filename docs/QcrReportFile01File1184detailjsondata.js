@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00041"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkConnector.java.html#41"
  , "c1" : "void"
- , "c2" : "initialize(ConnectorContext;List<Map<String,String>>)"
+ , "c2" : "initialize(ConnectorContext;List&lt;Map&lt;String,String&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00046"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkConnector.java.html#46"
  , "c1" : "void"
- , "c2" : "reconfigure(Map<String,String>)"
+ , "c2" : "reconfigure(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00051"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkConnector.java.html#51"
  , "c1" : "Config"
- , "c2" : "validate(Map<String,String>)"
+ , "c2" : "validate(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00061"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkConnector.java.html#61"
  , "c1" : "void"
- , "c2" : "start(Map<String,String>)"
+ , "c2" : "start(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -74,7 +74,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00066"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkConnector.java.html#66"
- , "c1" : "Class<?extendsTask>"
+ , "c1" : "Class&lt;?extendsTask&gt;"
  , "c2" : "taskClass()"
  , "c3" : "1"
  , "c4" : "1"
@@ -83,7 +83,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00071"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSinkConnector.java.html#71"
- , "c1" : "List<Map<String,String>>"
+ , "c1" : "List&lt;Map&lt;String,String&gt;&gt;"
  , "c2" : "taskConfigs(int)"
  , "c3" : "1"
  , "c4" : "1"

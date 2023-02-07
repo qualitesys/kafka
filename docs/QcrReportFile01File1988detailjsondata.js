@@ -1,99 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/QueryConfig.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/query/QueryConfig.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/QueryConfig.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.query.QueryResult"
+ , "c2" : "org.apache.kafka.streams.query.QueryConfig"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.query.QueryResult" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.query.QueryConfig" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.html#98"
- , "c1" : "void"
- , "c2" : "addExecutionInfo(String)"
+ , "c5" : "00028"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/QueryConfig.java.html#28"
+ , "c1" : "QueryConfig"
+ , "c2" : "QueryConfig(boolean)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00104"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.html#104"
- , "c1" : "void"
- , "c2" : "setPosition(Position)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00110"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.html#110"
+ , "c5" : "00032"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/QueryConfig.java.html#32"
  , "c1" : "boolean"
- , "c2" : "isSuccess()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00117"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.html#117"
- , "c1" : "boolean"
- , "c2" : "isFailure()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00123"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.html#123"
- , "c1" : "List<String>"
- , "c2" : "getExecutionInfo()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00131"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.html#131"
- , "c1" : "Position"
- , "c2" : "getPosition()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00138"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.html#138"
- , "c1" : "FailureReason"
- , "c2" : "getFailureReason()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00145"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.html#145"
- , "c1" : "String"
- , "c2" : "getFailureMessage()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00155"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.html#155"
- , "c1" : "R"
- , "c2" : "getResult()"
+ , "c2" : "isCollectExecutionInfo()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -102,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/QueryConfig.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/QueryConfig.java.svg" }
 
 ] 
 , 
@@ -130,7 +67,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/QueryConfig.java.fct.svg" 
 
 , 
 }

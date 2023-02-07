@@ -1,36 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/secujava/java.net.CacheResponse.java.html" 
- , "texte" : "File secujava/java.net.CacheResponse.java 0 rule violation " 
- , "fic2"  : "./qc/secujava/java.net.CacheResponse.java.xml" 
+   "fic1"  : "./qc/secujava/java.net.CacheRequest.java.html" 
+ , "texte" : "File secujava/java.net.CacheRequest.java 0 rule violation " 
+ , "fic2"  : "./qc/secujava/java.net.CacheRequest.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "java.net.CacheResponse"
+ , "c2" : "java.net.CacheRequest"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "java.net.CacheResponse" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "java.net.CacheRequest" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/secujava/java.net.CacheResponse.java.html#53"
- , "c1" : "Map<String,List<String>>"
- , "c2" : "getHeaders()"
+ , "c5" : "00055"
+ , "c5link" : "././qc/secujava/java.net.CacheRequest.java.html#55"
+ , "c1" : "OutputStream"
+ , "c2" : "getBody()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00063"
- , "c5link" : "././qc/secujava/java.net.CacheResponse.java.html#63"
- , "c1" : "InputStream"
- , "c2" : "getBody()"
+ , "c5" : "00062"
+ , "c5link" : "././qc/secujava/java.net.CacheRequest.java.html#62"
+ , "c1" : "void"
+ , "c2" : "abort()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/secujava/java.net.CacheResponse.java.png" 
+   {"ligne" : "./qc/secujava/java.net.CacheRequest.java.png" 
 
- , "ligneplantuml" : "./qc/secujava/java.net.CacheResponse.java.svg" }
+ , "ligneplantuml" : "./qc/secujava/java.net.CacheRequest.java.svg" }
 
 ] 
 , 
@@ -67,7 +67,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/secujava/java.net.CacheResponse.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/secujava/java.net.CacheRequest.java.fct.svg" 
 
 , 
 }

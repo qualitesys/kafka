@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00032"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ExpireDelegationTokenResult.java.html#32"
  , "c1" : "ExpireDelegationTokenResult"
- , "c2" : "ExpireDelegationTokenResult(KafkaFuture<Long>)"
+ , "c2" : "ExpireDelegationTokenResult(KafkaFuture&lt;Long&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00039"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/ExpireDelegationTokenResult.java.html#39"
- , "c1" : "KafkaFuture<Long>"
+ , "c1" : "KafkaFuture&lt;Long&gt;"
  , "c2" : "expiryTimestamp()"
  , "c3" : "1"
  , "c4" : "1"

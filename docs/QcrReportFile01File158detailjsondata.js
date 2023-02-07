@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00051"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#51"
  , "c1" : "AlterConsumerGroupOffsetsHandler"
- , "c2" : "AlterConsumerGroupOffsetsHandler(String;Map<TopicPartition,OffsetAndMetadata>;LogContext)"
+ , "c2" : "AlterConsumerGroupOffsetsHandler(String;Map&lt;TopicPartition,OffsetAndMetadata&gt;;LogContext)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00068"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#68"
- , "c1" : "AdminApiLookupStrategy<CoordinatorKey>"
+ , "c1" : "AdminApiLookupStrategy&lt;CoordinatorKey&gt;"
  , "c2" : "lookupStrategy()"
  , "c3" : "1"
  , "c4" : "1"
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00072"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#72"
- , "c1" : "AdminApiFuture.SimpleAdminApiFuture<CoordinatorKey,Map<TopicPartition,Errors>>"
+ , "c1" : "AdminApiFuture.SimpleAdminApiFuture&lt;CoordinatorKey,Map&lt;TopicPartition,Errors&gt;&gt;"
  , "c2" : "newFuture(String)"
  , "c3" : "1"
  , "c4" : "1"
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00078"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#78"
  , "c1" : "void"
- , "c2" : "validateKeys(Set<CoordinatorKey>)"
+ , "c2" : "validateKeys(Set&lt;CoordinatorKey&gt;)"
  , "c3" : "2"
  , "c4" : "1"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00086"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#86"
  , "c1" : "OffsetCommitRequest.Builder"
- , "c2" : "buildBatchedRequest(int;Set<CoordinatorKey>)"
+ , "c2" : "buildBatchedRequest(int;Set&lt;CoordinatorKey&gt;)"
  , "c3" : "1"
  , "c4" : "7"
 }} 
@@ -74,8 +74,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00114"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#114"
- , "c1" : "ApiResult<CoordinatorKey,Map<TopicPartition,Errors>>"
- , "c2" : "handleResponse(Node;Set<CoordinatorKey>;AbstractResponse)"
+ , "c1" : "ApiResult&lt;CoordinatorKey,Map&lt;TopicPartition,Errors&gt;&gt;"
+ , "c2" : "handleResponse(Node;Set&lt;CoordinatorKey&gt;;AbstractResponse)"
  , "c3" : "7"
  , "c4" : "11"
 }} 
@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00153"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#153"
  , "c1" : "void"
- , "c2" : "handleError(CoordinatorKey;TopicPartition;Errors;Map<TopicPartition,Errors>;Set<CoordinatorKey>;Set<CoordinatorKey>)"
+ , "c2" : "handleError(CoordinatorKey;TopicPartition;Errors;Map&lt;TopicPartition,Errors&gt;;Set&lt;CoordinatorKey&gt;;Set&lt;CoordinatorKey&gt;)"
  , "c3" : "11"
  , "c4" : "14"
 }} 
@@ -402,14 +402,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.AlterConsumerGroupOffsetsHandler.handleError@POLYN173993"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.AlterConsumerGroupOffsetsHandler.buildBatchedRequest@POLYN170730"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.AlterConsumerGroupOffsetsHandler.buildBatchedRequest@POLYN170730"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.AlterConsumerGroupOffsetsHandler.handleError@POLYN173993"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#101"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.clients.admin.internals.AlterConsumerGroupOffsetsHandler.buildBatchedRequest@POLYN170730 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -459,13 +466,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#199"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00199] In the recursive method org.apache.kafka.clients.admin.internals.AlterConsumerGroupOffsetsHandler.handleError@POLYN173993 the MagicNumber/String ' to unexpected error {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#101"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.clients.admin.internals.AlterConsumerGroupOffsetsHandler.buildBatchedRequest@POLYN170730 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ]
 , 

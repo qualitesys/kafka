@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00084"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/Protocol.java.html#84"
  , "c1" : "void"
- , "c2" : "populateSchemaFields(Schema;Set<BoundField>)"
+ , "c2" : "populateSchemaFields(Schema;Set&lt;BoundField&gt;)"
  , "c3" : "6"
  , "c4" : "4"
 }} 

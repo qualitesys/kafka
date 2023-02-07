@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00030"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeFeaturesResult.java.html#30"
  , "c1" : "DescribeFeaturesResult"
- , "c2" : "DescribeFeaturesResult(KafkaFuture<FeatureMetadata>)"
+ , "c2" : "DescribeFeaturesResult(KafkaFuture&lt;FeatureMetadata&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00034"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeFeaturesResult.java.html#34"
- , "c1" : "KafkaFuture<FeatureMetadata>"
+ , "c1" : "KafkaFuture&lt;FeatureMetadata&gt;"
  , "c2" : "featureMetadata()"
  , "c3" : "1"
  , "c4" : "1"

@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00050"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#50"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00069"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#69"
  , "c1" : "KafkaChannel"
- , "c2" : "buildChannel(String;TransportLayer;Supplier<Authenticator>;int;MemoryPool;ChannelMetadataRegistry)"
+ , "c2" : "buildChannel(String;TransportLayer;Supplier&lt;Authenticator&gt;;int;MemoryPool;ChannelMetadataRegistry)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

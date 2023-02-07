@@ -1,74 +1,119 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html" 
- , "texte" : "File server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java 6 rule violations " 
- , "fic2"  : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.xml" 
+   "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html" 
+ , "texte" : "File server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java 29 rule violations " 
+ , "fic2"  : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractMap<K,V>"
- , "c2" : "org.apache.kafka.server.util.TranslatedValueMapView"
+ , "c1" : "Reconfigurable"
+ , "c2" : "org.apache.kafka.server.metrics.KafkaYammerMetrics"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.server.util.TranslatedValueMapView" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.server.metrics.KafkaYammerMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00089"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#89"
- , "c1" : "TranslatedValueMapView"
- , "c2" : "TranslatedValueMapView(Map<K,B>;Function<B,V>)"
- , "c3" : "1"
- , "c4" : "3"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00097"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#97"
- , "c1" : "boolean"
- , "c2" : "containsKey(Object)"
+ , "c5" : "00051"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#51"
+ , "c1" : "MetricsRegistry"
+ , "c2" : "defaultRegistry()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00102"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#102"
- , "c1" : "V"
- , "c2" : "get(Object)"
+ , "c5" : "00059"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#59"
+ , "c1" : "KafkaYammerMetrics"
+ , "c2" : "KafkaYammerMetrics()"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00065"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#65"
+ , "c1" : "void"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00070"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#70"
+ , "c1" : "Set&lt;String&gt;"
+ , "c2" : "reconfigurableConfigs()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00075"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#75"
+ , "c1" : "void"
+ , "c2" : "validateReconfiguration(Map&lt;String,?&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00080"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#80"
+ , "c1" : "void"
+ , "c2" : "reconfigure(Map&lt;String,?&gt;)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00085"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#85"
+ , "c1" : "MetricName"
+ , "c2" : "getMetricName(String;String;String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00098"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#98"
+ , "c1" : "MetricName"
+ , "c2" : "getMetricName(String;String;String;LinkedHashMap&lt;String,String&gt;)"
  , "c3" : "2"
- , "c4" : "3"
+ , "c4" : "10"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00109"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#109"
- , "c1" : "Set<Entry<K,V>>"
- , "c2" : "entrySet()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c5" : "00121"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#121"
+ , "c1" : "Optional&lt;String&gt;"
+ , "c2" : "toMBeanName(LinkedHashMap&lt;String,String&gt;)"
+ , "c3" : "5"
+ , "c4" : "10"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00114"
- , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#114"
- , "c1" : "boolean"
- , "c2" : "isEmpty()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c5" : "00156"
+ , "c5link" : "././qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#156"
+ , "c1" : "Optional&lt;String&gt;"
+ , "c2" : "toScope(Map&lt;String,String&gt;)"
+ , "c3" : "6"
+ , "c4" : "13"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.png" 
+   {"ligne" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.png" 
 
- , "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.svg" }
+ , "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.svg" }
 
 ] 
 , 
@@ -95,66 +140,241 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000001"
+ , "c3" : "Instance is created within a loop, huge performance impact"
+ , "c4" : "4"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "3"
+ , "c4" : "15"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "3"
+ , "c4" : "7"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#45"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method contains arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#46"
+ , "c1" : "00061"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.server.util.TranslatedValueMapView.TranslatedValueSetView.contains@POLYN156419 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.KafkaYammerMetrics@POLYN168040 the MagicNumber/String  'kafka-jmx-shutdown-hook' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#48"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.server.util.TranslatedValueMapView.TranslatedValueSetView.contains@POLYN156419 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#97"
+ , "c1" : "00065"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00097] For method containsKey arguments Object  key"
+ , "c3" : "QC-JAV000006[00065] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#102"
+ , "c1" : "00075"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00102] For method get arguments Object  key"
+ , "c3" : "QC-JAV000006[00075] For method validateReconfiguration arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.html#103"
+ , "c1" : "00080"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#80"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00080] For method reconfigure arguments Map&lt;String ,? &gt;  configs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#85"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00085] For method getMetricName arguments String  group|String  typeName|String  name"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.server.util.TranslatedValueMapView.get@POLYN159048 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.getMetricName@POLYN169123 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#98"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00098] For method getMetricName arguments String  group|String  typeName|String  name|LinkedHashMap&lt;String ,String &gt;  tags"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#101"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00101] The argument name is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#106"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.getMetricName@POLYN169385 the MagicNumber/String  ':type=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00109"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#109"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.getMetricName@POLYN169385 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#110"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.getMetricName@POLYN169385 the MagicNumber/String  ',name=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#114"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.getMetricName@POLYN169385 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#121"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00121] For method toMBeanName arguments LinkedHashMap&lt;String ,String &gt;  tags"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#132"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00132] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00122"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#122"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.toMBeanName@POLYN170623 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00133"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#133"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.toMBeanName@POLYN170623 the MagicNumber/String  ',' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#135"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.toMBeanName@POLYN170623 the MagicNumber/String  '=' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00143"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#143"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00143] The argument tags is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00144"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#144"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00144] The argument mapSupplier is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00148"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#148"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00148] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00149"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#149"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.server.metrics.KafkaYammerMetrics the MagicNumber/String  '' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00156"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#156"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00156] For method toScope arguments Map&lt;String ,String &gt;  tags"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00169"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#169"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00169] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00170"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#170"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00170] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00157"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#157"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.toScope@POLYN172727 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00170"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#170"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.toScope@POLYN172727 the MagicNumber/String  '\\.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00170"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#170"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.toScope@POLYN172727 the MagicNumber/String  '_' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00172"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#172"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.toScope@POLYN172727 the MagicNumber/String  '.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00176"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#176"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.server.metrics.KafkaYammerMetrics.toScope@POLYN172727 the MagicNumber/String  '.' should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/server-common/src/main/java/org/apache/kafka/server/util/TranslatedValueMapView.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.fct.svg" 
 
 , 
 }

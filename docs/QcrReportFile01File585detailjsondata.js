@@ -20,7 +20,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00026"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedRecords.java.html#26"
- , "c1" : "RecordsSend<?extendsBaseRecords>"
+ , "c1" : "RecordsSend&lt;?extendsBaseRecords&gt;"
  , "c2" : "toSend()"
  , "c3" : "1"
  , "c4" : "1"

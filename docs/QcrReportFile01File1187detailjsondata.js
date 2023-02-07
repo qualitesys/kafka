@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00042"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceTask.java.html#42"
  , "c1" : "void"
- , "c2" : "start(Map<String,String>)"
+ , "c2" : "start(Map&lt;String,String&gt;)"
  , "c3" : "3"
  , "c4" : "6"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00058"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceTask.java.html#58"
- , "c1" : "List<SourceRecord>"
+ , "c1" : "List&lt;SourceRecord&gt;"
  , "c2" : "poll()"
  , "c3" : "3"
  , "c4" : "4"

@@ -1,88 +1,61 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java 12 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/LagInfo.java 8 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.StoreQueryParameters"
+ , "c2" : "org.apache.kafka.streams.LagInfo"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.StoreQueryParameters" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.LagInfo" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
  , "c5" : "00033"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#33"
- , "c1" : "StoreQueryParameters"
- , "c2" : "StoreQueryParameters(String;QueryableStoreType<T>;Integer;boolean)"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#33"
+ , "c1" : "LagInfo"
+ , "c2" : "LagInfo(long;long)"
  , "c3" : "1"
- , "c4" : "4"
+ , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#52"
- , "c1" : "StoreQueryParameters<T>"
- , "c2" : "withPartition(Integer)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00061"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#61"
- , "c1" : "StoreQueryParameters<T>"
- , "c2" : "enableStaleStores()"
+ , "c5" : "00045"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#45"
+ , "c1" : "long"
+ , "c2" : "currentOffsetPosition()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00070"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#70"
- , "c1" : "String"
- , "c2" : "storeName()"
+ , "c5" : "00054"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#54"
+ , "c1" : "long"
+ , "c2" : "endOffsetPosition()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00079"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#79"
- , "c1" : "QueryableStoreType<T>"
- , "c2" : "queryableStoreType()"
+ , "c5" : "00063"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#63"
+ , "c1" : "long"
+ , "c2" : "offsetLag()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00090"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#90"
- , "c1" : "Integer"
- , "c2" : "partition()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00099"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#99"
- , "c1" : "boolean"
- , "c2" : "staleStoresEnabled()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00104"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#104"
+ , "c5" : "00068"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#68"
  , "c1" : "boolean"
  , "c2" : "equals(Object)"
  , "c3" : "2"
@@ -90,19 +63,19 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00116"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#116"
- , "c1" : "String"
- , "c2" : "toString()"
+ , "c5" : "00079"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#79"
+ , "c1" : "int"
+ , "c2" : "hashCode()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00126"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#126"
- , "c1" : "int"
- , "c2" : "hashCode()"
+ , "c5" : "00084"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#84"
+ , "c1" : "String"
+ , "c2" : "toString()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -111,9 +84,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.svg" }
 
 ] 
 , 
@@ -143,105 +116,77 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "10"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#42"
+ , "c1" : "00036"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.StoreQueryParameters the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.streams.LagInfo.LagInfo@POLYN150884 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#42"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.streams.StoreQueryParameters the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#52"
+ , "c1" : "00068"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method withPartition arguments Integer  partition"
+ , "c3" : "QC-JAV000006[00068] For method equals arguments Object  obj"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#62"
+ , "c1" : "00070"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.StoreQueryParameters.enableStaleStores@POLYN159308 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.LagInfo.equals@POLYN151958 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#104"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00104] For method equals arguments Object  obj"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#106"
+ , "c1" : "00085"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.StoreQueryParameters.equals@POLYN160362 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.LagInfo.toString@POLYN152623 the MagicNumber/String  'LagInfo {' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#117"
+ , "c1" : "00086"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.StoreQueryParameters.toString@POLYN161042 the MagicNumber/String  'StoreQueryParameters {' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.LagInfo.toString@POLYN152623 the MagicNumber/String  ' currentOffsetPosition=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#118"
+ , "c1" : "00087"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.StoreQueryParameters.toString@POLYN161042 the MagicNumber/String  'partition=' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.LagInfo.toString@POLYN152623 the MagicNumber/String  ', endOffsetPosition=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#119"
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.streams.StoreQueryParameters.toString@POLYN161042 the MagicNumber/String  ', staleStores=' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.LagInfo.toString@POLYN152623 the MagicNumber/String  ', offsetLag=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#120"
+ , "c1" : "00089"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.StoreQueryParameters.toString@POLYN161042 the MagicNumber/String  ', storeName=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#121"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.streams.StoreQueryParameters.toString@POLYN161042 the MagicNumber/String  ', queryableStoreType=' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.html#122"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.streams.StoreQueryParameters.toString@POLYN161042 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.LagInfo.toString@POLYN152623 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/StoreQueryParameters.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/LagInfo.java.fct.svg" 
 
 , 
 }

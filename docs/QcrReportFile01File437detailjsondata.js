@@ -56,7 +56,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00096"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#96"
- , "c1" : "Map<String,Short>"
+ , "c1" : "Map&lt;String,Short&gt;"
  , "c2" : "toMap()"
  , "c3" : "1"
  , "c4" : "1"
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00100"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#100"
  , "c1" : "String"
- , "c2" : "mapToString(Map<String,Short>)"
+ , "c2" : "mapToString(Map&lt;String,Short&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -93,7 +93,7 @@ var maDataBlocs = {
  , "c5" : "00130"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#130"
  , "c1" : "short"
- , "c2" : "valueOrThrow(String;Map<String,Short>)"
+ , "c2" : "valueOrThrow(String;Map&lt;String,Short&gt;)"
  , "c3" : "2"
  , "c4" : "3"
 }} 

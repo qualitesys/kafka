@@ -29,7 +29,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00068"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/CreateAclsRequest.java.html#68"
- , "c1" : "List<AclCreation>"
+ , "c1" : "List&lt;AclCreation&gt;"
  , "c2" : "aclCreations()"
  , "c3" : "1"
  , "c4" : "1"

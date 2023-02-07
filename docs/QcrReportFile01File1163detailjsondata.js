@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java 46 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java 47 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.xml" 
  , "fic3"  : "" 
 }
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00080"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#80"
  , "c1" : "void"
- , "c2" : "configureSslContextFactoryKeyStore(SslContextFactory;Map<String,Object>)"
+ , "c2" : "configureSslContextFactoryKeyStore(SslContextFactory;Map&lt;String,Object&gt;)"
  , "c3" : "4"
  , "c4" : "7"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00096"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#96"
  , "c1" : "Object"
- , "c2" : "getOrDefault(Map<String,Object>;String;Object)"
+ , "c2" : "getOrDefault(Map&lt;String,Object&gt;;String;Object)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00106"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#106"
  , "c1" : "void"
- , "c2" : "configureSslContextFactoryTrustStore(SslContextFactory;Map<String,Object>)"
+ , "c2" : "configureSslContextFactoryTrustStore(SslContextFactory;Map&lt;String,Object&gt;)"
  , "c3" : "3"
  , "c4" : "5"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00122"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#122"
  , "c1" : "void"
- , "c2" : "configureSslContextFactoryAlgorithms(SslContextFactory;Map<String,Object>)"
+ , "c2" : "configureSslContextFactoryAlgorithms(SslContextFactory;Map&lt;String,Object&gt;)"
  , "c3" : "4"
  , "c4" : "11"
 }} 
@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00148"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#148"
  , "c1" : "void"
- , "c2" : "configureSslContextFactoryEndpointIdentification(SslContextFactory;Map<String,Object>)"
+ , "c2" : "configureSslContextFactoryEndpointIdentification(SslContextFactory;Map&lt;String,Object&gt;)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -93,7 +93,7 @@ var maDataBlocs = {
  , "c5" : "00157"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#157"
  , "c1" : "void"
- , "c2" : "configureSslContextFactoryAuthentication(SslContextFactory.Server;Map<String,Object>)"
+ , "c2" : "configureSslContextFactoryAuthentication(SslContextFactory.Server;Map&lt;String,Object&gt;)"
  , "c3" : "3"
  , "c4" : "7"
 }} 
@@ -164,7 +164,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -502,14 +502,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.rest.util.SSLUtils.createServerSideSslContextFactory@POLYN168393"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.rest.util.SSLUtils.createServerSideSslContextFactory@POLYN167645"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#58"
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.rest.util.SSLUtils.createClientSideSslContextFactory@POLYN168605"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00065"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#65"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.connect.runtime.rest.util.SSLUtils.createServerSideSslContextFactory@POLYN168393 the MagicNumber/String 'listeners.https.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.connect.runtime.rest.util.SSLUtils.createClientSideSslContextFactory@POLYN168605 the MagicNumber/String 'listeners.https.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

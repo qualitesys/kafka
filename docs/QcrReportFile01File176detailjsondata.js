@@ -20,8 +20,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00586"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerConfig.java.html#586"
- , "c1" : "Map<String,Object>"
- , "c2" : "postProcessParsedConfig(Map<String,Object>)"
+ , "c1" : "Map&lt;String,Object&gt;"
+ , "c2" : "postProcessParsedConfig(Map&lt;String,Object&gt;)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00593"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerConfig.java.html#593"
  , "c1" : "void"
- , "c2" : "maybeOverrideClientId(Map<String,Object>)"
+ , "c2" : "maybeOverrideClientId(Map&lt;String,Object&gt;)"
  , "c3" : "3"
  , "c4" : "7"
 }} 
@@ -38,8 +38,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00607"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerConfig.java.html#607"
- , "c1" : "Map<String,Object>"
- , "c2" : "appendDeserializerToConfig(Map<String,Object>;Deserializer<?>;Deserializer<?>)"
+ , "c1" : "Map&lt;String,Object&gt;"
+ , "c2" : "appendDeserializerToConfig(Map&lt;String,Object&gt;;Deserializer&lt;?&gt;;Deserializer&lt;?&gt;)"
  , "c3" : "7"
  , "c4" : "6"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00640"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerConfig.java.html#640"
  , "c1" : "ConsumerConfig"
- , "c2" : "ConsumerConfig(Map<String,Object>)"
+ , "c2" : "ConsumerConfig(Map&lt;String,Object&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00644"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerConfig.java.html#644"
  , "c1" : "ConsumerConfig"
- , "c2" : "ConsumerConfig(Map<?,?>;boolean)"
+ , "c2" : "ConsumerConfig(Map&lt;?,?&gt;;boolean)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -83,7 +83,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00648"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerConfig.java.html#648"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "configNames()"
  , "c3" : "1"
  , "c4" : "1"

@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00042"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclCreateResult.java.html#42"
- , "c1" : "Optional<ApiException>"
+ , "c1" : "Optional&lt;ApiException&gt;"
  , "c2" : "exception()"
  , "c3" : "1"
  , "c4" : "1"

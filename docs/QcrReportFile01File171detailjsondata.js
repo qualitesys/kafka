@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00058"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#58"
  , "c1" : "MetadataRequest.Builder"
- , "c2" : "buildRequest(Set<TopicPartition>)"
+ , "c2" : "buildRequest(Set&lt;TopicPartition&gt;)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00067"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#67"
  , "c1" : "void"
- , "c2" : "handleTopicError(String;Errors;Set<TopicPartition>;Map<TopicPartition,Throwable>)"
+ , "c2" : "handleTopicError(String;Errors;Set&lt;TopicPartition&gt;;Map&lt;TopicPartition,Throwable&gt;)"
  , "c3" : "6"
  , "c4" : "10"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00105"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#105"
  , "c1" : "void"
- , "c2" : "failAllPartitionsForTopic(String;Set<TopicPartition>;Map<TopicPartition,Throwable>;Function<TopicPartition,Throwable>)"
+ , "c2" : "failAllPartitionsForTopic(String;Set&lt;TopicPartition&gt;;Map&lt;TopicPartition,Throwable&gt;;Function&lt;TopicPartition,Throwable&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00116"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#116"
  , "c1" : "void"
- , "c2" : "handlePartitionError(TopicPartition;Errors;Map<TopicPartition,Throwable>)"
+ , "c2" : "handlePartitionError(TopicPartition;Errors;Map&lt;TopicPartition,Throwable&gt;)"
  , "c3" : "6"
  , "c4" : "4"
 }} 
@@ -74,8 +74,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00140"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#140"
- , "c1" : "LookupResult<TopicPartition>"
- , "c2" : "handleResponse(Set<TopicPartition>;AbstractResponse)"
+ , "c1" : "LookupResult&lt;TopicPartition&gt;"
+ , "c2" : "handleResponse(Set&lt;TopicPartition&gt;;AbstractResponse)"
  , "c3" : "8"
  , "c4" : "16"
 }} 
@@ -470,14 +470,28 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN166551"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleResponse@POLYN169939"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleResponse@POLYN169939"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN166551"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00172"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#172"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00172] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleResponse@POLYN169939 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00175"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#175"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00175] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleResponse@POLYN169939 the MagicNumber/String 'Metadata request for {} returned no error, but the leader is unknown. Will retry' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -562,20 +576,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#101"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN166551 the MagicNumber/String 'Failed to fetch metadata for partition ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#172"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00172] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleResponse@POLYN169939 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00175"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#175"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00175] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleResponse@POLYN169939 the MagicNumber/String 'Metadata request for {} returned no error, but the leader is unknown. Will retry' MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -1,56 +1,65 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java 8 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.xml" 
+   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html" 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java 7 rule violations " 
+ , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.trogdor.common.JsonUtil"
+ , "c1" : "Topology"
+ , "c2" : "org.apache.kafka.trogdor.basic.BasicTopology"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.common.JsonUtil" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.trogdor.basic.BasicTopology" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#45"
- , "c1" : "String"
- , "c2" : "toJsonString(Object)"
+ , "c5" : "00031"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#31"
+ , "c1" : "BasicTopology"
+ , "c2" : "BasicTopology(NavigableMap&lt;String,Node&gt;)"
  , "c3" : "1"
- , "c4" : "2"
+ , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00053"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#53"
- , "c1" : "String"
- , "c2" : "toPrettyJsonString(Object)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00068"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#68"
- , "c1" : "boolean"
- , "c2" : "openBraceComesFirst(String)"
+ , "c5" : "00035"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#35"
+ , "c1" : "BasicTopology"
+ , "c2" : "BasicTopology(JsonNode)"
  , "c3" : "3"
- , "c4" : "5"
+ , "c4" : "8"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00050"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#50"
+ , "c1" : "Node"
+ , "c2" : "node(String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00055"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#55"
+ , "c1" : "NavigableMap&lt;String,Node&gt;"
+ , "c2" : "nodes()"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.png" 
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.png" 
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.svg" }
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.svg" }
 
 ] 
 , 
@@ -85,86 +94,79 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000001"
+ , "c3" : "Instance is created within a loop, huge performance impact"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "3"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
  , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#45"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method toJsonString arguments Object  object"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#53"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method toPrettyJsonString arguments Object  object"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#68"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00068] For method openBraceComesFirst arguments String  input"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#68"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00068] For method openBraceComesFirst list of called methods Object monObjet|char input_charAtN157125"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#68"
+ , "c1" : "00035"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#35"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00068] The argument input is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00035] The argument configRoot is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#69"
+ , "c1" : "00042"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.trogdor.common.JsonUtil.openBraceComesFirst@POLYN156847 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000001[00042] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#72"
+ , "c1" : "00043"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.trogdor.common.JsonUtil.openBraceComesFirst@POLYN156847 the MagicNumber/String  '{' should be converted to const"
+ , "c3" : "QC-JAV000001[00043] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.html#75"
+ , "c1" : "00044"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.trogdor.common.JsonUtil.openBraceComesFirst@POLYN156847 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000001[00044] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00037"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#37"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.trogdor.basic.BasicTopology.BasicTopology@POLYN147284 the MagicNumber/String  'Expected the 'nodes' element to be ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00038"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#38"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.trogdor.basic.BasicTopology.BasicTopology@POLYN147284 the MagicNumber/String  'a JSON object.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html#50"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00050] For method node arguments String  id"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/JsonUtil.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.fct.svg" 
 
 , 
 }

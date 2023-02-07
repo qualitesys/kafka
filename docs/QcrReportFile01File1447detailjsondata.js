@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00068"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotWriter.java.html#68"
  , "c1" : "void"
- , "c2" : "append(List<T>)"
+ , "c2" : "append(List&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

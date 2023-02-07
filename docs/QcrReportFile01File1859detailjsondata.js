@@ -1,146 +1,38 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/InternalFixedKeyRecordFactory.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/api/InternalFixedKeyRecordFactory.java 1 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/InternalFixedKeyRecordFactory.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.processor.api.ProcessingContext"
+ , "c2" : "org.apache.kafka.streams.processor.api.InternalFixedKeyRecordFactory"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.processor.api.ProcessingContext" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.processor.api.InternalFixedKeyRecordFactory" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00045"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#45"
- , "c1" : "String"
- , "c2" : "applicationId()"
+ , "c5" : "00021"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/InternalFixedKeyRecordFactory.java.html#21"
+ , "c1" : "InternalFixedKeyRecordFactory"
+ , "c2" : "InternalFixedKeyRecordFactory()"
  , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#52"
- , "c1" : "TaskId"
- , "c2" : "taskId()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00074"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#74"
- , "c1" : "Optional<RecordMetadata>"
- , "c2" : "recordMetadata()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00081"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#81"
- , "c1" : "Serde<?>"
- , "c2" : "keySerde()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00088"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#88"
- , "c1" : "Serde<?>"
- , "c2" : "valueSerde()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00095"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#95"
- , "c1" : "File"
- , "c2" : "stateDir()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00102"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#102"
- , "c1" : "StreamsMetrics"
- , "c2" : "metrics()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00149"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#149"
- , "c1" : "Cancellable"
- , "c2" : "schedule(Duration;PunctuationType;Punctuator)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00156"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#156"
- , "c1" : "void"
- , "c2" : "commit()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00171"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#171"
- , "c1" : "Map<String,Object>"
- , "c2" : "appConfigs()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00183"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#183"
- , "c1" : "Map<String,Object>"
- , "c2" : "appConfigsWithPrefix(String)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00193"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#193"
- , "c1" : "long"
- , "c2" : "currentSystemTimeMs()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00209"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.html#209"
- , "c1" : "long"
- , "c2" : "currentStreamTimeMs()"
- , "c3" : "1"
- , "c4" : "1"
+ , "c4" : "0"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/InternalFixedKeyRecordFactory.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/InternalFixedKeyRecordFactory.java.svg" }
 
 ] 
 , 
@@ -165,8 +57,26 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "1"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00032"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/InternalFixedKeyRecordFactory.java.html#32"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00032] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+]
+, 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ProcessingContext.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/InternalFixedKeyRecordFactory.java.fct.svg" 
 
 , 
 }

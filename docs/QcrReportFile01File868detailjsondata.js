@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00054"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#54"
  , "c1" : "ListSerializer"
- , "c2" : "ListSerializer(Serializer<Inner>)"
+ , "c2" : "ListSerializer(Serializer&lt;Inner&gt;)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00062"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#62"
- , "c1" : "Serializer<Inner>"
+ , "c1" : "Serializer&lt;Inner&gt;"
  , "c2" : "getInnerSerializer()"
  , "c3" : "1"
  , "c4" : "1"
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00068"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#68"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>;boolean)"
+ , "c2" : "configure(Map&lt;String,?&gt;;boolean)"
  , "c3" : "7"
  , "c4" : "11"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00093"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#93"
  , "c1" : "void"
- , "c2" : "serializeNullIndexList(DataOutputStream;List<Inner>)"
+ , "c2" : "serializeNullIndexList(DataOutputStream;List&lt;Inner&gt;)"
  , "c3" : "4"
  , "c4" : "7"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00108"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#108"
  , "c1" : "byte[]"
- , "c2" : "serialize(String;List<Inner>)"
+ , "c2" : "serialize(String;List&lt;Inner&gt;)"
  , "c3" : "8"
  , "c4" : "14"
 }} 
@@ -358,28 +358,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.serialization.ListSerializer.serializeNullIndexList@POLYN166403"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#94"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00094] In the recursive method org.apache.kafka.common.serialization.ListSerializer.serializeNullIndexList@POLYN166403 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#97"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00097] In the recursive method org.apache.kafka.common.serialization.ListSerializer.serializeNullIndexList@POLYN166403 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.serialization.ListSerializer.serializeNullIndexList@POLYN166403"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -422,6 +408,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#138"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00138] In the recursive method org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344 the MagicNumber/String 'Failed to serialize List' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#94"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00094] In the recursive method org.apache.kafka.common.serialization.ListSerializer.serializeNullIndexList@POLYN166403 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#97"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00097] In the recursive method org.apache.kafka.common.serialization.ListSerializer.serializeNullIndexList@POLYN166403 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

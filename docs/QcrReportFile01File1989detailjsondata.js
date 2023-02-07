@@ -1,45 +1,99 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/RangeQuery.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/query/RangeQuery.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/RangeQuery.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Query<KeyValueIterator<K,V>>"
- , "c2" : "org.apache.kafka.streams.query.RangeQuery"
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.query.QueryResult"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.query.RangeQuery" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.query.QueryResult" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00044"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/RangeQuery.java.html#44"
- , "c1" : "RangeQuery"
- , "c2" : "RangeQuery(Optional<K>;Optional<K>)"
- , "c3" : "1"
- , "c4" : "2"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00092"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/RangeQuery.java.html#92"
- , "c1" : "Optional<K>"
- , "c2" : "getLowerBound()"
+ , "c5" : "00098"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.html#98"
+ , "c1" : "void"
+ , "c2" : "addExecutionInfo(String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00099"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/RangeQuery.java.html#99"
- , "c1" : "Optional<K>"
- , "c2" : "getUpperBound()"
+ , "c5" : "00104"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.html#104"
+ , "c1" : "void"
+ , "c2" : "setPosition(Position)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00110"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.html#110"
+ , "c1" : "boolean"
+ , "c2" : "isSuccess()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00117"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.html#117"
+ , "c1" : "boolean"
+ , "c2" : "isFailure()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00123"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.html#123"
+ , "c1" : "List&lt;String&gt;"
+ , "c2" : "getExecutionInfo()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00131"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.html#131"
+ , "c1" : "Position"
+ , "c2" : "getPosition()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00138"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.html#138"
+ , "c1" : "FailureReason"
+ , "c2" : "getFailureReason()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00145"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.html#145"
+ , "c1" : "String"
+ , "c2" : "getFailureMessage()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00155"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.html#155"
+ , "c1" : "R"
+ , "c2" : "getResult()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,9 +102,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/RangeQuery.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/RangeQuery.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.svg" }
 
 ] 
 , 
@@ -76,7 +130,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/RangeQuery.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/QueryResult.java.fct.svg" 
 
 , 
 }

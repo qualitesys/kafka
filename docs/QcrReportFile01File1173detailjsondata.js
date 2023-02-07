@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00145"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#145"
  , "c1" : "KafkaStatusBackingStore"
- , "c2" : "KafkaStatusBackingStore(Time;Converter;Supplier<TopicAdmin>)"
+ , "c2" : "KafkaStatusBackingStore(Time;Converter;Supplier&lt;TopicAdmin&gt;)"
  , "c3" : "1"
  , "c4" : "6"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00155"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#155"
  , "c1" : "KafkaStatusBackingStore"
- , "c2" : "KafkaStatusBackingStore(Time;Converter;String;KafkaBasedLog<String,byte[]>)"
+ , "c2" : "KafkaStatusBackingStore(Time;Converter;String;KafkaBasedLog&lt;String,byte[]&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -56,8 +56,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00211"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#211"
- , "c1" : "KafkaBasedLog<String,byte[]>"
- , "c2" : "createKafkaBasedLog(String;Map<String,Object>;Map<String,Object>;Callback<ConsumerRecord<String,byte[]>>;NewTopic;Supplier<TopicAdmin>)"
+ , "c1" : "KafkaBasedLog&lt;String,byte[]&gt;"
+ , "c2" : "createKafkaBasedLog(String;Map&lt;String,Object&gt;;Map&lt;String,Object&gt;;Callback&lt;ConsumerRecord&lt;String,byte[]&gt;&gt;;NewTopic;Supplier&lt;TopicAdmin&gt;)"
  , "c3" : "2"
  , "c4" : "6"
 }} 
@@ -164,7 +164,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00344"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#344"
- , "c1" : "CacheEntry<ConnectorStatus>"
+ , "c1" : "CacheEntry&lt;ConnectorStatus&gt;"
  , "c2" : "getOrAdd(String)"
  , "c3" : "2"
  , "c4" : "4"
@@ -182,7 +182,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00365"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#365"
- , "c1" : "CacheEntry<TaskStatus>"
+ , "c1" : "CacheEntry&lt;TaskStatus&gt;"
  , "c2" : "getOrAdd(ConnectorTaskId)"
  , "c3" : "2"
  , "c4" : "4"
@@ -227,7 +227,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00401"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#401"
- , "c1" : "Collection<TaskStatus>"
+ , "c1" : "Collection&lt;TaskStatus&gt;"
  , "c2" : "getAll(String)"
  , "c3" : "3"
  , "c4" : "4"
@@ -245,7 +245,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00418"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#418"
- , "c1" : "Collection<TopicStatus>"
+ , "c1" : "Collection&lt;TopicStatus&gt;"
  , "c2" : "getAllTopics(String)"
  , "c3" : "1"
  , "c4" : "2"
@@ -263,7 +263,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00431"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#431"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "connectors()"
  , "c3" : "1"
  , "c4" : "1"
@@ -300,7 +300,7 @@ var maDataBlocs = {
  , "c5" : "00501"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#501"
  , "c1" : "byte[]"
- , "c2" : "serialize(AbstractStatus<?>)"
+ , "c2" : "serialize(AbstractStatus&lt;?&gt;)"
  , "c3" : "2"
  , "c4" : "6"
 }} 
@@ -363,7 +363,7 @@ var maDataBlocs = {
  , "c5" : "00641"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#641"
  , "c1" : "void"
- , "c2" : "read(ConsumerRecord<String,byte[]>)"
+ , "c2" : "read(ConsumerRecord&lt;String,byte[]&gt;)"
  , "c3" : "7"
  , "c4" : "5"
 }} 
@@ -436,7 +436,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S1:org.apache.kafka.connect.storage.KafkaStatusBackingStore.remove@POLYN276226 (R0 in line [00374],R2 in line [00374])" }
 ,
-{ "ligne" : "S1:java.lang.StringBuilder.delete@POLYN230334" }
+{ "ligne" : "S1:java.io.File.delete@POLYN596930" }
  ]
  } }
 ]
@@ -1788,13 +1788,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaStatusBackingStore.get@POLYN277377"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaStatusBackingStore.parseTopicStatus@POLYN283011"
 }} 
 ,
@@ -1810,6 +1803,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaStatusBackingStore.createKafkaBasedLog@POLYN267964"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaStatusBackingStore.get@POLYN277377"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2114,20 +2114,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00397"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#397"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00397] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.get@POLYN277377 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00397"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#397"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00397] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.get@POLYN277377 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00480"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#480"
  , "c2" : "BLOCKER"
@@ -2244,6 +2230,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#223"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00223] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.createKafkaBasedLog@POLYN267964 the MagicNumber/String 'connector and task statuses' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00397"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#397"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00397] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.get@POLYN277377 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00397"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#397"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00397] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.get@POLYN277377 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -1,173 +1,416 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java 151 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java 106 rule violations " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder"
+ , "c2" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00121"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#121"
- , "c1" : "RocksDBMetricsRecorder"
- , "c2" : "RocksDBMetricsRecorder(String;String)"
+ , "c5" : "00039"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#39"
+ , "c1" : "RocksDBMetrics"
+ , "c2" : "RocksDBMetrics()"
  , "c3" : "1"
- , "c4" : "4"
+ , "c4" : "0"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00129"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#129"
- , "c1" : "String"
- , "c2" : "storeName()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00133"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#133"
- , "c1" : "TaskId"
- , "c2" : "taskId()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00140"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#140"
- , "c1" : "void"
- , "c2" : "init(StreamsMetricsImpl;TaskId)"
- , "c3" : "3"
- , "c4" : "9"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00161"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#161"
- , "c1" : "void"
- , "c2" : "addValueProviders(String;RocksDB;Cache;Statistics)"
- , "c3" : "4"
- , "c4" : "6"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00178"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#178"
- , "c1" : "void"
- , "c2" : "verifyDbAndCacheAndStatistics(String;RocksDB;Cache;Statistics)"
- , "c3" : "6"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00200"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#200"
- , "c1" : "void"
- , "c2" : "verifyConsistencyOfValueProvidersAcrossSegments(String;Object;Object;String)"
- , "c3" : "2"
- , "c4" : "4"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00219"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#219"
- , "c1" : "void"
- , "c2" : "initSensors(StreamsMetricsImpl;RocksDBMetricContext)"
- , "c3" : "1"
- , "c4" : "18"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00241"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#241"
- , "c1" : "void"
- , "c2" : "initGauges(StreamsMetricsImpl;RocksDBMetricContext)"
- , "c3" : "1"
- , "c4" : "22"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00355"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#355"
- , "c1" : "Gauge<BigInteger>"
- , "c2" : "gaugeToComputeSumOfProperties(String)"
- , "c3" : "2"
- , "c4" : "5"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00373"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#373"
- , "c1" : "Gauge<BigInteger>"
- , "c2" : "gaugeToComputeBlockCacheMetrics(String)"
- , "c3" : "4"
- , "c4" : "7"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00400"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#400"
- , "c1" : "byte[]"
- , "c2" : "longToBytes(long)"
+ , "c5" : "00203"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#203"
+ , "c1" : "Sensor"
+ , "c2" : "bytesWrittenToDatabaseSensor(StreamsMetricsImpl;RocksDBMetricContext)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00406"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#406"
- , "c1" : "void"
- , "c2" : "removeValueProviders(String)"
- , "c3" : "3"
- , "c4" : "6"
+ , "c5" : "00221"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#221"
+ , "c1" : "Sensor"
+ , "c2" : "bytesReadFromDatabaseSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00425"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#425"
- , "c1" : "void"
- , "c2" : "record(long)"
- , "c3" : "4"
- , "c4" : "72"
+ , "c5" : "00239"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#239"
+ , "c1" : "Sensor"
+ , "c2" : "memtableBytesFlushedSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00507"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#507"
- , "c1" : "double"
- , "c2" : "computeHitRatio(long;long)"
- , "c3" : "2"
- , "c4" : "2"
+ , "c5" : "00257"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#257"
+ , "c1" : "Sensor"
+ , "c2" : "memtableHitRatioSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00274"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#274"
+ , "c1" : "Sensor"
+ , "c2" : "memtableAvgFlushTimeSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00291"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#291"
+ , "c1" : "Sensor"
+ , "c2" : "memtableMinFlushTimeSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00308"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#308"
+ , "c1" : "Sensor"
+ , "c2" : "memtableMaxFlushTimeSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00325"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#325"
+ , "c1" : "Sensor"
+ , "c2" : "writeStallDurationSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00343"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#343"
+ , "c1" : "Sensor"
+ , "c2" : "blockCacheDataHitRatioSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00360"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#360"
+ , "c1" : "Sensor"
+ , "c2" : "blockCacheIndexHitRatioSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00377"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#377"
+ , "c1" : "Sensor"
+ , "c2" : "blockCacheFilterHitRatioSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00394"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#394"
+ , "c1" : "Sensor"
+ , "c2" : "bytesReadDuringCompactionSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00411"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#411"
+ , "c1" : "Sensor"
+ , "c2" : "bytesWrittenDuringCompactionSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00428"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#428"
+ , "c1" : "Sensor"
+ , "c2" : "compactionTimeAvgSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00445"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#445"
+ , "c1" : "Sensor"
+ , "c2" : "compactionTimeMinSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00462"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#462"
+ , "c1" : "Sensor"
+ , "c2" : "compactionTimeMaxSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00479"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#479"
+ , "c1" : "Sensor"
+ , "c2" : "numberOfOpenFilesSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00497"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#497"
+ , "c1" : "Sensor"
+ , "c2" : "numberOfFileErrorsSensor(StreamsMetricsImpl;RocksDBMetricContext)"
+ , "c3" : "1"
+ , "c4" : "3"
 }} 
 ,
 { "ligne" : { "" : ""
  , "c5" : "00514"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#514"
- , "c1" : "double"
- , "c2" : "computeAvg(long;long)"
- , "c3" : "2"
- , "c4" : "2"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#514"
+ , "c1" : "void"
+ , "c2" : "addNumEntriesActiveMemTableMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge&lt;BigInteger&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00526"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#526"
+ , "c1" : "void"
+ , "c2" : "addNumEntriesImmMemTablesMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge&lt;BigInteger&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00538"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#538"
+ , "c1" : "void"
+ , "c2" : "addNumDeletesImmMemTablesMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge&lt;BigInteger&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00550"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#550"
+ , "c1" : "void"
+ , "c2" : "addNumDeletesActiveMemTableMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge&lt;BigInteger&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00562"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#562"
+ , "c1" : "void"
+ , "c2" : "addNumImmutableMemTableMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge&lt;BigInteger&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00574"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#574"
+ , "c1" : "void"
+ , "c2" : "addCurSizeActiveMemTable(StreamsMetricsImpl;RocksDBMetricContext;Gauge&lt;BigInteger&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00586"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#586"
+ , "c1" : "void"
+ , "c2" : "addCurSizeAllMemTables(StreamsMetricsImpl;RocksDBMetricContext;Gauge&lt;BigInteger&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00598"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#598"
+ , "c1" : "void"
+ , "c2" : "addSizeAllMemTables(StreamsMetricsImpl;RocksDBMetricContext;Gauge&lt;BigInteger&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00610"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#610"
+ , "c1" : "void"
+ , "c2" : "addMemTableFlushPending(StreamsMetricsImpl;RocksDBMetricContext;Gauge&lt;BigInteger&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00622"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#622"
+ , "c1" : "void"
+ , "c2" : "addNumRunningFlushesMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge&lt;BigInteger&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00634"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#634"
+ , "c1" : "void"
+ , "c2" : "addCompactionPendingMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge&lt;BigInteger&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00646"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#646"
+ , "c1" : "void"
+ , "c2" : "addNumRunningCompactionsMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge&lt;BigInteger&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00658"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#658"
+ , "c1" : "void"
+ , "c2" : "addEstimatePendingCompactionBytesMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge&lt;BigInteger&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00670"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#670"
+ , "c1" : "void"
+ , "c2" : "addTotalSstFilesSizeMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge&lt;BigInteger&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00682"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#682"
+ , "c1" : "void"
+ , "c2" : "addLiveSstFilesSizeMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge&lt;BigInteger&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00694"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#694"
+ , "c1" : "void"
+ , "c2" : "addNumLiveVersionMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge&lt;BigInteger&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00706"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#706"
+ , "c1" : "void"
+ , "c2" : "addBlockCacheCapacityMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge&lt;BigInteger&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00718"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#718"
+ , "c1" : "void"
+ , "c2" : "addBlockCacheUsageMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge&lt;BigInteger&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00730"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#730"
+ , "c1" : "void"
+ , "c2" : "addBlockCachePinnedUsageMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge&lt;BigInteger&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00742"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#742"
+ , "c1" : "void"
+ , "c2" : "addEstimateNumKeysMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge&lt;BigInteger&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00754"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#754"
+ , "c1" : "void"
+ , "c2" : "addEstimateTableReadersMemMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge&lt;BigInteger&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00766"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#766"
+ , "c1" : "void"
+ , "c2" : "addBackgroundErrorsMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge&lt;BigInteger&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00778"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#778"
+ , "c1" : "void"
+ , "c2" : "addMutableMetric(StreamsMetricsImpl;RocksDBMetricContext;Gauge&lt;BigInteger&gt;;String;String)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00794"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#794"
+ , "c1" : "Sensor"
+ , "c2" : "createSensor(StreamsMetricsImpl;RocksDBMetricContext;String)"
+ , "c3" : "1"
+ , "c4" : "1"
 }} 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.svg" }
 
 ] 
 , 
@@ -192,1134 +435,789 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "26"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAVCWE481"
- , "c3" : "Assigning instead of comparing"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000001"
- , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "4"
+ , "c4" : "40"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "98"
+ , "c4" : "4"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000021"
+ , "c3" : "The same method is called several times, might be optimized"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "13"
+ , "c4" : "43"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "18"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#74"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.DbAndCacheAndStatistics.DbAndCacheAndStatistics@POLYN224171 the MagicNumber/String  'database instance must not be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#77"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.DbAndCacheAndStatistics.DbAndCacheAndStatistics@POLYN224171 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.DbAndCacheAndStatistics.maybeCloseStatistics@POLYN224735 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#125"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.RocksDBMetricsRecorder@POLYN226122 the MagicNumber/String  '[RocksDB Metrics Recorder for %s] ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#140"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00140] For method init arguments StreamsMetricsImpl  streamsMetrics|TaskId  taskId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#142"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.init@POLYN226827 the MagicNumber/String  'Streams metrics must not be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#143"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.init@POLYN226827 the MagicNumber/String  'task ID must not be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#144"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.init@POLYN226827 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#145"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.init@POLYN226827 the MagicNumber/String  'Metrics recorder is re-initialised with different task: previous task is ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#146"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.init@POLYN226827 the MagicNumber/String  ' whereas current task is ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#146"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.init@POLYN226827 the MagicNumber/String  '. This is a bug in Kafka Streams. ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#147"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.init@POLYN226827 the MagicNumber/String  'Please open a bug report under https://issues.apache.org/jira/projects/KAFKA/issues' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00149"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#149"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.init@POLYN226827 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#150"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.init@POLYN226827 the MagicNumber/String  'Metrics recorder is re-initialised with different Streams metrics. ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00151"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#151"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.init@POLYN226827 the MagicNumber/String  'This is a bug in Kafka Streams. ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#152"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.init@POLYN226827 the MagicNumber/String  'Please open a bug report under https://issues.apache.org/jira/projects/KAFKA/issues' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#161"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00161] For method addValueProviders arguments String  segmentName|RocksDB  db|Cache  cache|Statistics  statistics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00166"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#166"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.addValueProviders@POLYN228197 the MagicNumber/String  'Adding metrics recorder of task {} to metrics recording trigger' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#169"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.addValueProviders@POLYN228197 the MagicNumber/String  'Value providers for store ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#169"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.addValueProviders@POLYN228197 the MagicNumber/String  ' of task ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#170"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.addValueProviders@POLYN228197 the MagicNumber/String  ' has been already added. This is a bug in Kafka Streams. ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00171"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#171"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.addValueProviders@POLYN228197 the MagicNumber/String  'Please open a bug report under https://issues.apache.org/jira/projects/KAFKA/issues' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00174"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#174"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.addValueProviders@POLYN228197 the MagicNumber/String  'Adding value providers for store {} of task {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#178"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00178] For method verifyDbAndCacheAndStatistics arguments String  segmentName|RocksDB  db|Cache  cache|Statistics  statistics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00180"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#180"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00180] The argument cache is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00183"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#183"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyDbAndCacheAndStatistics@POLYN229301 the MagicNumber/String  'statistics' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00184"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#184"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyDbAndCacheAndStatistics@POLYN229301 the MagicNumber/String  'cache' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#186"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyDbAndCacheAndStatistics@POLYN229301 the MagicNumber/String  'DB instance for store ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#186"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyDbAndCacheAndStatistics@POLYN229301 the MagicNumber/String  ' of task ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#187"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyDbAndCacheAndStatistics@POLYN229301 the MagicNumber/String  ' was already added for another segment as a value provider. This is a bug in Kafka Streams. ' should be converted to const"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#184"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00184] For method equals arguments Object  o"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00188"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#188"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyDbAndCacheAndStatistics@POLYN229301 the MagicNumber/String  'Please open a bug report under https://issues.apache.org/jira/projects/KAFKA/issues' should be converted to const"
+ , "c3" : "QC-JAV000021[00188] The same method call o.getClass() is used several times, should be optimized "
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#190"
+ , "c1" : "00186"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyDbAndCacheAndStatistics@POLYN229301 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.RocksDBMetricContext.equals@POLYN231565 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#191"
+ , "c1" : "00188"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyDbAndCacheAndStatistics@POLYN229301 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.RocksDBMetricContext.equals@POLYN231565 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#193"
+ , "c1" : "00189"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyDbAndCacheAndStatistics@POLYN229301 the MagicNumber/String  'Caches for store ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#193"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyDbAndCacheAndStatistics@POLYN229301 the MagicNumber/String  ' of task ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00194"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#194"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyDbAndCacheAndStatistics@POLYN229301 the MagicNumber/String  ' are either not all distinct or do not all refer to the same cache. This is a bug in Kafka Streams. ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#195"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyDbAndCacheAndStatistics@POLYN229301 the MagicNumber/String  'Please open a bug report under https://issues.apache.org/jira/projects/KAFKA/issues' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00200"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#200"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00200] For method verifyConsistencyOfValueProvidersAcrossSegments arguments String  segmentName|Object  newValueProvider|Object  oldValueProvider|String  valueProviderName"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00200"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#200"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00200] For method verifyConsistencyOfValueProvidersAcrossSegments list of called methods Object monObjet|java.lang.String valueProviderName_toUpperCaseN231073"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.RocksDBMetricContext.equals@POLYN231565 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00203"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#203"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#203"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00203] For method bytesWrittenToDatabaseSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00203"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#203"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00203] For method bytesWrittenToDatabaseSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN232624"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00203"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#203"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAVCWE476[00203] The argument valueProviderName is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+ , "c3" : "QC-JAVCWE476[00203] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#204"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyConsistencyOfValueProvidersAcrossSegments@POLYN230677 the MagicNumber/String  null should be converted to const"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#204"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00204] The argument metricContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#204"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyConsistencyOfValueProvidersAcrossSegments@POLYN230677 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00205"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#205"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyConsistencyOfValueProvidersAcrossSegments@POLYN230677 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00205"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#205"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyConsistencyOfValueProvidersAcrossSegments@POLYN230677 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#207"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyConsistencyOfValueProvidersAcrossSegments@POLYN230677 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00209"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#209"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyConsistencyOfValueProvidersAcrossSegments@POLYN230677 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00211"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#211"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyConsistencyOfValueProvidersAcrossSegments@POLYN230677 the MagicNumber/String  ' for segment ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00211"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#211"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyConsistencyOfValueProvidersAcrossSegments@POLYN230677 the MagicNumber/String  ' of task ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#212"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyConsistencyOfValueProvidersAcrossSegments@POLYN230677 the MagicNumber/String  ' is' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#212"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyConsistencyOfValueProvidersAcrossSegments@POLYN230677 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#212"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyConsistencyOfValueProvidersAcrossSegments@POLYN230677 the MagicNumber/String  ' ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#212"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyConsistencyOfValueProvidersAcrossSegments@POLYN230677 the MagicNumber/String  ' not ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#212"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyConsistencyOfValueProvidersAcrossSegments@POLYN230677 the MagicNumber/String  'null although the ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#213"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyConsistencyOfValueProvidersAcrossSegments@POLYN230677 the MagicNumber/String  ' of another segment in this metrics recorder is' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#213"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyConsistencyOfValueProvidersAcrossSegments@POLYN230677 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#213"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyConsistencyOfValueProvidersAcrossSegments@POLYN230677 the MagicNumber/String  ' ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#213"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyConsistencyOfValueProvidersAcrossSegments@POLYN230677 the MagicNumber/String  ' not ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#213"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyConsistencyOfValueProvidersAcrossSegments@POLYN230677 the MagicNumber/String  'null. ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00214"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#214"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyConsistencyOfValueProvidersAcrossSegments@POLYN230677 the MagicNumber/String  'This is a bug in Kafka Streams. ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00215"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#215"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.verifyConsistencyOfValueProvidersAcrossSegments@POLYN230677 the MagicNumber/String  'Please open a bug report under https://issues.apache.org/jira/projects/KAFKA/issues' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00219"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#219"
+ , "c1" : "00221"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#221"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00219] For method initSensors arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
+ , "c3" : "QC-JAV000006[00221] For method bytesReadFromDatabaseSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00219"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#219"
+ , "c1" : "00221"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#221"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00219] For method initSensors list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor RocksDBMetrics_bytesWrittenToDatabaseSensorN232222|org.apache.kafka.common.metrics.Sensor RocksDBMetrics_bytesReadFromDatabaseSensorN232337|org.apache.kafka.common.metrics.Sensor RocksDBMetrics_memtableBytesFlushedSensorN232452|org.apache.kafka.common.metrics.Sensor RocksDBMetrics_memtableHitRatioSensorN232567|org.apache.kafka.common.metrics.Sensor RocksDBMetrics_memtableAvgFlushTimeSensorN232682|org.apache.kafka.common.metrics.Sensor RocksDBMetrics_memtableMinFlushTimeSensorN232797|org.apache.kafka.common.metrics.Sensor RocksDBMetrics_memtableMaxFlushTimeSensorN232912|org.apache.kafka.common.metrics.Sensor RocksDBMetrics_writeStallDurationSensorN233027|org.apache.kafka.common.metrics.Sensor RocksDBMetrics_blockCacheDataHitRatioSensorN233142|org.apache.kafka.common.metrics.Sensor RocksDBMetrics_blockCacheIndexHitRatioSensorN233257|org.apache.kafka.common.metrics.Sensor RocksDBMetrics_blockCacheFilterHitRatioSensorN233372|org.apache.kafka.common.metrics.Sensor RocksDBMetrics_bytesWrittenDuringCompactionSensorN233487|org.apache.kafka.common.metrics.Sensor RocksDBMetrics_bytesReadDuringCompactionSensorN233602|org.apache.kafka.common.metrics.Sensor RocksDBMetrics_compactionTimeAvgSensorN233717|org.apache.kafka.common.metrics.Sensor RocksDBMetrics_compactionTimeMinSensorN233832|org.apache.kafka.common.metrics.Sensor RocksDBMetrics_compactionTimeMaxSensorN233947|org.apache.kafka.common.metrics.Sensor RocksDBMetrics_numberOfOpenFilesSensorN234062|org.apache.kafka.common.metrics.Sensor RocksDBMetrics_numberOfFileErrorsSensorN234177"
+ , "c3" : "QC-JAV000007[00221] For method bytesReadFromDatabaseSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN233219"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#241"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00241] For method initGauges arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
+ , "c1" : "00221"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#221"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00221] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00355"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#355"
+ , "c1" : "00222"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#222"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00222] The argument metricContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00239"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#239"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00355] For method gaugeToComputeSumOfProperties arguments String  propertyName"
+ , "c3" : "QC-JAV000006[00239] For method memtableBytesFlushedSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00239"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#239"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00239] For method memtableBytesFlushedSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN233814"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00239"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#239"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00239] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00240"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#240"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00240] The argument metricContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00257"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#257"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00257] For method memtableHitRatioSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00257"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#257"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00257] For method memtableHitRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN234409"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00257"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#257"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00257] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00258"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#258"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00258] The argument metricContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00274"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#274"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00274] For method memtableAvgFlushTimeSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00274"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#274"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00274] For method memtableAvgFlushTimeSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN234982"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00274"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#274"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00274] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00275"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#275"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00275] The argument metricContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00291"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#291"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00291] For method memtableMinFlushTimeSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00291"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#291"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00291] For method memtableMinFlushTimeSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN235555"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00291"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#291"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00291] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00292"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#292"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00292] The argument metricContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00308"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#308"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00308] For method memtableMaxFlushTimeSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00308"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#308"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00308] For method memtableMaxFlushTimeSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN236128"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00308"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#308"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00308] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00309"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#309"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00309] The argument metricContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00325"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#325"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00325] For method writeStallDurationSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00325"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#325"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00325] For method writeStallDurationSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN236701"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00325"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#325"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00325] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00326"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#326"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00326] The argument metricContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00343"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#343"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00343] For method blockCacheDataHitRatioSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00343"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#343"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00343] For method blockCacheDataHitRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN237296"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00343"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#343"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00343] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00344"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#344"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00344] The argument metricContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00360"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#360"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE481[00360] Assigning instead of comparing on result=result.add(new BigInteger(1,longToBytes(valueProvider.db.getAggregatedLongProperty(ROCKSDB_PROPERTIES_PREFIX+propertyName)))) (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00365"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#365"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00365] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00357"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#357"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.gaugeToComputeSumOfProperties@POLYN237598 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00362"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#362"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.gaugeToComputeSumOfProperties@POLYN237598 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00366"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#366"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.gaugeToComputeSumOfProperties@POLYN237598 the MagicNumber/String  'Error recording RocksDB metric ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00373"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#373"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#360"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00373] For method gaugeToComputeBlockCacheMetrics arguments String  propertyName"
+ , "c3" : "QC-JAV000006[00360] For method blockCacheIndexHitRatioSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00379"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#379"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE481[00379] Assigning instead of comparing on result=new BigInteger(1,longToBytes(valueProvider.db.getAggregatedLongProperty(ROCKSDB_PROPERTIES_PREFIX+propertyName))) (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00386"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#386"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE481[00386] Assigning instead of comparing on result=result.add(new BigInteger(1,longToBytes(valueProvider.db.getAggregatedLongProperty(ROCKSDB_PROPERTIES_PREFIX+propertyName)))) (see http://cwe.mitre.org/data/definitions/481.html)"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00392"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#392"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00392] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00375"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#375"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.gaugeToComputeBlockCacheMetrics@POLYN238435 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00381"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#381"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00381] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.gaugeToComputeBlockCacheMetrics@POLYN238435 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00388"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#388"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.gaugeToComputeBlockCacheMetrics@POLYN238435 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00393"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#393"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.gaugeToComputeBlockCacheMetrics@POLYN238435 the MagicNumber/String  'Error recording RocksDB metric ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00400"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#400"
+ , "c1" : "00360"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#360"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00400] For method longToBytes arguments long  data"
+ , "c3" : "QC-JAV000007[00360] For method blockCacheIndexHitRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN237869"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00402"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#402"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00402] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.longToBytes@POLYN239563 the MagicNumber/String  0 should be converted to const"
+ , "c1" : "00360"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#360"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00360] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00406"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#406"
+ , "c1" : "00361"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#361"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00361] The argument metricContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00377"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#377"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00406] For method removeValueProviders arguments String  segmentName"
+ , "c3" : "QC-JAV000006[00377] For method blockCacheFilterHitRatioSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00406"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#406"
+ , "c1" : "00377"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#377"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00406] For method removeValueProviders list of called methods Object monObjet|V storeToValueProviders_removeN240106"
+ , "c3" : "QC-JAV000007[00377] For method blockCacheFilterHitRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN238442"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00407"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#407"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00407] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.removeValueProviders@POLYN239888 the MagicNumber/String  'Removing value providers for store {} of task {}' should be converted to const"
+ , "c1" : "00377"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#377"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00377] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00409"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#409"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00409] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.removeValueProviders@POLYN239888 the MagicNumber/String  null should be converted to const"
+ , "c1" : "00378"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#378"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00378] The argument metricContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00410"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#410"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.removeValueProviders@POLYN239888 the MagicNumber/String  'No value providers for store \'' should be converted to const"
+ , "c1" : "00394"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#394"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00394] For method bytesReadDuringCompactionSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00410"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#410"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.removeValueProviders@POLYN239888 the MagicNumber/String  '\' of task ' should be converted to const"
+ , "c1" : "00394"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#394"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00394] For method bytesReadDuringCompactionSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN239015"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00394"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#394"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00394] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00395"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#395"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00395] The argument metricContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00411"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#411"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.removeValueProviders@POLYN239888 the MagicNumber/String  ' could be found. This is a bug in Kafka Streams. ' should be converted to const"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#411"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00411] For method bytesWrittenDuringCompactionSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00411"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#411"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00411] For method bytesWrittenDuringCompactionSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN239588"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00411"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#411"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00411] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00412"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#412"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.removeValueProviders@POLYN239888 the MagicNumber/String  'Please open a bug report under https://issues.apache.org/jira/projects/KAFKA/issues' should be converted to const"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#412"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00412] The argument metricContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00417"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#417"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00417] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.removeValueProviders@POLYN239888 the MagicNumber/String  'Removing metrics recorder for store {} of task {} from metrics recording trigger' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00425"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#425"
+ , "c1" : "00428"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#428"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00425] For method record arguments long  now"
+ , "c3" : "QC-JAV000006[00428] For method compactionTimeAvgSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00425"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#425"
+ , "c1" : "00428"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#428"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00425] For method record list of called methods Object monObjet|int Double_minN244727|int Double_minN245260"
+ , "c3" : "QC-JAV000007[00428] For method compactionTimeAvgSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN240161"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00474"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#474"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00474] Avoid declaring class instance within loop, performance impact"
+ , "c1" : "00428"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#428"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00428] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00429"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#429"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00429] The argument metricContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00445"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#445"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00445] For method compactionTimeMinSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00445"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#445"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00445] For method compactionTimeMinSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN240734"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00445"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#445"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00445] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00446"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#446"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00446] The argument metricContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00462"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#462"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00462] For method compactionTimeMaxSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00462"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#462"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00462] For method compactionTimeMaxSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN241307"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00462"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#462"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00462] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00463"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#463"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00463] The argument metricContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00479"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#479"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00479] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00426"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#426"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00426] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  'Recording metrics for store {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00427"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#427"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00427] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00428"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#428"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00429"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#429"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00429] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00430"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#430"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00431"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#431"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00431] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00432"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#432"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00432] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00433"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#433"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00433] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00434"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#434"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00434] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00435"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#435"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00435] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00436"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#436"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00436] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00437"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#437"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00437] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00438"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#438"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00438] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00439"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#439"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00439] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00440"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#440"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00440] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00441"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#441"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00442"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#442"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00443"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#443"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00443] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00444"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#444"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00444] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00446"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#446"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00446] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  0.0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00447"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#447"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00447] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00448"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#448"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00450"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#450"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00450] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  0.0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00451"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#451"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00451] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00453"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#453"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00453] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00454"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#454"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00454] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00507"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#507"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#479"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00507] For method computeHitRatio arguments long  hits|long  misses"
+ , "c3" : "QC-JAV000006[00479] For method numberOfOpenFilesSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00508"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#508"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.computeHitRatio@POLYN247556 the MagicNumber/String  0 should be converted to const"
+ , "c1" : "00479"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#479"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00479] For method numberOfOpenFilesSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN241880"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00509"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#509"
+ , "c1" : "00479"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#479"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00479] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00480"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#480"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00480] The argument metricContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00491"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#491"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.computeHitRatio@POLYN247556 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00491] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.numberOfOpenFilesSensor@POLYN241747 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00497"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#497"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00497] For method numberOfFileErrorsSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00497"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#497"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00497] For method numberOfFileErrorsSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor createSensorN242477"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00497"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#497"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00497] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00498"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#498"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00498] The argument metricContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00514"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#514"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#514"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00514] For method computeAvg arguments long  sum|long  count"
+ , "c3" : "QC-JAV000006[00514] For method addNumEntriesActiveMemTableMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00515"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#515"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00515] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.computeAvg@POLYN247891 the MagicNumber/String  0 should be converted to const"
+ , "c1" : "00526"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#526"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00526] For method addNumEntriesImmMemTablesMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00516"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#516"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.computeAvg@POLYN247891 the MagicNumber/String  0 should be converted to const"
+ , "c1" : "00538"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#538"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00538] For method addNumDeletesImmMemTablesMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#1"
+ , "c1" : "00550"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#550"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00550] For method addNumDeletesActiveMemTableMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00562"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#562"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00562] For method addNumImmutableMemTableMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00574"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#574"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00574] For method addCurSizeActiveMemTable arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00586"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#586"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00586] For method addCurSizeAllMemTables arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00598"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#598"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00598] For method addSizeAllMemTables arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00610"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#610"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00610] For method addMemTableFlushPending arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00622"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#622"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00622] For method addNumRunningFlushesMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00634"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#634"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00634] For method addCompactionPendingMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00646"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#646"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00646] For method addNumRunningCompactionsMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00658"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#658"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00658] For method addEstimatePendingCompactionBytesMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00670"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#670"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00670] For method addTotalSstFilesSizeMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00682"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#682"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00682] For method addLiveSstFilesSizeMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00694"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#694"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00694] For method addNumLiveVersionMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00706"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#706"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00706] For method addBlockCacheCapacityMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00718"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#718"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00718] For method addBlockCacheUsageMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00730"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#730"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00730] For method addBlockCachePinnedUsageMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00742"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#742"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00742] For method addEstimateNumKeysMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00754"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#754"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00754] For method addEstimateTableReadersMemMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00766"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#766"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00766] For method addBackgroundErrorsMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00778"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#778"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00778] For method addMutableMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider|String  name|String  description"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00778"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#778"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765"
+ , "c3" : "QC-JAVCWE476[00778] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00426"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#426"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00426] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String 'Recording metrics for store {}' MUST BE CONVERTED to const"
+ , "c1" : "00779"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#779"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00779] The argument metricContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00427"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#427"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00427] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c1" : "00794"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#794"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000006[00794] For method createSensor arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|String  sensorName"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00428"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#428"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00428] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c1" : "00794"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#794"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00794] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00429"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#429"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00429] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00430"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#430"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00430] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00431"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#431"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00431] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00432"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#432"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00432] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00433"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#433"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00433] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00434"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#434"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00434] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00435"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#435"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00435] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00436"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#436"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00436] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00437"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#437"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00437] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00438"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#438"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00438] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00439"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#439"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00439] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00440"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#440"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00440] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00441"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#441"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00441] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00442"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#442"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00442] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00443"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#443"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00443] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00444"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#444"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00444] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00446"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#446"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00446] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String 0.0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00447"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#447"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00447] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00448"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#448"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00448] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00450"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#450"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00450] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String 0.0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00451"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#451"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00451] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00453"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#453"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00453] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00454"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#454"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00454] In the recursive method org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.record@POLYN240765 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c1" : "00795"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#795"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00795] The argument metricContext is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.fct.svg" 
 
 , 
 }

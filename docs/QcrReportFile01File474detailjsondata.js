@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java 40 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java 39 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.xml" 
  , "fic3"  : "" 
 }
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00110"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#110"
- , "c1" : "List<NamedMeasurable>"
+ , "c1" : "List&lt;NamedMeasurable&gt;"
  , "c2" : "stats()"
  , "c3" : "2"
  , "c4" : "5"
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00162"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#162"
  , "c1" : "double"
- , "c2" : "combine(List<Sample>;MetricConfig;long)"
+ , "c2" : "combine(List&lt;Sample&gt;;MetricConfig;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -120,23 +120,7 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
@@ -445,13 +429,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#187"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00187] For method reset arguments long  now"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.stats.Frequencies.HistogramSample.reset@POLYN183831"
 }} 
 ]
 , 

@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00086"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#86"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "4"
  , "c4" : "8"
 }} 
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00110"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#110"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "reconfigurableConfigs()"
  , "c3" : "1"
  , "c4" : "1"
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00115"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#115"
  , "c1" : "void"
- , "c2" : "validateReconfiguration(Map<String,?>)"
+ , "c2" : "validateReconfiguration(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00120"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#120"
  , "c1" : "void"
- , "c2" : "reconfigure(Map<String,?>)"
+ , "c2" : "reconfigure(Map&lt;String,?&gt;)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00130"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#130"
  , "c1" : "SslEngineFactory"
- , "c2" : "instantiateSslEngineFactory(Map<String,Object>)"
+ , "c2" : "instantiateSslEngineFactory(Map&lt;String,Object&gt;)"
  , "c3" : "3"
  , "c4" : "7"
 }} 
@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00145"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#145"
  , "c1" : "SslEngineFactory"
- , "c2" : "createNewSslEngineFactory(Map<String,?>)"
+ , "c2" : "createNewSslEngineFactory(Map&lt;String,?&gt;)"
  , "c3" : "11"
  , "c4" : "14"
 }} 

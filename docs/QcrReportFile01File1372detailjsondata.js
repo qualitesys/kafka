@@ -20,7 +20,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00033"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/ClusterDescriber.java.html#33"
- , "c1" : "Iterator<UsableBroker>"
+ , "c1" : "Iterator&lt;UsableBroker&gt;"
  , "c2" : "usableBrokers()"
  , "c3" : "1"
  , "c4" : "1"

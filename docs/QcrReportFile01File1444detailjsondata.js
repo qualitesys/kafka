@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00041"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#41"
  , "c1" : "RecordsSnapshotWriter"
- , "c2" : "RecordsSnapshotWriter(RawSnapshotWriter;int;MemoryPool;Time;long;CompressionType;RecordSerde<T>)"
+ , "c2" : "RecordsSnapshotWriter(RawSnapshotWriter;int;MemoryPool;Time;long;CompressionType;RecordSerde&lt;T&gt;)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00157"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#157"
  , "c1" : "void"
- , "c2" : "append(List<T>)"
+ , "c2" : "append(List&lt;T&gt;)"
  , "c3" : "3"
  , "c4" : "4"
 }} 
@@ -111,7 +111,7 @@ var maDataBlocs = {
  , "c5" : "00188"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#188"
  , "c1" : "void"
- , "c2" : "appendBatches(List<CompletedBatch<T>>)"
+ , "c2" : "appendBatches(List&lt;CompletedBatch&lt;T&gt;&gt;)"
  , "c3" : "2"
  , "c4" : "2"
 }} 

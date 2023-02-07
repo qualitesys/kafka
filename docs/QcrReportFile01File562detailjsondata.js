@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/FileRecords.java 105 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/FileRecords.java 103 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.xml" 
  , "fic3"  : "" 
 }
@@ -173,7 +173,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00277"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#277"
- , "c1" : "ConvertedRecords<?extendsRecords>"
+ , "c1" : "ConvertedRecords&lt;?extendsRecords&gt;"
  , "c2" : "downConvert(byte;long;Time)"
  , "c3" : "3"
  , "c4" : "3"
@@ -218,7 +218,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00372"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#372"
- , "c1" : "Optional<Integer>"
+ , "c1" : "Optional&lt;Integer&gt;"
  , "c2" : "maybeLeaderEpoch(int)"
  , "c3" : "1"
  , "c4" : "1"
@@ -227,7 +227,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00384"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#384"
- , "c1" : "Iterable<FileChannelRecordBatch>"
+ , "c1" : "Iterable&lt;FileChannelRecordBatch&gt;"
  , "c2" : "batches()"
  , "c3" : "1"
  , "c4" : "1"
@@ -245,7 +245,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00404"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#404"
- , "c1" : "Iterable<FileChannelRecordBatch>"
+ , "c1" : "Iterable&lt;FileChannelRecordBatch&gt;"
  , "c2" : "batchesFrom(int)"
  , "c3" : "1"
  , "c4" : "1"
@@ -254,7 +254,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00409"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#409"
- , "c1" : "AbstractIterator<FileChannelRecordBatch>"
+ , "c1" : "AbstractIterator&lt;FileChannelRecordBatch&gt;"
  , "c2" : "batchIterator()"
  , "c3" : "1"
  , "c4" : "1"
@@ -263,7 +263,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00413"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#413"
- , "c1" : "AbstractIterator<FileChannelRecordBatch>"
+ , "c1" : "AbstractIterator&lt;FileChannelRecordBatch&gt;"
  , "c2" : "batchIterator(int)"
  , "c3" : "3"
  , "c4" : "5"
@@ -356,13 +356,6 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -373,7 +366,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1132,20 +1125,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.FileRecords.close@POLYN237580"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.FileRecords.open@POLYN248491"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00445"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#445"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00445] In the recursive method org.apache.kafka.common.record.FileRecords.open@POLYN248491 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
 , 

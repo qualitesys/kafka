@@ -20,7 +20,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00056"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/FuturePurgatory.java.html#56"
- , "c1" : "CompletableFuture<Long>"
+ , "c1" : "CompletableFuture&lt;Long&gt;"
  , "c2" : "await(T;long)"
  , "c3" : "1"
  , "c4" : "1"

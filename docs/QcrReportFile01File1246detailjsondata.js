@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00180"
  , "c5link" : "././qc/generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java.html#180"
  , "c1" : "String"
- , "c2" : "generateListenerTypeEnumSet(Collection<String>)"
+ , "c2" : "generateListenerTypeEnumSet(Collection&lt;String&gt;)"
  , "c3" : "4"
  , "c4" : "8"
 }} 

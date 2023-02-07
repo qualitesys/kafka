@@ -1,36 +1,36 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskController.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskController.java 1 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskController.java.xml" 
+   "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html" 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java 4 rule violations " 
+ , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "TaskController"
- , "c2" : "org.apache.kafka.trogdor.task.NoOpTaskController"
+ , "c1" : "WorkerStatusTracker"
+ , "c2" : "org.apache.kafka.trogdor.task.AgentWorkerStatusTracker"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.task.NoOpTaskController" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.trogdor.task.AgentWorkerStatusTracker" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskController.java.html#29"
- , "c1" : "NoOpTaskController"
- , "c2" : "NoOpTaskController()"
+ , "c5" : "00030"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html#30"
+ , "c1" : "void"
+ , "c2" : "update(JsonNode)"
  , "c3" : "1"
- , "c4" : "0"
+ , "c4" : "2"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskController.java.html#33"
- , "c1" : "Set<String>"
- , "c2" : "targetNodes(Topology)"
+ , "c5" : "00040"
+ , "c5link" : "././qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html#40"
+ , "c1" : "JsonNode"
+ , "c2" : "get()"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -39,9 +39,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskController.java.png" 
+   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.png" 
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskController.java.svg" }
+ , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.svg" }
 
 ] 
 , 
@@ -68,24 +68,59 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "INFO"
+ , "c2" : "QC-JAV000019"
+ , "c3" : "Lock statement"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00033"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskController.java.html#33"
+ , "c1" : "00030"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html#30"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method targetNodes arguments Topology  topology"
+ , "c3" : "QC-JAV000006[00030] For method update arguments JsonNode  newStatus"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00030"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html#30"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00030] The argument newStatus is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00032"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html#32"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00032] Lock statement on synchronized resource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00040"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.html#40"
+ , "c2" : "INFO"
+ , "c3" : "QC-JAV000019[00040] Lock statement on synchronized method get"
 }} 
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskController.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/AgentWorkerStatusTracker.java.fct.svg" 
 
 , 
 }

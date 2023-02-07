@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00060"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#60"
  , "c1" : "JaasContext"
- , "c2" : "loadServerContext(ListenerName;String;Map<String,?>)"
+ , "c2" : "loadServerContext(ListenerName;String;Map&lt;String,?&gt;)"
  , "c3" : "4"
  , "c4" : "6"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00080"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#80"
  , "c1" : "JaasContext"
- , "c2" : "loadClientContext(Map<String,?>)"
+ , "c2" : "loadClientContext(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -92,7 +92,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00172"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#172"
- , "c1" : "List<AppConfigurationEntry>"
+ , "c1" : "List&lt;AppConfigurationEntry&gt;"
  , "c2" : "configurationEntries()"
  , "c3" : "1"
  , "c4" : "1"
@@ -111,7 +111,7 @@ var maDataBlocs = {
  , "c5" : "00184"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#184"
  , "c1" : "String"
- , "c2" : "configEntryOption(List<AppConfigurationEntry>;String;String)"
+ , "c2" : "configEntryOption(List&lt;AppConfigurationEntry&gt;;String;String)"
  , "c3" : "4"
  , "c4" : "4"
 }} 

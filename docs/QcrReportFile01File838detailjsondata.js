@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00036"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramExtensions.java.html#36"
  , "c1" : "ScramExtensions"
- , "c2" : "ScramExtensions(Map<String,String>)"
+ , "c2" : "ScramExtensions(Map&lt;String,String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

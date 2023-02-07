@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00049"
  , "c5link" : "././qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonDeserializer.java.html#49"
  , "c1" : "JsonDeserializer"
- , "c2" : "JsonDeserializer(Set<DeserializationFeature>;JsonNodeFactory)"
+ , "c2" : "JsonDeserializer(Set&lt;DeserializationFeature&gt;;JsonNodeFactory)"
  , "c3" : "1"
  , "c4" : "2"
 }} 

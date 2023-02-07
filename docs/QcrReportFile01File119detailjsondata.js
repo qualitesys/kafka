@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00038"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberAssignment.java.html#38"
  , "c1" : "MemberAssignment"
- , "c2" : "MemberAssignment(Set<TopicPartition>)"
+ , "c2" : "MemberAssignment(Set&lt;TopicPartition&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00061"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/MemberAssignment.java.html#61"
- , "c1" : "Set<TopicPartition>"
+ , "c1" : "Set&lt;TopicPartition&gt;"
  , "c2" : "topicPartitions()"
  , "c3" : "1"
  , "c4" : "1"

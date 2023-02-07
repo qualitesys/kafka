@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00038"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupOptions.java.html#38"
  , "c1" : "RemoveMembersFromConsumerGroupOptions"
- , "c2" : "RemoveMembersFromConsumerGroupOptions(Collection<MemberToRemove>)"
+ , "c2" : "RemoveMembersFromConsumerGroupOptions(Collection&lt;MemberToRemove&gt;)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00056"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupOptions.java.html#56"
- , "c1" : "Set<MemberToRemove>"
+ , "c1" : "Set&lt;MemberToRemove&gt;"
  , "c2" : "members()"
  , "c3" : "1"
  , "c4" : "1"

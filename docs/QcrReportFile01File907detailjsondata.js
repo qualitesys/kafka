@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00029"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/MappedIterator.java.html#29"
  , "c1" : "MappedIterator"
- , "c2" : "MappedIterator(Iterator<?extendsF>;Function<F,T>)"
+ , "c2" : "MappedIterator(Iterator&lt;?extendsF&gt;;Function&lt;F,T&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 

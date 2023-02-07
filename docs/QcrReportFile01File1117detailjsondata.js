@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00077"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#77"
  , "c1" : "DeadLetterQueueReporter"
- , "c2" : "createAndSetup(Map<String,Object>;ConnectorTaskId;SinkConnectorConfig;Map<String,Object>;ErrorHandlingMetrics)"
+ , "c2" : "createAndSetup(Map&lt;String,Object&gt;;ConnectorTaskId;SinkConnectorConfig;Map&lt;String,Object&gt;;ErrorHandlingMetrics)"
  , "c3" : "3"
  , "c4" : "8"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00107"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#107"
  , "c1" : "DeadLetterQueueReporter"
- , "c2" : "DeadLetterQueueReporter(KafkaProducer<byte[],byte[]>;SinkConnectorConfig;ConnectorTaskId;ErrorHandlingMetrics)"
+ , "c2" : "DeadLetterQueueReporter(KafkaProducer&lt;byte[],byte[]&gt;;SinkConnectorConfig;ConnectorTaskId;ErrorHandlingMetrics)"
  , "c3" : "1"
  , "c4" : "9"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00127"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#127"
- , "c1" : "Future<RecordMetadata>"
+ , "c1" : "Future&lt;RecordMetadata&gt;"
  , "c2" : "report(ProcessingContext)"
  , "c3" : "7"
  , "c4" : "12"
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00161"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#161"
  , "c1" : "void"
- , "c2" : "populateContextHeaders(ProducerRecord<byte[],byte[]>;ProcessingContext)"
+ , "c2" : "populateContextHeaders(ProducerRecord&lt;byte[],byte[]&gt;;ProcessingContext)"
  , "c3" : "4"
  , "c4" : "12"
 }} 

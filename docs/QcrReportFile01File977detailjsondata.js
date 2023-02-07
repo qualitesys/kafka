@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00045"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#45"
  , "c1" : "SinkRecord"
- , "c2" : "SinkRecord(String;int;Schema;Object;Schema;Object;long;Long;TimestampType;Iterable<Header>)"
+ , "c2" : "SinkRecord(String;int;Schema;Object;Schema;Object;long;Long;TimestampType;Iterable&lt;Header&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00066"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkRecord.java.html#66"
  , "c1" : "SinkRecord"
- , "c2" : "newRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable<Header>)"
+ , "c2" : "newRecord(String;Integer;Schema;Object;Schema;Object;Long;Iterable&lt;Header&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 

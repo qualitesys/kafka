@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java 283 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java 293 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.xml" 
  , "fic3"  : "" 
 }
@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00273"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#273"
  , "c1" : "KafkaProducer"
- , "c2" : "KafkaProducer(Map<String,Object>)"
+ , "c2" : "KafkaProducer(Map&lt;String,Object&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00290"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#290"
  , "c1" : "KafkaProducer"
- , "c2" : "KafkaProducer(Map<String,Object>;Serializer<K>;Serializer<V>)"
+ , "c2" : "KafkaProducer(Map&lt;String,Object&gt;;Serializer&lt;K&gt;;Serializer&lt;V&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00317"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#317"
  , "c1" : "KafkaProducer"
- , "c2" : "KafkaProducer(Properties;Serializer<K>;Serializer<V>)"
+ , "c2" : "KafkaProducer(Properties;Serializer&lt;K&gt;;Serializer&lt;V&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00340"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#340"
  , "c1" : "KafkaProducer"
- , "c2" : "KafkaProducer(ProducerConfig;Serializer<K>;Serializer<V>;ProducerMetadata;KafkaClient;ProducerInterceptors<K,V>;Time)"
+ , "c2" : "KafkaProducer(ProducerConfig;Serializer&lt;K&gt;;Serializer&lt;V&gt;;ProducerMetadata;KafkaClient;ProducerInterceptors&lt;K,V&gt;;Time)"
  , "c3" : "11"
  , "c4" : "58"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00473"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#473"
  , "c1" : "KafkaProducer"
- , "c2" : "KafkaProducer(ProducerConfig;LogContext;Metrics;Serializer<K>;Serializer<V>;ProducerMetadata;RecordAccumulator;TransactionManager;Sender;ProducerInterceptors<K,V>;Partitioner;Time;KafkaThread)"
+ , "c2" : "KafkaProducer(ProducerConfig;LogContext;Metrics;Serializer&lt;K&gt;;Serializer&lt;V&gt;;ProducerMetadata;RecordAccumulator;TransactionManager;Sender;ProducerInterceptors&lt;K,V&gt;;Partitioner;Time;KafkaThread)"
  , "c3" : "1"
  , "c4" : "22"
 }} 
@@ -138,7 +138,7 @@ var maDataBlocs = {
  , "c5" : "00694"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#694"
  , "c1" : "void"
- , "c2" : "sendOffsetsToTransaction(Map<TopicPartition,OffsetAndMetadata>;String)"
+ , "c2" : "sendOffsetsToTransaction(Map&lt;TopicPartition,OffsetAndMetadata&gt;;String)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -147,7 +147,7 @@ var maDataBlocs = {
  , "c5" : "00741"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#741"
  , "c1" : "void"
- , "c2" : "sendOffsetsToTransaction(Map<TopicPartition,OffsetAndMetadata>;ConsumerGroupMetadata)"
+ , "c2" : "sendOffsetsToTransaction(Map&lt;TopicPartition,OffsetAndMetadata&gt;;ConsumerGroupMetadata)"
  , "c3" : "2"
  , "c4" : "8"
 }} 
@@ -173,8 +173,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00833"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#833"
- , "c1" : "Future<RecordMetadata>"
- , "c2" : "send(ProducerRecord<K,V>)"
+ , "c1" : "Future&lt;RecordMetadata&gt;"
+ , "c2" : "send(ProducerRecord&lt;K,V&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -182,8 +182,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00946"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#946"
- , "c1" : "Future<RecordMetadata>"
- , "c2" : "send(ProducerRecord<K,V>;Callback)"
+ , "c1" : "Future&lt;RecordMetadata&gt;"
+ , "c2" : "send(ProducerRecord&lt;K,V&gt;;Callback)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -209,8 +209,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00971"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#971"
- , "c1" : "Future<RecordMetadata>"
- , "c2" : "doSend(ProducerRecord<K,V>;Callback)"
+ , "c1" : "Future&lt;RecordMetadata&gt;"
+ , "c2" : "doSend(ProducerRecord&lt;K,V&gt;;Callback)"
  , "c3" : "8"
  , "c4" : "50"
 }} 
@@ -254,7 +254,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01234"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#1234"
- , "c1" : "List<PartitionInfo>"
+ , "c1" : "List&lt;PartitionInfo&gt;"
  , "c2" : "partitionsFor(String)"
  , "c3" : "1"
  , "c4" : "3"
@@ -263,7 +263,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01247"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#1247"
- , "c1" : "Map<MetricName,?extendsMetric>"
+ , "c1" : "Map&lt;MetricName,?extendsMetric&gt;"
  , "c2" : "metrics()"
  , "c3" : "1"
  , "c4" : "1"
@@ -300,7 +300,7 @@ var maDataBlocs = {
  , "c5" : "01353"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#1353"
  , "c1" : "ClusterResourceListeners"
- , "c2" : "configureClusterResourceListeners(Serializer<K>;Serializer<V>;List<?>...)"
+ , "c2" : "configureClusterResourceListeners(Serializer&lt;K&gt;;Serializer&lt;V&gt;;List&lt;?&gt;...)"
  , "c3" : "2"
  , "c4" : "5"
 }} 
@@ -309,7 +309,7 @@ var maDataBlocs = {
  , "c5" : "01373"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#1373"
  , "c1" : "int"
- , "c2" : "partition(ProducerRecord<K,V>;byte[];byte[];Cluster)"
+ , "c2" : "partition(ProducerRecord&lt;K,V&gt;;byte[];byte[];Cluster)"
  , "c3" : "6"
  , "c4" : "6"
 }} 
@@ -386,7 +386,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "84"
+ , "c4" : "91"
 }}
 ,
 { "ligne" : { "" : ""
@@ -400,7 +400,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "8"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1781,6 +1781,20 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.KafkaProducer.configureDeliveryTimeout@POLYN528589"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.KafkaProducer.configureTransactionState@POLYN529834"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.KafkaProducer.close@POLYN564585"
 }} 
 ,
@@ -1810,6 +1824,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.KafkaProducer.sendOffsetsToTransaction@POLYN537256"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.KafkaProducer.abortTransaction@POLYN541292"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1957,6 +1978,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#468"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00468] In the recursive method org.apache.kafka.clients.producer.KafkaProducer.KafkaProducer@POLYN514769 the MagicNumber/String 'Failed to construct kafka producer' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00567"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#567"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00567] In the recursive method org.apache.kafka.clients.producer.KafkaProducer.configureDeliveryTimeout@POLYN528589 the MagicNumber/String ' should be equal to or larger than ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00568"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#568"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00568] In the recursive method org.apache.kafka.clients.producer.KafkaProducer.configureDeliveryTimeout@POLYN528589 the MagicNumber/String ' + ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00572"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#572"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00572] In the recursive method org.apache.kafka.clients.producer.KafkaProducer.configureDeliveryTimeout@POLYN528589 the MagicNumber/String '{} should be equal to or larger than {} + {}. Setting it to {}.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00582"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#582"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00582] In the recursive method org.apache.kafka.clients.producer.KafkaProducer.configureTransactionState@POLYN529834 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00597"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#597"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00597] In the recursive method org.apache.kafka.clients.producer.KafkaProducer.configureTransactionState@POLYN529834 the MagicNumber/String 'Instantiated a transactional producer.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00599"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#599"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00599] In the recursive method org.apache.kafka.clients.producer.KafkaProducer.configureTransactionState@POLYN529834 the MagicNumber/String 'Instantiated an idempotent producer.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2398,6 +2461,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#1068"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[01068] In the recursive method org.apache.kafka.clients.producer.KafkaProducer.doSend@POLYN548165 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00820"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#820"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00820] In the recursive method org.apache.kafka.clients.producer.KafkaProducer.abortTransaction@POLYN541292 the MagicNumber/String 'Aborting incomplete transaction' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

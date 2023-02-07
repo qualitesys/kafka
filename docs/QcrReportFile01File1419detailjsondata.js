@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00036"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#36"
  , "c1" : "RequestManager"
- , "c2" : "RequestManager(Set<Integer>;int;int;Random)"
+ , "c2" : "RequestManager(Set&lt;Integer&gt;;int;int;Random)"
  , "c3" : "2"
  , "c4" : "6"
 }} 

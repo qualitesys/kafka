@@ -123,6 +123,98 @@ var maDataBlocs = {
 "data08" : [
 ]
 , 
+"data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1457Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1457&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "4"
+ , "c4" : "3"
+ , "c5" : ["1" , "java.io.InputStream.skip@POLYN249148.remaining"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+]
+,
+"data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00177]"
+ , "c3" : ["1" , "---java.io.InputStream.read@POLYN246846.dummymethode_00177" , "java.io.InputStream.read@POLYN246846.i"]
+ , "c4" : "//QC-JAVCWE099[00177] In java.io.InputStream.read@POLYN246846[00177] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00188]"
+ , "c3" : ["java.io.InputStream.read@POLYN246846.i" , "---java.io.InputStream.read@POLYN246846.dummymethode_00188" , "java.io.InputStream.read@POLYN246846.return"]
+ , "c4" : "//QC-JAVCWE099[00188] In java.io.InputStream.read@POLYN246846[00188] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00225]"
+ , "c3" : ["java.io.InputStream.read@POLYN246846.return" , "---java.io.InputStream.read@POLYN246846" , "java.io.InputStream.skip@POLYN249148.nr"]
+ , "c4" : "//QC-JAVCWE099[00225] In java.io.InputStream.skip@POLYN249148[00225] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00230]"
+ , "c3" : ["java.io.InputStream.skip@POLYN249148.nr" , "---java.io.InputStream.skip@POLYN249148.dummymethode_00230" , "java.io.InputStream.skip@POLYN249148.remaining"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+]
+, 
+"data10" : [
+]
+, 
 "data11" : [
 ]
 , 

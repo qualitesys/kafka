@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java 43 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java 44 rule violations " 
  , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.xml" 
  , "fic3"  : "" 
 }
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00165"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#165"
  , "c1" : "boolean"
- , "c2" : "isConcrete(Class<?>)"
+ , "c2" : "isConcrete(Class&lt;?&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -56,7 +56,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00191"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#191"
- , "c1" : "List<Path>"
+ , "c1" : "List&lt;Path&gt;"
  , "c2" : "pluginLocations(Path)"
  , "c3" : "2"
  , "c4" : "3"
@@ -65,7 +65,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00216"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#216"
- , "c1" : "List<Path>"
+ , "c1" : "List&lt;Path&gt;"
  , "c2" : "pluginUrls(Path)"
  , "c3" : "16"
  , "c4" : "29"
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00306"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#306"
  , "c1" : "String"
- , "c2" : "simpleName(PluginDesc<?>)"
+ , "c2" : "simpleName(PluginDesc&lt;?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00317"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#317"
  , "c1" : "String"
- , "c2" : "prunedName(PluginDesc<?>)"
+ , "c2" : "prunedName(PluginDesc&lt;?&gt;)"
  , "c3" : "3"
  , "c4" : "2"
 }} 
@@ -93,7 +93,7 @@ var maDataBlocs = {
  , "c5" : "00353"
  , "c5link" : "././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#353"
  , "c1" : "String"
- , "c2" : "prunePluginName(PluginDesc<?>;String)"
+ , "c2" : "prunePluginName(PluginDesc&lt;?&gt;;String)"
  , "c3" : "2"
  , "c4" : "4"
 }} 
@@ -178,7 +178,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -195,6 +195,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#165"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00165] For method isConcrete arguments Class&lt;? &gt;  klass"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00165"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#165"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00165] For method isConcrete list of called methods Object monObjet|int klass_getModifiersN191065"
 }} 
 ,
 { "ligne" : {"" : ""

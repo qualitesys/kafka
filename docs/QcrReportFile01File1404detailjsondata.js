@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00034"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/LogOffsetMetadata.java.html#34"
  , "c1" : "LogOffsetMetadata"
- , "c2" : "LogOffsetMetadata(long;Optional<OffsetMetadata>)"
+ , "c2" : "LogOffsetMetadata(long;Optional&lt;OffsetMetadata&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 

@@ -9000,6 +9000,10 @@ class "java.lang.StringBuilder" {
 Nb methods :42
 Complexity :1.20
 }
+class "java.lang.Throwable" {
+Nb methods :26
+Complexity :2.58
+}
 class "java.lang.Void" {
 Nb methods :1
 Complexity :1.00

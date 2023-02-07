@@ -20,7 +20,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00052"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/sink/ErrantRecordReporter.java.html#52"
- , "c1" : "Future<Void>"
+ , "c1" : "Future&lt;Void&gt;"
  , "c2" : "report(SinkRecord;Throwable)"
  , "c3" : "1"
  , "c4" : "1"

@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00122"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/utils/ConfigUtils.java.html#122"
  , "c1" : "String"
- , "c2" : "configMapToRedactedString(Map<String,Object>;ConfigDef)"
+ , "c2" : "configMapToRedactedString(Map&lt;String,Object&gt;;ConfigDef)"
  , "c3" : "8"
  , "c4" : "14"
 }} 

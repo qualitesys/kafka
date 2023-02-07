@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00031"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#31"
  , "c1" : "ElectionState"
- , "c2" : "ElectionState(int;OptionalInt;OptionalInt;Set<Integer>)"
+ , "c2" : "ElectionState(int;OptionalInt;OptionalInt;Set&lt;Integer&gt;)"
  , "c3" : "1"
  , "c4" : "4"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00041"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#41"
  , "c1" : "ElectionState"
- , "c2" : "withVotedCandidate(int;int;Set<Integer>)"
+ , "c2" : "withVotedCandidate(int;int;Set&lt;Integer&gt;)"
  , "c3" : "3"
  , "c4" : "3"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00049"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#49"
  , "c1" : "ElectionState"
- , "c2" : "withElectedLeader(int;int;Set<Integer>)"
+ , "c2" : "withElectedLeader(int;int;Set&lt;Integer&gt;)"
  , "c3" : "3"
  , "c4" : "3"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00057"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#57"
  , "c1" : "ElectionState"
- , "c2" : "withUnknownLeader(int;Set<Integer>)"
+ , "c2" : "withUnknownLeader(int;Set&lt;Integer&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -92,7 +92,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00085"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#85"
- , "c1" : "Set<Integer>"
+ , "c1" : "Set&lt;Integer&gt;"
  , "c2" : "voters()"
  , "c3" : "1"
  , "c4" : "1"

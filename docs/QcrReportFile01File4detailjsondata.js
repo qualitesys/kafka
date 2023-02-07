@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00047"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#47"
  , "c1" : "ClientRequest"
- , "c2" : "ClientRequest(String;AbstractRequest.Builder<?>;int;String;long;boolean;int;RequestCompletionHandler)"
+ , "c2" : "ClientRequest(String;AbstractRequest.Builder&lt;?&gt;;int;String;long;boolean;int;RequestCompletionHandler)"
  , "c3" : "1"
  , "c4" : "8"
 }} 
@@ -65,7 +65,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00096"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#96"
- , "c1" : "AbstractRequest.Builder<?>"
+ , "c1" : "AbstractRequest.Builder&lt;?&gt;"
  , "c2" : "requestBuilder()"
  , "c3" : "1"
  , "c4" : "1"

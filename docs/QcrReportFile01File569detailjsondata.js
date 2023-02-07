@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00049"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#49"
  , "c1" : "MultiRecordsSend"
- , "c2" : "MultiRecordsSend(Queue<Send>)"
+ , "c2" : "MultiRecordsSend(Queue&lt;Send&gt;)"
  , "c3" : "2"
  , "c4" : "5"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00060"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#60"
  , "c1" : "MultiRecordsSend"
- , "c2" : "MultiRecordsSend(Queue<Send>;long)"
+ , "c2" : "MultiRecordsSend(Queue&lt;Send&gt;;long)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -74,7 +74,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00117"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#117"
- , "c1" : "Map<TopicPartition,RecordConversionStats>"
+ , "c1" : "Map&lt;TopicPartition,RecordConversionStats&gt;"
  , "c2" : "recordConversionStats()"
  , "c3" : "1"
  , "c4" : "1"

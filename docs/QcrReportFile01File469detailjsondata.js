@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java 71 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java 76 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.xml" 
  , "fic3"  : "" 
 }
@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00146"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#146"
  , "c1" : "IntGaugeSuite"
- , "c2" : "IntGaugeSuite(Logger;String;Metrics;Function<K,MetricName>;int)"
+ , "c2" : "IntGaugeSuite(Logger;String;Metrics;Function&lt;K,MetricName&gt;;int)"
  , "c3" : "1"
  , "c4" : "11"
 }} 
@@ -83,7 +83,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00288"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#288"
- , "c1" : "Map<K,Integer>"
+ , "c1" : "Map&lt;K,Integer&gt;"
  , "c2" : "values()"
  , "c3" : "2"
  , "c4" : "3"
@@ -114,82 +114,6 @@ var maDataBlocs = {
 "data08" : [
 ]
 , 
-"data09a" : [
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File469Seq1.html#seq1"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=469&numSeq=1"
- , "c2" : "1"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.HashMap.get@POLYN618616.return" , "java.util.HashMap.put@POLYN621976.value"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-]
-,
-"data09b" : [
-{ "sequence" : { 
- "seq" : "1" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00172]"
- , "c3" : ["java.util.HashMap.get@POLYN618616.return" , "---java.util.HashMap.get@POLYN618616" , "org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN184248.gauge"]
- , "c4" : "//QC-JAVCWE099[00172] In org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN184248[00172] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00197]"
- , "c3" : ["org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN184248.gauge" , "---java.util.HashMap.put@POLYN621976" , "java.util.HashMap.put@POLYN621976.value"]
- , "c4" : "//QC-JAVCWE099[00197] In org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN184248[00197] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-]
-, 
-"data10" : [
-]
-, 
 "data11" : [
 ]
 , 
@@ -206,7 +130,7 @@ var maDataBlocs = {
 { "sequence" : { "noseq" : "0" , "pas" : [
 { "ligne" : "S0:org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN187936 (R0 in line [00235],R1 in line [00235])" }
 ,
-{ "ligne" : "S0:java.util.HashMap.get@POLYN618616" }
+{ "ligne" : "S0:org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN187936.dummymethode_00237" }
  ]
  } }
 ,
@@ -215,7 +139,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S1:org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN187936 (R0 in line [00235],R1 in line [00235])" }
 ,
-{ "ligne" : "S1:java.util.HashMap.get@POLYN618616" }
+{ "ligne" : "S1:org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN187936.dummymethode_00237" }
  ]
  } }
 ]
@@ -229,6 +153,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAVCWE833"
  , "c3" : "Potential deadlock between at least two ressources"
  , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999995"
+ , "c3" : "Recursivity with depth over 1 between method xx and method yy"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
@@ -249,7 +180,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -614,8 +545,43 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN186654"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN186654 ending with method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN184248"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN186654"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN184248"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN184248 ending with method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN186654"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN184248"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN186654"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -29,8 +29,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00069"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#69"
- , "c1" : "Set<CoordinatorKey>"
- , "c2" : "buildKeySet(Collection<String>)"
+ , "c1" : "Set&lt;CoordinatorKey&gt;"
+ , "c2" : "buildKeySet(Collection&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -38,8 +38,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00075"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#75"
- , "c1" : "AdminApiFuture.SimpleAdminApiFuture<CoordinatorKey,ConsumerGroupDescription>"
- , "c2" : "newFuture(Collection<String>)"
+ , "c1" : "AdminApiFuture.SimpleAdminApiFuture&lt;CoordinatorKey,ConsumerGroupDescription&gt;"
+ , "c2" : "newFuture(Collection&lt;String&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -56,7 +56,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00087"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#87"
- , "c1" : "AdminApiLookupStrategy<CoordinatorKey>"
+ , "c1" : "AdminApiLookupStrategy&lt;CoordinatorKey&gt;"
  , "c2" : "lookupStrategy()"
  , "c3" : "1"
  , "c4" : "1"
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00092"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#92"
  , "c1" : "DescribeGroupsRequest.Builder"
- , "c2" : "buildBatchedRequest(int;Set<CoordinatorKey>)"
+ , "c2" : "buildBatchedRequest(int;Set&lt;CoordinatorKey&gt;)"
  , "c3" : "2"
  , "c4" : "5"
 }} 
@@ -74,8 +74,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00107"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#107"
- , "c1" : "ApiResult<CoordinatorKey,ConsumerGroupDescription>"
- , "c2" : "handleResponse(Node;Set<CoordinatorKey>;AbstractResponse)"
+ , "c1" : "ApiResult&lt;CoordinatorKey,ConsumerGroupDescription&gt;"
+ , "c2" : "handleResponse(Node;Set&lt;CoordinatorKey&gt;;AbstractResponse)"
  , "c3" : "7"
  , "c4" : "20"
 }} 
@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00161"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#161"
  , "c1" : "void"
- , "c2" : "handleError(CoordinatorKey;Errors;Map<CoordinatorKey,Throwable>;Set<CoordinatorKey>)"
+ , "c2" : "handleError(CoordinatorKey;Errors;Map&lt;CoordinatorKey,Throwable&gt;;Set&lt;CoordinatorKey&gt;)"
  , "c3" : "5"
  , "c4" : "10"
 }} 
@@ -92,7 +92,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00194"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#194"
- , "c1" : "Set<AclOperation>"
+ , "c1" : "Set&lt;AclOperation&gt;"
  , "c2" : "validAclOperations(int)"
  , "c3" : "2"
  , "c4" : "2"
@@ -474,14 +474,28 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleError@POLYN180422"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.buildBatchedRequest@POLYN176037"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.buildBatchedRequest@POLYN176037"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleError@POLYN180422"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00095"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#95"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.buildBatchedRequest@POLYN176037 the MagicNumber/String 'Invalid transaction coordinator key ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00096"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#96"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00096] In the recursive method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.buildBatchedRequest@POLYN176037 the MagicNumber/String ' when building  DescribeGroups  request' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -524,20 +538,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#189"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00189] In the recursive method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.handleError@POLYN180422 the MagicNumber/String ' DescribeGroups  request for group id {} failed due to unexpected error {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#95"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.buildBatchedRequest@POLYN176037 the MagicNumber/String 'Invalid transaction coordinator key ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#96"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00096] In the recursive method org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler.buildBatchedRequest@POLYN176037 the MagicNumber/String ' when building  DescribeGroups  request' MUST BE CONVERTED to const"
 }} 
 ]
 , 

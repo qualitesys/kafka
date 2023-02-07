@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00042"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationUtils.java.html#42"
  , "c1" : "OAuthBearerValidationResult"
- , "c2" : "validateClaimForExistenceAndType(OAuthBearerUnsecuredJws;boolean;String;Class<?>...)"
+ , "c2" : "validateClaimForExistenceAndType(OAuthBearerUnsecuredJws;boolean;String;Class&lt;?&gt;...)"
  , "c3" : "4"
  , "c4" : "4"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00171"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationUtils.java.html#171"
  , "c1" : "OAuthBearerValidationResult"
- , "c2" : "validateScope(OAuthBearerToken;List<String>)"
+ , "c2" : "validateScope(OAuthBearerToken;List&lt;String&gt;)"
  , "c3" : "4"
  , "c4" : "4"
 }} 

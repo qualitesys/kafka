@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java 20 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java 19 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.xml" 
  , "fic3"  : "" 
 }
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00044"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#44"
  , "c1" : "void"
- , "c2" : "complete(KafkaFutureImpl<Map<ClientQuotaEntity,Map<String,Double>>>)"
+ , "c2" : "complete(KafkaFutureImpl&lt;Map&lt;ClientQuotaEntity,Map&lt;String,Double&gt;&gt;&gt;)"
  , "c3" : "5"
  , "c4" : "10"
 }} 
@@ -56,7 +56,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00079"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#79"
- , "c1" : "Map<Errors,Integer>"
+ , "c1" : "Map&lt;Errors,Integer&gt;"
  , "c2" : "errorCounts()"
  , "c3" : "1"
  , "c4" : "1"
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00087"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#87"
  , "c1" : "DescribeClientQuotasResponse"
- , "c2" : "fromQuotaEntities(Map<ClientQuotaEntity,Map<String,Double>>;int)"
+ , "c2" : "fromQuotaEntities(Map&lt;ClientQuotaEntity,Map&lt;String,Double&gt;&gt;;int)"
  , "c3" : "4"
  , "c4" : "9"
 }} 
@@ -132,7 +132,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -275,13 +275,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#115"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.common.requests.DescribeClientQuotasResponse.fromQuotaEntities@POLYN164218 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeClientQuotasResponse.complete@POLYN161650"
 }} 
 ,
 { "ligne" : {"" : ""

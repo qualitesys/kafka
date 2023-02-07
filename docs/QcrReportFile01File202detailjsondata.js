@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java 477 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java 474 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.xml" 
  , "fic3"  : "" 
 }
@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00148"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#148"
  , "c1" : "ConsumerCoordinator"
- , "c2" : "ConsumerCoordinator(GroupRebalanceConfig;LogContext;ConsumerNetworkClient;List<ConsumerPartitionAssignor>;ConsumerMetadata;SubscriptionState;Metrics;String;Time;boolean;int;ConsumerInterceptors<?,?>;boolean)"
+ , "c2" : "ConsumerCoordinator(GroupRebalanceConfig;LogContext;ConsumerNetworkClient;List&lt;ConsumerPartitionAssignor&gt;;ConsumerMetadata;SubscriptionState;Metrics;String;Time;boolean;int;ConsumerInterceptors&lt;?,?&gt;;boolean)"
  , "c3" : "6"
  , "c4" : "25"
 }} 
@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00268"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#268"
  , "c1" : "void"
- , "c2" : "maybeUpdateJoinedSubscription(Set<TopicPartition>)"
+ , "c2" : "maybeUpdateJoinedSubscription(Set&lt;TopicPartition&gt;)"
  , "c3" : "6"
  , "c4" : "8"
 }} 
@@ -102,7 +102,7 @@ var maDataBlocs = {
  , "c5" : "00306"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#306"
  , "c1" : "Exception"
- , "c2" : "invokePartitionsAssigned(SortedSet<TopicPartition>)"
+ , "c2" : "invokePartitionsAssigned(SortedSet&lt;TopicPartition&gt;)"
  , "c3" : "1"
  , "c4" : "9"
 }} 
@@ -111,7 +111,7 @@ var maDataBlocs = {
  , "c5" : "00325"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#325"
  , "c1" : "Exception"
- , "c2" : "invokePartitionsRevoked(SortedSet<TopicPartition>)"
+ , "c2" : "invokePartitionsRevoked(SortedSet&lt;TopicPartition&gt;)"
  , "c3" : "2"
  , "c4" : "12"
 }} 
@@ -120,7 +120,7 @@ var maDataBlocs = {
  , "c5" : "00348"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#348"
  , "c1" : "Exception"
- , "c2" : "invokePartitionsLost(SortedSet<TopicPartition>)"
+ , "c2" : "invokePartitionsLost(SortedSet&lt;TopicPartition&gt;)"
  , "c3" : "2"
  , "c4" : "12"
 }} 
@@ -174,7 +174,7 @@ var maDataBlocs = {
  , "c5" : "00582"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#582"
  , "c1" : "void"
- , "c2" : "updateGroupSubscription(Set<String>)"
+ , "c2" : "updateGroupSubscription(Set&lt;String&gt;)"
  , "c3" : "3"
  , "c4" : "3"
 }} 
@@ -192,7 +192,7 @@ var maDataBlocs = {
  , "c5" : "00615"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#615"
  , "c1" : "void"
- , "c2" : "maybeUpdateGroupSubscription(String;Map<String,Assignment>;Set<String>)"
+ , "c2" : "maybeUpdateGroupSubscription(String;Map&lt;String,Assignment&gt;;Set&lt;String&gt;)"
  , "c3" : "6"
  , "c4" : "10"
 }} 
@@ -200,8 +200,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00644"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#644"
- , "c1" : "Map<String,ByteBuffer>"
- , "c2" : "onLeaderElected(String;String;List<JoinGroupResponseData.JoinGroupResponseMember>;boolean)"
+ , "c1" : "Map&lt;String,ByteBuffer&gt;"
+ , "c2" : "onLeaderElected(String;String;List&lt;JoinGroupResponseData.JoinGroupResponseMember&gt;;boolean)"
  , "c3" : "6"
  , "c4" : "26"
 }} 
@@ -210,7 +210,7 @@ var maDataBlocs = {
  , "c5" : "00715"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#715"
  , "c1" : "void"
- , "c2" : "validateCooperativeAssignment(Map<String,List<TopicPartition>>;Map<String,Assignment>)"
+ , "c2" : "validateCooperativeAssignment(Map&lt;String,List&lt;TopicPartition&gt;&gt;;Map&lt;String,Assignment&gt;)"
  , "c3" : "3"
  , "c4" : "12"
 }} 
@@ -254,8 +254,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00921"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#921"
- , "c1" : "Map<TopicPartition,OffsetAndMetadata>"
- , "c2" : "fetchCommittedOffsets(Set<TopicPartition>;Timer)"
+ , "c1" : "Map&lt;TopicPartition,OffsetAndMetadata&gt;"
+ , "c2" : "fetchCommittedOffsets(Set&lt;TopicPartition&gt;;Timer)"
  , "c3" : "14"
  , "c4" : "16"
 }} 
@@ -290,8 +290,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01005"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1005"
- , "c1" : "RequestFuture<Void>"
- , "c2" : "commitOffsetsAsync(Map<TopicPartition,OffsetAndMetadata>;OffsetCommitCallback)"
+ , "c1" : "RequestFuture&lt;Void&gt;"
+ , "c2" : "commitOffsetsAsync(Map&lt;TopicPartition,OffsetAndMetadata&gt;;OffsetCommitCallback)"
  , "c3" : "5"
  , "c4" : "13"
 }} 
@@ -299,8 +299,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01056"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1056"
- , "c1" : "RequestFuture<Void>"
- , "c2" : "doCommitOffsetsAsync(Map<TopicPartition,OffsetAndMetadata>;OffsetCommitCallback)"
+ , "c1" : "RequestFuture&lt;Void&gt;"
+ , "c2" : "doCommitOffsetsAsync(Map&lt;TopicPartition,OffsetAndMetadata&gt;;OffsetCommitCallback)"
  , "c3" : "4"
  , "c4" : "10"
 }} 
@@ -309,7 +309,7 @@ var maDataBlocs = {
  , "c5" : "01094"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1094"
  , "c1" : "boolean"
- , "c2" : "commitOffsetsSync(Map<TopicPartition,OffsetAndMetadata>;Timer)"
+ , "c2" : "commitOffsetsSync(Map&lt;TopicPartition,OffsetAndMetadata&gt;;Timer)"
  , "c3" : "8"
  , "c4" : "12"
 }} 
@@ -335,7 +335,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01156"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1156"
- , "c1" : "RequestFuture<Void>"
+ , "c1" : "RequestFuture&lt;Void&gt;"
  , "c2" : "autoCommitOffsetsAsync()"
  , "c3" : "5"
  , "c4" : "7"
@@ -344,7 +344,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01175"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1175"
- , "c1" : "RequestFuture<Void>"
+ , "c1" : "RequestFuture&lt;Void&gt;"
  , "c2" : "maybeAutoCommitOffsetsAsync()"
  , "c3" : "2"
  , "c4" : "2"
@@ -353,8 +353,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01199"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1199"
- , "c1" : "RequestFuture<Void>"
- , "c2" : "sendOffsetCommitRequest(Map<TopicPartition,OffsetAndMetadata>)"
+ , "c1" : "RequestFuture&lt;Void&gt;"
+ , "c2" : "sendOffsetCommitRequest(Map&lt;TopicPartition,OffsetAndMetadata&gt;)"
  , "c3" : "10"
  , "c4" : "19"
 }} 
@@ -362,8 +362,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01399"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1399"
- , "c1" : "RequestFuture<Map<TopicPartition,OffsetAndMetadata>>"
- , "c2" : "sendOffsetFetchRequest(Set<TopicPartition>)"
+ , "c1" : "RequestFuture&lt;Map&lt;TopicPartition,OffsetAndMetadata&gt;&gt;"
+ , "c2" : "sendOffsetFetchRequest(Set&lt;TopicPartition&gt;)"
  , "c3" : "2"
  , "c4" : "5"
 }} 
@@ -411,6 +411,82 @@ var maDataBlocs = {
 "data08" : [
 ]
 , 
+"data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File202Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=202&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.util.Map.getOrDefault@POLYN441854.return" , "org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN426176.cibledummy_01228"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+]
+,
+"data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01216]"
+ , "c3" : ["java.util.Map.getOrDefault@POLYN441854.return" , "---java.util.Map.getOrDefault@POLYN441854" , "org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN426176.topic"]
+ , "c4" : "//QC-JAVCWE099[01216] In org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN426176[01216] source data PATHtainted (java.util.Map.get) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01228]"
+ , "c3" : ["org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN426176.topic" , "---java.util.Map.put@POLYN429794" , "org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN426176.cibledummy_01228"]
+ , "c4" : "//QC-JAVCWE099[01228] In org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.sendOffsetCommitRequest@POLYN426176[01228] target data PATHtainted (java.util.Map.put) RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+]
+, 
+"data10" : [
+]
+, 
 "data11" : [
 ]
 , 
@@ -431,7 +507,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "115"
+ , "c4" : "114"
 }}
 ,
 { "ligne" : { "" : ""
@@ -445,7 +521,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "16"
+ , "c4" : "14"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2911,13 +2987,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.updateGroupSubscription@POLYN399217"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.maybeUpdateSubscriptionMetadata@POLYN395727"
 }} 
 ,
@@ -2946,13 +3015,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.poll@POLYN446703"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.onLeavePrepare@POLYN410562"
 }} 
 ,
@@ -2961,13 +3023,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.onJoinComplete@POLYN391386"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.maybeUpdateJoinedSubscription@POLYN385924"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3017,6 +3072,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.invokePartitionsAssigned@POLYN387583"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.maybeUpdateJoinedSubscription@POLYN385924"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3178,13 +3240,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#814"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00814] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.onJoinPrepare@POLYN407367 the MagicNumber/String 'User rebalance callback throws an error' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01591"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1591"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01591] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerCoordinator.poll@POLYN446703 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

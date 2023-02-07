@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00062"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#62"
  , "c1" : "UserScramCredentialsDescription"
- , "c2" : "UserScramCredentialsDescription(String;List<ScramCredentialInfo>)"
+ , "c2" : "UserScramCredentialsDescription(String;List&lt;ScramCredentialInfo&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -65,7 +65,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00079"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#79"
- , "c1" : "List<ScramCredentialInfo>"
+ , "c1" : "List&lt;ScramCredentialInfo&gt;"
  , "c2" : "credentialInfos()"
  , "c3" : "1"
  , "c4" : "1"

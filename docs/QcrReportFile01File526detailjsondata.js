@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java 89 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java 92 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.xml" 
  , "fic3"  : "" 
 }
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00052"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#52"
  , "c1" : "String"
- , "c2" : "deepToString(Iterator<?>)"
+ , "c2" : "deepToString(Iterator&lt;?&gt;)"
  , "c3" : "2"
  , "c4" : "8"
 }} 
@@ -120,7 +120,7 @@ var maDataBlocs = {
  , "c5" : "00193"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#193"
  , "c1" : "boolean"
- , "c2" : "compareRawTaggedFields(List<RawTaggedField>;List<RawTaggedField>)"
+ , "c2" : "compareRawTaggedFields(List&lt;RawTaggedField&gt;;List&lt;RawTaggedField&gt;)"
  , "c3" : "5"
  , "c4" : "3"
 }} 
@@ -197,7 +197,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "8"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : { "" : ""
@@ -211,7 +211,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -812,6 +812,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.MessageUtil.toVersionPrefixedByteBuffer@POLYN183159"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.MessageUtil.toByteBuffer@POLYN182506"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#87"
  , "c2" : "BLOCKER"
@@ -865,6 +879,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#79"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN175520 the MagicNumber/String ' does not fit in an 8-bit signed integer.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00216"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#216"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00216] In the recursive method org.apache.kafka.common.protocol.MessageUtil.toVersionPrefixedByteBuffer@POLYN183159 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ]
 , 

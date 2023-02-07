@@ -47,8 +47,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00099"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#99"
- , "c1" : "LinkedHashMap<TopicPartition,FetchResponseData.PartitionData>"
- , "c2" : "responseData(Map<Uuid,String>;short)"
+ , "c1" : "LinkedHashMap&lt;TopicPartition,FetchResponseData.PartitionData&gt;"
+ , "c2" : "responseData(Map&lt;Uuid,String&gt;;short)"
  , "c3" : "6"
  , "c4" : "8"
 }} 
@@ -74,7 +74,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00136"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#136"
- , "c1" : "Map<Errors,Integer>"
+ , "c1" : "Map&lt;Errors,Integer&gt;"
  , "c2" : "errorCounts()"
  , "c3" : "1"
  , "c4" : "4"
@@ -92,7 +92,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00152"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#152"
- , "c1" : "Set<Uuid>"
+ , "c1" : "Set&lt;Uuid&gt;"
  , "c2" : "topicIds()"
  , "c3" : "1"
  , "c4" : "1"
@@ -102,7 +102,7 @@ var maDataBlocs = {
  , "c5" : "00163"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#163"
  , "c1" : "int"
- , "c2" : "sizeOf(short;Iterator<Map.Entry<TopicIdPartition,FetchResponseData.PartitionData>>)"
+ , "c2" : "sizeOf(short;Iterator&lt;Map.Entry&lt;TopicIdPartition,FetchResponseData.PartitionData&gt;&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -119,7 +119,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00178"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#178"
- , "c1" : "Optional<FetchResponseData.EpochEndOffset>"
+ , "c1" : "Optional&lt;FetchResponseData.EpochEndOffset&gt;"
  , "c2" : "divergingEpoch(FetchResponseData.PartitionData)"
  , "c3" : "1"
  , "c4" : "1"
@@ -137,7 +137,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00187"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#187"
- , "c1" : "Optional<Integer>"
+ , "c1" : "Optional&lt;Integer&gt;"
  , "c2" : "preferredReadReplica(FetchResponseData.PartitionData)"
  , "c3" : "1"
  , "c4" : "1"
@@ -192,7 +192,7 @@ var maDataBlocs = {
  , "c5" : "00232"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#232"
  , "c1" : "FetchResponse"
- , "c2" : "of(Errors;int;int;LinkedHashMap<TopicIdPartition,FetchResponseData.PartitionData>)"
+ , "c2" : "of(Errors;int;int;LinkedHashMap&lt;TopicIdPartition,FetchResponseData.PartitionData&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -210,7 +210,7 @@ var maDataBlocs = {
  , "c5" : "00249"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#249"
  , "c1" : "FetchResponseData"
- , "c2" : "toMessage(Errors;int;int;Iterator<Map.Entry<TopicIdPartition,FetchResponseData.PartitionData>>)"
+ , "c2" : "toMessage(Errors;int;int;Iterator&lt;Map.Entry&lt;TopicIdPartition,FetchResponseData.PartitionData&gt;&gt;)"
  , "c3" : "4"
  , "c4" : "10"
 }} 
@@ -238,82 +238,6 @@ var maDataBlocs = {
 ]
 , 
 "data08" : [
-]
-, 
-"data09a" : [
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File675Seq1.html#seq1"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=675&numSeq=1"
- , "c2" : "1"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.HashMap.getValue@POLYN607725.return" , "java.util.concurrent.ConcurrentHashMap.add@POLYN1669444.e"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-]
-,
-"data09b" : [
-{ "sequence" : { 
- "seq" : "1" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00256]"
- , "c3" : ["java.util.HashMap.getValue@POLYN607725.return" , "---java.util.HashMap.getValue@POLYN607725" , "org.apache.kafka.common.requests.FetchResponse.toMessage@POLYN204907.partitionData"]
- , "c4" : "//QC-JAVCWE099[00256] In org.apache.kafka.common.requests.FetchResponse.toMessage@POLYN204907[00256] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00267]"
- , "c3" : ["org.apache.kafka.common.requests.FetchResponse.toMessage@POLYN204907.partitionData" , "---java.util.concurrent.ConcurrentHashMap.add@POLYN1669444" , "java.util.concurrent.ConcurrentHashMap.add@POLYN1669444.e"]
- , "c4" : "//QC-JAVCWE099[00267] In org.apache.kafka.common.requests.FetchResponse.toMessage@POLYN204907[00267] source or target data PATHtainted (java.util.concurrent.ConcurrentHashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-]
-, 
-"data10" : [
 ]
 , 
 "data11" : [

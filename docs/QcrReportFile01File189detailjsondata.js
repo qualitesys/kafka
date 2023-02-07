@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00048"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#48"
  , "c1" : "OffsetAndMetadata"
- , "c2" : "OffsetAndMetadata(long;Optional<Integer>;String)"
+ , "c2" : "OffsetAndMetadata(long;Optional&lt;Integer&gt;;String)"
  , "c3" : "4"
  , "c4" : "5"
 }} 
@@ -65,7 +65,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00096"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetAndMetadata.java.html#96"
- , "c1" : "Optional<Integer>"
+ , "c1" : "Optional&lt;Integer&gt;"
  , "c2" : "leaderEpoch()"
  , "c3" : "2"
  , "c4" : "2"

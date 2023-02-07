@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00067"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#67"
  , "c1" : "BatchBuilder"
- , "c2" : "BatchBuilder(ByteBuffer;RecordSerde<T>;CompressionType;long;long;boolean;int;int)"
+ , "c2" : "BatchBuilder(ByteBuffer;RecordSerde&lt;T&gt;;CompressionType;long;long;boolean;int;int)"
  , "c3" : "1"
  , "c4" : "15"
 }} 
@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00138"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#138"
  , "c1" : "OptionalInt"
- , "c2" : "bytesNeeded(Collection<T>;ObjectSerializationCache)"
+ , "c2" : "bytesNeeded(Collection&lt;T&gt;;ObjectSerializationCache)"
  , "c3" : "6"
  , "c4" : "9"
 }} 
@@ -110,7 +110,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00232"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#232"
- , "c1" : "List<T>"
+ , "c1" : "List&lt;T&gt;"
  , "c2" : "records()"
  , "c3" : "1"
  , "c4" : "1"
@@ -156,7 +156,7 @@ var maDataBlocs = {
  , "c5" : "00321"
  , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#321"
  , "c1" : "int"
- , "c2" : "bytesNeededForRecords(Collection<T>;ObjectSerializationCache)"
+ , "c2" : "bytesNeededForRecords(Collection&lt;T&gt;;ObjectSerializationCache)"
  , "c3" : "3"
  , "c4" : "8"
 }} 

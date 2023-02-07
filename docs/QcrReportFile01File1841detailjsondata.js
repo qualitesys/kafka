@@ -1,90 +1,45 @@
 console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
-   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.xml" 
+   "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.html" 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java 0 rule violation " 
+ , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.xml" 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
  , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.processor.StateStore"
+ , "c2" : "org.apache.kafka.streams.processor.StateRestoreListener"
 }} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.processor.StateStore" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.processor.StateRestoreListener" , "link" : "" , "methodes" : [ 
 { "ligne" : { "" : ""
- , "c5" : "00055"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html#55"
- , "c1" : "String"
- , "c2" : "name()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00080"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html#80"
+ , "c5" : "00052"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.html#52"
  , "c1" : "void"
- , "c2" : "init(org.apache.kafka.streams.processor.ProcessorContext;StateStore)"
+ , "c2" : "onRestoreStart(TopicPartition;String;long;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00098"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html#98"
+ , "c5" : "00072"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.html#72"
  , "c1" : "void"
- , "c2" : "init(StateStoreContext;StateStore)"
+ , "c2" : "onBatchRestored(TopicPartition;String;long;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
 ,
 { "ligne" : { "" : ""
- , "c5" : "00105"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html#105"
+ , "c5" : "00084"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.html#84"
  , "c1" : "void"
- , "c2" : "flush()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00115"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html#115"
- , "c1" : "void"
- , "c2" : "close()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00122"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html#122"
- , "c1" : "boolean"
- , "c2" : "persistent()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00128"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html#128"
- , "c1" : "boolean"
- , "c2" : "isOpen()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00163"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.html#163"
- , "c1" : "Position"
- , "c2" : "getPosition()"
+ , "c2" : "onRestoreEnd(TopicPartition;String;long)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -93,9 +48,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.png" 
+   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.png" 
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.svg" }
+ , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.svg" }
 
 ] 
 , 
@@ -121,7 +76,7 @@ var maDataBlocs = {
 ]
 , 
 "data15" : {
-   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/StateStore.java.fct.svg" 
+   "fichierplantumlsvg" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.fct.svg" 
 
 , 
 }

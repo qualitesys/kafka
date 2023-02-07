@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00177"
  , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#177"
  , "c1" : "R"
- , "c2" : "newRecord(R;Schema;Object;Iterable<Header>)"
+ , "c2" : "newRecord(R;Schema;Object;Iterable&lt;Header&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -102,7 +102,7 @@ var maDataBlocs = {
  , "c5" : "00228"
  , "c5link" : "././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#228"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "2"
  , "c4" : "5"
 }} 

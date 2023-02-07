@@ -29,8 +29,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00069"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#69"
- , "c1" : "ControllerResult<Map<ClientQuotaEntity,ApiError>>"
- , "c2" : "alterClientQuotas(Collection<ClientQuotaAlteration>)"
+ , "c1" : "ControllerResult&lt;Map&lt;ClientQuotaEntity,ApiError&gt;&gt;"
+ , "c2" : "alterClientQuotas(Collection&lt;ClientQuotaAlteration&gt;)"
  , "c3" : "5"
  , "c4" : "10"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00121"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#121"
  , "c1" : "void"
- , "c2" : "alterClientQuotaEntity(ClientQuotaEntity;Map<String,Double>;List<ApiMessageAndVersion>;Map<ClientQuotaEntity,ApiError>)"
+ , "c2" : "alterClientQuotaEntity(ClientQuotaEntity;Map&lt;String,Double&gt;;List&lt;ApiMessageAndVersion&gt;;Map&lt;ClientQuotaEntity,ApiError&gt;)"
  , "c3" : "10"
  , "c4" : "21"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00188"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#188"
  , "c1" : "ApiError"
- , "c2" : "configKeysForEntityType(Map<String,String>;Map<String,ConfigDef.ConfigKey>)"
+ , "c2" : "configKeysForEntityType(Map&lt;String,String&gt;;Map&lt;String,ConfigDef.ConfigKey&gt;)"
  , "c3" : "13"
  , "c4" : "13"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00221"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#221"
  , "c1" : "ApiError"
- , "c2" : "validateQuotaKeyValue(Map<String,ConfigDef.ConfigKey>;String;Double)"
+ , "c2" : "validateQuotaKeyValue(Map&lt;String,ConfigDef.ConfigKey&gt;;String;Double)"
  , "c3" : "7"
  , "c4" : "9"
 }} 
@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00264"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#264"
  , "c1" : "ApiError"
- , "c2" : "validateEntity(ClientQuotaEntity;Map<String,String>)"
+ , "c2" : "validateEntity(ClientQuotaEntity;Map&lt;String,String&gt;)"
  , "c3" : "11"
  , "c4" : "10"
 }} 
@@ -121,82 +121,6 @@ var maDataBlocs = {
 ]
 , 
 "data08" : [
-]
-, 
-"data09a" : [
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1303Seq1.html#seq1"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1303&numSeq=1"
- , "c2" : "1"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.util.Map.getValue@POLYN435492.return" , "java.util.HashMap.put@POLYN621976.value"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-]
-,
-"data09b" : [
-{ "sequence" : { 
- "seq" : "1" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00272]"
- , "c3" : ["java.util.Map.getValue@POLYN435492.return" , "---java.util.Map.getValue@POLYN435492" , "org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN209587.entityName"]
- , "c4" : "//QC-JAVCWE099[00272] In org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN209587[00272] source or target data PATHtainted (java.util.Map) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00277]"
- , "c3" : ["org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN209587.entityName" , "---java.util.HashMap.put@POLYN621976" , "java.util.HashMap.put@POLYN621976.value"]
- , "c4" : "//QC-JAVCWE099[00277] In org.apache.kafka.controller.ClientQuotaControlManager.validateEntity@POLYN209587[00277] source or target data PATHtainted (java.util.HashMap) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
-}}
-]
-}}
-]
-, 
-"data10" : [
 ]
 , 
 "data11" : [

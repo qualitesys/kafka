@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00036"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.html#36"
  , "c1" : "SaslAuthenticationContext"
- , "c2" : "SaslAuthenticationContext(SaslServer;SecurityProtocol;InetAddress;String;Optional<SSLSession>)"
+ , "c2" : "SaslAuthenticationContext(SaslServer;SecurityProtocol;InetAddress;String;Optional&lt;SSLSession&gt;)"
  , "c3" : "1"
  , "c4" : "5"
 }} 
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00056"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslAuthenticationContext.java.html#56"
- , "c1" : "Optional<SSLSession>"
+ , "c1" : "Optional&lt;SSLSession&gt;"
  , "c2" : "sslSession()"
  , "c3" : "1"
  , "c4" : "1"

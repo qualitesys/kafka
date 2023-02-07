@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00038"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#38"
  , "c1" : "RawTaggedFieldWriter"
- , "c2" : "forFields(List<RawTaggedField>)"
+ , "c2" : "forFields(List&lt;RawTaggedField&gt;)"
  , "c3" : "2"
  , "c4" : "2"
 }} 
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00045"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#45"
  , "c1" : "RawTaggedFieldWriter"
- , "c2" : "RawTaggedFieldWriter(List<RawTaggedField>)"
+ , "c2" : "RawTaggedFieldWriter(List&lt;RawTaggedField&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 

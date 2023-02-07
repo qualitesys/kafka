@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00047"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/image/ProducerIdsImage.java.html#47"
  , "c1" : "void"
- , "c2" : "write(Consumer<List<ApiMessageAndVersion>>)"
+ , "c2" : "write(Consumer&lt;List&lt;ApiMessageAndVersion&gt;&gt;)"
  , "c3" : "2"
  , "c4" : "1"
 }} 

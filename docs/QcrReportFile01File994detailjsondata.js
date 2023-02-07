@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00056"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#56"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "9"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00071"
  , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#71"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>;boolean)"
+ , "c2" : "configure(Map&lt;String,?&gt;;boolean)"
  , "c3" : "1"
  , "c4" : "3"
 }} 

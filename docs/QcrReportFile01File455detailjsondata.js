@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00092"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#92"
  , "c1" : "void"
- , "c2" : "configure(Map<String,?>)"
+ , "c2" : "configure(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -47,7 +47,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00097"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#97"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "reconfigurableConfigs()"
  , "c3" : "1"
  , "c4" : "1"
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00102"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#102"
  , "c1" : "void"
- , "c2" : "validateReconfiguration(Map<String,?>)"
+ , "c2" : "validateReconfiguration(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00107"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#107"
  , "c1" : "void"
- , "c2" : "reconfigure(Map<String,?>)"
+ , "c2" : "reconfigure(Map&lt;String,?&gt;)"
  , "c3" : "3"
  , "c4" : "4"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00122"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#122"
  , "c1" : "void"
- , "c2" : "init(List<KafkaMetric>)"
+ , "c2" : "init(List&lt;KafkaMetric&gt;)"
  , "c3" : "3"
  , "c4" : "3"
 }} 
@@ -164,8 +164,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00310"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#310"
- , "c1" : "Predicate<String>"
- , "c2" : "compilePredicate(Map<String,?>)"
+ , "c1" : "Predicate&lt;String&gt;"
+ , "c2" : "compilePredicate(Map&lt;String,?&gt;)"
  , "c3" : "3"
  , "c4" : "9"
 }} 

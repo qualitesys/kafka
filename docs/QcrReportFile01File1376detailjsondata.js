@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00037"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/UsableBroker.java.html#37"
  , "c1" : "UsableBroker"
- , "c2" : "UsableBroker(int;Optional<String>;boolean)"
+ , "c2" : "UsableBroker(int;Optional&lt;String&gt;;boolean)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00047"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/metadata/placement/UsableBroker.java.html#47"
- , "c1" : "Optional<String>"
+ , "c1" : "Optional&lt;String&gt;"
  , "c2" : "rack()"
  , "c3" : "1"
  , "c4" : "1"

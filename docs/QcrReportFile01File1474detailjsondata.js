@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.Class.java.html" 
- , "texte" : "File secujava/java.lang.Class.java 561 rule violations " 
+ , "texte" : "File secujava/java.lang.Class.java 559 rule violations " 
  , "fic2"  : "./qc/secujava/java.lang.Class.java.xml" 
  , "fic3"  : "" 
 }
@@ -30,7 +30,7 @@ var maDataBlocs = {
  , "c5" : "00217"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#217"
  , "c1" : "Class"
- , "c2" : "Class(ClassLoader;Class<?>)"
+ , "c2" : "Class(ClassLoader;Class&lt;?&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -57,7 +57,7 @@ var maDataBlocs = {
  , "c5" : "00326"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#326"
  , "c1" : "String"
- , "c2" : "typeVarBounds(TypeVariable<?>)"
+ , "c2" : "typeVarBounds(TypeVariable&lt;?&gt;)"
  , "c3" : "3"
  , "c4" : "3"
 }} 
@@ -65,7 +65,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00379"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#379"
- , "c1" : "Class<?>"
+ , "c1" : "Class&lt;?&gt;"
  , "c2" : "forName(String)"
  , "c3" : "1"
  , "c4" : "2"
@@ -74,8 +74,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00387"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#387"
- , "c1" : "Class<?>"
- , "c2" : "forName(String;Class<?>)"
+ , "c1" : "Class&lt;?&gt;"
+ , "c2" : "forName(String;Class&lt;?&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -83,7 +83,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00463"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#463"
- , "c1" : "Class<?>"
+ , "c1" : "Class&lt;?&gt;"
  , "c2" : "forName(String;boolean;ClassLoader)"
  , "c3" : "2"
  , "c4" : "4"
@@ -92,8 +92,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00480"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#480"
- , "c1" : "Class<?>"
- , "c2" : "forName(String;boolean;ClassLoader;Class<?>)"
+ , "c1" : "Class&lt;?&gt;"
+ , "c2" : "forName(String;boolean;ClassLoader;Class&lt;?&gt;)"
  , "c3" : "4"
  , "c4" : "4"
 }} 
@@ -101,8 +101,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00500"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#500"
- , "c1" : "Class<?>"
- , "c2" : "forName0(String;boolean;ClassLoader;Class<?>)"
+ , "c1" : "Class&lt;?&gt;"
+ , "c2" : "forName0(String;boolean;ClassLoader;Class&lt;?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -110,7 +110,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00554"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#554"
- , "c1" : "Class<?>"
+ , "c1" : "Class&lt;?&gt;"
  , "c2" : "forName(Module;String)"
  , "c3" : "2"
  , "c4" : "4"
@@ -119,8 +119,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00566"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#566"
- , "c1" : "Class<?>"
- , "c2" : "forName(Module;String;Class<?>)"
+ , "c1" : "Class&lt;?&gt;"
+ , "c2" : "forName(Module;String;Class&lt;?&gt;)"
  , "c3" : "6"
  , "c4" : "10"
 }} 
@@ -147,7 +147,7 @@ var maDataBlocs = {
  , "c5" : "00755"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#755"
  , "c1" : "boolean"
- , "c2" : "isAssignableFrom(Class<?>)"
+ , "c2" : "isAssignableFrom(Class&lt;?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -254,7 +254,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01001"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#1001"
- , "c1" : "TypeVariable<Class<T>>[]"
+ , "c1" : "TypeVariable&lt;Class&lt;T&gt;&gt;[]"
  , "c2" : "getTypeParameters()"
  , "c3" : "3"
  , "c4" : "3"
@@ -263,7 +263,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01022"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#1022"
- , "c1" : "Class<?superT>"
+ , "c1" : "Class&lt;?superT&gt;"
  , "c2" : "getSuperclass()"
  , "c3" : "1"
  , "c4" : "1"
@@ -299,7 +299,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01178"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#1178"
- , "c1" : "Class<?>[]"
+ , "c1" : "Class&lt;?&gt;[]"
  , "c2" : "getInterfaces()"
  , "c3" : "1"
  , "c4" : "1"
@@ -308,7 +308,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01183"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#1183"
- , "c1" : "Class<?>[]"
+ , "c1" : "Class&lt;?&gt;[]"
  , "c2" : "getInterfaces(boolean)"
  , "c3" : "4"
  , "c4" : "6"
@@ -317,7 +317,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01199"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#1199"
- , "c1" : "Class<?>[]"
+ , "c1" : "Class&lt;?&gt;[]"
  , "c2" : "getInterfaces0()"
  , "c3" : "1"
  , "c4" : "1"
@@ -335,7 +335,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01265"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#1265"
- , "c1" : "Class<?>"
+ , "c1" : "Class&lt;?&gt;"
  , "c2" : "getComponentType()"
  , "c3" : "3"
  , "c4" : "2"
@@ -344,7 +344,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01281"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#1281"
- , "c1" : "Class<?>"
+ , "c1" : "Class&lt;?&gt;"
  , "c2" : "elementType()"
  , "c3" : "3"
  , "c4" : "4"
@@ -362,7 +362,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01355"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#1355"
- , "c1" : "Set<AccessFlag>"
+ , "c1" : "Set&lt;AccessFlag&gt;"
  , "c2" : "accessFlags()"
  , "c3" : "1"
  , "c4" : "2"
@@ -416,7 +416,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01539"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#1539"
- , "c1" : "Class<?>"
+ , "c1" : "Class&lt;?&gt;"
  , "c2" : "toClass(Type)"
  , "c3" : "2"
  , "c4" : "2"
@@ -425,7 +425,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01582"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#1582"
- , "c1" : "Constructor<?>"
+ , "c1" : "Constructor&lt;?&gt;"
  , "c2" : "getEnclosingConstructor()"
  , "c3" : "8"
  , "c4" : "16"
@@ -434,7 +434,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01648"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#1648"
- , "c1" : "Class<?>"
+ , "c1" : "Class&lt;?&gt;"
  , "c2" : "getDeclaringClass()"
  , "c3" : "3"
  , "c4" : "4"
@@ -443,7 +443,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01662"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#1662"
- , "c1" : "Class<?>"
+ , "c1" : "Class&lt;?&gt;"
  , "c2" : "getDeclaringClass0()"
  , "c3" : "1"
  , "c4" : "1"
@@ -452,7 +452,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01679"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#1679"
- , "c1" : "Class<?>"
+ , "c1" : "Class&lt;?&gt;"
  , "c2" : "getEnclosingClass()"
  , "c3" : "7"
  , "c4" : "9"
@@ -578,7 +578,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "01946"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#1946"
- , "c1" : "Class<?>[]"
+ , "c1" : "Class&lt;?&gt;[]"
  , "c2" : "getClasses()"
  , "c3" : "5"
  , "c4" : "8"
@@ -605,7 +605,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02148"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#2148"
- , "c1" : "Constructor<?>[]"
+ , "c1" : "Constructor&lt;?&gt;[]"
  , "c2" : "getConstructors()"
  , "c3" : "2"
  , "c4" : "3"
@@ -624,7 +624,7 @@ var maDataBlocs = {
  , "c5" : "02311"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#2311"
  , "c1" : "Method"
- , "c2" : "getMethod(String;Class<?>...)"
+ , "c2" : "getMethod(String;Class&lt;?&gt;...)"
  , "c3" : "3"
  , "c4" : "6"
 }} 
@@ -632,8 +632,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02359"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#2359"
- , "c1" : "Constructor<T>"
- , "c2" : "getConstructor(Class<?>...)"
+ , "c1" : "Constructor&lt;T&gt;"
+ , "c2" : "getConstructor(Class&lt;?&gt;...)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -641,7 +641,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02409"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#2409"
- , "c1" : "Class<?>[]"
+ , "c1" : "Class&lt;?&gt;[]"
  , "c2" : "getDeclaredClasses()"
  , "c3" : "2"
  , "c4" : "3"
@@ -677,7 +677,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02646"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#2646"
- , "c1" : "Constructor<?>[]"
+ , "c1" : "Constructor&lt;?&gt;[]"
  , "c2" : "getDeclaredConstructors()"
  , "c3" : "2"
  , "c4" : "3"
@@ -696,7 +696,7 @@ var maDataBlocs = {
  , "c5" : "02762"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#2762"
  , "c1" : "Method"
- , "c2" : "getDeclaredMethod(String;Class<?>...)"
+ , "c2" : "getDeclaredMethod(String;Class&lt;?&gt;...)"
  , "c3" : "3"
  , "c4" : "6"
 }} 
@@ -704,8 +704,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02787"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#2787"
- , "c1" : "List<Method>"
- , "c2" : "getDeclaredPublicMethods(String;Class<?>...)"
+ , "c1" : "List&lt;Method&gt;"
+ , "c2" : "getDeclaredPublicMethods(String;Class&lt;?&gt;...)"
  , "c3" : "3"
  , "c4" : "5"
 }} 
@@ -713,8 +713,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "02844"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#2844"
- , "c1" : "Constructor<T>"
- , "c2" : "getDeclaredConstructor(Class<?>...)"
+ , "c1" : "Constructor&lt;T&gt;"
+ , "c2" : "getDeclaredConstructor(Class&lt;?&gt;...)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -741,7 +741,7 @@ var maDataBlocs = {
  , "c5" : "03049"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#3049"
  , "c1" : "boolean"
- , "c2" : "isOpenToCaller(String;Class<?>)"
+ , "c2" : "isOpenToCaller(String;Class&lt;?&gt;)"
  , "c3" : "5"
  , "c4" : "6"
 }} 
@@ -776,7 +776,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "03127"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#3127"
- , "c1" : "Class<?>"
+ , "c1" : "Class&lt;?&gt;"
  , "c2" : "getPrimitiveClass(String)"
  , "c3" : "1"
  , "c4" : "1"
@@ -786,7 +786,7 @@ var maDataBlocs = {
  , "c5" : "03140"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#3140"
  , "c1" : "void"
- , "c2" : "checkMemberAccess(SecurityManager;int;Class<?>;boolean)"
+ , "c2" : "checkMemberAccess(SecurityManager;int;Class&lt;?&gt;;boolean)"
  , "c3" : "3"
  , "c4" : "4"
 }} 
@@ -804,7 +804,7 @@ var maDataBlocs = {
  , "c5" : "03193"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#3193"
  , "c1" : "void"
- , "c2" : "checkPackageAccessForPermittedSubclasses(SecurityManager;ClassLoader;Class<?>[])"
+ , "c2" : "checkPackageAccessForPermittedSubclasses(SecurityManager;ClassLoader;Class&lt;?&gt;[])"
  , "c3" : "6"
  , "c4" : "6"
 }} 
@@ -821,7 +821,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "03309"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#3309"
- , "c1" : "ReflectionData<T>"
+ , "c1" : "ReflectionData&lt;T&gt;"
  , "c2" : "reflectionData()"
  , "c3" : "2"
  , "c4" : "5"
@@ -830,8 +830,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "03323"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#3323"
- , "c1" : "ReflectionData<T>"
- , "c2" : "newReflectionData(SoftReference<ReflectionData<T>>;int)"
+ , "c1" : "ReflectionData&lt;T&gt;"
+ , "c2" : "newReflectionData(SoftReference&lt;ReflectionData&lt;T&gt;&gt;;int)"
  , "c3" : "4"
  , "c4" : "5"
 }} 
@@ -921,7 +921,7 @@ var maDataBlocs = {
  , "c5" : "03444"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#3444"
  , "c1" : "void"
- , "c2" : "addAll(Collection<Field>;Field[])"
+ , "c2" : "addAll(Collection&lt;Field&gt;;Field[])"
  , "c3" : "2"
  , "c4" : "1"
 }} 
@@ -929,7 +929,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "03460"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#3460"
- , "c1" : "Constructor<T>[]"
+ , "c1" : "Constructor&lt;T&gt;[]"
  , "c2" : "privateGetDeclaredConstructors(boolean)"
  , "c3" : "8"
  , "c4" : "10"
@@ -975,7 +975,7 @@ var maDataBlocs = {
  , "c5" : "03605"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#3605"
  , "c1" : "Method"
- , "c2" : "searchMethods(Method[];String;Class<?>[])"
+ , "c2" : "searchMethods(Method[];String;Class&lt;?&gt;[])"
  , "c3" : "3"
  , "c4" : "4"
 }} 
@@ -984,7 +984,7 @@ var maDataBlocs = {
  , "c5" : "03628"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#3628"
  , "c1" : "Method"
- , "c2" : "getMethod0(String;Class<?>[])"
+ , "c2" : "getMethod0(String;Class&lt;?&gt;[])"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -993,7 +993,7 @@ var maDataBlocs = {
  , "c5" : "03639"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#3639"
  , "c1" : "PublicMethods.MethodList"
- , "c2" : "getMethodsRecursive(String;Class<?>[];boolean)"
+ , "c2" : "getMethodsRecursive(String;Class&lt;?&gt;[];boolean)"
  , "c3" : "4"
  , "c4" : "7"
 }} 
@@ -1001,8 +1001,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "03674"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#3674"
- , "c1" : "Constructor<T>"
- , "c2" : "getConstructor0(Class<?>[];int)"
+ , "c1" : "Constructor&lt;T&gt;"
+ , "c2" : "getConstructor0(Class&lt;?&gt;[];int)"
  , "c3" : "3"
  , "c4" : "4"
 }} 
@@ -1055,7 +1055,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "03743"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#3743"
- , "c1" : "Constructor<T>[]"
+ , "c1" : "Constructor&lt;T&gt;[]"
  , "c2" : "getDeclaredConstructors0(boolean)"
  , "c3" : "1"
  , "c4" : "1"
@@ -1064,7 +1064,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "03744"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#3744"
- , "c1" : "Class<?>[]"
+ , "c1" : "Class&lt;?&gt;[]"
  , "c2" : "getDeclaredClasses0()"
  , "c3" : "1"
  , "c4" : "1"
@@ -1092,7 +1092,7 @@ var maDataBlocs = {
  , "c5" : "03759"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#3759"
  , "c1" : "String"
- , "c2" : "methodToString(String;Class<?>[])"
+ , "c2" : "methodToString(String;Class&lt;?&gt;[])"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1110,7 +1110,7 @@ var maDataBlocs = {
  , "c5" : "03836"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#3836"
  , "c1" : "boolean"
- , "c2" : "desiredAssertionStatus0(Class<?>)"
+ , "c2" : "desiredAssertionStatus0(Class&lt;?&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1163,7 +1163,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "03958"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#3958"
- , "c1" : "Map<String,T>"
+ , "c1" : "Map&lt;String,T&gt;"
  , "c2" : "enumConstantDirectory()"
  , "c3" : "4"
  , "c4" : "7"
@@ -1191,7 +1191,7 @@ var maDataBlocs = {
  , "c5" : "04051"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#4051"
  , "c1" : "boolean"
- , "c2" : "isAnnotationPresent(Class<?extendsAnnotation>)"
+ , "c2" : "isAnnotationPresent(Class&lt;?extendsAnnotation&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -1253,7 +1253,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "04213"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#4213"
- , "c1" : "Map<Class<?extendsAnnotation>,Annotation>"
+ , "c1" : "Map&lt;Class&lt;?extendsAnnotation&gt;,Annotation&gt;"
  , "c2" : "getDeclaredAnnotationMap()"
  , "c3" : "1"
  , "c4" : "1"
@@ -1280,7 +1280,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "04288"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#4288"
- , "c1" : "Class<?>"
+ , "c1" : "Class&lt;?&gt;"
  , "c2" : "getNestHost0()"
  , "c3" : "1"
  , "c4" : "1"
@@ -1289,7 +1289,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "04325"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#4325"
- , "c1" : "Class<?>"
+ , "c1" : "Class&lt;?&gt;"
  , "c2" : "getNestHost()"
  , "c3" : "4"
  , "c4" : "6"
@@ -1299,7 +1299,7 @@ var maDataBlocs = {
  , "c5" : "04356"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#4356"
  , "c1" : "boolean"
- , "c2" : "isNestmateOf(Class<?>)"
+ , "c2" : "isNestmateOf(Class&lt;?&gt;)"
  , "c3" : "3"
  , "c4" : "3"
 }} 
@@ -1307,7 +1307,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "04368"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#4368"
- , "c1" : "Class<?>[]"
+ , "c1" : "Class&lt;?&gt;[]"
  , "c2" : "getNestMembers0()"
  , "c3" : "1"
  , "c4" : "1"
@@ -1316,7 +1316,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "04417"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#4417"
- , "c1" : "Class<?>[]"
+ , "c1" : "Class&lt;?&gt;[]"
  , "c2" : "getNestMembers()"
  , "c3" : "4"
  , "c4" : "5"
@@ -1334,7 +1334,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "04532"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#4532"
- , "c1" : "Class<?>"
+ , "c1" : "Class&lt;?&gt;"
  , "c2" : "componentType()"
  , "c3" : "1"
  , "c4" : "1"
@@ -1343,7 +1343,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "04549"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#4549"
- , "c1" : "Class<?>"
+ , "c1" : "Class&lt;?&gt;"
  , "c2" : "arrayType()"
  , "c3" : "1"
  , "c4" : "2"
@@ -1352,7 +1352,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "04566"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#4566"
- , "c1" : "Optional<ClassDesc>"
+ , "c1" : "Optional&lt;ClassDesc&gt;"
  , "c2" : "describeConstable()"
  , "c3" : "1"
  , "c4" : "2"
@@ -1370,7 +1370,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "04620"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#4620"
- , "c1" : "Class<?>[]"
+ , "c1" : "Class&lt;?&gt;[]"
  , "c2" : "getPermittedSubclasses()"
  , "c3" : "6"
  , "c4" : "6"
@@ -1380,7 +1380,7 @@ var maDataBlocs = {
  , "c5" : "04645"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#4645"
  , "c1" : "boolean"
- , "c2" : "isDirectSubType(Class<?>)"
+ , "c2" : "isDirectSubType(Class&lt;?&gt;)"
  , "c3" : "5"
  , "c4" : "3"
 }} 
@@ -1397,7 +1397,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "04680"
  , "c5link" : "././qc/secujava/java.lang.Class.java.html#4680"
- , "c1" : "Class<?>[]"
+ , "c1" : "Class&lt;?&gt;[]"
  , "c2" : "getPermittedSubclasses0()"
  , "c3" : "1"
  , "c4" : "1"
@@ -1464,6 +1464,82 @@ var maDataBlocs = {
 "data08" : [
 ]
 , 
+"data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1474Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1474&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.util.HashMap.getKey@POLYN607634.return" , "java.lang.Class.createAnnotationData@POLYN1208306.cibledummy_04186"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+]
+,
+"data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[04177]"
+ , "c3" : ["java.util.HashMap.getKey@POLYN607634.return" , "---java.util.HashMap.getKey@POLYN607634" , "java.lang.Class.createAnnotationData@POLYN1208306.annotationClass"]
+ , "c4" : "//QC-JAVCWZ099[04177] In java.lang.Class.createAnnotationData@POLYN1208306[04177] source data PATHtainted (java.util.HashMap.get) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[04186]"
+ , "c3" : ["java.lang.Class.createAnnotationData@POLYN1208306.annotationClass" , "---java.util.Map.put@POLYN429794" , "java.lang.Class.createAnnotationData@POLYN1208306.cibledummy_04186"]
+ , "c4" : "//QC-JAVCWZ099[04186] In java.lang.Class.createAnnotationData@POLYN1208306[04186] target data PATHtainted (java.util.Map.put) RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c3" : ""
+ , "c4" : "Security risk level : CRITICAL"
+}}
+]
+}}
+]
+, 
+"data10" : [
+]
+, 
 "data11" : [
 ]
 , 
@@ -1491,7 +1567,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "30"
+ , "c4" : "29"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1505,7 +1581,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "6"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -5210,7 +5286,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Class.checkPackageAccess@POLYN1169707"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Class.getResourceAsStream@POLYN1160577"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5218,13 +5294,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Class.getMethodsRecursive@POLYN1188217"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Class.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Class.getResourceAsStream@POLYN1160577"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5333,48 +5402,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "03179"
- , "c1link" : "./qc/secujava/java.lang.Class.java.html#3179"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03179] In the recursive method java.lang.Class.checkPackageAccess@POLYN1169707 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03643"
- , "c1link" : "./qc/secujava/java.lang.Class.java.html#3643"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03643] In the recursive method java.lang.Class.getMethodsRecursive@POLYN1188217 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03649"
- , "c1link" : "./qc/secujava/java.lang.Class.java.html#3649"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03649] In the recursive method java.lang.Class.getMethodsRecursive@POLYN1188217 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03656"
- , "c1link" : "./qc/secujava/java.lang.Class.java.html#3656"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03656] In the recursive method java.lang.Class.getMethodsRecursive@POLYN1188217 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03662"
- , "c1link" : "./qc/secujava/java.lang.Class.java.html#3662"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03662] In the recursive method java.lang.Class.getMethodsRecursive@POLYN1188217 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03665"
- , "c1link" : "./qc/secujava/java.lang.Class.java.html#3665"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03665] In the recursive method java.lang.Class.getMethodsRecursive@POLYN1188217 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "02921"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#2921"
  , "c2" : "BLOCKER"
@@ -5414,6 +5441,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#2947"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[02947] In the recursive method java.lang.Class.getResourceAsStream@POLYN1160577 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03643"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3643"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03643] In the recursive method java.lang.Class.getMethodsRecursive@POLYN1188217 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03649"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3649"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03649] In the recursive method java.lang.Class.getMethodsRecursive@POLYN1188217 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03656"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3656"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03656] In the recursive method java.lang.Class.getMethodsRecursive@POLYN1188217 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03662"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3662"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03662] In the recursive method java.lang.Class.getMethodsRecursive@POLYN1188217 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03665"
+ , "c1link" : "./qc/secujava/java.lang.Class.java.html#3665"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03665] In the recursive method java.lang.Class.getMethodsRecursive@POLYN1188217 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

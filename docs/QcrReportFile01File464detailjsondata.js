@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00039"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricsReporter.java.html#39"
  , "c1" : "void"
- , "c2" : "init(List<KafkaMetric>)"
+ , "c2" : "init(List&lt;KafkaMetric&gt;)"
  , "c3" : "1"
  , "c4" : "1"
 }} 
@@ -56,7 +56,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00059"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricsReporter.java.html#59"
- , "c1" : "Set<String>"
+ , "c1" : "Set&lt;String&gt;"
  , "c2" : "reconfigurableConfigs()"
  , "c3" : "1"
  , "c4" : "1"
@@ -66,7 +66,7 @@ var maDataBlocs = {
  , "c5" : "00063"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricsReporter.java.html#63"
  , "c1" : "void"
- , "c2" : "validateReconfiguration(Map<String,?>)"
+ , "c2" : "validateReconfiguration(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "0"
 }} 
@@ -75,7 +75,7 @@ var maDataBlocs = {
  , "c5" : "00066"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricsReporter.java.html#66"
  , "c1" : "void"
- , "c2" : "reconfigure(Map<String,?>)"
+ , "c2" : "reconfigure(Map&lt;String,?&gt;)"
  , "c3" : "1"
  , "c4" : "0"
 }} 

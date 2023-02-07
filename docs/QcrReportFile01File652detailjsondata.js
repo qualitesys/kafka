@@ -39,7 +39,7 @@ var maDataBlocs = {
  , "c5" : "00070"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeGroupsResponse.java.html#70"
  , "c1" : "DescribedGroup"
- , "c2" : "groupMetadata(String;Errors;String;String;String;List<DescribedGroupMember>;Set<Byte>)"
+ , "c2" : "groupMetadata(String;Errors;String;String;String;List&lt;DescribedGroupMember&gt;;Set&lt;Byte&gt;)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -48,7 +48,7 @@ var maDataBlocs = {
  , "c5" : "00089"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeGroupsResponse.java.html#89"
  , "c1" : "DescribedGroup"
- , "c2" : "groupMetadata(String;Errors;String;String;String;List<DescribedGroupMember>;int)"
+ , "c2" : "groupMetadata(String;Errors;String;String;String;List&lt;DescribedGroupMember&gt;;int)"
  , "c3" : "1"
  , "c4" : "3"
 }} 
@@ -74,7 +74,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00123"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeGroupsResponse.java.html#123"
- , "c1" : "Map<Errors,Integer>"
+ , "c1" : "Map&lt;Errors,Integer&gt;"
  , "c2" : "errorCounts()"
  , "c3" : "1"
  , "c4" : "3"
@@ -93,7 +93,7 @@ var maDataBlocs = {
  , "c5" : "00135"
  , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeGroupsResponse.java.html#135"
  , "c1" : "DescribeGroupsResponse"
- , "c2" : "fromError(int;Errors;List<String>)"
+ , "c2" : "fromError(int;Errors;List&lt;String&gt;)"
  , "c3" : "2"
  , "c4" : "4"
 }} 

@@ -21,7 +21,7 @@ var maDataBlocs = {
  , "c5" : "00059"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#59"
  , "c1" : "BootstrapMetadata"
- , "c2" : "BootstrapMetadata(MetadataVersion;List<ApiMessageAndVersion>)"
+ , "c2" : "BootstrapMetadata(MetadataVersion;List&lt;ApiMessageAndVersion&gt;)"
  , "c3" : "1"
  , "c4" : "2"
 }} 
@@ -38,7 +38,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c5" : "00068"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#68"
- , "c1" : "List<ApiMessageAndVersion>"
+ , "c1" : "List&lt;ApiMessageAndVersion&gt;"
  , "c2" : "records()"
  , "c3" : "1"
  , "c4" : "1"
@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c5" : "00130"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#130"
  , "c1" : "BootstrapMetadata"
- , "c2" : "create(MetadataVersion;List<ApiMessageAndVersion>)"
+ , "c2" : "create(MetadataVersion;List&lt;ApiMessageAndVersion&gt;)"
  , "c3" : "2"
  , "c4" : "3"
 }} 
@@ -93,7 +93,7 @@ var maDataBlocs = {
  , "c5" : "00153"
  , "c5link" : "././qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#153"
  , "c1" : "BootstrapMetadata"
- , "c2" : "load(Path;Supplier<MetadataVersion>)"
+ , "c2" : "load(Path;Supplier&lt;MetadataVersion&gt;)"
  , "c3" : "9"
  , "c4" : "17"
 }} 
