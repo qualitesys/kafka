@@ -431,7 +431,7 @@
 <leniv><indtoken>421</indtoken><nbappels>18</nbappels></leniv>
 </nbappelsparniv>
 <nbappelspartoken>
-<leniv><noligne>0</noligne><profmin>0</profmin><proffinale>0</proffinale><profmax>0</profmax><indtoken>0</indtoken><temps>-1.676072511086E9</temps><nbappels>0</nbappels><token>TokenDeDebut</token></leniv>
+<leniv><noligne>0</noligne><profmin>0</profmin><proffinale>0</proffinale><profmax>0</profmax><indtoken>0</indtoken><temps>-1.676158782003E9</temps><nbappels>0</nbappels><token>TokenDeDebut</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>1</indtoken><temps>0.002</temps><nbappels>15</nbappels><token>/*</token></leniv>
 <leniv><noligne>2</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>2</indtoken><temps>0.002</temps><nbappels>20</nbappels><token>`</token></leniv>
 <leniv><noligne>2</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>3</indtoken><temps>0.002</temps><nbappels>28</nbappels><token>*</token></leniv>
@@ -534,7 +534,7 @@
 <leniv><noligne>9</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>100</indtoken><temps>0.002</temps><nbappels>15</nbappels><token>/</token></leniv>
 <leniv><noligne>9</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>101</indtoken><temps>0.002</temps><nbappels>28</nbappels><token>licenses</token></leniv>
 <leniv><noligne>9</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>102</indtoken><temps>0.002</temps><nbappels>15</nbappels><token>/</token></leniv>
-<leniv><noligne>9</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>103</indtoken><temps>0.002</temps><nbappels>28</nbappels><token>LICENSE</token></leniv>
+<leniv><noligne>9</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>103</indtoken><temps>0.003</temps><nbappels>28</nbappels><token>LICENSE</token></leniv>
 <leniv><noligne>9</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>104</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>-</token></leniv>
 <leniv><noligne>9</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>105</indtoken><temps>0.003</temps><nbappels>29</nbappels><token>2.0</token></leniv>
 <leniv><noligne>10</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>106</indtoken><temps>0.003</temps><nbappels>21</nbappels><token>`</token></leniv>
@@ -832,7 +832,7 @@
 <leniv><noligne>58</noligne><profmin>0</profmin><proffinale>87</proffinale><profmax>94</profmax><indtoken>398</indtoken><temps>0.006</temps><nbappels>165</nbappels><token>return</token></leniv>
 <leniv><noligne>58</noligne><profmin>0</profmin><proffinale>118</proffinale><profmax>130</profmax><indtoken>399</indtoken><temps>0.006</temps><nbappels>325</nbappels><token>version</token></leniv>
 <leniv><noligne>58</noligne><profmin>0</profmin><proffinale>105</proffinale><profmax>130</profmax><indtoken>400</indtoken><temps>0.006</temps><nbappels>197</nbappels><token>_=</token></leniv>
-<leniv><noligne>58</noligne><profmin>0</profmin><proffinale>125</proffinale><profmax>125</profmax><indtoken>401</indtoken><temps>0.007</temps><nbappels>66</nbappels><token>1</token></leniv>
+<leniv><noligne>58</noligne><profmin>0</profmin><proffinale>125</proffinale><profmax>125</profmax><indtoken>401</indtoken><temps>0.006</temps><nbappels>66</nbappels><token>1</token></leniv>
 <leniv><noligne>58</noligne><profmin>0</profmin><proffinale>87</proffinale><profmax>125</profmax><indtoken>402</indtoken><temps>0.007</temps><nbappels>57</nbappels><token>;</token></leniv>
 <leniv><noligne>59</noligne><profmin>0</profmin><proffinale>68</proffinale><profmax>129</profmax><indtoken>403</indtoken><temps>0.007</temps><nbappels>980</nbappels><token>}</token></leniv>
 <leniv><noligne>61</noligne><profmin>0</profmin><proffinale>53</proffinale><profmax>68</profmax><indtoken>404</indtoken><temps>0.007</temps><nbappels>50</nbappels><token>@</token></leniv>
