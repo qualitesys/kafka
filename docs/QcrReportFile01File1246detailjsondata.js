@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java 170 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java 169 rule violations " 
  , "fic2"  : "./qc/generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java.xml" 
  , "fic3"  : "" 
 }
@@ -201,28 +201,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1436,13 +1420,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java.html#406"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00406] For method write arguments BufferedWriter  writer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.ApiMessageTypeGenerator.write@POLYN223002"
 }} 
 ]
 , 
