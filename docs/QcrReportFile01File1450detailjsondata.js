@@ -151,7 +151,7 @@ var maDataBlocs = {
  , "sourcenoligne" : "[00082]"
  , "c3" : ["java.io.BufferedOutputStream.flushBuffer@POLYN160134.count" , "---java.io.BufferedOutputStream.write@POLYN161430" , "java.io.BufferedOutputStream.write@POLYN161430.len"]
  , "c4" : "//QC-JAVCWZ099[00082] In java.io.BufferedOutputStream.flushBuffer@POLYN160134[00082] target data PATHtainted (java.io.BufferedOutputStream.write) RiskOnOutput"
- , "c5" : "input"
+ , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
@@ -159,7 +159,7 @@ var maDataBlocs = {
  , "sourcenoligne" : "[00129]"
  , "c3" : ["java.io.BufferedOutputStream.write@POLYN161430.len" , "---java.io.BufferedOutputStream.write@POLYN161430.dummymethode_00129" , "java.io.BufferedOutputStream.count"]
  , "c4" : "//QC-JAVCWZ099[00129] In java.io.BufferedOutputStream.write@POLYN161430[00129] target data PATHtainted (java.io.BufferedOutputStream.write) RiskOnOutput"
- , "c5" : "input"
+ , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
@@ -191,9 +191,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
+ , "c1" : "0"
+ , "secuindice" : "5"
+ , "seculibelle" : ""
+ , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -205,7 +206,7 @@ var maDataBlocs = {
  , "sourcenoligne" : "[00082]"
  , "c3" : ["java.io.BufferedOutputStream.flushBuffer@POLYN160134.buf" , "---java.io.BufferedOutputStream.write@POLYN161430" , "java.io.BufferedOutputStream.write@POLYN161430.b"]
  , "c4" : "//QC-JAVCWZ099[00082] In java.io.BufferedOutputStream.flushBuffer@POLYN160134[00082] target data PATHtainted (java.io.BufferedOutputStream.write) RiskOnOutput"
- , "c5" : "input"
+ , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
@@ -213,7 +214,7 @@ var maDataBlocs = {
  , "sourcenoligne" : "[00122]"
  , "c3" : ["java.io.BufferedOutputStream.write@POLYN161430.b" , "---java.io.BufferedOutputStream.write@POLYN161430" , "java.io.BufferedOutputStream.write@POLYN161430.cibledummy_00122"]
  , "c4" : "//QC-JAVCWZ099[00122] In java.io.BufferedOutputStream.write@POLYN161430[00122] target data PATHtainted (java.io.BufferedOutputStream.write) RiskOnOutput"
- , "c5" : "input"
+ , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
@@ -245,9 +246,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
+ , "c1" : "0"
+ , "secuindice" : "5"
+ , "seculibelle" : ""
+ , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -259,7 +261,7 @@ var maDataBlocs = {
  , "sourcenoligne" : "[00082]"
  , "c3" : ["java.io.BufferedOutputStream.flushBuffer@POLYN160134.0" , "---java.io.BufferedOutputStream.write@POLYN161430" , "java.io.BufferedOutputStream.write@POLYN161430.off"]
  , "c4" : "//QC-JAVCWZ099[00082] In java.io.BufferedOutputStream.flushBuffer@POLYN160134[00082] target data PATHtainted (java.io.BufferedOutputStream.write) RiskOnOutput"
- , "c5" : "input"
+ , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
@@ -267,7 +269,7 @@ var maDataBlocs = {
  , "sourcenoligne" : "[00122]"
  , "c3" : ["java.io.BufferedOutputStream.write@POLYN161430.off" , "---java.io.BufferedOutputStream.write@POLYN161430" , "java.io.BufferedOutputStream.write@POLYN161430.cibledummy_00122"]
  , "c4" : "//QC-JAVCWZ099[00122] In java.io.BufferedOutputStream.write@POLYN161430[00122] target data PATHtainted (java.io.BufferedOutputStream.write) RiskOnOutput"
- , "c5" : "input"
+ , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
@@ -299,9 +301,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
+ , "c1" : "0"
+ , "secuindice" : "5"
+ , "seculibelle" : ""
+ , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}

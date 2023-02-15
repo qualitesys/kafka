@@ -790,9 +790,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
+ , "c1" : "0"
+ , "secuindice" : "5"
+ , "seculibelle" : ""
+ , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -852,9 +853,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
+ , "c1" : "0"
+ , "secuindice" : "5"
+ , "seculibelle" : ""
+ , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -906,9 +908,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
+ , "c1" : "0"
+ , "secuindice" : "5"
+ , "seculibelle" : ""
+ , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -960,9 +963,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
+ , "c1" : "0"
+ , "secuindice" : "5"
+ , "seculibelle" : ""
+ , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -1014,9 +1018,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
+ , "c1" : "0"
+ , "secuindice" : "5"
+ , "seculibelle" : ""
+ , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -1068,9 +1073,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
+ , "c1" : "0"
+ , "secuindice" : "5"
+ , "seculibelle" : ""
+ , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -1122,9 +1128,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
+ , "c1" : "0"
+ , "secuindice" : "5"
+ , "seculibelle" : ""
+ , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -1176,9 +1183,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
+ , "c1" : "0"
+ , "secuindice" : "5"
+ , "seculibelle" : ""
+ , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -1230,9 +1238,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
+ , "c1" : "0"
+ , "secuindice" : "5"
+ , "seculibelle" : ""
+ , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -1284,9 +1293,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
+ , "c1" : "0"
+ , "secuindice" : "5"
+ , "seculibelle" : ""
+ , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}

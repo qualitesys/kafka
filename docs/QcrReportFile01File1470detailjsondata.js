@@ -175,7 +175,7 @@ var maDataBlocs = {
  , "sourcenoligne" : "[00187]"
  , "c3" : ["java.io.Writer.writeBuffer" , "---java.io.Writer.write@POLYN192989.dummymethode_00187" , "java.io.Writer.write@POLYN192989.cbuf"]
  , "c4" : "//QC-JAVCWZ099[00187] In java.io.Writer.write@POLYN192989[00187] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
- , "c5" : "input"
+ , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
@@ -183,7 +183,7 @@ var maDataBlocs = {
  , "sourcenoligne" : "[00192]"
  , "c3" : ["java.io.Writer.write@POLYN192989.cbuf" , "---java.io.Writer.write@POLYN192155" , "java.io.Writer.write@POLYN192155.cbuf"]
  , "c4" : "//QC-JAVCWZ099[00192] In java.io.Writer.write@POLYN192989[00192] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
- , "c5" : "input"
+ , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
@@ -215,9 +215,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
+ , "c1" : "0"
+ , "secuindice" : "5"
+ , "seculibelle" : ""
+ , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}

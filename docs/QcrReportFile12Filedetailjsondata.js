@@ -391,7 +391,7 @@
       "_source" : "java.lang.String.valueOf@POLYN913018.return",
       "_method" : "---java.lang.String.valueOf@POLYN913018 in line [00821]",
       "_target" : "java.io.PrintStream.println@POLYN371086.s",
-      "_risk" : "//QC-JAVCWE099[00821] In java.io.PrintStream.println@POLYN371086[00821] target data PATHtainted (java.io.PrintStream.print)"
+      "_risk" : ""
     }, {
       "_id" : "4",
       "_source" : "java.io.PrintStream.println@POLYN371086.s",
@@ -467,7 +467,7 @@
       "_source" : "java.lang.String.valueOf@POLYN913018.return",
       "_method" : "---java.lang.String.valueOf@POLYN913018 in line [00821]",
       "_target" : "java.io.PrintStream.println@POLYN371086.s",
-      "_risk" : "//QC-JAVCWE099[00821] In java.io.PrintStream.println@POLYN371086[00821] target data PATHtainted (java.io.PrintStream.print)"
+      "_risk" : ""
     }, {
       "_id" : "4",
       "_source" : "java.io.PrintStream.println@POLYN371086.s",
@@ -543,7 +543,7 @@
       "_source" : "java.lang.String.valueOf@POLYN913018.return",
       "_method" : "---java.lang.String.valueOf@POLYN913018 in line [00821]",
       "_target" : "java.io.PrintStream.println@POLYN371086.s",
-      "_risk" : "//QC-JAVCWE099[00821] In java.io.PrintStream.println@POLYN371086[00821] target data PATHtainted (java.io.PrintStream.print)"
+      "_risk" : ""
     }, {
       "_id" : "4",
       "_source" : "java.io.PrintStream.println@POLYN371086.s",
@@ -785,7 +785,7 @@
       "_source" : "java.io.ObjectOutputStream.replaceObject@POLYN566970.return",
       "_method" : "---java.io.ObjectOutputStream.replaceObject@POLYN566970 in line [01144]",
       "_target" : "java.io.ObjectOutputStream.writeObject0@POLYN583189.rep",
-      "_risk" : "//QC-JAVCWZ099[01144] In java.io.ObjectOutputStream.writeObject0@POLYN583189[01144] target data PATHtainted (java.io.ObjectOutputStream.write)"
+      "_risk" : ""
     }, {
       "_id" : "5",
       "_source" : "java.io.ObjectOutputStream.writeObject0@POLYN583189.rep",
@@ -1203,7 +1203,7 @@
       "_source" : "java.lang.Object.getClass@POLYN287099.return",
       "_method" : "---java.lang.Object.getClass@POLYN287099 in line [01129]",
       "_target" : "java.io.ObjectOutputStream.writeObject0@POLYN583189.cl",
-      "_risk" : "//QC-JAVCWZ099[01129] In java.io.ObjectOutputStream.writeObject0@POLYN583189[01129] target data PATHtainted (java.io.ObjectOutputStream.write)"
+      "_risk" : ""
     }, {
       "_id" : "5",
       "_source" : "java.io.ObjectOutputStream.writeObject0@POLYN583189.cl",
@@ -1301,7 +1301,7 @@
       "_source" : "java.io.ObjectInputStream.readArray@POLYN841181.len",
       "_method" : "---java.lang.Class.newInstance@POLYN1079583 in line [01897]",
       "_target" : "java.io.ObjectInputStream.readArray@POLYN841181.array",
-      "_risk" : "//QC-JAVCWZ099[01897] In java.io.ObjectInputStream.readArray@POLYN841181[01897] source data PATHtainted (java.io.ObjectInputStream.read)"
+      "_risk" : ""
     }, {
       "_id" : "1",
       "_source" : "java.io.ObjectInputStream.readArray@POLYN841181.array",
@@ -2135,7 +2135,7 @@
       "_source" : "java.io.ObjectInputStream.readFields@POLYN793403.curDesc",
       "_method" : "---java.io.ObjectInputStream.GetFieldImpl.GetFieldImpl@POLYN861358 in line [00591]",
       "_target" : "java.io.ObjectInputStream.readFields@POLYN793403.getField",
-      "_risk" : "//QC-JAVCWZ099[00591] In java.io.ObjectInputStream.readFields@POLYN793403[00591] source data PATHtainted (java.io.ObjectInputStream.read)"
+      "_risk" : ""
     }, {
       "_id" : "2",
       "_source" : "java.io.ObjectInputStream.readFields@POLYN793403.getField",

@@ -480,7 +480,7 @@ var maDataBlocs = {
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1468&numSeq=1"
  , "c2" : "1"
  , "c3" : "4"
- , "c4" : "4"
+ , "c4" : "3"
  , "c5" : ["java.lang.String.valueOf@POLYN913018.return" , "java.io.PrintWriter.write@POLYN344852.cibledummy_00473"]
  , "c6" : ""
  , "c7" : ""
@@ -543,8 +543,8 @@ var maDataBlocs = {
  , "c1" : "4"
  , "sourcenoligne" : "[00754]"
  , "c3" : ["java.lang.String.valueOf@POLYN913018.return" , "---java.lang.String.valueOf@POLYN913018" , "java.io.PrintWriter.println@POLYN354394.s"]
- , "c4" : "//QC-JAVCWZ099[00754] In java.io.PrintWriter.println@POLYN354394[00754] target data PATHtainted (java.io.PrintWriter.print)"
- , "c5" : "input"
+ , "c4" : ""
+ , "c5" : "none"
 }}
 ,
 { "ligne" : { "" : ""
@@ -552,7 +552,7 @@ var maDataBlocs = {
  , "sourcenoligne" : "[00756]"
  , "c3" : ["java.io.PrintWriter.println@POLYN354394.s" , "---java.io.PrintWriter.print@POLYN349351" , "java.io.PrintWriter.print@POLYN349351.s"]
  , "c4" : "//QC-JAVCWZ099[00756] In java.io.PrintWriter.println@POLYN354394[00756] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
- , "c5" : "input"
+ , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
@@ -560,7 +560,7 @@ var maDataBlocs = {
  , "sourcenoligne" : "[00603]"
  , "c3" : ["java.io.PrintWriter.print@POLYN349351.s" , "---java.io.PrintWriter.write@POLYN344852" , "java.io.PrintWriter.write@POLYN344852.s"]
  , "c4" : "//QC-JAVCWZ099[00603] In java.io.PrintWriter.print@POLYN349351[00603] target data PATHtainted (java.io.PrintWriter.write) RiskOnOutput"
- , "c5" : "input"
+ , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
@@ -568,7 +568,7 @@ var maDataBlocs = {
  , "sourcenoligne" : "[00473]"
  , "c3" : ["java.io.PrintWriter.write@POLYN344852.s" , "---java.io.PrintWriter.write@POLYN344852" , "java.io.PrintWriter.write@POLYN344852.cibledummy_00473"]
  , "c4" : "//QC-JAVCWZ099[00473] In java.io.PrintWriter.write@POLYN344852[00473] target data PATHtainted (java.io.PrintWriter.write) RiskOnOutput"
- , "c5" : "input"
+ , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
@@ -600,9 +600,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
+ , "c1" : "0"
+ , "secuindice" : "5"
+ , "seculibelle" : ""
+ , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -614,7 +615,7 @@ var maDataBlocs = {
  , "sourcenoligne" : "[00725]"
  , "c3" : ["java.io.PrintWriter.println@POLYN353411.x" , "---java.io.PrintWriter.print@POLYN348887" , "java.io.PrintWriter.print@POLYN348887.s"]
  , "c4" : "//QC-JAVCWZ099[00725] In java.io.PrintWriter.println@POLYN353411[00725] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
- , "c5" : "input"
+ , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
@@ -622,7 +623,7 @@ var maDataBlocs = {
  , "sourcenoligne" : "[00587]"
  , "c3" : ["java.io.PrintWriter.print@POLYN348887.s" , "---java.io.PrintWriter.write@POLYN343860" , "java.io.PrintWriter.write@POLYN343860.buf"]
  , "c4" : "//QC-JAVCWZ099[00587] In java.io.PrintWriter.print@POLYN348887[00587] target data PATHtainted (java.io.PrintWriter.write) RiskOnOutput"
- , "c5" : "input"
+ , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
@@ -630,7 +631,7 @@ var maDataBlocs = {
  , "sourcenoligne" : "[00443]"
  , "c3" : ["java.io.PrintWriter.write@POLYN343860.buf" , "---java.io.PrintWriter.write@POLYN343860.dummymethode_00443" , "java.io.PrintWriter.write@POLYN343860.cibledummy_00443"]
  , "c4" : "//QC-JAVCWZ099[00443] In java.io.PrintWriter.write@POLYN343860[00443] target data PATHtainted (java.io.PrintWriter.write) RiskOnOutput"
- , "c5" : "input"
+ , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
@@ -662,9 +663,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
+ , "c1" : "0"
+ , "secuindice" : "5"
+ , "seculibelle" : ""
+ , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -676,7 +678,7 @@ var maDataBlocs = {
  , "sourcenoligne" : "[00655]"
  , "c3" : ["java.io.PrintWriter.println@POLYN351093.x" , "---java.io.PrintWriter.print@POLYN346381" , "java.io.PrintWriter.print@POLYN346381.c"]
  , "c4" : "//QC-JAVCWZ099[00655] In java.io.PrintWriter.println@POLYN351093[00655] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
- , "c5" : "input"
+ , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
@@ -684,7 +686,7 @@ var maDataBlocs = {
  , "sourcenoligne" : "[00517]"
  , "c3" : ["java.io.PrintWriter.print@POLYN346381.c" , "---java.io.PrintWriter.print@POLYN346381.dummymethode_00517" , "java.io.PrintWriter.print@POLYN346381.cibledummy_00517"]
  , "c4" : "//QC-JAVCWZ099[00517] In java.io.PrintWriter.print@POLYN346381[00517] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
- , "c5" : "input"
+ , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
@@ -716,9 +718,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
+ , "c1" : "0"
+ , "secuindice" : "5"
+ , "seculibelle" : ""
+ , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -730,7 +733,7 @@ var maDataBlocs = {
  , "sourcenoligne" : "[01002]"
  , "c3" : ["java.io.PrintWriter.append@POLYN362525.'null'" , "---java.io.PrintWriter.write@POLYN342562" , "java.io.PrintWriter.write@POLYN342562.c"]
  , "c4" : "//QC-JAVCWZ099[01002] In java.io.PrintWriter.append@POLYN362525[01002] target data PATHtainted (java.io.PrintWriter.write) RiskOnOutput"
- , "c5" : "input"
+ , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
@@ -738,7 +741,7 @@ var maDataBlocs = {
  , "sourcenoligne" : "[00405]"
  , "c3" : ["java.io.PrintWriter.write@POLYN342562.c" , "---java.io.Writer.write@POLYN191096" , "java.io.Writer.write@POLYN191096.c"]
  , "c4" : "//QC-JAVCWZ099[00405] In java.io.PrintWriter.write@POLYN342562[00405] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
- , "c5" : "input"
+ , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
@@ -770,9 +773,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : ""
- , "c3" : ""
- , "c4" : "Security risk level : CRITICAL"
+ , "c1" : "0"
+ , "secuindice" : "5"
+ , "seculibelle" : ""
+ , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
