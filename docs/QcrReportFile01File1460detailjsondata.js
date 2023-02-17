@@ -1324,13 +1324,6 @@ var maDataBlocs = {
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
-}}
 ]
 }}
 ,
@@ -1418,13 +1411,6 @@ var maDataBlocs = {
  , "secuindice" : "4"
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -1514,13 +1500,6 @@ var maDataBlocs = {
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
-}}
 ]
 }}
 ,
@@ -1609,13 +1588,6 @@ var maDataBlocs = {
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
-}}
 ]
 }}
 ,
@@ -1695,13 +1667,6 @@ var maDataBlocs = {
  , "secuindice" : "4"
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -1783,13 +1748,6 @@ var maDataBlocs = {
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
-}}
 ]
 }}
 ,
@@ -1854,13 +1812,6 @@ var maDataBlocs = {
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
-}}
 ]
 }}
 ,
@@ -1908,13 +1859,6 @@ var maDataBlocs = {
  , "secuindice" : "4"
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -1964,13 +1908,6 @@ var maDataBlocs = {
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
-}}
 ]
 }}
 ,
@@ -2018,13 +1955,6 @@ var maDataBlocs = {
  , "secuindice" : "4"
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -2074,13 +2004,6 @@ var maDataBlocs = {
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
-}}
 ]
 }}
 ,
@@ -2128,13 +2051,6 @@ var maDataBlocs = {
  , "secuindice" : "4"
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -2184,13 +2100,6 @@ var maDataBlocs = {
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
-}}
 ]
 }}
 ,
@@ -2238,13 +2147,6 @@ var maDataBlocs = {
  , "secuindice" : "4"
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -2294,13 +2196,6 @@ var maDataBlocs = {
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
-}}
 ]
 }}
 ,
@@ -2348,13 +2243,6 @@ var maDataBlocs = {
  , "secuindice" : "4"
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -2404,13 +2292,6 @@ var maDataBlocs = {
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
-}}
 ]
 }}
 ,
@@ -2458,13 +2339,6 @@ var maDataBlocs = {
  , "secuindice" : "4"
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -2514,13 +2388,6 @@ var maDataBlocs = {
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
-}}
 ]
 }}
 ,
@@ -2568,13 +2435,6 @@ var maDataBlocs = {
  , "secuindice" : "4"
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -2624,13 +2484,6 @@ var maDataBlocs = {
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
-}}
 ]
 }}
 ,
@@ -2678,13 +2531,6 @@ var maDataBlocs = {
  , "secuindice" : "4"
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -2734,13 +2580,6 @@ var maDataBlocs = {
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
-}}
 ]
 }}
 ,
@@ -2788,13 +2627,6 @@ var maDataBlocs = {
  , "secuindice" : "4"
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -2844,13 +2676,6 @@ var maDataBlocs = {
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
-}}
 ]
 }}
 ,
@@ -2898,13 +2723,6 @@ var maDataBlocs = {
  , "secuindice" : "4"
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -2954,13 +2772,6 @@ var maDataBlocs = {
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
-}}
 ]
 }}
 ,
@@ -3008,13 +2819,6 @@ var maDataBlocs = {
  , "secuindice" : "4"
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -3064,13 +2868,6 @@ var maDataBlocs = {
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
-}}
 ]
 }}
 ,
@@ -3118,13 +2915,6 @@ var maDataBlocs = {
  , "secuindice" : "4"
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -3174,13 +2964,6 @@ var maDataBlocs = {
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
-}}
 ]
 }}
 ,
@@ -3228,13 +3011,6 @@ var maDataBlocs = {
  , "secuindice" : "4"
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -3284,13 +3060,6 @@ var maDataBlocs = {
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
-}}
 ]
 }}
 ,
@@ -3338,13 +3107,6 @@ var maDataBlocs = {
  , "secuindice" : "4"
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -3394,13 +3156,6 @@ var maDataBlocs = {
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
-}}
 ]
 }}
 ,
@@ -3448,13 +3203,6 @@ var maDataBlocs = {
  , "secuindice" : "4"
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -3504,13 +3252,6 @@ var maDataBlocs = {
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
-}}
 ]
 }}
 ,
@@ -3558,13 +3299,6 @@ var maDataBlocs = {
  , "secuindice" : "4"
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -3614,13 +3348,6 @@ var maDataBlocs = {
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
-}}
 ]
 }}
 ,
@@ -3668,13 +3395,6 @@ var maDataBlocs = {
  , "secuindice" : "4"
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -3724,13 +3444,6 @@ var maDataBlocs = {
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
-}}
 ]
 }}
 ,
@@ -3778,13 +3491,6 @@ var maDataBlocs = {
  , "secuindice" : "4"
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -3834,13 +3540,6 @@ var maDataBlocs = {
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
-}}
 ]
 }}
 ,
@@ -3888,13 +3587,6 @@ var maDataBlocs = {
  , "secuindice" : "4"
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
@@ -3944,13 +3636,6 @@ var maDataBlocs = {
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
-}}
 ]
 }}
 ,
@@ -3998,13 +3683,6 @@ var maDataBlocs = {
  , "secuindice" : "4"
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
  , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "5"
- , "seculibelle" : ""
- , "secuvaleur" : "Security risk level : CRITICAL"
 }}
 ]
 }}
