@@ -2305,7 +2305,7 @@
     } ]
   }, {
     "_id" : "61",
-    "_riskSequence" : "Security risk level : None",
+    "_riskSequence" : "Security risk level : CRITICAL",
     "_lesSteps" : [ {
       "_id" : "3",
       "_source" : "java.net.ServerSocket.accept@POLYN318666.(SocketImpl)null",
@@ -3821,7 +3821,7 @@
     } ]
   }, {
     "_id" : "155",
-    "_riskSequence" : "Security risk level : None",
+    "_riskSequence" : "Security risk level : CRITICAL",
     "_lesSteps" : [ {
       "_id" : "2",
       "_source" : "50",
@@ -3837,7 +3837,7 @@
     } ]
   }, {
     "_id" : "156",
-    "_riskSequence" : "Security risk level : None",
+    "_riskSequence" : "Security risk level : CRITICAL",
     "_lesSteps" : [ {
       "_id" : "2",
       "_source" : "java.net.ServerSocket.impl",
@@ -3853,7 +3853,7 @@
     } ]
   }, {
     "_id" : "157",
-    "_riskSequence" : "Security risk level : None",
+    "_riskSequence" : "Security risk level : CRITICAL",
     "_lesSteps" : [ {
       "_id" : "2",
       "_source" : "true",
@@ -3869,7 +3869,7 @@
     } ]
   }, {
     "_id" : "158",
-    "_riskSequence" : "Security risk level : None",
+    "_riskSequence" : "Security risk level : CRITICAL",
     "_lesSteps" : [ {
       "_id" : "2",
       "_source" : "java.net.Socket.Socket@POLYN469199.address",
@@ -3885,7 +3885,7 @@
     } ]
   }, {
     "_id" : "159",
-    "_riskSequence" : "Security risk level : None",
+    "_riskSequence" : "Security risk level : CRITICAL",
     "_lesSteps" : [ {
       "_id" : "2",
       "_source" : "java.net.Socket.connect@POLYN472974.0",
@@ -3901,7 +3901,7 @@
     } ]
   }, {
     "_id" : "160",
-    "_riskSequence" : "Security risk level : None",
+    "_riskSequence" : "Security risk level : CRITICAL",
     "_lesSteps" : [ {
       "_id" : "2",
       "_source" : "java.net.Socket.Socket@POLYN469199.stream",
@@ -3917,7 +3917,7 @@
     } ]
   }, {
     "_id" : "161",
-    "_riskSequence" : "Security risk level : None",
+    "_riskSequence" : "Security risk level : CRITICAL",
     "_lesSteps" : [ {
       "_id" : "2",
       "_source" : "java.net.Socket.connect@POLYN473624.true",
@@ -3933,7 +3933,7 @@
     } ]
   }, {
     "_id" : "162",
-    "_riskSequence" : "Security risk level : None",
+    "_riskSequence" : "Security risk level : CRITICAL",
     "_lesSteps" : [ {
       "_id" : "2",
       "_source" : "java.net.Socket.getImpl@POLYN472456.true",

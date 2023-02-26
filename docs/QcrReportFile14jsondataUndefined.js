@@ -1523,18 +1523,6 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.common.security.scram.internals.ScramSaslServer"} ,
    {"caller" : "org.apache.kafka.common.security.scram.internals.ScramSaslServer.ScramSaslServerFactory"} ,
    ]},
-   { "undefinedclass" : "javax.servlet.DispatcherType" , "callers" : [
-   {"caller" : "org.apache.kafka.connect.runtime.rest.RestServer"} ,
-   ]},
-   { "undefinedclass" : "javax.servlet.ServletContext" , "callers" : [
-   {"caller" : "javax.servlet.http.HttpSession"} ,
-   {"caller" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource"} ,
-   {"caller" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.CreatedConnectorInfoTranslator"} ,
-   {"caller" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.IdentityTranslator"} ,
-   {"caller" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.Translator"} ,
-   {"caller" : "org.apache.kafka.trogdor.agent.AgentRestResource"} ,
-   {"caller" : "org.apache.kafka.trogdor.coordinator.CoordinatorRestResource"} ,
-   ]},
    { "undefinedclass" : "javax.ws.rs.BadRequestException" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource"} ,
    {"caller" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource"} ,
