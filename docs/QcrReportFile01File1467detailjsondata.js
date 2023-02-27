@@ -481,7 +481,7 @@ var maDataBlocs = {
  , "c2" : "1"
  , "c3" : "4"
  , "c4" : "2"
- , "c5" : ["java.lang.String.valueOf@POLYN913018.return" , "java.io.PrintStream.write@POLYN360925.cibledummy_00525"]
+ , "c5" : ["java.io.PrintStream.print@POLYN366116.s" , "java.io.PrintStream.write@POLYN360925.cibledummy_00525"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -496,7 +496,7 @@ var maDataBlocs = {
  , "c2" : "2"
  , "c3" : "3"
  , "c4" : "2"
- , "c5" : ["java.io.PrintStream.println@POLYN370107.x" , "java.io.PrintStream.write@POLYN360007.cibledummy_00503"]
+ , "c5" : ["java.io.PrintStream.print@POLYN365652.s" , "java.io.PrintStream.write@POLYN360007.cibledummy_00503"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -510,7 +510,15 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "1" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "4"
+ , "c1" : "1"
+ , "sourcenoligne" : "[00669]"
+ , "c3" : ["java.io.PrintStream.print@POLYN366116.s" , "---java.io.PrintStream.write@POLYN360925" , "java.io.PrintStream.write@POLYN360925.s"]
+ , "c4" : "//QC-JAVCWZ099[00669] In java.io.PrintStream.print@POLYN366116[00669] target data PATHtainted (java.io.PrintStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
  , "sourcenoligne" : "[00821]"
  , "c3" : ["java.lang.String.valueOf@POLYN913018.return" , "---java.lang.String.valueOf@POLYN913018" , "java.io.PrintStream.println@POLYN371086.s"]
  , "c4" : ""
@@ -526,15 +534,7 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00669]"
- , "c3" : ["java.io.PrintStream.print@POLYN366116.s" , "---java.io.PrintStream.write@POLYN360925" , "java.io.PrintStream.write@POLYN360925.s"]
- , "c4" : "//QC-JAVCWZ099[00669] In java.io.PrintStream.print@POLYN366116[00669] target data PATHtainted (java.io.PrintStream.write) RiskOnOutput"
- , "c5" : "output"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
+ , "c1" : "4"
  , "sourcenoligne" : "[00525]"
  , "c3" : ["java.io.PrintStream.write@POLYN360925.s" , "---java.io.Writer.write@POLYN192396" , "java.io.PrintStream.write@POLYN360925.cibledummy_00525"]
  , "c4" : ""
@@ -574,15 +574,7 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "2" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "3"
- , "sourcenoligne" : "[00792]"
- , "c3" : ["java.io.PrintStream.println@POLYN370107.x" , "---java.io.PrintStream.print@POLYN365652" , "java.io.PrintStream.print@POLYN365652.s"]
- , "c4" : "//QC-JAVCWZ099[00792] In java.io.PrintStream.println@POLYN370107[00792] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
- , "c5" : "output"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
+ , "c1" : "1"
  , "sourcenoligne" : "[00653]"
  , "c3" : ["java.io.PrintStream.print@POLYN365652.s" , "---java.io.PrintStream.write@POLYN360007" , "java.io.PrintStream.write@POLYN360007.buf"]
  , "c4" : "//QC-JAVCWZ099[00653] In java.io.PrintStream.print@POLYN365652[00653] target data PATHtainted (java.io.PrintStream.write) RiskOnOutput"
@@ -590,7 +582,15 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "1"
+ , "c1" : "2"
+ , "sourcenoligne" : "[00792]"
+ , "c3" : ["java.io.PrintStream.println@POLYN370107.x" , "---java.io.PrintStream.print@POLYN365652" , "java.io.PrintStream.print@POLYN365652.s"]
+ , "c4" : "//QC-JAVCWZ099[00792] In java.io.PrintStream.println@POLYN370107[00792] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
  , "sourcenoligne" : "[00503]"
  , "c3" : ["java.io.PrintStream.write@POLYN360007.buf" , "---java.io.Writer.write@POLYN191731" , "java.io.PrintStream.write@POLYN360007.cibledummy_00503"]
  , "c4" : ""

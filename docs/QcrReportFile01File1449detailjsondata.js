@@ -204,7 +204,7 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "1" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "2"
+ , "c1" : "1"
  , "sourcenoligne" : "[00343]"
  , "c3" : ["0" , "---java.io.BufferedInputStream.read@POLYN245332.dummymethode_00343" , "java.io.BufferedInputStream.read@POLYN245332.n"]
  , "c4" : "//QC-JAVCWE099[00343] In java.io.BufferedInputStream.read@POLYN245332[00343] source data PATHtainted (java.io.BufferedInputStream.read) RiskOnInput"
@@ -212,7 +212,7 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "1"
+ , "c1" : "2"
  , "sourcenoligne" : "[00350]"
  , "c3" : ["java.io.BufferedInputStream.read@POLYN245332.n" , "---java.io.BufferedInputStream.read@POLYN245332.dummymethode_00350" , "java.io.BufferedInputStream.read@POLYN245332.return"]
  , "c4" : "//QC-JAVCWE099[00350] In java.io.BufferedInputStream.read@POLYN245332[00350] source data PATHtainted (java.io.BufferedInputStream.read) RiskOnInput"
@@ -252,7 +252,7 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "2" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "2"
+ , "c1" : "1"
  , "sourcenoligne" : "[00348]"
  , "c3" : ["java.io.BufferedInputStream.read@POLYN245332.nread" , "---java.io.BufferedInputStream.read@POLYN245332.dummymethode_00348" , "java.io.BufferedInputStream.read@POLYN245332.n"]
  , "c4" : "//QC-JAVCWZ099[00348] In java.io.BufferedInputStream.read@POLYN245332[00348] source data PATHtainted (java.io.BufferedInputStream.read) RiskOnInput"
@@ -260,7 +260,7 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "1"
+ , "c1" : "2"
  , "sourcenoligne" : "[00350]"
  , "c3" : ["java.io.BufferedInputStream.read@POLYN245332.n" , "---java.io.BufferedInputStream.read@POLYN245332.dummymethode_00350" , "java.io.BufferedInputStream.read@POLYN245332.return"]
  , "c4" : "//QC-JAVCWZ099[00350] In java.io.BufferedInputStream.read@POLYN245332[00350] source data PATHtainted (java.io.BufferedInputStream.read) RiskOnInput"

@@ -250,7 +250,7 @@
 <leniv><indtoken>240</indtoken><nbappels>18</nbappels></leniv>
 </nbappelsparniv>
 <nbappelspartoken>
-<leniv><noligne>0</noligne><profmin>0</profmin><proffinale>0</proffinale><profmax>0</profmax><indtoken>0</indtoken><temps>-1.677368671121E9</temps><nbappels>0</nbappels><token>TokenDeDebut</token></leniv>
+<leniv><noligne>0</noligne><profmin>0</profmin><proffinale>0</proffinale><profmax>0</profmax><indtoken>0</indtoken><temps>-1.677455091274E9</temps><nbappels>0</nbappels><token>TokenDeDebut</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>1</indtoken><temps>0.002</temps><nbappels>15</nbappels><token>/*</token></leniv>
 <leniv><noligne>2</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>2</indtoken><temps>0.002</temps><nbappels>20</nbappels><token>`</token></leniv>
 <leniv><noligne>2</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>3</indtoken><temps>0.002</temps><nbappels>28</nbappels><token>*</token></leniv>
@@ -462,8 +462,8 @@
 <leniv><noligne>20</noligne><profmin>0</profmin><proffinale>12</proffinale><profmax>20</profmax><indtoken>209</indtoken><temps>0.002</temps><nbappels>16</nbappels><token>;</token></leniv>
 <leniv><noligne>22</noligne><profmin>0</profmin><proffinale>27</proffinale><profmax>28</profmax><indtoken>210</indtoken><temps>0.002</temps><nbappels>41</nbappels><token>public</token></leniv>
 <leniv><noligne>22</noligne><profmin>0</profmin><proffinale>31</proffinale><profmax>31</profmax><indtoken>211</indtoken><temps>0.002</temps><nbappels>24</nbappels><token>interface</token></leniv>
-<leniv><noligne>22</noligne><profmin>0</profmin><proffinale>36</proffinale><profmax>36</profmax><indtoken>212</indtoken><temps>0.002</temps><nbappels>38</nbappels><token>ProcessorNodePunctuator</token></leniv>
-<leniv><noligne>22</noligne><profmin>0</profmin><proffinale>33</proffinale><profmax>36</profmax><indtoken>213</indtoken><temps>0.002</temps><nbappels>18</nbappels><token>{</token></leniv>
+<leniv><noligne>22</noligne><profmin>0</profmin><proffinale>36</proffinale><profmax>36</profmax><indtoken>212</indtoken><temps>0.003</temps><nbappels>38</nbappels><token>ProcessorNodePunctuator</token></leniv>
+<leniv><noligne>22</noligne><profmin>0</profmin><proffinale>33</proffinale><profmax>36</profmax><indtoken>213</indtoken><temps>0.003</temps><nbappels>18</nbappels><token>{</token></leniv>
 <leniv><noligne>24</noligne><profmin>0</profmin><proffinale>50</proffinale><profmax>64</profmax><indtoken>214</indtoken><temps>0.003</temps><nbappels>90</nbappels><token>void</token></leniv>
 <leniv><noligne>24</noligne><profmin>0</profmin><proffinale>55</proffinale><profmax>55</profmax><indtoken>215</indtoken><temps>0.003</temps><nbappels>38</nbappels><token>punctuate</token></leniv>
 <leniv><noligne>24</noligne><profmin>0</profmin><proffinale>54</proffinale><profmax>55</profmax><indtoken>216</indtoken><temps>0.003</temps><nbappels>11</nbappels><token>(</token></leniv>

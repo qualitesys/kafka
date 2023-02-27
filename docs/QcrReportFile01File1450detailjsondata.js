@@ -147,7 +147,7 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "1" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "2"
+ , "c1" : "1"
  , "sourcenoligne" : "[00082]"
  , "c3" : ["java.io.BufferedOutputStream.flushBuffer@POLYN160134.count" , "---java.io.BufferedOutputStream.write@POLYN161430" , "java.io.BufferedOutputStream.write@POLYN161430.len"]
  , "c4" : "//QC-JAVCWZ099[00082] In java.io.BufferedOutputStream.flushBuffer@POLYN160134[00082] target data PATHtainted (java.io.BufferedOutputStream.write) RiskOnOutput"
@@ -155,7 +155,7 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "1"
+ , "c1" : "2"
  , "sourcenoligne" : "[00129]"
  , "c3" : ["java.io.BufferedOutputStream.write@POLYN161430.len" , "---java.io.BufferedOutputStream.write@POLYN161430.dummymethode_00129" , "java.io.BufferedOutputStream.count"]
  , "c4" : "//QC-JAVCWZ099[00129] In java.io.BufferedOutputStream.write@POLYN161430[00129] target data PATHtainted (java.io.BufferedOutputStream.write) RiskOnOutput"
@@ -195,7 +195,7 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "2" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "2"
+ , "c1" : "1"
  , "sourcenoligne" : "[00082]"
  , "c3" : ["java.io.BufferedOutputStream.flushBuffer@POLYN160134.buf" , "---java.io.BufferedOutputStream.write@POLYN161430" , "java.io.BufferedOutputStream.write@POLYN161430.b"]
  , "c4" : "//QC-JAVCWZ099[00082] In java.io.BufferedOutputStream.flushBuffer@POLYN160134[00082] target data PATHtainted (java.io.BufferedOutputStream.write) RiskOnOutput"
@@ -203,7 +203,7 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "1"
+ , "c1" : "2"
  , "sourcenoligne" : "[00122]"
  , "c3" : ["java.io.BufferedOutputStream.write@POLYN161430.b" , "---java.io.BufferedOutputStream.write@POLYN161430" , "java.io.BufferedOutputStream.write@POLYN161430.cibledummy_00122"]
  , "c4" : "//QC-JAVCWZ099[00122] In java.io.BufferedOutputStream.write@POLYN161430[00122] target data PATHtainted (java.io.BufferedOutputStream.write) RiskOnOutput"
@@ -243,7 +243,7 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "3" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "2"
+ , "c1" : "1"
  , "sourcenoligne" : "[00082]"
  , "c3" : ["java.io.BufferedOutputStream.flushBuffer@POLYN160134.0" , "---java.io.BufferedOutputStream.write@POLYN161430" , "java.io.BufferedOutputStream.write@POLYN161430.off"]
  , "c4" : "//QC-JAVCWZ099[00082] In java.io.BufferedOutputStream.flushBuffer@POLYN160134[00082] target data PATHtainted (java.io.BufferedOutputStream.write) RiskOnOutput"
@@ -251,7 +251,7 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "1"
+ , "c1" : "2"
  , "sourcenoligne" : "[00122]"
  , "c3" : ["java.io.BufferedOutputStream.write@POLYN161430.off" , "---java.io.BufferedOutputStream.write@POLYN161430" , "java.io.BufferedOutputStream.write@POLYN161430.cibledummy_00122"]
  , "c4" : "//QC-JAVCWZ099[00122] In java.io.BufferedOutputStream.write@POLYN161430[00122] target data PATHtainted (java.io.BufferedOutputStream.write) RiskOnOutput"

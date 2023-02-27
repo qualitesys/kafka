@@ -589,7 +589,7 @@ var maDataBlocs = {
  , "c2" : "1"
  , "c3" : "3"
  , "c4" : "3"
- , "c5" : ["java.net.Socket.Socket@POLYN457421.proxy" , "java.net.Socket.bind@POLYN476300.cibledummy_00612"]
+ , "c5" : ["java.net.Socket.Socket@POLYN457421.proxy" , "java.net.Socket.getImpl@POLYN472456.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -604,7 +604,7 @@ var maDataBlocs = {
  , "c2" : "2"
  , "c3" : "3"
  , "c4" : "3"
- , "c5" : ["java.net.Socket.Socket@POLYN459070.impl" , "java.net.Socket.bind@POLYN476300.cibledummy_00612"]
+ , "c5" : ["java.net.Socket.Socket@POLYN459070.impl" , "java.net.Socket.getImpl@POLYN472456.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -679,7 +679,7 @@ var maDataBlocs = {
  , "c2" : "7"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.net.Socket.getImpl@POLYN472456.true" , "java.net.Socket.createImpl@POLYN470129.cibledummy_00434"]
+ , "c5" : ["java.net.Socket.createImpl@POLYN470129.stream" , "java.net.Socket.createImpl@POLYN470129.stream"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -738,7 +738,7 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "1" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "3"
+ , "c1" : "1"
  , "sourcenoligne" : "[00128]"
  , "c3" : ["java.net.Socket.Socket@POLYN457421.proxy" , "---java.net.Socket.Socket@POLYN457421.dummymethode_00128" , "java.net.Socket.impl"]
  , "c4" : "//QC-JAVCWZ099[00128] In java.net.Socket.Socket@POLYN457421[00128] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
@@ -747,17 +747,17 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
- , "sourcenoligne" : "[00501]"
- , "c3" : ["java.net.Socket.impl" , "---java.net.Socket.getImpl@POLYN472456.dummymethode_00501" , "java.net.Socket.getImpl@POLYN472456.return"]
- , "c4" : "//QC-JAVCWZ099[00501] In java.net.Socket.getImpl@POLYN472456[00501] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "sourcenoligne" : "[00612]"
+ , "c3" : ["java.net.Socket.getImpl@POLYN472456.return" , "---java.net.Socket.getImpl@POLYN472456" , "java.net.Socket.bind@POLYN476300.cibledummy_00612"]
+ , "c4" : "//QC-JAVCWZ099[00612] In java.net.Socket.bind@POLYN476300[00612] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00612]"
- , "c3" : ["java.net.Socket.getImpl@POLYN472456.return" , "---java.net.Socket.getImpl@POLYN472456" , "java.net.Socket.bind@POLYN476300.cibledummy_00612"]
- , "c4" : "//QC-JAVCWZ099[00612] In java.net.Socket.bind@POLYN476300[00612] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c1" : "3"
+ , "sourcenoligne" : "[00501]"
+ , "c3" : ["java.net.Socket.impl" , "---java.net.Socket.getImpl@POLYN472456.dummymethode_00501" , "java.net.Socket.getImpl@POLYN472456.return"]
+ , "c4" : "//QC-JAVCWZ099[00501] In java.net.Socket.getImpl@POLYN472456[00501] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
@@ -794,7 +794,7 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "2" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "3"
+ , "c1" : "1"
  , "sourcenoligne" : "[00154]"
  , "c3" : ["java.net.Socket.Socket@POLYN459070.impl" , "---java.net.Socket.Socket@POLYN459070.dummymethode_00154" , "java.net.Socket.impl"]
  , "c4" : "//QC-JAVCWZ099[00154] In java.net.Socket.Socket@POLYN459070[00154] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
@@ -803,17 +803,17 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
- , "sourcenoligne" : "[00501]"
- , "c3" : ["java.net.Socket.impl" , "---java.net.Socket.getImpl@POLYN472456.dummymethode_00501" , "java.net.Socket.getImpl@POLYN472456.return"]
- , "c4" : "//QC-JAVCWZ099[00501] In java.net.Socket.getImpl@POLYN472456[00501] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "sourcenoligne" : "[00612]"
+ , "c3" : ["java.net.Socket.getImpl@POLYN472456.return" , "---java.net.Socket.getImpl@POLYN472456" , "java.net.Socket.bind@POLYN476300.cibledummy_00612"]
+ , "c4" : "//QC-JAVCWZ099[00612] In java.net.Socket.bind@POLYN476300[00612] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00612]"
- , "c3" : ["java.net.Socket.getImpl@POLYN472456.return" , "---java.net.Socket.getImpl@POLYN472456" , "java.net.Socket.bind@POLYN476300.cibledummy_00612"]
- , "c4" : "//QC-JAVCWZ099[00612] In java.net.Socket.bind@POLYN476300[00612] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c1" : "3"
+ , "sourcenoligne" : "[00501]"
+ , "c3" : ["java.net.Socket.impl" , "---java.net.Socket.getImpl@POLYN472456.dummymethode_00501" , "java.net.Socket.getImpl@POLYN472456.return"]
+ , "c4" : "//QC-JAVCWZ099[00501] In java.net.Socket.getImpl@POLYN472456[00501] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
@@ -850,7 +850,7 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "3" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "2"
+ , "c1" : "1"
  , "sourcenoligne" : "[00415]"
  , "c3" : ["java.net.Socket.Socket@POLYN469199.address" , "---java.net.Socket.connect@POLYN472974" , "java.net.Socket.connect@POLYN472974.endpoint"]
  , "c4" : "//QC-JAVCWZ099[00415] In java.net.Socket.Socket@POLYN469199[00415] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
@@ -858,7 +858,7 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "1"
+ , "c1" : "2"
  , "sourcenoligne" : "[00518]"
  , "c3" : ["java.net.Socket.connect@POLYN472974.endpoint" , "---java.net.Socket.connect@POLYN473624" , "java.net.Socket.connect@POLYN472974.cibledummy_00518"]
  , "c4" : "//QC-JAVCWZ099[00518] In java.net.Socket.connect@POLYN472974[00518] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
@@ -898,7 +898,7 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "4" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "2"
+ , "c1" : "1"
  , "sourcenoligne" : "[00518]"
  , "c3" : ["java.net.Socket.connect@POLYN472974.0" , "---java.net.Socket.connect@POLYN473624" , "java.net.Socket.connect@POLYN473624.timeout"]
  , "c4" : "//QC-JAVCWZ099[00518] In java.net.Socket.connect@POLYN472974[00518] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
@@ -906,7 +906,7 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "1"
+ , "c1" : "2"
  , "sourcenoligne" : "[00568]"
  , "c3" : ["java.net.Socket.connect@POLYN473624.timeout" , "---java.net.Socket.connect@POLYN473624" , "java.net.Socket.connect@POLYN473624.cibledummy_00568"]
  , "c4" : "//QC-JAVCWZ099[00568] In java.net.Socket.connect@POLYN473624[00568] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
@@ -946,7 +946,7 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "5" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "2"
+ , "c1" : "1"
  , "sourcenoligne" : "[00411]"
  , "c3" : ["java.net.Socket.Socket@POLYN469199.stream" , "---java.net.Socket.createImpl@POLYN470129" , "java.net.Socket.createImpl@POLYN470129.stream"]
  , "c4" : "//QC-JAVCWZ099[00411] In java.net.Socket.Socket@POLYN469199[00411] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
@@ -954,7 +954,7 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "1"
+ , "c1" : "2"
  , "sourcenoligne" : "[00434]"
  , "c3" : ["java.net.Socket.createImpl@POLYN470129.stream" , "---java.net.Socket.createImpl@POLYN470129.dummymethode_00434" , "java.net.Socket.createImpl@POLYN470129.cibledummy_00434"]
  , "c4" : "//QC-JAVCWZ099[00434] In java.net.Socket.createImpl@POLYN470129[00434] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
@@ -994,7 +994,7 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "6" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "2"
+ , "c1" : "1"
  , "sourcenoligne" : "[00566]"
  , "c3" : ["java.net.Socket.connect@POLYN473624.true" , "---java.net.Socket.createImpl@POLYN470129" , "java.net.Socket.createImpl@POLYN470129.stream"]
  , "c4" : "//QC-JAVCWZ099[00566] In java.net.Socket.connect@POLYN473624[00566] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
@@ -1002,7 +1002,7 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "1"
+ , "c1" : "2"
  , "sourcenoligne" : "[00434]"
  , "c3" : ["java.net.Socket.createImpl@POLYN470129.stream" , "---java.net.Socket.createImpl@POLYN470129.dummymethode_00434" , "java.net.Socket.createImpl@POLYN470129.cibledummy_00434"]
  , "c4" : "//QC-JAVCWZ099[00434] In java.net.Socket.createImpl@POLYN470129[00434] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
@@ -1042,18 +1042,18 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "7" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00500]"
- , "c3" : ["java.net.Socket.getImpl@POLYN472456.true" , "---java.net.Socket.createImpl@POLYN470129" , "java.net.Socket.createImpl@POLYN470129.stream"]
- , "c4" : "//QC-JAVCWZ099[00500] In java.net.Socket.getImpl@POLYN472456[00500] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00434]"
  , "c3" : ["java.net.Socket.createImpl@POLYN470129.stream" , "---java.net.Socket.createImpl@POLYN470129.dummymethode_00434" , "java.net.Socket.createImpl@POLYN470129.cibledummy_00434"]
  , "c4" : "//QC-JAVCWZ099[00434] In java.net.Socket.createImpl@POLYN470129[00434] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00500]"
+ , "c3" : ["java.net.Socket.getImpl@POLYN472456.true" , "---java.net.Socket.createImpl@POLYN470129" , "java.net.Socket.createImpl@POLYN470129.stream"]
+ , "c4" : "//QC-JAVCWZ099[00500] In java.net.Socket.getImpl@POLYN472456[00500] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
@@ -1090,7 +1090,7 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "8" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "2"
+ , "c1" : "1"
  , "sourcenoligne" : "[00001]"
  , "c3" : ["null" , "---java.net.Socket.getInputStream@POLYN484249.dummymethode_00001" , "java.net.Socket.getInputStream@POLYN484249.is"]
  , "c4" : "//QC-JAVCWE099[00001] In java.net.Socket.getInputStream@POLYN484249[00001] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
@@ -1098,7 +1098,7 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "1"
+ , "c1" : "2"
  , "sourcenoligne" : "[00001]"
  , "c3" : ["java.net.Socket.getInputStream@POLYN484249.is" , "---java.net.Socket.getInputStream@POLYN484249.dummymethode_00001" , "java.net.Socket.getInputStream@POLYN484249.return"]
  , "c4" : "//QC-JAVCWE099[00001] In java.net.Socket.getInputStream@POLYN484249[00001] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
@@ -1138,7 +1138,7 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "9" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "2"
+ , "c1" : "1"
  , "sourcenoligne" : "[00001]"
  , "c3" : ["0" , "---java.net.Socket.getReceiveBufferSize@POLYN497886.dummymethode_00001" , "java.net.Socket.getReceiveBufferSize@POLYN497886.result"]
  , "c4" : "//QC-JAVCWE099[00001] In java.net.Socket.getReceiveBufferSize@POLYN497886[00001] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
@@ -1146,7 +1146,7 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "1"
+ , "c1" : "2"
  , "sourcenoligne" : "[00001]"
  , "c3" : ["java.net.Socket.getReceiveBufferSize@POLYN497886.result" , "---java.net.Socket.getReceiveBufferSize@POLYN497886.dummymethode_00001" , "java.net.Socket.getReceiveBufferSize@POLYN497886.return"]
  , "c4" : "//QC-JAVCWE099[00001] In java.net.Socket.getReceiveBufferSize@POLYN497886[00001] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
@@ -1186,7 +1186,7 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "10" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "2"
+ , "c1" : "1"
  , "sourcenoligne" : "[00001]"
  , "c3" : ["true" , "---java.net.Socket.close@POLYN504776.dummymethode_00001" , "java.net.Socket.closed"]
  , "c4" : "//QC-JAVCWE099[00001] In java.net.Socket.close@POLYN504776[00001] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
@@ -1194,7 +1194,7 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "1"
+ , "c1" : "2"
  , "sourcenoligne" : "[00001]"
  , "c3" : ["java.net.Socket.closed" , "---java.net.Socket.isClosed@POLYN508553.dummymethode_00001" , "java.net.Socket.isClosed@POLYN508553.return"]
  , "c4" : "//QC-JAVCWE099[00001] In java.net.Socket.isClosed@POLYN508553[00001] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"

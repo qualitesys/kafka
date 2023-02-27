@@ -196,7 +196,7 @@ var maDataBlocs = {
  , "c2" : "3"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["1" , "java.io.PipedReader.read@POLYN205637.return"]
+ , "c5" : ["java.io.PipedReader.read@POLYN205637.rlen" , "java.io.PipedReader.read@POLYN205637.rlen"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -210,7 +210,7 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "1" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "2"
+ , "c1" : "1"
  , "sourcenoligne" : "[00001]"
  , "c3" : ["java.io.PipedReader.read@POLYN203037.-1" , "---java.io.PipedReader.read@POLYN203037.dummymethode_00001" , "java.io.PipedReader.read@POLYN203037.return"]
  , "c4" : "//QC-JAVCWZ099[00001] In java.io.PipedReader.read@POLYN203037[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
@@ -218,7 +218,7 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "1"
+ , "c1" : "2"
  , "sourcenoligne" : "[00001]"
  , "c3" : ["java.io.PipedReader.read@POLYN203037.return" , "---java.io.PipedReader.read@POLYN203037" , "java.io.PipedReader.read@POLYN205637.c"]
  , "c4" : "//QC-JAVCWZ099[00001] In java.io.PipedReader.read@POLYN205637[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
@@ -258,7 +258,7 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "2" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "2"
+ , "c1" : "1"
  , "sourcenoligne" : "[00001]"
  , "c3" : ["java.io.PipedReader.read@POLYN203037.ret" , "---java.io.PipedReader.read@POLYN203037.dummymethode_00001" , "java.io.PipedReader.read@POLYN203037.return"]
  , "c4" : "//QC-JAVCWZ099[00001] In java.io.PipedReader.read@POLYN203037[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
@@ -266,7 +266,7 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "1"
+ , "c1" : "2"
  , "sourcenoligne" : "[00001]"
  , "c3" : ["java.io.PipedReader.read@POLYN203037.return" , "---java.io.PipedReader.read@POLYN203037" , "java.io.PipedReader.read@POLYN205637.c"]
  , "c4" : "//QC-JAVCWZ099[00001] In java.io.PipedReader.read@POLYN205637[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
@@ -306,17 +306,17 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "3" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "2"
+ , "c1" : "1"
  , "sourcenoligne" : "[00001]"
- , "c3" : ["1" , "---java.io.PipedReader.read@POLYN205637.dummymethode_00001" , "java.io.PipedReader.read@POLYN205637.rlen"]
+ , "c3" : ["java.io.PipedReader.read@POLYN205637.rlen" , "---java.io.PipedReader.read@POLYN205637.dummymethode_00001" , "java.io.PipedReader.read@POLYN205637.return"]
  , "c4" : "//QC-JAVCWE099[00001] In java.io.PipedReader.read@POLYN205637[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "1"
+ , "c1" : "2"
  , "sourcenoligne" : "[00001]"
- , "c3" : ["java.io.PipedReader.read@POLYN205637.rlen" , "---java.io.PipedReader.read@POLYN205637.dummymethode_00001" , "java.io.PipedReader.read@POLYN205637.return"]
+ , "c3" : ["1" , "---java.io.PipedReader.read@POLYN205637.dummymethode_00001" , "java.io.PipedReader.read@POLYN205637.rlen"]
  , "c4" : "//QC-JAVCWE099[00001] In java.io.PipedReader.read@POLYN205637[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
  , "c5" : "input"
 }}

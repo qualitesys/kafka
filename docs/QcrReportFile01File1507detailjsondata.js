@@ -280,7 +280,7 @@ var maDataBlocs = {
  , "c2" : "5"
  , "c3" : "4"
  , "c4" : "4"
- , "c5" : ["org.springframework.http.ResponseEntity.unprocessableEntity@POLYN241811.HttpStatus.UNPROCESSABLE_ENTITY" , "org.springframework.http.ResponseEntity.return"]
+ , "c5" : ["org.springframework.http.ResponseEntity.status@POLYN238662.return" , "org.springframework.http.ResponseEntity.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -295,7 +295,7 @@ var maDataBlocs = {
  , "c2" : "6"
  , "c3" : "3"
  , "c4" : "3"
- , "c5" : ["org.springframework.http.ResponseEntity.ok@POLYN239267.HttpStatus.OK" , "org.springframework.http.ResponseEntity.accepted@POLYN240863.return"]
+ , "c5" : ["org.springframework.http.ResponseEntity.status@POLYN238662.return" , "org.springframework.http.ResponseEntity.status@POLYN238662.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -310,7 +310,7 @@ var maDataBlocs = {
  , "c2" : "7"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["org.springframework.http.ResponseEntity.DefaultBuilder.body" , "org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN247392.return"]
+ , "c5" : ["org.springframework.http.ResponseEntity.DefaultBuilder.this" , "org.springframework.http.ResponseEntity.DefaultBuilder.this"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -325,7 +325,7 @@ var maDataBlocs = {
  , "c2" : "8"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["org.springframework.http.ResponseEntity.DefaultBuilder.this.headers" , "org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN247392.return"]
+ , "c5" : ["org.springframework.http.ResponseEntity.DefaultBuilder.this" , "org.springframework.http.ResponseEntity.DefaultBuilder.this"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -340,7 +340,7 @@ var maDataBlocs = {
  , "c2" : "9"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["org.springframework.http.ResponseEntity.DefaultBuilder.this.statusCode" , "org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN247392.return"]
+ , "c5" : ["org.springframework.http.ResponseEntity.DefaultBuilder.this" , "org.springframework.http.ResponseEntity.DefaultBuilder.this"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -354,18 +354,10 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "1" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "4"
+ , "c1" : "1"
  , "sourcenoligne" : "[00273]"
  , "c3" : ["org.springframework.http.ResponseEntity.accepted@POLYN240863.HttpStatus.ACCEPTED" , "---org.springframework.http.ResponseEntity.status@POLYN238662" , "org.springframework.http.ResponseEntity.status@POLYN238662.status"]
  , "c4" : "//QC-JAVCWE080[00273] In org.springframework.http.ResponseEntity.accepted@POLYN240863[00273] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "3"
- , "sourcenoligne" : "[00211]"
- , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN238662.status" , "---org.springframework.http.ResponseEntity.status@POLYN238662.dummymethode_00211" , "org.springframework.http.ResponseEntity.status@POLYN238662.return"]
- , "c4" : "//QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN238662[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -378,7 +370,15 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "1"
+ , "c1" : "3"
+ , "sourcenoligne" : "[00211]"
+ , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN238662.status" , "---org.springframework.http.ResponseEntity.status@POLYN238662.dummymethode_00211" , "org.springframework.http.ResponseEntity.status@POLYN238662.return"]
+ , "c4" : "//QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN238662[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
  , "sourcenoligne" : "[00240]"
  , "c3" : ["org.springframework.http.ResponseEntity.ok@POLYN239267.return" , "---org.springframework.http.ResponseEntity.ok@POLYN239267" , "org.springframework.http.ResponseEntity.return"]
  , "c4" : "//QC-JAVCWE080[00240] In org.springframework.http.ResponseEntity[00240] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
@@ -418,18 +418,10 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "2" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "4"
+ , "c1" : "1"
  , "sourcenoligne" : "[00291]"
  , "c3" : ["org.springframework.http.ResponseEntity.badRequest@POLYN241334.HttpStatus.BAD_REQUEST" , "---org.springframework.http.ResponseEntity.status@POLYN238662" , "org.springframework.http.ResponseEntity.status@POLYN238662.status"]
  , "c4" : "//QC-JAVCWE080[00291] In org.springframework.http.ResponseEntity.badRequest@POLYN241334[00291] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "3"
- , "sourcenoligne" : "[00211]"
- , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN238662.status" , "---org.springframework.http.ResponseEntity.status@POLYN238662.dummymethode_00211" , "org.springframework.http.ResponseEntity.status@POLYN238662.return"]
- , "c4" : "//QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN238662[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -442,7 +434,15 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "1"
+ , "c1" : "3"
+ , "sourcenoligne" : "[00211]"
+ , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN238662.status" , "---org.springframework.http.ResponseEntity.status@POLYN238662.dummymethode_00211" , "org.springframework.http.ResponseEntity.status@POLYN238662.return"]
+ , "c4" : "//QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN238662[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
  , "sourcenoligne" : "[00240]"
  , "c3" : ["org.springframework.http.ResponseEntity.ok@POLYN239267.return" , "---org.springframework.http.ResponseEntity.ok@POLYN239267" , "org.springframework.http.ResponseEntity.return"]
  , "c4" : "//QC-JAVCWE080[00240] In org.springframework.http.ResponseEntity[00240] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
@@ -482,18 +482,10 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "3" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "4"
+ , "c1" : "1"
  , "sourcenoligne" : "[00282]"
  , "c3" : ["org.springframework.http.ResponseEntity.noContent@POLYN241106.HttpStatus.NO_CONTENT" , "---org.springframework.http.ResponseEntity.status@POLYN238662" , "org.springframework.http.ResponseEntity.status@POLYN238662.status"]
  , "c4" : "//QC-JAVCWE080[00282] In org.springframework.http.ResponseEntity.noContent@POLYN241106[00282] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "3"
- , "sourcenoligne" : "[00211]"
- , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN238662.status" , "---org.springframework.http.ResponseEntity.status@POLYN238662.dummymethode_00211" , "org.springframework.http.ResponseEntity.status@POLYN238662.return"]
- , "c4" : "//QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN238662[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -506,7 +498,15 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "1"
+ , "c1" : "3"
+ , "sourcenoligne" : "[00211]"
+ , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN238662.status" , "---org.springframework.http.ResponseEntity.status@POLYN238662.dummymethode_00211" , "org.springframework.http.ResponseEntity.status@POLYN238662.return"]
+ , "c4" : "//QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN238662[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
  , "sourcenoligne" : "[00240]"
  , "c3" : ["org.springframework.http.ResponseEntity.ok@POLYN239267.return" , "---org.springframework.http.ResponseEntity.ok@POLYN239267" , "org.springframework.http.ResponseEntity.return"]
  , "c4" : "//QC-JAVCWE080[00240] In org.springframework.http.ResponseEntity[00240] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
@@ -546,18 +546,10 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "4" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "4"
+ , "c1" : "1"
  , "sourcenoligne" : "[00300]"
  , "c3" : ["org.springframework.http.ResponseEntity.notFound@POLYN241577.HttpStatus.NOT_FOUND" , "---org.springframework.http.ResponseEntity.status@POLYN238662" , "org.springframework.http.ResponseEntity.status@POLYN238662.status"]
  , "c4" : "//QC-JAVCWE080[00300] In org.springframework.http.ResponseEntity.notFound@POLYN241577[00300] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "3"
- , "sourcenoligne" : "[00211]"
- , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN238662.status" , "---org.springframework.http.ResponseEntity.status@POLYN238662.dummymethode_00211" , "org.springframework.http.ResponseEntity.status@POLYN238662.return"]
- , "c4" : "//QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN238662[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -570,7 +562,15 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "1"
+ , "c1" : "3"
+ , "sourcenoligne" : "[00211]"
+ , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN238662.status" , "---org.springframework.http.ResponseEntity.status@POLYN238662.dummymethode_00211" , "org.springframework.http.ResponseEntity.status@POLYN238662.return"]
+ , "c4" : "//QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN238662[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
  , "sourcenoligne" : "[00240]"
  , "c3" : ["org.springframework.http.ResponseEntity.ok@POLYN239267.return" , "---org.springframework.http.ResponseEntity.ok@POLYN239267" , "org.springframework.http.ResponseEntity.return"]
  , "c4" : "//QC-JAVCWE080[00240] In org.springframework.http.ResponseEntity[00240] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
@@ -610,23 +610,7 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "5" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "4"
- , "sourcenoligne" : "[00310]"
- , "c3" : ["org.springframework.http.ResponseEntity.unprocessableEntity@POLYN241811.HttpStatus.UNPROCESSABLE_ENTITY" , "---org.springframework.http.ResponseEntity.status@POLYN238662" , "org.springframework.http.ResponseEntity.status@POLYN238662.status"]
- , "c4" : "//QC-JAVCWE080[00310] In org.springframework.http.ResponseEntity.unprocessableEntity@POLYN241811[00310] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "3"
- , "sourcenoligne" : "[00211]"
- , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN238662.status" , "---org.springframework.http.ResponseEntity.status@POLYN238662.dummymethode_00211" , "org.springframework.http.ResponseEntity.status@POLYN238662.return"]
- , "c4" : "//QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN238662[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
+ , "c1" : "1"
  , "sourcenoligne" : "[00230]"
  , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN238662.return" , "---org.springframework.http.ResponseEntity.status@POLYN238662" , "org.springframework.http.ResponseEntity.ok@POLYN239267.return"]
  , "c4" : "//QC-JAVCWE080[00230] In org.springframework.http.ResponseEntity.ok@POLYN239267[00230] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
@@ -634,7 +618,23 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "1"
+ , "c1" : "2"
+ , "sourcenoligne" : "[00211]"
+ , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN238662.status" , "---org.springframework.http.ResponseEntity.status@POLYN238662.dummymethode_00211" , "org.springframework.http.ResponseEntity.status@POLYN238662.return"]
+ , "c4" : "//QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN238662[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00310]"
+ , "c3" : ["org.springframework.http.ResponseEntity.unprocessableEntity@POLYN241811.HttpStatus.UNPROCESSABLE_ENTITY" , "---org.springframework.http.ResponseEntity.status@POLYN238662" , "org.springframework.http.ResponseEntity.status@POLYN238662.status"]
+ , "c4" : "//QC-JAVCWE080[00310] In org.springframework.http.ResponseEntity.unprocessableEntity@POLYN241811[00310] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
  , "sourcenoligne" : "[00240]"
  , "c3" : ["org.springframework.http.ResponseEntity.ok@POLYN239267.return" , "---org.springframework.http.ResponseEntity.ok@POLYN239267" , "org.springframework.http.ResponseEntity.return"]
  , "c4" : "//QC-JAVCWE080[00240] In org.springframework.http.ResponseEntity[00240] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
@@ -674,7 +674,15 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "6" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "3"
+ , "c1" : "1"
+ , "sourcenoligne" : "[00273]"
+ , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN238662.return" , "---org.springframework.http.ResponseEntity.status@POLYN238662" , "org.springframework.http.ResponseEntity.accepted@POLYN240863.return"]
+ , "c4" : "//QC-JAVCWE080[00273] In org.springframework.http.ResponseEntity.accepted@POLYN240863[00273] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
  , "sourcenoligne" : "[00230]"
  , "c3" : ["org.springframework.http.ResponseEntity.ok@POLYN239267.HttpStatus.OK" , "---org.springframework.http.ResponseEntity.status@POLYN238662" , "org.springframework.http.ResponseEntity.status@POLYN238662.status"]
  , "c4" : "//QC-JAVCWE080[00230] In org.springframework.http.ResponseEntity.ok@POLYN239267[00230] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
@@ -682,18 +690,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "2"
+ , "c1" : "3"
  , "sourcenoligne" : "[00211]"
  , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN238662.status" , "---org.springframework.http.ResponseEntity.status@POLYN238662.dummymethode_00211" , "org.springframework.http.ResponseEntity.status@POLYN238662.return"]
  , "c4" : "//QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN238662[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00273]"
- , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN238662.return" , "---org.springframework.http.ResponseEntity.status@POLYN238662" , "org.springframework.http.ResponseEntity.accepted@POLYN240863.return"]
- , "c4" : "//QC-JAVCWE080[00273] In org.springframework.http.ResponseEntity.accepted@POLYN240863[00273] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -730,18 +730,18 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "7" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00578]"
- , "c3" : ["org.springframework.http.ResponseEntity.DefaultBuilder.body" , "---org.springframework.http.ResponseEntity.DefaultBuilder.dummymethode_00578" , "org.springframework.http.ResponseEntity.DefaultBuilder.this"]
- , "c4" : "//QC-JAVCWE080[00578] In org.springframework.http.ResponseEntity.DefaultBuilder[00578] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00508]"
  , "c3" : ["org.springframework.http.ResponseEntity.DefaultBuilder.this" , "---org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN247392.dummymethode_00508" , "org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN247392.return"]
  , "c4" : "//QC-JAVCWE080[00508] In org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN247392[00508] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00578]"
+ , "c3" : ["org.springframework.http.ResponseEntity.DefaultBuilder.body" , "---org.springframework.http.ResponseEntity.DefaultBuilder.dummymethode_00578" , "org.springframework.http.ResponseEntity.DefaultBuilder.this"]
+ , "c4" : "//QC-JAVCWE080[00578] In org.springframework.http.ResponseEntity.DefaultBuilder[00578] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -778,18 +778,18 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "8" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00578]"
- , "c3" : ["org.springframework.http.ResponseEntity.DefaultBuilder.this.headers" , "---org.springframework.http.ResponseEntity.DefaultBuilder.dummymethode_00578" , "org.springframework.http.ResponseEntity.DefaultBuilder.this"]
- , "c4" : "//QC-JAVCWE080[00578] In org.springframework.http.ResponseEntity.DefaultBuilder[00578] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00508]"
  , "c3" : ["org.springframework.http.ResponseEntity.DefaultBuilder.this" , "---org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN247392.dummymethode_00508" , "org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN247392.return"]
  , "c4" : "//QC-JAVCWE080[00508] In org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN247392[00508] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00578]"
+ , "c3" : ["org.springframework.http.ResponseEntity.DefaultBuilder.this.headers" , "---org.springframework.http.ResponseEntity.DefaultBuilder.dummymethode_00578" , "org.springframework.http.ResponseEntity.DefaultBuilder.this"]
+ , "c4" : "//QC-JAVCWE080[00578] In org.springframework.http.ResponseEntity.DefaultBuilder[00578] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -826,18 +826,18 @@ var maDataBlocs = {
 { "sequence" : { 
  "seq" : "9" , "contenu" : [ 
 { "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00578]"
- , "c3" : ["org.springframework.http.ResponseEntity.DefaultBuilder.this.statusCode" , "---org.springframework.http.ResponseEntity.DefaultBuilder.dummymethode_00578" , "org.springframework.http.ResponseEntity.DefaultBuilder.this"]
- , "c4" : "//QC-JAVCWE080[00578] In org.springframework.http.ResponseEntity.DefaultBuilder[00578] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00508]"
  , "c3" : ["org.springframework.http.ResponseEntity.DefaultBuilder.this" , "---org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN247392.dummymethode_00508" , "org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN247392.return"]
  , "c4" : "//QC-JAVCWE080[00508] In org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN247392[00508] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00578]"
+ , "c3" : ["org.springframework.http.ResponseEntity.DefaultBuilder.this.statusCode" , "---org.springframework.http.ResponseEntity.DefaultBuilder.dummymethode_00578" , "org.springframework.http.ResponseEntity.DefaultBuilder.this"]
+ , "c4" : "//QC-JAVCWE080[00578] In org.springframework.http.ResponseEntity.DefaultBuilder[00578] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -1237,10 +1237,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00273"
- , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#273"
+ , "c1" : "00240"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#240"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE080[00273] In org.springframework.http.ResponseEntity.accepted@POLYN240863[00273] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c3" : "QC-JAVCWE080[00240] In org.springframework.http.ResponseEntity[00240] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1258,10 +1258,31 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00273"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#273"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00273] In org.springframework.http.ResponseEntity.accepted@POLYN240863[00273] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00240"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#240"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAVCWE080[00240] In org.springframework.http.ResponseEntity[00240] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00211"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#211"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN238662[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00230"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#230"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00230] In org.springframework.http.ResponseEntity.ok@POLYN239267[00230] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1272,6 +1293,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00240"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#240"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00240] In org.springframework.http.ResponseEntity[00240] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00211"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#211"
  , "c2" : "BLOCKER"
@@ -1283,13 +1311,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#230"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAVCWE080[00230] In org.springframework.http.ResponseEntity.ok@POLYN239267[00230] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00240"
- , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#240"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE080[00240] In org.springframework.http.ResponseEntity[00240] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1300,20 +1321,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00211"
- , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#211"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN238662[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00230"
- , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#230"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE080[00230] In org.springframework.http.ResponseEntity.ok@POLYN239267[00230] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00240"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#240"
  , "c2" : "BLOCKER"
@@ -1321,13 +1328,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00300"
- , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#300"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE080[00300] In org.springframework.http.ResponseEntity.notFound@POLYN241577[00300] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00211"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#211"
  , "c2" : "BLOCKER"
@@ -1339,6 +1339,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#230"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAVCWE080[00230] In org.springframework.http.ResponseEntity.ok@POLYN239267[00230] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00300"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#300"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00300] In org.springframework.http.ResponseEntity.notFound@POLYN241577[00300] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1370,10 +1377,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00240"
- , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#240"
+ , "c1" : "00211"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#211"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE080[00240] In org.springframework.http.ResponseEntity[00240] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c3" : "QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN238662[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1381,13 +1388,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#230"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAVCWE080[00230] In org.springframework.http.ResponseEntity.ok@POLYN239267[00230] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00211"
- , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#211"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN238662[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
 }} 
 ,
 { "ligne" : {"" : ""
