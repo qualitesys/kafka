@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.PipedInputStream.java.html" 
- , "texte" : "File secujava/java.io.PipedInputStream.java 68 rule violations " 
+ , "texte" : "File secujava/java.io.PipedInputStream.java 70 rule violations " 
  , "fic2"  : "./qc/secujava/java.io.PipedInputStream.java.xml" 
  , "fic3"  : "" 
 }
@@ -673,6 +673,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVCWE099"
+ , "c3" : "Ressource injection"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -1190,6 +1197,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#446"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00446] In method java.io.PipedInputStream.close@POLYN231219 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00390"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#390"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00390] In java.io.PipedInputStream.read@POLYN227843[00390] source data PATHtainted (java.io.PipedInputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00395"
+ , "c1link" : "./qc/secujava/java.io.PipedInputStream.java.html#395"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00395] In java.io.PipedInputStream.read@POLYN227843[00395] source data PATHtainted (java.io.PipedInputStream.read) RiskOnInput"
 }} 
 ]
 , 

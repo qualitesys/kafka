@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.net.Socket.java.html" 
- , "texte" : "File secujava/java.net.Socket.java 210 rule violations " 
+ , "texte" : "File secujava/java.net.Socket.java 216 rule violations " 
  , "fic2"  : "./qc/secujava/java.net.Socket.java.xml" 
  , "fic3"  : "" 
 }
@@ -1273,6 +1273,13 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVCWE099"
+ , "c3" : "Ressource injection"
+ , "c4" : "6"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAVCWE833"
@@ -2582,6 +2589,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.net.Socket.java.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000004[00001] Void method setPerformancePreferences is empty or contains only a return. Interface segregation"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.net.Socket.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00001] In java.net.Socket.getInputStream@POLYN484249[00001] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.net.Socket.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00001] In java.net.Socket.getInputStream@POLYN484249[00001] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.net.Socket.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00001] In java.net.Socket.getReceiveBufferSize@POLYN497886[00001] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.net.Socket.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00001] In java.net.Socket.getReceiveBufferSize@POLYN497886[00001] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.net.Socket.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00001] In java.net.Socket.isClosed@POLYN508553[00001] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.net.Socket.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00001] In java.net.Socket.close@POLYN504776[00001] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.ObjectOutputStream.java.html" 
- , "texte" : "File secujava/java.io.ObjectOutputStream.java 526 rule violations " 
+ , "texte" : "File secujava/java.io.ObjectOutputStream.java 528 rule violations " 
  , "fic2"  : "./qc/secujava/java.io.ObjectOutputStream.java.xml" 
  , "fic3"  : "" 
 }
@@ -3709,6 +3709,13 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVCWE099"
+ , "c3" : "Ressource injection"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999995"
  , "c3" : "Recursivity with depth over 1 between method xx and method yy"
  , "c4" : "18"
@@ -6899,6 +6906,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#546"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000004[00546] Void method annotateProxyClass is empty or contains only a return. Interface segregation"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01365"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1365"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[01365] In java.io.ObjectOutputStream.writeArray@POLYN593220[01365] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01364"
+ , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1364"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[01364] In java.io.ObjectOutputStream.writeArray@POLYN593220[01364] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
 }} 
 ,
 { "ligne" : {"" : ""

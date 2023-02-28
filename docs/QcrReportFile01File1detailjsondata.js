@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/aa__all_files.java.html" 
- , "texte" : "File aa__all_files.java 2807 rule violations " 
+ , "texte" : "File aa__all_files.java 2915 rule violations " 
  , "fic2"  : "./qc/aa__all_files.java.xml" 
  , "fic3"  : "" 
 }
@@ -15500,6 +15500,13 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVCWE099"
+ , "c3" : "Ressource injection"
+ , "c4" : "108"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-JAVCWE833"
  , "c3" : "Potential deadlock between at least two ressources"
  , "c4" : "383"
@@ -15521,6 +15528,524 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00197"
+ , "c1link" : "./qc/aa__all_files.java.html#197"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00197] In org.apache.kafka.streams.state.internals.OffsetCheckpoint.readInt@POLYN181035[00197] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00389"
+ , "c1link" : "./qc/aa__all_files.java.html#389"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00389] In java.io.BufferedReader.readLine@POLYN242697[00389] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00365"
+ , "c1link" : "./qc/aa__all_files.java.html#365"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00365] In java.io.BufferedReader.readLine@POLYN239510[00365] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00356"
+ , "c1link" : "./qc/aa__all_files.java.html#356"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00356] In java.io.BufferedReader.readLine@POLYN239510[00356] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00351"
+ , "c1link" : "./qc/aa__all_files.java.html#351"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00351] In java.io.BufferedReader.readLine@POLYN239510[00351] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00350"
+ , "c1link" : "./qc/aa__all_files.java.html#350"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00350] In java.io.BufferedReader.readLine@POLYN239510[00350] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00342"
+ , "c1link" : "./qc/aa__all_files.java.html#342"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00342] In java.io.BufferedReader.readLine@POLYN239510[00342] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00197"
+ , "c1link" : "./qc/aa__all_files.java.html#197"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00197] In org.apache.kafka.streams.state.internals.OffsetCheckpoint.readInt@POLYN181035[00197] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00389"
+ , "c1link" : "./qc/aa__all_files.java.html#389"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00389] In java.io.BufferedReader.readLine@POLYN242697[00389] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00365"
+ , "c1link" : "./qc/aa__all_files.java.html#365"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00365] In java.io.BufferedReader.readLine@POLYN239510[00365] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00356"
+ , "c1link" : "./qc/aa__all_files.java.html#356"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00356] In java.io.BufferedReader.readLine@POLYN239510[00356] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00351"
+ , "c1link" : "./qc/aa__all_files.java.html#351"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00351] In java.io.BufferedReader.readLine@POLYN239510[00351] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00350"
+ , "c1link" : "./qc/aa__all_files.java.html#350"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00350] In java.io.BufferedReader.readLine@POLYN239510[00350] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00342"
+ , "c1link" : "./qc/aa__all_files.java.html#342"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00342] In java.io.BufferedReader.readLine@POLYN239510[00342] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00197"
+ , "c1link" : "./qc/aa__all_files.java.html#197"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00197] In org.apache.kafka.streams.state.internals.OffsetCheckpoint.readInt@POLYN181035[00197] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00389"
+ , "c1link" : "./qc/aa__all_files.java.html#389"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00389] In java.io.BufferedReader.readLine@POLYN242697[00389] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00365"
+ , "c1link" : "./qc/aa__all_files.java.html#365"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00365] In java.io.BufferedReader.readLine@POLYN239510[00365] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00356"
+ , "c1link" : "./qc/aa__all_files.java.html#356"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00356] In java.io.BufferedReader.readLine@POLYN239510[00356] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00350"
+ , "c1link" : "./qc/aa__all_files.java.html#350"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00350] In java.io.BufferedReader.readLine@POLYN239510[00350] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00157"
+ , "c1link" : "./qc/aa__all_files.java.html#157"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00157] In java.io.Writer.write@POLYN192396[00157] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00525"
+ , "c1link" : "./qc/aa__all_files.java.html#525"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00525] In java.io.PrintStream.write@POLYN360925[00525] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00823"
+ , "c1link" : "./qc/aa__all_files.java.html#823"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00823] In java.io.PrintStream.println@POLYN371086[00823] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00669"
+ , "c1link" : "./qc/aa__all_files.java.html#669"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00669] In java.io.PrintStream.print@POLYN366116[00669] target data PATHtainted (java.io.PrintStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00157"
+ , "c1link" : "./qc/aa__all_files.java.html#157"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00157] In java.io.Writer.write@POLYN192396[00157] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00525"
+ , "c1link" : "./qc/aa__all_files.java.html#525"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00525] In java.io.PrintStream.write@POLYN360925[00525] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00823"
+ , "c1link" : "./qc/aa__all_files.java.html#823"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00823] In java.io.PrintStream.println@POLYN371086[00823] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00669"
+ , "c1link" : "./qc/aa__all_files.java.html#669"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00669] In java.io.PrintStream.print@POLYN366116[00669] target data PATHtainted (java.io.PrintStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00157"
+ , "c1link" : "./qc/aa__all_files.java.html#157"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00157] In java.io.Writer.write@POLYN192396[00157] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00525"
+ , "c1link" : "./qc/aa__all_files.java.html#525"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00525] In java.io.PrintStream.write@POLYN360925[00525] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00823"
+ , "c1link" : "./qc/aa__all_files.java.html#823"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00823] In java.io.PrintStream.println@POLYN371086[00823] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00669"
+ , "c1link" : "./qc/aa__all_files.java.html#669"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00669] In java.io.PrintStream.print@POLYN366116[00669] target data PATHtainted (java.io.PrintStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02598"
+ , "c1link" : "./qc/aa__all_files.java.html#2598"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[02598] In java.io.ObjectInputStream.PeekInputStream.peek@POLYN872987[02598] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03091"
+ , "c1link" : "./qc/aa__all_files.java.html#3091"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[03091] In java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN893959[03091] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00188"
+ , "c1link" : "./qc/aa__all_files.java.html#188"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00188] In java.io.InputStream.read@POLYN246846[00188] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00177"
+ , "c1link" : "./qc/aa__all_files.java.html#177"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00177] In java.io.InputStream.read@POLYN246846[00177] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00468"
+ , "c1link" : "./qc/aa__all_files.java.html#468"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00468] In org.apache.kafka.common.record.LegacyRecord.write@POLYN246511[00468] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00808"
+ , "c1link" : "./qc/aa__all_files.java.html#808"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00808] In java.io.ObjectOutputStream.writeLong@POLYN573547[00808] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00207"
+ , "c1link" : "./qc/aa__all_files.java.html#207"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00207] In org.apache.kafka.common.record.DefaultRecord.writeTo@POLYN229828[00207] target data PATHtainted (java.io.FileOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00279"
+ , "c1link" : "./qc/aa__all_files.java.html#279"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00279] In java.io.FileOutputStream.write@POLYN233024[00279] target data PATHtainted (java.io.FileOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00207"
+ , "c1link" : "./qc/aa__all_files.java.html#207"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00207] In org.apache.kafka.common.record.DefaultRecord.writeTo@POLYN229828[00207] target data PATHtainted (java.io.FileOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00279"
+ , "c1link" : "./qc/aa__all_files.java.html#279"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00279] In java.io.FileOutputStream.write@POLYN233024[00279] target data PATHtainted (java.io.FileOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00207"
+ , "c1link" : "./qc/aa__all_files.java.html#207"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00207] In org.apache.kafka.common.record.DefaultRecord.writeTo@POLYN229828[00207] target data PATHtainted (java.io.FileOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00279"
+ , "c1link" : "./qc/aa__all_files.java.html#279"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00279] In java.io.FileOutputStream.write@POLYN233024[00279] target data PATHtainted (java.io.FileOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00207"
+ , "c1link" : "./qc/aa__all_files.java.html#207"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00207] In org.apache.kafka.common.record.DefaultRecord.writeTo@POLYN229828[00207] target data PATHtainted (java.io.FileOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00279"
+ , "c1link" : "./qc/aa__all_files.java.html#279"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00279] In java.io.FileOutputStream.write@POLYN233024[00279] target data PATHtainted (java.io.FileOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/aa__all_files.java.html#53"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00053] In org.apache.kafka.streams.kstream.internals.PrintForeachAction.apply@POLYN150933[00053] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00641"
+ , "c1link" : "./qc/aa__all_files.java.html#641"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00641] In java.io.PrintWriter.println@POLYN350639[00641] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/aa__all_files.java.html#53"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00053] In org.apache.kafka.streams.kstream.internals.PrintForeachAction.apply@POLYN150933[00053] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00641"
+ , "c1link" : "./qc/aa__all_files.java.html#641"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00641] In java.io.PrintWriter.println@POLYN350639[00641] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/aa__all_files.java.html#53"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00053] In org.apache.kafka.streams.kstream.internals.PrintForeachAction.apply@POLYN150933[00053] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00641"
+ , "c1link" : "./qc/aa__all_files.java.html#641"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00641] In java.io.PrintWriter.println@POLYN350639[00641] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/aa__all_files.java.html#53"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00053] In org.apache.kafka.streams.kstream.internals.PrintForeachAction.apply@POLYN150933[00053] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00641"
+ , "c1link" : "./qc/aa__all_files.java.html#641"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00641] In java.io.PrintWriter.println@POLYN350639[00641] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/aa__all_files.java.html#53"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00053] In org.apache.kafka.streams.kstream.internals.PrintForeachAction.apply@POLYN150933[00053] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00641"
+ , "c1link" : "./qc/aa__all_files.java.html#641"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00641] In java.io.PrintWriter.println@POLYN350639[00641] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/aa__all_files.java.html#53"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00053] In org.apache.kafka.streams.kstream.internals.PrintForeachAction.apply@POLYN150933[00053] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00641"
+ , "c1link" : "./qc/aa__all_files.java.html#641"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00641] In java.io.PrintWriter.println@POLYN350639[00641] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/aa__all_files.java.html#53"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00053] In org.apache.kafka.streams.kstream.internals.PrintForeachAction.apply@POLYN150933[00053] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00641"
+ , "c1link" : "./qc/aa__all_files.java.html#641"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00641] In java.io.PrintWriter.println@POLYN350639[00641] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00053"
+ , "c1link" : "./qc/aa__all_files.java.html#53"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00053] In org.apache.kafka.streams.kstream.internals.PrintForeachAction.apply@POLYN150933[00053] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00641"
+ , "c1link" : "./qc/aa__all_files.java.html#641"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00641] In java.io.PrintWriter.println@POLYN350639[00641] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01117"
+ , "c1link" : "./qc/aa__all_files.java.html#1117"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[01117] In org.apache.kafka.common.utils.Utils.readFully@POLYN455991[01117] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01117"
+ , "c1link" : "./qc/aa__all_files.java.html#1117"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[01117] In org.apache.kafka.common.utils.Utils.readFully@POLYN455991[01117] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00168"
+ , "c1link" : "./qc/aa__all_files.java.html#168"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00168] In java.io.InputStream.read@POLYN246846[00168] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01117"
+ , "c1link" : "./qc/aa__all_files.java.html#1117"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[01117] In org.apache.kafka.common.utils.Utils.readFully@POLYN455991[01117] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01117"
+ , "c1link" : "./qc/aa__all_files.java.html#1117"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[01117] In org.apache.kafka.common.utils.Utils.readFully@POLYN455991[01117] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00173"
+ , "c1link" : "./qc/aa__all_files.java.html#173"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00173] In java.io.InputStream.read@POLYN246846[00173] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01117"
+ , "c1link" : "./qc/aa__all_files.java.html#1117"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[01117] In org.apache.kafka.common.utils.Utils.readFully@POLYN455991[01117] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01117"
+ , "c1link" : "./qc/aa__all_files.java.html#1117"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[01117] In org.apache.kafka.common.utils.Utils.readFully@POLYN455991[01117] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00162"
+ , "c1link" : "./qc/aa__all_files.java.html#162"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00162] In org.apache.kafka.shell.LsCommandHandler.printEntries@POLYN189983[00162] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00739"
+ , "c1link" : "./qc/aa__all_files.java.html#739"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00739] In java.io.PrintWriter.println@POLYN353871[00739] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00226"
+ , "c1link" : "./qc/aa__all_files.java.html#226"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00226] In org.apache.kafka.common.network.SslTransportLayer.readFromSocketChannel@POLYN300244[00226] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00226"
+ , "c1link" : "./qc/aa__all_files.java.html#226"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00226] In org.apache.kafka.common.network.SslTransportLayer.readFromSocketChannel@POLYN300244[00226] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/aa__all_files.java.html#102"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00102] In java.io.InputStream.read@POLYN243687[00102] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+}} 
+,
 { "ligne" : {"" : ""
  , "c1" : "00240"
  , "c1link" : "./qc/aa__all_files.java.html#240"
@@ -15662,6 +16187,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00390"
+ , "c1link" : "./qc/aa__all_files.java.html#390"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00390] In java.io.PipedInputStream.read@POLYN227843[00390] source data PATHtainted (java.io.PipedInputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00395"
+ , "c1link" : "./qc/aa__all_files.java.html#395"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00395] In java.io.PipedInputStream.read@POLYN227843[00395] source data PATHtainted (java.io.PipedInputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00211"
  , "c1link" : "./qc/aa__all_files.java.html#211"
  , "c2" : "BLOCKER"
@@ -15680,6 +16219,230 @@ var maDataBlocs = {
  , "c1link" : "./qc/aa__all_files.java.html#273"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAVCWE080[00273] In org.springframework.http.ResponseEntity.accepted@POLYN240863[00273] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00350"
+ , "c1link" : "./qc/aa__all_files.java.html#350"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00350] In java.io.BufferedInputStream.read@POLYN245332[00350] source data PATHtainted (java.io.BufferedInputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00343"
+ , "c1link" : "./qc/aa__all_files.java.html#343"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00343] In java.io.BufferedInputStream.read@POLYN245332[00343] source data PATHtainted (java.io.BufferedInputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01983"
+ , "c1link" : "./qc/aa__all_files.java.html#1983"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[01983] In java.io.ObjectInputStream.readEnum@POLYN845523[01983] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01964"
+ , "c1link" : "./qc/aa__all_files.java.html#1964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[01964] In java.io.ObjectInputStream.readEnum@POLYN845523[01964] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01365"
+ , "c1link" : "./qc/aa__all_files.java.html#1365"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[01365] In java.io.ObjectOutputStream.writeArray@POLYN593220[01365] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01364"
+ , "c1link" : "./qc/aa__all_files.java.html#1364"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[01364] In java.io.ObjectOutputStream.writeArray@POLYN593220[01364] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/aa__all_files.java.html#74"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00074] In org.apache.kafka.common.protocol.DataOutputStreamWritable.writeDouble@POLYN156549[00074] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00376"
+ , "c1link" : "./qc/aa__all_files.java.html#376"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00376] In org.apache.kafka.common.utils.ByteUtils.writeDouble@POLYN232163[00376] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00056"
+ , "c1link" : "./qc/aa__all_files.java.html#56"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00056] In org.apache.kafka.common.protocol.DataOutputStreamWritable.writeInt@POLYN155975[00056] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00276"
+ , "c1link" : "./qc/aa__all_files.java.html#276"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00276] In org.apache.kafka.common.record.AbstractLegacyRecordBatch.writeHeader@POLYN219655[00276] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00124"
+ , "c1link" : "./qc/aa__all_files.java.html#124"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00124] In org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344[00124] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00129"
+ , "c1link" : "./qc/aa__all_files.java.html#129"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00129] In org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344[00129] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/aa__all_files.java.html#103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00103] In org.apache.kafka.common.serialization.ListSerializer.serializeNullIndexList@POLYN166403[00103] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00149"
+ , "c1link" : "./qc/aa__all_files.java.html#149"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00149] In org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN224909[00149] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00159"
+ , "c1link" : "./qc/aa__all_files.java.html#159"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00159] In org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN224909[00159] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00160"
+ , "c1link" : "./qc/aa__all_files.java.html#160"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00160] In org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN224909[00160] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00168"
+ , "c1link" : "./qc/aa__all_files.java.html#168"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00168] In org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo.encode@POLYN224909[00168] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00045"
+ , "c1link" : "./qc/aa__all_files.java.html#45"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00045] In org.apache.kafka.streams.processor.internals.assignment.ConsumerProtocolUtils.writeTaskIdTo@POLYN158597[00045] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00929"
+ , "c1link" : "./qc/aa__all_files.java.html#929"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00929] In org.apache.kafka.tools.TransactionsCommand.printRow@POLYN312602[00929] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00708"
+ , "c1link" : "./qc/aa__all_files.java.html#708"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00708] In java.io.PrintStream.println@POLYN367398[00708] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00171"
+ , "c1link" : "./qc/aa__all_files.java.html#171"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00171] In org.apache.kafka.trogdor.agent.Agent.exec@POLYN188976[00171] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00708"
+ , "c1link" : "./qc/aa__all_files.java.html#708"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00708] In java.io.PrintStream.println@POLYN367398[00708] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00186"
+ , "c1link" : "./qc/aa__all_files.java.html#186"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00186] In org.apache.kafka.trogdor.agent.Agent.exec@POLYN188976[00186] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00708"
+ , "c1link" : "./qc/aa__all_files.java.html#708"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00708] In java.io.PrintStream.println@POLYN367398[00708] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00067"
+ , "c1link" : "./qc/aa__all_files.java.html#67"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00067] In org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN154632[00067] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00806"
+ , "c1link" : "./qc/aa__all_files.java.html#806"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00806] In java.io.PrintStream.println@POLYN370565[00806] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/aa__all_files.java.html#81"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00081] In org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN164272[00081] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00806"
+ , "c1link" : "./qc/aa__all_files.java.html#806"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00806] In java.io.PrintStream.println@POLYN370565[00806] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00220"
+ , "c1link" : "./qc/aa__all_files.java.html#220"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00220] In java.net.ServerSocket.ServerSocket@POLYN309697[00220] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00218"
+ , "c1link" : "./qc/aa__all_files.java.html#218"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00218] In java.net.ServerSocket.ServerSocket@POLYN309697[00218] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00585"
+ , "c1link" : "./qc/aa__all_files.java.html#585"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00585] In java.net.ServerSocket.isClosed@POLYN322637[00585] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00542"
+ , "c1link" : "./qc/aa__all_files.java.html#542"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00542] In java.net.ServerSocket.close@POLYN321527[00542] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
 }} 
 ,
 { "ligne" : {"" : ""

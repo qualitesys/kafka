@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.InputStream.java.html" 
- , "texte" : "File secujava/java.io.InputStream.java 32 rule violations " 
+ , "texte" : "File secujava/java.io.InputStream.java 35 rule violations " 
  , "fic2"  : "./qc/secujava/java.io.InputStream.java.xml" 
  , "fic3"  : "" 
 }
@@ -216,6 +216,13 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVCWE099"
+ , "c3" : "Ressource injection"
+ , "c4" : "3"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV000004"
@@ -489,6 +496,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#303"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000004[00303] Void method mark is empty or contains only a return. Interface segregation"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00225"
+ , "c1link" : "./qc/secujava/java.io.InputStream.java.html#225"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00225] In java.io.InputStream.skip@POLYN249148[00225] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00188"
+ , "c1link" : "./qc/secujava/java.io.InputStream.java.html#188"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00188] In java.io.InputStream.read@POLYN246846[00188] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00177"
+ , "c1link" : "./qc/secujava/java.io.InputStream.java.html#177"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00177] In java.io.InputStream.read@POLYN246846[00177] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
 }} 
 ]
 , 
