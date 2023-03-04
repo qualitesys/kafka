@@ -242,21 +242,6 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1463Seq5.html#seq5"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1463&numSeq=5"
  , "c2" : "5"
- , "c3" : "3"
- , "c4" : "3"
- , "c5" : ["java.io.PipedInputStream.receive@POLYN221377.len" , "java.io.PipedInputStream.in"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ok"
- , "secu2" : "Ok"
- , "secu3" : "Ok"
- , "secu4" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1463Seq6.html#seq6"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1463&numSeq=6"
- , "c2" : "6"
  , "c3" : "2"
  , "c4" : "2"
  , "c5" : ["java.io.PipedInputStream.read@POLYN224832.-1" , "java.io.PipedInputStream.read@POLYN227843.c"]
@@ -269,9 +254,9 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1463Seq7.html#seq7"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1463&numSeq=7"
- , "c2" : "7"
+ , "c1" : "./QcrReportFile01File1463Seq6.html#seq6"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1463&numSeq=6"
+ , "c2" : "6"
  , "c3" : "2"
  , "c4" : "2"
  , "c5" : ["java.io.PipedInputStream.read@POLYN224832.ret" , "java.io.PipedInputStream.read@POLYN227843.c"]
@@ -513,62 +498,6 @@ var maDataBlocs = {
  "seq" : "5" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
- , "sourcenoligne" : "[00228]"
- , "c3" : ["java.io.PipedInputStream.receive@POLYN221377.len" , "---java.io.PipedInputStream.receive@POLYN221377.dummymethode_00228" , "java.io.PipedInputStream.receive@POLYN221377.bytesToTransfer"]
- , "c4" : "//QC-JAVCWZ099[00228] In java.io.PipedInputStream.receive@POLYN221377[00228] source data PATHtainted (java.io.PipedInputStream.receive) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00244]"
- , "c3" : ["java.io.PipedInputStream.receive@POLYN221377.bytesToTransfer" , "---java.io.PipedInputStream.receive@POLYN221377.dummymethode_00244" , "java.io.PipedInputStream.receive@POLYN221377.nextTransferAmount"]
- , "c4" : "//QC-JAVCWZ099[00244] In java.io.PipedInputStream.receive@POLYN221377[00244] source data PATHtainted (java.io.PipedInputStream.receive) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "3"
- , "sourcenoligne" : "[00249]"
- , "c3" : ["java.io.PipedInputStream.receive@POLYN221377.nextTransferAmount" , "---java.io.PipedInputStream.receive@POLYN221377.dummymethode_00249" , "java.io.PipedInputStream.in"]
- , "c4" : "//QC-JAVCWZ099[00249] In java.io.PipedInputStream.receive@POLYN221377[00249] source data PATHtainted (java.io.PipedInputStream.receive) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "6" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "1"
  , "sourcenoligne" : "[00318]"
  , "c3" : ["java.io.PipedInputStream.read@POLYN224832.-1" , "---java.io.PipedInputStream.read@POLYN224832.dummymethode_00318" , "java.io.PipedInputStream.read@POLYN224832.return"]
  , "c4" : "//QC-JAVCWZ099[00318] In java.io.PipedInputStream.read@POLYN224832[00318] source data PATHtainted (java.io.PipedInputStream.read) RiskOnInput"
@@ -614,7 +543,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "7" , "contenu" : [ 
+ "seq" : "6" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00340]"
