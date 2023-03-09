@@ -479,9 +479,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1468Seq1.html#seq1"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1468&numSeq=1"
  , "c2" : "1"
- , "c3" : "3"
+ , "c3" : "4"
  , "c4" : "3"
- , "c5" : ["java.io.PrintWriter.print@POLYN348887.s" , "java.io.PrintWriter.write@POLYN343860.cibledummy_00443"]
+ , "c5" : ["java.io.PrintWriter.print@POLYN349351.s" , "java.io.PrintWriter.write@POLYN344852.cibledummy_00473"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -494,9 +494,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1468Seq2.html#seq2"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1468&numSeq=2"
  , "c2" : "2"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.io.PrintWriter.print@POLYN346381.c" , "java.io.PrintWriter.print@POLYN346381.c"]
+ , "c3" : "3"
+ , "c4" : "3"
+ , "c5" : ["java.io.PrintWriter.print@POLYN348887.s" , "java.io.PrintWriter.write@POLYN343860.cibledummy_00443"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -509,6 +509,21 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1468Seq3.html#seq3"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1468&numSeq=3"
  , "c2" : "3"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.PrintWriter.print@POLYN346381.c" , "java.io.PrintWriter.print@POLYN346381.c"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1468Seq4.html#seq4"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1468&numSeq=4"
+ , "c2" : "4"
  , "c3" : "2"
  , "c4" : "2"
  , "c5" : ["java.io.PrintWriter.append@POLYN362525.'null'" , "java.io.Writer.write@POLYN191096.c"]
@@ -524,6 +539,70 @@ var maDataBlocs = {
 "data09b" : [
 { "sequence" : { 
  "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00603]"
+ , "c3" : ["java.io.PrintWriter.print@POLYN349351.s" , "---java.io.PrintWriter.write@POLYN344852" , "java.io.PrintWriter.write@POLYN344852.s"]
+ , "c4" : "//QC-JAVCWZ099[00603] In java.io.PrintWriter.print@POLYN349351[00603] target data PATHtainted (java.io.PrintWriter.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00754]"
+ , "c3" : ["java.lang.String.valueOf@POLYN913018.return" , "---java.lang.String.valueOf@POLYN913018" , "java.io.PrintWriter.println@POLYN354394.s"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00756]"
+ , "c3" : ["java.io.PrintWriter.println@POLYN354394.s" , "---java.io.PrintWriter.print@POLYN349351" , "java.io.PrintWriter.print@POLYN349351.s"]
+ , "c4" : "//QC-JAVCWZ099[00756] In java.io.PrintWriter.println@POLYN354394[00756] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00473]"
+ , "c3" : ["java.io.PrintWriter.write@POLYN344852.s" , "---java.io.PrintWriter.write@POLYN344852" , "java.io.PrintWriter.write@POLYN344852.cibledummy_00473"]
+ , "c4" : "//QC-JAVCWZ099[00473] In java.io.PrintWriter.write@POLYN344852[00473] target data PATHtainted (java.io.PrintWriter.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "2" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00587]"
@@ -579,7 +658,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "2" , "contenu" : [ 
+ "seq" : "3" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00517]"
@@ -627,7 +706,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "3" , "contenu" : [ 
+ "seq" : "4" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[01002]"
