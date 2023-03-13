@@ -180,9 +180,9 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
- , "sourcenoligne" : "[00102]"
- , "c3" : ["java.io.Reader.read@POLYN182534.n" , "---java.io.Reader.read@POLYN182534.dummymethode_00102" , "java.io.Reader.read@POLYN182534.cibledummy_00102"]
- , "c4" : "//QC-JAVCWZ099[00102] In java.io.Reader.read@POLYN182534[00102] source data PATHtainted (java.io.Reader.read) RiskOnInput"
+ , "sourcenoligne" : "[00103]"
+ , "c3" : ["java.io.Reader.read@POLYN182534.n" , "---java.io.Reader.read@POLYN182534.dummymethode_00103" , "java.io.Reader.read@POLYN182534.return"]
+ , "c4" : "//QC-JAVCWZ099[00103] In java.io.Reader.read@POLYN182534[00103] source data PATHtainted (java.io.Reader.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,

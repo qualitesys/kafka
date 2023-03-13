@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Utils.java 302 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Utils.java 304 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.xml" 
  , "fic3"  : "" 
 }
@@ -610,9 +610,94 @@ var maDataBlocs = {
 ]
 , 
 "data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File921Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=921&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "5"
+ , "c4" : "2"
+ , "c5" : ["org.apache.kafka.common.utils.Utils.readFully@POLYN455991.position" , "org.apache.kafka.common.utils.Utils.readFully@POLYN455991.position"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
 ]
 ,
 "data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01114]"
+ , "c3" : ["org.apache.kafka.common.utils.Utils.readFully@POLYN455991.position" , "---org.apache.kafka.common.utils.Utils.readFully@POLYN455991.dummymethode_01114" , "org.apache.kafka.common.utils.Utils.readFully@POLYN455991.currentPosition"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01117]"
+ , "c3" : ["org.apache.kafka.common.utils.Utils.readFully@POLYN455991.currentPosition" , "---java.io.InputStream.read@POLYN246846" , "java.io.InputStream.read@POLYN246846.off"]
+ , "c4" : "//QC-JAVCWE099[01117] In org.apache.kafka.common.utils.Utils.readFully@POLYN455991[01117] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[01117]"
+ , "c3" : ["java.io.InputStream.read@POLYN246846.return" , "---java.io.InputStream.read@POLYN246846" , "org.apache.kafka.common.utils.Utils.readFully@POLYN455991.bytesRead"]
+ , "c4" : "//QC-JAVCWE099[01117] In org.apache.kafka.common.utils.Utils.readFully@POLYN455991[01117] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[01118]"
+ , "c3" : ["org.apache.kafka.common.utils.Utils.readFully@POLYN455991.bytesRead" , "---org.apache.kafka.common.utils.Utils.readFully@POLYN455991.dummymethode_01118" , "org.apache.kafka.common.utils.Utils.readFully@POLYN455991.currentPosition"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "5"
+ , "sourcenoligne" : "[01090]"
+ , "c3" : ["org.apache.kafka.common.utils.Utils.readFullyOrFail@POLYN454725.position" , "---org.apache.kafka.common.utils.Utils.readFully@POLYN455991" , "org.apache.kafka.common.utils.Utils.readFully@POLYN455991.position"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
 ]
 , 
 "data10" : [
@@ -634,6 +719,13 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVCWE099"
+ , "c3" : "Ressource injection"
+ , "c4" : "2"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
@@ -2741,6 +2833,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1427"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01427] In method org.apache.kafka.common.utils.Utils.enumOptions@POLYN473607 the MagicNumber/String  ' is not an enumerable type' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01117"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1117"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[01117] In org.apache.kafka.common.utils.Utils.readFully@POLYN455991[01117] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01117"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1117"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[01117] In org.apache.kafka.common.utils.Utils.readFully@POLYN455991[01117] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
 }} 
 ,
 { "ligne" : {"" : ""

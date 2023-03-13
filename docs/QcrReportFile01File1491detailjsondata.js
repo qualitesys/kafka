@@ -349,7 +349,7 @@ var maDataBlocs = {
  , "c2" : "3"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.net.ServerSocket.getImpl@POLYN310780.return" , "java.net.ServerSocket.getImpl@POLYN310780.return"]
+ , "c5" : ["java.net.ServerSocket.accept@POLYN318666.s" , "java.net.ServerSocket.accept@POLYN318666.cibledummy_00469"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -364,7 +364,7 @@ var maDataBlocs = {
  , "c2" : "4"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["0" , "java.net.ServerSocket.getReceiveBufferSize@POLYN330540.return"]
+ , "c5" : ["java.net.ServerSocket.getImpl@POLYN310780.return" , "java.net.ServerSocket.getImpl@POLYN310780.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -377,6 +377,21 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1491Seq5.html#seq5"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1491&numSeq=5"
  , "c2" : "5"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["0" , "java.net.ServerSocket.getReceiveBufferSize@POLYN330540.return"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1491Seq6.html#seq6"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1491&numSeq=6"
+ , "c2" : "6"
  , "c3" : "2"
  , "c4" : "2"
  , "c5" : ["true" , "java.net.ServerSocket.isClosed@POLYN322637.return"]
@@ -498,6 +513,54 @@ var maDataBlocs = {
  "seq" : "3" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
+ , "sourcenoligne" : "[00469]"
+ , "c3" : ["java.net.ServerSocket.accept@POLYN318666.s" , "---java.net.ServerSocket.implAccept@POLYN319610" , "java.net.ServerSocket.accept@POLYN318666.cibledummy_00469"]
+ , "c4" : "//QC-JAVCWZ099[00469] In java.net.ServerSocket.accept@POLYN318666[00469] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00469]"
+ , "c3" : ["java.net.ServerSocket.accept@POLYN318666.sourcedummy" , "---java.net.ServerSocket.implAccept@POLYN319610" , "java.net.ServerSocket.accept@POLYN318666.cibledummy_00469"]
+ , "c4" : "//QC-JAVCWZ099[00469] In java.net.ServerSocket.accept@POLYN318666[00469] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "4" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
  , "sourcenoligne" : "[00356]"
  , "c3" : ["java.net.ServerSocket.getImpl@POLYN310780.return" , "---java.net.ServerSocket.getImpl@POLYN310780" , "java.net.ServerSocket.bind@POLYN314160.cibledummy_00356"]
  , "c4" : "//QC-JAVCWZ099[00356] In java.net.ServerSocket.bind@POLYN314160[00356] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
@@ -543,7 +606,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "4" , "contenu" : [ 
+ "seq" : "5" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00812]"
@@ -591,7 +654,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "5" , "contenu" : [ 
+ "seq" : "6" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00542]"

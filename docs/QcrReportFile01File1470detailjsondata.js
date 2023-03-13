@@ -157,7 +157,7 @@ var maDataBlocs = {
  , "c2" : "1"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.io.Writer.writeBuffer" , "java.io.Writer.write@POLYN192155.cbuf"]
+ , "c5" : ["java.io.Writer.write@POLYN192989.(off+len)" , "java.io.Writer.write@POLYN192989.cibledummy_00191"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -172,17 +172,17 @@ var maDataBlocs = {
  "seq" : "1" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
- , "sourcenoligne" : "[00187]"
- , "c3" : ["java.io.Writer.writeBuffer" , "---java.io.Writer.write@POLYN192989.dummymethode_00187" , "java.io.Writer.write@POLYN192989.cbuf"]
- , "c4" : "//QC-JAVCWZ099[00187] In java.io.Writer.write@POLYN192989[00187] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
+ , "sourcenoligne" : "[00191]"
+ , "c3" : ["java.io.Writer.write@POLYN192989.(off+len)" , "---java.io.Writer.write@POLYN192989.dummymethode_00191" , "java.io.Writer.write@POLYN192989.cibledummy_00191"]
+ , "c4" : "//QC-JAVCWZ099[00191] In java.io.Writer.write@POLYN192989[00191] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
  , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
- , "sourcenoligne" : "[00192]"
- , "c3" : ["java.io.Writer.write@POLYN192989.cbuf" , "---java.io.Writer.write@POLYN192155" , "java.io.Writer.write@POLYN192155.cbuf"]
- , "c4" : "//QC-JAVCWZ099[00192] In java.io.Writer.write@POLYN192989[00192] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
+ , "sourcenoligne" : "[00191]"
+ , "c3" : ["java.io.Writer.write@POLYN192989.0" , "---java.io.Writer.write@POLYN192989.dummymethode_00191" , "java.io.Writer.write@POLYN192989.cibledummy_00191"]
+ , "c4" : "//QC-JAVCWZ099[00191] In java.io.Writer.write@POLYN192989[00191] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
  , "c5" : "output"
 }}
 ,
