@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java 169 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java 167 rule violations " 
  , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.xml" 
  , "fic3"  : "" 
 }
@@ -385,70 +385,9 @@ var maDataBlocs = {
 ]
 , 
 "data09a" : [
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File557Seq1.html#seq1"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=557&numSeq=1"
- , "c2" : "1"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["org.apache.kafka.common.record.DefaultRecord.readFrom@POLYN235888.0" , "org.apache.kafka.common.record.DefaultRecord.readFrom@POLYN235888.cibledummy_00283"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ok"
- , "secu2" : "Ok"
- , "secu3" : "Ok"
- , "secu4" : "Ok"
-}}
 ]
 ,
 "data09b" : [
-{ "sequence" : { 
- "seq" : "1" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00283]"
- , "c3" : ["org.apache.kafka.common.record.DefaultRecord.readFrom@POLYN235888.0" , "---java.io.ObjectInputStream.readFully@POLYN810451" , "org.apache.kafka.common.record.DefaultRecord.readFrom@POLYN235888.cibledummy_00283"]
- , "c4" : "//QC-JAVCWE099[00283] In org.apache.kafka.common.record.DefaultRecord.readFrom@POLYN235888[00283] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00283]"
- , "c3" : ["org.apache.kafka.common.record.DefaultRecord.readFrom@POLYN235888.recordBuffer.array()" , "---java.io.ObjectInputStream.readFully@POLYN810451" , "org.apache.kafka.common.record.DefaultRecord.readFrom@POLYN235888.cibledummy_00283"]
- , "c4" : "//QC-JAVCWE099[00283] In org.apache.kafka.common.record.DefaultRecord.readFrom@POLYN235888[00283] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-]
-}}
 ]
 , 
 "data10" : [
@@ -461,13 +400,6 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAVCWE099"
- , "c3" : "Ressource injection"
- , "c4" : "2"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV000004"
@@ -1693,20 +1625,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#124"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000004[00124] Void method ensureValid is empty or contains only a return. Interface segregation"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00283"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#283"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[00283] In org.apache.kafka.common.record.DefaultRecord.readFrom@POLYN235888[00283] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00283"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#283"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[00283] In org.apache.kafka.common.record.DefaultRecord.readFrom@POLYN235888[00283] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
 }} 
 ]
 , 

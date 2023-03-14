@@ -480,8 +480,8 @@ var maDataBlocs = {
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1467&numSeq=1"
  , "c2" : "1"
  , "c3" : "4"
- , "c4" : "3"
- , "c5" : ["java.io.PrintStream.print@POLYN366116.'null'" , "java.io.PrintStream.write@POLYN360925.cibledummy_00525"]
+ , "c4" : "2"
+ , "c5" : ["java.io.PrintStream.print@POLYN366116.s" , "java.io.PrintStream.write@POLYN360925.cibledummy_00525"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -511,14 +511,6 @@ var maDataBlocs = {
  "seq" : "1" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
- , "sourcenoligne" : "[00667]"
- , "c3" : ["java.io.PrintStream.print@POLYN366116.'null'" , "---java.io.PrintStream.print@POLYN366116.dummymethode_00667" , "java.io.PrintStream.print@POLYN366116.s"]
- , "c4" : "//QC-JAVCWZ099[00667] In java.io.PrintStream.print@POLYN366116[00667] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
- , "c5" : "output"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
  , "sourcenoligne" : "[00669]"
  , "c3" : ["java.io.PrintStream.print@POLYN366116.s" , "---java.io.PrintStream.write@POLYN360925" , "java.io.PrintStream.write@POLYN360925.s"]
  , "c4" : "//QC-JAVCWZ099[00669] In java.io.PrintStream.print@POLYN366116[00669] target data PATHtainted (java.io.PrintStream.write) RiskOnOutput"
@@ -526,10 +518,18 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00821]"
+ , "c3" : ["java.lang.String.valueOf@POLYN913018.return" , "---java.lang.String.valueOf@POLYN913018" , "java.io.PrintStream.println@POLYN371086.s"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "3"
- , "sourcenoligne" : "[00806]"
- , "c3" : ["java.io.PrintStream.println@POLYN370565.x" , "---java.io.PrintStream.print@POLYN366116" , "java.io.PrintStream.print@POLYN366116.s"]
- , "c4" : "//QC-JAVCWZ099[00806] In java.io.PrintStream.println@POLYN370565[00806] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
+ , "sourcenoligne" : "[00823]"
+ , "c3" : ["java.io.PrintStream.println@POLYN371086.s" , "---java.io.PrintStream.print@POLYN366116" , "java.io.PrintStream.print@POLYN366116.s"]
+ , "c4" : "//QC-JAVCWZ099[00823] In java.io.PrintStream.println@POLYN371086[00823] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
  , "c5" : "output"
 }}
 ,
