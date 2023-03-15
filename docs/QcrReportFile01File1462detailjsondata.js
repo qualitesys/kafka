@@ -142,9 +142,448 @@ var maDataBlocs = {
 ]
 , 
 "data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1462Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1462&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.OutputStreamWriter.write@POLYN178210.c" , "java.io.OutputStreamWriter.write@POLYN178210.cibledummy_00194"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1462Seq2.html#seq2"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1462&numSeq=2"
+ , "c2" : "2"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.OutputStreamWriter.write@POLYN178541.cbuf" , "java.io.OutputStreamWriter.write@POLYN178541.cibledummy_00207"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1462Seq3.html#seq3"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1462&numSeq=3"
+ , "c2" : "3"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.OutputStreamWriter.write@POLYN178541.len" , "java.io.OutputStreamWriter.write@POLYN178541.len"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1462Seq4.html#seq4"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1462&numSeq=4"
+ , "c2" : "4"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.OutputStreamWriter.write@POLYN178541.off" , "java.io.OutputStreamWriter.write@POLYN178541.off"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1462Seq5.html#seq5"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1462&numSeq=5"
+ , "c2" : "5"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.OutputStreamWriter.write@POLYN178963.len" , "java.io.OutputStreamWriter.write@POLYN178963.len"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1462Seq6.html#seq6"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1462&numSeq=6"
+ , "c2" : "6"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.OutputStreamWriter.write@POLYN178963.off" , "java.io.OutputStreamWriter.write@POLYN178963.off"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1462Seq7.html#seq7"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1462&numSeq=7"
+ , "c2" : "7"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.OutputStreamWriter.write@POLYN178963.str" , "java.io.OutputStreamWriter.write@POLYN178963.str"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
 ]
 ,
 "data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00194]"
+ , "c3" : ["java.io.OutputStreamWriter.write@POLYN178210.c" , "---java.io.OutputStreamWriter.write@POLYN178210" , "java.io.OutputStreamWriter.write@POLYN178210.c"]
+ , "c4" : "//QC-JAVCWZ099[00194] In java.io.OutputStreamWriter.write@POLYN178210[00194] target data PATHtainted (java.io.OutputStreamWriter.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00194]"
+ , "c3" : ["java.io.OutputStreamWriter.write@POLYN178210.c" , "---java.io.OutputStreamWriter.write@POLYN178210" , "java.io.OutputStreamWriter.write@POLYN178210.cibledummy_00194"]
+ , "c4" : "//QC-JAVCWZ099[00194] In java.io.OutputStreamWriter.write@POLYN178210[00194] target data PATHtainted (java.io.OutputStreamWriter.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "2" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00207]"
+ , "c3" : ["java.io.OutputStreamWriter.write@POLYN178541.cbuf" , "---java.io.OutputStreamWriter.write@POLYN178541" , "java.io.OutputStreamWriter.write@POLYN178541.cbuf"]
+ , "c4" : "//QC-JAVCWZ099[00207] In java.io.OutputStreamWriter.write@POLYN178541[00207] target data PATHtainted (java.io.OutputStreamWriter.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00207]"
+ , "c3" : ["java.io.OutputStreamWriter.write@POLYN178541.cbuf" , "---java.io.OutputStreamWriter.write@POLYN178541" , "java.io.OutputStreamWriter.write@POLYN178541.cibledummy_00207"]
+ , "c4" : "//QC-JAVCWZ099[00207] In java.io.OutputStreamWriter.write@POLYN178541[00207] target data PATHtainted (java.io.OutputStreamWriter.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "3" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00207]"
+ , "c3" : ["java.io.OutputStreamWriter.write@POLYN178541.len" , "---java.io.OutputStreamWriter.write@POLYN178541" , "java.io.OutputStreamWriter.write@POLYN178541.cibledummy_00207"]
+ , "c4" : "//QC-JAVCWZ099[00207] In java.io.OutputStreamWriter.write@POLYN178541[00207] target data PATHtainted (java.io.OutputStreamWriter.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00207]"
+ , "c3" : ["java.io.OutputStreamWriter.write@POLYN178541.len" , "---java.io.OutputStreamWriter.write@POLYN178541" , "java.io.OutputStreamWriter.write@POLYN178541.len"]
+ , "c4" : "//QC-JAVCWZ099[00207] In java.io.OutputStreamWriter.write@POLYN178541[00207] target data PATHtainted (java.io.OutputStreamWriter.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "4" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00207]"
+ , "c3" : ["java.io.OutputStreamWriter.write@POLYN178541.off" , "---java.io.OutputStreamWriter.write@POLYN178541" , "java.io.OutputStreamWriter.write@POLYN178541.cibledummy_00207"]
+ , "c4" : "//QC-JAVCWZ099[00207] In java.io.OutputStreamWriter.write@POLYN178541[00207] target data PATHtainted (java.io.OutputStreamWriter.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00207]"
+ , "c3" : ["java.io.OutputStreamWriter.write@POLYN178541.off" , "---java.io.OutputStreamWriter.write@POLYN178541" , "java.io.OutputStreamWriter.write@POLYN178541.off"]
+ , "c4" : "//QC-JAVCWZ099[00207] In java.io.OutputStreamWriter.write@POLYN178541[00207] target data PATHtainted (java.io.OutputStreamWriter.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "5" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00220]"
+ , "c3" : ["java.io.OutputStreamWriter.write@POLYN178963.len" , "---java.io.OutputStreamWriter.write@POLYN178963" , "java.io.OutputStreamWriter.write@POLYN178963.cibledummy_00220"]
+ , "c4" : "//QC-JAVCWZ099[00220] In java.io.OutputStreamWriter.write@POLYN178963[00220] target data PATHtainted (java.io.OutputStreamWriter.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00220]"
+ , "c3" : ["java.io.OutputStreamWriter.write@POLYN178963.len" , "---java.io.OutputStreamWriter.write@POLYN178963" , "java.io.OutputStreamWriter.write@POLYN178963.len"]
+ , "c4" : "//QC-JAVCWZ099[00220] In java.io.OutputStreamWriter.write@POLYN178963[00220] target data PATHtainted (java.io.OutputStreamWriter.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "6" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00220]"
+ , "c3" : ["java.io.OutputStreamWriter.write@POLYN178963.off" , "---java.io.OutputStreamWriter.write@POLYN178963" , "java.io.OutputStreamWriter.write@POLYN178963.cibledummy_00220"]
+ , "c4" : "//QC-JAVCWZ099[00220] In java.io.OutputStreamWriter.write@POLYN178963[00220] target data PATHtainted (java.io.OutputStreamWriter.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00220]"
+ , "c3" : ["java.io.OutputStreamWriter.write@POLYN178963.off" , "---java.io.OutputStreamWriter.write@POLYN178963" , "java.io.OutputStreamWriter.write@POLYN178963.off"]
+ , "c4" : "//QC-JAVCWZ099[00220] In java.io.OutputStreamWriter.write@POLYN178963[00220] target data PATHtainted (java.io.OutputStreamWriter.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "7" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00220]"
+ , "c3" : ["java.io.OutputStreamWriter.write@POLYN178963.str" , "---java.io.OutputStreamWriter.write@POLYN178963" , "java.io.OutputStreamWriter.write@POLYN178963.cibledummy_00220"]
+ , "c4" : "//QC-JAVCWZ099[00220] In java.io.OutputStreamWriter.write@POLYN178963[00220] target data PATHtainted (java.io.OutputStreamWriter.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00220]"
+ , "c3" : ["java.io.OutputStreamWriter.write@POLYN178963.str" , "---java.io.OutputStreamWriter.write@POLYN178963" , "java.io.OutputStreamWriter.write@POLYN178963.str"]
+ , "c4" : "//QC-JAVCWZ099[00220] In java.io.OutputStreamWriter.write@POLYN178963[00220] target data PATHtainted (java.io.OutputStreamWriter.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
 ]
 , 
 "data10" : [
