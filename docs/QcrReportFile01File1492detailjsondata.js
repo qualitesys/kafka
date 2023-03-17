@@ -649,7 +649,7 @@ var maDataBlocs = {
  , "c2" : "5"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.net.Socket.connect@POLYN473624.timeout" , "java.net.Socket.connect@POLYN473624.timeout"]
+ , "c5" : ["java.net.Socket.Socket@POLYN469199.stream" , "java.net.Socket.createImpl@POLYN470129.cibledummy_00434"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -664,7 +664,7 @@ var maDataBlocs = {
  , "c2" : "6"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.net.Socket.Socket@POLYN469199.stream" , "java.net.Socket.createImpl@POLYN470129.cibledummy_00434"]
+ , "c5" : ["java.net.Socket.connect@POLYN473624.true" , "java.net.Socket.createImpl@POLYN470129.cibledummy_00434"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -679,7 +679,7 @@ var maDataBlocs = {
  , "c2" : "7"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.net.Socket.connect@POLYN473624.true" , "java.net.Socket.createImpl@POLYN470129.cibledummy_00434"]
+ , "c5" : ["java.net.Socket.createImpl@POLYN470129.stream" , "java.net.Socket.createImpl@POLYN470129.stream"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -694,7 +694,7 @@ var maDataBlocs = {
  , "c2" : "8"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.net.Socket.createImpl@POLYN470129.stream" , "java.net.Socket.createImpl@POLYN470129.stream"]
+ , "c5" : ["null" , "java.net.Socket.getInputStream@POLYN484249.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -709,7 +709,7 @@ var maDataBlocs = {
  , "c2" : "9"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["null" , "java.net.Socket.getInputStream@POLYN484249.return"]
+ , "c5" : ["0" , "java.net.Socket.getReceiveBufferSize@POLYN497886.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -722,21 +722,6 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1492Seq10.html#seq10"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1492&numSeq=10"
  , "c2" : "10"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["0" , "java.net.Socket.getReceiveBufferSize@POLYN497886.return"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1492Seq11.html#seq11"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1492&numSeq=11"
- , "c2" : "11"
  , "c3" : "2"
  , "c4" : "2"
  , "c5" : ["true" , "java.net.Socket.isClosed@POLYN508553.return"]
@@ -962,54 +947,6 @@ var maDataBlocs = {
  "seq" : "5" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
- , "sourcenoligne" : "[00568]"
- , "c3" : ["java.net.Socket.connect@POLYN473624.timeout" , "---java.net.Socket.connect@POLYN473624" , "java.net.Socket.connect@POLYN473624.cibledummy_00568"]
- , "c4" : "//QC-JAVCWZ099[00568] In java.net.Socket.connect@POLYN473624[00568] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00568]"
- , "c3" : ["java.net.Socket.connect@POLYN473624.timeout" , "---java.net.Socket.connect@POLYN473624" , "java.net.Socket.connect@POLYN473624.timeout"]
- , "c4" : "//QC-JAVCWZ099[00568] In java.net.Socket.connect@POLYN473624[00568] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "6" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "1"
  , "sourcenoligne" : "[00411]"
  , "c3" : ["java.net.Socket.Socket@POLYN469199.stream" , "---java.net.Socket.createImpl@POLYN470129" , "java.net.Socket.createImpl@POLYN470129.stream"]
  , "c4" : "//QC-JAVCWZ099[00411] In java.net.Socket.Socket@POLYN469199[00411] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
@@ -1055,7 +992,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "7" , "contenu" : [ 
+ "seq" : "6" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00566]"
@@ -1103,7 +1040,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "8" , "contenu" : [ 
+ "seq" : "7" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00434]"
@@ -1151,7 +1088,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "9" , "contenu" : [ 
+ "seq" : "8" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00001]"
@@ -1199,7 +1136,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "10" , "contenu" : [ 
+ "seq" : "9" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00001]"
@@ -1247,7 +1184,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "11" , "contenu" : [ 
+ "seq" : "10" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00001]"
