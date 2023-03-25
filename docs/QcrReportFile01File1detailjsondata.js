@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/aa__all_files.java.html" 
- , "texte" : "File aa__all_files.java 2913 rule violations " 
+ , "texte" : "File aa__all_files.java 2933 rule violations " 
  , "fic2"  : "./qc/aa__all_files.java.xml" 
  , "fic3"  : "" 
 }
@@ -2436,6 +2436,1041 @@ var maDataBlocs = {
  , "c3" : "2"
  , "c4" : "2"
  , "c5" : ["org.springframework.http.ResponseEntity.DefaultBuilder.this" , "org.springframework.http.ResponseEntity.DefaultBuilder.this"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq161.html#seq161"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=161"
+ , "c2" : "161"
+ , "c3" : "8"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.info@POLYN288765.return" , "org.apache.kafka.common.record.MemoryRecordsBuilder.lastOffset"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq162.html#seq162"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=162"
+ , "c2" : "162"
+ , "c3" : "7"
+ , "c4" : "1"
+ , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN886833.b" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq163.html#seq163"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=163"
+ , "c2" : "163"
+ , "c3" : "7"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.b"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq164.html#seq164"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=164"
+ , "c2" : "164"
+ , "c3" : "7"
+ , "c4" : "1"
+ , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN886833.len" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq165.html#seq165"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=165"
+ , "c2" : "165"
+ , "c3" : "7"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.len"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq166.html#seq166"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=166"
+ , "c2" : "166"
+ , "c3" : "7"
+ , "c4" : "1"
+ , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN886833.off" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq167.html#seq167"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=167"
+ , "c2" : "167"
+ , "c3" : "7"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.off"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq168.html#seq168"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=168"
+ , "c2" : "168"
+ , "c3" : "7"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392.timestamp" , "org.apache.kafka.common.record.MemoryRecordsBuilder.writeDefaultBatchHeader@POLYN294196.cibledummy_00402"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq169.html#seq169"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=169"
+ , "c2" : "169"
+ , "c3" : "7"
+ , "c4" : "1"
+ , "c5" : ["org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN199625.struct" , "org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.assignmentSnapshot"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq170.html#seq170"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=170"
+ , "c2" : "170"
+ , "c3" : "6"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429.return" , "org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931.return"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq171.html#seq171"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=171"
+ , "c2" : "171"
+ , "c3" : "5"
+ , "c4" : "1"
+ , "c5" : ["3" , "java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762.utflen"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq172.html#seq172"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=172"
+ , "c2" : "172"
+ , "c3" : "5"
+ , "c4" : "1"
+ , "c5" : ["2" , "java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762.utflen"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq173.html#seq173"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=173"
+ , "c2" : "173"
+ , "c3" : "5"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.magic" , "org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544.magic"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq174.html#seq174"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=174"
+ , "c2" : "174"
+ , "c3" : "5"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN181082.return" , "org.apache.kafka.metadata.util.SnapshotFileReader.handleControlBatch@POLYN172826.Iterator_Record_iter"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq175.html#seq175"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=175"
+ , "c2" : "175"
+ , "c3" : "5"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN181082.return" , "org.apache.kafka.metadata.util.SnapshotFileReader.handleControlBatch@POLYN172826.Iterator_Record_iter"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq176.html#seq176"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=176"
+ , "c2" : "176"
+ , "c3" : "4"
+ , "c4" : "1"
+ , "c5" : ["org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777.position" , "org.apache.kafka.common.utils.Utils.readFully@POLYN455991.position"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq177.html#seq177"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=177"
+ , "c2" : "177"
+ , "c3" : "4"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.common.utils.PrimitiveRef.ofInt@POLYN143180.return" , "org.apache.kafka.common.utils.PrimitiveRef.ofInt@POLYN143180.return"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq178.html#seq178"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=178"
+ , "c2" : "178"
+ , "c3" : "4"
+ , "c4" : "1"
+ , "c5" : ["org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.return" , "org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.return"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq179.html#seq179"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=179"
+ , "c2" : "179"
+ , "c3" : "4"
+ , "c4" : "1"
+ , "c5" : ["org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.return" , "org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.return"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq180.html#seq180"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=180"
+ , "c2" : "180"
+ , "c3" : "4"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.key" , "org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.key"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq181.html#seq181"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=181"
+ , "c2" : "181"
+ , "c3" : "4"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.newByteBufferOutputStream(buffer)" , "org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.cibledummy_00476"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq182.html#seq182"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=182"
+ , "c2" : "182"
+ , "c3" : "4"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544.buffer" , "org.apache.kafka.common.utils.ByteBufferOutputStream.buffer@POLYN162605.return"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq183.html#seq183"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=183"
+ , "c2" : "183"
+ , "c3" : "4"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.common.record.FileRecords.channel@POLYN233120.return" , "org.apache.kafka.common.utils.Utils.readFullyOrFail@POLYN454725.cibledummy_01090"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq184.html#seq184"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=184"
+ , "c2" : "184"
+ , "c3" : "4"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.raft.KafkaRaftClient.handleInboundMessage@POLYN598295.currentTimeMs" , "org.apache.kafka.raft.KafkaRaftClient.handleInboundMessage@POLYN598295.currentTimeMs"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq185.html#seq185"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=185"
+ , "c2" : "185"
+ , "c3" : "4"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413.records" , "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.batch"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq186.html#seq186"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=186"
+ , "c2" : "186"
+ , "c3" : "4"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413.records" , "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.batch"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq187.html#seq187"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=187"
+ , "c2" : "187"
+ , "c3" : "3"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectInputStream.readFully@POLYN809979.buf" , "org.apache.kafka.common.protocol.DataInputStreamReadable.readArray@POLYN154753.arr"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq188.html#seq188"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=188"
+ , "c2" : "188"
+ , "c3" : "3"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN240778.input" , "org.apache.kafka.common.record.DefaultRecord.readMore@POLYN247562.input"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq189.html#seq189"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=189"
+ , "c2" : "189"
+ , "c3" : "3"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.compressionType" , "org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544.compressionType"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq190.html#seq190"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=190"
+ , "c2" : "190"
+ , "c3" : "3"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.timestampType" , "org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544.timestampType"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq191.html#seq191"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=191"
+ , "c2" : "191"
+ , "c3" : "3"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.headers" , "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319.headers"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq192.html#seq192"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=192"
+ , "c2" : "192"
+ , "c3" : "3"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.key" , "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319.key"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq193.html#seq193"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=193"
+ , "c2" : "193"
+ , "c3" : "3"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.value" , "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319.value"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq194.html#seq194"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=194"
+ , "c2" : "194"
+ , "c3" : "3"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendLegacyRecord@POLYN311131.sourcedummy" , "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.cibledummy_00456"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq195.html#seq195"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=195"
+ , "c2" : "195"
+ , "c3" : "3"
+ , "c4" : "1"
+ , "c5" : ["org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344.null" , "org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344.cibledummy_00120"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq196.html#seq196"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=196"
+ , "c2" : "196"
+ , "c3" : "3"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413.epoch" , "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.epoch"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq197.html#seq197"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=197"
+ , "c2" : "197"
+ , "c3" : "3"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413.epoch" , "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.epoch"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq198.html#seq198"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=198"
+ , "c2" : "198"
+ , "c3" : "3"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN178464.return" , "org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN178464.return"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq199.html#seq199"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=199"
+ , "c2" : "199"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["java.io.ObjectInputStream.readBoolean@POLYN807260.return" , "java.io.ObjectInputStream.readBoolean@POLYN807260.return"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq200.html#seq200"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=200"
+ , "c2" : "200"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectInputStream.readFully@POLYN810451.buf" , "java.io.ObjectInputStream.readFully@POLYN810451.buf"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq201.html#seq201"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=201"
+ , "c2" : "201"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectInputStream.readFully@POLYN810451.len" , "java.io.ObjectInputStream.readFully@POLYN810451.len"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq202.html#seq202"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=202"
+ , "c2" : "202"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectInputStream.readFully@POLYN810451.off" , "java.io.ObjectInputStream.readFully@POLYN810451.off"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq203.html#seq203"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=203"
+ , "c2" : "203"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616044.0" , "java.io.OutputStream.write@POLYN178996.off"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq204.html#seq204"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=204"
+ , "c2" : "204"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616266.off" , "java.io.OutputStream.write@POLYN178996.off"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq205.html#seq205"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=205"
+ , "c2" : "205"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq206.html#seq206"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=206"
+ , "c2" : "206"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq207.html#seq207"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=207"
+ , "c2" : "207"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq208.html#seq208"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=208"
+ , "c2" : "208"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq209.html#seq209"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=209"
+ , "c2" : "209"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq210.html#seq210"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=210"
+ , "c2" : "210"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616044.b" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq211.html#seq211"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=211"
+ , "c2" : "211"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616266.b" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq212.html#seq212"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=212"
+ , "c2" : "212"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq213.html#seq213"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=213"
+ , "c2" : "213"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq214.html#seq214"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=214"
+ , "c2" : "214"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq215.html#seq215"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=215"
+ , "c2" : "215"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq216.html#seq216"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=216"
+ , "c2" : "216"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq217.html#seq217"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=217"
+ , "c2" : "217"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616044.b.length" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq218.html#seq218"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=218"
+ , "c2" : "218"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616266.len" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq219.html#seq219"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=219"
+ , "c2" : "219"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq220.html#seq220"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=220"
+ , "c2" : "220"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq221.html#seq221"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=221"
+ , "c2" : "221"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq222.html#seq222"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=222"
+ , "c2" : "222"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq223.html#seq223"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=223"
+ , "c2" : "223"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021.sendBufferSize" , "org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021.sendBufferSize"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq224.html#seq224"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=224"
+ , "c2" : "224"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021.receiveBufferSize" , "org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021.receiveBufferSize"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq225.html#seq225"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=225"
+ , "c2" : "225"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream.writeBlock@POLYN202841.compressedLengt" , "java.io.OutputStream.write@POLYN177204.b"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq226.html#seq226"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=226"
+ , "c2" : "226"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream.writeBlock@POLYN202841.hash" , "java.io.OutputStream.write@POLYN177204.b"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq227.html#seq227"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=227"
+ , "c2" : "227"
+ , "c3" : "2"
+ , "c4" : "1"
+ , "c5" : ["org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream.writeEndMark@POLYN204284.0" , "java.io.OutputStream.write@POLYN177204.b"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq228.html#seq228"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=228"
+ , "c2" : "228"
+ , "c3" : "2"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.raft.KafkaRaftClient.handleInboundMessage@POLYN598295.request" , "org.apache.kafka.raft.KafkaRaftClient.handleFetchRequest@POLYN563611.requestMetadata"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq229.html#seq229"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=229"
+ , "c2" : "229"
+ , "c3" : "2"
+ , "c4" : "0"
+ , "c5" : ["org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN169023.records" , "org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN169023.records"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -11845,6 +12880,4110 @@ var maDataBlocs = {
 }}
 ]
 }}
+,
+{ "sequence" : { 
+ "seq" : "161" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00215]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.info@POLYN288765.return" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.info@POLYN288765" , "org.apache.kafka.common.record.MemoryRecords.filterTo@POLYN267790.info"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00717]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392.offset" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.recordWritten@POLYN312603" , "org.apache.kafka.common.record.MemoryRecordsBuilder.recordWritten@POLYN312603.offset"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00454]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.offset" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392" , "org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392.offset"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00484]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319.offset" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730" , "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.offset"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "5"
+ , "sourcenoligne" : "[00506]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN300362.offset" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319" , "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319.offset"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "6"
+ , "sourcenoligne" : "[00259]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.lastOffset" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.info@POLYN288765.dummymethode_00259" , "org.apache.kafka.common.record.MemoryRecordsBuilder.info@POLYN288765.shallowOffsetOfMaxTimestamp"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "7"
+ , "sourcenoligne" : "[00262]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.info@POLYN288765.shallowOffsetOfMaxTimestamp" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.info@POLYN288765.dummymethode_00262" , "org.apache.kafka.common.record.MemoryRecordsBuilder.info@POLYN288765.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "8"
+ , "sourcenoligne" : "[00751]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.recordWritten@POLYN312603.offset" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.recordWritten@POLYN312603.dummymethode_00751" , "org.apache.kafka.common.record.MemoryRecordsBuilder.lastOffset"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "162" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[02943]"
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN886833.b" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.b"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[03028]"
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.dummymethode_03028" , "java.io.ObjectInputStream.BlockDataInputStream.pos"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[03031]"
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[03037]"
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.b" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.b"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "5"
+ , "sourcenoligne" : "[03365]"
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.pos" , "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN910111.dummymethode_03365" , "java.io.ObjectInputStream.BlockDataInputStream.end"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "6"
+ , "sourcenoligne" : "[02620]"
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.b" , "---java.io.InputStream.read@POLYN246846" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.nbytes"]
+ , "c4" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN873941[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "7"
+ , "sourcenoligne" : "[02622]"
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.nbytes" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.dummymethode_02622" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "163" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[03028]"
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.dummymethode_03028" , "java.io.ObjectInputStream.BlockDataInputStream.pos"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[03031]"
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[03037]"
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.b" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.b"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[03365]"
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.pos" , "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN910111.dummymethode_03365" , "java.io.ObjectInputStream.BlockDataInputStream.end"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "5"
+ , "sourcenoligne" : "[02620]"
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.b" , "---java.io.InputStream.read@POLYN246846" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.nbytes"]
+ , "c4" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN873941[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "6"
+ , "sourcenoligne" : "[02622]"
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.nbytes" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.dummymethode_02622" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "7"
+ , "sourcenoligne" : "[00917]"
+ , "c3" : ["java.io.ObjectInputStream.read@POLYN805574.buf" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.b"]
+ , "c4" : "//QC-JAVCWZ099[00917] In java.io.ObjectInputStream.read@POLYN805574[00917] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "164" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[02943]"
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN886833.len" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.len"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[03028]"
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.dummymethode_03028" , "java.io.ObjectInputStream.BlockDataInputStream.pos"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[03031]"
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[03037]"
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.len" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.len"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "5"
+ , "sourcenoligne" : "[03365]"
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.pos" , "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN910111.dummymethode_03365" , "java.io.ObjectInputStream.BlockDataInputStream.end"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "6"
+ , "sourcenoligne" : "[02620]"
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.len" , "---java.io.InputStream.read@POLYN246846" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.nbytes"]
+ , "c4" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN873941[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "7"
+ , "sourcenoligne" : "[02622]"
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.nbytes" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.dummymethode_02622" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "165" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[03028]"
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.dummymethode_03028" , "java.io.ObjectInputStream.BlockDataInputStream.pos"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[03031]"
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[03037]"
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.len" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.len"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[03365]"
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.pos" , "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN910111.dummymethode_03365" , "java.io.ObjectInputStream.BlockDataInputStream.end"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "5"
+ , "sourcenoligne" : "[02620]"
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.len" , "---java.io.InputStream.read@POLYN246846" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.nbytes"]
+ , "c4" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN873941[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "6"
+ , "sourcenoligne" : "[02622]"
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.nbytes" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.dummymethode_02622" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "7"
+ , "sourcenoligne" : "[00917]"
+ , "c3" : ["java.io.ObjectInputStream.read@POLYN805574.len" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.len"]
+ , "c4" : "//QC-JAVCWZ099[00917] In java.io.ObjectInputStream.read@POLYN805574[00917] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "166" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[02943]"
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN886833.off" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.off"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[03028]"
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.dummymethode_03028" , "java.io.ObjectInputStream.BlockDataInputStream.pos"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[03031]"
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[03037]"
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.off" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.off"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "5"
+ , "sourcenoligne" : "[03365]"
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.pos" , "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN910111.dummymethode_03365" , "java.io.ObjectInputStream.BlockDataInputStream.end"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "6"
+ , "sourcenoligne" : "[02620]"
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.off" , "---java.io.InputStream.read@POLYN246846" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.nbytes"]
+ , "c4" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN873941[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "7"
+ , "sourcenoligne" : "[02622]"
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.nbytes" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.dummymethode_02622" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "167" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[03028]"
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.dummymethode_03028" , "java.io.ObjectInputStream.BlockDataInputStream.pos"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[03031]"
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[03037]"
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.off" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.off"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[03365]"
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.pos" , "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN910111.dummymethode_03365" , "java.io.ObjectInputStream.BlockDataInputStream.end"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "5"
+ , "sourcenoligne" : "[02620]"
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.off" , "---java.io.InputStream.read@POLYN246846" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.nbytes"]
+ , "c4" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN873941[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "6"
+ , "sourcenoligne" : "[02622]"
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.nbytes" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.dummymethode_02622" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "7"
+ , "sourcenoligne" : "[00917]"
+ , "c3" : ["java.io.ObjectInputStream.read@POLYN805574.off" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.off"]
+ , "c4" : "//QC-JAVCWZ099[00917] In java.io.ObjectInputStream.read@POLYN805574[00917] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "168" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00717]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392.timestamp" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.recordWritten@POLYN312603" , "org.apache.kafka.common.record.MemoryRecordsBuilder.recordWritten@POLYN312603.timestamp"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00454]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.timestamp" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392" , "org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392.timestamp"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00484]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319.timestamp" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730" , "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.timestamp"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00506]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN300362.timestamp" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319" , "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319.timestamp"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "5"
+ , "sourcenoligne" : "[00754]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.recordWritten@POLYN312603.timestamp" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.recordWritten@POLYN312603.dummymethode_00754" , "org.apache.kafka.common.record.MemoryRecordsBuilder.maxTimestamp"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "6"
+ , "sourcenoligne" : "[00400]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.maxTimestamp" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.writeDefaultBatchHeader@POLYN294196.dummymethode_00400" , "org.apache.kafka.common.record.MemoryRecordsBuilder.writeDefaultBatchHeader@POLYN294196.maxTimestamp"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "7"
+ , "sourcenoligne" : "[00402]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.writeDefaultBatchHeader@POLYN294196.maxTimestamp" , "---org.apache.kafka.common.record.DefaultRecordBatch.writeHeader@POLYN271277" , "org.apache.kafka.common.record.MemoryRecordsBuilder.writeDefaultBatchHeader@POLYN294196.cibledummy_00402"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "169" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00001]"
+ , "c3" : ["org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN199625.struct" , "---org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN199625.dummymethode_00001" , "org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN199625.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00001]"
+ , "c3" : ["java.io.InputStream.read@POLYN241883.return" , "---java.io.InputStream.read@POLYN241883" , "org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN199625.struct"]
+ , "c4" : "//QC-JAVCWE099[00001] In org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN199625[00001] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00170]"
+ , "c3" : ["org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.assignmentSnapshot" , "---org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.metadata@POLYN233409.dummymethode_00170" , "org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.metadata@POLYN233409.localAssignmentSnapshot"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00171]"
+ , "c3" : ["org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.metadata@POLYN233409.localAssignmentSnapshot" , "---org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.metadata@POLYN233409.dummymethode_00171" , "org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.metadata@POLYN233409.workerState"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "5"
+ , "sourcenoligne" : "[00174]"
+ , "c3" : ["org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.metadata@POLYN233409.workerState" , "---org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.metadata@POLYN233409.dummymethode_00174" , "org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.metadata@POLYN233409.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "6"
+ , "sourcenoligne" : "[00186]"
+ , "c3" : ["org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN199625.return" , "---org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN199625" , "org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.onJoinComplete@POLYN234283.newAssignment"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "7"
+ , "sourcenoligne" : "[00209]"
+ , "c3" : ["org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.onJoinComplete@POLYN234283.newAssignment" , "---org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.onJoinComplete@POLYN234283.dummymethode_00209" , "org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.assignmentSnapshot"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "170" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00372]"
+ , "c3" : ["org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429.return" , "---org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429" , "org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN240778.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00406]"
+ , "c3" : ["org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931.return" , "---org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931" , "org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429.keySize"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00421]"
+ , "c3" : ["org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429.skipBuffer" , "---org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931" , "org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931.buffer"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00428]"
+ , "c3" : ["org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429.keySize" , "---org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429.dummymethode_00428" , "org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "5"
+ , "sourcenoligne" : "[00473]"
+ , "c3" : ["org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931.buffer" , "---org.apache.kafka.common.utils.ByteUtils.readVarint@POLYN224372" , "org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931.sizeInBytes"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "6"
+ , "sourcenoligne" : "[00475]"
+ , "c3" : ["org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931.sizeInBytes" , "---org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931.dummymethode_00475" , "org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "171" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[02146]"
+ , "c3" : ["3" , "---java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289.dummymethode_02146" , "java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289.utflen"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[02153]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289.utflen" , "---java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289.dummymethode_02153" , "java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[02188]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762.utflen" , "---java.io.ObjectOutputStream.writeLong@POLYN573547" , "java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762.cibledummy_02188"]
+ , "c4" : "//QC-JAVCWE099[02188] In java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762[02188] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[01303]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289.return" , "---java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289" , "java.io.ObjectOutputStream.writeString@POLYN592445.utflen"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "5"
+ , "sourcenoligne" : "[01309]"
+ , "c3" : ["java.io.ObjectOutputStream.writeString@POLYN592445.utflen" , "---java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762" , "java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762.utflen"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "172" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[02148]"
+ , "c3" : ["2" , "---java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289.dummymethode_02148" , "java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289.utflen"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[02153]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289.utflen" , "---java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289.dummymethode_02153" , "java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[02188]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762.utflen" , "---java.io.ObjectOutputStream.writeLong@POLYN573547" , "java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762.cibledummy_02188"]
+ , "c4" : "//QC-JAVCWE099[02188] In java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762[02188] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[01303]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289.return" , "---java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289" , "java.io.ObjectOutputStream.writeString@POLYN592445.utflen"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "5"
+ , "sourcenoligne" : "[01309]"
+ , "c3" : ["java.io.ObjectOutputStream.writeString@POLYN592445.utflen" , "---java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762" , "java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762.utflen"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "173" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00390]"
+ , "c3" : ["org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.magic" , "---org.apache.kafka.common.record.LegacyRecord.write@POLYN245169" , "org.apache.kafka.common.record.LegacyRecord.write@POLYN245169.magic"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00428]"
+ , "c3" : ["org.apache.kafka.common.record.LegacyRecord.write@POLYN245169.magic" , "---org.apache.kafka.common.record.LegacyRecord.write@POLYN246511" , "org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.magic"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00462]"
+ , "c3" : ["org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.magic" , "---org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.dummymethode_00462" , "org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.cibledummy_00462"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00369]"
+ , "c3" : ["org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544.magic" , "---org.apache.kafka.common.record.LegacyRecord.write@POLYN243625" , "org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.magic"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "5"
+ , "sourcenoligne" : "[00425]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.writeLegacyCompressedWrapperHeader@POLYN295621.magic" , "---org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544" , "org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544.magic"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "174" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00153]"
+ , "c3" : ["org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN181082.return" , "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN181082" , "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.iterator@POLYN179508.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00217]"
+ , "c3" : ["org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777.buffer" , "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.toMemoryRecordBatch@POLYN180967" , "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00196]"
+ , "c3" : ["org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777.return" , "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777" , "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.fullBatch"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00198]"
+ , "c3" : ["org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.fullBatch" , "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN181082.dummymethode_00198" , "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN181082.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "5"
+ , "sourcenoligne" : "[00120]"
+ , "c3" : ["org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.iterator@POLYN179508.return" , "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.iterator@POLYN179508" , "org.apache.kafka.metadata.util.SnapshotFileReader.handleControlBatch@POLYN172826.Iterator_Record_iter"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "175" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00153]"
+ , "c3" : ["org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN181082.return" , "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN181082" , "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.iterator@POLYN179508.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00217]"
+ , "c3" : ["org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.toMemoryRecordBatch@POLYN180967.return" , "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.toMemoryRecordBatch@POLYN180967" , "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00196]"
+ , "c3" : ["org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777.return" , "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777" , "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.fullBatch"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00198]"
+ , "c3" : ["org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.fullBatch" , "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN181082.dummymethode_00198" , "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN181082.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "5"
+ , "sourcenoligne" : "[00120]"
+ , "c3" : ["org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.iterator@POLYN179508.return" , "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.iterator@POLYN179508" , "org.apache.kafka.metadata.util.SnapshotFileReader.handleControlBatch@POLYN172826.Iterator_Record_iter"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "176" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00215]"
+ , "c3" : ["org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777.position" , "---org.apache.kafka.common.utils.Utils.readFullyOrFail@POLYN454725" , "org.apache.kafka.common.utils.Utils.readFullyOrFail@POLYN454725.position"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01114]"
+ , "c3" : ["org.apache.kafka.common.utils.Utils.readFully@POLYN455991.position" , "---org.apache.kafka.common.utils.Utils.readFully@POLYN455991.dummymethode_01114" , "org.apache.kafka.common.utils.Utils.readFully@POLYN455991.currentPosition"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[01117]"
+ , "c3" : ["org.apache.kafka.common.utils.Utils.readFully@POLYN455991.currentPosition" , "---java.io.InputStream.read@POLYN246846" , "java.io.InputStream.read@POLYN246846.off"]
+ , "c4" : "//QC-JAVCWE099[01117] In org.apache.kafka.common.utils.Utils.readFully@POLYN455991[01117] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[01090]"
+ , "c3" : ["org.apache.kafka.common.utils.Utils.readFullyOrFail@POLYN454725.position" , "---org.apache.kafka.common.utils.Utils.readFully@POLYN455991" , "org.apache.kafka.common.utils.Utils.readFully@POLYN455991.position"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "177" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00391]"
+ , "c3" : ["org.apache.kafka.common.utils.PrimitiveRef.ofInt@POLYN143180.return" , "---org.apache.kafka.common.utils.PrimitiveRef.ofInt@POLYN143180" , "org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429.bytesRemaining"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00421]"
+ , "c3" : ["org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429.bytesRemaining" , "---org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931" , "org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931.bytesRemaining"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00465]"
+ , "c3" : ["org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931.bytesRemaining" , "---org.apache.kafka.common.record.DefaultRecord.readMore@POLYN247562" , "org.apache.kafka.common.record.DefaultRecord.readMore@POLYN247562.bytesRemaining"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00026]"
+ , "c3" : ["org.apache.kafka.common.utils.PrimitiveRef.ofInt@POLYN143180.value" , "---org.apache.kafka.common.utils.PrimitiveRef.ofInt@POLYN143180.dummymethode_00026" , "org.apache.kafka.common.utils.PrimitiveRef.ofInt@POLYN143180.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "178" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00188]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.return" , "---org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644" , "org.apache.kafka.common.record.FileRecords.append@POLYN236794.written"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00189]"
+ , "c3" : ["org.apache.kafka.common.record.FileRecords.append@POLYN236794.written" , "---org.apache.kafka.common.record.FileRecords.append@POLYN236794.dummymethode_00189" , "org.apache.kafka.common.record.FileRecords.append@POLYN236794.cibledummy_00189"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00092]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.buffer" , "---java.io.FileOutputStream.write@POLYN233024" , "org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.written"]
+ , "c4" : "//QC-JAVCWE099[00092] In org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644[00092] target data PATHtainted (java.io.FileOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00094]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.written" , "---org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.dummymethode_00094" , "org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "179" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00188]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.return" , "---org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644" , "org.apache.kafka.common.record.FileRecords.append@POLYN236794.written"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00189]"
+ , "c3" : ["org.apache.kafka.common.record.FileRecords.append@POLYN236794.written" , "---org.apache.kafka.common.record.FileRecords.append@POLYN236794.dummymethode_00189" , "org.apache.kafka.common.record.FileRecords.append@POLYN236794.cibledummy_00189"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00092]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.sourcedummy" , "---java.io.FileOutputStream.write@POLYN233024" , "org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.written"]
+ , "c4" : "//QC-JAVCWE099[00092] In org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644[00092] target data PATHtainted (java.io.FileOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00094]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.written" , "---org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.dummymethode_00094" , "org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "180" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00390]"
+ , "c3" : ["org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.key" , "---org.apache.kafka.common.record.LegacyRecord.write@POLYN245169" , "org.apache.kafka.common.record.LegacyRecord.write@POLYN245169.key"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00428]"
+ , "c3" : ["org.apache.kafka.common.record.LegacyRecord.write@POLYN245169.key" , "---org.apache.kafka.common.record.LegacyRecord.write@POLYN246511" , "org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.key"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00476]"
+ , "c3" : ["org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.key" , "---org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.dummymethode_00476" , "org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.cibledummy_00476"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00369]"
+ , "c3" : ["org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544.null" , "---org.apache.kafka.common.record.LegacyRecord.write@POLYN243625" , "org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.key"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "181" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00389]"
+ , "c3" : ["org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.newByteBufferOutputStream(buffer)" , "---org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.dummymethode_00389" , "org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.out"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00390]"
+ , "c3" : ["org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.out" , "---org.apache.kafka.common.record.LegacyRecord.write@POLYN245169" , "org.apache.kafka.common.record.LegacyRecord.write@POLYN245169.out"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00428]"
+ , "c3" : ["org.apache.kafka.common.record.LegacyRecord.write@POLYN245169.out" , "---org.apache.kafka.common.record.LegacyRecord.write@POLYN246511" , "org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.out"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00476]"
+ , "c3" : ["org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.out" , "---org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.dummymethode_00476" , "org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.cibledummy_00476"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "182" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00369]"
+ , "c3" : ["org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544.buffer" , "---org.apache.kafka.common.record.LegacyRecord.write@POLYN243625" , "org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.buffer"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00416]"
+ , "c3" : ["org.apache.kafka.common.utils.ByteBufferOutputStream.buffer@POLYN162605.return" , "---org.apache.kafka.common.utils.ByteBufferOutputStream.buffer@POLYN162605" , "org.apache.kafka.common.record.MemoryRecordsBuilder.writeLegacyCompressedWrapperHeader@POLYN295621.buffer"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00425]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.writeLegacyCompressedWrapperHeader@POLYN295621.buffer" , "---org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544" , "org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544.buffer"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00080]"
+ , "c3" : ["org.apache.kafka.common.utils.ByteBufferOutputStream.buffer@POLYN162605.buffer" , "---org.apache.kafka.common.utils.ByteBufferOutputStream.buffer@POLYN162605.dummymethode_00080" , "org.apache.kafka.common.utils.ByteBufferOutputStream.buffer@POLYN162605.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "183" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00212]"
+ , "c3" : ["org.apache.kafka.common.record.FileRecords.channel@POLYN233120.return" , "---org.apache.kafka.common.record.FileRecords.channel@POLYN233120" , "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777.channel"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00215]"
+ , "c3" : ["org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777.channel" , "---org.apache.kafka.common.utils.Utils.readFullyOrFail@POLYN454725" , "org.apache.kafka.common.utils.Utils.readFullyOrFail@POLYN454725.channel"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00107]"
+ , "c3" : ["org.apache.kafka.common.record.FileRecords.channel@POLYN233120.channel" , "---org.apache.kafka.common.record.FileRecords.channel@POLYN233120.dummymethode_00107" , "org.apache.kafka.common.record.FileRecords.channel@POLYN233120.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[01090]"
+ , "c3" : ["org.apache.kafka.common.utils.Utils.readFullyOrFail@POLYN454725.channel" , "---org.apache.kafka.common.utils.Utils.readFully@POLYN455991" , "org.apache.kafka.common.utils.Utils.readFullyOrFail@POLYN454725.cibledummy_01090"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "184" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01668]"
+ , "c3" : ["org.apache.kafka.raft.KafkaRaftClient.handleInboundMessage@POLYN598295.currentTimeMs" , "---org.apache.kafka.raft.KafkaRaftClient.handleRequest@POLYN596026" , "org.apache.kafka.raft.KafkaRaftClient.handleRequest@POLYN596026.currentTimeMs"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01622]"
+ , "c3" : ["org.apache.kafka.raft.KafkaRaftClient.handleRequest@POLYN596026.currentTimeMs" , "---org.apache.kafka.raft.KafkaRaftClient.handleFetchRequest@POLYN563611" , "org.apache.kafka.raft.KafkaRaftClient.handleFetchRequest@POLYN563611.currentTimeMs"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[02232]"
+ , "c3" : ["org.apache.kafka.common.utils.Time.milliseconds@POLYN154337.return" , "---org.apache.kafka.common.utils.Time.milliseconds@POLYN154337" , "org.apache.kafka.raft.KafkaRaftClient.poll@POLYN622891.currentTimeMs"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[02249]"
+ , "c3" : ["org.apache.kafka.raft.KafkaRaftClient.poll@POLYN622891.currentTimeMs" , "---org.apache.kafka.raft.KafkaRaftClient.handleInboundMessage@POLYN598295" , "org.apache.kafka.raft.KafkaRaftClient.handleInboundMessage@POLYN598295.currentTimeMs"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "185" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[02274]"
+ , "c3" : ["org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413.records" , "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197" , "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197.records"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[02255]"
+ , "c3" : ["org.apache.kafka.raft.KafkaRaftClient.scheduleAppend@POLYN623937.records" , "---org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413" , "org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413.records"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00112]"
+ , "c3" : ["org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197.records" , "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207" , "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.records"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00152]"
+ , "c3" : ["org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.records" , "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.dummymethode_00152" , "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.batch"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "186" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[02274]"
+ , "c3" : ["org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413.records" , "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197" , "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197.records"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[02260]"
+ , "c3" : ["org.apache.kafka.raft.KafkaRaftClient.scheduleAtomicAppend@POLYN624182.records" , "---org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413" , "org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413.records"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00112]"
+ , "c3" : ["org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197.records" , "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207" , "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.records"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00152]"
+ , "c3" : ["org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.records" , "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.dummymethode_00152" , "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.batch"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "187" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01067]"
+ , "c3" : ["java.io.ObjectInputStream.readFully@POLYN809979.buf" , "---java.io.ObjectInputStream.BlockDataInputStream.readFully@POLYN892521" , "java.io.ObjectInputStream.BlockDataInputStream.readFully@POLYN892521.b"]
+ , "c4" : "//QC-JAVCWE099[01067] In java.io.ObjectInputStream.readFully@POLYN809979[01067] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00081]"
+ , "c3" : ["org.apache.kafka.common.protocol.DataInputStreamReadable.readArray@POLYN154753.arr" , "---java.io.ObjectInputStream.readFully@POLYN809979" , "java.io.ObjectInputStream.readFully@POLYN809979.buf"]
+ , "c4" : "//QC-JAVCWE099[00081] In org.apache.kafka.common.protocol.DataInputStreamReadable.readArray@POLYN154753[00081] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00099]"
+ , "c3" : ["org.apache.kafka.common.protocol.DataInputStreamReadable.readByteBuffer@POLYN155332.arr" , "---org.apache.kafka.common.protocol.DataInputStreamReadable.readArray@POLYN154753" , "org.apache.kafka.common.protocol.DataInputStreamReadable.readArray@POLYN154753.arr"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "188" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00372]"
+ , "c3" : ["org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN240778.input" , "---org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429" , "org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429.input"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00421]"
+ , "c3" : ["org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429.input" , "---org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931" , "org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931.input"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00465]"
+ , "c3" : ["org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931.input" , "---org.apache.kafka.common.record.DefaultRecord.readMore@POLYN247562" , "org.apache.kafka.common.record.DefaultRecord.readMore@POLYN247562.input"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "189" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00390]"
+ , "c3" : ["org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.compressionType" , "---org.apache.kafka.common.record.LegacyRecord.write@POLYN245169" , "org.apache.kafka.common.record.LegacyRecord.write@POLYN245169.compressionType"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00369]"
+ , "c3" : ["org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544.compressionType" , "---org.apache.kafka.common.record.LegacyRecord.write@POLYN243625" , "org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.compressionType"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00425]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.writeLegacyCompressedWrapperHeader@POLYN295621.compressionType" , "---org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544" , "org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544.compressionType"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "190" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00390]"
+ , "c3" : ["org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.timestampType" , "---org.apache.kafka.common.record.LegacyRecord.write@POLYN245169" , "org.apache.kafka.common.record.LegacyRecord.write@POLYN245169.timestampType"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00369]"
+ , "c3" : ["org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544.timestampType" , "---org.apache.kafka.common.record.LegacyRecord.write@POLYN243625" , "org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.timestampType"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00425]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.writeLegacyCompressedWrapperHeader@POLYN295621.timestampType" , "---org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544" , "org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544.timestampType"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "191" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00454]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.headers" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392" , "org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392.headers"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00484]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319.headers" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730" , "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.headers"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00506]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN300362.Record.EMPTY_HEADERS" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319" , "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319.headers"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "192" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00454]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.key" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392" , "org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392.key"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00484]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319.key" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730" , "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.key"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00506]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN300362.key" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319" , "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319.key"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "193" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00454]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.value" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392" , "org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392.value"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00484]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319.value" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730" , "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.value"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00506]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN300362.value" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319" , "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319.value"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "194" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00730]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendLegacyRecord@POLYN311131.sourcedummy" , "---org.apache.kafka.common.record.LegacyRecord.write@POLYN246511" , "org.apache.kafka.common.record.MemoryRecordsBuilder.appendLegacyRecord@POLYN311131.crc"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00732]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendLegacyRecord@POLYN311131.crc" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendLegacyRecord@POLYN311131.dummymethode_00732" , "org.apache.kafka.common.record.MemoryRecordsBuilder.appendLegacyRecord@POLYN311131.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00456]"
+ , "c3" : ["org.apache.kafka.common.record.MemoryRecordsBuilder.appendLegacyRecord@POLYN311131.return" , "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendLegacyRecord@POLYN311131" , "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.cibledummy_00456"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "195" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00110]"
+ , "c3" : ["org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344.null" , "---org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344.dummymethode_00110" , "org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00119]"
+ , "c3" : ["org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344.return" , "---org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344" , "org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344.size"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00120]"
+ , "c3" : ["org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344.size" , "---java.io.ObjectOutputStream.writeInt@POLYN573267" , "org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344.cibledummy_00120"]
+ , "c4" : "//QC-JAVCWE099[00120] In org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344[00120] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "196" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[02274]"
+ , "c3" : ["org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413.epoch" , "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197" , "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197.epoch"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[02255]"
+ , "c3" : ["org.apache.kafka.raft.KafkaRaftClient.scheduleAppend@POLYN623937.epoch" , "---org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413" , "org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413.epoch"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00112]"
+ , "c3" : ["org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197.epoch" , "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207" , "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.epoch"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "197" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[02274]"
+ , "c3" : ["org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413.epoch" , "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197" , "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197.epoch"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[02260]"
+ , "c3" : ["org.apache.kafka.raft.KafkaRaftClient.scheduleAtomicAppend@POLYN624182.epoch" , "---org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413" , "org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413.epoch"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00112]"
+ , "c3" : ["org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197.epoch" , "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207" , "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.epoch"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "198" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00233]"
+ , "c3" : ["org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN178464.return" , "---org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN178464" , "org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN241743.loadedCheckpoints"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00235]"
+ , "c3" : ["org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN241743.loadedCheckpoints" , "---org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN241743" , "org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN241743.cibledummy_00235"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00182]"
+ , "c3" : ["org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN178464.offsets" , "---org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN178464.dummymethode_00182" , "org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN178464.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "199" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[03208]"
+ , "c3" : ["java.io.ObjectInputStream.readBoolean@POLYN807260.return" , "---java.io.ObjectInputStream.readBoolean@POLYN807260" , "java.io.ObjectInputStream.BlockDataInputStream.readBooleans@POLYN899288.v[off++]"]
+ , "c4" : "//QC-JAVCWZ099[03208] In java.io.ObjectInputStream.BlockDataInputStream.readBooleans@POLYN899288[03208] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00957]"
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.readBoolean@POLYN893308.return" , "---java.io.ObjectInputStream.BlockDataInputStream.readBoolean@POLYN893308" , "java.io.ObjectInputStream.readBoolean@POLYN807260.return"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "200" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01084]"
+ , "c3" : ["java.io.ObjectInputStream.readFully@POLYN810451.buf" , "---java.io.ObjectInputStream.BlockDataInputStream.readFully@POLYN892521" , "java.io.ObjectInputStream.readFully@POLYN810451.cibledummy_01084"]
+ , "c4" : "//QC-JAVCWE099[01084] In java.io.ObjectInputStream.readFully@POLYN810451[01084] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00507]"
+ , "c3" : ["org.apache.kafka.common.record.DefaultRecord.readMore@POLYN247562.array" , "---java.io.ObjectInputStream.readFully@POLYN810451" , "java.io.ObjectInputStream.readFully@POLYN810451.buf"]
+ , "c4" : "//QC-JAVCWE099[00507] In org.apache.kafka.common.record.DefaultRecord.readMore@POLYN247562[00507] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "201" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01084]"
+ , "c3" : ["java.io.ObjectInputStream.readFully@POLYN810451.len" , "---java.io.ObjectInputStream.BlockDataInputStream.readFully@POLYN892521" , "java.io.ObjectInputStream.readFully@POLYN810451.cibledummy_01084"]
+ , "c4" : "//QC-JAVCWE099[01084] In java.io.ObjectInputStream.readFully@POLYN810451[01084] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00507]"
+ , "c3" : ["org.apache.kafka.common.record.DefaultRecord.readMore@POLYN247562.bytesRead" , "---java.io.ObjectInputStream.readFully@POLYN810451" , "java.io.ObjectInputStream.readFully@POLYN810451.len"]
+ , "c4" : "//QC-JAVCWE099[00507] In org.apache.kafka.common.record.DefaultRecord.readMore@POLYN247562[00507] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "202" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01084]"
+ , "c3" : ["java.io.ObjectInputStream.readFully@POLYN810451.off" , "---java.io.ObjectInputStream.BlockDataInputStream.readFully@POLYN892521" , "java.io.ObjectInputStream.readFully@POLYN810451.cibledummy_01084"]
+ , "c4" : "//QC-JAVCWE099[01084] In java.io.ObjectInputStream.readFully@POLYN810451[01084] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00507]"
+ , "c3" : ["org.apache.kafka.common.record.DefaultRecord.readMore@POLYN247562.bytesToLeftShift" , "---java.io.ObjectInputStream.readFully@POLYN810451" , "java.io.ObjectInputStream.readFully@POLYN810451.off"]
+ , "c4" : "//QC-JAVCWE099[00507] In org.apache.kafka.common.record.DefaultRecord.readMore@POLYN247562[00507] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "203" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01814]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616044.0" , "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01842]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off" , "---java.io.OutputStream.write@POLYN178996" , "java.io.OutputStream.write@POLYN178996.off"]
+ , "c4" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "204" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01818]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616266.off" , "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01842]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off" , "---java.io.OutputStream.write@POLYN178996" , "java.io.OutputStream.write@POLYN178996.off"]
+ , "c4" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "205" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01842]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off" , "---java.io.OutputStream.write@POLYN178996" , "java.io.OutputStream.write@POLYN178996.off"]
+ , "c4" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01695]"
+ , "c3" : ["java.io.ObjectOutputStream.PutFieldImpl.writeFields@POLYN611606.0" , "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "206" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01842]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off" , "---java.io.OutputStream.write@POLYN178996" , "java.io.OutputStream.write@POLYN178996.off"]
+ , "c4" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01534]"
+ , "c3" : ["java.io.ObjectOutputStream.defaultWriteFields@POLYN603435.0" , "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "207" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01842]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off" , "---java.io.OutputStream.write@POLYN178996" , "java.io.OutputStream.write@POLYN178996.off"]
+ , "c4" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00690]"
+ , "c3" : ["java.io.ObjectOutputStream.write@POLYN570043.0" , "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "208" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01842]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off" , "---java.io.OutputStream.write@POLYN178996" , "java.io.OutputStream.write@POLYN178996.off"]
+ , "c4" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00709]"
+ , "c3" : ["java.io.ObjectOutputStream.write@POLYN570461.off" , "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "209" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01842]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off" , "---java.io.OutputStream.write@POLYN178996" , "java.io.OutputStream.write@POLYN178996.off"]
+ , "c4" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01334]"
+ , "c3" : ["java.io.ObjectOutputStream.writeArray@POLYN593220.0" , "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "210" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01814]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616044.b" , "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01842]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b" , "---java.io.OutputStream.write@POLYN178996" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842"]
+ , "c4" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "211" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01818]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616266.b" , "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01842]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b" , "---java.io.OutputStream.write@POLYN178996" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842"]
+ , "c4" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "212" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01842]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b" , "---java.io.OutputStream.write@POLYN178996" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842"]
+ , "c4" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01695]"
+ , "c3" : ["java.io.ObjectOutputStream.PutFieldImpl.writeFields@POLYN611606.primVals" , "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "213" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01842]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b" , "---java.io.OutputStream.write@POLYN178996" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842"]
+ , "c4" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01534]"
+ , "c3" : ["java.io.ObjectOutputStream.defaultWriteFields@POLYN603435.primVals" , "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "214" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01842]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b" , "---java.io.OutputStream.write@POLYN178996" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842"]
+ , "c4" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00690]"
+ , "c3" : ["java.io.ObjectOutputStream.write@POLYN570043.buf" , "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "215" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01842]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b" , "---java.io.OutputStream.write@POLYN178996" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842"]
+ , "c4" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00709]"
+ , "c3" : ["java.io.ObjectOutputStream.write@POLYN570461.buf" , "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "216" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01842]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b" , "---java.io.OutputStream.write@POLYN178996" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842"]
+ , "c4" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01334]"
+ , "c3" : ["java.io.ObjectOutputStream.writeArray@POLYN593220.ba" , "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "217" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01814]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616044.b.length" , "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01842]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len" , "---java.io.OutputStream.write@POLYN178996" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842"]
+ , "c4" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "218" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01818]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616266.len" , "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01842]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len" , "---java.io.OutputStream.write@POLYN178996" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842"]
+ , "c4" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "219" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01842]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len" , "---java.io.OutputStream.write@POLYN178996" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842"]
+ , "c4" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01695]"
+ , "c3" : ["java.io.ObjectOutputStream.PutFieldImpl.writeFields@POLYN611606.primVals.length" , "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "220" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01842]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len" , "---java.io.OutputStream.write@POLYN178996" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842"]
+ , "c4" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01534]"
+ , "c3" : ["java.io.ObjectOutputStream.defaultWriteFields@POLYN603435.primDataSize" , "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "221" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01842]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len" , "---java.io.OutputStream.write@POLYN178996" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842"]
+ , "c4" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00690]"
+ , "c3" : ["java.io.ObjectOutputStream.write@POLYN570043.buf.length" , "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "222" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01842]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len" , "---java.io.OutputStream.write@POLYN178996" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842"]
+ , "c4" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00709]"
+ , "c3" : ["java.io.ObjectOutputStream.write@POLYN570461.len" , "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982" , "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "223" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00289]"
+ , "c3" : ["org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021.sendBufferSize" , "---java.net.Socket.setSendBufferSize@POLYN494347" , "java.net.Socket.setSendBufferSize@POLYN494347.size"]
+ , "c4" : "//QC-JAVCWE099[00289] In org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021[00289] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00254]"
+ , "c3" : ["org.apache.kafka.common.network.Selector.connect@POLYN403299.sendBufferSize" , "---org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021" , "org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021.sendBufferSize"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "224" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00291]"
+ , "c3" : ["org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021.receiveBufferSize" , "---java.net.Socket.setReceiveBufferSize@POLYN497050" , "java.net.Socket.setReceiveBufferSize@POLYN497050.size"]
+ , "c4" : "//QC-JAVCWE099[00291] In org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021[00291] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00254]"
+ , "c3" : ["org.apache.kafka.common.network.Selector.connect@POLYN403299.receiveBufferSize" , "---org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021" , "org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021.receiveBufferSize"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "225" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00187]"
+ , "c3" : ["org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream.writeBlock@POLYN202841.compressedLengt" , "---org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987" , "org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987.value"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00112]"
+ , "c3" : ["org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987.value" , "---java.io.OutputStream.write@POLYN177204" , "java.io.OutputStream.write@POLYN177204.b"]
+ , "c4" : "//QC-JAVCWE099[00112] In org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987[00112] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "226" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00193]"
+ , "c3" : ["org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream.writeBlock@POLYN202841.hash" , "---org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987" , "org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987.value"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00112]"
+ , "c3" : ["org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987.value" , "---java.io.OutputStream.write@POLYN177204" , "java.io.OutputStream.write@POLYN177204.b"]
+ , "c4" : "//QC-JAVCWE099[00112] In org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987[00112] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "227" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00205]"
+ , "c3" : ["org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream.writeEndMark@POLYN204284.0" , "---org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987" , "org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987.value"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00112]"
+ , "c3" : ["org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987.value" , "---java.io.OutputStream.write@POLYN177204" , "java.io.OutputStream.write@POLYN177204.b"]
+ , "c4" : "//QC-JAVCWE099[00112] In org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987[00112] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "228" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01668]"
+ , "c3" : ["org.apache.kafka.raft.KafkaRaftClient.handleInboundMessage@POLYN598295.request" , "---org.apache.kafka.raft.KafkaRaftClient.handleRequest@POLYN596026" , "org.apache.kafka.raft.KafkaRaftClient.handleRequest@POLYN596026.request"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01622]"
+ , "c3" : ["org.apache.kafka.raft.KafkaRaftClient.handleRequest@POLYN596026.request" , "---org.apache.kafka.raft.KafkaRaftClient.handleFetchRequest@POLYN563611" , "org.apache.kafka.raft.KafkaRaftClient.handleFetchRequest@POLYN563611.requestMetadata"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "229" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00167]"
+ , "c3" : ["org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN169023.records" , "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207" , "org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN169023.cibledummy_00167"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00191]"
+ , "c3" : ["org.apache.kafka.snapshot.RecordsSnapshotWriter.appendBatches@POLYN170152.batch.data" , "---org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN169023" , "org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN169023.records"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
 ]
 , 
 "data10" : [
@@ -15099,7 +20238,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAVCWE099"
  , "c3" : "Ressource injection"
- , "c4" : "106"
+ , "c4" : "126"
 }}
 ,
 { "ligne" : { "" : ""
@@ -16068,6 +21207,146 @@ var maDataBlocs = {
  , "c1link" : "./qc/aa__all_files.java.html#508"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAVCWE080[00508] In org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN247392[00508] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00001] In org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN199625[00001] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02188"
+ , "c1link" : "./qc/aa__all_files.java.html#2188"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[02188] In java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762[02188] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02188"
+ , "c1link" : "./qc/aa__all_files.java.html#2188"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[02188] In java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762[02188] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01117"
+ , "c1link" : "./qc/aa__all_files.java.html#1117"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[01117] In org.apache.kafka.common.utils.Utils.readFully@POLYN455991[01117] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/aa__all_files.java.html#92"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00092] In org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644[00092] target data PATHtainted (java.io.FileOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/aa__all_files.java.html#92"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00092] In org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644[00092] target data PATHtainted (java.io.FileOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/aa__all_files.java.html#81"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00081] In org.apache.kafka.common.protocol.DataInputStreamReadable.readArray@POLYN154753[00081] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01067"
+ , "c1link" : "./qc/aa__all_files.java.html#1067"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[01067] In java.io.ObjectInputStream.readFully@POLYN809979[01067] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/aa__all_files.java.html#120"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00120] In org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344[00120] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00507"
+ , "c1link" : "./qc/aa__all_files.java.html#507"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00507] In org.apache.kafka.common.record.DefaultRecord.readMore@POLYN247562[00507] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01084"
+ , "c1link" : "./qc/aa__all_files.java.html#1084"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[01084] In java.io.ObjectInputStream.readFully@POLYN810451[01084] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00507"
+ , "c1link" : "./qc/aa__all_files.java.html#507"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00507] In org.apache.kafka.common.record.DefaultRecord.readMore@POLYN247562[00507] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01084"
+ , "c1link" : "./qc/aa__all_files.java.html#1084"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[01084] In java.io.ObjectInputStream.readFully@POLYN810451[01084] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00507"
+ , "c1link" : "./qc/aa__all_files.java.html#507"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00507] In org.apache.kafka.common.record.DefaultRecord.readMore@POLYN247562[00507] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01084"
+ , "c1link" : "./qc/aa__all_files.java.html#1084"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[01084] In java.io.ObjectInputStream.readFully@POLYN810451[01084] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/aa__all_files.java.html#289"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00289] In org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021[00289] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00291"
+ , "c1link" : "./qc/aa__all_files.java.html#291"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00291] In org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021[00291] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/aa__all_files.java.html#112"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00112] In org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987[00112] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/aa__all_files.java.html#112"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00112] In org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987[00112] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/aa__all_files.java.html#112"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00112] In org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987[00112] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
 }} 
 ,
 { "ligne" : {"" : ""

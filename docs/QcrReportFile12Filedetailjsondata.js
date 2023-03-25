@@ -3849,6 +3849,1704 @@
       "_target" : "org.springframework.http.ResponseEntity.DefaultBuilder.this",
       "_risk" : "//QC-JAVCWE080[00578] In org.springframework.http.ResponseEntity.DefaultBuilder[00578] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
     } ]
+  }, {
+    "_id" : "161",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.info@POLYN288765.return",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.info@POLYN288765 in line [00215]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecords.filterTo@POLYN267790.info",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392.offset",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.recordWritten@POLYN312603 in line [00717]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.recordWritten@POLYN312603.offset",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.offset",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392 in line [00454]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392.offset",
+      "_risk" : ""
+    }, {
+      "_id" : "4",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319.offset",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730 in line [00484]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.offset",
+      "_risk" : ""
+    }, {
+      "_id" : "5",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN300362.offset",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319 in line [00506]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319.offset",
+      "_risk" : ""
+    }, {
+      "_id" : "6",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.lastOffset",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.info@POLYN288765.dummymethode_00259 in line [00259]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.info@POLYN288765.shallowOffsetOfMaxTimestamp",
+      "_risk" : ""
+    }, {
+      "_id" : "7",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.info@POLYN288765.shallowOffsetOfMaxTimestamp",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.info@POLYN288765.dummymethode_00262 in line [00262]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.info@POLYN288765.return",
+      "_risk" : ""
+    }, {
+      "_id" : "8",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.recordWritten@POLYN312603.offset",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.recordWritten@POLYN312603.dummymethode_00751 in line [00751]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.lastOffset",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "162",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN886833.b",
+      "_method" : "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306 in line [02943]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.b",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread",
+      "_method" : "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.dummymethode_03028 in line [03028]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.pos",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [03031]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread",
+      "_risk" : ""
+    }, {
+      "_id" : "4",
+      "_source" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.b",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [03037]",
+      "_target" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.b",
+      "_risk" : ""
+    }, {
+      "_id" : "5",
+      "_source" : "java.io.ObjectInputStream.BlockDataInputStream.pos",
+      "_method" : "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN910111.dummymethode_03365 in line [03365]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.end",
+      "_risk" : ""
+    }, {
+      "_id" : "6",
+      "_source" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.b",
+      "_method" : "---java.io.InputStream.read@POLYN246846 in line [02620]",
+      "_target" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.nbytes",
+      "_risk" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN873941[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+    }, {
+      "_id" : "7",
+      "_source" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.nbytes",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.dummymethode_02622 in line [02622]",
+      "_target" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "163",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread",
+      "_method" : "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.dummymethode_03028 in line [03028]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.pos",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [03031]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.b",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [03037]",
+      "_target" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.b",
+      "_risk" : ""
+    }, {
+      "_id" : "4",
+      "_source" : "java.io.ObjectInputStream.BlockDataInputStream.pos",
+      "_method" : "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN910111.dummymethode_03365 in line [03365]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.end",
+      "_risk" : ""
+    }, {
+      "_id" : "5",
+      "_source" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.b",
+      "_method" : "---java.io.InputStream.read@POLYN246846 in line [02620]",
+      "_target" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.nbytes",
+      "_risk" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN873941[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+    }, {
+      "_id" : "6",
+      "_source" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.nbytes",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.dummymethode_02622 in line [02622]",
+      "_target" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return",
+      "_risk" : ""
+    }, {
+      "_id" : "7",
+      "_source" : "java.io.ObjectInputStream.read@POLYN805574.buf",
+      "_method" : "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306 in line [00917]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.b",
+      "_risk" : "//QC-JAVCWZ099[00917] In java.io.ObjectInputStream.read@POLYN805574[00917] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+    } ]
+  }, {
+    "_id" : "164",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN886833.len",
+      "_method" : "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306 in line [02943]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.len",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread",
+      "_method" : "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.dummymethode_03028 in line [03028]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.pos",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [03031]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread",
+      "_risk" : ""
+    }, {
+      "_id" : "4",
+      "_source" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.len",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [03037]",
+      "_target" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.len",
+      "_risk" : ""
+    }, {
+      "_id" : "5",
+      "_source" : "java.io.ObjectInputStream.BlockDataInputStream.pos",
+      "_method" : "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN910111.dummymethode_03365 in line [03365]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.end",
+      "_risk" : ""
+    }, {
+      "_id" : "6",
+      "_source" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.len",
+      "_method" : "---java.io.InputStream.read@POLYN246846 in line [02620]",
+      "_target" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.nbytes",
+      "_risk" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN873941[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+    }, {
+      "_id" : "7",
+      "_source" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.nbytes",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.dummymethode_02622 in line [02622]",
+      "_target" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "165",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread",
+      "_method" : "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.dummymethode_03028 in line [03028]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.pos",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [03031]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.len",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [03037]",
+      "_target" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.len",
+      "_risk" : ""
+    }, {
+      "_id" : "4",
+      "_source" : "java.io.ObjectInputStream.BlockDataInputStream.pos",
+      "_method" : "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN910111.dummymethode_03365 in line [03365]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.end",
+      "_risk" : ""
+    }, {
+      "_id" : "5",
+      "_source" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.len",
+      "_method" : "---java.io.InputStream.read@POLYN246846 in line [02620]",
+      "_target" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.nbytes",
+      "_risk" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN873941[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+    }, {
+      "_id" : "6",
+      "_source" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.nbytes",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.dummymethode_02622 in line [02622]",
+      "_target" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return",
+      "_risk" : ""
+    }, {
+      "_id" : "7",
+      "_source" : "java.io.ObjectInputStream.read@POLYN805574.len",
+      "_method" : "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306 in line [00917]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.len",
+      "_risk" : "//QC-JAVCWZ099[00917] In java.io.ObjectInputStream.read@POLYN805574[00917] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+    } ]
+  }, {
+    "_id" : "166",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN886833.off",
+      "_method" : "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306 in line [02943]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.off",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread",
+      "_method" : "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.dummymethode_03028 in line [03028]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.pos",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [03031]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread",
+      "_risk" : ""
+    }, {
+      "_id" : "4",
+      "_source" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.off",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [03037]",
+      "_target" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.off",
+      "_risk" : ""
+    }, {
+      "_id" : "5",
+      "_source" : "java.io.ObjectInputStream.BlockDataInputStream.pos",
+      "_method" : "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN910111.dummymethode_03365 in line [03365]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.end",
+      "_risk" : ""
+    }, {
+      "_id" : "6",
+      "_source" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.off",
+      "_method" : "---java.io.InputStream.read@POLYN246846 in line [02620]",
+      "_target" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.nbytes",
+      "_risk" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN873941[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+    }, {
+      "_id" : "7",
+      "_source" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.nbytes",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.dummymethode_02622 in line [02622]",
+      "_target" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "167",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread",
+      "_method" : "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.dummymethode_03028 in line [03028]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.pos",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [03031]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.off",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [03037]",
+      "_target" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.off",
+      "_risk" : ""
+    }, {
+      "_id" : "4",
+      "_source" : "java.io.ObjectInputStream.BlockDataInputStream.pos",
+      "_method" : "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN910111.dummymethode_03365 in line [03365]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.end",
+      "_risk" : ""
+    }, {
+      "_id" : "5",
+      "_source" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.off",
+      "_method" : "---java.io.InputStream.read@POLYN246846 in line [02620]",
+      "_target" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.nbytes",
+      "_risk" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN873941[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+    }, {
+      "_id" : "6",
+      "_source" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.nbytes",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.dummymethode_02622 in line [02622]",
+      "_target" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return",
+      "_risk" : ""
+    }, {
+      "_id" : "7",
+      "_source" : "java.io.ObjectInputStream.read@POLYN805574.off",
+      "_method" : "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306 in line [00917]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.off",
+      "_risk" : "//QC-JAVCWZ099[00917] In java.io.ObjectInputStream.read@POLYN805574[00917] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+    } ]
+  }, {
+    "_id" : "168",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392.timestamp",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.recordWritten@POLYN312603 in line [00717]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.recordWritten@POLYN312603.timestamp",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.timestamp",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392 in line [00454]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392.timestamp",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319.timestamp",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730 in line [00484]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.timestamp",
+      "_risk" : ""
+    }, {
+      "_id" : "4",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN300362.timestamp",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319 in line [00506]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319.timestamp",
+      "_risk" : ""
+    }, {
+      "_id" : "5",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.recordWritten@POLYN312603.timestamp",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.recordWritten@POLYN312603.dummymethode_00754 in line [00754]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.maxTimestamp",
+      "_risk" : ""
+    }, {
+      "_id" : "6",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.maxTimestamp",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.writeDefaultBatchHeader@POLYN294196.dummymethode_00400 in line [00400]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.writeDefaultBatchHeader@POLYN294196.maxTimestamp",
+      "_risk" : ""
+    }, {
+      "_id" : "7",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.writeDefaultBatchHeader@POLYN294196.maxTimestamp",
+      "_method" : "---org.apache.kafka.common.record.DefaultRecordBatch.writeHeader@POLYN271277 in line [00402]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.writeDefaultBatchHeader@POLYN294196.cibledummy_00402",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "169",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN199625.struct",
+      "_method" : "---org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN199625.dummymethode_00001 in line [00001]",
+      "_target" : "org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN199625.return",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.InputStream.read@POLYN241883.return",
+      "_method" : "---java.io.InputStream.read@POLYN241883 in line [00001]",
+      "_target" : "org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN199625.struct",
+      "_risk" : "//QC-JAVCWE099[00001] In org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN199625[00001] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.assignmentSnapshot",
+      "_method" : "---org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.metadata@POLYN233409.dummymethode_00170 in line [00170]",
+      "_target" : "org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.metadata@POLYN233409.localAssignmentSnapshot",
+      "_risk" : ""
+    }, {
+      "_id" : "4",
+      "_source" : "org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.metadata@POLYN233409.localAssignmentSnapshot",
+      "_method" : "---org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.metadata@POLYN233409.dummymethode_00171 in line [00171]",
+      "_target" : "org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.metadata@POLYN233409.workerState",
+      "_risk" : ""
+    }, {
+      "_id" : "5",
+      "_source" : "org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.metadata@POLYN233409.workerState",
+      "_method" : "---org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.metadata@POLYN233409.dummymethode_00174 in line [00174]",
+      "_target" : "org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.metadata@POLYN233409.return",
+      "_risk" : ""
+    }, {
+      "_id" : "6",
+      "_source" : "org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN199625.return",
+      "_method" : "---org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN199625 in line [00186]",
+      "_target" : "org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.onJoinComplete@POLYN234283.newAssignment",
+      "_risk" : ""
+    }, {
+      "_id" : "7",
+      "_source" : "org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.onJoinComplete@POLYN234283.newAssignment",
+      "_method" : "---org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.onJoinComplete@POLYN234283.dummymethode_00209 in line [00209]",
+      "_target" : "org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.assignmentSnapshot",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "170",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429.return",
+      "_method" : "---org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429 in line [00372]",
+      "_target" : "org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN240778.return",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931.return",
+      "_method" : "---org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931 in line [00406]",
+      "_target" : "org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429.keySize",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429.skipBuffer",
+      "_method" : "---org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931 in line [00421]",
+      "_target" : "org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931.buffer",
+      "_risk" : ""
+    }, {
+      "_id" : "4",
+      "_source" : "org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429.keySize",
+      "_method" : "---org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429.dummymethode_00428 in line [00428]",
+      "_target" : "org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429.return",
+      "_risk" : ""
+    }, {
+      "_id" : "5",
+      "_source" : "org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931.buffer",
+      "_method" : "---org.apache.kafka.common.utils.ByteUtils.readVarint@POLYN224372 in line [00473]",
+      "_target" : "org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931.sizeInBytes",
+      "_risk" : ""
+    }, {
+      "_id" : "6",
+      "_source" : "org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931.sizeInBytes",
+      "_method" : "---org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931.dummymethode_00475 in line [00475]",
+      "_target" : "org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931.return",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "171",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "3",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289.dummymethode_02146 in line [02146]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289.utflen",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289.utflen",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289.dummymethode_02153 in line [02153]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289.return",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762.utflen",
+      "_method" : "---java.io.ObjectOutputStream.writeLong@POLYN573547 in line [02188]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762.cibledummy_02188",
+      "_risk" : "//QC-JAVCWE099[02188] In java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762[02188] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+    }, {
+      "_id" : "4",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289.return",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289 in line [01303]",
+      "_target" : "java.io.ObjectOutputStream.writeString@POLYN592445.utflen",
+      "_risk" : ""
+    }, {
+      "_id" : "5",
+      "_source" : "java.io.ObjectOutputStream.writeString@POLYN592445.utflen",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762 in line [01309]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762.utflen",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "172",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "2",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289.dummymethode_02148 in line [02148]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289.utflen",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289.utflen",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289.dummymethode_02153 in line [02153]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289.return",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762.utflen",
+      "_method" : "---java.io.ObjectOutputStream.writeLong@POLYN573547 in line [02188]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762.cibledummy_02188",
+      "_risk" : "//QC-JAVCWE099[02188] In java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762[02188] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+    }, {
+      "_id" : "4",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289.return",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.getUTFLength@POLYN633289 in line [01303]",
+      "_target" : "java.io.ObjectOutputStream.writeString@POLYN592445.utflen",
+      "_risk" : ""
+    }, {
+      "_id" : "5",
+      "_source" : "java.io.ObjectOutputStream.writeString@POLYN592445.utflen",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762 in line [01309]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762.utflen",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "173",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.magic",
+      "_method" : "---org.apache.kafka.common.record.LegacyRecord.write@POLYN245169 in line [00390]",
+      "_target" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN245169.magic",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN245169.magic",
+      "_method" : "---org.apache.kafka.common.record.LegacyRecord.write@POLYN246511 in line [00428]",
+      "_target" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.magic",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.magic",
+      "_method" : "---org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.dummymethode_00462 in line [00462]",
+      "_target" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.cibledummy_00462",
+      "_risk" : ""
+    }, {
+      "_id" : "4",
+      "_source" : "org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544.magic",
+      "_method" : "---org.apache.kafka.common.record.LegacyRecord.write@POLYN243625 in line [00369]",
+      "_target" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.magic",
+      "_risk" : ""
+    }, {
+      "_id" : "5",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.writeLegacyCompressedWrapperHeader@POLYN295621.magic",
+      "_method" : "---org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544 in line [00425]",
+      "_target" : "org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544.magic",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "174",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN181082.return",
+      "_method" : "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN181082 in line [00153]",
+      "_target" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.iterator@POLYN179508.return",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777.buffer",
+      "_method" : "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.toMemoryRecordBatch@POLYN180967 in line [00217]",
+      "_target" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777.return",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777.return",
+      "_method" : "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777 in line [00196]",
+      "_target" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.fullBatch",
+      "_risk" : ""
+    }, {
+      "_id" : "4",
+      "_source" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.fullBatch",
+      "_method" : "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN181082.dummymethode_00198 in line [00198]",
+      "_target" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN181082.return",
+      "_risk" : ""
+    }, {
+      "_id" : "5",
+      "_source" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.iterator@POLYN179508.return",
+      "_method" : "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.iterator@POLYN179508 in line [00120]",
+      "_target" : "org.apache.kafka.metadata.util.SnapshotFileReader.handleControlBatch@POLYN172826.Iterator_Record_iter",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "175",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN181082.return",
+      "_method" : "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN181082 in line [00153]",
+      "_target" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.iterator@POLYN179508.return",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.toMemoryRecordBatch@POLYN180967.return",
+      "_method" : "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.toMemoryRecordBatch@POLYN180967 in line [00217]",
+      "_target" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777.return",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777.return",
+      "_method" : "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777 in line [00196]",
+      "_target" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.fullBatch",
+      "_risk" : ""
+    }, {
+      "_id" : "4",
+      "_source" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.fullBatch",
+      "_method" : "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN181082.dummymethode_00198 in line [00198]",
+      "_target" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN181082.return",
+      "_risk" : ""
+    }, {
+      "_id" : "5",
+      "_source" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.iterator@POLYN179508.return",
+      "_method" : "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.iterator@POLYN179508 in line [00120]",
+      "_target" : "org.apache.kafka.metadata.util.SnapshotFileReader.handleControlBatch@POLYN172826.Iterator_Record_iter",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "176",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777.position",
+      "_method" : "---org.apache.kafka.common.utils.Utils.readFullyOrFail@POLYN454725 in line [00215]",
+      "_target" : "org.apache.kafka.common.utils.Utils.readFullyOrFail@POLYN454725.position",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.utils.Utils.readFully@POLYN455991.position",
+      "_method" : "---org.apache.kafka.common.utils.Utils.readFully@POLYN455991.dummymethode_01114 in line [01114]",
+      "_target" : "org.apache.kafka.common.utils.Utils.readFully@POLYN455991.currentPosition",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.common.utils.Utils.readFully@POLYN455991.currentPosition",
+      "_method" : "---java.io.InputStream.read@POLYN246846 in line [01117]",
+      "_target" : "java.io.InputStream.read@POLYN246846.off",
+      "_risk" : "//QC-JAVCWE099[01117] In org.apache.kafka.common.utils.Utils.readFully@POLYN455991[01117] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+    }, {
+      "_id" : "4",
+      "_source" : "org.apache.kafka.common.utils.Utils.readFullyOrFail@POLYN454725.position",
+      "_method" : "---org.apache.kafka.common.utils.Utils.readFully@POLYN455991 in line [01090]",
+      "_target" : "org.apache.kafka.common.utils.Utils.readFully@POLYN455991.position",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "177",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.utils.PrimitiveRef.ofInt@POLYN143180.return",
+      "_method" : "---org.apache.kafka.common.utils.PrimitiveRef.ofInt@POLYN143180 in line [00391]",
+      "_target" : "org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429.bytesRemaining",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429.bytesRemaining",
+      "_method" : "---org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931 in line [00421]",
+      "_target" : "org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931.bytesRemaining",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931.bytesRemaining",
+      "_method" : "---org.apache.kafka.common.record.DefaultRecord.readMore@POLYN247562 in line [00465]",
+      "_target" : "org.apache.kafka.common.record.DefaultRecord.readMore@POLYN247562.bytesRemaining",
+      "_risk" : ""
+    }, {
+      "_id" : "4",
+      "_source" : "org.apache.kafka.common.utils.PrimitiveRef.ofInt@POLYN143180.value",
+      "_method" : "---org.apache.kafka.common.utils.PrimitiveRef.ofInt@POLYN143180.dummymethode_00026 in line [00026]",
+      "_target" : "org.apache.kafka.common.utils.PrimitiveRef.ofInt@POLYN143180.return",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "178",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.return",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644 in line [00188]",
+      "_target" : "org.apache.kafka.common.record.FileRecords.append@POLYN236794.written",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.record.FileRecords.append@POLYN236794.written",
+      "_method" : "---org.apache.kafka.common.record.FileRecords.append@POLYN236794.dummymethode_00189 in line [00189]",
+      "_target" : "org.apache.kafka.common.record.FileRecords.append@POLYN236794.cibledummy_00189",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.buffer",
+      "_method" : "---java.io.FileOutputStream.write@POLYN233024 in line [00092]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.written",
+      "_risk" : "//QC-JAVCWE099[00092] In org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644[00092] target data PATHtainted (java.io.FileOutputStream.write) RiskOnOutput"
+    }, {
+      "_id" : "4",
+      "_source" : "org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.written",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.dummymethode_00094 in line [00094]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.return",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "179",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.return",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644 in line [00188]",
+      "_target" : "org.apache.kafka.common.record.FileRecords.append@POLYN236794.written",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.record.FileRecords.append@POLYN236794.written",
+      "_method" : "---org.apache.kafka.common.record.FileRecords.append@POLYN236794.dummymethode_00189 in line [00189]",
+      "_target" : "org.apache.kafka.common.record.FileRecords.append@POLYN236794.cibledummy_00189",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.sourcedummy",
+      "_method" : "---java.io.FileOutputStream.write@POLYN233024 in line [00092]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.written",
+      "_risk" : "//QC-JAVCWE099[00092] In org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644[00092] target data PATHtainted (java.io.FileOutputStream.write) RiskOnOutput"
+    }, {
+      "_id" : "4",
+      "_source" : "org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.written",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.dummymethode_00094 in line [00094]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.return",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "180",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.key",
+      "_method" : "---org.apache.kafka.common.record.LegacyRecord.write@POLYN245169 in line [00390]",
+      "_target" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN245169.key",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN245169.key",
+      "_method" : "---org.apache.kafka.common.record.LegacyRecord.write@POLYN246511 in line [00428]",
+      "_target" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.key",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.key",
+      "_method" : "---org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.dummymethode_00476 in line [00476]",
+      "_target" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.cibledummy_00476",
+      "_risk" : ""
+    }, {
+      "_id" : "4",
+      "_source" : "org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544.null",
+      "_method" : "---org.apache.kafka.common.record.LegacyRecord.write@POLYN243625 in line [00369]",
+      "_target" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.key",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "181",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.newByteBufferOutputStream(buffer)",
+      "_method" : "---org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.dummymethode_00389 in line [00389]",
+      "_target" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.out",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.out",
+      "_method" : "---org.apache.kafka.common.record.LegacyRecord.write@POLYN245169 in line [00390]",
+      "_target" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN245169.out",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN245169.out",
+      "_method" : "---org.apache.kafka.common.record.LegacyRecord.write@POLYN246511 in line [00428]",
+      "_target" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.out",
+      "_risk" : ""
+    }, {
+      "_id" : "4",
+      "_source" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.out",
+      "_method" : "---org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.dummymethode_00476 in line [00476]",
+      "_target" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN246511.cibledummy_00476",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "182",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544.buffer",
+      "_method" : "---org.apache.kafka.common.record.LegacyRecord.write@POLYN243625 in line [00369]",
+      "_target" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.buffer",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.utils.ByteBufferOutputStream.buffer@POLYN162605.return",
+      "_method" : "---org.apache.kafka.common.utils.ByteBufferOutputStream.buffer@POLYN162605 in line [00416]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.writeLegacyCompressedWrapperHeader@POLYN295621.buffer",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.writeLegacyCompressedWrapperHeader@POLYN295621.buffer",
+      "_method" : "---org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544 in line [00425]",
+      "_target" : "org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544.buffer",
+      "_risk" : ""
+    }, {
+      "_id" : "4",
+      "_source" : "org.apache.kafka.common.utils.ByteBufferOutputStream.buffer@POLYN162605.buffer",
+      "_method" : "---org.apache.kafka.common.utils.ByteBufferOutputStream.buffer@POLYN162605.dummymethode_00080 in line [00080]",
+      "_target" : "org.apache.kafka.common.utils.ByteBufferOutputStream.buffer@POLYN162605.return",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "183",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.record.FileRecords.channel@POLYN233120.return",
+      "_method" : "---org.apache.kafka.common.record.FileRecords.channel@POLYN233120 in line [00212]",
+      "_target" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777.channel",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777.channel",
+      "_method" : "---org.apache.kafka.common.utils.Utils.readFullyOrFail@POLYN454725 in line [00215]",
+      "_target" : "org.apache.kafka.common.utils.Utils.readFullyOrFail@POLYN454725.channel",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.common.record.FileRecords.channel@POLYN233120.channel",
+      "_method" : "---org.apache.kafka.common.record.FileRecords.channel@POLYN233120.dummymethode_00107 in line [00107]",
+      "_target" : "org.apache.kafka.common.record.FileRecords.channel@POLYN233120.return",
+      "_risk" : ""
+    }, {
+      "_id" : "4",
+      "_source" : "org.apache.kafka.common.utils.Utils.readFullyOrFail@POLYN454725.channel",
+      "_method" : "---org.apache.kafka.common.utils.Utils.readFully@POLYN455991 in line [01090]",
+      "_target" : "org.apache.kafka.common.utils.Utils.readFullyOrFail@POLYN454725.cibledummy_01090",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "184",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.raft.KafkaRaftClient.handleInboundMessage@POLYN598295.currentTimeMs",
+      "_method" : "---org.apache.kafka.raft.KafkaRaftClient.handleRequest@POLYN596026 in line [01668]",
+      "_target" : "org.apache.kafka.raft.KafkaRaftClient.handleRequest@POLYN596026.currentTimeMs",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.raft.KafkaRaftClient.handleRequest@POLYN596026.currentTimeMs",
+      "_method" : "---org.apache.kafka.raft.KafkaRaftClient.handleFetchRequest@POLYN563611 in line [01622]",
+      "_target" : "org.apache.kafka.raft.KafkaRaftClient.handleFetchRequest@POLYN563611.currentTimeMs",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.common.utils.Time.milliseconds@POLYN154337.return",
+      "_method" : "---org.apache.kafka.common.utils.Time.milliseconds@POLYN154337 in line [02232]",
+      "_target" : "org.apache.kafka.raft.KafkaRaftClient.poll@POLYN622891.currentTimeMs",
+      "_risk" : ""
+    }, {
+      "_id" : "4",
+      "_source" : "org.apache.kafka.raft.KafkaRaftClient.poll@POLYN622891.currentTimeMs",
+      "_method" : "---org.apache.kafka.raft.KafkaRaftClient.handleInboundMessage@POLYN598295 in line [02249]",
+      "_target" : "org.apache.kafka.raft.KafkaRaftClient.handleInboundMessage@POLYN598295.currentTimeMs",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "185",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413.records",
+      "_method" : "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197 in line [02274]",
+      "_target" : "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197.records",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.raft.KafkaRaftClient.scheduleAppend@POLYN623937.records",
+      "_method" : "---org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413 in line [02255]",
+      "_target" : "org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413.records",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197.records",
+      "_method" : "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207 in line [00112]",
+      "_target" : "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.records",
+      "_risk" : ""
+    }, {
+      "_id" : "4",
+      "_source" : "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.records",
+      "_method" : "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.dummymethode_00152 in line [00152]",
+      "_target" : "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.batch",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "186",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413.records",
+      "_method" : "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197 in line [02274]",
+      "_target" : "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197.records",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.raft.KafkaRaftClient.scheduleAtomicAppend@POLYN624182.records",
+      "_method" : "---org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413 in line [02260]",
+      "_target" : "org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413.records",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197.records",
+      "_method" : "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207 in line [00112]",
+      "_target" : "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.records",
+      "_risk" : ""
+    }, {
+      "_id" : "4",
+      "_source" : "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.records",
+      "_method" : "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.dummymethode_00152 in line [00152]",
+      "_target" : "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.batch",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "187",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectInputStream.readFully@POLYN809979.buf",
+      "_method" : "---java.io.ObjectInputStream.BlockDataInputStream.readFully@POLYN892521 in line [01067]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.readFully@POLYN892521.b",
+      "_risk" : "//QC-JAVCWE099[01067] In java.io.ObjectInputStream.readFully@POLYN809979[01067] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.protocol.DataInputStreamReadable.readArray@POLYN154753.arr",
+      "_method" : "---java.io.ObjectInputStream.readFully@POLYN809979 in line [00081]",
+      "_target" : "java.io.ObjectInputStream.readFully@POLYN809979.buf",
+      "_risk" : "//QC-JAVCWE099[00081] In org.apache.kafka.common.protocol.DataInputStreamReadable.readArray@POLYN154753[00081] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.common.protocol.DataInputStreamReadable.readByteBuffer@POLYN155332.arr",
+      "_method" : "---org.apache.kafka.common.protocol.DataInputStreamReadable.readArray@POLYN154753 in line [00099]",
+      "_target" : "org.apache.kafka.common.protocol.DataInputStreamReadable.readArray@POLYN154753.arr",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "188",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN240778.input",
+      "_method" : "---org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429 in line [00372]",
+      "_target" : "org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429.input",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.record.DefaultRecord.readPartiallyFrom@POLYN241429.input",
+      "_method" : "---org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931 in line [00421]",
+      "_target" : "org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931.input",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.common.record.DefaultRecord.skipLengthDelimitedField@POLYN245931.input",
+      "_method" : "---org.apache.kafka.common.record.DefaultRecord.readMore@POLYN247562 in line [00465]",
+      "_target" : "org.apache.kafka.common.record.DefaultRecord.readMore@POLYN247562.input",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "189",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.compressionType",
+      "_method" : "---org.apache.kafka.common.record.LegacyRecord.write@POLYN245169 in line [00390]",
+      "_target" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN245169.compressionType",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544.compressionType",
+      "_method" : "---org.apache.kafka.common.record.LegacyRecord.write@POLYN243625 in line [00369]",
+      "_target" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.compressionType",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.writeLegacyCompressedWrapperHeader@POLYN295621.compressionType",
+      "_method" : "---org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544 in line [00425]",
+      "_target" : "org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544.compressionType",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "190",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.timestampType",
+      "_method" : "---org.apache.kafka.common.record.LegacyRecord.write@POLYN245169 in line [00390]",
+      "_target" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN245169.timestampType",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544.timestampType",
+      "_method" : "---org.apache.kafka.common.record.LegacyRecord.write@POLYN243625 in line [00369]",
+      "_target" : "org.apache.kafka.common.record.LegacyRecord.write@POLYN243625.timestampType",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.writeLegacyCompressedWrapperHeader@POLYN295621.timestampType",
+      "_method" : "---org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544 in line [00425]",
+      "_target" : "org.apache.kafka.common.record.LegacyRecord.writeCompressedRecordHeader@POLYN242544.timestampType",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "191",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.headers",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392 in line [00454]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392.headers",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319.headers",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730 in line [00484]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.headers",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN300362.Record.EMPTY_HEADERS",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319 in line [00506]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319.headers",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "192",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.key",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392 in line [00454]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392.key",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319.key",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730 in line [00484]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.key",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN300362.key",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319 in line [00506]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319.key",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "193",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.value",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392 in line [00454]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendDefaultRecord@POLYN310392.value",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319.value",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730 in line [00484]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.value",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN300362.value",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319 in line [00506]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN299319.value",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "194",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendLegacyRecord@POLYN311131.sourcedummy",
+      "_method" : "---org.apache.kafka.common.record.LegacyRecord.write@POLYN246511 in line [00730]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendLegacyRecord@POLYN311131.crc",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendLegacyRecord@POLYN311131.crc",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendLegacyRecord@POLYN311131.dummymethode_00732 in line [00732]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendLegacyRecord@POLYN311131.return",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendLegacyRecord@POLYN311131.return",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecordsBuilder.appendLegacyRecord@POLYN311131 in line [00456]",
+      "_target" : "org.apache.kafka.common.record.MemoryRecordsBuilder.appendWithOffset@POLYN296730.cibledummy_00456",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "195",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344.null",
+      "_method" : "---org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344.dummymethode_00110 in line [00110]",
+      "_target" : "org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344.return",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344.return",
+      "_method" : "---org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344 in line [00119]",
+      "_target" : "org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344.size",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344.size",
+      "_method" : "---java.io.ObjectOutputStream.writeInt@POLYN573267 in line [00120]",
+      "_target" : "org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344.cibledummy_00120",
+      "_risk" : "//QC-JAVCWE099[00120] In org.apache.kafka.common.serialization.ListSerializer.serialize@POLYN167344[00120] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+    } ]
+  }, {
+    "_id" : "196",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413.epoch",
+      "_method" : "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197 in line [02274]",
+      "_target" : "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197.epoch",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.raft.KafkaRaftClient.scheduleAppend@POLYN623937.epoch",
+      "_method" : "---org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413 in line [02255]",
+      "_target" : "org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413.epoch",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197.epoch",
+      "_method" : "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207 in line [00112]",
+      "_target" : "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.epoch",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "197",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413.epoch",
+      "_method" : "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197 in line [02274]",
+      "_target" : "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197.epoch",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.raft.KafkaRaftClient.scheduleAtomicAppend@POLYN624182.epoch",
+      "_method" : "---org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413 in line [02260]",
+      "_target" : "org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413.epoch",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197.epoch",
+      "_method" : "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207 in line [00112]",
+      "_target" : "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.epoch",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "198",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN178464.return",
+      "_method" : "---org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN178464 in line [00233]",
+      "_target" : "org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN241743.loadedCheckpoints",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN241743.loadedCheckpoints",
+      "_method" : "---org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN241743 in line [00235]",
+      "_target" : "org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN241743.cibledummy_00235",
+      "_risk" : ""
+    }, {
+      "_id" : "3",
+      "_source" : "org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN178464.offsets",
+      "_method" : "---org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN178464.dummymethode_00182 in line [00182]",
+      "_target" : "org.apache.kafka.streams.state.internals.OffsetCheckpoint.read@POLYN178464.return",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "199",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectInputStream.readBoolean@POLYN807260.return",
+      "_method" : "---java.io.ObjectInputStream.readBoolean@POLYN807260 in line [03208]",
+      "_target" : "java.io.ObjectInputStream.BlockDataInputStream.readBooleans@POLYN899288.v[off++]",
+      "_risk" : "//QC-JAVCWZ099[03208] In java.io.ObjectInputStream.BlockDataInputStream.readBooleans@POLYN899288[03208] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectInputStream.BlockDataInputStream.readBoolean@POLYN893308.return",
+      "_method" : "---java.io.ObjectInputStream.BlockDataInputStream.readBoolean@POLYN893308 in line [00957]",
+      "_target" : "java.io.ObjectInputStream.readBoolean@POLYN807260.return",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "200",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectInputStream.readFully@POLYN810451.buf",
+      "_method" : "---java.io.ObjectInputStream.BlockDataInputStream.readFully@POLYN892521 in line [01084]",
+      "_target" : "java.io.ObjectInputStream.readFully@POLYN810451.cibledummy_01084",
+      "_risk" : "//QC-JAVCWE099[01084] In java.io.ObjectInputStream.readFully@POLYN810451[01084] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.record.DefaultRecord.readMore@POLYN247562.array",
+      "_method" : "---java.io.ObjectInputStream.readFully@POLYN810451 in line [00507]",
+      "_target" : "java.io.ObjectInputStream.readFully@POLYN810451.buf",
+      "_risk" : "//QC-JAVCWE099[00507] In org.apache.kafka.common.record.DefaultRecord.readMore@POLYN247562[00507] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+    } ]
+  }, {
+    "_id" : "201",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectInputStream.readFully@POLYN810451.len",
+      "_method" : "---java.io.ObjectInputStream.BlockDataInputStream.readFully@POLYN892521 in line [01084]",
+      "_target" : "java.io.ObjectInputStream.readFully@POLYN810451.cibledummy_01084",
+      "_risk" : "//QC-JAVCWE099[01084] In java.io.ObjectInputStream.readFully@POLYN810451[01084] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.record.DefaultRecord.readMore@POLYN247562.bytesRead",
+      "_method" : "---java.io.ObjectInputStream.readFully@POLYN810451 in line [00507]",
+      "_target" : "java.io.ObjectInputStream.readFully@POLYN810451.len",
+      "_risk" : "//QC-JAVCWE099[00507] In org.apache.kafka.common.record.DefaultRecord.readMore@POLYN247562[00507] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+    } ]
+  }, {
+    "_id" : "202",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectInputStream.readFully@POLYN810451.off",
+      "_method" : "---java.io.ObjectInputStream.BlockDataInputStream.readFully@POLYN892521 in line [01084]",
+      "_target" : "java.io.ObjectInputStream.readFully@POLYN810451.cibledummy_01084",
+      "_risk" : "//QC-JAVCWE099[01084] In java.io.ObjectInputStream.readFully@POLYN810451[01084] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.record.DefaultRecord.readMore@POLYN247562.bytesToLeftShift",
+      "_method" : "---java.io.ObjectInputStream.readFully@POLYN810451 in line [00507]",
+      "_target" : "java.io.ObjectInputStream.readFully@POLYN810451.off",
+      "_risk" : "//QC-JAVCWE099[00507] In org.apache.kafka.common.record.DefaultRecord.readMore@POLYN247562[00507] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+    } ]
+  }, {
+    "_id" : "203",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616044.0",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982 in line [01814]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off",
+      "_method" : "---java.io.OutputStream.write@POLYN178996 in line [01842]",
+      "_target" : "java.io.OutputStream.write@POLYN178996.off",
+      "_risk" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+    } ]
+  }, {
+    "_id" : "204",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616266.off",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982 in line [01818]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off",
+      "_method" : "---java.io.OutputStream.write@POLYN178996 in line [01842]",
+      "_target" : "java.io.OutputStream.write@POLYN178996.off",
+      "_risk" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+    } ]
+  }, {
+    "_id" : "205",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off",
+      "_method" : "---java.io.OutputStream.write@POLYN178996 in line [01842]",
+      "_target" : "java.io.OutputStream.write@POLYN178996.off",
+      "_risk" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectOutputStream.PutFieldImpl.writeFields@POLYN611606.0",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982 in line [01695]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "206",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off",
+      "_method" : "---java.io.OutputStream.write@POLYN178996 in line [01842]",
+      "_target" : "java.io.OutputStream.write@POLYN178996.off",
+      "_risk" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectOutputStream.defaultWriteFields@POLYN603435.0",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982 in line [01534]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "207",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off",
+      "_method" : "---java.io.OutputStream.write@POLYN178996 in line [01842]",
+      "_target" : "java.io.OutputStream.write@POLYN178996.off",
+      "_risk" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectOutputStream.write@POLYN570043.0",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982 in line [00690]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "208",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off",
+      "_method" : "---java.io.OutputStream.write@POLYN178996 in line [01842]",
+      "_target" : "java.io.OutputStream.write@POLYN178996.off",
+      "_risk" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectOutputStream.write@POLYN570461.off",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982 in line [00709]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "209",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off",
+      "_method" : "---java.io.OutputStream.write@POLYN178996 in line [01842]",
+      "_target" : "java.io.OutputStream.write@POLYN178996.off",
+      "_risk" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectOutputStream.writeArray@POLYN593220.0",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982 in line [01334]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.off",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "210",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616044.b",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982 in line [01814]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b",
+      "_method" : "---java.io.OutputStream.write@POLYN178996 in line [01842]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842",
+      "_risk" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+    } ]
+  }, {
+    "_id" : "211",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616266.b",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982 in line [01818]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b",
+      "_method" : "---java.io.OutputStream.write@POLYN178996 in line [01842]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842",
+      "_risk" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+    } ]
+  }, {
+    "_id" : "212",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b",
+      "_method" : "---java.io.OutputStream.write@POLYN178996 in line [01842]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842",
+      "_risk" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectOutputStream.PutFieldImpl.writeFields@POLYN611606.primVals",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982 in line [01695]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "213",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b",
+      "_method" : "---java.io.OutputStream.write@POLYN178996 in line [01842]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842",
+      "_risk" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectOutputStream.defaultWriteFields@POLYN603435.primVals",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982 in line [01534]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "214",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b",
+      "_method" : "---java.io.OutputStream.write@POLYN178996 in line [01842]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842",
+      "_risk" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectOutputStream.write@POLYN570043.buf",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982 in line [00690]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "215",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b",
+      "_method" : "---java.io.OutputStream.write@POLYN178996 in line [01842]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842",
+      "_risk" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectOutputStream.write@POLYN570461.buf",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982 in line [00709]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "216",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b",
+      "_method" : "---java.io.OutputStream.write@POLYN178996 in line [01842]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842",
+      "_risk" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectOutputStream.writeArray@POLYN593220.ba",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982 in line [01334]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.b",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "217",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616044.b.length",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982 in line [01814]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len",
+      "_method" : "---java.io.OutputStream.write@POLYN178996 in line [01842]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842",
+      "_risk" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+    } ]
+  }, {
+    "_id" : "218",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616266.len",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982 in line [01818]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len",
+      "_method" : "---java.io.OutputStream.write@POLYN178996 in line [01842]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842",
+      "_risk" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+    } ]
+  }, {
+    "_id" : "219",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len",
+      "_method" : "---java.io.OutputStream.write@POLYN178996 in line [01842]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842",
+      "_risk" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectOutputStream.PutFieldImpl.writeFields@POLYN611606.primVals.length",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982 in line [01695]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "220",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len",
+      "_method" : "---java.io.OutputStream.write@POLYN178996 in line [01842]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842",
+      "_risk" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectOutputStream.defaultWriteFields@POLYN603435.primDataSize",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982 in line [01534]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "221",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len",
+      "_method" : "---java.io.OutputStream.write@POLYN178996 in line [01842]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842",
+      "_risk" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectOutputStream.write@POLYN570043.buf.length",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982 in line [00690]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "222",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len",
+      "_method" : "---java.io.OutputStream.write@POLYN178996 in line [01842]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.cibledummy_01842",
+      "_risk" : "//QC-JAVCWZ099[01842] In java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982[01842] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+    }, {
+      "_id" : "2",
+      "_source" : "java.io.ObjectOutputStream.write@POLYN570461.len",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982 in line [00709]",
+      "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.write@POLYN616982.len",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "223",
+    "_riskSequence" : "Security risk level : CRITICAL",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021.sendBufferSize",
+      "_method" : "---java.net.Socket.setSendBufferSize@POLYN494347 in line [00289]",
+      "_target" : "java.net.Socket.setSendBufferSize@POLYN494347.size",
+      "_risk" : "//QC-JAVCWE099[00289] In org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021[00289] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.network.Selector.connect@POLYN403299.sendBufferSize",
+      "_method" : "---org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021 in line [00254]",
+      "_target" : "org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021.sendBufferSize",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "224",
+    "_riskSequence" : "Security risk level : CRITICAL",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021.receiveBufferSize",
+      "_method" : "---java.net.Socket.setReceiveBufferSize@POLYN497050 in line [00291]",
+      "_target" : "java.net.Socket.setReceiveBufferSize@POLYN497050.size",
+      "_risk" : "//QC-JAVCWE099[00291] In org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021[00291] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.network.Selector.connect@POLYN403299.receiveBufferSize",
+      "_method" : "---org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021 in line [00254]",
+      "_target" : "org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021.receiveBufferSize",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "225",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream.writeBlock@POLYN202841.compressedLengt",
+      "_method" : "---org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987 in line [00187]",
+      "_target" : "org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987.value",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987.value",
+      "_method" : "---java.io.OutputStream.write@POLYN177204 in line [00112]",
+      "_target" : "java.io.OutputStream.write@POLYN177204.b",
+      "_risk" : "//QC-JAVCWE099[00112] In org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987[00112] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+    } ]
+  }, {
+    "_id" : "226",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream.writeBlock@POLYN202841.hash",
+      "_method" : "---org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987 in line [00193]",
+      "_target" : "org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987.value",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987.value",
+      "_method" : "---java.io.OutputStream.write@POLYN177204 in line [00112]",
+      "_target" : "java.io.OutputStream.write@POLYN177204.b",
+      "_risk" : "//QC-JAVCWE099[00112] In org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987[00112] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+    } ]
+  }, {
+    "_id" : "227",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream.writeEndMark@POLYN204284.0",
+      "_method" : "---org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987 in line [00205]",
+      "_target" : "org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987.value",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987.value",
+      "_method" : "---java.io.OutputStream.write@POLYN177204 in line [00112]",
+      "_target" : "java.io.OutputStream.write@POLYN177204.b",
+      "_risk" : "//QC-JAVCWE099[00112] In org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN219987[00112] target data PATHtainted (java.io.OutputStream.write) RiskOnOutput"
+    } ]
+  }, {
+    "_id" : "228",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.raft.KafkaRaftClient.handleInboundMessage@POLYN598295.request",
+      "_method" : "---org.apache.kafka.raft.KafkaRaftClient.handleRequest@POLYN596026 in line [01668]",
+      "_target" : "org.apache.kafka.raft.KafkaRaftClient.handleRequest@POLYN596026.request",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.raft.KafkaRaftClient.handleRequest@POLYN596026.request",
+      "_method" : "---org.apache.kafka.raft.KafkaRaftClient.handleFetchRequest@POLYN563611 in line [01622]",
+      "_target" : "org.apache.kafka.raft.KafkaRaftClient.handleFetchRequest@POLYN563611.requestMetadata",
+      "_risk" : ""
+    } ]
+  }, {
+    "_id" : "229",
+    "_riskSequence" : "Security risk level : None",
+    "_lesSteps" : [ {
+      "_id" : "1",
+      "_source" : "org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN169023.records",
+      "_method" : "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207 in line [00167]",
+      "_target" : "org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN169023.cibledummy_00167",
+      "_risk" : ""
+    }, {
+      "_id" : "2",
+      "_source" : "org.apache.kafka.snapshot.RecordsSnapshotWriter.appendBatches@POLYN170152.batch.data",
+      "_method" : "---org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN169023 in line [00191]",
+      "_target" : "org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN169023.records",
+      "_risk" : ""
+    } ]
   } ],
   "_lesDeadlocks" : [ {
     "_id" : "R0",
