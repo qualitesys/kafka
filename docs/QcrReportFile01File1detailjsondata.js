@@ -3383,10 +3383,10 @@ var maDataBlocs = {
  , "c5" : ["org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021.sendBufferSize" , "org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021.sendBufferSize"]
  , "c6" : ""
  , "c7" : ""
- , "secu1" : "Ko"
+ , "secu1" : "Ok"
  , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
 }}
 ,
 { "ligne" : { "" : ""
@@ -3398,10 +3398,10 @@ var maDataBlocs = {
  , "c5" : ["org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021.receiveBufferSize" , "org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021.receiveBufferSize"]
  , "c6" : ""
  , "c7" : ""
- , "secu1" : "Ko"
+ , "secu1" : "Ok"
  , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
 }}
 ,
 { "ligne" : { "" : ""
@@ -13077,7 +13077,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
- , "sourcenoligne" : "[03031]"
+ , "sourcenoligne" : "[00001]"
  , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread"]
  , "c4" : ""
  , "c5" : "none"
@@ -13085,7 +13085,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "3"
- , "sourcenoligne" : "[03037]"
+ , "sourcenoligne" : "[00001]"
  , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.b" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.b"]
  , "c4" : ""
  , "c5" : "none"
@@ -13173,7 +13173,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "3"
- , "sourcenoligne" : "[03031]"
+ , "sourcenoligne" : "[00001]"
  , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread"]
  , "c4" : ""
  , "c5" : "none"
@@ -13253,7 +13253,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
- , "sourcenoligne" : "[03031]"
+ , "sourcenoligne" : "[00001]"
  , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread"]
  , "c4" : ""
  , "c5" : "none"
@@ -13261,7 +13261,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "3"
- , "sourcenoligne" : "[03037]"
+ , "sourcenoligne" : "[00001]"
  , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.len" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.len"]
  , "c4" : ""
  , "c5" : "none"
@@ -13349,7 +13349,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "3"
- , "sourcenoligne" : "[03031]"
+ , "sourcenoligne" : "[00001]"
  , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread"]
  , "c4" : ""
  , "c5" : "none"
@@ -13429,7 +13429,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
- , "sourcenoligne" : "[03031]"
+ , "sourcenoligne" : "[00001]"
  , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread"]
  , "c4" : ""
  , "c5" : "none"
@@ -13437,7 +13437,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "3"
- , "sourcenoligne" : "[03037]"
+ , "sourcenoligne" : "[00001]"
  , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.off" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.off"]
  , "c4" : ""
  , "c5" : "none"
@@ -13869,7 +13869,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "5"
- , "sourcenoligne" : "[01309]"
+ , "sourcenoligne" : "[00001]"
  , "c3" : ["java.io.ObjectOutputStream.writeString@POLYN592445.utflen" , "---java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762" , "java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762.utflen"]
  , "c4" : ""
  , "c5" : "none"
@@ -14053,7 +14053,7 @@ var maDataBlocs = {
  "seq" : "175" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
- , "sourcenoligne" : "[00153]"
+ , "sourcenoligne" : "[00001]"
  , "c3" : ["org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN181082.return" , "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN181082" , "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.iterator@POLYN179508.return"]
  , "c4" : ""
  , "c5" : "none"
@@ -14069,7 +14069,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "3"
- , "sourcenoligne" : "[00196]"
+ , "sourcenoligne" : "[00001]"
  , "c3" : ["org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777.return" , "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777" , "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.fullBatch"]
  , "c4" : ""
  , "c5" : "none"
@@ -14085,7 +14085,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "5"
- , "sourcenoligne" : "[00120]"
+ , "sourcenoligne" : "[00001]"
  , "c3" : ["org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.iterator@POLYN179508.return" , "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.iterator@POLYN179508" , "org.apache.kafka.metadata.util.SnapshotFileReader.handleControlBatch@POLYN172826.Iterator_Record_iter"]
  , "c4" : ""
  , "c5" : "none"
@@ -14317,7 +14317,7 @@ var maDataBlocs = {
  "seq" : "179" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
- , "sourcenoligne" : "[00188]"
+ , "sourcenoligne" : "[00001]"
  , "c3" : ["org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.return" , "---org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644" , "org.apache.kafka.common.record.FileRecords.append@POLYN236794.written"]
  , "c4" : ""
  , "c5" : "none"
@@ -14765,7 +14765,7 @@ var maDataBlocs = {
  "seq" : "186" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
- , "sourcenoligne" : "[02274]"
+ , "sourcenoligne" : "[00001]"
  , "c3" : ["org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413.records" , "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197" , "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197.records"]
  , "c4" : ""
  , "c5" : "none"
@@ -14781,7 +14781,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "3"
- , "sourcenoligne" : "[00112]"
+ , "sourcenoligne" : "[00001]"
  , "c3" : ["org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197.records" , "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207" , "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.records"]
  , "c4" : ""
  , "c5" : "none"
@@ -15389,7 +15389,7 @@ var maDataBlocs = {
  "seq" : "197" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
- , "sourcenoligne" : "[02274]"
+ , "sourcenoligne" : "[00001]"
  , "c3" : ["org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413.epoch" , "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197" , "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197.epoch"]
  , "c4" : ""
  , "c5" : "none"
@@ -15405,7 +15405,7 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "3"
- , "sourcenoligne" : "[00112]"
+ , "sourcenoligne" : "[00001]"
  , "c3" : ["org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197.epoch" , "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207" , "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.epoch"]
  , "c4" : ""
  , "c5" : "none"
@@ -16671,7 +16671,7 @@ var maDataBlocs = {
  , "c1" : "0"
  , "secuindice" : "1"
  , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
+ , "secuvaleur" : "Ok"
 }}
 ,
 { "ligne" : { "" : ""
@@ -16685,14 +16685,14 @@ var maDataBlocs = {
  , "c1" : "0"
  , "secuindice" : "3"
  , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
+ , "secuvaleur" : "Ok"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "0"
  , "secuindice" : "4"
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
+ , "secuvaleur" : "Ok"
 }}
 ]
 }}
@@ -16719,7 +16719,7 @@ var maDataBlocs = {
  , "c1" : "0"
  , "secuindice" : "1"
  , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
+ , "secuvaleur" : "Ok"
 }}
 ,
 { "ligne" : { "" : ""
@@ -16733,14 +16733,14 @@ var maDataBlocs = {
  , "c1" : "0"
  , "secuindice" : "3"
  , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
+ , "secuvaleur" : "Ok"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "0"
  , "secuindice" : "4"
  , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
+ , "secuvaleur" : "Ok"
 }}
 ]
 }}

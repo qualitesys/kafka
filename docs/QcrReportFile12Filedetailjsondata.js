@@ -3959,13 +3959,13 @@
     }, {
       "_id" : "2",
       "_source" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return",
-      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [03031]",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [00001]",
       "_target" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread",
       "_risk" : ""
     }, {
       "_id" : "3",
       "_source" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.b",
-      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [03037]",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [00001]",
       "_target" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.b",
       "_risk" : ""
     }, {
@@ -4011,7 +4011,7 @@
     }, {
       "_id" : "3",
       "_source" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return",
-      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [03031]",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [00001]",
       "_target" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread",
       "_risk" : ""
     }, {
@@ -4051,13 +4051,13 @@
     }, {
       "_id" : "2",
       "_source" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return",
-      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [03031]",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [00001]",
       "_target" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread",
       "_risk" : ""
     }, {
       "_id" : "3",
       "_source" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.len",
-      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [03037]",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [00001]",
       "_target" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.len",
       "_risk" : ""
     }, {
@@ -4103,7 +4103,7 @@
     }, {
       "_id" : "3",
       "_source" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return",
-      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [03031]",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [00001]",
       "_target" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread",
       "_risk" : ""
     }, {
@@ -4143,13 +4143,13 @@
     }, {
       "_id" : "2",
       "_source" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.return",
-      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [03031]",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [00001]",
       "_target" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.nread",
       "_risk" : ""
     }, {
       "_id" : "3",
       "_source" : "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN890306.off",
-      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [03037]",
+      "_method" : "---java.io.ObjectInputStream.PeekInputStream.read@POLYN873941 in line [00001]",
       "_target" : "java.io.ObjectInputStream.PeekInputStream.read@POLYN873941.off",
       "_risk" : ""
     }, {
@@ -4373,7 +4373,7 @@
     }, {
       "_id" : "5",
       "_source" : "java.io.ObjectOutputStream.writeString@POLYN592445.utflen",
-      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762 in line [01309]",
+      "_method" : "---java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762 in line [00001]",
       "_target" : "java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN635762.utflen",
       "_risk" : ""
     } ]
@@ -4451,7 +4451,7 @@
     "_lesSteps" : [ {
       "_id" : "1",
       "_source" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN181082.return",
-      "_method" : "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN181082 in line [00153]",
+      "_method" : "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadFullBatch@POLYN181082 in line [00001]",
       "_target" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.iterator@POLYN179508.return",
       "_risk" : ""
     }, {
@@ -4463,7 +4463,7 @@
     }, {
       "_id" : "3",
       "_source" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777.return",
-      "_method" : "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777 in line [00196]",
+      "_method" : "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.loadBatchWithSize@POLYN181777 in line [00001]",
       "_target" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.fullBatch",
       "_risk" : ""
     }, {
@@ -4475,7 +4475,7 @@
     }, {
       "_id" : "5",
       "_source" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.iterator@POLYN179508.return",
-      "_method" : "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.iterator@POLYN179508 in line [00120]",
+      "_method" : "---org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch.iterator@POLYN179508 in line [00001]",
       "_target" : "org.apache.kafka.metadata.util.SnapshotFileReader.handleControlBatch@POLYN172826.Iterator_Record_iter",
       "_risk" : ""
     } ]
@@ -4569,7 +4569,7 @@
     "_lesSteps" : [ {
       "_id" : "1",
       "_source" : "org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644.return",
-      "_method" : "---org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644 in line [00188]",
+      "_method" : "---org.apache.kafka.common.record.MemoryRecords.writeFullyTo@POLYN264644 in line [00001]",
       "_target" : "org.apache.kafka.common.record.FileRecords.append@POLYN236794.written",
       "_risk" : ""
     }, {
@@ -4765,7 +4765,7 @@
     "_lesSteps" : [ {
       "_id" : "1",
       "_source" : "org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413.records",
-      "_method" : "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197 in line [02274]",
+      "_method" : "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197 in line [00001]",
       "_target" : "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197.records",
       "_risk" : ""
     }, {
@@ -4777,7 +4777,7 @@
     }, {
       "_id" : "3",
       "_source" : "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197.records",
-      "_method" : "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207 in line [00112]",
+      "_method" : "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207 in line [00001]",
       "_target" : "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.records",
       "_risk" : ""
     }, {
@@ -5013,7 +5013,7 @@
     "_lesSteps" : [ {
       "_id" : "1",
       "_source" : "org.apache.kafka.raft.KafkaRaftClient.append@POLYN624413.epoch",
-      "_method" : "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197 in line [02274]",
+      "_method" : "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197 in line [00001]",
       "_target" : "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197.epoch",
       "_risk" : ""
     }, {
@@ -5025,7 +5025,7 @@
     }, {
       "_id" : "3",
       "_source" : "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN216197.epoch",
-      "_method" : "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207 in line [00112]",
+      "_method" : "---org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207 in line [00001]",
       "_target" : "org.apache.kafka.raft.internals.BatchAccumulator.append@POLYN217207.epoch",
       "_risk" : ""
     } ]
@@ -5437,7 +5437,7 @@
     } ]
   }, {
     "_id" : "223",
-    "_riskSequence" : "Security risk level : CRITICAL",
+    "_riskSequence" : "Security risk level : None",
     "_lesSteps" : [ {
       "_id" : "1",
       "_source" : "org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021.sendBufferSize",
@@ -5453,7 +5453,7 @@
     } ]
   }, {
     "_id" : "224",
-    "_riskSequence" : "Security risk level : CRITICAL",
+    "_riskSequence" : "Security risk level : None",
     "_lesSteps" : [ {
       "_id" : "1",
       "_source" : "org.apache.kafka.common.network.Selector.configureSocketChannel@POLYN405021.receiveBufferSize",
