@@ -517,7 +517,7 @@
 <leniv><indtoken>507</indtoken><nbappels>18</nbappels></leniv>
 </nbappelsparniv>
 <nbappelspartoken>
-<leniv><noligne>0</noligne><profmin>0</profmin><proffinale>0</proffinale><profmax>0</profmax><indtoken>0</indtoken><temps>-1.681256409757E9</temps><nbappels>0</nbappels><token>TokenDeDebut</token></leniv>
+<leniv><noligne>0</noligne><profmin>0</profmin><proffinale>0</proffinale><profmax>0</profmax><indtoken>0</indtoken><temps>-1.681342701059E9</temps><nbappels>0</nbappels><token>TokenDeDebut</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>1</indtoken><temps>0.004</temps><nbappels>15</nbappels><token>/*</token></leniv>
 <leniv><noligne>2</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>2</indtoken><temps>0.004</temps><nbappels>20</nbappels><token>`</token></leniv>
 <leniv><noligne>2</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>3</indtoken><temps>0.004</temps><nbappels>28</nbappels><token>*</token></leniv>
@@ -821,18 +821,18 @@
 <leniv><noligne>36</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>301</indtoken><temps>0.005</temps><nbappels>28</nbappels><token>=</token></leniv>
 <leniv><noligne>36</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>302</indtoken><temps>0.005</temps><nbappels>88</nbappels><token>"sasl.server.callback.handler.class"</token></leniv>
 <leniv><noligne>36</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>103</profmax><indtoken>303</indtoken><temps>0.005</temps><nbappels>79</nbappels><token>;</token></leniv>
-<leniv><noligne>37</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>304</indtoken><temps>0.006</temps><nbappels>39</nbappels><token>public</token></leniv>
-<leniv><noligne>37</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>305</indtoken><temps>0.006</temps><nbappels>23</nbappels><token>static</token></leniv>
-<leniv><noligne>37</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>306</indtoken><temps>0.006</temps><nbappels>27</nbappels><token>final</token></leniv>
-<leniv><noligne>37</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>307</indtoken><temps>0.006</temps><nbappels>62</nbappels><token>String</token></leniv>
-<leniv><noligne>37</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>308</indtoken><temps>0.006</temps><nbappels>51</nbappels><token>SSL_PRINCIPAL_MAPPING_RULES_CONFIG</token></leniv>
-<leniv><noligne>37</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>309</indtoken><temps>0.006</temps><nbappels>28</nbappels><token>=</token></leniv>
-<leniv><noligne>37</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>310</indtoken><temps>0.006</temps><nbappels>88</nbappels><token>"ssl.principal.mapping.rules"</token></leniv>
-<leniv><noligne>37</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>103</profmax><indtoken>311</indtoken><temps>0.006</temps><nbappels>79</nbappels><token>;</token></leniv>
-<leniv><noligne>38</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>312</indtoken><temps>0.006</temps><nbappels>39</nbappels><token>public</token></leniv>
-<leniv><noligne>38</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>313</indtoken><temps>0.006</temps><nbappels>23</nbappels><token>static</token></leniv>
-<leniv><noligne>38</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>314</indtoken><temps>0.006</temps><nbappels>27</nbappels><token>final</token></leniv>
-<leniv><noligne>38</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>315</indtoken><temps>0.006</temps><nbappels>62</nbappels><token>String</token></leniv>
+<leniv><noligne>37</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>304</indtoken><temps>0.005</temps><nbappels>39</nbappels><token>public</token></leniv>
+<leniv><noligne>37</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>305</indtoken><temps>0.005</temps><nbappels>23</nbappels><token>static</token></leniv>
+<leniv><noligne>37</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>306</indtoken><temps>0.005</temps><nbappels>27</nbappels><token>final</token></leniv>
+<leniv><noligne>37</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>307</indtoken><temps>0.005</temps><nbappels>62</nbappels><token>String</token></leniv>
+<leniv><noligne>37</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>308</indtoken><temps>0.005</temps><nbappels>51</nbappels><token>SSL_PRINCIPAL_MAPPING_RULES_CONFIG</token></leniv>
+<leniv><noligne>37</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>309</indtoken><temps>0.005</temps><nbappels>28</nbappels><token>=</token></leniv>
+<leniv><noligne>37</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>310</indtoken><temps>0.005</temps><nbappels>88</nbappels><token>"ssl.principal.mapping.rules"</token></leniv>
+<leniv><noligne>37</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>103</profmax><indtoken>311</indtoken><temps>0.005</temps><nbappels>79</nbappels><token>;</token></leniv>
+<leniv><noligne>38</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>312</indtoken><temps>0.005</temps><nbappels>39</nbappels><token>public</token></leniv>
+<leniv><noligne>38</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>313</indtoken><temps>0.005</temps><nbappels>23</nbappels><token>static</token></leniv>
+<leniv><noligne>38</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>314</indtoken><temps>0.005</temps><nbappels>27</nbappels><token>final</token></leniv>
+<leniv><noligne>38</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>315</indtoken><temps>0.005</temps><nbappels>62</nbappels><token>String</token></leniv>
 <leniv><noligne>38</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>316</indtoken><temps>0.006</temps><nbappels>51</nbappels><token>CONNECTIONS_MAX_REAUTH_MS</token></leniv>
 <leniv><noligne>38</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>317</indtoken><temps>0.006</temps><nbappels>28</nbappels><token>=</token></leniv>
 <leniv><noligne>38</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>318</indtoken><temps>0.006</temps><nbappels>88</nbappels><token>"connections.max.reauth.ms"</token></leniv>
@@ -891,23 +891,23 @@
 <leniv><noligne>55</noligne><profmin>0</profmin><proffinale>118</proffinale><profmax>143</profmax><indtoken>371</indtoken><temps>0.006</temps><nbappels>205</nbappels><token>+</token></leniv>
 <leniv><noligne>55</noligne><profmin>0</profmin><proffinale>138</proffinale><profmax>138</profmax><indtoken>372</indtoken><temps>0.006</temps><nbappels>74</nbappels><token>"_/code_"</token></leniv>
 <leniv><noligne>55</noligne><profmin>0</profmin><proffinale>123</proffinale><profmax>138</profmax><indtoken>373</indtoken><temps>0.006</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>56</noligne><profmin>0</profmin><proffinale>143</proffinale><profmax>143</profmax><indtoken>374</indtoken><temps>0.007</temps><nbappels>74</nbappels><token>" configuration."</token></leniv>
-<leniv><noligne>56</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>143</profmax><indtoken>375</indtoken><temps>0.007</temps><nbappels>135</nbappels><token>;</token></leniv>
-<leniv><noligne>57</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>376</indtoken><temps>0.007</temps><nbappels>39</nbappels><token>public</token></leniv>
-<leniv><noligne>57</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>377</indtoken><temps>0.007</temps><nbappels>23</nbappels><token>static</token></leniv>
-<leniv><noligne>57</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>378</indtoken><temps>0.007</temps><nbappels>27</nbappels><token>final</token></leniv>
-<leniv><noligne>57</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>379</indtoken><temps>0.007</temps><nbappels>62</nbappels><token>String</token></leniv>
-<leniv><noligne>57</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>380</indtoken><temps>0.007</temps><nbappels>51</nbappels><token>DEFAULT_SSL_PRINCIPAL_MAPPING_RULES</token></leniv>
-<leniv><noligne>57</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>381</indtoken><temps>0.007</temps><nbappels>28</nbappels><token>=</token></leniv>
-<leniv><noligne>57</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>382</indtoken><temps>0.007</temps><nbappels>88</nbappels><token>"DEFAULT"</token></leniv>
-<leniv><noligne>57</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>103</profmax><indtoken>383</indtoken><temps>0.007</temps><nbappels>79</nbappels><token>;</token></leniv>
-<leniv><noligne>59</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>384</indtoken><temps>0.007</temps><nbappels>39</nbappels><token>public</token></leniv>
-<leniv><noligne>59</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>385</indtoken><temps>0.007</temps><nbappels>23</nbappels><token>static</token></leniv>
-<leniv><noligne>59</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>386</indtoken><temps>0.007</temps><nbappels>27</nbappels><token>final</token></leniv>
-<leniv><noligne>59</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>387</indtoken><temps>0.007</temps><nbappels>62</nbappels><token>String</token></leniv>
-<leniv><noligne>59</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>388</indtoken><temps>0.007</temps><nbappels>51</nbappels><token>SASL_KERBEROS_PRINCIPAL_TO_LOCAL_RULES_DOC</token></leniv>
-<leniv><noligne>59</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>389</indtoken><temps>0.007</temps><nbappels>28</nbappels><token>=</token></leniv>
-<leniv><noligne>59</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>390</indtoken><temps>0.007</temps><nbappels>88</nbappels><token>"A list of rules for mapping from principal "</token></leniv>
+<leniv><noligne>56</noligne><profmin>0</profmin><proffinale>143</proffinale><profmax>143</profmax><indtoken>374</indtoken><temps>0.006</temps><nbappels>74</nbappels><token>" configuration."</token></leniv>
+<leniv><noligne>56</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>143</profmax><indtoken>375</indtoken><temps>0.006</temps><nbappels>135</nbappels><token>;</token></leniv>
+<leniv><noligne>57</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>376</indtoken><temps>0.006</temps><nbappels>39</nbappels><token>public</token></leniv>
+<leniv><noligne>57</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>377</indtoken><temps>0.006</temps><nbappels>23</nbappels><token>static</token></leniv>
+<leniv><noligne>57</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>378</indtoken><temps>0.006</temps><nbappels>27</nbappels><token>final</token></leniv>
+<leniv><noligne>57</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>379</indtoken><temps>0.006</temps><nbappels>62</nbappels><token>String</token></leniv>
+<leniv><noligne>57</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>380</indtoken><temps>0.006</temps><nbappels>51</nbappels><token>DEFAULT_SSL_PRINCIPAL_MAPPING_RULES</token></leniv>
+<leniv><noligne>57</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>381</indtoken><temps>0.006</temps><nbappels>28</nbappels><token>=</token></leniv>
+<leniv><noligne>57</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>382</indtoken><temps>0.006</temps><nbappels>88</nbappels><token>"DEFAULT"</token></leniv>
+<leniv><noligne>57</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>103</profmax><indtoken>383</indtoken><temps>0.006</temps><nbappels>79</nbappels><token>;</token></leniv>
+<leniv><noligne>59</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>384</indtoken><temps>0.006</temps><nbappels>39</nbappels><token>public</token></leniv>
+<leniv><noligne>59</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>385</indtoken><temps>0.006</temps><nbappels>23</nbappels><token>static</token></leniv>
+<leniv><noligne>59</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>386</indtoken><temps>0.006</temps><nbappels>27</nbappels><token>final</token></leniv>
+<leniv><noligne>59</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>387</indtoken><temps>0.006</temps><nbappels>62</nbappels><token>String</token></leniv>
+<leniv><noligne>59</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>388</indtoken><temps>0.006</temps><nbappels>51</nbappels><token>SASL_KERBEROS_PRINCIPAL_TO_LOCAL_RULES_DOC</token></leniv>
+<leniv><noligne>59</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>389</indtoken><temps>0.006</temps><nbappels>28</nbappels><token>=</token></leniv>
+<leniv><noligne>59</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>390</indtoken><temps>0.006</temps><nbappels>88</nbappels><token>"A list of rules for mapping from principal "</token></leniv>
 <leniv><noligne>59</noligne><profmin>0</profmin><proffinale>88</proffinale><profmax>103</profmax><indtoken>391</indtoken><temps>0.007</temps><nbappels>76</nbappels><token>+</token></leniv>
 <leniv><noligne>60</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>108</profmax><indtoken>392</indtoken><temps>0.007</temps><nbappels>74</nbappels><token>"names to short names (typically operating system usernames). The rules are evaluated in order and the "</token></leniv>
 <leniv><noligne>60</noligne><profmin>0</profmin><proffinale>93</proffinale><profmax>108</profmax><indtoken>393</indtoken><temps>0.007</temps><nbappels>76</nbappels><token>+</token></leniv>
@@ -970,24 +970,24 @@
 <leniv><noligne>77</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>450</indtoken><temps>0.007</temps><nbappels>51</nbappels><token>SASL_ENABLED_MECHANISMS_DOC</token></leniv>
 <leniv><noligne>77</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>451</indtoken><temps>0.007</temps><nbappels>28</nbappels><token>=</token></leniv>
 <leniv><noligne>77</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>452</indtoken><temps>0.007</temps><nbappels>88</nbappels><token>"The list of SASL mechanisms enabled in the Kafka server. "</token></leniv>
-<leniv><noligne>78</noligne><profmin>0</profmin><proffinale>88</proffinale><profmax>103</profmax><indtoken>453</indtoken><temps>0.008</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>78</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>108</profmax><indtoken>454</indtoken><temps>0.008</temps><nbappels>74</nbappels><token>"The list may contain any mechanism for which a security provider is available. "</token></leniv>
-<leniv><noligne>79</noligne><profmin>0</profmin><proffinale>93</proffinale><profmax>108</profmax><indtoken>455</indtoken><temps>0.008</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>79</noligne><profmin>0</profmin><proffinale>113</proffinale><profmax>113</profmax><indtoken>456</indtoken><temps>0.008</temps><nbappels>74</nbappels><token>"Only GSSAPI is enabled by default."</token></leniv>
-<leniv><noligne>79</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>113</profmax><indtoken>457</indtoken><temps>0.008</temps><nbappels>93</nbappels><token>;</token></leniv>
-<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>458</indtoken><temps>0.008</temps><nbappels>39</nbappels><token>public</token></leniv>
-<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>459</indtoken><temps>0.008</temps><nbappels>23</nbappels><token>static</token></leniv>
-<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>460</indtoken><temps>0.008</temps><nbappels>27</nbappels><token>final</token></leniv>
-<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>461</indtoken><temps>0.008</temps><nbappels>62</nbappels><token>List</token></leniv>
-<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>462</indtoken><temps>0.008</temps><nbappels>12</nbappels><token>_</token></leniv>
-<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>83</proffinale><profmax>83</profmax><indtoken>463</indtoken><temps>0.008</temps><nbappels>56</nbappels><token>String</token></leniv>
-<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>83</profmax><indtoken>464</indtoken><temps>0.008</temps><nbappels>30</nbappels><token>_</token></leniv>
-<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>465</indtoken><temps>0.008</temps><nbappels>47</nbappels><token>DEFAULT_SASL_ENABLED_MECHANISMS</token></leniv>
-<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>466</indtoken><temps>0.008</temps><nbappels>28</nbappels><token>=</token></leniv>
-<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>101</proffinale><profmax>113</profmax><indtoken>467</indtoken><temps>0.008</temps><nbappels>331</nbappels><token>Collections</token></leniv>
-<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>99</proffinale><profmax>113</profmax><indtoken>468</indtoken><temps>0.008</temps><nbappels>64</nbappels><token>.</token></leniv>
-<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>104</proffinale><profmax>117</profmax><indtoken>469</indtoken><temps>0.008</temps><nbappels>205</nbappels><token>singletonList</token></leniv>
-<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>117</profmax><indtoken>470</indtoken><temps>0.008</temps><nbappels>148</nbappels><token>(</token></leniv>
+<leniv><noligne>78</noligne><profmin>0</profmin><proffinale>88</proffinale><profmax>103</profmax><indtoken>453</indtoken><temps>0.007</temps><nbappels>76</nbappels><token>+</token></leniv>
+<leniv><noligne>78</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>108</profmax><indtoken>454</indtoken><temps>0.007</temps><nbappels>74</nbappels><token>"The list may contain any mechanism for which a security provider is available. "</token></leniv>
+<leniv><noligne>79</noligne><profmin>0</profmin><proffinale>93</proffinale><profmax>108</profmax><indtoken>455</indtoken><temps>0.007</temps><nbappels>76</nbappels><token>+</token></leniv>
+<leniv><noligne>79</noligne><profmin>0</profmin><proffinale>113</proffinale><profmax>113</profmax><indtoken>456</indtoken><temps>0.007</temps><nbappels>74</nbappels><token>"Only GSSAPI is enabled by default."</token></leniv>
+<leniv><noligne>79</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>113</profmax><indtoken>457</indtoken><temps>0.007</temps><nbappels>93</nbappels><token>;</token></leniv>
+<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>458</indtoken><temps>0.007</temps><nbappels>39</nbappels><token>public</token></leniv>
+<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>459</indtoken><temps>0.007</temps><nbappels>23</nbappels><token>static</token></leniv>
+<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>460</indtoken><temps>0.007</temps><nbappels>27</nbappels><token>final</token></leniv>
+<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>461</indtoken><temps>0.007</temps><nbappels>62</nbappels><token>List</token></leniv>
+<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>462</indtoken><temps>0.007</temps><nbappels>12</nbappels><token>_</token></leniv>
+<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>83</proffinale><profmax>83</profmax><indtoken>463</indtoken><temps>0.007</temps><nbappels>56</nbappels><token>String</token></leniv>
+<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>83</profmax><indtoken>464</indtoken><temps>0.007</temps><nbappels>30</nbappels><token>_</token></leniv>
+<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>465</indtoken><temps>0.007</temps><nbappels>47</nbappels><token>DEFAULT_SASL_ENABLED_MECHANISMS</token></leniv>
+<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>466</indtoken><temps>0.007</temps><nbappels>28</nbappels><token>=</token></leniv>
+<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>101</proffinale><profmax>113</profmax><indtoken>467</indtoken><temps>0.007</temps><nbappels>331</nbappels><token>Collections</token></leniv>
+<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>99</proffinale><profmax>113</profmax><indtoken>468</indtoken><temps>0.007</temps><nbappels>64</nbappels><token>.</token></leniv>
+<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>104</proffinale><profmax>117</profmax><indtoken>469</indtoken><temps>0.007</temps><nbappels>205</nbappels><token>singletonList</token></leniv>
+<leniv><noligne>80</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>117</profmax><indtoken>470</indtoken><temps>0.007</temps><nbappels>148</nbappels><token>(</token></leniv>
 <leniv><noligne>80</noligne><profmin>0</profmin><proffinale>139</proffinale><profmax>151</profmax><indtoken>471</indtoken><temps>0.008</temps><nbappels>327</nbappels><token>SaslConfigs</token></leniv>
 <leniv><noligne>80</noligne><profmin>0</profmin><proffinale>137</proffinale><profmax>151</profmax><indtoken>472</indtoken><temps>0.008</temps><nbappels>64</nbappels><token>.</token></leniv>
 <leniv><noligne>80</noligne><profmin>0</profmin><proffinale>142</proffinale><profmax>155</profmax><indtoken>473</indtoken><temps>0.008</temps><nbappels>205</nbappels><token>GSSAPI_MECHANISM</token></leniv>
