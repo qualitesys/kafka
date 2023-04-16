@@ -1014,7 +1014,7 @@
 <leniv><indtoken>1004</indtoken><nbappels>18</nbappels></leniv>
 </nbappelsparniv>
 <nbappelspartoken>
-<leniv><noligne>0</noligne><profmin>0</profmin><proffinale>0</proffinale><profmax>0</profmax><indtoken>0</indtoken><temps>-1.681515465477E9</temps><nbappels>0</nbappels><token>TokenDeDebut</token></leniv>
+<leniv><noligne>0</noligne><profmin>0</profmin><proffinale>0</proffinale><profmax>0</profmax><indtoken>0</indtoken><temps>-1.681601916582E9</temps><nbappels>0</nbappels><token>TokenDeDebut</token></leniv>
 <leniv><noligne>1</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>1</indtoken><temps>0.008</temps><nbappels>15</nbappels><token>/*</token></leniv>
 <leniv><noligne>2</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>2</indtoken><temps>0.008</temps><nbappels>20</nbappels><token>`</token></leniv>
 <leniv><noligne>2</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>3</indtoken><temps>0.008</temps><nbappels>28</nbappels><token>*</token></leniv>
@@ -1064,9 +1064,9 @@
 <leniv><noligne>5</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>47</indtoken><temps>0.008</temps><nbappels>29</nbappels><token>to</token></leniv>
 <leniv><noligne>5</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>48</indtoken><temps>0.008</temps><nbappels>29</nbappels><token>You</token></leniv>
 <leniv><noligne>5</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>49</indtoken><temps>0.008</temps><nbappels>29</nbappels><token>under</token></leniv>
-<leniv><noligne>5</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>50</indtoken><temps>0.008</temps><nbappels>29</nbappels><token>the</token></leniv>
-<leniv><noligne>5</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>51</indtoken><temps>0.008</temps><nbappels>29</nbappels><token>Apache</token></leniv>
-<leniv><noligne>5</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>52</indtoken><temps>0.008</temps><nbappels>29</nbappels><token>License</token></leniv>
+<leniv><noligne>5</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>50</indtoken><temps>0.009</temps><nbappels>29</nbappels><token>the</token></leniv>
+<leniv><noligne>5</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>51</indtoken><temps>0.009</temps><nbappels>29</nbappels><token>Apache</token></leniv>
+<leniv><noligne>5</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>52</indtoken><temps>0.009</temps><nbappels>29</nbappels><token>License</token></leniv>
 <leniv><noligne>5</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>53</indtoken><temps>0.009</temps><nbappels>29</nbappels><token>,</token></leniv>
 <leniv><noligne>5</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>54</indtoken><temps>0.009</temps><nbappels>29</nbappels><token>Version</token></leniv>
 <leniv><noligne>5</noligne><profmin>0</profmin><proffinale>18</proffinale><profmax>18</profmax><indtoken>55</indtoken><temps>0.009</temps><nbappels>29</nbappels><token>2.0</token></leniv>
@@ -1295,9 +1295,9 @@
 <leniv><noligne>25</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>278</indtoken><temps>0.009</temps><nbappels>29</nbappels><token>policy</token></leniv>
 <leniv><noligne>25</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>279</indtoken><temps>0.009</temps><nbappels>9</nbappels><token>_</token></leniv>
 <leniv><noligne>25</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>280</indtoken><temps>0.009</temps><nbappels>14</nbappels><token>/</token></leniv>
-<leniv><noligne>25</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>281</indtoken><temps>0.009</temps><nbappels>28</nbappels><token>code</token></leniv>
-<leniv><noligne>25</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>282</indtoken><temps>0.009</temps><nbappels>12</nbappels><token>_</token></leniv>
-<leniv><noligne>25</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>283</indtoken><temps>0.009</temps><nbappels>28</nbappels><token>.</token></leniv>
+<leniv><noligne>25</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>281</indtoken><temps>0.01</temps><nbappels>28</nbappels><token>code</token></leniv>
+<leniv><noligne>25</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>282</indtoken><temps>0.01</temps><nbappels>12</nbappels><token>_</token></leniv>
+<leniv><noligne>25</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>283</indtoken><temps>0.01</temps><nbappels>28</nbappels><token>.</token></leniv>
 <leniv><noligne>25</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>284</indtoken><temps>0.01</temps><nbappels>29</nbappels><token>Unfortunately</token></leniv>
 <leniv><noligne>25</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>285</indtoken><temps>0.01</temps><nbappels>29</nbappels><token>,</token></leniv>
 <leniv><noligne>25</noligne><profmin>0</profmin><proffinale>15</proffinale><profmax>15</profmax><indtoken>286</indtoken><temps>0.01</temps><nbappels>29</nbappels><token>there</token></leniv>
@@ -1408,7 +1408,7 @@
 <leniv><noligne>51</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>391</indtoken><temps>0.01</temps><nbappels>39</nbappels><token>public</token></leniv>
 <leniv><noligne>51</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>392</indtoken><temps>0.01</temps><nbappels>23</nbappels><token>static</token></leniv>
 <leniv><noligne>51</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>393</indtoken><temps>0.01</temps><nbappels>27</nbappels><token>final</token></leniv>
-<leniv><noligne>51</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>394</indtoken><temps>0.011</temps><nbappels>62</nbappels><token>String</token></leniv>
+<leniv><noligne>51</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>394</indtoken><temps>0.01</temps><nbappels>62</nbappels><token>String</token></leniv>
 <leniv><noligne>51</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>395</indtoken><temps>0.011</temps><nbappels>51</nbappels><token>FLUSH_MESSAGES_INTERVAL_DOC</token></leniv>
 <leniv><noligne>51</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>396</indtoken><temps>0.011</temps><nbappels>28</nbappels><token>=</token></leniv>
 <leniv><noligne>51</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>397</indtoken><temps>0.011</temps><nbappels>88</nbappels><token>"This setting allows specifying an interval at "</token></leniv>
@@ -1504,9 +1504,9 @@
 <leniv><noligne>79</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>487</indtoken><temps>0.011</temps><nbappels>39</nbappels><token>public</token></leniv>
 <leniv><noligne>79</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>488</indtoken><temps>0.011</temps><nbappels>23</nbappels><token>static</token></leniv>
 <leniv><noligne>79</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>489</indtoken><temps>0.011</temps><nbappels>27</nbappels><token>final</token></leniv>
-<leniv><noligne>79</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>490</indtoken><temps>0.012</temps><nbappels>62</nbappels><token>String</token></leniv>
-<leniv><noligne>79</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>491</indtoken><temps>0.012</temps><nbappels>51</nbappels><token>REMOTE_LOG_STORAGE_ENABLE_DOC</token></leniv>
-<leniv><noligne>79</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>492</indtoken><temps>0.012</temps><nbappels>28</nbappels><token>=</token></leniv>
+<leniv><noligne>79</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>490</indtoken><temps>0.011</temps><nbappels>62</nbappels><token>String</token></leniv>
+<leniv><noligne>79</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>491</indtoken><temps>0.011</temps><nbappels>51</nbappels><token>REMOTE_LOG_STORAGE_ENABLE_DOC</token></leniv>
+<leniv><noligne>79</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>492</indtoken><temps>0.011</temps><nbappels>28</nbappels><token>=</token></leniv>
 <leniv><noligne>79</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>493</indtoken><temps>0.012</temps><nbappels>88</nbappels><token>"To enable tier storage for a topic, set  remote.storage.enable  as true. "</token></leniv>
 <leniv><noligne>79</noligne><profmin>0</profmin><proffinale>88</proffinale><profmax>103</profmax><indtoken>494</indtoken><temps>0.012</temps><nbappels>76</nbappels><token>+</token></leniv>
 <leniv><noligne>80</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>108</profmax><indtoken>495</indtoken><temps>0.012</temps><nbappels>74</nbappels><token>"You can not disable this config once it is enabled. It will be provided in future versions."</token></leniv>
@@ -1598,7 +1598,7 @@
 <leniv><noligne>104</noligne><profmin>0</profmin><proffinale>113</proffinale><profmax>113</profmax><indtoken>581</indtoken><temps>0.012</temps><nbappels>74</nbappels><token>"message roughly every 4096 bytes. More indexing allows reads to jump closer to the exact "</token></leniv>
 <leniv><noligne>104</noligne><profmin>0</profmin><proffinale>98</proffinale><profmax>113</profmax><indtoken>582</indtoken><temps>0.012</temps><nbappels>76</nbappels><token>+</token></leniv>
 <leniv><noligne>105</noligne><profmin>0</profmin><proffinale>118</proffinale><profmax>118</profmax><indtoken>583</indtoken><temps>0.012</temps><nbappels>74</nbappels><token>"position in the log but makes the index larger. You probably don't need to change this."</token></leniv>
-<leniv><noligne>105</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>118</profmax><indtoken>584</indtoken><temps>0.013</temps><nbappels>100</nbappels><token>;</token></leniv>
+<leniv><noligne>105</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>118</profmax><indtoken>584</indtoken><temps>0.012</temps><nbappels>100</nbappels><token>;</token></leniv>
 <leniv><noligne>107</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>585</indtoken><temps>0.013</temps><nbappels>39</nbappels><token>public</token></leniv>
 <leniv><noligne>107</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>586</indtoken><temps>0.013</temps><nbappels>23</nbappels><token>static</token></leniv>
 <leniv><noligne>107</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>587</indtoken><temps>0.013</temps><nbappels>27</nbappels><token>final</token></leniv>
@@ -1700,8 +1700,8 @@
 <leniv><noligne>130</noligne><profmin>0</profmin><proffinale>118</proffinale><profmax>118</profmax><indtoken>683</indtoken><temps>0.013</temps><nbappels>74</nbappels><token>"50% of the log has been compacted. This ratio bounds the maximum space wasted in "</token></leniv>
 <leniv><noligne>130</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>118</profmax><indtoken>684</indtoken><temps>0.013</temps><nbappels>76</nbappels><token>+</token></leniv>
 <leniv><noligne>131</noligne><profmin>0</profmin><proffinale>123</proffinale><profmax>123</profmax><indtoken>685</indtoken><temps>0.013</temps><nbappels>74</nbappels><token>"the log by duplicates (at 50% at most 50% of the log could be duplicates). A "</token></leniv>
-<leniv><noligne>131</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>123</profmax><indtoken>686</indtoken><temps>0.014</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>132</noligne><profmin>0</profmin><proffinale>128</proffinale><profmax>128</profmax><indtoken>687</indtoken><temps>0.014</temps><nbappels>74</nbappels><token>"higher ratio will mean fewer, more efficient cleanings but will mean more wasted "</token></leniv>
+<leniv><noligne>131</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>123</profmax><indtoken>686</indtoken><temps>0.013</temps><nbappels>76</nbappels><token>+</token></leniv>
+<leniv><noligne>132</noligne><profmin>0</profmin><proffinale>128</proffinale><profmax>128</profmax><indtoken>687</indtoken><temps>0.013</temps><nbappels>74</nbappels><token>"higher ratio will mean fewer, more efficient cleanings but will mean more wasted "</token></leniv>
 <leniv><noligne>132</noligne><profmin>0</profmin><proffinale>113</proffinale><profmax>128</profmax><indtoken>688</indtoken><temps>0.014</temps><nbappels>76</nbappels><token>+</token></leniv>
 <leniv><noligne>133</noligne><profmin>0</profmin><proffinale>133</proffinale><profmax>133</profmax><indtoken>689</indtoken><temps>0.014</temps><nbappels>74</nbappels><token>"space in the log. If the "</token></leniv>
 <leniv><noligne>133</noligne><profmin>0</profmin><proffinale>118</proffinale><profmax>133</profmax><indtoken>690</indtoken><temps>0.014</temps><nbappels>76</nbappels><token>+</token></leniv>
@@ -1759,15 +1759,15 @@
 <leniv><noligne>142</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>742</indtoken><temps>0.014</temps><nbappels>28</nbappels><token>=</token></leniv>
 <leniv><noligne>142</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>743</indtoken><temps>0.014</temps><nbappels>88</nbappels><token>"This config designates the retention policy to "</token></leniv>
 <leniv><noligne>142</noligne><profmin>0</profmin><proffinale>88</proffinale><profmax>103</profmax><indtoken>744</indtoken><temps>0.014</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>143</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>108</profmax><indtoken>745</indtoken><temps>0.015</temps><nbappels>74</nbappels><token>"use on log segments. The \"delete\" policy (which is the default) will discard old segments "</token></leniv>
-<leniv><noligne>143</noligne><profmin>0</profmin><proffinale>93</proffinale><profmax>108</profmax><indtoken>746</indtoken><temps>0.015</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>144</noligne><profmin>0</profmin><proffinale>113</proffinale><profmax>113</profmax><indtoken>747</indtoken><temps>0.015</temps><nbappels>74</nbappels><token>"when their retention time or size limit has been reached. The \"compact\" policy will enable "</token></leniv>
-<leniv><noligne>144</noligne><profmin>0</profmin><proffinale>98</proffinale><profmax>113</profmax><indtoken>748</indtoken><temps>0.015</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>145</noligne><profmin>0</profmin><proffinale>118</proffinale><profmax>118</profmax><indtoken>749</indtoken><temps>0.015</temps><nbappels>74</nbappels><token>"_a href=\"#compaction\"_log compaction_/a_, which retains the latest value for each key. "</token></leniv>
-<leniv><noligne>145</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>118</profmax><indtoken>750</indtoken><temps>0.015</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>146</noligne><profmin>0</profmin><proffinale>123</proffinale><profmax>123</profmax><indtoken>751</indtoken><temps>0.015</temps><nbappels>74</nbappels><token>"It is also possible to specify both policies in a comma-separated list (e.g. \"delete,compact\"). "</token></leniv>
-<leniv><noligne>146</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>123</profmax><indtoken>752</indtoken><temps>0.015</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>147</noligne><profmin>0</profmin><proffinale>128</proffinale><profmax>128</profmax><indtoken>753</indtoken><temps>0.015</temps><nbappels>74</nbappels><token>"In this case, old segments will be discarded per the retention time and size configuration, "</token></leniv>
+<leniv><noligne>143</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>108</profmax><indtoken>745</indtoken><temps>0.014</temps><nbappels>74</nbappels><token>"use on log segments. The \"delete\" policy (which is the default) will discard old segments "</token></leniv>
+<leniv><noligne>143</noligne><profmin>0</profmin><proffinale>93</proffinale><profmax>108</profmax><indtoken>746</indtoken><temps>0.014</temps><nbappels>76</nbappels><token>+</token></leniv>
+<leniv><noligne>144</noligne><profmin>0</profmin><proffinale>113</proffinale><profmax>113</profmax><indtoken>747</indtoken><temps>0.014</temps><nbappels>74</nbappels><token>"when their retention time or size limit has been reached. The \"compact\" policy will enable "</token></leniv>
+<leniv><noligne>144</noligne><profmin>0</profmin><proffinale>98</proffinale><profmax>113</profmax><indtoken>748</indtoken><temps>0.014</temps><nbappels>76</nbappels><token>+</token></leniv>
+<leniv><noligne>145</noligne><profmin>0</profmin><proffinale>118</proffinale><profmax>118</profmax><indtoken>749</indtoken><temps>0.014</temps><nbappels>74</nbappels><token>"_a href=\"#compaction\"_log compaction_/a_, which retains the latest value for each key. "</token></leniv>
+<leniv><noligne>145</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>118</profmax><indtoken>750</indtoken><temps>0.014</temps><nbappels>76</nbappels><token>+</token></leniv>
+<leniv><noligne>146</noligne><profmin>0</profmin><proffinale>123</proffinale><profmax>123</profmax><indtoken>751</indtoken><temps>0.014</temps><nbappels>74</nbappels><token>"It is also possible to specify both policies in a comma-separated list (e.g. \"delete,compact\"). "</token></leniv>
+<leniv><noligne>146</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>123</profmax><indtoken>752</indtoken><temps>0.014</temps><nbappels>76</nbappels><token>+</token></leniv>
+<leniv><noligne>147</noligne><profmin>0</profmin><proffinale>128</proffinale><profmax>128</profmax><indtoken>753</indtoken><temps>0.014</temps><nbappels>74</nbappels><token>"In this case, old segments will be discarded per the retention time and size configuration, "</token></leniv>
 <leniv><noligne>147</noligne><profmin>0</profmin><proffinale>113</proffinale><profmax>128</profmax><indtoken>754</indtoken><temps>0.015</temps><nbappels>76</nbappels><token>+</token></leniv>
 <leniv><noligne>148</noligne><profmin>0</profmin><proffinale>133</proffinale><profmax>133</profmax><indtoken>755</indtoken><temps>0.015</temps><nbappels>74</nbappels><token>"while retained segments will be compacted."</token></leniv>
 <leniv><noligne>148</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>133</profmax><indtoken>756</indtoken><temps>0.015</temps><nbappels>121</nbappels><token>;</token></leniv>
@@ -1837,28 +1837,28 @@
 <leniv><noligne>167</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>820</indtoken><temps>0.015</temps><nbappels>62</nbappels><token>String</token></leniv>
 <leniv><noligne>167</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>821</indtoken><temps>0.015</temps><nbappels>51</nbappels><token>COMPRESSION_TYPE_DOC</token></leniv>
 <leniv><noligne>167</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>822</indtoken><temps>0.015</temps><nbappels>28</nbappels><token>=</token></leniv>
-<leniv><noligne>167</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>823</indtoken><temps>0.016</temps><nbappels>88</nbappels><token>"Specify the final compression type for a given topic. "</token></leniv>
-<leniv><noligne>167</noligne><profmin>0</profmin><proffinale>88</proffinale><profmax>103</profmax><indtoken>824</indtoken><temps>0.016</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>168</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>108</profmax><indtoken>825</indtoken><temps>0.016</temps><nbappels>74</nbappels><token>"This configuration accepts the standard compression codecs ('gzip', 'snappy', 'lz4', 'zstd'). It additionally "</token></leniv>
-<leniv><noligne>168</noligne><profmin>0</profmin><proffinale>93</proffinale><profmax>108</profmax><indtoken>826</indtoken><temps>0.016</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>169</noligne><profmin>0</profmin><proffinale>113</proffinale><profmax>113</profmax><indtoken>827</indtoken><temps>0.016</temps><nbappels>74</nbappels><token>"accepts 'uncompressed' which is equivalent to no compression; and 'producer' which means retain the "</token></leniv>
-<leniv><noligne>169</noligne><profmin>0</profmin><proffinale>98</proffinale><profmax>113</profmax><indtoken>828</indtoken><temps>0.016</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>170</noligne><profmin>0</profmin><proffinale>118</proffinale><profmax>118</profmax><indtoken>829</indtoken><temps>0.016</temps><nbappels>74</nbappels><token>"original compression codec set by the producer."</token></leniv>
-<leniv><noligne>170</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>118</profmax><indtoken>830</indtoken><temps>0.016</temps><nbappels>100</nbappels><token>;</token></leniv>
-<leniv><noligne>172</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>831</indtoken><temps>0.016</temps><nbappels>39</nbappels><token>public</token></leniv>
-<leniv><noligne>172</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>832</indtoken><temps>0.016</temps><nbappels>23</nbappels><token>static</token></leniv>
-<leniv><noligne>172</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>833</indtoken><temps>0.016</temps><nbappels>27</nbappels><token>final</token></leniv>
-<leniv><noligne>172</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>834</indtoken><temps>0.016</temps><nbappels>62</nbappels><token>String</token></leniv>
-<leniv><noligne>172</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>835</indtoken><temps>0.016</temps><nbappels>51</nbappels><token>PREALLOCATE_CONFIG</token></leniv>
-<leniv><noligne>172</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>836</indtoken><temps>0.016</temps><nbappels>28</nbappels><token>=</token></leniv>
-<leniv><noligne>172</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>837</indtoken><temps>0.016</temps><nbappels>88</nbappels><token>"preallocate"</token></leniv>
-<leniv><noligne>172</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>103</profmax><indtoken>838</indtoken><temps>0.016</temps><nbappels>79</nbappels><token>;</token></leniv>
-<leniv><noligne>173</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>839</indtoken><temps>0.016</temps><nbappels>39</nbappels><token>public</token></leniv>
-<leniv><noligne>173</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>840</indtoken><temps>0.016</temps><nbappels>23</nbappels><token>static</token></leniv>
-<leniv><noligne>173</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>841</indtoken><temps>0.016</temps><nbappels>27</nbappels><token>final</token></leniv>
-<leniv><noligne>173</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>842</indtoken><temps>0.016</temps><nbappels>62</nbappels><token>String</token></leniv>
-<leniv><noligne>173</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>843</indtoken><temps>0.016</temps><nbappels>51</nbappels><token>PREALLOCATE_DOC</token></leniv>
-<leniv><noligne>173</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>844</indtoken><temps>0.016</temps><nbappels>28</nbappels><token>=</token></leniv>
+<leniv><noligne>167</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>823</indtoken><temps>0.015</temps><nbappels>88</nbappels><token>"Specify the final compression type for a given topic. "</token></leniv>
+<leniv><noligne>167</noligne><profmin>0</profmin><proffinale>88</proffinale><profmax>103</profmax><indtoken>824</indtoken><temps>0.015</temps><nbappels>76</nbappels><token>+</token></leniv>
+<leniv><noligne>168</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>108</profmax><indtoken>825</indtoken><temps>0.015</temps><nbappels>74</nbappels><token>"This configuration accepts the standard compression codecs ('gzip', 'snappy', 'lz4', 'zstd'). It additionally "</token></leniv>
+<leniv><noligne>168</noligne><profmin>0</profmin><proffinale>93</proffinale><profmax>108</profmax><indtoken>826</indtoken><temps>0.015</temps><nbappels>76</nbappels><token>+</token></leniv>
+<leniv><noligne>169</noligne><profmin>0</profmin><proffinale>113</proffinale><profmax>113</profmax><indtoken>827</indtoken><temps>0.015</temps><nbappels>74</nbappels><token>"accepts 'uncompressed' which is equivalent to no compression; and 'producer' which means retain the "</token></leniv>
+<leniv><noligne>169</noligne><profmin>0</profmin><proffinale>98</proffinale><profmax>113</profmax><indtoken>828</indtoken><temps>0.015</temps><nbappels>76</nbappels><token>+</token></leniv>
+<leniv><noligne>170</noligne><profmin>0</profmin><proffinale>118</proffinale><profmax>118</profmax><indtoken>829</indtoken><temps>0.015</temps><nbappels>74</nbappels><token>"original compression codec set by the producer."</token></leniv>
+<leniv><noligne>170</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>118</profmax><indtoken>830</indtoken><temps>0.015</temps><nbappels>100</nbappels><token>;</token></leniv>
+<leniv><noligne>172</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>831</indtoken><temps>0.015</temps><nbappels>39</nbappels><token>public</token></leniv>
+<leniv><noligne>172</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>832</indtoken><temps>0.015</temps><nbappels>23</nbappels><token>static</token></leniv>
+<leniv><noligne>172</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>833</indtoken><temps>0.015</temps><nbappels>27</nbappels><token>final</token></leniv>
+<leniv><noligne>172</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>834</indtoken><temps>0.015</temps><nbappels>62</nbappels><token>String</token></leniv>
+<leniv><noligne>172</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>835</indtoken><temps>0.015</temps><nbappels>51</nbappels><token>PREALLOCATE_CONFIG</token></leniv>
+<leniv><noligne>172</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>836</indtoken><temps>0.015</temps><nbappels>28</nbappels><token>=</token></leniv>
+<leniv><noligne>172</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>837</indtoken><temps>0.015</temps><nbappels>88</nbappels><token>"preallocate"</token></leniv>
+<leniv><noligne>172</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>103</profmax><indtoken>838</indtoken><temps>0.015</temps><nbappels>79</nbappels><token>;</token></leniv>
+<leniv><noligne>173</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>839</indtoken><temps>0.015</temps><nbappels>39</nbappels><token>public</token></leniv>
+<leniv><noligne>173</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>840</indtoken><temps>0.015</temps><nbappels>23</nbappels><token>static</token></leniv>
+<leniv><noligne>173</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>841</indtoken><temps>0.015</temps><nbappels>27</nbappels><token>final</token></leniv>
+<leniv><noligne>173</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>842</indtoken><temps>0.015</temps><nbappels>62</nbappels><token>String</token></leniv>
+<leniv><noligne>173</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>843</indtoken><temps>0.015</temps><nbappels>51</nbappels><token>PREALLOCATE_DOC</token></leniv>
+<leniv><noligne>173</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>844</indtoken><temps>0.015</temps><nbappels>28</nbappels><token>=</token></leniv>
 <leniv><noligne>173</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>845</indtoken><temps>0.016</temps><nbappels>88</nbappels><token>"True if we should preallocate the file on disk when "</token></leniv>
 <leniv><noligne>173</noligne><profmin>0</profmin><proffinale>88</proffinale><profmax>103</profmax><indtoken>846</indtoken><temps>0.016</temps><nbappels>76</nbappels><token>+</token></leniv>
 <leniv><noligne>174</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>108</profmax><indtoken>847</indtoken><temps>0.016</temps><nbappels>74</nbappels><token>"creating a new log segment."</token></leniv>
@@ -1969,27 +1969,27 @@
 <leniv><noligne>197</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>952</indtoken><temps>0.016</temps><nbappels>28</nbappels><token>=</token></leniv>
 <leniv><noligne>197</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>953</indtoken><temps>0.016</temps><nbappels>88</nbappels><token>"Define whether the timestamp in the message is "</token></leniv>
 <leniv><noligne>197</noligne><profmin>0</profmin><proffinale>88</proffinale><profmax>103</profmax><indtoken>954</indtoken><temps>0.016</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>198</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>108</profmax><indtoken>955</indtoken><temps>0.017</temps><nbappels>74</nbappels><token>"message create time or log append time. The value should be either  CreateTime  or  LogAppendTime "</token></leniv>
-<leniv><noligne>198</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>108</profmax><indtoken>956</indtoken><temps>0.017</temps><nbappels>86</nbappels><token>;</token></leniv>
-<leniv><noligne>200</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>957</indtoken><temps>0.017</temps><nbappels>39</nbappels><token>public</token></leniv>
-<leniv><noligne>200</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>958</indtoken><temps>0.017</temps><nbappels>23</nbappels><token>static</token></leniv>
-<leniv><noligne>200</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>959</indtoken><temps>0.017</temps><nbappels>27</nbappels><token>final</token></leniv>
-<leniv><noligne>200</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>960</indtoken><temps>0.017</temps><nbappels>62</nbappels><token>String</token></leniv>
-<leniv><noligne>200</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>961</indtoken><temps>0.017</temps><nbappels>51</nbappels><token>MESSAGE_TIMESTAMP_DIFFERENCE_MAX_MS_CONFIG</token></leniv>
-<leniv><noligne>200</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>962</indtoken><temps>0.017</temps><nbappels>28</nbappels><token>=</token></leniv>
-<leniv><noligne>200</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>963</indtoken><temps>0.017</temps><nbappels>88</nbappels><token>"message.timestamp.difference.max.ms"</token></leniv>
-<leniv><noligne>200</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>103</profmax><indtoken>964</indtoken><temps>0.017</temps><nbappels>79</nbappels><token>;</token></leniv>
-<leniv><noligne>201</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>965</indtoken><temps>0.017</temps><nbappels>39</nbappels><token>public</token></leniv>
-<leniv><noligne>201</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>966</indtoken><temps>0.017</temps><nbappels>23</nbappels><token>static</token></leniv>
-<leniv><noligne>201</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>967</indtoken><temps>0.017</temps><nbappels>27</nbappels><token>final</token></leniv>
-<leniv><noligne>201</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>968</indtoken><temps>0.017</temps><nbappels>62</nbappels><token>String</token></leniv>
-<leniv><noligne>201</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>969</indtoken><temps>0.017</temps><nbappels>51</nbappels><token>MESSAGE_TIMESTAMP_DIFFERENCE_MAX_MS_DOC</token></leniv>
-<leniv><noligne>201</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>970</indtoken><temps>0.017</temps><nbappels>28</nbappels><token>=</token></leniv>
-<leniv><noligne>201</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>971</indtoken><temps>0.017</temps><nbappels>88</nbappels><token>"The maximum difference allowed between "</token></leniv>
-<leniv><noligne>201</noligne><profmin>0</profmin><proffinale>88</proffinale><profmax>103</profmax><indtoken>972</indtoken><temps>0.017</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>202</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>108</profmax><indtoken>973</indtoken><temps>0.017</temps><nbappels>74</nbappels><token>"the timestamp when a broker receives a message and the timestamp specified in the message. If "</token></leniv>
-<leniv><noligne>202</noligne><profmin>0</profmin><proffinale>93</proffinale><profmax>108</profmax><indtoken>974</indtoken><temps>0.017</temps><nbappels>76</nbappels><token>+</token></leniv>
-<leniv><noligne>203</noligne><profmin>0</profmin><proffinale>113</proffinale><profmax>113</profmax><indtoken>975</indtoken><temps>0.017</temps><nbappels>74</nbappels><token>"message.timestamp.type=CreateTime, a message will be rejected if the difference in timestamp "</token></leniv>
+<leniv><noligne>198</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>108</profmax><indtoken>955</indtoken><temps>0.016</temps><nbappels>74</nbappels><token>"message create time or log append time. The value should be either  CreateTime  or  LogAppendTime "</token></leniv>
+<leniv><noligne>198</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>108</profmax><indtoken>956</indtoken><temps>0.016</temps><nbappels>86</nbappels><token>;</token></leniv>
+<leniv><noligne>200</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>957</indtoken><temps>0.016</temps><nbappels>39</nbappels><token>public</token></leniv>
+<leniv><noligne>200</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>958</indtoken><temps>0.016</temps><nbappels>23</nbappels><token>static</token></leniv>
+<leniv><noligne>200</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>959</indtoken><temps>0.016</temps><nbappels>27</nbappels><token>final</token></leniv>
+<leniv><noligne>200</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>960</indtoken><temps>0.016</temps><nbappels>62</nbappels><token>String</token></leniv>
+<leniv><noligne>200</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>961</indtoken><temps>0.016</temps><nbappels>51</nbappels><token>MESSAGE_TIMESTAMP_DIFFERENCE_MAX_MS_CONFIG</token></leniv>
+<leniv><noligne>200</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>962</indtoken><temps>0.016</temps><nbappels>28</nbappels><token>=</token></leniv>
+<leniv><noligne>200</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>963</indtoken><temps>0.016</temps><nbappels>88</nbappels><token>"message.timestamp.difference.max.ms"</token></leniv>
+<leniv><noligne>200</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>103</profmax><indtoken>964</indtoken><temps>0.016</temps><nbappels>79</nbappels><token>;</token></leniv>
+<leniv><noligne>201</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>965</indtoken><temps>0.016</temps><nbappels>39</nbappels><token>public</token></leniv>
+<leniv><noligne>201</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>966</indtoken><temps>0.016</temps><nbappels>23</nbappels><token>static</token></leniv>
+<leniv><noligne>201</noligne><profmin>0</profmin><proffinale>51</proffinale><profmax>52</profmax><indtoken>967</indtoken><temps>0.016</temps><nbappels>27</nbappels><token>final</token></leniv>
+<leniv><noligne>201</noligne><profmin>0</profmin><proffinale>64</proffinale><profmax>64</profmax><indtoken>968</indtoken><temps>0.016</temps><nbappels>62</nbappels><token>String</token></leniv>
+<leniv><noligne>201</noligne><profmin>0</profmin><proffinale>57</proffinale><profmax>64</profmax><indtoken>969</indtoken><temps>0.016</temps><nbappels>51</nbappels><token>MESSAGE_TIMESTAMP_DIFFERENCE_MAX_MS_DOC</token></leniv>
+<leniv><noligne>201</noligne><profmin>0</profmin><proffinale>66</proffinale><profmax>66</profmax><indtoken>970</indtoken><temps>0.016</temps><nbappels>28</nbappels><token>=</token></leniv>
+<leniv><noligne>201</noligne><profmin>0</profmin><proffinale>103</proffinale><profmax>103</profmax><indtoken>971</indtoken><temps>0.016</temps><nbappels>88</nbappels><token>"The maximum difference allowed between "</token></leniv>
+<leniv><noligne>201</noligne><profmin>0</profmin><proffinale>88</proffinale><profmax>103</profmax><indtoken>972</indtoken><temps>0.016</temps><nbappels>76</nbappels><token>+</token></leniv>
+<leniv><noligne>202</noligne><profmin>0</profmin><proffinale>108</proffinale><profmax>108</profmax><indtoken>973</indtoken><temps>0.016</temps><nbappels>74</nbappels><token>"the timestamp when a broker receives a message and the timestamp specified in the message. If "</token></leniv>
+<leniv><noligne>202</noligne><profmin>0</profmin><proffinale>93</proffinale><profmax>108</profmax><indtoken>974</indtoken><temps>0.016</temps><nbappels>76</nbappels><token>+</token></leniv>
+<leniv><noligne>203</noligne><profmin>0</profmin><proffinale>113</proffinale><profmax>113</profmax><indtoken>975</indtoken><temps>0.016</temps><nbappels>74</nbappels><token>"message.timestamp.type=CreateTime, a message will be rejected if the difference in timestamp "</token></leniv>
 <leniv><noligne>203</noligne><profmin>0</profmin><proffinale>98</proffinale><profmax>113</profmax><indtoken>976</indtoken><temps>0.017</temps><nbappels>76</nbappels><token>+</token></leniv>
 <leniv><noligne>204</noligne><profmin>0</profmin><proffinale>118</proffinale><profmax>118</profmax><indtoken>977</indtoken><temps>0.017</temps><nbappels>74</nbappels><token>"exceeds this threshold. This configuration is ignored if message.timestamp.type=LogAppendTime."</token></leniv>
 <leniv><noligne>204</noligne><profmin>0</profmin><proffinale>43</proffinale><profmax>118</profmax><indtoken>978</indtoken><temps>0.017</temps><nbappels>100</nbappels><token>;</token></leniv>
