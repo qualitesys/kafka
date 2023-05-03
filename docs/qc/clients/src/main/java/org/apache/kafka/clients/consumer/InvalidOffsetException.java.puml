@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"KafkaException" <|-- "org.apache.kafka.clients.consumer.InvalidOffsetException"
-class org.apache.kafka.clients.consumer.InvalidOffsetException {
-+InvalidOffsetException(String) : InvalidOffsetException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/InvalidOffsetException.java.html#32]]]
-+partitions() : Set<TopicPartition> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/InvalidOffsetException.java.html#36]]]
-} 
-@enduml

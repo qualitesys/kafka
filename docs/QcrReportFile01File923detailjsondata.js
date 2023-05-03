@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java 4 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -66,9 +65,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.svg" }
 
 ] 
 , 

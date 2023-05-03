@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessorContext.java.html" 
  , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessorContext.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessorContext.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -22,9 +21,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessorContext.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessorContext.java.svg" }
+ "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessorContext.java.svg" }
 
 ] 
 , 

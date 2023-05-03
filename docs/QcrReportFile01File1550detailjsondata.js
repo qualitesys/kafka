@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentState.java.html" 
  , "texte" : "File storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentState.java 0 rule violation " 
- , "fic2"  : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogSegmentState.java.xml" 
  , "fic3"  : "" 
 }
 , 

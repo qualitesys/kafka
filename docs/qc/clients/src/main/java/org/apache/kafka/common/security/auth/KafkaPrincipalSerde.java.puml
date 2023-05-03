@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.common.security.auth.KafkaPrincipalSerde"
-class org.apache.kafka.common.security.auth.KafkaPrincipalSerde {
-serialize(KafkaPrincipal) : byte[] [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalSerde.java.html#34]]]
-deserialize(byte[]) : KafkaPrincipal [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalSerde.java.html#42]]]
-} 
-@enduml

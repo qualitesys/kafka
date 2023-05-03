@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"TransactionGenerator" <|-- "org.apache.kafka.trogdor.workload.UniformTransactionsGenerator"
-class org.apache.kafka.trogdor.workload.UniformTransactionsGenerator {
-+UniformTransactionsGenerator(int) : UniformTransactionsGenerator [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#31]]]
-+messagesPerTransaction() : int [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#39]]]
-+nextAction() : TransactionAction [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/UniformTransactionsGenerator.java.html#44]]]
-} 
-@enduml

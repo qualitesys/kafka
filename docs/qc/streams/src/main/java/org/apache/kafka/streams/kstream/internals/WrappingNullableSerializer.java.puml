@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"Serializer<Outer>" <|-- "org.apache.kafka.streams.kstream.internals.WrappingNullableSerializer"
-class org.apache.kafka.streams.kstream.internals.WrappingNullableSerializer {
-setIfUnset(SerdeGetter) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerializer.java.html#23]]]
-} 
-@enduml

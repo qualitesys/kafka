@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"ProcessorSupplier<K,SubscriptionResponseWrapper<VO>,K,VR>" <|-- "org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResolverJoinProcessorSupplier"
-class org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResolverJoinProcessorSupplier {
-+SubscriptionResolverJoinProcessorSupplier(KTableValueGetterSupplier<K,V>;Serializer<V>;Supplier<String>;ValueJoiner<V,VO,VR>;boolean) : SubscriptionResolverJoinProcessorSupplier [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResolverJoinProcessorSupplier.java.html#52]]]
-+get() : Processor<K,SubscriptionResponseWrapper<VO>,K,VR> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResolverJoinProcessorSupplier.java.html#65]]]
-} 
-@enduml

@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"RuntimeException" <|-- "org.apache.kafka.shell.NotFileException"
-class org.apache.kafka.shell.NotFileException {
-+NotFileException() : NotFileException [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/NotFileException.java.html#27]]]
-} 
-@enduml

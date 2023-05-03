@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"TaskWorker" <|-- "org.apache.kafka.trogdor.fault.KiboshFaultWorker"
-class org.apache.kafka.trogdor.fault.KiboshFaultWorker {
-+KiboshFaultWorker(String;KiboshFaultSpec;String) : KiboshFaultWorker [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#40]]]
-+start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#47]]]
-+stop(Platform) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/KiboshFaultWorker.java.html#57]]]
-} 
-@enduml

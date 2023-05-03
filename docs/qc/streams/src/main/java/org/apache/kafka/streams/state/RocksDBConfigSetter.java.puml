@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.state.RocksDBConfigSetter"
-class org.apache.kafka.streams.state.RocksDBConfigSetter {
-setConfig(String;Options;Map<String,Object>) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/RocksDBConfigSetter.java.html#45]]]
-close(String;Options) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/RocksDBConfigSetter.java.html#60]]]
-} 
-@enduml

@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.WindowedSerdes"
-class org.apache.kafka.streams.kstream.WindowedSerdes {
-verifyInnerSerializerNotNull(Serializer;Serializer) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/WindowedSerdes.java.html#84]]]
-verifyInnerDeserializerNotNull(Deserializer;Deserializer) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/WindowedSerdes.java.html#93]]]
-} 
-@enduml

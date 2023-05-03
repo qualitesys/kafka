@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"ConnectException" <|-- "org.apache.kafka.connect.storage.PrivilegedWriteException"
-class org.apache.kafka.connect.storage.PrivilegedWriteException {
-+PrivilegedWriteException(String) : PrivilegedWriteException [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/PrivilegedWriteException.java.html#25]]]
-+PrivilegedWriteException(String;Throwable) : PrivilegedWriteException [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/PrivilegedWriteException.java.html#29]]]
-} 
-@enduml

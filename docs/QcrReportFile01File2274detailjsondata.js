@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RecordProcessor.java.html" 
  , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/RecordProcessor.java 0 rule violation " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RecordProcessor.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,9 +38,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RecordProcessor.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RecordProcessor.java.svg" }
+ "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RecordProcessor.java.svg" }
 
 ] 
 , 

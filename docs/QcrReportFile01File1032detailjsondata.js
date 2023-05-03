@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html" 
  , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java 67 rule violations " 
- , "fic2"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -138,9 +137,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.svg" }
+ "ligneplantuml" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.svg" }
 
 ] 
 , 

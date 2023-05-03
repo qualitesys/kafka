@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"AbstractStatus<String>" <|-- "org.apache.kafka.connect.runtime.ConnectorStatus"
-class org.apache.kafka.connect.runtime.ConnectorStatus {
-+ConnectorStatus(String;State;String;String;int) : ConnectorStatus [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorStatus.java.html#22]]]
-+ConnectorStatus(String;State;String;int) : ConnectorStatus [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorStatus.java.html#26]]]
-} 
-@enduml

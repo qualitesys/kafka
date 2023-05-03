@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.message.ClauseGenerator"
-class org.apache.kafka.message.ClauseGenerator {
-generate(Versions) : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/ClauseGenerator.java.html#24]]]
-} 
-@enduml

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java 83 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -201,9 +200,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.svg" }
 
 ] 
 , 

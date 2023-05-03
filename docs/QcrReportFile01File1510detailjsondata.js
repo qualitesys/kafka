@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html" 
  , "texte" : "File server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java 68 rule violations " 
- , "fic2"  : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -75,9 +74,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.svg" }
+ "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.svg" }
 
 ] 
 , 

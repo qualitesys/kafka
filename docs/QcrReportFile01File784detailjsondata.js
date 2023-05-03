@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerValidatorCallback.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerValidatorCallback.java 8 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerValidatorCallback.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -93,9 +92,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerValidatorCallback.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerValidatorCallback.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerValidatorCallback.java.svg" }
 
 ] 
 , 

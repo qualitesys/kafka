@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java.html" 
  , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java 6 rule violations " 
- , "fic2"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -57,9 +56,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java.svg" }
+ "ligneplantuml" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java.svg" }
 
 ] 
 , 

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java.html" 
  , "texte" : "File streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java 1 rule violations " 
- , "fic2"  : "./qc/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/WordCount.java.xml" 
  , "fic3"  : "" 
 }
 , 

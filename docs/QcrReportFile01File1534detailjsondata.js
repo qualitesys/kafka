@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html" 
  , "texte" : "File shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java 26 rule violations " 
- , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -66,9 +65,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.svg" }
+ "ligneplantuml" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.svg" }
 
 ] 
 , 

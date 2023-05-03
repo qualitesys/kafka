@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html" 
  , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java 46 rule violations " 
- , "fic2"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -156,9 +155,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.svg" }
+ "ligneplantuml" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.svg" }
 
 ] 
 , 

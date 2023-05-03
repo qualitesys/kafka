@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html" 
  , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java 74 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -120,9 +119,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.svg" }
+ "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.svg" }
 
 ] 
 , 

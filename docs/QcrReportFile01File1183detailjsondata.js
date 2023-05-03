@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.html" 
  , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java 18 rule violations " 
- , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -75,9 +74,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.svg" }
+ "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockConnector.java.svg" }
 
 ] 
 , 

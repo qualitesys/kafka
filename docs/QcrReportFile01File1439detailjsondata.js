@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.html" 
  , "texte" : "File raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java 9 rule violations " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -84,9 +83,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.svg" }
+ "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotReader.java.svg" }
 
 ] 
 , 

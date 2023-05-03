@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/CloseableVerificationKeyResolver.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/CloseableVerificationKeyResolver.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/CloseableVerificationKeyResolver.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -30,9 +29,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/CloseableVerificationKeyResolver.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/CloseableVerificationKeyResolver.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/CloseableVerificationKeyResolver.java.svg" }
 
 ] 
 , 

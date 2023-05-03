@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html" 
  , "texte" : "File storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java 6 rule violations " 
- , "fic2"  : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -219,9 +218,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.svg" }
+ "ligneplantuml" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.svg" }
 
 ] 
 , 

@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"InvalidStateStoreException" <|-- "org.apache.kafka.streams.errors.InvalidStateStorePartitionException"
-class org.apache.kafka.streams.errors.InvalidStateStorePartitionException {
-+InvalidStateStorePartitionException(String) : InvalidStateStorePartitionException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStorePartitionException.java.html#30]]]
-+InvalidStateStorePartitionException(String;Throwable) : InvalidStateStorePartitionException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStorePartitionException.java.html#34]]]
-} 
-@enduml

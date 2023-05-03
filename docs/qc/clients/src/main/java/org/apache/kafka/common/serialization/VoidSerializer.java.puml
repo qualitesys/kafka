@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"Serializer<Void>" <|-- "org.apache.kafka.common.serialization.VoidSerializer"
-class org.apache.kafka.common.serialization.VoidSerializer {
-+serialize(String;Void) : byte[] [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/VoidSerializer.java.html#21]]]
-} 
-@enduml

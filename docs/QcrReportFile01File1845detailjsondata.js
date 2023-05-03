@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.html" 
  , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java 53 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -147,9 +146,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.svg" }
+ "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/TaskId.java.svg" }
 
 ] 
 , 

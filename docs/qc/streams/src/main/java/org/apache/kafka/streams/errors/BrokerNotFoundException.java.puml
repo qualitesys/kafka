@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"StreamsException" <|-- "org.apache.kafka.streams.errors.BrokerNotFoundException"
-class org.apache.kafka.streams.errors.BrokerNotFoundException {
-+BrokerNotFoundException(String) : BrokerNotFoundException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/BrokerNotFoundException.java.html#30]]]
-+BrokerNotFoundException(String;Throwable) : BrokerNotFoundException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/BrokerNotFoundException.java.html#34]]]
-+BrokerNotFoundException(Throwable) : BrokerNotFoundException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/BrokerNotFoundException.java.html#38]]]
-} 
-@enduml

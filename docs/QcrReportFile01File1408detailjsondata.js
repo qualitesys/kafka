@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html" 
  , "texte" : "File raft/src/main/java/org/apache/kafka/raft/QuorumState.java 131 rule violations " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -336,9 +335,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.svg" }
+ "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.svg" }
 
 ] 
 , 

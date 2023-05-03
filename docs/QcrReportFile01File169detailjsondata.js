@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java 23 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -84,9 +83,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.svg" }
 
 ] 
 , 

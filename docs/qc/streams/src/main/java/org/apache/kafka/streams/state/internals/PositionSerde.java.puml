@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.state.internals.PositionSerde"
-class org.apache.kafka.streams.state.internals.PositionSerde {
-+PositionSerde() : PositionSerde [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#31]]]
-+deserialize(ByteBuffer) : Position [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#34]]]
-+serialize(Position) : ByteBuffer [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#62]]]
-} 
-@enduml

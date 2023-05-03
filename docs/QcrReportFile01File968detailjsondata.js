@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.html" 
  , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java 16 rule violations " 
- , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -93,9 +92,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.svg" }
+ "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/health/ConnectorHealth.java.svg" }
 
 ] 
 , 

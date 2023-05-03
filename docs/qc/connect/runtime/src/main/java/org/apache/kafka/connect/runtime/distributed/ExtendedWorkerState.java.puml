@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"ConnectProtocol.WorkerState" <|-- "org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState"
-class org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState {
-+ExtendedWorkerState(String;long;ExtendedAssignment) : ExtendedWorkerState [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedWorkerState.java.html#25]]]
-+assignment() : ExtendedAssignment [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedWorkerState.java.html#36]]]
-+toString() : String [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedWorkerState.java.html#41]]]
-} 
-@enduml

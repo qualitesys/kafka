@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.trogdor.workload.ThroughputGenerator"
-class org.apache.kafka.trogdor.workload.ThroughputGenerator {
-throttle() : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ThroughputGenerator.java.html#44]]]
-} 
-@enduml

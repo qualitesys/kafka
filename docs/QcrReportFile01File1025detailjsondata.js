@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/GroupFilter.java.html" 
  , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/GroupFilter.java 0 rule violation " 
- , "fic2"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/GroupFilter.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -48,9 +47,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/GroupFilter.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/GroupFilter.java.svg" }
+ "ligneplantuml" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/GroupFilter.java.svg" }
 
 ] 
 , 

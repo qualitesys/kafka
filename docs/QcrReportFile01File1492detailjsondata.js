@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.net.Socket.java.html" 
  , "texte" : "File secujava/java.net.Socket.java 216 rule violations " 
- , "fic2"  : "./qc/secujava/java.net.Socket.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -561,9 +560,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/secujava/java.net.Socket.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/secujava/java.net.Socket.java.svg" }
+ "ligneplantuml" : "./qc/secujava/java.net.Socket.java.svg" }
 
 ] 
 , 

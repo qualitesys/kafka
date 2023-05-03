@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/org.springframework.http.ResponseEntity.java.html" 
  , "texte" : "File secujava/org.springframework.http.ResponseEntity.java 75 rule violations " 
- , "fic2"  : "./qc/secujava/org.springframework.http.ResponseEntity.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -192,9 +191,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/secujava/org.springframework.http.ResponseEntity.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/secujava/org.springframework.http.ResponseEntity.java.svg" }
+ "ligneplantuml" : "./qc/secujava/org.springframework.http.ResponseEntity.java.svg" }
 
 ] 
 , 

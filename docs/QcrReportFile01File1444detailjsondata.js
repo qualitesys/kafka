@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html" 
  , "texte" : "File raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java 22 rule violations " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -120,9 +119,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.svg" }
+ "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.svg" }
 
 ] 
 , 

@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"AbstractOptions<ExpireDelegationTokenOptions>" <|-- "org.apache.kafka.clients.admin.ExpireDelegationTokenOptions"
-class org.apache.kafka.clients.admin.ExpireDelegationTokenOptions {
-+expiryTimePeriodMs(long) : ExpireDelegationTokenOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ExpireDelegationTokenOptions.java.html#31]]]
-+expiryTimePeriodMs() : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ExpireDelegationTokenOptions.java.html#36]]]
-} 
-@enduml

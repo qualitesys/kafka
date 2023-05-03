@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"AccessTokenValidator" <|-- "org.apache.kafka.common.security.oauthbearer.secured.LoginAccessTokenValidator"
-class org.apache.kafka.common.security.oauthbearer.secured.LoginAccessTokenValidator {
-+LoginAccessTokenValidator(String;String) : LoginAccessTokenValidator [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/LoginAccessTokenValidator.java.html#71]]]
-+validate(String) : OAuthBearerToken [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/LoginAccessTokenValidator.java.html#86]]]
--getClaim(Map<String,Object>;String) : Object [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/LoginAccessTokenValidator.java.html#126]]]
-} 
-@enduml

@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"InputStream" <|-- "org.apache.kafka.common.utils.ByteBufferInputStream"
-class org.apache.kafka.common.utils.ByteBufferInputStream {
-+ByteBufferInputStream(ByteBuffer) : ByteBufferInputStream [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferInputStream.java.html#28]]]
-+read() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferInputStream.java.html#32]]]
-+read(byte[];int;int) : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferInputStream.java.html#39]]]
-} 
-@enduml

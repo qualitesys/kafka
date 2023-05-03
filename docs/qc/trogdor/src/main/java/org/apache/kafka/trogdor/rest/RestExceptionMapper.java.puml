@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"ExceptionMapper<Throwable>" <|-- "org.apache.kafka.trogdor.rest.RestExceptionMapper"
-class org.apache.kafka.trogdor.rest.RestExceptionMapper {
-+toResponse(Throwable) : Response [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/RestExceptionMapper.java.html#34]]]
-+toException(int;String) : Exception [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/RestExceptionMapper.java.html#59]]]
--buildResponse(Response.Status;Throwable) : Response [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/RestExceptionMapper.java.html#73]]]
-} 
-@enduml

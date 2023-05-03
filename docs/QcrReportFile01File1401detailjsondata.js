@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html" 
  , "texte" : "File raft/src/main/java/org/apache/kafka/raft/LeaderState.java 77 rule violations " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -291,9 +290,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.svg" }
+ "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.svg" }
 
 ] 
 , 

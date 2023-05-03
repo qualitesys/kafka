@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"StreamsException" <|-- "org.apache.kafka.streams.errors.InvalidStateStoreException"
-class org.apache.kafka.streams.errors.InvalidStateStoreException {
-+InvalidStateStoreException(String) : InvalidStateStoreException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStoreException.java.html#28]]]
-+InvalidStateStoreException(String;Throwable) : InvalidStateStoreException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStoreException.java.html#32]]]
-+InvalidStateStoreException(Throwable) : InvalidStateStoreException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/InvalidStateStoreException.java.html#36]]]
-} 
-@enduml

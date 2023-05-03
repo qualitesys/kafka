@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"ReplicaSelector" <|-- "org.apache.kafka.common.replica.RackAwareReplicaSelector"
-class org.apache.kafka.common.replica.RackAwareReplicaSelector {
-+select(TopicPartition;ClientMetadata;PartitionView) : Optional<ReplicaView> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#32]]]
-} 
-@enduml

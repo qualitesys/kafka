@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestClient.java.html" 
  , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestClient.java 39 rule violations " 
- , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestClient.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,9 +38,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestClient.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestClient.java.svg" }
+ "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestClient.java.svg" }
 
 ] 
 , 

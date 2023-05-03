@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"KafkaException" <|-- "org.apache.kafka.common.security.oauthbearer.secured.ValidateException"
-class org.apache.kafka.common.security.oauthbearer.secured.ValidateException {
-+ValidateException(String) : ValidateException [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ValidateException.java.html#34]]]
-+ValidateException(Throwable) : ValidateException [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ValidateException.java.html#38]]]
-+ValidateException(String;Throwable) : ValidateException [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ValidateException.java.html#42]]]
-} 
-@enduml

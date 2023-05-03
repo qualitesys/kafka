@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TargetState.java.html" 
  , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TargetState.java 0 rule violation " 
- , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TargetState.java.xml" 
  , "fic3"  : "" 
 }
 , 

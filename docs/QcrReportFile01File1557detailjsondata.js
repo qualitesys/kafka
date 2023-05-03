@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.html" 
  , "texte" : "File storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java 20 rule violations " 
- , "fic2"  : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -93,9 +92,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.svg" }
+ "ligneplantuml" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.svg" }
 
 ] 
 , 

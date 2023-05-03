@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html" 
  , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java 28 rule violations " 
- , "fic2"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -84,9 +83,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.svg" }
+ "ligneplantuml" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.svg" }
 
 ] 
 , 

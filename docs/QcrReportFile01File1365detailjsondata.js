@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/AclMutator.java.html" 
  , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/authorizer/AclMutator.java 0 rule violation " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/AclMutator.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,9 +38,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/AclMutator.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/AclMutator.java.svg" }
+ "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/AclMutator.java.svg" }
 
 ] 
 , 

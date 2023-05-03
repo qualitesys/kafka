@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"ConnectRestException" <|-- "org.apache.kafka.connect.runtime.rest.errors.BadRequestException"
-class org.apache.kafka.connect.runtime.rest.errors.BadRequestException {
-+BadRequestException(String) : BadRequestException [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/errors/BadRequestException.java.html#23]]]
-} 
-@enduml

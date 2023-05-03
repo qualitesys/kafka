@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"KafkaException" <|-- "org.apache.kafka.connect.errors.ConnectException"
-class org.apache.kafka.connect.errors.ConnectException {
-+ConnectException(String) : ConnectException [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/ConnectException.java.html#26]]]
-+ConnectException(String;Throwable) : ConnectException [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/ConnectException.java.html#30]]]
-+ConnectException(Throwable) : ConnectException [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/errors/ConnectException.java.html#34]]]
-} 
-@enduml

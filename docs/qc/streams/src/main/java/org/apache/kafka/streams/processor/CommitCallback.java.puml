@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.processor.CommitCallback"
-class org.apache.kafka.streams.processor.CommitCallback {
-onCommit() : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/CommitCallback.java.html#30]]]
-} 
-@enduml

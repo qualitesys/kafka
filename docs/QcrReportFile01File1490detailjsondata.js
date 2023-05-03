@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.net.CacheResponse.java.html" 
  , "texte" : "File secujava/java.net.CacheResponse.java 0 rule violation " 
- , "fic2"  : "./qc/secujava/java.net.CacheResponse.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,9 +38,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/secujava/java.net.CacheResponse.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/secujava/java.net.CacheResponse.java.svg" }
+ "ligneplantuml" : "./qc/secujava/java.net.CacheResponse.java.svg" }
 
 ] 
 , 

@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"Deserializer<Short>" <|-- "org.apache.kafka.common.serialization.ShortDeserializer"
-class org.apache.kafka.common.serialization.ShortDeserializer {
-+deserialize(String;byte[]) : Short [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/ShortDeserializer.java.html#23]]]
-} 
-@enduml

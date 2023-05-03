@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"ExtractRecordMetadataTimestamp" <|-- "org.apache.kafka.streams.processor.UsePartitionTimeOnInvalidTimestamp"
-class org.apache.kafka.streams.processor.UsePartitionTimeOnInvalidTimestamp {
-+onInvalidTimestamp(ConsumerRecord<Object,Object>;long;long) : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/UsePartitionTimeOnInvalidTimestamp.java.html#57]]]
-} 
-@enduml

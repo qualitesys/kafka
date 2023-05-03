@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"PayloadGenerator" <|-- "org.apache.kafka.trogdor.workload.NullPayloadGenerator"
-class org.apache.kafka.trogdor.workload.NullPayloadGenerator {
-+NullPayloadGenerator() : NullPayloadGenerator [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/NullPayloadGenerator.java.html#26]]]
-+generate(long) : byte[] [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/NullPayloadGenerator.java.html#30]]]
-} 
-@enduml

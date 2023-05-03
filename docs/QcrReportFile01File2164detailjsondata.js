@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.html" 
  , "texte" : "File streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java 67 rule violations " 
- , "fic2"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -354,9 +353,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.svg" }
+ "ligneplantuml" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/processor/MockProcessorContext.java.svg" }
 
 ] 
 , 

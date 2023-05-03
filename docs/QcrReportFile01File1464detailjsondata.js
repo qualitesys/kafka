@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.PipedOutputStream.java.html" 
  , "texte" : "File secujava/java.io.PipedOutputStream.java 23 rule violations " 
- , "fic2"  : "./qc/secujava/java.io.PipedOutputStream.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -84,9 +83,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/secujava/java.io.PipedOutputStream.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/secujava/java.io.PipedOutputStream.java.svg" }
+ "ligneplantuml" : "./qc/secujava/java.io.PipedOutputStream.java.svg" }
 
 ] 
 , 

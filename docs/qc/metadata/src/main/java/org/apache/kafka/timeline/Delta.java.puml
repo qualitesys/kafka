@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.timeline.Delta"
-class org.apache.kafka.timeline.Delta {
-mergeFrom(long;Delta) : void [[[./../../../../../../../../.././qc/metadata/src/main/java/org/apache/kafka/timeline/Delta.java.html#30]]]
-} 
-@enduml

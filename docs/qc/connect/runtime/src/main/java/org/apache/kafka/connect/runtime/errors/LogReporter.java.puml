@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"ErrorReporter" <|-- "org.apache.kafka.connect.runtime.errors.LogReporter"
-class org.apache.kafka.connect.runtime.errors.LogReporter {
-+LogReporter(ConnectorTaskId;ConnectorConfig;ErrorHandlingMetrics) : LogReporter [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/LogReporter.java.html#41]]]
-+report(ProcessingContext) : Future<RecordMetadata> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/LogReporter.java.html#57]]]
-message(ProcessingContext) : String [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/LogReporter.java.html#72]]]
-} 
-@enduml

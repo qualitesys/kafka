@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"AuthorizationException" <|-- "org.apache.kafka.common.errors.TransactionalIdAuthorizationException"
-class org.apache.kafka.common.errors.TransactionalIdAuthorizationException {
-+TransactionalIdAuthorizationException(String) : TransactionalIdAuthorizationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/TransactionalIdAuthorizationException.java.html#20]]]
-} 
-@enduml

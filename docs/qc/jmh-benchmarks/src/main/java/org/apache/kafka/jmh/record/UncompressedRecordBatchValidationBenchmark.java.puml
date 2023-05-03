@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"BaseRecordBatchBenchmark" <|-- "org.apache.kafka.jmh.record.UncompressedRecordBatchValidationBenchmark"
-class org.apache.kafka.jmh.record.UncompressedRecordBatchValidationBenchmark {
-compressionType() : CompressionType [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/UncompressedRecordBatchValidationBenchmark.java.html#41]]]
-+measureAssignOffsetsNonCompressed(Blackhole) : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/UncompressedRecordBatchValidationBenchmark.java.html#46]]]
-} 
-@enduml

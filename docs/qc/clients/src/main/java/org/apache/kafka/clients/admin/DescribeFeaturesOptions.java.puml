@@ -1,6 +1,0 @@
-@startuml
-!pragma layout smetana
-"AbstractOptions<DescribeFeaturesOptions>" <|-- "org.apache.kafka.clients.admin.DescribeFeaturesOptions"
-class org.apache.kafka.clients.admin.DescribeFeaturesOptions {
-} 
-@enduml

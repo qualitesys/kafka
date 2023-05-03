@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.html" 
  , "texte" : "File generator/src/main/java/org/apache/kafka/message/StructSpec.java 16 rule violations " 
- , "fic2"  : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -75,9 +74,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.svg" }
+ "ligneplantuml" : "./qc/generator/src/main/java/org/apache/kafka/message/StructSpec.java.svg" }
 
 ] 
 , 

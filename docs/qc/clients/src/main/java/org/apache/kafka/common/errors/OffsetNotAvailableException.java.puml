@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"RetriableException" <|-- "org.apache.kafka.common.errors.OffsetNotAvailableException"
-class org.apache.kafka.common.errors.OffsetNotAvailableException {
-+OffsetNotAvailableException(String) : OffsetNotAvailableException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/OffsetNotAvailableException.java.html#26]]]
-} 
-@enduml

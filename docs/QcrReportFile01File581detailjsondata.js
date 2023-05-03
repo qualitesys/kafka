@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/TimestampType.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/TimestampType.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/TimestampType.java.xml" 
  , "fic3"  : "" 
 }
 , 

@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"ApiException" <|-- "org.apache.kafka.common.errors.FencedInstanceIdException"
-class org.apache.kafka.common.errors.FencedInstanceIdException {
-+FencedInstanceIdException(String) : FencedInstanceIdException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/FencedInstanceIdException.java.html#22]]]
-+FencedInstanceIdException(String;Throwable) : FencedInstanceIdException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/FencedInstanceIdException.java.html#26]]]
-} 
-@enduml

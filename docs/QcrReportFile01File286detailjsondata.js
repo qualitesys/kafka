@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java 10 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -66,9 +65,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/cache/LRUCache.java.svg" }
 
 ] 
 , 

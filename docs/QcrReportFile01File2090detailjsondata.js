@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html" 
  , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java 327 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -201,9 +200,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.svg" }
+ "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.svg" }
 
 ] 
 , 

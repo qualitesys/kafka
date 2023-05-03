@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.common.config.ConfigChangeCallback"
-class org.apache.kafka.common.config.ConfigChangeCallback {
-onChange(String;ConfigData) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/config/ConfigChangeCallback.java.html#32]]]
-} 
-@enduml

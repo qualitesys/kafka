@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"AbstractOptions<CreateAclsOptions>" <|-- "org.apache.kafka.clients.admin.CreateAclsOptions"
-class org.apache.kafka.clients.admin.CreateAclsOptions {
-+timeoutMs(Integer) : CreateAclsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateAclsOptions.java.html#38]]]
-} 
-@enduml

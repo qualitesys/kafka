@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"Serializer<Integer>" <|-- "org.apache.kafka.common.serialization.IntegerSerializer"
-class org.apache.kafka.common.serialization.IntegerSerializer {
-+serialize(String;Integer) : byte[] [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/IntegerSerializer.java.html#20]]]
-} 
-@enduml

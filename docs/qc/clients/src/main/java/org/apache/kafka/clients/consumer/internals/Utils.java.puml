@@ -1,6 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.clients.consumer.internals.Utils"
-class org.apache.kafka.clients.consumer.internals.Utils {
-} 
-@enduml

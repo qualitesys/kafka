@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html" 
  , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java 53 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -138,9 +137,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.svg" }
+ "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.svg" }
 
 ] 
 , 

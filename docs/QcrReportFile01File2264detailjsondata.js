@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html" 
  , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java 37 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -75,9 +74,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.svg" }
+ "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.svg" }
 
 ] 
 , 

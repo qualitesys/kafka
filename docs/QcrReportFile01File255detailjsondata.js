@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/ClusterResourceListener.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/common/ClusterResourceListener.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/ClusterResourceListener.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -30,9 +29,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/ClusterResourceListener.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/ClusterResourceListener.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/ClusterResourceListener.java.svg" }
 
 ] 
 , 

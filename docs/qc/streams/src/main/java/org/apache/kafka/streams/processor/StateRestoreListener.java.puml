@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.processor.StateRestoreListener"
-class org.apache.kafka.streams.processor.StateRestoreListener {
-onRestoreStart(TopicPartition;String;long;long) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.html#52]]]
-onBatchRestored(TopicPartition;String;long;long) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.html#72]]]
-onRestoreEnd(TopicPartition;String;long) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreListener.java.html#84]]]
-} 
-@enduml

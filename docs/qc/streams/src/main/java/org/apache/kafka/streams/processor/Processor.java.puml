@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.processor.Processor"
-class org.apache.kafka.streams.processor.Processor {
-init(ProcessorContext) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/Processor.java.html#42]]]
-process(K;V) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/Processor.java.html#50]]]
-close() : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/Processor.java.html#59]]]
-} 
-@enduml

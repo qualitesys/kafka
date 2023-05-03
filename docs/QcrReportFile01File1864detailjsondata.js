@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.html" 
  , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java 17 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -120,9 +119,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.svg" }
+ "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/Record.java.svg" }
 
 ] 
 , 

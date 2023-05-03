@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/PunctuationType.java.html" 
  , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/PunctuationType.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/PunctuationType.java.xml" 
  , "fic3"  : "" 
 }
 , 

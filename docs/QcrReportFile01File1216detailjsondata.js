@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html" 
  , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java 69 rule violations " 
- , "fic2"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -147,9 +146,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.svg" }
+ "ligneplantuml" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.svg" }
 
 ] 
 , 

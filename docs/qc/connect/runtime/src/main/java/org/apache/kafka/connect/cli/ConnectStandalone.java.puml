@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.connect.cli.ConnectStandalone"
-class org.apache.kafka.connect.cli.ConnectStandalone {
-+main(String[]) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectStandalone.java.html#59]]]
-} 
-@enduml

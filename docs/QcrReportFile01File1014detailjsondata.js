@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html" 
  , "texte" : "File connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java 12 rule violations " 
- , "fic2"  : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -156,9 +155,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.svg" }
+ "ligneplantuml" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.svg" }
 
 ] 
 , 

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html" 
  , "texte" : "File core/src/main/java/kafka/server/builders/LogManagerBuilder.java 32 rule violations " 
- , "fic2"  : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -192,9 +191,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.svg" }
+ "ligneplantuml" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.svg" }
 
 ] 
 , 

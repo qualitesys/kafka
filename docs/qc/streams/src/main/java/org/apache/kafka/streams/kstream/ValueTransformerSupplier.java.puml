@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"ConnectedStoreProvider" <|-- "org.apache.kafka.streams.kstream.ValueTransformerSupplier"
-class org.apache.kafka.streams.kstream.ValueTransformerSupplier {
-get() : ValueTransformer<V,VR> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueTransformerSupplier.java.html#51]]]
-} 
-@enduml

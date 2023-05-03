@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"Callback" <|-- "org.apache.kafka.common.security.auth.SaslExtensionsCallback"
-class org.apache.kafka.common.security.auth.SaslExtensionsCallback {
-+extensions() : SaslExtensions [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensionsCallback.java.html#38]]]
-+extensions(SaslExtensions) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/SaslExtensionsCallback.java.html#48]]]
-} 
-@enduml

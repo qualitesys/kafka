@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.InputStreamReader.java.html" 
  , "texte" : "File secujava/java.io.InputStreamReader.java 8 rule violations " 
- , "fic2"  : "./qc/secujava/java.io.InputStreamReader.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -102,9 +101,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/secujava/java.io.InputStreamReader.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/secujava/java.io.InputStreamReader.java.svg" }
+ "ligneplantuml" : "./qc/secujava/java.io.InputStreamReader.java.svg" }
 
 ] 
 , 

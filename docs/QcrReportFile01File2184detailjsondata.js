@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.html" 
  , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java 7 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -57,9 +56,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.svg" }
+ "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicTopology.java.svg" }
 
 ] 
 , 

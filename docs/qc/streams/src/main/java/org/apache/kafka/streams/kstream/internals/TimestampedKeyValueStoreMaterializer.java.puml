@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.internals.TimestampedKeyValueStoreMaterializer"
-class org.apache.kafka.streams.kstream.internals.TimestampedKeyValueStoreMaterializer {
-+TimestampedKeyValueStoreMaterializer(MaterializedInternal<K,V,KeyValueStore<Bytes,byte[]>>) : TimestampedKeyValueStoreMaterializer [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedKeyValueStoreMaterializer.java.html#29]]]
-+materialize() : StoreBuilder<TimestampedKeyValueStore<K,V>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedKeyValueStoreMaterializer.java.html#36]]]
-} 
-@enduml

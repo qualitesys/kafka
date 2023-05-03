@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalBuilder.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalBuilder.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalBuilder.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -30,9 +29,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalBuilder.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalBuilder.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalBuilder.java.svg" }
 
 ] 
 , 

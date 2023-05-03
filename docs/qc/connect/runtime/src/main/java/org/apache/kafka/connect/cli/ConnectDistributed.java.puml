@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.connect.cli.ConnectDistributed"
-class org.apache.kafka.connect.cli.ConnectDistributed {
-+main(String[]) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#64]]]
-+startConnect(Map<String,String>) : Connect [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#91]]]
-} 
-@enduml

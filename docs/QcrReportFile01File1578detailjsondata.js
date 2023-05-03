@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html" 
  , "texte" : "File streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java 45 rule violations " 
- , "fic2"  : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -30,9 +29,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.svg" }
+ "ligneplantuml" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.svg" }
 
 ] 
 , 

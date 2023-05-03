@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark"
-class org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark {
-+testAddEntriesInHashMap() : Map<Integer,String> [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/timeline/TimelineHashMapBenchmark.java.html#48]]]
-+testAddEntriesInTimelineMap() : Map<Integer,String> [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/timeline/TimelineHashMapBenchmark.java.html#58]]]
-+testAddEntriesWithSnapshots() : Map<Integer,String> [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/timeline/TimelineHashMapBenchmark.java.html#70]]]
-} 
-@enduml

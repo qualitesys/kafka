@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"Configurable" <|-- "org.apache.kafka.connect.mirror.TopicFilter"
-class org.apache.kafka.connect.mirror.TopicFilter {
-shouldReplicateTopic(String) : boolean [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/TopicFilter.java.html#28]]]
-close() : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/TopicFilter.java.html#30]]]
-configure(Map<String,?>) : void [[[./../../../../../../../../../../.././qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/TopicFilter.java.html#34]]]
-} 
-@enduml

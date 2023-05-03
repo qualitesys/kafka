@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"Iterator<Batch<T>>" <|-- "org.apache.kafka.raft.BatchReader"
-class org.apache.kafka.raft.BatchReader {
-baseOffset() : long [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/BatchReader.java.html#42]]]
-lastOffset() : OptionalLong [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/BatchReader.java.html#52]]]
-close() : void [[[./../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/BatchReader.java.html#59]]]
-} 
-@enduml

@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.trogdor.rest.Message"
-class org.apache.kafka.trogdor.rest.Message {
-+equals(Object) : boolean [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#26]]]
-+hashCode() : int [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#33]]]
-+toString() : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/Message.java.html#38]]]
-} 
-@enduml

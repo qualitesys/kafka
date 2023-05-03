@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/Action.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/server/authorizer/Action.java 17 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/Action.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -102,9 +101,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/Action.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/Action.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/Action.java.svg" }
 
 ] 
 , 

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/DecimalFormat.java.html" 
  , "texte" : "File connect/json/src/main/java/org/apache/kafka/connect/json/DecimalFormat.java 0 rule violation " 
- , "fic2"  : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/DecimalFormat.java.xml" 
  , "fic3"  : "" 
 }
 , 

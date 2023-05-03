@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java 36 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -147,9 +146,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.svg" }
 
 ] 
 , 

@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.server.common.serialization.RecordSerde"
-class org.apache.kafka.server.common.serialization.RecordSerde {
-recordSize(T;ObjectSerializationCache) : int [[[./../../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/RecordSerde.java.html#37]]]
-write(T;ObjectSerializationCache;Writable) : void [[[./../../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/RecordSerde.java.html#48]]]
-read(Readable;int) : T [[[./../../../../../../../../../../.././qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/RecordSerde.java.html#57]]]
-} 
-@enduml

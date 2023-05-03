@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.connect.transforms.util.SchemaUtil"
-class org.apache.kafka.connect.transforms.util.SchemaUtil {
-+copySchemaBasics(Schema) : SchemaBuilder [[[./../../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#26]]]
-+copySchemaBasics(Schema;SchemaBuilder) : SchemaBuilder [[[./../../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#36]]]
-} 
-@enduml

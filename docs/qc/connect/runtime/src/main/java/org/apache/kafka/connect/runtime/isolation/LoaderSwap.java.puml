@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"AutoCloseable" <|-- "org.apache.kafka.connect.runtime.isolation.LoaderSwap"
-class org.apache.kafka.connect.runtime.isolation.LoaderSwap {
-+LoaderSwap(ClassLoader) : LoaderSwap [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/LoaderSwap.java.html#27]]]
-+close() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/LoaderSwap.java.html#32]]]
-} 
-@enduml

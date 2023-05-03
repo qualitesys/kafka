@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.common.header.Header"
-class org.apache.kafka.common.header.Header {
-key() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/header/Header.java.html#21]]]
-value() : byte[] [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/header/Header.java.html#23]]]
-} 
-@enduml

@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"Provider" <|-- "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClientProvider"
-class org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClientProvider {
-OAuthBearerSaslClientProvider() : OAuthBearerSaslClientProvider [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClientProvider.java.html#28]]]
-+initialize() : void [[[./../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClientProvider.java.html#34]]]
-} 
-@enduml

@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"Serializer<Float>" <|-- "org.apache.kafka.common.serialization.FloatSerializer"
-class org.apache.kafka.common.serialization.FloatSerializer {
-+serialize(String;Float) : byte[] [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/FloatSerializer.java.html#21]]]
-} 
-@enduml

@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"ApiException" <|-- "org.apache.kafka.common.InvalidRecordException"
-class org.apache.kafka.common.InvalidRecordException {
-+InvalidRecordException(String) : InvalidRecordException [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/InvalidRecordException.java.html#25]]]
-+InvalidRecordException(String;Throwable) : InvalidRecordException [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/InvalidRecordException.java.html#29]]]
-} 
-@enduml

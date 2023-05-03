@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"Commands.Handler" <|-- "org.apache.kafka.shell.PwdCommandHandler"
-class org.apache.kafka.shell.PwdCommandHandler {
-+run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager) : void [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#71]]]
-+hashCode() : int [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#80]]]
-+equals(Object) : boolean [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/PwdCommandHandler.java.html#85]]]
-} 
-@enduml

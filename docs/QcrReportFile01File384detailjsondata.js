@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/NotControllerException.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/NotControllerException.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/NotControllerException.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,9 +38,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/NotControllerException.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/NotControllerException.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/NotControllerException.java.svg" }
 
 ] 
 , 

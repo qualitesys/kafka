@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.common.utils.CollectionUtils"
-class org.apache.kafka.common.utils.CollectionUtils {
--CollectionUtils() : CollectionUtils [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#32]]]
-+groupPartitionsByTopic(Collection<TopicPartition>) : Map<String,List<Integer>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#67]]]
-} 
-@enduml

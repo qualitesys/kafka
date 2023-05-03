@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.distributed.WorkerRebalanceListener"
-class org.apache.kafka.connect.runtime.distributed.WorkerRebalanceListener {
-onAssigned(ExtendedAssignment;int) : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerRebalanceListener.java.html#31]]]
-onRevoked(String;Collection<String>;Collection<ConnectorTaskId>) : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerRebalanceListener.java.html#38]]]
-} 
-@enduml

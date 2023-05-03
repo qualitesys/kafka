@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"Window" <|-- "org.apache.kafka.streams.kstream.internals.SessionWindow"
-class org.apache.kafka.streams.kstream.internals.SessionWindow {
-+SessionWindow(long;long) : SessionWindow [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindow.java.html#40]]]
-+overlap(Window) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindow.java.html#51]]]
-} 
-@enduml

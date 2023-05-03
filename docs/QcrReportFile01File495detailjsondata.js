@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/CipherInformation.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/CipherInformation.java 11 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/CipherInformation.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -75,9 +74,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/network/CipherInformation.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/network/CipherInformation.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/network/CipherInformation.java.svg" }
 
 ] 
 , 

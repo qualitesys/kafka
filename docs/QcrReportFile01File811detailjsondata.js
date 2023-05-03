@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/FileTokenRetriever.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/FileTokenRetriever.java 3 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/FileTokenRetriever.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -48,9 +47,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/FileTokenRetriever.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/FileTokenRetriever.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/FileTokenRetriever.java.svg" }
 
 ] 
 , 

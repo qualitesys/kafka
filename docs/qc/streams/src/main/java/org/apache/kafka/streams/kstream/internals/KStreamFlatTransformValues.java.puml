@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"ProcessorSupplier<KIn,VIn,KIn,VOut>" <|-- "org.apache.kafka.streams.kstream.internals.KStreamFlatTransformValues"
-class org.apache.kafka.streams.kstream.internals.KStreamFlatTransformValues {
-+KStreamFlatTransformValues(ValueTransformerWithKeySupplier<KIn,VIn,Iterable<VOut>>) : KStreamFlatTransformValues [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatTransformValues.java.html#36]]]
-+get() : Processor<KIn,VIn,KIn,VOut> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatTransformValues.java.html#41]]]
-+stores() : Set<StoreBuilder<?>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFlatTransformValues.java.html#46]]]
-} 
-@enduml

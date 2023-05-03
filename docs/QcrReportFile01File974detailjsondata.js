@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/ErrantRecordReporter.java.html" 
  , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/sink/ErrantRecordReporter.java 0 rule violation " 
- , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/ErrantRecordReporter.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -30,9 +29,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/ErrantRecordReporter.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/ErrantRecordReporter.java.svg" }
+ "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/ErrantRecordReporter.java.svg" }
 
 ] 
 , 

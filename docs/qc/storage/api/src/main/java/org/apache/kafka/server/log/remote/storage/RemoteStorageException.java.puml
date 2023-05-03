@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"Exception" <|-- "org.apache.kafka.server.log.remote.storage.RemoteStorageException"
-class org.apache.kafka.server.log.remote.storage.RemoteStorageException {
-+RemoteStorageException(String) : RemoteStorageException [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteStorageException.java.html#26]]]
-+RemoteStorageException(String;Throwable) : RemoteStorageException [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteStorageException.java.html#30]]]
-+RemoteStorageException(Throwable) : RemoteStorageException [[[./../../../../../../../../../../../../.././qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteStorageException.java.html#34]]]
-} 
-@enduml

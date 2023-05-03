@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"GraphNode" <|-- "org.apache.kafka.streams.kstream.internals.graph.StreamTableJoinNode"
-class org.apache.kafka.streams.kstream.internals.graph.StreamTableJoinNode {
-+StreamTableJoinNode(String;ProcessorParameters<K,V,?,?>;String[];String) : StreamTableJoinNode [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#35]]]
-+toString() : String [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#48]]]
-+writeToTopology(InternalTopologyBuilder) : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#57]]]
-} 
-@enduml

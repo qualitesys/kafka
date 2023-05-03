@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.common.record.ConvertedRecords"
-class org.apache.kafka.common.record.ConvertedRecords {
-+ConvertedRecords(T;RecordConversionStats) : ConvertedRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/ConvertedRecords.java.html#24]]]
-+records() : T [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/ConvertedRecords.java.html#29]]]
-+recordConversionStats() : RecordConversionStats [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/ConvertedRecords.java.html#33]]]
-} 
-@enduml

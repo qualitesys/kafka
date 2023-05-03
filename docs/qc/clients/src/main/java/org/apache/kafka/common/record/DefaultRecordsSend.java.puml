@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"RecordsSend<T>" <|-- "org.apache.kafka.common.record.DefaultRecordsSend"
-class org.apache.kafka.common.record.DefaultRecordsSend {
-+DefaultRecordsSend(T) : DefaultRecordsSend [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordsSend.java.html#24]]]
-+DefaultRecordsSend(T;int) : DefaultRecordsSend [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordsSend.java.html#28]]]
-writeTo(TransferableChannel;long;int) : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordsSend.java.html#33]]]
-} 
-@enduml

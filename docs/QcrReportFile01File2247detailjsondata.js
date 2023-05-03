@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/WorkerStatusTracker.java.html" 
  , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/task/WorkerStatusTracker.java 0 rule violation " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/WorkerStatusTracker.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -30,9 +29,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/WorkerStatusTracker.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/WorkerStatusTracker.java.svg" }
+ "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/WorkerStatusTracker.java.svg" }
 
 ] 
 , 

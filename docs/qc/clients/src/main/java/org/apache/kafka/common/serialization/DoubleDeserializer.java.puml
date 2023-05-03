@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"Deserializer<Double>" <|-- "org.apache.kafka.common.serialization.DoubleDeserializer"
-class org.apache.kafka.common.serialization.DoubleDeserializer {
-+deserialize(String;byte[]) : Double [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/DoubleDeserializer.java.html#24]]]
-} 
-@enduml

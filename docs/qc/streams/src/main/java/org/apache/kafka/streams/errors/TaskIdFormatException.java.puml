@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"StreamsException" <|-- "org.apache.kafka.streams.errors.TaskIdFormatException"
-class org.apache.kafka.streams.errors.TaskIdFormatException {
-+TaskIdFormatException(String) : TaskIdFormatException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskIdFormatException.java.html#30]]]
-+TaskIdFormatException(String;Throwable) : TaskIdFormatException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskIdFormatException.java.html#34]]]
-+TaskIdFormatException(Throwable) : TaskIdFormatException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskIdFormatException.java.html#38]]]
-} 
-@enduml

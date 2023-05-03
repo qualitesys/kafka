@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataTransform"
-class org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataTransform {
-toApiMessageAndVersion(T) : ApiMessageAndVersion [[[./../../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataTransform.java.html#42]]]
-fromApiMessageAndVersion(ApiMessageAndVersion) : T [[[./../../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogMetadataTransform.java.html#50]]]
-} 
-@enduml

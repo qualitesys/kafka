@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html" 
  , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java 85 rule violations " 
- , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -156,9 +155,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.svg" }
+ "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.svg" }
 
 ] 
 , 

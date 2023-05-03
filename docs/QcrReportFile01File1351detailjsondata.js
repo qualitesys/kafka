@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationFencingChange.java.html" 
  , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationFencingChange.java 0 rule violation " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistrationFencingChange.java.xml" 
  , "fic3"  : "" 
 }
 , 

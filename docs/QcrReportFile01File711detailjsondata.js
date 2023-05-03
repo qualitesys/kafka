@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java 46 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -102,9 +101,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.svg" }
 
 ] 
 , 

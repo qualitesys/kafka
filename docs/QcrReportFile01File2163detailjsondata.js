@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html" 
  , "texte" : "File streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java 202 rule violations " 
- , "fic2"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -291,9 +290,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.svg" }
+ "ligneplantuml" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.svg" }
 
 ] 
 , 

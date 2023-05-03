@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.GlobalKTable"
-class org.apache.kafka.streams.kstream.GlobalKTable {
-queryableStoreName() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/GlobalKTable.java.html#73]]]
-} 
-@enduml

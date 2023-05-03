@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigTransformer.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/ConfigTransformer.java 1 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigTransformer.java.xml" 
  , "fic3"  : "" 
 }
 , 

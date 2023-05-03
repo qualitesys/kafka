@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.query.internals.InternalQueryResultUtil"
-class org.apache.kafka.streams.query.internals.InternalQueryResultUtil {
-+InternalQueryResultUtil() : InternalQueryResultUtil [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/query/internals/InternalQueryResultUtil.java.html#29]]]
-} 
-@enduml

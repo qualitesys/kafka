@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark"
-class org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark {
-+setup() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ImplicitLinkedHashCollectionBenchmark.java.html#106]]]
-+testCollectionSort() : ImplicitLinkedHashCollection<TestElement> [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ImplicitLinkedHashCollectionBenchmark.java.html#117]]]
-} 
-@enduml

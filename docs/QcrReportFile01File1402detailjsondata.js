@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/LogAppendInfo.java.html" 
  , "texte" : "File raft/src/main/java/org/apache/kafka/raft/LogAppendInfo.java 0 rule violation " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/LogAppendInfo.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -30,9 +29,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/LogAppendInfo.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/LogAppendInfo.java.svg" }
+ "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/LogAppendInfo.java.svg" }
 
 ] 
 , 

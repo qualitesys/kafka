@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html" 
  , "texte" : "File tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java 168 rule violations " 
- , "fic2"  : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -138,9 +137,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.svg" }
+ "ligneplantuml" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.svg" }
 
 ] 
 , 

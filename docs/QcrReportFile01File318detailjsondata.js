@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/BrokerIdNotRegisteredException.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/common/errors/BrokerIdNotRegisteredException.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/errors/BrokerIdNotRegisteredException.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,9 +38,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/BrokerIdNotRegisteredException.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/BrokerIdNotRegisteredException.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/BrokerIdNotRegisteredException.java.svg" }
 
 ] 
 , 

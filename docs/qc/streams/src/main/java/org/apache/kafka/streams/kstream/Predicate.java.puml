@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.Predicate"
-class org.apache.kafka.streams.kstream.Predicate {
-test(K;V) : boolean [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Predicate.java.html#43]]]
-} 
-@enduml

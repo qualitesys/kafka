@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/MetadataParseException.java.html" 
  , "texte" : "File server-common/src/main/java/org/apache/kafka/server/common/serialization/MetadataParseException.java 0 rule violation " 
- , "fic2"  : "./qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/MetadataParseException.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -48,9 +47,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/MetadataParseException.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/MetadataParseException.java.svg" }
+ "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/serialization/MetadataParseException.java.svg" }
 
 ] 
 , 

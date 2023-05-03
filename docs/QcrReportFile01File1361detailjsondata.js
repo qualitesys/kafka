@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/OptionalStringComparator.java.html" 
  , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/OptionalStringComparator.java 4 rule violations " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/OptionalStringComparator.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -30,9 +29,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/OptionalStringComparator.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/OptionalStringComparator.java.svg" }
+ "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/OptionalStringComparator.java.svg" }
 
 ] 
 , 

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetResetStrategy.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/OffsetResetStrategy.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/OffsetResetStrategy.java.xml" 
  , "fic3"  : "" 
 }
 , 

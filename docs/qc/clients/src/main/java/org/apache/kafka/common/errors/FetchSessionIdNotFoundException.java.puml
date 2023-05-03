@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"RetriableException" <|-- "org.apache.kafka.common.errors.FetchSessionIdNotFoundException"
-class org.apache.kafka.common.errors.FetchSessionIdNotFoundException {
-+FetchSessionIdNotFoundException() : FetchSessionIdNotFoundException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/FetchSessionIdNotFoundException.java.html#23]]]
-+FetchSessionIdNotFoundException(String) : FetchSessionIdNotFoundException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/FetchSessionIdNotFoundException.java.html#26]]]
-} 
-@enduml

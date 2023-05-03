@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/MessageSpecType.java.html" 
  , "texte" : "File generator/src/main/java/org/apache/kafka/message/MessageSpecType.java 0 rule violation " 
- , "fic2"  : "./qc/generator/src/main/java/org/apache/kafka/message/MessageSpecType.java.xml" 
  , "fic3"  : "" 
 }
 , 

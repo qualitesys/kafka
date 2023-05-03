@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.clients.producer.internals.TxnPartitionEntry"
-class org.apache.kafka.clients.producer.internals.TxnPartitionEntry {
-TxnPartitionEntry() : TxnPartitionEntry [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.html#58]]]
-resetSequenceNumbers(Consumer<ProducerBatch>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.html#66]]]
-} 
-@enduml

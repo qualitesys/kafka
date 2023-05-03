@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/rest/ConnectRestExtension.java.html" 
  , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/rest/ConnectRestExtension.java 0 rule violation " 
- , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/rest/ConnectRestExtension.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -30,9 +29,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/rest/ConnectRestExtension.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/rest/ConnectRestExtension.java.svg" }
+ "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/rest/ConnectRestExtension.java.svg" }
 
 ] 
 , 

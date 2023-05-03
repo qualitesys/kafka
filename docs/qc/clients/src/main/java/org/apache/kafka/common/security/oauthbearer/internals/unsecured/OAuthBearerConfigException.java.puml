@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"KafkaException" <|-- "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerConfigException"
-class org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerConfigException {
-+OAuthBearerConfigException(String) : OAuthBearerConfigException [[[./../../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerConfigException.java.html#28]]]
-+OAuthBearerConfigException(String;Throwable) : OAuthBearerConfigException [[[./../../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerConfigException.java.html#32]]]
-} 
-@enduml

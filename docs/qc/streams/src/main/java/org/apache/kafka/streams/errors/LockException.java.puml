@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"StreamsException" <|-- "org.apache.kafka.streams.errors.LockException"
-class org.apache.kafka.streams.errors.LockException {
-+LockException(String) : LockException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/LockException.java.html#29]]]
-+LockException(String;Throwable) : LockException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/LockException.java.html#33]]]
-+LockException(Throwable) : LockException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/LockException.java.html#37]]]
-} 
-@enduml

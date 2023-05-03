@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"ConnectClusterDetails" <|-- "org.apache.kafka.connect.runtime.health.ConnectClusterDetailsImpl"
-class org.apache.kafka.connect.runtime.health.ConnectClusterDetailsImpl {
-+ConnectClusterDetailsImpl(String) : ConnectClusterDetailsImpl [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterDetailsImpl.java.html#26]]]
-+kafkaClusterId() : String [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterDetailsImpl.java.html#31]]]
-} 
-@enduml

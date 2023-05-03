@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"ConsumerPartitionAssignor" <|-- "org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor"
-class org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor {
-+assign(Map<String,Integer>;Map<String,Subscription>) : Map<String,List<TopicPartition>> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#47]]]
-+assign(Cluster;GroupSubscription) : GroupAssignment [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#51]]]
-partitions(String;int) : List<TopicPartition> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#80]]]
-} 
-@enduml

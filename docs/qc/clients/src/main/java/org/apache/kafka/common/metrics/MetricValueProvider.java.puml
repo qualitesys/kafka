@@ -1,6 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.common.metrics.MetricValueProvider"
-class org.apache.kafka.common.metrics.MetricValueProvider {
-} 
-@enduml

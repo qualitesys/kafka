@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html" 
  , "texte" : "File raft/src/main/java/org/apache/kafka/raft/RaftConfig.java 43 rule violations " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -147,9 +146,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.svg" }
+ "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.svg" }
 
 ] 
 , 

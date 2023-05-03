@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.processor.StreamPartitioner"
-class org.apache.kafka.streams.processor.StreamPartitioner {
-partition(String;K;V;int) : Integer [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/StreamPartitioner.java.html#61]]]
-} 
-@enduml

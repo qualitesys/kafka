@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"AbstractConfig" <|-- "org.apache.kafka.connect.transforms.util.SimpleConfig"
-class org.apache.kafka.connect.transforms.util.SimpleConfig {
-+SimpleConfig(ConfigDef;Map<?,?>) : SimpleConfig [[[./../../../../../../../../../../../.././qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SimpleConfig.java.html#29]]]
-} 
-@enduml

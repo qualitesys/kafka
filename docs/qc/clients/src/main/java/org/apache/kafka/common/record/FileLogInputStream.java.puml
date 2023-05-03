@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"LogInputStream<FileLogInputStream.FileChannelRecordBatch>" <|-- "org.apache.kafka.common.record.FileLogInputStream"
-class org.apache.kafka.common.record.FileLogInputStream {
-FileLogInputStream(FileRecords;int;int) : FileLogInputStream [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#54]]]
-+nextBatch() : FileChannelRecordBatch [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/FileLogInputStream.java.html#63]]]
-} 
-@enduml

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html" 
  , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java 7 rule violations " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -93,9 +92,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.svg" }
+ "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.svg" }
 
 ] 
 , 

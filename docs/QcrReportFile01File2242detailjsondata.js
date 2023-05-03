@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskSpec.java.html" 
  , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskSpec.java 2 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskSpec.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -48,9 +47,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskSpec.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskSpec.java.svg" }
+ "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/NoOpTaskSpec.java.svg" }
 
 ] 
 , 

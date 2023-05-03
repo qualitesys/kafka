@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.html" 
  , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java 14 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -84,9 +83,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.svg" }
+ "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PartitionsSpec.java.svg" }
 
 ] 
 , 

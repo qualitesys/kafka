@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"TaskWorker" <|-- "org.apache.kafka.trogdor.workload.ProduceBenchWorker"
-class org.apache.kafka.trogdor.workload.ProduceBenchWorker {
-+ProduceBenchWorker(String;ProduceBenchSpec) : ProduceBenchWorker [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#75]]]
-+start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#81]]]
-+stop(Platform) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#409]]]
-} 
-@enduml

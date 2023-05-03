@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/BrokerSecurityConfigs.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/internals/BrokerSecurityConfigs.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/BrokerSecurityConfigs.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -22,9 +21,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/BrokerSecurityConfigs.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/BrokerSecurityConfigs.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/BrokerSecurityConfigs.java.svg" }
 
 ] 
 , 

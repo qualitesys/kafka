@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"Processor<K,V,Void,Void>" <|-- "org.apache.kafka.streams.kstream.ForeachProcessor"
-class org.apache.kafka.streams.kstream.ForeachProcessor {
-+ForeachProcessor(ForeachAction<K,V>) : ForeachProcessor [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/ForeachProcessor.java.html#26]]]
-+process(Record<K,V>) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/ForeachProcessor.java.html#31]]]
-} 
-@enduml

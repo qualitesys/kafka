@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataSnapshotFile"
-class org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataSnapshotFile {
-RemoteLogMetadataSnapshotFile(Path) : RemoteLogMetadataSnapshotFile [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataSnapshotFile.java.html#69]]]
-+write(Snapshot) : void [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataSnapshotFile.java.html#90]]]
-+read() : Optional<Snapshot> [[[./../../../../../../../../../../../../.././qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataSnapshotFile.java.html#141]]]
-} 
-@enduml

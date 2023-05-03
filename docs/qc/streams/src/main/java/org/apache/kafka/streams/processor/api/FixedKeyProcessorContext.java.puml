@@ -1,6 +1,0 @@
-@startuml
-!pragma layout smetana
-"ProcessingContext" <|-- "org.apache.kafka.streams.processor.api.FixedKeyProcessorContext"
-class org.apache.kafka.streams.processor.api.FixedKeyProcessorContext {
-} 
-@enduml

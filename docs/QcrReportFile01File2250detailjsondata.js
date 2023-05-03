@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressSpec.java.html" 
  , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressSpec.java 8 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressSpec.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -102,9 +101,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressSpec.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressSpec.java.svg" }
+ "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressSpec.java.svg" }
 
 ] 
 , 

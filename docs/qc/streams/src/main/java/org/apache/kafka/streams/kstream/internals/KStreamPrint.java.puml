@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"ProcessorSupplier<K,V,Void,Void>" <|-- "org.apache.kafka.streams.kstream.internals.KStreamPrint"
-class org.apache.kafka.streams.kstream.internals.KStreamPrint {
-+KStreamPrint(ForeachAction<K,V>) : KStreamPrint [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamPrint.java.html#28]]]
-+get() : Processor<K,V,Void,Void> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamPrint.java.html#33]]]
-} 
-@enduml

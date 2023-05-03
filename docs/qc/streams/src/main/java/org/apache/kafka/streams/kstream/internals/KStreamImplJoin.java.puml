@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.internals.KStreamImplJoin"
-class org.apache.kafka.streams.kstream.internals.KStreamImplJoin {
-KStreamImplJoin(InternalStreamsBuilder;boolean;boolean) : KStreamImplJoin [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImplJoin.java.html#82]]]
--assertWindowSettings(WindowBytesStoreSupplier;JoinWindows) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImplJoin.java.html#219]]]
--assertUniqueStoreNames(WindowBytesStoreSupplier;WindowBytesStoreSupplier) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImplJoin.java.html#231]]]
-} 
-@enduml

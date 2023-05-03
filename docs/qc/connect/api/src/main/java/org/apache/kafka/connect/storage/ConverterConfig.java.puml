@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"AbstractConfig" <|-- "org.apache.kafka.connect.storage.ConverterConfig"
-class org.apache.kafka.connect.storage.ConverterConfig {
-+newConfigDef() : ConfigDef [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/ConverterConfig.java.html#41]]]
-ConverterConfig(ConfigDef;Map<String,?>) : ConverterConfig [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/ConverterConfig.java.html#47]]]
-+type() : ConverterType [[[./../../../../../../../../../../.././qc/connect/api/src/main/java/org/apache/kafka/connect/storage/ConverterConfig.java.html#55]]]
-} 
-@enduml

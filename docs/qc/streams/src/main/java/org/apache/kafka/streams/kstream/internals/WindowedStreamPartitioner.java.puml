@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"StreamPartitioner<Windowed<K>,V>" <|-- "org.apache.kafka.streams.kstream.internals.WindowedStreamPartitioner"
-class org.apache.kafka.streams.kstream.internals.WindowedStreamPartitioner {
-+WindowedStreamPartitioner(WindowedSerializer<K>) : WindowedStreamPartitioner [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.html#27]]]
-+partition(String;Windowed<K>;V;int) : Integer [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.html#43]]]
-} 
-@enduml

@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.EmitStrategy"
-class org.apache.kafka.streams.kstream.EmitStrategy {
-type() : StrategyType [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/EmitStrategy.java.html#74]]]
-onWindowClose() : EmitStrategy [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/EmitStrategy.java.html#92]]]
-onWindowUpdate() : EmitStrategy [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/EmitStrategy.java.html#108]]]
-} 
-@enduml

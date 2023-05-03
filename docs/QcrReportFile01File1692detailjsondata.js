@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedDeserializer.java.html" 
  , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedDeserializer.java 11 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedDeserializer.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -75,9 +74,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedDeserializer.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedDeserializer.java.svg" }
+ "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedDeserializer.java.svg" }
 
 ] 
 , 

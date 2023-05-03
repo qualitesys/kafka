@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftMessage.java.html" 
  , "texte" : "File raft/src/main/java/org/apache/kafka/raft/RaftMessage.java 0 rule violation " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftMessage.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,9 +38,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftMessage.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftMessage.java.svg" }
+ "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftMessage.java.svg" }
 
 ] 
 , 

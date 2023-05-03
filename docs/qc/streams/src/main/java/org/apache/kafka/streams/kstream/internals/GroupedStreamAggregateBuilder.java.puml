@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.internals.GroupedStreamAggregateBuilder"
-class org.apache.kafka.streams.kstream.internals.GroupedStreamAggregateBuilder {
-GroupedStreamAggregateBuilder(InternalStreamsBuilder;GroupedInternal<K,V>;boolean;Set<String>;String;GraphNode) : GroupedStreamAggregateBuilder [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/GroupedStreamAggregateBuilder.java.html#52]]]
--createRepartitionSource(String;OptimizableRepartitionNodeBuilder<K,V>) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/GroupedStreamAggregateBuilder.java.html#122]]]
-} 
-@enduml

@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"NamedOperation<Suppressed<K>>" <|-- "org.apache.kafka.streams.kstream.Suppressed"
-class org.apache.kafka.streams.kstream.Suppressed {
-untilWindowCloses(StrictBufferConfig) : Suppressed<Windowed> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Suppressed.java.html#164]]]
-withName(String) : Suppressed<K> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/Suppressed.java.html#197]]]
-} 
-@enduml

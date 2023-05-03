@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"Serializer<Short>" <|-- "org.apache.kafka.common.serialization.ShortSerializer"
-class org.apache.kafka.common.serialization.ShortSerializer {
-+serialize(String;Short) : byte[] [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/ShortSerializer.java.html#20]]]
-} 
-@enduml

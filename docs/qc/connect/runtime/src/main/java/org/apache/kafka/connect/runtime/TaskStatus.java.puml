@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"AbstractStatus<ConnectorTaskId>" <|-- "org.apache.kafka.connect.runtime.TaskStatus"
-class org.apache.kafka.connect.runtime.TaskStatus {
-+TaskStatus(ConnectorTaskId;State;String;int;String) : TaskStatus [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskStatus.java.html#23]]]
-+TaskStatus(ConnectorTaskId;State;String;int) : TaskStatus [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TaskStatus.java.html#27]]]
-} 
-@enduml

@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"StreamsException" <|-- "org.apache.kafka.streams.errors.TaskCorruptedException"
-class org.apache.kafka.streams.errors.TaskCorruptedException {
-+TaskCorruptedException(Set<TaskId>) : TaskCorruptedException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskCorruptedException.java.html#36]]]
-+TaskCorruptedException(Set<TaskId>;InvalidOffsetException) : TaskCorruptedException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskCorruptedException.java.html#41]]]
-+corruptedTasks() : Set<TaskId> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskCorruptedException.java.html#47]]]
-} 
-@enduml

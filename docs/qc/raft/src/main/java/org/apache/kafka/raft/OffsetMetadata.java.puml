@@ -1,6 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.raft.OffsetMetadata"
-class org.apache.kafka.raft.OffsetMetadata {
-} 
-@enduml

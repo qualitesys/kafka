@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableLog4jAppender.java.html" 
  , "texte" : "File tools/src/main/java/org/apache/kafka/tools/VerifiableLog4jAppender.java 119 rule violations " 
- , "fic2"  : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableLog4jAppender.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -75,9 +74,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableLog4jAppender.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableLog4jAppender.java.svg" }
+ "ligneplantuml" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableLog4jAppender.java.svg" }
 
 ] 
 , 

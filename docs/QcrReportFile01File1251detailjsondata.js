@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.html" 
  , "texte" : "File generator/src/main/java/org/apache/kafka/message/FieldType.java 55 rule violations " 
- , "fic2"  : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -147,9 +146,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.svg" }
+ "ligneplantuml" : "./qc/generator/src/main/java/org/apache/kafka/message/FieldType.java.svg" }
 
 ] 
 , 

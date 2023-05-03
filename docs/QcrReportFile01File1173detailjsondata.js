@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html" 
  , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java 248 rule violations " 
- , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -372,9 +371,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.svg" }
+ "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.svg" }
 
 ] 
 , 

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.html" 
  , "texte" : "File raft/src/main/java/org/apache/kafka/raft/ResignedState.java 21 rule violations " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -129,9 +128,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.svg" }
+ "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/ResignedState.java.svg" }
 
 ] 
 , 

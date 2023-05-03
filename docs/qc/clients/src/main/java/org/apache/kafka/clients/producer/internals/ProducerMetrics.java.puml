@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.clients.producer.internals.ProducerMetrics"
-class org.apache.kafka.clients.producer.internals.ProducerMetrics {
-+ProducerMetrics(Metrics) : ProducerMetrics [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetrics.java.html#33]]]
--getAllTemplates() : List<MetricNameTemplate> [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetrics.java.html#38]]]
-+main(String[]) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetrics.java.html#43]]]
-} 
-@enduml

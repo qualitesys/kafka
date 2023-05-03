@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java 18 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -84,9 +83,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.svg" }
 
 ] 
 , 

@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"InputStreamReader" <|-- "java.io.FileReader"
-class java.io.FileReader {
-+FileReader(String) : FileReader [[[./../.././qc/secujava/java.io.FileReader.java.html#57]]]
-+FileReader(File) : FileReader [[[./../.././qc/secujava/java.io.FileReader.java.html#71]]]
-+FileReader(FileDescriptor) : FileReader [[[./../.././qc/secujava/java.io.FileReader.java.html#81]]]
-} 
-@enduml

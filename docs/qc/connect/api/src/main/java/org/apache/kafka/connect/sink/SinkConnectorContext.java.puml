@@ -1,6 +1,0 @@
-@startuml
-!pragma layout smetana
-"ConnectorContext" <|-- "org.apache.kafka.connect.sink.SinkConnectorContext"
-class org.apache.kafka.connect.sink.SinkConnectorContext {
-} 
-@enduml

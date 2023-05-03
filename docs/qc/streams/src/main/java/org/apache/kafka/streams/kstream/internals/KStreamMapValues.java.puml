@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"FixedKeyProcessorSupplier<KIn,VIn,VOut>" <|-- "org.apache.kafka.streams.kstream.internals.KStreamMapValues"
-class org.apache.kafka.streams.kstream.internals.KStreamMapValues {
-+KStreamMapValues(ValueMapperWithKey<KIn,VIn,VOut>) : KStreamMapValues [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamMapValues.java.html#29]]]
-+get() : FixedKeyProcessor<KIn,VIn,VOut> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamMapValues.java.html#34]]]
-} 
-@enduml

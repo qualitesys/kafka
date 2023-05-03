@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.html" 
  , "texte" : "File metadata/src/main/java/org/apache/kafka/image/TopicImage.java 11 rule violations " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -93,9 +92,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.svg" }
+ "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicImage.java.svg" }
 
 ] 
 , 

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.html" 
  , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java 10 rule violations " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -102,9 +101,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.svg" }
+ "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclWithId.java.svg" }
 
 ] 
 , 

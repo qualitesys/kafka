@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.html" 
  , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java 0 rule violation " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -228,9 +227,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.svg" }
+ "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerMetrics.java.svg" }
 
 ] 
 , 

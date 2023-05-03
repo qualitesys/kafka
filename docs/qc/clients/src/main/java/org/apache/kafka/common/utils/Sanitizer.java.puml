@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.common.utils.Sanitizer"
-class org.apache.kafka.common.utils.Sanitizer {
-+sanitize(String) : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#52]]]
-+desanitize(String) : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#77]]]
-+jmxSanitize(String) : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/Sanitizer.java.html#91]]]
-} 
-@enduml

@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"Message" <|-- "org.apache.kafka.trogdor.rest.StopTaskRequest"
-class org.apache.kafka.trogdor.rest.StopTaskRequest {
-+StopTaskRequest(String) : StopTaskRequest [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopTaskRequest.java.html#30]]]
-+id() : String [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopTaskRequest.java.html#35]]]
-} 
-@enduml

@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"AbstractOptions<DescribeClusterOptions>" <|-- "org.apache.kafka.clients.admin.DescribeClusterOptions"
-class org.apache.kafka.clients.admin.DescribeClusterOptions {
-+timeoutMs(Integer) : DescribeClusterOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterOptions.java.html#38]]]
-+includeAuthorizedOperations(boolean) : DescribeClusterOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterOptions.java.html#43]]]
-+includeAuthorizedOperations() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeClusterOptions.java.html#52]]]
-} 
-@enduml

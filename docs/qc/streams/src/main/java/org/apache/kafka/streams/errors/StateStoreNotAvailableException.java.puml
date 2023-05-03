@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"InvalidStateStoreException" <|-- "org.apache.kafka.streams.errors.StateStoreNotAvailableException"
-class org.apache.kafka.streams.errors.StateStoreNotAvailableException {
-+StateStoreNotAvailableException(String) : StateStoreNotAvailableException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/StateStoreNotAvailableException.java.html#29]]]
-+StateStoreNotAvailableException(String;Throwable) : StateStoreNotAvailableException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/StateStoreNotAvailableException.java.html#33]]]
-} 
-@enduml

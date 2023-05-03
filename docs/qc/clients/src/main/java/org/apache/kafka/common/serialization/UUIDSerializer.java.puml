@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"Serializer<UUID>" <|-- "org.apache.kafka.common.serialization.UUIDSerializer"
-class org.apache.kafka.common.serialization.UUIDSerializer {
-+configure(Map<String,?>;boolean) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#34]]]
-+serialize(String;UUID) : byte[] [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/UUIDSerializer.java.html#44]]]
-} 
-@enduml

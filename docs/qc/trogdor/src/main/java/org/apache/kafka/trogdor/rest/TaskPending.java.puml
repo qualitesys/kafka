@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"TaskState" <|-- "org.apache.kafka.trogdor.rest.TaskPending"
-class org.apache.kafka.trogdor.rest.TaskPending {
-+TaskPending(TaskSpec) : TaskPending [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskPending.java.html#30]]]
-+stateType() : TaskStateType [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskPending.java.html#35]]]
-} 
-@enduml

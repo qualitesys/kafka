@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/NotDirectoryException.java.html" 
  , "texte" : "File shell/src/main/java/org/apache/kafka/shell/NotDirectoryException.java 0 rule violation " 
- , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/NotDirectoryException.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -30,9 +29,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/shell/src/main/java/org/apache/kafka/shell/NotDirectoryException.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/shell/src/main/java/org/apache/kafka/shell/NotDirectoryException.java.svg" }
+ "ligneplantuml" : "./qc/shell/src/main/java/org/apache/kafka/shell/NotDirectoryException.java.svg" }
 
 ] 
 , 

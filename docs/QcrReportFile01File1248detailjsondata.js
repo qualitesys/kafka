@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html" 
  , "texte" : "File generator/src/main/java/org/apache/kafka/message/CodeBuffer.java 12 rule violations " 
- , "fic2"  : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -102,9 +101,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.svg" }
+ "ligneplantuml" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.svg" }
 
 ] 
 , 

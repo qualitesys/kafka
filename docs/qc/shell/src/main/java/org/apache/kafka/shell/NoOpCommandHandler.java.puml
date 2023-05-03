@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"Commands.Handler" <|-- "org.apache.kafka.shell.NoOpCommandHandler"
-class org.apache.kafka.shell.NoOpCommandHandler {
-+run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager) : void [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/NoOpCommandHandler.java.html#28]]]
-+hashCode() : int [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/NoOpCommandHandler.java.html#34]]]
-+equals(Object) : boolean [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/NoOpCommandHandler.java.html#39]]]
-} 
-@enduml

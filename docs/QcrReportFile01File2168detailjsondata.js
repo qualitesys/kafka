@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/tools/src/main/java/org/apache/kafka/tools/PrintVersionAndExitAction.java.html" 
  , "texte" : "File tools/src/main/java/org/apache/kafka/tools/PrintVersionAndExitAction.java 8 rule violations " 
- , "fic2"  : "./qc/tools/src/main/java/org/apache/kafka/tools/PrintVersionAndExitAction.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -48,9 +47,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/tools/src/main/java/org/apache/kafka/tools/PrintVersionAndExitAction.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/tools/src/main/java/org/apache/kafka/tools/PrintVersionAndExitAction.java.svg" }
+ "ligneplantuml" : "./qc/tools/src/main/java/org/apache/kafka/tools/PrintVersionAndExitAction.java.svg" }
 
 ] 
 , 

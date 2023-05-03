@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.RecordDeserializer"
-class org.apache.kafka.streams.processor.internals.RecordDeserializer {
-RecordDeserializer(SourceNode<?,?>;DeserializationExceptionHandler;LogContext;Sensor) : RecordDeserializer [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.html#38]]]
-deserialize(ProcessorContext<?,?>;ConsumerRecord<byte[],byte[]>) : ConsumerRecord<Object,Object> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.html#53]]]
-sourceNode() : SourceNode<?,?> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.html#105]]]
-} 
-@enduml

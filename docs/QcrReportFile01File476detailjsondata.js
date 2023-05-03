@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java 48 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -75,9 +74,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.svg" }
 
 ] 
 , 

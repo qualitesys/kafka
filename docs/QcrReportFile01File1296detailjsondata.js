@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html" 
  , "texte" : "File log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java 68 rule violations " 
- , "fic2"  : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -498,9 +497,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.svg" }
+ "ligneplantuml" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.svg" }
 
 ] 
 , 

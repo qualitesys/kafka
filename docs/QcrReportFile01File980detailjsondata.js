@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/ConnectorTransactionBoundaries.java.html" 
  , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/source/ConnectorTransactionBoundaries.java 0 rule violation " 
- , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/ConnectorTransactionBoundaries.java.xml" 
  , "fic3"  : "" 
 }
 , 

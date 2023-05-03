@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramMechanism.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/ScramMechanism.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ScramMechanism.java.xml" 
  , "fic3"  : "" 
 }
 , 

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/CloseableOffsetStorageReader.java.html" 
  , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/CloseableOffsetStorageReader.java 0 rule violation " 
- , "fic2"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/CloseableOffsetStorageReader.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -30,9 +29,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/CloseableOffsetStorageReader.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/CloseableOffsetStorageReader.java.svg" }
+ "ligneplantuml" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/CloseableOffsetStorageReader.java.svg" }
 
 ] 
 , 

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountDemo.java.html" 
  , "texte" : "File streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountDemo.java 21 rule violations " 
- , "fic2"  : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountDemo.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -48,9 +47,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountDemo.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountDemo.java.svg" }
+ "ligneplantuml" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountDemo.java.svg" }
 
 ] 
 , 

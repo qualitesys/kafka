@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.html" 
  , "texte" : "File connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java 0 rule violation " 
- , "fic2"  : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -66,9 +65,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.svg" }
+ "ligneplantuml" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverterConfig.java.svg" }
 
 ] 
 , 

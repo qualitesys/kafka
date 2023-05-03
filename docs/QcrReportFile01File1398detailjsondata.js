@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/Isolation.java.html" 
  , "texte" : "File raft/src/main/java/org/apache/kafka/raft/Isolation.java 0 rule violation " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/Isolation.java.xml" 
  , "fic3"  : "" 
 }
 , 

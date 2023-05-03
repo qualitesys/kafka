@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/FuturePurgatory.java.html" 
  , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/FuturePurgatory.java 0 rule violation " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/FuturePurgatory.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -66,9 +65,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/FuturePurgatory.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/FuturePurgatory.java.svg" }
+ "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/FuturePurgatory.java.svg" }
 
 ] 
 , 

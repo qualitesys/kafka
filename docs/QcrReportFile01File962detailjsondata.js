@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html" 
  , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java 103 rule violations " 
- , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -381,9 +380,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.svg" }
+ "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.svg" }
 
 ] 
 , 

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/clients/NetworkClient.java 308 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -471,9 +470,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.svg" }
 
 ] 
 , 

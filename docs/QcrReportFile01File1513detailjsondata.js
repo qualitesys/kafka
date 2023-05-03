@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/server/common/MetadataVersion.java.html" 
  , "texte" : "File server-common/src/main/java/org/apache/kafka/server/common/MetadataVersion.java 0 rule violation " 
- , "fic2"  : "./qc/server-common/src/main/java/org/apache/kafka/server/common/MetadataVersion.java.xml" 
  , "fic3"  : "" 
 }
 , 

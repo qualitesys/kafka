@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java.html" 
  , "texte" : "File tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java 170 rule violations " 
- , "fic2"  : "./qc/tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -84,9 +83,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java.svg" }
+ "ligneplantuml" : "./qc/tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java.svg" }
 
 ] 
 , 

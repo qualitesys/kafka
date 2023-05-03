@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java 3 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -57,9 +56,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.svg" }
 
 ] 
 , 

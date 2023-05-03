@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.common.TopicCollection"
-class org.apache.kafka.common.TopicCollection {
--TopicCollection() : TopicCollection [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#28]]]
-+ofTopicIds(Collection<Uuid>) : TopicIdCollection [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#33]]]
-+ofTopicNames(Collection<String>) : TopicNameCollection [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#40]]]
-} 
-@enduml

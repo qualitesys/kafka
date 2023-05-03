@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"AuthorizationException" <|-- "org.apache.kafka.common.errors.ClusterAuthorizationException"
-class org.apache.kafka.common.errors.ClusterAuthorizationException {
-+ClusterAuthorizationException(String) : ClusterAuthorizationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/ClusterAuthorizationException.java.html#23]]]
-+ClusterAuthorizationException(String;Throwable) : ClusterAuthorizationException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/ClusterAuthorizationException.java.html#27]]]
-} 
-@enduml

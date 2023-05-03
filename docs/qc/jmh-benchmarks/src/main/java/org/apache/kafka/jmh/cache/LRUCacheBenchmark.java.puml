@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.jmh.cache.LRUCacheBenchmark"
-class org.apache.kafka.jmh.cache.LRUCacheBenchmark {
-+setUp() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#84]]]
-+testCachePerformance() : String [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#84]]]
-+main(String[]) : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/cache/LRUCacheBenchmark.java.html#84]]]
-} 
-@enduml

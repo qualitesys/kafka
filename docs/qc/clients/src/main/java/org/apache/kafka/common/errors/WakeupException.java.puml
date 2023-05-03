@@ -1,6 +1,0 @@
-@startuml
-!pragma layout smetana
-"KafkaException" <|-- "org.apache.kafka.common.errors.WakeupException"
-class org.apache.kafka.common.errors.WakeupException {
-} 
-@enduml

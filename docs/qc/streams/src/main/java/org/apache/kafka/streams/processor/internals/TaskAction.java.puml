@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.TaskAction"
-class org.apache.kafka.streams.processor.internals.TaskAction {
-name() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAction.java.html#20]]]
-apply(T) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskAction.java.html#21]]]
-} 
-@enduml

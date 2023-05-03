@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html" 
  , "texte" : "File core/src/main/scala/kafka/tools/StreamsResetter.java 186 rule violations " 
- , "fic2"  : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -219,9 +218,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.svg" }
+ "ligneplantuml" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.svg" }
 
 ] 
 , 

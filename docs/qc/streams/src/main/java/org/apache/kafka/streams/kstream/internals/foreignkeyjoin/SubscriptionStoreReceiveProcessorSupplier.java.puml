@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"ProcessorSupplier<KO,SubscriptionWrapper<K>,CombinedKey<KO,K>,Change<ValueAndTimestamp<SubscriptionWrapper<K>>>>" <|-- "org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionStoreReceiveProcessorSupplier"
-class org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionStoreReceiveProcessorSupplier {
-+SubscriptionStoreReceiveProcessorSupplier(StoreBuilder<TimestampedKeyValueStore<Bytes,SubscriptionWrapper<K>>>;CombinedKeySchema<KO,K>) : SubscriptionStoreReceiveProcessorSupplier [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionStoreReceiveProcessorSupplier.java.html#45]]]
-+get() : Processor<KO,SubscriptionWrapper<K>,CombinedKey<KO,K>,Change<ValueAndTimestamp<SubscriptionWrapper<K>>>> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionStoreReceiveProcessorSupplier.java.html#54]]]
-} 
-@enduml

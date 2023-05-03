@@ -1,6 +1,0 @@
-@startuml
-!pragma layout smetana
-"AbstractOptions<UpdateFeaturesOptions>" <|-- "org.apache.kafka.clients.admin.UnregisterBrokerOptions"
-class org.apache.kafka.clients.admin.UnregisterBrokerOptions {
-} 
-@enduml

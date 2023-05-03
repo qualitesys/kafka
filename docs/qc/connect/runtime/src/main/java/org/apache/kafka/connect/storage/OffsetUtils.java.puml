@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.connect.storage.OffsetUtils"
-class org.apache.kafka.connect.storage.OffsetUtils {
-+validateFormat(Object) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetUtils.java.html#27]]]
-} 
-@enduml

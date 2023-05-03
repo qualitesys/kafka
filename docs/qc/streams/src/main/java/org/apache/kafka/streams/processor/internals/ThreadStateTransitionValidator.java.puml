@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.ThreadStateTransitionValidator"
-class org.apache.kafka.streams.processor.internals.ThreadStateTransitionValidator {
-isValidTransition(ThreadStateTransitionValidator) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ThreadStateTransitionValidator.java.html#23]]]
-} 
-@enduml

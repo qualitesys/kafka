@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"ConsumerRebalanceListener" <|-- "org.apache.kafka.clients.consumer.internals.NoOpConsumerRebalanceListener"
-class org.apache.kafka.clients.consumer.internals.NoOpConsumerRebalanceListener {
-+onPartitionsAssigned(Collection<TopicPartition>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/NoOpConsumerRebalanceListener.java.html#27]]]
-+onPartitionsRevoked(Collection<TopicPartition>) : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/NoOpConsumerRebalanceListener.java.html#30]]]
-} 
-@enduml

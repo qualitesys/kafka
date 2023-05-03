@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"Configurable" <|-- "org.apache.kafka.streams.errors.ProductionExceptionHandler"
-class org.apache.kafka.streams.errors.ProductionExceptionHandler {
-handle(ProducerRecord<byte[],byte[]>;Exception) : ProductionExceptionHandlerResponse [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/ProductionExceptionHandler.java.html#34]]]
-} 
-@enduml

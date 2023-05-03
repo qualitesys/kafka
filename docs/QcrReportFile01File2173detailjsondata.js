@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html" 
  , "texte" : "File tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java 155 rule violations " 
- , "fic2"  : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -129,9 +128,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.svg" }
+ "ligneplantuml" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.svg" }
 
 ] 
 , 

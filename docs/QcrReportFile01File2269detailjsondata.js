@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadKeyType.java.html" 
  , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadKeyType.java 0 rule violation " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadKeyType.java.xml" 
  , "fic3"  : "" 
 }
 , 

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.html" 
  , "texte" : "File metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java 17 rule violations " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -120,9 +119,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.svg" }
+ "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineLong.java.svg" }
 
 ] 
 , 

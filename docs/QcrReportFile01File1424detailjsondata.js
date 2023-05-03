@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/errors/BufferAllocationException.java.html" 
  , "texte" : "File raft/src/main/java/org/apache/kafka/raft/errors/BufferAllocationException.java 0 rule violation " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/errors/BufferAllocationException.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -30,9 +29,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/errors/BufferAllocationException.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/errors/BufferAllocationException.java.svg" }
+ "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/errors/BufferAllocationException.java.svg" }
 
 ] 
 , 

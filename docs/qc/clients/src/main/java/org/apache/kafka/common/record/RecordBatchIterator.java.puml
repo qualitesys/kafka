@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"AbstractIterator<T>" <|-- "org.apache.kafka.common.record.RecordBatchIterator"
-class org.apache.kafka.common.record.RecordBatchIterator {
-RecordBatchIterator(LogInputStream<T>) : RecordBatchIterator [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatchIterator.java.html#30]]]
-makeNext() : T [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatchIterator.java.html#35]]]
-} 
-@enduml

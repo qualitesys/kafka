@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java 105 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -300,9 +299,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.svg" }
 
 ] 
 , 

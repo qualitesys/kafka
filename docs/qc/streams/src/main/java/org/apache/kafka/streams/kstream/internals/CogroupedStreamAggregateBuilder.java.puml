@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.internals.CogroupedStreamAggregateBuilder"
-class org.apache.kafka.streams.kstream.internals.CogroupedStreamAggregateBuilder {
-CogroupedStreamAggregateBuilder(InternalStreamsBuilder) : CogroupedStreamAggregateBuilder [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedStreamAggregateBuilder.java.html#49]]]
--processRepartitions(Map<KGroupedStreamImpl<K,?>,Aggregator<?superK,?superObject,VOut>>;StoreBuilder<?>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedStreamAggregateBuilder.java.html#201]]]
--getStatefulProcessorNode(String;boolean;StoreBuilder<?>;ProcessorSupplier<K,?,K,?>) : StatefulProcessorNode<K,?> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedStreamAggregateBuilder.java.html#262]]]
-} 
-@enduml

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html" 
  , "texte" : "File server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java 29 rule violations " 
- , "fic2"  : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -111,9 +110,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.svg" }
+ "ligneplantuml" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.svg" }
 
 ] 
 , 

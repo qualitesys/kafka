@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"KTableValueGetterSupplier<K,R>" <|-- "org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoinValueGetterSupplier"
-class org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoinValueGetterSupplier {
-KTableKTableAbstractJoinValueGetterSupplier(KTableValueGetterSupplier<K,V1>;KTableValueGetterSupplier<K,V2>) : KTableKTableAbstractJoinValueGetterSupplier [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoinValueGetterSupplier.java.html#27]]]
-+storeNames() : String[] [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableAbstractJoinValueGetterSupplier.java.html#34]]]
-} 
-@enduml

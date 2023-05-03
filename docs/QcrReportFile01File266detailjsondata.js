@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/common/MetricName.java 14 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -93,9 +92,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/MetricName.java.svg" }
 
 ] 
 , 

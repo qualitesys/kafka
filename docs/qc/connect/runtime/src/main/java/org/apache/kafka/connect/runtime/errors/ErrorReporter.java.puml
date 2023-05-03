@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"AutoCloseable" <|-- "org.apache.kafka.connect.runtime.errors.ErrorReporter"
-class org.apache.kafka.connect.runtime.errors.ErrorReporter {
-report(ProcessingContext) : Future<RecordMetadata> [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorReporter.java.html#34]]]
-close() : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ErrorReporter.java.html#37]]]
-} 
-@enduml

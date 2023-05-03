@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.kstream.ValueMapperWithKey"
-class org.apache.kafka.streams.kstream.ValueMapperWithKey {
-apply(K;V) : VR [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/ValueMapperWithKey.java.html#51]]]
-} 
-@enduml

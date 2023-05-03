@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html" 
  , "texte" : "File shell/src/main/java/org/apache/kafka/shell/MetadataNode.java 63 rule violations " 
- , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -22,9 +21,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.svg" }
+ "ligneplantuml" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.svg" }
 
 ] 
 , 

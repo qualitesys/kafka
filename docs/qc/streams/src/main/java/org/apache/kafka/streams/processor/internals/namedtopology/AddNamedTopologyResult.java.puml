@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.namedtopology.AddNamedTopologyResult"
-class org.apache.kafka.streams.processor.internals.namedtopology.AddNamedTopologyResult {
-+AddNamedTopologyResult(KafkaFuture<Void>) : AddNamedTopologyResult [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/AddNamedTopologyResult.java.html#27]]]
-+all() : KafkaFuture<Void> [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/AddNamedTopologyResult.java.html#36]]]
-+exceptionNow() : StreamsException [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/AddNamedTopologyResult.java.html#44]]]
-} 
-@enduml

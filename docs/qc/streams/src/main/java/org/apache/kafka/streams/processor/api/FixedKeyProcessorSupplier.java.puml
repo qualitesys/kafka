@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"ConnectedStoreProvider" <|-- "org.apache.kafka.streams.processor.api.FixedKeyProcessorSupplier"
-class org.apache.kafka.streams.processor.api.FixedKeyProcessorSupplier {
-get() : FixedKeyProcessor<KIn,VIn,VOut> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessorSupplier.java.html#47]]]
-} 
-@enduml

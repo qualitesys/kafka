@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.message.MessageClassGenerator"
-class org.apache.kafka.message.MessageClassGenerator {
-outputName(MessageSpec) : String [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageClassGenerator.java.html#27]]]
-generateAndWrite(MessageSpec;BufferedWriter) : void [[[./../../../../../../../../.././qc/generator/src/main/java/org/apache/kafka/message/MessageClassGenerator.java.html#35]]]
-} 
-@enduml

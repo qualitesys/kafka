@@ -1,6 +1,0 @@
-@startuml
-!pragma layout smetana
-"AbstractOptions<DeleteRecordsOptions>" <|-- "org.apache.kafka.clients.admin.DeleteRecordsOptions"
-class org.apache.kafka.clients.admin.DeleteRecordsOptions {
-} 
-@enduml

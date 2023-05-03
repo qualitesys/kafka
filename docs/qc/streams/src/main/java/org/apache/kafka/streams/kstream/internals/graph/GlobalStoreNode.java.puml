@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"StateStoreNode<S>" <|-- "org.apache.kafka.streams.kstream.internals.graph.GlobalStoreNode"
-class org.apache.kafka.streams.kstream.internals.graph.GlobalStoreNode {
-+GlobalStoreNode(StoreBuilder<S>;String;String;ConsumedInternal<KIn,VIn>;String;ProcessorSupplier<KIn,VIn,Void,Void>) : GlobalStoreNode [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GlobalStoreNode.java.html#34]]]
-+writeToTopology(InternalTopologyBuilder) : void [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GlobalStoreNode.java.html#50]]]
-+toString() : String [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GlobalStoreNode.java.html#64]]]
-} 
-@enduml

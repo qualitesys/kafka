@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java 16 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -111,9 +110,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AclBindingFilter.java.svg" }
 
 ] 
 , 

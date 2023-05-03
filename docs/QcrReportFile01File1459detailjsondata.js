@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.ObjectInputStream.java.html" 
  , "texte" : "File secujava/java.io.ObjectInputStream.java 955 rule violations " 
- , "fic2"  : "./qc/secujava/java.io.ObjectInputStream.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -606,9 +605,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/secujava/java.io.ObjectInputStream.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/secujava/java.io.ObjectInputStream.java.svg" }
+ "ligneplantuml" : "./qc/secujava/java.io.ObjectInputStream.java.svg" }
 
 ] 
 , 

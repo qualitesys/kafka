@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"MetricValueProvider<Double>" <|-- "org.apache.kafka.common.metrics.Measurable"
-class org.apache.kafka.common.metrics.Measurable {
-measure(MetricConfig;long) : double [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/metrics/Measurable.java.html#30]]]
-} 
-@enduml

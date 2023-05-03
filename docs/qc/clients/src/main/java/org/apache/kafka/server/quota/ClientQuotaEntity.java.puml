@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.server.quota.ClientQuotaEntity"
-class org.apache.kafka.server.quota.ClientQuotaEntity {
-configEntities() : List<ConfigEntity> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/server/quota/ClientQuotaEntity.java.html#61]]]
-} 
-@enduml

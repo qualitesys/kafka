@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"Deserializer<Long>" <|-- "org.apache.kafka.common.serialization.LongDeserializer"
-class org.apache.kafka.common.serialization.LongDeserializer {
-+deserialize(String;byte[]) : Long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/LongDeserializer.java.html#22]]]
-} 
-@enduml

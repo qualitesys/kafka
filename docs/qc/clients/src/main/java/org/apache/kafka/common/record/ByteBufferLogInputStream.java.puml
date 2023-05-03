@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"LogInputStream<MutableRecordBatch>" <|-- "org.apache.kafka.common.record.ByteBufferLogInputStream"
-class org.apache.kafka.common.record.ByteBufferLogInputStream {
-ByteBufferLogInputStream(ByteBuffer;int) : ByteBufferLogInputStream [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#36]]]
-+nextBatch() : MutableRecordBatch [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#41]]]
-nextBatchSize() : Integer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#66]]]
-} 
-@enduml

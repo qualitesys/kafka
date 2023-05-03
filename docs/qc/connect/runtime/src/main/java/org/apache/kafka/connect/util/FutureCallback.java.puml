@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"ConvertingFutureCallback<T,T>" <|-- "org.apache.kafka.connect.util.FutureCallback"
-class org.apache.kafka.connect.util.FutureCallback {
-+FutureCallback(Callback<T>) : FutureCallback [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/FutureCallback.java.html#21]]]
-+FutureCallback() : FutureCallback [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/FutureCallback.java.html#25]]]
-+convert(T) : T [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/FutureCallback.java.html#30]]]
-} 
-@enduml

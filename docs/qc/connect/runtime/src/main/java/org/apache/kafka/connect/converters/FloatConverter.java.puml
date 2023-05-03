@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"NumberConverter<Float>" <|-- "org.apache.kafka.connect.converters.FloatConverter"
-class org.apache.kafka.connect.converters.FloatConverter {
-+FloatConverter() : FloatConverter [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/FloatConverter.java.html#34]]]
-} 
-@enduml

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/examples/src/main/java/kafka/examples/Producer.java.html" 
  , "texte" : "File examples/src/main/java/kafka/examples/Producer.java 27 rule violations " 
- , "fic2"  : "./qc/examples/src/main/java/kafka/examples/Producer.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -71,9 +70,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/examples/src/main/java/kafka/examples/Producer.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/examples/src/main/java/kafka/examples/Producer.java.svg" }
+ "ligneplantuml" : "./qc/examples/src/main/java/kafka/examples/Producer.java.svg" }
 
 ] 
 , 

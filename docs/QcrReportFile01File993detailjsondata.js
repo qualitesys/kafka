@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html" 
  , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java 14 rule violations " 
- , "fic2"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -66,9 +65,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.svg" }
+ "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.svg" }
 
 ] 
 , 

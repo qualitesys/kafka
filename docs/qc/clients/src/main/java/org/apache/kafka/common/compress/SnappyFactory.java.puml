@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.common.compress.SnappyFactory"
-class org.apache.kafka.common.compress.SnappyFactory {
--SnappyFactory() : SnappyFactory [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/compress/SnappyFactory.java.html#32]]]
-+wrapForOutput(ByteBufferOutputStream) : OutputStream [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/compress/SnappyFactory.java.html#34]]]
-+wrapForInput(ByteBuffer) : InputStream [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/compress/SnappyFactory.java.html#42]]]
-} 
-@enduml

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.html" 
  , "texte" : "File streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java 14 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -75,9 +74,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.svg" }
+ "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/TopologyConfig.java.svg" }
 
 ] 
 , 

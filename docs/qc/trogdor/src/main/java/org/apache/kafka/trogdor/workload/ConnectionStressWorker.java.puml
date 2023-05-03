@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"TaskWorker" <|-- "org.apache.kafka.trogdor.workload.ConnectionStressWorker"
-class org.apache.kafka.trogdor.workload.ConnectionStressWorker {
-+ConnectionStressWorker(String;ConnectionStressSpec) : ConnectionStressWorker [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#91]]]
-+start(Platform;WorkerStatusTracker;KafkaFutureImpl<String>) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#97]]]
-+stop(Platform) : void [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConnectionStressWorker.java.html#300]]]
-} 
-@enduml

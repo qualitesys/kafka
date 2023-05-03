@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"Iterator<T>" <|-- "org.apache.kafka.common.utils.MappedIterator"
-class org.apache.kafka.common.utils.MappedIterator {
-+MappedIterator(Iterator<?extendsF>;Function<F,T>) : MappedIterator [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/MappedIterator.java.html#29]]]
-+hasNext() : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/MappedIterator.java.html#35]]]
-+next() : T [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/MappedIterator.java.html#40]]]
-} 
-@enduml

@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/BufferFullStrategy.java.html" 
  , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/BufferFullStrategy.java 0 rule violation " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/BufferFullStrategy.java.xml" 
  , "fic3"  : "" 
 }
 , 

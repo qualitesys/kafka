@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.html" 
  , "texte" : "File generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java 10 rule violations " 
- , "fic2"  : "./qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -66,9 +65,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.svg" }
+ "ligneplantuml" : "./qc/generator/src/main/java/org/apache/kafka/message/HeaderGenerator.java.svg" }
 
 ] 
 , 

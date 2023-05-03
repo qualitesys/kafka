@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html" 
  , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java 28 rule violations " 
- , "fic2"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -165,9 +164,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.svg" }
+ "ligneplantuml" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.svg" }
 
 ] 
 , 

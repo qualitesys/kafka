@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"InvalidStateStoreException" <|-- "org.apache.kafka.streams.errors.UnknownStateStoreException"
-class org.apache.kafka.streams.errors.UnknownStateStoreException {
-+UnknownStateStoreException(String) : UnknownStateStoreException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/UnknownStateStoreException.java.html#27]]]
-+UnknownStateStoreException(String;Throwable) : UnknownStateStoreException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/UnknownStateStoreException.java.html#31]]]
-} 
-@enduml

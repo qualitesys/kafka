@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"ApiException" <|-- "org.apache.kafka.common.errors.InvalidTxnStateException"
-class org.apache.kafka.common.errors.InvalidTxnStateException {
-+InvalidTxnStateException(String) : InvalidTxnStateException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/InvalidTxnStateException.java.html#20]]]
-} 
-@enduml

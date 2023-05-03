@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/ClauseGenerator.java.html" 
  , "texte" : "File generator/src/main/java/org/apache/kafka/message/ClauseGenerator.java 0 rule violation " 
- , "fic2"  : "./qc/generator/src/main/java/org/apache/kafka/message/ClauseGenerator.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -30,9 +29,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/generator/src/main/java/org/apache/kafka/message/ClauseGenerator.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/generator/src/main/java/org/apache/kafka/message/ClauseGenerator.java.svg" }
+ "ligneplantuml" : "./qc/generator/src/main/java/org/apache/kafka/message/ClauseGenerator.java.svg" }
 
 ] 
 , 

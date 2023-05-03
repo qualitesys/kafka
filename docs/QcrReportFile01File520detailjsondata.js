@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java 13 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -237,9 +236,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/ByteBufferAccessor.java.svg" }
 
 ] 
 , 

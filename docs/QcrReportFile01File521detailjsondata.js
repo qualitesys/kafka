@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java 2 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -138,9 +137,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/DataInputStreamReadable.java.svg" }
 
 ] 
 , 

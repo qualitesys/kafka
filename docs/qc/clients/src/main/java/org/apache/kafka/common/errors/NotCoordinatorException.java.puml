@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"RetriableException" <|-- "org.apache.kafka.common.errors.NotCoordinatorException"
-class org.apache.kafka.common.errors.NotCoordinatorException {
-+NotCoordinatorException(String) : NotCoordinatorException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NotCoordinatorException.java.html#30]]]
-+NotCoordinatorException(String;Throwable) : NotCoordinatorException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NotCoordinatorException.java.html#34]]]
-} 
-@enduml

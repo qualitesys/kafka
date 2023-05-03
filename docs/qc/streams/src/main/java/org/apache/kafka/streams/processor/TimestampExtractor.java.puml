@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.processor.TimestampExtractor"
-class org.apache.kafka.streams.processor.TimestampExtractor {
-extract(ConsumerRecord<Object,Object>;long) : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/TimestampExtractor.java.html#50]]]
-} 
-@enduml

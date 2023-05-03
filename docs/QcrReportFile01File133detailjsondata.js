@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenResult.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenResult.java 0 rule violation " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenResult.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -39,9 +38,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenResult.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenResult.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RenewDelegationTokenResult.java.svg" }
 
 ] 
 , 

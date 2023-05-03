@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"AbstractConnectorClientConfigOverridePolicy" <|-- "org.apache.kafka.connect.connector.policy.AllConnectorClientConfigOverridePolicy"
-class org.apache.kafka.connect.connector.policy.AllConnectorClientConfigOverridePolicy {
-policyName() : String [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AllConnectorClientConfigOverridePolicy.java.html#33]]]
-isAllowed(ConfigValue) : boolean [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AllConnectorClientConfigOverridePolicy.java.html#38]]]
-+configure(Map<String,?>) : void [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AllConnectorClientConfigOverridePolicy.java.html#43]]]
-} 
-@enduml

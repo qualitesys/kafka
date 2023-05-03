@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.ChangelogRecordDeserializationHelper"
-class org.apache.kafka.streams.processor.internals.ChangelogRecordDeserializationHelper {
-+applyChecksAndUpdatePosition(ConsumerRecord<byte[],byte[]>;boolean;Position) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogRecordDeserializationHelper.java.html#43]]]
-} 
-@enduml

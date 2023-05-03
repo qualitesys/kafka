@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java 17 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -165,9 +164,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/TokenInformation.java.svg" }
 
 ] 
 , 

@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.processor.ConnectedStoreProvider"
-class org.apache.kafka.streams.processor.ConnectedStoreProvider {
-stores() : Set<StoreBuilder<?>> [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/ConnectedStoreProvider.java.html#114]]]
-} 
-@enduml

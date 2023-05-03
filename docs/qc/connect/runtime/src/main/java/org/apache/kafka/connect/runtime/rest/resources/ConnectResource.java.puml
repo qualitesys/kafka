@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.connect.runtime.rest.resources.ConnectResource"
-class org.apache.kafka.connect.runtime.rest.resources.ConnectResource {
-requestTimeout(long) : void [[[./../../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectResource.java.html#38]]]
-} 
-@enduml

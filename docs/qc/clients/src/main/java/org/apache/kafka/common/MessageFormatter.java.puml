@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"Configurable" <|-- "org.apache.kafka.common.MessageFormatter"
-class org.apache.kafka.common.MessageFormatter {
-configure(Map<String,?>) : void [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/MessageFormatter.java.html#40]]]
-writeTo(ConsumerRecord<byte[],byte[]>;PrintStream) : void [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/MessageFormatter.java.html#47]]]
-close() : void [[[./../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/MessageFormatter.java.html#52]]]
-} 
-@enduml

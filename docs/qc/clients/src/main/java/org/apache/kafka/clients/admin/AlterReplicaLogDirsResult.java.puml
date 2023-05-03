@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.clients.admin.AlterReplicaLogDirsResult"
-class org.apache.kafka.clients.admin.AlterReplicaLogDirsResult {
-AlterReplicaLogDirsResult(Map<TopicPartitionReplica,KafkaFuture<Void>>) : AlterReplicaLogDirsResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterReplicaLogDirsResult.java.html#42]]]
-+values() : Map<TopicPartitionReplica,KafkaFuture<Void>> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterReplicaLogDirsResult.java.html#68]]]
-+all() : KafkaFuture<Void> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterReplicaLogDirsResult.java.html#76]]]
-} 
-@enduml

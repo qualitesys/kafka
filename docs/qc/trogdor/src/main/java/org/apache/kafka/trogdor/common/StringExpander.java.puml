@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.trogdor.common.StringExpander"
-class org.apache.kafka.trogdor.common.StringExpander {
-+expand(String) : HashSet<String> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html#34]]]
-} 
-@enduml

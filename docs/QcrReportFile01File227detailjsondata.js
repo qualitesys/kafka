@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java 72 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -120,9 +119,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.svg" }
 
 ] 
 , 

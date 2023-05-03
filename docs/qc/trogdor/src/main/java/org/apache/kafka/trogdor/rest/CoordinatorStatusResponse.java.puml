@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"Message" <|-- "org.apache.kafka.trogdor.rest.CoordinatorStatusResponse"
-class org.apache.kafka.trogdor.rest.CoordinatorStatusResponse {
-+CoordinatorStatusResponse(long) : CoordinatorStatusResponse [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CoordinatorStatusResponse.java.html#30]]]
-+serverStartMs() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/CoordinatorStatusResponse.java.html#35]]]
-} 
-@enduml

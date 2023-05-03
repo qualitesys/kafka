@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"Serializer<Double>" <|-- "org.apache.kafka.common.serialization.DoubleSerializer"
-class org.apache.kafka.common.serialization.DoubleSerializer {
-+serialize(String;Double) : byte[] [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/DoubleSerializer.java.html#21]]]
-} 
-@enduml

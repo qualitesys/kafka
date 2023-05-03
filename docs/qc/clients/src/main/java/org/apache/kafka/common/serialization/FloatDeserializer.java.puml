@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"Deserializer<Float>" <|-- "org.apache.kafka.common.serialization.FloatDeserializer"
-class org.apache.kafka.common.serialization.FloatDeserializer {
-+deserialize(String;byte[]) : Float [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/FloatDeserializer.java.html#23]]]
-} 
-@enduml

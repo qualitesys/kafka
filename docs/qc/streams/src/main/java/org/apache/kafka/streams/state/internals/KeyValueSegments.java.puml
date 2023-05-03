@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"AbstractSegments<KeyValueSegment>" <|-- "org.apache.kafka.streams.state.internals.KeyValueSegments"
-class org.apache.kafka.streams.state.internals.KeyValueSegments {
-KeyValueSegments(String;String;long;long) : KeyValueSegments [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueSegments.java.html#30]]]
-+getOrCreateSegment(long;ProcessorContext) : KeyValueSegment [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueSegments.java.html#39]]]
-+openExisting(ProcessorContext;long) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueSegments.java.html#57]]]
-} 
-@enduml

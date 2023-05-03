@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/javax.servlet.http.Cookie.java.html" 
  , "texte" : "File secujava/javax.servlet.http.Cookie.java 34 rule violations " 
- , "fic2"  : "./qc/secujava/javax.servlet.http.Cookie.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -201,9 +200,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/secujava/javax.servlet.http.Cookie.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/secujava/javax.servlet.http.Cookie.java.svg" }
+ "ligneplantuml" : "./qc/secujava/javax.servlet.http.Cookie.java.svg" }
 
 ] 
 , 

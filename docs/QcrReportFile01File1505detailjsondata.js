@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/javax.servlet.http.HttpServletResponse.java.html" 
  , "texte" : "File secujava/javax.servlet.http.HttpServletResponse.java 0 rule violation " 
- , "fic2"  : "./qc/secujava/javax.servlet.http.HttpServletResponse.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -174,9 +173,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/secujava/javax.servlet.http.HttpServletResponse.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/secujava/javax.servlet.http.HttpServletResponse.java.svg" }
+ "ligneplantuml" : "./qc/secujava/javax.servlet.http.HttpServletResponse.java.svg" }
 
 ] 
 , 

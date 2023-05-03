@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html" 
  , "texte" : "File connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java 6 rule violations " 
- , "fic2"  : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -48,9 +47,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.svg" }
+ "ligneplantuml" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.svg" }
 
 ] 
 , 

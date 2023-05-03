@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.common.utils.ThreadUtils"
-class org.apache.kafka.common.utils.ThreadUtils {
-+createThreadFactory(String;boolean) : ThreadFactory [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/utils/ThreadUtils.java.html#36]]]
-} 
-@enduml

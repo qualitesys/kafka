@@ -1,6 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.metadata.LeaderConstants"
-class org.apache.kafka.metadata.LeaderConstants {
-} 
-@enduml

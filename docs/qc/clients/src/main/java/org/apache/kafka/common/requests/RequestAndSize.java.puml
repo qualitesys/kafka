@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.common.requests.RequestAndSize"
-class org.apache.kafka.common.requests.RequestAndSize {
-+RequestAndSize(AbstractRequest;int) : RequestAndSize [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/requests/RequestAndSize.java.html#23]]]
-} 
-@enduml

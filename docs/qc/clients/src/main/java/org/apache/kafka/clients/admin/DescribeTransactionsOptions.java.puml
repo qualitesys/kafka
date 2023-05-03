@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"AbstractOptions<DescribeTransactionsOptions>" <|-- "org.apache.kafka.clients.admin.DescribeTransactionsOptions"
-class org.apache.kafka.clients.admin.DescribeTransactionsOptions {
-+toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsOptions.java.html#32]]]
-} 
-@enduml

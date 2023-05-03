@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"KTableKTableAbstractJoin<K,V1,V2,VOut>" <|-- "org.apache.kafka.streams.kstream.internals.KTableKTableOuterJoin"
-class org.apache.kafka.streams.kstream.internals.KTableKTableOuterJoin {
-KTableKTableOuterJoin(KTableImpl<K,?,V1>;KTableImpl<K,?,V2>;ValueJoiner<?superV1,?superV2,?extendsVOut>) : KTableKTableOuterJoin [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableOuterJoin.java.html#38]]]
-+get() : Processor<K,Change<V1>,K,Change<VOut>> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableOuterJoin.java.html#45]]]
-+view() : KTableValueGetterSupplier<K,VOut> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableOuterJoin.java.html#50]]]
-} 
-@enduml

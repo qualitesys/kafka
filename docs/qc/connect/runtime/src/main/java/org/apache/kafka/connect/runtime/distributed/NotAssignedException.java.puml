@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"RequestTargetException" <|-- "org.apache.kafka.connect.runtime.distributed.NotAssignedException"
-class org.apache.kafka.connect.runtime.distributed.NotAssignedException {
-+NotAssignedException(String;String) : NotAssignedException [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/NotAssignedException.java.html#25]]]
-} 
-@enduml

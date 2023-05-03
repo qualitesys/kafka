@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"ProcessorSupplier<K,V,K,V>" <|-- "org.apache.kafka.streams.kstream.internals.KStreamJoinWindow"
-class org.apache.kafka.streams.kstream.internals.KStreamJoinWindow {
-KStreamJoinWindow(String) : KStreamJoinWindow [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.html#30]]]
-+get() : Processor<K,V,K,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.html#35]]]
-} 
-@enduml

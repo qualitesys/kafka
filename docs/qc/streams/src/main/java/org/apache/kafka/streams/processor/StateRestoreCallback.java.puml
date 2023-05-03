@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.processor.StateRestoreCallback"
-class org.apache.kafka.streams.processor.StateRestoreCallback {
-restore(byte[];byte[]) : void [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/StateRestoreCallback.java.html#25]]]
-} 
-@enduml

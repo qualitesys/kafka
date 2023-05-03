@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.jmh.fetchsession.FetchSessionBenchmark"
-class org.apache.kafka.jmh.fetchsession.FetchSessionBenchmark {
-+setUp() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetchsession/FetchSessionBenchmark.java.html#73]]]
-+incrementalFetchSessionBuild() : void [[[./../../../../../../../../../.././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetchsession/FetchSessionBenchmark.java.html#111]]]
-} 
-@enduml

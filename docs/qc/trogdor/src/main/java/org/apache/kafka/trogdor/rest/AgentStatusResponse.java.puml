@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"Message" <|-- "org.apache.kafka.trogdor.rest.AgentStatusResponse"
-class org.apache.kafka.trogdor.rest.AgentStatusResponse {
-+AgentStatusResponse(long;TreeMap<Long,WorkerState>) : AgentStatusResponse [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/AgentStatusResponse.java.html#33]]]
-+serverStartMs() : long [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/AgentStatusResponse.java.html#40]]]
-+workers() : TreeMap<Long,WorkerState> [[[./../../../../../../../../../.././qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/AgentStatusResponse.java.html#45]]]
-} 
-@enduml

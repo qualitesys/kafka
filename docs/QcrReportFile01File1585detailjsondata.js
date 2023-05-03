@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/LineSplit.java.html" 
  , "texte" : "File streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/LineSplit.java 1 rule violations " 
- , "fic2"  : "./qc/streams/quickstart/java/src/main/resources/archetype-resources/src/main/java/LineSplit.java.xml" 
  , "fic3"  : "" 
 }
 , 

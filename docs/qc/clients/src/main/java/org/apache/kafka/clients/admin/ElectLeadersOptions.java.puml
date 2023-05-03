@@ -1,6 +1,0 @@
-@startuml
-!pragma layout smetana
-"AbstractOptions<ElectLeadersOptions>" <|-- "org.apache.kafka.clients.admin.ElectLeadersOptions"
-class org.apache.kafka.clients.admin.ElectLeadersOptions {
-} 
-@enduml

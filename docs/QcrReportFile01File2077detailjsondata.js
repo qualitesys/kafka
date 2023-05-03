@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html" 
  , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java 39 rule violations " 
- , "fic2"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -210,9 +209,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.svg" }
+ "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.svg" }
 
 ] 
 , 

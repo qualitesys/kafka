@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"RequestTargetException" <|-- "org.apache.kafka.connect.runtime.distributed.NotLeaderException"
-class org.apache.kafka.connect.runtime.distributed.NotLeaderException {
-+NotLeaderException(String;String) : NotLeaderException [[[./../../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/NotLeaderException.java.html#25]]]
-} 
-@enduml

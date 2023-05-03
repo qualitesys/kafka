@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.util.Hashtable.java.html" 
  , "texte" : "File secujava/java.util.Hashtable.java 337 rule violations " 
- , "fic2"  : "./qc/secujava/java.util.Hashtable.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -417,9 +416,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/secujava/java.util.Hashtable.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/secujava/java.util.Hashtable.java.svg" }
+ "ligneplantuml" : "./qc/secujava/java.util.Hashtable.java.svg" }
 
 ] 
 , 

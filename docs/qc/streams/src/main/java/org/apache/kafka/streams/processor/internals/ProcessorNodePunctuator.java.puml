@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.processor.internals.ProcessorNodePunctuator"
-class org.apache.kafka.streams.processor.internals.ProcessorNodePunctuator {
-punctuate(ProcessorNode<?,?,?,?>;long;PunctuationType;Punctuator) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNodePunctuator.java.html#24]]]
-} 
-@enduml

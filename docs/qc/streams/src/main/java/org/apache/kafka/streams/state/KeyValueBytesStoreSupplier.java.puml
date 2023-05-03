@@ -1,6 +1,0 @@
-@startuml
-!pragma layout smetana
-"StoreSupplier<KeyValueStore<Bytes,byte[]>>" <|-- "org.apache.kafka.streams.state.KeyValueBytesStoreSupplier"
-class org.apache.kafka.streams.state.KeyValueBytesStoreSupplier {
-} 
-@enduml

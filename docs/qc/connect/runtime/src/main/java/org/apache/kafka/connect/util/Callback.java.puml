@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.connect.util.Callback"
-class org.apache.kafka.connect.util.Callback {
-onCompletion(Throwable;V) : void [[[./../../../../../../../../../../.././qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/Callback.java.html#29]]]
-} 
-@enduml

@@ -1,6 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.common.security.scram.internals.ScramMessages"
-class org.apache.kafka.common.security.scram.internals.ScramMessages {
-} 
-@enduml

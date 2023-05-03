@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"Serializer<ByteBuffer>" <|-- "org.apache.kafka.common.serialization.ByteBufferSerializer"
-class org.apache.kafka.common.serialization.ByteBufferSerializer {
-+serialize(String;ByteBuffer) : byte[] [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteBufferSerializer.java.html#22]]]
-} 
-@enduml

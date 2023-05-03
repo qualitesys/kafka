@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"ApiException" <|-- "org.apache.kafka.common.errors.NewLeaderElectedException"
-class org.apache.kafka.common.errors.NewLeaderElectedException {
-+NewLeaderElectedException(String) : NewLeaderElectedException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/NewLeaderElectedException.java.html#20]]]
-} 
-@enduml

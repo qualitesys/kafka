@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"Commands.Handler" <|-- "org.apache.kafka.shell.ExitCommandHandler"
-class org.apache.kafka.shell.ExitCommandHandler {
-+run(Optional<InteractiveShell>;PrintWriter;MetadataNodeManager) : void [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#72]]]
-+hashCode() : int [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#79]]]
-+equals(Object) : boolean [[[./../../../../../../../../.././qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#84]]]
-} 
-@enduml

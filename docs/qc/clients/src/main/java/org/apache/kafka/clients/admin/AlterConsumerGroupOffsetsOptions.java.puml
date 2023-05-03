@@ -1,6 +1,0 @@
-@startuml
-!pragma layout smetana
-"AbstractOptions<AlterConsumerGroupOffsetsOptions>" <|-- "org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsOptions"
-class org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsOptions {
-} 
-@enduml

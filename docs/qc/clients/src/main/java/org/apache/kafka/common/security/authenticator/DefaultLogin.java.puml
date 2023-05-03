@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"AbstractLogin" <|-- "org.apache.kafka.common.security.authenticator.DefaultLogin"
-class org.apache.kafka.common.security.authenticator.DefaultLogin {
-+serviceName() : String [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultLogin.java.html#22]]]
-+close() : void [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultLogin.java.html#27]]]
-} 
-@enduml

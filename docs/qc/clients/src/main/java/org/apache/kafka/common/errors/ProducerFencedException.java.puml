@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"ApiException" <|-- "org.apache.kafka.common.errors.ProducerFencedException"
-class org.apache.kafka.common.errors.ProducerFencedException {
-+ProducerFencedException(String) : ProducerFencedException [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/errors/ProducerFencedException.java.html#27]]]
-} 
-@enduml

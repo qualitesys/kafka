@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"StreamsException" <|-- "org.apache.kafka.streams.errors.TaskMigratedException"
-class org.apache.kafka.streams.errors.TaskMigratedException {
-+TaskMigratedException(String) : TaskMigratedException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskMigratedException.java.html#29]]]
-+TaskMigratedException(String;Throwable) : TaskMigratedException [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/errors/TaskMigratedException.java.html#33]]]
-} 
-@enduml

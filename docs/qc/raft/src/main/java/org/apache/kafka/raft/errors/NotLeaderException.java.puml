@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"RaftException" <|-- "org.apache.kafka.raft.errors.NotLeaderException"
-class org.apache.kafka.raft.errors.NotLeaderException {
-+NotLeaderException(String) : NotLeaderException [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/errors/NotLeaderException.java.html#27]]]
-+NotLeaderException(String;Throwable) : NotLeaderException [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/errors/NotLeaderException.java.html#31]]]
-+NotLeaderException(Throwable) : NotLeaderException [[[./../../../../../../../../../.././qc/raft/src/main/java/org/apache/kafka/raft/errors/NotLeaderException.java.html#35]]]
-} 
-@enduml

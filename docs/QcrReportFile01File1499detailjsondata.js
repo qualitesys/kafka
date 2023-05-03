@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html" 
  , "texte" : "File secujava/java.util.concurrent.ConcurrentHashMap.java 2326 rule violations " 
- , "fic2"  : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -678,9 +677,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.svg" }
+ "ligneplantuml" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.svg" }
 
 ] 
 , 

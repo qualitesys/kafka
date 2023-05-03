@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.html" 
  , "texte" : "File generator/src/main/java/org/apache/kafka/message/IsNullConditional.java 31 rule violations " 
- , "fic2"  : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -111,9 +110,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.svg" }
+ "ligneplantuml" : "./qc/generator/src/main/java/org/apache/kafka/message/IsNullConditional.java.svg" }
 
 ] 
 , 

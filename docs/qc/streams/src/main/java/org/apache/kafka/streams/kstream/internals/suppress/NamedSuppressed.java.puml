@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"Suppressed<K>" <|-- "org.apache.kafka.streams.kstream.internals.suppress.NamedSuppressed"
-class org.apache.kafka.streams.kstream.internals.suppress.NamedSuppressed {
-name() : String [[[./../../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/NamedSuppressed.java.html#27]]]
-} 
-@enduml

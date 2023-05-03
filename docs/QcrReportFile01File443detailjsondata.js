@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java 40 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -174,9 +173,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.svg" }
 
 ] 
 , 

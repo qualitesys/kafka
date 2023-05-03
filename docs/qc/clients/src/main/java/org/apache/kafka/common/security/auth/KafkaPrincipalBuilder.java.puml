@@ -1,7 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.common.security.auth.KafkaPrincipalBuilder"
-class org.apache.kafka.common.security.auth.KafkaPrincipalBuilder {
-build(AuthenticationContext) : KafkaPrincipal [[[./../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipalBuilder.java.html#35]]]
-} 
-@enduml

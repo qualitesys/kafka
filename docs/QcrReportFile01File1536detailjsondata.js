@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html" 
  , "texte" : "File shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java 28 rule violations " 
- , "fic2"  : "./qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -57,9 +56,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.svg" }
+ "ligneplantuml" : "./qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.svg" }
 
 ] 
 , 

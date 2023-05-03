@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html" 
  , "texte" : "File metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java 18 rule violations " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -84,9 +83,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.svg" }
+ "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.svg" }
 
 ] 
 , 

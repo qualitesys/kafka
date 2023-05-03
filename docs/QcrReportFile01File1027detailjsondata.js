@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html" 
  , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java 75 rule violations " 
- , "fic2"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -192,9 +191,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.svg" }
+ "ligneplantuml" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.svg" }
 
 ] 
 , 

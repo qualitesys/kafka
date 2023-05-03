@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html" 
  , "texte" : "File examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java 47 rule violations " 
- , "fic2"  : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -84,9 +83,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.svg" }
+ "ligneplantuml" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.svg" }
 
 ] 
 , 

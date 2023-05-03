@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html" 
  , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java 97 rule violations " 
- , "fic2"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -183,9 +182,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.svg" }
+ "ligneplantuml" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.svg" }
 
 ] 
 , 

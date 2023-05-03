@@ -1,6 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "aa__all_files"
-class aa__all_files {
-} 
-@enduml

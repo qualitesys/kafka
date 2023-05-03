@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "kafka.examples.KafkaExactlyOnceDemo"
-class kafka.examples.KafkaExactlyOnceDemo {
-+main(String[]) : void [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#78]]]
--recreateTopics(int) : void [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#128]]]
--deleteTopic(Admin;List<String>) : void [[[./../../../../../../.././qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#183]]]
-} 
-@enduml

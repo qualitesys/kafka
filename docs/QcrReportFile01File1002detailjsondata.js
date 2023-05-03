@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.html" 
  , "texte" : "File connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java 9 rule violations " 
- , "fic2"  : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -75,9 +74,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.svg" }
+ "ligneplantuml" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkConnector.java.svg" }
 
 ] 
 , 

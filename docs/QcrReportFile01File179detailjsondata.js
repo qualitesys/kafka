@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html" 
  , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java 24 rule violations " 
- , "fic2"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -84,9 +83,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.svg" }
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.svg" }
 
 ] 
 , 

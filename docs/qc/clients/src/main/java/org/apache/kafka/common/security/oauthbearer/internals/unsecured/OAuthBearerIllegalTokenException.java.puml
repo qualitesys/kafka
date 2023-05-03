@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"KafkaException" <|-- "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerIllegalTokenException"
-class org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerIllegalTokenException {
-+OAuthBearerIllegalTokenException(OAuthBearerValidationResult) : OAuthBearerIllegalTokenException [[[./../../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerIllegalTokenException.java.html#38]]]
-+reason() : OAuthBearerValidationResult [[[./../../../../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerIllegalTokenException.java.html#50]]]
-} 
-@enduml

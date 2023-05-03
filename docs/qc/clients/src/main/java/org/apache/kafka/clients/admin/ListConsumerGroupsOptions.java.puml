@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"AbstractOptions<ListConsumerGroupsOptions>" <|-- "org.apache.kafka.clients.admin.ListConsumerGroupsOptions"
-class org.apache.kafka.clients.admin.ListConsumerGroupsOptions {
-+inStates(Set<ConsumerGroupState>) : ListConsumerGroupsOptions [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsOptions.java.html#42]]]
-+states() : Set<ConsumerGroupState> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsOptions.java.html#50]]]
-} 
-@enduml

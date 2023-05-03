@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"TimestampExtractor" <|-- "org.apache.kafka.streams.processor.ExtractRecordMetadataTimestamp"
-class org.apache.kafka.streams.processor.ExtractRecordMetadataTimestamp {
-+extract(ConsumerRecord<Object,Object>;long) : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/ExtractRecordMetadataTimestamp.java.html#55]]]
-+onInvalidTimestamp(ConsumerRecord<Object,Object>;long;long) : long [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/ExtractRecordMetadataTimestamp.java.html#73]]]
-} 
-@enduml

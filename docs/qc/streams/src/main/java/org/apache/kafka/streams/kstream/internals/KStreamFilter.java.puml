@@ -1,8 +1,0 @@
-@startuml
-!pragma layout smetana
-"FixedKeyProcessorSupplier<K,V,V>" <|-- "org.apache.kafka.streams.kstream.internals.KStreamFilter"
-class org.apache.kafka.streams.kstream.internals.KStreamFilter {
-+KStreamFilter(Predicate<K,V>;boolean) : KStreamFilter [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFilter.java.html#30]]]
-+get() : FixedKeyProcessor<K,V,V> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFilter.java.html#36]]]
-} 
-@enduml

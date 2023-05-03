@@ -3,7 +3,6 @@ var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html" 
  , "texte" : "File raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java 70 rule violations " 
- , "fic2"  : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.xml" 
  , "fic3"  : "" 
 }
 , 
@@ -84,9 +83,9 @@ var maDataBlocs = {
 ]
 , 
 "data03" : [
-   {"ligne" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.png" 
+   {
 
- , "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.svg" }
+ "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.svg" }
 
 ] 
 , 

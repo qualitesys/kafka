@@ -1,9 +1,0 @@
-@startuml
-!pragma layout smetana
-"java.lang.Object" <|-- "org.apache.kafka.streams.state.StoreSupplier"
-class org.apache.kafka.streams.state.StoreSupplier {
-name() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StoreSupplier.java.html#33]]]
-get() : T [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StoreSupplier.java.html#40]]]
-metricsScope() : String [[[./../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/state/StoreSupplier.java.html#46]]]
-} 
-@enduml
