@@ -166,7 +166,7 @@ var maDataBlocs = {
  , "c1" : "00108"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginScanResult.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.connect.runtime.isolation.PluginScanResult.isEmpty@POLYN160701 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.connect.runtime.isolation.PluginScanResult.isEmpty@POLYN161325 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 

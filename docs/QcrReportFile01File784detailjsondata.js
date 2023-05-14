@@ -146,7 +146,7 @@ var maDataBlocs = {
  , "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerValidatorCallback.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.security.oauthbearer.OAuthBearerValidatorCallback.OAuthBearerValidatorCallback@POLYN165373 the MagicNumber/String  'token value must not be empty' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.security.oauthbearer.OAuthBearerValidatorCallback.OAuthBearerValidatorCallback@POLYN165997 the MagicNumber/String  'token value must not be empty' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -160,21 +160,21 @@ var maDataBlocs = {
  , "c1" : "00126"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerValidatorCallback.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.common.security.oauthbearer.OAuthBearerValidatorCallback.token@POLYN167068 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.common.security.oauthbearer.OAuthBearerValidatorCallback.token@POLYN167692 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerValidatorCallback.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.security.oauthbearer.OAuthBearerValidatorCallback.token@POLYN167068 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.security.oauthbearer.OAuthBearerValidatorCallback.token@POLYN167692 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerValidatorCallback.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.security.oauthbearer.OAuthBearerValidatorCallback.token@POLYN167068 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.security.oauthbearer.OAuthBearerValidatorCallback.token@POLYN167692 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -188,14 +188,14 @@ var maDataBlocs = {
  , "c1" : "00148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerValidatorCallback.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.common.security.oauthbearer.OAuthBearerValidatorCallback.error@POLYN167788 the MagicNumber/String  'error status must not be empty' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.common.security.oauthbearer.OAuthBearerValidatorCallback.error@POLYN168412 the MagicNumber/String  'error status must not be empty' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00152"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/OAuthBearerValidatorCallback.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.common.security.oauthbearer.OAuthBearerValidatorCallback.error@POLYN167788 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.common.security.oauthbearer.OAuthBearerValidatorCallback.error@POLYN168412 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

@@ -731,17 +731,17 @@ var maDataBlocs = {
 "data12a" : [
 { "ligne" :  "R0:org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.this" }
 ,
-{ "ligne" :  "R1:org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSubscribedTopicsFromAssignment@POLYN575727.partitions" }
+{ "ligne" :  "R1:org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSubscribedTopicsFromAssignment@POLYN576351.partitions" }
 ,
-{ "ligne" :  "R2:org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSubscribedTopicsFromAssignment@POLYN575727.logPrefix" }
+{ "ligne" :  "R2:org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSubscribedTopicsFromAssignment@POLYN576351.logPrefix" }
 ,
-{ "ligne" :  "R3:org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSubscribedTopicsFromMetadata@POLYN576536.topics" }
+{ "ligne" :  "R3:org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSubscribedTopicsFromMetadata@POLYN577160.topics" }
 ,
-{ "ligne" :  "R4:org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSubscribedTopicsFromMetadata@POLYN576536.logPrefix" }
+{ "ligne" :  "R4:org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSubscribedTopicsFromMetadata@POLYN577160.logPrefix" }
 ,
-{ "ligne" :  "R5:org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.setStreamsConfig@POLYN487727.applicationConfig" }
+{ "ligne" :  "R5:org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.setStreamsConfig@POLYN488351.applicationConfig" }
 ,
-{ "ligne" :  "R6:org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.setNamedTopology@POLYN487990.namedTopology" }
+{ "ligne" :  "R6:org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.setNamedTopology@POLYN488614.namedTopology" }
 ]
 ,
 "data12b" : [
@@ -827,7 +827,7 @@ var maDataBlocs = {
  , "c1" : "00070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.InternalTopologyBuilder@POLYN472485 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.InternalTopologyBuilder@POLYN473109 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -841,7 +841,7 @@ var maDataBlocs = {
  , "c1" : "00180"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.StateStoreFactory.retentionPeriod@POLYN476933 the MagicNumber/String  'retentionPeriod is not supported when not a window store' should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.StateStoreFactory.retentionPeriod@POLYN477557 the MagicNumber/String  'retentionPeriod is not supported when not a window store' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -876,7 +876,7 @@ var maDataBlocs = {
  , "c1" : "00258"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#258"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.FixedKeyProcessorNodeFactory.FixedKeyProcessorNodeFactory@POLYN480568 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.FixedKeyProcessorNodeFactory.FixedKeyProcessorNodeFactory@POLYN481192 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -890,7 +890,7 @@ var maDataBlocs = {
  , "c1" : "00295"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#295"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SourceNodeFactory.SourceNodeFactory@POLYN482124 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SourceNodeFactory.SourceNodeFactory@POLYN482748 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -911,28 +911,28 @@ var maDataBlocs = {
  , "c1" : "00317"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#317"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SourceNodeFactory.getTopics@POLYN482941 the MagicNumber/String  'Topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SourceNodeFactory.getTopics@POLYN483565 the MagicNumber/String  'Topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00318"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#318"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SourceNodeFactory.getTopics@POLYN482941 the MagicNumber/String  ' is already matched for another regex pattern ' should be converted to const"
+ , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SourceNodeFactory.getTopics@POLYN483565 the MagicNumber/String  ' is already matched for another regex pattern ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00319"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#319"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SourceNodeFactory.getTopics@POLYN482941 the MagicNumber/String  ' and hence cannot be matched to this regex pattern ' should be converted to const"
+ , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SourceNodeFactory.getTopics@POLYN483565 the MagicNumber/String  ' and hence cannot be matched to this regex pattern ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00319"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#319"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SourceNodeFactory.getTopics@POLYN482941 the MagicNumber/String  ' any more.' should be converted to const"
+ , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SourceNodeFactory.getTopics@POLYN483565 the MagicNumber/String  ' any more.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -946,14 +946,14 @@ var maDataBlocs = {
  , "c1" : "00339"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#339"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SourceNodeFactory.describe@POLYN484727 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SourceNodeFactory.describe@POLYN485351 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00339"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#339"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SourceNodeFactory.describe@POLYN484727 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SourceNodeFactory.describe@POLYN485351 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -974,7 +974,7 @@ var maDataBlocs = {
  , "c1" : "00385"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#385"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00385] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.setApplicationId@POLYN487457 the MagicNumber/String  'applicationId can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00385] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.setApplicationId@POLYN488081 the MagicNumber/String  'applicationId can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -995,7 +995,7 @@ var maDataBlocs = {
  , "c1" : "00392"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#392"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.setStreamsConfig@POLYN487727 the MagicNumber/String  'config can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.setStreamsConfig@POLYN488351 the MagicNumber/String  'config can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1044,14 +1044,14 @@ var maDataBlocs = {
  , "c1" : "00413"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#413"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00413] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.rewriteTopology@POLYN488401 the MagicNumber/String  'config can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00413] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.rewriteTopology@POLYN489025 the MagicNumber/String  'config can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00419"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#419"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.rewriteTopology@POLYN488401 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.rewriteTopology@POLYN489025 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1065,56 +1065,56 @@ var maDataBlocs = {
  , "c1" : "00443"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#443"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00443] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN489449 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00443] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN490073 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00444"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#444"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00444] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN489449 the MagicNumber/String  'You must provide at least one topic' should be converted to const"
+ , "c3" : "QC-JAV000010[00444] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN490073 the MagicNumber/String  'You must provide at least one topic' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00446"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#446"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00446] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN489449 the MagicNumber/String  'name must not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00446] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN490073 the MagicNumber/String  'name must not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00448"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#448"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN489449 the MagicNumber/String  'Processor ' should be converted to const"
+ , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN490073 the MagicNumber/String  'Processor ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00448"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#448"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN489449 the MagicNumber/String  ' is already added.' should be converted to const"
+ , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN490073 the MagicNumber/String  ' is already added.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00452"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#452"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00452] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN489449 the MagicNumber/String  'topic names cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00452] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN490073 the MagicNumber/String  'topic names cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00458"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#458"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00458] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN489449 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00458] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN490073 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00461"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#461"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00461] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN489449 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00461] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN490073 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1135,56 +1135,56 @@ var maDataBlocs = {
  , "c1" : "00470"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#470"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00470] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN491113 the MagicNumber/String  'topicPattern can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00470] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN491737 the MagicNumber/String  'topicPattern can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00471"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#471"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN491113 the MagicNumber/String  'name can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN491737 the MagicNumber/String  'name can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00474"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#474"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN491113 the MagicNumber/String  'Processor ' should be converted to const"
+ , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN491737 the MagicNumber/String  'Processor ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00474"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#474"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN491113 the MagicNumber/String  ' is already added.' should be converted to const"
+ , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN491737 the MagicNumber/String  ' is already added.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00479"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#479"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00479] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN491113 the MagicNumber/String  'Pattern ' should be converted to const"
+ , "c3" : "QC-JAV000010[00479] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN491737 the MagicNumber/String  'Pattern ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00479"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#479"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00479] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN491113 the MagicNumber/String  ' will match a topic that has already been registered by another source.' should be converted to const"
+ , "c3" : "QC-JAV000010[00479] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN491737 the MagicNumber/String  ' will match a topic that has already been registered by another source.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00485"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#485"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00485] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN491113 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00485] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN491737 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00488"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#488"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00488] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN491113 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00488] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSource@POLYN491737 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1555,7 +1555,7 @@ var maDataBlocs = {
  , "c1" : "00606"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#606"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00606] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addStateStore@POLYN500298 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00606] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addStateStore@POLYN500922 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1569,7 +1569,7 @@ var maDataBlocs = {
  , "c1" : "00609"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#609"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00609] For method addStateStore list of called methods Object monObjet|V stateFactories_getN500809"
+ , "c3" : "QC-JAV000007[00609] For method addStateStore list of called methods Object monObjet|V stateFactories_getN501433"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1583,49 +1583,49 @@ var maDataBlocs = {
  , "c1" : "00612"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#612"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00612] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addStateStore@POLYN500524 the MagicNumber/String  'storeBuilder can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00612] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addStateStore@POLYN501148 the MagicNumber/String  'storeBuilder can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00614"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#614"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00614] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addStateStore@POLYN500524 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00614] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addStateStore@POLYN501148 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00615"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#615"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00615] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addStateStore@POLYN500524 the MagicNumber/String  'A different StateStore has already been added with the name ' should be converted to const"
+ , "c3" : "QC-JAV000010[00615] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addStateStore@POLYN501148 the MagicNumber/String  'A different StateStore has already been added with the name ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00618"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#618"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00618] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addStateStore@POLYN500524 the MagicNumber/String  'A different GlobalStateStore has already been added with the name ' should be converted to const"
+ , "c3" : "QC-JAV000010[00618] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addStateStore@POLYN501148 the MagicNumber/String  'A different GlobalStateStore has already been added with the name ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00623"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#623"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00623] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addStateStore@POLYN500524 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00623] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addStateStore@POLYN501148 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00625"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#625"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00625] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addStateStore@POLYN500524 the MagicNumber/String  'processor name must not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00625] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addStateStore@POLYN501148 the MagicNumber/String  'processor name must not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00629"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#629"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00629] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addStateStore@POLYN500524 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00629] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addStateStore@POLYN501148 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1667,28 +1667,28 @@ var maDataBlocs = {
  , "c1" : "00681"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#681"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00681] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateTopicNotAlreadyRegistered@POLYN504384 the MagicNumber/String  'Topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00681] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateTopicNotAlreadyRegistered@POLYN505008 the MagicNumber/String  'Topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00681"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#681"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00681] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateTopicNotAlreadyRegistered@POLYN504384 the MagicNumber/String  ' has already been registered by another source.' should be converted to const"
+ , "c3" : "QC-JAV000010[00681] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateTopicNotAlreadyRegistered@POLYN505008 the MagicNumber/String  ' has already been registered by another source.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00686"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#686"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00686] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateTopicNotAlreadyRegistered@POLYN504384 the MagicNumber/String  'Topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00686] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateTopicNotAlreadyRegistered@POLYN505008 the MagicNumber/String  'Topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00686"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#686"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00686] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateTopicNotAlreadyRegistered@POLYN504384 the MagicNumber/String  ' matches a Pattern already registered by another source.' should be converted to const"
+ , "c3" : "QC-JAV000010[00686] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateTopicNotAlreadyRegistered@POLYN505008 the MagicNumber/String  ' matches a Pattern already registered by another source.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1702,42 +1702,42 @@ var maDataBlocs = {
  , "c1" : "00693"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#693"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00693] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStores@POLYN505056 the MagicNumber/String  'processorName can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00693] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStores@POLYN505680 the MagicNumber/String  'processorName can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00694"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#694"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00694] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStores@POLYN505056 the MagicNumber/String  'state store list must not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00694] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStores@POLYN505680 the MagicNumber/String  'state store list must not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00695"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#695"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00695] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStores@POLYN505056 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00695] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStores@POLYN505680 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00696"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#696"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00696] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStores@POLYN505056 the MagicNumber/String  'Must provide at least one state store name.' should be converted to const"
+ , "c3" : "QC-JAV000010[00696] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStores@POLYN505680 the MagicNumber/String  'Must provide at least one state store name.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00699"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#699"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00699] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStores@POLYN505056 the MagicNumber/String  'state store name must not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00699] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStores@POLYN505680 the MagicNumber/String  'state store name must not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00702"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#702"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00702] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStores@POLYN505056 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00702] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStores@POLYN505680 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1758,14 +1758,14 @@ var maDataBlocs = {
  , "c1" : "00712"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#712"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00712] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectSourceStoreAndTopic@POLYN505966 the MagicNumber/String  'Source store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00712] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectSourceStoreAndTopic@POLYN506590 the MagicNumber/String  'Source store ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00712"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#712"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00712] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectSourceStoreAndTopic@POLYN505966 the MagicNumber/String  ' is already added.' should be converted to const"
+ , "c3" : "QC-JAV000010[00712] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectSourceStoreAndTopic@POLYN506590 the MagicNumber/String  ' is already added.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1779,14 +1779,14 @@ var maDataBlocs = {
  , "c1" : "00720"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#720"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00720] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addInternalTopic@POLYN506461 the MagicNumber/String  'topicName can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00720] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addInternalTopic@POLYN507085 the MagicNumber/String  'topicName can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00721"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#721"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00721] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addInternalTopic@POLYN506461 the MagicNumber/String  'internalTopicProperties can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00721] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addInternalTopic@POLYN507085 the MagicNumber/String  'internalTopicProperties can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1807,7 +1807,7 @@ var maDataBlocs = {
  , "c1" : "00740"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#740"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00740] For method validateCopartition list of called methods Object monObjet|V internalTopicNamesWithProperties_getN508352|java.util.Collection numberOfPartitionsPerTopic_valuesN508911"
+ , "c3" : "QC-JAV000007[00740] For method validateCopartition list of called methods Object monObjet|V internalTopicNamesWithProperties_getN508976|java.util.Collection numberOfPartitionsPerTopic_valuesN509535"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1863,21 +1863,21 @@ var maDataBlocs = {
  , "c1" : "00756"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#756"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00756] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateCopartition@POLYN507482 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00756] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateCopartition@POLYN508106 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00765"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#765"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00765] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateCopartition@POLYN507482 the MagicNumber/String  'Following topics do not have the same number of ' should be converted to const"
+ , "c3" : "QC-JAV000010[00765] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateCopartition@POLYN508106 the MagicNumber/String  'Following topics do not have the same number of ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00766"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#766"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00766] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateCopartition@POLYN507482 the MagicNumber/String  'partitions: [%s]' should be converted to const"
+ , "c3" : "QC-JAV000010[00766] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateCopartition@POLYN508106 the MagicNumber/String  'partitions: [%s]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1898,91 +1898,91 @@ var maDataBlocs = {
  , "c1" : "00781"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#781"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00781] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN509508 the MagicNumber/String  'sourceName must not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00781] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN510132 the MagicNumber/String  'sourceName must not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00782"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#782"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00782] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN509508 the MagicNumber/String  'topic must not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00782] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN510132 the MagicNumber/String  'topic must not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00783"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#783"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00783] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN509508 the MagicNumber/String  'supplier must not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00783] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN510132 the MagicNumber/String  'supplier must not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00784"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#784"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00784] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN509508 the MagicNumber/String  'processorName must not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00784] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN510132 the MagicNumber/String  'processorName must not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00786"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#786"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00786] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN509508 the MagicNumber/String  'Processor ' should be converted to const"
+ , "c3" : "QC-JAV000010[00786] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN510132 the MagicNumber/String  'Processor ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00786"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#786"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00786] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN509508 the MagicNumber/String  ' is already added.' should be converted to const"
+ , "c3" : "QC-JAV000010[00786] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN510132 the MagicNumber/String  ' is already added.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00789"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#789"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00789] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN509508 the MagicNumber/String  'Processor ' should be converted to const"
+ , "c3" : "QC-JAV000010[00789] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN510132 the MagicNumber/String  'Processor ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00789"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#789"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00789] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN509508 the MagicNumber/String  ' is already added.' should be converted to const"
+ , "c3" : "QC-JAV000010[00789] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN510132 the MagicNumber/String  ' is already added.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00792"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#792"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00792] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN509508 the MagicNumber/String  'A different StateStore has already been added with the name ' should be converted to const"
+ , "c3" : "QC-JAV000010[00792] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN510132 the MagicNumber/String  'A different StateStore has already been added with the name ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00795"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#795"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00795] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN509508 the MagicNumber/String  'A different GlobalStateStore has already been added with the name ' should be converted to const"
+ , "c3" : "QC-JAV000010[00795] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN510132 the MagicNumber/String  'A different GlobalStateStore has already been added with the name ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00798"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#798"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00798] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN509508 the MagicNumber/String  'StateStore ' should be converted to const"
+ , "c3" : "QC-JAV000010[00798] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN510132 the MagicNumber/String  'StateStore ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00798"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#798"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00798] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN509508 the MagicNumber/String  ' for global table must not have logging enabled.' should be converted to const"
+ , "c3" : "QC-JAV000010[00798] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN510132 the MagicNumber/String  ' for global table must not have logging enabled.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00801"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#801"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00801] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN509508 the MagicNumber/String  'sourceName and processorName must be different.' should be converted to const"
+ , "c3" : "QC-JAV000010[00801] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.validateGlobalStoreArguments@POLYN510132 the MagicNumber/String  'sourceName and processorName must be different.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1996,63 +1996,63 @@ var maDataBlocs = {
  , "c1" : "00805"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#805"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00805] For method connectProcessorAndStateStore list of called methods Object monObjet|V stateFactories_getN512070|java.util.Set stateStoreFactory_usersN512190|V nodeFactories_getN512671"
+ , "c3" : "QC-JAV000007[00805] For method connectProcessorAndStateStore list of called methods Object monObjet|V stateFactories_getN512694|java.util.Set stateStoreFactory_usersN512814|V nodeFactories_getN513295"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00808"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#808"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00808] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStore@POLYN511278 the MagicNumber/String  'Global StateStore ' should be converted to const"
+ , "c3" : "QC-JAV000010[00808] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStore@POLYN511902 the MagicNumber/String  'Global StateStore ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00809"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#809"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00809] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStore@POLYN511278 the MagicNumber/String  ' can be used by a Processor without being specified; it should not be explicitly passed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00809] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStore@POLYN511902 the MagicNumber/String  ' can be used by a Processor without being specified; it should not be explicitly passed.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00812"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#812"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00812] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStore@POLYN511278 the MagicNumber/String  'StateStore ' should be converted to const"
+ , "c3" : "QC-JAV000010[00812] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStore@POLYN511902 the MagicNumber/String  'StateStore ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00812"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#812"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00812] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStore@POLYN511278 the MagicNumber/String  ' is not added yet.' should be converted to const"
+ , "c3" : "QC-JAV000010[00812] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStore@POLYN511902 the MagicNumber/String  ' is not added yet.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00815"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#815"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00815] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStore@POLYN511278 the MagicNumber/String  'Processor ' should be converted to const"
+ , "c3" : "QC-JAV000010[00815] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStore@POLYN511902 the MagicNumber/String  'Processor ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00815"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#815"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00815] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStore@POLYN511278 the MagicNumber/String  ' is not added yet.' should be converted to const"
+ , "c3" : "QC-JAV000010[00815] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStore@POLYN511902 the MagicNumber/String  ' is not added yet.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00832"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#832"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00832] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStore@POLYN511278 the MagicNumber/String  'cannot connect a state store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00832] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStore@POLYN511902 the MagicNumber/String  'cannot connect a state store ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00832"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#832"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00832] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStore@POLYN511278 the MagicNumber/String  ' to a source node or a sink node.' should be converted to const"
+ , "c3" : "QC-JAV000010[00832] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.connectProcessorAndStateStore@POLYN511902 the MagicNumber/String  ' to a source node or a sink node.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2066,7 +2066,7 @@ var maDataBlocs = {
  , "c1" : "00836"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#836"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00836] For method findSourcesForProcessorPredecessors list of called methods Object monObjet|V nodeFactories_getN513688"
+ , "c3" : "QC-JAV000007[00836] For method findSourcesForProcessorPredecessors list of called methods Object monObjet|V nodeFactories_getN514312"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2157,28 +2157,28 @@ var maDataBlocs = {
  , "c1" : "00907"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#907"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00907] For method nodeGroups list of called methods Object monObjet|java.util.Map makeNodeGroupsN516722"
+ , "c3" : "QC-JAV000007[00907] For method nodeGroups list of called methods Object monObjet|java.util.Map makeNodeGroupsN517346"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00908"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#908"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00908] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.nodeGroups@POLYN516575 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00908] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.nodeGroups@POLYN517199 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00915"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#915"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00915] For method makeNodeGroups list of called methods Object monObjet|int putNodeGroupNameN517383"
+ , "c3" : "QC-JAV000007[00915] For method makeNodeGroups list of called methods Object monObjet|int putNodeGroupNameN518007"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00919"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#919"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00919] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.makeNodeGroups@POLYN516861 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00919] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.makeNodeGroups@POLYN517485 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2192,7 +2192,7 @@ var maDataBlocs = {
  , "c1" : "00929"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#929"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00929] For method putNodeGroupName list of called methods Object monObjet|T nodeGrouper_rootN517909|V rootToNodeGroup_getN518024"
+ , "c3" : "QC-JAV000007[00929] For method putNodeGroupName list of called methods Object monObjet|T nodeGrouper_rootN518533|V rootToNodeGroup_getN518648"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2213,7 +2213,7 @@ var maDataBlocs = {
  , "c1" : "00936"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#936"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00936] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.putNodeGroupName@POLYN517549 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00936] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.putNodeGroupName@POLYN518173 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2241,7 +2241,7 @@ var maDataBlocs = {
  , "c1" : "00963"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#963"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00963] For method buildSubtopology list of called methods Object monObjet|java.util.Map nodeGroupsN519371"
+ , "c3" : "QC-JAV000007[00963] For method buildSubtopology list of called methods Object monObjet|java.util.Map nodeGroupsN519995"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2255,21 +2255,21 @@ var maDataBlocs = {
  , "c1" : "00972"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#972"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00972] For method buildGlobalStateTopology list of called methods Object monObjet|java.util.Set globalNodeGroupsN519788"
+ , "c3" : "QC-JAV000007[00972] For method buildGlobalStateTopology list of called methods Object monObjet|java.util.Set globalNodeGroupsN520412"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00973"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#973"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00973] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildGlobalStateTopology@POLYN519592 the MagicNumber/String  'topology has not completed optimization' should be converted to const"
+ , "c3" : "QC-JAV000010[00973] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildGlobalStateTopology@POLYN520216 the MagicNumber/String  'topology has not completed optimization' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00977"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#977"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00977] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildGlobalStateTopology@POLYN519592 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00977] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildGlobalStateTopology@POLYN520216 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2367,21 +2367,21 @@ var maDataBlocs = {
  , "c1" : "00997"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#997"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00997] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.build@POLYN520779 the MagicNumber/String  'topology has not completed optimization' should be converted to const"
+ , "c3" : "QC-JAV000010[00997] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.build@POLYN521403 the MagicNumber/String  'topology has not completed optimization' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01008"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1008"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01008] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.build@POLYN520779 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01008] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.build@POLYN521403 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01031"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1031"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01031] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.build@POLYN520779 the MagicNumber/String  'Unknown definition class: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01031] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.build@POLYN521403 the MagicNumber/String  'Unknown definition class: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2395,7 +2395,7 @@ var maDataBlocs = {
  , "c1" : "01045"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1045"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01045] For method buildSinkNode list of called methods Object monObjet|java.lang.String decorateTopicN525009"
+ , "c3" : "QC-JAV000007[01045] For method buildSinkNode list of called methods Object monObjet|java.lang.String decorateTopicN525633"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2458,7 +2458,7 @@ var maDataBlocs = {
  , "c1" : "01050"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1050"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01050] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildSinkNode@POLYN523698 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[01050] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildSinkNode@POLYN524322 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2479,7 +2479,7 @@ var maDataBlocs = {
  , "c1" : "01080"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1080"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01080] For method buildSourceNode list of called methods Object monObjet|java.lang.String decorateTopicN526583"
+ , "c3" : "QC-JAV000007[01080] For method buildSourceNode list of called methods Object monObjet|java.lang.String decorateTopicN527207"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2514,7 +2514,7 @@ var maDataBlocs = {
  , "c1" : "01085"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1085"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01085] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildSourceNode@POLYN525862 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01085] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildSourceNode@POLYN526486 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2528,7 +2528,7 @@ var maDataBlocs = {
  , "c1" : "01101"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1101"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01101] For method buildProcessorNode list of called methods Object monObjet|V stateFactories_getN527999|java.lang.String ProcessorStateManager_storeChangelogTopicN528454|S stateStoreFactory_buildN528780|V globalStateStores_getN528966"
+ , "c3" : "QC-JAV000007[01101] For method buildProcessorNode list of called methods Object monObjet|V stateFactories_getN528623|java.lang.String ProcessorStateManager_storeChangelogTopicN529078|S stateStoreFactory_buildN529404|V globalStateStores_getN529590"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2584,28 +2584,28 @@ var maDataBlocs = {
  , "c1" : "01118"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01118] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildProcessorNode@POLYN526921 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01118] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildProcessorNode@POLYN527545 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01134"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01134] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildProcessorNode@POLYN526921 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01134] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildProcessorNode@POLYN527545 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01146"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01146] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.globalStateStores@POLYN529418 the MagicNumber/String  'topology has not completed optimization' should be converted to const"
+ , "c3" : "QC-JAV000010[01146] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.globalStateStores@POLYN530042 the MagicNumber/String  'topology has not completed optimization' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01152"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01152] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.allStateStoreNames@POLYN529659 the MagicNumber/String  'topology has not completed optimization' should be converted to const"
+ , "c3" : "QC-JAV000010[01152] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.allStateStoreNames@POLYN530283 the MagicNumber/String  'topology has not completed optimization' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2626,7 +2626,7 @@ var maDataBlocs = {
  , "c1" : "01173"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1173"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01173] For method subtopologyToTopicsInfo list of called methods Object monObjet|java.util.Map makeNodeGroupsN530862|V nodeToSourceTopics_getN531690|java.lang.String decorateTopicN532132|org.apache.kafka.streams.processor.internals.RepartitionTopicConfig buildRepartitionTopicConfigN532223|V nodeToSinkTopic_getN532698|V storeToChangelogTopic_getN533457"
+ , "c3" : "QC-JAV000007[01173] For method subtopologyToTopicsInfo list of called methods Object monObjet|java.util.Map makeNodeGroupsN531486|V nodeToSourceTopics_getN532314|java.lang.String decorateTopicN532756|org.apache.kafka.streams.processor.internals.RepartitionTopicConfig buildRepartitionTopicConfigN532847|V nodeToSinkTopic_getN533322|V storeToChangelogTopic_getN534081"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2808,21 +2808,21 @@ var maDataBlocs = {
  , "c1" : "01176"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01176] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.subtopologyToTopicsInfo@POLYN530589 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01176] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.subtopologyToTopicsInfo@POLYN531213 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01188"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01188] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.subtopologyToTopicsInfo@POLYN530589 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01188] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.subtopologyToTopicsInfo@POLYN531213 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01214"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01214] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.subtopologyToTopicsInfo@POLYN530589 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01214] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.subtopologyToTopicsInfo@POLYN531213 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2843,14 +2843,14 @@ var maDataBlocs = {
  , "c1" : "01258"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1258"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01258] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildRepartitionTopicConfig@POLYN534636 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01258] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildRepartitionTopicConfig@POLYN535260 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01262"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1262"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01262] For method setRegexMatchedTopicsToSourceNodes list of called methods Object monObjet|java.util.List sourceNode_getTopicsN535521"
+ , "c3" : "QC-JAV000007[01262] For method setRegexMatchedTopicsToSourceNodes list of called methods Object monObjet|java.util.List sourceNode_getTopicsN536145"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2878,14 +2878,14 @@ var maDataBlocs = {
  , "c1" : "01271"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1271"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01271] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.setRegexMatchedTopicsToSourceNodes@POLYN535098 the MagicNumber/String  'Updated nodeToSourceTopics: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01271] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.setRegexMatchedTopicsToSourceNodes@POLYN535722 the MagicNumber/String  'Updated nodeToSourceTopics: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01275"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1275"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01275] For method setRegexMatchedTopicToStateStore list of called methods Object monObjet|V stateStoreNameToRawSourceTopicNames_getN536733"
+ , "c3" : "QC-JAV000007[01275] For method setRegexMatchedTopicToStateStore list of called methods Object monObjet|V stateStoreNameToRawSourceTopicNames_getN537357"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2927,7 +2927,7 @@ var maDataBlocs = {
  , "c1" : "01288"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1288"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01288] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.setRegexMatchedTopicToStateStore@POLYN535850 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01288] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.setRegexMatchedTopicToStateStore@POLYN536474 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2948,14 +2948,14 @@ var maDataBlocs = {
  , "c1" : "01326"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1326"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01326] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.offsetResetStrategy@POLYN538020 the MagicNumber/String  'Unable to lookup offset reset strategy for the following topic as it does not exist in the topology%s: %s' should be converted to const"
+ , "c3" : "QC-JAV000010[01326] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.offsetResetStrategy@POLYN538644 the MagicNumber/String  'Unable to lookup offset reset strategy for the following topic as it does not exist in the topology%s: %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01327"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1327"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01327] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.offsetResetStrategy@POLYN538020 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[01327] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.offsetResetStrategy@POLYN538644 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2976,7 +2976,7 @@ var maDataBlocs = {
  , "c1" : "01353"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1353"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01353] For method copartitionGroups list of called methods Object monObjet|V topicsToCopartitionGroup_getN541239"
+ , "c3" : "QC-JAV000007[01353] For method copartitionGroups list of called methods Object monObjet|V topicsToCopartitionGroup_getN541863"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3004,28 +3004,28 @@ var maDataBlocs = {
  , "c1" : "01368"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1368"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01368] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.copartitionGroups@POLYN540212 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01368] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.copartitionGroups@POLYN540836 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01369"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1369"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01369] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.copartitionGroups@POLYN540212 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01369] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.copartitionGroups@POLYN540836 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01372"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1372"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01372] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.copartitionGroups@POLYN540212 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01372] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.copartitionGroups@POLYN540836 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01376"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1376"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01376] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.copartitionGroups@POLYN540212 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01376] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.copartitionGroups@POLYN540836 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3039,7 +3039,7 @@ var maDataBlocs = {
  , "c1" : "01390"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1390"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01390] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.maybeDecorateInternalSourceTopics@POLYN542155 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01390] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.maybeDecorateInternalSourceTopics@POLYN542779 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3060,112 +3060,112 @@ var maDataBlocs = {
  , "c1" : "01409"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1409"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01409] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.decorateTopic@POLYN543031 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01409] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.decorateTopic@POLYN543655 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01410"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1410"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01410] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.decorateTopic@POLYN543031 the MagicNumber/String  'there are internal topics and ' should be converted to const"
+ , "c3" : "QC-JAV000010[01410] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.decorateTopic@POLYN543655 the MagicNumber/String  'there are internal topics and ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01411"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1411"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01411] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.decorateTopic@POLYN543031 the MagicNumber/String  'applicationId hasn't been set. Call ' should be converted to const"
+ , "c3" : "QC-JAV000010[01411] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.decorateTopic@POLYN543655 the MagicNumber/String  'applicationId hasn't been set. Call ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01412"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1412"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01412] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.decorateTopic@POLYN543031 the MagicNumber/String  'setApplicationId first' should be converted to const"
+ , "c3" : "QC-JAV000010[01412] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.decorateTopic@POLYN543655 the MagicNumber/String  'setApplicationId first' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01414"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1414"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01414] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.decorateTopic@POLYN543031 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01414] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.decorateTopic@POLYN543655 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01419"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1419"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01419] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.decorateTopic@POLYN543031 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[01419] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.decorateTopic@POLYN543655 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01419"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1419"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01419] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.decorateTopic@POLYN543031 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[01419] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.decorateTopic@POLYN543655 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01421"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1421"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01421] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.decorateTopic@POLYN543031 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[01421] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.decorateTopic@POLYN543655 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01426"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1426"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01426] For method initializeSubscription list of called methods Object monObjet|java.lang.String buildSourceTopicsPatternStringN544001|java.util.List maybeDecorateInternalSourceTopicsN544159"
+ , "c3" : "QC-JAV000007[01426] For method initializeSubscription list of called methods Object monObjet|java.lang.String buildSourceTopicsPatternStringN544625|java.util.List maybeDecorateInternalSourceTopicsN544783"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01428"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1428"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01428] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.initializeSubscription@POLYN543797 the MagicNumber/String  'Found pattern subscribed source topics, initializing consumer's subscription pattern.' should be converted to const"
+ , "c3" : "QC-JAV000010[01428] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.initializeSubscription@POLYN544421 the MagicNumber/String  'Found pattern subscribed source topics, initializing consumer's subscription pattern.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01431"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1431"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01431] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.initializeSubscription@POLYN543797 the MagicNumber/String  'No source topics using pattern subscription found, initializing consumer's subscription collection.' should be converted to const"
+ , "c3" : "QC-JAV000010[01431] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.initializeSubscription@POLYN544421 the MagicNumber/String  'No source topics using pattern subscription found, initializing consumer's subscription collection.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01437"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1437"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01437] For method buildSourceTopicsPatternString list of called methods Object monObjet|java.util.List maybeDecorateInternalSourceTopicsN544398"
+ , "c3" : "QC-JAV000007[01437] For method buildSourceTopicsPatternString list of called methods Object monObjet|java.util.List maybeDecorateInternalSourceTopicsN545022"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01444"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1444"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01444] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildSourceTopicsPatternString@POLYN544297 the MagicNumber/String  '|' should be converted to const"
+ , "c3" : "QC-JAV000010[01444] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildSourceTopicsPatternString@POLYN544921 the MagicNumber/String  '|' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01448"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1448"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01448] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildSourceTopicsPatternString@POLYN544297 the MagicNumber/String  '|' should be converted to const"
+ , "c3" : "QC-JAV000010[01448] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildSourceTopicsPatternString@POLYN544921 the MagicNumber/String  '|' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01451"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1451"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01451] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildSourceTopicsPatternString@POLYN544297 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01451] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildSourceTopicsPatternString@POLYN544921 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01452"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1452"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01452] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildSourceTopicsPatternString@POLYN544297 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01452] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildSourceTopicsPatternString@POLYN544921 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3179,14 +3179,14 @@ var maDataBlocs = {
  , "c1" : "01465"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1465"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01465] For method fullSourceTopicNames list of called methods Object monObjet|java.util.List maybeDecorateInternalSourceTopicsN545660"
+ , "c3" : "QC-JAV000007[01465] For method fullSourceTopicNames list of called methods Object monObjet|java.util.List maybeDecorateInternalSourceTopicsN546284"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01466"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1466"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01466] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.fullSourceTopicNames@POLYN545513 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01466] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.fullSourceTopicNames@POLYN546137 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3200,14 +3200,14 @@ var maDataBlocs = {
  , "c1" : "01473"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1473"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01473] For method sourceTopicPatternString list of called methods Object monObjet|java.lang.String buildSourceTopicsPatternStringN545978"
+ , "c3" : "QC-JAV000007[01473] For method sourceTopicPatternString list of called methods Object monObjet|java.lang.String buildSourceTopicsPatternStringN546602"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01476"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1476"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01476] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.sourceTopicPatternString@POLYN545831 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01476] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.sourceTopicPatternString@POLYN546455 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3228,42 +3228,42 @@ var maDataBlocs = {
  , "c1" : "01496"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1496"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01496] For method isGlobalSource list of called methods Object monObjet|V nodeFactories_getN546883"
+ , "c3" : "QC-JAV000007[01496] For method isGlobalSource list of called methods Object monObjet|V nodeFactories_getN547507"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01501"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1501"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01501] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.isGlobalSource@POLYN546733 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01501] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.isGlobalSource@POLYN547357 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01501"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1501"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01501] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.isGlobalSource@POLYN546733 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01501] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.isGlobalSource@POLYN547357 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01501"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1501"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01501] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.isGlobalSource@POLYN546733 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01501] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.isGlobalSource@POLYN547357 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01503"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1503"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01503] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.isGlobalSource@POLYN546733 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01503] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.isGlobalSource@POLYN547357 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01506"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1506"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01506] For method describe list of called methods Object monObjet|boolean nodeGroupContainsGlobalSourceNodeN547896"
+ , "c3" : "QC-JAV000007[01506] For method describe list of called methods Object monObjet|boolean nodeGroupContainsGlobalSourceNodeN548520"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3319,7 +3319,7 @@ var maDataBlocs = {
  , "c1" : "01540"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1540"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01540] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.describeGlobalStore@POLYN548322 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01540] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.describeGlobalStore@POLYN548946 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3333,14 +3333,14 @@ var maDataBlocs = {
  , "c1" : "01551"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1551"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01551] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.nodeGroupContainsGlobalSourceNode@POLYN549429 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01551] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.nodeGroupContainsGlobalSourceNode@POLYN550053 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01554"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1554"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01554] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.nodeGroupContainsGlobalSourceNode@POLYN549429 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01554] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.nodeGroupContainsGlobalSourceNode@POLYN550053 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3368,7 +3368,7 @@ var maDataBlocs = {
  , "c1" : "01563"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1563"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01563] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.NodeComparator.compare@POLYN549867 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01563] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.NodeComparator.compare@POLYN550491 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3403,7 +3403,7 @@ var maDataBlocs = {
  , "c1" : "01589"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1589"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01589] For method describeSubtopology list of called methods Object monObjet|V nodesByName_getN551845"
+ , "c3" : "QC-JAV000007[01589] For method describeSubtopology list of called methods Object monObjet|V nodesByName_getN552469"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3438,49 +3438,49 @@ var maDataBlocs = {
  , "c1" : "01625"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1625"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01625] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.GlobalStore.GlobalStore@POLYN552545 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01625] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.GlobalStore.GlobalStore@POLYN553169 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01649"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1649"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01649] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.GlobalStore.toString@POLYN553613 the MagicNumber/String  'Sub-topology: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01649] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.GlobalStore.toString@POLYN554237 the MagicNumber/String  'Sub-topology: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01649"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1649"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01649] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.GlobalStore.toString@POLYN553613 the MagicNumber/String  ' for global store (will not generate tasks)\n' should be converted to const"
+ , "c3" : "QC-JAV000010[01649] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.GlobalStore.toString@POLYN554237 the MagicNumber/String  ' for global store (will not generate tasks)\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01650"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1650"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01650] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.GlobalStore.toString@POLYN553613 the MagicNumber/String  '    ' should be converted to const"
+ , "c3" : "QC-JAV000010[01650] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.GlobalStore.toString@POLYN554237 the MagicNumber/String  '    ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01650"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1650"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01650] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.GlobalStore.toString@POLYN553613 the MagicNumber/String  '\n' should be converted to const"
+ , "c3" : "QC-JAV000010[01650] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.GlobalStore.toString@POLYN554237 the MagicNumber/String  '\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01651"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1651"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01651] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.GlobalStore.toString@POLYN553613 the MagicNumber/String  '    ' should be converted to const"
+ , "c3" : "QC-JAV000010[01651] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.GlobalStore.toString@POLYN554237 the MagicNumber/String  '    ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01651"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1651"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01651] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.GlobalStore.toString@POLYN553613 the MagicNumber/String  '\n' should be converted to const"
+ , "c3" : "QC-JAV000010[01651] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.GlobalStore.toString@POLYN554237 the MagicNumber/String  '\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3501,35 +3501,35 @@ var maDataBlocs = {
  , "c1" : "01657"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1657"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01657] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.GlobalStore.equals@POLYN553941 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01657] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.GlobalStore.equals@POLYN554565 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01659"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1659"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01659] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.GlobalStore.equals@POLYN553941 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01659] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.GlobalStore.equals@POLYN554565 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01660"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1660"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01660] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.GlobalStore.equals@POLYN553941 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01660] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.GlobalStore.equals@POLYN554565 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01683"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1683"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01683] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.AbstractNode.AbstractNode@POLYN555114 the MagicNumber/String  'name cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[01683] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.AbstractNode.AbstractNode@POLYN555738 the MagicNumber/String  'name cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01685"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1685"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01685] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.AbstractNode.AbstractNode@POLYN555114 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01685] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.AbstractNode.AbstractNode@POLYN555738 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3550,42 +3550,42 @@ var maDataBlocs = {
  , "c1" : "01720"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1720"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01720] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.Source@POLYN556318 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01720] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.Source@POLYN556942 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01720"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1720"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01720] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.Source@POLYN556318 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01720] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.Source@POLYN556942 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01721"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1721"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01721] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.Source@POLYN556318 the MagicNumber/String  'Either topics or pattern must be not-null, but both are null.' should be converted to const"
+ , "c3" : "QC-JAV000010[01721] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.Source@POLYN556942 the MagicNumber/String  'Either topics or pattern must be not-null, but both are null.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01723"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1723"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01723] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.Source@POLYN556318 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01723] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.Source@POLYN556942 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01723"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1723"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01723] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.Source@POLYN556318 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01723] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.Source@POLYN556942 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01724"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1724"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01724] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.Source@POLYN556318 the MagicNumber/String  'Either topics or pattern must be null, but both are not null.' should be converted to const"
+ , "c3" : "QC-JAV000010[01724] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.Source@POLYN556942 the MagicNumber/String  'Either topics or pattern must be null, but both are not null.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3599,35 +3599,35 @@ var maDataBlocs = {
  , "c1" : "01743"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1743"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01743] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.addPredecessor@POLYN557275 the MagicNumber/String  'Sources don't have predecessors.' should be converted to const"
+ , "c3" : "QC-JAV000010[01743] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.addPredecessor@POLYN557899 the MagicNumber/String  'Sources don't have predecessors.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01748"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1748"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01748] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.toString@POLYN557444 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01748] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.toString@POLYN558068 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01750"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1750"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01750] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.toString@POLYN557444 the MagicNumber/String  'Source: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01750] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.toString@POLYN558068 the MagicNumber/String  'Source: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01750"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1750"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01750] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.toString@POLYN557444 the MagicNumber/String  ' (topics: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01750] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.toString@POLYN558068 the MagicNumber/String  ' (topics: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01750"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1750"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01750] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.toString@POLYN557444 the MagicNumber/String  ')\n      --&amp;gt; ' should be converted to const"
+ , "c3" : "QC-JAV000010[01750] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.toString@POLYN558068 the MagicNumber/String  ')\n      --&amp;gt; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3648,63 +3648,63 @@ var maDataBlocs = {
  , "c1" : "01756"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1756"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01756] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.equals@POLYN557859 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01756] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.equals@POLYN558483 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01758"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1758"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01758] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.equals@POLYN557859 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01758] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.equals@POLYN558483 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01759"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1759"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01759] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.equals@POLYN557859 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01759] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.equals@POLYN558483 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01766"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1766"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01766] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.equals@POLYN557859 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01766] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.equals@POLYN558483 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01767"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1767"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01767] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.equals@POLYN557859 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01767] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Source.equals@POLYN558483 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01794"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1794"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01794] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Processor.toString@POLYN559451 the MagicNumber/String  'Processor: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01794] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Processor.toString@POLYN560075 the MagicNumber/String  'Processor: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01794"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1794"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01794] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Processor.toString@POLYN559451 the MagicNumber/String  ' (stores: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01794] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Processor.toString@POLYN560075 the MagicNumber/String  ' (stores: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01794"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1794"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01794] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Processor.toString@POLYN559451 the MagicNumber/String  ')\n      --&amp;gt; ' should be converted to const"
+ , "c3" : "QC-JAV000010[01794] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Processor.toString@POLYN560075 the MagicNumber/String  ')\n      --&amp;gt; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01795"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1795"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01795] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Processor.toString@POLYN559451 the MagicNumber/String  '\n      &amp;lt;-- ' should be converted to const"
+ , "c3" : "QC-JAV000010[01795] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Processor.toString@POLYN560075 the MagicNumber/String  '\n      &amp;lt;-- ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3725,35 +3725,35 @@ var maDataBlocs = {
  , "c1" : "01801"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1801"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01801] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Processor.equals@POLYN559775 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01801] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Processor.equals@POLYN560399 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01803"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1803"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01803] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Processor.equals@POLYN559775 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01803] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Processor.equals@POLYN560399 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01804"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1804"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01804] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Processor.equals@POLYN559775 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01804] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Processor.equals@POLYN560399 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01840"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1840"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01840] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.topic@POLYN561322 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01840] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.topic@POLYN561946 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01847"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1847"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01847] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.topicNameExtractor@POLYN561671 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01847] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.topicNameExtractor@POLYN562295 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3767,49 +3767,49 @@ var maDataBlocs = {
  , "c1" : "01855"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1855"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01855] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.addSuccessor@POLYN561885 the MagicNumber/String  'Sinks don't have successors.' should be converted to const"
+ , "c3" : "QC-JAV000010[01855] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.addSuccessor@POLYN562509 the MagicNumber/String  'Sinks don't have successors.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01861"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1861"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01861] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.toString@POLYN562054 the MagicNumber/String  'Sink: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01861] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.toString@POLYN562678 the MagicNumber/String  'Sink: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01861"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1861"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01861] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.toString@POLYN562054 the MagicNumber/String  ' (topic: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01861] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.toString@POLYN562678 the MagicNumber/String  ' (topic: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01861"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1861"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01861] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.toString@POLYN562054 the MagicNumber/String  ')\n      &amp;lt;-- ' should be converted to const"
+ , "c3" : "QC-JAV000010[01861] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.toString@POLYN562678 the MagicNumber/String  ')\n      &amp;lt;-- ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01863"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1863"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01863] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.toString@POLYN562054 the MagicNumber/String  'Sink: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01863] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.toString@POLYN562678 the MagicNumber/String  'Sink: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01863"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1863"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01863] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.toString@POLYN562054 the MagicNumber/String  ' (extractor class: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01863] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.toString@POLYN562678 the MagicNumber/String  ' (extractor class: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01863"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1863"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01863] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.toString@POLYN562054 the MagicNumber/String  ')\n      &amp;lt;-- ' should be converted to const"
+ , "c3" : "QC-JAV000010[01863] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.toString@POLYN562678 the MagicNumber/String  ')\n      &amp;lt;-- ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3830,21 +3830,21 @@ var maDataBlocs = {
  , "c1" : "01871"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1871"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01871] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.equals@POLYN562606 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01871] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.equals@POLYN563230 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01873"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1873"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01873] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.equals@POLYN562606 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01873] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.equals@POLYN563230 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01874"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1874"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01874] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.equals@POLYN562606 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01874] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.equals@POLYN563230 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3858,35 +3858,35 @@ var maDataBlocs = {
  , "c1" : "01917"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1917"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01917] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SubtopologyDescription.toString@POLYN564485 the MagicNumber/String  'Sub-topology: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01917] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SubtopologyDescription.toString@POLYN565109 the MagicNumber/String  'Sub-topology: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01917"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1917"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01917] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SubtopologyDescription.toString@POLYN564485 the MagicNumber/String  '\n' should be converted to const"
+ , "c3" : "QC-JAV000010[01917] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SubtopologyDescription.toString@POLYN565109 the MagicNumber/String  '\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01917"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1917"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01917] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SubtopologyDescription.toString@POLYN564485 the MagicNumber/String  '\n' should be converted to const"
+ , "c3" : "QC-JAV000010[01917] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SubtopologyDescription.toString@POLYN565109 the MagicNumber/String  '\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01923"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1923"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01923] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SubtopologyDescription.nodesAsString@POLYN564677 the MagicNumber/String  '    ' should be converted to const"
+ , "c3" : "QC-JAV000010[01923] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SubtopologyDescription.nodesAsString@POLYN565301 the MagicNumber/String  '    ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01925"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1925"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01925] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SubtopologyDescription.nodesAsString@POLYN564677 the MagicNumber/String  '\n' should be converted to const"
+ , "c3" : "QC-JAV000010[01925] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SubtopologyDescription.nodesAsString@POLYN565301 the MagicNumber/String  '\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3907,21 +3907,21 @@ var maDataBlocs = {
  , "c1" : "01933"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1933"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01933] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SubtopologyDescription.equals@POLYN565181 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01933] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SubtopologyDescription.equals@POLYN565805 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01935"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1935"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01935] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SubtopologyDescription.equals@POLYN565181 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01935] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SubtopologyDescription.equals@POLYN565805 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01936"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1936"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01936] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SubtopologyDescription.equals@POLYN565181 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01936] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SubtopologyDescription.equals@POLYN565805 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3935,63 +3935,63 @@ var maDataBlocs = {
  , "c1" : "01993"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1993"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01993] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopicsInfo.equals@POLYN567750 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01993] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopicsInfo.equals@POLYN568374 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01999"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1999"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01999] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopicsInfo.hashCode@POLYN568192 the MagicNumber/String  32 should be converted to const"
+ , "c3" : "QC-JAV000010[01999] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopicsInfo.hashCode@POLYN568816 the MagicNumber/String  32 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02000"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2000"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02000] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopicsInfo.hashCode@POLYN568192 the MagicNumber/String  0xFFFFFFFFL should be converted to const"
+ , "c3" : "QC-JAV000010[02000] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopicsInfo.hashCode@POLYN568816 the MagicNumber/String  0xFFFFFFFFL should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02005"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2005"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02005] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopicsInfo.toString@POLYN568563 the MagicNumber/String  'TopicsInfo{' should be converted to const"
+ , "c3" : "QC-JAV000010[02005] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopicsInfo.toString@POLYN569187 the MagicNumber/String  'TopicsInfo{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02006"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2006"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02006] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopicsInfo.toString@POLYN568563 the MagicNumber/String  'sinkTopics=' should be converted to const"
+ , "c3" : "QC-JAV000010[02006] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopicsInfo.toString@POLYN569187 the MagicNumber/String  'sinkTopics=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02007"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2007"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02007] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopicsInfo.toString@POLYN568563 the MagicNumber/String  ', sourceTopics=' should be converted to const"
+ , "c3" : "QC-JAV000010[02007] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopicsInfo.toString@POLYN569187 the MagicNumber/String  ', sourceTopics=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02008"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2008"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02008] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopicsInfo.toString@POLYN568563 the MagicNumber/String  ', repartitionSourceTopics=' should be converted to const"
+ , "c3" : "QC-JAV000010[02008] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopicsInfo.toString@POLYN569187 the MagicNumber/String  ', repartitionSourceTopics=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02009"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2009"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02009] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopicsInfo.toString@POLYN568563 the MagicNumber/String  ', stateChangelogTopics=' should be converted to const"
+ , "c3" : "QC-JAV000010[02009] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopicsInfo.toString@POLYN569187 the MagicNumber/String  ', stateChangelogTopics=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02010"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2010"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02010] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopicsInfo.toString@POLYN568563 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[02010] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopicsInfo.toString@POLYN569187 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4019,7 +4019,7 @@ var maDataBlocs = {
  , "c1" : "02019"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2019"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02019] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.GlobalStoreComparator.compare@POLYN568968 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02019] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.GlobalStoreComparator.compare@POLYN569592 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4047,14 +4047,14 @@ var maDataBlocs = {
  , "c1" : "02032"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2032"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02032] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SubtopologyComparator.compare@POLYN569515 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02032] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.SubtopologyComparator.compare@POLYN570139 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02046"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2046"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02046] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.TopologyDescription@POLYN570374 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02046] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.TopologyDescription@POLYN570998 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4103,112 +4103,112 @@ var maDataBlocs = {
  , "c1" : "02075"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2075"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02075] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571249 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02075] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571873 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02076"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2076"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02076] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571249 the MagicNumber/String  'Topologies:\n ' should be converted to const"
+ , "c3" : "QC-JAV000010[02076] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571873 the MagicNumber/String  'Topologies:\n ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02078"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2078"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02078] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571249 the MagicNumber/String  'Topology: ' should be converted to const"
+ , "c3" : "QC-JAV000010[02078] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571873 the MagicNumber/String  'Topology: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02078"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2078"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02078] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571249 the MagicNumber/String  ':\n ' should be converted to const"
+ , "c3" : "QC-JAV000010[02078] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571873 the MagicNumber/String  ':\n ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02081"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2081"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02081] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571249 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02081] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571873 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02083"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2083"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02083] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571249 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02083] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571873 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02084"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2084"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02084] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571249 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02084] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571873 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02085"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2085"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02085] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571249 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02085] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571873 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02086"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2086"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02086] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571249 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02086] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571873 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02087"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2087"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02087] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571249 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02087] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571873 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02087"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2087"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02087] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571249 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02087] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571873 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02088"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2088"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02088] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571249 the MagicNumber/String  '  ' should be converted to const"
+ , "c3" : "QC-JAV000010[02088] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571873 the MagicNumber/String  '  ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02100"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02100] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571249 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02100] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571873 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02102"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02102] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571249 the MagicNumber/String  '  ' should be converted to const"
+ , "c3" : "QC-JAV000010[02102] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571873 the MagicNumber/String  '  ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02106"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02106] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571249 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02106] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571873 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02108] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571249 the MagicNumber/String  '  ' should be converted to const"
+ , "c3" : "QC-JAV000010[02108] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.toString@POLYN571873 the MagicNumber/String  '  ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4229,21 +4229,21 @@ var maDataBlocs = {
  , "c1" : "02118"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02118] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.equals@POLYN573849 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[02118] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.equals@POLYN574473 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02120"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02120] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.equals@POLYN573849 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02120] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.equals@POLYN574473 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02121"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02121] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.equals@POLYN573849 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[02121] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopologyDescription.equals@POLYN574473 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4264,28 +4264,28 @@ var maDataBlocs = {
  , "c1" : "02141"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02141] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.nodeNames@POLYN574618 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[02141] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.nodeNames@POLYN575242 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02143] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.nodeNames@POLYN574618 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02143] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.nodeNames@POLYN575242 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02144"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02144] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.nodeNames@POLYN574618 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02144] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.nodeNames@POLYN575242 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02146"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02146] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.nodeNames@POLYN574618 the MagicNumber/String  'none' should be converted to const"
+ , "c3" : "QC-JAV000010[02146] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.nodeNames@POLYN575242 the MagicNumber/String  'none' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4306,7 +4306,7 @@ var maDataBlocs = {
  , "c1" : "02159"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2159"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02159] For method addSubscribedTopicsFromAssignment list of called methods Object monObjet|java.util.Set subscriptionUpdatesN576240"
+ , "c3" : "QC-JAV000007[02159] For method addSubscribedTopicsFromAssignment list of called methods Object monObjet|java.util.Set subscriptionUpdatesN576864"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4341,7 +4341,7 @@ var maDataBlocs = {
  , "c1" : "02185"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02185] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.updateSubscribedTopics@POLYN576882 the MagicNumber/String  '{}found {} topics possibly matching subscription' should be converted to const"
+ , "c3" : "QC-JAV000010[02185] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.updateSubscribedTopics@POLYN577506 the MagicNumber/String  '{}found {} topics possibly matching subscription' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4355,7 +4355,7 @@ var maDataBlocs = {
  , "c1" : "02199"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02199] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.hasNamedTopology@POLYN577677 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02199] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.hasNamedTopology@POLYN578301 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4593,42 +4593,42 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.updateSubscribedTopics@POLYN576882"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.updateSubscribedTopics@POLYN577506"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.updateSize@POLYN550696"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.updateSize@POLYN551320"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopicsInfo.hashCode@POLYN568192"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopicsInfo.hashCode@POLYN568816"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02185"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2185"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[02185] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.updateSubscribedTopics@POLYN576882 the MagicNumber/String '{}found {} topics possibly matching subscription' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[02185] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.updateSubscribedTopics@POLYN577506 the MagicNumber/String '{}found {} topics possibly matching subscription' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01999"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1999"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01999] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopicsInfo.hashCode@POLYN568192 the MagicNumber/String 32 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01999] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopicsInfo.hashCode@POLYN568816 the MagicNumber/String 32 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02000"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2000"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[02000] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopicsInfo.hashCode@POLYN568192 the MagicNumber/String 0xFFFFFFFFL MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[02000] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.TopicsInfo.hashCode@POLYN568816 the MagicNumber/String 0xFFFFFFFFL MUST BE CONVERTED to const"
 }} 
 ]
 , 

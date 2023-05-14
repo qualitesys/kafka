@@ -145,7 +145,7 @@ var maDataBlocs = {
  , "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RoundRobinAssignor.java.html#104"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00104] For method assign list of called methods Object monObjet|java.lang.String partition_topicN189645"
+ , "c3" : "QC-JAV000007[00104] For method assign list of called methods Object monObjet|java.lang.String partition_topicN190269"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -173,7 +173,7 @@ var maDataBlocs = {
  , "c1" : "00125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RoundRobinAssignor.java.html#125"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00125] For method allPartitionsSorted list of called methods Object monObjet|V partitionsPerTopic_getN190772"
+ , "c3" : "QC-JAV000007[00125] For method allPartitionsSorted list of called methods Object monObjet|V partitionsPerTopic_getN191396"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -201,14 +201,14 @@ var maDataBlocs = {
  , "c1" : "00134"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RoundRobinAssignor.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.clients.consumer.RoundRobinAssignor.allPartitionsSorted@POLYN190122 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.clients.consumer.RoundRobinAssignor.allPartitionsSorted@POLYN190746 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RoundRobinAssignor.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.RoundRobinAssignor.assign@POLYN188432"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.RoundRobinAssignor.assign@POLYN189056"
 }} 
 ]
 , 

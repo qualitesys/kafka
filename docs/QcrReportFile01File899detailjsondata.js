@@ -117,7 +117,7 @@ var maDataBlocs = {
  , "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.utils.FixedOrderMap.removeEldestEntry@POLYN147003 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.utils.FixedOrderMap.removeEldestEntry@POLYN147627 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -131,7 +131,7 @@ var maDataBlocs = {
  , "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.utils.FixedOrderMap.remove@POLYN147189 the MagicNumber/String  'Removing from registeredStores is not allowed' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.utils.FixedOrderMap.remove@POLYN147813 the MagicNumber/String  'Removing from registeredStores is not allowed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -145,7 +145,7 @@ var maDataBlocs = {
  , "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.utils.FixedOrderMap.remove@POLYN147368 the MagicNumber/String  'Removing from registeredStores is not allowed' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.utils.FixedOrderMap.remove@POLYN147992 the MagicNumber/String  'Removing from registeredStores is not allowed' should be converted to const"
 }} 
 ]
 , 

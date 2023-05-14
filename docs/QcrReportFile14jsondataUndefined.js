@@ -5877,6 +5877,12 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.jmh.common.FetchRequestBenchmark"} ,
    {"caller" : "org.apache.kafka.jmh.common.FetchResponseBenchmark"} ,
    ]},
+   { "undefinedclass" : "org.apache.kafka.common.utils.FlattenedIterator" , "callers" : [
+   {"caller" : "org.apache.kafka.common.requests.LeaderAndIsrRequest"} ,
+   {"caller" : "org.apache.kafka.common.requests.LeaderAndIsrRequest.Builder"} ,
+   {"caller" : "org.apache.kafka.common.requests.UpdateMetadataRequest"} ,
+   {"caller" : "org.apache.kafka.common.requests.UpdateMetadataRequest.Builder"} ,
+   ]},
    { "undefinedclass" : "org.apache.kafka.connect.connector.ConnectRecord" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.ConnectorConfig"} ,
    {"caller" : "org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin"} ,

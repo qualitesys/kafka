@@ -117,7 +117,7 @@ var maDataBlocs = {
  , "c1" : "00080"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00080] For method setup list of called methods Object monObjet|org.apache.kafka.common.record.MemoryRecords MemoryRecords_withRecordsN166787|org.apache.kafka.common.Uuid Uuid_randomUuidN168270|org.apache.kafka.common.requests.FetchResponse FetchResponse_ofN169371"
+ , "c3" : "QC-JAV000007[00080] For method setup list of called methods Object monObjet|org.apache.kafka.common.record.MemoryRecords MemoryRecords_withRecordsN167411|org.apache.kafka.common.Uuid Uuid_randomUuidN168894|org.apache.kafka.common.requests.FetchResponse FetchResponse_ofN169995"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -152,140 +152,140 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN166716 the MagicNumber/String  1000 should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN167340 the MagicNumber/String  1000 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN166716 the MagicNumber/String  'key1' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN167340 the MagicNumber/String  'key1' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN166716 the MagicNumber/String  'value1' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN167340 the MagicNumber/String  'value1' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN166716 the MagicNumber/String  1001 should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN167340 the MagicNumber/String  1001 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN166716 the MagicNumber/String  'key2' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN167340 the MagicNumber/String  'key2' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN166716 the MagicNumber/String  'value2' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN167340 the MagicNumber/String  'value2' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00084"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN166716 the MagicNumber/String  1002 should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN167340 the MagicNumber/String  1002 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00084"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN166716 the MagicNumber/String  'key3' should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN167340 the MagicNumber/String  'key3' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00084"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN166716 the MagicNumber/String  'value3' should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN167340 the MagicNumber/String  'value3' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN166716 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN167340 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00094"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN166716 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN167340 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00097"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN166716 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN167340 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN166716 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN167340 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN166716 the MagicNumber/String  100 should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN167340 the MagicNumber/String  100 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN166716 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN167340 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN166716 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.setup@POLYN167340 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#110"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00110] For method testConstructFetchResponse list of called methods Object monObjet|org.apache.kafka.common.requests.FetchResponse FetchResponse_ofN169704"
+ , "c3" : "QC-JAV000007[00110] For method testConstructFetchResponse list of called methods Object monObjet|org.apache.kafka.common.requests.FetchResponse FetchResponse_ofN170328"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.testConstructFetchResponse@POLYN169629 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.testConstructFetchResponse@POLYN170253 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.testConstructFetchResponse@POLYN169629 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.testConstructFetchResponse@POLYN170253 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00121"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#121"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00121] For method testSerializeFetchResponse list of called methods Object monObjet|org.apache.kafka.common.network.Send fetchResponse_toSendN170295"
+ , "c3" : "QC-JAV000007[00121] For method testSerializeFetchResponse list of called methods Object monObjet|org.apache.kafka.common.network.Send fetchResponse_toSendN170919"
 }} 
 ]
 , 

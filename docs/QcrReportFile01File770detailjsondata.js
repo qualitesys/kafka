@@ -405,56 +405,56 @@ var maDataBlocs = {
  , "c1" : "00166"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.SaslServerAuthenticator@POLYN260749 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.SaslServerAuthenticator@POLYN261373 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00175"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.SaslServerAuthenticator@POLYN260749 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.SaslServerAuthenticator@POLYN261373 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.SaslServerAuthenticator@POLYN260749 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.SaslServerAuthenticator@POLYN261373 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00178"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.SaslServerAuthenticator@POLYN260749 the MagicNumber/String  'No SASL mechanisms are enabled' should be converted to const"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.SaslServerAuthenticator@POLYN261373 the MagicNumber/String  'No SASL mechanisms are enabled' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00182"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.SaslServerAuthenticator@POLYN260749 the MagicNumber/String  'Callback handler not specified for SASL mechanism ' should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.SaslServerAuthenticator@POLYN261373 the MagicNumber/String  'Callback handler not specified for SASL mechanism ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00184"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.SaslServerAuthenticator@POLYN260749 the MagicNumber/String  'Subject cannot be null for SASL mechanism ' should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.SaslServerAuthenticator@POLYN261373 the MagicNumber/String  'Subject cannot be null for SASL mechanism ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00185"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.SaslServerAuthenticator@POLYN260749 the MagicNumber/String  '{} for mechanism={}: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.SaslServerAuthenticator@POLYN261373 the MagicNumber/String  '{} for mechanism={}: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00191"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.SaslServerAuthenticator@POLYN260749 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.SaslServerAuthenticator@POLYN261373 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -468,7 +468,7 @@ var maDataBlocs = {
  , "c1" : "00194"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#194"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00194] For method createSaslServer list of called methods Object monObjet|V subjects_getN263599|V callbackHandlers_getN263698|SaslServer createSaslKerberosServerN263887"
+ , "c3" : "QC-JAV000007[00194] For method createSaslServer list of called methods Object monObjet|V subjects_getN264223|V callbackHandlers_getN264322|SaslServer createSaslKerberosServerN264511"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -482,28 +482,28 @@ var maDataBlocs = {
  , "c1" : "00203"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.createSaslServer@POLYN263430 the MagicNumber/String  'kafka' should be converted to const"
+ , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.createSaslServer@POLYN264054 the MagicNumber/String  'kafka' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.createSaslServer@POLYN263430 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.createSaslServer@POLYN264054 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00205"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#205"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.createSaslServer@POLYN263430 the MagicNumber/String  'Kafka Server failed to create a SaslServer to interact with a client during session authentication with server mechanism ' should be converted to const"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.createSaslServer@POLYN264054 the MagicNumber/String  'Kafka Server failed to create a SaslServer to interact with a client during session authentication with server mechanism ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00208"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.createSaslServer@POLYN263430 the MagicNumber/String  'Kafka Server failed to create a SaslServer to interact with a client during session authentication with server mechanism ' should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.createSaslServer@POLYN264054 the MagicNumber/String  'Kafka Server failed to create a SaslServer to interact with a client during session authentication with server mechanism ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -517,98 +517,98 @@ var maDataBlocs = {
  , "c1" : "00213"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#213"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00213] For method createSaslKerberosServer list of called methods Object monObjet|java.lang.String SaslClientAuthenticator_firstPrincipalN264939|java.lang.String kerberosName_serviceNameN265323|java.lang.String kerberosName_hostNameN265403"
+ , "c3" : "QC-JAV000007[00213] For method createSaslKerberosServer list of called methods Object monObjet|java.lang.String SaslClientAuthenticator_firstPrincipalN265563|java.lang.String kerberosName_serviceNameN265947|java.lang.String kerberosName_hostNameN266027"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00220"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.createSaslKerberosServer@POLYN264738 the MagicNumber/String  'Principal has name with unexpected format ' should be converted to const"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.createSaslKerberosServer@POLYN265362 the MagicNumber/String  'Principal has name with unexpected format ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00225"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.createSaslKerberosServer@POLYN264738 the MagicNumber/String  'Creating SaslServer for {} with mechanism {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.createSaslKerberosServer@POLYN265362 the MagicNumber/String  'Creating SaslServer for {} with mechanism {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00231"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#231"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.createSaslKerberosServer@POLYN264738 the MagicNumber/String  'Kafka Server failed to create a SaslServer to interact with a client during session authentication' should be converted to const"
+ , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.createSaslKerberosServer@POLYN265362 the MagicNumber/String  'Kafka Server failed to create a SaslServer to interact with a client during session authentication' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00246"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.authenticate@POLYN266294 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.authenticate@POLYN266918 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00249"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#249"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.authenticate@POLYN266294 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.authenticate@POLYN266918 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00255"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#255"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.authenticate@POLYN266294 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.authenticate@POLYN266918 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00263"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#263"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.authenticate@POLYN266294 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.authenticate@POLYN266918 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00264"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.authenticate@POLYN266294 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.authenticate@POLYN266918 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00295"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#295"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.authenticate@POLYN266294 the MagicNumber/String  'Failed during {}: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.authenticate@POLYN266918 the MagicNumber/String  'Failed during {}: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00301"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#301"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00301] For method principal list of called methods Object monObjet|org.apache.kafka.common.security.auth.KafkaPrincipal principalBuilder_buildN269220"
+ , "c3" : "QC-JAV000007[00301] For method principal list of called methods Object monObjet|org.apache.kafka.common.security.auth.KafkaPrincipal principalBuilder_buildN269844"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00308"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#308"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.principal@POLYN268676 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.principal@POLYN269300 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00331"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#331"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.close@POLYN270122 the MagicNumber/String  'principal builder' should be converted to const"
+ , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.close@POLYN270746 the MagicNumber/String  'principal builder' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00332"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#332"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.close@POLYN270122 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.close@POLYN270746 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -622,7 +622,7 @@ var maDataBlocs = {
  , "c1" : "00337"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#337"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00337] For method reauthenticate list of called methods Object monObjet|org.apache.kafka.common.network.NetworkReceive reauthenticationContext_networkReceiveN270568"
+ , "c3" : "QC-JAV000007[00337] For method reauthenticate list of called methods Object monObjet|org.apache.kafka.common.network.NetworkReceive reauthenticationContext_networkReceiveN271192"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -636,21 +636,21 @@ var maDataBlocs = {
  , "c1" : "00339"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#339"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.reauthenticate@POLYN270463 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.reauthenticate@POLYN271087 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00341"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#341"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.reauthenticate@POLYN270463 the MagicNumber/String  'Invalid saslHandshakeReceive in server-side re-authentication context: null' should be converted to const"
+ , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.reauthenticate@POLYN271087 the MagicNumber/String  'Invalid saslHandshakeReceive in server-side re-authentication context: null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00347"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#347"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.reauthenticate@POLYN270463 the MagicNumber/String  'Beginning re-authentication: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.reauthenticate@POLYN271087 the MagicNumber/String  'Beginning re-authentication: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -664,7 +664,7 @@ var maDataBlocs = {
  , "c1" : "00369"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#369"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.setSaslState@POLYN271723 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.setSaslState@POLYN272347 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -678,49 +678,49 @@ var maDataBlocs = {
  , "c1" : "00373"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#373"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.setSaslState@POLYN271873 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.setSaslState@POLYN272497 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00378"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#378"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00378] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.setSaslState@POLYN271873 the MagicNumber/String  'Set SASL server state to {} during {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00378] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.setSaslState@POLYN272497 the MagicNumber/String  'Set SASL server state to {} during {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00379"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#379"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.setSaslState@POLYN271873 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.setSaslState@POLYN272497 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00380"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#380"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.setSaslState@POLYN271873 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.setSaslState@POLYN272497 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00381"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#381"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00381] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.setSaslState@POLYN271873 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00381] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.setSaslState@POLYN272497 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00386"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#386"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00386] For method flushNetOutBufferAndUpdateInterestOps list of called methods Object monObjet|boolean flushNetOutBufferN272734"
+ , "c3" : "QC-JAV000007[00386] For method flushNetOutBufferAndUpdateInterestOps list of called methods Object monObjet|boolean flushNetOutBufferN273358"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00390"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#390"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00390] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.flushNetOutBufferAndUpdateInterestOps@POLYN272647 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00390] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.flushNetOutBufferAndUpdateInterestOps@POLYN273271 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -734,98 +734,98 @@ var maDataBlocs = {
  , "c1" : "00411"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#411"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00411] For method handleSaslToken list of called methods Object monObjet|org.apache.kafka.common.network.ByteBufferSend ByteBufferSend_sizePrefixedN274304|org.apache.kafka.common.requests.RequestHeader RequestHeader_parseN274597|ApiKeys header_apiKeyN274691|short header_apiVersionN274766|org.apache.kafka.common.requests.RequestAndSize requestContext_parseRequestN275118"
+ , "c3" : "QC-JAV000007[00411] For method handleSaslToken list of called methods Object monObjet|org.apache.kafka.common.network.ByteBufferSend ByteBufferSend_sizePrefixedN274928|org.apache.kafka.common.requests.RequestHeader RequestHeader_parseN275221|ApiKeys header_apiKeyN275315|short header_apiVersionN275390|org.apache.kafka.common.requests.RequestAndSize requestContext_parseRequestN275742"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00419"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#419"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00429"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#429"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00429] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00429] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00432"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#432"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00432] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String  'Unexpected Kafka request of type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00432] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String  'Unexpected Kafka request of type ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00432"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#432"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00432] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String  ' during SASL authentication.' should be converted to const"
+ , "c3" : "QC-JAV000010[00432] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String  ' during SASL authentication.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00439"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#439"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00439] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String  'Version ' should be converted to const"
+ , "c3" : "QC-JAV000010[00439] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String  'Version ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00439"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#439"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00439] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String  ' is not supported for apiKey ' should be converted to const"
+ , "c3" : "QC-JAV000010[00439] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String  ' is not supported for apiKey ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00447"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#447"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00447] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00447] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00456"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#456"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00456] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00456] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00456"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#456"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00456] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00456] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00457"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#457"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00457] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00457] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00473"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#473"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00473] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00473] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00479"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#479"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00479] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String  'Authentication failed during ' should be converted to const"
+ , "c3" : "QC-JAV000010[00479] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String  'Authentication failed during ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00481"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#481"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00481] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String  ' due to invalid credentials with SASL mechanism ' should be converted to const"
+ , "c3" : "QC-JAV000010[00481] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String  ' due to invalid credentials with SASL mechanism ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -839,91 +839,91 @@ var maDataBlocs = {
  , "c1" : "00493"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#493"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00493] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00493] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00494"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#494"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00494] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00494] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00504"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#504"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00504] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00504] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00509"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#509"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String  'Unexpected Kafka request of type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String  'Unexpected Kafka request of type ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00509"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#509"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String  ' during SASL handshake.' should be converted to const"
+ , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String  ' during SASL handshake.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00511"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#511"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String  'Handling Kafka request {} during {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String  'Handling Kafka request {} during {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00515"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#515"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00515] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00515] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00529"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#529"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00529] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String  '%02x' should be converted to const"
+ , "c3" : "QC-JAV000010[00529] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String  '%02x' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00530"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#530"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String  20 should be converted to const"
+ , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String  20 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00533"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#533"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00533] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String  'Received client packet of length {} starting with bytes 0x{}, process as GSSAPI packet' should be converted to const"
+ , "c3" : "QC-JAV000010[00533] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String  'Received client packet of length {} starting with bytes 0x{}, process as GSSAPI packet' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00536"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#536"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00536] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String  'First client packet is not a SASL mechanism request, using default mechanism GSSAPI' should be converted to const"
+ , "c3" : "QC-JAV000010[00536] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String  'First client packet is not a SASL mechanism request, using default mechanism GSSAPI' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00539"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#539"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00539] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String  'Exception handling first SASL packet from client, GSSAPI is not supported by server' should be converted to const"
+ , "c3" : "QC-JAV000010[00539] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String  'Exception handling first SASL packet from client, GSSAPI is not supported by server' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00543"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#543"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00543] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00543] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -937,7 +937,7 @@ var maDataBlocs = {
  , "c1" : "00551"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#551"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00551] For method handleHandshakeRequest list of called methods Object monObjet|SaslHandshakeRequestData handshakeRequest_dataN281618|short context_header_apiVersionN281713"
+ , "c3" : "QC-JAV000007[00551] For method handleHandshakeRequest list of called methods Object monObjet|SaslHandshakeRequestData handshakeRequest_dataN282242|short context_header_apiVersionN282337"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -958,35 +958,35 @@ var maDataBlocs = {
  , "c1" : "00554"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#554"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00554] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleHandshakeRequest@POLYN281474 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00554] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleHandshakeRequest@POLYN282098 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00555"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#555"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00555] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleHandshakeRequest@POLYN281474 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00555] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleHandshakeRequest@POLYN282098 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00557"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#557"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00557] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleHandshakeRequest@POLYN281474 the MagicNumber/String  'Using SASL mechanism '{}' provided by client' should be converted to const"
+ , "c3" : "QC-JAV000010[00557] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleHandshakeRequest@POLYN282098 the MagicNumber/String  'Using SASL mechanism '{}' provided by client' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00562"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#562"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00562] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleHandshakeRequest@POLYN281474 the MagicNumber/String  'SASL mechanism '{}' requested by client is not supported' should be converted to const"
+ , "c3" : "QC-JAV000010[00562] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleHandshakeRequest@POLYN282098 the MagicNumber/String  'SASL mechanism '{}' requested by client is not supported' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00565"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#565"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00565] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleHandshakeRequest@POLYN281474 the MagicNumber/String  'Unsupported SASL mechanism ' should be converted to const"
+ , "c3" : "QC-JAV000010[00565] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleHandshakeRequest@POLYN282098 the MagicNumber/String  'Unsupported SASL mechanism ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1014,21 +1014,21 @@ var maDataBlocs = {
  , "c1" : "00576"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#576"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00576] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleApiVersionsRequest@POLYN282946 the MagicNumber/String  'Unexpected ApiVersions request received during SASL authentication state ' should be converted to const"
+ , "c3" : "QC-JAV000010[00576] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleApiVersionsRequest@POLYN283570 the MagicNumber/String  'Unexpected ApiVersions request received during SASL authentication state ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00579"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#579"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00579] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleApiVersionsRequest@POLYN282946 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00579] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleApiVersionsRequest@POLYN283570 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00581"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#581"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00581] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleApiVersionsRequest@POLYN282946 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00581] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleApiVersionsRequest@POLYN283570 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1042,7 +1042,7 @@ var maDataBlocs = {
  , "c1" : "00594"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#594"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00594] For method buildResponseOnAuthenticateFailure list of called methods Object monObjet|org.apache.kafka.common.network.Send context_buildResponseSendN284325"
+ , "c3" : "QC-JAV000007[00594] For method buildResponseOnAuthenticateFailure list of called methods Object monObjet|org.apache.kafka.common.network.Send context_buildResponseSendN284949"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1056,14 +1056,14 @@ var maDataBlocs = {
  , "c1" : "00602"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#602"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00602] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.sendAuthenticationFailureResponse@POLYN284445 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00602] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.sendAuthenticationFailureResponse@POLYN285069 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00605"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#605"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00605] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.sendAuthenticationFailureResponse@POLYN284445 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00605] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.sendAuthenticationFailureResponse@POLYN285069 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1147,21 +1147,21 @@ var maDataBlocs = {
  , "c1" : "00637"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#637"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00637] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.reauthenticating@POLYN285805 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00637] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.reauthenticating@POLYN286429 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00641"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#641"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00641] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.authenticationOrReauthenticationText@POLYN285915 the MagicNumber/String  're-authentication' should be converted to const"
+ , "c3" : "QC-JAV000010[00641] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.authenticationOrReauthenticationText@POLYN286539 the MagicNumber/String  're-authentication' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00641"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#641"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00641] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.authenticationOrReauthenticationText@POLYN285915 the MagicNumber/String  'authentication' should be converted to const"
+ , "c3" : "QC-JAV000010[00641] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.authenticationOrReauthenticationText@POLYN286539 the MagicNumber/String  'authentication' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1182,7 +1182,7 @@ var maDataBlocs = {
  , "c1" : "00647"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#647"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00647] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.ensurePrincipalUnchanged@POLYN286131 the MagicNumber/String  'Cannot change principals during re-authentication from %s.%s: %s.%s' should be converted to const"
+ , "c3" : "QC-JAV000010[00647] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.ensurePrincipalUnchanged@POLYN286755 the MagicNumber/String  'Cannot change principals during re-authentication from %s.%s: %s.%s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1196,154 +1196,154 @@ var maDataBlocs = {
  , "c1" : "00660"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#660"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00660] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.saslMechanismUnchanged@POLYN286716 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00660] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.saslMechanismUnchanged@POLYN287340 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00662"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#662"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00662] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.saslMechanismUnchanged@POLYN286716 the MagicNumber/String  'SASL mechanism '%s' requested by client is not supported for re-authentication of mechanism '%s'' should be converted to const"
+ , "c3" : "QC-JAV000010[00662] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.saslMechanismUnchanged@POLYN287340 the MagicNumber/String  'SASL mechanism '%s' requested by client is not supported for re-authentication of mechanism '%s'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00666"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#666"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00666] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.saslMechanismUnchanged@POLYN286716 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00666] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.saslMechanismUnchanged@POLYN287340 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00669"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#669"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00669] For method calcCompletionTimesAndReturnSessionLifetimeMs list of called methods Object monObjet|long time_nanosecondsN287421|long zeroIfNegativeN287988|long zeroIfNegativeN288113|long zeroIfNegativeN288221"
+ , "c3" : "QC-JAV000007[00669] For method calcCompletionTimesAndReturnSessionLifetimeMs list of called methods Object monObjet|long time_nanosecondsN288045|long zeroIfNegativeN288612|long zeroIfNegativeN288737|long zeroIfNegativeN288845"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00670"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#670"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00670] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs@POLYN287215 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00670] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs@POLYN287839 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00676"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#676"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00676] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs@POLYN287215 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00676] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs@POLYN287839 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00676"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#676"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00676] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs@POLYN287215 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00676] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs@POLYN287839 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00678"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#678"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00678] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs@POLYN287215 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00678] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs@POLYN287839 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00679"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#679"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00679] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs@POLYN287215 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00679] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs@POLYN287839 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00686"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#686"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00686] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs@POLYN287215 the MagicNumber/String  1000 should be converted to const"
+ , "c3" : "QC-JAV000010[00686] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs@POLYN287839 the MagicNumber/String  1000 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00686"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#686"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00686] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs@POLYN287215 the MagicNumber/String  1000 should be converted to const"
+ , "c3" : "QC-JAV000010[00686] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs@POLYN287839 the MagicNumber/String  1000 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00689"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#689"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00689] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs@POLYN287215 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00689] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs@POLYN287839 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00691"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#691"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00691] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs@POLYN287215 the MagicNumber/String  'Authentication complete; session max lifetime from broker config={} ms, credential expiration={} ({} ms); session expiration = {} ({} ms), sending {} ms to client' should be converted to const"
+ , "c3" : "QC-JAV000010[00691] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs@POLYN287839 the MagicNumber/String  'Authentication complete; session max lifetime from broker config={} ms, credential expiration={} ({} ms); session expiration = {} ({} ms), sending {} ms to client' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00697"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#697"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00697] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs@POLYN287215 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00697] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs@POLYN287839 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00699"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#699"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00699] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs@POLYN287215 the MagicNumber/String  'Authentication complete; session max lifetime from broker config={} ms, no credential expiration; session expiration = {} ({} ms), sending {} ms to client' should be converted to const"
+ , "c3" : "QC-JAV000010[00699] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs@POLYN287839 the MagicNumber/String  'Authentication complete; session max lifetime from broker config={} ms, no credential expiration; session expiration = {} ({} ms), sending {} ms to client' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00704"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#704"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00704] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs@POLYN287215 the MagicNumber/String  'Authentication complete; session max lifetime from broker config={} ms, no credential expiration; no session expiration, sending 0 ms to client' should be converted to const"
+ , "c3" : "QC-JAV000010[00704] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs@POLYN287839 the MagicNumber/String  'Authentication complete; session max lifetime from broker config={} ms, no credential expiration; no session expiration, sending 0 ms to client' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00712"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#712"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00712] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.reauthenticationLatencyMs@POLYN289323 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00712] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.reauthenticationLatencyMs@POLYN289947 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00715"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#715"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00715] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.reauthenticationLatencyMs@POLYN289323 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00715] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.reauthenticationLatencyMs@POLYN289947 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00715"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#715"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00715] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.reauthenticationLatencyMs@POLYN289323 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00715] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.reauthenticationLatencyMs@POLYN289947 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00715"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#715"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00715] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.reauthenticationLatencyMs@POLYN289323 the MagicNumber/String  1L should be converted to const"
+ , "c3" : "QC-JAV000010[00715] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.reauthenticationLatencyMs@POLYN289947 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00715"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#715"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00715] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.reauthenticationLatencyMs@POLYN289323 the MagicNumber/String  1000.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00715] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.reauthenticationLatencyMs@POLYN289947 the MagicNumber/String  1000.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00715"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#715"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00715] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.reauthenticationLatencyMs@POLYN289323 the MagicNumber/String  1000.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00715] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.reauthenticationLatencyMs@POLYN289947 the MagicNumber/String  1000.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1357,7 +1357,7 @@ var maDataBlocs = {
  , "c1" : "00719"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#719"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00719] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.zeroIfNegative@POLYN289796 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00719] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.zeroIfNegative@POLYN290420 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1371,196 +1371,196 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00493"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#493"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00493] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00493] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00494"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#494"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00494] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00494] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00504"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#504"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00504] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00504] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00509"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#509"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00509] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String ' during SASL handshake.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00509] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String ' during SASL handshake.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00509"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#509"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00509] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String 'Unexpected Kafka request of type ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00509] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String 'Unexpected Kafka request of type ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00511"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#511"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00511] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String 'Handling Kafka request {} during {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00511] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String 'Handling Kafka request {} during {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00515"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#515"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00515] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00515] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00529"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#529"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00529] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String '%02x' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00529] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String '%02x' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00530"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#530"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00530] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String 20 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00530] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String 20 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00533"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#533"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00533] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String 'Received client packet of length {} starting with bytes 0x{}, process as GSSAPI packet' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00533] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String 'Received client packet of length {} starting with bytes 0x{}, process as GSSAPI packet' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00536"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#536"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00536] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String 'First client packet is not a SASL mechanism request, using default mechanism GSSAPI' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00536] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String 'First client packet is not a SASL mechanism request, using default mechanism GSSAPI' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00539"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#539"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00539] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String 'Exception handling first SASL packet from client, GSSAPI is not supported by server' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00539] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String 'Exception handling first SASL packet from client, GSSAPI is not supported by server' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00543"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#543"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00543] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278284 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00543] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN278908 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00419"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#419"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00419] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00419] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00429"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#429"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00429] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00429] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00432"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#432"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00432] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String ' during SASL authentication.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00432] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String ' during SASL authentication.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00432"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#432"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00432] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String 'Unexpected Kafka request of type ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00432] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String 'Unexpected Kafka request of type ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00439"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#439"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00439] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String ' is not supported for apiKey ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00439] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String ' is not supported for apiKey ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00439"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#439"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00439] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String 'Version ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00439] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String 'Version ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00447"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#447"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00447] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00447] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00456"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#456"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00456] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00456] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00456"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#456"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00456] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00456] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00457"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#457"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00457] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String 0L MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00457] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String 0L MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00473"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#473"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00473] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00473] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00479"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#479"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00479] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String 'Authentication failed during ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00479] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String 'Authentication failed during ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00481"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#481"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00481] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN273702 the MagicNumber/String ' due to invalid credentials with SASL mechanism ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00481] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN274326 the MagicNumber/String ' due to invalid credentials with SASL mechanism ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

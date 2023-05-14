@@ -143,49 +143,49 @@ var maDataBlocs = {
  , "c1" : "00066"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167341 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167965 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167341 the MagicNumber/String  '--help' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167965 the MagicNumber/String  '--help' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00067"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167341 the MagicNumber/String  'Usage: ConnectDistributed worker.properties' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167965 the MagicNumber/String  'Usage: ConnectDistributed worker.properties' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167341 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167965 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167341 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167965 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00086"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167341 the MagicNumber/String  'Stopping due to error' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167965 the MagicNumber/String  'Stopping due to error' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167341 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167965 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -199,154 +199,154 @@ var maDataBlocs = {
  , "c1" : "00091"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#91"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00091] For method startConnect list of called methods Object monObjet|java.lang.String ConnectUtils_lookupKafkaClusterIdN169126|java.net.URI rest_advertisedUrlN169460|org.apache.kafka.connect.runtime.WorkerConfigTransformer worker_configTransformerN170606|org.apache.kafka.connect.storage.Converter worker_getInternalValueConverterN170681"
+ , "c3" : "QC-JAV000007[00091] For method startConnect list of called methods Object monObjet|java.lang.String ConnectUtils_lookupKafkaClusterIdN169750|java.net.URI rest_advertisedUrlN170084|org.apache.kafka.connect.runtime.WorkerConfigTransformer worker_configTransformerN171230|org.apache.kafka.connect.storage.Converter worker_getInternalValueConverterN171305"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN168681 the MagicNumber/String  'Scanning for plugin classes. This might take a moment ...' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN169305 the MagicNumber/String  'Scanning for plugin classes. This might take a moment ...' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN168681 the MagicNumber/String  'Kafka cluster ID: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN169305 the MagicNumber/String  'Kafka cluster ID: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN168681 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN169305 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN168681 the MagicNumber/String  'Kafka Connect distributed worker initialization took {}ms' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN169305 the MagicNumber/String  'Kafka Connect distributed worker initialization took {}ms' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00142"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN168681 the MagicNumber/String  'Failed to start Connect' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN169305 the MagicNumber/String  'Failed to start Connect' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN168681 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN169305 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167341"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167965"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN168681"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN169305"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#66"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00066] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167341 the MagicNumber/String '--help' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00066] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167965 the MagicNumber/String '--help' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#66"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00066] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167341 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00066] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167965 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00067"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#67"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00067] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167341 the MagicNumber/String 'Usage: ConnectDistributed worker.properties' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00067] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167965 the MagicNumber/String 'Usage: ConnectDistributed worker.properties' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#68"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167341 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167965 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#75"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00075] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167341 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00075] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167965 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00086"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#86"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167341 the MagicNumber/String 'Stopping due to error' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167965 the MagicNumber/String 'Stopping due to error' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#87"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167341 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.main@POLYN167965 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#92"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00092] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN168681 the MagicNumber/String 'Scanning for plugin classes. This might take a moment ...' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00092] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN169305 the MagicNumber/String 'Scanning for plugin classes. This might take a moment ...' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#98"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN168681 the MagicNumber/String 'Kafka cluster ID: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN169305 the MagicNumber/String 'Kafka cluster ID: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#104"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00104] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN168681 the MagicNumber/String ':' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00104] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN169305 the MagicNumber/String ':' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#138"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00138] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN168681 the MagicNumber/String 'Kafka Connect distributed worker initialization took {}ms' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00138] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN169305 the MagicNumber/String 'Kafka Connect distributed worker initialization took {}ms' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00142"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#142"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00142] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN168681 the MagicNumber/String 'Failed to start Connect' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00142] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN169305 the MagicNumber/String 'Failed to start Connect' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#144"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN168681 the MagicNumber/String 3 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.connect.cli.ConnectDistributed.startConnect@POLYN169305 the MagicNumber/String 3 MUST BE CONVERTED to const"
 }} 
 ]
 , 
