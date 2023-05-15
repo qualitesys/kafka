@@ -241,7 +241,7 @@ var maDataBlocs = {
  , "c1" : "00059"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00059] For method changelogFor list of called methods Object monObjet|java.lang.String getPrefixN157272"
+ , "c3" : "QC-JAV000007[00059] For method changelogFor list of called methods Object monObjet|java.lang.String getPrefixN158184"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -255,7 +255,7 @@ var maDataBlocs = {
  , "c1" : "00063"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.changelogFor@POLYN157111 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.changelogFor@POLYN158023 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -269,7 +269,7 @@ var maDataBlocs = {
  , "c1" : "00070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00070] For method changelogFor list of called methods Object monObjet|java.lang.String getPrefixN158050"
+ , "c3" : "QC-JAV000007[00070] For method changelogFor list of called methods Object monObjet|java.lang.String getPrefixN158962"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -283,7 +283,7 @@ var maDataBlocs = {
  , "c1" : "00074"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.changelogFor@POLYN157889 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.changelogFor@POLYN158801 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -297,7 +297,7 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.getPrefix@POLYN158667 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.getPrefix@POLYN159579 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -311,7 +311,7 @@ var maDataBlocs = {
  , "c1" : "00098"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN159083 the MagicNumber/String  'This component requires internal features of Kafka Streams and must be disabled for unit tests.' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN159995 the MagicNumber/String  'This component requires internal features of Kafka Streams and must be disabled for unit tests.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -325,49 +325,49 @@ var maDataBlocs = {
  , "c1" : "00108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN159378 the MagicNumber/String  'This component requires internal features of Kafka Streams and must be disabled for unit tests.' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN160290 the MagicNumber/String  'This component requires internal features of Kafka Streams and must be disabled for unit tests.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN159083"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN159995"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN159378"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN160290"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorContextUtils.getMetricsImpl@POLYN156754"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorContextUtils.getMetricsImpl@POLYN157666"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorContextUtils.getMetricsImpl@POLYN156956"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorContextUtils.getMetricsImpl@POLYN157868"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#98"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN159083 the MagicNumber/String 'This component requires internal features of Kafka Streams and must be disabled for unit tests.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN159995 the MagicNumber/String 'This component requires internal features of Kafka Streams and must be disabled for unit tests.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#108"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00108] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN159378 the MagicNumber/String 'This component requires internal features of Kafka Streams and must be disabled for unit tests.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00108] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorContextUtils.asInternalProcessorContext@POLYN160290 the MagicNumber/String 'This component requires internal features of Kafka Streams and must be disabled for unit tests.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -268,105 +268,105 @@ var maDataBlocs = {
  , "c1" : "00133"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method secujava.Cookie.Cookie@POLYN218999 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method secujava.Cookie.Cookie@POLYN219911 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method secujava.Cookie.Cookie@POLYN218999 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method secujava.Cookie.Cookie@POLYN219911 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00135"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method secujava.Cookie.Cookie@POLYN218999 the MagicNumber/String  'err.cookie_name_blank' should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method secujava.Cookie.Cookie@POLYN219911 the MagicNumber/String  'err.cookie_name_blank' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method secujava.Cookie.Cookie@POLYN218999 the MagicNumber/String  'Comment' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method secujava.Cookie.Cookie@POLYN219911 the MagicNumber/String  'Comment' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00139"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method secujava.Cookie.Cookie@POLYN218999 the MagicNumber/String  'Discard' should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method secujava.Cookie.Cookie@POLYN219911 the MagicNumber/String  'Discard' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00140"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method secujava.Cookie.Cookie@POLYN218999 the MagicNumber/String  'Domain' should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method secujava.Cookie.Cookie@POLYN219911 the MagicNumber/String  'Domain' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method secujava.Cookie.Cookie@POLYN218999 the MagicNumber/String  'Expires' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method secujava.Cookie.Cookie@POLYN219911 the MagicNumber/String  'Expires' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00142"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method secujava.Cookie.Cookie@POLYN218999 the MagicNumber/String  'Max-Age' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method secujava.Cookie.Cookie@POLYN219911 the MagicNumber/String  'Max-Age' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method secujava.Cookie.Cookie@POLYN218999 the MagicNumber/String  'Path' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method secujava.Cookie.Cookie@POLYN219911 the MagicNumber/String  'Path' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method secujava.Cookie.Cookie@POLYN218999 the MagicNumber/String  'Secure' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method secujava.Cookie.Cookie@POLYN219911 the MagicNumber/String  'Secure' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00145"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method secujava.Cookie.Cookie@POLYN218999 the MagicNumber/String  'Version' should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method secujava.Cookie.Cookie@POLYN219911 the MagicNumber/String  'Version' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method secujava.Cookie.Cookie@POLYN218999 the MagicNumber/String  '$' should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method secujava.Cookie.Cookie@POLYN219911 the MagicNumber/String  '$' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method secujava.Cookie.Cookie@POLYN218999 the MagicNumber/String  'err.cookie_name_is_token' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method secujava.Cookie.Cookie@POLYN219911 the MagicNumber/String  'err.cookie_name_is_token' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00148"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method secujava.Cookie.Cookie@POLYN218999 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method secujava.Cookie.Cookie@POLYN219911 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00149"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method secujava.Cookie.Cookie@POLYN218999 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method secujava.Cookie.Cookie@POLYN219911 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -387,7 +387,7 @@ var maDataBlocs = {
  , "c1" : "00201"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#201"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00201] For method setDomain list of called methods Object monObjet|java.lang.String domain_toLowerCaseN221835"
+ , "c3" : "QC-JAV000007[00201] For method setDomain list of called methods Object monObjet|java.lang.String domain_toLowerCaseN222747"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -443,7 +443,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method isToken list of called methods Object monObjet|int value_lengthN226876|char value_charAtN227112"
+ , "c3" : "QC-JAV000007[00001] For method isToken list of called methods Object monObjet|int value_lengthN227788|char value_charAtN228024"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -457,42 +457,42 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method secujava.Cookie.isToken@POLYN226779 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method secujava.Cookie.isToken@POLYN227691 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method secujava.Cookie.isToken@POLYN226779 the MagicNumber/String  0x20 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method secujava.Cookie.isToken@POLYN227691 the MagicNumber/String  0x20 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method secujava.Cookie.isToken@POLYN226779 the MagicNumber/String  0x7f should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method secujava.Cookie.isToken@POLYN227691 the MagicNumber/String  0x7f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method secujava.Cookie.isToken@POLYN226779 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method secujava.Cookie.isToken@POLYN227691 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method secujava.Cookie.isToken@POLYN226779 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method secujava.Cookie.isToken@POLYN227691 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method secujava.Cookie.isToken@POLYN226779 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method secujava.Cookie.isToken@POLYN227691 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

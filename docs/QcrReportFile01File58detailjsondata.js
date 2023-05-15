@@ -124,7 +124,7 @@ var maDataBlocs = {
  , "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.clients.admin.DeleteAclsResult.all@POLYN160320 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.clients.admin.DeleteAclsResult.all@POLYN161232 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -166,14 +166,14 @@ var maDataBlocs = {
  , "c1" : "00116"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.clients.admin.DeleteAclsResult.getAclBindings@POLYN160659 the MagicNumber/String  'DeleteAclsResult#all: internal error' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.clients.admin.DeleteAclsResult.getAclBindings@POLYN161571 the MagicNumber/String  'DeleteAclsResult#all: internal error' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00119"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.admin.DeleteAclsResult.getAclBindings@POLYN160659 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.admin.DeleteAclsResult.getAclBindings@POLYN161571 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

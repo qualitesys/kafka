@@ -2,55 +2,21 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/transforms/predicates/Predicate.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/transforms/predicates/Predicate.java 0 rule violation " 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/transforms/predicates/Predicate.java 1 rule violations " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
-{ "ligne" : { "" : ""
- , "c1" : "Configurable"
- , "c2" : "org.apache.kafka.connect.transforms.predicates.Predicate"
-}} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.connect.transforms.predicates.Predicate" , "link" : "" , "methodes" : [ 
-{ "ligne" : { "" : ""
- , "c5" : "00041"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/transforms/predicates/Predicate.java.html#41"
- , "c1" : "ConfigDef"
- , "c2" : "config()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00049"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/transforms/predicates/Predicate.java.html#49"
- , "c1" : "boolean"
- , "c2" : "test(R)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00052"
- , "c5link" : "././qc/connect/api/src/main/java/org/apache/kafka/connect/transforms/predicates/Predicate.java.html#52"
- , "c1" : "void"
- , "c2" : "close()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
+ { "nomclasse" : "" , "link" : "" , "methodes" : [ 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {
-
- "ligneplantuml" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/transforms/predicates/Predicate.java.svg" }
-
 ] 
 , 
 "data04" : [
@@ -78,6 +44,24 @@ var maDataBlocs = {
 ]
 , 
 "data14" : [
+]
+, 
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999999"
+ , "c3" : "Syntax analysis failure on the source code"
+ , "c4" : "1"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00017"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/transforms/predicates/Predicate.java.html#17"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999999[00017] syntax analysis failed on file /home/runner/work/kafka/kafka/connect/api/src/main/java/org/apache/kafka/connect/transforms/predicates/Predicate.java near following tokens and ` * limitations under the License . ` */ package org . apache . kafka . connect . transforms . "
+}} 
 ]
 , 
 "data15" : {

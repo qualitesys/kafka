@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java 6 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java 4 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -85,13 +85,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -100,13 +93,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#44"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00044] For method consumedSensor arguments String  threadId|String  taskId|String  processorNodeId|String  topic|StreamsMetricsImpl  streamsMetrics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#44"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00044] For method consumedSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_topicLevelSensorN152992"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -121,13 +107,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#68"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00068] For method producedSensor arguments String  threadId|String  taskId|String  processorNodeId|String  topic|StreamsMetricsImpl  streamsMetrics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/TopicMetrics.java.html#68"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00068] For method producedSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_topicLevelSensorN153737"
 }} 
 ,
 { "ligne" : {"" : ""

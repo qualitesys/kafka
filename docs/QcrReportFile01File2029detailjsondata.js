@@ -2,46 +2,21 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BatchWritingStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/BatchWritingStore.java 0 rule violation " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/BatchWritingStore.java 1 rule violations " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
-{ "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.streams.state.internals.BatchWritingStore"
-}} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.streams.state.internals.BatchWritingStore" , "link" : "" , "methodes" : [ 
-{ "ligne" : { "" : ""
- , "c5" : "00024"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BatchWritingStore.java.html#24"
- , "c1" : "void"
- , "c2" : "addToBatch(KeyValue&lt;byte[],byte[]&gt;;WriteBatch)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00026"
- , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BatchWritingStore.java.html#26"
- , "c1" : "void"
- , "c2" : "write(WriteBatch)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
+ { "nomclasse" : "" , "link" : "" , "methodes" : [ 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {
-
- "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BatchWritingStore.java.svg" }
-
 ] 
 , 
 "data04" : [
@@ -69,6 +44,24 @@ var maDataBlocs = {
 ]
 , 
 "data14" : [
+]
+, 
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999999"
+ , "c3" : "Syntax analysis failure on the source code"
+ , "c4" : "1"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00017"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BatchWritingStore.java.html#17"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999999[00017] syntax analysis failed on file /home/runner/work/kafka/kafka/streams/src/main/java/org/apache/kafka/streams/state/internals/BatchWritingStore.java near following tokens and ` * limitations under the License . ` */ package org . apache . kafka . streams . state . "
+}} 
 ]
 , 
 "data15" : {

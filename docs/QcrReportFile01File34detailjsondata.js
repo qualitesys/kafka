@@ -149,49 +149,49 @@ var maDataBlocs = {
  , "c1" : "00097"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigOp.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.clients.admin.AlterConfigOp.equals@POLYN157947 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.clients.admin.AlterConfigOp.equals@POLYN158859 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigOp.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.clients.admin.AlterConfigOp.equals@POLYN157947 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.clients.admin.AlterConfigOp.equals@POLYN158859 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigOp.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.clients.admin.AlterConfigOp.equals@POLYN157947 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.clients.admin.AlterConfigOp.equals@POLYN158859 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigOp.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.clients.admin.AlterConfigOp.toString@POLYN158691 the MagicNumber/String  'AlterConfigOp{' should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.clients.admin.AlterConfigOp.toString@POLYN159603 the MagicNumber/String  'AlterConfigOp{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00112"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigOp.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.clients.admin.AlterConfigOp.toString@POLYN158691 the MagicNumber/String  'opType=' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.clients.admin.AlterConfigOp.toString@POLYN159603 the MagicNumber/String  'opType=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00113"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigOp.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.clients.admin.AlterConfigOp.toString@POLYN158691 the MagicNumber/String  ', configEntry=' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.clients.admin.AlterConfigOp.toString@POLYN159603 the MagicNumber/String  ', configEntry=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00114"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AlterConfigOp.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.clients.admin.AlterConfigOp.toString@POLYN158691 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.clients.admin.AlterConfigOp.toString@POLYN159603 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 

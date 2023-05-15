@@ -482,7 +482,7 @@ var maDataBlocs = {
  , "c1" : "00085"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method java.lang.StringBuilder.StringBuilder@POLYN224034 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method java.lang.StringBuilder.StringBuilder@POLYN224946 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -496,7 +496,7 @@ var maDataBlocs = {
  , "c1" : "00109"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method java.lang.StringBuilder.StringBuilder@POLYN224737 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method java.lang.StringBuilder.StringBuilder@POLYN225649 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -510,7 +510,7 @@ var maDataBlocs = {
  , "c1" : "00123"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method java.lang.StringBuilder.StringBuilder@POLYN225264 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method java.lang.StringBuilder.StringBuilder@POLYN226176 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -538,21 +538,21 @@ var maDataBlocs = {
  , "c1" : "00142"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method java.lang.StringBuilder.append@POLYN225953 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method java.lang.StringBuilder.append@POLYN226865 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method java.lang.StringBuilder.append@POLYN225953 the MagicNumber/String  'null' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method java.lang.StringBuilder.append@POLYN226865 the MagicNumber/String  'null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00148"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method java.lang.StringBuilder.append@POLYN225953 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method java.lang.StringBuilder.append@POLYN226865 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -573,21 +573,21 @@ var maDataBlocs = {
  , "c1" : "00181"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method java.lang.StringBuilder.append@POLYN227710 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method java.lang.StringBuilder.append@POLYN228622 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00182"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method java.lang.StringBuilder.append@POLYN227710 the MagicNumber/String  'null' should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method java.lang.StringBuilder.append@POLYN228622 the MagicNumber/String  'null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00189"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method java.lang.StringBuilder.append@POLYN227710 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method java.lang.StringBuilder.append@POLYN228622 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -720,21 +720,21 @@ var maDataBlocs = {
  , "c1" : "00333"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#333"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00333] In method java.lang.StringBuilder.insert@POLYN233043 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00333] In method java.lang.StringBuilder.insert@POLYN233955 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00334"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#334"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00334] In method java.lang.StringBuilder.insert@POLYN233043 the MagicNumber/String  'null' should be converted to const"
+ , "c3" : "QC-JAV000010[00334] In method java.lang.StringBuilder.insert@POLYN233955 the MagicNumber/String  'null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00337"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#337"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00337] In method java.lang.StringBuilder.insert@POLYN233043 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00337] In method java.lang.StringBuilder.insert@POLYN233955 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -797,7 +797,7 @@ var maDataBlocs = {
  , "c1" : "00414"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#414"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00414] In method java.lang.StringBuilder.indexOf@POLYN236095 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00414] In method java.lang.StringBuilder.indexOf@POLYN237007 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -818,14 +818,14 @@ var maDataBlocs = {
  , "c1" : "00421"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#421"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00421] In method java.lang.StringBuilder.indexOf@POLYN236299 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00421] In method java.lang.StringBuilder.indexOf@POLYN237211 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00422"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#422"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00422] In method java.lang.StringBuilder.indexOf@POLYN236299 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00422] In method java.lang.StringBuilder.indexOf@POLYN237211 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -853,21 +853,21 @@ var maDataBlocs = {
  , "c1" : "00436"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#436"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00436] In method java.lang.StringBuilder.lastIndexOf@POLYN236890 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00436] In method java.lang.StringBuilder.lastIndexOf@POLYN237802 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00437"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#437"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00437] In method java.lang.StringBuilder.lastIndexOf@POLYN236890 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00437] In method java.lang.StringBuilder.lastIndexOf@POLYN237802 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00447"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#447"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00447] In method java.lang.StringBuilder.toString@POLYN237372 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00447] In method java.lang.StringBuilder.toString@POLYN238284 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -888,14 +888,14 @@ var maDataBlocs = {
  , "c1" : "00472"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#472"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00472] For method readObject list of called methods Object monObjet|int s_readIntN238484"
+ , "c3" : "QC-JAV000007[00472] For method readObject list of called methods Object monObjet|int s_readIntN239396"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.StringBuilder.insert@POLYN235829"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.StringBuilder.insert@POLYN236741"
 }} 
 ]
 , 

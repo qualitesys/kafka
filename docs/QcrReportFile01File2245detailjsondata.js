@@ -178,7 +178,7 @@ var maDataBlocs = {
  , "c1" : "00058"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.trogdor.task.TaskSpec.TaskSpec@POLYN156266 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.trogdor.task.TaskSpec.TaskSpec@POLYN157178 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -213,21 +213,21 @@ var maDataBlocs = {
  , "c1" : "00100"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.trogdor.task.TaskSpec.equals@POLYN157483 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.trogdor.task.TaskSpec.equals@POLYN158395 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.trogdor.task.TaskSpec.equals@POLYN157483 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.trogdor.task.TaskSpec.equals@POLYN158395 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.trogdor.task.TaskSpec.equals@POLYN157483 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.trogdor.task.TaskSpec.equals@POLYN158395 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -241,7 +241,7 @@ var maDataBlocs = {
  , "c1" : "00116"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.trogdor.task.TaskSpec.configOrEmptyMap@POLYN158250 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.trogdor.task.TaskSpec.configOrEmptyMap@POLYN159162 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

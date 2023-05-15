@@ -213,7 +213,7 @@ var maDataBlocs = {
  , "c1" : "00146"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Branched.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.kstream.Branched.withName@POLYN181010 the MagicNumber/String  'name cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.kstream.Branched.withName@POLYN181922 the MagicNumber/String  'name cannot be null' should be converted to const"
 }} 
 ]
 , 

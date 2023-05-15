@@ -147,56 +147,56 @@ var maDataBlocs = {
  , "c1" : "00056"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159015 the MagicNumber/String  'Received error code {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159927 the MagicNumber/String  'Received error code {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159015 the MagicNumber/String  'One or more source topics were missing during rebalance' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159927 the MagicNumber/String  'One or more source topics were missing during rebalance' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159015 the MagicNumber/String  'Received version probing code {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159927 the MagicNumber/String  'Received version probing code {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159015 the MagicNumber/String  'Received error code {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159927 the MagicNumber/String  'Received error code {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159015 the MagicNumber/String  'Hit an unexpected exception during task assignment phase of rebalance' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159927 the MagicNumber/String  'Hit an unexpected exception during task assignment phase of rebalance' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159015 the MagicNumber/String  'A Kafka Streams client in this Kafka Streams application is requesting to shutdown the application' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159927 the MagicNumber/String  'A Kafka Streams client in this Kafka Streams application is requesting to shutdown the application' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159015 the MagicNumber/String  'Received unknown error code {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159927 the MagicNumber/String  'Received unknown error code {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159015 the MagicNumber/String  'Hit an unrecognized exception during rebalance' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159927 the MagicNumber/String  'Hit an unrecognized exception during rebalance' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -217,35 +217,35 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsRevoked@POLYN160874 the MagicNumber/String  'Current state {}: revoked partitions {} because of consumer rebalance.\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsRevoked@POLYN161786 the MagicNumber/String  'Current state {}: revoked partitions {} because of consumer rebalance.\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsRevoked@POLYN160874 the MagicNumber/String  '\tcurrently assigned active tasks: {}\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsRevoked@POLYN161786 the MagicNumber/String  '\tcurrently assigned active tasks: {}\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00084"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsRevoked@POLYN160874 the MagicNumber/String  '\tcurrently assigned standby tasks: {}\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsRevoked@POLYN161786 the MagicNumber/String  '\tcurrently assigned standby tasks: {}\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsRevoked@POLYN160874 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsRevoked@POLYN161786 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00097"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsRevoked@POLYN160874 the MagicNumber/String  'partition revocation took {} ms.' should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsRevoked@POLYN161786 the MagicNumber/String  'partition revocation took {} ms.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -259,91 +259,91 @@ var maDataBlocs = {
  , "c1" : "00104"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsLost@POLYN161836 the MagicNumber/String  'at state {}: partitions {} lost due to missed rebalance.\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsLost@POLYN162748 the MagicNumber/String  'at state {}: partitions {} lost due to missed rebalance.\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsLost@POLYN161836 the MagicNumber/String  '\tlost active tasks: {}\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsLost@POLYN162748 the MagicNumber/String  '\tlost active tasks: {}\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00106"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsLost@POLYN161836 the MagicNumber/String  '\tlost assigned standby tasks: {}\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsLost@POLYN162748 the MagicNumber/String  '\tlost assigned standby tasks: {}\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00117"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsLost@POLYN161836 the MagicNumber/String  'partitions lost took {} ms.' should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsLost@POLYN162748 the MagicNumber/String  'partitions lost took {} ms.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159015"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159927"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#56"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159015 the MagicNumber/String 'Received error code {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159927 the MagicNumber/String 'Received error code {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#58"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159015 the MagicNumber/String 'One or more source topics were missing during rebalance' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159927 the MagicNumber/String 'One or more source topics were missing during rebalance' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#60"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159015 the MagicNumber/String 'Received version probing code {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159927 the MagicNumber/String 'Received version probing code {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#62"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00062] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159015 the MagicNumber/String 'Received error code {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00062] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159927 the MagicNumber/String 'Received error code {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#64"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00064] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159015 the MagicNumber/String 'Hit an unexpected exception during task assignment phase of rebalance' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00064] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159927 the MagicNumber/String 'Hit an unexpected exception during task assignment phase of rebalance' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#66"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00066] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159015 the MagicNumber/String 'A Kafka Streams client in this Kafka Streams application is requesting to shutdown the application' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00066] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159927 the MagicNumber/String 'A Kafka Streams client in this Kafka Streams application is requesting to shutdown the application' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#71"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00071] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159015 the MagicNumber/String 'Received unknown error code {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00071] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159927 the MagicNumber/String 'Received unknown error code {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#72"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159015 the MagicNumber/String 'Hit an unrecognized exception during rebalance' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.streams.processor.internals.StreamsRebalanceListener.onPartitionsAssigned@POLYN159927 the MagicNumber/String 'Hit an unrecognized exception during rebalance' MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -124,21 +124,21 @@ var maDataBlocs = {
  , "c1" : "00043"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.shell.ManCommandHandler.ManCommandType.name@POLYN153358 the MagicNumber/String  'man' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.shell.ManCommandHandler.ManCommandType.name@POLYN154270 the MagicNumber/String  'man' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00048"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.shell.ManCommandHandler.ManCommandType.description@POLYN153460 the MagicNumber/String  'Show the help text for a specific command.' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.shell.ManCommandHandler.ManCommandType.description@POLYN154372 the MagicNumber/String  'Show the help text for a specific command.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00053"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.shell.ManCommandHandler.ManCommandType.shellOnly@POLYN153562 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.shell.ManCommandHandler.ManCommandType.shellOnly@POLYN154474 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -159,21 +159,21 @@ var maDataBlocs = {
  , "c1" : "00058"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.shell.ManCommandHandler.ManCommandType.addArguments@POLYN153656 the MagicNumber/String  'cmd' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.shell.ManCommandHandler.ManCommandType.addArguments@POLYN154568 the MagicNumber/String  'cmd' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.shell.ManCommandHandler.ManCommandType.addArguments@POLYN153656 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.shell.ManCommandHandler.ManCommandType.addArguments@POLYN154568 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.shell.ManCommandHandler.ManCommandType.addArguments@POLYN153656 the MagicNumber/String  'The command to get help text for.' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.shell.ManCommandHandler.ManCommandType.addArguments@POLYN154568 the MagicNumber/String  'The command to get help text for.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -194,14 +194,14 @@ var maDataBlocs = {
  , "c1" : "00065"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.shell.ManCommandHandler.ManCommandType.createHandler@POLYN153904 the MagicNumber/String  'cmd' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.shell.ManCommandHandler.ManCommandType.createHandler@POLYN154816 the MagicNumber/String  'cmd' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00065"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.shell.ManCommandHandler.ManCommandType.createHandler@POLYN153904 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.shell.ManCommandHandler.ManCommandType.createHandler@POLYN154816 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -222,14 +222,14 @@ var maDataBlocs = {
  , "c1" : "00071"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.shell.ManCommandHandler.ManCommandType.completeNext@POLYN154163 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.shell.ManCommandHandler.ManCommandType.completeNext@POLYN155075 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.shell.ManCommandHandler.ManCommandType.completeNext@POLYN154163 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.shell.ManCommandHandler.ManCommandType.completeNext@POLYN155075 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -243,7 +243,7 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#82"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00082] For method run list of called methods Object monObjet|V Commands_TYPES_getN154873"
+ , "c3" : "QC-JAV000007[00082] For method run list of called methods Object monObjet|V Commands_TYPES_getN155785"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -257,35 +257,35 @@ var maDataBlocs = {
  , "c1" : "00086"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.shell.ManCommandHandler.run@POLYN154701 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.shell.ManCommandHandler.run@POLYN155613 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.shell.ManCommandHandler.run@POLYN154701 the MagicNumber/String  'man: unknown command ' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.shell.ManCommandHandler.run@POLYN155613 the MagicNumber/String  'man: unknown command ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.shell.ManCommandHandler.run@POLYN154701 the MagicNumber/String  '. Type help to get a list of commands.' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.shell.ManCommandHandler.run@POLYN155613 the MagicNumber/String  '. Type help to get a list of commands.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.shell.ManCommandHandler.run@POLYN154701 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.shell.ManCommandHandler.run@POLYN155613 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.shell.ManCommandHandler.run@POLYN154701 the MagicNumber/String  '%s: %s%n%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.shell.ManCommandHandler.run@POLYN155613 the MagicNumber/String  '%s: %s%n%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -299,21 +299,21 @@ var maDataBlocs = {
  , "c1" : "00104"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.shell.ManCommandHandler.equals@POLYN155718 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.shell.ManCommandHandler.equals@POLYN156630 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00106"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.shell.ManCommandHandler.equals@POLYN155718 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.shell.ManCommandHandler.equals@POLYN156630 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00107"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ManCommandHandler.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.shell.ManCommandHandler.equals@POLYN155718 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.shell.ManCommandHandler.equals@POLYN156630 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 

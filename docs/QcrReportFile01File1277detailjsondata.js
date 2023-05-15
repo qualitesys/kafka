@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ProduceRequestBenchmark.java.html" 
- , "texte" : "File jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ProduceRequestBenchmark.java 1 rule violations " 
+ , "texte" : "File jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ProduceRequestBenchmark.java 0 rule violation " 
  , "fic3"  : "" 
 }
 , 
@@ -69,24 +69,6 @@ var maDataBlocs = {
 ]
 , 
 "data14" : [
-]
-, 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/ProduceRequestBenchmark.java.html#55"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00055] For method setup list of called methods Object monObjet|org.apache.kafka.common.requests.ProduceRequest.Builder ProduceRequest_forCurrentMagicN151359"
-}} 
 ]
 , 
 "data15" : {

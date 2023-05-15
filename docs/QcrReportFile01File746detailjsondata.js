@@ -224,7 +224,7 @@ var maDataBlocs = {
  , "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00060] For method loadServerContext list of called methods Object monObjet|java.lang.String listenerName_valueN175890"
+ , "c3" : "QC-JAV000007[00060] For method loadServerContext list of called methods Object monObjet|java.lang.String listenerName_valueN176802"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -238,63 +238,63 @@ var maDataBlocs = {
  , "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.security.JaasContext.loadServerContext@POLYN175450 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.security.JaasContext.loadServerContext@POLYN176362 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.security.JaasContext.loadServerContext@POLYN175450 the MagicNumber/String  'listenerName should not be null for SERVER' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.security.JaasContext.loadServerContext@POLYN176362 the MagicNumber/String  'listenerName should not be null for SERVER' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.security.JaasContext.loadServerContext@POLYN175450 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.security.JaasContext.loadServerContext@POLYN176362 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.security.JaasContext.loadServerContext@POLYN175450 the MagicNumber/String  'mechanism should not be null for SERVER' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.security.JaasContext.loadServerContext@POLYN176362 the MagicNumber/String  'mechanism should not be null for SERVER' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.security.JaasContext.loadServerContext@POLYN175450 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.security.JaasContext.loadServerContext@POLYN176362 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.security.JaasContext.loadServerContext@POLYN175450 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.security.JaasContext.loadServerContext@POLYN176362 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.security.JaasContext.loadServerContext@POLYN175450 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.security.JaasContext.loadServerContext@POLYN176362 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.security.JaasContext.loadServerContext@POLYN175450 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.security.JaasContext.loadServerContext@POLYN176362 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.security.JaasContext.loadServerContext@POLYN175450 the MagicNumber/String  'Server config {} should be prefixed with SASL mechanism name, ignoring config' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.security.JaasContext.loadServerContext@POLYN176362 the MagicNumber/String  'Server config {} should be prefixed with SASL mechanism name, ignoring config' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -315,7 +315,7 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.security.JaasContext.loadClientContext@POLYN176832 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.security.JaasContext.loadClientContext@POLYN177744 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -329,56 +329,56 @@ var maDataBlocs = {
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00085] For method load list of called methods Object monObjet|AppConfigurationEntry[] jaasConfig_getAppConfigurationEntryN177601"
+ , "c3" : "QC-JAV000007[00085] For method load list of called methods Object monObjet|AppConfigurationEntry[] jaasConfig_getAppConfigurationEntryN178513"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.security.JaasContext.load@POLYN177207 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.security.JaasContext.load@POLYN178119 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.security.JaasContext.load@POLYN177207 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.security.JaasContext.load@POLYN178119 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.security.JaasContext.load@POLYN177207 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.security.JaasContext.load@POLYN178119 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.security.JaasContext.load@POLYN177207 the MagicNumber/String  'JAAS config property does not contain any login modules' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.security.JaasContext.load@POLYN178119 the MagicNumber/String  'JAAS config property does not contain any login modules' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.security.JaasContext.load@POLYN177207 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.security.JaasContext.load@POLYN178119 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.security.JaasContext.load@POLYN177207 the MagicNumber/String  'JAAS config property contains ' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.security.JaasContext.load@POLYN178119 the MagicNumber/String  'JAAS config property contains ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.security.JaasContext.load@POLYN177207 the MagicNumber/String  ' login modules, should be 1 module' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.security.JaasContext.load@POLYN178119 the MagicNumber/String  ' login modules, should be 1 module' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -392,168 +392,168 @@ var maDataBlocs = {
  , "c1" : "00102"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN178302 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN179214 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN178302 the MagicNumber/String  'System property '' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN179214 the MagicNumber/String  'System property '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN178302 the MagicNumber/String  '' and Kafka SASL property '' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN179214 the MagicNumber/String  '' and Kafka SASL property '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN178302 the MagicNumber/String  '' are not set, using default JAAS configuration.' should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN179214 the MagicNumber/String  '' are not set, using default JAAS configuration.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00107"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN178302 the MagicNumber/String  'System property '' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN179214 the MagicNumber/String  'System property '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00107"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN178302 the MagicNumber/String  '' is not set, using default JAAS ' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN179214 the MagicNumber/String  '' is not set, using default JAAS ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN178302 the MagicNumber/String  'configuration.' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN179214 the MagicNumber/String  'configuration.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00114"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN178302 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN179214 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00117"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN178302 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN179214 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00119"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN178302 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN179214 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00123"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN178302 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN179214 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00126"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN178302 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN179214 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN178302 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN179214 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN178302 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN179214 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN178302 the MagicNumber/String  ' or '' should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN179214 the MagicNumber/String  ' or '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN178302 the MagicNumber/String  ''' should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN179214 the MagicNumber/String  ''' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN178302 the MagicNumber/String  'Could not find a '' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN179214 the MagicNumber/String  'Could not find a '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN178302 the MagicNumber/String  ''' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN179214 the MagicNumber/String  ''' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN178302 the MagicNumber/String  ' entry in the JAAS ' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN179214 the MagicNumber/String  ' entry in the JAAS ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN178302 the MagicNumber/String  'configuration. System property '' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN179214 the MagicNumber/String  'configuration. System property '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN178302 the MagicNumber/String  '' is ' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN179214 the MagicNumber/String  '' is ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00130"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN178302 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN179214 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00130"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN178302 the MagicNumber/String  'not set' should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN179214 the MagicNumber/String  'not set' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00134"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN178302 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.common.security.JaasContext.defaultContext@POLYN179214 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -567,21 +567,21 @@ var maDataBlocs = {
  , "c1" : "00154"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.common.security.JaasContext.JaasContext@POLYN181057 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.common.security.JaasContext.JaasContext@POLYN181969 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.common.security.JaasContext.JaasContext@POLYN181057 the MagicNumber/String  'Could not find a '' should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.common.security.JaasContext.JaasContext@POLYN181969 the MagicNumber/String  'Could not find a '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.common.security.JaasContext.JaasContext@POLYN181057 the MagicNumber/String  '' entry in this JAAS configuration.' should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.common.security.JaasContext.JaasContext@POLYN181969 the MagicNumber/String  '' entry in this JAAS configuration.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -609,49 +609,49 @@ var maDataBlocs = {
  , "c1" : "00186"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.common.security.JaasContext.configEntryOption@POLYN182504 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.common.security.JaasContext.configEntryOption@POLYN183416 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00189"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.common.security.JaasContext.configEntryOption@POLYN182504 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.common.security.JaasContext.configEntryOption@POLYN183416 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00192"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.common.security.JaasContext.configEntryOption@POLYN182504 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.common.security.JaasContext.configEntryOption@POLYN183416 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.JaasContext.configEntryOption@POLYN182504"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.JaasContext.configEntryOption@POLYN183416"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00186"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#186"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00186] In the recursive method org.apache.kafka.common.security.JaasContext.configEntryOption@POLYN182504 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00186] In the recursive method org.apache.kafka.common.security.JaasContext.configEntryOption@POLYN183416 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00189"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#189"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00189] In the recursive method org.apache.kafka.common.security.JaasContext.configEntryOption@POLYN182504 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00189] In the recursive method org.apache.kafka.common.security.JaasContext.configEntryOption@POLYN183416 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00192"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#192"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00192] In the recursive method org.apache.kafka.common.security.JaasContext.configEntryOption@POLYN182504 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00192] In the recursive method org.apache.kafka.common.security.JaasContext.configEntryOption@POLYN183416 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -185,7 +185,7 @@ var maDataBlocs = {
  , "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.requests.EnvelopeResponse.EnvelopeResponse@POLYN148975 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.requests.EnvelopeResponse.EnvelopeResponse@POLYN149887 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -199,14 +199,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.EnvelopeResponse.errorCounts@POLYN149477"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.EnvelopeResponse.errorCounts@POLYN150389"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EnvelopeResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.EnvelopeResponse.responseData@POLYN149320"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.EnvelopeResponse.responseData@POLYN150232"
 }} 
 ]
 , 

@@ -163,7 +163,7 @@ var maDataBlocs = {
  , "c1" : "00044"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.internals.ApiUtils.validateMillisecondDuration@POLYN155804 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.streams.internals.ApiUtils.validateMillisecondDuration@POLYN156716 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -177,7 +177,7 @@ var maDataBlocs = {
  , "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.internals.ApiUtils.validateMillisecondInstant@POLYN156481 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.internals.ApiUtils.validateMillisecondInstant@POLYN157393 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -198,7 +198,7 @@ var maDataBlocs = {
  , "c1" : "00085"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00085] For method checkSupplier list of called methods Object monObjet|java.lang.Class supplier_getClassN157625"
+ , "c3" : "QC-JAV000007[00085] For method checkSupplier list of called methods Object monObjet|java.lang.Class supplier_getClassN158537"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -219,14 +219,14 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.internals.ApiUtils.checkSupplier@POLYN157398 the MagicNumber/String  '%s generates single reference.' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.internals.ApiUtils.checkSupplier@POLYN158310 the MagicNumber/String  '%s generates single reference.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.internals.ApiUtils.checkSupplier@POLYN157398 the MagicNumber/String  ' %s#get() must return a new object each time it is called.' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.internals.ApiUtils.checkSupplier@POLYN158310 the MagicNumber/String  ' %s#get() must return a new object each time it is called.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -261,7 +261,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.internals.ApiUtils.prepareMillisCheckFailMsgPrefix@POLYN157134"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.internals.ApiUtils.prepareMillisCheckFailMsgPrefix@POLYN158046"
 }} 
 ]
 , 

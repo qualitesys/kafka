@@ -111,7 +111,7 @@ var maDataBlocs = {
  , "c1" : "00032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#32"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00032] For method select list of called methods Object monObjet|java.util.Set partitionView_replicasN148721"
+ , "c3" : "QC-JAV000007[00032] For method select list of called methods Object monObjet|java.util.Set partitionView_replicasN149633"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -139,7 +139,7 @@ var maDataBlocs = {
  , "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.replica.RackAwareReplicaSelector.select@POLYN148389 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.replica.RackAwareReplicaSelector.select@POLYN149301 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

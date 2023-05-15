@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java 126 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java 124 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -308,32 +308,32 @@ var maDataBlocs = {
 "data12a" : [
 { "ligne" :  "R0:org.apache.kafka.streams.state.internals.ThreadCache.this" }
 ,
-{ "ligne" :  "R1:org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN192213.newCacheSizeBytes" }
+{ "ligne" :  "R1:org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN193125.newCacheSizeBytes" }
 ,
-{ "ligne" :  "R2:org.apache.kafka.streams.state.internals.ThreadCache.close@POLYN201144.namespace" }
+{ "ligne" :  "R2:org.apache.kafka.streams.state.internals.ThreadCache.close@POLYN202056.namespace" }
 ]
 ,
 "data12b" : [
 { "sequence" : { "noseq" : "0" , "pas" : [
-{ "ligne" : "S0:org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN192213 (R0 in line [00075],R1 in line [00075])" }
+{ "ligne" : "S0:org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN193125 (R0 in line [00075],R1 in line [00075])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN192213.dummymethode_00077" }
+{ "ligne" : "S0:org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN193125.dummymethode_00077" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "1" , "pas" : [
-{ "ligne" : "S1:org.apache.kafka.streams.state.internals.ThreadCache.close@POLYN201144 (R0 in line [00254],R2 in line [00254])" }
+{ "ligne" : "S1:org.apache.kafka.streams.state.internals.ThreadCache.close@POLYN202056 (R0 in line [00254],R2 in line [00254])" }
 ,
-{ "ligne" : "S1:java.util.Hashtable.remove@POLYN477680" }
+{ "ligne" : "S1:java.util.Hashtable.remove@POLYN478592" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "2" , "pas" : [
-{ "ligne" : "S2:org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN192213 (R0 in line [00075],R1 in line [00075])" }
+{ "ligne" : "S2:org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN193125 (R0 in line [00075],R1 in line [00075])" }
 ,
-{ "ligne" : "S2:org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN192213 (R0 in line [00075],R1 in line [00075])" }
+{ "ligne" : "S2:org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN193125 (R0 in line [00075],R1 in line [00075])" }
 ,
-{ "ligne" : "S2:org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN192213.dummymethode_00077" }
+{ "ligne" : "S2:org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN193125.dummymethode_00077" }
  ]
  } }
 ]
@@ -416,7 +416,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "18"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : { "" : ""
@@ -453,7 +453,7 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00075] For method resize list of called methods Object monObjet|T circularIterator_nextN192932"
+ , "c3" : "QC-JAV000007[00075] For method resize list of called methods Object monObjet|T circularIterator_nextN193844"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -467,14 +467,14 @@ var maDataBlocs = {
  , "c1" : "00079"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN192213 the MagicNumber/String  'Cache size was shrunk to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN193125 the MagicNumber/String  'Cache size was shrunk to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN192213 the MagicNumber/String  'Cache size was expanded to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN193125 the MagicNumber/String  'Cache size was expanded to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -488,7 +488,7 @@ var maDataBlocs = {
  , "c1" : "00101"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.state.internals.ThreadCache.nameSpaceFromTaskIdAndStore@POLYN193372 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.state.internals.ThreadCache.nameSpaceFromTaskIdAndStore@POLYN194284 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -502,7 +502,7 @@ var maDataBlocs = {
  , "c1" : "00107"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#107"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00107] For method taskIDfromCacheName list of called methods Object monObjet|java.lang.String[] cacheName_splitN193741"
+ , "c3" : "QC-JAV000007[00107] For method taskIDfromCacheName list of called methods Object monObjet|java.lang.String[] cacheName_splitN194653"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -516,21 +516,21 @@ var maDataBlocs = {
  , "c1" : "00108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.state.internals.ThreadCache.taskIDfromCacheName@POLYN193630 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.state.internals.ThreadCache.taskIDfromCacheName@POLYN194542 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.state.internals.ThreadCache.taskIDfromCacheName@POLYN193630 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.state.internals.ThreadCache.taskIDfromCacheName@POLYN194542 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.state.internals.ThreadCache.taskIDfromCacheName@POLYN193630 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.state.internals.ThreadCache.taskIDfromCacheName@POLYN194542 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -544,7 +544,7 @@ var maDataBlocs = {
  , "c1" : "00115"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#115"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00115] For method underlyingStoreNamefromCacheName list of called methods Object monObjet|java.lang.String[] cacheName_splitN194087"
+ , "c3" : "QC-JAV000007[00115] For method underlyingStoreNamefromCacheName list of called methods Object monObjet|java.lang.String[] cacheName_splitN194999"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -558,21 +558,21 @@ var maDataBlocs = {
  , "c1" : "00116"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.state.internals.ThreadCache.underlyingStoreNamefromCacheName@POLYN193976 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.state.internals.ThreadCache.underlyingStoreNamefromCacheName@POLYN194888 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.state.internals.ThreadCache.underlyingStoreNamefromCacheName@POLYN193976 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.state.internals.ThreadCache.underlyingStoreNamefromCacheName@POLYN194888 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00117"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.state.internals.ThreadCache.underlyingStoreNamefromCacheName@POLYN193976 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.state.internals.ThreadCache.underlyingStoreNamefromCacheName@POLYN194888 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -586,7 +586,7 @@ var maDataBlocs = {
  , "c1" : "00124"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#124"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00124] For method addDirtyEntryFlushListener list of called methods Object monObjet|org.apache.kafka.streams.state.internals.NamedCache getOrCreateCacheN194453"
+ , "c3" : "QC-JAV000007[00124] For method addDirtyEntryFlushListener list of called methods Object monObjet|NamedCache getOrCreateCacheN195365"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -600,21 +600,21 @@ var maDataBlocs = {
  , "c1" : "00129"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#129"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00129] For method flush list of called methods Object monObjet|org.apache.kafka.streams.state.internals.NamedCache getCacheN194718"
+ , "c3" : "QC-JAV000007[00129] For method flush list of called methods Object monObjet|NamedCache getCacheN195630"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.state.internals.ThreadCache.flush@POLYN194580 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.state.internals.ThreadCache.flush@POLYN195492 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00139"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.streams.state.internals.ThreadCache.flush@POLYN194580 the MagicNumber/String  'Cache stats on flush: #puts={}, #gets={}, #evicts={}, #flushes={}' should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.streams.state.internals.ThreadCache.flush@POLYN195492 the MagicNumber/String  'Cache stats on flush: #puts={}, #gets={}, #evicts={}, #flushes={}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -628,35 +628,35 @@ var maDataBlocs = {
  , "c1" : "00143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#143"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00143] For method get list of called methods Object monObjet|org.apache.kafka.streams.state.internals.NamedCache getCacheN195486"
+ , "c3" : "QC-JAV000007[00143] For method get list of called methods Object monObjet|NamedCache getCacheN196398"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.state.internals.ThreadCache.get@POLYN195205 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.state.internals.ThreadCache.get@POLYN196117 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.streams.state.internals.ThreadCache.get@POLYN195205 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.streams.state.internals.ThreadCache.get@POLYN196117 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.state.internals.ThreadCache.get@POLYN195205 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.state.internals.ThreadCache.get@POLYN196117 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00152"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.state.internals.ThreadCache.get@POLYN195205 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.state.internals.ThreadCache.get@POLYN196117 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -670,7 +670,7 @@ var maDataBlocs = {
  , "c1" : "00157"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#157"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00157] For method put list of called methods Object monObjet|org.apache.kafka.streams.state.internals.NamedCache getOrCreateCacheN195919"
+ , "c3" : "QC-JAV000007[00157] For method put list of called methods Object monObjet|NamedCache getOrCreateCacheN196831"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -684,14 +684,14 @@ var maDataBlocs = {
  , "c1" : "00165"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#165"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00165] For method putIfAbsent list of called methods Object monObjet|org.apache.kafka.streams.state.internals.NamedCache getOrCreateCacheN196300|org.apache.kafka.streams.state.internals.LRUCacheEntry cache_putIfAbsentN196391"
+ , "c3" : "QC-JAV000007[00165] For method putIfAbsent list of called methods Object monObjet|NamedCache getOrCreateCacheN197212|LRUCacheEntry cache_putIfAbsentN197303"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00171"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.streams.state.internals.ThreadCache.putIfAbsent@POLYN196139 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.streams.state.internals.ThreadCache.putIfAbsent@POLYN197051 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -712,21 +712,21 @@ var maDataBlocs = {
  , "c1" : "00183"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#183"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00183] For method delete list of called methods Object monObjet|org.apache.kafka.streams.state.internals.NamedCache getCacheN197219"
+ , "c3" : "QC-JAV000007[00183] For method delete list of called methods Object monObjet|NamedCache getCacheN198131"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00185"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.streams.state.internals.ThreadCache.delete@POLYN197086 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.streams.state.internals.ThreadCache.delete@POLYN197998 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00186"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.state.internals.ThreadCache.delete@POLYN197086 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.state.internals.ThreadCache.delete@POLYN197998 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -740,7 +740,7 @@ var maDataBlocs = {
  , "c1" : "00193"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.state.internals.ThreadCache.range@POLYN197466 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.state.internals.ThreadCache.range@POLYN198378 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -754,14 +754,14 @@ var maDataBlocs = {
  , "c1" : "00196"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#196"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00196] For method range list of called methods Object monObjet|org.apache.kafka.streams.state.internals.NamedCache getCacheN197921"
+ , "c3" : "QC-JAV000007[00196] For method range list of called methods Object monObjet|NamedCache getCacheN198833"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00198"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.streams.state.internals.ThreadCache.range@POLYN197732 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.streams.state.internals.ThreadCache.range@POLYN198644 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -775,14 +775,14 @@ var maDataBlocs = {
  , "c1" : "00204"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#204"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00204] For method reverseRange list of called methods Object monObjet|org.apache.kafka.streams.state.internals.NamedCache getCacheN198581"
+ , "c3" : "QC-JAV000007[00204] For method reverseRange list of called methods Object monObjet|NamedCache getCacheN199493"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00206"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.streams.state.internals.ThreadCache.reverseRange@POLYN198420 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.streams.state.internals.ThreadCache.reverseRange@POLYN199332 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -796,14 +796,14 @@ var maDataBlocs = {
  , "c1" : "00212"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#212"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00212] For method all list of called methods Object monObjet|org.apache.kafka.streams.state.internals.NamedCache getCacheN199163"
+ , "c3" : "QC-JAV000007[00212] For method all list of called methods Object monObjet|NamedCache getCacheN200075"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00214"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.streams.state.internals.ThreadCache.all@POLYN199058 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.streams.state.internals.ThreadCache.all@POLYN199970 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -817,28 +817,21 @@ var maDataBlocs = {
  , "c1" : "00220"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#220"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00220] For method reverseAll list of called methods Object monObjet|org.apache.kafka.streams.state.internals.NamedCache getCacheN199704"
+ , "c3" : "QC-JAV000007[00220] For method reverseAll list of called methods Object monObjet|NamedCache getCacheN200616"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00222"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#222"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.streams.state.internals.ThreadCache.reverseAll@POLYN199599 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00228"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#228"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00228] For method size list of called methods Object monObjet|long cache_sizeN200368"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.streams.state.internals.ThreadCache.reverseAll@POLYN200511 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00229"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.streams.state.internals.ThreadCache.size@POLYN200140 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.streams.state.internals.ThreadCache.size@POLYN201052 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -852,21 +845,14 @@ var maDataBlocs = {
  , "c1" : "00240"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#240"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.streams.state.internals.ThreadCache.isOverflowing@POLYN200581 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00243"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#243"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00243] For method sizeBytes list of called methods Object monObjet|long namedCache_sizeInBytesN200939"
+ , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.streams.state.internals.ThreadCache.isOverflowing@POLYN201493 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00244"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#244"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.streams.state.internals.ThreadCache.sizeBytes@POLYN200711 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.streams.state.internals.ThreadCache.sizeBytes@POLYN201623 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -887,14 +873,14 @@ var maDataBlocs = {
  , "c1" : "00254"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#254"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00254] For method close list of called methods Object monObjet|V caches_removeN201245"
+ , "c3" : "QC-JAV000007[00254] For method close list of called methods Object monObjet|V caches_removeN202157"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00256"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#256"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.streams.state.internals.ThreadCache.close@POLYN201144 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.streams.state.internals.ThreadCache.close@POLYN202056 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -908,7 +894,7 @@ var maDataBlocs = {
  , "c1" : "00261"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#261"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00261] For method maybeEvict list of called methods Object monObjet|org.apache.kafka.streams.state.internals.NamedCache getOrCreateCacheN201678"
+ , "c3" : "QC-JAV000007[00261] For method maybeEvict list of called methods Object monObjet|NamedCache getOrCreateCacheN202590"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -922,14 +908,14 @@ var maDataBlocs = {
  , "c1" : "00262"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#262"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.streams.state.internals.ThreadCache.maybeEvict@POLYN201437 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.streams.state.internals.ThreadCache.maybeEvict@POLYN202349 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00277"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#277"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.streams.state.internals.ThreadCache.maybeEvict@POLYN201437 the MagicNumber/String  'Evicted {} entries from cache {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.streams.state.internals.ThreadCache.maybeEvict@POLYN202349 the MagicNumber/String  'Evicted {} entries from cache {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -964,56 +950,56 @@ var maDataBlocs = {
  , "c1" : "00285"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#285"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00285] For method getOrCreateCache list of called methods Object monObjet|V caches_getN202406"
+ , "c3" : "QC-JAV000007[00285] For method getOrCreateCache list of called methods Object monObjet|V caches_getN203318"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00287"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#287"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.streams.state.internals.ThreadCache.getOrCreateCache@POLYN202306 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.streams.state.internals.ThreadCache.getOrCreateCache@POLYN203218 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00321"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#321"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.streams.state.internals.ThreadCache.MemoryLRUCacheBytesIterator.hasNext@POLYN203791 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.streams.state.internals.ThreadCache.MemoryLRUCacheBytesIterator.hasNext@POLYN204703 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00322"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#322"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.streams.state.internals.ThreadCache.MemoryLRUCacheBytesIterator.hasNext@POLYN203791 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.streams.state.internals.ThreadCache.MemoryLRUCacheBytesIterator.hasNext@POLYN204703 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00325"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#325"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.streams.state.internals.ThreadCache.MemoryLRUCacheBytesIterator.hasNext@POLYN203791 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.streams.state.internals.ThreadCache.MemoryLRUCacheBytesIterator.hasNext@POLYN204703 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00329"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#329"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.streams.state.internals.ThreadCache.MemoryLRUCacheBytesIterator.hasNext@POLYN203791 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.streams.state.internals.ThreadCache.MemoryLRUCacheBytesIterator.hasNext@POLYN204703 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00338"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#338"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.streams.state.internals.ThreadCache.MemoryLRUCacheBytesIterator.next@POLYN204225 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.streams.state.internals.ThreadCache.MemoryLRUCacheBytesIterator.next@POLYN205137 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00345"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#345"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.streams.state.internals.ThreadCache.MemoryLRUCacheBytesIterator.internalNext@POLYN204581 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.streams.state.internals.ThreadCache.MemoryLRUCacheBytesIterator.internalNext@POLYN205493 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1146,168 +1132,168 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN192213.newCacheSizeBytes"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN193125.newCacheSizeBytes"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.streams.state.internals.ThreadCache.close@POLYN201144.namespace"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.streams.state.internals.ThreadCache.close@POLYN202056.namespace"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ThreadCache.putIfAbsent@POLYN196139"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ThreadCache.put@POLYN196637"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ThreadCache.maybeEvict@POLYN201437"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ThreadCache.maybeEvict@POLYN202349"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ThreadCache.addDirtyEntryFlushListener@POLYN194324"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ThreadCache.putIfAbsent@POLYN197051"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ThreadCache.delete@POLYN197086"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ThreadCache.delete@POLYN197998"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ThreadCache.flush@POLYN194580"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ThreadCache.flush@POLYN195492"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ThreadCache.get@POLYN195205"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ThreadCache.get@POLYN196117"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN192213"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN193125"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ThreadCache.size@POLYN200140"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00171"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#171"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00171] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.putIfAbsent@POLYN196139 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.ThreadCache.size@POLYN201052"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00262"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#262"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00262] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.maybeEvict@POLYN201437 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00262] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.maybeEvict@POLYN202349 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00277"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#277"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00277] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.maybeEvict@POLYN201437 the MagicNumber/String 'Evicted {} entries from cache {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00277] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.maybeEvict@POLYN202349 the MagicNumber/String 'Evicted {} entries from cache {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00171"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#171"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00171] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.putIfAbsent@POLYN197051 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00185"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#185"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00185] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.delete@POLYN197086 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00185] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.delete@POLYN197998 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00186"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#186"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00186] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.delete@POLYN197086 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00186] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.delete@POLYN197998 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#133"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00133] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.flush@POLYN194580 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00133] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.flush@POLYN195492 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00139"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#139"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00139] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.flush@POLYN194580 the MagicNumber/String 'Cache stats on flush: #puts={}, #gets={}, #evicts={}, #flushes={}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00139] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.flush@POLYN195492 the MagicNumber/String 'Cache stats on flush: #puts={}, #gets={}, #evicts={}, #flushes={}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#146"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.get@POLYN195205 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.get@POLYN196117 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#147"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00147] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.get@POLYN195205 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00147] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.get@POLYN196117 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#151"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00151] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.get@POLYN195205 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00151] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.get@POLYN196117 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00152"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#152"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00152] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.get@POLYN195205 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00152] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.get@POLYN196117 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#79"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN192213 the MagicNumber/String 'Cache size was shrunk to {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN193125 the MagicNumber/String 'Cache size was shrunk to {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#90"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN192213 the MagicNumber/String 'Cache size was expanded to {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.resize@POLYN193125 the MagicNumber/String 'Cache size was expanded to {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00229"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#229"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00229] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.size@POLYN200140 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00229] In the recursive method org.apache.kafka.streams.state.internals.ThreadCache.size@POLYN201052 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 , 

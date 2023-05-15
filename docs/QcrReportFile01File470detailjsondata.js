@@ -99,98 +99,98 @@ var maDataBlocs = {
  , "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN150161 the MagicNumber/String  1000.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN151073 the MagicNumber/String  1000.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN150161 the MagicNumber/String  1000.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN151073 the MagicNumber/String  1000.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN150161 the MagicNumber/String  1000.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN151073 the MagicNumber/String  1000.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN150161 the MagicNumber/String  1000.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN151073 the MagicNumber/String  1000.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN150161 the MagicNumber/String  60.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN151073 the MagicNumber/String  60.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN150161 the MagicNumber/String  1000.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN151073 the MagicNumber/String  1000.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN150161 the MagicNumber/String  60.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN151073 the MagicNumber/String  60.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN150161 the MagicNumber/String  60.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN151073 the MagicNumber/String  60.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN150161 the MagicNumber/String  1000.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN151073 the MagicNumber/String  1000.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN150161 the MagicNumber/String  24.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN151073 the MagicNumber/String  24.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN150161 the MagicNumber/String  60.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN151073 the MagicNumber/String  60.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN150161 the MagicNumber/String  60.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN151073 the MagicNumber/String  60.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN150161 the MagicNumber/String  1000.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN151073 the MagicNumber/String  1000.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN150161 the MagicNumber/String  'Unknown unit: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.metrics.internals.MetricsUtils.convert@POLYN151073 the MagicNumber/String  'Unknown unit: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -204,49 +204,49 @@ var maDataBlocs = {
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.metrics.internals.MetricsUtils.getTags@POLYN151530 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.metrics.internals.MetricsUtils.getTags@POLYN152442 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.metrics.internals.MetricsUtils.getTags@POLYN151530 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.metrics.internals.MetricsUtils.getTags@POLYN152442 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.metrics.internals.MetricsUtils.getTags@POLYN151530 the MagicNumber/String  'keyValue needs to be specified in pairs' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.metrics.internals.MetricsUtils.getTags@POLYN152442 the MagicNumber/String  'keyValue needs to be specified in pairs' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.metrics.internals.MetricsUtils.getTags@POLYN151530 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.metrics.internals.MetricsUtils.getTags@POLYN152442 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.metrics.internals.MetricsUtils.getTags@POLYN151530 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.metrics.internals.MetricsUtils.getTags@POLYN152442 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.metrics.internals.MetricsUtils.getTags@POLYN151530 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.metrics.internals.MetricsUtils.getTags@POLYN152442 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/MetricsUtils.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.metrics.internals.MetricsUtils.getTags@POLYN151530 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.metrics.internals.MetricsUtils.getTags@POLYN152442 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 , 

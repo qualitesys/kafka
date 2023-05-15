@@ -298,7 +298,7 @@ var maDataBlocs = {
  , "c1" : "00093"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.schedule@POLYN160416 the MagicNumber/String  'StateStores can't access schedule.' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.schedule@POLYN161328 the MagicNumber/String  'StateStores can't access schedule.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -319,42 +319,42 @@ var maDataBlocs = {
  , "c1" : "00108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.commit@POLYN161081 the MagicNumber/String  'StateStores can't access commit.' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.commit@POLYN161993 the MagicNumber/String  'StateStores can't access commit.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00113"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.topic@POLYN161217 the MagicNumber/String  'StateStores can't access topic.' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.topic@POLYN162129 the MagicNumber/String  'StateStores can't access topic.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00118"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.partition@POLYN161357 the MagicNumber/String  'StateStores can't access partition.' should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.partition@POLYN162269 the MagicNumber/String  'StateStores can't access partition.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00123"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.offset@POLYN161497 the MagicNumber/String  'StateStores can't access offset.' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.offset@POLYN162409 the MagicNumber/String  'StateStores can't access offset.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.headers@POLYN161637 the MagicNumber/String  'StateStores can't access headers.' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.headers@POLYN162549 the MagicNumber/String  'StateStores can't access headers.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.timestamp@POLYN161777 the MagicNumber/String  'StateStores can't access timestamp.' should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.timestamp@POLYN162689 the MagicNumber/String  'StateStores can't access timestamp.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -368,21 +368,21 @@ var maDataBlocs = {
  , "c1" : "00148"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.currentSystemTimeMs@POLYN162275 the MagicNumber/String  'StateStores can't access system time.' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.currentSystemTimeMs@POLYN163187 the MagicNumber/String  'StateStores can't access system time.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00153"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.currentStreamTimeMs@POLYN162415 the MagicNumber/String  'StateStores can't access stream time.' should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.currentStreamTimeMs@POLYN163327 the MagicNumber/String  'StateStores can't access stream time.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.adapt@POLYN158842"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.adapt@POLYN159754"
 }} 
 ]
 , 

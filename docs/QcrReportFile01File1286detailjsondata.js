@@ -7,50 +7,16 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : { "" : ""
- , "c1" : "java.lang.Object"
- , "c2" : "org.apache.kafka.jmh.producer.ProducerRequestBenchmark"
-}} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.jmh.producer.ProducerRequestBenchmark" , "link" : "" , "methodes" : [ 
-{ "ligne" : { "" : ""
- , "c5" : "00069"
- , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerRequestBenchmark.java.html#69"
- , "c1" : "ProduceRequest"
- , "c2" : "request()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00077"
- , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerRequestBenchmark.java.html#77"
- , "c1" : "ProduceRequest"
- , "c2" : "constructorProduceRequest()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00083"
- , "c5link" : "././qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerRequestBenchmark.java.html#83"
- , "c1" : "ProduceResponse"
- , "c2" : "constructorErrorResponse()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
+ { "nomclasse" : "" , "link" : "" , "methodes" : [ 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {
-
- "ligneplantuml" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerRequestBenchmark.java.svg" }
-
 ] 
 , 
 "data04" : [
@@ -82,19 +48,19 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999999"
+ , "c3" : "Syntax analysis failure on the source code"
  , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerRequestBenchmark.java.html#84"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.jmh.producer.ProducerRequestBenchmark.constructorErrorResponse@POLYN159180 the MagicNumber/String  0 should be converted to const"
+ , "c1" : "00018"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerRequestBenchmark.java.html#18"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999999[00018] syntax analysis failed on file /home/runner/work/kafka/kafka/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/producer/ProducerRequestBenchmark.java near following tokens and ` * limitations under the License . ` */ package org . apache . kafka . jmh . producer ; "
 }} 
 ]
 , 

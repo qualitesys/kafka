@@ -94,7 +94,7 @@ var maDataBlocs = {
  , "c1" : "00036"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/AgentStatusResponse.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.trogdor.rest.AgentStatusResponse.AgentStatusResponse@POLYN145866 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.trogdor.rest.AgentStatusResponse.AgentStatusResponse@POLYN146778 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

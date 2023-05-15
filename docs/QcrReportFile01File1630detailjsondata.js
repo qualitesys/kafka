@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java 21 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java 20 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -171,13 +171,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "7"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -275,13 +268,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00135"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#135"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00135] For method failedStreamThreadSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_clientLevelSensorN162057"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00135"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#135"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00135] The argument streamsMetrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -290,7 +276,7 @@ var maDataBlocs = {
  , "c1" : "00142"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.streams.internals.metrics.ClientMetrics.failedStreamThreadSensor@POLYN161952 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.streams.internals.metrics.ClientMetrics.failedStreamThreadSensor@POLYN162864 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

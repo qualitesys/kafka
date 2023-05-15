@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/server/common/MetadataVersion.java.html" 
- , "texte" : "File server-common/src/main/java/org/apache/kafka/server/common/MetadataVersion.java 0 rule violation " 
+ , "texte" : "File server-common/src/main/java/org/apache/kafka/server/common/MetadataVersion.java 1 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -11,7 +11,7 @@ var maDataBlocs = {
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.server.common." , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "" , "link" : "" , "methodes" : [ 
 ] 
 }} 
 ]
@@ -44,6 +44,24 @@ var maDataBlocs = {
 ]
 , 
 "data14" : [
+]
+, 
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999999"
+ , "c3" : "Syntax analysis failure on the source code"
+ , "c4" : "1"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00017"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/MetadataVersion.java.html#17"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999999[00017] syntax analysis failed on file /home/runner/work/kafka/kafka/server-common/src/main/java/org/apache/kafka/server/common/MetadataVersion.java near following tokens and ` * limitations under the License . ` */ package org . apache . kafka . server . common ; "
+}} 
 ]
 , 
 "data15" : {

@@ -7,50 +7,16 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
-{ "ligne" : { "" : ""
- , "c1" : "RecordBatch"
- , "c2" : "org.apache.kafka.common.record.AbstractRecordBatch"
-}} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.record.AbstractRecordBatch" , "link" : "" , "methodes" : [ 
-{ "ligne" : { "" : ""
- , "c5" : "00022"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.html#22"
- , "c1" : "boolean"
- , "c2" : "hasProducerId()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00027"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.html#27"
- , "c1" : "long"
- , "c2" : "nextOffset()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00032"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.html#32"
- , "c1" : "boolean"
- , "c2" : "isCompressed()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
+ { "nomclasse" : "" , "link" : "" , "methodes" : [ 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {
-
- "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.svg" }
-
 ] 
 , 
 "data04" : [
@@ -82,19 +48,19 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999999"
+ , "c3" : "Syntax analysis failure on the source code"
  , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.html#28"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.record.AbstractRecordBatch.nextOffset@POLYN143400 the MagicNumber/String  1 should be converted to const"
+ , "c1" : "00017"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java.html#17"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999999[00017] syntax analysis failed on file /home/runner/work/kafka/kafka/clients/src/main/java/org/apache/kafka/common/record/AbstractRecordBatch.java near following tokens and ` * limitations under the License . ` */ package org . apache . kafka . common . record ; "
 }} 
 ]
 , 

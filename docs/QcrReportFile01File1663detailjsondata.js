@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java 23 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java 21 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -162,13 +162,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "4"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -176,28 +169,28 @@ var maDataBlocs = {
  , "c1" : "00086"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.kstream.SlidingWindows.SlidingWindows@POLYN184381 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.kstream.SlidingWindows.SlidingWindows@POLYN185293 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.kstream.SlidingWindows.SlidingWindows@POLYN184381 the MagicNumber/String  'Window time difference must not be negative.' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.kstream.SlidingWindows.SlidingWindows@POLYN185293 the MagicNumber/String  'Window time difference must not be negative.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.kstream.SlidingWindows.SlidingWindows@POLYN184381 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.kstream.SlidingWindows.SlidingWindows@POLYN185293 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.kstream.SlidingWindows.SlidingWindows@POLYN184381 the MagicNumber/String  'Window grace period must not be negative.' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.kstream.SlidingWindows.SlidingWindows@POLYN185293 the MagicNumber/String  'Window grace period must not be negative.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -215,24 +208,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#121"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00121] For method ofTimeDifferenceAndGrace list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN186331|long validateMillisecondDurationN186446|java.lang.String prepareMillisCheckFailMsgPrefixN186559|long validateMillisecondDurationN186674"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00122"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.streams.kstream.SlidingWindows.ofTimeDifferenceAndGrace@POLYN186186 the MagicNumber/String  'timeDifference' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.streams.kstream.SlidingWindows.ofTimeDifferenceAndGrace@POLYN187098 the MagicNumber/String  'timeDifference' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.kstream.SlidingWindows.ofTimeDifferenceAndGrace@POLYN186186 the MagicNumber/String  'afterWindowEnd' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.streams.kstream.SlidingWindows.ofTimeDifferenceAndGrace@POLYN187098 the MagicNumber/String  'afterWindowEnd' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -243,24 +229,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#142"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00142] For method withTimeDifferenceAndGrace list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN187571|long validateMillisecondDurationN187686|java.lang.String prepareMillisCheckFailMsgPrefixN187799|long validateMillisecondDurationN187914"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.kstream.SlidingWindows.withTimeDifferenceAndGrace@POLYN187426 the MagicNumber/String  'timeDifference' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.kstream.SlidingWindows.withTimeDifferenceAndGrace@POLYN188338 the MagicNumber/String  'timeDifference' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.kstream.SlidingWindows.withTimeDifferenceAndGrace@POLYN187426 the MagicNumber/String  'grace' should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.kstream.SlidingWindows.withTimeDifferenceAndGrace@POLYN188338 the MagicNumber/String  'grace' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -281,49 +260,49 @@ var maDataBlocs = {
  , "c1" : "00163"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.kstream.SlidingWindows.equals@POLYN188279 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.kstream.SlidingWindows.equals@POLYN189191 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00165"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.kstream.SlidingWindows.equals@POLYN188279 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.kstream.SlidingWindows.equals@POLYN189191 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00166"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.streams.kstream.SlidingWindows.equals@POLYN188279 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.streams.kstream.SlidingWindows.equals@POLYN189191 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00180"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.kstream.SlidingWindows.toString@POLYN189020 the MagicNumber/String  'SlidingWindows{' should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.kstream.SlidingWindows.toString@POLYN189932 the MagicNumber/String  'SlidingWindows{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00181"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.streams.kstream.SlidingWindows.toString@POLYN189020 the MagicNumber/String  ', sizeMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.streams.kstream.SlidingWindows.toString@POLYN189932 the MagicNumber/String  ', sizeMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00182"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.kstream.SlidingWindows.toString@POLYN189020 the MagicNumber/String  ', graceMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.kstream.SlidingWindows.toString@POLYN189932 the MagicNumber/String  ', graceMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00183"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#183"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.streams.kstream.SlidingWindows.toString@POLYN189020 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.streams.kstream.SlidingWindows.toString@POLYN189932 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

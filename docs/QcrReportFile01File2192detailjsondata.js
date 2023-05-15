@@ -303,7 +303,7 @@ var maDataBlocs = {
  , "c1" : "00132"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#132"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00132] For method main list of called methods Object monObjet|org.apache.kafka.trogdor.common.Platform Platform_Config_parseN174127"
+ , "c3" : "QC-JAV000007[00132] For method main list of called methods Object monObjet|org.apache.kafka.trogdor.common.Platform Platform_Config_parseN175039"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -317,399 +317,399 @@ var maDataBlocs = {
  , "c1" : "00134"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  'trogdor-coordinator' should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  'trogdor-coordinator' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00135"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  'The Trogdor fault injection coordinator' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  'The Trogdor fault injection coordinator' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  '--coordinator.config' should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  '--coordinator.config' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  '-c' should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  '-c' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00139"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  'config' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  'config' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00142"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  'CONFIG' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  'CONFIG' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  'The configuration file to use.' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  'The configuration file to use.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  '--node-name' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  '--node-name' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  '-n' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  '-n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00148"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  'node_name' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  'node_name' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00149"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  'NODE_NAME' should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  'NODE_NAME' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00150"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  'The name of this node.' should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  'The name of this node.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00160"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00163"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  'config' should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  'config' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00164"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  'node_name' should be converted to const"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  'node_name' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  'Starting coordinator process.' should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  'Starting coordinator process.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00172"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00172"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00174"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  'coordinator-shutdown-hook' should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  'coordinator-shutdown-hook' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00175"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  'Running coordinator shutdown hook.' should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  'Running coordinator shutdown hook.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00180"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String  'Got exception while running coordinator shutdown hook.' should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String  'Got exception while running coordinator shutdown hook.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00134"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#134"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00134] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String 'trogdor-coordinator' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00134] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String 'trogdor-coordinator' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00135"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#135"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00135] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00135] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#136"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00136] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String 'The Trogdor fault injection coordinator' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00136] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String 'The Trogdor fault injection coordinator' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#137"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00137] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String '--coordinator.config' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00137] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String '--coordinator.config' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#137"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00137] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String '-c' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00137] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String '-c' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00139"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#139"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00139] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00139] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#141"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00141] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String 'config' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00141] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String 'config' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00142"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#142"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00142] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String 'CONFIG' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00142] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String 'CONFIG' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#143"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00143] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String 'The configuration file to use.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00143] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String 'The configuration file to use.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#144"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String '--node-name' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String '--node-name' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#144"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String '-n' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String '-n' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#146"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00148"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#148"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String 'node_name' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String 'node_name' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00149"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#149"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00149] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String 'NODE_NAME' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00149] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String 'NODE_NAME' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00150"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#150"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00150] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String 'The name of this node.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00150] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String 'The name of this node.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#151"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00151] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00151] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#155"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00155] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00155] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#157"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00157] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00157] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00160"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#160"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00160] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00160] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00163"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#163"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00163] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String 'config' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00163] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String 'config' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00164"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#164"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00164] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String 'node_name' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00164] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String 'node_name' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#170"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00170] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String 'Starting coordinator process.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00170] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String 'Starting coordinator process.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00172"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#172"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00172] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00172] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00172"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#172"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00172] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00172] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00174"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#174"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00174] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String 'coordinator-shutdown-hook' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00174] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String 'coordinator-shutdown-hook' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00175"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#175"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00175] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String 'Running coordinator shutdown hook.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00175] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String 'Running coordinator shutdown hook.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#177"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00177] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00177] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00180"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/Coordinator.java.html#180"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00180] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN172334 the MagicNumber/String 'Got exception while running coordinator shutdown hook.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00180] In the recursive method org.apache.kafka.trogdor.coordinator.Coordinator.main@POLYN173246 the MagicNumber/String 'Got exception while running coordinator shutdown hook.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

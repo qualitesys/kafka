@@ -2,46 +2,21 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Value.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/stats/Value.java 2 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/stats/Value.java 1 rule violations " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
-{ "ligne" : { "" : ""
- , "c1" : "MeasurableStat"
- , "c2" : "org.apache.kafka.common.metrics.stats.Value"
-}} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.metrics.stats.Value" , "link" : "" , "methodes" : [ 
-{ "ligne" : { "" : ""
- , "c5" : "00029"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Value.java.html#29"
- , "c1" : "double"
- , "c2" : "measure(MetricConfig;long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00034"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Value.java.html#34"
- , "c1" : "void"
- , "c2" : "record(MetricConfig;double;long)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
+ { "nomclasse" : "" , "link" : "" , "methodes" : [ 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {
-
- "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Value.java.svg" }
-
 ] 
 , 
 "data04" : [
@@ -73,26 +48,19 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
- , "c4" : "2"
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999999"
+ , "c3" : "Syntax analysis failure on the source code"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Value.java.html#29"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00029] For method measure arguments MetricConfig  config|long  now"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00034"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Value.java.html#34"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method record arguments MetricConfig  config|double  value|long  timeMs"
+ , "c1" : "00017"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Value.java.html#17"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999999[00017] syntax analysis failed on file /home/runner/work/kafka/kafka/clients/src/main/java/org/apache/kafka/common/metrics/stats/Value.java near following tokens and ` * limitations under the License . ` */ package org . apache . kafka . common . metrics . "
 }} 
 ]
 , 

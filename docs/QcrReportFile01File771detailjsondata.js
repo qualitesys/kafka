@@ -203,7 +203,7 @@ var maDataBlocs = {
  , "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler.handleRealmCallback@POLYN153175 the MagicNumber/String  'Client supplied realm: {} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler.handleRealmCallback@POLYN154087 the MagicNumber/String  'Client supplied realm: {} ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -224,14 +224,14 @@ var maDataBlocs = {
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler.handleAuthorizeCallback@POLYN153444 the MagicNumber/String  'Successfully authenticated client: authenticationID={}; authorizationID={}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler.handleAuthorizeCallback@POLYN154356 the MagicNumber/String  'Successfully authenticated client: authenticationID={}; authorizationID={}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerCallbackHandler.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler.handleAuthorizeCallback@POLYN153444 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.security.authenticator.SaslServerCallbackHandler.handleAuthorizeCallback@POLYN154356 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -204,56 +204,56 @@ var maDataBlocs = {
  , "c1" : "00078"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.image.ConfigurationImage.equals@POLYN155644 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.image.ConfigurationImage.equals@POLYN156556 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.image.ConfigurationImage.toString@POLYN156142 the MagicNumber/String  'ConfigurationImage(data=' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.image.ConfigurationImage.toString@POLYN157054 the MagicNumber/String  'ConfigurationImage(data=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.image.ConfigurationImage.toString@POLYN156142 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.image.ConfigurationImage.toString@POLYN157054 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.image.ConfigurationImage.toString@POLYN156142 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.image.ConfigurationImage.toString@POLYN157054 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.image.ConfigurationImage.toString@POLYN156142 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.image.ConfigurationImage.toString@POLYN157054 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ConfigurationImage.equals@POLYN155644"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ConfigurationImage.equals@POLYN156556"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ConfigurationImage.isEmpty@POLYN154419"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ConfigurationImage.isEmpty@POLYN155331"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#78"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.image.ConfigurationImage.equals@POLYN155644 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.image.ConfigurationImage.equals@POLYN156556 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

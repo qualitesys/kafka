@@ -2,64 +2,21 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java 5 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java 1 rule violations " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
-{ "ligne" : { "" : ""
- , "c1" : "UnalignedRecords"
- , "c2" : "org.apache.kafka.common.record.UnalignedMemoryRecords"
-}} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.record.UnalignedMemoryRecords" , "link" : "" , "methodes" : [ 
-{ "ligne" : { "" : ""
- , "c5" : "00033"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.html#33"
- , "c1" : "UnalignedMemoryRecords"
- , "c2" : "UnalignedMemoryRecords(ByteBuffer)"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00037"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.html#37"
- , "c1" : "ByteBuffer"
- , "c2" : "buffer()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00042"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.html#42"
- , "c1" : "int"
- , "c2" : "sizeInBytes()"
- , "c3" : "1"
- , "c4" : "1"
-}} 
-,
-{ "ligne" : { "" : ""
- , "c5" : "00047"
- , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.html#47"
- , "c1" : "long"
- , "c2" : "writeTo(TransferableChannel;long;int)"
- , "c3" : "3"
- , "c4" : "3"
-}} 
+ { "nomclasse" : "" , "link" : "" , "methodes" : [ 
 ] 
 }} 
 ]
 , 
 "data03" : [
-   {
-
- "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.svg" }
-
 ] 
 , 
 "data04" : [
@@ -91,54 +48,19 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000010"
- , "c3" : "MagicNumber Strings and numbers should be converted to constants"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000006"
- , "c3" : "Argument list of the method"
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999999"
+ , "c3" : "Syntax analysis failure on the source code"
  , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00047"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.html#47"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method writeTo arguments TransferableChannel  channel|long  position|int  length"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.html#49"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.record.UnalignedMemoryRecords.writeTo@POLYN147709 the MagicNumber/String  'position should not be greater than Integer.MAX_VALUE: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.html#51"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.record.UnalignedMemoryRecords.writeTo@POLYN147709 the MagicNumber/String  'position+length should not be greater than buffer.limit(), position: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.html#52"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.record.UnalignedMemoryRecords.writeTo@POLYN147709 the MagicNumber/String  ', length: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.html#52"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.record.UnalignedMemoryRecords.writeTo@POLYN147709 the MagicNumber/String  ', buffer.limit(): ' should be converted to const"
+ , "c1" : "00017"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java.html#17"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999999[00017] syntax analysis failed on file /home/runner/work/kafka/kafka/clients/src/main/java/org/apache/kafka/common/record/UnalignedMemoryRecords.java near following tokens and ` * limitations under the License . ` */ package org . apache . kafka . common . record ; "
 }} 
 ]
 , 

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java 9 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java 8 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -160,7 +160,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -169,42 +169,42 @@ var maDataBlocs = {
  , "c1" : "00052"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.snapshot.RecordsSnapshotReader.lastContainedLogOffset@POLYN155838 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.snapshot.RecordsSnapshotReader.lastContainedLogOffset@POLYN156750 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00061] For method lastContainedLogTimestamp list of called methods Object monObjet|java.util.Optional nextBatchN156452"
+ , "c3" : "QC-JAV000007[00061] For method lastContainedLogTimestamp list of called methods Object monObjet|java.util.Optional nextBatchN157364"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.snapshot.RecordsSnapshotReader.lastContainedLogTimestamp@POLYN156078 the MagicNumber/String  'nextBatch was present when last contained log timestamp was not present' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.snapshot.RecordsSnapshotReader.lastContainedLogTimestamp@POLYN156990 the MagicNumber/String  'nextBatch was present when last contained log timestamp was not present' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#78"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00078] For method hasNext list of called methods Object monObjet|java.util.Optional nextBatchN156719"
+ , "c3" : "QC-JAV000007[00078] For method hasNext list of called methods Object monObjet|java.util.Optional nextBatchN157631"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#87"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00087] For method next list of called methods Object monObjet|V nextBatch_getN157097"
+ , "c3" : "QC-JAV000007[00087] For method next list of called methods Object monObjet|V nextBatch_getN158009"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.snapshot.RecordsSnapshotReader.next@POLYN156855 the MagicNumber/String  'Snapshot reader doesn't have any more elements' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.snapshot.RecordsSnapshotReader.next@POLYN157767 the MagicNumber/String  'Snapshot reader doesn't have any more elements' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -212,13 +212,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#104"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00104] The argument snapshot is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#118"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00118] For method nextBatch list of called methods Object monObjet|org.apache.kafka.raft.Batch iterator_nextN158081"
 }} 
 ,
 { "ligne" : {"" : ""
