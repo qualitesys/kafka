@@ -8,7 +8,7 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Serdes.WrapperSerde<Windowed<T>>"
+ , "c1" : ""
  , "c2" : "org.apache.kafka.streams.kstream.internals.FullTimeWindowedSerde"
 }} 
 ]

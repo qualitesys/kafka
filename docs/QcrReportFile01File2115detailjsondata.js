@@ -8,7 +8,7 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "RocksDBWindowStoreTimestampedBytesStore"
+ , "c1" : "TimestampedBytesStore"
  , "c2" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedWindowStore"
 }} 
 ]

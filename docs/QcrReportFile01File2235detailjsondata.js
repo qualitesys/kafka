@@ -8,7 +8,7 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "WorkerState"
+ , "c1" : ""
  , "c2" : "org.apache.kafka.trogdor.rest.WorkerReceiving"
 }} 
 ]
@@ -85,7 +85,7 @@ var maDataBlocs = {
  , "c1" : "00039"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/WorkerReceiving.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.trogdor.rest.WorkerReceiving.status@POLYN146884 the MagicNumber/String  'receiving' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.trogdor.rest.WorkerReceiving.status@POLYN148518 the MagicNumber/String  'receiving' should be converted to const"
 }} 
 ]
 , 

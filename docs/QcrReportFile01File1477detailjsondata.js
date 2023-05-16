@@ -8,7 +8,7 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Throwable"
+ , "c1" : ""
  , "c2" : "java.lang.Error"
 }} 
 ]

@@ -8,7 +8,7 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Message"
+ , "c1" : ""
  , "c2" : "org.apache.kafka.trogdor.rest.TaskState"
 }} 
 ]
@@ -103,7 +103,7 @@ var maDataBlocs = {
  , "c1" : "00046"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/TaskState.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.trogdor.rest.TaskState.TaskState@POLYN150595 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.trogdor.rest.TaskState.TaskState@POLYN152229 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

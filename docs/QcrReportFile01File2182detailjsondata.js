@@ -232,35 +232,35 @@ var maDataBlocs = {
  , "c1" : "00047"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN158045 the MagicNumber/String  'localhost' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN159677 the MagicNumber/String  'localhost' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN158045 the MagicNumber/String  'hostname' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN159677 the MagicNumber/String  'hostname' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN158045 the MagicNumber/String  'tags' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN159677 the MagicNumber/String  'tags' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN158045 the MagicNumber/String  'Expected the 'tags' field to be an ' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN159677 the MagicNumber/String  'Expected the 'tags' field to be an ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN158045 the MagicNumber/String  'array of strings.' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN159677 the MagicNumber/String  'array of strings.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -288,70 +288,70 @@ var maDataBlocs = {
  , "c1" : "00103"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.trogdor.basic.BasicNode.equals@POLYN160865 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.trogdor.basic.BasicNode.equals@POLYN162497 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.trogdor.basic.BasicNode.equals@POLYN160865 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.trogdor.basic.BasicNode.equals@POLYN162497 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.trogdor.basic.BasicNode.equals@POLYN160865 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.trogdor.basic.BasicNode.equals@POLYN162497 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN158045"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN159677"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.basic.BasicNode.getConfig@POLYN160378"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.basic.BasicNode.getConfig@POLYN162010"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00047"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#47"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00047] In the recursive method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN158045 the MagicNumber/String 'localhost' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00047] In the recursive method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN159677 the MagicNumber/String 'localhost' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#55"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN158045 the MagicNumber/String 'hostname' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN159677 the MagicNumber/String 'hostname' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#57"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN158045 the MagicNumber/String 'tags' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN159677 the MagicNumber/String 'tags' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#59"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN158045 the MagicNumber/String 'Expected the 'tags' field to be an ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN159677 the MagicNumber/String 'Expected the 'tags' field to be an ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#60"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN158045 the MagicNumber/String 'array of strings.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN159677 the MagicNumber/String 'array of strings.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

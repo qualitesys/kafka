@@ -153,35 +153,35 @@ var maDataBlocs = {
  , "c1" : "00054"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.controller.ControllerResult.equals@POLYN153294 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.controller.ControllerResult.equals@POLYN154926 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.controller.ControllerResult.equals@POLYN153294 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.controller.ControllerResult.equals@POLYN154926 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.controller.ControllerResult.toString@POLYN154137 the MagicNumber/String  'ControllerResult(records=%s, response=%s, isAtomic=%s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.controller.ControllerResult.toString@POLYN155769 the MagicNumber/String  'ControllerResult(records=%s, response=%s, isAtomic=%s)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.controller.ControllerResult.toString@POLYN154137 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.controller.ControllerResult.toString@POLYN155769 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResult.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.controller.ControllerResult.withoutRecords@POLYN154544 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.controller.ControllerResult.withoutRecords@POLYN156176 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

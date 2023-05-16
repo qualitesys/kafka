@@ -8,7 +8,7 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "SourceConnector"
+ , "c1" : ""
  , "c2" : "org.apache.kafka.connect.tools.SchemaSourceConnector"
 }} 
 ]
@@ -156,7 +156,7 @@ var maDataBlocs = {
  , "c1" : "00051"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.tools.SchemaSourceConnector.taskConfigs@POLYN150334 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.tools.SchemaSourceConnector.taskConfigs@POLYN151968 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

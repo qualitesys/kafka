@@ -240,14 +240,14 @@ var maDataBlocs = {
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.clients.NodeApiVersions.create@POLYN182995 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.clients.NodeApiVersions.create@POLYN184627 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.clients.NodeApiVersions.create@POLYN182995 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.clients.NodeApiVersions.create@POLYN184627 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -289,7 +289,7 @@ var maDataBlocs = {
  , "c1" : "00127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#127"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00127] For method latestUsableVersion list of called methods Object monObjet|V supportedVersions_getN186241"
+ , "c3" : "QC-JAV000007[00127] For method latestUsableVersion list of called methods Object monObjet|V supportedVersions_getN187873"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -303,63 +303,63 @@ var maDataBlocs = {
  , "c1" : "00129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.clients.NodeApiVersions.latestUsableVersion@POLYN185917 the MagicNumber/String  'The broker does not support ' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.clients.NodeApiVersions.latestUsableVersion@POLYN187549 the MagicNumber/String  'The broker does not support ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00140"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.clients.NodeApiVersions.latestUsableVersion@POLYN185917 the MagicNumber/String  'The broker does not support ' should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.clients.NodeApiVersions.latestUsableVersion@POLYN187549 the MagicNumber/String  'The broker does not support ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.clients.NodeApiVersions.latestUsableVersion@POLYN185917 the MagicNumber/String  ' with version in range [' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.clients.NodeApiVersions.latestUsableVersion@POLYN187549 the MagicNumber/String  ' with version in range [' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.clients.NodeApiVersions.latestUsableVersion@POLYN185917 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.clients.NodeApiVersions.latestUsableVersion@POLYN187549 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.clients.NodeApiVersions.latestUsableVersion@POLYN185917 the MagicNumber/String  ']. The supported' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.clients.NodeApiVersions.latestUsableVersion@POLYN187549 the MagicNumber/String  ']. The supported' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00142"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.clients.NodeApiVersions.latestUsableVersion@POLYN185917 the MagicNumber/String  ' range is [' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.clients.NodeApiVersions.latestUsableVersion@POLYN187549 the MagicNumber/String  ' range is [' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00142"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.clients.NodeApiVersions.latestUsableVersion@POLYN185917 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.clients.NodeApiVersions.latestUsableVersion@POLYN187549 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00142"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.clients.NodeApiVersions.latestUsableVersion@POLYN185917 the MagicNumber/String  '].' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.clients.NodeApiVersions.latestUsableVersion@POLYN187549 the MagicNumber/String  '].' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00152"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.clients.NodeApiVersions.toString@POLYN187240 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.clients.NodeApiVersions.toString@POLYN188872 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -380,63 +380,63 @@ var maDataBlocs = {
  , "c1" : "00175"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.clients.NodeApiVersions.toString@POLYN187454 the MagicNumber/String  '(' should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.clients.NodeApiVersions.toString@POLYN189086 the MagicNumber/String  '(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00176"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.clients.NodeApiVersions.toString@POLYN187454 the MagicNumber/String  '): ' should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.clients.NodeApiVersions.toString@POLYN189086 the MagicNumber/String  '): ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00176"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.clients.NodeApiVersions.toString@POLYN187454 the MagicNumber/String  'UNSUPPORTED' should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.clients.NodeApiVersions.toString@POLYN189086 the MagicNumber/String  'UNSUPPORTED' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00180"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.clients.NodeApiVersions.toString@POLYN187454 the MagicNumber/String  ',\n\t' should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.clients.NodeApiVersions.toString@POLYN189086 the MagicNumber/String  ',\n\t' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00180"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.clients.NodeApiVersions.toString@POLYN187454 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.clients.NodeApiVersions.toString@POLYN189086 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00182"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.clients.NodeApiVersions.toString@POLYN187454 the MagicNumber/String  '(' should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.clients.NodeApiVersions.toString@POLYN189086 the MagicNumber/String  '(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00184"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.clients.NodeApiVersions.toString@POLYN187454 the MagicNumber/String  '\n\t' should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.clients.NodeApiVersions.toString@POLYN189086 the MagicNumber/String  '\n\t' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00187"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.clients.NodeApiVersions.toString@POLYN187454 the MagicNumber/String  '\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.clients.NodeApiVersions.toString@POLYN189086 the MagicNumber/String  '\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00188"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.clients.NodeApiVersions.toString@POLYN187454 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.clients.NodeApiVersions.toString@POLYN189086 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -450,7 +450,7 @@ var maDataBlocs = {
  , "c1" : "00192"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#192"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00192] For method apiVersionToText list of called methods Object monObjet|V supportedVersions_getN190895|short Utils_minN191376"
+ , "c3" : "QC-JAV000007[00192] For method apiVersionToText list of called methods Object monObjet|V supportedVersions_getN192527|short Utils_minN193008"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -464,77 +464,77 @@ var maDataBlocs = {
  , "c1" : "00194"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.clients.NodeApiVersions.apiVersionToText@POLYN189555 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.clients.NodeApiVersions.apiVersionToText@POLYN191187 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00197"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.clients.NodeApiVersions.apiVersionToText@POLYN189555 the MagicNumber/String  '(' should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.clients.NodeApiVersions.apiVersionToText@POLYN191187 the MagicNumber/String  '(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00197"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.clients.NodeApiVersions.apiVersionToText@POLYN189555 the MagicNumber/String  '): ' should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.clients.NodeApiVersions.apiVersionToText@POLYN191187 the MagicNumber/String  '): ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00199"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.clients.NodeApiVersions.apiVersionToText@POLYN189555 the MagicNumber/String  'UNKNOWN(' should be converted to const"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.clients.NodeApiVersions.apiVersionToText@POLYN191187 the MagicNumber/String  'UNKNOWN(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00199"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.clients.NodeApiVersions.apiVersionToText@POLYN189555 the MagicNumber/String  '): ' should be converted to const"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.clients.NodeApiVersions.apiVersionToText@POLYN191187 the MagicNumber/String  '): ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00205"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#205"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.clients.NodeApiVersions.apiVersionToText@POLYN189555 the MagicNumber/String  ' to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.clients.NodeApiVersions.apiVersionToText@POLYN191187 the MagicNumber/String  ' to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00208"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.clients.NodeApiVersions.apiVersionToText@POLYN189555 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.clients.NodeApiVersions.apiVersionToText@POLYN191187 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00211"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.clients.NodeApiVersions.apiVersionToText@POLYN189555 the MagicNumber/String  ' [unusable: node too new]' should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.clients.NodeApiVersions.apiVersionToText@POLYN191187 the MagicNumber/String  ' [unusable: node too new]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00213"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.clients.NodeApiVersions.apiVersionToText@POLYN189555 the MagicNumber/String  ' [unusable: node too old]' should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.clients.NodeApiVersions.apiVersionToText@POLYN191187 the MagicNumber/String  ' [unusable: node too old]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00216"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.clients.NodeApiVersions.apiVersionToText@POLYN189555 the MagicNumber/String  ' [usable: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.clients.NodeApiVersions.apiVersionToText@POLYN191187 the MagicNumber/String  ' [usable: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00216"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.clients.NodeApiVersions.apiVersionToText@POLYN189555 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.clients.NodeApiVersions.apiVersionToText@POLYN191187 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -611,7 +611,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.NodeApiVersions.create@POLYN184077"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.NodeApiVersions.create@POLYN185709"
 }} 
 ]
 , 

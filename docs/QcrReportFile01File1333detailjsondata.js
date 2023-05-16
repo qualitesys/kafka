@@ -197,35 +197,35 @@ var maDataBlocs = {
  , "c1" : "00072"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.image.ClusterImage.equals@POLYN153856 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.image.ClusterImage.equals@POLYN155488 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.image.ClusterImage.toString@POLYN154215 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.image.ClusterImage.toString@POLYN155847 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.image.ClusterImage.toString@POLYN154215 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.image.ClusterImage.toString@POLYN155847 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClusterImage.hashCode@POLYN153736"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClusterImage.hashCode@POLYN155368"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClusterImage.isEmpty@POLYN152833"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClusterImage.isEmpty@POLYN154465"
 }} 
 ]
 , 

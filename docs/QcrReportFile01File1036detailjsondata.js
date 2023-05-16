@@ -2,13 +2,13 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorTaskConfig.java.html" 
- , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorTaskConfig.java 4 rule violations " 
+ , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorTaskConfig.java 2 rule violations " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "MirrorConnectorConfig"
+ , "c1" : ""
  , "c2" : "org.apache.kafka.connect.mirror.MirrorTaskConfig"
 }} 
 ]
@@ -96,42 +96,21 @@ var maDataBlocs = {
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "2"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorTaskConfig.java.html#38"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00038] For method taskTopicPartitions list of called methods Object monObjet|java.util.List getListN151068"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00040"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorTaskConfig.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.mirror.MirrorTaskConfig.taskTopicPartitions@POLYN150972 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00048"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorTaskConfig.java.html#48"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00048] For method taskConsumerGroups list of called methods Object monObjet|java.util.List getListN151578"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.mirror.MirrorTaskConfig.taskTopicPartitions@POLYN152606 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00050"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorTaskConfig.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.mirror.MirrorTaskConfig.taskConsumerGroups@POLYN151482 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.mirror.MirrorTaskConfig.taskConsumerGroups@POLYN153116 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

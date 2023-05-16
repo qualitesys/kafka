@@ -8,7 +8,7 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractLogin"
+ , "c1" : ""
  , "c2" : "org.apache.kafka.common.security.authenticator.DefaultLogin"
 }} 
 ]
@@ -85,7 +85,7 @@ var maDataBlocs = {
  , "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultLogin.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.security.authenticator.DefaultLogin.serviceName@POLYN143450 the MagicNumber/String  'kafka' should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.security.authenticator.DefaultLogin.serviceName@POLYN145084 the MagicNumber/String  'kafka' should be converted to const"
 }} 
 ]
 , 

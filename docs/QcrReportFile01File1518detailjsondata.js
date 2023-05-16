@@ -8,7 +8,7 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "RuntimeException"
+ , "c1" : ""
  , "c2" : "org.apache.kafka.server.common.serialization.MetadataParseException"
 }} 
 ]

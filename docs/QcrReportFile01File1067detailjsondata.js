@@ -8,7 +8,7 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractStatus<String>"
+ , "c1" : ""
  , "c2" : "org.apache.kafka.connect.runtime.ConnectorStatus"
 }} 
 ]
@@ -85,7 +85,7 @@ var maDataBlocs = {
  , "c1" : "00027"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorStatus.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.connect.runtime.ConnectorStatus.ConnectorStatus@POLYN152699 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.connect.runtime.ConnectorStatus.ConnectorStatus@POLYN154333 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

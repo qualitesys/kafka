@@ -8,7 +8,7 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Rate"
+ , "c1" : ""
  , "c2" : "org.apache.kafka.common.metrics.stats.SimpleRate"
 }} 
 ]

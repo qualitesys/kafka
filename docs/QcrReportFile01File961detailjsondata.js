@@ -169,28 +169,28 @@ var maDataBlocs = {
  , "c1" : "00036"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.header.ConnectHeader.ConnectHeader@POLYN153524 the MagicNumber/String  'Null header keys are not permitted' should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.connect.header.ConnectHeader.ConnectHeader@POLYN155156 the MagicNumber/String  'Null header keys are not permitted' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00038"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.connect.header.ConnectHeader.ConnectHeader@POLYN153524 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.connect.header.ConnectHeader.ConnectHeader@POLYN155156 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00052] For method schema list of called methods Object monObjet|org.apache.kafka.connect.data.Schema schemaAndValue_schemaN154220"
+ , "c3" : "QC-JAV000007[00052] For method schema list of called methods Object monObjet|org.apache.kafka.connect.data.Schema schemaAndValue_schemaN155852"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.header.ConnectHeader.schema@POLYN154145 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.header.ConnectHeader.schema@POLYN155777 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -211,7 +211,7 @@ var maDataBlocs = {
  , "c1" : "00062"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.header.ConnectHeader.rename@POLYN154573 the MagicNumber/String  'Null header keys are not permitted' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.header.ConnectHeader.rename@POLYN156205 the MagicNumber/String  'Null header keys are not permitted' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -232,42 +232,42 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.header.ConnectHeader.equals@POLYN155410 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.header.ConnectHeader.equals@POLYN157042 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.connect.header.ConnectHeader.equals@POLYN155410 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.connect.header.ConnectHeader.equals@POLYN157042 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00094"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.connect.header.ConnectHeader.toString@POLYN156149 the MagicNumber/String  'ConnectHeader(key=' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.connect.header.ConnectHeader.toString@POLYN157781 the MagicNumber/String  'ConnectHeader(key=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00094"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.connect.header.ConnectHeader.toString@POLYN156149 the MagicNumber/String  ', value=' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.connect.header.ConnectHeader.toString@POLYN157781 the MagicNumber/String  ', value=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00094"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.connect.header.ConnectHeader.toString@POLYN156149 the MagicNumber/String  ', schema=' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.connect.header.ConnectHeader.toString@POLYN157781 the MagicNumber/String  ', schema=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00094"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.connect.header.ConnectHeader.toString@POLYN156149 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.connect.header.ConnectHeader.toString@POLYN157781 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 , 

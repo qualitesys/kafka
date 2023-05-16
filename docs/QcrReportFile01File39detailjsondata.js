@@ -8,7 +8,7 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractOptions<AlterPartitionReassignmentsOptions>"
+ , "c1" : ""
  , "c2" : "org.apache.kafka.clients.admin.AlterPartitionReassignmentsOptions"
 }} 
 ]

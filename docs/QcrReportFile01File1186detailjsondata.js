@@ -8,7 +8,7 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "SourceConnector"
+ , "c1" : ""
  , "c2" : "org.apache.kafka.connect.tools.MockSourceConnector"
 }} 
 ]

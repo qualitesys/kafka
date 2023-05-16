@@ -8,7 +8,7 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ConverterConfig"
+ , "c1" : ""
  , "c2" : "org.apache.kafka.connect.json.JsonConverterConfig"
 }} 
 ]

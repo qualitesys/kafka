@@ -152,7 +152,7 @@ var maDataBlocs = {
  , "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RoundRobinPartitioner.java.html#53"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00053] For method partition list of called methods Object monObjet|java.util.List cluster_partitionsForTopicN154262"
+ , "c3" : "QC-JAV000007[00053] For method partition list of called methods Object monObjet|java.util.List cluster_partitionsForTopicN155894"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -173,14 +173,14 @@ var maDataBlocs = {
  , "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RoundRobinPartitioner.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00067] For method nextValue list of called methods Object monObjet|V topicCounterMap_computeIfAbsentN155129"
+ , "c3" : "QC-JAV000007[00067] For method nextValue list of called methods Object monObjet|V topicCounterMap_computeIfAbsentN156761"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RoundRobinPartitioner.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.clients.producer.RoundRobinPartitioner.nextValue@POLYN155032 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.clients.producer.RoundRobinPartitioner.nextValue@POLYN156664 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java 24 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java 23 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -187,13 +187,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "7"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -201,28 +194,28 @@ var maDataBlocs = {
  , "c1" : "00061"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.connect.converters.NumberConverter.NumberConverter@POLYN163572 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.connect.converters.NumberConverter.NumberConverter@POLYN165204 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.converters.NumberConverter.NumberConverter@POLYN163572 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.converters.NumberConverter.NumberConverter@POLYN165204 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.converters.NumberConverter.NumberConverter@POLYN163572 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.converters.NumberConverter.NumberConverter@POLYN165204 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.converters.NumberConverter.NumberConverter@POLYN163572 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.converters.NumberConverter.NumberConverter@POLYN165204 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -230,13 +223,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#73"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00073] For method configure arguments Map&lt;String ,? &gt;  configs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#73"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00073] For method configure list of called methods Object monObjet|org.apache.kafka.connect.storage.ConverterType conf_typeN164627"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -264,49 +250,49 @@ var maDataBlocs = {
  , "c1" : "00096"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.connect.converters.NumberConverter.fromConnectData@POLYN165625 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.connect.converters.NumberConverter.fromConnectData@POLYN167257 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00096"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.connect.converters.NumberConverter.fromConnectData@POLYN165625 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.connect.converters.NumberConverter.fromConnectData@POLYN167257 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.converters.NumberConverter.fromConnectData@POLYN165625 the MagicNumber/String  'Failed to serialize to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.converters.NumberConverter.fromConnectData@POLYN167257 the MagicNumber/String  'Failed to serialize to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.converters.NumberConverter.fromConnectData@POLYN165625 the MagicNumber/String  ' (was ' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.converters.NumberConverter.fromConnectData@POLYN167257 the MagicNumber/String  ' (was ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.converters.NumberConverter.fromConnectData@POLYN165625 the MagicNumber/String  '): ' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.converters.NumberConverter.fromConnectData@POLYN167257 the MagicNumber/String  '): ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.converters.NumberConverter.fromConnectData@POLYN165625 the MagicNumber/String  'Failed to serialize to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.converters.NumberConverter.fromConnectData@POLYN167257 the MagicNumber/String  'Failed to serialize to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.converters.NumberConverter.fromConnectData@POLYN165625 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.converters.NumberConverter.fromConnectData@POLYN167257 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -320,14 +306,14 @@ var maDataBlocs = {
  , "c1" : "00109"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.connect.converters.NumberConverter.toConnectData@POLYN166418 the MagicNumber/String  'Failed to deserialize ' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.connect.converters.NumberConverter.toConnectData@POLYN168050 the MagicNumber/String  'Failed to deserialize ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.connect.converters.NumberConverter.toConnectData@POLYN166418 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.connect.converters.NumberConverter.toConnectData@POLYN168050 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -362,7 +348,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.converters.NumberConverter.cast@POLYN165478"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.converters.NumberConverter.cast@POLYN167110"
 }} 
 ]
 , 

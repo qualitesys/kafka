@@ -8,7 +8,7 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractOptions<RemoveMembersFromConsumerGroupOptions>"
+ , "c1" : ""
  , "c2" : "org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupOptions"
 }} 
 ]
@@ -142,7 +142,7 @@ var maDataBlocs = {
  , "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupOptions.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupOptions.RemoveMembersFromConsumerGroupOptions@POLYN149149 the MagicNumber/String  'Invalid empty members has been provided' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupOptions.RemoveMembersFromConsumerGroupOptions@POLYN150783 the MagicNumber/String  'Invalid empty members has been provided' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

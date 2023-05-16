@@ -8,7 +8,7 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AuthorizationException"
+ , "c1" : ""
  , "c2" : "org.apache.kafka.common.errors.TopicAuthorizationException"
 }} 
 ]
@@ -103,7 +103,7 @@ var maDataBlocs = {
  , "c1" : "00031"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/TopicAuthorizationException.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.errors.TopicAuthorizationException.TopicAuthorizationException@POLYN146814 the MagicNumber/String  'Not authorized to access topics: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.errors.TopicAuthorizationException.TopicAuthorizationException@POLYN148448 the MagicNumber/String  'Not authorized to access topics: ' should be converted to const"
 }} 
 ]
 , 

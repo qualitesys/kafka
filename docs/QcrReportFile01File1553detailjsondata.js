@@ -8,7 +8,7 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "RemoteStorageException"
+ , "c1" : ""
  , "c2" : "org.apache.kafka.server.log.remote.storage.RemoteResourceNotFoundException"
 }} 
 ]
@@ -94,7 +94,7 @@ var maDataBlocs = {
  , "c1" : "00033"
  , "c1link" : "./qc/storage/api/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteResourceNotFoundException.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.server.log.remote.storage.RemoteResourceNotFoundException.RemoteResourceNotFoundException@POLYN146037 the MagicNumber/String  'Requested remote resource was not found' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.server.log.remote.storage.RemoteResourceNotFoundException.RemoteResourceNotFoundException@POLYN147671 the MagicNumber/String  'Requested remote resource was not found' should be converted to const"
 }} 
 ]
 , 

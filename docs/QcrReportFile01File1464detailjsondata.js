@@ -8,7 +8,7 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "OutputStream"
+ , "c1" : ""
  , "c2" : "java.io.PipedOutputStream"
 }} 
 ]
@@ -158,42 +158,42 @@ var maDataBlocs = {
  , "c1" : "00097"
  , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method java.io.PipedOutputStream.connect@POLYN173051 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method java.io.PipedOutputStream.connect@POLYN174685 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00099"
  , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method java.io.PipedOutputStream.connect@POLYN173051 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method java.io.PipedOutputStream.connect@POLYN174685 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method java.io.PipedOutputStream.connect@POLYN173051 the MagicNumber/String  'Already connected' should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method java.io.PipedOutputStream.connect@POLYN174685 the MagicNumber/String  'Already connected' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00103"
  , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method java.io.PipedOutputStream.connect@POLYN173051 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method java.io.PipedOutputStream.connect@POLYN174685 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method java.io.PipedOutputStream.connect@POLYN173051 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method java.io.PipedOutputStream.connect@POLYN174685 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method java.io.PipedOutputStream.connect@POLYN173051 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method java.io.PipedOutputStream.connect@POLYN174685 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -207,14 +207,14 @@ var maDataBlocs = {
  , "c1" : "00119"
  , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method java.io.PipedOutputStream.write@POLYN174050 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method java.io.PipedOutputStream.write@POLYN175684 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method java.io.PipedOutputStream.write@POLYN174050 the MagicNumber/String  'Pipe not connected' should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method java.io.PipedOutputStream.write@POLYN175684 the MagicNumber/String  'Pipe not connected' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -228,49 +228,49 @@ var maDataBlocs = {
  , "c1" : "00139"
  , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method java.io.PipedOutputStream.write@POLYN174773 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method java.io.PipedOutputStream.write@POLYN176407 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00140"
  , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method java.io.PipedOutputStream.write@POLYN174773 the MagicNumber/String  'Pipe not connected' should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method java.io.PipedOutputStream.write@POLYN176407 the MagicNumber/String  'Pipe not connected' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method java.io.PipedOutputStream.write@POLYN174773 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method java.io.PipedOutputStream.write@POLYN176407 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method java.io.PipedOutputStream.write@POLYN174773 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method java.io.PipedOutputStream.write@POLYN176407 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method java.io.PipedOutputStream.write@POLYN174773 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method java.io.PipedOutputStream.write@POLYN176407 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method java.io.PipedOutputStream.write@POLYN174773 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method java.io.PipedOutputStream.write@POLYN176407 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method java.io.PipedOutputStream.write@POLYN174773 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method java.io.PipedOutputStream.write@POLYN176407 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -291,14 +291,14 @@ var maDataBlocs = {
  , "c1" : "00160"
  , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method java.io.PipedOutputStream.flush@POLYN176065 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method java.io.PipedOutputStream.flush@POLYN177699 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00175"
  , "c1link" : "./qc/secujava/java.io.PipedOutputStream.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method java.io.PipedOutputStream.close@POLYN176449 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method java.io.PipedOutputStream.close@POLYN178083 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

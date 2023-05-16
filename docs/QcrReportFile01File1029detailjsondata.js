@@ -8,7 +8,7 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "SourceConnector"
+ , "c1" : ""
  , "c2" : "org.apache.kafka.connect.mirror.MirrorHeartbeatConnector"
 }} 
 ]
@@ -162,14 +162,14 @@ var maDataBlocs = {
  , "c1" : "00048"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatConnector.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.mirror.MirrorHeartbeatConnector.start@POLYN151492 the MagicNumber/String  'creating internal topics' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.mirror.MirrorHeartbeatConnector.start@POLYN153126 the MagicNumber/String  'creating internal topics' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00053"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatConnector.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.mirror.MirrorHeartbeatConnector.stop@POLYN151945 the MagicNumber/String  'scheduler' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.mirror.MirrorHeartbeatConnector.stop@POLYN153579 the MagicNumber/String  'scheduler' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

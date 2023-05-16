@@ -8,7 +8,7 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractApiMessageSerde"
+ , "c1" : ""
  , "c2" : "org.apache.kafka.metadata.MetadataRecordSerde"
 }} 
 ]

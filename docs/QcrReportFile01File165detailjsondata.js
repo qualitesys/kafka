@@ -2,13 +2,13 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java 72 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java 49 rule violations " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AdminApiHandler.Batched<TopicPartition,PartitionProducerState>"
+ , "c1" : ""
  , "c2" : "org.apache.kafka.clients.admin.internals.DescribeProducersHandler"
 }} 
 ]
@@ -116,35 +116,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "22"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "6"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -202,7 +179,7 @@ var maDataBlocs = {
  , "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.apiName@POLYN174054 the MagicNumber/String  'describeProducers' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.apiName@POLYN175688 the MagicNumber/String  'describeProducers' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -223,7 +200,7 @@ var maDataBlocs = {
  , "c1" : "00101"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#101"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00101] For method handlePartitionError list of called methods Object monObjet|org.apache.kafka.clients.admin.DescribeProducersOptions options_brokerIdN175255"
+ , "c3" : "QC-JAV000007[00101] For method handlePartitionError list of called methods Object monObjet|org.apache.kafka.clients.admin.DescribeProducersOptions options_brokerIdN176891"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -258,154 +235,154 @@ var maDataBlocs = {
  , "c1" : "00113"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String  'Not leader error in  DescribeProducers  response for partition {} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN176476 the MagicNumber/String  'Not leader error in  DescribeProducers  response for partition {} ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00114"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String  'for brokerId {} set in options' should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN176476 the MagicNumber/String  'for brokerId {} set in options' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String  'Failed to describe active producers ' should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN176476 the MagicNumber/String  'Failed to describe active producers ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String  'for partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN176476 the MagicNumber/String  'for partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String  ' on brokerId ' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN176476 the MagicNumber/String  ' on brokerId ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00119"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String  'Not leader error in  DescribeProducers  response for partition {}. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN176476 the MagicNumber/String  'Not leader error in  DescribeProducers  response for partition {}. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String  'Will retry later.' should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN176476 the MagicNumber/String  'Will retry later.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00126"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String  'Unknown topic/partition error in  DescribeProducers  response for partition {}. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN176476 the MagicNumber/String  'Unknown topic/partition error in  DescribeProducers  response for partition {}. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String  'Will retry later.' should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN176476 the MagicNumber/String  'Will retry later.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String  'Invalid topic in  DescribeProducers  response for partition {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN176476 the MagicNumber/String  'Invalid topic in  DescribeProducers  response for partition {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00134"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String  'Failed to fetch metadata for partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN176476 the MagicNumber/String  'Failed to fetch metadata for partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00135"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String  ' due to invalid topic error: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN176476 the MagicNumber/String  ' due to invalid topic error: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00140"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String  'Authorization failed in  DescribeProducers  response for partition {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN176476 the MagicNumber/String  'Authorization failed in  DescribeProducers  response for partition {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00142"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String  'Failed to describe ' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN176476 the MagicNumber/String  'Failed to describe ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String  'active producers for partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN176476 the MagicNumber/String  'active producers for partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String  ' due to authorization failure on topic' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN176476 the MagicNumber/String  ' due to authorization failure on topic' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String  '  ' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN176476 the MagicNumber/String  '  ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String  ' ' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN176476 the MagicNumber/String  ' ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String  'Unexpected error in  DescribeProducers  response for partition {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN176476 the MagicNumber/String  'Unexpected error in  DescribeProducers  response for partition {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00150"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String  'Failed to describe active ' should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN176476 the MagicNumber/String  'Failed to describe active ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String  'producers for partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN176476 the MagicNumber/String  'producers for partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String  ' due to unexpected error' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN176476 the MagicNumber/String  ' due to unexpected error' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -510,175 +487,14 @@ var maDataBlocs = {
  , "c1" : "00182"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handleResponse@POLYN177642 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handleResponse@POLYN179278 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00186"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handleResponse@POLYN177642 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#113"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String 'Not leader error in  DescribeProducers  response for partition {} ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#114"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00114] In the recursive method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String 'for brokerId {} set in options' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#115"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00115] In the recursive method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String 'Failed to describe active producers ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#116"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00116] In the recursive method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String ' on brokerId ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#116"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00116] In the recursive method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String 'for partition ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#119"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00119] In the recursive method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String 'Not leader error in  DescribeProducers  response for partition {}. ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#120"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String 'Will retry later.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#126"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00126] In the recursive method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String 'Unknown topic/partition error in  DescribeProducers  response for partition {}. ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#127"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00127] In the recursive method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String 'Will retry later.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#131"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String 'Invalid topic in  DescribeProducers  response for partition {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#134"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00134] In the recursive method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String 'Failed to fetch metadata for partition ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00135"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#135"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00135] In the recursive method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String ' due to invalid topic error: ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#140"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00140] In the recursive method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String 'Authorization failed in  DescribeProducers  response for partition {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#142"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00142] In the recursive method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String 'Failed to describe ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#143"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00143] In the recursive method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String ' due to authorization failure on topic' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#143"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00143] In the recursive method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String 'active producers for partition ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#144"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String '  ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#144"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String ' ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#148"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String 'Unexpected error in  DescribeProducers  response for partition {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#150"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00150] In the recursive method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String 'Failed to describe active ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00151"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#151"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00151] In the recursive method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String ' due to unexpected error' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00151"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#151"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00151] In the recursive method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handlePartitionError@POLYN174842 the MagicNumber/String 'producers for partition ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.clients.admin.internals.DescribeProducersHandler.handleResponse@POLYN179278 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

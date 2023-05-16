@@ -8,7 +8,7 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "StreamJoined<K,V1,V2>"
+ , "c1" : ""
  , "c2" : "org.apache.kafka.streams.kstream.internals.StreamJoinedInternal"
 }} 
 ]

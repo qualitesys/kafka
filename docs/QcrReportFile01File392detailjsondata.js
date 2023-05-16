@@ -8,7 +8,7 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "InvalidOffsetException"
+ , "c1" : ""
  , "c2" : "org.apache.kafka.common.errors.OffsetOutOfRangeException"
 }} 
 ]
