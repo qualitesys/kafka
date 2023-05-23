@@ -2,21 +2,73 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java 1 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java 0 rule violation " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : { "" : ""
+ , "c1" : "RecordBatch"
+ , "c2" : "org.apache.kafka.common.record.MutableRecordBatch"
+}} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.record.MutableRecordBatch" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00033"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.html#33"
+ , "c1" : "void"
+ , "c2" : "setLastOffset(long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.html#46"
+ , "c1" : "void"
+ , "c2" : "setMaxTimestamp(TimestampType;long)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.html#52"
+ , "c1" : "void"
+ , "c2" : "setPartitionLeaderEpoch(int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00058"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.html#58"
+ , "c1" : "void"
+ , "c2" : "writeTo(ByteBufferOutputStream)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00067"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.html#67"
+ , "c1" : "CloseableIterator&lt;Record&gt;"
+ , "c2" : "skipKeyValueIterator(BufferSupplier)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
 , 
 "data03" : [
+   {
+
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -44,24 +96,6 @@ var maDataBlocs = {
 ]
 , 
 "data14" : [
-]
-, 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999999"
- , "c3" : "Syntax analysis failure on the source code"
- , "c4" : "1"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java.html#17"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999999[00017] syntax analysis failed on file /home/runner/work/kafka/kafka/clients/src/main/java/org/apache/kafka/common/record/MutableRecordBatch.java near following tokens and ` * limitations under the License . ` */ package org . apache . kafka . common . record ; "
-}} 
 ]
 , 
 "data15" : {

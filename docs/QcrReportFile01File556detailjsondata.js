@@ -2,21 +2,55 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/ConvertedRecords.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/ConvertedRecords.java 1 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/ConvertedRecords.java 0 rule violation " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.common.record.ConvertedRecords"
+}} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.record.ConvertedRecords" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00024"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/ConvertedRecords.java.html#24"
+ , "c1" : "ConvertedRecords"
+ , "c2" : "ConvertedRecords(T;RecordConversionStats)"
+ , "c3" : "1"
+ , "c4" : "2"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00029"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/ConvertedRecords.java.html#29"
+ , "c1" : "T"
+ , "c2" : "records()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00033"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/ConvertedRecords.java.html#33"
+ , "c1" : "RecordConversionStats"
+ , "c2" : "recordConversionStats()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
 , 
 "data03" : [
+   {
+
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ConvertedRecords.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -44,24 +78,6 @@ var maDataBlocs = {
 ]
 , 
 "data14" : [
-]
-, 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999999"
- , "c3" : "Syntax analysis failure on the source code"
- , "c4" : "1"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ConvertedRecords.java.html#17"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999999[00017] syntax analysis failed on file /home/runner/work/kafka/kafka/clients/src/main/java/org/apache/kafka/common/record/ConvertedRecords.java near following tokens and ` * limitations under the License . ` */ package org . apache . kafka . common . record ; "
-}} 
 ]
 , 
 "data15" : {

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java 52 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java 53 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -233,7 +233,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -242,21 +242,21 @@ var maDataBlocs = {
  , "c1" : "00052"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.state.internals.AbstractSegments.AbstractSegments@POLYN175195 the MagicNumber/String  'yyyyMMddHHmm' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.streams.state.internals.AbstractSegments.AbstractSegments@POLYN177243 the MagicNumber/String  'yyyyMMddHHmm' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.state.internals.AbstractSegments.AbstractSegments@POLYN175195 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.state.internals.AbstractSegments.AbstractSegments@POLYN177243 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.state.internals.AbstractSegments.AbstractSegments@POLYN175195 the MagicNumber/String  'UTC' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.state.internals.AbstractSegments.AbstractSegments@POLYN177243 the MagicNumber/String  'UTC' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -277,7 +277,7 @@ var maDataBlocs = {
  , "c1" : "00067"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.state.internals.AbstractSegments.segmentName@POLYN175927 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.streams.state.internals.AbstractSegments.segmentName@POLYN177975 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -298,14 +298,14 @@ var maDataBlocs = {
  , "c1" : "00076"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#76"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00076] For method getOrCreateSegmentIfLive list of called methods Object monObjet|S getOrCreateSegmentN176748"
+ , "c3" : "QC-JAV000007[00076] For method getOrCreateSegmentIfLive list of called methods Object monObjet|S getOrCreateSegmentN178796"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.state.internals.AbstractSegments.getOrCreateSegmentIfLive@POLYN176315 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.state.internals.AbstractSegments.getOrCreateSegmentIfLive@POLYN178363 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -319,7 +319,7 @@ var maDataBlocs = {
  , "c1" : "00095"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#95"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00095] For method openExisting list of called methods Object monObjet|long segmentIdN178260"
+ , "c3" : "QC-JAV000007[00095] For method openExisting list of called methods Object monObjet|long segmentIdN180308"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -340,21 +340,21 @@ var maDataBlocs = {
  , "c1" : "00100"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.state.internals.AbstractSegments.openExisting@POLYN177014 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.state.internals.AbstractSegments.openExisting@POLYN179062 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.state.internals.AbstractSegments.openExisting@POLYN177014 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.state.internals.AbstractSegments.openExisting@POLYN179062 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.state.internals.AbstractSegments.openExisting@POLYN177014 the MagicNumber/String  'dir %s doesn't exist and cannot be created for segments %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.state.internals.AbstractSegments.openExisting@POLYN179062 the MagicNumber/String  'dir %s doesn't exist and cannot be created for segments %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -365,31 +365,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#121"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00121] For method segments list of called methods Object monObjet|long segments_subMapN181121"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00126"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.state.internals.AbstractSegments.segments@POLYN178444 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.state.internals.AbstractSegments.segments@POLYN180492 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.state.internals.AbstractSegments.segments@POLYN178444 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.state.internals.AbstractSegments.segments@POLYN180492 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.streams.state.internals.AbstractSegments.segments@POLYN178444 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.streams.state.internals.AbstractSegments.segments@POLYN180492 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00132"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.streams.state.internals.AbstractSegments.segments@POLYN178444 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.streams.state.internals.AbstractSegments.segments@POLYN180492 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -403,7 +410,7 @@ var maDataBlocs = {
  , "c1" : "00144"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#144"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00144] For method allSegments list of called methods Object monObjet|java.util.Collection segments_valuesN179924"
+ , "c3" : "QC-JAV000007[00144] For method allSegments list of called methods Object monObjet|java.util.Collection segments_valuesN181972"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -438,14 +445,14 @@ var maDataBlocs = {
  , "c1" : "00177"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.streams.state.internals.AbstractSegments.cleanupEarlierThan@POLYN180807 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.streams.state.internals.AbstractSegments.cleanupEarlierThan@POLYN182855 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00187"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.streams.state.internals.AbstractSegments.cleanupEarlierThan@POLYN180807 the MagicNumber/String  'Error destroying {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.streams.state.internals.AbstractSegments.cleanupEarlierThan@POLYN182855 the MagicNumber/String  'Error destroying {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -459,7 +466,7 @@ var maDataBlocs = {
  , "c1" : "00192"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#192"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00192] For method segmentIdFromSegmentName list of called methods Object monObjet|int name_lengthN181864|char segmentName_charAtN181944|java.lang.String segmentName_substringN182043"
+ , "c3" : "QC-JAV000007[00192] For method segmentIdFromSegmentName list of called methods Object monObjet|int name_lengthN183912|char segmentName_charAtN183992|java.lang.String segmentName_substringN184091"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -473,42 +480,42 @@ var maDataBlocs = {
  , "c1" : "00196"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN181731 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN183779 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00200"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#200"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN181731 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN183779 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN181731 the MagicNumber/String  'Unable to parse segmentName {} to a date. This segment will be skipped' should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN183779 the MagicNumber/String  'Unable to parse segmentName {} to a date. This segment will be skipped' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00205"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#205"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN181731 the MagicNumber/String  1L should be converted to const"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN183779 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00213"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN181731 the MagicNumber/String  'Unable to parse segment id as long from segmentName: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN183779 the MagicNumber/String  'Unable to parse segment id as long from segmentName: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00217"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN181731 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN183779 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -522,84 +529,84 @@ var maDataBlocs = {
  , "c1" : "00232"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.streams.state.internals.AbstractSegments.renameSegmentFile@POLYN183209 the MagicNumber/String  'Unable to rename old style segment from: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.streams.state.internals.AbstractSegments.renameSegmentFile@POLYN185257 the MagicNumber/String  'Unable to rename old style segment from: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00234"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.streams.state.internals.AbstractSegments.renameSegmentFile@POLYN183209 the MagicNumber/String  ' to new name: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.streams.state.internals.AbstractSegments.renameSegmentFile@POLYN185257 the MagicNumber/String  ' to new name: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.AbstractSegments.cleanupEarlierThan@POLYN180807"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.AbstractSegments.cleanupEarlierThan@POLYN182855"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN181731"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN183779"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#177"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00177] In the recursive method org.apache.kafka.streams.state.internals.AbstractSegments.cleanupEarlierThan@POLYN180807 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00177] In the recursive method org.apache.kafka.streams.state.internals.AbstractSegments.cleanupEarlierThan@POLYN182855 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00187"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#187"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00187] In the recursive method org.apache.kafka.streams.state.internals.AbstractSegments.cleanupEarlierThan@POLYN180807 the MagicNumber/String 'Error destroying {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00187] In the recursive method org.apache.kafka.streams.state.internals.AbstractSegments.cleanupEarlierThan@POLYN182855 the MagicNumber/String 'Error destroying {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00196"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#196"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00196] In the recursive method org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN181731 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00196] In the recursive method org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN183779 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00200"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#200"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00200] In the recursive method org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN181731 the MagicNumber/String '-' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00200] In the recursive method org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN183779 the MagicNumber/String '-' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#204"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00204] In the recursive method org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN181731 the MagicNumber/String 'Unable to parse segmentName {} to a date. This segment will be skipped' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00204] In the recursive method org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN183779 the MagicNumber/String 'Unable to parse segmentName {} to a date. This segment will be skipped' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00205"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#205"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00205] In the recursive method org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN181731 the MagicNumber/String 1L MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00205] In the recursive method org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN183779 the MagicNumber/String 1L MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00213"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#213"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN181731 the MagicNumber/String 'Unable to parse segment id as long from segmentName: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN183779 the MagicNumber/String 'Unable to parse segment id as long from segmentName: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00217"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#217"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00217] In the recursive method org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN181731 the MagicNumber/String ':' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00217] In the recursive method org.apache.kafka.streams.state.internals.AbstractSegments.segmentIdFromSegmentName@POLYN183779 the MagicNumber/String ':' MUST BE CONVERTED to const"
 }} 
 ]
 , 

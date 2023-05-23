@@ -2,21 +2,37 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/ProductionExceptionHandler.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/errors/ProductionExceptionHandler.java 1 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/errors/ProductionExceptionHandler.java 0 rule violation " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : { "" : ""
+ , "c1" : "Configurable"
+ , "c2" : "org.apache.kafka.streams.errors.ProductionExceptionHandler"
+}} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.errors.ProductionExceptionHandler" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00034"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/errors/ProductionExceptionHandler.java.html#34"
+ , "c1" : "ProductionExceptionHandlerResponse"
+ , "c2" : "handle(ProducerRecord&lt;byte[],byte[]&gt;;Exception)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
 , 
 "data03" : [
+   {
+
+ "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/ProductionExceptionHandler.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -44,24 +60,6 @@ var maDataBlocs = {
 ]
 , 
 "data14" : [
-]
-, 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999999"
- , "c3" : "Syntax analysis failure on the source code"
- , "c4" : "1"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/ProductionExceptionHandler.java.html#17"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999999[00017] syntax analysis failed on file /home/runner/work/kafka/kafka/streams/src/main/java/org/apache/kafka/streams/errors/ProductionExceptionHandler.java near following tokens and ` * limitations under the License . ` */ package org . apache . kafka . streams . errors ; "
-}} 
 ]
 , 
 "data15" : {

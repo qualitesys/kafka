@@ -168,28 +168,28 @@ var maDataBlocs = {
  , "c1" : "00052"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN157793 the MagicNumber/String  'Activating NetworkPartitionFault {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN159841 the MagicNumber/String  'Activating NetworkPartitionFault {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN157793 the MagicNumber/String  'creating network partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN159841 the MagicNumber/String  'creating network partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN157793 the MagicNumber/String  '-A' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN159841 the MagicNumber/String  '-A' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN157793 the MagicNumber/String  'created network partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN159841 the MagicNumber/String  'created network partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -203,28 +203,28 @@ var maDataBlocs = {
  , "c1" : "00061"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN158485 the MagicNumber/String  'Deactivating NetworkPartitionFault {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN160533 the MagicNumber/String  'Deactivating NetworkPartitionFault {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN158485 the MagicNumber/String  'removing network partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN160533 the MagicNumber/String  'removing network partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN158485 the MagicNumber/String  '-D' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN160533 the MagicNumber/String  '-D' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN158485 the MagicNumber/String  'removed network partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN160533 the MagicNumber/String  'removed network partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -238,7 +238,7 @@ var maDataBlocs = {
  , "c1" : "00067"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00067] For method runIptablesCommands list of called methods Object monObjet|org.apache.kafka.trogdor.common.Node platform_curNodeN159158|org.apache.kafka.trogdor.common.Topology platform_topologyN159233|org.apache.kafka.trogdor.common.Node topology_nodeN159853"
+ , "c3" : "QC-JAV000007[00067] For method runIptablesCommands list of called methods Object monObjet|org.apache.kafka.trogdor.common.Node platform_curNodeN161206|org.apache.kafka.trogdor.common.Topology platform_topologyN161281|org.apache.kafka.trogdor.common.Node topology_nodeN161901"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -273,147 +273,147 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN159028 the MagicNumber/String  'sudo' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN161076 the MagicNumber/String  'sudo' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN159028 the MagicNumber/String  'iptables' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN161076 the MagicNumber/String  'iptables' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN159028 the MagicNumber/String  'INPUT' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN161076 the MagicNumber/String  'INPUT' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN159028 the MagicNumber/String  '-p' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN161076 the MagicNumber/String  '-p' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN159028 the MagicNumber/String  'tcp' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN161076 the MagicNumber/String  'tcp' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN159028 the MagicNumber/String  '-s' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN161076 the MagicNumber/String  '-s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN159028 the MagicNumber/String  '-j' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN161076 the MagicNumber/String  '-j' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN159028 the MagicNumber/String  'DROP' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN161076 the MagicNumber/String  'DROP' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN159028 the MagicNumber/String  '-m' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN161076 the MagicNumber/String  '-m' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN159028 the MagicNumber/String  'comment' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN161076 the MagicNumber/String  'comment' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN159028 the MagicNumber/String  '--comment' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.runIptablesCommands@POLYN161076 the MagicNumber/String  '--comment' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN157793"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN159841"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN158485"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN160533"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#52"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN157793 the MagicNumber/String 'Activating NetworkPartitionFault {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN159841 the MagicNumber/String 'Activating NetworkPartitionFault {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#54"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00054] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN157793 the MagicNumber/String 'creating network partition ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00054] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN159841 the MagicNumber/String 'creating network partition ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#55"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN157793 the MagicNumber/String '-A' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00055] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN159841 the MagicNumber/String '-A' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#56"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN157793 the MagicNumber/String 'created network partition ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.start@POLYN159841 the MagicNumber/String 'created network partition ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#61"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN158485 the MagicNumber/String 'Deactivating NetworkPartitionFault {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN160533 the MagicNumber/String 'Deactivating NetworkPartitionFault {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#62"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00062] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN158485 the MagicNumber/String 'removing network partition ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00062] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN160533 the MagicNumber/String 'removing network partition ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#63"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN158485 the MagicNumber/String '-D' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00063] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN160533 the MagicNumber/String '-D' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/NetworkPartitionFaultWorker.java.html#64"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00064] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN158485 the MagicNumber/String 'removed network partition ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00064] In the recursive method org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker.stop@POLYN160533 the MagicNumber/String 'removed network partition ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

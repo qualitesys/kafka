@@ -1,10 +1,276 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="86px" preserveAspectRatio="none" style="width:156px;height:86px;background:#FFFFFF;" version="1.1" viewBox="0 0 156 86" width="156px" zoomAndPan="magnify"><defs/><g><path d="M54,10 L54,18.5664 L34,22.5664 L54,26.5664 L54,35.1328 A0,0 0 0 0 54,35.1328 L144,35.1328 A0,0 0 0 0 144,35.1328 L144,20 L134,10 L54,10 A0,0 0 0 0 54,10 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M134,10 L134,20 L144,20 L134,10 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="60" y="27.0669">Js Program</text><ellipse cx="24" cy="22.5664" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="24" cy="65.1328" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="17.8128" x2="30.1872" y1="58.9456" y2="71.32"/><line style="stroke:#222222;stroke-width:2.5;" x1="30.1872" x2="17.8128" y1="58.9456" y2="71.32"/><line style="stroke:#181818;stroke-width:1.0;" x1="24" x2="24" y1="32.5664" y2="55.1328"/><polygon fill="#181818" points="20,45.1328,24,55.1328,28,45.1328,24,49.1328" style="stroke:#181818;stroke-width:1.0;"/><!--MD5=[5331b42756e6ddb1dde3861c05616677]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="3558px" preserveAspectRatio="none" style="width:713px;height:3558px;background:#FFFFFF;" version="1.1" viewBox="0 0 713 3558" width="713px" zoomAndPan="magnify"><defs/><g><path d="M340.5,10 L340.5,18.5664 L320.5,22.5664 L340.5,26.5664 L340.5,35.1328 A0,0 0 0 0 340.5,35.1328 L648.5,35.1328 A0,0 0 0 0 648.5,35.1328 L648.5,20 L638.5,10 L340.5,10 A0,0 0 0 0 340.5,10 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M638.5,10 L638.5,20 L648.5,20 L638.5,10 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="287" x="346.5" y="27.0669">constructor SampledStat(double initialValue)</text><ellipse cx="310.5" cy="22.5664" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="197" x="212" y="55.1328"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="177" x="222" y="76.2715">this.initialValue=initialValue;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="233" x="194" y="109.1016"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="213" x="204" y="130.2402">this.samples=new ArrayList&lt;&gt;(2);</text><ellipse cx="310.5" cy="173.0703" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="304.3128" x2="316.6872" y1="166.8831" y2="179.2575"/><line style="stroke:#222222;stroke-width:2.5;" x1="316.6872" x2="304.3128" y1="166.8831" y2="179.2575"/><path d="M340.5,193.0703 L340.5,209.2031 L320.5,213.2031 L340.5,217.2031 L340.5,233.3359 A0,0 0 0 0 340.5,233.3359 L647.5,233.3359 A0,0 0 0 0 647.5,233.3359 L647.5,203.0703 L637.5,193.0703 L340.5,193.0703 A0,0 0 0 0 340.5,193.0703 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M637.5,193.0703 L637.5,203.0703 L647.5,203.0703 L637.5,193.0703 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="286" x="346.5" y="210.1372">void record(MetricConfig config,double value,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="346.5" y="225.27">long timeMs)</text><ellipse cx="310.5" cy="213.2031" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="229" x="196" y="253.3359"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="209" x="206" y="274.4746">Sample sample=current(timeMs);</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="228" x="196.5" y="355.707"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="208" x="206.5" y="376.8457">sample=advance(config,timeMs);</text><polygon fill="#F1F1F1" points="212,307.3047,409,307.3047,421,319.3047,409,331.3047,212,331.3047,200,319.3047,212,307.3047" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="20" x="314.5" y="341.5151">yes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="197" x="212" y="323.1128">sample.isComplete(timeMs,config)</text><polygon fill="#F1F1F1" points="310.5,409.6758,322.5,421.6758,310.5,433.6758,298.5,421.6758,310.5,409.6758" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="251" x="185" y="453.6758"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="231" x="195" y="474.8145">update(sample,config,value,timeMs);</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="173" x="224" y="507.6445"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="153" x="234" y="528.7832">sample.eventCount+=1;</text><ellipse cx="310.5" cy="571.6133" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="304.3128" x2="316.6872" y1="565.4261" y2="577.8005"/><line style="stroke:#222222;stroke-width:2.5;" x1="316.6872" x2="304.3128" y1="565.4261" y2="577.8005"/><path d="M340.5,591.6133 L340.5,600.1797 L320.5,604.1797 L340.5,608.1797 L340.5,616.7461 A0,0 0 0 0 340.5,616.7461 L681.5,616.7461 A0,0 0 0 0 681.5,616.7461 L681.5,601.6133 L671.5,591.6133 L340.5,591.6133 A0,0 0 0 0 340.5,591.6133 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M671.5,591.6133 L671.5,601.6133 L681.5,601.6133 L671.5,591.6133 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="320" x="346.5" y="608.6802">Sample advance(MetricConfig config,long timeMs)</text><ellipse cx="310.5" cy="604.1797" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="323" x="149" y="636.7461"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="303" x="159" y="657.8848">this.current=(this.current+1)%config.samples();</text><polygon fill="#F1F1F1" points="227,690.7148,394,690.7148,406,702.7148,394,714.7148,227,714.7148,215,702.7148,227,690.7148" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="167" x="227" y="706.5229">this.current&gt;=samples.size()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="20" x="195" y="700.1206">yes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="14" x="406" y="700.1206">no</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="254" x="52.75" y="724.7148"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="234" x="62.75" y="745.8535">Sample sample=newSample(timeMs);</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="186" x="86.75" y="778.6836"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="166" x="96.75" y="799.8223">this.samples.add(sample);</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="112" x="123.75" y="832.6523"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="92" x="133.75" y="853.791">return sample;</text><ellipse cx="179.75" cy="897.6211" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="179.75" cy="897.6211" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="229" x="326.75" y="724.7148"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="209" x="336.75" y="745.8535">Sample sample=current(timeMs);</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="160" x="361.25" y="778.6836"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="140" x="371.25" y="799.8223">sample.reset(timeMs);</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="112" x="385.25" y="832.6523"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="92" x="395.25" y="853.791">return sample;</text><ellipse cx="441.25" cy="897.6211" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="441.25" cy="897.6211" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="310.5" cy="928.6211" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="304.3128" x2="316.6872" y1="922.4339" y2="934.8083"/><line style="stroke:#222222;stroke-width:2.5;" x1="316.6872" x2="304.3128" y1="922.4339" y2="934.8083"/><path d="M340.5,948.6211 L340.5,957.1875 L320.5,961.1875 L340.5,965.1875 L340.5,973.7539 A0,0 0 0 0 340.5,973.7539 L576.5,973.7539 A0,0 0 0 0 576.5,973.7539 L576.5,958.6211 L566.5,948.6211 L340.5,948.6211 A0,0 0 0 0 340.5,948.6211 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M566.5,948.6211 L566.5,958.6211 L576.5,958.6211 L566.5,948.6211 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="215" x="346.5" y="965.688">Sample newSample(long timeMs)</text><ellipse cx="310.5" cy="961.1875" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="295" x="163" y="993.7539"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="275" x="173" y="1014.8926">return new Sample(this.initialValue,timeMs);</text><ellipse cx="310.5" cy="1058.7227" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="310.5" cy="1058.7227" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="310.5" cy="1089.7227" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="304.3128" x2="316.6872" y1="1083.5355" y2="1095.9098"/><line style="stroke:#222222;stroke-width:2.5;" x1="316.6872" x2="304.3128" y1="1083.5355" y2="1095.9098"/><path d="M340.5,1109.7227 L340.5,1118.2891 L320.5,1122.2891 L340.5,1126.2891 L340.5,1134.8555 A0,0 0 0 0 340.5,1134.8555 L656.5,1134.8555 A0,0 0 0 0 656.5,1134.8555 L656.5,1119.7227 L646.5,1109.7227 L340.5,1109.7227 A0,0 0 0 0 340.5,1109.7227 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M646.5,1109.7227 L646.5,1119.7227 L656.5,1119.7227 L646.5,1109.7227 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="295" x="346.5" y="1126.7896">double measure(MetricConfig config,long now)</text><ellipse cx="310.5" cy="1122.2891" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="247" x="187" y="1154.8555"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="227" x="197" y="1175.9941">purgeObsoleteSamples(config,now);</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="280" x="170.5" y="1208.8242"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="260" x="180.5" y="1229.9629">return combine(this.samples,config,now);</text><ellipse cx="310.5" cy="1273.793" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="310.5" cy="1273.793" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="310.5" cy="1304.793" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="304.3128" x2="316.6872" y1="1298.6058" y2="1310.9802"/><line style="stroke:#222222;stroke-width:2.5;" x1="316.6872" x2="304.3128" y1="1298.6058" y2="1310.9802"/><path d="M340.5,1324.793 L340.5,1333.3594 L320.5,1337.3594 L340.5,1341.3594 L340.5,1349.9258 A0,0 0 0 0 340.5,1349.9258 L548.5,1349.9258 A0,0 0 0 0 548.5,1349.9258 L548.5,1334.793 L538.5,1324.793 L340.5,1324.793 A0,0 0 0 0 340.5,1324.793 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M538.5,1324.793 L538.5,1334.793 L548.5,1334.793 L538.5,1324.793 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="187" x="346.5" y="1341.8599">Sample current(long timeMs)</text><ellipse cx="310.5" cy="1337.3594" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="266" x="177.5" y="1418.3281"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="246" x="187.5" y="1439.4668">this.samples.add(newSample(timeMs));</text><polygon fill="#F1F1F1" points="256.5,1369.9258,364.5,1369.9258,376.5,1381.9258,364.5,1393.9258,256.5,1393.9258,244.5,1381.9258,256.5,1369.9258" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="20" x="314.5" y="1404.1362">yes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="108" x="256.5" y="1385.7339">samples.size()==0</text><polygon fill="#F1F1F1" points="310.5,1472.2969,322.5,1484.2969,310.5,1496.2969,298.5,1484.2969,310.5,1472.2969" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="254" x="183.5" y="1516.2969"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="234" x="193.5" y="1537.4355">return this.samples.get(this.current);</text><ellipse cx="310.5" cy="1581.2656" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="310.5" cy="1581.2656" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="310.5" cy="1612.2656" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="304.3128" x2="316.6872" y1="1606.0784" y2="1618.4528"/><line style="stroke:#222222;stroke-width:2.5;" x1="316.6872" x2="304.3128" y1="1606.0784" y2="1618.4528"/><path d="M340.5,1632.2656 L340.5,1640.832 L320.5,1644.832 L340.5,1648.832 L340.5,1657.3984 A0,0 0 0 0 340.5,1657.3984 L519.5,1657.3984 A0,0 0 0 0 519.5,1657.3984 L519.5,1642.2656 L509.5,1632.2656 L340.5,1632.2656 A0,0 0 0 0 340.5,1632.2656 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M509.5,1632.2656 L509.5,1642.2656 L519.5,1642.2656 L509.5,1632.2656 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="158" x="346.5" y="1649.3325">Sample oldest(long now)</text><ellipse cx="310.5" cy="1644.832" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="247" x="187" y="1725.8008"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="227" x="197" y="1746.9395">this.samples.add(newSample(now));</text><polygon fill="#F1F1F1" points="256.5,1677.3984,364.5,1677.3984,376.5,1689.3984,364.5,1701.3984,256.5,1701.3984,244.5,1689.3984,256.5,1677.3984" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="20" x="314.5" y="1711.6089">yes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="108" x="256.5" y="1693.2065">samples.size()==0</text><polygon fill="#F1F1F1" points="310.5,1779.7695,322.5,1791.7695,310.5,1803.7695,298.5,1791.7695,310.5,1779.7695" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="245" x="188" y="1823.7695"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="225" x="198" y="1844.9082">Sample oldest=this.samples.get(0);</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="226" x="197.5" y="1877.7383"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="206" x="207.5" y="1898.877">Sample curr=this.samples.get(i);</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="98" x="261.5" y="1980.1094"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="271.5" y="2001.248">oldest=curr;</text><polygon fill="#F1F1F1" points="194,1931.707,427,1931.707,439,1943.707,427,1955.707,194,1955.707,182,1943.707,194,1931.707" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="20" x="314.5" y="1965.9175">yes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="233" x="194" y="1947.5151">curr.lastWindowMs&lt;oldest.lastWindowMs</text><polygon fill="#F1F1F1" points="310.5,2034.0781,322.5,2046.0781,310.5,2058.0781,298.5,2046.0781,310.5,2034.0781" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="106" x="257.5" y="2078.0781"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="267.5" y="2099.2168">return oldest;</text><ellipse cx="310.5" cy="2143.0469" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="310.5" cy="2143.0469" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="310.5" cy="2174.0469" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="304.3128" x2="316.6872" y1="2167.8597" y2="2180.2341"/><line style="stroke:#222222;stroke-width:2.5;" x1="316.6872" x2="304.3128" y1="2167.8597" y2="2180.2341"/><path d="M340.5,2194.0469 L340.5,2202.6133 L320.5,2206.6133 L340.5,2210.6133 L340.5,2219.1797 A0,0 0 0 0 340.5,2219.1797 L464.5,2219.1797 A0,0 0 0 0 464.5,2219.1797 L464.5,2204.0469 L454.5,2194.0469 L340.5,2194.0469 A0,0 0 0 0 340.5,2194.0469 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M454.5,2194.0469 L454.5,2204.0469 L464.5,2204.0469 L454.5,2194.0469 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="103" x="346.5" y="2211.1138">String toString()</text><ellipse cx="310.5" cy="2206.6133" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="243.5" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="384" x="118.5" y="2239.1797"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="324" x="128.5" y="2260.3184">return "SampledStat("+"initialValue="+initialValue+</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="292" x="128.5" y="2274.2871">", current="+current+", samples="+samples+</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="28" x="128.5" y="2288.2559">stop</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="24" x="128.5" y="2302.2246">end</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="30" x="128.5" y="2316.1934">start</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="62" x="128.5" y="2330.1621">note right</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="301" x="128.5" y="2344.1309">void update(Sample sample,MetricConfig config,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="164" x="128.5" y="2358.0996">double value,long timeMs)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="57" x="128.5" y="2372.0684">end note</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="24" x="128.5" y="2386.0371">end</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="30" x="128.5" y="2400.0059">start</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="62" x="128.5" y="2413.9746">note right</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="303" x="128.5" y="2427.9434">void purgeObsoleteSamples(MetricConfig config,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="61" x="128.5" y="2441.9121">long now)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="57" x="128.5" y="2455.8809">end note</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="364" x="128.5" y="2469.8496">:long expireAge=config.samples()*config.timeWindowMs();</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="141" x="240" y="2551.082"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="121" x="250" y="2572.2207">sample.reset(now);</text><polygon fill="#F1F1F1" points="197.5,2502.6797,423.5,2502.6797,435.5,2514.6797,423.5,2526.6797,197.5,2526.6797,185.5,2514.6797,197.5,2502.6797" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="20" x="314.5" y="2536.8901">yes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="226" x="197.5" y="2518.4878">now-sample.lastWindowMs&gt;=expireAge</text><polygon fill="#F1F1F1" points="310.5,2605.0508,322.5,2617.0508,310.5,2629.0508,298.5,2617.0508,310.5,2605.0508" style="stroke:#181818;stroke-width:0.5;"/><ellipse cx="310.5" cy="2659.0508" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="304.3128" x2="316.6872" y1="2652.8636" y2="2665.238"/><line style="stroke:#222222;stroke-width:2.5;" x1="316.6872" x2="304.3128" y1="2652.8636" y2="2665.238"/><path d="M340.5,2679.0508 L340.5,2687.6172 L320.5,2691.6172 L340.5,2695.6172 L340.5,2704.1836 A0,0 0 0 0 340.5,2704.1836 L673.5,2704.1836 A0,0 0 0 0 673.5,2704.1836 L673.5,2689.0508 L663.5,2679.0508 L340.5,2679.0508 A0,0 0 0 0 340.5,2679.0508 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M663.5,2679.0508 L663.5,2689.0508 L673.5,2689.0508 L663.5,2679.0508 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="312" x="346.5" y="2696.1177">constructor Sample(double initialValue,long now)</text><ellipse cx="310.5" cy="2691.6172" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="197" x="212" y="2724.1836"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="177" x="222" y="2745.3223">this.initialValue=initialValue;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="141" x="240" y="2778.1523"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="121" x="250" y="2799.291">this.eventCount=0;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="173" x="224" y="2832.1211"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="153" x="234" y="2853.2598">this.lastWindowMs=now;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="162" x="229.5" y="2886.0898"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="142" x="239.5" y="2907.2285">this.value=initialValue;</text><ellipse cx="310.5" cy="2950.0586" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="304.3128" x2="316.6872" y1="2943.8714" y2="2956.2458"/><line style="stroke:#222222;stroke-width:2.5;" x1="316.6872" x2="304.3128" y1="2943.8714" y2="2956.2458"/><path d="M340.5,2970.0586 L340.5,2978.625 L320.5,2982.625 L340.5,2986.625 L340.5,2995.1914 A0,0 0 0 0 340.5,2995.1914 L490.5,2995.1914 A0,0 0 0 0 490.5,2995.1914 L490.5,2980.0586 L480.5,2970.0586 L340.5,2970.0586 A0,0 0 0 0 340.5,2970.0586 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M480.5,2970.0586 L480.5,2980.0586 L490.5,2980.0586 L480.5,2970.0586 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="129" x="346.5" y="2987.1255">void reset(long now)</text><ellipse cx="310.5" cy="2982.625" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="141" x="240" y="3015.1914"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="121" x="250" y="3036.3301">this.eventCount=0;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="173" x="224" y="3069.1602"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="153" x="234" y="3090.2988">this.lastWindowMs=now;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="162" x="229.5" y="3123.1289"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="142" x="239.5" y="3144.2676">this.value=initialValue;</text><ellipse cx="310.5" cy="3187.0977" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="304.3128" x2="316.6872" y1="3180.9105" y2="3193.2848"/><line style="stroke:#222222;stroke-width:2.5;" x1="316.6872" x2="304.3128" y1="3180.9105" y2="3193.2848"/><path d="M340.5,3207.0977 L340.5,3215.6641 L320.5,3219.6641 L340.5,3223.6641 L340.5,3232.2305 A0,0 0 0 0 340.5,3232.2305 L701.5,3232.2305 A0,0 0 0 0 701.5,3232.2305 L701.5,3217.0977 L691.5,3207.0977 L340.5,3207.0977 A0,0 0 0 0 340.5,3207.0977 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M691.5,3207.0977 L691.5,3217.0977 L701.5,3217.0977 L691.5,3207.0977 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="340" x="346.5" y="3224.1646">boolean isComplete(long timeMs,MetricConfig config)</text><ellipse cx="310.5" cy="3219.6641" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="599" x="11" y="3252.2305"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="579" x="21" y="3273.3691">return timeMs-lastWindowMs&gt;=config.timeWindowMs()||eventCount&gt;=config.eventWindow();</text><ellipse cx="310.5" cy="3317.1992" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="310.5" cy="3317.1992" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="310.5" cy="3348.1992" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="304.3128" x2="316.6872" y1="3342.012" y2="3354.3864"/><line style="stroke:#222222;stroke-width:2.5;" x1="316.6872" x2="304.3128" y1="3342.012" y2="3354.3864"/><path d="M340.5,3368.1992 L340.5,3376.7656 L320.5,3380.7656 L340.5,3384.7656 L340.5,3393.332 A0,0 0 0 0 340.5,3393.332 L464.5,3393.332 A0,0 0 0 0 464.5,3393.332 L464.5,3378.1992 L454.5,3368.1992 L340.5,3368.1992 A0,0 0 0 0 340.5,3368.1992 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M454.5,3368.1992 L454.5,3378.1992 L464.5,3378.1992 L454.5,3368.1992 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="103" x="346.5" y="3385.2661">String toString()</text><ellipse cx="310.5" cy="3380.7656" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="61.9063" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="350" x="135.5" y="3413.332"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="330" x="145.5" y="3434.4707">return "Sample("+"value="+value+", eventCount="+</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="304" x="145.5" y="3448.4395">eventCount+", lastWindowMs="+lastWindowMs+</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="199" x="145.5" y="3462.4082">", initialValue="+initialValue+')';</text><ellipse cx="310.5" cy="3506.2383" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="310.5" cy="3506.2383" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="310.5" cy="3537.2383" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="304.3128" x2="316.6872" y1="3531.0511" y2="3543.4255"/><line style="stroke:#222222;stroke-width:2.5;" x1="316.6872" x2="304.3128" y1="3531.0511" y2="3543.4255"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="32.5664" y2="55.1328"/><polygon fill="#181818" points="306.5,45.1328,310.5,55.1328,314.5,45.1328,310.5,49.1328" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="89.1016" y2="109.1016"/><polygon fill="#181818" points="306.5,99.1016,310.5,109.1016,314.5,99.1016,310.5,103.1016" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="143.0703" y2="163.0703"/><polygon fill="#181818" points="306.5,153.0703,310.5,163.0703,314.5,153.0703,310.5,157.0703" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="223.2031" y2="253.3359"/><polygon fill="#181818" points="306.5,243.3359,310.5,253.3359,314.5,243.3359,310.5,247.3359" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="331.3047" y2="355.707"/><polygon fill="#181818" points="306.5,345.707,310.5,355.707,314.5,345.707,310.5,349.707" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="421" x2="434.5" y1="319.3047" y2="319.3047"/><polygon fill="#181818" points="430.5,362.6914,434.5,372.6914,438.5,362.6914,434.5,366.6914" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434.5" x2="434.5" y1="319.3047" y2="421.6758"/><line style="stroke:#181818;stroke-width:1.0;" x1="434.5" x2="322.5" y1="421.6758" y2="421.6758"/><polygon fill="#181818" points="332.5,417.6758,322.5,421.6758,332.5,425.6758,328.5,421.6758" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="389.6758" y2="409.6758"/><polygon fill="#181818" points="306.5,399.6758,310.5,409.6758,314.5,399.6758,310.5,403.6758" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="287.3047" y2="307.3047"/><polygon fill="#181818" points="306.5,297.3047,310.5,307.3047,314.5,297.3047,310.5,301.3047" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="433.6758" y2="453.6758"/><polygon fill="#181818" points="306.5,443.6758,310.5,453.6758,314.5,443.6758,310.5,447.6758" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="487.6445" y2="507.6445"/><polygon fill="#181818" points="306.5,497.6445,310.5,507.6445,314.5,497.6445,310.5,501.6445" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="541.6133" y2="561.6133"/><polygon fill="#181818" points="306.5,551.6133,310.5,561.6133,314.5,551.6133,310.5,555.6133" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="614.1797" y2="636.7461"/><polygon fill="#181818" points="306.5,626.7461,310.5,636.7461,314.5,626.7461,310.5,630.7461" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="179.75" x2="179.75" y1="758.6836" y2="778.6836"/><polygon fill="#181818" points="175.75,768.6836,179.75,778.6836,183.75,768.6836,179.75,772.6836" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="179.75" x2="179.75" y1="812.6523" y2="832.6523"/><polygon fill="#181818" points="175.75,822.6523,179.75,832.6523,183.75,822.6523,179.75,826.6523" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="179.75" x2="179.75" y1="866.6211" y2="886.6211"/><polygon fill="#181818" points="175.75,876.6211,179.75,886.6211,183.75,876.6211,179.75,880.6211" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="441.25" x2="441.25" y1="758.6836" y2="778.6836"/><polygon fill="#181818" points="437.25,768.6836,441.25,778.6836,445.25,768.6836,441.25,772.6836" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="441.25" x2="441.25" y1="812.6523" y2="832.6523"/><polygon fill="#181818" points="437.25,822.6523,441.25,832.6523,445.25,822.6523,441.25,826.6523" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="441.25" x2="441.25" y1="866.6211" y2="886.6211"/><polygon fill="#181818" points="437.25,876.6211,441.25,886.6211,445.25,876.6211,441.25,880.6211" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="215" x2="179.75" y1="702.7148" y2="702.7148"/><line style="stroke:#181818;stroke-width:1.0;" x1="179.75" x2="179.75" y1="702.7148" y2="724.7148"/><polygon fill="#181818" points="175.75,714.7148,179.75,724.7148,183.75,714.7148,179.75,718.7148" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="406" x2="441.25" y1="702.7148" y2="702.7148"/><line style="stroke:#181818;stroke-width:1.0;" x1="441.25" x2="441.25" y1="702.7148" y2="724.7148"/><polygon fill="#181818" points="437.25,714.7148,441.25,724.7148,445.25,714.7148,441.25,718.7148" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="670.7148" y2="690.7148"/><polygon fill="#181818" points="306.5,680.7148,310.5,690.7148,314.5,680.7148,310.5,684.7148" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="971.1875" y2="993.7539"/><polygon fill="#181818" points="306.5,983.7539,310.5,993.7539,314.5,983.7539,310.5,987.7539" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="1027.7227" y2="1047.7227"/><polygon fill="#181818" points="306.5,1037.7227,310.5,1047.7227,314.5,1037.7227,310.5,1041.7227" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="1132.2891" y2="1154.8555"/><polygon fill="#181818" points="306.5,1144.8555,310.5,1154.8555,314.5,1144.8555,310.5,1148.8555" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="1188.8242" y2="1208.8242"/><polygon fill="#181818" points="306.5,1198.8242,310.5,1208.8242,314.5,1198.8242,310.5,1202.8242" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="1242.793" y2="1262.793"/><polygon fill="#181818" points="306.5,1252.793,310.5,1262.793,314.5,1252.793,310.5,1256.793" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="1393.9258" y2="1418.3281"/><polygon fill="#181818" points="306.5,1408.3281,310.5,1418.3281,314.5,1408.3281,310.5,1412.3281" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="376.5" x2="453.5" y1="1381.9258" y2="1381.9258"/><polygon fill="#181818" points="449.5,1425.3125,453.5,1435.3125,457.5,1425.3125,453.5,1429.3125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="453.5" x2="453.5" y1="1381.9258" y2="1484.2969"/><line style="stroke:#181818;stroke-width:1.0;" x1="453.5" x2="322.5" y1="1484.2969" y2="1484.2969"/><polygon fill="#181818" points="332.5,1480.2969,322.5,1484.2969,332.5,1488.2969,328.5,1484.2969" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="1452.2969" y2="1472.2969"/><polygon fill="#181818" points="306.5,1462.2969,310.5,1472.2969,314.5,1462.2969,310.5,1466.2969" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="1347.3594" y2="1369.9258"/><polygon fill="#181818" points="306.5,1359.9258,310.5,1369.9258,314.5,1359.9258,310.5,1363.9258" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="1496.2969" y2="1516.2969"/><polygon fill="#181818" points="306.5,1506.2969,310.5,1516.2969,314.5,1506.2969,310.5,1510.2969" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="1550.2656" y2="1570.2656"/><polygon fill="#181818" points="306.5,1560.2656,310.5,1570.2656,314.5,1560.2656,310.5,1564.2656" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="1701.3984" y2="1725.8008"/><polygon fill="#181818" points="306.5,1715.8008,310.5,1725.8008,314.5,1715.8008,310.5,1719.8008" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="376.5" x2="444" y1="1689.3984" y2="1689.3984"/><polygon fill="#181818" points="440,1732.7852,444,1742.7852,448,1732.7852,444,1736.7852" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="444" x2="444" y1="1689.3984" y2="1791.7695"/><line style="stroke:#181818;stroke-width:1.0;" x1="444" x2="322.5" y1="1791.7695" y2="1791.7695"/><polygon fill="#181818" points="332.5,1787.7695,322.5,1791.7695,332.5,1795.7695,328.5,1791.7695" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="1759.7695" y2="1779.7695"/><polygon fill="#181818" points="306.5,1769.7695,310.5,1779.7695,314.5,1769.7695,310.5,1773.7695" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="1654.832" y2="1677.3984"/><polygon fill="#181818" points="306.5,1667.3984,310.5,1677.3984,314.5,1667.3984,310.5,1671.3984" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="1803.7695" y2="1823.7695"/><polygon fill="#181818" points="306.5,1813.7695,310.5,1823.7695,314.5,1813.7695,310.5,1817.7695" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="1857.7383" y2="1877.7383"/><polygon fill="#181818" points="306.5,1867.7383,310.5,1877.7383,314.5,1867.7383,310.5,1871.7383" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="1955.707" y2="1980.1094"/><polygon fill="#181818" points="306.5,1970.1094,310.5,1980.1094,314.5,1970.1094,310.5,1974.1094" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="439" x2="451" y1="1943.707" y2="1943.707"/><polygon fill="#181818" points="447,1987.0938,451,1997.0938,455,1987.0938,451,1991.0938" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="451" x2="451" y1="1943.707" y2="2046.0781"/><line style="stroke:#181818;stroke-width:1.0;" x1="451" x2="322.5" y1="2046.0781" y2="2046.0781"/><polygon fill="#181818" points="332.5,2042.0781,322.5,2046.0781,332.5,2050.0781,328.5,2046.0781" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="2014.0781" y2="2034.0781"/><polygon fill="#181818" points="306.5,2024.0781,310.5,2034.0781,314.5,2024.0781,310.5,2028.0781" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="1911.707" y2="1931.707"/><polygon fill="#181818" points="306.5,1921.707,310.5,1931.707,314.5,1921.707,310.5,1925.707" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="2058.0781" y2="2078.0781"/><polygon fill="#181818" points="306.5,2068.0781,310.5,2078.0781,314.5,2068.0781,310.5,2072.0781" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="2112.0469" y2="2132.0469"/><polygon fill="#181818" points="306.5,2122.0469,310.5,2132.0469,314.5,2122.0469,310.5,2126.0469" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="2216.6133" y2="2239.1797"/><polygon fill="#181818" points="306.5,2229.1797,310.5,2239.1797,314.5,2229.1797,310.5,2233.1797" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="2526.6797" y2="2551.082"/><polygon fill="#181818" points="306.5,2541.082,310.5,2551.082,314.5,2541.082,310.5,2545.082" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="435.5" x2="447.5" y1="2514.6797" y2="2514.6797"/><polygon fill="#181818" points="443.5,2558.0664,447.5,2568.0664,451.5,2558.0664,447.5,2562.0664" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="447.5" x2="447.5" y1="2514.6797" y2="2617.0508"/><line style="stroke:#181818;stroke-width:1.0;" x1="447.5" x2="322.5" y1="2617.0508" y2="2617.0508"/><polygon fill="#181818" points="332.5,2613.0508,322.5,2617.0508,332.5,2621.0508,328.5,2617.0508" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="2585.0508" y2="2605.0508"/><polygon fill="#181818" points="306.5,2595.0508,310.5,2605.0508,314.5,2595.0508,310.5,2599.0508" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="2482.6797" y2="2502.6797"/><polygon fill="#181818" points="306.5,2492.6797,310.5,2502.6797,314.5,2492.6797,310.5,2496.6797" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="2629.0508" y2="2649.0508"/><polygon fill="#181818" points="306.5,2639.0508,310.5,2649.0508,314.5,2639.0508,310.5,2643.0508" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="2701.6172" y2="2724.1836"/><polygon fill="#181818" points="306.5,2714.1836,310.5,2724.1836,314.5,2714.1836,310.5,2718.1836" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="2758.1523" y2="2778.1523"/><polygon fill="#181818" points="306.5,2768.1523,310.5,2778.1523,314.5,2768.1523,310.5,2772.1523" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="2812.1211" y2="2832.1211"/><polygon fill="#181818" points="306.5,2822.1211,310.5,2832.1211,314.5,2822.1211,310.5,2826.1211" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="2866.0898" y2="2886.0898"/><polygon fill="#181818" points="306.5,2876.0898,310.5,2886.0898,314.5,2876.0898,310.5,2880.0898" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="2920.0586" y2="2940.0586"/><polygon fill="#181818" points="306.5,2930.0586,310.5,2940.0586,314.5,2930.0586,310.5,2934.0586" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="2992.625" y2="3015.1914"/><polygon fill="#181818" points="306.5,3005.1914,310.5,3015.1914,314.5,3005.1914,310.5,3009.1914" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="3049.1602" y2="3069.1602"/><polygon fill="#181818" points="306.5,3059.1602,310.5,3069.1602,314.5,3059.1602,310.5,3063.1602" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="3103.1289" y2="3123.1289"/><polygon fill="#181818" points="306.5,3113.1289,310.5,3123.1289,314.5,3113.1289,310.5,3117.1289" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="3157.0977" y2="3177.0977"/><polygon fill="#181818" points="306.5,3167.0977,310.5,3177.0977,314.5,3167.0977,310.5,3171.0977" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="3229.6641" y2="3252.2305"/><polygon fill="#181818" points="306.5,3242.2305,310.5,3252.2305,314.5,3242.2305,310.5,3246.2305" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="3286.1992" y2="3306.1992"/><polygon fill="#181818" points="306.5,3296.1992,310.5,3306.1992,314.5,3296.1992,310.5,3300.1992" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="3390.7656" y2="3413.332"/><polygon fill="#181818" points="306.5,3403.332,310.5,3413.332,314.5,3403.332,310.5,3407.332" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="310.5" x2="310.5" y1="3475.2383" y2="3495.2383"/><polygon fill="#181818" points="306.5,3485.2383,310.5,3495.2383,314.5,3485.2383,310.5,3489.2383" style="stroke:#181818;stroke-width:1.0;"/><!--MD5=[b3f7e2b267eb17cc661bd4c00f47ebf7]
 @startuml
 !pragma layout smetana
 start
 note right
-Js Program
+constructor SampledStat(double initialValue)
 end note
+:this.initialValue=initialValue;;
+:this.samples=new ArrayList<>(2);;
+end
+start
+note right
+void record(MetricConfig config,double value,
+long timeMs)
+end note
+:Sample sample=current(timeMs);;
+if (sample.isComplete(timeMs,config)) then (yes) 
+:sample=advance(config,timeMs);;
+endif 
+:update(sample,config,value,timeMs);;
+:sample.eventCount+=1;;
+end
+start
+note right
+Sample advance(MetricConfig config,long timeMs)
+end note
+:this.current=(this.current+1)%config.samples();;
+if (this.current>=samples.size()) then (yes) 
+:Sample sample=newSample(timeMs);;
+:this.samples.add(sample);;
+:return sample;;
+stop
+else (no)
+:Sample sample=current(timeMs);;
+:sample.reset(timeMs);;
+:return sample;;
+stop
+endif 
+end
+start
+note right
+Sample newSample(long timeMs)
+end note
+:return new Sample(this.initialValue,timeMs);;
+stop
+end
+start
+note right
+double measure(MetricConfig config,long now)
+end note
+:purgeObsoleteSamples(config,now);;
+:return combine(this.samples,config,now);;
+stop
+end
+start
+note right
+Sample current(long timeMs)
+end note
+if (samples.size()==0) then (yes) 
+:this.samples.add(newSample(timeMs));;
+endif 
+:return this.samples.get(this.current);;
+stop
+end
+start
+note right
+Sample oldest(long now)
+end note
+if (samples.size()==0) then (yes) 
+:this.samples.add(newSample(now));;
+endif 
+:Sample oldest=this.samples.get(0);;
+:Sample curr=this.samples.get(i);;
+if (curr.lastWindowMs<oldest.lastWindowMs) then (yes) 
+:oldest=curr;;
+endif 
+:return oldest;;
+stop
+end
+start
+note right
+String toString()
+end note
+:return "SampledStat("+"initialValue="+initialValue+
+", current="+current+", samples="+samples+
+')';;
+stop
+end
+start
+note right
+void update(Sample sample,MetricConfig config,
+double value,long timeMs)
+end note
+end
+start
+note right
+void purgeObsoleteSamples(MetricConfig config,
+long now)
+end note
+:long expireAge=config.samples()*config.timeWindowMs();;
+if (now-sample.lastWindowMs>=expireAge) then (yes) 
+:sample.reset(now);;
+endif 
+end
+start
+note right
+constructor Sample(double initialValue,long now)
+end note
+:this.initialValue=initialValue;;
+:this.eventCount=0;;
+:this.lastWindowMs=now;;
+:this.value=initialValue;;
+end
+start
+note right
+void reset(long now)
+end note
+:this.eventCount=0;;
+:this.lastWindowMs=now;;
+:this.value=initialValue;;
+end
+start
+note right
+boolean isComplete(long timeMs,MetricConfig config)
+end note
+:return timeMs-lastWindowMs>=config.timeWindowMs()||eventCount>=config.eventWindow();;
+stop
+end
+start
+note right
+String toString()
+end note
+:return "Sample("+"value="+value+", eventCount="+
+eventCount+", lastWindowMs="+lastWindowMs+
+", initialValue="+initialValue+')';;
+stop
+end
+@enduml
+
+@startuml
+!pragma layout smetana
+start
+note right
+constructor SampledStat(double initialValue)
+end note
+:this.initialValue=initialValue;;
+:this.samples=new ArrayList<>(2);;
+end
+start
+note right
+void record(MetricConfig config,double value,
+long timeMs)
+end note
+:Sample sample=current(timeMs);;
+if (sample.isComplete(timeMs,config)) then (yes) 
+:sample=advance(config,timeMs);;
+endif 
+:update(sample,config,value,timeMs);;
+:sample.eventCount+=1;;
+end
+start
+note right
+Sample advance(MetricConfig config,long timeMs)
+end note
+:this.current=(this.current+1)%config.samples();;
+if (this.current>=samples.size()) then (yes) 
+:Sample sample=newSample(timeMs);;
+:this.samples.add(sample);;
+:return sample;;
+stop
+else (no)
+:Sample sample=current(timeMs);;
+:sample.reset(timeMs);;
+:return sample;;
+stop
+endif 
+end
+start
+note right
+Sample newSample(long timeMs)
+end note
+:return new Sample(this.initialValue,timeMs);;
+stop
+end
+start
+note right
+double measure(MetricConfig config,long now)
+end note
+:purgeObsoleteSamples(config,now);;
+:return combine(this.samples,config,now);;
+stop
+end
+start
+note right
+Sample current(long timeMs)
+end note
+if (samples.size()==0) then (yes) 
+:this.samples.add(newSample(timeMs));;
+endif 
+:return this.samples.get(this.current);;
+stop
+end
+start
+note right
+Sample oldest(long now)
+end note
+if (samples.size()==0) then (yes) 
+:this.samples.add(newSample(now));;
+endif 
+:Sample oldest=this.samples.get(0);;
+:Sample curr=this.samples.get(i);;
+if (curr.lastWindowMs<oldest.lastWindowMs) then (yes) 
+:oldest=curr;;
+endif 
+:return oldest;;
+stop
+end
+start
+note right
+String toString()
+end note
+:return "SampledStat("+"initialValue="+initialValue+
+", current="+current+", samples="+samples+
+stop
+end
+start
+note right
+void update(Sample sample,MetricConfig config,
+double value,long timeMs)
+end note
+end
+start
+note right
+void purgeObsoleteSamples(MetricConfig config,
+long now)
+end note
+:long expireAge=config.samples()*config.timeWindowMs();;
+if (now-sample.lastWindowMs>=expireAge) then (yes) 
+:sample.reset(now);;
+endif 
+end
+start
+note right
+constructor Sample(double initialValue,long now)
+end note
+:this.initialValue=initialValue;;
+:this.eventCount=0;;
+:this.lastWindowMs=now;;
+:this.value=initialValue;;
+end
+start
+note right
+void reset(long now)
+end note
+:this.eventCount=0;;
+:this.lastWindowMs=now;;
+:this.value=initialValue;;
+end
+start
+note right
+boolean isComplete(long timeMs,MetricConfig config)
+end note
+:return timeMs-lastWindowMs>=config.timeWindowMs()||eventCount>=config.eventWindow();;
+stop
+end
+start
+note right
+String toString()
+end note
+:return "Sample("+"value="+value+", eventCount="+
+eventCount+", lastWindowMs="+lastWindowMs+
+", initialValue="+initialValue+')';;
+stop
 end
 @enduml
 

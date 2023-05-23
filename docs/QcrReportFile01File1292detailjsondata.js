@@ -145,280 +145,280 @@ var maDataBlocs = {
  , "c1" : "00098"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  'scheduler-thread' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  'scheduler-thread' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  9092 should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  9092 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  1024 should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  1024 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  1024L should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  1024L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  0.9d should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  0.9d should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  1024 should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  1024 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  1024 should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  1024 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  32 should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  32 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  1024 should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  1024 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  1024 should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  1024 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  15 should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  15 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  1000 should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  1000 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  'MD5' should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  'MD5' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00119"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00139"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN175365 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.jmh.server.CheckpointBench.setup@POLYN177413 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/server/CheckpointBench.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.jmh.server.CheckpointBench.tearDown@POLYN180028 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.jmh.server.CheckpointBench.tearDown@POLYN182078 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

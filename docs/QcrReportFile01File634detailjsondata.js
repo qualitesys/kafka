@@ -235,7 +235,7 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.requests.DeleteAclsResponse.shouldClientThrottle@POLYN172087 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.requests.DeleteAclsResponse.shouldClientThrottle@POLYN174135 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -249,28 +249,28 @@ var maDataBlocs = {
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00085] For method validate list of called methods Object monObjet|java.util.List filterResultsN172382|java.util.List filterResultsN172824"
+ , "c3" : "QC-JAV000007[00085] For method validate list of called methods Object monObjet|java.util.List filterResultsN174430|java.util.List filterResultsN174872"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.requests.DeleteAclsResponse.validate@POLYN172211 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.requests.DeleteAclsResponse.validate@POLYN174259 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.requests.DeleteAclsResponse.validate@POLYN172211 the MagicNumber/String  'Version 0 only supports literal resource pattern types' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.requests.DeleteAclsResponse.validate@POLYN174259 the MagicNumber/String  'Version 0 only supports literal resource pattern types' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.common.requests.DeleteAclsResponse.validate@POLYN172211 the MagicNumber/String  'DeleteAclsMatchingAcls contain UNKNOWN elements' should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.common.requests.DeleteAclsResponse.validate@POLYN174259 the MagicNumber/String  'DeleteAclsMatchingAcls contain UNKNOWN elements' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -284,7 +284,7 @@ var maDataBlocs = {
  , "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#104"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00104] For method filterResult list of called methods Object monObjet|java.util.Optional result_exceptionN173614|java.util.Collection result_aclBindingDeleteResultsN173861"
+ , "c3" : "QC-JAV000007[00104] For method filterResult list of called methods Object monObjet|java.util.Optional result_exceptionN175662|java.util.Collection result_aclBindingDeleteResultsN175909"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -347,21 +347,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteAclsResponse.filterResults@POLYN171241"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteAclsResponse.filterResults@POLYN173289"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteAclsResponse.throttleTimeMs@POLYN171106"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteAclsResponse.throttleTimeMs@POLYN173154"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteAclsResponse.toString@POLYN171967"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DeleteAclsResponse.toString@POLYN174015"
 }} 
 ]
 , 

@@ -2,21 +2,37 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/TransferableRecords.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/TransferableRecords.java 1 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/TransferableRecords.java 0 rule violation " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BaseRecords"
+ , "c2" : "org.apache.kafka.common.record.TransferableRecords"
+}} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.record.TransferableRecords" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00038"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/TransferableRecords.java.html#38"
+ , "c1" : "long"
+ , "c2" : "writeTo(TransferableChannel;long;int)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
 , 
 "data03" : [
+   {
+
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/record/TransferableRecords.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -44,24 +60,6 @@ var maDataBlocs = {
 ]
 , 
 "data14" : [
-]
-, 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999999"
- , "c3" : "Syntax analysis failure on the source code"
- , "c4" : "1"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/TransferableRecords.java.html#17"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999999[00017] syntax analysis failed on file /home/runner/work/kafka/kafka/clients/src/main/java/org/apache/kafka/common/record/TransferableRecords.java near following tokens and ` * limitations under the License . ` */ package org . apache . kafka . common . record ; "
-}} 
 ]
 , 
 "data15" : {

@@ -7,16 +7,32 @@ var maDataBlocs = {
 }
 , 
 "data01" : [
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.processor.api.InternalFixedKeyRecordFactory"
+}} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.processor.api.InternalFixedKeyRecordFactory" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00021"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/InternalFixedKeyRecordFactory.java.html#21"
+ , "c1" : "InternalFixedKeyRecordFactory"
+ , "c2" : "InternalFixedKeyRecordFactory()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
 ] 
 }} 
 ]
 , 
 "data03" : [
+   {
+
+ "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/InternalFixedKeyRecordFactory.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -48,19 +64,19 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999999"
- , "c3" : "Syntax analysis failure on the source code"
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
  , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/InternalFixedKeyRecordFactory.java.html#17"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999999[00017] syntax analysis failed on file /home/runner/work/kafka/kafka/streams/src/main/java/org/apache/kafka/streams/processor/api/InternalFixedKeyRecordFactory.java near following tokens and ` * limitations under the License . ` */ package org . apache . kafka . streams . processor . "
+ , "c1" : "00032"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/InternalFixedKeyRecordFactory.java.html#32"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE476[00032] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
 ]
 , 

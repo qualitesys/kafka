@@ -108,7 +108,7 @@ var maDataBlocs = {
  , "c1" : "00044"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/PrincipalConnectorClientConfigOverridePolicy.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.connector.policy.PrincipalConnectorClientConfigOverridePolicy.policyName@POLYN151539 the MagicNumber/String  'Principal' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.connector.policy.PrincipalConnectorClientConfigOverridePolicy.policyName@POLYN153587 the MagicNumber/String  'Principal' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -136,14 +136,14 @@ var maDataBlocs = {
  , "c1" : "00054"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/PrincipalConnectorClientConfigOverridePolicy.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.connector.policy.PrincipalConnectorClientConfigOverridePolicy.configure@POLYN151814 the MagicNumber/String  'Setting up Principal policy for ConnectorClientConfigOverride. This will allow  sasl  client configuration to be ' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.connect.connector.policy.PrincipalConnectorClientConfigOverridePolicy.configure@POLYN153862 the MagicNumber/String  'Setting up Principal policy for ConnectorClientConfigOverride. This will allow  sasl  client configuration to be ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/PrincipalConnectorClientConfigOverridePolicy.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.connect.connector.policy.PrincipalConnectorClientConfigOverridePolicy.configure@POLYN151814 the MagicNumber/String  'overridden.' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.connect.connector.policy.PrincipalConnectorClientConfigOverridePolicy.configure@POLYN153862 the MagicNumber/String  'overridden.' should be converted to const"
 }} 
 ]
 , 

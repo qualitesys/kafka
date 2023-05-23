@@ -233,7 +233,7 @@ var maDataBlocs = {
  , "c1" : "00103"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.name@POLYN282072 the MagicNumber/String  'abort' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.name@POLYN284120 the MagicNumber/String  'abort' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -254,140 +254,140 @@ var maDataBlocs = {
  , "c1" : "00109"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN282161 the MagicNumber/String  'abort a hanging transaction (requires administrative privileges)' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN284209 the MagicNumber/String  'abort a hanging transaction (requires administrative privileges)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN282161 the MagicNumber/String  '--topic' should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN284209 the MagicNumber/String  '--topic' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00112"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN282161 the MagicNumber/String  'topic name' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN284209 the MagicNumber/String  'topic name' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN282161 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN284209 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00117"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN282161 the MagicNumber/String  '--partition' should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN284209 the MagicNumber/String  '--partition' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00118"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN282161 the MagicNumber/String  'partition number' should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN284209 the MagicNumber/String  'partition number' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00121"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN282161 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN284209 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN282161 the MagicNumber/String  'Brokers on versions 3.0 and above' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN284209 the MagicNumber/String  'Brokers on versions 3.0 and above' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00125"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN282161 the MagicNumber/String  'For newer brokers, only the start offset of the transaction ' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN284209 the MagicNumber/String  'For newer brokers, only the start offset of the transaction ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00126"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN282161 the MagicNumber/String  'to be aborted is required' should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN284209 the MagicNumber/String  'to be aborted is required' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN282161 the MagicNumber/String  '--start-offset' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN284209 the MagicNumber/String  '--start-offset' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00129"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN282161 the MagicNumber/String  'start offset of the transaction to abort' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN284209 the MagicNumber/String  'start offset of the transaction to abort' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00134"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN282161 the MagicNumber/String  'Brokers on versions older than 3.0' should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN284209 the MagicNumber/String  'Brokers on versions older than 3.0' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00135"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN282161 the MagicNumber/String  'For older brokers, you must provide all of these arguments' should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN284209 the MagicNumber/String  'For older brokers, you must provide all of these arguments' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN282161 the MagicNumber/String  '--producer-id' should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN284209 the MagicNumber/String  '--producer-id' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN282161 the MagicNumber/String  'producer id' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN284209 the MagicNumber/String  'producer id' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00142"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN282161 the MagicNumber/String  '--producer-epoch' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN284209 the MagicNumber/String  '--producer-epoch' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN282161 the MagicNumber/String  'producer epoch' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN284209 the MagicNumber/String  'producer epoch' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN282161 the MagicNumber/String  '--coordinator-epoch' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN284209 the MagicNumber/String  '--coordinator-epoch' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00148"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN282161 the MagicNumber/String  'coordinator epoch' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.addSubparser@POLYN284209 the MagicNumber/String  'coordinator epoch' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -408,42 +408,42 @@ var maDataBlocs = {
  , "c1" : "00164"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.buildAbortSpec@POLYN284043 the MagicNumber/String  'Failed to validate producer state for partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.buildAbortSpec@POLYN286091 the MagicNumber/String  'Failed to validate producer state for partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00166"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.buildAbortSpec@POLYN284043 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.buildAbortSpec@POLYN286091 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.buildAbortSpec@POLYN284043 the MagicNumber/String  'Could not find any open transactions starting at offset ' should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.buildAbortSpec@POLYN286091 the MagicNumber/String  'Could not find any open transactions starting at offset ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00178"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.buildAbortSpec@POLYN284043 the MagicNumber/String  ' on partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.buildAbortSpec@POLYN286091 the MagicNumber/String  ' on partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00179"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.buildAbortSpec@POLYN284043 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.buildAbortSpec@POLYN286091 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00187"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.buildAbortSpec@POLYN284043 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.buildAbortSpec@POLYN286091 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -464,7 +464,7 @@ var maDataBlocs = {
  , "c1" : "00198"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.abortTransaction@POLYN285594 the MagicNumber/String  'Failed to abort transaction ' should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.abortTransaction@POLYN287642 the MagicNumber/String  'Failed to abort transaction ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -485,133 +485,133 @@ var maDataBlocs = {
  , "c1" : "00204"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN286019 the MagicNumber/String  'topic' should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN288067 the MagicNumber/String  'topic' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00205"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#205"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN286019 the MagicNumber/String  'partition' should be converted to const"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN288067 the MagicNumber/String  'partition' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00208"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN286019 the MagicNumber/String  'start_offset' should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN288067 the MagicNumber/String  'start_offset' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00209"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN286019 the MagicNumber/String  'producer_id' should be converted to const"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN288067 the MagicNumber/String  'producer_id' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00211"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN286019 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN288067 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00211"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN286019 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN288067 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00212"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#212"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN286019 the MagicNumber/String  'The transaction to abort must be identified either with ' should be converted to const"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN288067 the MagicNumber/String  'The transaction to abort must be identified either with ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00213"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN286019 the MagicNumber/String  '--start-offset (for brokers on 3.0 or above) or with ' should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN288067 the MagicNumber/String  '--start-offset (for brokers on 3.0 or above) or with ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00214"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN286019 the MagicNumber/String  '--producer-id, --producer-epoch, and --coordinator-epoch (for older brokers)' should be converted to const"
+ , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN288067 the MagicNumber/String  '--producer-id, --producer-epoch, and --coordinator-epoch (for older brokers)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00219"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN286019 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN288067 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00220"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN286019 the MagicNumber/String  'producer_epoch' should be converted to const"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN288067 the MagicNumber/String  'producer_epoch' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00221"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN286019 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN288067 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00222"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#222"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN286019 the MagicNumber/String  'Missing required argument --producer-epoch' should be converted to const"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN288067 the MagicNumber/String  'Missing required argument --producer-epoch' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00226"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN286019 the MagicNumber/String  'coordinator_epoch' should be converted to const"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN288067 the MagicNumber/String  'coordinator_epoch' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00227"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#227"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN286019 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN288067 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00228"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#228"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN286019 the MagicNumber/String  'Missing required argument --coordinator-epoch' should be converted to const"
+ , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN288067 the MagicNumber/String  'Missing required argument --coordinator-epoch' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00237"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#237"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN286019 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN288067 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00238"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#238"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN286019 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand.execute@POLYN288067 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00271"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#271"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.name@POLYN288481 the MagicNumber/String  'describe-producers' should be converted to const"
+ , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.name@POLYN290529 the MagicNumber/String  'describe-producers' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -632,70 +632,70 @@ var maDataBlocs = {
  , "c1" : "00277"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#277"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.addSubparser@POLYN288575 the MagicNumber/String  'describe the states of active producers for a topic partition' should be converted to const"
+ , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.addSubparser@POLYN290623 the MagicNumber/String  'describe the states of active producers for a topic partition' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00279"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#279"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.addSubparser@POLYN288575 the MagicNumber/String  '--broker-id' should be converted to const"
+ , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.addSubparser@POLYN290623 the MagicNumber/String  '--broker-id' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00280"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#280"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.addSubparser@POLYN288575 the MagicNumber/String  'optional broker id to describe the producer state on a specific replica' should be converted to const"
+ , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.addSubparser@POLYN290623 the MagicNumber/String  'optional broker id to describe the producer state on a specific replica' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00283"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#283"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.addSubparser@POLYN288575 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.addSubparser@POLYN290623 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00285"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.addSubparser@POLYN288575 the MagicNumber/String  '--topic' should be converted to const"
+ , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.addSubparser@POLYN290623 the MagicNumber/String  '--topic' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00286"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#286"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.addSubparser@POLYN288575 the MagicNumber/String  'topic name' should be converted to const"
+ , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.addSubparser@POLYN290623 the MagicNumber/String  'topic name' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00289"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#289"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.addSubparser@POLYN288575 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.addSubparser@POLYN290623 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00291"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#291"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.addSubparser@POLYN288575 the MagicNumber/String  '--partition' should be converted to const"
+ , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.addSubparser@POLYN290623 the MagicNumber/String  '--partition' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00292"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#292"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.addSubparser@POLYN288575 the MagicNumber/String  'partition number' should be converted to const"
+ , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.addSubparser@POLYN290623 the MagicNumber/String  'partition number' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00295"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#295"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.addSubparser@POLYN288575 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.addSubparser@POLYN290623 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -730,70 +730,70 @@ var maDataBlocs = {
  , "c1" : "00301"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#301"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.execute@POLYN289564 the MagicNumber/String  'broker_id' should be converted to const"
+ , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.execute@POLYN291612 the MagicNumber/String  'broker_id' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00303"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#303"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.execute@POLYN289564 the MagicNumber/String  'topic' should be converted to const"
+ , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.execute@POLYN291612 the MagicNumber/String  'topic' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00304"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#304"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.execute@POLYN289564 the MagicNumber/String  'partition' should be converted to const"
+ , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.execute@POLYN291612 the MagicNumber/String  'partition' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00315"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#315"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.execute@POLYN289564 the MagicNumber/String  'broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.execute@POLYN291612 the MagicNumber/String  'broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00316"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#316"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00316] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.execute@POLYN289564 the MagicNumber/String  'leader' should be converted to const"
+ , "c3" : "QC-JAV000010[00316] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.execute@POLYN291612 the MagicNumber/String  'leader' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00317"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#317"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.execute@POLYN289564 the MagicNumber/String  'Failed to describe producers for partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.execute@POLYN291612 the MagicNumber/String  'Failed to describe producers for partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00318"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#318"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.execute@POLYN289564 the MagicNumber/String  ' on ' should be converted to const"
+ , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.execute@POLYN291612 the MagicNumber/String  ' on ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00326"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#326"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.execute@POLYN289564 the MagicNumber/String  'None' should be converted to const"
+ , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.execute@POLYN291612 the MagicNumber/String  'None' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00331"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#331"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.execute@POLYN289564 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.tools.TransactionsCommand.DescribeProducersCommand.execute@POLYN291612 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00361"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#361"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00361] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.name@POLYN292678 the MagicNumber/String  'describe' should be converted to const"
+ , "c3" : "QC-JAV000010[00361] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.name@POLYN294728 the MagicNumber/String  'describe' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -814,35 +814,35 @@ var maDataBlocs = {
  , "c1" : "00367"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#367"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.addSubparser@POLYN292772 the MagicNumber/String  'Describe the state of an active transactional-id.' should be converted to const"
+ , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.addSubparser@POLYN294822 the MagicNumber/String  'Describe the state of an active transactional-id.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00368"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#368"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.addSubparser@POLYN292772 the MagicNumber/String  'describe the state of an active transactional-id' should be converted to const"
+ , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.addSubparser@POLYN294822 the MagicNumber/String  'describe the state of an active transactional-id' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00370"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#370"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00370] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.addSubparser@POLYN292772 the MagicNumber/String  '--transactional-id' should be converted to const"
+ , "c3" : "QC-JAV000010[00370] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.addSubparser@POLYN294822 the MagicNumber/String  '--transactional-id' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00371"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#371"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.addSubparser@POLYN292772 the MagicNumber/String  'transactional id' should be converted to const"
+ , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.addSubparser@POLYN294822 the MagicNumber/String  'transactional id' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00374"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#374"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.addSubparser@POLYN292772 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.addSubparser@POLYN294822 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -877,56 +877,56 @@ var maDataBlocs = {
  , "c1" : "00379"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#379"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.execute@POLYN293292 the MagicNumber/String  'transactional_id' should be converted to const"
+ , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.execute@POLYN295342 the MagicNumber/String  'transactional_id' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00387"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#387"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00387] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.execute@POLYN293292 the MagicNumber/String  'Failed to describe transaction state of ' should be converted to const"
+ , "c3" : "QC-JAV000010[00387] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.execute@POLYN295342 the MagicNumber/String  'Failed to describe transaction state of ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00388"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#388"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.execute@POLYN293292 the MagicNumber/String  'transactional-id  ' should be converted to const"
+ , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.execute@POLYN295342 the MagicNumber/String  'transactional-id  ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00388"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#388"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.execute@POLYN293292 the MagicNumber/String  ' ' should be converted to const"
+ , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.execute@POLYN295342 the MagicNumber/String  ' ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00400"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#400"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00400] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.execute@POLYN293292 the MagicNumber/String  'None' should be converted to const"
+ , "c3" : "QC-JAV000010[00400] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.execute@POLYN295342 the MagicNumber/String  'None' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00401"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#401"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00401] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.execute@POLYN293292 the MagicNumber/String  'None' should be converted to const"
+ , "c3" : "QC-JAV000010[00401] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.execute@POLYN295342 the MagicNumber/String  'None' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00413"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#413"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00413] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.execute@POLYN293292 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00413] In method org.apache.kafka.tools.TransactionsCommand.DescribeTransactionsCommand.execute@POLYN295342 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00434"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#434"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00434] In method org.apache.kafka.tools.TransactionsCommand.ListTransactionsCommand.name@POLYN295815 the MagicNumber/String  'list' should be converted to const"
+ , "c3" : "QC-JAV000010[00434] In method org.apache.kafka.tools.TransactionsCommand.ListTransactionsCommand.name@POLYN297865 the MagicNumber/String  'list' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -947,7 +947,7 @@ var maDataBlocs = {
  , "c1" : "00440"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#440"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00440] In method org.apache.kafka.tools.TransactionsCommand.ListTransactionsCommand.addSubparser@POLYN295909 the MagicNumber/String  'list transactions' should be converted to const"
+ , "c3" : "QC-JAV000010[00440] In method org.apache.kafka.tools.TransactionsCommand.ListTransactionsCommand.addSubparser@POLYN297959 the MagicNumber/String  'list transactions' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -996,14 +996,14 @@ var maDataBlocs = {
  , "c1" : "00452"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#452"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00452] In method org.apache.kafka.tools.TransactionsCommand.ListTransactionsCommand.execute@POLYN296110 the MagicNumber/String  'Failed to list transactions' should be converted to const"
+ , "c3" : "QC-JAV000010[00452] In method org.apache.kafka.tools.TransactionsCommand.ListTransactionsCommand.execute@POLYN298160 the MagicNumber/String  'Failed to list transactions' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00495"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#495"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00495] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.name@POLYN298216 the MagicNumber/String  'find-hanging' should be converted to const"
+ , "c3" : "QC-JAV000010[00495] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.name@POLYN300266 the MagicNumber/String  'find-hanging' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1024,98 +1024,98 @@ var maDataBlocs = {
  , "c1" : "00501"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#501"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00501] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN298305 the MagicNumber/String  'find hanging transactions' should be converted to const"
+ , "c3" : "QC-JAV000010[00501] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN300355 the MagicNumber/String  'find hanging transactions' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00503"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#503"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00503] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN298305 the MagicNumber/String  '--broker-id' should be converted to const"
+ , "c3" : "QC-JAV000010[00503] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN300355 the MagicNumber/String  '--broker-id' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00504"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#504"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00504] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN298305 the MagicNumber/String  'broker id to search for hanging transactions' should be converted to const"
+ , "c3" : "QC-JAV000010[00504] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN300355 the MagicNumber/String  'broker id to search for hanging transactions' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00507"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#507"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00507] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN298305 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00507] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN300355 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00509"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#509"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN298305 the MagicNumber/String  '--max-transaction-timeout' should be converted to const"
+ , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN300355 the MagicNumber/String  '--max-transaction-timeout' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00510"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#510"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN298305 the MagicNumber/String  'maximum transaction timeout in minutes to limit the scope of the search (15 minutes by default)' should be converted to const"
+ , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN300355 the MagicNumber/String  'maximum transaction timeout in minutes to limit the scope of the search (15 minutes by default)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00513"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#513"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN298305 the MagicNumber/String  15 should be converted to const"
+ , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN300355 the MagicNumber/String  15 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00514"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#514"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00514] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN298305 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00514] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN300355 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00516"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#516"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN298305 the MagicNumber/String  '--topic' should be converted to const"
+ , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN300355 the MagicNumber/String  '--topic' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00517"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#517"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00517] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN298305 the MagicNumber/String  'topic name to limit search to (required if --partition is specified)' should be converted to const"
+ , "c3" : "QC-JAV000010[00517] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN300355 the MagicNumber/String  'topic name to limit search to (required if --partition is specified)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00520"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#520"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00520] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN298305 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00520] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN300355 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00522"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#522"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00522] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN298305 the MagicNumber/String  '--partition' should be converted to const"
+ , "c3" : "QC-JAV000010[00522] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN300355 the MagicNumber/String  '--partition' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00523"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#523"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00523] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN298305 the MagicNumber/String  'partition number' should be converted to const"
+ , "c3" : "QC-JAV000010[00523] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN300355 the MagicNumber/String  'partition number' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00526"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#526"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00526] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN298305 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00526] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.addSubparser@POLYN300355 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1136,49 +1136,49 @@ var maDataBlocs = {
  , "c1" : "00531"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#531"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00531] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.execute@POLYN299585 the MagicNumber/String  'broker_id' should be converted to const"
+ , "c3" : "QC-JAV000010[00531] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.execute@POLYN301635 the MagicNumber/String  'broker_id' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00532"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#532"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00532] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.execute@POLYN299585 the MagicNumber/String  'topic' should be converted to const"
+ , "c3" : "QC-JAV000010[00532] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.execute@POLYN301635 the MagicNumber/String  'topic' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00535"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#535"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00535] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.execute@POLYN299585 the MagicNumber/String  'The  find-hanging  command requires either --topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00535] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.execute@POLYN301635 the MagicNumber/String  'The  find-hanging  command requires either --topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00536"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#536"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00536] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.execute@POLYN299585 the MagicNumber/String  'or --broker-id to limit the scope of the search' should be converted to const"
+ , "c3" : "QC-JAV000010[00536] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.execute@POLYN301635 the MagicNumber/String  'or --broker-id to limit the scope of the search' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00540"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#540"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00540] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.execute@POLYN299585 the MagicNumber/String  'partition' should be converted to const"
+ , "c3" : "QC-JAV000010[00540] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.execute@POLYN301635 the MagicNumber/String  'partition' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00542"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#542"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00542] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.execute@POLYN299585 the MagicNumber/String  'The --partition argument requires --topic to be provided' should be converted to const"
+ , "c3" : "QC-JAV000010[00542] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.execute@POLYN301635 the MagicNumber/String  'The --partition argument requires --topic to be provided' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00547"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#547"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00547] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.execute@POLYN299585 the MagicNumber/String  'max_transaction_timeout' should be converted to const"
+ , "c3" : "QC-JAV000010[00547] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.execute@POLYN301635 the MagicNumber/String  'max_transaction_timeout' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1234,14 +1234,14 @@ var maDataBlocs = {
  , "c1" : "00622"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#622"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00622] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.filterHangingTransactions@POLYN303000 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00622] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.filterHangingTransactions@POLYN305050 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00629"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#629"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00629] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.filterHangingTransactions@POLYN303000 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00629] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.filterHangingTransactions@POLYN305050 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1262,14 +1262,14 @@ var maDataBlocs = {
  , "c1" : "00666"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#666"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00666] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.printHangingTransactions@POLYN304287 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00666] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.printHangingTransactions@POLYN306337 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00667"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#667"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00667] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.printHangingTransactions@POLYN304287 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00667] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.printHangingTransactions@POLYN306337 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1318,21 +1318,21 @@ var maDataBlocs = {
  , "c1" : "00690"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#690"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00690] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.describeTransactions@POLYN305872 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00690] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.describeTransactions@POLYN307922 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00699"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#699"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00699] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.describeTransactions@POLYN305872 the MagicNumber/String  'Failed to describe ' should be converted to const"
+ , "c3" : "QC-JAV000010[00699] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.describeTransactions@POLYN307922 the MagicNumber/String  'Failed to describe ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00700"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#700"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00700] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.describeTransactions@POLYN305872 the MagicNumber/String  ' transactions' should be converted to const"
+ , "c3" : "QC-JAV000010[00700] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.describeTransactions@POLYN307922 the MagicNumber/String  ' transactions' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1367,14 +1367,14 @@ var maDataBlocs = {
  , "c1" : "00723"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#723"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00723] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.listTopics@POLYN307900 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00723] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.listTopics@POLYN309950 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00726"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#726"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00726] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.listTopics@POLYN307900 the MagicNumber/String  'Failed to list topics' should be converted to const"
+ , "c3" : "QC-JAV000010[00726] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.listTopics@POLYN309950 the MagicNumber/String  'Failed to list topics' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1423,14 +1423,14 @@ var maDataBlocs = {
  , "c1" : "00764"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#764"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00764] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.findTopicPartitions@POLYN309073 the MagicNumber/String  'Failed to describe ' should be converted to const"
+ , "c3" : "QC-JAV000010[00764] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.findTopicPartitions@POLYN311123 the MagicNumber/String  'Failed to describe ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00764"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#764"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00764] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.findTopicPartitions@POLYN309073 the MagicNumber/String  ' topics' should be converted to const"
+ , "c3" : "QC-JAV000010[00764] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.findTopicPartitions@POLYN311123 the MagicNumber/String  ' topics' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1493,14 +1493,14 @@ var maDataBlocs = {
  , "c1" : "00843"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#843"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00843] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.collectCandidateOpenTransactions@POLYN311498 the MagicNumber/String  'Failed to describe producers for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00843] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.collectCandidateOpenTransactions@POLYN313548 the MagicNumber/String  'Failed to describe producers for ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00844"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#844"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00844] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.collectCandidateOpenTransactions@POLYN311498 the MagicNumber/String  ' partitions on broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[00844] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.collectCandidateOpenTransactions@POLYN313548 the MagicNumber/String  ' partitions on broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1528,28 +1528,28 @@ var maDataBlocs = {
  , "c1" : "00863"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#863"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00863] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.lookupTransactionalIds@POLYN313083 the MagicNumber/String  'Received transaction listing {} which has a producerId ' should be converted to const"
+ , "c3" : "QC-JAV000010[00863] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.lookupTransactionalIds@POLYN315135 the MagicNumber/String  'Received transaction listing {} which has a producerId ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00864"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#864"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00864] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.lookupTransactionalIds@POLYN313083 the MagicNumber/String  'which was not requested' should be converted to const"
+ , "c3" : "QC-JAV000010[00864] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.lookupTransactionalIds@POLYN315135 the MagicNumber/String  'which was not requested' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00875"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#875"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00875] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.lookupTransactionalIds@POLYN313083 the MagicNumber/String  'Failed to list transactions for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00875] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.lookupTransactionalIds@POLYN315135 the MagicNumber/String  'Failed to list transactions for ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00876"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#876"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00876] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.lookupTransactionalIds@POLYN313083 the MagicNumber/String  ' producers' should be converted to const"
+ , "c3" : "QC-JAV000010[00876] In method org.apache.kafka.tools.TransactionsCommand.FindHangingTransactionsCommand.lookupTransactionalIds@POLYN315135 the MagicNumber/String  ' producers' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1598,14 +1598,14 @@ var maDataBlocs = {
  , "c1" : "00913"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#913"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00913] In method org.apache.kafka.tools.TransactionsCommand.appendColumnValue@POLYN315275 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00913] In method org.apache.kafka.tools.TransactionsCommand.appendColumnValue@POLYN317327 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00914"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#914"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00914] In method org.apache.kafka.tools.TransactionsCommand.appendColumnValue@POLYN315275 the MagicNumber/String  ' ' should be converted to const"
+ , "c3" : "QC-JAV000010[00914] In method org.apache.kafka.tools.TransactionsCommand.appendColumnValue@POLYN317327 the MagicNumber/String  ' ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1654,14 +1654,14 @@ var maDataBlocs = {
  , "c1" : "00923"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#923"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00923] In method org.apache.kafka.tools.TransactionsCommand.printRow@POLYN315780 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00923] In method org.apache.kafka.tools.TransactionsCommand.printRow@POLYN317832 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00927"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#927"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00927] In method org.apache.kafka.tools.TransactionsCommand.printRow@POLYN315780 the MagicNumber/String  '\t' should be converted to const"
+ , "c3" : "QC-JAV000010[00927] In method org.apache.kafka.tools.TransactionsCommand.printRow@POLYN317832 the MagicNumber/String  '\t' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1689,7 +1689,7 @@ var maDataBlocs = {
  , "c1" : "00942"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#942"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00942] In method org.apache.kafka.tools.TransactionsCommand.prettyPrintTable@POLYN316600 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00942] In method org.apache.kafka.tools.TransactionsCommand.prettyPrintTable@POLYN318652 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1703,21 +1703,21 @@ var maDataBlocs = {
  , "c1" : "00954"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#954"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00954] In method org.apache.kafka.tools.TransactionsCommand.printErrorAndExit@POLYN317752 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00954] In method org.apache.kafka.tools.TransactionsCommand.printErrorAndExit@POLYN319806 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00954"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#954"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00954] In method org.apache.kafka.tools.TransactionsCommand.printErrorAndExit@POLYN317752 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00954] In method org.apache.kafka.tools.TransactionsCommand.printErrorAndExit@POLYN319806 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00955"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#955"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00955] In method org.apache.kafka.tools.TransactionsCommand.printErrorAndExit@POLYN317752 the MagicNumber/String  ' Enable debug logging for additional detail.' should be converted to const"
+ , "c3" : "QC-JAV000010[00955] In method org.apache.kafka.tools.TransactionsCommand.printErrorAndExit@POLYN319806 the MagicNumber/String  ' Enable debug logging for additional detail.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1731,7 +1731,7 @@ var maDataBlocs = {
  , "c1" : "00962"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#962"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00962] In method org.apache.kafka.tools.TransactionsCommand.printErrorAndExit@POLYN318170 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00962] In method org.apache.kafka.tools.TransactionsCommand.printErrorAndExit@POLYN320224 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1752,140 +1752,140 @@ var maDataBlocs = {
  , "c1" : "00968"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#968"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00968] In method org.apache.kafka.tools.TransactionsCommand.buildAdminClient@POLYN318420 the MagicNumber/String  'command_config' should be converted to const"
+ , "c3" : "QC-JAV000010[00968] In method org.apache.kafka.tools.TransactionsCommand.buildAdminClient@POLYN320474 the MagicNumber/String  'command_config' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00969"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#969"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00969] In method org.apache.kafka.tools.TransactionsCommand.buildAdminClient@POLYN318420 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00969] In method org.apache.kafka.tools.TransactionsCommand.buildAdminClient@POLYN320474 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00975"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#975"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00975] In method org.apache.kafka.tools.TransactionsCommand.buildAdminClient@POLYN318420 the MagicNumber/String  'Failed to load admin client properties' should be converted to const"
+ , "c3" : "QC-JAV000010[00975] In method org.apache.kafka.tools.TransactionsCommand.buildAdminClient@POLYN320474 the MagicNumber/String  'Failed to load admin client properties' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00976"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#976"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00976] In method org.apache.kafka.tools.TransactionsCommand.buildAdminClient@POLYN318420 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00976] In method org.apache.kafka.tools.TransactionsCommand.buildAdminClient@POLYN320474 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00980"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#980"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00980] In method org.apache.kafka.tools.TransactionsCommand.buildAdminClient@POLYN318420 the MagicNumber/String  'bootstrap_server' should be converted to const"
+ , "c3" : "QC-JAV000010[00980] In method org.apache.kafka.tools.TransactionsCommand.buildAdminClient@POLYN320474 the MagicNumber/String  'bootstrap_server' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00988"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#988"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00988] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN319345 the MagicNumber/String  'kafka-transactions.sh' should be converted to const"
+ , "c3" : "QC-JAV000010[00988] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN321399 the MagicNumber/String  'kafka-transactions.sh' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00990"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#990"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00990] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN319345 the MagicNumber/String  'This tool is used to analyze the transactional state of producers in the cluster. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00990] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN321399 the MagicNumber/String  'This tool is used to analyze the transactional state of producers in the cluster. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00991"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#991"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00991] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN319345 the MagicNumber/String  'It can be used to detect and recover from hanging transactions.' should be converted to const"
+ , "c3" : "QC-JAV000010[00991] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN321399 the MagicNumber/String  'It can be used to detect and recover from hanging transactions.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00993"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#993"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00993] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN319345 the MagicNumber/String  '-v' should be converted to const"
+ , "c3" : "QC-JAV000010[00993] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN321399 the MagicNumber/String  '-v' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00993"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#993"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00993] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN319345 the MagicNumber/String  '--version' should be converted to const"
+ , "c3" : "QC-JAV000010[00993] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN321399 the MagicNumber/String  '--version' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00995"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#995"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00995] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN319345 the MagicNumber/String  'show the version of this Kafka distribution and exit' should be converted to const"
+ , "c3" : "QC-JAV000010[00995] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN321399 the MagicNumber/String  'show the version of this Kafka distribution and exit' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00997"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#997"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00997] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN319345 the MagicNumber/String  '--command-config' should be converted to const"
+ , "c3" : "QC-JAV000010[00997] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN321399 the MagicNumber/String  '--command-config' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00998"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#998"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00998] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN319345 the MagicNumber/String  'property file containing configs to be passed to admin client' should be converted to const"
+ , "c3" : "QC-JAV000010[00998] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN321399 the MagicNumber/String  'property file containing configs to be passed to admin client' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01001"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#1001"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01001] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN319345 the MagicNumber/String  'FILE' should be converted to const"
+ , "c3" : "QC-JAV000010[01001] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN321399 the MagicNumber/String  'FILE' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01002"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#1002"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01002] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN319345 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01002] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN321399 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01004"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#1004"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01004] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN319345 the MagicNumber/String  '--bootstrap-server' should be converted to const"
+ , "c3" : "QC-JAV000010[01004] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN321399 the MagicNumber/String  '--bootstrap-server' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01005"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#1005"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01005] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN319345 the MagicNumber/String  'hostname and port for the broker to connect to, in the form  host:port   ' should be converted to const"
+ , "c3" : "QC-JAV000010[01005] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN321399 the MagicNumber/String  'hostname and port for the broker to connect to, in the form  host:port   ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01006"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#1006"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01006] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN319345 the MagicNumber/String  '(multiple comma-separated entries can be given)' should be converted to const"
+ , "c3" : "QC-JAV000010[01006] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN321399 the MagicNumber/String  '(multiple comma-separated entries can be given)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01009"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#1009"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01009] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN319345 the MagicNumber/String  'host:port' should be converted to const"
+ , "c3" : "QC-JAV000010[01009] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN321399 the MagicNumber/String  'host:port' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01010"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#1010"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01010] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN319345 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01010] In method org.apache.kafka.tools.TransactionsCommand.buildBaseParser@POLYN321399 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1913,49 +1913,49 @@ var maDataBlocs = {
  , "c1" : "01031"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#1031"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01031] In method org.apache.kafka.tools.TransactionsCommand.execute@POLYN320428 the MagicNumber/String  'command' should be converted to const"
+ , "c3" : "QC-JAV000010[01031] In method org.apache.kafka.tools.TransactionsCommand.execute@POLYN322482 the MagicNumber/String  'command' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01032"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#1032"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01032] In method org.apache.kafka.tools.TransactionsCommand.execute@POLYN320428 the MagicNumber/String  'commands' should be converted to const"
+ , "c3" : "QC-JAV000010[01032] In method org.apache.kafka.tools.TransactionsCommand.execute@POLYN322482 the MagicNumber/String  'commands' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01033"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#1033"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01033] In method org.apache.kafka.tools.TransactionsCommand.execute@POLYN320428 the MagicNumber/String  'COMMAND' should be converted to const"
+ , "c3" : "QC-JAV000010[01033] In method org.apache.kafka.tools.TransactionsCommand.execute@POLYN322482 the MagicNumber/String  'COMMAND' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01042"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#1042"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01042] In method org.apache.kafka.tools.TransactionsCommand.execute@POLYN320428 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01042] In method org.apache.kafka.tools.TransactionsCommand.execute@POLYN322482 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01047"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#1047"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01047] In method org.apache.kafka.tools.TransactionsCommand.execute@POLYN320428 the MagicNumber/String  'command' should be converted to const"
+ , "c3" : "QC-JAV000010[01047] In method org.apache.kafka.tools.TransactionsCommand.execute@POLYN322482 the MagicNumber/String  'command' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01054"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#1054"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01054] In method org.apache.kafka.tools.TransactionsCommand.execute@POLYN320428 the MagicNumber/String  'Unexpected command ' should be converted to const"
+ , "c3" : "QC-JAV000010[01054] In method org.apache.kafka.tools.TransactionsCommand.execute@POLYN322482 the MagicNumber/String  'Unexpected command ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01059"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#1059"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01059] In method org.apache.kafka.tools.TransactionsCommand.execute@POLYN320428 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01059] In method org.apache.kafka.tools.TransactionsCommand.execute@POLYN322482 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

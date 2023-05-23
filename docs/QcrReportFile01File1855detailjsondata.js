@@ -2,21 +2,55 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessor.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessor.java 1 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessor.java 0 rule violation " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : { "" : ""
+ , "c1" : "java.lang.Object"
+ , "c2" : "org.apache.kafka.streams.processor.api.FixedKeyProcessor"
+}} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.streams.processor.api.FixedKeyProcessor" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00045"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessor.java.html#45"
+ , "c1" : "void"
+ , "c2" : "init(FixedKeyProcessorContext&lt;KIn,VOut&gt;)"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00052"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessor.java.html#52"
+ , "c1" : "void"
+ , "c2" : "process(FixedKeyRecord&lt;KIn,VIn&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00061"
+ , "c5link" : "././qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessor.java.html#61"
+ , "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "0"
+}} 
 ] 
 }} 
 ]
 , 
 "data03" : [
+   {
+
+ "ligneplantuml" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessor.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -44,24 +78,6 @@ var maDataBlocs = {
 ]
 , 
 "data14" : [
-]
-, 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999999"
- , "c3" : "Syntax analysis failure on the source code"
- , "c4" : "1"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessor.java.html#17"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999999[00017] syntax analysis failed on file /home/runner/work/kafka/kafka/streams/src/main/java/org/apache/kafka/streams/processor/api/FixedKeyProcessor.java near following tokens and ` * limitations under the License . ` */ package org . apache . kafka . streams . processor . "
-}} 
 ]
 , 
 "data15" : {

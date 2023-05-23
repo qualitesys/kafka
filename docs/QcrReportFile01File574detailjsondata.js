@@ -2,21 +2,46 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatchIterator.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/RecordBatchIterator.java 1 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/RecordBatchIterator.java 2 rule violations " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : { "" : ""
+ , "c1" : ""
+ , "c2" : "org.apache.kafka.common.record.RecordBatchIterator"
+}} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.record.RecordBatchIterator" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00030"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatchIterator.java.html#30"
+ , "c1" : "RecordBatchIterator"
+ , "c2" : "RecordBatchIterator(LogInputStream&lt;T&gt;)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00035"
+ , "c5link" : "././qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatchIterator.java.html#35"
+ , "c1" : "T"
+ , "c2" : "makeNext()"
+ , "c3" : "2"
+ , "c4" : "5"
+}} 
 ] 
 }} 
 ]
 , 
 "data03" : [
+   {
+
+ "ligneplantuml" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatchIterator.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -48,19 +73,26 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999999"
- , "c3" : "Syntax analysis failure on the source code"
- , "c4" : "1"
+ , "c1" : "MAJOR"
+ , "c2" : "QC-JAV000010"
+ , "c3" : "MagicNumber Strings and numbers should be converted to constants"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
 { "ligne" : {"" : ""
- , "c1" : "00017"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatchIterator.java.html#17"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999999[00017] syntax analysis failed on file /home/runner/work/kafka/kafka/clients/src/main/java/org/apache/kafka/common/record/RecordBatchIterator.java near following tokens and ` * limitations under the License . ` */ package org . apache . kafka . common . record ; "
+ , "c1" : "00038"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatchIterator.java.html#38"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.record.RecordBatchIterator.makeNext@POLYN150650 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00042"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordBatchIterator.java.html#42"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.record.RecordBatchIterator.makeNext@POLYN150650 the MagicNumber/String  'Unexpected EOF while attempting to read the next batch' should be converted to const"
 }} 
 ]
 , 

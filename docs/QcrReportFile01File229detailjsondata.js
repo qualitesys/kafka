@@ -209,238 +209,238 @@ var maDataBlocs = {
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN188135 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN190183 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN188135 the MagicNumber/String  'Topic cannot be null.' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN190183 the MagicNumber/String  'Topic cannot be null.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN188135 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN190183 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN188135 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN190183 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN188135 the MagicNumber/String  'Invalid timestamp: %d. Timestamp should always be non-negative or null.' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN190183 the MagicNumber/String  'Invalid timestamp: %d. Timestamp should always be non-negative or null.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN188135 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN190183 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN188135 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN190183 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN188135 the MagicNumber/String  'Invalid partition: %d. Partition number should always be non-negative or null.' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN190183 the MagicNumber/String  'Invalid partition: %d. Partition number should always be non-negative or null.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00097"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN189693 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN191741 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN190273 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN192321 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00122"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN190832 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN192880 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00122"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN190832 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN192880 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN191293 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN193341 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN191293 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN193341 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN191293 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN193341 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN191683 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN193731 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN191683 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN193731 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN191683 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN193731 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN191683 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.clients.producer.ProducerRecord.ProducerRecord@POLYN193731 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00190"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#190"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN192793 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN194841 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00190"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#190"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN192793 the MagicNumber/String  'null' should be converted to const"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN194841 the MagicNumber/String  'null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00191"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN192793 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN194841 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00191"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN192793 the MagicNumber/String  'null' should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN194841 the MagicNumber/String  'null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00192"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN192793 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN194841 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00192"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN192793 the MagicNumber/String  'null' should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN194841 the MagicNumber/String  'null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00193"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN192793 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN194841 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00193"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN192793 the MagicNumber/String  'null' should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN194841 the MagicNumber/String  'null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00194"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN192793 the MagicNumber/String  'ProducerRecord(topic=' should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN194841 the MagicNumber/String  'ProducerRecord(topic=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00194"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN192793 the MagicNumber/String  ', partition=' should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN194841 the MagicNumber/String  ', partition=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00194"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN192793 the MagicNumber/String  ', headers=' should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN194841 the MagicNumber/String  ', headers=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00194"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN192793 the MagicNumber/String  ', key=' should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN194841 the MagicNumber/String  ', key=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00194"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN192793 the MagicNumber/String  ', value=' should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN194841 the MagicNumber/String  ', value=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00195"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#195"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN192793 the MagicNumber/String  ', timestamp=' should be converted to const"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN194841 the MagicNumber/String  ', timestamp=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00195"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#195"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN192793 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.clients.producer.ProducerRecord.toString@POLYN194841 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -454,133 +454,133 @@ var maDataBlocs = {
  , "c1" : "00201"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.clients.producer.ProducerRecord.equals@POLYN193987 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.clients.producer.ProducerRecord.equals@POLYN196035 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00203"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.clients.producer.ProducerRecord.equals@POLYN193987 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.clients.producer.ProducerRecord.equals@POLYN196035 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00217"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN194959 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN197007 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00217"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN194959 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN197007 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00218"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN194959 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN197007 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00218"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN194959 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN197007 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00218"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN194959 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN197007 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00219"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN194959 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN197007 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00219"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN194959 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN197007 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00219"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN194959 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN197007 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00220"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN194959 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN197007 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00220"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN194959 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN197007 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00220"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN194959 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN197007 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00221"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN194959 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN197007 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00221"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN194959 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN197007 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00221"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN194959 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN197007 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00222"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#222"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN194959 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN197007 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00222"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#222"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN194959 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN197007 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00222"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerRecord.java.html#222"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN194959 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.clients.producer.ProducerRecord.hashCode@POLYN197007 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

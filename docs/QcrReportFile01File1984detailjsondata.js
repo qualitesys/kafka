@@ -110,7 +110,7 @@ var maDataBlocs = {
  , "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/KeyQuery.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.query.KeyQuery.skipCache@POLYN153253 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.query.KeyQuery.skipCache@POLYN155301 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 

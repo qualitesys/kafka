@@ -2,21 +2,91 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java 1 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java 0 rule violation " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
+{ "ligne" : { "" : ""
+ , "c1" : "AutoCloseable"
+ , "c2" : "org.apache.kafka.snapshot.RawSnapshotWriter"
+}} 
 ]
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "" , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.snapshot.RawSnapshotWriter" , "link" : "" , "methodes" : [ 
+{ "ligne" : { "" : ""
+ , "c5" : "00031"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html#31"
+ , "c1" : "OffsetAndEpoch"
+ , "c2" : "snapshotId()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00036"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html#36"
+ , "c1" : "long"
+ , "c2" : "sizeInBytes()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00046"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html#46"
+ , "c1" : "void"
+ , "c2" : "append(MemoryRecords)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00057"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html#57"
+ , "c1" : "void"
+ , "c2" : "append(UnalignedMemoryRecords)"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00064"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html#64"
+ , "c1" : "boolean"
+ , "c2" : "isFrozen()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00069"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html#69"
+ , "c1" : "void"
+ , "c2" : "freeze()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
+,
+{ "ligne" : { "" : ""
+ , "c5" : "00076"
+ , "c5link" : "././qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html#76"
+ , "c1" : "void"
+ , "c2" : "close()"
+ , "c3" : "1"
+ , "c4" : "1"
+}} 
 ] 
 }} 
 ]
 , 
 "data03" : [
+   {
+
+ "ligneplantuml" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.svg" }
+
 ] 
 , 
 "data04" : [
@@ -44,24 +114,6 @@ var maDataBlocs = {
 ]
 , 
 "data14" : [
-]
-, 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999999"
- , "c3" : "Syntax analysis failure on the source code"
- , "c4" : "1"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00018"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java.html#18"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999999[00018] syntax analysis failed on file /home/runner/work/kafka/kafka/raft/src/main/java/org/apache/kafka/snapshot/RawSnapshotWriter.java near following tokens and ` * limitations under the License . ` */ package org . apache . kafka . snapshot ; import org "
-}} 
 ]
 , 
 "data15" : {

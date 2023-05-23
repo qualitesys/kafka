@@ -1,10 +1,804 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="86px" preserveAspectRatio="none" style="width:156px;height:86px;background:#FFFFFF;" version="1.1" viewBox="0 0 156 86" width="156px" zoomAndPan="magnify"><defs/><g><path d="M54,10 L54,18.5664 L34,22.5664 L54,26.5664 L54,35.1328 A0,0 0 0 0 54,35.1328 L144,35.1328 A0,0 0 0 0 144,35.1328 L144,20 L134,10 L54,10 A0,0 0 0 0 54,10 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M134,10 L134,20 L144,20 L134,10 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="60" y="27.0669">Js Program</text><ellipse cx="24" cy="22.5664" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="24" cy="65.1328" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="17.8128" x2="30.1872" y1="58.9456" y2="71.32"/><line style="stroke:#222222;stroke-width:2.5;" x1="30.1872" x2="17.8128" y1="58.9456" y2="71.32"/><line style="stroke:#181818;stroke-width:1.0;" x1="24" x2="24" y1="32.5664" y2="55.1328"/><polygon fill="#181818" points="20,45.1328,24,55.1328,28,45.1328,24,49.1328" style="stroke:#181818;stroke-width:1.0;"/><!--MD5=[5331b42756e6ddb1dde3861c05616677]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1193px" preserveAspectRatio="none" style="width:943px;height:1193px;background:#FFFFFF;" version="1.1" viewBox="0 0 943 1193" width="943px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="603" x="5" y="16.1387">An error has occured : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="91" x="5" y="30.1074">This is the way</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="44.0762"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="272" x="5" y="58.0449">Diagram size: 802 lines / 22822 characters.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="72.0137"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="374" x="5" y="85.9824">PlantUML (1.2022.7) cannot parse result from dot/GraphViz.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="99.9512"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="390" x="5" y="113.9199">This version of PlantUML is 274 days old, so you should</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="398" x="5" y="127.8887">consider upgrading from https://plantuml.com/download</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="141.8574"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="492" x="5" y="155.8262">Please go to https://plantuml.com/graphviz-dot to check your GraphViz version.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="169.7949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="277" x="5" y="183.7637">Java Runtime: OpenJDK Runtime Environment</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="187" x="5" y="197.7324">JVM: OpenJDK 64-Bit Server VM</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="211.7012">Default Encoding: UTF-8</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="5" y="225.6699">Language: en</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="5" y="239.6387">Country: null</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="253.6074"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="172" x="5" y="267.5762">PLANTUML_LIMIT_SIZE: 4096</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="281.5449"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="295.5137">This may be caused by :</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="9" y="309.4824">- a bug in PlantUML</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="144" x="9" y="323.4512">- a problem in GraphViz</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="337.4199"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="300" x="5" y="351.3887">You should send this diagram and this image to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="145" x="309" y="351.3887">plantuml@gmail.com</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="13" x="458" y="351.3887">or</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="5" y="365.3574">post to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="168" x="54" y="365.3574">https://plantuml.com/qa</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="117" x="226" y="365.3574">to solve this issue.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="405" x="5" y="379.3262">You can try to turn arround this issue by simplifing your diagram.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="393.2949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="458" x="5" y="407.2637">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="477" x="13" y="421.2324">java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="548" x="13" y="435.2012">java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="474" x="13" y="449.1699">java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="351" x="13" y="463.1387">java.base/java.util.Objects.checkIndex(Objects.java:372)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="314" x="13" y="477.1074">java.base/java.util.ArrayList.get(ArrayList.java:459)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="878" x="13" y="491.0762">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createWithLinks(FtileFactoryDelegatorSwitch.java:103)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="852" x="13" y="505.0449">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createSwitch(FtileFactoryDelegatorSwitch.java:79)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="519.0137">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="532.9824">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="546.9512">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="560.9199">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="574.8887">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="588.8574">net.sourceforge.plantuml.activitydiagram3.InstructionSwitch.createFtile(InstructionSwitch.java:119)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="13" y="602.8262">net.sourceforge.plantuml.activitydiagram3.InstructionList.createFtile(InstructionList.java:131)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="536" x="13" y="616.7949">net.sourceforge.plantuml.activitydiagram3.ftile.Swimlanes.drawU(Swimlanes.java:229)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="805" x="13" y="630.7637">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.getPiecewiseAffineTransform(CompressionXorYBuilder.java:51)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="655" x="13" y="644.7324">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.build(CompressionXorYBuilder.java:44)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="686" x="13" y="658.7012">net.sourceforge.plantuml.activitydiagram3.ActivityDiagram3.exportDiagramInternal(ActivityDiagram3.java:210)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="672.6699">net.sourceforge.plantuml.UmlDiagram.exportDiagramNow(UmlDiagram.java:135)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="538" x="13" y="686.6387">net.sourceforge.plantuml.AbstractPSystem.exportDiagram(AbstractPSystem.java:178)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="700.6074">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:172)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="714.5762">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="693" x="13" y="728.5449">com.qualitesys.qcrmavenplugin.commun.QcrCommunPlantUml.genererFichierSvg(QcrCommunPlantUml.java:82)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="585" x="13" y="742.5137">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lireFichier(QcrReporting01Mojo.java:927)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="556" x="13" y="756.4824">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lister(QcrReporting01Mojo.java:453)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="591" x="13" y="770.4512">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.doReport(QcrReporting01Mojo.java:2037)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="625" x="13" y="784.4199">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.executeReport(QcrReporting01Mojo.java:1739)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="582" x="13" y="798.3887">org.apache.maven.reporting.AbstractMavenReport.generate(AbstractMavenReport.java:251)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="748" x="13" y="812.3574">org.apache.maven.plugins.site.render.ReportDocumentRenderer.renderDocument(ReportDocumentRenderer.java:226)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="607" x="13" y="826.3262">org.apache.maven.doxia.siterenderer.DefaultSiteRenderer.render(DefaultSiteRenderer.java:348)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="840.2949">org.apache.maven.plugins.site.render.SiteMojo.renderLocale(SiteMojo.java:194)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="470" x="13" y="854.2637">org.apache.maven.plugins.site.render.SiteMojo.execute(SiteMojo.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="649" x="13" y="868.2324">org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="882.2012">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:370)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="531" x="13" y="896.1699">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:351)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="910.1387">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:215)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="924.1074">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:171)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="938.0762">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:163)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="651" x="13" y="952.0449">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="643" x="13" y="966.0137">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="747" x="13" y="979.9824">org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="993.9512">org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1007.9199">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:299)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1021.8887">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="412" x="13" y="1035.8574">org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="367" x="13" y="1049.8262">org.apache.maven.cli.MavenCli.execute(MavenCli.java:963)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="362" x="13" y="1063.7949">org.apache.maven.cli.MavenCli.doMain(MavenCli.java:296)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="347" x="13" y="1077.7637">org.apache.maven.cli.MavenCli.main(MavenCli.java:199)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="1091.7324">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="1105.7012">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="679" x="13" y="1119.6699">java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="373" x="13" y="1133.6387">java.base/java.lang.reflect.Method.invoke(Method.java:566)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="562" x="13" y="1147.6074">org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="499" x="13" y="1161.5762">org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="568" x="13" y="1175.5449">org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="487" x="13" y="1189.5137">org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)</text><image height="23" width="23" x="920" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAAeElEQVR4XtWQAQrAIAwDfbo/31DQlazSplXYDoMg5NqtlC9z9XMIKc8OamVVkBRXWc6IXmiy8RXp3xIqWcjt1AFj23azm7vlDCjFhEHRKjSzLJHvEApGzMjrLDmk7IBHTsbDf+UdLFqhwLIVGhSsEgZFmC0ckW7hBg14ybn8NrETAAAAAElFTkSuQmCC" y="6"/><!--MD5=[bfbbff9c076620a919a78d11b001127d]
 @startuml
 !pragma layout smetana
 start
 note right
-Js Program
+constructor StreamTask(final TaskId id,final Set<TopicPartition> inputPartitions,
+final ProcessorTopology topology,final Consumer<byte[],
+byte[]> mainConsumer,final TaskConfig config,
+final StreamsMetricsImpl streamsMetrics,final StateDirectory stateDirectory,
+final ThreadCache cache,final Time time,final ProcessorStateManager stateMgr,
+final RecordCollector recordCollector,final InternalProcessorContext processorContext,
+final LogContext logContext)
 end note
+:super (id,topology,stateDirectory,stateMgr,
+inputPartitions,config.taskTimeoutMs,"task",
+StreamTask.class );;
+:this.mainConsumer=mainConsumer;;
+:this.processorContext=processorContext;;
+:processorContext.transitionToActive(this,
+recordCollector,cache);;
+:this.time=time;;
+:this.recordCollector=recordCollector;;
+:this.eosEnabled=config.eosEnabled;;
+:final String threadId=Thread.currentThread()
+.getName();;
+:this.streamsMetrics=streamsMetrics;;
+:closeTaskSensor=ThreadMetrics.closeTaskSensor(threadId,
+streamsMetrics);;
+:final String taskId=id.toString();;
+:processRatioSensor=TaskMetrics.activeProcessRatioSensor(threadId,
+taskId,streamsMetrics);;
+:processLatencySensor=TaskMetrics.processLatencySensor(threadId,
+taskId,streamsMetrics);;
+:punctuateLatencySensor=TaskMetrics.punctuateSensor(threadId,
+taskId,streamsMetrics);;
+:bufferedRecordsSensor=TaskMetrics.activeBufferedRecordsSensor(threadId,
+taskId,streamsMetrics);;
+:e2eLatencySensors.put(terminalNodeName,ProcessorNodeMetrics.e2ELatencySensor(threadId,
+taskId,terminalNodeName,streamsMetrics));;
+:final String sourceNodeName=sourceNode.name();;
+:e2eLatencySensors.put(sourceNodeName,ProcessorNodeMetrics.e2ELatencySensor(threadId,
+taskId,sourceNodeName,streamsMetrics));;
+:streamTimePunctuationQueue=new PunctuationQueue();;
+:systemTimePunctuationQueue=new PunctuationQueue();;
+:maxBufferedSize=config.maxBufferedSize;;
+:consumedOffsets=new HashMap<>();;
+:resetOffsetsForPartitions=new HashSet<>();;
+:recordQueueCreator=new RecordQueueCreator(this.logContext,
+config.timestampExtractor,config.deserializationExceptionHandler);;
+:recordInfo=new PartitionGroup.RecordInfo();;
+:final Sensor enforcedProcessingSensor;;
+:enforcedProcessingSensor=TaskMetrics.enforcedProcessingSensor(threadId,
+taskId,streamsMetrics);;
+:final long maxTaskIdleMs=config.maxTaskIdleMs;;
+:partitionGroup=new PartitionGroup(logContext,
+createPartitionQueues(),mainConsumer::currentLag,
+TaskMetrics.recordLatenessSensor(threadId,
+taskId,streamsMetrics),enforcedProcessingSensor,
+maxTaskIdleMs);;
+:stateMgr.registerGlobalStateStores(topology.globalStateStores());;
+:committedOffsets=new HashMap<>();;
+:highWatermark=new HashMap<>();;
+:committedOffsets.put(topicPartition,-1L);;
+:highWatermark.put(topicPartition,-1L);;
+:timeCurrentIdlingStarted=Optional.empty();;
+end
+start
+note right
+Map<TopicPartition,RecordQueue> createPartitionQueues()
+end note
+:final Map<TopicPartition,RecordQueue> partitionQueues=new HashMap<>();;
+:partitionQueues.put(partition,recordQueueCreator.createQueue(partition));;
+:return partitionQueues;;
+stop
+end
+start
+note right
+boolean isActive()
+end note
+:return true;;
+stop
+end
+start
+note right
+void initializeIfNeeded()
+end note
+if (state()==State.CREATED) then (yes) 
+:recordCollector.initialize();;
+:StateManagerUtil.registerStateStores(log,
+logPrefix,topology,stateMgr,stateDirectory,
+processorContext);;
+:offsetSnapshotSinceLastFlush=Collections.emptyMap();;
+:transitionTo(State.RESTORING);;
+:log.info("Initialized");;
+endif 
+end
+start
+note right
+void addPartitionsForOffsetReset(final Set<TopicPartition> partitionsForOffsetReset)
+end note
+:mainConsumer.pause(partitionsForOffsetReset);;
+:resetOffsetsForPartitions.addAll(partitionsForOffsetReset);;
+end
+start
+note right
+void completeRestoration(final java.util.function.Consumer<Set<TopicPartition>> offsetResetter)
+end note
+switch (switch state())
+endswitch
+end
+start
+note right
+void suspend()
+end note
+switch (switch state())
+endswitch
+end
+start
+note right
+void closeTopology()
+end note
+:log.trace("Closing processor topology");;
+:RuntimeException exception=null ;;
+:processorContext.setCurrentNode(node);;
+switch (try/catch block)
+case (try)
+:node.close();;
+endswitch
+if (exception!=null ) then (yes) 
+:throw exception;;
+stop
+endif 
+end
+start
+note right
+void resume()
+end note
+switch (switch state())
+endswitch
+:timeCurrentIdlingStarted=Optional.empty();;
+end
+start
+note right
+Map<TopicPartition,OffsetAndMetadata> prepareCommit()
+end note
+switch (switch state())
+endswitch
+end
+start
+note right
+Long findOffset(final TopicPartition partition)
+end note
+:Long offset=partitionGroup.headRecordOffset(partition);;
+if (offset==null ) then (yes) 
+switch (try/catch block)
+case (try)
+:offset=mainConsumer.position(partition);;
+case (catch (final TimeoutException error))
+:throw new IllegalStateException(error);;
+stop
+case (catch (final KafkaException fatal))
+:throw new StreamsException(fatal);;
+stop
+endswitch
+endif 
+:return offset;;
+stop
+end
+start
+note right
+Map<TopicPartition,OffsetAndMetadata> committableOffsetsAndMetadata()
+end note
+:final Map<TopicPartition,OffsetAndMetadata> committableOffsets;;
+switch (switch state())
+endswitch
+:return committableOffsets;;
+stop
+end
+start
+note right
+void postCommit(final boolean enforceCheckpoint)
+end note
+switch (switch state())
+endswitch
+:clearCommitStatuses();;
+end
+start
+note right
+void clearCommitStatuses()
+end note
+:commitNeeded=false;;
+:commitRequested=false;;
+:hasPendingTxCommit=false;;
+:processorContext.getProcessorMetadata().setNeedsCommit(false);;
+end
+start
+note right
+Map<TopicPartition,Long> extractPartitionTimes()
+end note
+:final Map<TopicPartition,Long> partitionTimes=new HashMap<>();;
+:partitionTimes.put(partition,partitionGroup.partitionTimestamp(partition));;
+:return partitionTimes;;
+stop
+end
+start
+note right
+void closeClean()
+end note
+:validateClean();;
+:removeAllSensors();;
+:clearCommitStatuses();;
+:close(true);;
+:log.info("Closed clean");;
+end
+start
+note right
+void closeDirty()
+end note
+:removeAllSensors();;
+:clearCommitStatuses();;
+:close(false);;
+:log.info("Closed dirty");;
+end
+start
+note right
+void updateInputPartitions(final Set<TopicPartition> topicPartitions,
+final Map<String,List<String>> allTopologyNodesToSourceTopics)
+end note
+:super .updateInputPartitions(topicPartitions,
+allTopologyNodesToSourceTopics);;
+:partitionGroup.updatePartitions(topicPartitions,
+recordQueueCreator::createQueue);;
+:processorContext.getProcessorMetadata().setNeedsCommit(true);;
+end
+start
+note right
+void closeCleanAndRecycleState()
+end note
+:validateClean();;
+:removeAllSensors();;
+:clearCommitStatuses();;
+switch (switch state())
+endswitch
+:closeTaskSensor.record();;
+:transitionTo(State.CLOSED);;
+:log.info("Closed clean and recycled state");;
+end
+start
+note right
+void maybeCheckpoint(final boolean enforceCheckpoint)
+end note
+if (commitNeeded||enforceCheckpoint) then (yes) 
+:stateMgr.updateChangelogOffsets(checkpointableOffsets());;
+endif 
+:super .maybeCheckpoint(enforceCheckpoint);;
+end
+start
+note right
+void validateClean()
+end note
+if (commitNeeded) then (yes) 
+:log.debug("Tried to close clean but there was pending uncommitted data, this means we failed to"+
+" commit and should close as dirty instead");;
+:throw new TaskMigratedException("Tried to close dirty task as clean");;
+stop
+endif 
+end
+start
+note right
+void removeAllSensors()
+end note
+:streamsMetrics.removeAllTaskLevelSensors(Thread.currentThread().getName(),
+id.toString());;
+:streamsMetrics.removeAllNodeLevelSensors(Thread.currentThread().getName(),
+id.toString(),nodeName);;
+end
+start
+note right
+void close(final boolean clean)
+end note
+switch (switch state())
+endswitch
+:record=null ;;
+:closeTaskSensor.record();;
+:transitionTo(State.CLOSED);;
+end
+start
+note right
+boolean isProcessable(final long wallClockTime)
+end note
+if (state()==State.CLOSED) then (yes) 
+:log.info("Stream task {} is already in {} state,
+ skip processing it.",id(),state());;
+:return false;;
+stop
+endif 
+if (hasPendingTxCommit) then (yes) 
+:return false;;
+stop
+endif 
+:final boolean readyToProcess=partitionGroup.readyToProcess(wallClockTime);;
+if (!readyToProcess) then (yes) 
+if (!timeCurrentIdlingStarted.isPresent()) then (yes) 
+:timeCurrentIdlingStarted=Optional.of(wallClockTime);;
+endif 
+else (no)
+:timeCurrentIdlingStarted=Optional.empty();;
+endif 
+:return readyToProcess;;
+stop
+end
+start
+note right
+boolean process(final long wallClockTime)
+end note
+if (record==null ) then (yes) 
+if (!isProcessable(wallClockTime)) then (yes) 
+:return false;;
+stop
+endif 
+:record=partitionGroup.nextRecord(recordInfo,
+wallClockTime);;
+if (record==null ) then (yes) 
+:return false;;
+stop
+endif 
+endif 
+switch (try/catch block)
+case (try)
+:final TopicPartition partition=recordInfo.partition();;
+if (!(record instanceof CorruptedRecord )) then (yes) 
+:doProcess(wallClockTime);;
+endif 
+:consumedOffsets.put(partition,record.offset());;
+:commitNeeded=true;;
+if (recordInfo.queue().size()==maxBufferedSize) then (yes) 
+:mainConsumer.resume(singleton(partition));;
+endif 
+:record=null ;;
+endswitch
+:return true;;
+stop
+end
+start
+note right
+void doProcess(final long wallClockTime)
+end note
+:final ProcessorNode<Object,Object,Object,
+Object> currNode=(ProcessorNode<Object,Object,
+Object,Object> )recordInfo.node();;
+:log.trace("Start processing one record [{}]",
+record);;
+:final ProcessorRecordContext recordContext=new ProcessorRecordContext(record.timestamp,
+record.offset(),record.partition(),record.topic(),
+record.headers());;
+:updateProcessorContext(currNode,wallClockTime,
+recordContext);;
+:maybeRecordE2ELatency(record.timestamp,wallClockTime,
+currNode.name());;
+:final Record<Object,Object> toProcess=new Record<>(record.key(),
+record.value(),processorContext.timestamp(),
+processorContext.headers());;
+:maybeMeasureLatency(()->currNode.process(toProcess),
+time,processLatencySensor);;
+:log.trace("Completed processing one record [{}]",
+record);;
+end
+start
+note right
+void recordProcessBatchTime(final long processBatchTime)
+end note
+:processTimeMs+=processBatchTime;;
+end
+start
+note right
+void recordProcessTimeRatioAndBufferSize(final long allTaskProcessMs,
+final long now)
+end note
+:bufferedRecordsSensor.record(partitionGroup.numBuffered());;
+:processRatioSensor.record((double )processTimeMs/allTaskProcessMs,
+now);;
+:processTimeMs=0L;;
+end
+start
+note right
+String getStacktraceString(final RuntimeException e)
+end note
+:String stacktrace=null ;;
+switch (try/catch block)
+case (try)
+:e.printStackTrace(printWriter);;
+:stacktrace=stringWriter.toString();;
+case (catch (final IOException ioe))
+:log.error("Encountered error extracting stacktrace from this exception",
+ioe);;
+endswitch
+:return stacktrace;;
+stop
+end
+start
+note right
+void punctuate(final ProcessorNode<?,?,?,
+?> node,final long timestamp,final PunctuationType type,
+final Punctuator punctuator)
+end note
+if (processorContext.currentNode()!=null ) then (yes) 
+:throw new IllegalStateException(String.format("%sCurrent node is not null",
+logPrefix));;
+stop
+endif 
+:final ProcessorRecordContext recordContext=new ProcessorRecordContext(timestamp,
+-1L,-1,null ,new RecordHeaders());;
+:updateProcessorContext(node,time.milliseconds(),
+recordContext);;
+if (log.isTraceEnabled()) then (yes) 
+:log.trace("Punctuating processor {} with timestamp {} and punctuation type {}",
+node.name(),timestamp,type);;
+endif 
+switch (try/catch block)
+case (try)
+:maybeMeasureLatency(()->node.punctuate(timestamp,
+punctuator),time,punctuateLatencySensor);;
+endswitch
+end
+start
+note right
+void updateProcessorContext(final ProcessorNode<?,
+?,?,?> currNode,final long wallClockTime,
+final ProcessorRecordContext recordContext)
+end note
+:processorContext.setRecordContext(recordContext);;
+:processorContext.setCurrentNode(currNode);;
+:processorContext.setSystemTimeMs(wallClockTime);;
+end
+start
+note right
+Map<TopicPartition,Long> checkpointableOffsets()
+end note
+:final Map<TopicPartition,Long> checkpointableOffsets=new HashMap<>(recordCollector.offsets());;
+:checkpointableOffsets.putIfAbsent(entry.getKey(),
+entry.getValue());;
+:log.debug("Checkpointable offsets {}",checkpointableOffsets);;
+:return checkpointableOffsets;;
+stop
+end
+start
+note right
+void resetOffsetsIfNeededAndInitializeMetadata(final java.util.function.Consumer<Set<TopicPartition>> offsetResetter)
+end note
+switch (try/catch block)
+case (try)
+:final Map<TopicPartition,OffsetAndMetadata> offsetsAndMetadata=mainConsumer.committed(inputPartitions());;
+if (resetOffsetsForPartitions.contains(committedEntry.getKey())) then (yes) 
+:final OffsetAndMetadata offsetAndMetadata=committedEntry.getValue();;
+if (offsetAndMetadata!=null ) then (yes) 
+:mainConsumer.seek(committedEntry.getKey(),
+offsetAndMetadata);;
+:resetOffsetsForPartitions.remove(committedEntry.getKey());;
+endif 
+endif 
+:offsetResetter.accept(resetOffsetsForPartitions);;
+:resetOffsetsForPartitions.clear();;
+:initializeTaskTimeAndProcessorMetadata(offsetsAndMetadata.entrySet().stream().filter(e->e.getValue()!=null ).collect(Collectors.toMap(Map.Entry::getKey,
+Map.Entry::getValue)));;
+case (catch (final TimeoutException timeoutException))
+:log.warn("Encountered {} while trying to fetch committed offsets, will retry initializing the metadata in the next loop."+
+"\nConsider overwriting consumer config {} to a larger value to avoid timeout errors",
+time.toString(),ConsumerConfig.DEFAULT_API_TIMEOUT_MS_CONFIG);;
+:throw timeoutException;;
+stop
+case (catch (final KafkaException e))
+:throw new StreamsException(String.format("task [%s] Failed to initialize offsets for %s",
+id,inputPartitions()),e);;
+stop
+endswitch
+end
+start
+note right
+void initializeTaskTimeAndProcessorMetadata(final Map<TopicPartition,
+OffsetAndMetadata> offsetsAndMetadata)
+end note
+:final ProcessorMetadata finalProcessMetadata=new ProcessorMetadata();;
+:final TopicPartition partition=entry.getKey();;
+:final OffsetAndMetadata metadata=entry.getValue();;
+if (metadata!=null ) then (yes) 
+:final TopicPartitionMetadata committedTimestampAndMeta=TopicPartitionMetadata.decode(metadata.metadata());;
+:final long committedTimestamp=committedTimestampAndMeta.partitionTime();;
+:partitionGroup.setPartitionTime(partition,
+committedTimestamp);;
+:log.debug("A committed timestamp was detected: setting the partition time of partition {}"+
+" to {} in stream task {}",partition,committedTimestamp,
+id);;
+:final ProcessorMetadata processorMetadata=committedTimestampAndMeta.processorMetadata();;
+:finalProcessMetadata.update(processorMetadata);;
+else (no)
+:log.debug("No committed timestamp was found in metadata for partition {}",
+partition);;
+endif 
+:processorContext.setProcessorMetadata(finalProcessMetadata);;
+:final Set<TopicPartition> nonCommitted=new HashSet<>(inputPartitions());;
+:nonCommitted.removeAll(offsetsAndMetadata.keySet());;
+:log.debug("No committed offset for partition {},
+ therefore no timestamp can be found for this partition",
+partition);;
+end
+start
+note right
+Map<TopicPartition,Long> purgeableOffsets()
+end note
+:final Map<TopicPartition,Long> purgeableConsumedOffsets=new HashMap<>();;
+:final TopicPartition tp=entry.getKey();;
+if (topology.isRepartitionTopic(tp.topic())) then (yes) 
+:purgeableConsumedOffsets.put(tp,entry.getValue()+1);;
+endif 
+:return purgeableConsumedOffsets;;
+stop
+end
+start
+note right
+void initializeTopology()
+end note
+:log.trace("Initializing processor nodes of the topology");;
+:processorContext.setCurrentNode(node);;
+switch (try/catch block)
+case (try)
+:node.init(processorContext);;
+endswitch
+end
+start
+note right
+void addRecords(final TopicPartition partition,
+final Iterable<ConsumerRecord<byte[],byte[]>> records)
+end note
+:final int newQueueSize=partitionGroup.addRawRecords(partition,
+records);;
+if (log.isTraceEnabled()) then (yes) 
+:log.trace("Added records into the buffered queue of partition {},
+ new queue size is {}",partition,newQueueSize);;
+endif 
+if (newQueueSize>maxBufferedSize) then (yes) 
+:mainConsumer.pause(singleton(partition));;
+endif 
+end
+start
+note right
+Cancellable schedule(final long interval,
+final PunctuationType type,final Punctuator punctuator)
+end note
+switch (switch type)
+endswitch
+end
+start
+note right
+Cancellable schedule(final long startTime,
+final long interval,final PunctuationType type,
+final Punctuator punctuator)
+end note
+if (processorContext.currentNode()==null ) then (yes) 
+:throw new IllegalStateException(String.format("%sCurrent node is null",
+logPrefix));;
+stop
+endif 
+:final PunctuationSchedule schedule=new PunctuationSchedule(processorContext.currentNode(),
+startTime,interval,punctuator);;
+switch (switch type)
+endswitch
+end
+start
+note right
+boolean maybePunctuateStreamTime()
+end note
+:final long streamTime=partitionGroup.streamTime();;
+if (streamTime==RecordQueue.UNKNOWN) then (yes) 
+:return false;;
+stop
+else (no)
+:final boolean punctuated=streamTimePunctuationQueue.mayPunctuate(streamTime,
+PunctuationType.STREAM_TIME,this);;
+if (punctuated) then (yes) 
+:commitNeeded=true;;
+endif 
+:return punctuated;;
+stop
+endif 
+end
+start
+note right
+boolean maybePunctuateSystemTime()
+end note
+:final long systemTime=time.milliseconds();;
+:final boolean punctuated=systemTimePunctuationQueue.mayPunctuate(systemTime,
+PunctuationType.WALL_CLOCK_TIME,this);;
+if (punctuated) then (yes) 
+:commitNeeded=true;;
+endif 
+:return punctuated;;
+stop
+end
+start
+note right
+void maybeRecordE2ELatency(final long recordTimestamp,
+final long now,final String nodeName)
+end note
+:final Sensor e2eLatencySensor=e2eLatencySensors.get(nodeName);;
+if (e2eLatencySensor==null ) then (yes) 
+:throw new IllegalStateException("Requested to record e2e latency but could not find sensor for node "+
+nodeName);;
+stop
+else if (e2eLatencySensor.shouldRecord()&&e2eLatencySensor.hasMetrics()) then (yes) 
+:e2eLatencySensor.record(now-recordTimestamp,
+now);;
+endif 
+end
+start
+note right
+void requestCommit()
+end note
+:commitRequested=true;;
+end
+start
+note right
+boolean commitRequested()
+end note
+:return commitRequested;;
+stop
+end
+start
+note right
+InternalProcessorContext processorContext()
+end note
+:return processorContext;;
+stop
+end
+start
+note right
+String toString()
+end note
+:return toString("");;
+stop
+end
+start
+note right
+String toString(final String indent)
+end note
+:final StringBuilder sb=new StringBuilder();;
+:sb.append(indent);;
+:sb.append("TaskId: ");;
+:sb.append(id);;
+:sb.append("\n");;
+if (topology!=null ) then (yes) 
+:sb.append(indent).append(topology.toString(indent+
+"\t"));;
+endif 
+:final Set<TopicPartition> partitions=inputPartitions();;
+if (partitions!=null &&!partitions.isEmpty()) then (yes) 
+:sb.append(indent).append("Partitions [");;
+:sb.append(topicPartition).append(", ");;
+:sb.setLength(sb.length()-2);;
+:sb.append("]\n");;
+endif 
+:return sb.toString();;
+stop
+end
+start
+note right
+boolean commitNeeded()
+end note
+if (commitNeeded) then (yes) 
+:return true;;
+stop
+else (no)
+:final TopicPartition partition=entry.getKey();;
+switch (try/catch block)
+case (try)
+:final long offset=mainConsumer.position(partition);;
+if (offset>entry.getValue()+1) then (yes) 
+:commitNeeded=true;;
+:entry.setValue(offset-1);;
+endif 
+case (catch (final TimeoutException error))
+:throw new IllegalStateException(error);;
+stop
+case (catch (final KafkaException fatal))
+:throw new StreamsException(fatal);;
+stop
+endswitch
+:return commitNeeded;;
+stop
+endif 
+end
+start
+note right
+Map<TopicPartition,Long> changelogOffsets()
+end note
+if (state()==State.RUNNING) then (yes) 
+:return changelogPartitions().stream().collect(Collectors.toMap(Function.identity(),
+tp->Task.LATEST_OFFSET));;
+stop
+else (no)
+:return Collections.unmodifiableMap(stateMgr.changelogOffsets());;
+stop
+endif 
+end
+start
+note right
+Map<TopicPartition,Long> committedOffsets()
+end note
+:return Collections.unmodifiableMap(committedOffsets);;
+stop
+end
+start
+note right
+Map<TopicPartition,Long> highWaterMark()
+end note
+:return Collections.unmodifiableMap(highWatermark);;
+stop
+end
+start
+note right
+void transitToSuspend()
+end note
+:log.info("Suspended {}",state());;
+:transitionTo(State.SUSPENDED);;
+:timeCurrentIdlingStarted=Optional.of(System.currentTimeMillis());;
+end
+start
+note right
+Optional<Long> timeCurrentIdlingStarted()
+end note
+:return timeCurrentIdlingStarted;;
+stop
+end
+start
+note right
+void updateCommittedOffsets(final TopicPartition topicPartition,
+final Long offset)
+end note
+:committedOffsets.put(topicPartition,offset);;
+end
+start
+note right
+void updateEndOffsets(final TopicPartition topicPartition,
+final Long offset)
+end note
+:highWatermark.put(topicPartition,offset);;
+end
+start
+note right
+boolean hasRecordsQueued()
+end note
+:return numBuffered()>0;;
+stop
+end
+start
+note right
+RecordCollector recordCollector()
+end note
+:return recordCollector;;
+stop
+end
+start
+note right
+int numBuffered()
+end note
+:return partitionGroup.numBuffered();;
+stop
+end
+start
+note right
+long streamTime()
+end note
+:return partitionGroup.streamTime();;
+stop
+end
+start
+note right
+constructor RecordQueueCreator(final LogContext logContext,
+final TimestampExtractor defaultTimestampExtractor,
+final DeserializationExceptionHandler defaultDeserializationExceptionHandler)
+end note
+:this.logContext=logContext;;
+:this.defaultTimestampExtractor=defaultTimestampExtractor;;
+:this.defaultDeserializationExceptionHandler=defaultDeserializationExceptionHandler;;
+end
+start
+note right
+RecordQueue createQueue(final TopicPartition partition)
+end note
+:final SourceNode<?,?> source=topology.source(partition.topic());;
+if (source==null ) then (yes) 
+:throw new TopologyException("Topic is unknown to the topology. "+
+"This may happen if different KafkaStreams instances of the same application execute different Topologies. "+
+"Note that Topologies are only identical if all operators are added in the same order.");;
+stop
+endif 
+:final TimestampExtractor sourceTimestampExtractor=source.getTimestampExtractor();;
+:final TimestampExtractor timestampExtractor=sourceTimestampExtractor!=null ? sourceTimestampExtractor:defaultTimestampExtractor;;
+:return new RecordQueue(partition,source,
+timestampExtractor,defaultDeserializationExceptionHandler,
+processorContext,logContext);;
+stop
 end
 @enduml
 

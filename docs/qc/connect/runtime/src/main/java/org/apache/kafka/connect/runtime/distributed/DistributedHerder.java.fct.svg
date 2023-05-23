@@ -1,10 +1,1787 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="86px" preserveAspectRatio="none" style="width:156px;height:86px;background:#FFFFFF;" version="1.1" viewBox="0 0 156 86" width="156px" zoomAndPan="magnify"><defs/><g><path d="M54,10 L54,18.5664 L34,22.5664 L54,26.5664 L54,35.1328 A0,0 0 0 0 54,35.1328 L144,35.1328 A0,0 0 0 0 144,35.1328 L144,20 L134,10 L54,10 A0,0 0 0 0 54,10 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M134,10 L134,20 L144,20 L134,10 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="60" y="27.0669">Js Program</text><ellipse cx="24" cy="22.5664" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="24" cy="65.1328" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="17.8128" x2="30.1872" y1="58.9456" y2="71.32"/><line style="stroke:#222222;stroke-width:2.5;" x1="30.1872" x2="17.8128" y1="58.9456" y2="71.32"/><line style="stroke:#181818;stroke-width:1.0;" x1="24" x2="24" y1="32.5664" y2="55.1328"/><polygon fill="#181818" points="20,45.1328,24,55.1328,28,45.1328,24,49.1328" style="stroke:#181818;stroke-width:1.0;"/><!--MD5=[5331b42756e6ddb1dde3861c05616677]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1193px" preserveAspectRatio="none" style="width:959px;height:1193px;background:#FFFFFF;" version="1.1" viewBox="0 0 959 1193" width="959px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="603" x="5" y="16.1387">An error has occured : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="287" x="5" y="30.1074">plantuml: diagrams for confusing people more</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="44.0762"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="280" x="5" y="58.0449">Diagram size: 1785 lines / 71130 characters.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="72.0137"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="374" x="5" y="85.9824">PlantUML (1.2022.7) cannot parse result from dot/GraphViz.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="99.9512"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="390" x="5" y="113.9199">This version of PlantUML is 274 days old, so you should</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="398" x="5" y="127.8887">consider upgrading from https://plantuml.com/download</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="141.8574"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="492" x="5" y="155.8262">Please go to https://plantuml.com/graphviz-dot to check your GraphViz version.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="169.7949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="277" x="5" y="183.7637">Java Runtime: OpenJDK Runtime Environment</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="187" x="5" y="197.7324">JVM: OpenJDK 64-Bit Server VM</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="211.7012">Default Encoding: UTF-8</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="5" y="225.6699">Language: en</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="5" y="239.6387">Country: null</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="253.6074"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="172" x="5" y="267.5762">PLANTUML_LIMIT_SIZE: 4096</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="281.5449"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="295.5137">This may be caused by :</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="9" y="309.4824">- a bug in PlantUML</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="144" x="9" y="323.4512">- a problem in GraphViz</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="337.4199"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="300" x="5" y="351.3887">You should send this diagram and this image to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="145" x="309" y="351.3887">plantuml@gmail.com</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="13" x="458" y="351.3887">or</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="5" y="365.3574">post to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="168" x="54" y="365.3574">https://plantuml.com/qa</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="117" x="226" y="365.3574">to solve this issue.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="405" x="5" y="379.3262">You can try to turn arround this issue by simplifing your diagram.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="393.2949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="458" x="5" y="407.2637">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="477" x="13" y="421.2324">java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="548" x="13" y="435.2012">java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="474" x="13" y="449.1699">java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="351" x="13" y="463.1387">java.base/java.util.Objects.checkIndex(Objects.java:372)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="314" x="13" y="477.1074">java.base/java.util.ArrayList.get(ArrayList.java:459)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="878" x="13" y="491.0762">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createWithLinks(FtileFactoryDelegatorSwitch.java:103)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="852" x="13" y="505.0449">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createSwitch(FtileFactoryDelegatorSwitch.java:79)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="519.0137">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="532.9824">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="546.9512">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="560.9199">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="574.8887">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="588.8574">net.sourceforge.plantuml.activitydiagram3.InstructionSwitch.createFtile(InstructionSwitch.java:119)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="13" y="602.8262">net.sourceforge.plantuml.activitydiagram3.InstructionList.createFtile(InstructionList.java:131)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="536" x="13" y="616.7949">net.sourceforge.plantuml.activitydiagram3.ftile.Swimlanes.drawU(Swimlanes.java:229)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="805" x="13" y="630.7637">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.getPiecewiseAffineTransform(CompressionXorYBuilder.java:51)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="655" x="13" y="644.7324">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.build(CompressionXorYBuilder.java:44)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="686" x="13" y="658.7012">net.sourceforge.plantuml.activitydiagram3.ActivityDiagram3.exportDiagramInternal(ActivityDiagram3.java:210)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="672.6699">net.sourceforge.plantuml.UmlDiagram.exportDiagramNow(UmlDiagram.java:135)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="538" x="13" y="686.6387">net.sourceforge.plantuml.AbstractPSystem.exportDiagram(AbstractPSystem.java:178)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="700.6074">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:172)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="714.5762">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="693" x="13" y="728.5449">com.qualitesys.qcrmavenplugin.commun.QcrCommunPlantUml.genererFichierSvg(QcrCommunPlantUml.java:82)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="585" x="13" y="742.5137">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lireFichier(QcrReporting01Mojo.java:927)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="556" x="13" y="756.4824">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lister(QcrReporting01Mojo.java:453)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="591" x="13" y="770.4512">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.doReport(QcrReporting01Mojo.java:2037)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="625" x="13" y="784.4199">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.executeReport(QcrReporting01Mojo.java:1739)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="582" x="13" y="798.3887">org.apache.maven.reporting.AbstractMavenReport.generate(AbstractMavenReport.java:251)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="748" x="13" y="812.3574">org.apache.maven.plugins.site.render.ReportDocumentRenderer.renderDocument(ReportDocumentRenderer.java:226)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="607" x="13" y="826.3262">org.apache.maven.doxia.siterenderer.DefaultSiteRenderer.render(DefaultSiteRenderer.java:348)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="840.2949">org.apache.maven.plugins.site.render.SiteMojo.renderLocale(SiteMojo.java:194)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="470" x="13" y="854.2637">org.apache.maven.plugins.site.render.SiteMojo.execute(SiteMojo.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="649" x="13" y="868.2324">org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="882.2012">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:370)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="531" x="13" y="896.1699">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:351)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="910.1387">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:215)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="924.1074">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:171)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="938.0762">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:163)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="651" x="13" y="952.0449">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="643" x="13" y="966.0137">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="747" x="13" y="979.9824">org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="993.9512">org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1007.9199">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:299)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1021.8887">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="412" x="13" y="1035.8574">org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="367" x="13" y="1049.8262">org.apache.maven.cli.MavenCli.execute(MavenCli.java:963)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="362" x="13" y="1063.7949">org.apache.maven.cli.MavenCli.doMain(MavenCli.java:296)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="347" x="13" y="1077.7637">org.apache.maven.cli.MavenCli.main(MavenCli.java:199)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="1091.7324">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="1105.7012">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="679" x="13" y="1119.6699">java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="373" x="13" y="1133.6387">java.base/java.lang.reflect.Method.invoke(Method.java:566)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="562" x="13" y="1147.6074">org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="499" x="13" y="1161.5762">org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="568" x="13" y="1175.5449">org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="487" x="13" y="1189.5137">org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)</text><image height="39" width="39" x="920" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAnCAYAAACMo1E1AAABDklEQVR4Xu3WMQ7CMBBEUR+LkoNxHEoOSBeqLXjSYm/iiCDypV/grHdGigS0dnLS2vPSlore3xXDe3p/Fwzdqvs34fKtun8Tj1tbPrncr2967r6pWEa/Ui4r4WftPTdnFT9dznPtPTevRFYiO9fec/NKWKIXZqlMc1bh0kOVE0tUdd9UDKvqvin4WsL4OfJ819cnhh6inGGalcvOQ3NW4VLNSmTnoTklXJbpXyF1Xs0dwiWZllHn1dwh/AoILRXnlvI87rnP3CFc8hPlDB3V+/9XztCq7jN3CJccqpwYotW5qRii1bkp+KWpzgfOqfOrcKk6HzinzpdwWab3AucyvTeESzK9FziX6b2Tk2/yAmR5BXOxVW60AAAAAElFTkSuQmCC" y="6"/><!--MD5=[c95a95815a91b563dc8f5db83c4b625e]
 @startuml
 !pragma layout smetana
 start
 note right
-Js Program
+constructor DistributedHerder(DistributedConfig config,
+Time time,Worker worker,String kafkaClusterId,
+StatusBackingStore statusBackingStore,ConfigBackingStore configBackingStore,
+String restUrl,ConnectorClientConfigOverridePolicy connectorClientConfigOverridePolicy,
+AutoCloseable ... uponShutdown)
 end note
+:this(config,worker,worker.workerId(),kafkaClusterId,
+statusBackingStore,configBackingStore,null ,
+restUrl,worker.metrics(),time,connectorClientConfigOverridePolicy,
+uponShutdown);;
+:configBackingStore.setUpdateListener(new ConfigUpdateListener());;
+end
+start
+note right
+constructor DistributedHerder(DistributedConfig config,
+Worker worker,String workerId,String kafkaClusterId,
+StatusBackingStore statusBackingStore,ConfigBackingStore configBackingStore,
+WorkerGroupMember member,String restUrl,ConnectMetrics metrics,
+Time time,ConnectorClientConfigOverridePolicy connectorClientConfigOverridePolicy,
+AutoCloseable ... uponShutdown)
+end note
+:super (worker,workerId,kafkaClusterId,statusBackingStore,
+configBackingStore,connectorClientConfigOverridePolicy);;
+:this.time=time;;
+:this.herderMetrics=new HerderMetrics(metrics);;
+:this.workerGroupId=config.getString(DistributedConfig.GROUP_ID_CONFIG);;
+:this.workerSyncTimeoutMs=config.getInt(DistributedConfig.WORKER_SYNC_TIMEOUT_MS_CONFIG);;
+:this.workerTasksShutdownTimeoutMs=config.getLong(DistributedConfig.TASK_SHUTDOWN_GRACEFUL_TIMEOUT_MS_CONFIG);;
+:this.workerUnsyncBackoffMs=config.getInt(DistributedConfig.WORKER_UNSYNC_BACKOFF_MS_CONFIG);;
+:this.requestSignatureAlgorithm=config.getString(DistributedConfig.INTER_WORKER_SIGNATURE_ALGORITHM_CONFIG);;
+:this.keyRotationIntervalMs=config.getInt(DistributedConfig.INTER_WORKER_KEY_TTL_MS_CONFIG);;
+:this.keySignatureVerificationAlgorithms=config.getList(DistributedConfig.INTER_WORKER_VERIFICATION_ALGORITHMS_CONFIG);;
+:this.keyGenerator=config.getInternalRequestKeyGenerator();;
+:this.isTopicTrackingEnabled=config.getBoolean(TOPIC_TRACKING_ENABLE_CONFIG);;
+:this.uponShutdown=Arrays.asList(uponShutdown);;
+:String clientIdConfig=config.getString(CommonClientConfigs.CLIENT_ID_CONFIG);;
+:String clientId=clientIdConfig.length()<=0? "connect-"+
+CONNECT_CLIENT_ID_SEQUENCE.getAndIncrement():clientIdConfig;;
+:LogContext logContext=new LogContext("[Worker clientId="+
+clientId+", groupId="+this.workerGroupId+
+"] ");;
+:log=logContext.logger(DistributedHerder.class );;
+:this.member=member!=null ? member:new WorkerGroupMember(config,
+restUrl,this.configBackingStore,new RebalanceListener(time),
+time,clientId,logContext);;
+:this.herderExecutor=new ThreadPoolExecutor(1,1,0L,TimeUnit.MILLISECONDS,new LinkedBlockingDeque<>(1),ThreadUtils.createThreadFactory(this.getClass().getSimpleName()+
+"-"+clientId+"-%d",false));;
+:this.forwardRequestExecutor=Executors.newFixedThreadPool(1,ThreadUtils.createThreadFactory("ForwardRequestExecutor-"+
+clientId+"-%d",false));;
+:this.startAndStopExecutor=Executors.newFixedThreadPool(START_STOP_THREAD_POOL_SIZE,ThreadUtils.createThreadFactory("StartAndStopExecutor-"+
+clientId+"-%d",false));;
+:this.config=config;;
+:stopping=new AtomicBoolean(false);;
+:configState=ClusterConfigState.EMPTY;;
+:rebalanceResolved=true;;
+:needsReconfigRebalance=false;;
+:fencedFromConfigTopic=false;;
+:canReadConfigs=true;;
+:scheduledRebalance=Long.MAX_VALUE;;
+:keyExpiration=Long.MAX_VALUE;;
+:sessionKey=null ;;
+:backoffRetries=BACKOFF_RETRIES;;
+:currentProtocolVersion=ConnectProtocolCompatibility.compatibility(config.getString(DistributedConfig.CONNECT_PROTOCOL_CONFIG))
+.protocolVersion();;
+if (!internalRequestValidationEnabled(currentProtocolVersion)) then (yes) 
+:log.warn("Internal request verification will be disabled for this cluster as this worker's {} configuration has been set to '{}'. "+
+"If this is not intentional, either remove the '{}' configuration from the worker config file or change its value "+
+"to '{}'. If this configuration is left as-is, the cluster will be insecure; for more information, see KIP-507: "+
+"https://cwiki.apache.org/confluence/display/KAFKA/KIP-507%3A+
+Securing+Internal+Connect+REST+Endpoints",
+DistributedConfig.CONNECT_PROTOCOL_CONFIG,
+config.getString(DistributedConfig.CONNECT_PROTOCOL_CONFIG),
+DistributedConfig.CONNECT_PROTOCOL_CONFIG,
+ConnectProtocolCompatibility.SESSIONED.name());;
+endif 
+end
+start
+note right
+void start()
+end note
+:this.herderExecutor.submit(this);;
+end
+start
+note right
+void run()
+end note
+switch (try/catch block)
+case (try)
+:log.info("Herder starting");;
+:herderThread=Thread.currentThread();;
+:startServices();;
+:log.info("Herder started");;
+:running=true;;
+while (!stopping.get())
+:tick();;
+endwhile
+:halt();;
+:log.info("Herder stopped");;
+:herderMetrics.close();;
+endswitch
+end
+start
+note right
+void tick()
+end note
+switch (try/catch block)
+case (try)
+if (!canReadConfigs) then (yes) 
+if (readConfigToEnd(workerSyncTimeoutMs)) then (yes) 
+:canReadConfigs=true;;
+else (no)
+:return ;;
+stop
+endif 
+endif 
+:log.debug("Ensuring group membership is still active");;
+:member.ensureActive();;
+if (!handleRebalanceCompleted()) then (yes) 
+:return ;;
+stop
+endif 
+case (catch (WakeupException e))
+:log.trace("Woken up while ensure group membership is still active");;
+:return ;;
+stop
+endswitch
+if (fencedFromConfigTopic) then (yes) 
+if (isLeader()) then (yes) 
+switch (try/catch block)
+case (try)
+:log.debug("Reclaiming write privileges for config topic after being fenced out");;
+:configBackingStore.claimWritePrivileges();;
+:fencedFromConfigTopic=false;;
+:log.debug("Successfully reclaimed write privileges for config topic after being fenced out");;
+case (catch (Exception e))
+:log.warn("Unable to claim write privileges for config topic. Will backoff and possibly retry if still the leader",e);;
+:backoff(CONFIG_TOPIC_WRITE_PRIVILEGES_BACKOFF_MS);;
+:return ;;
+stop
+endswitch
+else (no)
+:log.trace("Relinquished write privileges for config topic after being fenced out,
+ since worker is no longer the leader of the cluster");;
+:fencedFromConfigTopic=false;;
+endif 
+endif 
+:long now=time.milliseconds();;
+if (checkForKeyRotation(now)) then (yes) 
+:log.debug("Distributing new session key");;
+:keyExpiration=Long.MAX_VALUE;;
+switch (try/catch block)
+case (try)
+:SessionKey newSessionKey=new SessionKey(keyGenerator.generateKey(),
+now);;
+:writeToConfigTopicAsLeader(()->configBackingStore.putSessionKey(newSessionKey));;
+case (catch (Exception e))
+:log.info("Failed to write new session key to config topic;
+: forcing a read to the end of the config topic before possibly retrying",e);;
+:canReadConfigs=false;;
+:return ;;
+stop
+endswitch
+endif 
+:long nextRequestTimeoutMs=Long.MAX_VALUE;;
+while (true)
+:final DistributedHerderRequest next=peekWithoutException();;
+if (next==null ) then (yes) 
+:break ;;
+else if (now>=next.at) then (yes) 
+:requests.pollFirst();;
+else (no)
+:nextRequestTimeoutMs=next.at-now;;
+:break ;;
+endif 
+:runRequest(next.action(),next.callback());;
+endwhile
+:processRestartRequests();;
+if (scheduledRebalance<Long.MAX_VALUE) then (yes) 
+:nextRequestTimeoutMs=Math.min(nextRequestTimeoutMs,
+Math.max(scheduledRebalance-now,0));;
+:rebalanceResolved=false;;
+:log.debug("Scheduled rebalance at: {} (now: {} nextRequestTimeoutMs: {}) ",
+scheduledRebalance,now,nextRequestTimeoutMs);;
+endif 
+if (isLeader()&&internalRequestValidationEnabled()&&keyExpiration<Long.MAX_VALUE) then (yes) 
+:nextRequestTimeoutMs=Math.min(nextRequestTimeoutMs,
+Math.max(keyExpiration-now,0));;
+:log.debug("Scheduled next key rotation at: {} (now: {} nextRequestTimeoutMs: {}) ",
+keyExpiration,now,nextRequestTimeoutMs);;
+endif 
+:AtomicReference<Set<String>> connectorConfigUpdatesCopy=new AtomicReference<>();;
+:AtomicReference<Set<String>> connectorTargetStateChangesCopy=new AtomicReference<>();;
+:AtomicReference<Set<ConnectorTaskId>> taskConfigUpdatesCopy=new AtomicReference<>();;
+:boolean shouldReturn;;
+if (member.currentProtocolVersion()==CONNECT_PROTOCOL_V0) then (yes) 
+:shouldReturn=updateConfigsWithEager(connectorConfigUpdatesCopy,
+connectorTargetStateChangesCopy);;
+if (shouldReturn) then (yes) 
+:return ;;
+stop
+endif 
+if (connectorConfigUpdatesCopy.get()!=null ) then (yes) 
+:processConnectorConfigUpdates(connectorConfigUpdatesCopy.get());;
+endif 
+if (connectorTargetStateChangesCopy.get()!=null ) then (yes) 
+:processTargetStateChanges(connectorTargetStateChangesCopy.get());;
+endif 
+else (no)
+:shouldReturn=updateConfigsWithIncrementalCooperative(connectorConfigUpdatesCopy,
+connectorTargetStateChangesCopy,taskConfigUpdatesCopy);;
+if (connectorConfigUpdatesCopy.get()!=null ) then (yes) 
+:processConnectorConfigUpdates(connectorConfigUpdatesCopy.get());;
+endif 
+if (connectorTargetStateChangesCopy.get()!=null ) then (yes) 
+:processTargetStateChanges(connectorTargetStateChangesCopy.get());;
+endif 
+if (taskConfigUpdatesCopy.get()!=null ) then (yes) 
+:processTaskConfigUpdatesWithIncrementalCooperative(taskConfigUpdatesCopy.get());;
+endif 
+if (shouldReturn) then (yes) 
+:return ;;
+stop
+endif 
+endif 
+switch (try/catch block)
+case (try)
+:log.trace("Polling for group activity; will wait for {}ms or until poll is interrupted by "+
+"either config backing store updates or a new external request",
+nextRequestTimeoutMs);;
+:member.poll(nextRequestTimeoutMs);;
+:handleRebalanceCompleted();;
+case (catch (WakeupException e))
+:log.trace("Woken up while polling for group activity");;
+endswitch
+end
+start
+note right
+boolean checkForKeyRotation(long now)
+end note
+:SecretKey key;;
+:long expiration;;
+:synchronized (this){if (sessionKey==null &&configState.sessionKey()!=null ){sessionKey=configState.sessionKey().key();keyExpiration=configState.sessionKey().creationTimestamp()+
+keyRotationIntervalMs;}key=sessionKey;expiration=keyExpiration;};
+if (internalRequestValidationEnabled()) then (yes) 
+if (isLeader()) then (yes) 
+if (key==null ) then (yes) 
+:log.debug("Internal request signing is enabled but no session key has been distributed yet. "+
+"Distributing new key now.");;
+:return true;;
+stop
+else if (expiration<=now) then (yes) 
+:log.debug("Existing key has expired. Distributing new key now.");;
+:return true;;
+stop
+else if (!key.getAlgorithm().equals(keyGenerator.getAlgorithm())||key.getEncoded().length!=keyGenerator.generateKey().getEncoded().length) then (yes) 
+:log.debug("Previously-distributed key uses different algorithm/key size "+
+"than required by current worker configuration. Distributing new key now.");;
+:return true;;
+stop
+endif 
+endif 
+endif 
+:return false;;
+stop
+end
+start
+note right
+boolean updateConfigsWithEager(AtomicReference<Set<String>> connectorConfigUpdatesCopy,
+AtomicReference<Set<String>> connectorTargetStateChangesCopy)
+end note
+if (needsReconfigRebalance||!connectorConfigUpdates.isEmpty()||!connectorTargetStateChanges.isEmpty()) then (yes) 
+:log.trace("Handling config updates with eager rebalancing");;
+:configState=configBackingStore.snapshot();;
+if (needsReconfigRebalance) then (yes) 
+:log.debug("Requesting rebalance due to reconfiguration of tasks (needsReconfigRebalance: {})",
+needsReconfigRebalance);;
+:member.requestRejoin();;
+:needsReconfigRebalance=false;;
+:connectorConfigUpdates.clear();;
+:connectorTargetStateChanges.clear();;
+:return true;;
+stop
+else (no)
+if (!connectorConfigUpdates.isEmpty()) then (yes) 
+:connectorConfigUpdatesCopy.set(connectorConfigUpdates);;
+:connectorConfigUpdates=new HashSet<>();;
+endif 
+if (!connectorTargetStateChanges.isEmpty()) then (yes) 
+:connectorTargetStateChangesCopy.set(connectorTargetStateChanges);;
+:connectorTargetStateChanges=new HashSet<>();;
+endif 
+endif 
+else (no)
+:log.trace("Skipping config updates with eager rebalancing "+
+"since no config rebalance is required "+
+"and there are no connector config, task config,
+ or target state changes pending");;
+endif 
+:return false;;
+stop
+end
+start
+note right
+boolean updateConfigsWithIncrementalCooperative(AtomicReference<Set<String>> connectorConfigUpdatesCopy,
+AtomicReference<Set<String>> connectorTargetStateChangesCopy,
+AtomicReference<Set<ConnectorTaskId>> taskConfigUpdatesCopy)
+end note
+:boolean retValue=false;;
+if (needsReconfigRebalance||!connectorConfigUpdates.isEmpty()||!connectorTargetStateChanges.isEmpty()||!taskConfigUpdates.isEmpty()) then (yes) 
+:log.trace("Handling config updates with incremental cooperative rebalancing");;
+:configState=configBackingStore.snapshot();;
+if (needsReconfigRebalance) then (yes) 
+:log.debug("Requesting rebalance due to reconfiguration of tasks (needsReconfigRebalance: {})",
+needsReconfigRebalance);;
+:member.requestRejoin();;
+:needsReconfigRebalance=false;;
+:retValue=true;;
+endif 
+if (!connectorConfigUpdates.isEmpty()) then (yes) 
+:connectorConfigUpdatesCopy.set(connectorConfigUpdates);;
+:connectorConfigUpdates=new HashSet<>();;
+endif 
+if (!connectorTargetStateChanges.isEmpty()) then (yes) 
+:connectorTargetStateChangesCopy.set(connectorTargetStateChanges);;
+:connectorTargetStateChanges=new HashSet<>();;
+endif 
+if (!taskConfigUpdates.isEmpty()) then (yes) 
+:taskConfigUpdatesCopy.set(taskConfigUpdates);;
+:taskConfigUpdates=new HashSet<>();;
+endif 
+else (no)
+:log.trace("Skipping config updates with incremental cooperative rebalancing "+
+"since no config rebalance is required "+
+"and there are no connector config, task config,
+ or target state changes pending");;
+endif 
+:return retValue;;
+stop
+end
+start
+note right
+void processConnectorConfigUpdates(Set<String> connectorConfigUpdates)
+end note
+:Set<String> localConnectors=assignment==null ? Collections.emptySet():new HashSet<>(assignment.connectors());;
+:log.trace("Processing connector config updates; "+
+"currently-owned connectors are {}, and to-be-updated connectors are {}",
+localConnectors,connectorConfigUpdates);;
+if (!localConnectors.contains(connectorName)) then (yes) 
+:log.trace("Skipping config update for connector {} as it is not owned by this worker",
+connectorName);;
+:continue ;;
+endif 
+:boolean remains=configState.contains(connectorName);;
+:log.info("Handling connector-only config update by {} connector {}",
+remains? String.valueOf("restarting"):String.valueOf("stopping"),
+connectorName);;
+:worker.stopAndAwaitConnector(connectorName);;
+if (remains) then (yes) 
+:startConnector(connectorName,(error,result)->{if (error!=null ){log.error("Failed to start connector '"+
+connectorName+"'",error);}});;
+endif 
+end
+start
+note right
+void processTargetStateChanges(Set<String> connectorTargetStateChanges)
+end note
+:log.trace("Processing target state updates; "+
+"currently-known connectors are {}, and to-be-updated connectors are {}",
+configState.connectors(),connectorTargetStateChanges);;
+:TargetState targetState=configState.targetState(connector);;
+if (!configState.connectors().contains(connector)) then (yes) 
+:log.debug("Received target state change for unknown connector: {}",
+connector);;
+:continue ;;
+endif 
+:worker.setTargetState(connector,targetState,
+(error,newState)->{if (error!=null ){log.error("Failed to transition connector to target state",
+error);return ;}if (newState==TargetState.STARTED){requestTaskReconfiguration(connector);}});;
+end
+start
+note right
+void processTaskConfigUpdatesWithIncrementalCooperative(Set<ConnectorTaskId> taskConfigUpdates)
+end note
+:Set<ConnectorTaskId> localTasks=assignment==null ? Collections.emptySet():new HashSet<>(assignment.tasks());;
+:log.trace("Processing task config updates with incremental cooperative rebalance protocol; "+
+"currently-owned tasks are {}, and to-be-updated tasks are {}",
+localTasks,taskConfigUpdates);;
+:Set<String> connectorsWhoseTasksToStop=taskConfigUpdates.stream()
+.map(ConnectorTaskId::connector).collect(Collectors.toSet());;
+:stopReconfiguredTasks(connectorsWhoseTasksToStop);;
+end
+start
+note right
+void stopReconfiguredTasks(Set<String> connectors)
+end note
+:Set<ConnectorTaskId> localTasks=assignment==null ? Collections.emptySet():new HashSet<>(assignment.tasks());;
+:List<ConnectorTaskId> tasksToStop=localTasks.stream()
+.filter(taskId->connectors.contains(taskId.connector())).collect(Collectors.toList());;
+if (tasksToStop.isEmpty()) then (yes) 
+:return ;;
+stop
+endif 
+:log.info("Handling task config update by stopping tasks {},
+ which will be restarted after rebalance if still assigned to this worker",
+tasksToStop);;
+:worker.stopAndAwaitTasks(tasksToStop);;
+:tasksToRestart.addAll(tasksToStop);;
+end
+start
+note right
+void halt()
+end note
+:synchronized (this){log.info("Stopping connectors and tasks that are still assigned to this worker.");
+:List<Callable<Void>> callables=new ArrayList<>();
+:for (String connectorName:new ArrayList<>(worker.connectorNames())){callables.add(getConnectorStoppingCallable(connectorName));
+:}for (ConnectorTaskId taskId:new ArrayList<>(worker.taskIds())){callables.add(getTaskStoppingCallable(taskId));
+:}startAndStop(callables);member.stop();DistributedHerderRequest request=requests.pollFirst();while (request!=null ){request.callback().onCompletion(new ConnectException("Worker is shutting down"),
+null );request=requests.pollFirst();}stopServices();};
+end
+start
+note right
+void stopServices()
+end note
+switch (try/catch block)
+case (try)
+:super .stopServices();;
+endswitch
+end
+start
+note right
+void stop()
+end note
+:log.info("Herder stopping");;
+:stopping.set(true);;
+:member.wakeup();;
+:herderExecutor.shutdown();;
+switch (try/catch block)
+case (try)
+if (!herderExecutor.awaitTermination(workerTasksShutdownTimeoutMs,TimeUnit.MILLISECONDS)) then (yes) 
+:herderExecutor.shutdownNow();;
+endif 
+:forwardRequestExecutor.shutdown();;
+:startAndStopExecutor.shutdown();;
+if (!forwardRequestExecutor.awaitTermination(FORWARD_REQUEST_SHUTDOWN_TIMEOUT_MS,TimeUnit.MILLISECONDS)) then (yes) 
+:forwardRequestExecutor.shutdownNow();;
+endif 
+if (!startAndStopExecutor.awaitTermination(START_AND_STOP_SHUTDOWN_TIMEOUT_MS,TimeUnit.MILLISECONDS)) then (yes) 
+:startAndStopExecutor.shutdownNow();;
+endif 
+case (catch (InterruptedException e))
+endswitch
+:log.info("Herder stopped");;
+:running=false;;
+end
+start
+note right
+void connectors(final Callback<Collection<String>> callback)
+end note
+:log.trace("Submitting connector listing request");;
+:addRequest(()->{if (!checkRebalanceNeeded(callback))callback.onCompletion(null ,
+configState.connectors());return null ;},
+forwardErrorCallback(callback));;
+end
+start
+note right
+void connectorInfo(final String connName,
+final Callback<ConnectorInfo> callback)
+end note
+:log.trace("Submitting connector info request {}",
+connName);;
+:addRequest(()->{if (checkRebalanceNeeded(callback))return null ;if (!configState.contains(connName)){callback.onCompletion(new NotFoundException("Connector "+
+connName+" not found"),null );}else {callback.onCompletion(null ,
+connectorInfo(connName));}return null ;},
+forwardErrorCallback(callback));;
+end
+start
+note right
+void tasksConfig(String connName,final Callback<Map<ConnectorTaskId,
+Map<String,String>>> callback)
+end note
+:log.trace("Submitting tasks config request {}",
+connName);;
+:addRequest(()->{if (checkRebalanceNeeded(callback))return null ;if (!configState.contains(connName)){callback.onCompletion(new NotFoundException("Connector "+
+connName+" not found"),null );}else {callback.onCompletion(null ,
+buildTasksConfig(connName));}return null ;},
+forwardErrorCallback(callback));;
+end
+start
+note right
+Map<String,String> rawConfig(String connName)
+end note
+:return configState.rawConnectorConfig(connName);;
+stop
+end
+start
+note right
+void connectorConfig(String connName,final Callback<Map<String,
+String>> callback)
+end note
+:log.trace("Submitting connector config read request {}",
+connName);;
+:super .connectorConfig(connName,callback);;
+end
+start
+note right
+void deleteConnectorConfig(final String connName,
+final Callback<Created<ConnectorInfo>> callback)
+end note
+:addRequest(()->{log.trace("Handling connector config request {}",
+connName);if (!isLeader()){callback.onCompletion(new NotLeaderException("Only the leader can delete connector configs.",
+leaderUrl()),null );return null ;}if (!configState.contains(connName)){callback.onCompletion(new NotFoundException("Connector "+
+connName+" not found"),null );}else {log.trace("Removing connector config {} {}",
+connName,configState.connectors());writeToConfigTopicAsLeader(()->configBackingStore.removeConnectorConfig(connName));callback.onCompletion(null ,
+new Created<>(false,null ));}return null ;},
+forwardErrorCallback(callback));;
+end
+start
+note right
+Map<String,ConfigValue> validateSinkConnectorConfig(SinkConnector connector,
+ConfigDef configDef,Map<String,String> config)
+end note
+:Map<String,ConfigValue> result=super .validateSinkConnectorConfig(connector,
+configDef,config);;
+:validateSinkConnectorGroupId(result);;
+:return result;;
+stop
+end
+start
+note right
+Map<String,ConfigValue> validateSourceConnectorConfig(SourceConnector connector,
+ConfigDef configDef,Map<String,String> config)
+end note
+:Map<String,ConfigValue> result=super .validateSourceConnectorConfig(connector,
+configDef,config);;
+:validateSourceConnectorExactlyOnceSupport(config,
+result,connector);;
+:validateSourceConnectorTransactionBoundary(config,
+result,connector);;
+:return result;;
+stop
+end
+start
+note right
+void validateSinkConnectorGroupId(Map<String,
+ConfigValue> validatedConfig)
+end note
+:ConfigValue validatedName=validatedConfig.get(ConnectorConfig.NAME_CONFIG);;
+:String name=(String )validatedName.value();;
+if (workerGroupId.equals(SinkUtils.consumerGroupId(name))) then (yes) 
+:validatedName.addErrorMessage("Consumer group for sink connector named "+
+name+" conflicts with Connect worker group "+
+workerGroupId);;
+endif 
+end
+start
+note right
+void validateSourceConnectorExactlyOnceSupport(Map<String,
+String> rawConfig,Map<String,ConfigValue> validatedConfig,
+SourceConnector connector)
+end note
+:ConfigValue validatedExactlyOnceSupport=validatedConfig.get(SourceConnectorConfig.EXACTLY_ONCE_SUPPORT_CONFIG);;
+if (validatedExactlyOnceSupport.errorMessages().isEmpty()) then (yes) 
+:SourceConnectorConfig.ExactlyOnceSupportLevel exactlyOnceSupportLevel=SourceConnectorConfig.ExactlyOnceSupportLevel.fromProperty(Objects.toString(validatedExactlyOnceSupport.value()));;
+if (SourceConnectorConfig.ExactlyOnceSupportLevel.REQUIRED.equals(exactlyOnceSupportLevel)) then (yes) 
+if (!config.exactlyOnceSourceEnabled()) then (yes) 
+:validatedExactlyOnceSupport.addErrorMessage("This worker does not have exactly-once source support enabled.");;
+endif 
+switch (try/catch block)
+case (try)
+:ExactlyOnceSupport exactlyOnceSupport=connector.exactlyOnceSupport(rawConfig);;
+if (!ExactlyOnceSupport.SUPPORTED.equals(exactlyOnceSupport)) then (yes) 
+:final String validationErrorMessage;;
+if (exactlyOnceSupport==null ) then (yes) 
+:validationErrorMessage="The connector does not implement the API required for preflight validation of exactly-once "+
+"source support. Please consult the documentation for the connector to determine whether it supports exactly-once "+
+"guarantees, and then consider reconfiguring the connector to use the value \""+
+SourceConnectorConfig.ExactlyOnceSupportLevel.REQUESTED+
+"\" for this property (which will disable this preflight check and allow the connector to be created).";;
+else if (ExactlyOnceSupport.UNSUPPORTED.equals(exactlyOnceSupport)) then (yes) 
+:validationErrorMessage="The connector does not support exactly-once delivery guarantees with the provided configuration.";;
+else (no)
+:throw new ConnectException("Unexpected value returned from SourceConnector::exactlyOnceSupport: "+
+exactlyOnceSupport);;
+stop
+endif 
+:validatedExactlyOnceSupport.addErrorMessage(validationErrorMessage);;
+endif 
+case (catch (Exception e))
+:log.error("Failed while validating connector support for exactly-once guarantees",e);;
+:String validationErrorMessage="An unexpected error occurred during validation";;
+:String failureMessage=e.getMessage();;
+if (failureMessage!=null &&!failureMessage.trim().isEmpty()) then (yes) 
+:validationErrorMessage+=": "+failureMessage.trim();;
+else (no)
+:validationErrorMessage+="; please see the worker logs for more details.";;
+endif 
+:validatedExactlyOnceSupport.addErrorMessage(validationErrorMessage);;
+endswitch
+endif 
+endif 
+end
+start
+note right
+void validateSourceConnectorTransactionBoundary(Map<String,
+String> rawConfig,Map<String,ConfigValue> validatedConfig,
+SourceConnector connector)
+end note
+:ConfigValue validatedTransactionBoundary=validatedConfig.get(SourceConnectorConfig.TRANSACTION_BOUNDARY_CONFIG);;
+if (validatedTransactionBoundary.errorMessages().isEmpty()) then (yes) 
+:SourceTask.TransactionBoundary transactionBoundary=SourceTask.TransactionBoundary.fromProperty(Objects.toString(validatedTransactionBoundary.value()));;
+if (SourceTask.TransactionBoundary.CONNECTOR.equals(transactionBoundary)) then (yes) 
+switch (try/catch block)
+case (try)
+:ConnectorTransactionBoundaries connectorTransactionSupport=connector.canDefineTransactionBoundaries(rawConfig);;
+if (connectorTransactionSupport==null ) then (yes) 
+:validatedTransactionBoundary.addErrorMessage("This connector has returned a null value from its canDefineTransactionBoundaries method, which is not permitted. "+
+"The connector will be treated as if it cannot define its own transaction boundaries, and cannot be configured with "+
+"'"+SourceConnectorConfig.TRANSACTION_BOUNDARY_CONFIG+
+"' set to '"+SourceTask.TransactionBoundary.CONNECTOR+
+"'.");;
+else if (!ConnectorTransactionBoundaries.SUPPORTED.equals(connectorTransactionSupport)) then (yes) 
+:validatedTransactionBoundary.addErrorMessage("The connector does not support connector-defined transaction boundaries with the given configuration. "+
+"Please reconfigure it to use a different transaction boundary definition.");;
+endif 
+case (catch (Exception e))
+:log.error("Failed while validating connector support for defining its own transaction boundaries",e);;
+:String validationErrorMessage="An unexpected error occurred during validation";;
+:String failureMessage=e.getMessage();;
+if (failureMessage!=null &&!failureMessage.trim().isEmpty()) then (yes) 
+:validationErrorMessage+=": "+failureMessage.trim();;
+else (no)
+:validationErrorMessage+="; please see the worker logs for more details.";;
+endif 
+:validatedTransactionBoundary.addErrorMessage(validationErrorMessage);;
+endswitch
+endif 
+endif 
+end
+start
+note right
+boolean connectorUsesAdmin(org.apache.kafka.connect.health.ConnectorType connectorType,
+Map<String,String> connProps)
+end note
+:return super .connectorUsesAdmin(connectorType,
+connProps)||connectorUsesSeparateOffsetsTopicClients(connectorType,
+connProps);;
+stop
+end
+start
+note right
+boolean connectorUsesConsumer(org.apache.kafka.connect.health.ConnectorType connectorType,
+Map<String,String> connProps)
+end note
+:return super .connectorUsesConsumer(connectorType,
+connProps)||connectorUsesSeparateOffsetsTopicClients(connectorType,
+connProps);;
+stop
+end
+start
+note right
+boolean connectorUsesSeparateOffsetsTopicClients(org.apache.kafka.connect.health.ConnectorType connectorType,
+Map<String,String> connProps)
+end note
+if (connectorType!=org.apache.kafka.connect.health.ConnectorType.SOURCE) then (yes) 
+:return false;;
+stop
+endif 
+:return config.exactlyOnceSourceEnabled()||!connProps.getOrDefault(SourceConnectorConfig.OFFSETS_TOPIC_CONFIG,
+"").trim().isEmpty();;
+stop
+end
+start
+note right
+void putConnectorConfig(final String connName,
+final Map<String,String> config,final boolean allowReplace,
+final Callback<Created<ConnectorInfo>> callback)
+end note
+:log.trace("Submitting connector config write request {}",
+connName);;
+:addRequest(()->{validateConnectorConfig(config,
+(error,configInfos)->{if (error!=null ){callback.onCompletion(error,
+null );return ;}addRequest(()->{if (maybeAddConfigErrors(configInfos,
+callback)){return null ;}log.trace("Handling connector config request {}",
+connName);if (!isLeader()){callback.onCompletion(new NotLeaderException("Only the leader can set connector configs.",
+leaderUrl()),null );return null ;}boolean exists=configState.contains(connName);if (!allowReplace&&exists){callback.onCompletion(new AlreadyExistsException("Connector "+
+connName+" already exists"),null );return null ;}log.trace("Submitting connector config {} {} {}",
+connName,allowReplace,configState.connectors());writeToConfigTopicAsLeader(()->configBackingStore.putConnectorConfig(connName,
+config));ConnectorInfo info=new ConnectorInfo(connName,
+config,configState.tasks(connName),connectorTypeForConfig(config));callback.onCompletion(null ,
+new Created<>(!exists,info));return null ;},
+forwardErrorCallback(callback));});return null ;},
+forwardErrorCallback(callback));;
+end
+start
+note right
+void requestTaskReconfiguration(final String connName)
+end note
+:log.trace("Submitting connector task reconfiguration request {}",
+connName);;
+:addRequest(()->{reconfigureConnectorTasksWithRetry(time.milliseconds(),
+connName);return null ;},(error,result)->{if (error!=null ){log.error("Unexpected error during task reconfiguration: ",
+error);log.error("Task reconfiguration for {} failed unexpectedly,
+ this connector will not be properly reconfigured unless manually triggered.",
+connName);}});;
+end
+start
+note right
+void taskConfigs(final String connName,final Callback<List<TaskInfo>> callback)
+end note
+:log.trace("Submitting get task configuration request {}",
+connName);;
+:addRequest(()->{if (checkRebalanceNeeded(callback))return null ;if (!configState.contains(connName)){callback.onCompletion(new NotFoundException("Connector "+
+connName+" not found"),null );}else {List<TaskInfo> result=new ArrayList<>();for (int i=0;i<configState.taskCount(connName);i+
++){ConnectorTaskId id=new ConnectorTaskId(connName,
+i);result.add(new TaskInfo(id,configState.rawTaskConfig(id)));}callback.onCompletion(null ,
+result);}return null ;},forwardErrorCallback(callback));;
+end
+start
+note right
+void putTaskConfigs(final String connName,
+final List<Map<String,String>> configs,final Callback<Void> callback,
+InternalRequestSignature requestSignature)
+end note
+:log.trace("Submitting put task configuration request {}",
+connName);;
+if (requestNotSignedProperly(requestSignature,callback)) then (yes) 
+:return ;;
+stop
+endif 
+:addRequest(()->{if (!isLeader())callback.onCompletion(new NotLeaderException("Only the leader may write task configurations.",
+leaderUrl()),null );else if (!configState.contains(connName))callback.onCompletion(new NotFoundException("Connector "+
+connName+" not found"),null );else {writeToConfigTopicAsLeader(()->configBackingStore.putTaskConfigs(connName,
+configs));callback.onCompletion(null ,null );}return null ;},
+forwardErrorCallback(callback));;
+end
+start
+note right
+void fenceZombieSourceTasks(final String connName,
+final Callback<Void> callback,InternalRequestSignature requestSignature)
+end note
+:log.trace("Submitting zombie fencing request {}",
+connName);;
+if (requestNotSignedProperly(requestSignature,callback)) then (yes) 
+:return ;;
+stop
+endif 
+:fenceZombieSourceTasks(connName,callback);;
+end
+start
+note right
+void fenceZombieSourceTasks(final ConnectorTaskId id,
+Callback<Void> callback)
+end note
+:log.trace("Performing preflight zombie check for task {}",
+id);;
+:fenceZombieSourceTasks(id.connector(),(error,
+ignored)->{if (error==null ){callback.onCompletion(null ,null );}else if (error instanceof NotLeaderException ){String forwardedUrl=((NotLeaderException )error).forwardUrl()+
+"connectors/"+id.connector()+"/fence";log.trace("Forwarding zombie fencing request for connector {} to leader at {}",
+id.connector(),forwardedUrl);forwardRequestExecutor.execute(()->{try {RestClient.httpRequest(forwardedUrl,
+"PUT",null ,null ,null ,config,sessionKey,
+requestSignatureAlgorithm);callback.onCompletion(null ,
+null );}catch (Throwable t){callback.onCompletion(t,
+null );}});}else {error=ConnectUtils.maybeWrap(error,
+"Failed to perform zombie fencing");callback.onCompletion(error,
+null );}});;
+end
+start
+note right
+void fenceZombieSourceTasks(final String connName,
+final Callback<Void> callback)
+end note
+:addRequest(()->{log.trace("Performing zombie fencing request for connector {}",
+connName);if (!isLeader())callback.onCompletion(new NotLeaderException("Only the leader may perform zombie fencing.",
+leaderUrl()),null );else if (!configState.contains(connName))callback.onCompletion(new NotFoundException("Connector "+
+connName+" not found"),null );else if (!isSourceConnector(connName))callback.onCompletion(new BadRequestException("Connector "+
+connName+" is not a source connector"),null );else {if (!refreshConfigSnapshot(workerSyncTimeoutMs)){throw new ConnectException("Failed to read to end of config topic before performing zombie fencing");}int taskCount=configState.taskCount(connName);Integer taskCountRecord=configState.taskCountRecord(connName);ZombieFencing zombieFencing=null ;boolean newFencing=false;synchronized (DistributedHerder.this){if (configState.pendingFencing(connName)&&taskCountRecord!=null &&(taskCountRecord!=1||taskCount!=1)){int taskGen=configState.taskConfigGeneration(connName);zombieFencing=activeZombieFencings.get(connName);if (zombieFencing==null ){zombieFencing=new ZombieFencing(connName,taskCountRecord,taskCount,taskGen);activeZombieFencings.put(connName,zombieFencing);newFencing=true;}}}if (zombieFencing!=null ){if (newFencing){zombieFencing.start();}zombieFencing.addCallback(callback);return null ;}if (!configState.pendingFencing(connName)){log.debug("Skipping zombie fencing round for connector {} as all old task generations have already been fenced out",connName);}else {if (taskCountRecord==null ){log.debug("Skipping zombie fencing round but writing task count record for connector {} "+"as it is being brought up for the first time with exactly-once source support",connName);}else {log.debug("Skipping zombie fencing round but writing task count record for connector {} "+"as both the most recent and the current generation of task configs only contain one task",connName);}writeToConfigTopicAsLeader(()->configBackingStore.putTaskCountRecord(connName,taskCount));}callback.onCompletion(null ,null );return null ;}return null ;},forwardErrorCallback(callback));;
+end
+start
+note right
+void restartConnector(final String connName,
+final Callback<Void> callback)
+end note
+:restartConnector(0,connName,callback);;
+end
+start
+note right
+HerderRequest restartConnector(final long delayMs,
+final String connName,final Callback<Void> callback)
+end note
+:return addRequest(delayMs,()->{if (checkRebalanceNeeded(callback))return null ;if (!configState.connectors().contains(connName)){callback.onCompletion(new NotFoundException("Unknown connector: "+
+connName),null );return null ;}if (assignment.connectors().contains(connName)){try {worker.stopAndAwaitConnector(connName);startConnector(connName,
+callback);}catch (Throwable t){callback.onCompletion(t,
+null );}}else if (isLeader()){callback.onCompletion(new NotAssignedException("Cannot restart connector since it is not assigned to this member",
+member.ownerUrl(connName)),null );}else {callback.onCompletion(new NotLeaderException("Only the leader can process restart requests.",
+leaderUrl()),null );}return null ;},forwardErrorCallback(callback));;
+stop
+end
+start
+note right
+void restartTask(final ConnectorTaskId id,
+final Callback<Void> callback)
+end note
+:addRequest(()->{if (checkRebalanceNeeded(callback))return null ;if (!configState.connectors().contains(id.connector())){callback.onCompletion(new NotFoundException("Unknown connector: "+
+id.connector()),null );return null ;}if (configState.taskConfig(id)==null ){callback.onCompletion(new NotFoundException("Unknown task: "+
+id),null );return null ;}if (assignment.tasks().contains(id)){try {worker.stopAndAwaitTask(id);if (startTask(id))callback.onCompletion(null ,
+null );else callback.onCompletion(new ConnectException("Failed to start task: "+
+id),null );}catch (Throwable t){callback.onCompletion(t,
+null );}}else if (isLeader()){callback.onCompletion(new NotAssignedException("Cannot restart task since it is not assigned to this member",
+member.ownerUrl(id)),null );}else {callback.onCompletion(new NotLeaderException("Cannot restart task since it is not assigned to this member",
+leaderUrl()),null );}return null ;},forwardErrorCallback(callback));;
+end
+start
+note right
+int generation()
+end note
+:return generation;;
+stop
+end
+start
+note right
+void restartConnectorAndTasks(RestartRequest request,
+Callback<ConnectorStateInfo> callback)
+end note
+:final String connectorName=request.connectorName();;
+:addRequest(()->{if (checkRebalanceNeeded(callback)){return null ;}if (!configState.connectors().contains(request.connectorName())){callback.onCompletion(new NotFoundException("Unknown connector: "+
+connectorName),null );return null ;}if (isLeader()){configBackingStore.putRestartRequest(request);Optional<RestartPlan> plan=buildRestartPlan(request);if (!plan.isPresent()){callback.onCompletion(new NotFoundException("Status for connector "+connectorName+" not found",null ),null );}else {callback.onCompletion(null ,plan.get().restartConnectorStateInfo());}}else {callback.onCompletion(new NotLeaderException("Only the leader can process restart requests.",leaderUrl()),null );}return null ;},forwardErrorCallback(callback));;
+end
+start
+note right
+void processRestartRequests()
+end note
+:List<RestartRequest> restartRequests;;
+:synchronized (this){if (pendingRestartRequests.isEmpty()){return ;
+:}restartRequests=new ArrayList<>(pendingRestartRequests.values());
+:pendingRestartRequests.clear();};
+:restartRequests.forEach(restartRequest->{try {doRestartConnectorAndTasks(restartRequest);}catch (Exception e){log.warn("Unexpected error while trying to process "+
+restartRequest+", the restart request will be skipped.",
+e);}});;
+end
+start
+note right
+void doRestartConnectorAndTasks(RestartRequest request)
+end note
+:String connectorName=request.connectorName();;
+:Optional<RestartPlan> maybePlan=buildRestartPlan(request);;
+if (!maybePlan.isPresent()) then (yes) 
+:log.debug("Skipping restart of connector '{}' since no status is available: {}",
+connectorName,request);;
+:return ;;
+stop
+endif 
+:RestartPlan plan=maybePlan.get();;
+:log.info("Executing {}",plan);;
+:final ExtendedAssignment currentAssignments=assignment;;
+:final Collection<ConnectorTaskId> assignedIdsToRestart=plan.taskIdsToRestart()
+.stream().filter(taskId->currentAssignments.tasks().contains(taskId)).collect(Collectors.toList());;
+:final boolean restartConnector=plan.shouldRestartConnector()&&currentAssignments.connectors()
+.contains(connectorName);;
+:final boolean restartTasks=!assignedIdsToRestart.isEmpty();;
+if (restartConnector) then (yes) 
+:worker.stopAndAwaitConnector(connectorName);;
+:onRestart(connectorName);;
+endif 
+if (restartTasks) then (yes) 
+:worker.stopAndAwaitTasks(assignedIdsToRestart);;
+:assignedIdsToRestart.forEach(this::onRestart);;
+endif 
+if (restartConnector) then (yes) 
+switch (try/catch block)
+case (try)
+:startConnector(connectorName,(error,targetState)->{if (error==null ){log.info("Connector '{}' restart successful",
+connectorName);}else {log.error("Connector '{}' restart failed",
+connectorName,error);}});;
+case (catch (Throwable t))
+:log.error("Connector '{}' restart failed",
+connectorName,t);;
+endswitch
+endif 
+if (restartTasks) then (yes) 
+:log.debug("Restarting {} of {} tasks for {}",
+assignedIdsToRestart.size(),plan.totalTaskCount(),
+request);;
+:assignedIdsToRestart.forEach(taskId->{try {if (startTask(taskId)){log.info("Task '{}' restart successful",
+taskId);}else {log.error("Task '{}' restart failed",
+taskId);}}catch (Throwable t){log.error("Task '{}' restart failed",
+taskId,t);}});;
+:log.debug("Restarted {} of {} tasks for {} as requested",
+assignedIdsToRestart.size(),plan.totalTaskCount(),
+request);;
+endif 
+:log.info("Completed {}",plan);;
+end
+start
+note right
+boolean isLeader()
+end note
+:return assignment!=null &&member.memberId()
+.equals(assignment.leader());;
+stop
+end
+start
+note right
+String leaderUrl()
+end note
+if (assignment==null ) then (yes) 
+:return null ;;
+stop
+endif 
+:return assignment.leaderUrl();;
+stop
+end
+start
+note right
+void writeToConfigTopicAsLeader(Runnable write)
+end note
+switch (try/catch block)
+case (try)
+:write.run();;
+case (catch (PrivilegedWriteException e))
+:log.warn("Failed to write to config topic as leader; will rejoin group if necessary and,
+ if still leader, attempt to reclaim write privileges for the config topic",e);;
+:fencedFromConfigTopic=true;;
+:throw new ConnectException("Failed to write to config topic;
+: this may be due to a transient error and the request can be safely retried",e);;
+stop
+endswitch
+end
+start
+note right
+boolean handleRebalanceCompleted()
+end note
+if (rebalanceResolved) then (yes) 
+:log.trace("Returning early because rebalance is marked as resolved (rebalanceResolved: true)");;
+:return true;;
+stop
+endif 
+:log.debug("Handling completed but unresolved rebalance");;
+:boolean needsReadToEnd=false;;
+:boolean needsRejoin=false;;
+if (assignment.failed()) then (yes) 
+:needsRejoin=true;;
+if (isLeader()) then (yes) 
+:log.warn("Join group completed, but assignment failed and we are the leader. Reading to end of config and retrying.");;
+:needsReadToEnd=true;;
+else if (configState.offset()<assignment.offset()) then (yes) 
+:log.warn("Join group completed, but assignment failed and we lagging. Reading to end of config and retrying.");;
+:needsReadToEnd=true;;
+else (no)
+:log.warn("Join group completed, but assignment failed. We were up to date,
+ so just retrying.");;
+endif 
+else (no)
+if (configState.offset()<assignment.offset()) then (yes) 
+:log.warn("Catching up to assignment's config offset.");;
+:needsReadToEnd=true;;
+endif 
+endif 
+:long now=time.milliseconds();;
+if (scheduledRebalance<=now) then (yes) 
+:log.debug("Requesting rebalance because scheduled rebalance timeout has been reached "+
+"(now: {} scheduledRebalance: {}",scheduledRebalance,
+now);;
+:needsRejoin=true;;
+:scheduledRebalance=Long.MAX_VALUE;;
+endif 
+if (needsReadToEnd) then (yes) 
+if (readConfigToEnd(workerSyncTimeoutMs)) then (yes) 
+:canReadConfigs=true;;
+else (no)
+:canReadConfigs=false;;
+:needsRejoin=true;;
+endif 
+endif 
+if (needsRejoin) then (yes) 
+:member.requestRejoin();;
+:return false;;
+stop
+endif 
+if (configState.offset()!=assignment.offset()) then (yes) 
+:log.info("Current config state offset {} does not match group assignment {}. Forcing rebalance.",
+configState.offset(),assignment.offset());;
+:member.requestRejoin();;
+:return false;;
+stop
+endif 
+:startWork();;
+:herderMetrics.rebalanceSucceeded(time.milliseconds());;
+:rebalanceResolved=true;;
+if (!assignment.revokedConnectors().isEmpty()||!assignment.revokedTasks().isEmpty()) then (yes) 
+:assignment.revokedConnectors().clear();;
+:assignment.revokedTasks().clear();;
+:member.requestRejoin();;
+:return false;;
+stop
+endif 
+:return true;;
+stop
+end
+start
+note right
+boolean readConfigToEnd(long timeoutMs)
+end note
+if (configState.offset()<assignment.offset()) then (yes) 
+:log.info("Current config state offset {} is behind group assignment {},
+ reading to end of config log",configState.offset(),
+assignment.offset());;
+else (no)
+:log.info("Reading to end of config log; current config state offset: {}",
+configState.offset());;
+endif 
+if (refreshConfigSnapshot(timeoutMs)) then (yes) 
+:backoffRetries=BACKOFF_RETRIES;;
+:return true;;
+stop
+else (no)
+:member.maybeLeaveGroup("taking too long to read the log");;
+:backoff(workerUnsyncBackoffMs);;
+:return false;;
+stop
+endif 
+end
+start
+note right
+boolean refreshConfigSnapshot(long timeoutMs)
+end note
+switch (try/catch block)
+case (try)
+:configBackingStore.refresh(timeoutMs,TimeUnit.MILLISECONDS);;
+:configState=configBackingStore.snapshot();;
+:log.info("Finished reading to end of log and updated config snapshot,
+ new config log offset: {}",configState.offset());;
+:return true;;
+stop
+case (catch (TimeoutException e))
+:log.warn("Didn't reach end of config log quickly enough",e);;
+:canReadConfigs=false;;
+:return false;;
+stop
+endswitch
+end
+start
+note right
+void backoff(long ms)
+end note
+if (ConnectProtocolCompatibility.fromProtocolVersion(currentProtocolVersion)==EAGER) then (yes) 
+:time.sleep(ms);;
+:return ;;
+stop
+endif 
+if (backoffRetries>0) then (yes) 
+:int rebalanceDelayFraction=config.getInt(DistributedConfig.SCHEDULED_REBALANCE_MAX_DELAY_MS_CONFIG)/10/backoffRetries;;
+:time.sleep(rebalanceDelayFraction);;
+:- -backoffRetries;;
+:return ;;
+stop
+endif 
+:ExtendedAssignment runningAssignmentSnapshot;;
+:synchronized (this){runningAssignmentSnapshot=ExtendedAssignment.duplicate(runningAssignment);};
+:log.info("Revoking current running assignment {} because after {} retries the worker "+
+"has not caught up with the latest Connect cluster updates",
+runningAssignmentSnapshot,BACKOFF_RETRIES);;
+:member.revokeAssignment(runningAssignmentSnapshot);;
+:backoffRetries=BACKOFF_RETRIES;;
+end
+start
+note right
+void startAndStop(Collection<Callable<Void>> callables)
+end note
+switch (try/catch block)
+case (try)
+:startAndStopExecutor.invokeAll(callables);;
+case (catch (InterruptedException e))
+endswitch
+end
+start
+note right
+void startWork()
+end note
+:List<Callable<Void>> callables=new ArrayList<>();;
+:synchronized (this){log.info("Starting connectors and tasks using config offset {}",
+assignment.offset());log.debug("Received assignment: {}",
+assignment);log.debug("Currently running assignment: {}",
+runningAssignment);for (String connectorName:assignmentDifference(assignment.connectors(),
+runningAssignment.connectors())){callables.add(getConnectorStartingCallable(connectorName));}log.debug("Tasks to restart from currently running assignment: {}",
+tasksToRestart);runningAssignment.tasks().removeAll(tasksToRestart);tasksToRestart.clear();for (ConnectorTaskId taskId:assignmentDifference(assignment.tasks(),
+runningAssignment.tasks())){callables.add(getTaskStartingCallable(taskId));}};
+:startAndStop(callables);;
+:synchronized (this){runningAssignment=member.currentProtocolVersion()==CONNECT_PROTOCOL_V0? ExtendedAssignment.empty():assignment;};
+:log.info("Finished starting connectors and tasks");;
+end
+if (running.isEmpty()) then (yes) 
+:return update;;
+stop
+endif 
+:HashSet<T> diff=new HashSet<>(update);;
+:diff.removeAll(running);;
+:return diff;;
+stop
+start
+note right
+boolean startTask(ConnectorTaskId taskId)
+end note
+:log.info("Starting task {}",taskId);;
+:Map<String,String> connProps=configState.connectorConfig(taskId.connector());;
+switch (switch connectorTypeForConfig(connProps))
+endswitch
+end
+start
+note right
+Callable<Void> getTaskStartingCallable(final ConnectorTaskId taskId)
+end note
+:return ()->{try {startTask(taskId);}catch (Throwable t){log.error("Couldn't instantiate task {} because it has an invalid task configuration. This task will not execute until reconfigured.",
+taskId,t);onFailure(taskId,t);}return null ;};;
+stop
+end
+start
+note right
+Callable<Void> getTaskStoppingCallable(final ConnectorTaskId taskId)
+end note
+:return ()->{worker.stopAndAwaitTask(taskId);
+:return null ;};;
+stop
+end
+start
+note right
+void startConnector(String connectorName,
+Callback<Void> callback)
+end note
+:log.info("Starting connector {}",connectorName);;
+:final Map<String,String> configProps=configState.connectorConfig(connectorName);;
+:final CloseableConnectorContext ctx=new HerderConnectorContext(this,
+connectorName);;
+:final TargetState initialState=configState.targetState(connectorName);;
+:final Callback<TargetState> onInitialStateChange=(error,newState)->{if (error!=null ){callback.onCompletion(new ConnectException("Failed to start connector: "+
+connectorName,error),null );return ;}if (newState==TargetState.STARTED){addRequest(()->{reconfigureConnectorTasksWithRetry(time.milliseconds(),
+connectorName);callback.onCompletion(null ,
+null );return null ;},forwardErrorCallback(callback));}else {callback.onCompletion(null ,
+null );}};;
+:worker.startConnector(connectorName,configProps,
+ctx,this,initialState,onInitialStateChange);;
+end
+start
+note right
+Callable<Void> getConnectorStartingCallable(final String connectorName)
+end note
+:return ()->{try {startConnector(connectorName,(error,result)->{if (error!=null ){log.error("Failed to start connector '"+
+connectorName+"'",error);}});}catch (Throwable t){log.error("Unexpected error while trying to start connector "+
+connectorName,t);onFailure(connectorName,
+t);}return null ;};;
+stop
+end
+start
+note right
+Callable<Void> getConnectorStoppingCallable(final String connectorName)
+end note
+:return ()->{try {worker.stopAndAwaitConnector(connectorName);}catch (Throwable t){log.error("Failed to shut down connector "+
+connectorName,t);}return null ;};;
+stop
+end
+start
+note right
+void reconfigureConnectorTasksWithRetry(long initialRequestTime,
+final String connName)
+end note
+:reconfigureConnector(connName,(error,result)->{if (error!=null ){if (isPossibleExpiredKeyException(initialRequestTime,
+error)){log.debug("Failed to reconfigure connector's tasks ({}),
+ possibly due to expired session key. Retrying after backoff",
+connName);}else {log.error("Failed to reconfigure connector's tasks ({}),
+ retrying after backoff:",connName,error);}addRequest(RECONFIGURE_CONNECTOR_TASKS_BACKOFF_MS,
+()->{reconfigureConnectorTasksWithRetry(initialRequestTime,
+connName);return null ;},(err,res)->{if (err!=null ){log.error("Unexpected error during connector task reconfiguration: ",
+err);log.error("Task reconfiguration for {} failed unexpectedly,
+ this connector will not be properly reconfigured unless manually triggered.",
+connName);}});}});;
+end
+start
+note right
+boolean isPossibleExpiredKeyException(long initialRequestTime,
+Throwable error)
+end note
+if (error instanceof ConnectRestException ) then (yes) 
+:ConnectRestException connectError=(ConnectRestException )error;;
+:return connectError.statusCode()==Response.Status.FORBIDDEN.getStatusCode()&&initialRequestTime+
+TimeUnit.MINUTES.toMillis(1)>=time.milliseconds();;
+stop
+endif 
+:return false;;
+stop
+end
+start
+note right
+void reconfigureConnector(final String connName,
+final Callback<Void> cb)
+end note
+switch (try/catch block)
+case (try)
+if (!worker.isRunning(connName)) then (yes) 
+:log.info("Skipping reconfiguration of connector {} since it is not running",
+connName);;
+:return ;;
+stop
+endif 
+:Map<String,String> configs=configState.connectorConfig(connName);;
+:ConnectorConfig connConfig;;
+if (worker.isSinkConnector(connName)) then (yes) 
+:connConfig=new SinkConnectorConfig(plugins(),
+configs);;
+else (no)
+:connConfig=new SourceConnectorConfig(plugins(),
+configs,worker.isTopicCreationEnabled());;
+endif 
+:final List<Map<String,String>> taskProps=worker.connectorTaskConfigs(connName,
+connConfig);;
+:boolean changed=false;;
+:int currentNumTasks=configState.taskCount(connName);;
+if (taskProps.size()!=currentNumTasks) then (yes) 
+:log.debug("Change in connector task count from {} to {},
+ writing updated task configurations",currentNumTasks,
+taskProps.size());;
+:changed=true;;
+else (no)
+:int index=0;;
+if (!taskConfig.equals(configState.taskConfig(new ConnectorTaskId(connName,index)))) then (yes) 
+:log.debug("Change in task configurations,
+ writing updated task configurations");;
+:changed=true;;
+:break ;;
+endif 
+:index++;;
+endif 
+if (changed) then (yes) 
+:List<Map<String,String>> rawTaskProps=reverseTransform(connName,
+configState,taskProps);;
+if (isLeader()) then (yes) 
+:writeToConfigTopicAsLeader(()->configBackingStore.putTaskConfigs(connName,
+rawTaskProps));;
+:cb.onCompletion(null ,null );;
+else (no)
+:forwardRequestExecutor.submit(()->{try {String leaderUrl=leaderUrl();if (Utils.isBlank(leaderUrl)){cb.onCompletion(new ConnectException("Request to leader to "+
+"reconfigure connector tasks failed "+"because the URL of the leader's REST interface is empty!"),
+null );return ;}String reconfigUrl=UriBuilder.fromUri(leaderUrl).path("connectors").path(connName).path("tasks").build().toString();log.trace("Forwarding task configurations for connector {} to leader",connName);RestClient.httpRequest(reconfigUrl,"POST",null ,rawTaskProps,null ,config,sessionKey,requestSignatureAlgorithm);cb.onCompletion(null ,null );}catch (ConnectException e){log.error("Request to leader to reconfigure connector tasks failed",e);cb.onCompletion(e,null );}});;
+endif 
+endif 
+case (catch (Throwable t))
+:cb.onCompletion(t,null );;
+endswitch
+end
+start
+note right
+void verifyTaskGenerationAndOwnership(ConnectorTaskId id,
+int initialTaskGen)
+end note
+:log.debug("Reading to end of config topic to ensure it is still safe to bring up source task {} with exactly-once support",
+id);;
+if (!refreshConfigSnapshot(Long.MAX_VALUE)) then (yes) 
+:throw new ConnectException("Failed to read to end of config topic");;
+stop
+endif 
+:FutureCallback<Void> verifyCallback=new FutureCallback<>();;
+:addRequest(()->verifyTaskGenerationAndOwnership(id,
+initialTaskGen,verifyCallback),forwardErrorCallback(verifyCallback));;
+switch (try/catch block)
+case (try)
+:verifyCallback.get();;
+case (catch (InterruptedException e))
+:throw new ConnectException("Interrupted while performing preflight check for task "+
+id,e);;
+stop
+case (catch (ExecutionException e))
+:Throwable cause=e.getCause();;
+:throw ConnectUtils.maybeWrap(cause,"Failed to perform preflight check for task "+
+id);;
+stop
+endswitch
+end
+start
+note right
+Void verifyTaskGenerationAndOwnership(ConnectorTaskId id,
+int initialTaskGen,Callback<Void> callback)
+end note
+:Integer currentTaskGen=configState.taskConfigGeneration(id.connector());;
+if (!Objects.equals(initialTaskGen,currentTaskGen)) then (yes) 
+:throw new ConnectException("Cannot start source task "+
+id+" with exactly-once support as the connector has already generated a new set of task configs");;
+stop
+endif 
+if (!assignment.tasks().contains(id)) then (yes) 
+:throw new ConnectException("Cannot start source task "+
+id+" as it has already been revoked from this worker");;
+stop
+endif 
+:callback.onCompletion(null ,null );;
+:return null ;;
+stop
+end
+start
+note right
+boolean checkRebalanceNeeded(Callback<?> callback)
+end note
+if (needsReconfigRebalance) then (yes) 
+:callback.onCompletion(new RebalanceNeededException("Request cannot be completed because a rebalance is expected"),
+null );;
+:return true;;
+stop
+endif 
+:return false;;
+stop
+end
+start
+note right
+DistributedHerderRequest runOnTickThread(Callable<Void> action,
+Callback<Void> callback)
+end note
+if (Thread.currentThread().equals(herderThread)) then (yes) 
+:runRequest(action,callback);;
+:return null ;;
+stop
+else (no)
+:return addRequest(action,callback);;
+stop
+endif 
+end
+start
+note right
+DistributedHerderRequest addRequest(Callable<Void> action,
+Callback<Void> callback)
+end note
+:return addRequest(0,action,callback);;
+stop
+end
+start
+note right
+DistributedHerderRequest addRequest(long delayMs,
+Callable<Void> action,Callback<Void> callback)
+end note
+:DistributedHerderRequest req=new DistributedHerderRequest(time.milliseconds()+
+delayMs,requestSeqNum.incrementAndGet(),action,
+callback);;
+:requests.add(req);;
+if (peekWithoutException()==req) then (yes) 
+:member.wakeup();;
+endif 
+:return req;;
+stop
+end
+start
+note right
+void runRequest(Callable<Void> action,Callback<Void> callback)
+end note
+switch (try/catch block)
+case (try)
+:action.call();;
+:callback.onCompletion(null ,null );;
+case (catch (Throwable t))
+:callback.onCompletion(t,null );;
+endswitch
+end
+start
+note right
+boolean internalRequestValidationEnabled()
+end note
+:return internalRequestValidationEnabled(member.currentProtocolVersion());;
+stop
+end
+start
+note right
+boolean internalRequestValidationEnabled(short protocolVersion)
+end note
+:return protocolVersion>=CONNECT_PROTOCOL_V2;;
+stop
+end
+start
+note right
+DistributedHerderRequest peekWithoutException()
+end note
+switch (try/catch block)
+case (try)
+:return requests.isEmpty()? null :requests.first();;
+stop
+case (catch (NoSuchElementException e))
+endswitch
+:return null ;;
+stop
+end
+start
+note right
+void onConnectorConfigRemove(String connector)
+end note
+:log.info("Connector {} config removed",connector);;
+:synchronized (DistributedHerder.this){if (configState.contains(connector))needsReconfigRebalance=true;
+:connectorConfigUpdates.add(connector);};
+:member.wakeup();;
+end
+start
+note right
+void onConnectorConfigUpdate(String connector)
+end note
+:log.info("Connector {} config updated",connector);;
+:synchronized (DistributedHerder.this){if (!configState.contains(connector))needsReconfigRebalance=true;
+:connectorConfigUpdates.add(connector);};
+:member.wakeup();;
+end
+start
+note right
+void onTaskConfigUpdate(Collection<ConnectorTaskId> tasks)
+end note
+:log.info("Tasks {} configs updated",tasks);;
+:synchronized (DistributedHerder.this){needsReconfigRebalance=true;
+:taskConfigUpdates.addAll(tasks);};
+:tasks.stream().map(ConnectorTaskId::connector).distinct().forEach(connName->{synchronized (this){ZombieFencing activeFencing=activeZombieFencings.get(connName);
+:if (activeFencing!=null ){activeFencing.completeExceptionally(new ConnectRestException(Response.Status.CONFLICT.getStatusCode(),
+"Failed to complete zombie fencing because a new set of task configs was generated"));}}});;
+:member.wakeup();;
+end
+start
+note right
+void onConnectorTargetStateChange(String connector)
+end note
+:log.info("Connector {} target state change",
+connector);;
+:synchronized (DistributedHerder.this){connectorTargetStateChanges.add(connector);};
+:member.wakeup();;
+end
+start
+note right
+void onSessionKeyUpdate(SessionKey sessionKey)
+end note
+:log.info("Session key updated");;
+:synchronized (DistributedHerder.this){DistributedHerder.this.sessionKey=sessionKey.key();if (keyRotationIntervalMs>0){DistributedHerder.this.keyExpiration=sessionKey.creationTimestamp()+
+keyRotationIntervalMs;}};
+end
+start
+note right
+void onRestartRequest(RestartRequest request)
+end note
+:log.info("Received and enqueuing {}",request);;
+:synchronized (DistributedHerder.this){String connectorName=request.connectorName();pendingRestartRequests.compute(connectorName,
+(k,existingRequest)->{if (existingRequest==null ||request.compareTo(existingRequest)>0){log.debug("Overwriting existing {} and enqueuing the higher impact {}",
+existingRequest,request);return request;}else {log.debug("Preserving existing higher impact {} and ignoring incoming {}",
+existingRequest,request);return existingRequest;}});};
+:member.wakeup();;
+end
+start
+note right
+constructor DistributedHerderRequest(long at,
+long seq,Callable<Void> action,Callback<Void> callback)
+end note
+:this.at=at;;
+:this.seq=seq;;
+:this.action=action;;
+:this.callback=callback;;
+end
+start
+note right
+Callable<Void> action()
+end note
+:return action;;
+stop
+end
+start
+note right
+Callback<Void> callback()
+end note
+:return callback;;
+stop
+end
+start
+note right
+void cancel()
+end note
+:DistributedHerder.this.requests.remove(this);;
+end
+start
+note right
+int compareTo(DistributedHerderRequest o)
+end note
+:final int cmp=Long.compare(at,o.at);;
+:return cmp==0? Long.compare(seq,o.seq):cmp;;
+stop
+end
+start
+note right
+boolean equals(Object o)
+end note
+if (this==o) then (yes) 
+:return true;;
+stop
+endif 
+if (!(o instanceof DistributedHerderRequest )) then (yes) 
+:return false;;
+stop
+endif 
+:DistributedHerderRequest other=(DistributedHerderRequest )o;;
+:return compareTo(other)==0;;
+stop
+end
+start
+note right
+int hashCode()
+end note
+:return Objects.hash(at,seq);;
+stop
+end
+start
+note right
+Callback<Void> forwardErrorCallback(final Callback<?> callback)
+end note
+:return (error,result)->{if (error!=null )callback.onCompletion(error,
+null );};;
+stop
+end
+start
+note right
+void updateDeletedConnectorStatus()
+end note
+:ClusterConfigState snapshot=configBackingStore.snapshot();;
+:Set<String> connectors=snapshot.connectors();;
+if (!connectors.contains(connector)) then (yes) 
+:log.debug("Cleaning status information for connector {}",
+connector);;
+:onDeletion(connector);;
+endif 
+end
+start
+note right
+void updateDeletedTaskStatus()
+end note
+:ClusterConfigState snapshot=configBackingStore.snapshot();;
+:Set<ConnectorTaskId> remainingTasks=new HashSet<>(snapshot.tasks(connector));;
+:statusBackingStore.getAll(connector).stream()
+.map(TaskStatus::id).filter(task->!remainingTasks.contains(task)).forEach(this::onDeletion);;
+end
+start
+note right
+HerderMetrics herderMetrics()
+end note
+:return herderMetrics;;
+stop
+end
+start
+note right
+constructor RebalanceListener(Time time)
+end note
+:this.time=time;;
+end
+start
+note right
+void onAssigned(ExtendedAssignment assignment,
+int generation)
+end note
+:short priorProtocolVersion=currentProtocolVersion;;
+:DistributedHerder.this.currentProtocolVersion=member.currentProtocolVersion();;
+:log.info("Joined group at generation {} with protocol version {} and got assignment: {} with rebalance delay: {}",
+generation,DistributedHerder.this.currentProtocolVersion,
+assignment,assignment.delay());;
+:synchronized (DistributedHerder.this){DistributedHerder.this.assignment=assignment;
+:DistributedHerder.this.generation=generation;int delay=assignment.delay();DistributedHerder.this.scheduledRebalance=delay>0? time.milliseconds()+
+delay:Long.MAX_VALUE;boolean requestValidationWasEnabled=internalRequestValidationEnabled(priorProtocolVersion);boolean requestValidationNowEnabled=internalRequestValidationEnabled(currentProtocolVersion);if (requestValidationNowEnabled!=requestValidationWasEnabled){if (requestValidationNowEnabled){log.info("Internal request validation has been re-enabled");}else {log.warn("The protocol used by this Connect cluster has been downgraded from '{}' to '{}' and internal request "+"validation is now disabled. This is most likely caused by a new worker joining the cluster with an "+"older protocol specified for the {} configuration; if this is not intentional, either remove the {} "+"configuration from that worker's config file, or change its value to '{}'. If this configuration is "+"left as-is, the cluster will be insecure; for more information, see KIP-507: "+"https://cwiki.apache.org/confluence/display/KAFKA/KIP-507%3A+Securing+Internal+Connect+REST+Endpoints",ConnectProtocolCompatibility.fromProtocolVersion(priorProtocolVersion),ConnectProtocolCompatibility.fromProtocolVersion(DistributedHerder.this.currentProtocolVersion),DistributedConfig.CONNECT_PROTOCOL_CONFIG,DistributedConfig.CONNECT_PROTOCOL_CONFIG,ConnectProtocolCompatibility.SESSIONED.name());}}rebalanceResolved=false;herderMetrics.rebalanceStarted(time.milliseconds());};
+if (isLeader()) then (yes) 
+:updateDeletedConnectorStatus();;
+:updateDeletedTaskStatus();;
+switch (try/catch block)
+case (try)
+:configBackingStore.claimWritePrivileges();;
+case (catch (Exception e))
+:fencedFromConfigTopic=true;;
+:log.error("Unable to claim write privileges for config topic after being elected leader during rebalance",e);;
+endswitch
+endif 
+:member.wakeup();;
+end
+start
+note right
+void onRevoked(String leader,Collection<String> connectors,
+Collection<ConnectorTaskId> tasks)
+end note
+if (rebalanceResolved||currentProtocolVersion>=CONNECT_PROTOCOL_V1) then (yes) 
+:List<Callable<Void>> callables=new ArrayList<>();;
+:callables.add(getConnectorStoppingCallable(connectorName));;
+:callables.add(getTaskStoppingCallable(taskId));;
+:startAndStop(callables);;
+:log.info("Finished stopping tasks in preparation for rebalance");;
+:synchronized (DistributedHerder.this){log.debug("Removing connectors from running assignment {}",
+connectors);runningAssignment.connectors().removeAll(connectors);log.debug("Removing tasks from running assignment {}",
+tasks);runningAssignment.tasks().removeAll(tasks);};
+if (isTopicTrackingEnabled) then (yes) 
+:resetActiveTopics(connectors,tasks);;
+endif 
+:statusBackingStore.flush();;
+:log.info("Finished flushing status backing store in preparation for rebalance");;
+else (no)
+:log.info("Wasn't able to resume work after last rebalance,
+ can skip stopping connectors and tasks");;
+endif 
+end
+start
+note right
+void resetActiveTopics(Collection<String> connectors,
+Collection<ConnectorTaskId> tasks)
+end note
+:connectors.stream().filter(connectorName->!configState.contains(connectorName))
+.forEach(DistributedHerder.this::resetConnectorActiveTopics);;
+:tasks.stream().map(ConnectorTaskId::connector)
+.distinct().filter(connectorName->!configState.contains(connectorName)).forEach(DistributedHerder.this::resetConnectorActiveTopics);;
+end
+start
+note right
+boolean isSourceConnector(String connName)
+end note
+:return ConnectorType.SOURCE.equals(connectorTypeForConfig(configState.connectorConfig(connName)));;
+stop
+end
+start
+note right
+boolean requestNotSignedProperly(InternalRequestSignature requestSignature,
+Callback<?> callback)
+end note
+if (internalRequestValidationEnabled()) then (yes) 
+:ConnectRestException requestValidationError=null ;;
+if (requestSignature==null ) then (yes) 
+:requestValidationError=new BadRequestException("Internal request missing required signature");;
+else if (!keySignatureVerificationAlgorithms.contains(requestSignature.keyAlgorithm())) then (yes) 
+:requestValidationError=new BadRequestException(String.format("This worker does not support the '%s' key signing algorithm used by other workers. "+
+"This worker is currently configured to use: %s. "+
+"Check that all workers' configuration files permit the same set of signature algorithms, "+
+"and correct any misconfigured worker and restart it.",
+requestSignature.keyAlgorithm(),keySignatureVerificationAlgorithms));;
+else (no)
+if (!requestSignature.isValid(sessionKey)) then (yes) 
+:requestValidationError=new ConnectRestException(Response.Status.FORBIDDEN,
+"Internal request contained invalid signature.");;
+endif 
+endif 
+if (requestValidationError!=null ) then (yes) 
+:callback.onCompletion(requestValidationError,
+null );;
+:return true;;
+stop
+endif 
+endif 
+:return false;;
+stop
+end
+start
+note right
+constructor ZombieFencing(String connName,
+int tasksToFence,int tasksToRecord,int taskGen)
+end note
+:this.connName=connName;;
+:this.tasksToFence=tasksToFence;;
+:this.tasksToRecord=tasksToRecord;;
+:this.taskGen=taskGen;;
+:this.fencingFollowup=new FutureCallback<>();;
+end
+start
+note right
+void start()
+end note
+if (fencingFuture!=null ) then (yes) 
+:throw new IllegalStateException("Cannot invoke start() multiple times");;
+stop
+endif 
+:fencingFuture=worker.fenceZombies(connName,
+tasksToFence,configState.connectorConfig(connName)).thenApply(ignored->{runOnTickThread(this::onZombieFencingSuccess,
+fencingFollowup);awaitFollowup();return null ;});;
+:addCallback((ignored,error)->{synchronized (DistributedHerder.this){activeZombieFencings.remove(connName);
+:}});;
+end
+start
+note right
+Void onZombieFencingSuccess()
+end note
+if (!refreshConfigSnapshot(workerSyncTimeoutMs)) then (yes) 
+:throw new ConnectException("Failed to read to end of config topic");;
+stop
+endif 
+if (taskGen<configState.taskConfigGeneration(connName)) then (yes) 
+:throw new ConnectRestException(Response.Status.CONFLICT.getStatusCode(),
+"Fencing failed because new task configurations were generated for the connector");;
+stop
+endif 
+if (fencingFollowup.isDone()) then (yes) 
+:return null ;;
+stop
+endif 
+:writeToConfigTopicAsLeader(()->configBackingStore.putTaskCountRecord(connName,
+tasksToRecord));;
+:return null ;;
+stop
+end
+start
+note right
+void awaitFollowup()
+end note
+switch (try/catch block)
+case (try)
+:fencingFollowup.get();;
+case (catch (InterruptedException e))
+:throw new ConnectException("Interrupted while performing zombie fencing",e);;
+stop
+case (catch (ExecutionException e))
+:Throwable cause=e.getCause();;
+:throw ConnectUtils.maybeWrap(cause,"Failed to perform round of zombie fencing");;
+stop
+endswitch
+end
+start
+note right
+void completeExceptionally(Throwable t)
+end note
+:Objects.requireNonNull(t);;
+:fencingFollowup.onCompletion(t,null );;
+end
+start
+note right
+void addCallback(Callback<Void> callback)
+end note
+if (fencingFuture==null ) then (yes) 
+:throw new IllegalStateException("The start() method must be invoked before adding callbacks for this zombie fencing");;
+stop
+endif 
+:fencingFuture.whenComplete((ignored,error)->{if (error!=null ){callback.onCompletion(ConnectUtils.maybeWrap(error,
+"Failed to perform zombie fencing"),null );}else {callback.onCompletion(null ,
+null );}});;
+end
+start
+note right
+constructor HerderMetrics(ConnectMetrics connectMetrics)
+end note
+:ConnectMetricsRegistry registry=connectMetrics.registry();;
+:metricGroup=connectMetrics.group(registry.workerRebalanceGroupName());;
+:metricGroup.addValueMetric(registry.connectProtocol,
+now->ConnectProtocolCompatibility.fromProtocolVersion(member.currentProtocolVersion()).name());;
+:metricGroup.addValueMetric(registry.leaderName,
+now->leaderUrl());;
+:metricGroup.addValueMetric(registry.epoch,
+now->(double )generation);;
+:metricGroup.addValueMetric(registry.rebalanceMode,
+now->rebalancing? 1.0d:0.0d);;
+:rebalanceCompletedCounts=metricGroup.sensor("completed-rebalance-count");;
+:rebalanceCompletedCounts.add(metricGroup.metricName(registry.rebalanceCompletedTotal),
+new CumulativeSum());;
+:rebalanceTime=metricGroup.sensor("rebalance-time");;
+:rebalanceTime.add(metricGroup.metricName(registry.rebalanceTimeMax),
+new Max());;
+:rebalanceTime.add(metricGroup.metricName(registry.rebalanceTimeAvg),
+new Avg());;
+:metricGroup.addValueMetric(registry.rebalanceTimeSinceLast,
+now->lastRebalanceCompletedAtMillis==Long.MIN_VALUE? Double.POSITIVE_INFINITY:(double )(now-lastRebalanceCompletedAtMillis));;
+end
+start
+note right
+void close()
+end note
+:metricGroup.close();;
+end
+start
+note right
+void rebalanceStarted(long now)
+end note
+:rebalanceStartedAtMillis=now;;
+:rebalancing=true;;
+end
+start
+note right
+void rebalanceSucceeded(long now)
+end note
+:long duration=Math.max(0L,now-rebalanceStartedAtMillis);;
+:rebalancing=false;;
+:rebalanceCompletedCounts.record(1.0);;
+:rebalanceTime.record(duration);;
+:lastRebalanceCompletedAtMillis=now;;
+end
+start
+note right
+MetricGroup metricGroup()
+end note
+:return metricGroup;;
+stop
 end
 @enduml
 

@@ -189,49 +189,49 @@ var maDataBlocs = {
  , "c1" : "00098"
  , "c1link" : "./qc/secujava/java.io.OutputStreamWriter.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method java.io.OutputStreamWriter.OutputStreamWriter@POLYN178349 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method java.io.OutputStreamWriter.OutputStreamWriter@POLYN180397 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00099"
  , "c1link" : "./qc/secujava/java.io.OutputStreamWriter.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method java.io.OutputStreamWriter.OutputStreamWriter@POLYN178349 the MagicNumber/String  'charsetName' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method java.io.OutputStreamWriter.OutputStreamWriter@POLYN180397 the MagicNumber/String  'charsetName' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/secujava/java.io.OutputStreamWriter.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method java.io.OutputStreamWriter.OutputStreamWriter@POLYN178850 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method java.io.OutputStreamWriter.OutputStreamWriter@POLYN180898 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/secujava/java.io.OutputStreamWriter.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method java.io.OutputStreamWriter.OutputStreamWriter@POLYN179421 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method java.io.OutputStreamWriter.OutputStreamWriter@POLYN181469 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00132"
  , "c1link" : "./qc/secujava/java.io.OutputStreamWriter.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method java.io.OutputStreamWriter.OutputStreamWriter@POLYN179421 the MagicNumber/String  'charset' should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method java.io.OutputStreamWriter.OutputStreamWriter@POLYN181469 the MagicNumber/String  'charset' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00150"
  , "c1link" : "./qc/secujava/java.io.OutputStreamWriter.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method java.io.OutputStreamWriter.OutputStreamWriter@POLYN179994 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method java.io.OutputStreamWriter.OutputStreamWriter@POLYN182042 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/secujava/java.io.OutputStreamWriter.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method java.io.OutputStreamWriter.OutputStreamWriter@POLYN179994 the MagicNumber/String  'charset encoder' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method java.io.OutputStreamWriter.OutputStreamWriter@POLYN182042 the MagicNumber/String  'charset encoder' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -259,21 +259,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.OutputStreamWriter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.OutputStreamWriter.write@POLYN181380"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.OutputStreamWriter.write@POLYN183428"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.OutputStreamWriter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.OutputStreamWriter.write@POLYN181711"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.OutputStreamWriter.write@POLYN183759"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.OutputStreamWriter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.OutputStreamWriter.write@POLYN182133"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.OutputStreamWriter.write@POLYN184181"
 }} 
 ]
 , 
