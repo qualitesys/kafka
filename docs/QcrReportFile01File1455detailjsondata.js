@@ -272,98 +272,98 @@ var maDataBlocs = {
  , "c1" : "00068"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method java.io.FileOutputStream.isRunningFinalize@POLYN230461 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method java.io.FileOutputStream.isRunningFinalize@POLYN231437 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method java.io.FileOutputStream.isRunningFinalize@POLYN230461 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method java.io.FileOutputStream.isRunningFinalize@POLYN231437 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00095"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method java.io.FileOutputStream.FileOutputStream@POLYN231467 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method java.io.FileOutputStream.FileOutputStream@POLYN232445 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00095"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method java.io.FileOutputStream.FileOutputStream@POLYN231467 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method java.io.FileOutputStream.FileOutputStream@POLYN232445 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00095"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method java.io.FileOutputStream.FileOutputStream@POLYN231467 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method java.io.FileOutputStream.FileOutputStream@POLYN232445 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method java.io.FileOutputStream.FileOutputStream@POLYN232672 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method java.io.FileOutputStream.FileOutputStream@POLYN233650 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method java.io.FileOutputStream.FileOutputStream@POLYN232672 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method java.io.FileOutputStream.FileOutputStream@POLYN233650 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00156"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method java.io.FileOutputStream.FileOutputStream@POLYN233810 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method java.io.FileOutputStream.FileOutputStream@POLYN234788 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00191"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method java.io.FileOutputStream.FileOutputStream@POLYN235024 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method java.io.FileOutputStream.FileOutputStream@POLYN236002 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00191"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method java.io.FileOutputStream.FileOutputStream@POLYN235024 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method java.io.FileOutputStream.FileOutputStream@POLYN236002 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00193"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method java.io.FileOutputStream.FileOutputStream@POLYN235024 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method java.io.FileOutputStream.FileOutputStream@POLYN236002 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00196"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method java.io.FileOutputStream.FileOutputStream@POLYN235024 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method java.io.FileOutputStream.FileOutputStream@POLYN236002 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00229"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method java.io.FileOutputStream.FileOutputStream@POLYN236627 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00229] In method java.io.FileOutputStream.FileOutputStream@POLYN237609 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00232"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00232] In method java.io.FileOutputStream.FileOutputStream@POLYN236627 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method java.io.FileOutputStream.FileOutputStream@POLYN237609 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -398,7 +398,7 @@ var maDataBlocs = {
  , "c1" : "00279"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#279"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00279] In method java.io.FileOutputStream.write@POLYN238242 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00279] In method java.io.FileOutputStream.write@POLYN239226 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -419,28 +419,28 @@ var maDataBlocs = {
  , "c1" : "00313"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#313"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00313] In method java.io.FileOutputStream.close@POLYN239216 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00313] In method java.io.FileOutputStream.close@POLYN240200 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00316"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#316"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00316] In method java.io.FileOutputStream.close@POLYN239216 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00316] In method java.io.FileOutputStream.close@POLYN240200 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00335"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#335"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00335] In method java.io.FileOutputStream.close@POLYN239216 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00335] In method java.io.FileOutputStream.close@POLYN240200 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00351"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#351"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00351] In method java.io.FileOutputStream.getFD@POLYN240377 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00351] In method java.io.FileOutputStream.getFD@POLYN241363 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -454,56 +454,56 @@ var maDataBlocs = {
  , "c1" : "00374"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#374"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00374] In method java.io.FileOutputStream.getChannel@POLYN241127 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00374] In method java.io.FileOutputStream.getChannel@POLYN242113 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00375"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#375"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00375] In method java.io.FileOutputStream.getChannel@POLYN241127 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00375] In method java.io.FileOutputStream.getChannel@POLYN242113 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00375"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#375"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00375] In method java.io.FileOutputStream.getChannel@POLYN241127 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00375] In method java.io.FileOutputStream.getChannel@POLYN242113 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00397"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#397"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00397] In method java.io.FileOutputStream.finalize@POLYN241880 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00397] In method java.io.FileOutputStream.finalize@POLYN242866 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.FileOutputStream.close@POLYN239216"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.FileOutputStream.close@POLYN240200"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00313"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#313"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00313] In the recursive method java.io.FileOutputStream.close@POLYN239216 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00313] In the recursive method java.io.FileOutputStream.close@POLYN240200 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00316"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#316"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00316] In the recursive method java.io.FileOutputStream.close@POLYN239216 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00316] In the recursive method java.io.FileOutputStream.close@POLYN240200 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00335"
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#335"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00335] In the recursive method java.io.FileOutputStream.close@POLYN239216 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00335] In the recursive method java.io.FileOutputStream.close@POLYN240200 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -126,14 +126,14 @@ var maDataBlocs = {
  , "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeUserScramCredentialsResult.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.admin.DescribeUserScramCredentialsResult.all@POLYN177972 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.admin.DescribeUserScramCredentialsResult.all@POLYN178948 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00099"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeUserScramCredentialsResult.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.clients.admin.DescribeUserScramCredentialsResult.users@POLYN180447 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.clients.admin.DescribeUserScramCredentialsResult.users@POLYN181429 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -147,14 +147,14 @@ var maDataBlocs = {
  , "c1" : "00121"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeUserScramCredentialsResult.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.clients.admin.DescribeUserScramCredentialsResult.description@POLYN181644 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.clients.admin.DescribeUserScramCredentialsResult.description@POLYN182628 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeUserScramCredentialsResult.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.clients.admin.DescribeUserScramCredentialsResult.description@POLYN181644 the MagicNumber/String  'No such user: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.clients.admin.DescribeUserScramCredentialsResult.description@POLYN182628 the MagicNumber/String  'No such user: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

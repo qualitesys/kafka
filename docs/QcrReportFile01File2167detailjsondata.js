@@ -104,91 +104,91 @@ var maDataBlocs = {
  , "c1" : "00126"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN224202 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN225178 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN224202 the MagicNumber/String  'PASSED 1/5: client configuration' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN225178 the MagicNumber/String  'PASSED 1/5: client configuration' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN224202 the MagicNumber/String  'PASSED 2/5: client JWT retrieval' should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN225178 the MagicNumber/String  'PASSED 2/5: client JWT retrieval' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00149"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN224202 the MagicNumber/String  'PASSED 3/5: client JWT validation' should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN225178 the MagicNumber/String  'PASSED 3/5: client JWT validation' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00158"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN224202 the MagicNumber/String  'PASSED 4/5: broker configuration' should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN225178 the MagicNumber/String  'PASSED 4/5: broker configuration' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00161"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN224202 the MagicNumber/String  'PASSED 5/5: broker JWT validation' should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN225178 the MagicNumber/String  'PASSED 5/5: broker JWT validation' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00165"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN224202 the MagicNumber/String  'SUCCESS' should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN225178 the MagicNumber/String  'SUCCESS' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00166"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN224202 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN225178 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00168"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN224202 the MagicNumber/String  'FAILED:' should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN225178 the MagicNumber/String  'FAILED:' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00172"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN224202 the MagicNumber/String  '%n' should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN225178 the MagicNumber/String  '%n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00176"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN224202 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.tools.OAuthCompatibilityTool.main@POLYN225178 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00193"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.tools.OAuthCompatibilityTool.ArgsHandler.ArgsHandler@POLYN227142 the MagicNumber/String  'oauth-compatibility-tool' should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.tools.OAuthCompatibilityTool.ArgsHandler.ArgsHandler@POLYN228134 the MagicNumber/String  'oauth-compatibility-tool' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00194"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.tools.OAuthCompatibilityTool.ArgsHandler.ArgsHandler@POLYN227142 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.tools.OAuthCompatibilityTool.ArgsHandler.ArgsHandler@POLYN228134 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -216,7 +216,7 @@ var maDataBlocs = {
  , "c1" : "00258"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#258"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.tools.OAuthCompatibilityTool.ArgsHandler.addArgument@POLYN231424 the MagicNumber/String  '--' should be converted to const"
+ , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.tools.OAuthCompatibilityTool.ArgsHandler.addArgument@POLYN232416 the MagicNumber/String  '--' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -230,7 +230,7 @@ var maDataBlocs = {
  , "c1" : "00340"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#340"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00340] In method org.apache.kafka.tools.OAuthCompatibilityTool.ConfigHandler.maybeAddInt@POLYN235965 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00340] In method org.apache.kafka.tools.OAuthCompatibilityTool.ConfigHandler.maybeAddInt@POLYN236967 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -244,7 +244,7 @@ var maDataBlocs = {
  , "c1" : "00347"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#347"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.tools.OAuthCompatibilityTool.ConfigHandler.maybeAddLong@POLYN236335 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.tools.OAuthCompatibilityTool.ConfigHandler.maybeAddLong@POLYN237339 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -258,7 +258,7 @@ var maDataBlocs = {
  , "c1" : "00354"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#354"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.tools.OAuthCompatibilityTool.ConfigHandler.maybeAddString@POLYN236705 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.tools.OAuthCompatibilityTool.ConfigHandler.maybeAddString@POLYN237711 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -272,7 +272,7 @@ var maDataBlocs = {
  , "c1" : "00361"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#361"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00361] In method org.apache.kafka.tools.OAuthCompatibilityTool.ConfigHandler.maybeAddPassword@POLYN237075 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00361] In method org.apache.kafka.tools.OAuthCompatibilityTool.ConfigHandler.maybeAddPassword@POLYN238083 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -286,14 +286,14 @@ var maDataBlocs = {
  , "c1" : "00368"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#368"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.tools.OAuthCompatibilityTool.ConfigHandler.maybeAddClass@POLYN237483 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.tools.OAuthCompatibilityTool.ConfigHandler.maybeAddClass@POLYN238493 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00372"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#372"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.tools.OAuthCompatibilityTool.ConfigHandler.maybeAddClass@POLYN237483 the MagicNumber/String  'Could not find class for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.tools.OAuthCompatibilityTool.ConfigHandler.maybeAddClass@POLYN238493 the MagicNumber/String  'Could not find class for ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -307,7 +307,7 @@ var maDataBlocs = {
  , "c1" : "00380"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#380"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.tools.OAuthCompatibilityTool.ConfigHandler.maybeAddStringList@POLYN238095 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.tools.OAuthCompatibilityTool.ConfigHandler.maybeAddStringList@POLYN239107 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

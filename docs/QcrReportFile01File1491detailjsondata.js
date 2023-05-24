@@ -318,7 +318,7 @@ var maDataBlocs = {
  , "c2" : "1"
  , "c3" : "3"
  , "c4" : "3"
- , "c5" : ["java.net.ServerSocket.accept@POLYN323882.(SocketImpl)null" , "java.net.ServerSocket.implAccept@POLYN324826.cibledummy_00501"]
+ , "c5" : ["java.net.ServerSocket.accept@POLYN324864.(SocketImpl)null" , "java.net.ServerSocket.implAccept@POLYN325810.cibledummy_00501"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -333,7 +333,7 @@ var maDataBlocs = {
  , "c2" : "2"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["50" , "java.net.ServerSocket.ServerSocket@POLYN314913.cibledummy_00220"]
+ , "c5" : ["50" , "java.net.ServerSocket.ServerSocket@POLYN315889.cibledummy_00220"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -348,7 +348,7 @@ var maDataBlocs = {
  , "c2" : "3"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.net.ServerSocket.getImpl@POLYN315996.return" , "java.net.ServerSocket.getImpl@POLYN315996.return"]
+ , "c5" : ["java.net.ServerSocket.getImpl@POLYN316972.return" , "java.net.ServerSocket.getImpl@POLYN316972.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -363,7 +363,7 @@ var maDataBlocs = {
  , "c2" : "4"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["0" , "java.net.ServerSocket.getReceiveBufferSize@POLYN335756.return"]
+ , "c5" : ["0" , "java.net.ServerSocket.getReceiveBufferSize@POLYN336748.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -378,7 +378,7 @@ var maDataBlocs = {
  , "c2" : "5"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["true" , "java.net.ServerSocket.isClosed@POLYN327853.return"]
+ , "c5" : ["true" , "java.net.ServerSocket.isClosed@POLYN328841.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -394,24 +394,24 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00468]"
- , "c3" : ["java.net.ServerSocket.accept@POLYN323882.(SocketImpl)null" , "---java.net.ServerSocket.accept@POLYN323882.dummymethode_00468" , "java.net.ServerSocket.accept@POLYN323882.s"]
- , "c4" : "//QC-JAVCWZ099[00468] In java.net.ServerSocket.accept@POLYN323882[00468] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
+ , "c3" : ["java.net.ServerSocket.accept@POLYN324864.(SocketImpl)null" , "---java.net.ServerSocket.accept@POLYN324864.dummymethode_00468" , "java.net.ServerSocket.accept@POLYN324864.s"]
+ , "c4" : "//QC-JAVCWZ099[00468] In java.net.ServerSocket.accept@POLYN324864[00468] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00470]"
- , "c3" : ["java.net.ServerSocket.accept@POLYN323882.s" , "---java.net.ServerSocket.accept@POLYN323882.dummymethode_00470" , "java.net.ServerSocket.accept@POLYN323882.return"]
- , "c4" : "//QC-JAVCWZ099[00470] In java.net.ServerSocket.accept@POLYN323882[00470] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
+ , "c3" : ["java.net.ServerSocket.accept@POLYN324864.s" , "---java.net.ServerSocket.accept@POLYN324864.dummymethode_00470" , "java.net.ServerSocket.accept@POLYN324864.return"]
+ , "c4" : "//QC-JAVCWZ099[00470] In java.net.ServerSocket.accept@POLYN324864[00470] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "3"
  , "sourcenoligne" : "[00501]"
- , "c3" : ["java.net.ServerSocket.accept@POLYN323882.return" , "---java.net.ServerSocket.accept@POLYN323882" , "java.net.ServerSocket.implAccept@POLYN324826.cibledummy_00501"]
- , "c4" : "//QC-JAVCWZ099[00501] In java.net.ServerSocket.implAccept@POLYN324826[00501] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
+ , "c3" : ["java.net.ServerSocket.accept@POLYN324864.return" , "---java.net.ServerSocket.accept@POLYN324864" , "java.net.ServerSocket.implAccept@POLYN325810.cibledummy_00501"]
+ , "c4" : "//QC-JAVCWZ099[00501] In java.net.ServerSocket.implAccept@POLYN325810[00501] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
@@ -450,16 +450,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00218]"
- , "c3" : ["50" , "---java.net.ServerSocket.ServerSocket@POLYN314913.dummymethode_00218" , "java.net.ServerSocket.ServerSocket@POLYN314913.backlog"]
- , "c4" : "//QC-JAVCWE099[00218] In java.net.ServerSocket.ServerSocket@POLYN314913[00218] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
+ , "c3" : ["50" , "---java.net.ServerSocket.ServerSocket@POLYN315889.dummymethode_00218" , "java.net.ServerSocket.ServerSocket@POLYN315889.backlog"]
+ , "c4" : "//QC-JAVCWE099[00218] In java.net.ServerSocket.ServerSocket@POLYN315889[00218] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00220]"
- , "c3" : ["java.net.ServerSocket.ServerSocket@POLYN314913.backlog" , "---java.net.ServerSocket.bind@POLYN319376" , "java.net.ServerSocket.ServerSocket@POLYN314913.cibledummy_00220"]
- , "c4" : "//QC-JAVCWE099[00220] In java.net.ServerSocket.ServerSocket@POLYN314913[00220] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
+ , "c3" : ["java.net.ServerSocket.ServerSocket@POLYN315889.backlog" , "---java.net.ServerSocket.bind@POLYN320354" , "java.net.ServerSocket.ServerSocket@POLYN315889.cibledummy_00220"]
+ , "c4" : "//QC-JAVCWE099[00220] In java.net.ServerSocket.ServerSocket@POLYN315889[00220] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
@@ -498,16 +498,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00356]"
- , "c3" : ["java.net.ServerSocket.getImpl@POLYN315996.return" , "---java.net.ServerSocket.getImpl@POLYN315996" , "java.net.ServerSocket.bind@POLYN319376.cibledummy_00356"]
- , "c4" : "//QC-JAVCWZ099[00356] In java.net.ServerSocket.bind@POLYN319376[00356] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
+ , "c3" : ["java.net.ServerSocket.getImpl@POLYN316972.return" , "---java.net.ServerSocket.getImpl@POLYN316972" , "java.net.ServerSocket.bind@POLYN320354.cibledummy_00356"]
+ , "c4" : "//QC-JAVCWZ099[00356] In java.net.ServerSocket.bind@POLYN320354[00356] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00241]"
- , "c3" : ["java.net.ServerSocket.impl" , "---java.net.ServerSocket.getImpl@POLYN315996.dummymethode_00241" , "java.net.ServerSocket.getImpl@POLYN315996.return"]
- , "c4" : "//QC-JAVCWZ099[00241] In java.net.ServerSocket.getImpl@POLYN315996[00241] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
+ , "c3" : ["java.net.ServerSocket.impl" , "---java.net.ServerSocket.getImpl@POLYN316972.dummymethode_00241" , "java.net.ServerSocket.getImpl@POLYN316972.return"]
+ , "c4" : "//QC-JAVCWZ099[00241] In java.net.ServerSocket.getImpl@POLYN316972[00241] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
@@ -546,16 +546,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00812]"
- , "c3" : ["0" , "---java.net.ServerSocket.getReceiveBufferSize@POLYN335756.dummymethode_00812" , "java.net.ServerSocket.getReceiveBufferSize@POLYN335756.result"]
- , "c4" : "//QC-JAVCWE099[00812] In java.net.ServerSocket.getReceiveBufferSize@POLYN335756[00812] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
+ , "c3" : ["0" , "---java.net.ServerSocket.getReceiveBufferSize@POLYN336748.dummymethode_00812" , "java.net.ServerSocket.getReceiveBufferSize@POLYN336748.result"]
+ , "c4" : "//QC-JAVCWE099[00812] In java.net.ServerSocket.getReceiveBufferSize@POLYN336748[00812] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00817]"
- , "c3" : ["java.net.ServerSocket.getReceiveBufferSize@POLYN335756.result" , "---java.net.ServerSocket.getReceiveBufferSize@POLYN335756.dummymethode_00817" , "java.net.ServerSocket.getReceiveBufferSize@POLYN335756.return"]
- , "c4" : "//QC-JAVCWE099[00817] In java.net.ServerSocket.getReceiveBufferSize@POLYN335756[00817] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
+ , "c3" : ["java.net.ServerSocket.getReceiveBufferSize@POLYN336748.result" , "---java.net.ServerSocket.getReceiveBufferSize@POLYN336748.dummymethode_00817" , "java.net.ServerSocket.getReceiveBufferSize@POLYN336748.return"]
+ , "c4" : "//QC-JAVCWE099[00817] In java.net.ServerSocket.getReceiveBufferSize@POLYN336748[00817] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
@@ -594,16 +594,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00542]"
- , "c3" : ["true" , "---java.net.ServerSocket.close@POLYN326743.dummymethode_00542" , "java.net.ServerSocket.closed"]
- , "c4" : "//QC-JAVCWE099[00542] In java.net.ServerSocket.close@POLYN326743[00542] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
+ , "c3" : ["true" , "---java.net.ServerSocket.close@POLYN327731.dummymethode_00542" , "java.net.ServerSocket.closed"]
+ , "c4" : "//QC-JAVCWE099[00542] In java.net.ServerSocket.close@POLYN327731[00542] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00585]"
- , "c3" : ["java.net.ServerSocket.closed" , "---java.net.ServerSocket.isClosed@POLYN327853.dummymethode_00585" , "java.net.ServerSocket.isClosed@POLYN327853.return"]
- , "c4" : "//QC-JAVCWE099[00585] In java.net.ServerSocket.isClosed@POLYN327853[00585] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
+ , "c3" : ["java.net.ServerSocket.closed" , "---java.net.ServerSocket.isClosed@POLYN328841.dummymethode_00585" , "java.net.ServerSocket.isClosed@POLYN328841.return"]
+ , "c4" : "//QC-JAVCWE099[00585] In java.net.ServerSocket.isClosed@POLYN328841[00585] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
@@ -649,7 +649,7 @@ var maDataBlocs = {
 ,
 { "ligne" :  "R1:java.net.ServerSocket.this" }
 ,
-{ "ligne" :  "R2:java.net.ServerSocket.setSocketFactory@POLYN333177.fac" }
+{ "ligne" :  "R2:java.net.ServerSocket.setSocketFactory@POLYN334167.fac" }
 ]
 ,
 "data12b" : [
@@ -742,140 +742,140 @@ var maDataBlocs = {
  , "c1" : "00119"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method java.net.ServerSocket.ServerSocket@POLYN311826 the MagicNumber/String  50 should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method java.net.ServerSocket.ServerSocket@POLYN312802 the MagicNumber/String  50 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00119"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method java.net.ServerSocket.ServerSocket@POLYN311826 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method java.net.ServerSocket.ServerSocket@POLYN312802 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00168"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method java.net.ServerSocket.ServerSocket@POLYN313421 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method java.net.ServerSocket.ServerSocket@POLYN314397 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00214"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method java.net.ServerSocket.ServerSocket@POLYN314913 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00214] In method java.net.ServerSocket.ServerSocket@POLYN315889 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00214"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method java.net.ServerSocket.ServerSocket@POLYN314913 the MagicNumber/String  0xFFFF should be converted to const"
+ , "c3" : "QC-JAV000010[00214] In method java.net.ServerSocket.ServerSocket@POLYN315889 the MagicNumber/String  0xFFFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00216"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00216] In method java.net.ServerSocket.ServerSocket@POLYN314913 the MagicNumber/String  'Port value out of range: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method java.net.ServerSocket.ServerSocket@POLYN315889 the MagicNumber/String  'Port value out of range: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00217"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method java.net.ServerSocket.ServerSocket@POLYN314913 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method java.net.ServerSocket.ServerSocket@POLYN315889 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00218"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method java.net.ServerSocket.ServerSocket@POLYN314913 the MagicNumber/String  50 should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method java.net.ServerSocket.ServerSocket@POLYN315889 the MagicNumber/String  50 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00245"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#245"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00245] In method java.net.ServerSocket.checkOldImpl@POLYN316173 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00245] In method java.net.ServerSocket.checkOldImpl@POLYN317149 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00253"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#253"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method java.net.ServerSocket.checkOldImpl@POLYN316173 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00253] In method java.net.ServerSocket.checkOldImpl@POLYN317149 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00254"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#254"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00254] In method java.net.ServerSocket.checkOldImpl@POLYN316173 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00254] In method java.net.ServerSocket.checkOldImpl@POLYN317149 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00255"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#255"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00255] In method java.net.ServerSocket.checkOldImpl@POLYN316173 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00255] In method java.net.ServerSocket.checkOldImpl@POLYN317149 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00256"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#256"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00256] In method java.net.ServerSocket.checkOldImpl@POLYN316173 the MagicNumber/String  'connect' should be converted to const"
+ , "c3" : "QC-JAV000010[00256] In method java.net.ServerSocket.checkOldImpl@POLYN317149 the MagicNumber/String  'connect' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00257"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#257"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00257] In method java.net.ServerSocket.checkOldImpl@POLYN316173 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00257] In method java.net.ServerSocket.checkOldImpl@POLYN317149 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00261"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#261"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00261] In method java.net.ServerSocket.checkOldImpl@POLYN316173 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00261] In method java.net.ServerSocket.checkOldImpl@POLYN317149 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00266"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#266"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00266] In method java.net.ServerSocket.setImpl@POLYN317047 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00266] In method java.net.ServerSocket.setImpl@POLYN318025 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00274"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#274"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00274] In method java.net.ServerSocket.setImpl@POLYN317047 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00274] In method java.net.ServerSocket.setImpl@POLYN318025 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00285"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00285] In method java.net.ServerSocket.createImpl@POLYN317576 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00285] In method java.net.ServerSocket.createImpl@POLYN318554 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00288"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#288"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00288] In method java.net.ServerSocket.createImpl@POLYN317576 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00288] In method java.net.ServerSocket.createImpl@POLYN318554 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00289"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#289"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00289] In method java.net.ServerSocket.createImpl@POLYN317576 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00289] In method java.net.ServerSocket.createImpl@POLYN318554 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -889,7 +889,7 @@ var maDataBlocs = {
  , "c1" : "00313"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#313"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00313] In method java.net.ServerSocket.bind@POLYN318537 the MagicNumber/String  50 should be converted to const"
+ , "c3" : "QC-JAV000010[00313] In method java.net.ServerSocket.bind@POLYN319515 the MagicNumber/String  50 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -903,84 +903,84 @@ var maDataBlocs = {
  , "c1" : "00339"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#339"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00339] In method java.net.ServerSocket.bind@POLYN319376 the MagicNumber/String  'Socket is closed' should be converted to const"
+ , "c3" : "QC-JAV000010[00339] In method java.net.ServerSocket.bind@POLYN320354 the MagicNumber/String  'Socket is closed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00341"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#341"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00341] In method java.net.ServerSocket.bind@POLYN319376 the MagicNumber/String  'Already bound' should be converted to const"
+ , "c3" : "QC-JAV000010[00341] In method java.net.ServerSocket.bind@POLYN320354 the MagicNumber/String  'Already bound' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00342"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#342"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00342] In method java.net.ServerSocket.bind@POLYN319376 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00342] In method java.net.ServerSocket.bind@POLYN320354 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00343"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#343"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00343] In method java.net.ServerSocket.bind@POLYN319376 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00343] In method java.net.ServerSocket.bind@POLYN320354 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00345"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#345"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00345] In method java.net.ServerSocket.bind@POLYN319376 the MagicNumber/String  'Unsupported address type' should be converted to const"
+ , "c3" : "QC-JAV000010[00345] In method java.net.ServerSocket.bind@POLYN320354 the MagicNumber/String  'Unsupported address type' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00348"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#348"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00348] In method java.net.ServerSocket.bind@POLYN319376 the MagicNumber/String  'Unresolved address' should be converted to const"
+ , "c3" : "QC-JAV000010[00348] In method java.net.ServerSocket.bind@POLYN320354 the MagicNumber/String  'Unresolved address' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00349"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#349"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00349] In method java.net.ServerSocket.bind@POLYN319376 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00349] In method java.net.ServerSocket.bind@POLYN320354 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00350"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#350"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00350] In method java.net.ServerSocket.bind@POLYN319376 the MagicNumber/String  50 should be converted to const"
+ , "c3" : "QC-JAV000010[00350] In method java.net.ServerSocket.bind@POLYN320354 the MagicNumber/String  50 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00353"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#353"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00353] In method java.net.ServerSocket.bind@POLYN319376 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00353] In method java.net.ServerSocket.bind@POLYN320354 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00357"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#357"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00357] In method java.net.ServerSocket.bind@POLYN319376 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00357] In method java.net.ServerSocket.bind@POLYN320354 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00359"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#359"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00359] In method java.net.ServerSocket.bind@POLYN319376 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00359] In method java.net.ServerSocket.bind@POLYN320354 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00362"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#362"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00362] In method java.net.ServerSocket.bind@POLYN319376 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00362] In method java.net.ServerSocket.bind@POLYN320354 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -994,14 +994,14 @@ var maDataBlocs = {
  , "c1" : "00379"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#379"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00379] In method java.net.ServerSocket.getInetAddress@POLYN321440 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00379] In method java.net.ServerSocket.getInetAddress@POLYN322422 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00387"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#387"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00387] In method java.net.ServerSocket.getInetAddress@POLYN321440 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00387] In method java.net.ServerSocket.getInetAddress@POLYN322422 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1015,42 +1015,42 @@ var maDataBlocs = {
  , "c1" : "00402"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#402"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00402] In method java.net.ServerSocket.getLocalPort@POLYN322014 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00402] In method java.net.ServerSocket.getLocalPort@POLYN322996 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00410"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#410"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00410] In method java.net.ServerSocket.getLocalPort@POLYN322014 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00410] In method java.net.ServerSocket.getLocalPort@POLYN322996 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00431"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#431"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00431] In method java.net.ServerSocket.getLocalSocketAddress@POLYN322789 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00431] In method java.net.ServerSocket.getLocalSocketAddress@POLYN323771 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00465"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#465"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00465] In method java.net.ServerSocket.accept@POLYN323882 the MagicNumber/String  'Socket is closed' should be converted to const"
+ , "c3" : "QC-JAV000010[00465] In method java.net.ServerSocket.accept@POLYN324864 the MagicNumber/String  'Socket is closed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00467"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#467"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00467] In method java.net.ServerSocket.accept@POLYN323882 the MagicNumber/String  'Socket is not bound yet' should be converted to const"
+ , "c3" : "QC-JAV000010[00467] In method java.net.ServerSocket.accept@POLYN324864 the MagicNumber/String  'Socket is not bound yet' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00468"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#468"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00468] In method java.net.ServerSocket.accept@POLYN323882 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00468] In method java.net.ServerSocket.accept@POLYN324864 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1064,42 +1064,42 @@ var maDataBlocs = {
  , "c1" : "00490"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#490"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00490] In method java.net.ServerSocket.implAccept@POLYN324826 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00490] In method java.net.ServerSocket.implAccept@POLYN325810 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00492"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#492"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00492] In method java.net.ServerSocket.implAccept@POLYN324826 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00492] In method java.net.ServerSocket.implAccept@POLYN325810 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00498"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#498"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00498] In method java.net.ServerSocket.implAccept@POLYN324826 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00498] In method java.net.ServerSocket.implAccept@POLYN325810 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00504"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#504"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00504] In method java.net.ServerSocket.implAccept@POLYN324826 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00504] In method java.net.ServerSocket.implAccept@POLYN325810 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00509"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#509"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00509] In method java.net.ServerSocket.implAccept@POLYN324826 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00509] In method java.net.ServerSocket.implAccept@POLYN325810 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00514"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#514"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00514] In method java.net.ServerSocket.implAccept@POLYN324826 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00514] In method java.net.ServerSocket.implAccept@POLYN325810 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1113,14 +1113,14 @@ var maDataBlocs = {
  , "c1" : "00542"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#542"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00542] In method java.net.ServerSocket.close@POLYN326743 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00542] In method java.net.ServerSocket.close@POLYN327731 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00563"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#563"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00563] In method java.net.ServerSocket.getChannel@POLYN327455 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00563] In method java.net.ServerSocket.getChannel@POLYN328443 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1148,7 +1148,7 @@ var maDataBlocs = {
  , "c1" : "00607"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#607"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00607] In method java.net.ServerSocket.setSoTimeout@POLYN328514 the MagicNumber/String  'Socket is closed' should be converted to const"
+ , "c3" : "QC-JAV000010[00607] In method java.net.ServerSocket.setSoTimeout@POLYN329502 the MagicNumber/String  'Socket is closed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1162,21 +1162,21 @@ var maDataBlocs = {
  , "c1" : "00619"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#619"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00619] For method getSoTimeout list of called methods Object monObjet|SocketImpl getImplN329272"
+ , "c3" : "QC-JAV000007[00619] For method getSoTimeout list of called methods Object monObjet|SocketImpl getImplN330262"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00621"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#621"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00621] In method java.net.ServerSocket.getSoTimeout@POLYN329066 the MagicNumber/String  'Socket is closed' should be converted to const"
+ , "c3" : "QC-JAV000010[00621] In method java.net.ServerSocket.getSoTimeout@POLYN330054 the MagicNumber/String  'Socket is closed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00627"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#627"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00627] In method java.net.ServerSocket.getSoTimeout@POLYN329066 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00627] In method java.net.ServerSocket.getSoTimeout@POLYN330054 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1190,63 +1190,63 @@ var maDataBlocs = {
  , "c1" : "00669"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#669"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00669] In method java.net.ServerSocket.setReuseAddress@POLYN330711 the MagicNumber/String  'Socket is closed' should be converted to const"
+ , "c3" : "QC-JAV000010[00669] In method java.net.ServerSocket.setReuseAddress@POLYN331701 the MagicNumber/String  'Socket is closed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00684"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#684"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00684] In method java.net.ServerSocket.getReuseAddress@POLYN331280 the MagicNumber/String  'Socket is closed' should be converted to const"
+ , "c3" : "QC-JAV000010[00684] In method java.net.ServerSocket.getReuseAddress@POLYN332270 the MagicNumber/String  'Socket is closed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00696"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#696"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00696] In method java.net.ServerSocket.toString@POLYN331767 the MagicNumber/String  'ServerSocket[unbound]' should be converted to const"
+ , "c3" : "QC-JAV000010[00696] In method java.net.ServerSocket.toString@POLYN332757 the MagicNumber/String  'ServerSocket[unbound]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00697"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#697"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00697] In method java.net.ServerSocket.toString@POLYN331767 the MagicNumber/String  'ServerSocket[addr=' should be converted to const"
+ , "c3" : "QC-JAV000010[00697] In method java.net.ServerSocket.toString@POLYN332757 the MagicNumber/String  'ServerSocket[addr=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00698"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#698"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00698] In method java.net.ServerSocket.toString@POLYN331767 the MagicNumber/String  ',port=' should be converted to const"
+ , "c3" : "QC-JAV000010[00698] In method java.net.ServerSocket.toString@POLYN332757 the MagicNumber/String  ',port=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00699"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#699"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00699] In method java.net.ServerSocket.toString@POLYN331767 the MagicNumber/String  ',localport=' should be converted to const"
+ , "c3" : "QC-JAV000010[00699] In method java.net.ServerSocket.toString@POLYN332757 the MagicNumber/String  ',localport=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00699"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#699"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00699] In method java.net.ServerSocket.toString@POLYN331767 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00699] In method java.net.ServerSocket.toString@POLYN332757 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00703"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#703"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00703] In method java.net.ServerSocket.setBound@POLYN332130 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00703] In method java.net.ServerSocket.setBound@POLYN333120 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00707"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#707"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00707] In method java.net.ServerSocket.setCreated@POLYN332222 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00707] In method java.net.ServerSocket.setCreated@POLYN333212 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1267,21 +1267,21 @@ var maDataBlocs = {
  , "c1" : "00741"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#741"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00741] In method java.net.ServerSocket.setSocketFactory@POLYN333177 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00741] In method java.net.ServerSocket.setSocketFactory@POLYN334167 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00742"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#742"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00742] In method java.net.ServerSocket.setSocketFactory@POLYN333177 the MagicNumber/String  'factory already defined' should be converted to const"
+ , "c3" : "QC-JAV000010[00742] In method java.net.ServerSocket.setSocketFactory@POLYN334167 the MagicNumber/String  'factory already defined' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00745"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#745"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00745] In method java.net.ServerSocket.setSocketFactory@POLYN333177 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00745] In method java.net.ServerSocket.setSocketFactory@POLYN334167 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1302,21 +1302,21 @@ var maDataBlocs = {
  , "c1" : "00787"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#787"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00787] In method java.net.ServerSocket.setReceiveBufferSize@POLYN334793 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00787] In method java.net.ServerSocket.setReceiveBufferSize@POLYN335785 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00788"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#788"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00788] In method java.net.ServerSocket.setReceiveBufferSize@POLYN334793 the MagicNumber/String  'negative receive size' should be converted to const"
+ , "c3" : "QC-JAV000010[00788] In method java.net.ServerSocket.setReceiveBufferSize@POLYN335785 the MagicNumber/String  'negative receive size' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00791"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#791"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00791] In method java.net.ServerSocket.setReceiveBufferSize@POLYN334793 the MagicNumber/String  'Socket is closed' should be converted to const"
+ , "c3" : "QC-JAV000010[00791] In method java.net.ServerSocket.setReceiveBufferSize@POLYN335785 the MagicNumber/String  'Socket is closed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1330,21 +1330,21 @@ var maDataBlocs = {
  , "c1" : "00808"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#808"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00808] For method getReceiveBufferSize list of called methods Object monObjet|SocketImpl getImplN336019"
+ , "c3" : "QC-JAV000007[00808] For method getReceiveBufferSize list of called methods Object monObjet|SocketImpl getImplN337015"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00811"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#811"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00811] In method java.net.ServerSocket.getReceiveBufferSize@POLYN335756 the MagicNumber/String  'Socket is closed' should be converted to const"
+ , "c3" : "QC-JAV000010[00811] In method java.net.ServerSocket.getReceiveBufferSize@POLYN336748 the MagicNumber/String  'Socket is closed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00812"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#812"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00812] In method java.net.ServerSocket.getReceiveBufferSize@POLYN335756 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00812] In method java.net.ServerSocket.getReceiveBufferSize@POLYN336748 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1372,287 +1372,287 @@ var maDataBlocs = {
  , "c1" : "00220"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#220"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[00220] In java.net.ServerSocket.ServerSocket@POLYN314913[00220] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
+ , "c3" : "QC-JAVCWE099[00220] In java.net.ServerSocket.ServerSocket@POLYN315889[00220] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00218"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#218"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[00218] In java.net.ServerSocket.ServerSocket@POLYN314913[00218] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
+ , "c3" : "QC-JAVCWE099[00218] In java.net.ServerSocket.ServerSocket@POLYN315889[00218] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00817"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#817"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[00817] In java.net.ServerSocket.getReceiveBufferSize@POLYN335756[00817] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
+ , "c3" : "QC-JAVCWE099[00817] In java.net.ServerSocket.getReceiveBufferSize@POLYN336748[00817] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00812"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#812"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[00812] In java.net.ServerSocket.getReceiveBufferSize@POLYN335756[00812] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
+ , "c3" : "QC-JAVCWE099[00812] In java.net.ServerSocket.getReceiveBufferSize@POLYN336748[00812] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00585"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#585"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[00585] In java.net.ServerSocket.isClosed@POLYN327853[00585] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
+ , "c3" : "QC-JAVCWE099[00585] In java.net.ServerSocket.isClosed@POLYN328841[00585] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00542"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#542"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[00542] In java.net.ServerSocket.close@POLYN326743[00542] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
+ , "c3" : "QC-JAVCWE099[00542] In java.net.ServerSocket.close@POLYN327731[00542] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.net.ServerSocket.bind@POLYN319376"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.net.ServerSocket.bind@POLYN320354"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.net.ServerSocket.close@POLYN326743"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.net.ServerSocket.close@POLYN327731"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.net.ServerSocket.getSoTimeout@POLYN329066"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.net.ServerSocket.getSoTimeout@POLYN330054"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.net.ServerSocket.implAccept@POLYN324826 ending with method java.net.ServerSocket.accept@POLYN323882"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.net.ServerSocket.implAccept@POLYN325810 ending with method java.net.ServerSocket.accept@POLYN324864"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--java.net.ServerSocket.implAccept@POLYN324826"
+ , "c3" : "QC-JAV999995[00001] +--java.net.ServerSocket.implAccept@POLYN325810"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--java.net.ServerSocket.accept@POLYN323882"
+ , "c3" : "QC-JAV999995[00001] +--+--java.net.ServerSocket.accept@POLYN324864"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.net.ServerSocket.accept@POLYN323882 ending with method java.net.ServerSocket.implAccept@POLYN324826"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.net.ServerSocket.accept@POLYN324864 ending with method java.net.ServerSocket.implAccept@POLYN325810"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--java.net.ServerSocket.accept@POLYN323882"
+ , "c3" : "QC-JAV999995[00001] +--java.net.ServerSocket.accept@POLYN324864"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--java.net.ServerSocket.implAccept@POLYN324826"
+ , "c3" : "QC-JAV999995[00001] +--+--java.net.ServerSocket.implAccept@POLYN325810"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.net.ServerSocket.getReuseAddress@POLYN331280"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.net.ServerSocket.getReuseAddress@POLYN332270"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00339"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#339"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00339] In the recursive method java.net.ServerSocket.bind@POLYN319376 the MagicNumber/String 'Socket is closed' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00339] In the recursive method java.net.ServerSocket.bind@POLYN320354 the MagicNumber/String 'Socket is closed' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00341"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#341"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00341] In the recursive method java.net.ServerSocket.bind@POLYN319376 the MagicNumber/String 'Already bound' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00341] In the recursive method java.net.ServerSocket.bind@POLYN320354 the MagicNumber/String 'Already bound' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00342"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#342"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00342] In the recursive method java.net.ServerSocket.bind@POLYN319376 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00342] In the recursive method java.net.ServerSocket.bind@POLYN320354 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00343"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#343"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00343] In the recursive method java.net.ServerSocket.bind@POLYN319376 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00343] In the recursive method java.net.ServerSocket.bind@POLYN320354 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00345"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#345"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00345] In the recursive method java.net.ServerSocket.bind@POLYN319376 the MagicNumber/String 'Unsupported address type' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00345] In the recursive method java.net.ServerSocket.bind@POLYN320354 the MagicNumber/String 'Unsupported address type' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00348"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#348"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00348] In the recursive method java.net.ServerSocket.bind@POLYN319376 the MagicNumber/String 'Unresolved address' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00348] In the recursive method java.net.ServerSocket.bind@POLYN320354 the MagicNumber/String 'Unresolved address' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00349"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#349"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00349] In the recursive method java.net.ServerSocket.bind@POLYN319376 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00349] In the recursive method java.net.ServerSocket.bind@POLYN320354 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00350"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#350"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00350] In the recursive method java.net.ServerSocket.bind@POLYN319376 the MagicNumber/String 50 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00350] In the recursive method java.net.ServerSocket.bind@POLYN320354 the MagicNumber/String 50 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00353"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#353"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00353] In the recursive method java.net.ServerSocket.bind@POLYN319376 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00353] In the recursive method java.net.ServerSocket.bind@POLYN320354 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00357"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#357"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00357] In the recursive method java.net.ServerSocket.bind@POLYN319376 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00357] In the recursive method java.net.ServerSocket.bind@POLYN320354 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00359"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#359"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00359] In the recursive method java.net.ServerSocket.bind@POLYN319376 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00359] In the recursive method java.net.ServerSocket.bind@POLYN320354 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00362"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#362"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00362] In the recursive method java.net.ServerSocket.bind@POLYN319376 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00362] In the recursive method java.net.ServerSocket.bind@POLYN320354 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00542"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#542"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00542] In the recursive method java.net.ServerSocket.close@POLYN326743 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00542] In the recursive method java.net.ServerSocket.close@POLYN327731 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00621"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#621"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00621] In the recursive method java.net.ServerSocket.getSoTimeout@POLYN329066 the MagicNumber/String 'Socket is closed' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00621] In the recursive method java.net.ServerSocket.getSoTimeout@POLYN330054 the MagicNumber/String 'Socket is closed' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00627"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#627"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00627] In the recursive method java.net.ServerSocket.getSoTimeout@POLYN329066 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00627] In the recursive method java.net.ServerSocket.getSoTimeout@POLYN330054 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00490"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#490"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00490] In the recursive method java.net.ServerSocket.implAccept@POLYN324826 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00490] In the recursive method java.net.ServerSocket.implAccept@POLYN325810 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00492"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#492"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00492] In the recursive method java.net.ServerSocket.implAccept@POLYN324826 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00492] In the recursive method java.net.ServerSocket.implAccept@POLYN325810 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00498"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#498"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00498] In the recursive method java.net.ServerSocket.implAccept@POLYN324826 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00498] In the recursive method java.net.ServerSocket.implAccept@POLYN325810 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00504"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#504"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00504] In the recursive method java.net.ServerSocket.implAccept@POLYN324826 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00504] In the recursive method java.net.ServerSocket.implAccept@POLYN325810 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00509"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#509"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00509] In the recursive method java.net.ServerSocket.implAccept@POLYN324826 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00509] In the recursive method java.net.ServerSocket.implAccept@POLYN325810 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00514"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#514"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00514] In the recursive method java.net.ServerSocket.implAccept@POLYN324826 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00514] In the recursive method java.net.ServerSocket.implAccept@POLYN325810 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00465"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#465"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00465] In the recursive method java.net.ServerSocket.accept@POLYN323882 the MagicNumber/String 'Socket is closed' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00465] In the recursive method java.net.ServerSocket.accept@POLYN324864 the MagicNumber/String 'Socket is closed' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00467"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#467"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00467] In the recursive method java.net.ServerSocket.accept@POLYN323882 the MagicNumber/String 'Socket is not bound yet' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00467] In the recursive method java.net.ServerSocket.accept@POLYN324864 the MagicNumber/String 'Socket is not bound yet' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00468"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#468"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00468] In the recursive method java.net.ServerSocket.accept@POLYN323882 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00468] In the recursive method java.net.ServerSocket.accept@POLYN324864 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00684"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#684"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00684] In the recursive method java.net.ServerSocket.getReuseAddress@POLYN331280 the MagicNumber/String 'Socket is closed' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00684] In the recursive method java.net.ServerSocket.getReuseAddress@POLYN332270 the MagicNumber/String 'Socket is closed' MUST BE CONVERTED to const"
 }} 
 ]
 , 

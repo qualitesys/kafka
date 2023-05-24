@@ -90,14 +90,14 @@ var maDataBlocs = {
  , "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/BytesDeserializer.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.serialization.BytesDeserializer.deserialize@POLYN147730 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.serialization.BytesDeserializer.deserialize@POLYN148706 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00024"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/BytesDeserializer.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.serialization.BytesDeserializer.deserialize@POLYN147730 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.serialization.BytesDeserializer.deserialize@POLYN148706 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

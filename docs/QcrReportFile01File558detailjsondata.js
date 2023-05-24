@@ -557,49 +557,49 @@ var maDataBlocs = {
  , "c1" : "00153"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.common.record.DefaultRecordBatch.ensureValid@POLYN263488 the MagicNumber/String  'Record batch is corrupt (the size ' should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.common.record.DefaultRecordBatch.ensureValid@POLYN264464 the MagicNumber/String  'Record batch is corrupt (the size ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00154"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.common.record.DefaultRecordBatch.ensureValid@POLYN263488 the MagicNumber/String  ' is smaller than the minimum allowed overhead ' should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.common.record.DefaultRecordBatch.ensureValid@POLYN264464 the MagicNumber/String  ' is smaller than the minimum allowed overhead ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00154"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.common.record.DefaultRecordBatch.ensureValid@POLYN263488 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.common.record.DefaultRecordBatch.ensureValid@POLYN264464 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.common.record.DefaultRecordBatch.ensureValid@POLYN263488 the MagicNumber/String  'Record is corrupt (stored crc = ' should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.common.record.DefaultRecordBatch.ensureValid@POLYN264464 the MagicNumber/String  'Record is corrupt (stored crc = ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00158"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.common.record.DefaultRecordBatch.ensureValid@POLYN263488 the MagicNumber/String  ', computed crc = ' should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.common.record.DefaultRecordBatch.ensureValid@POLYN264464 the MagicNumber/String  ', computed crc = ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00158"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.common.record.DefaultRecordBatch.ensureValid@POLYN263488 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.common.record.DefaultRecordBatch.ensureValid@POLYN264464 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.common.record.DefaultRecordBatch.timestampType@POLYN264408 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.common.record.DefaultRecordBatch.timestampType@POLYN265384 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -634,21 +634,21 @@ var maDataBlocs = {
  , "c1" : "00248"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#248"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.common.record.DefaultRecordBatch.isTransactional@POLYN266739 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.common.record.DefaultRecordBatch.isTransactional@POLYN267717 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00252"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#252"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.common.record.DefaultRecordBatch.hasDeleteHorizonMs@POLYN266905 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.common.record.DefaultRecordBatch.hasDeleteHorizonMs@POLYN267883 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00265"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#265"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.common.record.DefaultRecordBatch.isControlBatch@POLYN267363 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.common.record.DefaultRecordBatch.isControlBatch@POLYN268341 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -669,28 +669,28 @@ var maDataBlocs = {
  , "c1" : "00279"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#279"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00279] For method compressedIterator list of called methods Object monObjet|java.io.DataInputStream recordInputStreamN268230"
+ , "c3" : "QC-JAV000007[00279] For method compressedIterator list of called methods Object monObjet|java.io.DataInputStream recordInputStreamN269212"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00311"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#311"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.common.record.DefaultRecordBatch.uncompressedIterator@POLYN269339 the MagicNumber/String  'Incorrect declared batch size, premature EOF reached' should be converted to const"
+ , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.common.record.DefaultRecordBatch.uncompressedIterator@POLYN270323 the MagicNumber/String  'Incorrect declared batch size, premature EOF reached' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00325"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#325"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.common.record.DefaultRecordBatch.iterator@POLYN270299 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.common.record.DefaultRecordBatch.iterator@POLYN271285 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00334"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#334"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.common.record.DefaultRecordBatch.iterator@POLYN270299 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.common.record.DefaultRecordBatch.iterator@POLYN271285 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -704,14 +704,14 @@ var maDataBlocs = {
  , "c1" : "00344"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.common.record.DefaultRecordBatch.skipKeyValueIterator@POLYN271105 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.common.record.DefaultRecordBatch.skipKeyValueIterator@POLYN272093 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00358"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#358"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.common.record.DefaultRecordBatch.skipKeyValueIterator@POLYN271105 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.common.record.DefaultRecordBatch.skipKeyValueIterator@POLYN272093 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -725,7 +725,7 @@ var maDataBlocs = {
  , "c1" : "00364"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#364"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.common.record.DefaultRecordBatch.streamingIterator@POLYN271744 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.common.record.DefaultRecordBatch.streamingIterator@POLYN272732 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -746,7 +746,7 @@ var maDataBlocs = {
  , "c1" : "00375"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#375"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00375] For method setMaxTimestamp list of called methods Object monObjet|byte computeAttributesN272520|long computeChecksumN272928"
+ , "c3" : "QC-JAV000007[00375] For method setMaxTimestamp list of called methods Object monObjet|byte computeAttributesN273512|long computeChecksumN273922"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -774,35 +774,35 @@ var maDataBlocs = {
  , "c1" : "00414"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#414"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.common.record.DefaultRecordBatch.equals@POLYN273976 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.common.record.DefaultRecordBatch.equals@POLYN274970 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00415"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#415"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00415] In method org.apache.kafka.common.record.DefaultRecordBatch.equals@POLYN273976 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00415] In method org.apache.kafka.common.record.DefaultRecordBatch.equals@POLYN274970 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00416"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#416"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.common.record.DefaultRecordBatch.equals@POLYN273976 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.common.record.DefaultRecordBatch.equals@POLYN274970 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00424"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#424"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00424] In method org.apache.kafka.common.record.DefaultRecordBatch.hashCode@POLYN274499 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00424] In method org.apache.kafka.common.record.DefaultRecordBatch.hashCode@POLYN275495 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00424"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#424"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00424] In method org.apache.kafka.common.record.DefaultRecordBatch.hashCode@POLYN274499 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00424] In method org.apache.kafka.common.record.DefaultRecordBatch.hashCode@POLYN275495 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -823,28 +823,28 @@ var maDataBlocs = {
  , "c1" : "00430"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#430"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.common.record.DefaultRecordBatch.computeAttributes@POLYN274680 the MagicNumber/String  'Timestamp type must be provided to compute attributes for message ' should be converted to const"
+ , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.common.record.DefaultRecordBatch.computeAttributes@POLYN275676 the MagicNumber/String  'Timestamp type must be provided to compute attributes for message ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00431"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#431"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00431] In method org.apache.kafka.common.record.DefaultRecordBatch.computeAttributes@POLYN274680 the MagicNumber/String  'format v2 and above' should be converted to const"
+ , "c3" : "QC-JAV000010[00431] In method org.apache.kafka.common.record.DefaultRecordBatch.computeAttributes@POLYN275676 the MagicNumber/String  'format v2 and above' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00433"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#433"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00433] In method org.apache.kafka.common.record.DefaultRecordBatch.computeAttributes@POLYN274680 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00433] In method org.apache.kafka.common.record.DefaultRecordBatch.computeAttributes@POLYN275676 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00436"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#436"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00436] In method org.apache.kafka.common.record.DefaultRecordBatch.computeAttributes@POLYN274680 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00436] In method org.apache.kafka.common.record.DefaultRecordBatch.computeAttributes@POLYN275676 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -858,14 +858,14 @@ var maDataBlocs = {
  , "c1" : "00460"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#460"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00460] In method org.apache.kafka.common.record.DefaultRecordBatch.writeEmptyHeader@POLYN275591 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00460] In method org.apache.kafka.common.record.DefaultRecordBatch.writeEmptyHeader@POLYN276589 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00460"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#460"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00460] In method org.apache.kafka.common.record.DefaultRecordBatch.writeEmptyHeader@POLYN275591 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00460] In method org.apache.kafka.common.record.DefaultRecordBatch.writeEmptyHeader@POLYN276589 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -879,7 +879,7 @@ var maDataBlocs = {
  , "c1" : "00463"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#463"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00463] For method writeHeader list of called methods Object monObjet|byte computeAttributesN277344|long Crc32C_computeN278995"
+ , "c3" : "QC-JAV000007[00463] For method writeHeader list of called methods Object monObjet|byte computeAttributesN278346|long Crc32C_computeN280001"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -893,119 +893,119 @@ var maDataBlocs = {
  , "c1" : "00481"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#481"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00481] In method org.apache.kafka.common.record.DefaultRecordBatch.writeHeader@POLYN276495 the MagicNumber/String  'Invalid magic value ' should be converted to const"
+ , "c3" : "QC-JAV000010[00481] In method org.apache.kafka.common.record.DefaultRecordBatch.writeHeader@POLYN277495 the MagicNumber/String  'Invalid magic value ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00482"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#482"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00482] In method org.apache.kafka.common.record.DefaultRecordBatch.writeHeader@POLYN276495 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00482] In method org.apache.kafka.common.record.DefaultRecordBatch.writeHeader@POLYN277495 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00483"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#483"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00483] In method org.apache.kafka.common.record.DefaultRecordBatch.writeHeader@POLYN276495 the MagicNumber/String  'Invalid message timestamp ' should be converted to const"
+ , "c3" : "QC-JAV000010[00483] In method org.apache.kafka.common.record.DefaultRecordBatch.writeHeader@POLYN277495 the MagicNumber/String  'Invalid message timestamp ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00507"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#507"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00507] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN279374 the MagicNumber/String  'RecordBatch(magic=' should be converted to const"
+ , "c3" : "QC-JAV000010[00507] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN280380 the MagicNumber/String  'RecordBatch(magic=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00507"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#507"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00507] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN279374 the MagicNumber/String  ', offsets=[' should be converted to const"
+ , "c3" : "QC-JAV000010[00507] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN280380 the MagicNumber/String  ', offsets=[' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00507"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#507"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00507] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN279374 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00507] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN280380 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00507"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#507"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00507] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN279374 the MagicNumber/String  '], ' should be converted to const"
+ , "c3" : "QC-JAV000010[00507] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN280380 the MagicNumber/String  '], ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00508"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#508"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN279374 the MagicNumber/String  'sequence=[' should be converted to const"
+ , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN280380 the MagicNumber/String  'sequence=[' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00508"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#508"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN279374 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN280380 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00508"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#508"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN279374 the MagicNumber/String  '], ' should be converted to const"
+ , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN280380 the MagicNumber/String  '], ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00509"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#509"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN279374 the MagicNumber/String  'isTransactional=' should be converted to const"
+ , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN280380 the MagicNumber/String  'isTransactional=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00509"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#509"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN279374 the MagicNumber/String  ', isControlBatch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN280380 the MagicNumber/String  ', isControlBatch=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00509"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#509"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN279374 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN280380 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00510"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#510"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN279374 the MagicNumber/String  'compression=' should be converted to const"
+ , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN280380 the MagicNumber/String  'compression=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00510"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#510"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN279374 the MagicNumber/String  ', timestampType=' should be converted to const"
+ , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN280380 the MagicNumber/String  ', timestampType=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00510"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#510"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN279374 the MagicNumber/String  ', crc=' should be converted to const"
+ , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN280380 the MagicNumber/String  ', crc=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00510"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#510"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN279374 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.common.record.DefaultRecordBatch.toString@POLYN280380 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1019,7 +1019,7 @@ var maDataBlocs = {
  , "c1" : "00513"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#513"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00513] For method sizeInBytes list of called methods Object monObjet|int record_timestampN280907|int record_timestampN280982|int DefaultRecord_sizeInBytesN281078"
+ , "c3" : "QC-JAV000007[00513] For method sizeInBytes list of called methods Object monObjet|int record_timestampN281923|int record_timestampN282000|int DefaultRecord_sizeInBytesN282096"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1040,21 +1040,21 @@ var maDataBlocs = {
  , "c1" : "00516"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#516"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.common.record.DefaultRecordBatch.sizeInBytes@POLYN280119 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.common.record.DefaultRecordBatch.sizeInBytes@POLYN281125 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00519"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#519"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00519] In method org.apache.kafka.common.record.DefaultRecordBatch.sizeInBytes@POLYN280119 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00519] In method org.apache.kafka.common.record.DefaultRecordBatch.sizeInBytes@POLYN281125 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00523"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#523"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00523] In method org.apache.kafka.common.record.DefaultRecordBatch.sizeInBytes@POLYN280119 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00523] In method org.apache.kafka.common.record.DefaultRecordBatch.sizeInBytes@POLYN281125 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1068,7 +1068,7 @@ var maDataBlocs = {
  , "c1" : "00532"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#532"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00532] For method sizeInBytes list of called methods Object monObjet|int record_timestampN282021|int record_timestampN282096|int DefaultRecord_sizeInBytesN282192"
+ , "c3" : "QC-JAV000007[00532] For method sizeInBytes list of called methods Object monObjet|int record_timestampN283049|int record_timestampN283126|int DefaultRecord_sizeInBytesN283222"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1089,28 +1089,28 @@ var maDataBlocs = {
  , "c1" : "00535"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#535"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00535] In method org.apache.kafka.common.record.DefaultRecordBatch.sizeInBytes@POLYN281339 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00535] In method org.apache.kafka.common.record.DefaultRecordBatch.sizeInBytes@POLYN282357 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00538"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#538"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00538] In method org.apache.kafka.common.record.DefaultRecordBatch.sizeInBytes@POLYN281339 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00538] In method org.apache.kafka.common.record.DefaultRecordBatch.sizeInBytes@POLYN282357 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00539"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#539"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00539] In method org.apache.kafka.common.record.DefaultRecordBatch.sizeInBytes@POLYN281339 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00539] In method org.apache.kafka.common.record.DefaultRecordBatch.sizeInBytes@POLYN282357 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00542"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#542"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00542] In method org.apache.kafka.common.record.DefaultRecordBatch.sizeInBytes@POLYN281339 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00542] In method org.apache.kafka.common.record.DefaultRecordBatch.sizeInBytes@POLYN282357 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1131,7 +1131,7 @@ var maDataBlocs = {
  , "c1" : "00562"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#562"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00562] In method org.apache.kafka.common.record.DefaultRecordBatch.incrementSequence@POLYN282885 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00562] In method org.apache.kafka.common.record.DefaultRecordBatch.incrementSequence@POLYN283915 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1145,49 +1145,49 @@ var maDataBlocs = {
  , "c1" : "00568"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#568"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00568] In method org.apache.kafka.common.record.DefaultRecordBatch.decrementSequence@POLYN283262 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00568] In method org.apache.kafka.common.record.DefaultRecordBatch.decrementSequence@POLYN284292 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00581"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#581"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00581] In method org.apache.kafka.common.record.DefaultRecordBatch.RecordIterator.RecordIterator@POLYN283953 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00581] In method org.apache.kafka.common.record.DefaultRecordBatch.RecordIterator.RecordIterator@POLYN284983 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00586"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#586"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00586] In method org.apache.kafka.common.record.DefaultRecordBatch.RecordIterator.RecordIterator@POLYN283953 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00586] In method org.apache.kafka.common.record.DefaultRecordBatch.RecordIterator.RecordIterator@POLYN284983 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00587"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#587"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00587] In method org.apache.kafka.common.record.DefaultRecordBatch.RecordIterator.RecordIterator@POLYN283953 the MagicNumber/String  'Found invalid record count ' should be converted to const"
+ , "c3" : "QC-JAV000010[00587] In method org.apache.kafka.common.record.DefaultRecordBatch.RecordIterator.RecordIterator@POLYN284983 the MagicNumber/String  'Found invalid record count ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00587"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#587"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00587] In method org.apache.kafka.common.record.DefaultRecordBatch.RecordIterator.RecordIterator@POLYN283953 the MagicNumber/String  ' in magic v' should be converted to const"
+ , "c3" : "QC-JAV000010[00587] In method org.apache.kafka.common.record.DefaultRecordBatch.RecordIterator.RecordIterator@POLYN284983 the MagicNumber/String  ' in magic v' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00588"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#588"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00588] In method org.apache.kafka.common.record.DefaultRecordBatch.RecordIterator.RecordIterator@POLYN283953 the MagicNumber/String  ' batch' should be converted to const"
+ , "c3" : "QC-JAV000010[00588] In method org.apache.kafka.common.record.DefaultRecordBatch.RecordIterator.RecordIterator@POLYN284983 the MagicNumber/String  ' batch' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00609"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#609"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00609] In method org.apache.kafka.common.record.DefaultRecordBatch.RecordIterator.next@POLYN284896 the MagicNumber/String  'Incorrect declared batch size, records still remaining in file' should be converted to const"
+ , "c3" : "QC-JAV000010[00609] In method org.apache.kafka.common.record.DefaultRecordBatch.RecordIterator.next@POLYN285928 the MagicNumber/String  'Incorrect declared batch size, records still remaining in file' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1215,35 +1215,35 @@ var maDataBlocs = {
  , "c1" : "00640"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#640"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00640] In method org.apache.kafka.common.record.DefaultRecordBatch.StreamRecordIterator.readNext@POLYN286210 the MagicNumber/String  'Incorrect declared batch size, premature EOF reached' should be converted to const"
+ , "c3" : "QC-JAV000010[00640] In method org.apache.kafka.common.record.DefaultRecordBatch.StreamRecordIterator.readNext@POLYN287244 the MagicNumber/String  'Incorrect declared batch size, premature EOF reached' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00642"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#642"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00642] In method org.apache.kafka.common.record.DefaultRecordBatch.StreamRecordIterator.readNext@POLYN286210 the MagicNumber/String  'Failed to decompress record stream' should be converted to const"
+ , "c3" : "QC-JAV000010[00642] In method org.apache.kafka.common.record.DefaultRecordBatch.StreamRecordIterator.readNext@POLYN287244 the MagicNumber/String  'Failed to decompress record stream' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00649"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#649"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00649] In method org.apache.kafka.common.record.DefaultRecordBatch.StreamRecordIterator.ensureNoneRemaining@POLYN286783 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00649] In method org.apache.kafka.common.record.DefaultRecordBatch.StreamRecordIterator.ensureNoneRemaining@POLYN287817 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00651"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#651"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00651] In method org.apache.kafka.common.record.DefaultRecordBatch.StreamRecordIterator.ensureNoneRemaining@POLYN286783 the MagicNumber/String  'Error checking for remaining bytes after reading batch' should be converted to const"
+ , "c3" : "QC-JAV000010[00651] In method org.apache.kafka.common.record.DefaultRecordBatch.StreamRecordIterator.ensureNoneRemaining@POLYN287817 the MagicNumber/String  'Error checking for remaining bytes after reading batch' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00660"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#660"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00660] In method org.apache.kafka.common.record.DefaultRecordBatch.StreamRecordIterator.close@POLYN287091 the MagicNumber/String  'Failed to close record stream' should be converted to const"
+ , "c3" : "QC-JAV000010[00660] In method org.apache.kafka.common.record.DefaultRecordBatch.StreamRecordIterator.close@POLYN288125 the MagicNumber/String  'Failed to close record stream' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1257,49 +1257,49 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.DefaultRecordBatch.attributes@POLYN273818"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.DefaultRecordBatch.attributes@POLYN274812"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.DefaultRecordBatch.hasDeleteHorizonMs@POLYN266905"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.DefaultRecordBatch.hasDeleteHorizonMs@POLYN267883"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.DefaultRecordBatch.isControlBatch@POLYN267363"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.DefaultRecordBatch.isControlBatch@POLYN268341"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.DefaultRecordBatch.isTransactional@POLYN266739"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.DefaultRecordBatch.isTransactional@POLYN267717"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00252"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#252"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00252] In the recursive method org.apache.kafka.common.record.DefaultRecordBatch.hasDeleteHorizonMs@POLYN266905 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00252] In the recursive method org.apache.kafka.common.record.DefaultRecordBatch.hasDeleteHorizonMs@POLYN267883 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00265"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#265"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00265] In the recursive method org.apache.kafka.common.record.DefaultRecordBatch.isControlBatch@POLYN267363 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00265] In the recursive method org.apache.kafka.common.record.DefaultRecordBatch.isControlBatch@POLYN268341 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00248"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#248"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00248] In the recursive method org.apache.kafka.common.record.DefaultRecordBatch.isTransactional@POLYN266739 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00248] In the recursive method org.apache.kafka.common.record.DefaultRecordBatch.isTransactional@POLYN267717 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -103,14 +103,14 @@ var maDataBlocs = {
  , "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramExtensions.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.security.scram.internals.ScramExtensions.ScramExtensions@POLYN150331 the MagicNumber/String  '=' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.security.scram.internals.ScramExtensions.ScramExtensions@POLYN151307 the MagicNumber/String  '=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramExtensions.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.security.scram.internals.ScramExtensions.ScramExtensions@POLYN150331 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.security.scram.internals.ScramExtensions.ScramExtensions@POLYN151307 the MagicNumber/String  ',' should be converted to const"
 }} 
 ]
 , 

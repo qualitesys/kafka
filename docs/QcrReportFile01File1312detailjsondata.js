@@ -154,28 +154,28 @@ var maDataBlocs = {
  , "c1" : "00040"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.controller.ControllerResultAndOffset.equals@POLYN154529 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.controller.ControllerResultAndOffset.equals@POLYN155505 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00041"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.controller.ControllerResultAndOffset.equals@POLYN154529 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.controller.ControllerResultAndOffset.equals@POLYN155505 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.controller.ControllerResultAndOffset.toString@POLYN155493 the MagicNumber/String  'ControllerResultAndOffset(records=%s, response=%s, isAtomic=%s, offset=%s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.controller.ControllerResultAndOffset.toString@POLYN156471 the MagicNumber/String  'ControllerResultAndOffset(records=%s, response=%s, isAtomic=%s, offset=%s)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerResultAndOffset.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.controller.ControllerResultAndOffset.toString@POLYN155493 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.controller.ControllerResultAndOffset.toString@POLYN156471 the MagicNumber/String  ',' should be converted to const"
 }} 
 ]
 , 

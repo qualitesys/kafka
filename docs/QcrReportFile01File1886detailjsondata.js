@@ -275,35 +275,35 @@ var maDataBlocs = {
  , "c1" : "00164"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN210804 the MagicNumber/String  'Unexpected state transition from {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN211782 the MagicNumber/String  'Unexpected state transition from {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00165"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN210804 the MagicNumber/String  'Unexpected state transition from ' should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN211782 the MagicNumber/String  'Unexpected state transition from ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00165"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN210804 the MagicNumber/String  ' to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN211782 the MagicNumber/String  ' to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00167"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN210804 the MagicNumber/String  'State transition from {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN211782 the MagicNumber/String  'State transition from {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN210804 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN211782 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -331,14 +331,14 @@ var maDataBlocs = {
  , "c1" : "00213"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.GlobalStreamThread@POLYN212453 the MagicNumber/String  'global-stream-thread [%s] ' should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.GlobalStreamThread@POLYN213433 the MagicNumber/String  'global-stream-thread [%s] ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00219"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.GlobalStreamThread@POLYN212453 the MagicNumber/String  1L should be converted to const"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.GlobalStreamThread@POLYN213433 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -352,14 +352,14 @@ var maDataBlocs = {
  , "c1" : "00250"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#250"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00250] For method initialize list of called methods Object monObjet|java.util.Map stateMaintainer_initializeN215336"
+ , "c3" : "QC-JAV000007[00250] For method initialize list of called methods Object monObjet|java.util.Map stateMaintainer_initializeN216318"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00259"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#259"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00259] For method pollAndUpdate list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerRecords globalConsumer_pollN215944"
+ , "c3" : "QC-JAV000007[00259] For method pollAndUpdate list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerRecords globalConsumer_pollN216928"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -373,98 +373,98 @@ var maDataBlocs = {
  , "c1" : "00277"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#277"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.StateConsumer.close@POLYN216490 the MagicNumber/String  'Failed to close global consumer due to the following error:' should be converted to const"
+ , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.StateConsumer.close@POLYN217476 the MagicNumber/String  'Failed to close global consumer due to the following error:' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00285"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#285"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00285] For method run list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.GlobalStreamThread.StateConsumer initializeN216950"
+ , "c3" : "QC-JAV000007[00285] For method run list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.GlobalStreamThread.StateConsumer initializeN217938"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00288"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#288"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00297"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#297"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874 the MagicNumber/String  'Error happened during initialization of the global state store; this thread has shutdown.' should be converted to const"
+ , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860 the MagicNumber/String  'Error happened during initialization of the global state store; this thread has shutdown.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00305"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#305"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00308"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#308"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874 the MagicNumber/String  1L should be converted to const"
+ , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00309"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#309"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874 the MagicNumber/String  1L should be converted to const"
+ , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00315"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#315"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00317"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#317"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874 the MagicNumber/String  'Updating global state failed due to inconsistent local state. Will attempt to clean up the local state. You can restart KafkaStreams to recover from this error.' should be converted to const"
+ , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860 the MagicNumber/String  'Updating global state failed due to inconsistent local state. Will attempt to clean up the local state. You can restart KafkaStreams to recover from this error.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00321"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#321"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874 the MagicNumber/String  'Updating global state failed. You can restart KafkaStreams to launch a new GlobalStreamThread to recover from this error.' should be converted to const"
+ , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860 the MagicNumber/String  'Updating global state failed. You can restart KafkaStreams to launch a new GlobalStreamThread to recover from this error.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00326"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#326"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874 the MagicNumber/String  'Error happened while maintaining global state store. The streams application or client will now close to ERROR.' should be converted to const"
+ , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860 the MagicNumber/String  'Error happened while maintaining global state store. The streams application or client will now close to ERROR.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00334"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#334"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874 the MagicNumber/String  'Shutting down' should be converted to const"
+ , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860 the MagicNumber/String  'Shutting down' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00339"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#339"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874 the MagicNumber/String  'Failed to close state maintainer due to the following error:' should be converted to const"
+ , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860 the MagicNumber/String  'Failed to close state maintainer due to the following error:' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00347"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#347"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874 the MagicNumber/String  'Shutdown complete' should be converted to const"
+ , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860 the MagicNumber/String  'Shutdown complete' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -485,56 +485,56 @@ var maDataBlocs = {
  , "c1" : "00360"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#360"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00360] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN219633 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00360] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN220627 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00400"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#400"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00400] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN219633 the MagicNumber/String  'Bootstrapping global state failed due to inconsistent local state. Will attempt to clean up the local state. You can restart KafkaStreams to recover from this error.' should be converted to const"
+ , "c3" : "QC-JAV000010[00400] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN220627 the MagicNumber/String  'Bootstrapping global state failed due to inconsistent local state. Will attempt to clean up the local state. You can restart KafkaStreams to recover from this error.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00404"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#404"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN219633 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN220627 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00407"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#407"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00407] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN219633 the MagicNumber/String  'Bootstrapping global state failed. You can restart KafkaStreams to recover from this error.' should be converted to const"
+ , "c3" : "QC-JAV000010[00407] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN220627 the MagicNumber/String  'Bootstrapping global state failed. You can restart KafkaStreams to recover from this error.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00414"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#414"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN219633 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN220627 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00417"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#417"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00417] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN219633 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00417] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN220627 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00418"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#418"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN219633 the MagicNumber/String  'Exception caught during initialization of GlobalStreamThread' should be converted to const"
+ , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN220627 the MagicNumber/String  'Exception caught during initialization of GlobalStreamThread' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00420"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#420"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00420] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN219633 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00420] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN220627 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -548,14 +548,14 @@ var maDataBlocs = {
  , "c1" : "00424"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#424"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00424] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.closeStateConsumer@POLYN221632 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00424] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.closeStateConsumer@POLYN222632 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00428"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#428"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.closeStateConsumer@POLYN221632 the MagicNumber/String  'Failed to close state consumer due to the following error:' should be converted to const"
+ , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.closeStateConsumer@POLYN222632 the MagicNumber/String  'Failed to close state consumer due to the following error:' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -569,273 +569,273 @@ var maDataBlocs = {
  , "c1" : "00437"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#437"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00437] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.start@POLYN222058 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00437] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.start@POLYN223058 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00438"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#438"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00438] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.start@POLYN222058 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00438] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.start@POLYN223058 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00444"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#444"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00444] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.start@POLYN222058 the MagicNumber/String  'Initialization for the global stream thread failed' should be converted to const"
+ , "c3" : "QC-JAV000010[00444] In method org.apache.kafka.streams.processor.internals.GlobalStreamThread.start@POLYN223058 the MagicNumber/String  'Initialization for the global stream thread failed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN219633"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN220627"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStreamThread.StateConsumer.close@POLYN216490"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStreamThread.StateConsumer.close@POLYN217476"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStreamThread.closeStateConsumer@POLYN221632"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStreamThread.closeStateConsumer@POLYN222632"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN210804"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN211782"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStreamThread.stillRunning@POLYN211983"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStreamThread.stillRunning@POLYN212963"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStreamThread.inErrorState@POLYN212137"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStreamThread.inErrorState@POLYN213117"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStreamThread.stillInitializing@POLYN212291"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStreamThread.stillInitializing@POLYN213271"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00360"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#360"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00360] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN219633 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00360] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN220627 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00400"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#400"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00400] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN219633 the MagicNumber/String 'Bootstrapping global state failed due to inconsistent local state. Will attempt to clean up the local state. You can restart KafkaStreams to recover from this error.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00400] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN220627 the MagicNumber/String 'Bootstrapping global state failed due to inconsistent local state. Will attempt to clean up the local state. You can restart KafkaStreams to recover from this error.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00404"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#404"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00404] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN219633 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00404] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN220627 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00407"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#407"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00407] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN219633 the MagicNumber/String 'Bootstrapping global state failed. You can restart KafkaStreams to recover from this error.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00407] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN220627 the MagicNumber/String 'Bootstrapping global state failed. You can restart KafkaStreams to recover from this error.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00414"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#414"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00414] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN219633 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00414] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN220627 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00417"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#417"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00417] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN219633 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00417] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN220627 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00418"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#418"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00418] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN219633 the MagicNumber/String 'Exception caught during initialization of GlobalStreamThread' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00418] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN220627 the MagicNumber/String 'Exception caught during initialization of GlobalStreamThread' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00420"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#420"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00420] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN219633 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00420] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN220627 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00277"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#277"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00277] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.StateConsumer.close@POLYN216490 the MagicNumber/String 'Failed to close global consumer due to the following error:' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00277] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.StateConsumer.close@POLYN217476 the MagicNumber/String 'Failed to close global consumer due to the following error:' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00424"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#424"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00424] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.closeStateConsumer@POLYN221632 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00424] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.closeStateConsumer@POLYN222632 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00428"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#428"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00428] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.closeStateConsumer@POLYN221632 the MagicNumber/String 'Failed to close state consumer due to the following error:' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00428] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.closeStateConsumer@POLYN222632 the MagicNumber/String 'Failed to close state consumer due to the following error:' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00288"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#288"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00288] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00288] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00297"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#297"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00297] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874 the MagicNumber/String 'Error happened during initialization of the global state store; this thread has shutdown.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00297] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860 the MagicNumber/String 'Error happened during initialization of the global state store; this thread has shutdown.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00305"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#305"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00308"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#308"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00308] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874 the MagicNumber/String 1L MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00308] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860 the MagicNumber/String 1L MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00309"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#309"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00309] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874 the MagicNumber/String 1L MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00309] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860 the MagicNumber/String 1L MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00315"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#315"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00315] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00315] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00317"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#317"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00317] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874 the MagicNumber/String 'Updating global state failed due to inconsistent local state. Will attempt to clean up the local state. You can restart KafkaStreams to recover from this error.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00317] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860 the MagicNumber/String 'Updating global state failed due to inconsistent local state. Will attempt to clean up the local state. You can restart KafkaStreams to recover from this error.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00321"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#321"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00321] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874 the MagicNumber/String 'Updating global state failed. You can restart KafkaStreams to launch a new GlobalStreamThread to recover from this error.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00321] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860 the MagicNumber/String 'Updating global state failed. You can restart KafkaStreams to launch a new GlobalStreamThread to recover from this error.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00326"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#326"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00326] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874 the MagicNumber/String 'Error happened while maintaining global state store. The streams application or client will now close to ERROR.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00326] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860 the MagicNumber/String 'Error happened while maintaining global state store. The streams application or client will now close to ERROR.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00334"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#334"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00334] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874 the MagicNumber/String 'Shutting down' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00334] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860 the MagicNumber/String 'Shutting down' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00339"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#339"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00339] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874 the MagicNumber/String 'Failed to close state maintainer due to the following error:' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00339] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860 the MagicNumber/String 'Failed to close state maintainer due to the following error:' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00347"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#347"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00347] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN216874 the MagicNumber/String 'Shutdown complete' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00347] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.run@POLYN217860 the MagicNumber/String 'Shutdown complete' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00164"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#164"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00164] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN210804 the MagicNumber/String 'Unexpected state transition from {} to {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00164] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN211782 the MagicNumber/String 'Unexpected state transition from {} to {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00165"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#165"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00165] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN210804 the MagicNumber/String ' to ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00165] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN211782 the MagicNumber/String ' to ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00165"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#165"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00165] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN210804 the MagicNumber/String 'Unexpected state transition from ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00165] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN211782 the MagicNumber/String 'Unexpected state transition from ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00167"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#167"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00167] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN210804 the MagicNumber/String 'State transition from {} to {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00167] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN211782 the MagicNumber/String 'State transition from {} to {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#173"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN210804 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.setState@POLYN211782 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

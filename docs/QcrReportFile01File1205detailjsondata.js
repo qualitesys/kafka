@@ -155,7 +155,7 @@ var maDataBlocs = {
  , "c1" : "00092"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.util.SharedTopicAdmin.bootstrapServers@POLYN174579 the MagicNumber/String  '&amp;lt;unknown&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.util.SharedTopicAdmin.bootstrapServers@POLYN175555 the MagicNumber/String  '&amp;lt;unknown&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -169,35 +169,35 @@ var maDataBlocs = {
  , "c1" : "00116"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.connect.util.SharedTopicAdmin.close@POLYN175404 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.connect.util.SharedTopicAdmin.close@POLYN176380 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.connect.util.SharedTopicAdmin.close@POLYN175404 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.connect.util.SharedTopicAdmin.close@POLYN176380 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00117"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.connect.util.SharedTopicAdmin.close@POLYN175404 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.connect.util.SharedTopicAdmin.close@POLYN176380 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00118"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.connect.util.SharedTopicAdmin.close@POLYN175404 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.connect.util.SharedTopicAdmin.close@POLYN176380 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00126"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.connect.util.SharedTopicAdmin.toString@POLYN175940 the MagicNumber/String  'admin client for brokers at ' should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.connect.util.SharedTopicAdmin.toString@POLYN176918 the MagicNumber/String  'admin client for brokers at ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -211,21 +211,21 @@ var maDataBlocs = {
  , "c1" : "00138"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.util.SharedTopicAdmin.createAdmin@POLYN176259 the MagicNumber/String  'The ' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.util.SharedTopicAdmin.createAdmin@POLYN177237 the MagicNumber/String  'The ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.util.SharedTopicAdmin.createAdmin@POLYN176259 the MagicNumber/String  ' has already been closed and cannot be used.' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.util.SharedTopicAdmin.createAdmin@POLYN177237 the MagicNumber/String  ' has already been closed and cannot be used.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00140"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SharedTopicAdmin.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.connect.util.SharedTopicAdmin.createAdmin@POLYN176259 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.connect.util.SharedTopicAdmin.createAdmin@POLYN177237 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

@@ -205,7 +205,7 @@ var maDataBlocs = {
  , "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.clients.producer.RecordMetadata.RecordMetadata@POLYN163777 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.clients.producer.RecordMetadata.RecordMetadata@POLYN164753 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -219,28 +219,28 @@ var maDataBlocs = {
  , "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.clients.producer.RecordMetadata.batchIndexToInt@POLYN164953 the MagicNumber/String  'batchIndex is larger than Integer.MAX_VALUE: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.clients.producer.RecordMetadata.batchIndexToInt@POLYN165929 the MagicNumber/String  'batchIndex is larger than Integer.MAX_VALUE: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00140"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.clients.producer.RecordMetadata.toString@POLYN166845 the MagicNumber/String  '@' should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.clients.producer.RecordMetadata.toString@POLYN167821 the MagicNumber/String  '@' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.RecordMetadata.batchIndexToInt@POLYN164953"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.RecordMetadata.batchIndexToInt@POLYN165929"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#71"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00071] In the recursive method org.apache.kafka.clients.producer.RecordMetadata.batchIndexToInt@POLYN164953 the MagicNumber/String 'batchIndex is larger than Integer.MAX_VALUE: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00071] In the recursive method org.apache.kafka.clients.producer.RecordMetadata.batchIndexToInt@POLYN165929 the MagicNumber/String 'batchIndex is larger than Integer.MAX_VALUE: ' MUST BE CONVERTED to const"
 }} 
 ]
 , 
