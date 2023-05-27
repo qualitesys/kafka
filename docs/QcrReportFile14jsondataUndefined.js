@@ -4448,13 +4448,11 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.JoinGroupRequestData.JoinGroupRequestProtocol" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol"} ,
-   {"caller" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment"} ,
    {"caller" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState"} ,
    {"caller" : "org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.common.message.JoinGroupRequestData.JoinGroupRequestProtocolCollection" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol"} ,
-   {"caller" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment"} ,
    {"caller" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState"} ,
    {"caller" : "org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol"} ,
    {"caller" : "org.apache.kafka.connect.runtime.distributed.WorkerCoordinator"} ,
@@ -5888,6 +5886,11 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.apache.kafka.connect.runtime.PredicatedTransformation" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment" , "callers" : [
+   {"caller" : "org.apache.kafka.connect.runtime.distributed.EagerAssignor"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor"} ,
+   {"caller" : "org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.ClusterAssignment"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.connect.transforms.Cast" , "callers" : [
    {"caller" : "org.apache.kafka.connect.tools.TransformationDoc"} ,

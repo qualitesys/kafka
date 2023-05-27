@@ -85,28 +85,28 @@ var maDataBlocs = {
  , "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslClientProvider.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.security.scram.internals.ScramSaslClientProvider.ScramSaslClientProvider@POLYN151857 the MagicNumber/String  'SASL/SCRAM Client Provider' should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.security.scram.internals.ScramSaslClientProvider.ScramSaslClientProvider@POLYN152561 the MagicNumber/String  'SASL/SCRAM Client Provider' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslClientProvider.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.security.scram.internals.ScramSaslClientProvider.ScramSaslClientProvider@POLYN151857 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.security.scram.internals.ScramSaslClientProvider.ScramSaslClientProvider@POLYN152561 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslClientProvider.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.security.scram.internals.ScramSaslClientProvider.ScramSaslClientProvider@POLYN151857 the MagicNumber/String  'SASL/SCRAM Client Provider for Kafka' should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.security.scram.internals.ScramSaslClientProvider.ScramSaslClientProvider@POLYN152561 the MagicNumber/String  'SASL/SCRAM Client Provider for Kafka' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslClientProvider.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.security.scram.internals.ScramSaslClientProvider.ScramSaslClientProvider@POLYN151857 the MagicNumber/String  'SaslClientFactory.' should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.common.security.scram.internals.ScramSaslClientProvider.ScramSaslClientProvider@POLYN152561 the MagicNumber/String  'SaslClientFactory.' should be converted to const"
 }} 
 ]
 , 

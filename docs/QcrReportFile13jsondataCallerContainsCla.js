@@ -7924,16 +7924,6 @@ var datadependCallerContainsCla = { "lesdatas" : [
 { "start" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol" , "end" : "java.lang.String"} ,
 { "start" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol" , "end" : "java.lang.Object"} ,
 { "start" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol" , "end" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol"} ,
-{ "start" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment" , "end" : "short"} ,
-{ "start" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment" , "end" : "short"} ,
-{ "start" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment" , "end" : "java.util.Collection"} ,
-{ "start" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment" , "end" : "short"} ,
-{ "start" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment" , "end" : "java.lang.String"} ,
-{ "start" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment" , "end" : "java.lang.String"} ,
-{ "start" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment" , "end" : "long"} ,
-{ "start" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment" , "end" : "java.lang.Object"} ,
-{ "start" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment" , "end" : "java.util.Collection"} ,
-{ "start" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment" , "end" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment"} ,
 { "start" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState" , "end" : "long"} ,
 { "start" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState" , "end" : "java.lang.Object"} ,
 { "start" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState" , "end" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState"} ,
@@ -17380,7 +17370,6 @@ var datadependCallerContainsCla = { "lesdatas" : [
 { "start" : "secujava.Cookie" , "end" : "int"} ,
 ]
  , "lesnoeuds" : [ 
-{ "noeud" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment"} ,
 { "noeud" : "K"} ,
 { "noeud" : "P"} ,
 { "noeud" : "R"} ,
@@ -21081,20 +21070,6 @@ var datadependCallerContainsCla = { "lesdatas" : [
 { "noeud" : "JoinGroupResponseData"} ,
 ]
  , "lescycles" : [ 
-{ "uncycle" : [ 
-{ "etape" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment" } ,
-{ "etape" : "short" } ,
-{ "etape" : "java.util.Collection" } ,
-{ "etape" : "java.lang.String" } ,
-{ "etape" : "java.util.Comparator" } ,
-{ "etape" : "int" } ,
-{ "etape" : "java.io.ObjectStreamField" } ,
-{ "etape" : "long" } ,
-{ "etape" : "java.io.Serializable" } ,
-{ "etape" : "char[]" } ,
-{ "etape" : "java.lang.Object" } ,
-{ "etape" : "aa__all_files" } ,
-] } ,
 { "uncycle" : [ 
 { "etape" : "org.apache.kafka.streams.processor.internals.RepartitionTopicConfig" } ,
 { "etape" : "java.util.Map" } ,

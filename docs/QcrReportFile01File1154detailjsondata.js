@@ -140,21 +140,21 @@ var maDataBlocs = {
  , "c1" : "00046"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/TaskInfo.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.runtime.rest.entities.TaskInfo.equals@POLYN154594 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.runtime.rest.entities.TaskInfo.equals@POLYN155298 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00047"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/TaskInfo.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.connect.runtime.rest.entities.TaskInfo.equals@POLYN154594 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.connect.runtime.rest.entities.TaskInfo.equals@POLYN155298 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00047"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/entities/TaskInfo.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.connect.runtime.rest.entities.TaskInfo.equals@POLYN154594 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.connect.runtime.rest.entities.TaskInfo.equals@POLYN155298 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

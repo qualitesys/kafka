@@ -112,28 +112,28 @@ var maDataBlocs = {
  , "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.server.authorizer.AclDeleteResult.AclDeleteResult@POLYN159717 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.server.authorizer.AclDeleteResult.AclDeleteResult@POLYN160421 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.server.authorizer.AclDeleteResult.exception@POLYN160288 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.server.authorizer.AclDeleteResult.exception@POLYN160992 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.server.authorizer.AclDeleteResult.AclBindingDeleteResult.AclBindingDeleteResult@POLYN160827 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.server.authorizer.AclDeleteResult.AclBindingDeleteResult.AclBindingDeleteResult@POLYN161531 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/authorizer/AclDeleteResult.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.server.authorizer.AclDeleteResult.AclBindingDeleteResult.exception@POLYN161504 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.server.authorizer.AclDeleteResult.AclBindingDeleteResult.exception@POLYN162208 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

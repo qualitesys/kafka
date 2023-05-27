@@ -251,21 +251,21 @@ var maDataBlocs = {
  , "c1" : "00131"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.connect.util.KafkaBasedLog.KafkaBasedLog@POLYN245264 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.connect.util.KafkaBasedLog.KafkaBasedLog@POLYN245968 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.connect.util.KafkaBasedLog.KafkaBasedLog@POLYN245264 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.connect.util.KafkaBasedLog.KafkaBasedLog@POLYN245968 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.connect.util.KafkaBasedLog.KafkaBasedLog@POLYN245264 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.connect.util.KafkaBasedLog.KafkaBasedLog@POLYN245968 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -279,105 +279,105 @@ var maDataBlocs = {
  , "c1" : "00165"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.connect.util.KafkaBasedLog.KafkaBasedLog@POLYN246693 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.connect.util.KafkaBasedLog.KafkaBasedLog@POLYN247397 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00168"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.connect.util.KafkaBasedLog.KafkaBasedLog@POLYN246693 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.connect.util.KafkaBasedLog.KafkaBasedLog@POLYN247397 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00222"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#222"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN249900 the MagicNumber/String  'Starting KafkaBasedLog with topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN250604 the MagicNumber/String  'Starting KafkaBasedLog with topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00226"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN249900 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN250604 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00228"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#228"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN249900 the MagicNumber/String  'Must provide a TopicAdmin to KafkaBasedLog when consumer is configured with ' should be converted to const"
+ , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN250604 the MagicNumber/String  'Must provide a TopicAdmin to KafkaBasedLog when consumer is configured with ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00229"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN249900 the MagicNumber/String  ' set to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN250604 the MagicNumber/String  ' set to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00238"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#238"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN249900 the MagicNumber/String  'Creating read-only KafkaBasedLog for topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN250604 the MagicNumber/String  'Creating read-only KafkaBasedLog for topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00246"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN249900 the MagicNumber/String  100 should be converted to const"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN250604 the MagicNumber/String  100 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00249"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#249"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN249900 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN250604 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00253"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#253"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN249900 the MagicNumber/String  'Could not look up partition metadata for offset backing store topic in' should be converted to const"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN250604 the MagicNumber/String  'Could not look up partition metadata for offset backing store topic in' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00254"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#254"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN249900 the MagicNumber/String  ' allotted period. This could indicate a connectivity issue, unavailable topic partitions, or if' should be converted to const"
+ , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN250604 the MagicNumber/String  ' allotted period. This could indicate a connectivity issue, unavailable topic partitions, or if' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00255"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#255"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN249900 the MagicNumber/String  ' this is your first use of the topic it may have taken too long to create.' should be converted to const"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN250604 the MagicNumber/String  ' this is your first use of the topic it may have taken too long to create.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00266"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#266"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN249900 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN250604 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00271"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#271"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN249900 the MagicNumber/String  'Finished reading KafkaBasedLog for topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN250604 the MagicNumber/String  'Finished reading KafkaBasedLog for topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00273"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#273"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN249900 the MagicNumber/String  'Started KafkaBasedLog for topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.connect.util.KafkaBasedLog.start@POLYN250604 the MagicNumber/String  'Started KafkaBasedLog for topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -391,70 +391,70 @@ var maDataBlocs = {
  , "c1" : "00277"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#277"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.connect.util.KafkaBasedLog.stop@POLYN252654 the MagicNumber/String  'Stopping KafkaBasedLog for topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.connect.util.KafkaBasedLog.stop@POLYN253358 the MagicNumber/String  'Stopping KafkaBasedLog for topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00280"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#280"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.connect.util.KafkaBasedLog.stop@POLYN252654 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.connect.util.KafkaBasedLog.stop@POLYN253358 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00282"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#282"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.connect.util.KafkaBasedLog.stop@POLYN252654 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.connect.util.KafkaBasedLog.stop@POLYN253358 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00286"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#286"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.connect.util.KafkaBasedLog.stop@POLYN252654 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.connect.util.KafkaBasedLog.stop@POLYN253358 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00290"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#290"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.connect.util.KafkaBasedLog.stop@POLYN252654 the MagicNumber/String  'Failed to stop KafkaBasedLog. Exiting without cleanly shutting ' should be converted to const"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.connect.util.KafkaBasedLog.stop@POLYN253358 the MagicNumber/String  'Failed to stop KafkaBasedLog. Exiting without cleanly shutting ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00291"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#291"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.connect.util.KafkaBasedLog.stop@POLYN252654 the MagicNumber/String  'down it's producer and consumer.' should be converted to const"
+ , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.connect.util.KafkaBasedLog.stop@POLYN253358 the MagicNumber/String  'down it's producer and consumer.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00295"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#295"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.connect.util.KafkaBasedLog.stop@POLYN252654 the MagicNumber/String  'KafkaBasedLog producer for topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.connect.util.KafkaBasedLog.stop@POLYN253358 the MagicNumber/String  'KafkaBasedLog producer for topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00296"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#296"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.connect.util.KafkaBasedLog.stop@POLYN252654 the MagicNumber/String  'KafkaBasedLog consumer for topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.connect.util.KafkaBasedLog.stop@POLYN253358 the MagicNumber/String  'KafkaBasedLog consumer for topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00299"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#299"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.connect.util.KafkaBasedLog.stop@POLYN252654 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.connect.util.KafkaBasedLog.stop@POLYN253358 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00301"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#301"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.connect.util.KafkaBasedLog.stop@POLYN252654 the MagicNumber/String  'Stopped KafkaBasedLog for topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.connect.util.KafkaBasedLog.stop@POLYN253358 the MagicNumber/String  'Stopped KafkaBasedLog for topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -475,14 +475,14 @@ var maDataBlocs = {
  , "c1" : "00318"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#318"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.connect.util.KafkaBasedLog.readToEnd@POLYN254318 the MagicNumber/String  'Starting read to end log for topic {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.connect.util.KafkaBasedLog.readToEnd@POLYN255022 the MagicNumber/String  'Starting read to end log for topic {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00338"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#338"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.connect.util.KafkaBasedLog.readToEnd@POLYN255049 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.connect.util.KafkaBasedLog.readToEnd@POLYN255753 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -496,7 +496,7 @@ var maDataBlocs = {
  , "c1" : "00344"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.connect.util.KafkaBasedLog.send@POLYN255318 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.connect.util.KafkaBasedLog.send@POLYN256022 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -510,35 +510,35 @@ var maDataBlocs = {
  , "c1" : "00349"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#349"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.connect.util.KafkaBasedLog.send@POLYN255515 the MagicNumber/String  'This KafkaBasedLog was created in read-only mode and does not support write operations' should be converted to const"
+ , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.connect.util.KafkaBasedLog.send@POLYN256219 the MagicNumber/String  'This KafkaBasedLog was created in read-only mode and does not support write operations' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00359"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#359"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00359] In method org.apache.kafka.connect.util.KafkaBasedLog.createProducer@POLYN256092 the MagicNumber/String  'all' should be converted to const"
+ , "c3" : "QC-JAV000010[00359] In method org.apache.kafka.connect.util.KafkaBasedLog.createProducer@POLYN256796 the MagicNumber/String  'all' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00362"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#362"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.connect.util.KafkaBasedLog.createProducer@POLYN256092 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.connect.util.KafkaBasedLog.createProducer@POLYN256796 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00368"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#368"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.connect.util.KafkaBasedLog.createConsumer@POLYN256469 the MagicNumber/String  'earliest' should be converted to const"
+ , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.connect.util.KafkaBasedLog.createConsumer@POLYN257173 the MagicNumber/String  'earliest' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00371"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#371"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.connect.util.KafkaBasedLog.createConsumer@POLYN256469 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.connect.util.KafkaBasedLog.createConsumer@POLYN257173 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -552,14 +552,14 @@ var maDataBlocs = {
  , "c1" : "00379"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#379"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.connect.util.KafkaBasedLog.poll@POLYN256801 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.connect.util.KafkaBasedLog.poll@POLYN257505 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00384"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#384"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00384] In method org.apache.kafka.connect.util.KafkaBasedLog.poll@POLYN256801 the MagicNumber/String  'Error polling: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00384] In method org.apache.kafka.connect.util.KafkaBasedLog.poll@POLYN257505 the MagicNumber/String  'Error polling: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -608,21 +608,21 @@ var maDataBlocs = {
  , "c1" : "00398"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#398"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00398] In method org.apache.kafka.connect.util.KafkaBasedLog.readToLogEnd@POLYN257699 the MagicNumber/String  'Reading to end of log offsets {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00398] In method org.apache.kafka.connect.util.KafkaBasedLog.readToLogEnd@POLYN258403 the MagicNumber/String  'Reading to end of log offsets {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00408"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#408"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00408] In method org.apache.kafka.connect.util.KafkaBasedLog.readToLogEnd@POLYN257699 the MagicNumber/String  'Read to end offset {} for {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00408] In method org.apache.kafka.connect.util.KafkaBasedLog.readToLogEnd@POLYN258403 the MagicNumber/String  'Read to end offset {} for {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00411"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#411"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.connect.util.KafkaBasedLog.readToLogEnd@POLYN257699 the MagicNumber/String  'Behind end offset {} for {}; last-read offset is {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.connect.util.KafkaBasedLog.readToLogEnd@POLYN258403 the MagicNumber/String  'Behind end offset {} for {}; last-read offset is {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -636,35 +636,35 @@ var maDataBlocs = {
  , "c1" : "00430"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#430"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.connect.util.KafkaBasedLog.readEndOffsets@POLYN259633 the MagicNumber/String  'Reading to end of offset log' should be converted to const"
+ , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.connect.util.KafkaBasedLog.readEndOffsets@POLYN260337 the MagicNumber/String  'Reading to end of offset log' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00440"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#440"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00440] In method org.apache.kafka.connect.util.KafkaBasedLog.readEndOffsets@POLYN259633 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00440] In method org.apache.kafka.connect.util.KafkaBasedLog.readEndOffsets@POLYN260337 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00458"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#458"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00458] In method org.apache.kafka.connect.util.KafkaBasedLog.readEndOffsets@POLYN259633 the MagicNumber/String  'Reading to end of log offsets with consumer since admin client is unsupported: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00458] In method org.apache.kafka.connect.util.KafkaBasedLog.readEndOffsets@POLYN260337 the MagicNumber/String  'Reading to end of log offsets with consumer since admin client is unsupported: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00460"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#460"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00460] In method org.apache.kafka.connect.util.KafkaBasedLog.readEndOffsets@POLYN259633 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00460] In method org.apache.kafka.connect.util.KafkaBasedLog.readEndOffsets@POLYN260337 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00472"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#472"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00472] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.WorkThread@POLYN260586 the MagicNumber/String  'KafkaBasedLog Work Thread - ' should be converted to const"
+ , "c3" : "QC-JAV000010[00472] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.WorkThread@POLYN261290 the MagicNumber/String  'KafkaBasedLog Work Thread - ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -734,91 +734,91 @@ var maDataBlocs = {
  , "c1" : "00478"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#478"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN260726 the MagicNumber/String  '{} started execution' should be converted to const"
+ , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN261430 the MagicNumber/String  '{} started execution' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00479"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#479"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00479] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN260726 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00479] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN261430 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00487"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#487"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00487] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN260726 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00487] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN261430 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00489"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#489"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN260726 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN261430 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00490"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#490"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00490] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN260726 the MagicNumber/String  'Finished read to end log for topic {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00490] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN261430 the MagicNumber/String  'Finished read to end log for topic {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00492"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#492"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00492] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN260726 the MagicNumber/String  'Timeout while reading log to end for topic '{}'. Retrying automatically. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00492] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN261430 the MagicNumber/String  'Timeout while reading log to end for topic '{}'. Retrying automatically. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00493"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#493"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00493] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN260726 the MagicNumber/String  'This may occur when brokers are unavailable or unreachable. Reason: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00493] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN261430 the MagicNumber/String  'This may occur when brokers are unavailable or unreachable. Reason: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00496"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#496"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00496] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN260726 the MagicNumber/String  'Retriable error while reading log to end for topic '{}'. Retrying automatically. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00496] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN261430 the MagicNumber/String  'Retriable error while reading log to end for topic '{}'. Retrying automatically. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00497"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#497"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00497] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN260726 the MagicNumber/String  'Reason: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00497] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN261430 the MagicNumber/String  'Reason: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00509"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#509"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN260726 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN261430 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00511"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#511"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN260726 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN261430 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00511"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#511"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN260726 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN261430 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00523"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#523"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00523] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN260726 the MagicNumber/String  'Unexpected exception in {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00523] In method org.apache.kafka.connect.util.KafkaBasedLog.WorkThread.run@POLYN261430 the MagicNumber/String  'Unexpected exception in {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -185,21 +185,21 @@ var maDataBlocs = {
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenResponse.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.requests.RenewDelegationTokenResponse.shouldClientThrottle@POLYN156307 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.requests.RenewDelegationTokenResponse.shouldClientThrottle@POLYN157011 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.RenewDelegationTokenResponse.errorCounts@POLYN155565"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.RenewDelegationTokenResponse.errorCounts@POLYN156269"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.RenewDelegationTokenResponse.throttleTimeMs@POLYN155808"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.RenewDelegationTokenResponse.throttleTimeMs@POLYN156512"
 }} 
 ]
 , 

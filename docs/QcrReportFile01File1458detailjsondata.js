@@ -155,49 +155,49 @@ var maDataBlocs = {
  , "c1" : "00074"
  , "c1link" : "./qc/secujava/java.io.InputStreamReader.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method java.io.InputStreamReader.InputStreamReader@POLYN174651 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method java.io.InputStreamReader.InputStreamReader@POLYN175355 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/secujava/java.io.InputStreamReader.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method java.io.InputStreamReader.InputStreamReader@POLYN175279 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method java.io.InputStreamReader.InputStreamReader@POLYN175983 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00099"
  , "c1link" : "./qc/secujava/java.io.InputStreamReader.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method java.io.InputStreamReader.InputStreamReader@POLYN175279 the MagicNumber/String  'charsetName' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method java.io.InputStreamReader.InputStreamReader@POLYN175983 the MagicNumber/String  'charsetName' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00114"
  , "c1link" : "./qc/secujava/java.io.InputStreamReader.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method java.io.InputStreamReader.InputStreamReader@POLYN175840 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method java.io.InputStreamReader.InputStreamReader@POLYN176544 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/secujava/java.io.InputStreamReader.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method java.io.InputStreamReader.InputStreamReader@POLYN175840 the MagicNumber/String  'charset' should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method java.io.InputStreamReader.InputStreamReader@POLYN176544 the MagicNumber/String  'charset' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00130"
  , "c1link" : "./qc/secujava/java.io.InputStreamReader.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method java.io.InputStreamReader.InputStreamReader@POLYN176395 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method java.io.InputStreamReader.InputStreamReader@POLYN177099 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/secujava/java.io.InputStreamReader.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method java.io.InputStreamReader.InputStreamReader@POLYN176395 the MagicNumber/String  'charset decoder' should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method java.io.InputStreamReader.InputStreamReader@POLYN177099 the MagicNumber/String  'charset decoder' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

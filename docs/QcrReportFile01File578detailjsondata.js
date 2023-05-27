@@ -142,7 +142,7 @@ var maDataBlocs = {
  , "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsSend.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.record.RecordsSend.completed@POLYN159909 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.record.RecordsSend.completed@POLYN160613 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -156,7 +156,7 @@ var maDataBlocs = {
  , "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsSend.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00046] For method writeTo list of called methods Object monObjet|boolean channel_hasPendingWritesN160660"
+ , "c3" : "QC-JAV000007[00046] For method writeTo list of called methods Object monObjet|boolean channel_hasPendingWritesN161364"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -170,35 +170,35 @@ var maDataBlocs = {
  , "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsSend.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.record.RecordsSend.writeTo@POLYN160069 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.record.RecordsSend.writeTo@POLYN160773 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsSend.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.record.RecordsSend.writeTo@POLYN160069 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.record.RecordsSend.writeTo@POLYN160773 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsSend.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.record.RecordsSend.writeTo@POLYN160069 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.record.RecordsSend.writeTo@POLYN160773 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsSend.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.record.RecordsSend.writeTo@POLYN160069 the MagicNumber/String  'Wrote negative bytes to channel. This shouldn't happen.' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.record.RecordsSend.writeTo@POLYN160773 the MagicNumber/String  'Wrote negative bytes to channel. This shouldn't happen.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsSend.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.record.RecordsSend.writeTo@POLYN160069 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.record.RecordsSend.writeTo@POLYN160773 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

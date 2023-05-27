@@ -151,70 +151,70 @@ var maDataBlocs = {
  , "c1" : "00065"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN177255 the MagicNumber/String  'Processor-' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN177959 the MagicNumber/String  'Processor-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00067"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN177255 the MagicNumber/String  10000 should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN177959 the MagicNumber/String  10000 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00069"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN177255 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN177959 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00069"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN177255 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN177959 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00069"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN177255 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN177959 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00069"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN177255 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN177959 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN177255 the MagicNumber/String  'Txn-consumer-' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN177959 the MagicNumber/String  'Txn-consumer-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00073"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN177255 the MagicNumber/String  'Eos-consumer' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN177959 the MagicNumber/String  'Eos-consumer' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN177255 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN177959 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN177255 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method kafka.examples.ExactlyOnceMessageProcessor.ExactlyOnceMessageProcessor@POLYN177959 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -277,84 +277,84 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN178388 the MagicNumber/String  'Revoked partition assignment to kick-off rebalancing: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN179092 the MagicNumber/String  'Revoked partition assignment to kick-off rebalancing: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN178388 the MagicNumber/String  'Received partition assignment after rebalancing: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN179092 the MagicNumber/String  'Received partition assignment after rebalancing: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN178388 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN179092 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00099"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN178388 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN179092 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN178388 the MagicNumber/String  200 should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN179092 the MagicNumber/String  200 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN178388 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN179092 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00122"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN178388 the MagicNumber/String  'The transactional.id %s has been claimed by another process' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN179092 the MagicNumber/String  'The transactional.id %s has been claimed by another process' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN178388 the MagicNumber/String  'The group.instance.id %s has been claimed by another process' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN179092 the MagicNumber/String  'The group.instance.id %s has been claimed by another process' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN178388 the MagicNumber/String  'Message remaining: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN179092 the MagicNumber/String  'Message remaining: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00139"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN178388 the MagicNumber/String  'Finished processing ' should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN179092 the MagicNumber/String  'Finished processing ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00139"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN178388 the MagicNumber/String  ' records' should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method kafka.examples.ExactlyOnceMessageProcessor.run@POLYN179092 the MagicNumber/String  ' records' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method kafka.examples.ExactlyOnceMessageProcessor.consumerOffsets@POLYN181288 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method kafka.examples.ExactlyOnceMessageProcessor.consumerOffsets@POLYN181992 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -368,7 +368,7 @@ var maDataBlocs = {
  , "c1" : "00152"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method kafka.examples.ExactlyOnceMessageProcessor.printWithTxnId@POLYN181780 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method kafka.examples.ExactlyOnceMessageProcessor.printWithTxnId@POLYN182484 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -389,35 +389,35 @@ var maDataBlocs = {
  , "c1" : "00156"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method kafka.examples.ExactlyOnceMessageProcessor.transform@POLYN182016 the MagicNumber/String  'Transformed record (' should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method kafka.examples.ExactlyOnceMessageProcessor.transform@POLYN182720 the MagicNumber/String  'Transformed record (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00156"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method kafka.examples.ExactlyOnceMessageProcessor.transform@POLYN182016 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method kafka.examples.ExactlyOnceMessageProcessor.transform@POLYN182720 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00156"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method kafka.examples.ExactlyOnceMessageProcessor.transform@POLYN182016 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method kafka.examples.ExactlyOnceMessageProcessor.transform@POLYN182720 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method kafka.examples.ExactlyOnceMessageProcessor.transform@POLYN182016 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method kafka.examples.ExactlyOnceMessageProcessor.transform@POLYN182720 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method kafka.examples.ExactlyOnceMessageProcessor.transform@POLYN182016 the MagicNumber/String  'Transformed_' should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method kafka.examples.ExactlyOnceMessageProcessor.transform@POLYN182720 the MagicNumber/String  'Transformed_' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -438,21 +438,21 @@ var maDataBlocs = {
  , "c1" : "00169"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method kafka.examples.ExactlyOnceMessageProcessor.messagesRemaining@POLYN182541 the MagicNumber/String  'Processing partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method kafka.examples.ExactlyOnceMessageProcessor.messagesRemaining@POLYN183245 the MagicNumber/String  'Processing partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00169"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method kafka.examples.ExactlyOnceMessageProcessor.messagesRemaining@POLYN182541 the MagicNumber/String  ' with full offsets ' should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method kafka.examples.ExactlyOnceMessageProcessor.messagesRemaining@POLYN183245 the MagicNumber/String  ' with full offsets ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method kafka.examples.ExactlyOnceMessageProcessor.messagesRemaining@POLYN182541 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method kafka.examples.ExactlyOnceMessageProcessor.messagesRemaining@POLYN183245 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -473,7 +473,7 @@ var maDataBlocs = {
  , "c1" : "00181"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method kafka.examples.ExactlyOnceMessageProcessor.resetToLastCommittedPositions@POLYN183570 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method kafka.examples.ExactlyOnceMessageProcessor.resetToLastCommittedPositions@POLYN184274 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

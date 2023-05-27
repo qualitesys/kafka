@@ -129,77 +129,77 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN171776 the MagicNumber/String  '&amp;lt;div id=\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN172480 the MagicNumber/String  '&amp;lt;div id=\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN171776 the MagicNumber/String  '\'&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN172480 the MagicNumber/String  '\'&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00077"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN171776 the MagicNumber/String  '&amp;lt;h5&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN172480 the MagicNumber/String  '&amp;lt;h5&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN171776 the MagicNumber/String  '&amp;lt;a href=\'#' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN172480 the MagicNumber/String  '&amp;lt;a href=\'#' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN171776 the MagicNumber/String  '\'&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN172480 the MagicNumber/String  '\'&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN171776 the MagicNumber/String  '&amp;lt;/a&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN172480 the MagicNumber/String  '&amp;lt;/a&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN171776 the MagicNumber/String  '&amp;lt;/h5&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN172480 the MagicNumber/String  '&amp;lt;/h5&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN171776 the MagicNumber/String  '&amp;lt;p/&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN172480 the MagicNumber/String  '&amp;lt;p/&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN171776 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN172480 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN171776 the MagicNumber/String  '_' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN172480 the MagicNumber/String  '_' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/TransformationDoc.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN171776 the MagicNumber/String  '&amp;lt;/div&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.connect.tools.TransformationDoc.printTransformationHtml@POLYN172480 the MagicNumber/String  '&amp;lt;/div&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

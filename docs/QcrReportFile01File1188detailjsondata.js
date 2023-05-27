@@ -143,77 +143,77 @@ var maDataBlocs = {
  , "c1" : "00061"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN162142 the MagicNumber/String  '&amp;lt;div id=\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN162846 the MagicNumber/String  '&amp;lt;div id=\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN162142 the MagicNumber/String  '\'&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN162846 the MagicNumber/String  '\'&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN162142 the MagicNumber/String  '&amp;lt;h5&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN162846 the MagicNumber/String  '&amp;lt;h5&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN162142 the MagicNumber/String  '&amp;lt;a href=\'#' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN162846 the MagicNumber/String  '&amp;lt;a href=\'#' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN162142 the MagicNumber/String  '\'&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN162846 the MagicNumber/String  '\'&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN162142 the MagicNumber/String  '&amp;lt;/a&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN162846 the MagicNumber/String  '&amp;lt;/a&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00065"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN162142 the MagicNumber/String  '&amp;lt;/h5&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN162846 the MagicNumber/String  '&amp;lt;/h5&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00069"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN162142 the MagicNumber/String  '&amp;lt;p/&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN162846 the MagicNumber/String  '&amp;lt;p/&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN162142 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN162846 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN162142 the MagicNumber/String  '_' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN162846 the MagicNumber/String  '_' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00073"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/PredicateDoc.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN162142 the MagicNumber/String  '&amp;lt;/div&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.connect.tools.PredicateDoc.printPredicateHtml@POLYN162846 the MagicNumber/String  '&amp;lt;/div&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

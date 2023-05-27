@@ -192,21 +192,21 @@ var maDataBlocs = {
  , "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.kstream.Window.Window@POLYN167257 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.streams.kstream.Window.Window@POLYN167961 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.kstream.Window.Window@POLYN167257 the MagicNumber/String  'Window startMs time cannot be negative.' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.kstream.Window.Window@POLYN167961 the MagicNumber/String  'Window startMs time cannot be negative.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.kstream.Window.Window@POLYN167257 the MagicNumber/String  'Window endMs time cannot be smaller than window startMs time.' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.kstream.Window.Window@POLYN167961 the MagicNumber/String  'Window endMs time cannot be smaller than window startMs time.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -234,70 +234,70 @@ var maDataBlocs = {
  , "c1" : "00115"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.kstream.Window.equals@POLYN169031 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.kstream.Window.equals@POLYN169735 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00117"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.kstream.Window.equals@POLYN169031 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.streams.kstream.Window.equals@POLYN169735 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00118"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.kstream.Window.equals@POLYN169031 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.streams.kstream.Window.equals@POLYN169735 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00121"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.streams.kstream.Window.equals@POLYN169031 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.streams.kstream.Window.equals@POLYN169735 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00130"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.streams.kstream.Window.hashCode@POLYN169678 the MagicNumber/String  32 should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.streams.kstream.Window.hashCode@POLYN170382 the MagicNumber/String  32 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00130"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.streams.kstream.Window.hashCode@POLYN169678 the MagicNumber/String  0xFFFFFFFFL should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.streams.kstream.Window.hashCode@POLYN170382 the MagicNumber/String  0xFFFFFFFFL should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00135"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.streams.kstream.Window.toString@POLYN169933 the MagicNumber/String  'Window{' should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.streams.kstream.Window.toString@POLYN170637 the MagicNumber/String  'Window{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.streams.kstream.Window.toString@POLYN169933 the MagicNumber/String  'startMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.streams.kstream.Window.toString@POLYN170637 the MagicNumber/String  'startMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.streams.kstream.Window.toString@POLYN169933 the MagicNumber/String  ', endMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.streams.kstream.Window.toString@POLYN170637 the MagicNumber/String  ', endMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.streams.kstream.Window.toString@POLYN169933 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.streams.kstream.Window.toString@POLYN170637 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -311,21 +311,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.Window.hashCode@POLYN169678"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.Window.hashCode@POLYN170382"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00130"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#130"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00130] In the recursive method org.apache.kafka.streams.kstream.Window.hashCode@POLYN169678 the MagicNumber/String 0xFFFFFFFFL MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00130] In the recursive method org.apache.kafka.streams.kstream.Window.hashCode@POLYN170382 the MagicNumber/String 0xFFFFFFFFL MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00130"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Window.java.html#130"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00130] In the recursive method org.apache.kafka.streams.kstream.Window.hashCode@POLYN169678 the MagicNumber/String 32 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00130] In the recursive method org.apache.kafka.streams.kstream.Window.hashCode@POLYN170382 the MagicNumber/String 32 MUST BE CONVERTED to const"
 }} 
 ]
 , 

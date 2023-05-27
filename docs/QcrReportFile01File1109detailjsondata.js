@@ -186,14 +186,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeConnectProtocol.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.metadataRequest@POLYN203559 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.metadataRequest@POLYN204263 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeConnectProtocol.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.metadataRequest@POLYN203559 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.metadataRequest@POLYN204263 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -207,7 +207,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeConnectProtocol.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method deserializeMetadata list of called methods Object monObjet|org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState header_getShortN205062|org.apache.kafka.common.protocol.types.Struct CONFIG_STATE_V1_readN205221|java.lang.Long configState_getLongN205317|java.lang.String configState_getStringN205413|org.apache.kafka.common.protocol.types.Struct ALLOCATION_V1_readN205509|org.apache.kafka.connect.runtime.distributed.ExtendedAssignment deserializeAssignmentN205605"
+ , "c3" : "QC-JAV000007[00001] For method deserializeMetadata list of called methods Object monObjet|org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState header_getShortN205766|org.apache.kafka.common.protocol.types.Struct CONFIG_STATE_V1_readN205925|java.lang.Long configState_getLongN206021|java.lang.String configState_getStringN206117|org.apache.kafka.common.protocol.types.Struct ALLOCATION_V1_readN206213|org.apache.kafka.connect.runtime.distributed.ExtendedAssignment deserializeAssignmentN206309"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -221,21 +221,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeConnectProtocol.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method serializeAssignment list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct assignment_toStructN206392"
+ , "c3" : "QC-JAV000007[00001] For method serializeAssignment list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct assignment_toStructN207096"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeConnectProtocol.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.serializeAssignment@POLYN206076 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.serializeAssignment@POLYN206780 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeConnectProtocol.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.serializeAssignment@POLYN206076 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.serializeAssignment@POLYN206780 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -249,21 +249,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeConnectProtocol.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method deserializeAssignment list of called methods Object monObjet|org.apache.kafka.connect.runtime.distributed.ExtendedAssignment header_getShortN207465|org.apache.kafka.common.protocol.types.Struct ASSIGNMENT_V1_readN207624"
+ , "c3" : "QC-JAV000007[00001] For method deserializeAssignment list of called methods Object monObjet|org.apache.kafka.connect.runtime.distributed.ExtendedAssignment header_getShortN208169|org.apache.kafka.common.protocol.types.Struct ASSIGNMENT_V1_readN208328"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeConnectProtocol.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN207159 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN207863 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeConnectProtocol.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN207159 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN207863 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -277,35 +277,35 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeConnectProtocol.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.checkVersionCompatibility@POLYN207787 the MagicNumber/String  'Unsupported subscription version: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.checkVersionCompatibility@POLYN208491 the MagicNumber/String  'Unsupported subscription version: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeConnectProtocol.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN207159"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN207863"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeConnectProtocol.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeMetadata@POLYN204867"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeMetadata@POLYN205571"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeConnectProtocol.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN207159 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN207863 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeConnectProtocol.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN207159 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol.deserializeAssignment@POLYN207863 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

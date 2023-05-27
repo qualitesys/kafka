@@ -298,35 +298,35 @@ var maDataBlocs = {
  , "c1" : "00065"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.MemoryLRUCache@POLYN179314 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.MemoryLRUCache@POLYN180018 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00065"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.MemoryLRUCache@POLYN179314 the MagicNumber/String  1.01f should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.MemoryLRUCache@POLYN180018 the MagicNumber/String  1.01f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00065"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.MemoryLRUCache@POLYN179314 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.MemoryLRUCache@POLYN180018 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.MemoryLRUCache@POLYN179314 the MagicNumber/String  1L should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.MemoryLRUCache@POLYN180018 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.MemoryLRUCache@POLYN179314 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.MemoryLRUCache@POLYN180018 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -354,14 +354,14 @@ var maDataBlocs = {
  , "c1" : "00094"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.init@POLYN180574 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.init@POLYN181278 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00096"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.init@POLYN180574 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.init@POLYN181278 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -375,7 +375,7 @@ var maDataBlocs = {
  , "c1" : "00101"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#101"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00101] For method init list of called methods Object monObjet|boolean StreamsConfig_InternalConfig_getBooleanN181175"
+ , "c3" : "QC-JAV000007[00101] For method init list of called methods Object monObjet|boolean StreamsConfig_InternalConfig_getBooleanN181879"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -389,28 +389,28 @@ var maDataBlocs = {
  , "c1" : "00105"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.init@POLYN181044 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.init@POLYN181748 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.init@POLYN181044 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.init@POLYN181748 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.init@POLYN181044 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.init@POLYN181748 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.persistent@POLYN182048 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.persistent@POLYN182752 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -445,7 +445,7 @@ var maDataBlocs = {
  , "c1" : "00151"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.put@POLYN182603 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.put@POLYN183307 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -466,14 +466,14 @@ var maDataBlocs = {
  , "c1" : "00160"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#160"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00160] For method putIfAbsent list of called methods Object monObjet|byte[] getN183379"
+ , "c3" : "QC-JAV000007[00160] For method putIfAbsent list of called methods Object monObjet|byte[] getN184083"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00163"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.putIfAbsent@POLYN183161 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.putIfAbsent@POLYN183865 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -508,7 +508,7 @@ var maDataBlocs = {
  , "c1" : "00188"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.range@POLYN184449 the MagicNumber/String  'MemoryLRUCache does not support range() function.' should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.range@POLYN185153 the MagicNumber/String  'MemoryLRUCache does not support range() function.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -522,21 +522,21 @@ var maDataBlocs = {
  , "c1" : "00196"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.reverseRange@POLYN184723 the MagicNumber/String  'MemoryLRUCache does not support reverseRange() function.' should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.reverseRange@POLYN185427 the MagicNumber/String  'MemoryLRUCache does not support reverseRange() function.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.all@POLYN184997 the MagicNumber/String  'MemoryLRUCache does not support all() function.' should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.all@POLYN185701 the MagicNumber/String  'MemoryLRUCache does not support all() function.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00212"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#212"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.reverseAll@POLYN185218 the MagicNumber/String  'MemoryLRUCache does not support reverseAll() function.' should be converted to const"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.reverseAll@POLYN185922 the MagicNumber/String  'MemoryLRUCache does not support reverseAll() function.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -550,7 +550,7 @@ var maDataBlocs = {
  , "c1" : "00236"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#236"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.close@POLYN185869 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.streams.state.internals.MemoryLRUCache.close@POLYN186573 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

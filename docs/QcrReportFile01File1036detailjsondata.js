@@ -103,14 +103,14 @@ var maDataBlocs = {
  , "c1" : "00040"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorTaskConfig.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.mirror.MirrorTaskConfig.taskTopicPartitions@POLYN156942 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.mirror.MirrorTaskConfig.taskTopicPartitions@POLYN157646 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00050"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorTaskConfig.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.mirror.MirrorTaskConfig.taskConsumerGroups@POLYN157456 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.mirror.MirrorTaskConfig.taskConsumerGroups@POLYN158160 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

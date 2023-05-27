@@ -442,21 +442,21 @@ var maDataBlocs = {
  , "c1" : "00162"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.filter@POLYN435770 the MagicNumber/String  'predicate can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.filter@POLYN436474 the MagicNumber/String  'predicate can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00163"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.filter@POLYN435770 the MagicNumber/String  'named can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.filter@POLYN436474 the MagicNumber/String  'named can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00167"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.filter@POLYN435770 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.filter@POLYN436474 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -477,21 +477,21 @@ var maDataBlocs = {
  , "c1" : "00191"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.filterNot@POLYN437371 the MagicNumber/String  'predicate can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.filterNot@POLYN438075 the MagicNumber/String  'predicate can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00192"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.filterNot@POLYN437371 the MagicNumber/String  'named can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.filterNot@POLYN438075 the MagicNumber/String  'named can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00196"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.filterNot@POLYN437371 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.filterNot@POLYN438075 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -694,7 +694,7 @@ var maDataBlocs = {
  , "c1" : "00390"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#390"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00390] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.print@POLYN449548 the MagicNumber/String  'printed can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00390] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.print@POLYN450252 the MagicNumber/String  'printed can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -715,14 +715,14 @@ var maDataBlocs = {
  , "c1" : "00410"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#410"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.foreach@POLYN450846 the MagicNumber/String  'action can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.foreach@POLYN451550 the MagicNumber/String  'action can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00411"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#411"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.foreach@POLYN450846 the MagicNumber/String  'named can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.foreach@POLYN451550 the MagicNumber/String  'named can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -743,14 +743,14 @@ var maDataBlocs = {
  , "c1" : "00430"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#430"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.peek@POLYN452235 the MagicNumber/String  'action can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.peek@POLYN452939 the MagicNumber/String  'action can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00431"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#431"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00431] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.peek@POLYN452235 the MagicNumber/String  'named can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00431] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.peek@POLYN452939 the MagicNumber/String  'named can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -771,7 +771,7 @@ var maDataBlocs = {
  , "c1" : "00463"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#463"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.branch@POLYN453945 the MagicNumber/String  'named can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.branch@POLYN454649 the MagicNumber/String  'named can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -785,7 +785,7 @@ var maDataBlocs = {
  , "c1" : "00468"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#468"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00468] For method doBranch list of called methods Object monObjet|java.lang.String named_orElseGenerateWithPrefixN455113|java.lang.String named_suffixWithOrElseGetN455538"
+ , "c3" : "QC-JAV000007[00468] For method doBranch list of called methods Object monObjet|java.lang.String named_orElseGenerateWithPrefixN455817|java.lang.String named_suffixWithOrElseGetN456242"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -827,49 +827,49 @@ var maDataBlocs = {
  , "c1" : "00470"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#470"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00470] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.doBranch@POLYN454450 the MagicNumber/String  'predicates can't be a null array' should be converted to const"
+ , "c3" : "QC-JAV000010[00470] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.doBranch@POLYN455154 the MagicNumber/String  'predicates can't be a null array' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00471"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#471"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.doBranch@POLYN454450 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.doBranch@POLYN455154 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00472"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#472"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00472] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.doBranch@POLYN454450 the MagicNumber/String  'branch() requires at least one predicate' should be converted to const"
+ , "c3" : "QC-JAV000010[00472] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.doBranch@POLYN455154 the MagicNumber/String  'branch() requires at least one predicate' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00475"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#475"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00475] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.doBranch@POLYN454450 the MagicNumber/String  'predicates can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00475] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.doBranch@POLYN455154 the MagicNumber/String  'predicates can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00480"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#480"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00480] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.doBranch@POLYN454450 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00480] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.doBranch@POLYN455154 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00481"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#481"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00481] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.doBranch@POLYN454450 the MagicNumber/String  '-predicate-' should be converted to const"
+ , "c3" : "QC-JAV000010[00481] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.doBranch@POLYN455154 the MagicNumber/String  '-predicate-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00493"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#493"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00493] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.doBranch@POLYN454450 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00493] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.doBranch@POLYN455154 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -883,7 +883,7 @@ var maDataBlocs = {
  , "c1" : "00513"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#513"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.split@POLYN457776 the MagicNumber/String  'named can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.split@POLYN458480 the MagicNumber/String  'named can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -904,14 +904,14 @@ var maDataBlocs = {
  , "c1" : "00525"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#525"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00525] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.merge@POLYN458433 the MagicNumber/String  'stream can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00525] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.merge@POLYN459137 the MagicNumber/String  'stream can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00526"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#526"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00526] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.merge@POLYN458433 the MagicNumber/String  'named can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00526] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.merge@POLYN459137 the MagicNumber/String  'named can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -925,7 +925,7 @@ var maDataBlocs = {
  , "c1" : "00531"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#531"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00531] For method merge list of called methods Object monObjet|java.lang.String named_orElseGenerateWithPrefixN459396"
+ , "c3" : "QC-JAV000007[00531] For method merge list of called methods Object monObjet|java.lang.String named_orElseGenerateWithPrefixN460100"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -946,21 +946,21 @@ var maDataBlocs = {
  , "c1" : "00545"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#545"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00545] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.merge@POLYN458949 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00545] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.merge@POLYN459653 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00552"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#552"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00552] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.merge@POLYN458949 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00552] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.merge@POLYN459653 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00553"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#553"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00553] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.merge@POLYN458949 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00553] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.merge@POLYN459653 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -974,7 +974,7 @@ var maDataBlocs = {
  , "c1" : "00563"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#563"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00563] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.through@POLYN460680 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00563] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.through@POLYN461384 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -988,42 +988,42 @@ var maDataBlocs = {
  , "c1" : "00570"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#570"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00570] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.through@POLYN460994 the MagicNumber/String  'topic can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00570] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.through@POLYN461698 the MagicNumber/String  'topic can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00571"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#571"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00571] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.through@POLYN460994 the MagicNumber/String  'produced can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00571] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.through@POLYN461698 the MagicNumber/String  'produced can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00574"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#574"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00574] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.through@POLYN460994 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00574] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.through@POLYN461698 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00577"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#577"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00577] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.through@POLYN460994 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00577] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.through@POLYN461698 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00588"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#588"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00588] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.through@POLYN460994 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00588] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.through@POLYN461698 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00595"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#595"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00595] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.repartition@POLYN462252 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00595] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.repartition@POLYN462956 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1044,42 +1044,42 @@ var maDataBlocs = {
  , "c1" : "00603"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#603"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00603] For method doRepartition list of called methods Object monObjet|java.lang.String repartitionedInternal_nameN463063|org.apache.kafka.common.serialization.Serde repartitionedInternal_valueSerdeN463293|org.apache.kafka.common.serialization.Serde repartitionedInternal_keySerdeN463494|org.apache.kafka.streams.processor.internals.InternalTopicProperties repartitionedInternal_toInternalTopicPropertiesN463793"
+ , "c3" : "QC-JAV000007[00603] For method doRepartition list of called methods Object monObjet|java.lang.String repartitionedInternal_nameN463767|org.apache.kafka.common.serialization.Serde repartitionedInternal_valueSerdeN463997|org.apache.kafka.common.serialization.Serde repartitionedInternal_keySerdeN464198|org.apache.kafka.streams.processor.internals.InternalTopicProperties repartitionedInternal_toInternalTopicPropertiesN464497"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00604"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#604"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00604] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.doRepartition@POLYN462677 the MagicNumber/String  'repartitioned can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00604] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.doRepartition@POLYN463381 the MagicNumber/String  'repartitioned can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00608"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#608"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00608] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.doRepartition@POLYN462677 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00608] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.doRepartition@POLYN463381 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00611"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#611"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00611] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.doRepartition@POLYN462677 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00611] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.doRepartition@POLYN463381 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00612"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#612"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00612] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.doRepartition@POLYN462677 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00612] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.doRepartition@POLYN463381 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00640"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#640"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00640] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.doRepartition@POLYN462677 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00640] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.doRepartition@POLYN463381 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1093,7 +1093,7 @@ var maDataBlocs = {
  , "c1" : "00648"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#648"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00648] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.to@POLYN464803 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00648] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.to@POLYN465507 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1107,28 +1107,28 @@ var maDataBlocs = {
  , "c1" : "00654"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#654"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00654] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.to@POLYN465053 the MagicNumber/String  'topic can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00654] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.to@POLYN465757 the MagicNumber/String  'topic can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00655"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#655"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00655] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.to@POLYN465053 the MagicNumber/String  'produced can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00655] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.to@POLYN465757 the MagicNumber/String  'produced can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00658"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#658"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00658] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.to@POLYN465053 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00658] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.to@POLYN465757 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00661"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#661"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00661] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.to@POLYN465053 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00661] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.to@POLYN465757 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1142,7 +1142,7 @@ var maDataBlocs = {
  , "c1" : "00669"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#669"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00669] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.to@POLYN466002 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00669] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.to@POLYN466706 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1156,28 +1156,28 @@ var maDataBlocs = {
  , "c1" : "00675"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#675"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00675] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.to@POLYN466289 the MagicNumber/String  'topicExtractor can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00675] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.to@POLYN466993 the MagicNumber/String  'topicExtractor can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00676"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#676"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00676] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.to@POLYN466289 the MagicNumber/String  'produced can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00676] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.to@POLYN466993 the MagicNumber/String  'produced can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00679"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#679"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00679] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.to@POLYN466289 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00679] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.to@POLYN466993 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00682"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#682"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00682] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.to@POLYN466289 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00682] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.to@POLYN466993 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1219,42 +1219,42 @@ var maDataBlocs = {
  , "c1" : "00716"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#716"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00716] For method toTable list of called methods Object monObjet|java.lang.String namedInternal_orElseGenerateWithPrefixN469304|org.apache.kafka.common.serialization.Serde materializedInternal_keySerdeN469698|org.apache.kafka.common.serialization.Serde materializedInternal_valueSerdeN469889"
+ , "c3" : "QC-JAV000007[00716] For method toTable list of called methods Object monObjet|java.lang.String namedInternal_orElseGenerateWithPrefixN470008|org.apache.kafka.common.serialization.Serde materializedInternal_keySerdeN470402|org.apache.kafka.common.serialization.Serde materializedInternal_valueSerdeN470593"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00718"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#718"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00718] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.toTable@POLYN468783 the MagicNumber/String  'named can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00718] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.toTable@POLYN469487 the MagicNumber/String  'named can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00719"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#719"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00719] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.toTable@POLYN468783 the MagicNumber/String  'materialized can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00719] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.toTable@POLYN469487 the MagicNumber/String  'materialized can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00727"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#727"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00727] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.toTable@POLYN468783 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00727] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.toTable@POLYN469487 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00730"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#730"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00730] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.toTable@POLYN468783 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00730] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.toTable@POLYN469487 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00744"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#744"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00744] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.toTable@POLYN468783 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00744] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.toTable@POLYN469487 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1303,7 +1303,7 @@ var maDataBlocs = {
  , "c1" : "00814"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#814"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00814] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.groupByKey@POLYN473659 the MagicNumber/String  'grouped can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00814] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.groupByKey@POLYN474363 the MagicNumber/String  'grouped can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1485,35 +1485,35 @@ var maDataBlocs = {
  , "c1" : "00980"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#980"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00980] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.repartitionForJoin@POLYN483668 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00980] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.repartitionForJoin@POLYN484372 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00981"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#981"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00981] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.repartitionForJoin@POLYN483668 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00981] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.repartitionForJoin@POLYN484372 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00992"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#992"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00992] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.repartitionForJoin@POLYN483668 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00992] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.repartitionForJoin@POLYN484372 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00995"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#995"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00995] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.repartitionForJoin@POLYN483668 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00995] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.repartitionForJoin@POLYN484372 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01005"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#1005"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01005] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.repartitionForJoin@POLYN483668 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01005] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.repartitionForJoin@POLYN484372 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2101,28 +2101,28 @@ var maDataBlocs = {
  , "c1" : "01495"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#1495"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01495] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.process@POLYN514553 the MagicNumber/String  'processorSupplier can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[01495] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.process@POLYN515257 the MagicNumber/String  'processorSupplier can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01496"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#1496"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01496] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.process@POLYN514553 the MagicNumber/String  'named can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[01496] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.process@POLYN515257 the MagicNumber/String  'named can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01497"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#1497"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01497] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.process@POLYN514553 the MagicNumber/String  'stateStoreNames can't be a null array' should be converted to const"
+ , "c3" : "QC-JAV000010[01497] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.process@POLYN515257 the MagicNumber/String  'stateStoreNames can't be a null array' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01500"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#1500"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01500] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.process@POLYN514553 the MagicNumber/String  'stateStoreNames can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[01500] In method org.apache.kafka.streams.kstream.internals.KStreamImpl.process@POLYN515257 the MagicNumber/String  'stateStoreNames can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

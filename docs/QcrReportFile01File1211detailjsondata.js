@@ -167,14 +167,14 @@ var maDataBlocs = {
  , "c1" : "00046"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.util.TopicCreationGroup.TopicCreationGroup@POLYN171856 the MagicNumber/String  '|' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.util.TopicCreationGroup.TopicCreationGroup@POLYN172560 the MagicNumber/String  '|' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00047"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.connect.util.TopicCreationGroup.TopicCreationGroup@POLYN171856 the MagicNumber/String  '|' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.connect.util.TopicCreationGroup.TopicCreationGroup@POLYN172560 the MagicNumber/String  '|' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -216,77 +216,77 @@ var maDataBlocs = {
  , "c1" : "00119"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.util.TopicCreationGroup.equals@POLYN175113 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.util.TopicCreationGroup.equals@POLYN175817 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00122"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.connect.util.TopicCreationGroup.equals@POLYN175113 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.connect.util.TopicCreationGroup.equals@POLYN175817 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00142"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN176367 the MagicNumber/String  'TopicCreationGroup{' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN177071 the MagicNumber/String  'TopicCreationGroup{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN176367 the MagicNumber/String  'name='' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN177071 the MagicNumber/String  'name='' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN176367 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN177071 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN176367 the MagicNumber/String  ', inclusionPattern=' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN177071 the MagicNumber/String  ', inclusionPattern=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00145"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN176367 the MagicNumber/String  ', exclusionPattern=' should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN177071 the MagicNumber/String  ', exclusionPattern=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN176367 the MagicNumber/String  ', numPartitions=' should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN177071 the MagicNumber/String  ', numPartitions=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN176367 the MagicNumber/String  ', replicationFactor=' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN177071 the MagicNumber/String  ', replicationFactor=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00148"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN176367 the MagicNumber/String  ', otherConfigs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN177071 the MagicNumber/String  ', otherConfigs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00149"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreationGroup.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN176367 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.connect.util.TopicCreationGroup.toString@POLYN177071 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

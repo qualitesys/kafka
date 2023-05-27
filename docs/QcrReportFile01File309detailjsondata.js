@@ -147,21 +147,21 @@ var maDataBlocs = {
  , "c1" : "00077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.config.internals.QuotaConfigs.userConfigs@POLYN164037 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.config.internals.QuotaConfigs.userConfigs@POLYN164741 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.config.internals.QuotaConfigs.userConfigs@POLYN164037 the MagicNumber/String  'User credentials for SCRAM mechanism ' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.config.internals.QuotaConfigs.userConfigs@POLYN164741 the MagicNumber/String  'User credentials for SCRAM mechanism ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/internals/QuotaConfigs.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.config.internals.QuotaConfigs.ipConfigs@POLYN164822 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.config.internals.QuotaConfigs.ipConfigs@POLYN165526 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

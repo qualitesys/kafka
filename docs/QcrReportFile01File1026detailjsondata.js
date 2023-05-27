@@ -237,63 +237,63 @@ var maDataBlocs = {
  , "c1" : "00065"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00065] For method start list of called methods Object monObjet|org.apache.kafka.clients.admin.AdminClient AdminClient_createN173971"
+ , "c3" : "QC-JAV000007[00065] For method start list of called methods Object monObjet|org.apache.kafka.clients.admin.AdminClient AdminClient_createN174675"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN173350 the MagicNumber/String  'creating internal topics' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN174054 the MagicNumber/String  'creating internal topics' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN173350 the MagicNumber/String  'loading initial consumer groups' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN174054 the MagicNumber/String  'loading initial consumer groups' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN173350 the MagicNumber/String  'refreshing consumer groups' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN174054 the MagicNumber/String  'refreshing consumer groups' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN173350 the MagicNumber/String  'Started {} with {} consumer groups.' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN174054 the MagicNumber/String  'Started {} with {} consumer groups.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN173350 the MagicNumber/String  'Started {} with consumer groups: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN174054 the MagicNumber/String  'Started {} with consumer groups: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.stop@POLYN174818 the MagicNumber/String  'scheduler' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.stop@POLYN175522 the MagicNumber/String  'scheduler' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.stop@POLYN174818 the MagicNumber/String  'group filter' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.stop@POLYN175522 the MagicNumber/String  'group filter' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.stop@POLYN174818 the MagicNumber/String  'source admin client' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.stop@POLYN175522 the MagicNumber/String  'source admin client' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -307,28 +307,28 @@ var maDataBlocs = {
  , "c1" : "00124"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#124"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00124] For method refreshConsumerGroups list of called methods Object monObjet|java.util.List findConsumerGroupsN176469"
+ , "c3" : "QC-JAV000007[00124] For method refreshConsumerGroups list of called methods Object monObjet|java.util.List findConsumerGroupsN177173"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00134"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.refreshConsumerGroups@POLYN176353 the MagicNumber/String  'Found {} consumer groups for {}. {} are new. {} were removed. Previously had {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.refreshConsumerGroups@POLYN177057 the MagicNumber/String  'Found {} consumer groups for {}. {} are new. {} were removed. Previously had {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.refreshConsumerGroups@POLYN176353 the MagicNumber/String  'Found new consumer groups: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.refreshConsumerGroups@POLYN177057 the MagicNumber/String  'Found new consumer groups: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#143"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00143] For method loadInitialConsumerGroups list of called methods Object monObjet|java.util.List findConsumerGroupsN177692"
+ , "c3" : "QC-JAV000007[00143] For method loadInitialConsumerGroups list of called methods Object monObjet|java.util.List findConsumerGroupsN178396"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -342,42 +342,42 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN173350"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN174054"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#75"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00075] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN173350 the MagicNumber/String 'creating internal topics' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00075] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN174054 the MagicNumber/String 'creating internal topics' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#76"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN173350 the MagicNumber/String 'loading initial consumer groups' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN174054 the MagicNumber/String 'loading initial consumer groups' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#78"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN173350 the MagicNumber/String 'refreshing consumer groups' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN174054 the MagicNumber/String 'refreshing consumer groups' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#79"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN173350 the MagicNumber/String 'Started {} with {} consumer groups.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN174054 the MagicNumber/String 'Started {} with {} consumer groups.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#80"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN173350 the MagicNumber/String 'Started {} with consumer groups: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointConnector.start@POLYN174054 the MagicNumber/String 'Started {} with consumer groups: {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

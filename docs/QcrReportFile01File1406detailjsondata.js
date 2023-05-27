@@ -140,70 +140,70 @@ var maDataBlocs = {
  , "c1" : "00030"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.raft.OffsetAndEpoch.equals@POLYN154132 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.raft.OffsetAndEpoch.equals@POLYN154836 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00031"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.raft.OffsetAndEpoch.equals@POLYN154132 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.raft.OffsetAndEpoch.equals@POLYN154836 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00031"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.raft.OffsetAndEpoch.equals@POLYN154132 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.raft.OffsetAndEpoch.equals@POLYN154836 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00035"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.raft.OffsetAndEpoch.equals@POLYN154132 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.raft.OffsetAndEpoch.equals@POLYN154836 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00041"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.raft.OffsetAndEpoch.hashCode@POLYN154717 the MagicNumber/String  32 should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.raft.OffsetAndEpoch.hashCode@POLYN155421 the MagicNumber/String  32 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00042"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.raft.OffsetAndEpoch.hashCode@POLYN154717 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.raft.OffsetAndEpoch.hashCode@POLYN155421 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00048"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.raft.OffsetAndEpoch.toString@POLYN155083 the MagicNumber/String  'OffsetAndEpoch(' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.raft.OffsetAndEpoch.toString@POLYN155787 the MagicNumber/String  'OffsetAndEpoch(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00049"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.raft.OffsetAndEpoch.toString@POLYN155083 the MagicNumber/String  'offset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.raft.OffsetAndEpoch.toString@POLYN155787 the MagicNumber/String  'offset=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00050"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.raft.OffsetAndEpoch.toString@POLYN155083 the MagicNumber/String  ', epoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.raft.OffsetAndEpoch.toString@POLYN155787 the MagicNumber/String  ', epoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/OffsetAndEpoch.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.raft.OffsetAndEpoch.toString@POLYN155083 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.raft.OffsetAndEpoch.toString@POLYN155787 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

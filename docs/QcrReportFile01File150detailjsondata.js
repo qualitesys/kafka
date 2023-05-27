@@ -149,56 +149,56 @@ var maDataBlocs = {
  , "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.clients.admin.UserScramCredentialsDescription.equals@POLYN157823 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.clients.admin.UserScramCredentialsDescription.equals@POLYN158527 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.clients.admin.UserScramCredentialsDescription.equals@POLYN157823 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.clients.admin.UserScramCredentialsDescription.equals@POLYN158527 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.clients.admin.UserScramCredentialsDescription.equals@POLYN157823 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.clients.admin.UserScramCredentialsDescription.equals@POLYN158527 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.clients.admin.UserScramCredentialsDescription.toString@POLYN158556 the MagicNumber/String  'UserScramCredentialsDescription{' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.clients.admin.UserScramCredentialsDescription.toString@POLYN159260 the MagicNumber/String  'UserScramCredentialsDescription{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.clients.admin.UserScramCredentialsDescription.toString@POLYN158556 the MagicNumber/String  'name='' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.clients.admin.UserScramCredentialsDescription.toString@POLYN159260 the MagicNumber/String  'name='' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.clients.admin.UserScramCredentialsDescription.toString@POLYN158556 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.clients.admin.UserScramCredentialsDescription.toString@POLYN159260 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.clients.admin.UserScramCredentialsDescription.toString@POLYN158556 the MagicNumber/String  ', credentialInfos=' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.clients.admin.UserScramCredentialsDescription.toString@POLYN159260 the MagicNumber/String  ', credentialInfos=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/UserScramCredentialsDescription.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.admin.UserScramCredentialsDescription.toString@POLYN158556 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.admin.UserScramCredentialsDescription.toString@POLYN159260 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 

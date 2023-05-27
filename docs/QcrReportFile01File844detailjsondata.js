@@ -210,112 +210,112 @@ var maDataBlocs = {
  , "c1" : "00105"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN194406 the MagicNumber/String  'Unsupported extensions will be ignored, supported {}, provided {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN195110 the MagicNumber/String  'Unsupported extensions will be ignored, supported {}, provided {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00112"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN194406 the MagicNumber/String  'username' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN195110 the MagicNumber/String  'username' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00118"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN194406 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN195110 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00119"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN194406 the MagicNumber/String  'Token Authentication failed: Invalid tokenId : ' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN195110 the MagicNumber/String  'Token Authentication failed: Invalid tokenId : ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00126"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN194406 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN195110 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN194406 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN195110 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00130"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN194406 the MagicNumber/String  'Authentication failed: Invalid user credentials' should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN195110 the MagicNumber/String  'Authentication failed: Invalid user credentials' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN194406 the MagicNumber/String  'Authentication failed: Client requested an authorization id that is different from username' should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN195110 the MagicNumber/String  'Authentication failed: Client requested an authorization id that is different from username' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN194406 the MagicNumber/String  'Iterations ' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN195110 the MagicNumber/String  'Iterations ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN194406 the MagicNumber/String  ' is less than the minimum ' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN195110 the MagicNumber/String  ' is less than the minimum ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN194406 the MagicNumber/String  ' for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN195110 the MagicNumber/String  ' for ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN194406 the MagicNumber/String  'Authentication failed: Credentials could not be obtained' should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN195110 the MagicNumber/String  'Authentication failed: Credentials could not be obtained' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN194406 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN195110 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00160"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN194406 the MagicNumber/String  'Authentication failed: Invalid client final message' should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN195110 the MagicNumber/String  'Authentication failed: Invalid client final message' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00164"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN194406 the MagicNumber/String  'Unexpected challenge in Sasl server state ' should be converted to const"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.evaluateResponse@POLYN195110 the MagicNumber/String  'Unexpected challenge in Sasl server state ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00176"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.getAuthorizationID@POLYN199206 the MagicNumber/String  'Authentication exchange has not completed' should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.getAuthorizationID@POLYN199910 the MagicNumber/String  'Authentication exchange has not completed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -329,14 +329,14 @@ var maDataBlocs = {
  , "c1" : "00188"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.getNegotiatedProperty@POLYN199554 the MagicNumber/String  'Authentication exchange has not completed' should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.getNegotiatedProperty@POLYN200258 the MagicNumber/String  'Authentication exchange has not completed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00194"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.getNegotiatedProperty@POLYN199554 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.getNegotiatedProperty@POLYN200258 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -350,7 +350,7 @@ var maDataBlocs = {
  , "c1" : "00205"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#205"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.unwrap@POLYN200222 the MagicNumber/String  'Authentication exchange has not completed' should be converted to const"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.unwrap@POLYN200926 the MagicNumber/String  'Authentication exchange has not completed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -364,7 +364,7 @@ var maDataBlocs = {
  , "c1" : "00212"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#212"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.wrap@POLYN200639 the MagicNumber/String  'Authentication exchange has not completed' should be converted to const"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.wrap@POLYN201343 the MagicNumber/String  'Authentication exchange has not completed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -378,7 +378,7 @@ var maDataBlocs = {
  , "c1" : "00221"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.setState@POLYN201083 the MagicNumber/String  'Setting SASL/{} server state to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.setState@POLYN201787 the MagicNumber/String  'Setting SASL/{} server state to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -399,35 +399,35 @@ var maDataBlocs = {
  , "c1" : "00231"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#231"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.verifyClientProof@POLYN201327 the MagicNumber/String  'Invalid client credentials' should be converted to const"
+ , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.verifyClientProof@POLYN202031 the MagicNumber/String  'Invalid client credentials' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00233"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#233"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.verifyClientProof@POLYN201327 the MagicNumber/String  'Sasl client verification failed' should be converted to const"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.verifyClientProof@POLYN202031 the MagicNumber/String  'Sasl client verification failed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00238"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#238"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.clearCredentials@POLYN202137 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.clearCredentials@POLYN202841 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00239"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#239"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.clearCredentials@POLYN202137 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.clearCredentials@POLYN202841 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00240"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#240"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.clearCredentials@POLYN202137 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.clearCredentials@POLYN202841 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -441,14 +441,14 @@ var maDataBlocs = {
  , "c1" : "00250"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#250"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.ScramSaslServerFactory.createSaslServer@POLYN202419 the MagicNumber/String  'Requested mechanism '%s' is not supported. Supported mechanisms are '%s'.' should be converted to const"
+ , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.ScramSaslServerFactory.createSaslServer@POLYN203123 the MagicNumber/String  'Requested mechanism '%s' is not supported. Supported mechanisms are '%s'.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00256"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#256"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.ScramSaslServerFactory.createSaslServer@POLYN202419 the MagicNumber/String  'Hash algorithm not supported for mechanism ' should be converted to const"
+ , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.ScramSaslServerFactory.createSaslServer@POLYN203123 the MagicNumber/String  'Hash algorithm not supported for mechanism ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -462,7 +462,7 @@ var maDataBlocs = {
  , "c1" : "00263"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslServer.java.html#263"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.ScramSaslServerFactory.getMechanismNames@POLYN203272 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.common.security.scram.internals.ScramSaslServer.ScramSaslServerFactory.getMechanismNames@POLYN203976 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

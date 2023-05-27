@@ -185,7 +185,7 @@ var maDataBlocs = {
  , "c1" : "00024"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.kstream.internals.NamedInternal.empty@POLYN156598 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.streams.kstream.internals.NamedInternal.empty@POLYN157302 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -213,7 +213,7 @@ var maDataBlocs = {
  , "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.kstream.internals.NamedInternal.suffixWithOrElseGet@POLYN157583 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.streams.kstream.internals.NamedInternal.suffixWithOrElseGet@POLYN158287 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -234,7 +234,7 @@ var maDataBlocs = {
  , "c1" : "00072"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.kstream.internals.NamedInternal.suffixWithOrElseGet@POLYN157867 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.kstream.internals.NamedInternal.suffixWithOrElseGet@POLYN158571 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -255,35 +255,35 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.kstream.internals.NamedInternal.orElseGenerateWithPrefix@POLYN158422 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.kstream.internals.NamedInternal.orElseGenerateWithPrefix@POLYN159126 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.NamedInternal.orElseGenerateWithPrefix@POLYN158422"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.NamedInternal.orElseGenerateWithPrefix@POLYN159126"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.NamedInternal.suffixWithOrElseGet@POLYN157867"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.NamedInternal.suffixWithOrElseGet@POLYN158571"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#88"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.streams.kstream.internals.NamedInternal.orElseGenerateWithPrefix@POLYN158422 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.streams.kstream.internals.NamedInternal.orElseGenerateWithPrefix@POLYN159126 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/NamedInternal.java.html#72"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.streams.kstream.internals.NamedInternal.suffixWithOrElseGet@POLYN157867 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.streams.kstream.internals.NamedInternal.suffixWithOrElseGet@POLYN158571 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

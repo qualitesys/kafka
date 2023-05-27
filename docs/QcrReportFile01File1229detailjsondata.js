@@ -154,7 +154,7 @@ var maDataBlocs = {
  , "c1" : "00040"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.transforms.predicates.RecordIsTombstone.test@POLYN153738 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.transforms.predicates.RecordIsTombstone.test@POLYN154442 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -168,7 +168,7 @@ var maDataBlocs = {
  , "c1" : "00055"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.connect.transforms.predicates.RecordIsTombstone.toString@POLYN154067 the MagicNumber/String  'RecordIsTombstone{}' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.connect.transforms.predicates.RecordIsTombstone.toString@POLYN154771 the MagicNumber/String  'RecordIsTombstone{}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

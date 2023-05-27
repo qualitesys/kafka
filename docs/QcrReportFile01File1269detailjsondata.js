@@ -219,126 +219,126 @@ var maDataBlocs = {
  , "c1" : "00040"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00040] For method parse list of called methods Object monObjet|java.lang.String input_trimN175570|int trimmedInput_indexOfN176256|short Short_parseShortN176427"
+ , "c3" : "QC-JAV000007[00040] For method parse list of called methods Object monObjet|java.lang.String input_trimN176274|int trimmedInput_indexOfN176960|short Short_parseShortN177131"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00041"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.message.Versions.parse@POLYN175337 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.message.Versions.parse@POLYN176041 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00045"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.message.Versions.parse@POLYN175337 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.message.Versions.parse@POLYN176041 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.message.Versions.parse@POLYN175337 the MagicNumber/String  '+' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.message.Versions.parse@POLYN176041 the MagicNumber/String  '+' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00053"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.message.Versions.parse@POLYN175337 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.message.Versions.parse@POLYN176041 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00053"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.message.Versions.parse@POLYN175337 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.message.Versions.parse@POLYN176041 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.message.Versions.parse@POLYN175337 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.message.Versions.parse@POLYN176041 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.message.Versions.parse@POLYN175337 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.message.Versions.parse@POLYN176041 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.message.Versions.parse@POLYN175337 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.message.Versions.parse@POLYN176041 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.message.Versions.parse@POLYN175337 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.message.Versions.parse@POLYN176041 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.message.Versions.Versions@POLYN177222 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.message.Versions.Versions@POLYN177926 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.message.Versions.Versions@POLYN177222 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.message.Versions.Versions@POLYN177926 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.message.Versions.Versions@POLYN177401 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.message.Versions.Versions@POLYN178105 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.message.Versions.Versions@POLYN177401 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.message.Versions.Versions@POLYN178105 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.message.Versions.Versions@POLYN177401 the MagicNumber/String  'Invalid version range ' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.message.Versions.Versions@POLYN178105 the MagicNumber/String  'Invalid version range ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00081"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.message.Versions.Versions@POLYN177401 the MagicNumber/String  ' to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.message.Versions.Versions@POLYN178105 the MagicNumber/String  ' to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00106"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.message.Versions.toString@POLYN178226 the MagicNumber/String  '%d+' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.message.Versions.toString@POLYN178930 the MagicNumber/String  '%d+' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.message.Versions.toString@POLYN178226 the MagicNumber/String  '%d-%d' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.message.Versions.toString@POLYN178930 the MagicNumber/String  '%d-%d' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -373,28 +373,28 @@ var maDataBlocs = {
  , "c1" : "00154"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.message.Versions.subtract@POLYN179861 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.message.Versions.subtract@POLYN180565 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.message.Versions.subtract@POLYN179861 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.message.Versions.subtract@POLYN180565 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00158"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.message.Versions.subtract@POLYN179861 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.message.Versions.subtract@POLYN180565 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.message.Versions.subtract@POLYN179861 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.message.Versions.subtract@POLYN180565 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -422,7 +422,7 @@ var maDataBlocs = {
  , "c1" : "00180"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.message.Versions.contains@POLYN181196 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.message.Versions.contains@POLYN181900 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -436,7 +436,7 @@ var maDataBlocs = {
  , "c1" : "00193"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Versions.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.message.Versions.equals@POLYN181743 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.message.Versions.equals@POLYN182447 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

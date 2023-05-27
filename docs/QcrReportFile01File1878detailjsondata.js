@@ -294,7 +294,7 @@ var maDataBlocs = {
  , "c1" : "00069"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.StateUpdaterThread@POLYN227087 the MagicNumber/String  '%s ' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.StateUpdaterThread@POLYN227791 the MagicNumber/String  '%s ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -315,14 +315,14 @@ var maDataBlocs = {
  , "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.run@POLYN228430 the MagicNumber/String  'State updater thread started' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.run@POLYN229134 the MagicNumber/String  'State updater thread started' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.run@POLYN228430 the MagicNumber/String  'State updater thread shutdown' should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.run@POLYN229134 the MagicNumber/String  'State updater thread shutdown' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -336,7 +336,7 @@ var maDataBlocs = {
  , "c1" : "00135"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#135"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00135] For method restoreTasks list of called methods Object monObjet|java.util.Set changelogReader_completedChangelogsN230409"
+ , "c3" : "QC-JAV000007[00135] For method restoreTasks list of called methods Object monObjet|java.util.Set changelogReader_completedChangelogsN231113"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -357,14 +357,14 @@ var maDataBlocs = {
  , "c1" : "00151"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleRuntimeException@POLYN230873 the MagicNumber/String  'An unexpected error occurred within the state updater thread: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleRuntimeException@POLYN231577 the MagicNumber/String  'An unexpected error occurred within the state updater thread: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00153"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleRuntimeException@POLYN230873 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleRuntimeException@POLYN231577 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -378,7 +378,7 @@ var maDataBlocs = {
  , "c1" : "00156"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#156"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00156] For method handleTaskCorruptedException list of called methods Object monObjet|java.util.Set taskCorruptedException_corruptedTasksN231517"
+ , "c3" : "QC-JAV000007[00156] For method handleTaskCorruptedException list of called methods Object monObjet|java.util.Set taskCorruptedException_corruptedTasksN232221"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -399,28 +399,28 @@ var maDataBlocs = {
  , "c1" : "00157"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleTaskCorruptedException@POLYN231298 the MagicNumber/String  'Encountered task corrupted exception: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleTaskCorruptedException@POLYN232002 the MagicNumber/String  'Encountered task corrupted exception: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00162"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleTaskCorruptedException@POLYN231298 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleTaskCorruptedException@POLYN232002 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00163"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleTaskCorruptedException@POLYN231298 the MagicNumber/String  'Task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleTaskCorruptedException@POLYN232002 the MagicNumber/String  'Task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00163"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleTaskCorruptedException@POLYN231298 the MagicNumber/String  ' is corrupted but is not updating. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleTaskCorruptedException@POLYN232002 the MagicNumber/String  ' is corrupted but is not updating. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -441,7 +441,7 @@ var maDataBlocs = {
  , "c1" : "00171"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleStreamsException@POLYN232266 the MagicNumber/String  'Encountered streams exception: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleStreamsException@POLYN232970 the MagicNumber/String  'Encountered streams exception: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -455,7 +455,7 @@ var maDataBlocs = {
  , "c1" : "00179"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#179"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00179] For method handleStreamsExceptionWithTask list of called methods Object monObjet|java.util.Optional streamsException_taskIdN232767"
+ , "c3" : "QC-JAV000007[00179] For method handleStreamsExceptionWithTask list of called methods Object monObjet|java.util.Optional streamsException_taskIdN233471"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -469,14 +469,14 @@ var maDataBlocs = {
  , "c1" : "00182"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleStreamsExceptionWithTask@POLYN232664 the MagicNumber/String  'Task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleStreamsExceptionWithTask@POLYN233368 the MagicNumber/String  'Task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00182"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleStreamsExceptionWithTask@POLYN232664 the MagicNumber/String  ' failed but is not updating. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleStreamsExceptionWithTask@POLYN233368 the MagicNumber/String  ' failed but is not updating. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -525,49 +525,49 @@ var maDataBlocs = {
  , "c1" : "00244"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#244"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.addTask@POLYN235437 the MagicNumber/String  'Stateless active task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.addTask@POLYN236141 the MagicNumber/String  'Stateless active task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00244"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#244"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.addTask@POLYN235437 the MagicNumber/String  ' was added to the restored tasks of the state updater' should be converted to const"
+ , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.addTask@POLYN236141 the MagicNumber/String  ' was added to the restored tasks of the state updater' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00248"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#248"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.addTask@POLYN235437 the MagicNumber/String  'Stateful active task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.addTask@POLYN236141 the MagicNumber/String  'Stateful active task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00248"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#248"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.addTask@POLYN235437 the MagicNumber/String  ' was added to the updating tasks of the state updater' should be converted to const"
+ , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.addTask@POLYN236141 the MagicNumber/String  ' was added to the updating tasks of the state updater' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00251"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#251"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.addTask@POLYN235437 the MagicNumber/String  'Standby task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.addTask@POLYN236141 the MagicNumber/String  'Standby task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00251"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#251"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.addTask@POLYN235437 the MagicNumber/String  ' was added to the updating tasks of the state updater' should be converted to const"
+ , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.addTask@POLYN236141 the MagicNumber/String  ' was added to the updating tasks of the state updater' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00252"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#252"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.addTask@POLYN235437 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.addTask@POLYN236141 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -581,63 +581,63 @@ var maDataBlocs = {
  , "c1" : "00259"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#259"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00259] For method removeTask list of called methods Object monObjet|V updatingTasks_getN236611|java.util.Collection task_changelogPartitionsN236879"
+ , "c3" : "QC-JAV000007[00259] For method removeTask list of called methods Object monObjet|V updatingTasks_getN237315|java.util.Collection task_changelogPartitionsN237583"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00261"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#261"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.removeTask@POLYN236508 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.removeTask@POLYN237212 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00262"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#262"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.removeTask@POLYN236508 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.removeTask@POLYN237212 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00268"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#268"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.removeTask@POLYN236508 the MagicNumber/String  'Active' should be converted to const"
+ , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.removeTask@POLYN237212 the MagicNumber/String  'Active' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00268"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#268"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.removeTask@POLYN236508 the MagicNumber/String  'Standby' should be converted to const"
+ , "c3" : "QC-JAV000010[00268] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.removeTask@POLYN237212 the MagicNumber/String  'Standby' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00269"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#269"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.removeTask@POLYN236508 the MagicNumber/String  ' task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.removeTask@POLYN237212 the MagicNumber/String  ' task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00269"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#269"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.removeTask@POLYN236508 the MagicNumber/String  ' was removed from the updating tasks and added to the removed tasks.' should be converted to const"
+ , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.removeTask@POLYN237212 the MagicNumber/String  ' was removed from the updating tasks and added to the removed tasks.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00271"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#271"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.removeTask@POLYN236508 the MagicNumber/String  'Task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.removeTask@POLYN237212 the MagicNumber/String  'Task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00271"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#271"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.removeTask@POLYN236508 the MagicNumber/String  ' was not removed since it is not updating.' should be converted to const"
+ , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.removeTask@POLYN237212 the MagicNumber/String  ' was not removed since it is not updating.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -665,7 +665,7 @@ var maDataBlocs = {
  , "c1" : "00279"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#279"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00279] For method maybeCompleteRestoration list of called methods Object monObjet|java.util.Collection task_changelogPartitionsN238017"
+ , "c3" : "QC-JAV000007[00279] For method maybeCompleteRestoration list of called methods Object monObjet|java.util.Collection task_changelogPartitionsN238721"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -686,21 +686,21 @@ var maDataBlocs = {
  , "c1" : "00283"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#283"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.maybeCompleteRestoration@POLYN237844 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.maybeCompleteRestoration@POLYN238548 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00286"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#286"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.maybeCompleteRestoration@POLYN237844 the MagicNumber/String  'Stateful active task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.maybeCompleteRestoration@POLYN238548 the MagicNumber/String  'Stateful active task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00286"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#286"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.maybeCompleteRestoration@POLYN237844 the MagicNumber/String  ' completed restoration' should be converted to const"
+ , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.maybeCompleteRestoration@POLYN238548 the MagicNumber/String  ' completed restoration' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -721,14 +721,14 @@ var maDataBlocs = {
  , "c1" : "00301"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#301"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.addToRestoredTasks@POLYN238720 the MagicNumber/String  'Active task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.addToRestoredTasks@POLYN239424 the MagicNumber/String  'Active task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00301"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#301"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.addToRestoredTasks@POLYN238720 the MagicNumber/String  ' was added to the restored tasks' should be converted to const"
+ , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.addToRestoredTasks@POLYN239424 the MagicNumber/String  ' was added to the restored tasks' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -742,14 +742,14 @@ var maDataBlocs = {
  , "c1" : "00312"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#312"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.maybeCheckpointUpdatingTasks@POLYN239188 the MagicNumber/String  'Checkpointing all restoring tasks since {}ms has elapsed (commit interval is {}ms)' should be converted to const"
+ , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.maybeCheckpointUpdatingTasks@POLYN239892 the MagicNumber/String  'Checkpointing all restoring tasks since {}ms has elapsed (commit interval is {}ms)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00318"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#318"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.maybeCheckpointUpdatingTasks@POLYN239188 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.maybeCheckpointUpdatingTasks@POLYN239892 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -763,21 +763,21 @@ var maDataBlocs = {
  , "c1" : "00352"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#352"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.start@POLYN241318 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.start@POLYN242022 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00353"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#353"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.start@POLYN241318 the MagicNumber/String  'state-updater' should be converted to const"
+ , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.start@POLYN242022 the MagicNumber/String  'state-updater' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00355"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#355"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00355] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.start@POLYN241318 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00355] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.start@POLYN242022 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -805,28 +805,28 @@ var maDataBlocs = {
  , "c1" : "00364"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#364"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.shutdown@POLYN241795 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.shutdown@POLYN242499 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00365"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#365"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00365] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.shutdown@POLYN241795 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00365] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.shutdown@POLYN242499 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00369"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#369"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.shutdown@POLYN241795 the MagicNumber/String  'State updater thread did not shutdown within the timeout' should be converted to const"
+ , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.shutdown@POLYN242499 the MagicNumber/String  'State updater thread did not shutdown within the timeout' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00371"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#371"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.shutdown@POLYN241795 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.shutdown@POLYN242499 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -854,28 +854,28 @@ var maDataBlocs = {
  , "c1" : "00392"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#392"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.verifyStateFor@POLYN242865 the MagicNumber/String  'Active task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.verifyStateFor@POLYN243569 the MagicNumber/String  'Active task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00392"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#392"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.verifyStateFor@POLYN242865 the MagicNumber/String  ' is not in state RESTORING. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.verifyStateFor@POLYN243569 the MagicNumber/String  ' is not in state RESTORING. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00395"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#395"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.verifyStateFor@POLYN242865 the MagicNumber/String  'Standby task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.verifyStateFor@POLYN243569 the MagicNumber/String  'Standby task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00395"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#395"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.verifyStateFor@POLYN242865 the MagicNumber/String  ' is not in state RUNNING. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.verifyStateFor@POLYN243569 the MagicNumber/String  ' is not in state RUNNING. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -910,14 +910,14 @@ var maDataBlocs = {
  , "c1" : "00453"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#453"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00453] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.getUpdatingStandbyTasks@POLYN246080 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00453] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.getUpdatingStandbyTasks@POLYN246784 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00459"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#459"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00459] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.getUpdatingTasks@POLYN246382 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00459] In method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.getUpdatingTasks@POLYN247086 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -931,84 +931,84 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.run@POLYN228430"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.run@POLYN229134"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleStreamsException@POLYN232266"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleStreamsException@POLYN232970"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.maybeCheckpointUpdatingTasks@POLYN239188"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.maybeCheckpointUpdatingTasks@POLYN239892"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.DefaultStateUpdater.start@POLYN241318"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.DefaultStateUpdater.start@POLYN242022"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#91"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.run@POLYN228430 the MagicNumber/String 'State updater thread started' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.run@POLYN229134 the MagicNumber/String 'State updater thread started' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#105"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.run@POLYN228430 the MagicNumber/String 'State updater thread shutdown' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.run@POLYN229134 the MagicNumber/String 'State updater thread shutdown' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00171"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#171"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00171] In the recursive method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleStreamsException@POLYN232266 the MagicNumber/String 'Encountered streams exception: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00171] In the recursive method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleStreamsException@POLYN232970 the MagicNumber/String 'Encountered streams exception: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00312"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#312"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00312] In the recursive method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.maybeCheckpointUpdatingTasks@POLYN239188 the MagicNumber/String 'Checkpointing all restoring tasks since {}ms has elapsed -commit interval is {}ms-' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00312] In the recursive method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.maybeCheckpointUpdatingTasks@POLYN239892 the MagicNumber/String 'Checkpointing all restoring tasks since {}ms has elapsed -commit interval is {}ms-' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00318"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#318"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00318] In the recursive method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.maybeCheckpointUpdatingTasks@POLYN239188 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00318] In the recursive method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.maybeCheckpointUpdatingTasks@POLYN239892 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00352"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#352"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00352] In the recursive method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.start@POLYN241318 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00352] In the recursive method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.start@POLYN242022 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00353"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#353"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00353] In the recursive method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.start@POLYN241318 the MagicNumber/String 'state-updater' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00353] In the recursive method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.start@POLYN242022 the MagicNumber/String 'state-updater' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00355"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#355"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00355] In the recursive method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.start@POLYN241318 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00355] In the recursive method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.start@POLYN242022 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ]
 , 

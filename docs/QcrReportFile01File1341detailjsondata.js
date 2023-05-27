@@ -458,56 +458,56 @@ var maDataBlocs = {
  , "c1" : "00087"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.image.MetadataDelta.getOrCreateFeaturesDelta@POLYN196914 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.image.MetadataDelta.getOrCreateFeaturesDelta@POLYN197618 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00096"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.image.MetadataDelta.getOrCreateClusterDelta@POLYN197256 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.image.MetadataDelta.getOrCreateClusterDelta@POLYN197960 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.image.MetadataDelta.getOrCreateTopicsDelta@POLYN197598 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.image.MetadataDelta.getOrCreateTopicsDelta@POLYN198302 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00114"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.image.MetadataDelta.getOrCreateConfigsDelta@POLYN197940 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.image.MetadataDelta.getOrCreateConfigsDelta@POLYN198644 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00123"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.image.MetadataDelta.getOrCreateClientQuotasDelta@POLYN198282 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.image.MetadataDelta.getOrCreateClientQuotasDelta@POLYN198986 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00132"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.image.MetadataDelta.getOrCreateProducerIdsDelta@POLYN198624 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.image.MetadataDelta.getOrCreateProducerIdsDelta@POLYN199328 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.image.MetadataDelta.getOrCreateAclsDelta@POLYN198984 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.image.MetadataDelta.getOrCreateAclsDelta@POLYN199688 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00148"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.image.MetadataDelta.metadataVersionChanged@POLYN199261 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.image.MetadataDelta.metadataVersionChanged@POLYN199965 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -556,7 +556,7 @@ var maDataBlocs = {
  , "c1" : "00221"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.image.MetadataDelta.replay@POLYN200036 the MagicNumber/String  'Unknown metadata record type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.image.MetadataDelta.replay@POLYN200740 the MagicNumber/String  'Unknown metadata record type ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -570,7 +570,7 @@ var maDataBlocs = {
  , "c1" : "00226"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.image.MetadataDelta.replay@POLYN202627 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.image.MetadataDelta.replay@POLYN203331 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -584,7 +584,7 @@ var maDataBlocs = {
  , "c1" : "00231"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#231"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.image.MetadataDelta.replay@POLYN202931 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.image.MetadataDelta.replay@POLYN203635 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -682,133 +682,133 @@ var maDataBlocs = {
  , "c1" : "00312"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#312"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00312] For method apply list of called methods Object monObjet|org.apache.kafka.image.MetadataImage featuresDelta_applyN206809|org.apache.kafka.image.MetadataImage image_clusterN206990|org.apache.kafka.image.MetadataImage clusterDelta_applyN207083|org.apache.kafka.image.MetadataImage image_topicsN207264|org.apache.kafka.image.MetadataImage topicsDelta_applyN207357|org.apache.kafka.image.MetadataImage image_configsN207538|org.apache.kafka.image.MetadataImage configsDelta_applyN207631|org.apache.kafka.image.MetadataImage image_clientQuotasN207812|org.apache.kafka.image.MetadataImage clientQuotasDelta_applyN207905|org.apache.kafka.image.MetadataImage image_producerIdsN208086|org.apache.kafka.image.MetadataImage producerIdsDelta_applyN208179|org.apache.kafka.image.MetadataImage image_aclsN208360|org.apache.kafka.image.MetadataImage aclsDelta_applyN208453"
+ , "c3" : "QC-JAV000007[00312] For method apply list of called methods Object monObjet|org.apache.kafka.image.MetadataImage featuresDelta_applyN207513|org.apache.kafka.image.MetadataImage image_clusterN207694|org.apache.kafka.image.MetadataImage clusterDelta_applyN207787|org.apache.kafka.image.MetadataImage image_topicsN207968|org.apache.kafka.image.MetadataImage topicsDelta_applyN208061|org.apache.kafka.image.MetadataImage image_configsN208242|org.apache.kafka.image.MetadataImage configsDelta_applyN208335|org.apache.kafka.image.MetadataImage image_clientQuotasN208516|org.apache.kafka.image.MetadataImage clientQuotasDelta_applyN208609|org.apache.kafka.image.MetadataImage image_producerIdsN208790|org.apache.kafka.image.MetadataImage producerIdsDelta_applyN208883|org.apache.kafka.image.MetadataImage image_aclsN209064|org.apache.kafka.image.MetadataImage aclsDelta_applyN209157"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00314"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#314"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.image.MetadataDelta.apply@POLYN206538 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.image.MetadataDelta.apply@POLYN207242 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00320"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#320"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.image.MetadataDelta.apply@POLYN206538 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.image.MetadataDelta.apply@POLYN207242 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00326"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#326"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.image.MetadataDelta.apply@POLYN206538 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.image.MetadataDelta.apply@POLYN207242 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00332"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#332"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.image.MetadataDelta.apply@POLYN206538 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.image.MetadataDelta.apply@POLYN207242 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00338"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#338"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.image.MetadataDelta.apply@POLYN206538 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.image.MetadataDelta.apply@POLYN207242 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00344"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.image.MetadataDelta.apply@POLYN206538 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.image.MetadataDelta.apply@POLYN207242 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00350"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#350"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00350] In method org.apache.kafka.image.MetadataDelta.apply@POLYN206538 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00350] In method org.apache.kafka.image.MetadataDelta.apply@POLYN207242 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00369"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#369"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.image.MetadataDelta.toString@POLYN208808 the MagicNumber/String  'MetadataDelta(' should be converted to const"
+ , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.image.MetadataDelta.toString@POLYN209512 the MagicNumber/String  'MetadataDelta(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00370"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#370"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00370] In method org.apache.kafka.image.MetadataDelta.toString@POLYN208808 the MagicNumber/String  'highestOffset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00370] In method org.apache.kafka.image.MetadataDelta.toString@POLYN209512 the MagicNumber/String  'highestOffset=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00371"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#371"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.image.MetadataDelta.toString@POLYN208808 the MagicNumber/String  ', highestEpoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.image.MetadataDelta.toString@POLYN209512 the MagicNumber/String  ', highestEpoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00372"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#372"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.image.MetadataDelta.toString@POLYN208808 the MagicNumber/String  ', featuresDelta=' should be converted to const"
+ , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.image.MetadataDelta.toString@POLYN209512 the MagicNumber/String  ', featuresDelta=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00373"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#373"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.image.MetadataDelta.toString@POLYN208808 the MagicNumber/String  ', clusterDelta=' should be converted to const"
+ , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.image.MetadataDelta.toString@POLYN209512 the MagicNumber/String  ', clusterDelta=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00374"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#374"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.image.MetadataDelta.toString@POLYN208808 the MagicNumber/String  ', topicsDelta=' should be converted to const"
+ , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.image.MetadataDelta.toString@POLYN209512 the MagicNumber/String  ', topicsDelta=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00375"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#375"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.image.MetadataDelta.toString@POLYN208808 the MagicNumber/String  ', configsDelta=' should be converted to const"
+ , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.image.MetadataDelta.toString@POLYN209512 the MagicNumber/String  ', configsDelta=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00376"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#376"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.image.MetadataDelta.toString@POLYN208808 the MagicNumber/String  ', clientQuotasDelta=' should be converted to const"
+ , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.image.MetadataDelta.toString@POLYN209512 the MagicNumber/String  ', clientQuotasDelta=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00377"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#377"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.image.MetadataDelta.toString@POLYN208808 the MagicNumber/String  ', producerIdsDelta=' should be converted to const"
+ , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.image.MetadataDelta.toString@POLYN209512 the MagicNumber/String  ', producerIdsDelta=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00378"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#378"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00378] In method org.apache.kafka.image.MetadataDelta.toString@POLYN208808 the MagicNumber/String  ', aclsDelta=' should be converted to const"
+ , "c3" : "QC-JAV000010[00378] In method org.apache.kafka.image.MetadataDelta.toString@POLYN209512 the MagicNumber/String  ', aclsDelta=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00379"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#379"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.image.MetadataDelta.toString@POLYN208808 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.image.MetadataDelta.toString@POLYN209512 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -969,7 +969,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.MetadataDelta.MetadataDelta@POLYN196415"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.MetadataDelta.MetadataDelta@POLYN197119"
 }} 
 ]
 , 

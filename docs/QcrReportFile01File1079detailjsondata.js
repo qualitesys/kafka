@@ -172,14 +172,14 @@ var maDataBlocs = {
  , "c1" : "00065"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.SourceTaskOffsetCommitter@POLYN167004 the MagicNumber/String  '-%d' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.SourceTaskOffsetCommitter@POLYN167708 the MagicNumber/String  '-%d' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00065"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.SourceTaskOffsetCommitter@POLYN167004 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.SourceTaskOffsetCommitter@POLYN167708 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -200,7 +200,7 @@ var maDataBlocs = {
  , "c1" : "00073"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.close@POLYN167353 the MagicNumber/String  'Graceful shutdown of offset commitOffsets thread timed out.' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.close@POLYN168057 the MagicNumber/String  'Graceful shutdown of offset commitOffsets thread timed out.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -221,35 +221,35 @@ var maDataBlocs = {
  , "c1" : "00090"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#90"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00090] For method remove list of called methods Object monObjet|boolean committers_removeN168529"
+ , "c3" : "QC-JAV000007[00090] For method remove list of called methods Object monObjet|boolean committers_removeN169233"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.remove@POLYN168414 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.remove@POLYN169118 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00096"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.remove@POLYN168414 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.remove@POLYN169118 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.remove@POLYN168414 the MagicNumber/String  'Offset commit thread was cancelled by another thread while removing connector task with id: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.remove@POLYN169118 the MagicNumber/String  'Offset commit thread was cancelled by another thread while removing connector task with id: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00103"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.remove@POLYN168414 the MagicNumber/String  'Unexpected interruption in SourceTaskOffsetCommitter while removing task with id: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.remove@POLYN169118 the MagicNumber/String  'Unexpected interruption in SourceTaskOffsetCommitter while removing task with id: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -270,91 +270,91 @@ var maDataBlocs = {
  , "c1" : "00108"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.commit@POLYN169283 the MagicNumber/String  '{} Committing offsets' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.commit@POLYN169987 the MagicNumber/String  '{} Committing offsets' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00113"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.commit@POLYN169283 the MagicNumber/String  '{} Failed to commit offsets' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.commit@POLYN169987 the MagicNumber/String  '{} Failed to commit offsets' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00118"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.commit@POLYN169283 the MagicNumber/String  '{} Unhandled exception when committing: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.commit@POLYN169987 the MagicNumber/String  '{} Unhandled exception when committing: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.schedule@POLYN167739"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.schedule@POLYN168443"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.commit@POLYN169283"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.commit@POLYN169987"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.remove@POLYN168414"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.remove@POLYN169118"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#108"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00108] In the recursive method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.commit@POLYN169283 the MagicNumber/String '{} Committing offsets' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00108] In the recursive method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.commit@POLYN169987 the MagicNumber/String '{} Committing offsets' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00113"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#113"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.commit@POLYN169283 the MagicNumber/String '{} Failed to commit offsets' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.commit@POLYN169987 the MagicNumber/String '{} Failed to commit offsets' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00118"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#118"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00118] In the recursive method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.commit@POLYN169283 the MagicNumber/String '{} Unhandled exception when committing: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00118] In the recursive method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.commit@POLYN169987 the MagicNumber/String '{} Unhandled exception when committing: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#92"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00092] In the recursive method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.remove@POLYN168414 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00092] In the recursive method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.remove@POLYN169118 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00096"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#96"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00096] In the recursive method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.remove@POLYN168414 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00096] In the recursive method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.remove@POLYN169118 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#101"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.remove@POLYN168414 the MagicNumber/String 'Offset commit thread was cancelled by another thread while removing connector task with id: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.remove@POLYN169118 the MagicNumber/String 'Offset commit thread was cancelled by another thread while removing connector task with id: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00103"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceTaskOffsetCommitter.java.html#103"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.remove@POLYN168414 the MagicNumber/String 'Unexpected interruption in SourceTaskOffsetCommitter while removing task with id: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter.remove@POLYN169118 the MagicNumber/String 'Unexpected interruption in SourceTaskOffsetCommitter while removing task with id: ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

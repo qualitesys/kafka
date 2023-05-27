@@ -292,7 +292,7 @@ var maDataBlocs = {
  , "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#87"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00087] For method put list of called methods Object monObjet|V copy_putN167714"
+ , "c3" : "QC-JAV000007[00087] For method put list of called methods Object monObjet|V copy_putN168418"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -327,7 +327,7 @@ var maDataBlocs = {
  , "c1" : "00102"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#102"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00102] For method remove list of called methods Object monObjet|V copy_removeN168713"
+ , "c3" : "QC-JAV000007[00102] For method remove list of called methods Object monObjet|V copy_removeN169417"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -362,14 +362,14 @@ var maDataBlocs = {
  , "c1" : "00121"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.common.utils.CopyOnWriteMap.remove@POLYN169284 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.common.utils.CopyOnWriteMap.remove@POLYN169988 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00123"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.utils.CopyOnWriteMap.remove@POLYN169284 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.utils.CopyOnWriteMap.remove@POLYN169988 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -390,14 +390,14 @@ var maDataBlocs = {
  , "c1" : "00131"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.common.utils.CopyOnWriteMap.replace@POLYN169730 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.common.utils.CopyOnWriteMap.replace@POLYN170434 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.common.utils.CopyOnWriteMap.replace@POLYN169730 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.common.utils.CopyOnWriteMap.replace@POLYN170434 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -418,7 +418,7 @@ var maDataBlocs = {
  , "c1" : "00142"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.common.utils.CopyOnWriteMap.replace@POLYN170223 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.common.utils.CopyOnWriteMap.replace@POLYN170927 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 
