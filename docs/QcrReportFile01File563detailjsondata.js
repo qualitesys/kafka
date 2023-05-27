@@ -174,21 +174,21 @@ var maDataBlocs = {
  , "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.record.LazyDownConversionRecords.LazyDownConversionRecords@POLYN174346 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.record.LazyDownConversionRecords.LazyDownConversionRecords@POLYN175658 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.record.LazyDownConversionRecords.LazyDownConversionRecords@POLYN174346 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.record.LazyDownConversionRecords.LazyDownConversionRecords@POLYN175658 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.record.LazyDownConversionRecords.LazyDownConversionRecords@POLYN174346 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.record.LazyDownConversionRecords.LazyDownConversionRecords@POLYN175658 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -202,63 +202,63 @@ var maDataBlocs = {
  , "c1" : "00098"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.record.LazyDownConversionRecords.equals@POLYN175996 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.record.LazyDownConversionRecords.equals@POLYN177308 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.record.LazyDownConversionRecords.hashCode@POLYN176517 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.record.LazyDownConversionRecords.hashCode@POLYN177829 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.common.record.LazyDownConversionRecords.hashCode@POLYN176517 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.common.record.LazyDownConversionRecords.hashCode@POLYN177829 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00106"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.record.LazyDownConversionRecords.hashCode@POLYN176517 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.record.LazyDownConversionRecords.hashCode@POLYN177829 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00112"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.record.LazyDownConversionRecords.toString@POLYN177053 the MagicNumber/String  'LazyDownConversionRecords(size=' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.record.LazyDownConversionRecords.toString@POLYN178365 the MagicNumber/String  'LazyDownConversionRecords(size=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00113"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.common.record.LazyDownConversionRecords.toString@POLYN177053 the MagicNumber/String  ', underlying=' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.common.record.LazyDownConversionRecords.toString@POLYN178365 the MagicNumber/String  ', underlying=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00114"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.common.record.LazyDownConversionRecords.toString@POLYN177053 the MagicNumber/String  ', toMagic=' should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.common.record.LazyDownConversionRecords.toString@POLYN178365 the MagicNumber/String  ', toMagic=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.common.record.LazyDownConversionRecords.toString@POLYN177053 the MagicNumber/String  ', firstOffset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.common.record.LazyDownConversionRecords.toString@POLYN178365 the MagicNumber/String  ', firstOffset=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.record.LazyDownConversionRecords.toString@POLYN177053 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.record.LazyDownConversionRecords.toString@POLYN178365 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -272,7 +272,7 @@ var maDataBlocs = {
  , "c1" : "00123"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.record.LazyDownConversionRecords.iterator@POLYN177377 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.record.LazyDownConversionRecords.iterator@POLYN178689 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -286,14 +286,14 @@ var maDataBlocs = {
  , "c1" : "00148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.Iterator@POLYN178314 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.Iterator@POLYN179626 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#157"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00157] For method makeNext list of called methods Object monObjet|T batchIterator_nextN179703|int currentBatch_sizeInBytesN179848"
+ , "c3" : "QC-JAV000007[00157] For method makeNext list of called methods Object monObjet|T batchIterator_nextN181015|int currentBatch_sizeInBytesN181160"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -328,42 +328,42 @@ var maDataBlocs = {
  , "c1" : "00159"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#159"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.makeNext@POLYN178864 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.makeNext@POLYN180176 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.makeNext@POLYN178864 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.makeNext@POLYN180176 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00167"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.makeNext@POLYN178864 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.makeNext@POLYN180176 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00168"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.makeNext@POLYN178864 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.makeNext@POLYN180176 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00176"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.makeNext@POLYN178864 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.makeNext@POLYN180176 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00184"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.makeNext@POLYN178864 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.common.record.LazyDownConversionRecords.Iterator.makeNext@POLYN180176 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

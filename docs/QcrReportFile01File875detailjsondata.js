@@ -90,21 +90,21 @@ var maDataBlocs = {
  , "c1" : "00021"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ShortSerializer.java.html#21"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.common.serialization.ShortSerializer.serialize@POLYN148719 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00021] In method org.apache.kafka.common.serialization.ShortSerializer.serialize@POLYN150031 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ShortSerializer.java.html#22"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.serialization.ShortSerializer.serialize@POLYN148719 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00022] In method org.apache.kafka.common.serialization.ShortSerializer.serialize@POLYN150031 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00025"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ShortSerializer.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.common.serialization.ShortSerializer.serialize@POLYN148719 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.common.serialization.ShortSerializer.serialize@POLYN150031 the MagicNumber/String  8 should be converted to const"
 }} 
 ]
 , 

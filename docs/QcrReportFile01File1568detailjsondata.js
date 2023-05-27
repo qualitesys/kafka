@@ -320,7 +320,7 @@ var maDataBlocs = {
  , "c1" : "00093"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.TopicBasedRemoteLogMetadataManager@POLYN219412 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.TopicBasedRemoteLogMetadataManager@POLYN220724 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -341,21 +341,21 @@ var maDataBlocs = {
  , "c1" : "00104"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.addRemoteLogSegmentMetadata@POLYN219679 the MagicNumber/String  'remoteLogSegmentMetadata can not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.addRemoteLogSegmentMetadata@POLYN220991 the MagicNumber/String  'remoteLogSegmentMetadata can not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.addRemoteLogSegmentMetadata@POLYN219679 the MagicNumber/String  'Given remoteLogSegmentMetadata should have state as ' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.addRemoteLogSegmentMetadata@POLYN220991 the MagicNumber/String  'Given remoteLogSegmentMetadata should have state as ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00117"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.addRemoteLogSegmentMetadata@POLYN219679 the MagicNumber/String  ' but it contains state as: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.addRemoteLogSegmentMetadata@POLYN220991 the MagicNumber/String  ' but it contains state as: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -376,14 +376,14 @@ var maDataBlocs = {
  , "c1" : "00131"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.updateRemoteLogSegmentMetadata@POLYN220517 the MagicNumber/String  'segmentMetadataUpdate can not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.updateRemoteLogSegmentMetadata@POLYN221829 the MagicNumber/String  'segmentMetadataUpdate can not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00140"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.updateRemoteLogSegmentMetadata@POLYN220517 the MagicNumber/String  'Given remoteLogSegmentMetadata should not have the state as: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.updateRemoteLogSegmentMetadata@POLYN221829 the MagicNumber/String  'Given remoteLogSegmentMetadata should not have the state as: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -404,7 +404,7 @@ var maDataBlocs = {
  , "c1" : "00154"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.putRemotePartitionDeleteMetadata@POLYN221289 the MagicNumber/String  'remotePartitionDeleteMetadata can not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.putRemotePartitionDeleteMetadata@POLYN222601 the MagicNumber/String  'remotePartitionDeleteMetadata can not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -418,14 +418,14 @@ var maDataBlocs = {
  , "c1" : "00178"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.storeRemoteLogMetadata@POLYN222088 the MagicNumber/String  'Storing metadata for partition: [{}] with context: [{}]' should be converted to const"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.storeRemoteLogMetadata@POLYN223400 the MagicNumber/String  'Storing metadata for partition: [{}] with context: [{}]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00191"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.storeRemoteLogMetadata@POLYN222088 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.storeRemoteLogMetadata@POLYN223400 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -453,7 +453,7 @@ var maDataBlocs = {
  , "c1" : "00236"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#236"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.listRemoteLogSegments@POLYN224039 the MagicNumber/String  'topicIdPartition can not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.listRemoteLogSegments@POLYN225351 the MagicNumber/String  'topicIdPartition can not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -467,7 +467,7 @@ var maDataBlocs = {
  , "c1" : "00251"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#251"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.listRemoteLogSegments@POLYN224552 the MagicNumber/String  'topicIdPartition can not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.listRemoteLogSegments@POLYN225864 the MagicNumber/String  'topicIdPartition can not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -495,28 +495,28 @@ var maDataBlocs = {
  , "c1" : "00275"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#275"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00275] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.onPartitionLeadershipChanges@POLYN225398 the MagicNumber/String  'leaderPartitions can not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00275] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.onPartitionLeadershipChanges@POLYN226710 the MagicNumber/String  'leaderPartitions can not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00276"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#276"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.onPartitionLeadershipChanges@POLYN225398 the MagicNumber/String  'followerPartitions can not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.onPartitionLeadershipChanges@POLYN226710 the MagicNumber/String  'followerPartitions can not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00278"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#278"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.onPartitionLeadershipChanges@POLYN225398 the MagicNumber/String  'Received leadership notifications with leader partitions {} and follower partitions {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.onPartitionLeadershipChanges@POLYN226710 the MagicNumber/String  'Received leadership notifications with leader partitions {} and follower partitions {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00284"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#284"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.onPartitionLeadershipChanges@POLYN225398 the MagicNumber/String  'This instance is in closing state' should be converted to const"
+ , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.onPartitionLeadershipChanges@POLYN226710 the MagicNumber/String  'This instance is in closing state' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -537,7 +537,7 @@ var maDataBlocs = {
  , "c1" : "00314"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#314"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.onStopPartitions@POLYN226918 the MagicNumber/String  'This instance is in closing state' should be converted to const"
+ , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.onStopPartitions@POLYN228230 the MagicNumber/String  'This instance is in closing state' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -551,42 +551,42 @@ var maDataBlocs = {
  , "c1" : "00332"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#332"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.configure@POLYN227664 the MagicNumber/String  'configs can not be null.' should be converted to const"
+ , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.configure@POLYN228976 the MagicNumber/String  'configs can not be null.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00337"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#337"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.configure@POLYN227664 the MagicNumber/String  'Skipping configure as it is already configured.' should be converted to const"
+ , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.configure@POLYN228976 the MagicNumber/String  'Skipping configure as it is already configured.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00341"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#341"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.configure@POLYN227664 the MagicNumber/String  'Started initializing with configs: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.configure@POLYN228976 the MagicNumber/String  'Started initializing with configs: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00346"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#346"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00346] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.configure@POLYN227664 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00346] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.configure@POLYN228976 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00347"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#347"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.configure@POLYN227664 the MagicNumber/String  'Successfully initialized with rlmmConfig: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.configure@POLYN228976 the MagicNumber/String  'Successfully initialized with rlmmConfig: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00352"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#352"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.configure@POLYN227664 the MagicNumber/String  'RLMMInitializationThread' should be converted to const"
+ , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.configure@POLYN228976 the MagicNumber/String  'RLMMInitializationThread' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -621,105 +621,105 @@ var maDataBlocs = {
  , "c1" : "00360"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#360"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00360] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN229002 the MagicNumber/String  'Initializing the resources.' should be converted to const"
+ , "c3" : "QC-JAV000010[00360] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN230314 the MagicNumber/String  'Initializing the resources.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00362"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#362"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN229002 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN230314 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00364"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#364"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN229002 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN230314 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00373"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#373"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN229002 the MagicNumber/String  'Timed out in initializing the resources, retried to initialize the resource for [{}] ms.' should be converted to const"
+ , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN230314 the MagicNumber/String  'Timed out in initializing the resources, retried to initialize the resource for [{}] ms.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00375"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#375"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN229002 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN230314 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00385"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#385"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00385] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN229002 the MagicNumber/String  'Sleep for : {} ms before it is retried again.' should be converted to const"
+ , "c3" : "QC-JAV000010[00385] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN230314 the MagicNumber/String  'Sleep for : {} ms before it is retried again.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00394"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#394"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00394] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN229002 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00394] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN230314 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00397"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#397"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00397] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN229002 the MagicNumber/String  'Sleep for : {} ms before it is retried again.' should be converted to const"
+ , "c3" : "QC-JAV000010[00397] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN230314 the MagicNumber/String  'Sleep for : {} ms before it is retried again.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00411"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#411"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN229002 the MagicNumber/String  'RLMM Consumer task thread is not configured to be started.' should be converted to const"
+ , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN230314 the MagicNumber/String  'RLMM Consumer task thread is not configured to be started.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00419"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#419"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN229002 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN230314 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00420"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#420"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00420] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN229002 the MagicNumber/String  'Initialized resources successfully.' should be converted to const"
+ , "c3" : "QC-JAV000010[00420] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN230314 the MagicNumber/String  'Initialized resources successfully.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00422"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#422"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN229002 the MagicNumber/String  'Encountered error while initializing producer/consumer' should be converted to const"
+ , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN230314 the MagicNumber/String  'Encountered error while initializing producer/consumer' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00430"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#430"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN229002 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN230314 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00432"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#432"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00432] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN229002 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[00432] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN230314 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00435"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#435"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00435] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN229002 the MagicNumber/String  'Error occurred while closing the admin client' should be converted to const"
+ , "c3" : "QC-JAV000010[00435] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.initializeResources@POLYN230314 the MagicNumber/String  'Error occurred while closing the admin client' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -740,28 +740,28 @@ var maDataBlocs = {
  , "c1" : "00443"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#443"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00443] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.isPartitionsCountSameAsConfigured@POLYN232506 the MagicNumber/String  'Getting topic details to check for partition count and replication factor.' should be converted to const"
+ , "c3" : "QC-JAV000010[00443] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.isPartitionsCountSameAsConfigured@POLYN233818 the MagicNumber/String  'Getting topic details to check for partition count and replication factor.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00450"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#450"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00450] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.isPartitionsCountSameAsConfigured@POLYN232506 the MagicNumber/String  'Existing topic partition count [{}] is not same as the expected partition count [{}]' should be converted to const"
+ , "c3" : "QC-JAV000010[00450] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.isPartitionsCountSameAsConfigured@POLYN233818 the MagicNumber/String  'Existing topic partition count [{}] is not same as the expected partition count [{}]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00452"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#452"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00452] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.isPartitionsCountSameAsConfigured@POLYN232506 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00452] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.isPartitionsCountSameAsConfigured@POLYN233818 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00455"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#455"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00455] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.isPartitionsCountSameAsConfigured@POLYN232506 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00455] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.isPartitionsCountSameAsConfigured@POLYN233818 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -789,119 +789,119 @@ var maDataBlocs = {
  , "c1" : "00472"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#472"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00472] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.createTopic@POLYN234104 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00472] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.createTopic@POLYN235416 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00475"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#475"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00475] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.createTopic@POLYN234104 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00475] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.createTopic@POLYN235416 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00478"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#478"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.createTopic@POLYN234104 the MagicNumber/String  'Topic [{}] already exists' should be converted to const"
+ , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.createTopic@POLYN235416 the MagicNumber/String  'Topic [{}] already exists' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00479"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#479"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00479] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.createTopic@POLYN234104 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00479] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.createTopic@POLYN235416 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00481"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#481"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00481] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.createTopic@POLYN234104 the MagicNumber/String  'Encountered error while creating remote log metadata topic.' should be converted to const"
+ , "c3" : "QC-JAV000010[00481] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.createTopic@POLYN235416 the MagicNumber/String  'Encountered error while creating remote log metadata topic.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00498"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#498"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00498] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.ensureInitializedAndNotClosed@POLYN235041 the MagicNumber/String  'This instance is in invalid state, initialized: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00498] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.ensureInitializedAndNotClosed@POLYN236353 the MagicNumber/String  'This instance is in invalid state, initialized: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00499"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#499"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00499] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.ensureInitializedAndNotClosed@POLYN235041 the MagicNumber/String  ' close: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00499] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.ensureInitializedAndNotClosed@POLYN236353 the MagicNumber/String  ' close: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00510"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#510"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.startConsumerThread@POLYN235536 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.startConsumerThread@POLYN236848 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00518"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#518"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00518] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.close@POLYN235719 the MagicNumber/String  'Closing the resources.' should be converted to const"
+ , "c3" : "QC-JAV000010[00518] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.close@POLYN237031 the MagicNumber/String  'Closing the resources.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00519"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#519"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00519] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.close@POLYN235719 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00519] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.close@POLYN237031 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00519"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#519"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00519] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.close@POLYN235719 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00519] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.close@POLYN237031 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00522"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#522"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00522] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.close@POLYN235719 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00522] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.close@POLYN237031 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00526"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#526"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00526] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.close@POLYN235719 the MagicNumber/String  'Initialization thread was interrupted while waiting to join on close.' should be converted to const"
+ , "c3" : "QC-JAV000010[00526] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.close@POLYN237031 the MagicNumber/String  'Initialization thread was interrupted while waiting to join on close.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00530"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#530"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.close@POLYN235719 the MagicNumber/String  'ProducerTask' should be converted to const"
+ , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.close@POLYN237031 the MagicNumber/String  'ProducerTask' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00531"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#531"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00531] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.close@POLYN235719 the MagicNumber/String  'RLMMConsumerManager' should be converted to const"
+ , "c3" : "QC-JAV000010[00531] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.close@POLYN237031 the MagicNumber/String  'RLMMConsumerManager' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00532"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#532"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00532] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.close@POLYN235719 the MagicNumber/String  'RemotePartitionMetadataStore' should be converted to const"
+ , "c3" : "QC-JAV000010[00532] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.close@POLYN237031 the MagicNumber/String  'RemotePartitionMetadataStore' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00535"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#535"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00535] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.close@POLYN235719 the MagicNumber/String  'Closed the resources.' should be converted to const"
+ , "c3" : "QC-JAV000010[00535] In method org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager.close@POLYN237031 the MagicNumber/String  'Closed the resources.' should be converted to const"
 }} 
 ]
 , 

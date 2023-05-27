@@ -330,91 +330,91 @@ var maDataBlocs = {
  , "c1" : "00113"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.data.ConnectSchema.ConnectSchema@POLYN206524 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.data.ConnectSchema.ConnectSchema@POLYN207836 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00118"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.connect.data.ConnectSchema.ConnectSchema@POLYN206524 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.connect.data.ConnectSchema.ConnectSchema@POLYN207836 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00119"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.data.ConnectSchema.ConnectSchema@POLYN206524 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.data.ConnectSchema.ConnectSchema@POLYN207836 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00130"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.connect.data.ConnectSchema.ConnectSchema@POLYN208251 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.connect.data.ConnectSchema.ConnectSchema@POLYN209563 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00130"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.connect.data.ConnectSchema.ConnectSchema@POLYN208251 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.connect.data.ConnectSchema.ConnectSchema@POLYN209563 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00130"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.connect.data.ConnectSchema.ConnectSchema@POLYN208251 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.connect.data.ConnectSchema.ConnectSchema@POLYN209563 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00130"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.connect.data.ConnectSchema.ConnectSchema@POLYN208251 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.connect.data.ConnectSchema.ConnectSchema@POLYN209563 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.data.ConnectSchema.ConnectSchema@POLYN208803 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.data.ConnectSchema.ConnectSchema@POLYN210115 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.data.ConnectSchema.ConnectSchema@POLYN208803 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.data.ConnectSchema.ConnectSchema@POLYN210115 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.data.ConnectSchema.ConnectSchema@POLYN208803 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.data.ConnectSchema.ConnectSchema@POLYN210115 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.data.ConnectSchema.ConnectSchema@POLYN208803 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.data.ConnectSchema.ConnectSchema@POLYN210115 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.data.ConnectSchema.ConnectSchema@POLYN208803 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.data.ConnectSchema.ConnectSchema@POLYN210115 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00179"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.connect.data.ConnectSchema.fields@POLYN209823 the MagicNumber/String  'Cannot list fields on non-struct type' should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.connect.data.ConnectSchema.fields@POLYN211135 the MagicNumber/String  'Cannot list fields on non-struct type' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -428,21 +428,21 @@ var maDataBlocs = {
  , "c1" : "00186"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.connect.data.ConnectSchema.field@POLYN210060 the MagicNumber/String  'Cannot look up fields on non-struct type' should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.connect.data.ConnectSchema.field@POLYN211372 the MagicNumber/String  'Cannot look up fields on non-struct type' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00193"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.connect.data.ConnectSchema.keySchema@POLYN210358 the MagicNumber/String  'Cannot look up key schema on non-map type' should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.connect.data.ConnectSchema.keySchema@POLYN211670 the MagicNumber/String  'Cannot look up key schema on non-map type' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00200"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#200"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.connect.data.ConnectSchema.valueSchema@POLYN210595 the MagicNumber/String  'Cannot look up value schema on non-array and non-map type' should be converted to const"
+ , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.connect.data.ConnectSchema.valueSchema@POLYN211907 the MagicNumber/String  'Cannot look up value schema on non-array and non-map type' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -456,7 +456,7 @@ var maDataBlocs = {
  , "c1" : "00213"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN211046 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN212358 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -470,7 +470,7 @@ var maDataBlocs = {
  , "c1" : "00216"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#216"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00216] For method validateValue list of called methods Object monObjet|java.util.List expectedClassesForN211743"
+ , "c3" : "QC-JAV000007[00216] For method validateValue list of called methods Object monObjet|java.util.List expectedClassesForN213055"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -484,105 +484,105 @@ var maDataBlocs = {
  , "c1" : "00217"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN211248 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN212560 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00219"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN211248 the MagicNumber/String  'Invalid value: null used for required field: \'' should be converted to const"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN212560 the MagicNumber/String  'Invalid value: null used for required field: \'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00220"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN211248 the MagicNumber/String  '\', schema type: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN212560 the MagicNumber/String  '\', schema type: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00225"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN211248 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN212560 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00228"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#228"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN211248 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN212560 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00234"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN211248 the MagicNumber/String  'Invalid Java object for schema' should be converted to const"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN212560 the MagicNumber/String  'Invalid Java object for schema' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00235"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN211248 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN212560 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00236"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#236"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN211248 the MagicNumber/String  ' \'' should be converted to const"
+ , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN212560 the MagicNumber/String  ' \'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00236"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#236"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN211248 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN212560 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00238"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#238"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN211248 the MagicNumber/String  ' with type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN212560 the MagicNumber/String  ' with type ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00238"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#238"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN211248 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN212560 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00239"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#239"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN211248 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN212560 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00240"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#240"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN211248 the MagicNumber/String  ' for field: \'' should be converted to const"
+ , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN212560 the MagicNumber/String  ' for field: \'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00240"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#240"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN211248 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN212560 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00249"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#249"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN211248 the MagicNumber/String  'Struct schemas do not match.' should be converted to const"
+ , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN212560 the MagicNumber/String  'Struct schemas do not match.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -596,7 +596,7 @@ var maDataBlocs = {
  , "c1" : "00267"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#267"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00267] For method expectedClassesFor list of called methods Object monObjet|V LOGICAL_TYPE_CLASSES_getN214568|V SCHEMA_TYPE_CLASSES_getOrDefaultN214739"
+ , "c3" : "QC-JAV000007[00267] For method expectedClassesFor list of called methods Object monObjet|V LOGICAL_TYPE_CLASSES_getN215880|V SCHEMA_TYPE_CLASSES_getOrDefaultN216051"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -610,7 +610,7 @@ var maDataBlocs = {
  , "c1" : "00269"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#269"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.connect.data.ConnectSchema.expectedClassesFor@POLYN214433 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.connect.data.ConnectSchema.expectedClassesFor@POLYN215745 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -638,70 +638,70 @@ var maDataBlocs = {
  , "c1" : "00291"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#291"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.connect.data.ConnectSchema.equals@POLYN215322 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.connect.data.ConnectSchema.equals@POLYN216634 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00292"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#292"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.connect.data.ConnectSchema.equals@POLYN215322 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.connect.data.ConnectSchema.equals@POLYN216634 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00292"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#292"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.connect.data.ConnectSchema.equals@POLYN215322 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.connect.data.ConnectSchema.equals@POLYN216634 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00308"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#308"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.connect.data.ConnectSchema.hashCode@POLYN216666 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.connect.data.ConnectSchema.hashCode@POLYN217978 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00317"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#317"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.connect.data.ConnectSchema.toString@POLYN217163 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.connect.data.ConnectSchema.toString@POLYN218475 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00318"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#318"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.connect.data.ConnectSchema.toString@POLYN217163 the MagicNumber/String  'Schema{' should be converted to const"
+ , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.connect.data.ConnectSchema.toString@POLYN218475 the MagicNumber/String  'Schema{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00318"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#318"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.connect.data.ConnectSchema.toString@POLYN217163 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.connect.data.ConnectSchema.toString@POLYN218475 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00318"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#318"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.connect.data.ConnectSchema.toString@POLYN217163 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.connect.data.ConnectSchema.toString@POLYN218475 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00320"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#320"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.connect.data.ConnectSchema.toString@POLYN217163 the MagicNumber/String  'Schema{' should be converted to const"
+ , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.connect.data.ConnectSchema.toString@POLYN218475 the MagicNumber/String  'Schema{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00320"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#320"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.connect.data.ConnectSchema.toString@POLYN217163 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.connect.data.ConnectSchema.toString@POLYN218475 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -715,7 +715,7 @@ var maDataBlocs = {
  , "c1" : "00330"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#330"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00330] For method schemaType list of called methods Object monObjet|V JAVA_CLASS_SCHEMA_TYPES_getN217790"
+ , "c3" : "QC-JAV000007[00330] For method schemaType list of called methods Object monObjet|V JAVA_CLASS_SCHEMA_TYPES_getN219102"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -750,14 +750,14 @@ var maDataBlocs = {
  , "c1" : "00333"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#333"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.connect.data.ConnectSchema.schemaType@POLYN217631 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.connect.data.ConnectSchema.schemaType@POLYN218943 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00348"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#348"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00348] In method org.apache.kafka.connect.data.ConnectSchema.schemaType@POLYN217631 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00348] In method org.apache.kafka.connect.data.ConnectSchema.schemaType@POLYN218943 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

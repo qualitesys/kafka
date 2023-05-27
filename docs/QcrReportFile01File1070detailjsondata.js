@@ -133,35 +133,35 @@ var maDataBlocs = {
  , "c1" : "00037"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.runtime.HerderConnectorContext.HerderConnectorContext@POLYN152924 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.connect.runtime.HerderConnectorContext.HerderConnectorContext@POLYN154236 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00043"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.runtime.HerderConnectorContext.requestTaskReconfiguration@POLYN153220 the MagicNumber/String  'The request for task reconfiguration has been rejected ' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.runtime.HerderConnectorContext.requestTaskReconfiguration@POLYN154532 the MagicNumber/String  'The request for task reconfiguration has been rejected ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00044"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.runtime.HerderConnectorContext.requestTaskReconfiguration@POLYN153220 the MagicNumber/String  'because this instance of the connector '' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.runtime.HerderConnectorContext.requestTaskReconfiguration@POLYN154532 the MagicNumber/String  'because this instance of the connector '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00044"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.runtime.HerderConnectorContext.requestTaskReconfiguration@POLYN153220 the MagicNumber/String  '' has already ' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.runtime.HerderConnectorContext.requestTaskReconfiguration@POLYN154532 the MagicNumber/String  '' has already ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00045"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.runtime.HerderConnectorContext.requestTaskReconfiguration@POLYN153220 the MagicNumber/String  'been shut down.' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.runtime.HerderConnectorContext.requestTaskReconfiguration@POLYN154532 the MagicNumber/String  'been shut down.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -175,84 +175,84 @@ var maDataBlocs = {
  , "c1" : "00056"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN153565 the MagicNumber/String  'Connector {} attempted to raise error after shutdown:' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN154877 the MagicNumber/String  'Connector {} attempted to raise error after shutdown:' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN153565 the MagicNumber/String  'The request to fail the connector has been rejected ' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN154877 the MagicNumber/String  'The request to fail the connector has been rejected ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN153565 the MagicNumber/String  'because this instance of the connector '' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN154877 the MagicNumber/String  'because this instance of the connector '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN153565 the MagicNumber/String  '' has already ' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN154877 the MagicNumber/String  '' has already ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN153565 the MagicNumber/String  'been shut down.' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN154877 the MagicNumber/String  'been shut down.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00067"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.connect.runtime.HerderConnectorContext.close@POLYN154071 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.connect.runtime.HerderConnectorContext.close@POLYN155383 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN153565"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN154877"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#56"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN153565 the MagicNumber/String 'Connector {} attempted to raise error after shutdown:' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN154877 the MagicNumber/String 'Connector {} attempted to raise error after shutdown:' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#57"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN153565 the MagicNumber/String 'The request to fail the connector has been rejected ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN154877 the MagicNumber/String 'The request to fail the connector has been rejected ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#58"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN153565 the MagicNumber/String '' has already ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN154877 the MagicNumber/String '' has already ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#58"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN153565 the MagicNumber/String 'because this instance of the connector '' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN154877 the MagicNumber/String 'because this instance of the connector '' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/HerderConnectorContext.java.html#59"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN153565 the MagicNumber/String 'been shut down.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.connect.runtime.HerderConnectorContext.raiseError@POLYN154877 the MagicNumber/String 'been shut down.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

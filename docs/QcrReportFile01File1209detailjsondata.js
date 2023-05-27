@@ -269,35 +269,35 @@ var maDataBlocs = {
  , "c1" : "00117"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.connect.util.TopicAdmin.TopicCreationResponse.isEmpty@POLYN290685 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.connect.util.TopicAdmin.TopicCreationResponse.isEmpty@POLYN291997 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00122"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.connect.util.TopicAdmin.TopicCreationResponse.toString@POLYN290821 the MagicNumber/String  'TopicCreationResponse{' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.connect.util.TopicAdmin.TopicCreationResponse.toString@POLYN292133 the MagicNumber/String  'TopicCreationResponse{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00122"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.connect.util.TopicAdmin.TopicCreationResponse.toString@POLYN290821 the MagicNumber/String  'created=' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.connect.util.TopicAdmin.TopicCreationResponse.toString@POLYN292133 the MagicNumber/String  'created=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00122"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.connect.util.TopicAdmin.TopicCreationResponse.toString@POLYN290821 the MagicNumber/String  ', existing=' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.connect.util.TopicAdmin.TopicCreationResponse.toString@POLYN292133 the MagicNumber/String  ', existing=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00122"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.connect.util.TopicAdmin.TopicCreationResponse.toString@POLYN290821 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.connect.util.TopicAdmin.TopicCreationResponse.toString@POLYN292133 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -367,21 +367,21 @@ var maDataBlocs = {
  , "c1" : "00233"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#233"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.connect.util.TopicAdmin.NewTopicBuilder.config@POLYN294677 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.connect.util.TopicAdmin.NewTopicBuilder.config@POLYN295989 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00236"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#236"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.connect.util.TopicAdmin.NewTopicBuilder.config@POLYN294677 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.connect.util.TopicAdmin.NewTopicBuilder.config@POLYN295989 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00236"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#236"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.connect.util.TopicAdmin.NewTopicBuilder.config@POLYN294677 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.connect.util.TopicAdmin.NewTopicBuilder.config@POLYN295989 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -458,21 +458,21 @@ var maDataBlocs = {
  , "c1" : "00287"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#287"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.connect.util.TopicAdmin.TopicAdmin@POLYN296855 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.connect.util.TopicAdmin.TopicAdmin@POLYN298167 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00293"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.connect.util.TopicAdmin.TopicAdmin@POLYN297038 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.connect.util.TopicAdmin.TopicAdmin@POLYN298350 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00293"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.connect.util.TopicAdmin.TopicAdmin@POLYN297038 the MagicNumber/String  '&amp;lt;unknown&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.connect.util.TopicAdmin.TopicAdmin@POLYN298350 the MagicNumber/String  '&amp;lt;unknown&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -486,14 +486,14 @@ var maDataBlocs = {
  , "c1" : "00308"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#308"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.connect.util.TopicAdmin.createTopic@POLYN297815 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.connect.util.TopicAdmin.createTopic@POLYN299127 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00308"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#308"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.connect.util.TopicAdmin.createTopic@POLYN297815 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.connect.util.TopicAdmin.createTopic@POLYN299127 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -514,14 +514,14 @@ var maDataBlocs = {
  , "c1" : "00343"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#343"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopic@POLYN299352 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopic@POLYN300664 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00343"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#343"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopic@POLYN299352 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopic@POLYN300664 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -605,154 +605,154 @@ var maDataBlocs = {
  , "c1" : "00365"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#365"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00365] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN300260 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00365] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN301572 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00367"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#367"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN300260 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN301572 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00371"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#371"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN300260 the MagicNumber/String  '', '' should be converted to const"
+ , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN301572 the MagicNumber/String  '', '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00374"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#374"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN300260 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN301572 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00385"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#385"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00385] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN300260 the MagicNumber/String  'Created topic {} on brokers at {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00385] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN301572 the MagicNumber/String  'Created topic {} on brokers at {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00391"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#391"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00391] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN300260 the MagicNumber/String  'Found existing topic '{}' on the brokers at {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00391] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN301572 the MagicNumber/String  'Found existing topic '{}' on the brokers at {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00396"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#396"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00396] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN300260 the MagicNumber/String  'Unable to create topic(s) '{}' since the brokers at {} do not support the CreateTopics API.' should be converted to const"
+ , "c3" : "QC-JAV000010[00396] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN301572 the MagicNumber/String  'Unable to create topic(s) '{}' since the brokers at {} do not support the CreateTopics API.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00397"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#397"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00397] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN300260 the MagicNumber/String  ' Falling back to assume topic(s) exist or will be auto-created by the broker.' should be converted to const"
+ , "c3" : "QC-JAV000010[00397] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN301572 the MagicNumber/String  ' Falling back to assume topic(s) exist or will be auto-created by the broker.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00402"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#402"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00402] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN300260 the MagicNumber/String  'Not authorized to create topic(s) '{}' upon the brokers {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00402] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN301572 the MagicNumber/String  'Not authorized to create topic(s) '{}' upon the brokers {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00403"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#403"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00403] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN300260 the MagicNumber/String  ' Falling back to assume topic(s) exist or will be auto-created by the broker.' should be converted to const"
+ , "c3" : "QC-JAV000010[00403] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN301572 the MagicNumber/String  ' Falling back to assume topic(s) exist or will be auto-created by the broker.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00408"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#408"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00408] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN300260 the MagicNumber/String  'Not authorized to create topic(s) '{}' upon the brokers {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00408] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN301572 the MagicNumber/String  'Not authorized to create topic(s) '{}' upon the brokers {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00409"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#409"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00409] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN300260 the MagicNumber/String  ' Falling back to assume topic(s) exist or will be auto-created by the broker.' should be converted to const"
+ , "c3" : "QC-JAV000010[00409] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN301572 the MagicNumber/String  ' Falling back to assume topic(s) exist or will be auto-created by the broker.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00414"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#414"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN300260 the MagicNumber/String  'Unable to create topic(s) '' should be converted to const"
+ , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN301572 the MagicNumber/String  'Unable to create topic(s) '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00414"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#414"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN300260 the MagicNumber/String  '': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN301572 the MagicNumber/String  '': ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00419"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#419"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN300260 the MagicNumber/String  'Timed out while checking for or creating topic(s) '' should be converted to const"
+ , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN301572 the MagicNumber/String  'Timed out while checking for or creating topic(s) '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00419"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#419"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN300260 the MagicNumber/String  ''.' should be converted to const"
+ , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN301572 the MagicNumber/String  ''.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00420"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#420"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00420] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN300260 the MagicNumber/String  ' This could indicate a connectivity issue, unavailable topic partitions, or if' should be converted to const"
+ , "c3" : "QC-JAV000010[00420] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN301572 the MagicNumber/String  ' This could indicate a connectivity issue, unavailable topic partitions, or if' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00421"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#421"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN300260 the MagicNumber/String  ' this is your first use of the topic it may have taken too long to create.' should be converted to const"
+ , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN301572 the MagicNumber/String  ' this is your first use of the topic it may have taken too long to create.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00423"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#423"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00423] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN300260 the MagicNumber/String  'Error while attempting to create/find topic(s) '' should be converted to const"
+ , "c3" : "QC-JAV000010[00423] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN301572 the MagicNumber/String  'Error while attempting to create/find topic(s) '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00423"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#423"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00423] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN300260 the MagicNumber/String  ''' should be converted to const"
+ , "c3" : "QC-JAV000010[00423] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN301572 the MagicNumber/String  ''' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00426"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#426"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00426] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN300260 the MagicNumber/String  'Interrupted while attempting to create/find topic(s) '' should be converted to const"
+ , "c3" : "QC-JAV000010[00426] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN301572 the MagicNumber/String  'Interrupted while attempting to create/find topic(s) '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00426"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#426"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00426] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN300260 the MagicNumber/String  ''' should be converted to const"
+ , "c3" : "QC-JAV000010[00426] In method org.apache.kafka.connect.util.TopicAdmin.createOrFindTopics@POLYN301572 the MagicNumber/String  ''' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -766,84 +766,84 @@ var maDataBlocs = {
  , "c1" : "00444"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#444"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00444] In method org.apache.kafka.connect.util.TopicAdmin.describeTopics@POLYN304719 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00444] In method org.apache.kafka.connect.util.TopicAdmin.describeTopics@POLYN306031 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00447"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#447"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00447] In method org.apache.kafka.connect.util.TopicAdmin.describeTopics@POLYN304719 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00447] In method org.apache.kafka.connect.util.TopicAdmin.describeTopics@POLYN306031 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00460"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#460"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00460] In method org.apache.kafka.connect.util.TopicAdmin.describeTopics@POLYN304719 the MagicNumber/String  'Topic '{}' does not exist on the brokers at {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00460] In method org.apache.kafka.connect.util.TopicAdmin.describeTopics@POLYN306031 the MagicNumber/String  'Topic '{}' does not exist on the brokers at {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00464"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#464"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00464] In method org.apache.kafka.connect.util.TopicAdmin.describeTopics@POLYN304719 the MagicNumber/String  'Not authorized to describe topic(s) '%s' on the brokers %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00464] In method org.apache.kafka.connect.util.TopicAdmin.describeTopics@POLYN306031 the MagicNumber/String  'Not authorized to describe topic(s) '%s' on the brokers %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00469"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#469"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00469] In method org.apache.kafka.connect.util.TopicAdmin.describeTopics@POLYN304719 the MagicNumber/String  'Unable to describe topic(s) '%s' since the brokers ' should be converted to const"
+ , "c3" : "QC-JAV000010[00469] In method org.apache.kafka.connect.util.TopicAdmin.describeTopics@POLYN306031 the MagicNumber/String  'Unable to describe topic(s) '%s' since the brokers ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00470"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#470"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00470] In method org.apache.kafka.connect.util.TopicAdmin.describeTopics@POLYN304719 the MagicNumber/String  'at %s do not support the DescribeTopics API.' should be converted to const"
+ , "c3" : "QC-JAV000010[00470] In method org.apache.kafka.connect.util.TopicAdmin.describeTopics@POLYN306031 the MagicNumber/String  'at %s do not support the DescribeTopics API.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00476"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#476"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.connect.util.TopicAdmin.describeTopics@POLYN304719 the MagicNumber/String  'Timed out while describing topics '' should be converted to const"
+ , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.connect.util.TopicAdmin.describeTopics@POLYN306031 the MagicNumber/String  'Timed out while describing topics '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00476"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#476"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.connect.util.TopicAdmin.describeTopics@POLYN304719 the MagicNumber/String  ''' should be converted to const"
+ , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.connect.util.TopicAdmin.describeTopics@POLYN306031 the MagicNumber/String  ''' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00478"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#478"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.connect.util.TopicAdmin.describeTopics@POLYN304719 the MagicNumber/String  'Error while attempting to describe topics '' should be converted to const"
+ , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.connect.util.TopicAdmin.describeTopics@POLYN306031 the MagicNumber/String  'Error while attempting to describe topics '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00478"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#478"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.connect.util.TopicAdmin.describeTopics@POLYN304719 the MagicNumber/String  ''' should be converted to const"
+ , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.connect.util.TopicAdmin.describeTopics@POLYN306031 the MagicNumber/String  ''' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00481"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#481"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00481] In method org.apache.kafka.connect.util.TopicAdmin.describeTopics@POLYN304719 the MagicNumber/String  'Interrupted while attempting to describe topics '' should be converted to const"
+ , "c3" : "QC-JAV000010[00481] In method org.apache.kafka.connect.util.TopicAdmin.describeTopics@POLYN306031 the MagicNumber/String  'Interrupted while attempting to describe topics '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00481"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#481"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00481] In method org.apache.kafka.connect.util.TopicAdmin.describeTopics@POLYN304719 the MagicNumber/String  ''' should be converted to const"
+ , "c3" : "QC-JAV000010[00481] In method org.apache.kafka.connect.util.TopicAdmin.describeTopics@POLYN306031 the MagicNumber/String  ''' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -857,105 +857,105 @@ var maDataBlocs = {
  , "c1" : "00501"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#501"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00501] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN307615 the MagicNumber/String  'Unable to use admin client to verify the cleanup policy of '{}' ' should be converted to const"
+ , "c3" : "QC-JAV000010[00501] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN308927 the MagicNumber/String  'Unable to use admin client to verify the cleanup policy of '{}' ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00502"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#502"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00502] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN307615 the MagicNumber/String  'topic is '{}', either because the broker is an older ' should be converted to const"
+ , "c3" : "QC-JAV000010[00502] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN308927 the MagicNumber/String  'topic is '{}', either because the broker is an older ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00503"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#503"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00503] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN307615 the MagicNumber/String  'version or because the Kafka principal used for Connect ' should be converted to const"
+ , "c3" : "QC-JAV000010[00503] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN308927 the MagicNumber/String  'version or because the Kafka principal used for Connect ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00504"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#504"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00504] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN307615 the MagicNumber/String  'internal topics does not have the required permission to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00504] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN308927 the MagicNumber/String  'internal topics does not have the required permission to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00505"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#505"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00505] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN307615 the MagicNumber/String  'describe topic configurations.' should be converted to const"
+ , "c3" : "QC-JAV000010[00505] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN308927 the MagicNumber/String  'describe topic configurations.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00506"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#506"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00506] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN307615 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00506] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN308927 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00510"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#510"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN307615 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN308927 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00511"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#511"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN307615 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN308927 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00512"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#512"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00512] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN307615 the MagicNumber/String  'Topic '%s' supplied via the '%s' property is required ' should be converted to const"
+ , "c3" : "QC-JAV000010[00512] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN308927 the MagicNumber/String  'Topic '%s' supplied via the '%s' property is required ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00513"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#513"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN307615 the MagicNumber/String  'to have '%s=%s' to guarantee consistency and durability of ' should be converted to const"
+ , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN308927 the MagicNumber/String  'to have '%s=%s' to guarantee consistency and durability of ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00514"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#514"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00514] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN307615 the MagicNumber/String  '%s, but found the topic currently has '%s=%s'. Continuing would likely ' should be converted to const"
+ , "c3" : "QC-JAV000010[00514] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN308927 the MagicNumber/String  '%s, but found the topic currently has '%s=%s'. Continuing would likely ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00515"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#515"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00515] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN307615 the MagicNumber/String  'result in eventually losing %s and problems restarting this Connect ' should be converted to const"
+ , "c3" : "QC-JAV000010[00515] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN308927 the MagicNumber/String  'result in eventually losing %s and problems restarting this Connect ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00516"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#516"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN307615 the MagicNumber/String  'cluster in the future. Change the '%s' property in the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN308927 the MagicNumber/String  'cluster in the future. Change the '%s' property in the ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00517"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#517"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00517] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN307615 the MagicNumber/String  'Connect worker configurations to use a topic with '%s=%s'.' should be converted to const"
+ , "c3" : "QC-JAV000010[00517] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN308927 the MagicNumber/String  'Connect worker configurations to use a topic with '%s=%s'.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00523"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#523"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00523] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN307615 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00523] In method org.apache.kafka.connect.util.TopicAdmin.verifyTopicCleanupPolicyOnlyCompact@POLYN308927 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -969,49 +969,49 @@ var maDataBlocs = {
  , "c1" : "00535"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#535"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00535] In method org.apache.kafka.connect.util.TopicAdmin.topicCleanupPolicy@POLYN309438 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00535] In method org.apache.kafka.connect.util.TopicAdmin.topicCleanupPolicy@POLYN310750 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00537"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#537"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00537] In method org.apache.kafka.connect.util.TopicAdmin.topicCleanupPolicy@POLYN309438 the MagicNumber/String  'Unable to find topic '{}' when getting cleanup policy' should be converted to const"
+ , "c3" : "QC-JAV000010[00537] In method org.apache.kafka.connect.util.TopicAdmin.topicCleanupPolicy@POLYN310750 the MagicNumber/String  'Unable to find topic '{}' when getting cleanup policy' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00541"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#541"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00541] In method org.apache.kafka.connect.util.TopicAdmin.topicCleanupPolicy@POLYN309438 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00541] In method org.apache.kafka.connect.util.TopicAdmin.topicCleanupPolicy@POLYN310750 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00541"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#541"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00541] In method org.apache.kafka.connect.util.TopicAdmin.topicCleanupPolicy@POLYN309438 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00541] In method org.apache.kafka.connect.util.TopicAdmin.topicCleanupPolicy@POLYN310750 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00543"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#543"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00543] In method org.apache.kafka.connect.util.TopicAdmin.topicCleanupPolicy@POLYN309438 the MagicNumber/String  'Found cleanup.policy={} for topic '{}'' should be converted to const"
+ , "c3" : "QC-JAV000010[00543] In method org.apache.kafka.connect.util.TopicAdmin.topicCleanupPolicy@POLYN310750 the MagicNumber/String  'Found cleanup.policy={} for topic '{}'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00544"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#544"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00544] In method org.apache.kafka.connect.util.TopicAdmin.topicCleanupPolicy@POLYN309438 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00544] In method org.apache.kafka.connect.util.TopicAdmin.topicCleanupPolicy@POLYN310750 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00552"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#552"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00552] In method org.apache.kafka.connect.util.TopicAdmin.topicCleanupPolicy@POLYN309438 the MagicNumber/String  'Found no cleanup.policy for topic '{}'' should be converted to const"
+ , "c3" : "QC-JAV000010[00552] In method org.apache.kafka.connect.util.TopicAdmin.topicCleanupPolicy@POLYN310750 the MagicNumber/String  'Found no cleanup.policy for topic '{}'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1032,63 +1032,63 @@ var maDataBlocs = {
  , "c1" : "00591"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#591"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00591] In method org.apache.kafka.connect.util.TopicAdmin.describeTopicConfigs@POLYN312034 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00591] In method org.apache.kafka.connect.util.TopicAdmin.describeTopicConfigs@POLYN313346 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00602"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#602"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00602] In method org.apache.kafka.connect.util.TopicAdmin.describeTopicConfigs@POLYN312034 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00602] In method org.apache.kafka.connect.util.TopicAdmin.describeTopicConfigs@POLYN313346 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00618"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#618"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00618] In method org.apache.kafka.connect.util.TopicAdmin.describeTopicConfigs@POLYN312034 the MagicNumber/String  'Topic '{}' does not exist on the brokers at {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00618] In method org.apache.kafka.connect.util.TopicAdmin.describeTopicConfigs@POLYN313346 the MagicNumber/String  'Topic '{}' does not exist on the brokers at {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00619"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#619"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00619] In method org.apache.kafka.connect.util.TopicAdmin.describeTopicConfigs@POLYN312034 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00619] In method org.apache.kafka.connect.util.TopicAdmin.describeTopicConfigs@POLYN313346 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00621"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#621"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00621] In method org.apache.kafka.connect.util.TopicAdmin.describeTopicConfigs@POLYN312034 the MagicNumber/String  'Not authorized to describe topic config for topic '{}' on brokers at {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00621] In method org.apache.kafka.connect.util.TopicAdmin.describeTopicConfigs@POLYN313346 the MagicNumber/String  'Not authorized to describe topic config for topic '{}' on brokers at {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00623"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#623"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00623] In method org.apache.kafka.connect.util.TopicAdmin.describeTopicConfigs@POLYN312034 the MagicNumber/String  'API to describe topic config for topic '{}' is unsupported on brokers at {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00623] In method org.apache.kafka.connect.util.TopicAdmin.describeTopicConfigs@POLYN313346 the MagicNumber/String  'API to describe topic config for topic '{}' is unsupported on brokers at {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00625"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#625"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00625] In method org.apache.kafka.connect.util.TopicAdmin.describeTopicConfigs@POLYN312034 the MagicNumber/String  'Timed out while waiting to describe topic config for topic '%s' on brokers at %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00625] In method org.apache.kafka.connect.util.TopicAdmin.describeTopicConfigs@POLYN313346 the MagicNumber/String  'Timed out while waiting to describe topic config for topic '%s' on brokers at %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00629"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#629"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00629] In method org.apache.kafka.connect.util.TopicAdmin.describeTopicConfigs@POLYN312034 the MagicNumber/String  'Error while attempting to describe topic config for topic '%s' on brokers at %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00629] In method org.apache.kafka.connect.util.TopicAdmin.describeTopicConfigs@POLYN313346 the MagicNumber/String  'Error while attempting to describe topic config for topic '%s' on brokers at %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00635"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#635"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00635] In method org.apache.kafka.connect.util.TopicAdmin.describeTopicConfigs@POLYN312034 the MagicNumber/String  'Interrupted while attempting to describe topic configs '%s'' should be converted to const"
+ , "c3" : "QC-JAV000010[00635] In method org.apache.kafka.connect.util.TopicAdmin.describeTopicConfigs@POLYN313346 the MagicNumber/String  'Interrupted while attempting to describe topic configs '%s'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1221,49 +1221,49 @@ var maDataBlocs = {
  , "c1" : "00657"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#657"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00657] In method org.apache.kafka.connect.util.TopicAdmin.endOffsets@POLYN316045 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00657] In method org.apache.kafka.connect.util.TopicAdmin.endOffsets@POLYN317357 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00672"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#672"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00672] In method org.apache.kafka.connect.util.TopicAdmin.endOffsets@POLYN316045 the MagicNumber/String  'Not authorized to get the end offsets for topic '%s' on brokers at %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00672] In method org.apache.kafka.connect.util.TopicAdmin.endOffsets@POLYN317357 the MagicNumber/String  'Not authorized to get the end offsets for topic '%s' on brokers at %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00677"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#677"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00677] In method org.apache.kafka.connect.util.TopicAdmin.endOffsets@POLYN316045 the MagicNumber/String  'API to get the get the end offsets for topic '%s' is unsupported on brokers at %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00677] In method org.apache.kafka.connect.util.TopicAdmin.endOffsets@POLYN317357 the MagicNumber/String  'API to get the get the end offsets for topic '%s' is unsupported on brokers at %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00680"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#680"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00680] In method org.apache.kafka.connect.util.TopicAdmin.endOffsets@POLYN316045 the MagicNumber/String  'Timed out while waiting to get end offsets for topic '%s' on brokers at %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00680] In method org.apache.kafka.connect.util.TopicAdmin.endOffsets@POLYN317357 the MagicNumber/String  'Timed out while waiting to get end offsets for topic '%s' on brokers at %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00683"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#683"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00683] In method org.apache.kafka.connect.util.TopicAdmin.endOffsets@POLYN316045 the MagicNumber/String  'Unable to get end offsets during leader election for topic '%s' on brokers at %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00683] In method org.apache.kafka.connect.util.TopicAdmin.endOffsets@POLYN317357 the MagicNumber/String  'Unable to get end offsets during leader election for topic '%s' on brokers at %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00688"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#688"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00688] In method org.apache.kafka.connect.util.TopicAdmin.endOffsets@POLYN316045 the MagicNumber/String  'Error while getting end offsets for topic '%s' on brokers at %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00688] In method org.apache.kafka.connect.util.TopicAdmin.endOffsets@POLYN317357 the MagicNumber/String  'Error while getting end offsets for topic '%s' on brokers at %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00693"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#693"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00693] In method org.apache.kafka.connect.util.TopicAdmin.endOffsets@POLYN316045 the MagicNumber/String  'Interrupted while attempting to read end offsets for topic '%s' on brokers at %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00693] In method org.apache.kafka.connect.util.TopicAdmin.endOffsets@POLYN317357 the MagicNumber/String  'Interrupted while attempting to read end offsets for topic '%s' on brokers at %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1284,14 +1284,14 @@ var maDataBlocs = {
  , "c1" : "00720"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#720"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00720] In method org.apache.kafka.connect.util.TopicAdmin.retryEndOffsets@POLYN320026 the MagicNumber/String  'list offsets for topic partitions' should be converted to const"
+ , "c3" : "QC-JAV000010[00720] In method org.apache.kafka.connect.util.TopicAdmin.retryEndOffsets@POLYN321338 the MagicNumber/String  'list offsets for topic partitions' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00727"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#727"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00727] In method org.apache.kafka.connect.util.TopicAdmin.retryEndOffsets@POLYN320026 the MagicNumber/String  'Failed to list offsets for topic partitions.' should be converted to const"
+ , "c3" : "QC-JAV000010[00727] In method org.apache.kafka.connect.util.TopicAdmin.retryEndOffsets@POLYN321338 the MagicNumber/String  'Failed to list offsets for topic partitions.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

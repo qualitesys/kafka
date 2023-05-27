@@ -131,7 +131,7 @@ var maDataBlocs = {
  , "c1" : "00030"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#30"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00030] For method getIntConfig list of called methods Object monObjet|java.lang.String node_getConfigN153743"
+ , "c3" : "QC-JAV000007[00030] For method getIntConfig list of called methods Object monObjet|java.lang.String node_getConfigN155055"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -145,7 +145,7 @@ var maDataBlocs = {
  , "c1" : "00032"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/Node.java.html#32"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.trogdor.common.Node.Util.getIntConfig@POLYN153594 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00032] In method org.apache.kafka.trogdor.common.Node.Util.getIntConfig@POLYN154906 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

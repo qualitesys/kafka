@@ -127,7 +127,7 @@ var maDataBlocs = {
  , "c1" : "00054"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.kstream.internals.KStreamJoinWindow.KStreamJoinWindowProcessor.process@POLYN155325 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.kstream.internals.KStreamJoinWindow.KStreamJoinWindowProcessor.process@POLYN156637 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

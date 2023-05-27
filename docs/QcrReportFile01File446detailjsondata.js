@@ -227,7 +227,7 @@ var maDataBlocs = {
  , "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaCompletableFuture.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.internals.KafkaCompletableFuture.erroneousCompletionException@POLYN160385 the MagicNumber/String  'User code should not complete futures returned from Kafka clients' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.internals.KafkaCompletableFuture.erroneousCompletionException@POLYN161697 the MagicNumber/String  'User code should not complete futures returned from Kafka clients' should be converted to const"
 }} 
 ]
 , 

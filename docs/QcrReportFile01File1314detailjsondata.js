@@ -245,28 +245,28 @@ var maDataBlocs = {
  , "c1" : "00078"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.controller.FeatureControlManager.Builder.build@POLYN199500 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.controller.FeatureControlManager.Builder.build@POLYN200812 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.controller.FeatureControlManager.Builder.build@POLYN199500 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.controller.FeatureControlManager.Builder.build@POLYN200812 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.controller.FeatureControlManager.Builder.build@POLYN199500 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.controller.FeatureControlManager.Builder.build@POLYN200812 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00081"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.controller.FeatureControlManager.Builder.build@POLYN199500 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.controller.FeatureControlManager.Builder.build@POLYN200812 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -280,14 +280,14 @@ var maDataBlocs = {
  , "c1" : "00121"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.controller.FeatureControlManager.FeatureControlManager@POLYN200762 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.controller.FeatureControlManager.FeatureControlManager@POLYN202074 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00123"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.controller.FeatureControlManager.FeatureControlManager@POLYN200762 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.controller.FeatureControlManager.FeatureControlManager@POLYN202074 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -322,7 +322,7 @@ var maDataBlocs = {
  , "c1" : "00150"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00150] For method updateFeature list of called methods Object monObjet|V metadataVersion_getN203611|V finalizedVersions_getN203724|java.util.Optional quorumFeatures_reasonNotSupportedN204030"
+ , "c3" : "QC-JAV000007[00150] For method updateFeature list of called methods Object monObjet|V metadataVersion_getN204923|V finalizedVersions_getN205036|java.util.Optional quorumFeatures_reasonNotSupportedN205342"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -364,98 +364,98 @@ var maDataBlocs = {
  , "c1" : "00159"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#159"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN202963 the MagicNumber/String  'The controller does not support the given upgrade type.' should be converted to const"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN204275 the MagicNumber/String  'The controller does not support the given upgrade type.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00169"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN202963 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN204275 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00171"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN202963 the MagicNumber/String  'A feature version cannot be less than 0.' should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN204275 the MagicNumber/String  'A feature version cannot be less than 0.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00181"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN202963 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN204275 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00183"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#183"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN202963 the MagicNumber/String  'Broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN204275 the MagicNumber/String  'Broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00183"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#183"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN202963 the MagicNumber/String  ' does not support this feature.' should be converted to const"
+ , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN204275 the MagicNumber/String  ' does not support this feature.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00186"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN202963 the MagicNumber/String  'Broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN204275 the MagicNumber/String  'Broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00186"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN202963 the MagicNumber/String  ' does not support the given ' should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN204275 the MagicNumber/String  ' does not support the given ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00187"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN202963 the MagicNumber/String  'version. It supports ' should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN204275 the MagicNumber/String  'version. It supports ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00187"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN202963 the MagicNumber/String  ' to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN204275 the MagicNumber/String  ' to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00187"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN202963 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN204275 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00191"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN202963 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN204275 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00194"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN202963 the MagicNumber/String  'Can't downgrade the version of this feature without setting the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN204275 the MagicNumber/String  'Can't downgrade the version of this feature without setting the ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00195"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#195"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN202963 the MagicNumber/String  'upgrade type to either safe or unsafe downgrade.' should be converted to const"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.controller.FeatureControlManager.updateFeature@POLYN204275 the MagicNumber/String  'upgrade type to either safe or unsafe downgrade.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -469,14 +469,14 @@ var maDataBlocs = {
  , "c1" : "00212"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#212"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00212] For method invalidUpdateVersion list of called methods Object monObjet|java.lang.String String_formatN206386"
+ , "c3" : "QC-JAV000007[00212] For method invalidUpdateVersion list of called methods Object monObjet|java.lang.String String_formatN207698"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00213"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.controller.FeatureControlManager.invalidUpdateVersion@POLYN206237 the MagicNumber/String  'Invalid update version %d for feature %s. %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.controller.FeatureControlManager.invalidUpdateVersion@POLYN207549 the MagicNumber/String  'Invalid update version %d for feature %s. %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -490,7 +490,7 @@ var maDataBlocs = {
  , "c1" : "00221"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#221"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00221] For method updateMetadataVersion list of called methods Object monObjet|MetadataVersion metadataVersionN206918"
+ , "c3" : "QC-JAV000007[00221] For method updateMetadataVersion list of called methods Object monObjet|MetadataVersion metadataVersionN208230"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -504,49 +504,49 @@ var maDataBlocs = {
  , "c1" : "00231"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#231"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN206748 the MagicNumber/String  'Unknown metadata.version.' should be converted to const"
+ , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN208060 the MagicNumber/String  'Unknown metadata.version.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00238"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#238"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN206748 the MagicNumber/String  'Downgrading metadata.version from {} to {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN208060 the MagicNumber/String  'Downgrading metadata.version from {} to {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00240"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#240"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN206748 the MagicNumber/String  'Downgrading metadata.version unsafely from {} to {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN208060 the MagicNumber/String  'Downgrading metadata.version unsafely from {} to {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00242"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#242"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN206748 the MagicNumber/String  'Refusing to perform the requested ' should be converted to const"
+ , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN208060 the MagicNumber/String  'Refusing to perform the requested ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00243"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#243"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN206748 the MagicNumber/String  'downgrade because it might delete metadata information. Retry using ' should be converted to const"
+ , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN208060 the MagicNumber/String  'downgrade because it might delete metadata information. Retry using ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00244"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#244"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN206748 the MagicNumber/String  'UNSAFE_DOWNGRADE if you want to force the downgrade to proceed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN208060 the MagicNumber/String  'UNSAFE_DOWNGRADE if you want to force the downgrade to proceed.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00247"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#247"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN206748 the MagicNumber/String  'Upgrading metadata.version from {} to {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN208060 the MagicNumber/String  'Upgrading metadata.version from {} to {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -560,14 +560,14 @@ var maDataBlocs = {
  , "c1" : "00257"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#257"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00257] For method invalidMetadataVersion list of called methods Object monObjet|java.lang.String String_formatN208513"
+ , "c3" : "QC-JAV000007[00257] For method invalidMetadataVersion list of called methods Object monObjet|java.lang.String String_formatN209825"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00258"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#258"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.controller.FeatureControlManager.invalidMetadataVersion@POLYN208389 the MagicNumber/String  'Invalid metadata.version %d. %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.controller.FeatureControlManager.invalidMetadataVersion@POLYN209701 the MagicNumber/String  'Invalid metadata.version %d. %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -588,7 +588,7 @@ var maDataBlocs = {
  , "c1" : "00279"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#279"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00279] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.VersionRange quorumFeatures_localSupportedFeatureN209795"
+ , "c3" : "QC-JAV000007[00279] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.VersionRange quorumFeatures_localSupportedFeatureN211107"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -602,63 +602,63 @@ var maDataBlocs = {
  , "c1" : "00282"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#282"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.controller.FeatureControlManager.replay@POLYN209700 the MagicNumber/String  'Tried to apply FeatureLevelRecord ' should be converted to const"
+ , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.controller.FeatureControlManager.replay@POLYN211012 the MagicNumber/String  'Tried to apply FeatureLevelRecord ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00282"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#282"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.controller.FeatureControlManager.replay@POLYN209700 the MagicNumber/String  ', but this controller only ' should be converted to const"
+ , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.controller.FeatureControlManager.replay@POLYN211012 the MagicNumber/String  ', but this controller only ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00283"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#283"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.controller.FeatureControlManager.replay@POLYN209700 the MagicNumber/String  'supports versions ' should be converted to const"
+ , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.controller.FeatureControlManager.replay@POLYN211012 the MagicNumber/String  'supports versions ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00286"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#286"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.controller.FeatureControlManager.replay@POLYN209700 the MagicNumber/String  'Setting metadata.version to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.controller.FeatureControlManager.replay@POLYN211012 the MagicNumber/String  'Setting metadata.version to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00288"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#288"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.controller.FeatureControlManager.replay@POLYN209700 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.controller.FeatureControlManager.replay@POLYN211012 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00290"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#290"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.controller.FeatureControlManager.replay@POLYN209700 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.controller.FeatureControlManager.replay@POLYN211012 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00291"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#291"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.controller.FeatureControlManager.replay@POLYN209700 the MagicNumber/String  'Removing feature {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.controller.FeatureControlManager.replay@POLYN211012 the MagicNumber/String  'Removing feature {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00294"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#294"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.controller.FeatureControlManager.replay@POLYN209700 the MagicNumber/String  'Setting feature {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.controller.FeatureControlManager.replay@POLYN211012 the MagicNumber/String  'Setting feature {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00319"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#319"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.controller.FeatureControlManager.FeatureControlIterator.next@POLYN212027 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.controller.FeatureControlManager.FeatureControlIterator.next@POLYN213339 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -672,147 +672,147 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.FeatureControlManager.invalidMetadataVersion@POLYN208389"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.FeatureControlManager.invalidMetadataVersion@POLYN209701"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN206748"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN208060"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.FeatureControlManager.invalidUpdateVersion@POLYN206237"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.FeatureControlManager.invalidUpdateVersion@POLYN207549"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.FeatureControlManager.replay@POLYN209700"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.FeatureControlManager.replay@POLYN211012"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00258"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#258"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00258] In the recursive method org.apache.kafka.controller.FeatureControlManager.invalidMetadataVersion@POLYN208389 the MagicNumber/String 'Invalid metadata.version %d. %s' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00258] In the recursive method org.apache.kafka.controller.FeatureControlManager.invalidMetadataVersion@POLYN209701 the MagicNumber/String 'Invalid metadata.version %d. %s' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00231"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#231"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00231] In the recursive method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN206748 the MagicNumber/String 'Unknown metadata.version.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00231] In the recursive method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN208060 the MagicNumber/String 'Unknown metadata.version.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00238"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#238"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00238] In the recursive method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN206748 the MagicNumber/String 'Downgrading metadata.version from {} to {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00238] In the recursive method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN208060 the MagicNumber/String 'Downgrading metadata.version from {} to {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00240"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#240"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00240] In the recursive method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN206748 the MagicNumber/String 'Downgrading metadata.version unsafely from {} to {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00240] In the recursive method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN208060 the MagicNumber/String 'Downgrading metadata.version unsafely from {} to {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00242"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#242"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00242] In the recursive method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN206748 the MagicNumber/String 'Refusing to perform the requested ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00242] In the recursive method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN208060 the MagicNumber/String 'Refusing to perform the requested ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00243"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#243"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00243] In the recursive method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN206748 the MagicNumber/String 'downgrade because it might delete metadata information. Retry using ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00243] In the recursive method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN208060 the MagicNumber/String 'downgrade because it might delete metadata information. Retry using ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00244"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#244"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00244] In the recursive method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN206748 the MagicNumber/String 'UNSAFE_DOWNGRADE if you want to force the downgrade to proceed.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00244] In the recursive method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN208060 the MagicNumber/String 'UNSAFE_DOWNGRADE if you want to force the downgrade to proceed.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00247"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#247"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00247] In the recursive method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN206748 the MagicNumber/String 'Upgrading metadata.version from {} to {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00247] In the recursive method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN208060 the MagicNumber/String 'Upgrading metadata.version from {} to {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00213"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#213"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.controller.FeatureControlManager.invalidUpdateVersion@POLYN206237 the MagicNumber/String 'Invalid update version %d for feature %s. %s' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.controller.FeatureControlManager.invalidUpdateVersion@POLYN207549 the MagicNumber/String 'Invalid update version %d for feature %s. %s' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00282"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#282"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00282] In the recursive method org.apache.kafka.controller.FeatureControlManager.replay@POLYN209700 the MagicNumber/String ', but this controller only ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00282] In the recursive method org.apache.kafka.controller.FeatureControlManager.replay@POLYN211012 the MagicNumber/String ', but this controller only ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00282"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#282"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00282] In the recursive method org.apache.kafka.controller.FeatureControlManager.replay@POLYN209700 the MagicNumber/String 'Tried to apply FeatureLevelRecord ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00282] In the recursive method org.apache.kafka.controller.FeatureControlManager.replay@POLYN211012 the MagicNumber/String 'Tried to apply FeatureLevelRecord ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00283"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#283"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00283] In the recursive method org.apache.kafka.controller.FeatureControlManager.replay@POLYN209700 the MagicNumber/String 'supports versions ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00283] In the recursive method org.apache.kafka.controller.FeatureControlManager.replay@POLYN211012 the MagicNumber/String 'supports versions ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00286"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#286"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00286] In the recursive method org.apache.kafka.controller.FeatureControlManager.replay@POLYN209700 the MagicNumber/String 'Setting metadata.version to {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00286] In the recursive method org.apache.kafka.controller.FeatureControlManager.replay@POLYN211012 the MagicNumber/String 'Setting metadata.version to {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00288"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#288"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00288] In the recursive method org.apache.kafka.controller.FeatureControlManager.replay@POLYN209700 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00288] In the recursive method org.apache.kafka.controller.FeatureControlManager.replay@POLYN211012 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00290"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#290"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00290] In the recursive method org.apache.kafka.controller.FeatureControlManager.replay@POLYN209700 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00290] In the recursive method org.apache.kafka.controller.FeatureControlManager.replay@POLYN211012 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00291"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#291"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00291] In the recursive method org.apache.kafka.controller.FeatureControlManager.replay@POLYN209700 the MagicNumber/String 'Removing feature {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00291] In the recursive method org.apache.kafka.controller.FeatureControlManager.replay@POLYN211012 the MagicNumber/String 'Removing feature {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00294"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#294"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00294] In the recursive method org.apache.kafka.controller.FeatureControlManager.replay@POLYN209700 the MagicNumber/String 'Setting feature {} to {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00294] In the recursive method org.apache.kafka.controller.FeatureControlManager.replay@POLYN211012 the MagicNumber/String 'Setting feature {} to {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 
