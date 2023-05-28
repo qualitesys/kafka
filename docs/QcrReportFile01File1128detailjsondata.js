@@ -135,7 +135,7 @@ var maDataBlocs = {
  , "c1" : "00062"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.runtime.health.ConnectClusterStateImpl.connectors@POLYN165629 the MagicNumber/String  'Failed to retrieve list of connectors' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.runtime.health.ConnectClusterStateImpl.connectors@POLYN165677 the MagicNumber/String  'Failed to retrieve list of connectors' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -149,7 +149,7 @@ var maDataBlocs = {
  , "c1" : "00067"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00067] For method connectorHealth list of called methods Object monObjet|org.apache.kafka.connect.runtime.rest.entities.ConnectorStateInfo herder_connectorStatusN166283"
+ , "c3" : "QC-JAV000007[00067] For method connectorHealth list of called methods Object monObjet|org.apache.kafka.connect.runtime.rest.entities.ConnectorStateInfo herder_connectorStatusN166331"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -163,7 +163,7 @@ var maDataBlocs = {
  , "c1" : "00091"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.connect.runtime.health.ConnectClusterStateImpl.connectorConfig@POLYN167026 the MagicNumber/String  'Failed to retrieve configuration for connector '%s'' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.connect.runtime.health.ConnectClusterStateImpl.connectorConfig@POLYN167074 the MagicNumber/String  'Failed to retrieve configuration for connector '%s'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

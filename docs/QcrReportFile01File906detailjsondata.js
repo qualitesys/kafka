@@ -154,49 +154,49 @@ var maDataBlocs = {
  , "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.utils.LoggingSignalHandler.LoggingSignalHandler@POLYN166266 the MagicNumber/String  'sun.misc.Signal' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.utils.LoggingSignalHandler.LoggingSignalHandler@POLYN166314 the MagicNumber/String  'sun.misc.Signal' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.utils.LoggingSignalHandler.LoggingSignalHandler@POLYN166266 the MagicNumber/String  'sun.misc.SignalHandler' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.utils.LoggingSignalHandler.LoggingSignalHandler@POLYN166314 the MagicNumber/String  'sun.misc.SignalHandler' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.utils.LoggingSignalHandler.LoggingSignalHandler@POLYN166266 the MagicNumber/String  'handle' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.utils.LoggingSignalHandler.LoggingSignalHandler@POLYN166314 the MagicNumber/String  'handle' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.utils.LoggingSignalHandler.LoggingSignalHandler@POLYN166266 the MagicNumber/String  'handle' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.utils.LoggingSignalHandler.LoggingSignalHandler@POLYN166314 the MagicNumber/String  'handle' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.utils.LoggingSignalHandler.LoggingSignalHandler@POLYN166266 the MagicNumber/String  'getName' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.utils.LoggingSignalHandler.LoggingSignalHandler@POLYN166314 the MagicNumber/String  'getName' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.utils.LoggingSignalHandler.register@POLYN167271 the MagicNumber/String  'Registered signal handlers for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.utils.LoggingSignalHandler.register@POLYN167319 the MagicNumber/String  'Registered signal handlers for ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.utils.LoggingSignalHandler.register@POLYN167271 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.utils.LoggingSignalHandler.register@POLYN167319 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -210,7 +210,7 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00075] For method createSignalHandler list of called methods Object monObjet|V jvmSignalHandlers_getN168702"
+ , "c3" : "QC-JAV000007[00075] For method createSignalHandler list of called methods Object monObjet|V jvmSignalHandlers_getN168750"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -224,28 +224,28 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.utils.LoggingSignalHandler.createSignalHandler@POLYN167775 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.utils.LoggingSignalHandler.createSignalHandler@POLYN167823 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.utils.LoggingSignalHandler.createSignalHandler@POLYN167775 the MagicNumber/String  'Terminating process due to signal {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.utils.LoggingSignalHandler.createSignalHandler@POLYN167823 the MagicNumber/String  'Terminating process due to signal {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.utils.LoggingSignalHandler.createSignalHandler@POLYN167775 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.common.utils.LoggingSignalHandler.createSignalHandler@POLYN167823 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.utils.LoggingSignalHandler.createSignalHandler@POLYN167775 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.utils.LoggingSignalHandler.createSignalHandler@POLYN167823 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -259,7 +259,7 @@ var maDataBlocs = {
  , "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#100"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00100] For method register list of called methods Object monObjet|T signalConstructor_newInstanceN169340|java.lang.Object createSignalHandlerN169436"
+ , "c3" : "QC-JAV000007[00100] For method register list of called methods Object monObjet|T signalConstructor_newInstanceN169388|java.lang.Object createSignalHandlerN169484"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -273,14 +273,14 @@ var maDataBlocs = {
  , "c1" : "00103"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.utils.LoggingSignalHandler.register@POLYN169168 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.utils.LoggingSignalHandler.register@POLYN169216 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.utils.LoggingSignalHandler.register@POLYN169168 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.utils.LoggingSignalHandler.register@POLYN169216 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -294,21 +294,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.LoggingSignalHandler.register@POLYN169168"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.LoggingSignalHandler.register@POLYN169216"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00103"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#103"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.common.utils.LoggingSignalHandler.register@POLYN169168 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.common.utils.LoggingSignalHandler.register@POLYN169216 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#104"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00104] In the recursive method org.apache.kafka.common.utils.LoggingSignalHandler.register@POLYN169168 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00104] In the recursive method org.apache.kafka.common.utils.LoggingSignalHandler.register@POLYN169216 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

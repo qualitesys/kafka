@@ -128,35 +128,35 @@ var maDataBlocs = {
  , "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FinalizedVersionRange.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.clients.admin.FinalizedVersionRange.FinalizedVersionRange@POLYN157197 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.clients.admin.FinalizedVersionRange.FinalizedVersionRange@POLYN157245 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FinalizedVersionRange.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.clients.admin.FinalizedVersionRange.FinalizedVersionRange@POLYN157197 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.clients.admin.FinalizedVersionRange.FinalizedVersionRange@POLYN157245 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FinalizedVersionRange.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.clients.admin.FinalizedVersionRange.FinalizedVersionRange@POLYN157197 the MagicNumber/String  'Expected minVersionLevel &amp;gt;= 1, maxVersionLevel &amp;gt;= 1 and' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.clients.admin.FinalizedVersionRange.FinalizedVersionRange@POLYN157245 the MagicNumber/String  'Expected minVersionLevel &amp;gt;= 1, maxVersionLevel &amp;gt;= 1 and' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FinalizedVersionRange.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.clients.admin.FinalizedVersionRange.FinalizedVersionRange@POLYN157197 the MagicNumber/String  ' maxVersionLevel &amp;gt;= minVersionLevel, but received' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.clients.admin.FinalizedVersionRange.FinalizedVersionRange@POLYN157245 the MagicNumber/String  ' maxVersionLevel &amp;gt;= minVersionLevel, but received' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FinalizedVersionRange.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.admin.FinalizedVersionRange.FinalizedVersionRange@POLYN157197 the MagicNumber/String  ' minVersionLevel: %d, maxVersionLevel: %d' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.admin.FinalizedVersionRange.FinalizedVersionRange@POLYN157245 the MagicNumber/String  ' minVersionLevel: %d, maxVersionLevel: %d' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -170,21 +170,21 @@ var maDataBlocs = {
  , "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FinalizedVersionRange.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.admin.FinalizedVersionRange.equals@POLYN157983 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.admin.FinalizedVersionRange.equals@POLYN158031 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FinalizedVersionRange.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.clients.admin.FinalizedVersionRange.equals@POLYN157983 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.clients.admin.FinalizedVersionRange.equals@POLYN158031 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/FinalizedVersionRange.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.admin.FinalizedVersionRange.toString@POLYN158690 the MagicNumber/String  'FinalizedVersionRange[min_version_level:%d, max_version_level:%d]' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.admin.FinalizedVersionRange.toString@POLYN158738 the MagicNumber/String  'FinalizedVersionRange[min_version_level:%d, max_version_level:%d]' should be converted to const"
 }} 
 ]
 , 

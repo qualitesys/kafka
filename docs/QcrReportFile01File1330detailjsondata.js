@@ -188,7 +188,7 @@ var maDataBlocs = {
  , "c1" : "00041"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00041] For method finishSnapshot list of called methods Object monObjet|V changes_computeIfAbsentN162280"
+ , "c3" : "QC-JAV000007[00041] For method finishSnapshot list of called methods Object monObjet|V changes_computeIfAbsentN162328"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -230,7 +230,7 @@ var maDataBlocs = {
  , "c1" : "00055"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00055] For method replay list of called methods Object monObjet|org.apache.kafka.common.quota.ClientQuotaEntity ClientQuotaImage_dataToEntityN162643|V changes_computeIfAbsentN162759"
+ , "c3" : "QC-JAV000007[00055] For method replay list of called methods Object monObjet|org.apache.kafka.common.quota.ClientQuotaEntity ClientQuotaImage_dataToEntityN162691|V changes_computeIfAbsentN162807"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -244,7 +244,7 @@ var maDataBlocs = {
  , "c1" : "00063"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00063] For method apply list of called methods Object monObjet|V changes_getN163564|org.apache.kafka.image.ClientQuotaImage change_applyN163865"
+ , "c3" : "QC-JAV000007[00063] For method apply list of called methods Object monObjet|V changes_getN163612|org.apache.kafka.image.ClientQuotaImage change_applyN163913"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -286,28 +286,28 @@ var maDataBlocs = {
  , "c1" : "00069"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.image.ClientQuotasDelta.apply@POLYN163077 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.image.ClientQuotasDelta.apply@POLYN163125 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.image.ClientQuotasDelta.toString@POLYN164765 the MagicNumber/String  'ClientQuotasDelta(' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.image.ClientQuotasDelta.toString@POLYN164813 the MagicNumber/String  'ClientQuotasDelta(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.image.ClientQuotasDelta.toString@POLYN164765 the MagicNumber/String  'changes=' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.image.ClientQuotasDelta.toString@POLYN164813 the MagicNumber/String  'changes=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00094"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.image.ClientQuotasDelta.toString@POLYN164765 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.image.ClientQuotasDelta.toString@POLYN164813 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -335,14 +335,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClientQuotasDelta.apply@POLYN163077"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClientQuotasDelta.apply@POLYN163125"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00069"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#69"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.image.ClientQuotasDelta.apply@POLYN163077 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00069] In the recursive method org.apache.kafka.image.ClientQuotasDelta.apply@POLYN163125 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

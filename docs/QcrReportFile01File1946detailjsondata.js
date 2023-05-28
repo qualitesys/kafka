@@ -135,7 +135,7 @@ var maDataBlocs = {
  , "c1" : "00035"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ToInternal.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.processor.internals.ToInternal.hasTimestamp@POLYN152317 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.streams.processor.internals.ToInternal.hasTimestamp@POLYN152365 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 , 

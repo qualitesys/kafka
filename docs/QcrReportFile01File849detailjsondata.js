@@ -170,14 +170,14 @@ var maDataBlocs = {
  , "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.splitRules@POLYN176739 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.splitRules@POLYN176787 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.splitRules@POLYN176739 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.splitRules@POLYN176787 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -198,98 +198,98 @@ var maDataBlocs = {
  , "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177410 the MagicNumber/String  'Invalid rule: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177458 the MagicNumber/String  'Invalid rule: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177410 the MagicNumber/String  'Invalid rule:  ' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177458 the MagicNumber/String  'Invalid rule:  ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177410 the MagicNumber/String  ' , unmatched substring:  ' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177458 the MagicNumber/String  ' , unmatched substring:  ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177410 the MagicNumber/String  ' ' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177458 the MagicNumber/String  ' ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177410 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177458 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177410 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177458 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177410 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177458 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177410 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177458 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177410 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177458 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177410 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177458 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177410 the MagicNumber/String  'L' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177458 the MagicNumber/String  'L' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177410 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177458 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177410 the MagicNumber/String  'U' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177458 the MagicNumber/String  'U' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177410 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.parseRules@POLYN177458 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -303,7 +303,7 @@ var maDataBlocs = {
  , "c1" : "00083"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00083] For method getName list of called methods Object monObjet|java.lang.String r_applyN179338"
+ , "c3" : "QC-JAV000007[00083] For method getName list of called methods Object monObjet|java.lang.String r_applyN179386"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -317,91 +317,91 @@ var maDataBlocs = {
  , "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.getName@POLYN179153 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.getName@POLYN179201 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.getName@POLYN179153 the MagicNumber/String  'No rules apply to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.getName@POLYN179201 the MagicNumber/String  'No rules apply to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.getName@POLYN179153 the MagicNumber/String  ', rules ' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.getName@POLYN179201 the MagicNumber/String  ', rules ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.toString@POLYN179677 the MagicNumber/String  'SslPrincipalMapper(rules = ' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.toString@POLYN179725 the MagicNumber/String  'SslPrincipalMapper(rules = ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.toString@POLYN179677 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.toString@POLYN179725 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00114"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.Rule@POLYN180344 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.Rule@POLYN180392 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.Rule@POLYN180344 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.Rule@POLYN180392 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.Rule@POLYN180344 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.Rule@POLYN180392 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00117"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.Rule@POLYN180344 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.Rule@POLYN180392 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00118"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.Rule@POLYN180344 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.Rule@POLYN180392 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00122"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.Rule@POLYN180657 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.Rule@POLYN180705 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00123"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.Rule@POLYN180657 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.Rule@POLYN180705 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00123"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.Rule@POLYN180657 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.Rule@POLYN180705 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -415,7 +415,7 @@ var maDataBlocs = {
  , "c1" : "00129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#129"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00129] For method apply list of called methods Object monObjet|java.lang.String distinguishedName_replaceAllN181629|java.lang.String result_toLowerCaseN181935|java.lang.String result_toUpperCaseN182131"
+ , "c3" : "QC-JAV000007[00129] For method apply list of called methods Object monObjet|java.lang.String distinguishedName_replaceAllN181677|java.lang.String result_toLowerCaseN181983|java.lang.String result_toUpperCaseN182179"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -429,21 +429,21 @@ var maDataBlocs = {
  , "c1" : "00134"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.apply@POLYN181219 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.apply@POLYN181267 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.apply@POLYN181219 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.apply@POLYN181267 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.apply@POLYN181219 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.apply@POLYN181267 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -457,7 +457,7 @@ var maDataBlocs = {
  , "c1" : "00154"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#154"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00154] For method escapeLiteralBackReferences list of called methods Object monObjet|int Integer_parseIntN182923|java.lang.String sb_toStringN183875"
+ , "c3" : "QC-JAV000007[00154] For method escapeLiteralBackReferences list of called methods Object monObjet|int Integer_parseIntN182971|java.lang.String sb_toStringN183923"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -478,126 +478,126 @@ var maDataBlocs = {
  , "c1" : "00155"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.escapeLiteralBackReferences@POLYN182247 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.escapeLiteralBackReferences@POLYN182295 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00162"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.escapeLiteralBackReferences@POLYN182247 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.escapeLiteralBackReferences@POLYN182295 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00163"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.escapeLiteralBackReferences@POLYN182247 the MagicNumber/String  '0' should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.escapeLiteralBackReferences@POLYN182295 the MagicNumber/String  '0' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.escapeLiteralBackReferences@POLYN182247 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.escapeLiteralBackReferences@POLYN182295 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00174"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.escapeLiteralBackReferences@POLYN182247 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.escapeLiteralBackReferences@POLYN182295 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00178"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.escapeLiteralBackReferences@POLYN182247 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.escapeLiteralBackReferences@POLYN182295 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00179"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.escapeLiteralBackReferences@POLYN182247 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.escapeLiteralBackReferences@POLYN182295 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00181"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.escapeLiteralBackReferences@POLYN182247 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.escapeLiteralBackReferences@POLYN182295 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00181"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.escapeLiteralBackReferences@POLYN182247 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.escapeLiteralBackReferences@POLYN182295 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00182"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.escapeLiteralBackReferences@POLYN182247 the MagicNumber/String  '\\' should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.escapeLiteralBackReferences@POLYN182295 the MagicNumber/String  '\\' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00183"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#183"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.escapeLiteralBackReferences@POLYN182247 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.escapeLiteralBackReferences@POLYN182295 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00195"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#195"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.toString@POLYN183981 the MagicNumber/String  'DEFAULT' should be converted to const"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.toString@POLYN184029 the MagicNumber/String  'DEFAULT' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00197"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.toString@POLYN183981 the MagicNumber/String  'RULE:' should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.toString@POLYN184029 the MagicNumber/String  'RULE:' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00198"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.toString@POLYN183981 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.toString@POLYN184029 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00201"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.toString@POLYN183981 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.toString@POLYN184029 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00202"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#202"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.toString@POLYN183981 the MagicNumber/String  '/' should be converted to const"
+ , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.toString@POLYN184029 the MagicNumber/String  '/' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00206"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.toString@POLYN183981 the MagicNumber/String  '/L' should be converted to const"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.toString@POLYN184029 the MagicNumber/String  '/L' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00208"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.toString@POLYN183981 the MagicNumber/String  '/U' should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.common.security.ssl.SslPrincipalMapper.Rule.toString@POLYN184029 the MagicNumber/String  '/U' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

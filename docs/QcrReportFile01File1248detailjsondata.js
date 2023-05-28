@@ -162,21 +162,21 @@ var maDataBlocs = {
  , "c1" : "00030"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.message.CodeBuffer.CodeBuffer@POLYN156736 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.message.CodeBuffer.CodeBuffer@POLYN156784 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00039"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.message.CodeBuffer.decrementIndent@POLYN157014 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.message.CodeBuffer.decrementIndent@POLYN157062 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00040"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.message.CodeBuffer.decrementIndent@POLYN157014 the MagicNumber/String  'Indent &amp;lt; 0' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.message.CodeBuffer.decrementIndent@POLYN157062 the MagicNumber/String  'Indent &amp;lt; 0' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -218,14 +218,14 @@ var maDataBlocs = {
  , "c1" : "00062"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.message.CodeBuffer.indentSpaces@POLYN157990 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.message.CodeBuffer.indentSpaces@POLYN158038 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.message.CodeBuffer.indentSpaces@POLYN157990 the MagicNumber/String  '    ' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.message.CodeBuffer.indentSpaces@POLYN158038 the MagicNumber/String  '    ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -239,7 +239,7 @@ var maDataBlocs = {
  , "c1" : "00071"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/CodeBuffer.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.message.CodeBuffer.equals@POLYN158423 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.message.CodeBuffer.equals@POLYN158471 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

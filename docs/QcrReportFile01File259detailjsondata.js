@@ -153,70 +153,70 @@ var maDataBlocs = {
  , "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.Endpoint.equals@POLYN160785 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.Endpoint.equals@POLYN160833 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.Endpoint.equals@POLYN160785 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.Endpoint.equals@POLYN160833 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00097"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.Endpoint.toString@POLYN161772 the MagicNumber/String  'Endpoint(' should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.Endpoint.toString@POLYN161820 the MagicNumber/String  'Endpoint(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.Endpoint.toString@POLYN161772 the MagicNumber/String  'listenerName='' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.Endpoint.toString@POLYN161820 the MagicNumber/String  'listenerName='' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.Endpoint.toString@POLYN161772 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.Endpoint.toString@POLYN161820 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00099"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.Endpoint.toString@POLYN161772 the MagicNumber/String  ', securityProtocol=' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.Endpoint.toString@POLYN161820 the MagicNumber/String  ', securityProtocol=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.Endpoint.toString@POLYN161772 the MagicNumber/String  ', host='' should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.Endpoint.toString@POLYN161820 the MagicNumber/String  ', host='' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.Endpoint.toString@POLYN161772 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.Endpoint.toString@POLYN161820 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.common.Endpoint.toString@POLYN161772 the MagicNumber/String  ', port=' should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.common.Endpoint.toString@POLYN161820 the MagicNumber/String  ', port=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Endpoint.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.Endpoint.toString@POLYN161772 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.Endpoint.toString@POLYN161820 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 , 

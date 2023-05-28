@@ -286,14 +286,14 @@ var maDataBlocs = {
  , "c1" : "00256"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#256"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig.RemoteLogManagerConfig@POLYN206883 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig.RemoteLogManagerConfig@POLYN206931 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00260"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#260"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00260] In method org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig.RemoteLogManagerConfig@POLYN206883 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00260] In method org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig.RemoteLogManagerConfig@POLYN206931 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -307,14 +307,14 @@ var maDataBlocs = {
  , "c1" : "00379"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#379"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig.equals@POLYN211940 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig.equals@POLYN211988 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00380"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/storage/RemoteLogManagerConfig.java.html#380"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig.equals@POLYN211940 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.server.log.remote.storage.RemoteLogManagerConfig.equals@POLYN211988 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

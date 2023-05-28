@@ -274,7 +274,6 @@ var mavar =
 ' { "namespace":"org.apache.kafka.common.config" , "classe":"SslConfigs" , "nbMethodes":"1" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.common.config.internals" , "classe":"QuotaConfigs" , "nbMethodes":"5" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.common.config.provider" , "classe":"ConfigProvider" , "nbMethodes":"5" , "nbComplexite":"1.00"} ,' + 
-' { "namespace":"org.apache.kafka.common.config.provider" , "classe":"DirectoryConfigProvider" , "nbMethodes":"6" , "nbComplexite":"1.50"} ,' + 
 ' { "namespace":"org.apache.kafka.common.config.provider" , "classe":"FileConfigProvider" , "nbMethodes":"5" , "nbComplexite":"2.21"} ,' + 
 ' { "namespace":"org.apache.kafka.common.config.types" , "classe":"Password" , "nbMethodes":"5" , "nbComplexite":"1.21"} ,' + 
 ' { "namespace":"org.apache.kafka.common.errors" , "classe":"ApiException" , "nbMethodes":"5" , "nbComplexite":"1.00"} ,' + 
@@ -513,7 +512,6 @@ var mavar =
 ' { "namespace":"org.apache.kafka.common.record" , "classe":"ControlRecordUtils" , "nbMethodes":"6" , "nbComplexite":"1.50"} ,' + 
 ' { "namespace":"org.apache.kafka.common.record" , "classe":"ConvertedRecords" , "nbMethodes":"3" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.common.record" , "classe":"DefaultRecord" , "nbMethodes":"38" , "nbComplexite":"2.37"} ,' + 
-' { "namespace":"org.apache.kafka.common.record" , "classe":"DefaultRecordBatch" , "nbMethodes":"48" , "nbComplexite":"1.67"} ,' + 
 ' { "namespace":"org.apache.kafka.common.record" , "classe":"DefaultRecordsSend" , "nbMethodes":"3" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.common.record" , "classe":"EndTransactionMarker" , "nbMethodes":"10" , "nbComplexite":"1.61"} ,' + 
 ' { "namespace":"org.apache.kafka.common.record" , "classe":"FileLogInputStream" , "nbMethodes":"2" , "nbComplexite":"3.50"} ,' + 
@@ -522,7 +520,6 @@ var mavar =
 ' { "namespace":"org.apache.kafka.common.record" , "classe":"LazyDownConversionRecordsSend" , "nbMethodes":"5" , "nbComplexite":"1.61"} ,' + 
 ' { "namespace":"org.apache.kafka.common.record" , "classe":"LegacyRecord" , "nbMethodes":"43" , "nbComplexite":"2.07"} ,' + 
 ' { "namespace":"org.apache.kafka.common.record" , "classe":"LogInputStream" , "nbMethodes":"1" , "nbComplexite":"1.00"} ,' + 
-' { "namespace":"org.apache.kafka.common.record" , "classe":"MemoryRecords" , "nbMethodes":"52" , "nbComplexite":"1.64"} ,' + 
 ' { "namespace":"org.apache.kafka.common.record" , "classe":"MemoryRecordsBuilder" , "nbMethodes":"64" , "nbComplexite":"1.99"} ,' + 
 ' { "namespace":"org.apache.kafka.common.record" , "classe":"MultiRecordsSend" , "nbMethodes":"9" , "nbComplexite":"2.00"} ,' + 
 ' { "namespace":"org.apache.kafka.common.record" , "classe":"MutableRecordBatch" , "nbMethodes":"5" , "nbComplexite":"1.00"} ,' + 
@@ -792,7 +789,6 @@ var mavar =
 ' { "namespace":"org.apache.kafka.common.security.scram.internals" , "classe":"ScramSaslServer" , "nbMethodes":"12" , "nbComplexite":"2.42"} ,' + 
 ' { "namespace":"org.apache.kafka.common.security.scram.internals" , "classe":"ScramSaslServerProvider" , "nbMethodes":"2" , "nbComplexite":"1.50"} ,' + 
 ' { "namespace":"org.apache.kafka.common.security.scram.internals" , "classe":"ScramServerCallbackHandler" , "nbMethodes":"4" , "nbComplexite":"3.00"} ,' + 
-' { "namespace":"org.apache.kafka.common.security.ssl" , "classe":"DefaultSslEngineFactory" , "nbMethodes":"15" , "nbComplexite":"4.94"} ,' + 
 ' { "namespace":"org.apache.kafka.common.security.ssl" , "classe":"SslFactory" , "nbMethodes":"13" , "nbComplexite":"2.47"} ,' + 
 ' { "namespace":"org.apache.kafka.common.security.ssl" , "classe":"SslPrincipalMapper" , "nbMethodes":"6" , "nbComplexite":"2.67"} ,' + 
 ' { "namespace":"org.apache.kafka.common.security.token.delegation" , "classe":"DelegationToken" , "nbMethodes":"7" , "nbComplexite":"1.29"} ,' + 
@@ -951,7 +947,6 @@ var mavar =
 ' { "namespace":"org.apache.kafka.connect.mirror" , "classe":"DefaultReplicationPolicy" , "nbMethodes":"10" , "nbComplexite":"1.50"} ,' + 
 ' { "namespace":"org.apache.kafka.connect.mirror" , "classe":"Heartbeat" , "nbMethodes":"15" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.connect.mirror" , "classe":"IdentityReplicationPolicy" , "nbMethodes":"5" , "nbComplexite":"2.41"} ,' + 
-' { "namespace":"org.apache.kafka.connect.mirror" , "classe":"MirrorClient" , "nbMethodes":"19" , "nbComplexite":"1.53"} ,' + 
 ' { "namespace":"org.apache.kafka.connect.mirror" , "classe":"MirrorClientConfig" , "nbMethodes":"6" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.connect.mirror" , "classe":"RemoteClusterUtils" , "nbMethodes":"6" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.connect.mirror" , "classe":"ReplicationPolicy" , "nbMethodes":"11" , "nbComplexite":"1.19"} ,' + 
@@ -1064,7 +1059,6 @@ var mavar =
 ' { "namespace":"org.apache.kafka.connect.runtime.isolation" , "classe":"PluginClassLoader" , "nbMethodes":"5" , "nbComplexite":"1.80"} ,' + 
 ' { "namespace":"org.apache.kafka.connect.runtime.isolation" , "classe":"PluginDesc" , "nbMethodes":"11" , "nbComplexite":"1.19"} ,' + 
 ' { "namespace":"org.apache.kafka.connect.runtime.isolation" , "classe":"PluginScanResult" , "nbMethodes":"11" , "nbComplexite":"1.10"} ,' + 
-' { "namespace":"org.apache.kafka.connect.runtime.isolation" , "classe":"PluginUtils" , "nbMethodes":"9" , "nbComplexite":"3.12"} ,' + 
 ' { "namespace":"org.apache.kafka.connect.runtime.isolation" , "classe":"Plugins" , "nbMethodes":"22" , "nbComplexite":"1.82"} ,' + 
 ' { "namespace":"org.apache.kafka.connect.runtime.rest" , "classe":"ConnectRestConfigurable" , "nbMethodes":"13" , "nbComplexite":"1.77"} ,' + 
 ' { "namespace":"org.apache.kafka.connect.runtime.rest" , "classe":"ConnectRestExtensionContextImpl" , "nbMethodes":"3" , "nbComplexite":"1.00"} ,' + 
@@ -1166,7 +1160,6 @@ var mavar =
 ' { "namespace":"kafka.server.builders" , "classe":"KafkaApisBuilder" , "nbMethodes":"20" , "nbComplexite":"1.71"} ,' + 
 ' { "namespace":"kafka.server.builders" , "classe":"LogManagerBuilder" , "nbMethodes":"19" , "nbComplexite":"1.37"} ,' + 
 ' { "namespace":"kafka.server.builders" , "classe":"ReplicaManagerBuilder" , "nbMethodes":"18" , "nbComplexite":"1.34"} ,' + 
-' { "namespace":"kafka.tools" , "classe":"StreamsResetter" , "nbMethodes":"22" , "nbComplexite":"4.23"} ,' + 
 ' { "namespace":"kafka.examples" , "classe":"Consumer" , "nbMethodes":"5" , "nbComplexite":"1.61"} ,' + 
 ' { "namespace":"kafka.examples" , "classe":"ExactlyOnceMessageProcessor" , "nbMethodes":"7" , "nbComplexite":"2.15"} ,' + 
 ' { "namespace":"kafka.examples" , "classe":"KafkaConsumerProducerDemo" , "nbMethodes":"1" , "nbComplexite":"2.00"} ,' + 
@@ -1183,7 +1176,6 @@ var mavar =
 ' { "namespace":"org.apache.kafka.message" , "classe":"JsonConverterGenerator" , "nbMethodes":"11" , "nbComplexite":"6.46"} ,' + 
 ' { "namespace":"org.apache.kafka.message" , "classe":"MessageClassGenerator" , "nbMethodes":"2" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.message" , "classe":"MessageDataGenerator" , "nbMethodes":"51" , "nbComplexite":"6.28"} ,' + 
-' { "namespace":"org.apache.kafka.message" , "classe":"MessageGenerator" , "nbMethodes":"10" , "nbComplexite":"3.50"} ,' + 
 ' { "namespace":"org.apache.kafka.message" , "classe":"MessageSpec" , "nbMethodes":"13" , "nbComplexite":"1.47"} ,' + 
 ' { "namespace":"org.apache.kafka.message" , "classe":"MetadataJsonConvertersGenerator" , "nbMethodes":"6" , "nbComplexite":"1.67"} ,' + 
 ' { "namespace":"org.apache.kafka.message" , "classe":"MetadataRecordTypeGenerator" , "nbMethodes":"13" , "nbComplexite":"1.39"} ,' + 
@@ -1214,7 +1206,6 @@ var mavar =
 ' { "namespace":"org.apache.kafka.jmh.producer" , "classe":"ProducerResponseBenchmark" , "nbMethodes":"2" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.jmh.record" , "classe":"BaseRecordBatchBenchmark" , "nbMethodes":"4" , "nbComplexite":"3.00"} ,' + 
 ' { "namespace":"org.apache.kafka.jmh.record" , "classe":"CompressedRecordBatchValidationBenchmark" , "nbMethodes":"2" , "nbComplexite":"1.00"} ,' + 
-' { "namespace":"org.apache.kafka.jmh.record" , "classe":"RecordBatchIterationBenchmark" , "nbMethodes":"4" , "nbComplexite":"3.00"} ,' + 
 ' { "namespace":"org.apache.kafka.jmh.record" , "classe":"UncompressedRecordBatchValidationBenchmark" , "nbMethodes":"2" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.jmh.server" , "classe":"CheckpointBench" , "nbMethodes":"4" , "nbComplexite":"2.00"} ,' + 
 ' { "namespace":"org.apache.kafka.jmh.server" , "classe":"PartitionCreationBench" , "nbMethodes":"4" , "nbComplexite":"2.25"} ,' + 
@@ -1494,8 +1485,6 @@ var mavar =
 ' { "namespace":"org.apache.kafka.streams.examples.pipe" , "classe":"PipeDemo" , "nbMethodes":"1" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.streams.examples.temperature" , "classe":"TemperatureDemo" , "nbMethodes":"1" , "nbComplexite":"3.00"} ,' + 
 ' { "namespace":"org.apache.kafka.streams.examples.wordcount" , "classe":"WordCountDemo" , "nbMethodes":"3" , "nbComplexite":"1.67"} ,' + 
-' { "namespace":"org.apache.kafka.streams.examples.wordcount" , "classe":"WordCountProcessorDemo" , "nbMethodes":"1" , "nbComplexite":"3.00"} ,' + 
-' { "namespace":"org.apache.kafka.streams.examples.wordcount" , "classe":"WordCountTransformerDemo" , "nbMethodes":"1" , "nbComplexite":"3.00"} ,' + 
 ' { "namespace":"org.apache.kafka.streams" , "classe":"KafkaClientSupplier" , "nbMethodes":"5" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.streams" , "classe":"KafkaStreams" , "nbMethodes":"59" , "nbComplexite":"3.11"} ,' + 
 ' { "namespace":"org.apache.kafka.streams" , "classe":"KeyQueryMetadata" , "nbMethodes":"10" , "nbComplexite":"1.11"} ,' + 
@@ -1628,7 +1617,6 @@ var mavar =
 ' { "namespace":"org.apache.kafka.streams.kstream.internals" , "classe":"KStreamImpl" , "nbMethodes":"37" , "nbComplexite":"1.38"} ,' + 
 ' { "namespace":"org.apache.kafka.streams.kstream.internals" , "classe":"KStreamImplJoin" , "nbMethodes":"3" , "nbComplexite":"2.00"} ,' + 
 ' { "namespace":"org.apache.kafka.streams.kstream.internals" , "classe":"KStreamJoinWindow" , "nbMethodes":"2" , "nbComplexite":"1.00"} ,' + 
-' { "namespace":"org.apache.kafka.streams.kstream.internals" , "classe":"KStreamKStreamJoin" , "nbMethodes":"2" , "nbComplexite":"2.00"} ,' + 
 ' { "namespace":"org.apache.kafka.streams.kstream.internals" , "classe":"KStreamKTableJoin" , "nbMethodes":"2" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.streams.kstream.internals" , "classe":"KStreamKTableJoinProcessor" , "nbMethodes":"4" , "nbComplexite":"2.25"} ,' + 
 ' { "namespace":"org.apache.kafka.streams.kstream.internals" , "classe":"KStreamMap" , "nbMethodes":"2" , "nbComplexite":"1.00"} ,' + 
@@ -1636,8 +1624,6 @@ var mavar =
 ' { "namespace":"org.apache.kafka.streams.kstream.internals" , "classe":"KStreamPeek" , "nbMethodes":"2" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.streams.kstream.internals" , "classe":"KStreamPrint" , "nbMethodes":"2" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.streams.kstream.internals" , "classe":"KStreamReduce" , "nbMethodes":"4" , "nbComplexite":"1.00"} ,' + 
-' { "namespace":"org.apache.kafka.streams.kstream.internals" , "classe":"KStreamSessionWindowAggregate" , "nbMethodes":"6" , "nbComplexite":"1.00"} ,' + 
-' { "namespace":"org.apache.kafka.streams.kstream.internals" , "classe":"KStreamSlidingWindowAggregate" , "nbMethodes":"5" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.streams.kstream.internals" , "classe":"KStreamTransformValues" , "nbMethodes":"3" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.streams.kstream.internals" , "classe":"KStreamWindowAggregate" , "nbMethodes":"5" , "nbComplexite":"1.40"} ,' + 
 ' { "namespace":"org.apache.kafka.streams.kstream.internals" , "classe":"KTableAggregate" , "nbMethodes":"4" , "nbComplexite":"1.00"} ,' + 
@@ -1694,7 +1680,6 @@ var mavar =
 ' { "namespace":"org.apache.kafka.streams.kstream.internals.emitstrategy" , "classe":"WindowUpdateStrategy" , "nbMethodes":"1" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.streams.kstream.internals.foreignkeyjoin" , "classe":"CombinedKey" , "nbMethodes":"5" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.streams.kstream.internals.foreignkeyjoin" , "classe":"CombinedKeySchema" , "nbMethodes":"5" , "nbComplexite":"1.00"} ,' + 
-' { "namespace":"org.apache.kafka.streams.kstream.internals.foreignkeyjoin" , "classe":"ForeignJoinSubscriptionProcessorSupplier" , "nbMethodes":"2" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.streams.kstream.internals.foreignkeyjoin" , "classe":"ForeignJoinSubscriptionSendProcessorSupplier" , "nbMethodes":"2" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.streams.kstream.internals.foreignkeyjoin" , "classe":"SubscriptionJoinForeignProcessorSupplier" , "nbMethodes":"2" , "nbComplexite":"4.00"} ,' + 
 ' { "namespace":"org.apache.kafka.streams.kstream.internals.foreignkeyjoin" , "classe":"SubscriptionResolverJoinProcessorSupplier" , "nbMethodes":"2" , "nbComplexite":"3.50"} ,' + 
@@ -1854,7 +1839,6 @@ var mavar =
 ' { "namespace":"org.apache.kafka.streams.processor.internals" , "classe":"TopologyMetadata" , "nbMethodes":"59" , "nbComplexite":"1.65"} ,' + 
 ' { "namespace":"org.apache.kafka.streams.processor.internals" , "classe":"UnwindowedChangelogTopicConfig" , "nbMethodes":"5" , "nbComplexite":"1.40"} ,' + 
 ' { "namespace":"org.apache.kafka.streams.processor.internals" , "classe":"WindowedChangelogTopicConfig" , "nbMethodes":"6" , "nbComplexite":"1.67"} ,' + 
-' { "namespace":"org.apache.kafka.streams.processor.internals.assignment" , "classe":"AssignmentInfo" , "nbMethodes":"34" , "nbComplexite":"2.21"} ,' + 
 ' { "namespace":"org.apache.kafka.streams.processor.internals.assignment" , "classe":"AssignorConfiguration" , "nbMethodes":"11" , "nbComplexite":"5.28"} ,' + 
 ' { "namespace":"org.apache.kafka.streams.processor.internals.assignment" , "classe":"ClientState" , "nbMethodes":"59" , "nbComplexite":"1.60"} ,' + 
 ' { "namespace":"org.apache.kafka.streams.processor.internals.assignment" , "classe":"ClientStateTask" , "nbMethodes":"4" , "nbComplexite":"1.00"} ,' + 
@@ -2059,7 +2043,6 @@ var mavar =
 ' { "namespace":"org.apache.kafka.streams" , "classe":"TopologyTestDriver" , "nbMethodes":"30" , "nbComplexite":"2.50"} ,' + 
 ' { "namespace":"org.apache.kafka.streams.processor" , "classe":"MockProcessorContext" , "nbMethodes":"37" , "nbComplexite":"1.25"} ,' + 
 ' { "namespace":"org.apache.kafka.streams.processor.api" , "classe":"MockProcessorContext" , "nbMethodes":"27" , "nbComplexite":"1.15"} ,' + 
-' { "namespace":"org.apache.kafka.tools" , "classe":"ClientCompatibilityTest" , "nbMethodes":"13" , "nbComplexite":"3.47"} ,' + 
 ' { "namespace":"org.apache.kafka.tools" , "classe":"OAuthCompatibilityTool" , "nbMethodes":"1" , "nbComplexite":"2.00"} ,' + 
 ' { "namespace":"org.apache.kafka.tools" , "classe":"PrintVersionAndExitAction" , "nbMethodes":"3" , "nbComplexite":"1.00"} ,' + 
 ' { "namespace":"org.apache.kafka.tools" , "classe":"ProducerPerformance" , "nbMethodes":"7" , "nbComplexite":"4.72"} ,' + 
@@ -2074,7 +2057,6 @@ var mavar =
 ' { "namespace":"org.apache.kafka.trogdor.agent" , "classe":"Agent" , "nbMethodes":"12" , "nbComplexite":"1.50"} ,' + 
 ' { "namespace":"org.apache.kafka.trogdor.agent" , "classe":"AgentClient" , "nbMethodes":"14" , "nbComplexite":"1.79"} ,' + 
 ' { "namespace":"org.apache.kafka.trogdor.agent" , "classe":"AgentRestResource" , "nbMethodes":"8" , "nbComplexite":"1.13"} ,' + 
-' { "namespace":"org.apache.kafka.trogdor.agent" , "classe":"WorkerManager" , "nbMethodes":"6" , "nbComplexite":"2.50"} ,' + 
 ' { "namespace":"org.apache.kafka.trogdor.basic" , "classe":"BasicNode" , "nbMethodes":"8" , "nbComplexite":"2.13"} ,' + 
 ' { "namespace":"org.apache.kafka.trogdor.basic" , "classe":"BasicPlatform" , "nbMethodes":"7" , "nbComplexite":"1.43"} ,' + 
 ' { "namespace":"org.apache.kafka.trogdor.basic" , "classe":"BasicTopology" , "nbMethodes":"4" , "nbComplexite":"1.50"} ,' + 

@@ -162,35 +162,35 @@ var maDataBlocs = {
  , "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerGroupMetadata.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.clients.consumer.ConsumerGroupMetadata.ConsumerGroupMetadata@POLYN158821 the MagicNumber/String  'group.id can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.clients.consumer.ConsumerGroupMetadata.ConsumerGroupMetadata@POLYN158869 the MagicNumber/String  'group.id can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerGroupMetadata.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.clients.consumer.ConsumerGroupMetadata.ConsumerGroupMetadata@POLYN158821 the MagicNumber/String  'member.id can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.clients.consumer.ConsumerGroupMetadata.ConsumerGroupMetadata@POLYN158869 the MagicNumber/String  'member.id can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerGroupMetadata.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.clients.consumer.ConsumerGroupMetadata.ConsumerGroupMetadata@POLYN158821 the MagicNumber/String  'group.instance.id can't be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.clients.consumer.ConsumerGroupMetadata.ConsumerGroupMetadata@POLYN158869 the MagicNumber/String  'group.instance.id can't be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerGroupMetadata.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.clients.consumer.ConsumerGroupMetadata.toString@POLYN160031 the MagicNumber/String  'GroupMetadata(groupId = %s, generationId = %d, memberId = %s, groupInstanceId = %s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.clients.consumer.ConsumerGroupMetadata.toString@POLYN160079 the MagicNumber/String  'GroupMetadata(groupId = %s, generationId = %d, memberId = %s, groupInstanceId = %s)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerGroupMetadata.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.clients.consumer.ConsumerGroupMetadata.toString@POLYN160031 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.clients.consumer.ConsumerGroupMetadata.toString@POLYN160079 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -211,21 +211,21 @@ var maDataBlocs = {
  , "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerGroupMetadata.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.consumer.ConsumerGroupMetadata.equals@POLYN160301 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.consumer.ConsumerGroupMetadata.equals@POLYN160349 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerGroupMetadata.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.consumer.ConsumerGroupMetadata.equals@POLYN160301 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.consumer.ConsumerGroupMetadata.equals@POLYN160349 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerGroupMetadata.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.consumer.ConsumerGroupMetadata.equals@POLYN160301 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.consumer.ConsumerGroupMetadata.equals@POLYN160349 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 
