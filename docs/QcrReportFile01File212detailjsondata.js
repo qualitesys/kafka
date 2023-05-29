@@ -158,133 +158,133 @@ var maDataBlocs = {
  , "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164623 the MagicNumber/String  '-metrics' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164751 the MagicNumber/String  '-metrics' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164623 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164751 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164623 the MagicNumber/String  1d should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164751 the MagicNumber/String  1d should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164623 the MagicNumber/String  'last-poll-seconds-ago' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164751 the MagicNumber/String  'last-poll-seconds-ago' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164623 the MagicNumber/String  'The number of seconds since the last poll() invocation.' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164751 the MagicNumber/String  'The number of seconds since the last poll() invocation.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164623 the MagicNumber/String  'time-between-poll' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164751 the MagicNumber/String  'time-between-poll' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164623 the MagicNumber/String  'time-between-poll-avg' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164751 the MagicNumber/String  'time-between-poll-avg' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164623 the MagicNumber/String  'The average delay between invocations of poll() in milliseconds.' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164751 the MagicNumber/String  'The average delay between invocations of poll() in milliseconds.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164623 the MagicNumber/String  'time-between-poll-max' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164751 the MagicNumber/String  'time-between-poll-max' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164623 the MagicNumber/String  'The max delay between invocations of poll() in milliseconds.' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164751 the MagicNumber/String  'The max delay between invocations of poll() in milliseconds.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164623 the MagicNumber/String  'poll-idle-ratio-avg' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164751 the MagicNumber/String  'poll-idle-ratio-avg' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164623 the MagicNumber/String  'poll-idle-ratio-avg' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164751 the MagicNumber/String  'poll-idle-ratio-avg' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164623 the MagicNumber/String  'The average fraction of time the consumer's poll() is idle as opposed to waiting for the user code to process records.' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164751 the MagicNumber/String  'The average fraction of time the consumer's poll() is idle as opposed to waiting for the user code to process records.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164623 the MagicNumber/String  'commit-sync-time-ns-total' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164751 the MagicNumber/String  'commit-sync-time-ns-total' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164623 the MagicNumber/String  'commit-sync-time-ns-total' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164751 the MagicNumber/String  'commit-sync-time-ns-total' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164623 the MagicNumber/String  'The total time the consumer has spent in commitSync in nanoseconds' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164751 the MagicNumber/String  'The total time the consumer has spent in commitSync in nanoseconds' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164623 the MagicNumber/String  'committed-time-ns-total' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164751 the MagicNumber/String  'committed-time-ns-total' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164623 the MagicNumber/String  'committed-time-ns-total' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164751 the MagicNumber/String  'committed-time-ns-total' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164623 the MagicNumber/String  'The total time the consumer has spent in committed in nanoseconds' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.KafkaConsumerMetrics@POLYN164751 the MagicNumber/String  'The total time the consumer has spent in committed in nanoseconds' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -298,14 +298,14 @@ var maDataBlocs = {
  , "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.recordPollStart@POLYN166890 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.recordPollStart@POLYN167018 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.recordPollStart@POLYN166890 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.recordPollStart@POLYN167018 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -319,7 +319,7 @@ var maDataBlocs = {
  , "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.recordPollEnd@POLYN167318 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.recordPollEnd@POLYN167446 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -340,7 +340,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/KafkaConsumerMetrics.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.close@POLYN167990"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics.close@POLYN168118"
 }} 
 ]
 , 

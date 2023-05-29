@@ -633,7 +633,7 @@ var maDataBlocs = {
  , "c2" : "1"
  , "c3" : "8"
  , "c4" : "2"
- , "c5" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN881896.return" , "java.io.ObjectInputStream.readUnsignedByte@POLYN816117.return"]
+ , "c5" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882024.return" , "java.io.ObjectInputStream.readUnsignedByte@POLYN816245.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -663,7 +663,7 @@ var maDataBlocs = {
  , "c2" : "3"
  , "c3" : "3"
  , "c4" : "2"
- , "c5" : ["java.io.ObjectInputStream.GetFieldImpl.GetFieldImpl@POLYN869826.return" , "java.io.ObjectInputStream.readFields@POLYN801685.return"]
+ , "c5" : ["java.io.ObjectInputStream.GetFieldImpl.GetFieldImpl@POLYN869954.return" , "java.io.ObjectInputStream.readFields@POLYN801813.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -678,7 +678,7 @@ var maDataBlocs = {
  , "c2" : "4"
  , "c3" : "3"
  , "c4" : "2"
- , "c5" : ["java.io.ObjectInputStream.readFields@POLYN801685.curDesc" , "java.io.ObjectInputStream.readFields@POLYN801685.return"]
+ , "c5" : ["java.io.ObjectInputStream.readFields@POLYN801813.curDesc" , "java.io.ObjectInputStream.readFields@POLYN801813.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -693,7 +693,7 @@ var maDataBlocs = {
  , "c2" : "5"
  , "c3" : "3"
  , "c4" : "3"
- , "c5" : ["java.io.ObjectInputStream.readClassDescriptor@POLYN812923.desc" , "java.io.ObjectInputStream.readNonProxyDesc@POLYN846321.cibledummy_01843"]
+ , "c5" : ["java.io.ObjectInputStream.readClassDescriptor@POLYN813051.desc" , "java.io.ObjectInputStream.readNonProxyDesc@POLYN846449.cibledummy_01843"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -708,7 +708,7 @@ var maDataBlocs = {
  , "c2" : "6"
  , "c3" : "3"
  , "c4" : "3"
- , "c5" : ["java.io.ObjectInputStream.readClassDesc@POLYN842012.descriptor" , "java.io.ObjectInputStream.readOrdinaryObject@POLYN856197.cibledummy_02025"]
+ , "c5" : ["java.io.ObjectInputStream.readClassDesc@POLYN842140.descriptor" , "java.io.ObjectInputStream.readOrdinaryObject@POLYN856325.cibledummy_02025"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -723,7 +723,7 @@ var maDataBlocs = {
  , "c2" : "7"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.io.ObjectInputStream.readString@POLYN848604.return" , "java.io.ObjectInputStream.readString@POLYN848604.return"]
+ , "c5" : ["java.io.ObjectInputStream.readString@POLYN848732.return" , "java.io.ObjectInputStream.readString@POLYN848732.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -738,7 +738,7 @@ var maDataBlocs = {
  , "c2" : "8"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["null" , "java.io.ObjectInputStream.readEnum@POLYN853933.return"]
+ , "c5" : ["null" , "java.io.ObjectInputStream.readEnum@POLYN854061.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -753,7 +753,7 @@ var maDataBlocs = {
  , "c2" : "9"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.io.ObjectInputStream.readEnum@POLYN853933.en" , "java.io.ObjectInputStream.readEnum@POLYN853933.return"]
+ , "c5" : ["java.io.ObjectInputStream.readEnum@POLYN854061.en" , "java.io.ObjectInputStream.readEnum@POLYN854061.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -768,7 +768,7 @@ var maDataBlocs = {
  , "c2" : "10"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.io.ObjectInputStream.readObjectOverride@POLYN797559.return" , "java.io.ObjectInputStream.readObjectOverride@POLYN797559.return"]
+ , "c5" : ["java.io.ObjectInputStream.readObjectOverride@POLYN797687.return" , "java.io.ObjectInputStream.readObjectOverride@POLYN797687.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -783,7 +783,7 @@ var maDataBlocs = {
  , "c2" : "11"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.io.ObjectInputStream.readObject0@POLYN833720.return" , "java.io.ObjectInputStream.readObject@POLYN796136.return"]
+ , "c5" : ["java.io.ObjectInputStream.readObject0@POLYN833848.return" , "java.io.ObjectInputStream.readObject@POLYN796264.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -798,7 +798,7 @@ var maDataBlocs = {
  , "c2" : "12"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.io.ObjectInputStream.readProxyDesc@POLYN843479.'null class'" , "java.io.ObjectInputStream.readProxyDesc@POLYN843479.cibledummy_01786"]
+ , "c5" : ["java.io.ObjectInputStream.readProxyDesc@POLYN843607.'null class'" , "java.io.ObjectInputStream.readProxyDesc@POLYN843607.cibledummy_01786"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -813,7 +813,7 @@ var maDataBlocs = {
  , "c2" : "13"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.io.ObjectInputStream.readProxyDesc@POLYN843479.ex" , "java.io.ObjectInputStream.readProxyDesc@POLYN843479.cibledummy_01786"]
+ , "c5" : ["java.io.ObjectInputStream.readProxyDesc@POLYN843607.ex" , "java.io.ObjectInputStream.readProxyDesc@POLYN843607.cibledummy_01786"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -828,7 +828,7 @@ var maDataBlocs = {
  , "c2" : "14"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.io.ObjectInputStream.readOrdinaryObject@POLYN856197.obj" , "java.io.ObjectInputStream.readSerialData@POLYN861352.cibledummy_02136"]
+ , "c5" : ["java.io.ObjectInputStream.readOrdinaryObject@POLYN856325.obj" , "java.io.ObjectInputStream.readSerialData@POLYN861480.cibledummy_02136"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -843,7 +843,7 @@ var maDataBlocs = {
  , "c2" : "15"
  , "c3" : "8"
  , "c4" : "1"
- , "c5" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN881896.return" , "java.io.ObjectInputStream.readUnsignedByte@POLYN816117.return"]
+ , "c5" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882024.return" , "java.io.ObjectInputStream.readUnsignedByte@POLYN816245.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -858,7 +858,7 @@ var maDataBlocs = {
  , "c2" : "16"
  , "c3" : "7"
  , "c4" : "1"
- , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN895363.b" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.return"]
+ , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN895491.b" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -873,7 +873,7 @@ var maDataBlocs = {
  , "c2" : "17"
  , "c3" : "7"
  , "c4" : "2"
- , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.nread" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.b"]
+ , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.nread" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.b"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -888,7 +888,7 @@ var maDataBlocs = {
  , "c2" : "18"
  , "c3" : "7"
  , "c4" : "1"
- , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN895363.len" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.return"]
+ , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN895491.len" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -903,7 +903,7 @@ var maDataBlocs = {
  , "c2" : "19"
  , "c3" : "7"
  , "c4" : "2"
- , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.nread" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.len"]
+ , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.nread" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.len"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -918,7 +918,7 @@ var maDataBlocs = {
  , "c2" : "20"
  , "c3" : "7"
  , "c4" : "1"
- , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN895363.off" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.return"]
+ , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN895491.off" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -933,7 +933,7 @@ var maDataBlocs = {
  , "c2" : "21"
  , "c3" : "7"
  , "c4" : "2"
- , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.nread" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.off"]
+ , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.nread" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.off"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -948,7 +948,7 @@ var maDataBlocs = {
  , "c2" : "22"
  , "c3" : "4"
  , "c4" : "1"
- , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918703.return" , "java.io.ObjectInputStream.readUTF@POLYN820369.return"]
+ , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918831.return" , "java.io.ObjectInputStream.readUTF@POLYN820497.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -963,7 +963,7 @@ var maDataBlocs = {
  , "c2" : "23"
  , "c3" : "2"
  , "c4" : "1"
- , "c5" : ["java.io.ObjectInputStream.readBoolean@POLYN815574.return" , "java.io.ObjectInputStream.readBoolean@POLYN815574.return"]
+ , "c5" : ["java.io.ObjectInputStream.readBoolean@POLYN815702.return" , "java.io.ObjectInputStream.readBoolean@POLYN815702.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -978,7 +978,7 @@ var maDataBlocs = {
  , "c2" : "24"
  , "c3" : "2"
  , "c4" : "1"
- , "c5" : ["java.io.BufferedReader.readLine@POLYN250983.return" , "java.io.ObjectInputStream.readLine@POLYN819982.return"]
+ , "c5" : ["java.io.BufferedReader.readLine@POLYN251111.return" , "java.io.ObjectInputStream.readLine@POLYN820110.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -994,7 +994,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[02938]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN881896.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN881896" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN894842.return"]
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882024.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882024" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN894970.return"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1002,15 +1002,15 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[03091]"
- , "c3" : ["java.io.ObjectInputStream.read@POLYN813352.return" , "---java.io.ObjectInputStream.read@POLYN813352" , "java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902511.v"]
- , "c4" : "//QC-JAVCWZ099[03091] In java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902511[03091] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.read@POLYN813480.return" , "---java.io.ObjectInputStream.read@POLYN813480" , "java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902639.v"]
+ , "c4" : "//QC-JAVCWZ099[03091] In java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902639[03091] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "3"
  , "sourcenoligne" : "[03095]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902511.v" , "---java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902511.dummymethode_03095" , "java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902511.return"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902639.v" , "---java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902639.dummymethode_03095" , "java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902639.return"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1018,15 +1018,15 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "4"
  , "sourcenoligne" : "[02598]"
- , "c3" : ["java.io.InputStream.read@POLYN255102.return" , "---java.io.InputStream.read@POLYN255102" , "java.io.ObjectInputStream.PeekInputStream.peekb"]
- , "c4" : "//QC-JAVCWZ099[02598] In java.io.ObjectInputStream.PeekInputStream.peek@POLYN881489[02598] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c3" : ["java.io.InputStream.read@POLYN255230.return" , "---java.io.InputStream.read@POLYN255230" , "java.io.ObjectInputStream.PeekInputStream.peekb"]
+ , "c4" : "//QC-JAVCWZ099[02598] In java.io.ObjectInputStream.PeekInputStream.peek@POLYN881617[02598] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "5"
  , "sourcenoligne" : "[02605]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.peekb" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN881896.dummymethode_02605" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN881896.v"]
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.peekb" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882024.dummymethode_02605" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882024.v"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1034,7 +1034,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "6"
  , "sourcenoligne" : "[02607]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN881896.v" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN881896.dummymethode_02607" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN881896.return"]
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882024.v" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882024.dummymethode_02607" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882024.return"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1042,7 +1042,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "7"
  , "sourcenoligne" : "[00893]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN894842.return" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN894842" , "java.io.ObjectInputStream.read@POLYN813352.return"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN894970.return" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN894970" , "java.io.ObjectInputStream.read@POLYN813480.return"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1050,7 +1050,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "8"
  , "sourcenoligne" : "[00979]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902511.return" , "---java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902511" , "java.io.ObjectInputStream.readUnsignedByte@POLYN816117.return"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902639.return" , "---java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902639" , "java.io.ObjectInputStream.readUnsignedByte@POLYN816245.return"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1090,7 +1090,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00545]"
- , "c3" : ["java.io.ObjectInputStream.curContext" , "---java.io.ObjectInputStream.defaultReadObject@POLYN800234.dummymethode_00545" , "java.io.ObjectInputStream.defaultReadObject@POLYN800234.ctx"]
+ , "c3" : ["java.io.ObjectInputStream.curContext" , "---java.io.ObjectInputStream.defaultReadObject@POLYN800362.dummymethode_00545" , "java.io.ObjectInputStream.defaultReadObject@POLYN800362.ctx"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1098,24 +1098,24 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[02065]"
- , "c3" : ["java.io.ObjectInputStream.curContext" , "---java.io.ObjectInputStream.readExternalData@POLYN859421.dummymethode_02065" , "java.io.ObjectInputStream.readExternalData@POLYN859421.oldContext"]
- , "c4" : "//QC-JAVCWZ099[02065] In java.io.ObjectInputStream.readExternalData@POLYN859421[02065] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.curContext" , "---java.io.ObjectInputStream.readExternalData@POLYN859549.dummymethode_02065" , "java.io.ObjectInputStream.readExternalData@POLYN859549.oldContext"]
+ , "c4" : "//QC-JAVCWZ099[02065] In java.io.ObjectInputStream.readExternalData@POLYN859549[02065] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "3"
  , "sourcenoligne" : "[02094]"
- , "c3" : ["java.io.ObjectInputStream.readExternalData@POLYN859421.oldContext" , "---java.io.ObjectInputStream.readExternalData@POLYN859421.dummymethode_02094" , "java.io.ObjectInputStream.curContext"]
- , "c4" : "//QC-JAVCWZ099[02094] In java.io.ObjectInputStream.readExternalData@POLYN859421[02094] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readExternalData@POLYN859549.oldContext" , "---java.io.ObjectInputStream.readExternalData@POLYN859549.dummymethode_02094" , "java.io.ObjectInputStream.curContext"]
+ , "c4" : "//QC-JAVCWZ099[02094] In java.io.ObjectInputStream.readExternalData@POLYN859549[02094] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "4"
  , "sourcenoligne" : "[02133]"
- , "c3" : ["java.io.ObjectInputStream.readSerialData@POLYN861352.slotDesc" , "---java.io.ObjectInputStream.readSerialData@POLYN861352.dummymethode_02133" , "java.io.ObjectInputStream.curContext"]
- , "c4" : "//QC-JAVCWZ099[02133] In java.io.ObjectInputStream.readSerialData@POLYN861352[02133] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readSerialData@POLYN861480.slotDesc" , "---java.io.ObjectInputStream.readSerialData@POLYN861480.dummymethode_02133" , "java.io.ObjectInputStream.curContext"]
+ , "c4" : "//QC-JAVCWZ099[02133] In java.io.ObjectInputStream.readSerialData@POLYN861480[02133] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -1154,7 +1154,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00591]"
- , "c3" : ["java.io.ObjectInputStream.GetFieldImpl.GetFieldImpl@POLYN869826.return" , "---java.io.ObjectInputStream.GetFieldImpl.GetFieldImpl@POLYN869826" , "java.io.ObjectInputStream.readFields@POLYN801685.getField"]
+ , "c3" : ["java.io.ObjectInputStream.GetFieldImpl.GetFieldImpl@POLYN869954.return" , "---java.io.ObjectInputStream.GetFieldImpl.GetFieldImpl@POLYN869954" , "java.io.ObjectInputStream.readFields@POLYN801813.getField"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1162,16 +1162,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00592]"
- , "c3" : ["java.io.ObjectInputStream.readFields@POLYN801685.return" , "---java.io.ObjectInputStream.readFields@POLYN801685" , "java.io.ObjectInputStream.readFields@POLYN801685.cibledummy_00592"]
- , "c4" : "//QC-JAVCWZ099[00592] In java.io.ObjectInputStream.readFields@POLYN801685[00592] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readFields@POLYN801813.return" , "---java.io.ObjectInputStream.readFields@POLYN801813" , "java.io.ObjectInputStream.readFields@POLYN801813.cibledummy_00592"]
+ , "c4" : "//QC-JAVCWZ099[00592] In java.io.ObjectInputStream.readFields@POLYN801813[00592] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "3"
  , "sourcenoligne" : "[00603]"
- , "c3" : ["java.io.ObjectInputStream.readFields@POLYN801685.getField" , "---java.io.ObjectInputStream.readFields@POLYN801685.dummymethode_00603" , "java.io.ObjectInputStream.readFields@POLYN801685.return"]
- , "c4" : "//QC-JAVCWZ099[00603] In java.io.ObjectInputStream.readFields@POLYN801685[00603] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readFields@POLYN801813.getField" , "---java.io.ObjectInputStream.readFields@POLYN801813.dummymethode_00603" , "java.io.ObjectInputStream.readFields@POLYN801813.return"]
+ , "c4" : "//QC-JAVCWZ099[00603] In java.io.ObjectInputStream.readFields@POLYN801813[00603] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -1210,7 +1210,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00591]"
- , "c3" : ["java.io.ObjectInputStream.readFields@POLYN801685.curDesc" , "---java.io.ObjectInputStream.GetFieldImpl.GetFieldImpl@POLYN869826" , "java.io.ObjectInputStream.readFields@POLYN801685.getField"]
+ , "c3" : ["java.io.ObjectInputStream.readFields@POLYN801813.curDesc" , "---java.io.ObjectInputStream.GetFieldImpl.GetFieldImpl@POLYN869954" , "java.io.ObjectInputStream.readFields@POLYN801813.getField"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1218,16 +1218,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00592]"
- , "c3" : ["java.io.ObjectInputStream.readFields@POLYN801685.return" , "---java.io.ObjectInputStream.readFields@POLYN801685" , "java.io.ObjectInputStream.readFields@POLYN801685.cibledummy_00592"]
- , "c4" : "//QC-JAVCWZ099[00592] In java.io.ObjectInputStream.readFields@POLYN801685[00592] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readFields@POLYN801813.return" , "---java.io.ObjectInputStream.readFields@POLYN801813" , "java.io.ObjectInputStream.readFields@POLYN801813.cibledummy_00592"]
+ , "c4" : "//QC-JAVCWZ099[00592] In java.io.ObjectInputStream.readFields@POLYN801813[00592] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "3"
  , "sourcenoligne" : "[00603]"
- , "c3" : ["java.io.ObjectInputStream.readFields@POLYN801685.getField" , "---java.io.ObjectInputStream.readFields@POLYN801685.dummymethode_00603" , "java.io.ObjectInputStream.readFields@POLYN801685.return"]
- , "c4" : "//QC-JAVCWZ099[00603] In java.io.ObjectInputStream.readFields@POLYN801685[00603] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readFields@POLYN801813.getField" , "---java.io.ObjectInputStream.readFields@POLYN801813.dummymethode_00603" , "java.io.ObjectInputStream.readFields@POLYN801813.return"]
+ , "c4" : "//QC-JAVCWZ099[00603] In java.io.ObjectInputStream.readFields@POLYN801813[00603] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -1266,24 +1266,24 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00883]"
- , "c3" : ["java.io.ObjectInputStream.readClassDescriptor@POLYN812923.desc" , "---java.io.ObjectInputStream.readClassDescriptor@POLYN812923.dummymethode_00883" , "java.io.ObjectInputStream.readClassDescriptor@POLYN812923.return"]
- , "c4" : "//QC-JAVCWZ099[00883] In java.io.ObjectInputStream.readClassDescriptor@POLYN812923[00883] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readClassDescriptor@POLYN813051.desc" , "---java.io.ObjectInputStream.readClassDescriptor@POLYN813051.dummymethode_00883" , "java.io.ObjectInputStream.readClassDescriptor@POLYN813051.return"]
+ , "c4" : "//QC-JAVCWZ099[00883] In java.io.ObjectInputStream.readClassDescriptor@POLYN813051[00883] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[01815]"
- , "c3" : ["java.io.ObjectInputStream.readClassDescriptor@POLYN812923.return" , "---java.io.ObjectInputStream.readClassDescriptor@POLYN812923" , "java.io.ObjectInputStream.readNonProxyDesc@POLYN846321.readDesc"]
- , "c4" : "//QC-JAVCWZ099[01815] In java.io.ObjectInputStream.readNonProxyDesc@POLYN846321[01815] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readClassDescriptor@POLYN813051.return" , "---java.io.ObjectInputStream.readClassDescriptor@POLYN813051" , "java.io.ObjectInputStream.readNonProxyDesc@POLYN846449.readDesc"]
+ , "c4" : "//QC-JAVCWZ099[01815] In java.io.ObjectInputStream.readNonProxyDesc@POLYN846449[01815] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "3"
  , "sourcenoligne" : "[01843]"
- , "c3" : ["java.io.ObjectInputStream.readNonProxyDesc@POLYN846321.readDesc" , "---java.io.ObjectInputStream.readNonProxyDesc@POLYN846321.dummymethode_01843" , "java.io.ObjectInputStream.readNonProxyDesc@POLYN846321.cibledummy_01843"]
- , "c4" : "//QC-JAVCWZ099[01843] In java.io.ObjectInputStream.readNonProxyDesc@POLYN846321[01843] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readNonProxyDesc@POLYN846449.readDesc" , "---java.io.ObjectInputStream.readNonProxyDesc@POLYN846449.dummymethode_01843" , "java.io.ObjectInputStream.readNonProxyDesc@POLYN846449.cibledummy_01843"]
+ , "c4" : "//QC-JAVCWZ099[01843] In java.io.ObjectInputStream.readNonProxyDesc@POLYN846449[01843] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -1322,24 +1322,24 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[01722]"
- , "c3" : ["java.io.ObjectInputStream.readClassDesc@POLYN842012.descriptor" , "---java.io.ObjectInputStream.readClassDesc@POLYN842012.dummymethode_01722" , "java.io.ObjectInputStream.readClassDesc@POLYN842012.return"]
- , "c4" : "//QC-JAVCWZ099[01722] In java.io.ObjectInputStream.readClassDesc@POLYN842012[01722] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readClassDesc@POLYN842140.descriptor" , "---java.io.ObjectInputStream.readClassDesc@POLYN842140.dummymethode_01722" , "java.io.ObjectInputStream.readClassDesc@POLYN842140.return"]
+ , "c4" : "//QC-JAVCWZ099[01722] In java.io.ObjectInputStream.readClassDesc@POLYN842140[01722] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[02000]"
- , "c3" : ["java.io.ObjectInputStream.readClassDesc@POLYN842012.return" , "---java.io.ObjectInputStream.readClassDesc@POLYN842012" , "java.io.ObjectInputStream.readOrdinaryObject@POLYN856197.desc"]
- , "c4" : "//QC-JAVCWZ099[02000] In java.io.ObjectInputStream.readOrdinaryObject@POLYN856197[02000] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readClassDesc@POLYN842140.return" , "---java.io.ObjectInputStream.readClassDesc@POLYN842140" , "java.io.ObjectInputStream.readOrdinaryObject@POLYN856325.desc"]
+ , "c4" : "//QC-JAVCWZ099[02000] In java.io.ObjectInputStream.readOrdinaryObject@POLYN856325[02000] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "3"
  , "sourcenoligne" : "[02025]"
- , "c3" : ["java.io.ObjectInputStream.readOrdinaryObject@POLYN856197.desc" , "---java.io.ObjectInputStream.readExternalData@POLYN859421" , "java.io.ObjectInputStream.readOrdinaryObject@POLYN856197.cibledummy_02025"]
- , "c4" : "//QC-JAVCWZ099[02025] In java.io.ObjectInputStream.readOrdinaryObject@POLYN856197[02025] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readOrdinaryObject@POLYN856325.desc" , "---java.io.ObjectInputStream.readExternalData@POLYN859549" , "java.io.ObjectInputStream.readOrdinaryObject@POLYN856325.cibledummy_02025"]
+ , "c4" : "//QC-JAVCWZ099[02025] In java.io.ObjectInputStream.readOrdinaryObject@POLYN856325[02025] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -1378,16 +1378,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[01963]"
- , "c3" : ["java.io.ObjectInputStream.readString@POLYN848604.return" , "---java.io.ObjectInputStream.readString@POLYN848604" , "java.io.ObjectInputStream.readEnum@POLYN853933.name"]
- , "c4" : "//QC-JAVCWZ099[01963] In java.io.ObjectInputStream.readEnum@POLYN853933[01963] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readString@POLYN848732.return" , "---java.io.ObjectInputStream.readString@POLYN848732" , "java.io.ObjectInputStream.readEnum@POLYN854061.name"]
+ , "c4" : "//QC-JAVCWZ099[01963] In java.io.ObjectInputStream.readEnum@POLYN854061[01963] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[01876]"
- , "c3" : ["java.io.ObjectInputStream.readString@POLYN848604.str" , "---java.io.ObjectInputStream.readString@POLYN848604.dummymethode_01876" , "java.io.ObjectInputStream.readString@POLYN848604.return"]
- , "c4" : "//QC-JAVCWZ099[01876] In java.io.ObjectInputStream.readString@POLYN848604[01876] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readString@POLYN848732.str" , "---java.io.ObjectInputStream.readString@POLYN848732.dummymethode_01876" , "java.io.ObjectInputStream.readString@POLYN848732.return"]
+ , "c4" : "//QC-JAVCWZ099[01876] In java.io.ObjectInputStream.readString@POLYN848732[01876] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -1426,16 +1426,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[01964]"
- , "c3" : ["null" , "---java.io.ObjectInputStream.readEnum@POLYN853933.dummymethode_01964" , "java.io.ObjectInputStream.readEnum@POLYN853933.result"]
- , "c4" : "//QC-JAVCWE099[01964] In java.io.ObjectInputStream.readEnum@POLYN853933[01964] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["null" , "---java.io.ObjectInputStream.readEnum@POLYN854061.dummymethode_01964" , "java.io.ObjectInputStream.readEnum@POLYN854061.result"]
+ , "c4" : "//QC-JAVCWE099[01964] In java.io.ObjectInputStream.readEnum@POLYN854061[01964] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[01983]"
- , "c3" : ["java.io.ObjectInputStream.readEnum@POLYN853933.result" , "---java.io.ObjectInputStream.readEnum@POLYN853933.dummymethode_01983" , "java.io.ObjectInputStream.readEnum@POLYN853933.return"]
- , "c4" : "//QC-JAVCWE099[01983] In java.io.ObjectInputStream.readEnum@POLYN853933[01983] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readEnum@POLYN854061.result" , "---java.io.ObjectInputStream.readEnum@POLYN854061.dummymethode_01983" , "java.io.ObjectInputStream.readEnum@POLYN854061.return"]
+ , "c4" : "//QC-JAVCWE099[01983] In java.io.ObjectInputStream.readEnum@POLYN854061[01983] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -1474,16 +1474,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[01970]"
- , "c3" : ["java.io.ObjectInputStream.readEnum@POLYN853933.en" , "---java.io.ObjectInputStream.readEnum@POLYN853933.dummymethode_01970" , "java.io.ObjectInputStream.readEnum@POLYN853933.result"]
- , "c4" : "//QC-JAVCWZ099[01970] In java.io.ObjectInputStream.readEnum@POLYN853933[01970] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readEnum@POLYN854061.en" , "---java.io.ObjectInputStream.readEnum@POLYN854061.dummymethode_01970" , "java.io.ObjectInputStream.readEnum@POLYN854061.result"]
+ , "c4" : "//QC-JAVCWZ099[01970] In java.io.ObjectInputStream.readEnum@POLYN854061[01970] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[01983]"
- , "c3" : ["java.io.ObjectInputStream.readEnum@POLYN853933.result" , "---java.io.ObjectInputStream.readEnum@POLYN853933.dummymethode_01983" , "java.io.ObjectInputStream.readEnum@POLYN853933.return"]
- , "c4" : "//QC-JAVCWZ099[01983] In java.io.ObjectInputStream.readEnum@POLYN853933[01983] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readEnum@POLYN854061.result" , "---java.io.ObjectInputStream.readEnum@POLYN854061.dummymethode_01983" , "java.io.ObjectInputStream.readEnum@POLYN854061.return"]
+ , "c4" : "//QC-JAVCWZ099[01983] In java.io.ObjectInputStream.readEnum@POLYN854061[01983] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -1522,16 +1522,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00416]"
- , "c3" : ["java.io.ObjectInputStream.readObjectOverride@POLYN797559.return" , "---java.io.ObjectInputStream.readObjectOverride@POLYN797559" , "java.io.ObjectInputStream.readObject@POLYN796136.return"]
- , "c4" : "//QC-JAVCWZ099[00416] In java.io.ObjectInputStream.readObject@POLYN796136[00416] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readObjectOverride@POLYN797687.return" , "---java.io.ObjectInputStream.readObjectOverride@POLYN797687" , "java.io.ObjectInputStream.readObject@POLYN796264.return"]
+ , "c4" : "//QC-JAVCWZ099[00416] In java.io.ObjectInputStream.readObject@POLYN796264[00416] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00460]"
- , "c3" : ["java.io.ObjectInputStream.readObjectOverride@POLYN797559.null" , "---java.io.ObjectInputStream.readObjectOverride@POLYN797559.dummymethode_00460" , "java.io.ObjectInputStream.readObjectOverride@POLYN797559.return"]
- , "c4" : "//QC-JAVCWZ099[00460] In java.io.ObjectInputStream.readObjectOverride@POLYN797559[00460] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readObjectOverride@POLYN797687.null" , "---java.io.ObjectInputStream.readObjectOverride@POLYN797687.dummymethode_00460" , "java.io.ObjectInputStream.readObjectOverride@POLYN797687.return"]
+ , "c4" : "//QC-JAVCWZ099[00460] In java.io.ObjectInputStream.readObjectOverride@POLYN797687[00460] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -1570,16 +1570,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00422]"
- , "c3" : ["java.io.ObjectInputStream.readObject0@POLYN833720.return" , "---java.io.ObjectInputStream.readObject0@POLYN833720" , "java.io.ObjectInputStream.readObject@POLYN796136.obj"]
- , "c4" : "//QC-JAVCWZ099[00422] In java.io.ObjectInputStream.readObject@POLYN796136[00422] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readObject0@POLYN833848.return" , "---java.io.ObjectInputStream.readObject0@POLYN833848" , "java.io.ObjectInputStream.readObject@POLYN796264.obj"]
+ , "c4" : "//QC-JAVCWZ099[00422] In java.io.ObjectInputStream.readObject@POLYN796264[00422] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00431]"
- , "c3" : ["java.io.ObjectInputStream.readObject@POLYN796136.obj" , "---java.io.ObjectInputStream.readObject@POLYN796136.dummymethode_00431" , "java.io.ObjectInputStream.readObject@POLYN796136.return"]
- , "c4" : "//QC-JAVCWZ099[00431] In java.io.ObjectInputStream.readObject@POLYN796136[00431] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readObject@POLYN796264.obj" , "---java.io.ObjectInputStream.readObject@POLYN796264.dummymethode_00431" , "java.io.ObjectInputStream.readObject@POLYN796264.return"]
+ , "c4" : "//QC-JAVCWZ099[00431] In java.io.ObjectInputStream.readObject@POLYN796264[00431] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -1618,16 +1618,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[01759]"
- , "c3" : ["java.io.ObjectInputStream.readProxyDesc@POLYN843479.'null class'" , "---java.io.ObjectInputStream.readProxyDesc@POLYN843479.dummymethode_01759" , "java.io.ObjectInputStream.readProxyDesc@POLYN843479.resolveEx"]
- , "c4" : "//QC-JAVCWZ099[01759] In java.io.ObjectInputStream.readProxyDesc@POLYN843479[01759] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readProxyDesc@POLYN843607.'null class'" , "---java.io.ObjectInputStream.readProxyDesc@POLYN843607.dummymethode_01759" , "java.io.ObjectInputStream.readProxyDesc@POLYN843607.resolveEx"]
+ , "c4" : "//QC-JAVCWZ099[01759] In java.io.ObjectInputStream.readProxyDesc@POLYN843607[01759] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[01786]"
- , "c3" : ["java.io.ObjectInputStream.readProxyDesc@POLYN843479.resolveEx" , "---java.io.ObjectInputStream.readProxyDesc@POLYN843479.dummymethode_01786" , "java.io.ObjectInputStream.readProxyDesc@POLYN843479.cibledummy_01786"]
- , "c4" : "//QC-JAVCWZ099[01786] In java.io.ObjectInputStream.readProxyDesc@POLYN843479[01786] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readProxyDesc@POLYN843607.resolveEx" , "---java.io.ObjectInputStream.readProxyDesc@POLYN843607.dummymethode_01786" , "java.io.ObjectInputStream.readProxyDesc@POLYN843607.cibledummy_01786"]
+ , "c4" : "//QC-JAVCWZ099[01786] In java.io.ObjectInputStream.readProxyDesc@POLYN843607[01786] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -1666,16 +1666,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[01775]"
- , "c3" : ["java.io.ObjectInputStream.readProxyDesc@POLYN843479.ex" , "---java.io.ObjectInputStream.readProxyDesc@POLYN843479.dummymethode_01775" , "java.io.ObjectInputStream.readProxyDesc@POLYN843479.resolveEx"]
- , "c4" : "//QC-JAVCWZ099[01775] In java.io.ObjectInputStream.readProxyDesc@POLYN843479[01775] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readProxyDesc@POLYN843607.ex" , "---java.io.ObjectInputStream.readProxyDesc@POLYN843607.dummymethode_01775" , "java.io.ObjectInputStream.readProxyDesc@POLYN843607.resolveEx"]
+ , "c4" : "//QC-JAVCWZ099[01775] In java.io.ObjectInputStream.readProxyDesc@POLYN843607[01775] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[01786]"
- , "c3" : ["java.io.ObjectInputStream.readProxyDesc@POLYN843479.resolveEx" , "---java.io.ObjectInputStream.readProxyDesc@POLYN843479.dummymethode_01786" , "java.io.ObjectInputStream.readProxyDesc@POLYN843479.cibledummy_01786"]
- , "c4" : "//QC-JAVCWZ099[01786] In java.io.ObjectInputStream.readProxyDesc@POLYN843479[01786] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readProxyDesc@POLYN843607.resolveEx" , "---java.io.ObjectInputStream.readProxyDesc@POLYN843607.dummymethode_01786" , "java.io.ObjectInputStream.readProxyDesc@POLYN843607.cibledummy_01786"]
+ , "c4" : "//QC-JAVCWZ099[01786] In java.io.ObjectInputStream.readProxyDesc@POLYN843607[01786] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -1714,16 +1714,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[02027]"
- , "c3" : ["java.io.ObjectInputStream.readOrdinaryObject@POLYN856197.obj" , "---java.io.ObjectInputStream.readSerialData@POLYN861352" , "java.io.ObjectInputStream.readSerialData@POLYN861352.obj"]
- , "c4" : "//QC-JAVCWZ099[02027] In java.io.ObjectInputStream.readOrdinaryObject@POLYN856197[02027] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readOrdinaryObject@POLYN856325.obj" , "---java.io.ObjectInputStream.readSerialData@POLYN861480" , "java.io.ObjectInputStream.readSerialData@POLYN861480.obj"]
+ , "c4" : "//QC-JAVCWZ099[02027] In java.io.ObjectInputStream.readOrdinaryObject@POLYN856325[02027] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[02136]"
- , "c3" : ["java.io.ObjectInputStream.readSerialData@POLYN861352.obj" , "---java.io.ObjectInputStream.readSerialData@POLYN861352.dummymethode_02136" , "java.io.ObjectInputStream.readSerialData@POLYN861352.cibledummy_02136"]
- , "c4" : "//QC-JAVCWZ099[02136] In java.io.ObjectInputStream.readSerialData@POLYN861352[02136] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readSerialData@POLYN861480.obj" , "---java.io.ObjectInputStream.readSerialData@POLYN861480.dummymethode_02136" , "java.io.ObjectInputStream.readSerialData@POLYN861480.cibledummy_02136"]
+ , "c4" : "//QC-JAVCWZ099[02136] In java.io.ObjectInputStream.readSerialData@POLYN861480[02136] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -1762,7 +1762,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[02938]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN881896.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN881896" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN894842.return"]
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882024.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882024" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN894970.return"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1770,15 +1770,15 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[03091]"
- , "c3" : ["java.io.ObjectInputStream.read@POLYN813352.return" , "---java.io.ObjectInputStream.read@POLYN813352" , "java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902511.v"]
- , "c4" : "//QC-JAVCWZ099[03091] In java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902511[03091] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.read@POLYN813480.return" , "---java.io.ObjectInputStream.read@POLYN813480" , "java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902639.v"]
+ , "c4" : "//QC-JAVCWZ099[03091] In java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902639[03091] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "3"
  , "sourcenoligne" : "[03095]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902511.v" , "---java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902511.dummymethode_03095" , "java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902511.return"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902639.v" , "---java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902639.dummymethode_03095" , "java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902639.return"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1786,7 +1786,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "4"
  , "sourcenoligne" : "[02605]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.peekb" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN881896.dummymethode_02605" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN881896.v"]
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.peekb" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882024.dummymethode_02605" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882024.v"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1794,7 +1794,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "5"
  , "sourcenoligne" : "[02606]"
- , "c3" : ["-1" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN881896.dummymethode_02606" , "java.io.ObjectInputStream.PeekInputStream.peekb"]
+ , "c3" : ["-1" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882024.dummymethode_02606" , "java.io.ObjectInputStream.PeekInputStream.peekb"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1802,7 +1802,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "6"
  , "sourcenoligne" : "[02607]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN881896.v" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN881896.dummymethode_02607" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN881896.return"]
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882024.v" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882024.dummymethode_02607" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882024.return"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1810,7 +1810,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "7"
  , "sourcenoligne" : "[00893]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN894842.return" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN894842" , "java.io.ObjectInputStream.read@POLYN813352.return"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN894970.return" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN894970" , "java.io.ObjectInputStream.read@POLYN813480.return"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1818,7 +1818,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "8"
  , "sourcenoligne" : "[00979]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902511.return" , "---java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902511" , "java.io.ObjectInputStream.readUnsignedByte@POLYN816117.return"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902639.return" , "---java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902639" , "java.io.ObjectInputStream.readUnsignedByte@POLYN816245.return"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1858,7 +1858,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[02943]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN895363.b" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.b"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN895491.b" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.b"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1866,7 +1866,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[03028]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.nread" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.dummymethode_03028" , "java.io.ObjectInputStream.BlockDataInputStream.pos"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.nread" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.dummymethode_03028" , "java.io.ObjectInputStream.BlockDataInputStream.pos"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1874,7 +1874,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "3"
  , "sourcenoligne" : "[03031]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882447" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.nread"]
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882575" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.nread"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1882,7 +1882,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "4"
  , "sourcenoligne" : "[03037]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.b" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882447" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.b"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.b" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882575" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.b"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1890,7 +1890,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "5"
  , "sourcenoligne" : "[03365]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.pos" , "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918703.dummymethode_03365" , "java.io.ObjectInputStream.BlockDataInputStream.end"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.pos" , "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918831.dummymethode_03365" , "java.io.ObjectInputStream.BlockDataInputStream.end"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1898,15 +1898,15 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "6"
  , "sourcenoligne" : "[02620]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.b" , "---java.io.InputStream.read@POLYN255102" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.nbytes"]
- , "c4" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN882447[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.b" , "---java.io.InputStream.read@POLYN255230" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.nbytes"]
+ , "c4" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN882575[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "7"
  , "sourcenoligne" : "[02622]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.nbytes" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.dummymethode_02622" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.return"]
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.nbytes" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.dummymethode_02622" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.return"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1946,7 +1946,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[03028]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.nread" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.dummymethode_03028" , "java.io.ObjectInputStream.BlockDataInputStream.pos"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.nread" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.dummymethode_03028" , "java.io.ObjectInputStream.BlockDataInputStream.pos"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1954,7 +1954,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00001]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882447" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.nread"]
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882575" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.nread"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1962,7 +1962,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "3"
  , "sourcenoligne" : "[00001]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.b" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882447" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.b"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.b" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882575" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.b"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1970,7 +1970,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "4"
  , "sourcenoligne" : "[03365]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.pos" , "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918703.dummymethode_03365" , "java.io.ObjectInputStream.BlockDataInputStream.end"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.pos" , "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918831.dummymethode_03365" , "java.io.ObjectInputStream.BlockDataInputStream.end"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1978,15 +1978,15 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "5"
  , "sourcenoligne" : "[02620]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.b" , "---java.io.InputStream.read@POLYN255102" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.nbytes"]
- , "c4" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN882447[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.b" , "---java.io.InputStream.read@POLYN255230" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.nbytes"]
+ , "c4" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN882575[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "6"
  , "sourcenoligne" : "[02622]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.nbytes" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.dummymethode_02622" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.return"]
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.nbytes" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.dummymethode_02622" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.return"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -1994,8 +1994,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "7"
  , "sourcenoligne" : "[00917]"
- , "c3" : ["java.io.ObjectInputStream.read@POLYN813886.buf" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.b"]
- , "c4" : "//QC-JAVCWZ099[00917] In java.io.ObjectInputStream.read@POLYN813886[00917] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.read@POLYN814014.buf" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.b"]
+ , "c4" : "//QC-JAVCWZ099[00917] In java.io.ObjectInputStream.read@POLYN814014[00917] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -2034,7 +2034,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[02943]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN895363.len" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.len"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN895491.len" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.len"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2042,7 +2042,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[03028]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.nread" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.dummymethode_03028" , "java.io.ObjectInputStream.BlockDataInputStream.pos"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.nread" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.dummymethode_03028" , "java.io.ObjectInputStream.BlockDataInputStream.pos"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2050,7 +2050,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "3"
  , "sourcenoligne" : "[00001]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882447" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.nread"]
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882575" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.nread"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2058,7 +2058,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "4"
  , "sourcenoligne" : "[03037]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.len" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882447" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.len"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.len" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882575" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.len"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2066,7 +2066,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "5"
  , "sourcenoligne" : "[03365]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.pos" , "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918703.dummymethode_03365" , "java.io.ObjectInputStream.BlockDataInputStream.end"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.pos" , "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918831.dummymethode_03365" , "java.io.ObjectInputStream.BlockDataInputStream.end"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2074,15 +2074,15 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "6"
  , "sourcenoligne" : "[02620]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.len" , "---java.io.InputStream.read@POLYN255102" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.nbytes"]
- , "c4" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN882447[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.len" , "---java.io.InputStream.read@POLYN255230" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.nbytes"]
+ , "c4" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN882575[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "7"
  , "sourcenoligne" : "[02622]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.nbytes" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.dummymethode_02622" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.return"]
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.nbytes" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.dummymethode_02622" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.return"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2122,7 +2122,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[03028]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.nread" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.dummymethode_03028" , "java.io.ObjectInputStream.BlockDataInputStream.pos"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.nread" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.dummymethode_03028" , "java.io.ObjectInputStream.BlockDataInputStream.pos"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2130,7 +2130,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00001]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882447" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.nread"]
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882575" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.nread"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2138,7 +2138,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "3"
  , "sourcenoligne" : "[00001]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.len" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882447" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.len"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.len" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882575" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.len"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2146,7 +2146,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "4"
  , "sourcenoligne" : "[03365]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.pos" , "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918703.dummymethode_03365" , "java.io.ObjectInputStream.BlockDataInputStream.end"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.pos" , "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918831.dummymethode_03365" , "java.io.ObjectInputStream.BlockDataInputStream.end"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2154,15 +2154,15 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "5"
  , "sourcenoligne" : "[02620]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.len" , "---java.io.InputStream.read@POLYN255102" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.nbytes"]
- , "c4" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN882447[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.len" , "---java.io.InputStream.read@POLYN255230" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.nbytes"]
+ , "c4" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN882575[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "6"
  , "sourcenoligne" : "[02622]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.nbytes" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.dummymethode_02622" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.return"]
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.nbytes" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.dummymethode_02622" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.return"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2170,8 +2170,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "7"
  , "sourcenoligne" : "[00917]"
- , "c3" : ["java.io.ObjectInputStream.read@POLYN813886.len" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.len"]
- , "c4" : "//QC-JAVCWZ099[00917] In java.io.ObjectInputStream.read@POLYN813886[00917] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.read@POLYN814014.len" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.len"]
+ , "c4" : "//QC-JAVCWZ099[00917] In java.io.ObjectInputStream.read@POLYN814014[00917] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -2210,7 +2210,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[02943]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN895363.off" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.off"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN895491.off" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.off"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2218,7 +2218,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[03028]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.nread" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.dummymethode_03028" , "java.io.ObjectInputStream.BlockDataInputStream.pos"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.nread" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.dummymethode_03028" , "java.io.ObjectInputStream.BlockDataInputStream.pos"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2226,7 +2226,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "3"
  , "sourcenoligne" : "[00001]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882447" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.nread"]
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882575" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.nread"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2234,7 +2234,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "4"
  , "sourcenoligne" : "[03037]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.off" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882447" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.off"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.off" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882575" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.off"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2242,7 +2242,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "5"
  , "sourcenoligne" : "[03365]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.pos" , "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918703.dummymethode_03365" , "java.io.ObjectInputStream.BlockDataInputStream.end"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.pos" , "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918831.dummymethode_03365" , "java.io.ObjectInputStream.BlockDataInputStream.end"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2250,15 +2250,15 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "6"
  , "sourcenoligne" : "[02620]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.off" , "---java.io.InputStream.read@POLYN255102" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.nbytes"]
- , "c4" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN882447[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.off" , "---java.io.InputStream.read@POLYN255230" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.nbytes"]
+ , "c4" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN882575[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "7"
  , "sourcenoligne" : "[02622]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.nbytes" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.dummymethode_02622" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.return"]
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.nbytes" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.dummymethode_02622" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.return"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2298,7 +2298,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[03028]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.nread" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.dummymethode_03028" , "java.io.ObjectInputStream.BlockDataInputStream.pos"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.nread" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.dummymethode_03028" , "java.io.ObjectInputStream.BlockDataInputStream.pos"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2306,7 +2306,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00001]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882447" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.nread"]
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.return" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882575" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.nread"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2314,7 +2314,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "3"
  , "sourcenoligne" : "[00001]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.off" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882447" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.off"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.off" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882575" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.off"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2322,7 +2322,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "4"
  , "sourcenoligne" : "[03365]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.pos" , "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918703.dummymethode_03365" , "java.io.ObjectInputStream.BlockDataInputStream.end"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.pos" , "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918831.dummymethode_03365" , "java.io.ObjectInputStream.BlockDataInputStream.end"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2330,15 +2330,15 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "5"
  , "sourcenoligne" : "[02620]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.off" , "---java.io.InputStream.read@POLYN255102" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.nbytes"]
- , "c4" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN882447[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.off" , "---java.io.InputStream.read@POLYN255230" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.nbytes"]
+ , "c4" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN882575[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "6"
  , "sourcenoligne" : "[02622]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.nbytes" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.dummymethode_02622" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882447.return"]
+ , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.nbytes" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.dummymethode_02622" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN882575.return"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2346,8 +2346,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "7"
  , "sourcenoligne" : "[00917]"
- , "c3" : ["java.io.ObjectInputStream.read@POLYN813886.off" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848.off"]
- , "c4" : "//QC-JAVCWZ099[00917] In java.io.ObjectInputStream.read@POLYN813886[00917] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.read@POLYN814014.off" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976.off"]
+ , "c4" : "//QC-JAVCWZ099[00917] In java.io.ObjectInputStream.read@POLYN814014[00917] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -2386,7 +2386,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[03183]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918703.return" , "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918703" , "java.io.ObjectInputStream.BlockDataInputStream.readUTF@POLYN907422.return"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918831.return" , "---java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918831" , "java.io.ObjectInputStream.BlockDataInputStream.readUTF@POLYN907550.return"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2394,7 +2394,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[03388]"
- , "c3" : ["java.lang.StringBuilder.toString@POLYN245010.return" , "---java.lang.StringBuilder.toString@POLYN245010" , "java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918703.return"]
+ , "c3" : ["java.lang.StringBuilder.toString@POLYN245138.return" , "---java.lang.StringBuilder.toString@POLYN245138" , "java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918831.return"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2402,15 +2402,15 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "3"
  , "sourcenoligne" : "[01751]"
- , "c3" : ["java.io.ObjectInputStream.readUTF@POLYN820369.return" , "---java.io.ObjectInputStream.readUTF@POLYN820369" , "java.io.ObjectInputStream.readProxyDesc@POLYN843479.ifaces[i]"]
- , "c4" : "//QC-JAVCWZ099[01751] In java.io.ObjectInputStream.readProxyDesc@POLYN843479[01751] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readUTF@POLYN820497.return" , "---java.io.ObjectInputStream.readUTF@POLYN820497" , "java.io.ObjectInputStream.readProxyDesc@POLYN843607.ifaces[i]"]
+ , "c4" : "//QC-JAVCWZ099[01751] In java.io.ObjectInputStream.readProxyDesc@POLYN843607[01751] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "4"
  , "sourcenoligne" : "[01124]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.readUTF@POLYN907422.return" , "---java.io.ObjectInputStream.BlockDataInputStream.readUTF@POLYN907422" , "java.io.ObjectInputStream.readUTF@POLYN820369.return"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.readUTF@POLYN907550.return" , "---java.io.ObjectInputStream.BlockDataInputStream.readUTF@POLYN907550" , "java.io.ObjectInputStream.readUTF@POLYN820497.return"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2450,15 +2450,15 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[03208]"
- , "c3" : ["java.io.ObjectInputStream.readBoolean@POLYN815574.return" , "---java.io.ObjectInputStream.readBoolean@POLYN815574" , "java.io.ObjectInputStream.BlockDataInputStream.readBooleans@POLYN907856.v[off++]"]
- , "c4" : "//QC-JAVCWZ099[03208] In java.io.ObjectInputStream.BlockDataInputStream.readBooleans@POLYN907856[03208] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : ["java.io.ObjectInputStream.readBoolean@POLYN815702.return" , "---java.io.ObjectInputStream.readBoolean@POLYN815702" , "java.io.ObjectInputStream.BlockDataInputStream.readBooleans@POLYN907984.v[off++]"]
+ , "c4" : "//QC-JAVCWZ099[03208] In java.io.ObjectInputStream.BlockDataInputStream.readBooleans@POLYN907984[03208] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00957]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.readBoolean@POLYN901856.return" , "---java.io.ObjectInputStream.BlockDataInputStream.readBoolean@POLYN901856" , "java.io.ObjectInputStream.readBoolean@POLYN815574.return"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.readBoolean@POLYN901984.return" , "---java.io.ObjectInputStream.BlockDataInputStream.readBoolean@POLYN901984" , "java.io.ObjectInputStream.readBoolean@POLYN815702.return"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2498,15 +2498,15 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[03188]"
- , "c3" : ["java.io.BufferedReader.readLine@POLYN250983.return" , "---java.io.BufferedReader.readLine@POLYN250983" , "java.io.ObjectInputStream.BlockDataInputStream.readLine@POLYN907608.return"]
- , "c4" : "//QC-JAVCWZ099[03188] In java.io.ObjectInputStream.BlockDataInputStream.readLine@POLYN907608[03188] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
+ , "c3" : ["java.io.BufferedReader.readLine@POLYN251111.return" , "---java.io.BufferedReader.readLine@POLYN251111" , "java.io.ObjectInputStream.BlockDataInputStream.readLine@POLYN907736.return"]
+ , "c4" : "//QC-JAVCWZ099[03188] In java.io.ObjectInputStream.BlockDataInputStream.readLine@POLYN907736[03188] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[01109]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.readLine@POLYN907608.return" , "---java.io.ObjectInputStream.BlockDataInputStream.readLine@POLYN907608" , "java.io.ObjectInputStream.readLine@POLYN819982.return"]
+ , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.readLine@POLYN907736.return" , "---java.io.ObjectInputStream.BlockDataInputStream.readLine@POLYN907736" , "java.io.ObjectInputStream.readLine@POLYN820110.return"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -2648,203 +2648,203 @@ var maDataBlocs = {
  , "c1" : "00345"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#345"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00345] In method java.io.ObjectInputStream.ObjectInputStream@POLYN793492 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[00345] In method java.io.ObjectInputStream.ObjectInputStream@POLYN793620 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00348"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#348"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00348] In method java.io.ObjectInputStream.ObjectInputStream@POLYN793492 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00348] In method java.io.ObjectInputStream.ObjectInputStream@POLYN793620 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00350"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#350"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00350] In method java.io.ObjectInputStream.ObjectInputStream@POLYN793492 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00350] In method java.io.ObjectInputStream.ObjectInputStream@POLYN793620 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00372"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#372"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00372] In method java.io.ObjectInputStream.ObjectInputStream@POLYN794598 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00372] In method java.io.ObjectInputStream.ObjectInputStream@POLYN794726 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00375"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#375"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00375] In method java.io.ObjectInputStream.ObjectInputStream@POLYN794598 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00375] In method java.io.ObjectInputStream.ObjectInputStream@POLYN794726 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00376"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#376"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00376] In method java.io.ObjectInputStream.ObjectInputStream@POLYN794598 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00376] In method java.io.ObjectInputStream.ObjectInputStream@POLYN794726 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00377"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#377"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00377] In method java.io.ObjectInputStream.ObjectInputStream@POLYN794598 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00377] In method java.io.ObjectInputStream.ObjectInputStream@POLYN794726 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00379"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#379"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00379] In method java.io.ObjectInputStream.ObjectInputStream@POLYN794598 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00379] In method java.io.ObjectInputStream.ObjectInputStream@POLYN794726 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00422"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#422"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00422] In method java.io.ObjectInputStream.readObject@POLYN796136 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00422] In method java.io.ObjectInputStream.readObject@POLYN796264 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00425"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#425"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00425] In method java.io.ObjectInputStream.readObject@POLYN796136 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00425] In method java.io.ObjectInputStream.readObject@POLYN796264 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00428"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#428"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00428] In method java.io.ObjectInputStream.readObject@POLYN796136 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00428] In method java.io.ObjectInputStream.readObject@POLYN796264 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00434"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#434"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00434] In method java.io.ObjectInputStream.readObject@POLYN796136 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00434] In method java.io.ObjectInputStream.readObject@POLYN796264 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00460"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#460"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00460] In method java.io.ObjectInputStream.readObjectOverride@POLYN797559 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00460] In method java.io.ObjectInputStream.readObjectOverride@POLYN797687 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00512"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#512"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00512] In method java.io.ObjectInputStream.readUnshared@POLYN799009 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00512] In method java.io.ObjectInputStream.readUnshared@POLYN799137 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00515"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#515"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00515] In method java.io.ObjectInputStream.readUnshared@POLYN799009 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00515] In method java.io.ObjectInputStream.readUnshared@POLYN799137 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00518"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#518"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00518] In method java.io.ObjectInputStream.readUnshared@POLYN799009 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00518] In method java.io.ObjectInputStream.readUnshared@POLYN799137 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00524"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#524"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00524] In method java.io.ObjectInputStream.readUnshared@POLYN799009 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00524] In method java.io.ObjectInputStream.readUnshared@POLYN799137 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00542"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#542"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00542] For method defaultReadObject list of called methods Object monObjet|ClassNotFoundException handles_lookupExceptionN801188"
+ , "c3" : "QC-JAV000007[00542] For method defaultReadObject list of called methods Object monObjet|ClassNotFoundException handles_lookupExceptionN801316"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00546"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#546"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00546] In method java.io.ObjectInputStream.defaultReadObject@POLYN800234 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00546] In method java.io.ObjectInputStream.defaultReadObject@POLYN800362 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00547"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#547"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00547] In method java.io.ObjectInputStream.defaultReadObject@POLYN800234 the MagicNumber/String  'not in call to readObject' should be converted to const"
+ , "c3" : "QC-JAV000010[00547] In method java.io.ObjectInputStream.defaultReadObject@POLYN800362 the MagicNumber/String  'not in call to readObject' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00551"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#551"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00551] In method java.io.ObjectInputStream.defaultReadObject@POLYN800234 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00551] In method java.io.ObjectInputStream.defaultReadObject@POLYN800362 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00553"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#553"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00553] In method java.io.ObjectInputStream.defaultReadObject@POLYN800234 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00553] In method java.io.ObjectInputStream.defaultReadObject@POLYN800362 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00560"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#560"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00560] In method java.io.ObjectInputStream.defaultReadObject@POLYN800234 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00560] In method java.io.ObjectInputStream.defaultReadObject@POLYN800362 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00563"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#563"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00563] In method java.io.ObjectInputStream.defaultReadObject@POLYN800234 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00563] In method java.io.ObjectInputStream.defaultReadObject@POLYN800362 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00585"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#585"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00585] In method java.io.ObjectInputStream.readFields@POLYN801685 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00585] In method java.io.ObjectInputStream.readFields@POLYN801813 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00586"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#586"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00586] In method java.io.ObjectInputStream.readFields@POLYN801685 the MagicNumber/String  'not in call to readObject' should be converted to const"
+ , "c3" : "QC-JAV000010[00586] In method java.io.ObjectInputStream.readFields@POLYN801813 the MagicNumber/String  'not in call to readObject' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00590"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#590"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00590] In method java.io.ObjectInputStream.readFields@POLYN801685 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00590] In method java.io.ObjectInputStream.readFields@POLYN801813 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00593"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#593"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00593] In method java.io.ObjectInputStream.readFields@POLYN801685 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00593] In method java.io.ObjectInputStream.readFields@POLYN801813 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00600"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#600"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00600] In method java.io.ObjectInputStream.readFields@POLYN801685 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00600] In method java.io.ObjectInputStream.readFields@POLYN801813 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2858,14 +2858,14 @@ var maDataBlocs = {
  , "c1" : "00625"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#625"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00625] In method java.io.ObjectInputStream.registerValidation@POLYN803221 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00625] In method java.io.ObjectInputStream.registerValidation@POLYN803349 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00626"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#626"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00626] In method java.io.ObjectInputStream.registerValidation@POLYN803221 the MagicNumber/String  'stream inactive' should be converted to const"
+ , "c3" : "QC-JAV000010[00626] In method java.io.ObjectInputStream.registerValidation@POLYN803349 the MagicNumber/String  'stream inactive' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2879,7 +2879,7 @@ var maDataBlocs = {
  , "c1" : "00672"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#672"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00672] For method resolveClass list of called methods Object monObjet|java.lang.String desc_getNameN805351"
+ , "c3" : "QC-JAV000007[00672] For method resolveClass list of called methods Object monObjet|java.lang.String desc_getNameN805479"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2893,14 +2893,14 @@ var maDataBlocs = {
  , "c1" : "00677"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#677"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00677] In method java.io.ObjectInputStream.resolveClass@POLYN805230 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00677] In method java.io.ObjectInputStream.resolveClass@POLYN805358 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00680"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#680"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00680] In method java.io.ObjectInputStream.resolveClass@POLYN805230 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00680] In method java.io.ObjectInputStream.resolveClass@POLYN805358 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2914,7 +2914,7 @@ var maDataBlocs = {
  , "c1" : "00739"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#739"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00739] For method resolveProxyClass list of called methods Object monObjet|ClassLoader latestUserDefinedLoaderN807938|java.lang.Class Class_forNameN808444|ClassLoader cl_getClassLoaderN808992"
+ , "c3" : "QC-JAV000007[00739] For method resolveProxyClass list of called methods Object monObjet|ClassLoader latestUserDefinedLoaderN808066|java.lang.Class Class_forNameN808572|ClassLoader cl_getClassLoaderN809120"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2935,56 +2935,56 @@ var maDataBlocs = {
  , "c1" : "00743"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#743"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00743] In method java.io.ObjectInputStream.resolveProxyClass@POLYN807811 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00743] In method java.io.ObjectInputStream.resolveProxyClass@POLYN807939 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00744"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#744"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00744] In method java.io.ObjectInputStream.resolveProxyClass@POLYN807811 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00744] In method java.io.ObjectInputStream.resolveProxyClass@POLYN807939 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00748"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#748"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00748] In method java.io.ObjectInputStream.resolveProxyClass@POLYN807811 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00748] In method java.io.ObjectInputStream.resolveProxyClass@POLYN807939 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00749"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#749"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00749] In method java.io.ObjectInputStream.resolveProxyClass@POLYN807811 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00749] In method java.io.ObjectInputStream.resolveProxyClass@POLYN807939 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00750"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#750"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00750] In method java.io.ObjectInputStream.resolveProxyClass@POLYN807811 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00750] In method java.io.ObjectInputStream.resolveProxyClass@POLYN807939 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00754"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#754"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00754] In method java.io.ObjectInputStream.resolveProxyClass@POLYN807811 the MagicNumber/String  'conflicting non-public interface class loaders' should be converted to const"
+ , "c3" : "QC-JAV000010[00754] In method java.io.ObjectInputStream.resolveProxyClass@POLYN807939 the MagicNumber/String  'conflicting non-public interface class loaders' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00758"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#758"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00758] In method java.io.ObjectInputStream.resolveProxyClass@POLYN807811 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00758] In method java.io.ObjectInputStream.resolveProxyClass@POLYN807939 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00768"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#768"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00768] In method java.io.ObjectInputStream.resolveProxyClass@POLYN807811 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00768] In method java.io.ObjectInputStream.resolveProxyClass@POLYN807939 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3005,21 +3005,21 @@ var maDataBlocs = {
  , "c1" : "00832"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#832"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00832] In method java.io.ObjectInputStream.enableResolveObject@POLYN811082 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00832] In method java.io.ObjectInputStream.enableResolveObject@POLYN811210 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00850"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#850"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00850] For method readStreamHeader list of called methods Object monObjet|short bin_readShortN811983|short bin_readShortN812060"
+ , "c3" : "QC-JAV000007[00850] For method readStreamHeader list of called methods Object monObjet|short bin_readShortN812111|short bin_readShortN812188"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00857"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#857"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00857] In method java.io.ObjectInputStream.readStreamHeader@POLYN811888 the MagicNumber/String  'invalid stream header: %04X%04X' should be converted to const"
+ , "c3" : "QC-JAV000010[00857] In method java.io.ObjectInputStream.readStreamHeader@POLYN812016 the MagicNumber/String  'invalid stream header: %04X%04X' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3033,49 +3033,49 @@ var maDataBlocs = {
  , "c1" : "00910"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#910"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00910] In method java.io.ObjectInputStream.read@POLYN813886 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00910] In method java.io.ObjectInputStream.read@POLYN814014 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00914"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#914"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00914] In method java.io.ObjectInputStream.read@POLYN813886 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00914] In method java.io.ObjectInputStream.read@POLYN814014 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00914"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#914"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00914] In method java.io.ObjectInputStream.read@POLYN813886 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00914] In method java.io.ObjectInputStream.read@POLYN814014 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00914"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#914"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00914] In method java.io.ObjectInputStream.read@POLYN813886 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00914] In method java.io.ObjectInputStream.read@POLYN814014 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00917"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#917"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00917] In method java.io.ObjectInputStream.read@POLYN813886 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00917] In method java.io.ObjectInputStream.read@POLYN814014 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00942"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#942"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00942] In method java.io.ObjectInputStream.close@POLYN815056 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00942] In method java.io.ObjectInputStream.close@POLYN815184 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00943"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#943"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00943] In method java.io.ObjectInputStream.close@POLYN815056 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00943] In method java.io.ObjectInputStream.close@POLYN815184 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3089,14 +3089,14 @@ var maDataBlocs = {
  , "c1" : "01067"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1067"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01067] In method java.io.ObjectInputStream.readFully@POLYN818293 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01067] In method java.io.ObjectInputStream.readFully@POLYN818421 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01067"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1067"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01067] In method java.io.ObjectInputStream.readFully@POLYN818293 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01067] In method java.io.ObjectInputStream.readFully@POLYN818421 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3110,28 +3110,28 @@ var maDataBlocs = {
  , "c1" : "01081"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1081"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01081] In method java.io.ObjectInputStream.readFully@POLYN818765 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01081] In method java.io.ObjectInputStream.readFully@POLYN818893 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01081"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1081"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01081] In method java.io.ObjectInputStream.readFully@POLYN818765 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01081] In method java.io.ObjectInputStream.readFully@POLYN818893 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01081"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1081"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01081] In method java.io.ObjectInputStream.readFully@POLYN818765 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01081] In method java.io.ObjectInputStream.readFully@POLYN818893 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01084"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1084"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01084] In method java.io.ObjectInputStream.readFully@POLYN818765 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01084] In method java.io.ObjectInputStream.readFully@POLYN818893 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3152,28 +3152,28 @@ var maDataBlocs = {
  , "c1" : "01202"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1202"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01202] In method java.io.ObjectInputStream.setInternalObjectInputFilter@POLYN823063 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01202] In method java.io.ObjectInputStream.setInternalObjectInputFilter@POLYN823191 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01203"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01203] In method java.io.ObjectInputStream.setInternalObjectInputFilter@POLYN823063 the MagicNumber/String  'serialFilter' should be converted to const"
+ , "c3" : "QC-JAV000010[01203] In method java.io.ObjectInputStream.setInternalObjectInputFilter@POLYN823191 the MagicNumber/String  'serialFilter' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01206"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01206] In method java.io.ObjectInputStream.setInternalObjectInputFilter@POLYN823063 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01206] In method java.io.ObjectInputStream.setInternalObjectInputFilter@POLYN823191 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01208"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01208] In method java.io.ObjectInputStream.setInternalObjectInputFilter@POLYN823063 the MagicNumber/String  'filter can not be set more than once' should be converted to const"
+ , "c3" : "QC-JAV000010[01208] In method java.io.ObjectInputStream.setInternalObjectInputFilter@POLYN823191 the MagicNumber/String  'filter can not be set more than once' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3187,70 +3187,70 @@ var maDataBlocs = {
  , "c1" : "01224"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1224"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01224] In method java.io.ObjectInputStream.filterCheck@POLYN823938 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01224] In method java.io.ObjectInputStream.filterCheck@POLYN824066 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01225"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01225] In method java.io.ObjectInputStream.filterCheck@POLYN823938 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01225] In method java.io.ObjectInputStream.filterCheck@POLYN824066 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01235"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01235] In method java.io.ObjectInputStream.filterCheck@POLYN823938 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01235] In method java.io.ObjectInputStream.filterCheck@POLYN824066 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01238"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1238"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01238] In method java.io.ObjectInputStream.filterCheck@POLYN823938 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01238] In method java.io.ObjectInputStream.filterCheck@POLYN824066 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01240"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1240"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01240] In method java.io.ObjectInputStream.filterCheck@POLYN823938 the MagicNumber/String  'ObjectInputFilter {0}: {1}, array length: {2}, nRefs: {3}, depth: {4}, bytes: {5}, ex: {6}' should be converted to const"
+ , "c3" : "QC-JAV000010[01240] In method java.io.ObjectInputStream.filterCheck@POLYN824066 the MagicNumber/String  'ObjectInputFilter {0}: {1}, array length: {2}, nRefs: {3}, depth: {4}, bytes: {5}, ex: {6}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01242"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1242"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01242] In method java.io.ObjectInputStream.filterCheck@POLYN823938 the MagicNumber/String  'n/a' should be converted to const"
+ , "c3" : "QC-JAV000010[01242] In method java.io.ObjectInputStream.filterCheck@POLYN824066 the MagicNumber/String  'n/a' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01244"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1244"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01244] In method java.io.ObjectInputStream.filterCheck@POLYN823938 the MagicNumber/String  'filter status: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01244] In method java.io.ObjectInputStream.filterCheck@POLYN824066 the MagicNumber/String  'filter status: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01249"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1249"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01249] In method java.io.ObjectInputStream.filterCheck@POLYN823938 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01249] In method java.io.ObjectInputStream.filterCheck@POLYN824066 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01251"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1251"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01251] In method java.io.ObjectInputStream.filterCheck@POLYN823938 the MagicNumber/String  'ObjectInputFilter {0}: {1}, array length: {2}, nRefs: {3}, depth: {4}, bytes: {5}, ex: {6}' should be converted to const"
+ , "c3" : "QC-JAV000010[01251] In method java.io.ObjectInputStream.filterCheck@POLYN824066 the MagicNumber/String  'ObjectInputFilter {0}: {1}, array length: {2}, nRefs: {3}, depth: {4}, bytes: {5}, ex: {6}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01253"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1253"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01253] In method java.io.ObjectInputStream.filterCheck@POLYN823938 the MagicNumber/String  'n/a' should be converted to const"
+ , "c3" : "QC-JAV000010[01253] In method java.io.ObjectInputStream.filterCheck@POLYN824066 the MagicNumber/String  'n/a' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3327,21 +3327,21 @@ var maDataBlocs = {
  , "c1" : "01418"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1418"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01418] For method verifySubclass list of called methods Object monObjet|java.lang.Class getClassN831210|V Caches_subclassAudits_getN831770|java.lang.Boolean Boolean_valueOfN831944"
+ , "c3" : "QC-JAV000007[01418] For method verifySubclass list of called methods Object monObjet|java.lang.Class getClassN831338|V Caches_subclassAudits_getN831898|java.lang.Boolean Boolean_valueOfN832072"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01424"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1424"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01424] In method java.io.ObjectInputStream.verifySubclass@POLYN831122 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01424] In method java.io.ObjectInputStream.verifySubclass@POLYN831250 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01430"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1430"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01430] In method java.io.ObjectInputStream.verifySubclass@POLYN831122 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01430] In method java.io.ObjectInputStream.verifySubclass@POLYN831250 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3355,28 +3355,28 @@ var maDataBlocs = {
  , "c1" : "01455"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1455"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01455] In method java.io.ObjectInputStream.auditSubclass@POLYN832438 the MagicNumber/String  'readUnshared' should be converted to const"
+ , "c3" : "QC-JAV000010[01455] In method java.io.ObjectInputStream.auditSubclass@POLYN832566 the MagicNumber/String  'readUnshared' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01455"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1455"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01455] In method java.io.ObjectInputStream.auditSubclass@POLYN832438 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01455] In method java.io.ObjectInputStream.auditSubclass@POLYN832566 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01460"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1460"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01460] In method java.io.ObjectInputStream.auditSubclass@POLYN832438 the MagicNumber/String  'readFields' should be converted to const"
+ , "c3" : "QC-JAV000010[01460] In method java.io.ObjectInputStream.auditSubclass@POLYN832566 the MagicNumber/String  'readFields' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01460"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1460"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01460] In method java.io.ObjectInputStream.auditSubclass@POLYN832438 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01460] In method java.io.ObjectInputStream.auditSubclass@POLYN832566 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3390,7 +3390,7 @@ var maDataBlocs = {
  , "c1" : "01483"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1483"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01483] For method readObject0 list of called methods Object monObjet|boolean bin_getBlockDataModeN833831|int bin_currentBlockRemainingN833957|byte bin_peekByteN834590"
+ , "c3" : "QC-JAV000007[01483] For method readObject0 list of called methods Object monObjet|boolean bin_getBlockDataModeN833959|int bin_currentBlockRemainingN834085|byte bin_peekByteN834718"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3404,63 +3404,63 @@ var maDataBlocs = {
  , "c1" : "01487"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1487"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01487] In method java.io.ObjectInputStream.readObject0@POLYN833720 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01487] In method java.io.ObjectInputStream.readObject0@POLYN833848 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01496"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1496"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01496] In method java.io.ObjectInputStream.readObject0@POLYN833720 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01496] In method java.io.ObjectInputStream.readObject0@POLYN833848 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01498"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1498"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01498] In method java.io.ObjectInputStream.readObject0@POLYN833720 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01498] In method java.io.ObjectInputStream.readObject0@POLYN833848 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01539"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1539"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01539] In method java.io.ObjectInputStream.readObject0@POLYN833720 the MagicNumber/String  'writing aborted' should be converted to const"
+ , "c3" : "QC-JAV000010[01539] In method java.io.ObjectInputStream.readObject0@POLYN833848 the MagicNumber/String  'writing aborted' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01544"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1544"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01544] In method java.io.ObjectInputStream.readObject0@POLYN833720 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01544] In method java.io.ObjectInputStream.readObject0@POLYN833848 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01550"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1550"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01550] In method java.io.ObjectInputStream.readObject0@POLYN833720 the MagicNumber/String  'unexpected block data' should be converted to const"
+ , "c3" : "QC-JAV000010[01550] In method java.io.ObjectInputStream.readObject0@POLYN833848 the MagicNumber/String  'unexpected block data' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01555"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1555"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01555] In method java.io.ObjectInputStream.readObject0@POLYN833720 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01555] In method java.io.ObjectInputStream.readObject0@POLYN833848 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01558"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1558"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01558] In method java.io.ObjectInputStream.readObject0@POLYN833720 the MagicNumber/String  'unexpected end of block data' should be converted to const"
+ , "c3" : "QC-JAV000010[01558] In method java.io.ObjectInputStream.readObject0@POLYN833848 the MagicNumber/String  'unexpected end of block data' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01563"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1563"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01563] In method java.io.ObjectInputStream.readObject0@POLYN833720 the MagicNumber/String  'invalid type code: %02X' should be converted to const"
+ , "c3" : "QC-JAV000010[01563] In method java.io.ObjectInputStream.readObject0@POLYN833848 the MagicNumber/String  'invalid type code: %02X' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3474,56 +3474,56 @@ var maDataBlocs = {
  , "c1" : "01579"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1579"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01579] For method checkResolve list of called methods Object monObjet|java.lang.Object resolveObjectN837560"
+ , "c3" : "QC-JAV000007[01579] For method checkResolve list of called methods Object monObjet|java.lang.Object resolveObjectN837688"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01580"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1580"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01580] In method java.io.ObjectInputStream.checkResolve@POLYN837270 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01580] In method java.io.ObjectInputStream.checkResolve@POLYN837398 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01587"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1587"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01587] In method java.io.ObjectInputStream.checkResolve@POLYN837270 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01587] In method java.io.ObjectInputStream.checkResolve@POLYN837398 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01591"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1591"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01591] In method java.io.ObjectInputStream.checkResolve@POLYN837270 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01591] In method java.io.ObjectInputStream.checkResolve@POLYN837398 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01612"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1612"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01612] In method java.io.ObjectInputStream.readTypeString@POLYN838352 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01612] In method java.io.ObjectInputStream.readTypeString@POLYN838480 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01616"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1616"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01616] In method java.io.ObjectInputStream.readTypeString@POLYN838352 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01616] In method java.io.ObjectInputStream.readTypeString@POLYN838480 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01620"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1620"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01620] In method java.io.ObjectInputStream.readTypeString@POLYN838352 the MagicNumber/String  'invalid type code: %02X' should be converted to const"
+ , "c3" : "QC-JAV000010[01620] In method java.io.ObjectInputStream.readTypeString@POLYN838480 the MagicNumber/String  'invalid type code: %02X' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01635"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1635"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01635] In method java.io.ObjectInputStream.readNull@POLYN839251 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01635] In method java.io.ObjectInputStream.readNull@POLYN839379 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3537,49 +3537,49 @@ var maDataBlocs = {
  , "c1" : "01642"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1642"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01642] For method readHandle list of called methods Object monObjet|int bin_readIntN839891|java.lang.Object handles_lookupObjectN840411"
+ , "c3" : "QC-JAV000007[01642] For method readHandle list of called methods Object monObjet|int bin_readIntN840019|java.lang.Object handles_lookupObjectN840539"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01647"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1647"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01647] In method java.io.ObjectInputStream.readHandle@POLYN839637 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01647] In method java.io.ObjectInputStream.readHandle@POLYN839765 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01649"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1649"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01649] In method java.io.ObjectInputStream.readHandle@POLYN839637 the MagicNumber/String  'invalid handle value: %08X' should be converted to const"
+ , "c3" : "QC-JAV000010[01649] In method java.io.ObjectInputStream.readHandle@POLYN839765 the MagicNumber/String  'invalid handle value: %08X' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01655"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1655"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01655] In method java.io.ObjectInputStream.readHandle@POLYN839637 the MagicNumber/String  'cannot read back reference as unshared' should be converted to const"
+ , "c3" : "QC-JAV000010[01655] In method java.io.ObjectInputStream.readHandle@POLYN839765 the MagicNumber/String  'cannot read back reference as unshared' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01662"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1662"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01662] In method java.io.ObjectInputStream.readHandle@POLYN839637 the MagicNumber/String  'cannot read back reference to unshared object' should be converted to const"
+ , "c3" : "QC-JAV000010[01662] In method java.io.ObjectInputStream.readHandle@POLYN839765 the MagicNumber/String  'cannot read back reference to unshared object' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01664"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1664"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01664] In method java.io.ObjectInputStream.readHandle@POLYN839637 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01664] In method java.io.ObjectInputStream.readHandle@POLYN839765 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01664"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1664"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01664] In method java.io.ObjectInputStream.readHandle@POLYN839637 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01664] In method java.io.ObjectInputStream.readHandle@POLYN839765 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3593,21 +3593,21 @@ var maDataBlocs = {
  , "c1" : "01674"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1674"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01674] For method readClass list of called methods Object monObjet|java.io.ObjectStreamClass readClassDescN841194|int handles_assignN841373"
+ , "c3" : "QC-JAV000007[01674] For method readClass list of called methods Object monObjet|java.io.ObjectStreamClass readClassDescN841322|int handles_assignN841501"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01678"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1678"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01678] In method java.io.ObjectInputStream.readClass@POLYN840937 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01678] In method java.io.ObjectInputStream.readClass@POLYN841065 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01683"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1683"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01683] In method java.io.ObjectInputStream.readClass@POLYN840937 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01683] In method java.io.ObjectInputStream.readClass@POLYN841065 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3621,21 +3621,21 @@ var maDataBlocs = {
  , "c1" : "01697"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1697"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01697] For method readClassDesc list of called methods Object monObjet|byte bin_peekByteN842123|java.io.ObjectStreamClass readProxyDescN842595|java.io.ObjectStreamClass readNonProxyDescN842729"
+ , "c3" : "QC-JAV000007[01697] For method readClassDesc list of called methods Object monObjet|byte bin_peekByteN842251|java.io.ObjectStreamClass readProxyDescN842723|java.io.ObjectStreamClass readNonProxyDescN842857"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01717"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1717"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01717] In method java.io.ObjectInputStream.readClassDesc@POLYN842012 the MagicNumber/String  'invalid type code: %02X' should be converted to const"
+ , "c3" : "QC-JAV000010[01717] In method java.io.ObjectInputStream.readClassDesc@POLYN842140 the MagicNumber/String  'invalid type code: %02X' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01719"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1719"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01719] In method java.io.ObjectInputStream.readClassDesc@POLYN842012 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01719] In method java.io.ObjectInputStream.readClassDesc@POLYN842140 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3649,7 +3649,7 @@ var maDataBlocs = {
  , "c1" : "01737"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1737"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01737] For method readProxyDesc list of called methods Object monObjet|int handles_assignN843812|int bin_readIntN844006|java.lang.String bin_readUTFN844369"
+ , "c3" : "QC-JAV000007[01737] For method readProxyDesc list of called methods Object monObjet|int handles_assignN843940|int bin_readIntN844134|java.lang.String bin_readUTFN844497"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3663,70 +3663,70 @@ var maDataBlocs = {
  , "c1" : "01750"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1750"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01750] In method java.io.ObjectInputStream.readProxyDesc@POLYN843479 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01750] In method java.io.ObjectInputStream.readProxyDesc@POLYN843607 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01754"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1754"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01754] In method java.io.ObjectInputStream.readProxyDesc@POLYN843479 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01754] In method java.io.ObjectInputStream.readProxyDesc@POLYN843607 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01755"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1755"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01755] In method java.io.ObjectInputStream.readProxyDesc@POLYN843479 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01755] In method java.io.ObjectInputStream.readProxyDesc@POLYN843607 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01756"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1756"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01756] In method java.io.ObjectInputStream.readProxyDesc@POLYN843479 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01756] In method java.io.ObjectInputStream.readProxyDesc@POLYN843607 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01758"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1758"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01758] In method java.io.ObjectInputStream.readProxyDesc@POLYN843479 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01758] In method java.io.ObjectInputStream.readProxyDesc@POLYN843607 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01759"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1759"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01759] In method java.io.ObjectInputStream.readProxyDesc@POLYN843479 the MagicNumber/String  'null class' should be converted to const"
+ , "c3" : "QC-JAV000010[01759] In method java.io.ObjectInputStream.readProxyDesc@POLYN843607 the MagicNumber/String  'null class' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01761"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1761"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01761] In method java.io.ObjectInputStream.readProxyDesc@POLYN843479 the MagicNumber/String  'Not a proxy' should be converted to const"
+ , "c3" : "QC-JAV000010[01761] In method java.io.ObjectInputStream.readProxyDesc@POLYN843607 the MagicNumber/String  'Not a proxy' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01771"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1771"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01771] In method java.io.ObjectInputStream.readProxyDesc@POLYN843479 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01771] In method java.io.ObjectInputStream.readProxyDesc@POLYN843607 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01779"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1779"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01779] In method java.io.ObjectInputStream.readProxyDesc@POLYN843479 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01779] In method java.io.ObjectInputStream.readProxyDesc@POLYN843607 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01786"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1786"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01786] In method java.io.ObjectInputStream.readProxyDesc@POLYN843479 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01786] In method java.io.ObjectInputStream.readProxyDesc@POLYN843607 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3740,7 +3740,7 @@ var maDataBlocs = {
  , "c1" : "01802"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1802"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01802] For method readNonProxyDesc list of called methods Object monObjet|int handles_assignN846654|boolean isCustomSubclassN847383"
+ , "c3" : "QC-JAV000007[01802] For method readNonProxyDesc list of called methods Object monObjet|int handles_assignN846782|boolean isCustomSubclassN847511"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3754,63 +3754,63 @@ var maDataBlocs = {
  , "c1" : "01813"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1813"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01813] In method java.io.ObjectInputStream.readNonProxyDesc@POLYN846321 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01813] In method java.io.ObjectInputStream.readNonProxyDesc@POLYN846449 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01818"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1818"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01818] In method java.io.ObjectInputStream.readNonProxyDesc@POLYN846321 the MagicNumber/String  'failed to read class descriptor' should be converted to const"
+ , "c3" : "QC-JAV000010[01818] In method java.io.ObjectInputStream.readNonProxyDesc@POLYN846449 the MagicNumber/String  'failed to read class descriptor' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01821"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1821"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01821] In method java.io.ObjectInputStream.readNonProxyDesc@POLYN846321 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01821] In method java.io.ObjectInputStream.readNonProxyDesc@POLYN846449 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01822"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1822"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01822] In method java.io.ObjectInputStream.readNonProxyDesc@POLYN846321 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01822] In method java.io.ObjectInputStream.readNonProxyDesc@POLYN846449 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01823"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1823"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01823] In method java.io.ObjectInputStream.readNonProxyDesc@POLYN846321 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01823] In method java.io.ObjectInputStream.readNonProxyDesc@POLYN846449 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01826"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1826"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01826] In method java.io.ObjectInputStream.readNonProxyDesc@POLYN846321 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01826] In method java.io.ObjectInputStream.readNonProxyDesc@POLYN846449 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01827"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1827"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01827] In method java.io.ObjectInputStream.readNonProxyDesc@POLYN846321 the MagicNumber/String  'null class' should be converted to const"
+ , "c3" : "QC-JAV000010[01827] In method java.io.ObjectInputStream.readNonProxyDesc@POLYN846449 the MagicNumber/String  'null class' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01836"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1836"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01836] In method java.io.ObjectInputStream.readNonProxyDesc@POLYN846321 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01836] In method java.io.ObjectInputStream.readNonProxyDesc@POLYN846449 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01843"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1843"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01843] In method java.io.ObjectInputStream.readNonProxyDesc@POLYN846321 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01843] In method java.io.ObjectInputStream.readNonProxyDesc@POLYN846449 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3824,14 +3824,14 @@ var maDataBlocs = {
  , "c1" : "01858"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1858"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01858] For method readString list of called methods Object monObjet|byte bin_readByteN848746|java.lang.String bin_readUTFN848900|java.lang.String bin_readLongUTFN849023|int handles_assignN849262"
+ , "c3" : "QC-JAV000007[01858] For method readString list of called methods Object monObjet|byte bin_readByteN848874|java.lang.String bin_readUTFN849028|java.lang.String bin_readLongUTFN849151|int handles_assignN849390"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01872"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1872"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01872] In method java.io.ObjectInputStream.readString@POLYN848604 the MagicNumber/String  'invalid type code: %02X' should be converted to const"
+ , "c3" : "QC-JAV000010[01872] In method java.io.ObjectInputStream.readString@POLYN848732 the MagicNumber/String  'invalid type code: %02X' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3845,7 +3845,7 @@ var maDataBlocs = {
  , "c1" : "01883"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1883"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01883] For method readArray list of called methods Object monObjet|java.io.ObjectStreamClass readClassDescN849834|int bin_readIntN849924|java.lang.Class cl_getComponentTypeN850385|T Array_newInstanceN850459|int handles_assignN850580|java.lang.Object readObject0N853497"
+ , "c3" : "QC-JAV000007[01883] For method readArray list of called methods Object monObjet|java.io.ObjectStreamClass readClassDescN849962|int bin_readIntN850052|java.lang.Class cl_getComponentTypeN850513|T Array_newInstanceN850587|int handles_assignN850708|java.lang.Object readObject0N853625"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3859,133 +3859,133 @@ var maDataBlocs = {
  , "c1" : "01888"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1888"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01888] In method java.io.ObjectInputStream.readArray@POLYN849577 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01888] In method java.io.ObjectInputStream.readArray@POLYN849705 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01893"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1893"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01893] In method java.io.ObjectInputStream.readArray@POLYN849577 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01893] In method java.io.ObjectInputStream.readArray@POLYN849705 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01894"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1894"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01894] In method java.io.ObjectInputStream.readArray@POLYN849577 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01894] In method java.io.ObjectInputStream.readArray@POLYN849705 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01895"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1895"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01895] In method java.io.ObjectInputStream.readArray@POLYN849577 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01895] In method java.io.ObjectInputStream.readArray@POLYN849705 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01902"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1902"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01902] In method java.io.ObjectInputStream.readArray@POLYN849577 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01902] In method java.io.ObjectInputStream.readArray@POLYN849705 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01906"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1906"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01906] In method java.io.ObjectInputStream.readArray@POLYN849577 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01906] In method java.io.ObjectInputStream.readArray@POLYN849705 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01907"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1907"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01907] In method java.io.ObjectInputStream.readArray@POLYN849577 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01907] In method java.io.ObjectInputStream.readArray@POLYN849705 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01908"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1908"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01908] In method java.io.ObjectInputStream.readArray@POLYN849577 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01908] In method java.io.ObjectInputStream.readArray@POLYN849705 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01912"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1912"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01912] In method java.io.ObjectInputStream.readArray@POLYN849577 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01912] In method java.io.ObjectInputStream.readArray@POLYN849705 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01914"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1914"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01914] In method java.io.ObjectInputStream.readArray@POLYN849577 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01914] In method java.io.ObjectInputStream.readArray@POLYN849705 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01914"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1914"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01914] In method java.io.ObjectInputStream.readArray@POLYN849577 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01914] In method java.io.ObjectInputStream.readArray@POLYN849705 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01916"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1916"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01916] In method java.io.ObjectInputStream.readArray@POLYN849577 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01916] In method java.io.ObjectInputStream.readArray@POLYN849705 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01918"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1918"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01918] In method java.io.ObjectInputStream.readArray@POLYN849577 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01918] In method java.io.ObjectInputStream.readArray@POLYN849705 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01920"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1920"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01920] In method java.io.ObjectInputStream.readArray@POLYN849577 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01920] In method java.io.ObjectInputStream.readArray@POLYN849705 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01922"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1922"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01922] In method java.io.ObjectInputStream.readArray@POLYN849577 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01922] In method java.io.ObjectInputStream.readArray@POLYN849705 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01924"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1924"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01924] In method java.io.ObjectInputStream.readArray@POLYN849577 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01924] In method java.io.ObjectInputStream.readArray@POLYN849705 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01926"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1926"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01926] In method java.io.ObjectInputStream.readArray@POLYN849577 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01926] In method java.io.ObjectInputStream.readArray@POLYN849705 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01932"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1932"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01932] In method java.io.ObjectInputStream.readArray@POLYN849577 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01932] In method java.io.ObjectInputStream.readArray@POLYN849705 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01933"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1933"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01933] In method java.io.ObjectInputStream.readArray@POLYN849577 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01933] In method java.io.ObjectInputStream.readArray@POLYN849705 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3999,77 +3999,77 @@ var maDataBlocs = {
  , "c1" : "01947"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1947"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01947] For method readEnum list of called methods Object monObjet|java.io.ObjectStreamClass readClassDescN854190|int handles_assignN854456|java.lang.String readStringN854844"
+ , "c3" : "QC-JAV000007[01947] For method readEnum list of called methods Object monObjet|java.io.ObjectStreamClass readClassDescN854318|int handles_assignN854584|java.lang.String readStringN854972"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01952"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1952"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01952] In method java.io.ObjectInputStream.readEnum@POLYN853933 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01952] In method java.io.ObjectInputStream.readEnum@POLYN854061 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01954"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1954"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01954] In method java.io.ObjectInputStream.readEnum@POLYN853933 the MagicNumber/String  'non-enum class: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01954] In method java.io.ObjectInputStream.readEnum@POLYN854061 the MagicNumber/String  'non-enum class: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01957"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1957"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01957] In method java.io.ObjectInputStream.readEnum@POLYN853933 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01957] In method java.io.ObjectInputStream.readEnum@POLYN854061 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01959"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1959"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01959] In method java.io.ObjectInputStream.readEnum@POLYN853933 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01959] In method java.io.ObjectInputStream.readEnum@POLYN854061 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01963"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1963"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01963] In method java.io.ObjectInputStream.readEnum@POLYN853933 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01963] In method java.io.ObjectInputStream.readEnum@POLYN854061 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01964"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1964"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01964] In method java.io.ObjectInputStream.readEnum@POLYN853933 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01964] In method java.io.ObjectInputStream.readEnum@POLYN854061 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01966"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1966"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01966] In method java.io.ObjectInputStream.readEnum@POLYN853933 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01966] In method java.io.ObjectInputStream.readEnum@POLYN854061 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01968"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1968"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01968] In method java.io.ObjectInputStream.readEnum@POLYN853933 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[01968] In method java.io.ObjectInputStream.readEnum@POLYN854061 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01973"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1973"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01973] In method java.io.ObjectInputStream.readEnum@POLYN853933 the MagicNumber/String  'enum constant ' should be converted to const"
+ , "c3" : "QC-JAV000010[01973] In method java.io.ObjectInputStream.readEnum@POLYN854061 the MagicNumber/String  'enum constant ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01973"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1973"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01973] In method java.io.ObjectInputStream.readEnum@POLYN853933 the MagicNumber/String  ' does not exist in ' should be converted to const"
+ , "c3" : "QC-JAV000010[01973] In method java.io.ObjectInputStream.readEnum@POLYN854061 the MagicNumber/String  ' does not exist in ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4083,7 +4083,7 @@ var maDataBlocs = {
  , "c1" : "01993"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1993"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01993] For method readOrdinaryObject list of called methods Object monObjet|java.io.ObjectStreamClass readClassDescN856454|int handles_assignN857382|java.lang.Object cloneArrayN858523"
+ , "c3" : "QC-JAV000007[01993] For method readOrdinaryObject list of called methods Object monObjet|java.io.ObjectStreamClass readClassDescN856582|int handles_assignN857510|java.lang.Object cloneArrayN858651"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4097,63 +4097,63 @@ var maDataBlocs = {
  , "c1" : "02000"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2000"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02000] In method java.io.ObjectInputStream.readOrdinaryObject@POLYN856197 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[02000] In method java.io.ObjectInputStream.readOrdinaryObject@POLYN856325 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02006"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2006"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02006] In method java.io.ObjectInputStream.readOrdinaryObject@POLYN856197 the MagicNumber/String  'invalid class descriptor' should be converted to const"
+ , "c3" : "QC-JAV000010[02006] In method java.io.ObjectInputStream.readOrdinaryObject@POLYN856325 the MagicNumber/String  'invalid class descriptor' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02011"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2011"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02011] In method java.io.ObjectInputStream.readOrdinaryObject@POLYN856197 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02011] In method java.io.ObjectInputStream.readOrdinaryObject@POLYN856325 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02015"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2015"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02015] In method java.io.ObjectInputStream.readOrdinaryObject@POLYN856197 the MagicNumber/String  'unable to create instance' should be converted to const"
+ , "c3" : "QC-JAV000010[02015] In method java.io.ObjectInputStream.readOrdinaryObject@POLYN856325 the MagicNumber/String  'unable to create instance' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02020"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2020"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02020] In method java.io.ObjectInputStream.readOrdinaryObject@POLYN856197 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02020] In method java.io.ObjectInputStream.readOrdinaryObject@POLYN856325 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02032"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2032"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02032] In method java.io.ObjectInputStream.readOrdinaryObject@POLYN856197 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02032] In method java.io.ObjectInputStream.readOrdinaryObject@POLYN856325 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02033"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2033"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02033] In method java.io.ObjectInputStream.readOrdinaryObject@POLYN856197 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02033] In method java.io.ObjectInputStream.readOrdinaryObject@POLYN856325 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02042"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2042"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02042] In method java.io.ObjectInputStream.readOrdinaryObject@POLYN856197 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02042] In method java.io.ObjectInputStream.readOrdinaryObject@POLYN856325 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02046"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2046"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02046] In method java.io.ObjectInputStream.readOrdinaryObject@POLYN856197 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02046] In method java.io.ObjectInputStream.readOrdinaryObject@POLYN856325 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4174,35 +4174,35 @@ var maDataBlocs = {
  , "c1" : "02066"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2066"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02066] In method java.io.ObjectInputStream.readExternalData@POLYN859421 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02066] In method java.io.ObjectInputStream.readExternalData@POLYN859549 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02068"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2068"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02068] In method java.io.ObjectInputStream.readExternalData@POLYN859421 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02068] In method java.io.ObjectInputStream.readExternalData@POLYN859549 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02072"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2072"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02072] In method java.io.ObjectInputStream.readExternalData@POLYN859421 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[02072] In method java.io.ObjectInputStream.readExternalData@POLYN859549 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02074"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2074"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02074] In method java.io.ObjectInputStream.readExternalData@POLYN859421 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02074] In method java.io.ObjectInputStream.readExternalData@POLYN859549 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02092"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2092"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02092] In method java.io.ObjectInputStream.readExternalData@POLYN859421 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02092] In method java.io.ObjectInputStream.readExternalData@POLYN859549 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4265,126 +4265,126 @@ var maDataBlocs = {
  , "c1" : "02120"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02120] In method java.io.ObjectInputStream.readSerialData@POLYN861352 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02120] In method java.io.ObjectInputStream.readSerialData@POLYN861480 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02124"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02124] In method java.io.ObjectInputStream.readSerialData@POLYN861352 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02124] In method java.io.ObjectInputStream.readSerialData@POLYN861480 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02124"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02124] In method java.io.ObjectInputStream.readSerialData@POLYN861352 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02124] In method java.io.ObjectInputStream.readSerialData@POLYN861480 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02125"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02125] In method java.io.ObjectInputStream.readSerialData@POLYN861352 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02125] In method java.io.ObjectInputStream.readSerialData@POLYN861480 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02127"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02127] In method java.io.ObjectInputStream.readSerialData@POLYN861352 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02127] In method java.io.ObjectInputStream.readSerialData@POLYN861480 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02128"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02128] In method java.io.ObjectInputStream.readSerialData@POLYN861352 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[02128] In method java.io.ObjectInputStream.readSerialData@POLYN861480 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02130"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02130] In method java.io.ObjectInputStream.readSerialData@POLYN861352 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02130] In method java.io.ObjectInputStream.readSerialData@POLYN861480 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02135"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02135] In method java.io.ObjectInputStream.readSerialData@POLYN861352 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[02135] In method java.io.ObjectInputStream.readSerialData@POLYN861480 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02150"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02150] In method java.io.ObjectInputStream.readSerialData@POLYN861352 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02150] In method java.io.ObjectInputStream.readSerialData@POLYN861480 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02153"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02153] In method java.io.ObjectInputStream.readSerialData@POLYN861352 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[02153] In method java.io.ObjectInputStream.readSerialData@POLYN861480 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02158"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02158] In method java.io.ObjectInputStream.readSerialData@POLYN861352 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02158] In method java.io.ObjectInputStream.readSerialData@POLYN861480 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02167"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02167] In method java.io.ObjectInputStream.readSerialData@POLYN861352 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[02167] In method java.io.ObjectInputStream.readSerialData@POLYN861480 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02175"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02175] In method java.io.ObjectInputStream.readSerialData@POLYN861352 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[02175] In method java.io.ObjectInputStream.readSerialData@POLYN861480 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02178"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02178] In method java.io.ObjectInputStream.readSerialData@POLYN861352 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02178] In method java.io.ObjectInputStream.readSerialData@POLYN861480 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02180"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02180] In method java.io.ObjectInputStream.readSerialData@POLYN861352 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02180] In method java.io.ObjectInputStream.readSerialData@POLYN861480 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02197"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02197] In method java.io.ObjectInputStream.skipCustomData@POLYN864536 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[02197] In method java.io.ObjectInputStream.skipCustomData@POLYN864664 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02202"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2202"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02202] In method java.io.ObjectInputStream.skipCustomData@POLYN864536 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[02202] In method java.io.ObjectInputStream.skipCustomData@POLYN864664 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02211"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02211] In method java.io.ObjectInputStream.skipCustomData@POLYN864536 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[02211] In method java.io.ObjectInputStream.skipCustomData@POLYN864664 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4398,7 +4398,7 @@ var maDataBlocs = {
  , "c1" : "02222"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2222"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02222] For method defaultReadFields list of called methods Object monObjet|java.lang.reflect.Field[] desc_getFieldsN866645|java.lang.Object readObject0N867260"
+ , "c3" : "QC-JAV000007[02222] For method defaultReadFields list of called methods Object monObjet|java.lang.reflect.Field[] desc_getFieldsN866773|java.lang.Object readObject0N867388"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4419,91 +4419,91 @@ var maDataBlocs = {
  , "c1" : "02226"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02226] In method java.io.ObjectInputStream.defaultReadFields@POLYN865509 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02226] In method java.io.ObjectInputStream.defaultReadFields@POLYN865637 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02226"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02226] In method java.io.ObjectInputStream.defaultReadFields@POLYN865509 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02226] In method java.io.ObjectInputStream.defaultReadFields@POLYN865637 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02231"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2231"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02231] In method java.io.ObjectInputStream.defaultReadFields@POLYN865509 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02231] In method java.io.ObjectInputStream.defaultReadFields@POLYN865637 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02234"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02234] In method java.io.ObjectInputStream.defaultReadFields@POLYN865509 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02234] In method java.io.ObjectInputStream.defaultReadFields@POLYN865637 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02234"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02234] In method java.io.ObjectInputStream.defaultReadFields@POLYN865509 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[02234] In method java.io.ObjectInputStream.defaultReadFields@POLYN865637 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02235"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02235] In method java.io.ObjectInputStream.defaultReadFields@POLYN865509 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02235] In method java.io.ObjectInputStream.defaultReadFields@POLYN865637 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02240"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2240"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02240] In method java.io.ObjectInputStream.defaultReadFields@POLYN865509 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[02240] In method java.io.ObjectInputStream.defaultReadFields@POLYN865637 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02243"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2243"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02243] In method java.io.ObjectInputStream.defaultReadFields@POLYN865509 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02243] In method java.io.ObjectInputStream.defaultReadFields@POLYN865637 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02246"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02246] In method java.io.ObjectInputStream.defaultReadFields@POLYN865509 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02246] In method java.io.ObjectInputStream.defaultReadFields@POLYN865637 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02250"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2250"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02250] In method java.io.ObjectInputStream.defaultReadFields@POLYN865509 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02250] In method java.io.ObjectInputStream.defaultReadFields@POLYN865637 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02266"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2266"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02266] In method java.io.ObjectInputStream.readFatalException@POLYN867884 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[02266] In method java.io.ObjectInputStream.readFatalException@POLYN868012 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02275"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2275"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02275] In method java.io.ObjectInputStream.handleReset@POLYN868332 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02275] In method java.io.ObjectInputStream.handleReset@POLYN868460 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02277"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2277"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02277] In method java.io.ObjectInputStream.handleReset@POLYN868332 the MagicNumber/String  'unexpected reset; recursion depth: ' should be converted to const"
+ , "c3" : "QC-JAV000010[02277] In method java.io.ObjectInputStream.handleReset@POLYN868460 the MagicNumber/String  'unexpected reset; recursion depth: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4538,14 +4538,14 @@ var maDataBlocs = {
  , "c1" : "02343"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2343"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02343] In method java.io.ObjectInputStream.GetFieldImpl.defaulted@POLYN870365 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02343] In method java.io.ObjectInputStream.GetFieldImpl.defaulted@POLYN870493 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02343"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2343"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02343] In method java.io.ObjectInputStream.GetFieldImpl.defaulted@POLYN870365 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02343] In method java.io.ObjectInputStream.GetFieldImpl.defaulted@POLYN870493 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4559,14 +4559,14 @@ var maDataBlocs = {
  , "c1" : "02346"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2346"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02346] For method get list of called methods Object monObjet|int getFieldOffsetN870722"
+ , "c3" : "QC-JAV000007[02346] For method get list of called methods Object monObjet|int getFieldOffsetN870850"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02348"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2348"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02348] In method java.io.ObjectInputStream.GetFieldImpl.get@POLYN870586 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02348] In method java.io.ObjectInputStream.GetFieldImpl.get@POLYN870714 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4580,14 +4580,14 @@ var maDataBlocs = {
  , "c1" : "02351"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2351"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02351] For method get list of called methods Object monObjet|int getFieldOffsetN871136"
+ , "c3" : "QC-JAV000007[02351] For method get list of called methods Object monObjet|int getFieldOffsetN871264"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02353"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2353"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02353] In method java.io.ObjectInputStream.GetFieldImpl.get@POLYN871000 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02353] In method java.io.ObjectInputStream.GetFieldImpl.get@POLYN871128 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4601,14 +4601,14 @@ var maDataBlocs = {
  , "c1" : "02356"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2356"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02356] For method get list of called methods Object monObjet|int getFieldOffsetN871518"
+ , "c3" : "QC-JAV000007[02356] For method get list of called methods Object monObjet|int getFieldOffsetN871646"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02358"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2358"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02358] In method java.io.ObjectInputStream.GetFieldImpl.get@POLYN871382 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02358] In method java.io.ObjectInputStream.GetFieldImpl.get@POLYN871510 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4622,14 +4622,14 @@ var maDataBlocs = {
  , "c1" : "02361"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2361"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02361] For method get list of called methods Object monObjet|int getFieldOffsetN871932"
+ , "c3" : "QC-JAV000007[02361] For method get list of called methods Object monObjet|int getFieldOffsetN872060"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02363"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2363"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02363] In method java.io.ObjectInputStream.GetFieldImpl.get@POLYN871796 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02363] In method java.io.ObjectInputStream.GetFieldImpl.get@POLYN871924 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4643,14 +4643,14 @@ var maDataBlocs = {
  , "c1" : "02366"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2366"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02366] For method get list of called methods Object monObjet|int getFieldOffsetN872346"
+ , "c3" : "QC-JAV000007[02366] For method get list of called methods Object monObjet|int getFieldOffsetN872474"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02368"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2368"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02368] In method java.io.ObjectInputStream.GetFieldImpl.get@POLYN872210 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02368] In method java.io.ObjectInputStream.GetFieldImpl.get@POLYN872338 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4664,14 +4664,14 @@ var maDataBlocs = {
  , "c1" : "02371"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2371"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02371] For method get list of called methods Object monObjet|int getFieldOffsetN872760"
+ , "c3" : "QC-JAV000007[02371] For method get list of called methods Object monObjet|int getFieldOffsetN872888"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02373"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2373"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02373] In method java.io.ObjectInputStream.GetFieldImpl.get@POLYN872624 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02373] In method java.io.ObjectInputStream.GetFieldImpl.get@POLYN872752 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4685,14 +4685,14 @@ var maDataBlocs = {
  , "c1" : "02376"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2376"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02376] For method get list of called methods Object monObjet|int getFieldOffsetN873174"
+ , "c3" : "QC-JAV000007[02376] For method get list of called methods Object monObjet|int getFieldOffsetN873302"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02378"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2378"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02378] In method java.io.ObjectInputStream.GetFieldImpl.get@POLYN873038 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02378] In method java.io.ObjectInputStream.GetFieldImpl.get@POLYN873166 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4706,14 +4706,14 @@ var maDataBlocs = {
  , "c1" : "02381"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2381"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02381] For method get list of called methods Object monObjet|int getFieldOffsetN873588"
+ , "c3" : "QC-JAV000007[02381] For method get list of called methods Object monObjet|int getFieldOffsetN873716"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02383"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2383"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02383] In method java.io.ObjectInputStream.GetFieldImpl.get@POLYN873452 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02383] In method java.io.ObjectInputStream.GetFieldImpl.get@POLYN873580 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4727,63 +4727,63 @@ var maDataBlocs = {
  , "c1" : "02386"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2386"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02386] For method get list of called methods Object monObjet|int getFieldOffsetN874002"
+ , "c3" : "QC-JAV000007[02386] For method get list of called methods Object monObjet|int getFieldOffsetN874130"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02388"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2388"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02388] In method java.io.ObjectInputStream.GetFieldImpl.get@POLYN873866 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02388] In method java.io.ObjectInputStream.GetFieldImpl.get@POLYN873994 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02391"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2391"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02391] In method java.io.ObjectInputStream.GetFieldImpl.get@POLYN873866 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02391] In method java.io.ObjectInputStream.GetFieldImpl.get@POLYN873994 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02392"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2392"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02392] In method java.io.ObjectInputStream.GetFieldImpl.get@POLYN873866 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02392] In method java.io.ObjectInputStream.GetFieldImpl.get@POLYN873994 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02401"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2401"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02401] For method readFields list of called methods Object monObjet|java.lang.reflect.Field[] desc_getFieldsN874929|java.lang.Object readObject0N875317"
+ , "c3" : "QC-JAV000007[02401] For method readFields list of called methods Object monObjet|java.lang.reflect.Field[] desc_getFieldsN875057|java.lang.Object readObject0N875445"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02402"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2402"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02402] In method java.io.ObjectInputStream.GetFieldImpl.readFields@POLYN874632 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02402] In method java.io.ObjectInputStream.GetFieldImpl.readFields@POLYN874760 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02402"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2402"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02402] In method java.io.ObjectInputStream.GetFieldImpl.readFields@POLYN874632 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[02402] In method java.io.ObjectInputStream.GetFieldImpl.readFields@POLYN874760 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02405"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2405"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02405] In method java.io.ObjectInputStream.GetFieldImpl.readFields@POLYN874632 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[02405] In method java.io.ObjectInputStream.GetFieldImpl.readFields@POLYN874760 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02407"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2407"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02407] In method java.io.ObjectInputStream.GetFieldImpl.readFields@POLYN874632 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02407] In method java.io.ObjectInputStream.GetFieldImpl.readFields@POLYN874760 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4797,42 +4797,42 @@ var maDataBlocs = {
  , "c1" : "02424"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2424"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02424] For method getFieldOffset list of called methods Object monObjet|java.lang.reflect.Field desc_getFieldN876036"
+ , "c3" : "QC-JAV000007[02424] For method getFieldOffset list of called methods Object monObjet|java.lang.reflect.Field desc_getFieldN876164"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02426"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2426"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02426] In method java.io.ObjectInputStream.GetFieldImpl.getFieldOffset@POLYN875897 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02426] In method java.io.ObjectInputStream.GetFieldImpl.getFieldOffset@POLYN876025 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02428"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2428"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02428] In method java.io.ObjectInputStream.GetFieldImpl.getFieldOffset@POLYN875897 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02428] In method java.io.ObjectInputStream.GetFieldImpl.getFieldOffset@POLYN876025 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02429"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2429"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02429] In method java.io.ObjectInputStream.GetFieldImpl.getFieldOffset@POLYN875897 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02429] In method java.io.ObjectInputStream.GetFieldImpl.getFieldOffset@POLYN876025 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02431"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2431"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02431] In method java.io.ObjectInputStream.GetFieldImpl.getFieldOffset@POLYN875897 the MagicNumber/String  'no such field ' should be converted to const"
+ , "c3" : "QC-JAV000010[02431] In method java.io.ObjectInputStream.GetFieldImpl.getFieldOffset@POLYN876025 the MagicNumber/String  'no such field ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02432"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2432"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02432] In method java.io.ObjectInputStream.GetFieldImpl.getFieldOffset@POLYN875897 the MagicNumber/String  ' with type ' should be converted to const"
+ , "c3" : "QC-JAV000010[02432] In method java.io.ObjectInputStream.GetFieldImpl.getFieldOffset@POLYN876025 the MagicNumber/String  ' with type ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4846,35 +4846,35 @@ var maDataBlocs = {
  , "c1" : "02475"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2475"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02475] In method java.io.ObjectInputStream.ValidationList.register@POLYN877469 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02475] In method java.io.ObjectInputStream.ValidationList.register@POLYN877597 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02476"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2476"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02476] In method java.io.ObjectInputStream.ValidationList.register@POLYN877469 the MagicNumber/String  'null callback' should be converted to const"
+ , "c3" : "QC-JAV000010[02476] In method java.io.ObjectInputStream.ValidationList.register@POLYN877597 the MagicNumber/String  'null callback' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02479"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2479"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02479] In method java.io.ObjectInputStream.ValidationList.register@POLYN877469 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02479] In method java.io.ObjectInputStream.ValidationList.register@POLYN877597 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02480"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2480"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02480] In method java.io.ObjectInputStream.ValidationList.register@POLYN877469 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02480] In method java.io.ObjectInputStream.ValidationList.register@POLYN877597 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02485"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2485"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02485] In method java.io.ObjectInputStream.ValidationList.register@POLYN877469 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02485] In method java.io.ObjectInputStream.ValidationList.register@POLYN877597 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4895,105 +4895,105 @@ var maDataBlocs = {
  , "c1" : "02501"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2501"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02501] In method java.io.ObjectInputStream.ValidationList.doCallbacks@POLYN878741 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02501] In method java.io.ObjectInputStream.ValidationList.doCallbacks@POLYN878869 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02507"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2507"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02507] In method java.io.ObjectInputStream.ValidationList.doCallbacks@POLYN878741 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02507] In method java.io.ObjectInputStream.ValidationList.doCallbacks@POLYN878869 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02513"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2513"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02513] In method java.io.ObjectInputStream.ValidationList.doCallbacks@POLYN878741 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02513] In method java.io.ObjectInputStream.ValidationList.doCallbacks@POLYN878869 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02522"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2522"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02522] In method java.io.ObjectInputStream.ValidationList.clear@POLYN879493 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[02522] In method java.io.ObjectInputStream.ValidationList.clear@POLYN879621 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02594"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2594"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02594] For method peek list of called methods Object monObjet|int in_readN881684"
+ , "c3" : "QC-JAV000007[02594] For method peek list of called methods Object monObjet|int in_readN881812"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02595"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2595"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02595] In method java.io.ObjectInputStream.PeekInputStream.peek@POLYN881489 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02595] In method java.io.ObjectInputStream.PeekInputStream.peek@POLYN881617 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02599"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2599"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02599] In method java.io.ObjectInputStream.PeekInputStream.peek@POLYN881489 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02599] In method java.io.ObjectInputStream.PeekInputStream.peek@POLYN881617 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02599"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2599"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02599] In method java.io.ObjectInputStream.PeekInputStream.peek@POLYN881489 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02599] In method java.io.ObjectInputStream.PeekInputStream.peek@POLYN881617 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02599"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2599"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02599] In method java.io.ObjectInputStream.PeekInputStream.peek@POLYN881489 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02599] In method java.io.ObjectInputStream.PeekInputStream.peek@POLYN881617 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02603"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2603"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02603] For method read list of called methods Object monObjet|int in_readN882232"
+ , "c3" : "QC-JAV000007[02603] For method read list of called methods Object monObjet|int in_readN882360"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02604"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2604"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02604] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN881896 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02604] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882024 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02606"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2606"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02606] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN881896 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02606] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882024 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02610"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2610"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02610] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN881896 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02610] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882024 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02610"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2610"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02610] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN881896 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02610] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882024 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02610"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2610"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02610] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN881896 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02610] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882024 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5007,84 +5007,84 @@ var maDataBlocs = {
  , "c1" : "02615"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2615"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02615] For method read list of called methods Object monObjet|int in_readN882823|int in_readN883345"
+ , "c3" : "QC-JAV000007[02615] For method read list of called methods Object monObjet|int in_readN882951|int in_readN883473"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02617"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2617"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02617] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882447 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02617] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882575 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02618"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2618"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02618] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882447 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02618] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882575 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02619"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2619"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02619] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882447 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02619] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882575 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02621"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2621"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02621] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882447 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02621] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882575 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02621"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2621"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02621] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882447 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02621] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882575 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02626"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2626"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02626] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882447 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02626] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882575 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02628"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2628"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02628] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882447 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02628] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882575 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02628"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2628"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02628] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882447 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02628] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882575 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02629"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2629"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02629] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882447 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02629] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882575 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02629"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2629"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02629] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882447 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02629] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882575 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02629"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2629"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02629] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882447 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02629] In method java.io.ObjectInputStream.PeekInputStream.read@POLYN882575 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5098,21 +5098,21 @@ var maDataBlocs = {
  , "c1" : "02633"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2633"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02633] For method readFully list of called methods Object monObjet|int readN884039"
+ , "c3" : "QC-JAV000007[02633] For method readFully list of called methods Object monObjet|int readN884167"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02634"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2634"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02634] In method java.io.ObjectInputStream.PeekInputStream.readFully@POLYN883746 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02634] In method java.io.ObjectInputStream.PeekInputStream.readFully@POLYN883874 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02637"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2637"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02637] In method java.io.ObjectInputStream.PeekInputStream.readFully@POLYN883746 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02637] In method java.io.ObjectInputStream.PeekInputStream.readFully@POLYN883874 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5126,56 +5126,56 @@ var maDataBlocs = {
  , "c1" : "02645"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2645"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02645] In method java.io.ObjectInputStream.PeekInputStream.skip@POLYN884376 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02645] In method java.io.ObjectInputStream.PeekInputStream.skip@POLYN884504 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02646"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2646"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02646] In method java.io.ObjectInputStream.PeekInputStream.skip@POLYN884376 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02646] In method java.io.ObjectInputStream.PeekInputStream.skip@POLYN884504 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02648"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2648"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02648] In method java.io.ObjectInputStream.PeekInputStream.skip@POLYN884376 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02648] In method java.io.ObjectInputStream.PeekInputStream.skip@POLYN884504 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02649"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2649"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02649] In method java.io.ObjectInputStream.PeekInputStream.skip@POLYN884376 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02649] In method java.io.ObjectInputStream.PeekInputStream.skip@POLYN884504 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02650"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2650"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02650] In method java.io.ObjectInputStream.PeekInputStream.skip@POLYN884376 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02650] In method java.io.ObjectInputStream.PeekInputStream.skip@POLYN884504 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02660"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2660"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02660] In method java.io.ObjectInputStream.PeekInputStream.available@POLYN885050 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02660] In method java.io.ObjectInputStream.PeekInputStream.available@POLYN885178 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02660"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2660"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02660] In method java.io.ObjectInputStream.PeekInputStream.available@POLYN885050 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02660] In method java.io.ObjectInputStream.PeekInputStream.available@POLYN885178 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02660"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2660"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02660] In method java.io.ObjectInputStream.PeekInputStream.available@POLYN885050 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02660] In method java.io.ObjectInputStream.PeekInputStream.available@POLYN885178 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5189,42 +5189,42 @@ var maDataBlocs = {
  , "c1" : "02736"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2736"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02736] In method java.io.ObjectInputStream.BlockDataInputStream.setBlockDataMode@POLYN887451 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02736] In method java.io.ObjectInputStream.BlockDataInputStream.setBlockDataMode@POLYN887579 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02737"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2737"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02737] In method java.io.ObjectInputStream.BlockDataInputStream.setBlockDataMode@POLYN887451 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02737] In method java.io.ObjectInputStream.BlockDataInputStream.setBlockDataMode@POLYN887579 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02738"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2738"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02738] In method java.io.ObjectInputStream.BlockDataInputStream.setBlockDataMode@POLYN887451 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02738] In method java.io.ObjectInputStream.BlockDataInputStream.setBlockDataMode@POLYN887579 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02740"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2740"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02740] In method java.io.ObjectInputStream.BlockDataInputStream.setBlockDataMode@POLYN887451 the MagicNumber/String  'unread block data' should be converted to const"
+ , "c3" : "QC-JAV000010[02740] In method java.io.ObjectInputStream.BlockDataInputStream.setBlockDataMode@POLYN887579 the MagicNumber/String  'unread block data' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02761"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2761"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02761] In method java.io.ObjectInputStream.BlockDataInputStream.skipBlockData@POLYN888390 the MagicNumber/String  'not in block data mode' should be converted to const"
+ , "c3" : "QC-JAV000010[02761] In method java.io.ObjectInputStream.BlockDataInputStream.skipBlockData@POLYN888518 the MagicNumber/String  'not in block data mode' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02763"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2763"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02763] In method java.io.ObjectInputStream.BlockDataInputStream.skipBlockData@POLYN888390 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02763] In method java.io.ObjectInputStream.BlockDataInputStream.skipBlockData@POLYN888518 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5238,280 +5238,280 @@ var maDataBlocs = {
  , "c1" : "02783"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2783"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02783] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN888929 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02783] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN889057 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02788"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2788"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02788] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN888929 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02788] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN889057 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02795"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2795"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02795] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN888929 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[02795] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN889057 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02798"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2798"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02798] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN888929 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02798] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN889057 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02798"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2798"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02798] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN888929 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[02798] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN889057 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02799"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2799"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02799] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN888929 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02799] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN889057 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02799"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2799"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02799] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN888929 the MagicNumber/String  0xFF should be converted to const"
+ , "c3" : "QC-JAV000010[02799] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN889057 the MagicNumber/String  0xFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02802"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2802"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02802] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN888929 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[02802] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN889057 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02805"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2805"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02805] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN888929 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02805] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN889057 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02805"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2805"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02805] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN888929 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[02805] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN889057 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02806"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2806"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02806] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN888929 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02806] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN889057 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02807"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2807"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02807] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN888929 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02807] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN889057 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02809"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2809"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02809] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN888929 the MagicNumber/String  'illegal block data header length: ' should be converted to const"
+ , "c3" : "QC-JAV000010[02809] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN889057 the MagicNumber/String  'illegal block data header length: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02826"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2826"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02826] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN888929 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02826] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN889057 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02828"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2828"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02828] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN888929 the MagicNumber/String  'invalid type code: %02X' should be converted to const"
+ , "c3" : "QC-JAV000010[02828] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN889057 the MagicNumber/String  'invalid type code: %02X' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02831"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2831"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02831] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN888929 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02831] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN889057 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02836"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2836"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02836] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN888929 the MagicNumber/String  'unexpected EOF while reading block data header' should be converted to const"
+ , "c3" : "QC-JAV000010[02836] In method java.io.ObjectInputStream.BlockDataInputStream.readBlockHeader@POLYN889057 the MagicNumber/String  'unexpected EOF while reading block data header' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02850"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2850"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02850] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891656 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02850] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891784 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02851"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2851"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02851] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891656 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02851] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891784 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02853"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2853"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02853] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891656 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02853] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891784 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02854"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2854"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02854] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891656 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02854] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891784 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02859"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2859"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02859] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891656 the MagicNumber/String  'unexpected EOF in middle of data block' should be converted to const"
+ , "c3" : "QC-JAV000010[02859] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891784 the MagicNumber/String  'unexpected EOF in middle of data block' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02862"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2862"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02862] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891656 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[02862] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891784 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02863"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2863"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02863] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891656 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02863] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891784 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02864"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2864"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02864] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891656 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02864] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891784 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02867"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2867"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02867] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891656 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02867] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891784 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02868"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2868"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02868] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891656 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02868] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891784 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02873"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2873"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02873] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891656 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02873] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891784 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02874"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2874"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02874] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891656 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02874] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891784 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02875"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2875"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02875] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891656 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02875] In method java.io.ObjectInputStream.BlockDataInputStream.refill@POLYN891784 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02887"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2887"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02887] In method java.io.ObjectInputStream.BlockDataInputStream.currentBlockRemaining@POLYN893238 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02887] In method java.io.ObjectInputStream.BlockDataInputStream.currentBlockRemaining@POLYN893366 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02887"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2887"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02887] In method java.io.ObjectInputStream.BlockDataInputStream.currentBlockRemaining@POLYN893238 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02887] In method java.io.ObjectInputStream.BlockDataInputStream.currentBlockRemaining@POLYN893366 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02903"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2903"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02903] In method java.io.ObjectInputStream.BlockDataInputStream.peek@POLYN893755 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02903] In method java.io.ObjectInputStream.BlockDataInputStream.peek@POLYN893883 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02903"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2903"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02903] In method java.io.ObjectInputStream.BlockDataInputStream.peek@POLYN893755 the MagicNumber/String  0xFF should be converted to const"
+ , "c3" : "QC-JAV000010[02903] In method java.io.ObjectInputStream.BlockDataInputStream.peek@POLYN893883 the MagicNumber/String  0xFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02903"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2903"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02903] In method java.io.ObjectInputStream.BlockDataInputStream.peek@POLYN893755 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02903] In method java.io.ObjectInputStream.BlockDataInputStream.peek@POLYN893883 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02914"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2914"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02914] For method peekByte list of called methods Object monObjet|int peekN894483"
+ , "c3" : "QC-JAV000007[02914] For method peekByte list of called methods Object monObjet|int peekN894611"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02916"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2916"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02916] In method java.io.ObjectInputStream.BlockDataInputStream.peekByte@POLYN894394 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02916] In method java.io.ObjectInputStream.BlockDataInputStream.peekByte@POLYN894522 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02936"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2936"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02936] In method java.io.ObjectInputStream.BlockDataInputStream.read@POLYN894842 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02936] In method java.io.ObjectInputStream.BlockDataInputStream.read@POLYN894970 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02936"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2936"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02936] In method java.io.ObjectInputStream.BlockDataInputStream.read@POLYN894842 the MagicNumber/String  0xFF should be converted to const"
+ , "c3" : "QC-JAV000010[02936] In method java.io.ObjectInputStream.BlockDataInputStream.read@POLYN894970 the MagicNumber/String  0xFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02936"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2936"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02936] In method java.io.ObjectInputStream.BlockDataInputStream.read@POLYN894842 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02936] In method java.io.ObjectInputStream.BlockDataInputStream.read@POLYN894970 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5525,7 +5525,7 @@ var maDataBlocs = {
  , "c1" : "02943"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2943"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02943] In method java.io.ObjectInputStream.BlockDataInputStream.read@POLYN895363 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[02943] In method java.io.ObjectInputStream.BlockDataInputStream.read@POLYN895491 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5539,7 +5539,7 @@ var maDataBlocs = {
  , "c1" : "02946"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2946"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02946] For method skip list of called methods Object monObjet|int in_readN896581"
+ , "c3" : "QC-JAV000007[02946] For method skip list of called methods Object monObjet|int in_readN896709"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5553,35 +5553,35 @@ var maDataBlocs = {
  , "c1" : "02948"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2948"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02948] In method java.io.ObjectInputStream.BlockDataInputStream.skip@POLYN895638 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02948] In method java.io.ObjectInputStream.BlockDataInputStream.skip@POLYN895766 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02953"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2953"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02953] In method java.io.ObjectInputStream.BlockDataInputStream.skip@POLYN895638 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02953] In method java.io.ObjectInputStream.BlockDataInputStream.skip@POLYN895766 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02961"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2961"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02961] In method java.io.ObjectInputStream.BlockDataInputStream.skip@POLYN895638 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02961] In method java.io.ObjectInputStream.BlockDataInputStream.skip@POLYN895766 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02961"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2961"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02961] In method java.io.ObjectInputStream.BlockDataInputStream.skip@POLYN895638 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02961] In method java.io.ObjectInputStream.BlockDataInputStream.skip@POLYN895766 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02970"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2970"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02970] For method available list of called methods Object monObjet|int readBlockHeaderN897221"
+ , "c3" : "QC-JAV000007[02970] For method available list of called methods Object monObjet|int readBlockHeaderN897349"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5595,105 +5595,105 @@ var maDataBlocs = {
  , "c1" : "02972"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2972"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02972] In method java.io.ObjectInputStream.BlockDataInputStream.available@POLYN896869 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02972] In method java.io.ObjectInputStream.BlockDataInputStream.available@POLYN896997 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02974"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2974"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02974] In method java.io.ObjectInputStream.BlockDataInputStream.available@POLYN896869 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[02974] In method java.io.ObjectInputStream.BlockDataInputStream.available@POLYN896997 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02974"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2974"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02974] In method java.io.ObjectInputStream.BlockDataInputStream.available@POLYN896869 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02974] In method java.io.ObjectInputStream.BlockDataInputStream.available@POLYN896997 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02979"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2979"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02979] In method java.io.ObjectInputStream.BlockDataInputStream.available@POLYN896869 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02979] In method java.io.ObjectInputStream.BlockDataInputStream.available@POLYN896997 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02980"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2980"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02980] In method java.io.ObjectInputStream.BlockDataInputStream.available@POLYN896869 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02980] In method java.io.ObjectInputStream.BlockDataInputStream.available@POLYN896997 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02981"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2981"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02981] In method java.io.ObjectInputStream.BlockDataInputStream.available@POLYN896869 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[02981] In method java.io.ObjectInputStream.BlockDataInputStream.available@POLYN896997 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02985"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2985"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02985] In method java.io.ObjectInputStream.BlockDataInputStream.available@POLYN896869 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02985] In method java.io.ObjectInputStream.BlockDataInputStream.available@POLYN896997 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02986"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2986"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02986] In method java.io.ObjectInputStream.BlockDataInputStream.available@POLYN896869 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02986] In method java.io.ObjectInputStream.BlockDataInputStream.available@POLYN896997 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02992"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2992"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02992] In method java.io.ObjectInputStream.BlockDataInputStream.available@POLYN896869 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02992] In method java.io.ObjectInputStream.BlockDataInputStream.available@POLYN896997 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02993"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2993"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02993] In method java.io.ObjectInputStream.BlockDataInputStream.available@POLYN896869 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02993] In method java.io.ObjectInputStream.BlockDataInputStream.available@POLYN896997 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02994"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2994"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02994] In method java.io.ObjectInputStream.BlockDataInputStream.available@POLYN896869 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02994] In method java.io.ObjectInputStream.BlockDataInputStream.available@POLYN896997 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02994"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2994"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[02994] In method java.io.ObjectInputStream.BlockDataInputStream.available@POLYN896869 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[02994] In method java.io.ObjectInputStream.BlockDataInputStream.available@POLYN896997 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03002"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3002"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03002] In method java.io.ObjectInputStream.BlockDataInputStream.close@POLYN898284 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03002] In method java.io.ObjectInputStream.BlockDataInputStream.close@POLYN898412 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03003"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3003"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03003] In method java.io.ObjectInputStream.BlockDataInputStream.close@POLYN898284 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[03003] In method java.io.ObjectInputStream.BlockDataInputStream.close@POLYN898412 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03004"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3004"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03004] In method java.io.ObjectInputStream.BlockDataInputStream.close@POLYN898284 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03004] In method java.io.ObjectInputStream.BlockDataInputStream.close@POLYN898412 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5707,56 +5707,56 @@ var maDataBlocs = {
  , "c1" : "03016"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3016"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03016] For method read list of called methods Object monObjet|int in_readN899870"
+ , "c3" : "QC-JAV000007[03016] For method read list of called methods Object monObjet|int in_readN899998"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03017"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3017"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03017] In method java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03017] In method java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03018"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3018"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03018] In method java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03018] In method java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03023"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3023"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03023] In method java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03023] In method java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03024"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3024"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03024] In method java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[03024] In method java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03031"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3031"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03031] In method java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03031] In method java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03032"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3032"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03032] In method java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03032] In method java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03033"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3033"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03033] In method java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898848 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03033] In method java.io.ObjectInputStream.BlockDataInputStream.read@POLYN898976 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5770,14 +5770,14 @@ var maDataBlocs = {
  , "c1" : "03050"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3050"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03050] In method java.io.ObjectInputStream.BlockDataInputStream.readFully@POLYN900583 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03050] In method java.io.ObjectInputStream.BlockDataInputStream.readFully@POLYN900711 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03050"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3050"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03050] In method java.io.ObjectInputStream.BlockDataInputStream.readFully@POLYN900583 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[03050] In method java.io.ObjectInputStream.BlockDataInputStream.readFully@POLYN900711 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5791,7 +5791,7 @@ var maDataBlocs = {
  , "c1" : "03054"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3054"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03054] In method java.io.ObjectInputStream.BlockDataInputStream.readFully@POLYN900805 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[03054] In method java.io.ObjectInputStream.BlockDataInputStream.readFully@POLYN900933 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5805,21 +5805,21 @@ var maDataBlocs = {
  , "c1" : "03057"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3057"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03057] For method readFully list of called methods Object monObjet|int readN901328"
+ , "c3" : "QC-JAV000007[03057] For method readFully list of called methods Object monObjet|int readN901456"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03060"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3060"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03060] In method java.io.ObjectInputStream.BlockDataInputStream.readFully@POLYN901067 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03060] In method java.io.ObjectInputStream.BlockDataInputStream.readFully@POLYN901195 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03062"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3062"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03062] In method java.io.ObjectInputStream.BlockDataInputStream.readFully@POLYN901067 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03062] In method java.io.ObjectInputStream.BlockDataInputStream.readFully@POLYN901195 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5833,301 +5833,301 @@ var maDataBlocs = {
  , "c1" : "03074"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3074"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03074] For method readBoolean list of called methods Object monObjet|int readN901945"
+ , "c3" : "QC-JAV000007[03074] For method readBoolean list of called methods Object monObjet|int readN902073"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03076"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3076"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03076] In method java.io.ObjectInputStream.BlockDataInputStream.readBoolean@POLYN901856 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03076] In method java.io.ObjectInputStream.BlockDataInputStream.readBoolean@POLYN901984 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03079"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3079"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03079] In method java.io.ObjectInputStream.BlockDataInputStream.readBoolean@POLYN901856 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03079] In method java.io.ObjectInputStream.BlockDataInputStream.readBoolean@POLYN901984 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03082"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3082"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03082] For method readByte list of called methods Object monObjet|int readN902286"
+ , "c3" : "QC-JAV000007[03082] For method readByte list of called methods Object monObjet|int readN902414"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03084"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3084"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03084] In method java.io.ObjectInputStream.BlockDataInputStream.readByte@POLYN902197 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03084] In method java.io.ObjectInputStream.BlockDataInputStream.readByte@POLYN902325 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03090"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3090"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03090] For method readUnsignedByte list of called methods Object monObjet|int readN902600"
+ , "c3" : "QC-JAV000007[03090] For method readUnsignedByte list of called methods Object monObjet|int readN902728"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03092"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3092"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03092] In method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902511 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03092] In method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedByte@POLYN902639 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03100"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03100] In method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902806 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03100] In method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902934 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03101"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03101] In method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902806 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03101] In method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902934 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03101"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03101] In method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902806 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03101] In method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902934 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03102"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03102] In method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902806 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03102] In method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902934 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03106"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03106] In method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902806 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03106] In method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902934 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03112"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03112] In method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903462 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03112] In method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903590 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03113"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03113] In method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903462 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03113] In method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903590 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03113"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03113] In method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903462 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03113] In method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903590 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03114"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03114] In method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903462 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03114] In method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903590 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03118"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03118] In method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903462 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03118] In method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903590 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03124"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03124] In method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904118 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03124] In method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904246 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03125"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03125] In method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904118 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03125] In method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904246 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03125"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03125] In method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904118 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03125] In method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904246 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03126"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03126] In method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904118 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03126] In method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904246 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03129"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03129] In method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904118 the MagicNumber/String  0xFFFF should be converted to const"
+ , "c3" : "QC-JAV000010[03129] In method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904246 the MagicNumber/String  0xFFFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03130"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03130] In method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904118 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03130] In method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904246 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03136"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03136] In method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904798 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03136] In method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904926 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03137"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03137] In method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904798 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03137] In method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904926 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03137"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03137] In method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904798 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[03137] In method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904926 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03138"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03138] In method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904798 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[03138] In method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904926 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03142"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03142] In method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904798 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[03142] In method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904926 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03148"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03148] In method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905454 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03148] In method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905582 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03149"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03149] In method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905454 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03149] In method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905582 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03149"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03149] In method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905454 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[03149] In method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905582 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03150"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03150] In method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905454 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[03150] In method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905582 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03154"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03154] In method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905454 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[03154] In method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905582 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03160"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03160] In method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906110 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03160] In method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906238 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03161"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03161] In method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906110 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03161] In method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906238 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03161"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03161] In method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906110 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[03161] In method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906238 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03162"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03162] In method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906110 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[03162] In method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906238 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03166"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03166] In method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906110 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[03166] In method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906238 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03172"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03172] In method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906766 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03172] In method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906894 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03173"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03173] In method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906766 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03173] In method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906894 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03173"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03173] In method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906766 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[03173] In method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906894 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03174"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03174] In method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906766 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[03174] In method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906894 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03178"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03178] In method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906766 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[03178] In method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906894 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6141,28 +6141,28 @@ var maDataBlocs = {
  , "c1" : "03199"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3199"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03199] For method readBooleans list of called methods Object monObjet|boolean din_readBooleanN908754"
+ , "c3" : "QC-JAV000007[03199] For method readBooleans list of called methods Object monObjet|boolean din_readBooleanN908882"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03204"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03204] In method java.io.ObjectInputStream.BlockDataInputStream.readBooleans@POLYN907856 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03204] In method java.io.ObjectInputStream.BlockDataInputStream.readBooleans@POLYN907984 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03206"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03206] In method java.io.ObjectInputStream.BlockDataInputStream.readBooleans@POLYN907856 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03206] In method java.io.ObjectInputStream.BlockDataInputStream.readBooleans@POLYN907984 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03207"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3207"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03207] In method java.io.ObjectInputStream.BlockDataInputStream.readBooleans@POLYN907856 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[03207] In method java.io.ObjectInputStream.BlockDataInputStream.readBooleans@POLYN907984 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6176,56 +6176,56 @@ var maDataBlocs = {
  , "c1" : "03220"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3220"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03220] For method readChars list of called methods Object monObjet|char din_readCharN910166"
+ , "c3" : "QC-JAV000007[03220] For method readChars list of called methods Object monObjet|char din_readCharN910294"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03224"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3224"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03224] In method java.io.ObjectInputStream.BlockDataInputStream.readChars@POLYN909220 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[03224] In method java.io.ObjectInputStream.BlockDataInputStream.readChars@POLYN909348 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03225"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03225] In method java.io.ObjectInputStream.BlockDataInputStream.readChars@POLYN909220 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03225] In method java.io.ObjectInputStream.BlockDataInputStream.readChars@POLYN909348 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03225"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03225] In method java.io.ObjectInputStream.BlockDataInputStream.readChars@POLYN909220 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[03225] In method java.io.ObjectInputStream.BlockDataInputStream.readChars@POLYN909348 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03227"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3227"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03227] In method java.io.ObjectInputStream.BlockDataInputStream.readChars@POLYN909220 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03227] In method java.io.ObjectInputStream.BlockDataInputStream.readChars@POLYN909348 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03228"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3228"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03228] In method java.io.ObjectInputStream.BlockDataInputStream.readChars@POLYN909220 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03228] In method java.io.ObjectInputStream.BlockDataInputStream.readChars@POLYN909348 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03232"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03232] In method java.io.ObjectInputStream.BlockDataInputStream.readChars@POLYN909220 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[03232] In method java.io.ObjectInputStream.BlockDataInputStream.readChars@POLYN909348 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03237"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3237"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03237] In method java.io.ObjectInputStream.BlockDataInputStream.readChars@POLYN909220 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03237] In method java.io.ObjectInputStream.BlockDataInputStream.readChars@POLYN909348 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6239,56 +6239,56 @@ var maDataBlocs = {
  , "c1" : "03242"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3242"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03242] For method readShorts list of called methods Object monObjet|short din_readShortN911697"
+ , "c3" : "QC-JAV000007[03242] For method readShorts list of called methods Object monObjet|short din_readShortN911825"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03246"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03246] In method java.io.ObjectInputStream.BlockDataInputStream.readShorts@POLYN910751 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[03246] In method java.io.ObjectInputStream.BlockDataInputStream.readShorts@POLYN910879 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03247"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3247"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03247] In method java.io.ObjectInputStream.BlockDataInputStream.readShorts@POLYN910751 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03247] In method java.io.ObjectInputStream.BlockDataInputStream.readShorts@POLYN910879 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03247"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3247"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03247] In method java.io.ObjectInputStream.BlockDataInputStream.readShorts@POLYN910751 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[03247] In method java.io.ObjectInputStream.BlockDataInputStream.readShorts@POLYN910879 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03249"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3249"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03249] In method java.io.ObjectInputStream.BlockDataInputStream.readShorts@POLYN910751 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03249] In method java.io.ObjectInputStream.BlockDataInputStream.readShorts@POLYN910879 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03250"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3250"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03250] In method java.io.ObjectInputStream.BlockDataInputStream.readShorts@POLYN910751 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03250] In method java.io.ObjectInputStream.BlockDataInputStream.readShorts@POLYN910879 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03254"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3254"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03254] In method java.io.ObjectInputStream.BlockDataInputStream.readShorts@POLYN910751 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[03254] In method java.io.ObjectInputStream.BlockDataInputStream.readShorts@POLYN910879 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03259"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3259"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03259] In method java.io.ObjectInputStream.BlockDataInputStream.readShorts@POLYN910751 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03259] In method java.io.ObjectInputStream.BlockDataInputStream.readShorts@POLYN910879 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6302,56 +6302,56 @@ var maDataBlocs = {
  , "c1" : "03264"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3264"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03264] For method readInts list of called methods Object monObjet|int din_readIntN913228"
+ , "c3" : "QC-JAV000007[03264] For method readInts list of called methods Object monObjet|int din_readIntN913356"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03268"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3268"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03268] In method java.io.ObjectInputStream.BlockDataInputStream.readInts@POLYN912282 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03268] In method java.io.ObjectInputStream.BlockDataInputStream.readInts@POLYN912410 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03269"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3269"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03269] In method java.io.ObjectInputStream.BlockDataInputStream.readInts@POLYN912282 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03269] In method java.io.ObjectInputStream.BlockDataInputStream.readInts@POLYN912410 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03269"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3269"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03269] In method java.io.ObjectInputStream.BlockDataInputStream.readInts@POLYN912282 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03269] In method java.io.ObjectInputStream.BlockDataInputStream.readInts@POLYN912410 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03271"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3271"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03271] In method java.io.ObjectInputStream.BlockDataInputStream.readInts@POLYN912282 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03271] In method java.io.ObjectInputStream.BlockDataInputStream.readInts@POLYN912410 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03272"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3272"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03272] In method java.io.ObjectInputStream.BlockDataInputStream.readInts@POLYN912282 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[03272] In method java.io.ObjectInputStream.BlockDataInputStream.readInts@POLYN912410 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03276"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3276"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03276] In method java.io.ObjectInputStream.BlockDataInputStream.readInts@POLYN912282 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03276] In method java.io.ObjectInputStream.BlockDataInputStream.readInts@POLYN912410 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03281"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3281"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03281] In method java.io.ObjectInputStream.BlockDataInputStream.readInts@POLYN912282 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[03281] In method java.io.ObjectInputStream.BlockDataInputStream.readInts@POLYN912410 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6365,56 +6365,56 @@ var maDataBlocs = {
  , "c1" : "03286"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3286"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03286] For method readFloats list of called methods Object monObjet|float din_readFloatN914680"
+ , "c3" : "QC-JAV000007[03286] For method readFloats list of called methods Object monObjet|float din_readFloatN914808"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03290"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3290"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03290] In method java.io.ObjectInputStream.BlockDataInputStream.readFloats@POLYN913813 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03290] In method java.io.ObjectInputStream.BlockDataInputStream.readFloats@POLYN913941 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03291"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3291"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03291] In method java.io.ObjectInputStream.BlockDataInputStream.readFloats@POLYN913813 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03291] In method java.io.ObjectInputStream.BlockDataInputStream.readFloats@POLYN913941 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03291"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3291"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03291] In method java.io.ObjectInputStream.BlockDataInputStream.readFloats@POLYN913813 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03291] In method java.io.ObjectInputStream.BlockDataInputStream.readFloats@POLYN913941 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03292"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3292"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03292] In method java.io.ObjectInputStream.BlockDataInputStream.readFloats@POLYN913813 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03292] In method java.io.ObjectInputStream.BlockDataInputStream.readFloats@POLYN913941 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03293"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03293] In method java.io.ObjectInputStream.BlockDataInputStream.readFloats@POLYN913813 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[03293] In method java.io.ObjectInputStream.BlockDataInputStream.readFloats@POLYN913941 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03297"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3297"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03297] In method java.io.ObjectInputStream.BlockDataInputStream.readFloats@POLYN913813 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03297] In method java.io.ObjectInputStream.BlockDataInputStream.readFloats@POLYN913941 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03302"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3302"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03302] In method java.io.ObjectInputStream.BlockDataInputStream.readFloats@POLYN913813 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03302] In method java.io.ObjectInputStream.BlockDataInputStream.readFloats@POLYN913941 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6428,56 +6428,56 @@ var maDataBlocs = {
  , "c1" : "03306"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3306"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03306] For method readLongs list of called methods Object monObjet|long din_readLongN916215"
+ , "c3" : "QC-JAV000007[03306] For method readLongs list of called methods Object monObjet|long din_readLongN916343"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03310"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3310"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03310] In method java.io.ObjectInputStream.BlockDataInputStream.readLongs@POLYN915269 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[03310] In method java.io.ObjectInputStream.BlockDataInputStream.readLongs@POLYN915397 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03311"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3311"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03311] In method java.io.ObjectInputStream.BlockDataInputStream.readLongs@POLYN915269 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03311] In method java.io.ObjectInputStream.BlockDataInputStream.readLongs@POLYN915397 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03311"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3311"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03311] In method java.io.ObjectInputStream.BlockDataInputStream.readLongs@POLYN915269 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[03311] In method java.io.ObjectInputStream.BlockDataInputStream.readLongs@POLYN915397 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03313"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3313"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03313] In method java.io.ObjectInputStream.BlockDataInputStream.readLongs@POLYN915269 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03313] In method java.io.ObjectInputStream.BlockDataInputStream.readLongs@POLYN915397 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03314"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3314"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03314] In method java.io.ObjectInputStream.BlockDataInputStream.readLongs@POLYN915269 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[03314] In method java.io.ObjectInputStream.BlockDataInputStream.readLongs@POLYN915397 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03318"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3318"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03318] In method java.io.ObjectInputStream.BlockDataInputStream.readLongs@POLYN915269 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[03318] In method java.io.ObjectInputStream.BlockDataInputStream.readLongs@POLYN915397 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03323"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3323"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03323] In method java.io.ObjectInputStream.BlockDataInputStream.readLongs@POLYN915269 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[03323] In method java.io.ObjectInputStream.BlockDataInputStream.readLongs@POLYN915397 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6491,56 +6491,56 @@ var maDataBlocs = {
  , "c1" : "03328"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3328"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03328] For method readDoubles list of called methods Object monObjet|double din_readDoubleN917667"
+ , "c3" : "QC-JAV000007[03328] For method readDoubles list of called methods Object monObjet|double din_readDoubleN917795"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03332"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3332"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03332] In method java.io.ObjectInputStream.BlockDataInputStream.readDoubles@POLYN916800 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[03332] In method java.io.ObjectInputStream.BlockDataInputStream.readDoubles@POLYN916928 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03333"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3333"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03333] In method java.io.ObjectInputStream.BlockDataInputStream.readDoubles@POLYN916800 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03333] In method java.io.ObjectInputStream.BlockDataInputStream.readDoubles@POLYN916928 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03333"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3333"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03333] In method java.io.ObjectInputStream.BlockDataInputStream.readDoubles@POLYN916800 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[03333] In method java.io.ObjectInputStream.BlockDataInputStream.readDoubles@POLYN916928 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03334"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3334"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03334] In method java.io.ObjectInputStream.BlockDataInputStream.readDoubles@POLYN916800 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03334] In method java.io.ObjectInputStream.BlockDataInputStream.readDoubles@POLYN916928 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03335"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3335"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03335] In method java.io.ObjectInputStream.BlockDataInputStream.readDoubles@POLYN916800 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[03335] In method java.io.ObjectInputStream.BlockDataInputStream.readDoubles@POLYN916928 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03339"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3339"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03339] In method java.io.ObjectInputStream.BlockDataInputStream.readDoubles@POLYN916800 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[03339] In method java.io.ObjectInputStream.BlockDataInputStream.readDoubles@POLYN916928 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03344"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03344] In method java.io.ObjectInputStream.BlockDataInputStream.readDoubles@POLYN916800 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[03344] In method java.io.ObjectInputStream.BlockDataInputStream.readDoubles@POLYN916928 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6554,49 +6554,49 @@ var maDataBlocs = {
  , "c1" : "03362"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3362"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03362] For method readUTFBody list of called methods Object monObjet|long readUTFSpanN919314|int readUTFCharN919489"
+ , "c3" : "QC-JAV000007[03362] For method readUTFBody list of called methods Object monObjet|long readUTFSpanN919442|int readUTFCharN919617"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03365"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3365"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03365] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918703 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03365] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918831 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03368"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3368"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03368] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918703 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03368] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918831 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03370"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3370"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03370] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918703 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[03370] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918831 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03378"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3378"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03378] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918703 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03378] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918831 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03379"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3379"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03379] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918703 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03379] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918831 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03381"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3381"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03381] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918703 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03381] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFBody@POLYN918831 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6617,259 +6617,259 @@ var maDataBlocs = {
  , "c1" : "03400"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3400"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03400] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03400] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03404"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3404"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03404] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03404] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03405"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3405"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03405] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[03405] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03410"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3410"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03410] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  0xFF should be converted to const"
+ , "c3" : "QC-JAV000010[03410] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  0xFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03411"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3411"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03411] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[03411] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03412"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3412"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03412] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03412] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03413"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3413"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03413] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[03413] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03414"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3414"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03414] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03414] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03415"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3415"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03415] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[03415] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03416"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3416"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03416] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[03416] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03417"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3417"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03417] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[03417] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03418"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3418"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03418] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[03418] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03419"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3419"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03419] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  7 should be converted to const"
+ , "c3" : "QC-JAV000010[03419] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  7 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03423"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3423"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03423] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  12 should be converted to const"
+ , "c3" : "QC-JAV000010[03423] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  12 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03424"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3424"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03424] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  13 should be converted to const"
+ , "c3" : "QC-JAV000010[03424] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  13 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03426"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3426"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03426] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  0xC0 should be converted to const"
+ , "c3" : "QC-JAV000010[03426] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  0xC0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03426"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3426"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03426] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  0x80 should be converted to const"
+ , "c3" : "QC-JAV000010[03426] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  0x80 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03429"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3429"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03429] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  0x1F should be converted to const"
+ , "c3" : "QC-JAV000010[03429] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  0x1F should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03429"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3429"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03429] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[03429] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03430"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3430"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03430] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  0x3F should be converted to const"
+ , "c3" : "QC-JAV000010[03430] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  0x3F should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03430"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3430"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03430] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03430] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03433"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3433"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03433] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  14 should be converted to const"
+ , "c3" : "QC-JAV000010[03433] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  14 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03434"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3434"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03434] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[03434] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03435"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3435"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03435] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03435] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03436"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3436"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03436] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03436] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03437"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3437"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03437] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  0xC0 should be converted to const"
+ , "c3" : "QC-JAV000010[03437] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  0xC0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03437"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3437"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03437] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  0x80 should be converted to const"
+ , "c3" : "QC-JAV000010[03437] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  0x80 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03437"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3437"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03437] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  0xC0 should be converted to const"
+ , "c3" : "QC-JAV000010[03437] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  0xC0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03437"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3437"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03437] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  0x80 should be converted to const"
+ , "c3" : "QC-JAV000010[03437] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  0x80 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03440"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3440"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03440] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  0x0F should be converted to const"
+ , "c3" : "QC-JAV000010[03440] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  0x0F should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03440"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3440"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03440] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  12 should be converted to const"
+ , "c3" : "QC-JAV000010[03440] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  12 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03441"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3441"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03441] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  0x3F should be converted to const"
+ , "c3" : "QC-JAV000010[03441] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  0x3F should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03441"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3441"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03441] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[03441] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03442"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3442"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03442] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  0x3F should be converted to const"
+ , "c3" : "QC-JAV000010[03442] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  0x3F should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03442"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3442"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03442] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03442] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03450"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3450"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03450] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[03450] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03463"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3463"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03463] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920393 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03463] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFSpan@POLYN920521 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6883,7 +6883,7 @@ var maDataBlocs = {
  , "c1" : "03474"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3474"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03474] For method readUTFChar list of called methods Object monObjet|byte readByteN924702|byte readByteN925484|byte readByteN926362|byte readByteN926428"
+ , "c3" : "QC-JAV000007[03474] For method readUTFChar list of called methods Object monObjet|byte readByteN924830|byte readByteN925612|byte readByteN926490|byte readByteN926556"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6897,245 +6897,245 @@ var maDataBlocs = {
  , "c1" : "03478"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3478"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03478] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  0xFF should be converted to const"
+ , "c3" : "QC-JAV000010[03478] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  0xFF should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03479"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3479"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03479] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[03479] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03480"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3480"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03480] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03480] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03481"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3481"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03481] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[03481] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03482"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3482"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03482] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03482] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03483"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3483"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03483] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[03483] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03484"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3484"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03484] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[03484] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03485"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3485"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03485] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[03485] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03486"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3486"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03486] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[03486] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03487"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3487"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03487] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  7 should be converted to const"
+ , "c3" : "QC-JAV000010[03487] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  7 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03489"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3489"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03489] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[03489] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03491"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3491"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03491] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  12 should be converted to const"
+ , "c3" : "QC-JAV000010[03491] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  12 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03492"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3492"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03492] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  13 should be converted to const"
+ , "c3" : "QC-JAV000010[03492] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  13 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03493"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3493"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03493] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03493] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03497"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3497"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03497] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  0xC0 should be converted to const"
+ , "c3" : "QC-JAV000010[03497] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  0xC0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03497"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3497"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03497] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  0x80 should be converted to const"
+ , "c3" : "QC-JAV000010[03497] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  0x80 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03500"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3500"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03500] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  0x1F should be converted to const"
+ , "c3" : "QC-JAV000010[03500] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  0x1F should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03500"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3500"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03500] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[03500] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03501"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3501"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03501] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  0x3F should be converted to const"
+ , "c3" : "QC-JAV000010[03501] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  0x3F should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03501"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3501"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03501] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03501] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03502"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3502"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03502] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03502] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03504"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3504"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03504] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  14 should be converted to const"
+ , "c3" : "QC-JAV000010[03504] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  14 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03505"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3505"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03505] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[03505] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03506"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3506"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03506] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[03506] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03513"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3513"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03513] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  0xC0 should be converted to const"
+ , "c3" : "QC-JAV000010[03513] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  0xC0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03513"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3513"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03513] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  0x80 should be converted to const"
+ , "c3" : "QC-JAV000010[03513] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  0x80 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03513"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3513"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03513] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  0xC0 should be converted to const"
+ , "c3" : "QC-JAV000010[03513] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  0xC0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03513"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3513"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03513] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  0x80 should be converted to const"
+ , "c3" : "QC-JAV000010[03513] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  0x80 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03516"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3516"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03516] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  0x0F should be converted to const"
+ , "c3" : "QC-JAV000010[03516] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  0x0F should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03516"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3516"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03516] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  12 should be converted to const"
+ , "c3" : "QC-JAV000010[03516] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  12 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03517"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3517"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03517] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  0x3F should be converted to const"
+ , "c3" : "QC-JAV000010[03517] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  0x3F should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03517"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3517"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03517] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[03517] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03518"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3518"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03518] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  0x3F should be converted to const"
+ , "c3" : "QC-JAV000010[03518] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  0x3F should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03518"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3518"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03518] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03518] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03519"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3519"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03519] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924514 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[03519] In method java.io.ObjectInputStream.BlockDataInputStream.readUTFChar@POLYN924642 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -7156,14 +7156,14 @@ var maDataBlocs = {
  , "c1" : "03632"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3632"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03632] In method java.io.ObjectInputStream.HandleTable.markDependency@POLYN930043 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03632] In method java.io.ObjectInputStream.HandleTable.markDependency@POLYN930171 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03638"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3638"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03638] In method java.io.ObjectInputStream.HandleTable.markDependency@POLYN930043 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03638] In method java.io.ObjectInputStream.HandleTable.markDependency@POLYN930171 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -7177,28 +7177,28 @@ var maDataBlocs = {
  , "c1" : "03662"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3662"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03662] For method markException list of called methods Object monObjet|int dlist_sizeN932130"
+ , "c3" : "QC-JAV000007[03662] For method markException list of called methods Object monObjet|int dlist_sizeN932258"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03670"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3670"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03670] In method java.io.ObjectInputStream.HandleTable.markException@POLYN931576 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03670] In method java.io.ObjectInputStream.HandleTable.markException@POLYN931704 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03672"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3672"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03672] In method java.io.ObjectInputStream.HandleTable.markException@POLYN931576 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03672] In method java.io.ObjectInputStream.HandleTable.markException@POLYN931704 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03675"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3675"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03675] In method java.io.ObjectInputStream.HandleTable.markException@POLYN931576 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03675] In method java.io.ObjectInputStream.HandleTable.markException@POLYN931704 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -7212,28 +7212,28 @@ var maDataBlocs = {
  , "c1" : "03694"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3694"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03694] In method java.io.ObjectInputStream.HandleTable.finish@POLYN932800 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03694] In method java.io.ObjectInputStream.HandleTable.finish@POLYN932928 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03696"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3696"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03696] In method java.io.ObjectInputStream.HandleTable.finish@POLYN932800 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[03696] In method java.io.ObjectInputStream.HandleTable.finish@POLYN932928 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03700"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3700"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03700] In method java.io.ObjectInputStream.HandleTable.finish@POLYN932800 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[03700] In method java.io.ObjectInputStream.HandleTable.finish@POLYN932928 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03711"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3711"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03711] In method java.io.ObjectInputStream.HandleTable.finish@POLYN932800 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03711] In method java.io.ObjectInputStream.HandleTable.finish@POLYN932928 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -7254,7 +7254,7 @@ var maDataBlocs = {
  , "c1" : "03753"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3753"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03753] In method java.io.ObjectInputStream.HandleTable.lookupObject@POLYN934626 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03753] In method java.io.ObjectInputStream.HandleTable.lookupObject@POLYN934754 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -7268,119 +7268,119 @@ var maDataBlocs = {
  , "c1" : "03764"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3764"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03764] In method java.io.ObjectInputStream.HandleTable.lookupException@POLYN935046 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03764] In method java.io.ObjectInputStream.HandleTable.lookupException@POLYN935174 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03771"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3771"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03771] In method java.io.ObjectInputStream.HandleTable.clear@POLYN935393 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03771] In method java.io.ObjectInputStream.HandleTable.clear@POLYN935521 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03771"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3771"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03771] In method java.io.ObjectInputStream.HandleTable.clear@POLYN935393 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03771] In method java.io.ObjectInputStream.HandleTable.clear@POLYN935521 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03772"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3772"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03772] In method java.io.ObjectInputStream.HandleTable.clear@POLYN935393 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03772] In method java.io.ObjectInputStream.HandleTable.clear@POLYN935521 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03772"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3772"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03772] In method java.io.ObjectInputStream.HandleTable.clear@POLYN935393 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03772] In method java.io.ObjectInputStream.HandleTable.clear@POLYN935521 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03773"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3773"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03773] In method java.io.ObjectInputStream.HandleTable.clear@POLYN935393 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03773] In method java.io.ObjectInputStream.HandleTable.clear@POLYN935521 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03773"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3773"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03773] In method java.io.ObjectInputStream.HandleTable.clear@POLYN935393 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03773] In method java.io.ObjectInputStream.HandleTable.clear@POLYN935521 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03774"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3774"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03774] In method java.io.ObjectInputStream.HandleTable.clear@POLYN935393 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[03774] In method java.io.ObjectInputStream.HandleTable.clear@POLYN935521 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03775"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3775"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03775] In method java.io.ObjectInputStream.HandleTable.clear@POLYN935393 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03775] In method java.io.ObjectInputStream.HandleTable.clear@POLYN935521 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03789"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3789"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03789] In method java.io.ObjectInputStream.HandleTable.grow@POLYN936160 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[03789] In method java.io.ObjectInputStream.HandleTable.grow@POLYN936288 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03789"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3789"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03789] In method java.io.ObjectInputStream.HandleTable.grow@POLYN936160 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[03789] In method java.io.ObjectInputStream.HandleTable.grow@POLYN936288 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03795"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3795"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03795] In method java.io.ObjectInputStream.HandleTable.grow@POLYN936160 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03795] In method java.io.ObjectInputStream.HandleTable.grow@POLYN936288 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03795"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3795"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03795] In method java.io.ObjectInputStream.HandleTable.grow@POLYN936160 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03795] In method java.io.ObjectInputStream.HandleTable.grow@POLYN936288 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03796"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3796"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03796] In method java.io.ObjectInputStream.HandleTable.grow@POLYN936160 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03796] In method java.io.ObjectInputStream.HandleTable.grow@POLYN936288 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03796"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3796"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03796] In method java.io.ObjectInputStream.HandleTable.grow@POLYN936160 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03796] In method java.io.ObjectInputStream.HandleTable.grow@POLYN936288 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03797"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3797"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03797] In method java.io.ObjectInputStream.HandleTable.grow@POLYN936160 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03797] In method java.io.ObjectInputStream.HandleTable.grow@POLYN936288 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03797"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3797"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03797] In method java.io.ObjectInputStream.HandleTable.grow@POLYN936160 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03797] In method java.io.ObjectInputStream.HandleTable.grow@POLYN936288 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -7394,21 +7394,21 @@ var maDataBlocs = {
  , "c1" : "03816"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3816"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03816] In method java.io.ObjectInputStream.HandleTable.HandleList.add@POLYN937584 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[03816] In method java.io.ObjectInputStream.HandleTable.HandleList.add@POLYN937712 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03817"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3817"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03817] In method java.io.ObjectInputStream.HandleTable.HandleList.add@POLYN937584 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03817] In method java.io.ObjectInputStream.HandleTable.HandleList.add@POLYN937712 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03817"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3817"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03817] In method java.io.ObjectInputStream.HandleTable.HandleList.add@POLYN937584 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[03817] In method java.io.ObjectInputStream.HandleTable.HandleList.add@POLYN937712 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -7436,7 +7436,7 @@ var maDataBlocs = {
  , "c1" : "03865"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3865"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[03865] In method java.io.ObjectInputStream.validateDescriptor@POLYN940271 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[03865] In method java.io.ObjectInputStream.validateDescriptor@POLYN940399 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -7457,868 +7457,868 @@ var maDataBlocs = {
  , "c1" : "01983"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1983"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[01983] In java.io.ObjectInputStream.readEnum@POLYN853933[01983] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : "QC-JAVCWE099[01983] In java.io.ObjectInputStream.readEnum@POLYN854061[01983] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01964"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1964"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[01964] In java.io.ObjectInputStream.readEnum@POLYN853933[01964] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : "QC-JAVCWE099[01964] In java.io.ObjectInputStream.readEnum@POLYN854061[01964] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.readInt@POLYN817200 ending with method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904798"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.readInt@POLYN817328 ending with method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904926"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readInt@POLYN817200"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readInt@POLYN817328"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904798"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904926"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.BlockDataInputStream.readByte@POLYN902197"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.BlockDataInputStream.readByte@POLYN902325"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.BlockDataInputStream.peekByte@POLYN894394"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.BlockDataInputStream.peekByte@POLYN894522"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.validateDescriptor@POLYN940271"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.validateDescriptor@POLYN940399"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.clear@POLYN833535"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.clear@POLYN833663"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.cloneArray@POLYN938591"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.cloneArray@POLYN938719"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.readLong@POLYN817470 ending with method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906110"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.readLong@POLYN817598 ending with method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906238"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readLong@POLYN817470"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readLong@POLYN817598"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906110"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906238"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.readFloat@POLYN817740 ending with method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905454"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.readFloat@POLYN817868 ending with method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905582"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readFloat@POLYN817740"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readFloat@POLYN817868"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905454"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905582"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.readDouble@POLYN818010 ending with method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906766"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.readDouble@POLYN818138 ending with method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906894"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readDouble@POLYN818010"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readDouble@POLYN818138"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906766"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906894"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.readShort@POLYN816657 ending with method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903462"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.readShort@POLYN816785 ending with method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903590"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readShort@POLYN816657"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readShort@POLYN816785"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903462"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903590"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.readChar@POLYN816387 ending with method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902806"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.readChar@POLYN816515 ending with method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902934"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readChar@POLYN816387"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readChar@POLYN816515"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902806"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902934"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.readFields@POLYN801685"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.readFields@POLYN801813"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.readUnsignedShort@POLYN816930 ending with method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904118"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.readUnsignedShort@POLYN817058 ending with method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904246"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readUnsignedShort@POLYN816930"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readUnsignedShort@POLYN817058"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904118"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904246"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902806 ending with method java.io.ObjectInputStream.readChar@POLYN816387"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902934 ending with method java.io.ObjectInputStream.readChar@POLYN816515"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902806"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902934"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readChar@POLYN816387"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readChar@POLYN816515"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906766 ending with method java.io.ObjectInputStream.readDouble@POLYN818010"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906894 ending with method java.io.ObjectInputStream.readDouble@POLYN818138"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906766"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906894"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readDouble@POLYN818010"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readDouble@POLYN818138"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905454 ending with method java.io.ObjectInputStream.readFloat@POLYN817740"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905582 ending with method java.io.ObjectInputStream.readFloat@POLYN817868"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905454"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905582"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readFloat@POLYN817740"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readFloat@POLYN817868"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904798 ending with method java.io.ObjectInputStream.readInt@POLYN817200"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904926 ending with method java.io.ObjectInputStream.readInt@POLYN817328"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904798"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904926"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readInt@POLYN817200"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readInt@POLYN817328"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906110 ending with method java.io.ObjectInputStream.readLong@POLYN817470"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906238 ending with method java.io.ObjectInputStream.readLong@POLYN817598"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906110"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906238"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readLong@POLYN817470"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readLong@POLYN817598"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903462 ending with method java.io.ObjectInputStream.readShort@POLYN816657"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903590 ending with method java.io.ObjectInputStream.readShort@POLYN816785"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903462"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903590"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readShort@POLYN816657"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readShort@POLYN816785"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904118 ending with method java.io.ObjectInputStream.readUnsignedShort@POLYN816930"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904246 ending with method java.io.ObjectInputStream.readUnsignedShort@POLYN817058"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904118"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904246"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readUnsignedShort@POLYN816930"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readUnsignedShort@POLYN817058"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.GetFieldImpl.get@POLYN871000"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.GetFieldImpl.get@POLYN871128"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.GetFieldImpl.get@POLYN871382"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.GetFieldImpl.get@POLYN871510"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.GetFieldImpl.get@POLYN871796"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.GetFieldImpl.get@POLYN871924"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.GetFieldImpl.get@POLYN872210"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.GetFieldImpl.get@POLYN872338"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.GetFieldImpl.get@POLYN872624"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.GetFieldImpl.get@POLYN872752"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.GetFieldImpl.get@POLYN873038"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.GetFieldImpl.get@POLYN873166"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.GetFieldImpl.get@POLYN873452"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.GetFieldImpl.get@POLYN873580"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.close@POLYN815056"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.close@POLYN815184"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.readFatalException@POLYN867884"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.readFatalException@POLYN868012"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.GetFieldImpl.get@POLYN870586"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.GetFieldImpl.get@POLYN870714"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.skipBytes@POLYN819540 ending with method java.io.ObjectInputStream.BlockDataInputStream.skipBytes@POLYN901697"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.skipBytes@POLYN819668 ending with method java.io.ObjectInputStream.BlockDataInputStream.skipBytes@POLYN901825"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.skipBytes@POLYN819540"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.skipBytes@POLYN819668"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.skipBytes@POLYN901697"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.skipBytes@POLYN901825"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.skipBytes@POLYN901697 ending with method java.io.ObjectInputStream.skipBytes@POLYN819540"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.skipBytes@POLYN901825 ending with method java.io.ObjectInputStream.skipBytes@POLYN819668"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.skipBytes@POLYN901697"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.skipBytes@POLYN901825"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.skipBytes@POLYN819540"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.skipBytes@POLYN819668"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.GetFieldImpl.defaulted@POLYN870365"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.GetFieldImpl.defaulted@POLYN870493"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03136"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3136"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03136] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904798 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03136] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904926 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03137"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3137"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03137] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904798 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03137] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904926 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03137"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3137"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03137] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904798 the MagicNumber/String 4 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03137] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904926 the MagicNumber/String 4 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03138"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3138"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03138] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904798 the MagicNumber/String 4 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03138] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904926 the MagicNumber/String 4 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03142"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3142"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03142] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904798 the MagicNumber/String 4 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03142] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readInt@POLYN904926 the MagicNumber/String 4 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03084"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3084"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03084] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readByte@POLYN902197 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03084] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readByte@POLYN902325 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02916"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2916"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[02916] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.peekByte@POLYN894394 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[02916] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.peekByte@POLYN894522 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03865"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3865"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03865] In the recursive method java.io.ObjectInputStream.validateDescriptor@POLYN940271 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03865] In the recursive method java.io.ObjectInputStream.validateDescriptor@POLYN940399 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03160"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3160"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03160] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906110 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03160] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906238 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03161"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3161"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03161] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906110 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03161] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906238 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03161"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3161"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03161] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906110 the MagicNumber/String 8 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03161] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906238 the MagicNumber/String 8 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03162"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3162"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03162] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906110 the MagicNumber/String 8 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03162] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906238 the MagicNumber/String 8 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03166"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3166"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03166] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906110 the MagicNumber/String 8 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03166] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readLong@POLYN906238 the MagicNumber/String 8 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03148"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3148"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03148] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905454 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03148] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905582 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03149"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3149"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03149] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905454 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03149] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905582 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03149"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3149"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03149] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905454 the MagicNumber/String 4 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03149] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905582 the MagicNumber/String 4 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03150"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3150"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03150] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905454 the MagicNumber/String 4 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03150] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905582 the MagicNumber/String 4 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03154"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3154"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03154] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905454 the MagicNumber/String 4 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03154] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readFloat@POLYN905582 the MagicNumber/String 4 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03172"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3172"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03172] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906766 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03172] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906894 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03173"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3173"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03173] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906766 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03173] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906894 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03173"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3173"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03173] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906766 the MagicNumber/String 8 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03173] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906894 the MagicNumber/String 8 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03174"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3174"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03174] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906766 the MagicNumber/String 8 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03174] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906894 the MagicNumber/String 8 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03178"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3178"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03178] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906766 the MagicNumber/String 8 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03178] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readDouble@POLYN906894 the MagicNumber/String 8 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03112"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3112"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03112] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903462 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03112] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903590 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03113"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3113"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03113] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903462 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03113] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903590 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03113"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3113"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03113] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903462 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03113] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903590 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03114"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3114"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03114] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903462 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03114] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903590 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03118"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3118"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03118] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903462 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03118] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readShort@POLYN903590 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03100"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3100"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03100] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902806 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03100] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902934 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03101"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3101"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03101] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902806 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03101] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902934 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03101"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3101"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03101] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902806 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03101] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902934 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03102"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3102"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03102] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902806 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03102] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902934 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03106"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3106"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03106] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902806 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03106] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN902934 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00585"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#585"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00585] In the recursive method java.io.ObjectInputStream.readFields@POLYN801685 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00585] In the recursive method java.io.ObjectInputStream.readFields@POLYN801813 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00586"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#586"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00586] In the recursive method java.io.ObjectInputStream.readFields@POLYN801685 the MagicNumber/String 'not in call to readObject' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00586] In the recursive method java.io.ObjectInputStream.readFields@POLYN801813 the MagicNumber/String 'not in call to readObject' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00590"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#590"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00590] In the recursive method java.io.ObjectInputStream.readFields@POLYN801685 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00590] In the recursive method java.io.ObjectInputStream.readFields@POLYN801813 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00593"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#593"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00593] In the recursive method java.io.ObjectInputStream.readFields@POLYN801685 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00593] In the recursive method java.io.ObjectInputStream.readFields@POLYN801813 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00600"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#600"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00600] In the recursive method java.io.ObjectInputStream.readFields@POLYN801685 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00600] In the recursive method java.io.ObjectInputStream.readFields@POLYN801813 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03124"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3124"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03124] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904118 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03124] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904246 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03125"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3125"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03125] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904118 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03125] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904246 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03125"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3125"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03125] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904118 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03125] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904246 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03126"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3126"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03126] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904118 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03126] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904246 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03129"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3129"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03129] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904118 the MagicNumber/String 0xFFFF MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03129] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904246 the MagicNumber/String 0xFFFF MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "03130"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3130"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03130] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904118 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[03130] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN904246 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02353"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2353"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[02353] In the recursive method java.io.ObjectInputStream.GetFieldImpl.get@POLYN871000 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[02353] In the recursive method java.io.ObjectInputStream.GetFieldImpl.get@POLYN871128 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02358"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2358"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[02358] In the recursive method java.io.ObjectInputStream.GetFieldImpl.get@POLYN871382 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[02358] In the recursive method java.io.ObjectInputStream.GetFieldImpl.get@POLYN871510 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02363"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2363"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[02363] In the recursive method java.io.ObjectInputStream.GetFieldImpl.get@POLYN871796 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[02363] In the recursive method java.io.ObjectInputStream.GetFieldImpl.get@POLYN871924 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02368"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2368"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[02368] In the recursive method java.io.ObjectInputStream.GetFieldImpl.get@POLYN872210 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[02368] In the recursive method java.io.ObjectInputStream.GetFieldImpl.get@POLYN872338 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02373"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2373"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[02373] In the recursive method java.io.ObjectInputStream.GetFieldImpl.get@POLYN872624 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[02373] In the recursive method java.io.ObjectInputStream.GetFieldImpl.get@POLYN872752 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02378"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2378"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[02378] In the recursive method java.io.ObjectInputStream.GetFieldImpl.get@POLYN873038 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[02378] In the recursive method java.io.ObjectInputStream.GetFieldImpl.get@POLYN873166 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02383"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2383"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[02383] In the recursive method java.io.ObjectInputStream.GetFieldImpl.get@POLYN873452 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[02383] In the recursive method java.io.ObjectInputStream.GetFieldImpl.get@POLYN873580 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00942"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#942"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00942] In the recursive method java.io.ObjectInputStream.close@POLYN815056 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00942] In the recursive method java.io.ObjectInputStream.close@POLYN815184 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00943"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#943"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00943] In the recursive method java.io.ObjectInputStream.close@POLYN815056 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00943] In the recursive method java.io.ObjectInputStream.close@POLYN815184 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02266"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2266"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[02266] In the recursive method java.io.ObjectInputStream.readFatalException@POLYN867884 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[02266] In the recursive method java.io.ObjectInputStream.readFatalException@POLYN868012 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02348"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2348"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[02348] In the recursive method java.io.ObjectInputStream.GetFieldImpl.get@POLYN870586 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[02348] In the recursive method java.io.ObjectInputStream.GetFieldImpl.get@POLYN870714 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02343"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2343"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[02343] In the recursive method java.io.ObjectInputStream.GetFieldImpl.defaulted@POLYN870365 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[02343] In the recursive method java.io.ObjectInputStream.GetFieldImpl.defaulted@POLYN870493 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02343"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2343"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[02343] In the recursive method java.io.ObjectInputStream.GetFieldImpl.defaulted@POLYN870365 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[02343] In the recursive method java.io.ObjectInputStream.GetFieldImpl.defaulted@POLYN870493 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

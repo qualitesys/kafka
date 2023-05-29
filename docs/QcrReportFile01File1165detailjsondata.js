@@ -308,123 +308,123 @@ var maDataBlocs = {
 "data12a" : [
 { "ligne" :  "R0:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.this" }
 ,
-{ "ligne" :  "R1:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.requestTaskReconfiguration@POLYN237717.connName" }
+{ "ligne" :  "R1:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.requestTaskReconfiguration@POLYN237845.connName" }
 ,
-{ "ligne" :  "R2:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235837.connName" }
+{ "ligne" :  "R2:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235965.connName" }
 ,
-{ "ligne" :  "R3:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235837.config" }
+{ "ligne" :  "R3:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235965.config" }
 ,
-{ "ligne" :  "R4:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235837.allowReplace" }
+{ "ligne" :  "R4:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235965.allowReplace" }
 ,
-{ "ligne" :  "R5:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235837.callback" }
+{ "ligne" :  "R5:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235965.callback" }
 ,
-{ "ligne" :  "R6:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235837.configInfos" }
+{ "ligne" :  "R6:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235965.configInfos" }
 ,
-{ "ligne" :  "R7:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233856.connName" }
+{ "ligne" :  "R7:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233984.connName" }
 ,
-{ "ligne" :  "R8:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233856.callback" }
+{ "ligne" :  "R8:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233984.callback" }
 ,
-{ "ligne" :  "R9:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectors@POLYN232256.callback" }
+{ "ligne" :  "R9:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectors@POLYN232384.callback" }
 ,
-{ "ligne" :  "R10:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectorInfo@POLYN232487.connName" }
+{ "ligne" :  "R10:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectorInfo@POLYN232615.connName" }
 ,
-{ "ligne" :  "R11:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectorInfo@POLYN232487.callback" }
+{ "ligne" :  "R11:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectorInfo@POLYN232615.callback" }
 ,
-{ "ligne" :  "R12:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN234924.connName" }
+{ "ligne" :  "R12:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235052.connName" }
 ,
-{ "ligne" :  "R13:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN234924.config" }
+{ "ligne" :  "R13:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235052.config" }
 ,
-{ "ligne" :  "R14:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN234924.allowReplace" }
+{ "ligne" :  "R14:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235052.allowReplace" }
 ,
-{ "ligne" :  "R15:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN234924.callback" }
+{ "ligne" :  "R15:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235052.callback" }
 ,
-{ "ligne" :  "R16:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.taskConfigs@POLYN238091.connName" }
+{ "ligne" :  "R16:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.taskConfigs@POLYN238219.connName" }
 ,
-{ "ligne" :  "R17:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.taskConfigs@POLYN238091.callback" }
+{ "ligne" :  "R17:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.taskConfigs@POLYN238219.callback" }
 ,
-{ "ligne" :  "R18:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239554.taskId" }
+{ "ligne" :  "R18:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239682.taskId" }
 ,
-{ "ligne" :  "R19:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239554.cb" }
+{ "ligne" :  "R19:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239682.cb" }
 ,
-{ "ligne" :  "R20:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnector@POLYN240971.connName" }
+{ "ligne" :  "R20:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnector@POLYN241099.connName" }
 ,
-{ "ligne" :  "R21:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnector@POLYN240971.cb" }
+{ "ligne" :  "R21:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnector@POLYN241099.cb" }
 ,
-{ "ligne" :  "R22:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242176.request" }
+{ "ligne" :  "R22:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242304.request" }
 ,
-{ "ligne" :  "R23:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242176.cb" }
+{ "ligne" :  "R23:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242304.cb" }
 ]
 ,
 "data12b" : [
 { "sequence" : { "noseq" : "0" , "pas" : [
-{ "ligne" : "S0:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.requestTaskReconfiguration@POLYN237717 (R0 in line [00242],R1 in line [00242])" }
+{ "ligne" : "S0:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.requestTaskReconfiguration@POLYN237845 (R0 in line [00242],R1 in line [00242])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.requestTaskReconfiguration@POLYN237717 (R0 in line [00242],R1 in line [00242])" }
+{ "ligne" : "S0:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.requestTaskReconfiguration@POLYN237845 (R0 in line [00242],R1 in line [00242])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.requestTaskReconfiguration@POLYN237717.dummymethode_00245" }
+{ "ligne" : "S0:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.requestTaskReconfiguration@POLYN237845.dummymethode_00245" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "1" , "pas" : [
-{ "ligne" : "S1:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235837 (R0 in line [00201],R2 in line [00201],R3 in line [00201],R4 in line [00201],R5 in line [00201],R6 in line [00201])" }
+{ "ligne" : "S1:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235965 (R0 in line [00201],R2 in line [00201],R3 in line [00201],R4 in line [00201],R5 in line [00201],R6 in line [00201])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235837.dummymethode_00208" }
+{ "ligne" : "S1:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235965.dummymethode_00208" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "2" , "pas" : [
-{ "ligne" : "S2:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233856 (R0 in line [00161],R7 in line [00161],R8 in line [00161])" }
+{ "ligne" : "S2:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233984 (R0 in line [00161],R7 in line [00161],R8 in line [00161])" }
 ,
-{ "ligne" : "S2:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233856.dummymethode_00165" }
+{ "ligne" : "S2:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233984.dummymethode_00165" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "3" , "pas" : [
-{ "ligne" : "S3:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectors@POLYN232256 (R0 in line [00133],R9 in line [00133])" }
+{ "ligne" : "S3:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectors@POLYN232384 (R0 in line [00133],R9 in line [00133])" }
 ,
 { "ligne" : "S3:org.apache.kafka.connect.util.Callback.onCompletion" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "4" , "pas" : [
-{ "ligne" : "S4:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectorInfo@POLYN232487 (R0 in line [00138],R10 in line [00138],R11 in line [00138])" }
+{ "ligne" : "S4:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectorInfo@POLYN232615 (R0 in line [00138],R10 in line [00138],R11 in line [00138])" }
 ,
-{ "ligne" : "S4:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectorInfo@POLYN232487.dummymethode_00141" }
+{ "ligne" : "S4:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectorInfo@POLYN232615.dummymethode_00141" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "5" , "pas" : [
-{ "ligne" : "S5:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN234924 (R0 in line [00181],R12 in line [00181],R13 in line [00181],R14 in line [00181],R15 in line [00181])" }
+{ "ligne" : "S5:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235052 (R0 in line [00181],R12 in line [00181],R13 in line [00181],R14 in line [00181],R15 in line [00181])" }
 ,
-{ "ligne" : "S5:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN234924.dummymethode_00186" }
+{ "ligne" : "S5:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235052.dummymethode_00186" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "6" , "pas" : [
-{ "ligne" : "S6:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.taskConfigs@POLYN238091 (R0 in line [00251],R16 in line [00251],R17 in line [00251])" }
+{ "ligne" : "S6:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.taskConfigs@POLYN238219 (R0 in line [00251],R16 in line [00251],R17 in line [00251])" }
 ,
-{ "ligne" : "S6:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.taskConfigs@POLYN238091.dummymethode_00253" }
+{ "ligne" : "S6:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.taskConfigs@POLYN238219.dummymethode_00253" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "7" , "pas" : [
-{ "ligne" : "S7:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239554 (R0 in line [00274],R18 in line [00274],R19 in line [00274])" }
+{ "ligne" : "S7:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239682 (R0 in line [00274],R18 in line [00274],R19 in line [00274])" }
 ,
-{ "ligne" : "S7:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239554.dummymethode_00276" }
+{ "ligne" : "S7:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239682.dummymethode_00276" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "8" , "pas" : [
-{ "ligne" : "S8:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnector@POLYN240971 (R0 in line [00291],R20 in line [00291],R21 in line [00291])" }
+{ "ligne" : "S8:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnector@POLYN241099 (R0 in line [00291],R20 in line [00291],R21 in line [00291])" }
 ,
-{ "ligne" : "S8:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnector@POLYN240971.dummymethode_00293" }
+{ "ligne" : "S8:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnector@POLYN241099.dummymethode_00293" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "9" , "pas" : [
-{ "ligne" : "S9:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242176 (R0 in line [00309],R22 in line [00309],R23 in line [00309])" }
+{ "ligne" : "S9:org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242304 (R0 in line [00309],R22 in line [00309],R23 in line [00309])" }
 ,
-{ "ligne" : "S9:org.apache.kafka.connect.runtime.RestartRequest.connectorName@POLYN170978" }
+{ "ligne" : "S9:org.apache.kafka.connect.runtime.RestartRequest.connectorName@POLYN171106" }
  ]
  } }
 ]
@@ -537,21 +537,21 @@ var maDataBlocs = {
  , "c1" : "00098"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.start@POLYN231033 the MagicNumber/String  'Herder starting' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.start@POLYN231161 the MagicNumber/String  'Herder starting' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.start@POLYN231033 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.start@POLYN231161 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.start@POLYN231033 the MagicNumber/String  'Herder started' should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.start@POLYN231161 the MagicNumber/String  'Herder started' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -572,35 +572,35 @@ var maDataBlocs = {
  , "c1" : "00106"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN231339 the MagicNumber/String  'Herder stopping' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN231467 the MagicNumber/String  'Herder stopping' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN231339 the MagicNumber/String  30 should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN231467 the MagicNumber/String  30 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00123"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN231339 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN231467 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN231339 the MagicNumber/String  'Herder stopped' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN231467 the MagicNumber/String  'Herder stopped' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00129"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.generation@POLYN232157 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.generation@POLYN232285 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -628,7 +628,7 @@ var maDataBlocs = {
  , "c1" : "00134"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectors@POLYN232256 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectors@POLYN232384 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -656,35 +656,35 @@ var maDataBlocs = {
  , "c1" : "00140"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectorInfo@POLYN232487 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectorInfo@POLYN232615 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectorInfo@POLYN232487 the MagicNumber/String  'Connector ' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectorInfo@POLYN232615 the MagicNumber/String  'Connector ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectorInfo@POLYN232487 the MagicNumber/String  ' not found' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectorInfo@POLYN232615 the MagicNumber/String  ' not found' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectorInfo@POLYN232487 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectorInfo@POLYN232615 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectorInfo@POLYN232487 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectorInfo@POLYN232615 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -705,14 +705,14 @@ var maDataBlocs = {
  , "c1" : "00147"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#147"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00147] For method createConnectorInfo list of called methods Object monObjet|java.util.Map configState_rawConnectorConfigN233316"
+ , "c3" : "QC-JAV000007[00147] For method createConnectorInfo list of called methods Object monObjet|java.util.Map configState_rawConnectorConfigN233444"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00149"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.createConnectorInfo@POLYN233063 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.createConnectorInfo@POLYN233191 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -754,56 +754,56 @@ var maDataBlocs = {
  , "c1" : "00165"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233856 the MagicNumber/String  'Connector ' should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233984 the MagicNumber/String  'Connector ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00165"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233856 the MagicNumber/String  ' not found' should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233984 the MagicNumber/String  ' not found' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00165"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233856 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233984 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00165"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233856 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233984 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233856 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233984 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233856 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233984 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233856 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233984 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00175"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233856 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233984 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -831,21 +831,21 @@ var maDataBlocs = {
  , "c1" : "00187"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN234924 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235052 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00188"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN234924 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235052 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00197"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN234924 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235052 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -873,63 +873,63 @@ var maDataBlocs = {
  , "c1" : "00214"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235837 the MagicNumber/String  'Connector ' should be converted to const"
+ , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235965 the MagicNumber/String  'Connector ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00214"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235837 the MagicNumber/String  ' already exists' should be converted to const"
+ , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235965 the MagicNumber/String  ' already exists' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00214"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235837 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235965 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00218"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235837 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235965 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00220"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235837 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235965 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00226"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235837 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235965 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00227"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#227"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235837 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235965 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00233"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#233"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235837 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235965 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00237"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#237"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235837 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235965 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -950,7 +950,7 @@ var maDataBlocs = {
  , "c1" : "00244"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#244"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.requestTaskReconfiguration@POLYN237717 the MagicNumber/String  'Task that requested reconfiguration does not exist: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.requestTaskReconfiguration@POLYN237845 the MagicNumber/String  'Task that requested reconfiguration does not exist: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -978,35 +978,35 @@ var maDataBlocs = {
  , "c1" : "00253"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#253"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.taskConfigs@POLYN238091 the MagicNumber/String  'Connector ' should be converted to const"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.taskConfigs@POLYN238219 the MagicNumber/String  'Connector ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00253"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#253"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.taskConfigs@POLYN238091 the MagicNumber/String  ' not found' should be converted to const"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.taskConfigs@POLYN238219 the MagicNumber/String  ' not found' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00253"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#253"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.taskConfigs@POLYN238091 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.taskConfigs@POLYN238219 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00253"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#253"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.taskConfigs@POLYN238091 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.taskConfigs@POLYN238219 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00260"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#260"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00260] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.taskConfigs@POLYN238091 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00260] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.taskConfigs@POLYN238219 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1020,7 +1020,7 @@ var maDataBlocs = {
  , "c1" : "00265"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#265"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putTaskConfigs@POLYN239024 the MagicNumber/String  'Kafka Connect in standalone mode does not support externally setting task configurations.' should be converted to const"
+ , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putTaskConfigs@POLYN239152 the MagicNumber/String  'Kafka Connect in standalone mode does not support externally setting task configurations.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1034,7 +1034,7 @@ var maDataBlocs = {
  , "c1" : "00270"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#270"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.fenceZombieSourceTasks@POLYN239328 the MagicNumber/String  'Kafka Connect in standalone mode does not support exactly-once source connectors.' should be converted to const"
+ , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.fenceZombieSourceTasks@POLYN239456 the MagicNumber/String  'Kafka Connect in standalone mode does not support exactly-once source connectors.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1055,7 +1055,7 @@ var maDataBlocs = {
  , "c1" : "00274"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#274"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00274] For method restartTask list of called methods Object monObjet|java.util.Map configState_taskConfigN240059|java.util.Map configState_connectorConfigN240455"
+ , "c3" : "QC-JAV000007[00274] For method restartTask list of called methods Object monObjet|java.util.Map configState_taskConfigN240187|java.util.Map configState_connectorConfigN240583"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1076,91 +1076,91 @@ var maDataBlocs = {
  , "c1" : "00276"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#276"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239554 the MagicNumber/String  'Connector ' should be converted to const"
+ , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239682 the MagicNumber/String  'Connector ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00276"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#276"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239554 the MagicNumber/String  ' not found' should be converted to const"
+ , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239682 the MagicNumber/String  ' not found' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00276"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#276"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239554 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239682 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00276"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#276"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239554 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239682 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00279"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#279"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239554 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239682 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00280"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#280"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239554 the MagicNumber/String  'Task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239682 the MagicNumber/String  'Task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00280"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#280"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239554 the MagicNumber/String  ' not found' should be converted to const"
+ , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239682 the MagicNumber/String  ' not found' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00280"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#280"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239554 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239682 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00280"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#280"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239554 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239682 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00285"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239554 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239682 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00285"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239554 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239682 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00287"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#287"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239554 the MagicNumber/String  'Failed to start task: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239682 the MagicNumber/String  'Failed to start task: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00287"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#287"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239554 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239682 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1188,35 +1188,35 @@ var maDataBlocs = {
  , "c1" : "00293"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnector@POLYN240971 the MagicNumber/String  'Connector ' should be converted to const"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnector@POLYN241099 the MagicNumber/String  'Connector ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00293"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnector@POLYN240971 the MagicNumber/String  ' not found' should be converted to const"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnector@POLYN241099 the MagicNumber/String  ' not found' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00293"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnector@POLYN240971 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnector@POLYN241099 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00293"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnector@POLYN240971 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnector@POLYN241099 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00297"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#297"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnector@POLYN240971 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnector@POLYN241099 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1251,7 +1251,7 @@ var maDataBlocs = {
  , "c1" : "00309"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#309"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00309] For method restartConnectorAndTasks list of called methods Object monObjet|java.lang.String request_connectorNameN242317|java.util.Optional buildRestartPlanN242710"
+ , "c3" : "QC-JAV000007[00309] For method restartConnectorAndTasks list of called methods Object monObjet|java.lang.String request_connectorNameN242445|java.util.Optional buildRestartPlanN242838"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1272,112 +1272,112 @@ var maDataBlocs = {
  , "c1" : "00313"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#313"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242176 the MagicNumber/String  'Unknown connector: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242304 the MagicNumber/String  'Unknown connector: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00313"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#313"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242176 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242304 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00313"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#313"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242176 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242304 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00319"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#319"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242176 the MagicNumber/String  'Status for connector ' should be converted to const"
+ , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242304 the MagicNumber/String  'Status for connector ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00319"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#319"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242176 the MagicNumber/String  ' not found' should be converted to const"
+ , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242304 the MagicNumber/String  ' not found' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00319"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#319"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242176 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242304 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00319"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#319"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242176 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242304 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00325"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#325"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242176 the MagicNumber/String  'Received {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242304 the MagicNumber/String  'Received {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00338"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#338"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242176 the MagicNumber/String  'Restarting connector '{}'' should be converted to const"
+ , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242304 the MagicNumber/String  'Restarting connector '{}'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00340"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#340"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00340] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242176 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00340] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242304 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00341"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#341"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242176 the MagicNumber/String  'Connector '{}' restart successful' should be converted to const"
+ , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242304 the MagicNumber/String  'Connector '{}' restart successful' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00343"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#343"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242176 the MagicNumber/String  'Connector '{}' restart failed' should be converted to const"
+ , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242304 the MagicNumber/String  'Connector '{}' restart failed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00348"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#348"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00348] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242176 the MagicNumber/String  'Restarting {} of {} tasks for {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00348] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242304 the MagicNumber/String  'Restarting {} of {} tasks for {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00350"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#350"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00350] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242176 the MagicNumber/String  'Restarted {} of {} tasks for {} as requested' should be converted to const"
+ , "c3" : "QC-JAV000010[00350] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242304 the MagicNumber/String  'Restarted {} of {} tasks for {} as requested' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00353"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#353"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242176 the MagicNumber/String  'Completed {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242304 the MagicNumber/String  'Completed {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00354"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#354"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242176 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242304 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1391,7 +1391,7 @@ var maDataBlocs = {
  , "c1" : "00357"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#357"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00357] For method startConnector list of called methods Object monObjet|java.util.Map configState_connectorConfigN245221|TargetState configState_targetStateN245317"
+ , "c3" : "QC-JAV000007[00357] For method startConnector list of called methods Object monObjet|java.util.Map configState_connectorConfigN245349|TargetState configState_targetStateN245445"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1405,7 +1405,7 @@ var maDataBlocs = {
  , "c1" : "00363"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#363"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00363] For method recomputeTaskConfigs list of called methods Object monObjet|java.util.Map configState_connectorConfigN245820|boolean worker_isSinkConnectorN245916"
+ , "c3" : "QC-JAV000007[00363] For method recomputeTaskConfigs list of called methods Object monObjet|java.util.Map configState_connectorConfigN245948|boolean worker_isSinkConnectorN246044"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1419,7 +1419,7 @@ var maDataBlocs = {
  , "c1" : "00373"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#373"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00373] For method createConnectorTasks list of called methods Object monObjet|java.util.List configState_tasksN246420"
+ , "c3" : "QC-JAV000007[00373] For method createConnectorTasks list of called methods Object monObjet|java.util.List configState_tasksN246548"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1433,7 +1433,7 @@ var maDataBlocs = {
  , "c1" : "00378"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#378"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00378] For method createConnectorTasks list of called methods Object monObjet|java.util.Map configState_connectorConfigN246747"
+ , "c3" : "QC-JAV000007[00378] For method createConnectorTasks list of called methods Object monObjet|java.util.Map configState_connectorConfigN246875"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1461,14 +1461,14 @@ var maDataBlocs = {
  , "c1" : "00406"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#406"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00406] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.startTask@POLYN246981 the MagicNumber/String  'Failed to start task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00406] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.startTask@POLYN247109 the MagicNumber/String  'Failed to start task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00406"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#406"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00406] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.startTask@POLYN246981 the MagicNumber/String  ' since it is not a recognizable type (source or sink)' should be converted to const"
+ , "c3" : "QC-JAV000010[00406] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.startTask@POLYN247109 the MagicNumber/String  ' since it is not a recognizable type (source or sink)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1482,7 +1482,7 @@ var maDataBlocs = {
  , "c1" : "00410"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#410"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00410] For method removeConnectorTasks list of called methods Object monObjet|java.util.List configState_tasksN248111"
+ , "c3" : "QC-JAV000007[00410] For method removeConnectorTasks list of called methods Object monObjet|java.util.List configState_tasksN248239"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1496,14 +1496,14 @@ var maDataBlocs = {
  , "c1" : "00419"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#419"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00419] For method updateConnectorTasks list of called methods Object monObjet|java.util.List recomputeTaskConfigsN248839|java.util.List configState_allTaskConfigsN248985"
+ , "c3" : "QC-JAV000007[00419] For method updateConnectorTasks list of called methods Object monObjet|java.util.List recomputeTaskConfigsN248967|java.util.List configState_allTaskConfigsN249113"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00421"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#421"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.updateConnectorTasks@POLYN248477 the MagicNumber/String  'Skipping update of connector {} since it is not running' should be converted to const"
+ , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.updateConnectorTasks@POLYN248605 the MagicNumber/String  'Skipping update of connector {} since it is not running' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1517,7 +1517,7 @@ var maDataBlocs = {
  , "c1" : "00445"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#445"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00445] For method onConnectorConfigRemove list of called methods Object monObjet|org.apache.kafka.connect.storage.ClusterConfigState configBackingStore_snapshotN249773"
+ , "c3" : "QC-JAV000007[00445] For method onConnectorConfigRemove list of called methods Object monObjet|org.apache.kafka.connect.storage.ClusterConfigState configBackingStore_snapshotN249901"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1538,7 +1538,7 @@ var maDataBlocs = {
  , "c1" : "00452"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#452"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00452] For method onConnectorConfigUpdate list of called methods Object monObjet|org.apache.kafka.connect.storage.ClusterConfigState configBackingStore_snapshotN249982"
+ , "c3" : "QC-JAV000007[00452] For method onConnectorConfigUpdate list of called methods Object monObjet|org.apache.kafka.connect.storage.ClusterConfigState configBackingStore_snapshotN250110"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1559,7 +1559,7 @@ var maDataBlocs = {
  , "c1" : "00462"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#462"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00462] For method onTaskConfigUpdate list of called methods Object monObjet|org.apache.kafka.connect.storage.ClusterConfigState configBackingStore_snapshotN250212"
+ , "c3" : "QC-JAV000007[00462] For method onTaskConfigUpdate list of called methods Object monObjet|org.apache.kafka.connect.storage.ClusterConfigState configBackingStore_snapshotN250340"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1580,7 +1580,7 @@ var maDataBlocs = {
  , "c1" : "00469"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#469"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00469] For method onConnectorTargetStateChange list of called methods Object monObjet|org.apache.kafka.connect.storage.ClusterConfigState configBackingStore_snapshotN250421"
+ , "c3" : "QC-JAV000007[00469] For method onConnectorTargetStateChange list of called methods Object monObjet|org.apache.kafka.connect.storage.ClusterConfigState configBackingStore_snapshotN250549"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1594,14 +1594,14 @@ var maDataBlocs = {
  , "c1" : "00474"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#474"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.ConfigUpdateListener.onConnectorTargetStateChange@POLYN250274 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.ConfigUpdateListener.onConnectorTargetStateChange@POLYN250402 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00475"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#475"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00475] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.ConfigUpdateListener.onConnectorTargetStateChange@POLYN250274 the MagicNumber/String  'Failed to transition connector {} to target state {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00475] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.ConfigUpdateListener.onConnectorTargetStateChange@POLYN250402 the MagicNumber/String  'Failed to transition connector {} to target state {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1650,7 +1650,7 @@ var maDataBlocs = {
  , "c1" : "00508"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#508"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.StandaloneHerderRequest.cancel@POLYN251705 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.StandaloneHerderRequest.cancel@POLYN251833 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1664,14 +1664,14 @@ var maDataBlocs = {
  , "c1" : "00513"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#513"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.StandaloneHerderRequest.equals@POLYN251841 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.StandaloneHerderRequest.equals@POLYN251969 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00515"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#515"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00515] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.StandaloneHerderRequest.equals@POLYN251841 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00515] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.StandaloneHerderRequest.equals@POLYN251969 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1685,7 +1685,7 @@ var maDataBlocs = {
  , "c1" : "00527"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#527"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00527] For method tasksConfig list of called methods Object monObjet|java.util.Map buildTasksConfigN252697"
+ , "c3" : "QC-JAV000007[00527] For method tasksConfig list of called methods Object monObjet|java.util.Map buildTasksConfigN252825"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1699,21 +1699,21 @@ var maDataBlocs = {
  , "c1" : "00530"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#530"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.tasksConfig@POLYN252408 the MagicNumber/String  'Connector ' should be converted to const"
+ , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.tasksConfig@POLYN252536 the MagicNumber/String  'Connector ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00530"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#530"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.tasksConfig@POLYN252408 the MagicNumber/String  ' not found' should be converted to const"
+ , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.tasksConfig@POLYN252536 the MagicNumber/String  ' not found' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00533"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#533"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00533] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.tasksConfig@POLYN252408 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00533] In method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.tasksConfig@POLYN252536 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1727,259 +1727,259 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.requestTaskReconfiguration@POLYN237717.connName"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.requestTaskReconfiguration@POLYN237845.connName"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235837.connName"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235965.connName"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235837.config"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235965.config"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R4 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235837.allowReplace"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R4 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235965.allowReplace"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R5 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235837.callback"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R5 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235965.callback"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R6 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235837.configInfos"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R6 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235965.configInfos"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R7 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233856.connName"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R7 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233984.connName"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R8 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233856.callback"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R8 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.deleteConnectorConfig@POLYN233984.callback"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R9 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectors@POLYN232256.callback"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R9 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectors@POLYN232384.callback"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R10 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectorInfo@POLYN232487.connName"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R10 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectorInfo@POLYN232615.connName"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R11 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectorInfo@POLYN232487.callback"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R11 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.connectorInfo@POLYN232615.callback"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R12 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN234924.connName"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R12 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235052.connName"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R13 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN234924.config"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R13 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235052.config"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R14 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN234924.allowReplace"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R14 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235052.allowReplace"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R15 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN234924.callback"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R15 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.putConnectorConfig@POLYN235052.callback"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R16 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.taskConfigs@POLYN238091.connName"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R16 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.taskConfigs@POLYN238219.connName"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R17 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.taskConfigs@POLYN238091.callback"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R17 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.taskConfigs@POLYN238219.callback"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R18 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239554.taskId"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R18 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239682.taskId"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R19 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239554.cb"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R19 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartTask@POLYN239682.cb"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R20 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnector@POLYN240971.connName"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R20 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnector@POLYN241099.connName"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R21 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnector@POLYN240971.cb"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R21 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnector@POLYN241099.cb"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R22 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242176.request"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R22 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242304.request"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R23 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242176.cb"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R23 : org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN242304.cb"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.standalone.StandaloneHerder.requestTaskReconfiguration@POLYN237717"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.standalone.StandaloneHerder.requestTaskReconfiguration@POLYN237845"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN231339"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN231467"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.standalone.StandaloneHerder.start@POLYN231033"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.standalone.StandaloneHerder.start@POLYN231161"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.standalone.StandaloneHerder.ConfigUpdateListener.onConnectorTargetStateChange@POLYN250274"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.standalone.StandaloneHerder.ConfigUpdateListener.onConnectorTargetStateChange@POLYN250402"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00244"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#244"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00244] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.requestTaskReconfiguration@POLYN237717 the MagicNumber/String 'Task that requested reconfiguration does not exist: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00244] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.requestTaskReconfiguration@POLYN237845 the MagicNumber/String 'Task that requested reconfiguration does not exist: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00106"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#106"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN231339 the MagicNumber/String 'Herder stopping' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN231467 the MagicNumber/String 'Herder stopping' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#109"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00109] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN231339 the MagicNumber/String 30 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00109] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN231467 the MagicNumber/String 30 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00123"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#123"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN231339 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN231467 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#124"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN231339 the MagicNumber/String 'Herder stopped' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN231467 the MagicNumber/String 'Herder stopped' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#98"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.start@POLYN231033 the MagicNumber/String 'Herder starting' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.start@POLYN231161 the MagicNumber/String 'Herder starting' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#100"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00100] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.start@POLYN231033 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00100] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.start@POLYN231161 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#101"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.start@POLYN231033 the MagicNumber/String 'Herder started' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.start@POLYN231161 the MagicNumber/String 'Herder started' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00474"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#474"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00474] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.ConfigUpdateListener.onConnectorTargetStateChange@POLYN250274 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00474] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.ConfigUpdateListener.onConnectorTargetStateChange@POLYN250402 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00475"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#475"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00475] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.ConfigUpdateListener.onConnectorTargetStateChange@POLYN250274 the MagicNumber/String 'Failed to transition connector {} to target state {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00475] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.ConfigUpdateListener.onConnectorTargetStateChange@POLYN250402 the MagicNumber/String 'Failed to transition connector {} to target state {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

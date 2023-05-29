@@ -210,7 +210,7 @@ var maDataBlocs = {
  , "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenResponse.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.requests.DescribeDelegationTokenResponse.DescribeDelegationTokenResponse@POLYN169734 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.requests.DescribeDelegationTokenResponse.DescribeDelegationTokenResponse@POLYN169862 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -231,21 +231,21 @@ var maDataBlocs = {
  , "c1" : "00124"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenResponse.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.common.requests.DescribeDelegationTokenResponse.shouldClientThrottle@POLYN174232 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.common.requests.DescribeDelegationTokenResponse.shouldClientThrottle@POLYN174360 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeDelegationTokenResponse.errorCounts@POLYN172531"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeDelegationTokenResponse.errorCounts@POLYN172659"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeDelegationTokenResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeDelegationTokenResponse.throttleTimeMs@POLYN172774"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.DescribeDelegationTokenResponse.throttleTimeMs@POLYN172902"
 }} 
 ]
 , 

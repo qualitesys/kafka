@@ -194,14 +194,14 @@ var maDataBlocs = {
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.resource.ResourcePatternFilter.ResourcePatternFilter@POLYN174909 the MagicNumber/String  'resourceType' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.resource.ResourcePatternFilter.ResourcePatternFilter@POLYN175037 the MagicNumber/String  'resourceType' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.resource.ResourcePatternFilter.ResourcePatternFilter@POLYN174909 the MagicNumber/String  'patternType' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.resource.ResourcePatternFilter.ResourcePatternFilter@POLYN175037 the MagicNumber/String  'patternType' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -222,133 +222,133 @@ var maDataBlocs = {
  , "c1" : "00096"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.resource.ResourcePatternFilter.matches@POLYN176010 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.resource.ResourcePatternFilter.matches@POLYN176138 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.resource.ResourcePatternFilter.matches@POLYN176010 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.resource.ResourcePatternFilter.matches@POLYN176138 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00103"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.resource.ResourcePatternFilter.matches@POLYN176010 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.resource.ResourcePatternFilter.matches@POLYN176138 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.resource.ResourcePatternFilter.matches@POLYN176010 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.resource.ResourcePatternFilter.matches@POLYN176138 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00119"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.common.resource.ResourcePatternFilter.matches@POLYN176010 the MagicNumber/String  'Unsupported PatternType: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.common.resource.ResourcePatternFilter.matches@POLYN176138 the MagicNumber/String  'Unsupported PatternType: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.resource.ResourcePatternFilter.matchesAtMostOne@POLYN177657 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.resource.ResourcePatternFilter.matchesAtMostOne@POLYN177785 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.resource.ResourcePatternFilter.findIndefiniteField@POLYN177859 the MagicNumber/String  'Resource type is ANY.' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.resource.ResourcePatternFilter.findIndefiniteField@POLYN177987 the MagicNumber/String  'Resource type is ANY.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.common.resource.ResourcePatternFilter.findIndefiniteField@POLYN177859 the MagicNumber/String  'Resource type is UNKNOWN.' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.common.resource.ResourcePatternFilter.findIndefiniteField@POLYN177987 the MagicNumber/String  'Resource type is UNKNOWN.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00139"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.common.resource.ResourcePatternFilter.findIndefiniteField@POLYN177859 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.common.resource.ResourcePatternFilter.findIndefiniteField@POLYN177987 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00140"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.common.resource.ResourcePatternFilter.findIndefiniteField@POLYN177859 the MagicNumber/String  'Resource name is NULL.' should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.common.resource.ResourcePatternFilter.findIndefiniteField@POLYN177987 the MagicNumber/String  'Resource name is NULL.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00142"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.common.resource.ResourcePatternFilter.findIndefiniteField@POLYN177859 the MagicNumber/String  'Resource pattern type is MATCH.' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.common.resource.ResourcePatternFilter.findIndefiniteField@POLYN177987 the MagicNumber/String  'Resource pattern type is MATCH.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.common.resource.ResourcePatternFilter.findIndefiniteField@POLYN177859 the MagicNumber/String  'Resource pattern type is UNKNOWN.' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.common.resource.ResourcePatternFilter.findIndefiniteField@POLYN177987 the MagicNumber/String  'Resource pattern type is UNKNOWN.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00145"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.common.resource.ResourcePatternFilter.findIndefiniteField@POLYN177859 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.common.resource.ResourcePatternFilter.findIndefiniteField@POLYN177987 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00150"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.common.resource.ResourcePatternFilter.toString@POLYN178450 the MagicNumber/String  'ResourcePattern(resourceType=' should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.common.resource.ResourcePatternFilter.toString@POLYN178578 the MagicNumber/String  'ResourcePattern(resourceType=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00150"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.common.resource.ResourcePatternFilter.toString@POLYN178450 the MagicNumber/String  ', name=' should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.common.resource.ResourcePatternFilter.toString@POLYN178578 the MagicNumber/String  ', name=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00150"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.common.resource.ResourcePatternFilter.toString@POLYN178450 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.common.resource.ResourcePatternFilter.toString@POLYN178578 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00150"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.common.resource.ResourcePatternFilter.toString@POLYN178450 the MagicNumber/String  '&amp;lt;any&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.common.resource.ResourcePatternFilter.toString@POLYN178578 the MagicNumber/String  '&amp;lt;any&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00150"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.common.resource.ResourcePatternFilter.toString@POLYN178450 the MagicNumber/String  ', patternType=' should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.common.resource.ResourcePatternFilter.toString@POLYN178578 the MagicNumber/String  ', patternType=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00150"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.common.resource.ResourcePatternFilter.toString@POLYN178450 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.common.resource.ResourcePatternFilter.toString@POLYN178578 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -369,21 +369,21 @@ var maDataBlocs = {
  , "c1" : "00156"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.common.resource.ResourcePatternFilter.equals@POLYN178843 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.common.resource.ResourcePatternFilter.equals@POLYN178971 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.common.resource.ResourcePatternFilter.equals@POLYN178843 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.common.resource.ResourcePatternFilter.equals@POLYN178971 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00158"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/resource/ResourcePatternFilter.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.common.resource.ResourcePatternFilter.equals@POLYN178843 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.common.resource.ResourcePatternFilter.equals@POLYN178971 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

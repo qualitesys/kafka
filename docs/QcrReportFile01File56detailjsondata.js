@@ -137,14 +137,14 @@ var maDataBlocs = {
  , "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsResult.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.clients.admin.CreateTopicsResult.values@POLYN175894 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.clients.admin.CreateTopicsResult.values@POLYN176022 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsResult.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.clients.admin.CreateTopicsResult.all@POLYN176351 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.clients.admin.CreateTopicsResult.all@POLYN176479 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -179,21 +179,21 @@ var maDataBlocs = {
  , "c1" : "00119"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsResult.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.admin.CreateTopicsResult.TopicMetadataAndConfig.TopicMetadataAndConfig@POLYN179027 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.admin.CreateTopicsResult.TopicMetadataAndConfig.TopicMetadataAndConfig@POLYN179155 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsResult.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.clients.admin.CreateTopicsResult.TopicMetadataAndConfig.TopicMetadataAndConfig@POLYN179484 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.clients.admin.CreateTopicsResult.TopicMetadataAndConfig.TopicMetadataAndConfig@POLYN179612 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateTopicsResult.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.clients.admin.CreateTopicsResult.TopicMetadataAndConfig.ensureSuccess@POLYN180397 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.clients.admin.CreateTopicsResult.TopicMetadataAndConfig.ensureSuccess@POLYN180525 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

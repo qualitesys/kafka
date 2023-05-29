@@ -213,7 +213,7 @@ var maDataBlocs = {
  , "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.requests.ProduceResponse.toData@POLYN187560 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.requests.ProduceResponse.toData@POLYN187688 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -262,14 +262,14 @@ var maDataBlocs = {
  , "c1" : "00143"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.PartitionResponse@POLYN190721 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.PartitionResponse@POLYN190849 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.PartitionResponse@POLYN191045 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.PartitionResponse@POLYN191173 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -290,98 +290,98 @@ var maDataBlocs = {
  , "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.equals@POLYN192010 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.equals@POLYN192138 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00162"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.equals@POLYN192010 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.equals@POLYN192138 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00162"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.equals@POLYN192010 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.equals@POLYN192138 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00180"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.toString@POLYN193083 the MagicNumber/String  '{' should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.toString@POLYN193211 the MagicNumber/String  '{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00181"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.toString@POLYN193083 the MagicNumber/String  'error: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.toString@POLYN193211 the MagicNumber/String  'error: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00183"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#183"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.toString@POLYN193083 the MagicNumber/String  ',offset: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.toString@POLYN193211 the MagicNumber/String  ',offset: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00185"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.toString@POLYN193083 the MagicNumber/String  ',logAppendTime: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.toString@POLYN193211 the MagicNumber/String  ',logAppendTime: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00187"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.toString@POLYN193083 the MagicNumber/String  ', logStartOffset: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.toString@POLYN193211 the MagicNumber/String  ', logStartOffset: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00189"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.toString@POLYN193083 the MagicNumber/String  ', recordErrors: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.toString@POLYN193211 the MagicNumber/String  ', recordErrors: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00191"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.toString@POLYN193083 the MagicNumber/String  ', errorMessage: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.toString@POLYN193211 the MagicNumber/String  ', errorMessage: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00192"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.toString@POLYN193083 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.toString@POLYN193211 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00195"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#195"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.toString@POLYN193083 the MagicNumber/String  'null' should be converted to const"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.toString@POLYN193211 the MagicNumber/String  'null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00197"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.toString@POLYN193083 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.common.requests.ProduceResponse.PartitionResponse.toString@POLYN193211 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00213"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.common.requests.ProduceResponse.RecordError.RecordError@POLYN194780 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.common.requests.ProduceResponse.RecordError.RecordError@POLYN194908 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -402,77 +402,77 @@ var maDataBlocs = {
  , "c1" : "00218"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.common.requests.ProduceResponse.RecordError.equals@POLYN194995 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.common.requests.ProduceResponse.RecordError.equals@POLYN195123 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00219"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.common.requests.ProduceResponse.RecordError.equals@POLYN194995 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.common.requests.ProduceResponse.RecordError.equals@POLYN195123 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00219"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.common.requests.ProduceResponse.RecordError.equals@POLYN194995 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.common.requests.ProduceResponse.RecordError.equals@POLYN195123 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00232"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.common.requests.ProduceResponse.RecordError.toString@POLYN195733 the MagicNumber/String  'RecordError(' should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.common.requests.ProduceResponse.RecordError.toString@POLYN195861 the MagicNumber/String  'RecordError(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00233"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#233"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.common.requests.ProduceResponse.RecordError.toString@POLYN195733 the MagicNumber/String  'batchIndex=' should be converted to const"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.common.requests.ProduceResponse.RecordError.toString@POLYN195861 the MagicNumber/String  'batchIndex=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00234"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.common.requests.ProduceResponse.RecordError.toString@POLYN195733 the MagicNumber/String  ', message=' should be converted to const"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.common.requests.ProduceResponse.RecordError.toString@POLYN195861 the MagicNumber/String  ', message=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00234"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.common.requests.ProduceResponse.RecordError.toString@POLYN195733 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.common.requests.ProduceResponse.RecordError.toString@POLYN195861 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00234"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.common.requests.ProduceResponse.RecordError.toString@POLYN195733 the MagicNumber/String  'null' should be converted to const"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.common.requests.ProduceResponse.RecordError.toString@POLYN195861 the MagicNumber/String  'null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00234"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.common.requests.ProduceResponse.RecordError.toString@POLYN195733 the MagicNumber/String  ''' should be converted to const"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.common.requests.ProduceResponse.RecordError.toString@POLYN195861 the MagicNumber/String  ''' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00234"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.common.requests.ProduceResponse.RecordError.toString@POLYN195733 the MagicNumber/String  ''' should be converted to const"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.common.requests.ProduceResponse.RecordError.toString@POLYN195861 the MagicNumber/String  ''' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00235"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.common.requests.ProduceResponse.RecordError.toString@POLYN195733 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.common.requests.ProduceResponse.RecordError.toString@POLYN195861 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -493,28 +493,28 @@ var maDataBlocs = {
  , "c1" : "00245"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#245"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.common.requests.ProduceResponse.shouldClientThrottle@POLYN196468 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.common.requests.ProduceResponse.shouldClientThrottle@POLYN196596 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ProduceResponse.throttleTimeMs@POLYN189268"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ProduceResponse.throttleTimeMs@POLYN189396"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ProduceResponse.toData@POLYN187560"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.ProduceResponse.toData@POLYN187688"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#87"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.common.requests.ProduceResponse.toData@POLYN187560 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.common.requests.ProduceResponse.toData@POLYN187688 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

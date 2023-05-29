@@ -203,28 +203,28 @@ var maDataBlocs = {
  , "c1" : "00118"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.remoteLogSegmentMetadata@POLYN211889 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.remoteLogSegmentMetadata@POLYN212017 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.remoteLogSegmentMetadata@POLYN211889 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.remoteLogSegmentMetadata@POLYN212017 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00135"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.remoteLogSegmentMetadata@POLYN211889 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.remoteLogSegmentMetadata@POLYN212017 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00135"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.remoteLogSegmentMetadata@POLYN211889 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.remoteLogSegmentMetadata@POLYN212017 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -245,63 +245,63 @@ var maDataBlocs = {
  , "c1" : "00143"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.updateRemoteLogSegmentMetadata@POLYN213057 the MagicNumber/String  'Updating remote log segment metadata: [{}]' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.updateRemoteLogSegmentMetadata@POLYN213185 the MagicNumber/String  'Updating remote log segment metadata: [{}]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.updateRemoteLogSegmentMetadata@POLYN213057 the MagicNumber/String  'metadataUpdate can not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.updateRemoteLogSegmentMetadata@POLYN213185 the MagicNumber/String  'metadataUpdate can not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00149"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.updateRemoteLogSegmentMetadata@POLYN213057 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.updateRemoteLogSegmentMetadata@POLYN213185 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00150"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.updateRemoteLogSegmentMetadata@POLYN213057 the MagicNumber/String  'No remote log segment metadata found for :' should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.updateRemoteLogSegmentMetadata@POLYN213185 the MagicNumber/String  'No remote log segment metadata found for :' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00161"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.updateRemoteLogSegmentMetadata@POLYN213057 the MagicNumber/String  'metadataUpdate: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.updateRemoteLogSegmentMetadata@POLYN213185 the MagicNumber/String  'metadataUpdate: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00161"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.updateRemoteLogSegmentMetadata@POLYN213057 the MagicNumber/String  ' with state ' should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.updateRemoteLogSegmentMetadata@POLYN213185 the MagicNumber/String  ' with state ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00162"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.updateRemoteLogSegmentMetadata@POLYN213057 the MagicNumber/String  ' can not be updated' should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.updateRemoteLogSegmentMetadata@POLYN213185 the MagicNumber/String  ' can not be updated' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.updateRemoteLogSegmentMetadata@POLYN213057 the MagicNumber/String  'Metadata with the state ' should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.updateRemoteLogSegmentMetadata@POLYN213185 the MagicNumber/String  'Metadata with the state ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.updateRemoteLogSegmentMetadata@POLYN213057 the MagicNumber/String  ' is not supported' should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.updateRemoteLogSegmentMetadata@POLYN213185 the MagicNumber/String  ' is not supported' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -336,7 +336,7 @@ var maDataBlocs = {
  , "c1" : "00192"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.handleSegmentWithDeleteSegmentStartedState@POLYN215235 the MagicNumber/String  'Cleaning up the state for : [{}]' should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.handleSegmentWithDeleteSegmentStartedState@POLYN215363 the MagicNumber/String  'Cleaning up the state for : [{}]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -357,7 +357,7 @@ var maDataBlocs = {
  , "c1" : "00203"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.handleSegmentWithDeleteSegmentFinishedState@POLYN215710 the MagicNumber/String  'Removing the entry as it reached the terminal state: [{}]' should be converted to const"
+ , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.handleSegmentWithDeleteSegmentFinishedState@POLYN215838 the MagicNumber/String  'Removing the entry as it reached the terminal state: [{}]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -420,14 +420,14 @@ var maDataBlocs = {
  , "c1" : "00235"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.highestOffsetForEpoch@POLYN217037 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.highestOffsetForEpoch@POLYN217165 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00235"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.highestOffsetForEpoch@POLYN217037 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.highestOffsetForEpoch@POLYN217165 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -441,7 +441,7 @@ var maDataBlocs = {
  , "c1" : "00256"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#256"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.listRemoteLogSegments@POLYN217954 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.listRemoteLogSegments@POLYN218082 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -455,7 +455,7 @@ var maDataBlocs = {
  , "c1" : "00271"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#271"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.highestOffsetForEpoch@POLYN218529 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.highestOffsetForEpoch@POLYN218657 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -476,49 +476,49 @@ var maDataBlocs = {
  , "c1" : "00281"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#281"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00281] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.addCopyInProgressSegment@POLYN219018 the MagicNumber/String  'Adding to in-progress state: [{}]' should be converted to const"
+ , "c3" : "QC-JAV000010[00281] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.addCopyInProgressSegment@POLYN219146 the MagicNumber/String  'Adding to in-progress state: [{}]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00282"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#282"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.addCopyInProgressSegment@POLYN219018 the MagicNumber/String  'remoteLogSegmentMetadata can not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.addCopyInProgressSegment@POLYN219146 the MagicNumber/String  'remoteLogSegmentMetadata can not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00288"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#288"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.addCopyInProgressSegment@POLYN219018 the MagicNumber/String  'Given remoteLogSegmentMetadata:' should be converted to const"
+ , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.addCopyInProgressSegment@POLYN219146 the MagicNumber/String  'Given remoteLogSegmentMetadata:' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00288"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#288"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.addCopyInProgressSegment@POLYN219018 the MagicNumber/String  ' should have state as ' should be converted to const"
+ , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.addCopyInProgressSegment@POLYN219146 the MagicNumber/String  ' should have state as ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00289"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#289"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.addCopyInProgressSegment@POLYN219018 the MagicNumber/String  ' but it contains state as: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.addCopyInProgressSegment@POLYN219146 the MagicNumber/String  ' but it contains state as: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00294"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#294"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.addCopyInProgressSegment@POLYN219018 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.addCopyInProgressSegment@POLYN219146 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00294"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#294"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.addCopyInProgressSegment@POLYN219018 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.addCopyInProgressSegment@POLYN219146 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -532,14 +532,14 @@ var maDataBlocs = {
  , "c1" : "00308"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#308"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.checkStateTransition@POLYN220343 the MagicNumber/String  'Current state: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.checkStateTransition@POLYN220471 the MagicNumber/String  'Current state: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00308"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogMetadataCache.java.html#308"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.checkStateTransition@POLYN220343 the MagicNumber/String  ' can not be transitioned to target state: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache.checkStateTransition@POLYN220471 the MagicNumber/String  ' can not be transitioned to target state: ' should be converted to const"
 }} 
 ]
 , 

@@ -108,21 +108,21 @@ var maDataBlocs = {
  , "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetrics.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.producer.internals.ProducerMetrics.main@POLYN155683 the MagicNumber/String  'client-id' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.producer.internals.ProducerMetrics.main@POLYN155811 the MagicNumber/String  'client-id' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetrics.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.producer.internals.ProducerMetrics.main@POLYN155683 the MagicNumber/String  'client-id' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.clients.producer.internals.ProducerMetrics.main@POLYN155811 the MagicNumber/String  'client-id' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetrics.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.clients.producer.internals.ProducerMetrics.main@POLYN155683 the MagicNumber/String  'kafka.producer' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.clients.producer.internals.ProducerMetrics.main@POLYN155811 the MagicNumber/String  'kafka.producer' should be converted to const"
 }} 
 ]
 , 

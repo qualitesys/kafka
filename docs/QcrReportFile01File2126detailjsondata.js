@@ -190,7 +190,7 @@ var maDataBlocs = {
  , "c1" : "00047"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00047] For method cacheKey list of called methods Object monObjet|byte[] key_getN160742"
+ , "c3" : "QC-JAV000007[00047] For method cacheKey list of called methods Object monObjet|byte[] key_getN160870"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -218,7 +218,7 @@ var maDataBlocs = {
  , "c1" : "00056"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.state.internals.SegmentedCacheFunction.bytesFromCacheKey@POLYN161134 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.streams.state.internals.SegmentedCacheFunction.bytesFromCacheKey@POLYN161262 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -246,7 +246,7 @@ var maDataBlocs = {
  , "c1" : "00072"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00072] For method compareSegmentedKeys list of called methods Object monObjet|long segmentIdN162112|int Long_compareN162346|byte[] cacheKey_getN162548|byte[] storeKey_getN162636"
+ , "c3" : "QC-JAV000007[00072] For method compareSegmentedKeys list of called methods Object monObjet|long segmentIdN162240|int Long_compareN162474|byte[] cacheKey_getN162676|byte[] storeKey_getN162764"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -267,14 +267,14 @@ var maDataBlocs = {
  , "c1" : "00077"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.state.internals.SegmentedCacheFunction.compareSegmentedKeys@POLYN161977 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.state.internals.SegmentedCacheFunction.compareSegmentedKeys@POLYN162105 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.state.internals.SegmentedCacheFunction.compareSegmentedKeys@POLYN161977 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.streams.state.internals.SegmentedCacheFunction.compareSegmentedKeys@POLYN162105 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

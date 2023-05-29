@@ -162,28 +162,28 @@ var maDataBlocs = {
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipal.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.security.auth.KafkaPrincipal.KafkaPrincipal@POLYN166351 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.security.auth.KafkaPrincipal.KafkaPrincipal@POLYN166479 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipal.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.security.auth.KafkaPrincipal.KafkaPrincipal@POLYN166539 the MagicNumber/String  'Principal type cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.security.auth.KafkaPrincipal.KafkaPrincipal@POLYN166667 the MagicNumber/String  'Principal type cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipal.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.security.auth.KafkaPrincipal.KafkaPrincipal@POLYN166539 the MagicNumber/String  'Principal name cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.security.auth.KafkaPrincipal.KafkaPrincipal@POLYN166667 the MagicNumber/String  'Principal name cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipal.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.security.auth.KafkaPrincipal.toString@POLYN166976 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.security.auth.KafkaPrincipal.toString@POLYN167104 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -204,63 +204,63 @@ var maDataBlocs = {
  , "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipal.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.security.auth.KafkaPrincipal.equals@POLYN167122 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.security.auth.KafkaPrincipal.equals@POLYN167250 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipal.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.security.auth.KafkaPrincipal.equals@POLYN167122 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.security.auth.KafkaPrincipal.equals@POLYN167250 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipal.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.security.auth.KafkaPrincipal.equals@POLYN167122 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.security.auth.KafkaPrincipal.equals@POLYN167250 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipal.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.security.auth.KafkaPrincipal.equals@POLYN167122 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.security.auth.KafkaPrincipal.equals@POLYN167250 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipal.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.security.auth.KafkaPrincipal.hashCode@POLYN167741 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.security.auth.KafkaPrincipal.hashCode@POLYN167869 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipal.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.security.auth.KafkaPrincipal.hashCode@POLYN167741 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.security.auth.KafkaPrincipal.hashCode@POLYN167869 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipal.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.security.auth.KafkaPrincipal.hashCode@POLYN167741 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.security.auth.KafkaPrincipal.hashCode@POLYN167869 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipal.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.security.auth.KafkaPrincipal.hashCode@POLYN167741 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.security.auth.KafkaPrincipal.hashCode@POLYN167869 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/auth/KafkaPrincipal.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.security.auth.KafkaPrincipal.hashCode@POLYN167741 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.security.auth.KafkaPrincipal.hashCode@POLYN167869 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

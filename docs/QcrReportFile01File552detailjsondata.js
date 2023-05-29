@@ -165,7 +165,7 @@ var maDataBlocs = {
  , "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00042] For method updateEstimation list of called methods Object monObjet|float[] getAndCreateEstimationIfAbsentN164541"
+ , "c3" : "QC-JAV000007[00042] For method updateEstimation list of called methods Object monObjet|float[] getAndCreateEstimationIfAbsentN164669"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -193,7 +193,7 @@ var maDataBlocs = {
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#58"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00058] For method estimation list of called methods Object monObjet|float[] getAndCreateEstimationIfAbsentN165483"
+ , "c3" : "QC-JAV000007[00058] For method estimation list of called methods Object monObjet|float[] getAndCreateEstimationIfAbsentN165611"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -214,7 +214,7 @@ var maDataBlocs = {
  , "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#66"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00066] For method resetEstimation list of called methods Object monObjet|float[] getAndCreateEstimationIfAbsentN165774"
+ , "c3" : "QC-JAV000007[00066] For method resetEstimation list of called methods Object monObjet|float[] getAndCreateEstimationIfAbsentN165902"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -242,7 +242,7 @@ var maDataBlocs = {
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00085] For method setEstimation list of called methods Object monObjet|float[] getAndCreateEstimationIfAbsentN166493"
+ , "c3" : "QC-JAV000007[00085] For method setEstimation list of called methods Object monObjet|float[] getAndCreateEstimationIfAbsentN166621"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -270,21 +270,21 @@ var maDataBlocs = {
  , "c1" : "00092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00092] For method getAndCreateEstimationIfAbsent list of called methods Object monObjet|V COMPRESSION_RATIO_getN166812|float[] initialCompressionRatioN166978|V COMPRESSION_RATIO_putIfAbsentN167053"
+ , "c3" : "QC-JAV000007[00092] For method getAndCreateEstimationIfAbsent list of called methods Object monObjet|V COMPRESSION_RATIO_getN166940|float[] initialCompressionRatioN167106|V COMPRESSION_RATIO_putIfAbsentN167181"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00094"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.record.CompressionRatioEstimator.getAndCreateEstimationIfAbsent@POLYN166707 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.record.CompressionRatioEstimator.getAndCreateEstimationIfAbsent@POLYN166835 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.record.CompressionRatioEstimator.getAndCreateEstimationIfAbsent@POLYN166707 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.record.CompressionRatioEstimator.getAndCreateEstimationIfAbsent@POLYN166835 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

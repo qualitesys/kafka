@@ -151,63 +151,63 @@ var maDataBlocs = {
  , "c1" : "00042"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Connect.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.runtime.Connect.Connect@POLYN160823 the MagicNumber/String  'Kafka Connect instance created' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.runtime.Connect.Connect@POLYN160951 the MagicNumber/String  'Kafka Connect instance created' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00050"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Connect.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.runtime.Connect.start@POLYN161185 the MagicNumber/String  'Kafka Connect starting' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.runtime.Connect.start@POLYN161313 the MagicNumber/String  'Kafka Connect starting' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Connect.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.runtime.Connect.start@POLYN161185 the MagicNumber/String  'connect-shutdown-hook' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.connect.runtime.Connect.start@POLYN161313 the MagicNumber/String  'connect-shutdown-hook' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Connect.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.runtime.Connect.start@POLYN161185 the MagicNumber/String  'Kafka Connect started' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.runtime.Connect.start@POLYN161313 the MagicNumber/String  'Kafka Connect started' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Connect.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.runtime.Connect.stop@POLYN161678 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.connect.runtime.Connect.stop@POLYN161806 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Connect.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.runtime.Connect.stop@POLYN161678 the MagicNumber/String  'Kafka Connect stopping' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.runtime.Connect.stop@POLYN161806 the MagicNumber/String  'Kafka Connect stopping' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Connect.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.connect.runtime.Connect.stop@POLYN161678 the MagicNumber/String  'Kafka Connect stopped' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.connect.runtime.Connect.stop@POLYN161806 the MagicNumber/String  'Kafka Connect stopped' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Connect.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.runtime.Connect.awaitStop@POLYN162216 the MagicNumber/String  'Interrupted waiting for Kafka Connect to shutdown' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.runtime.Connect.awaitStop@POLYN162344 the MagicNumber/String  'Interrupted waiting for Kafka Connect to shutdown' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Connect.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.runtime.Connect.ShutdownHook.run@POLYN162702 the MagicNumber/String  'Interrupted in shutdown hook while waiting for Kafka Connect startup to finish' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.connect.runtime.Connect.ShutdownHook.run@POLYN162830 the MagicNumber/String  'Interrupted in shutdown hook while waiting for Kafka Connect startup to finish' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -221,70 +221,70 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Connect.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.Connect.stop@POLYN161678"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.Connect.stop@POLYN161806"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Connect.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.Connect.Connect@POLYN160823"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.Connect.Connect@POLYN160951"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Connect.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.Connect.start@POLYN161185"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.Connect.start@POLYN161313"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Connect.java.html#64"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00064] In the recursive method org.apache.kafka.connect.runtime.Connect.stop@POLYN161678 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00064] In the recursive method org.apache.kafka.connect.runtime.Connect.stop@POLYN161806 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Connect.java.html#66"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00066] In the recursive method org.apache.kafka.connect.runtime.Connect.stop@POLYN161678 the MagicNumber/String 'Kafka Connect stopping' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00066] In the recursive method org.apache.kafka.connect.runtime.Connect.stop@POLYN161806 the MagicNumber/String 'Kafka Connect stopping' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Connect.java.html#71"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00071] In the recursive method org.apache.kafka.connect.runtime.Connect.stop@POLYN161678 the MagicNumber/String 'Kafka Connect stopped' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00071] In the recursive method org.apache.kafka.connect.runtime.Connect.stop@POLYN161806 the MagicNumber/String 'Kafka Connect stopped' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00042"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Connect.java.html#42"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.connect.runtime.Connect.Connect@POLYN160823 the MagicNumber/String 'Kafka Connect instance created' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00042] In the recursive method org.apache.kafka.connect.runtime.Connect.Connect@POLYN160951 the MagicNumber/String 'Kafka Connect instance created' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00050"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Connect.java.html#50"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.connect.runtime.Connect.start@POLYN161185 the MagicNumber/String 'Kafka Connect starting' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.connect.runtime.Connect.start@POLYN161313 the MagicNumber/String 'Kafka Connect starting' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Connect.java.html#51"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.connect.runtime.Connect.start@POLYN161185 the MagicNumber/String 'connect-shutdown-hook' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00051] In the recursive method org.apache.kafka.connect.runtime.Connect.start@POLYN161313 the MagicNumber/String 'connect-shutdown-hook' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Connect.java.html#56"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.connect.runtime.Connect.start@POLYN161185 the MagicNumber/String 'Kafka Connect started' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.connect.runtime.Connect.start@POLYN161313 the MagicNumber/String 'Kafka Connect started' MUST BE CONVERTED to const"
 }} 
 ]
 , 

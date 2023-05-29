@@ -133,98 +133,98 @@ var maDataBlocs = {
  , "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorRequest.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167726 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167854 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorRequest.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167726 the MagicNumber/String  'Cannot create a v' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167854 the MagicNumber/String  'Cannot create a v' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorRequest.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167726 the MagicNumber/String  ' FindCoordinator request ' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167854 the MagicNumber/String  ' FindCoordinator request ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorRequest.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167726 the MagicNumber/String  'because we require features supported only in 2 or later.' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167854 the MagicNumber/String  'because we require features supported only in 2 or later.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorRequest.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167726 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167854 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorRequest.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167726 the MagicNumber/String  'Cannot create a v' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167854 the MagicNumber/String  'Cannot create a v' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorRequest.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167726 the MagicNumber/String  ' FindCoordinator request ' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167854 the MagicNumber/String  ' FindCoordinator request ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorRequest.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167726 the MagicNumber/String  'because we require features supported only in ' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167854 the MagicNumber/String  'because we require features supported only in ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorRequest.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167726 the MagicNumber/String  ' or later.' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167854 the MagicNumber/String  ' or later.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorRequest.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167726 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167854 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorRequest.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167726 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167854 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorRequest.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167726 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167854 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorRequest.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167726 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167854 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorRequest.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167726 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.build@POLYN167854 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -238,7 +238,7 @@ var maDataBlocs = {
  , "c1" : "00101"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorRequest.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.common.requests.FindCoordinatorRequest.getErrorResponse@POLYN170291 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.common.requests.FindCoordinatorRequest.getErrorResponse@POLYN170419 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -252,7 +252,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.toString@POLYN169278"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.FindCoordinatorRequest.Builder.toString@POLYN169406"
 }} 
 ]
 , 

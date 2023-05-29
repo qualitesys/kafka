@@ -144,42 +144,42 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/UsableBroker.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.metadata.placement.UsableBroker.equals@POLYN156280 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.metadata.placement.UsableBroker.equals@POLYN156408 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/UsableBroker.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.metadata.placement.UsableBroker.toString@POLYN156928 the MagicNumber/String  'UsableBroker' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.metadata.placement.UsableBroker.toString@POLYN157056 the MagicNumber/String  'UsableBroker' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/UsableBroker.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.metadata.placement.UsableBroker.toString@POLYN156928 the MagicNumber/String  '(id=' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.metadata.placement.UsableBroker.toString@POLYN157056 the MagicNumber/String  '(id=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00073"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/UsableBroker.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.metadata.placement.UsableBroker.toString@POLYN156928 the MagicNumber/String  ', rack=' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.metadata.placement.UsableBroker.toString@POLYN157056 the MagicNumber/String  ', rack=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/UsableBroker.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.metadata.placement.UsableBroker.toString@POLYN156928 the MagicNumber/String  ', fenced=' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.metadata.placement.UsableBroker.toString@POLYN157056 the MagicNumber/String  ', fenced=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/UsableBroker.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.metadata.placement.UsableBroker.toString@POLYN156928 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.metadata.placement.UsableBroker.toString@POLYN157056 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 , 

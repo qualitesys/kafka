@@ -94,7 +94,7 @@ var maDataBlocs = {
  , "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/errors/TransactionAbortedException.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.errors.TransactionAbortedException.TransactionAbortedException@POLYN152305 the MagicNumber/String  'Failing batch since transaction was aborted' should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.errors.TransactionAbortedException.TransactionAbortedException@POLYN152433 the MagicNumber/String  'Failing batch since transaction was aborted' should be converted to const"
 }} 
 ]
 , 

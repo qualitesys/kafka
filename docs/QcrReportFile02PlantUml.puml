@@ -996,6 +996,10 @@ class "org.apache.kafka.common.config.provider.ConfigProvider" {
 Nb methods :5
 Complexity :1.00
 }
+class "org.apache.kafka.common.config.provider.DirectoryConfigProvider" {
+Nb methods :6
+Complexity :1.50
+}
 class "org.apache.kafka.common.config.provider.FileConfigProvider" {
 Nb methods :5
 Complexity :2.21
@@ -2023,6 +2027,10 @@ class "org.apache.kafka.common.record.DefaultRecord" {
 Nb methods :38
 Complexity :2.37
 }
+class "org.apache.kafka.common.record.DefaultRecordBatch" {
+Nb methods :48
+Complexity :1.67
+}
 class "org.apache.kafka.common.record.DefaultRecordsSend" {
 Nb methods :3
 Complexity :1.00
@@ -2054,6 +2062,10 @@ Complexity :2.07
 class "org.apache.kafka.common.record.LogInputStream" {
 Nb methods :1
 Complexity :1.00
+}
+class "org.apache.kafka.common.record.MemoryRecords" {
+Nb methods :52
+Complexity :1.64
 }
 class "org.apache.kafka.common.record.MemoryRecordsBuilder" {
 Nb methods :64
@@ -3152,6 +3164,10 @@ Complexity :1.61
 }
 }
 package org.apache.kafka.common.security.ssl {
+class "org.apache.kafka.common.security.ssl.DefaultSslEngineFactory" {
+Nb methods :15
+Complexity :4.94
+}
 class "org.apache.kafka.common.security.ssl.SslFactory" {
 Nb methods :13
 Complexity :2.47
@@ -4323,6 +4339,10 @@ class "org.apache.kafka.connect.mirror.IdentityReplicationPolicy" {
 Nb methods :5
 Complexity :2.41
 }
+class "org.apache.kafka.connect.mirror.MirrorClient" {
+Nb methods :19
+Complexity :1.53
+}
 class "org.apache.kafka.connect.mirror.MirrorClientConfig" {
 Nb methods :6
 Complexity :1.00
@@ -4595,6 +4615,10 @@ Complexity :1.19
 class "org.apache.kafka.connect.runtime.isolation.PluginScanResult" {
 Nb methods :11
 Complexity :1.10
+}
+class "org.apache.kafka.connect.runtime.isolation.PluginUtils" {
+Nb methods :9
+Complexity :3.12
 }
 class "org.apache.kafka.connect.runtime.isolation.Plugins" {
 Nb methods :22
@@ -5044,6 +5068,10 @@ class "org.apache.kafka.message.MessageDataGenerator" {
 Nb methods :51
 Complexity :6.28
 }
+class "org.apache.kafka.message.MessageGenerator" {
+Nb methods :10
+Complexity :3.50
+}
 class "org.apache.kafka.message.MessageSpec" {
 Nb methods :13
 Complexity :1.47
@@ -5186,6 +5214,10 @@ Complexity :3.00
 class "org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark" {
 Nb methods :2
 Complexity :1.00
+}
+class "org.apache.kafka.jmh.record.RecordBatchIterationBenchmark" {
+Nb methods :4
+Complexity :3.00
 }
 class "org.apache.kafka.jmh.record.UncompressedRecordBatchValidationBenchmark" {
 Nb methods :2
@@ -5944,6 +5976,14 @@ class "org.apache.kafka.streams.examples.wordcount.WordCountDemo" {
 Nb methods :3
 Complexity :1.67
 }
+class "org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo" {
+Nb methods :1
+Complexity :3.00
+}
+class "org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo" {
+Nb methods :1
+Complexity :3.00
+}
 }
 }
 package org.apache.kafka.streams.errors {
@@ -6083,6 +6123,10 @@ Complexity :1.00
 }
 class "org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKeySchema" {
 Nb methods :5
+Complexity :1.00
+}
+class "org.apache.kafka.streams.kstream.internals.foreignkeyjoin.ForeignJoinSubscriptionProcessorSupplier" {
+Nb methods :2
 Complexity :1.00
 }
 class "org.apache.kafka.streams.kstream.internals.foreignkeyjoin.ForeignJoinSubscriptionSendProcessorSupplier" {
@@ -6370,6 +6414,10 @@ class "org.apache.kafka.streams.kstream.internals.KStreamJoinWindow" {
 Nb methods :2
 Complexity :1.00
 }
+class "org.apache.kafka.streams.kstream.internals.KStreamKStreamJoin" {
+Nb methods :2
+Complexity :2.00
+}
 class "org.apache.kafka.streams.kstream.internals.KStreamKTableJoin" {
 Nb methods :2
 Complexity :1.00
@@ -6396,6 +6444,14 @@ Complexity :1.00
 }
 class "org.apache.kafka.streams.kstream.internals.KStreamReduce" {
 Nb methods :4
+Complexity :1.00
+}
+class "org.apache.kafka.streams.kstream.internals.KStreamSessionWindowAggregate" {
+Nb methods :6
+Complexity :1.00
+}
+class "org.apache.kafka.streams.kstream.internals.KStreamSlidingWindowAggregate" {
+Nb methods :5
 Complexity :1.00
 }
 class "org.apache.kafka.streams.kstream.internals.KStreamTransformValues" {
@@ -6885,6 +6941,10 @@ Complexity :1.15
 }
 package org.apache.kafka.streams.processor.internals {
 package org.apache.kafka.streams.processor.internals.assignment {
+class "org.apache.kafka.streams.processor.internals.assignment.AssignmentInfo" {
+Nb methods :34
+Complexity :2.21
+}
 class "org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration" {
 Nb methods :11
 Complexity :5.28
@@ -8220,6 +8280,10 @@ Complexity :2.50
 }
 }
 package org.apache.kafka.tools {
+class "org.apache.kafka.tools.ClientCompatibilityTest" {
+Nb methods :13
+Complexity :3.47
+}
 class "org.apache.kafka.tools.OAuthCompatibilityTool" {
 Nb methods :1
 Complexity :2.00
@@ -8278,6 +8342,10 @@ Complexity :1.79
 class "org.apache.kafka.trogdor.agent.AgentRestResource" {
 Nb methods :8
 Complexity :1.13
+}
+class "org.apache.kafka.trogdor.agent.WorkerManager" {
+Nb methods :6
+Complexity :2.50
 }
 }
 package org.apache.kafka.trogdor.basic {
@@ -8741,6 +8809,12 @@ class "kafka.server.builders.ReplicaManagerBuilder" {
 Nb methods :18
 Complexity :1.34
 }
+}
+}
+package kafka.tools {
+class "kafka.tools.StreamsResetter" {
+Nb methods :22
+Complexity :4.23
 }
 }
 package kafka.examples {

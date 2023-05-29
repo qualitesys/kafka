@@ -127,273 +127,273 @@ var maDataBlocs = {
  , "c1" : "00196"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00201"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String  0.5 should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String  0.5 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00201"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00202"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#202"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String  0.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String  0.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00202"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#202"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String  0.25 should be converted to const"
+ , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String  0.25 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00203"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00203"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String  900 should be converted to const"
+ , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String  900 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String  3600 should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String  3600 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00206"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00207"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#207"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00208"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00209"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00210"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#210"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00211"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00216"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00217"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00222"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#222"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00223"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#223"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00196"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#196"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00196] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00196] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00201"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#201"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00201] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String 0.5 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00201] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String 0.5 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00201"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#201"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00201] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String 1.0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00201] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String 1.0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00202"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#202"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00202] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String 0.0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00202] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String 0.0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00202"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#202"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00202] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String 0.25 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00202] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String 0.25 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00203"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#203"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00203"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#203"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String 900 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String 900 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#204"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00204] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00204] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#204"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00204] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String 3600 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00204] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String 3600 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00206"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#206"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00206] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00206] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00207"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#207"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00207] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00207] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00208"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#208"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00208] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00208] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00209"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#209"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00209] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00209] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00210"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#210"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00210] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00210] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00211"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#211"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00211] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00211] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00216"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#216"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00216] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00216] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00217"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#217"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00217] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00217] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00222"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#222"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00222] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00222] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00223"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/SaslConfigs.java.html#223"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00223] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195208 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00223] In the recursive method org.apache.kafka.common.config.SaslConfigs.addClientSaslSupport@POLYN195336 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

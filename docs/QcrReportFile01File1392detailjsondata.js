@@ -382,28 +382,28 @@ var maDataBlocs = {
  , "c1" : "00065"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.raft.CandidateState.CandidateState@POLYN186663 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.raft.CandidateState.CandidateState@POLYN186791 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.raft.CandidateState.CandidateState@POLYN186663 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.raft.CandidateState.CandidateState@POLYN186791 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.raft.CandidateState.majoritySize@POLYN188023 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.raft.CandidateState.majoritySize@POLYN188151 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.raft.CandidateState.majoritySize@POLYN188023 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.raft.CandidateState.majoritySize@POLYN188151 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -417,35 +417,35 @@ var maDataBlocs = {
  , "c1" : "00131"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#131"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00131] For method recordGrantedVote list of called methods Object monObjet|V voteStates_getN189761"
+ , "c3" : "QC-JAV000007[00131] For method recordGrantedVote list of called methods Object monObjet|V voteStates_getN189889"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.raft.CandidateState.recordGrantedVote@POLYN189662 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.raft.CandidateState.recordGrantedVote@POLYN189790 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00134"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.raft.CandidateState.recordGrantedVote@POLYN189662 the MagicNumber/String  'Attempt to grant vote to non-voter ' should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.raft.CandidateState.recordGrantedVote@POLYN189790 the MagicNumber/String  'Attempt to grant vote to non-voter ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.raft.CandidateState.recordGrantedVote@POLYN189662 the MagicNumber/String  'Attempt to grant vote from node ' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.raft.CandidateState.recordGrantedVote@POLYN189790 the MagicNumber/String  'Attempt to grant vote from node ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.raft.CandidateState.recordGrantedVote@POLYN189662 the MagicNumber/String  ' which previously rejected our request' should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.raft.CandidateState.recordGrantedVote@POLYN189790 the MagicNumber/String  ' which previously rejected our request' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -459,35 +459,35 @@ var maDataBlocs = {
  , "c1" : "00150"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00150] For method recordRejectedVote list of called methods Object monObjet|V voteStates_getN190639"
+ , "c3" : "QC-JAV000007[00150] For method recordRejectedVote list of called methods Object monObjet|V voteStates_getN190767"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00152"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.raft.CandidateState.recordRejectedVote@POLYN190540 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.raft.CandidateState.recordRejectedVote@POLYN190668 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00153"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.raft.CandidateState.recordRejectedVote@POLYN190540 the MagicNumber/String  'Attempt to reject vote to non-voter ' should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.raft.CandidateState.recordRejectedVote@POLYN190668 the MagicNumber/String  'Attempt to reject vote to non-voter ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.raft.CandidateState.recordRejectedVote@POLYN190540 the MagicNumber/String  'Attempt to reject vote from node ' should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.raft.CandidateState.recordRejectedVote@POLYN190668 the MagicNumber/String  'Attempt to reject vote from node ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00156"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.raft.CandidateState.recordRejectedVote@POLYN190540 the MagicNumber/String  ' which previously granted our request' should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.raft.CandidateState.recordRejectedVote@POLYN190668 the MagicNumber/String  ' which previously granted our request' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -501,7 +501,7 @@ var maDataBlocs = {
  , "c1" : "00168"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.raft.CandidateState.startBackingOff@POLYN191278 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.raft.CandidateState.startBackingOff@POLYN191406 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -536,7 +536,7 @@ var maDataBlocs = {
  , "c1" : "00217"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.raft.CandidateState.remainingBackoffMs@POLYN193140 the MagicNumber/String  'Candidate is not currently backing off' should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.raft.CandidateState.remainingBackoffMs@POLYN193268 the MagicNumber/String  'Candidate is not currently backing off' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -557,63 +557,63 @@ var maDataBlocs = {
  , "c1" : "00247"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#247"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.raft.CandidateState.canGrantVote@POLYN194110 the MagicNumber/String  'Rejecting vote request from candidate {} since we are already candidate in epoch {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.raft.CandidateState.canGrantVote@POLYN194238 the MagicNumber/String  'Rejecting vote request from candidate {} since we are already candidate in epoch {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00249"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#249"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.raft.CandidateState.canGrantVote@POLYN194110 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.raft.CandidateState.canGrantVote@POLYN194238 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00254"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#254"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.raft.CandidateState.toString@POLYN194376 the MagicNumber/String  'CandidateState(' should be converted to const"
+ , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.raft.CandidateState.toString@POLYN194504 the MagicNumber/String  'CandidateState(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00255"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#255"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.raft.CandidateState.toString@POLYN194376 the MagicNumber/String  'localId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.raft.CandidateState.toString@POLYN194504 the MagicNumber/String  'localId=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00256"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#256"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.raft.CandidateState.toString@POLYN194376 the MagicNumber/String  ', epoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.raft.CandidateState.toString@POLYN194504 the MagicNumber/String  ', epoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00257"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#257"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.raft.CandidateState.toString@POLYN194376 the MagicNumber/String  ', retries=' should be converted to const"
+ , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.raft.CandidateState.toString@POLYN194504 the MagicNumber/String  ', retries=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00258"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#258"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.raft.CandidateState.toString@POLYN194376 the MagicNumber/String  ', electionTimeoutMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.raft.CandidateState.toString@POLYN194504 the MagicNumber/String  ', electionTimeoutMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00259"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#259"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00259] In method org.apache.kafka.raft.CandidateState.toString@POLYN194376 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00259] In method org.apache.kafka.raft.CandidateState.toString@POLYN194504 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00264"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.raft.CandidateState.name@POLYN194686 the MagicNumber/String  'Candidate' should be converted to const"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.raft.CandidateState.name@POLYN194814 the MagicNumber/String  'Candidate' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -634,42 +634,42 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.CandidateState.CandidateState@POLYN186663"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.CandidateState.CandidateState@POLYN186791"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.CandidateState.canGrantVote@POLYN194110"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.CandidateState.canGrantVote@POLYN194238"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00065"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#65"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.raft.CandidateState.CandidateState@POLYN186663 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.raft.CandidateState.CandidateState@POLYN186791 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#68"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.raft.CandidateState.CandidateState@POLYN186663 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.raft.CandidateState.CandidateState@POLYN186791 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00247"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#247"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00247] In the recursive method org.apache.kafka.raft.CandidateState.canGrantVote@POLYN194110 the MagicNumber/String 'Rejecting vote request from candidate {} since we are already candidate in epoch {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00247] In the recursive method org.apache.kafka.raft.CandidateState.canGrantVote@POLYN194238 the MagicNumber/String 'Rejecting vote request from candidate {} since we are already candidate in epoch {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00249"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#249"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00249] In the recursive method org.apache.kafka.raft.CandidateState.canGrantVote@POLYN194110 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00249] In the recursive method org.apache.kafka.raft.CandidateState.canGrantVote@POLYN194238 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -208,42 +208,42 @@ var maDataBlocs = {
  , "c1" : "00099"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN188568 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN188696 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN188568 the MagicNumber/String  'Decided on assignment: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN188696 the MagicNumber/String  'Decided on assignment: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00103"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN188568 the MagicNumber/String  ' with' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN188696 the MagicNumber/String  ' with' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN188568 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN188696 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN188568 the MagicNumber/String  ' no' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN188696 the MagicNumber/String  ' no' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN188568 the MagicNumber/String  ' followup probing rebalance.' should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assign@POLYN188696 the MagicNumber/String  ' followup probing rebalance.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -257,7 +257,7 @@ var maDataBlocs = {
  , "c1" : "00110"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#110"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00110] For method assignActiveStatefulTasks list of called methods Object monObjet|java.util.Collection clientStates_valuesN191381"
+ , "c3" : "QC-JAV000007[00110] For method assignActiveStatefulTasks list of called methods Object monObjet|java.util.Collection clientStates_valuesN191509"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -271,21 +271,21 @@ var maDataBlocs = {
  , "c1" : "00112"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignActiveStatefulTasks@POLYN190919 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignActiveStatefulTasks@POLYN191047 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00114"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignActiveStatefulTasks@POLYN190919 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignActiveStatefulTasks@POLYN191047 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00125"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignActiveStatefulTasks@POLYN190919 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignActiveStatefulTasks@POLYN191047 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -299,7 +299,7 @@ var maDataBlocs = {
  , "c1" : "00129"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#129"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00129] For method assignStandbyReplicaTasks list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.assignment.StandbyTaskAssignor StandbyTaskAssignorFactory_createN192144"
+ , "c3" : "QC-JAV000007[00129] For method assignStandbyReplicaTasks list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.assignment.StandbyTaskAssignor StandbyTaskAssignorFactory_createN192272"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -313,7 +313,7 @@ var maDataBlocs = {
  , "c1" : "00133"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignStandbyReplicaTasks@POLYN191780 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignStandbyReplicaTasks@POLYN191908 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -523,21 +523,21 @@ var maDataBlocs = {
  , "c1" : "00155"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.balanceTasksOverThreads@POLYN192557 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.balanceTasksOverThreads@POLYN192685 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.balanceTasksOverThreads@POLYN192557 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.balanceTasksOverThreads@POLYN192685 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00180"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.balanceTasksOverThreads@POLYN192557 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.balanceTasksOverThreads@POLYN192685 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -551,7 +551,7 @@ var maDataBlocs = {
  , "c1" : "00188"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#188"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00188] For method shouldMoveATask list of called methods Object monObjet|double sourceClientState_assignedTaskLoadN194968"
+ , "c3" : "QC-JAV000007[00188] For method shouldMoveATask list of called methods Object monObjet|double sourceClientState_assignedTaskLoadN195096"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -572,42 +572,42 @@ var maDataBlocs = {
  , "c1" : "00192"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.shouldMoveATask@POLYN194833 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.shouldMoveATask@POLYN194961 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00193"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.shouldMoveATask@POLYN194833 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.shouldMoveATask@POLYN194961 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00197"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.shouldMoveATask@POLYN194833 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.shouldMoveATask@POLYN194961 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00199"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.shouldMoveATask@POLYN194833 the MagicNumber/String  1.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.shouldMoveATask@POLYN194961 the MagicNumber/String  1.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00202"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#202"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.shouldMoveATask@POLYN194833 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.shouldMoveATask@POLYN194961 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.shouldMoveATask@POLYN194833 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.shouldMoveATask@POLYN194961 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -621,7 +621,7 @@ var maDataBlocs = {
  , "c1" : "00210"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#210"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00210] For method assignStatelessActiveTasks list of called methods Object monObjet|java.util.UUID statelessActiveTaskClientsByTaskLoad_pollN196369|V clientStates_getN196470"
+ , "c3" : "QC-JAV000007[00210] For method assignStatelessActiveTasks list of called methods Object monObjet|java.util.UUID statelessActiveTaskClientsByTaskLoad_pollN196497|V clientStates_getN196598"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -649,7 +649,7 @@ var maDataBlocs = {
  , "c1" : "00213"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignStatelessActiveTasks@POLYN195761 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.assignStatelessActiveTasks@POLYN195889 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -740,7 +740,7 @@ var maDataBlocs = {
  , "c1" : "00263"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#263"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.acceptable@POLYN199227 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.streams.processor.internals.assignment.HighAvailabilityTaskAssignor.acceptable@POLYN199355 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -376,35 +376,35 @@ var maDataBlocs = {
  , "c1" : "00077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.assign@POLYN359109 the MagicNumber/String  'Detected that all consumers were subscribed to same set of topics, invoking the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.assign@POLYN359237 the MagicNumber/String  'Detected that all consumers were subscribed to same set of topics, invoking the ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.assign@POLYN359109 the MagicNumber/String  'optimized assignment algorithm' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.assign@POLYN359237 the MagicNumber/String  'optimized assignment algorithm' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.assign@POLYN359109 the MagicNumber/String  'Detected that not all consumers were subscribed to same set of topics, falling back to the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.assign@POLYN359237 the MagicNumber/String  'Detected that not all consumers were subscribed to same set of topics, falling back to the ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.assign@POLYN359109 the MagicNumber/String  'general case assignment algorithm' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.assign@POLYN359237 the MagicNumber/String  'general case assignment algorithm' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.assign@POLYN359109 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.assign@POLYN359237 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -418,7 +418,7 @@ var maDataBlocs = {
  , "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#95"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00095] For method allSubscriptionsEqual list of called methods Object monObjet|V memberData_generation_getN362941|V allPreviousPartitionsToOwner_putN363293"
+ , "c3" : "QC-JAV000007[00095] For method allSubscriptionsEqual list of called methods Object monObjet|V memberData_generation_getN363069|V allPreviousPartitionsToOwner_putN363421"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -523,35 +523,35 @@ var maDataBlocs = {
  , "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.allSubscriptionsEqual@POLYN360447 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.allSubscriptionsEqual@POLYN360575 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00117"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.allSubscriptionsEqual@POLYN360447 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.allSubscriptionsEqual@POLYN360575 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.allSubscriptionsEqual@POLYN360447 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.allSubscriptionsEqual@POLYN360575 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.allSubscriptionsEqual@POLYN360447 the MagicNumber/String  'Found multiple consumers {} and {} claiming the same TopicPartition {} in the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.allSubscriptionsEqual@POLYN360575 the MagicNumber/String  'Found multiple consumers {} and {} claiming the same TopicPartition {} in the ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00152"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.allSubscriptionsEqual@POLYN360447 the MagicNumber/String  'same generation {}, this will be invalidated and removed from their previous assignment.' should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.allSubscriptionsEqual@POLYN360575 the MagicNumber/String  'same generation {}, this will be invalidated and removed from their previous assignment.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -565,7 +565,7 @@ var maDataBlocs = {
  , "c1" : "00182"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#182"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00182] For method constrainedAssign list of called methods Object monObjet|int consumerToOwnedPartitions_sizeN365447|java.util.Collection partitionsPerTopic_valuesN365524|java.util.Collection assignment_getN367058|java.util.Collection assignment_getN370960|java.util.Collection assignment_getN372569"
+ , "c3" : "QC-JAV000007[00182] For method constrainedAssign list of called methods Object monObjet|int consumerToOwnedPartitions_sizeN365575|java.util.Collection partitionsPerTopic_valuesN365652|java.util.Collection assignment_getN367186|java.util.Collection assignment_getN371088|java.util.Collection assignment_getN372697"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -649,182 +649,182 @@ var maDataBlocs = {
  , "c1" : "00186"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  'Performing constrained assign with partitionsPerTopic: {}, consumerToOwnedPartitions: {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  'Performing constrained assign with partitionsPerTopic: {}, consumerToOwnedPartitions: {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00197"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00220"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  'Found partition {} still claimed as owned by consumer {}, despite being claimed by multiple ' should be converted to const"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  'Found partition {} still claimed as owned by consumer {}, despite being claimed by multiple ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00221"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  'consumers already in the same generation. Removing it from the ownedPartitions' should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  'consumers already in the same generation. Removing it from the ownedPartitions' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00230"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#230"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00242"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#242"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00249"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#249"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00265"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#265"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  'After reassigning previously owned partitions, unfilled members: {}, unassigned partitions: {}, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  'After reassigning previously owned partitions, unfilled members: {}, unassigned partitions: {}, ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00266"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#266"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  'current assignment: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  'current assignment: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00283"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#283"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  'No more unfilled consumers to be assigned. The remaining unassigned partitions are: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  'No more unfilled consumers to be assigned. The remaining unassigned partitions are: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00285"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  'No more unfilled consumers to be assigned.' should be converted to const"
+ , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  'No more unfilled consumers to be assigned.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00314"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#314"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00315"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#315"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  'Filled the last member up to maxQuota but still had partitions remaining to assign, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00315] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  'Filled the last member up to maxQuota but still had partitions remaining to assign, ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00316"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#316"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00316] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  'will continue but this indicates a bug in the assignment.' should be converted to const"
+ , "c3" : "QC-JAV000010[00316] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  'will continue but this indicates a bug in the assignment.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00326"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#326"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  'Current number of members with more than the minQuota partitions: {}, is less than the expected number ' should be converted to const"
+ , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  'Current number of members with more than the minQuota partitions: {}, is less than the expected number ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00327"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#327"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  'of members with more than the minQuota partitions: {}, and no more partitions to be assigned to the remaining unfilled consumers: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  'of members with more than the minQuota partitions: {}, and no more partitions to be assigned to the remaining unfilled consumers: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00329"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#329"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  'We haven't reached the expected number of members with ' should be converted to const"
+ , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  'We haven't reached the expected number of members with ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00330"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#330"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  'more than the minQuota partitions, but no more partitions to be assigned' should be converted to const"
+ , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  'more than the minQuota partitions, but no more partitions to be assigned' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00335"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#335"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00335] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  'Consumer: [{}] should have {} partitions, but got {} partitions, and no more partitions ' should be converted to const"
+ , "c3" : "QC-JAV000010[00335] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  'Consumer: [{}] should have {} partitions, but got {} partitions, and no more partitions ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00336"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#336"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  'to be assigned. The remaining unfilled consumers are: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  'to be assigned. The remaining unfilled consumers are: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00337"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#337"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  'Consumer: [%s] doesn't reach minQuota partitions, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  'Consumer: [%s] doesn't reach minQuota partitions, ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00338"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#338"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  'and no more partitions to be assigned' should be converted to const"
+ , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  'and no more partitions to be assigned' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00340"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#340"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00340] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  'skip over this unfilled member: [{}] because we've reached the expected number of ' should be converted to const"
+ , "c3" : "QC-JAV000010[00340] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  'skip over this unfilled member: [{}] because we've reached the expected number of ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00341"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#341"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  'members with more than the minQuota partitions, and this member already have minQuota partitions' should be converted to const"
+ , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  'members with more than the minQuota partitions, and this member already have minQuota partitions' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00347"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#347"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364672 the MagicNumber/String  'Final assignment of partitions to consumers: \n{}' should be converted to const"
+ , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String  'Final assignment of partitions to consumers: \n{}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -838,7 +838,7 @@ var maDataBlocs = {
  , "c1" : "00353"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#353"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00353] For method getAllTopicPartitions list of called methods Object monObjet|V partitionsPerTopic_getN373781"
+ , "c3" : "QC-JAV000007[00353] For method getAllTopicPartitions list of called methods Object monObjet|V partitionsPerTopic_getN373909"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -852,7 +852,7 @@ var maDataBlocs = {
  , "c1" : "00360"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#360"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00360] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.getAllTopicPartitions@POLYN373374 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00360] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.getAllTopicPartitions@POLYN373502 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -866,7 +866,7 @@ var maDataBlocs = {
  , "c1" : "00383"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#383"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00383] For method generalAssign list of called methods Object monObjet|java.util.Collection partitionsPerTopic_valuesN377794"
+ , "c3" : "QC-JAV000007[00383] For method generalAssign list of called methods Object monObjet|java.util.Collection partitionsPerTopic_valuesN377922"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -957,56 +957,56 @@ var maDataBlocs = {
  , "c1" : "00387"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#387"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00387] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374767 the MagicNumber/String  'performing general assign. partitionsPerTopic: {}, subscriptions: {}, currentAssignment: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00387] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374895 the MagicNumber/String  'performing general assign. partitionsPerTopic: {}, subscriptions: {}, currentAssignment: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00409"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#409"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00409] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374767 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00409] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374895 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00425"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#425"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00425] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374767 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00425] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374895 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00432"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#432"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00432] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374767 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00432] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374895 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00436"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#436"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00436] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374767 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00436] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374895 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00452"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#452"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00452] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374767 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00452] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374895 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00467"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#467"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00467] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374767 the MagicNumber/String  'unassigned Partitions: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00467] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374895 the MagicNumber/String  'unassigned Partitions: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00482"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#482"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00482] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374767 the MagicNumber/String  'Final assignment of partitions to consumers: \n{}' should be converted to const"
+ , "c3" : "QC-JAV000010[00482] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374895 the MagicNumber/String  'Final assignment of partitions to consumers: \n{}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1027,14 +1027,14 @@ var maDataBlocs = {
  , "c1" : "00512"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#512"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00512] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.getUnassignedPartitions@POLYN381668 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00512] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.getUnassignedPartitions@POLYN381796 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00525"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#525"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00525] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.getUnassignedPartitions@POLYN381668 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00525] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.getUnassignedPartitions@POLYN381796 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1048,7 +1048,7 @@ var maDataBlocs = {
  , "c1" : "00549"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#549"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00549] For method getUnassignedPartitions list of called methods Object monObjet|V partitionsPerTopic_getN384864"
+ , "c3" : "QC-JAV000007[00549] For method getUnassignedPartitions list of called methods Object monObjet|V partitionsPerTopic_getN384992"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1069,21 +1069,21 @@ var maDataBlocs = {
  , "c1" : "00565"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#565"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00565] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.getUnassignedPartitions@POLYN383585 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00565] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.getUnassignedPartitions@POLYN383713 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00571"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#571"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00571] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.getUnassignedPartitions@POLYN383585 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00571] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.getUnassignedPartitions@POLYN383713 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00580"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#580"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00580] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.getUnassignedPartitions@POLYN383585 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00580] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.getUnassignedPartitions@POLYN383713 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1139,7 +1139,7 @@ var maDataBlocs = {
  , "c1" : "00628"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#628"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00628] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.prepopulateCurrentAssignments@POLYN386905 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00628] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.prepopulateCurrentAssignments@POLYN387033 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1153,7 +1153,7 @@ var maDataBlocs = {
  , "c1" : "00656"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#656"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00656] For method isBalanced list of called methods Object monObjet|V currentAssignment_getN388948|V currentAssignment_getN389084|java.util.Set currentAssignment_entrySetN389542"
+ , "c3" : "QC-JAV000007[00656] For method isBalanced list of called methods Object monObjet|V currentAssignment_getN389076|V currentAssignment_getN389212|java.util.Set currentAssignment_entrySetN389670"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1265,49 +1265,49 @@ var maDataBlocs = {
  , "c1" : "00663"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#663"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00663] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.isBalanced@POLYN388575 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00663] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.isBalanced@POLYN388703 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00664"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#664"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00664] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.isBalanced@POLYN388575 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00664] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.isBalanced@POLYN388703 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00674"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#674"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00674] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.isBalanced@POLYN388575 the MagicNumber/String  '{} is assigned to more than one consumer.' should be converted to const"
+ , "c3" : "QC-JAV000010[00674] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.isBalanced@POLYN388703 the MagicNumber/String  '{} is assigned to more than one consumer.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00695"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#695"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00695] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.isBalanced@POLYN388575 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00695] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.isBalanced@POLYN388703 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00701"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#701"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00701] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.isBalanced@POLYN388575 the MagicNumber/String  '{} can be moved from consumer {} to consumer {} for a more balanced assignment.' should be converted to const"
+ , "c3" : "QC-JAV000010[00701] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.isBalanced@POLYN388703 the MagicNumber/String  '{} can be moved from consumer {} to consumer {} for a more balanced assignment.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00703"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#703"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00703] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.isBalanced@POLYN388575 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00703] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.isBalanced@POLYN388703 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00709"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#709"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00709] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.isBalanced@POLYN388575 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00709] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.isBalanced@POLYN388703 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1335,7 +1335,7 @@ var maDataBlocs = {
  , "c1" : "00727"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#727"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00727] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.getMaxAssignmentSize@POLYN392066 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00727] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.getMaxAssignmentSize@POLYN392194 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1349,7 +1349,7 @@ var maDataBlocs = {
  , "c1" : "00737"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#737"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00737] For method getBalanceScore list of called methods Object monObjet|java.util.Set consumer2AssignmentSize_entrySetN393633"
+ , "c3" : "QC-JAV000007[00737] For method getBalanceScore list of called methods Object monObjet|java.util.Set consumer2AssignmentSize_entrySetN393761"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1377,7 +1377,7 @@ var maDataBlocs = {
  , "c1" : "00738"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#738"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00738] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.getBalanceScore@POLYN392946 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00738] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.getBalanceScore@POLYN393074 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1440,7 +1440,7 @@ var maDataBlocs = {
  , "c1" : "00778"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#778"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00778] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.canParticipateInReassignment@POLYN395290 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00778] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.canParticipateInReassignment@POLYN395418 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1454,7 +1454,7 @@ var maDataBlocs = {
  , "c1" : "00781"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#781"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00781] For method canParticipateInReassignment list of called methods Object monObjet|V currentAssignment_getN396020|int currentPartitions_sizeN396116|V consumer2AllPotentialTopics_getN396214|int getMaxAssignmentSizeN396310"
+ , "c3" : "QC-JAV000007[00781] For method canParticipateInReassignment list of called methods Object monObjet|V currentAssignment_getN396148|int currentPartitions_sizeN396244|V consumer2AllPotentialTopics_getN396342|int getMaxAssignmentSizeN396438"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1475,28 +1475,28 @@ var maDataBlocs = {
  , "c1" : "00793"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#793"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00793] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.canParticipateInReassignment@POLYN395564 the MagicNumber/String  'The consumer {} is assigned more partitions than the maximum possible.' should be converted to const"
+ , "c3" : "QC-JAV000010[00793] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.canParticipateInReassignment@POLYN395692 the MagicNumber/String  'The consumer {} is assigned more partitions than the maximum possible.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00797"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#797"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00797] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.canParticipateInReassignment@POLYN395564 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00797] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.canParticipateInReassignment@POLYN395692 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00803"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#803"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00803] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.canParticipateInReassignment@POLYN395564 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00803] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.canParticipateInReassignment@POLYN395692 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00805"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#805"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00805] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.canParticipateInReassignment@POLYN395564 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00805] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.canParticipateInReassignment@POLYN395692 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1510,7 +1510,7 @@ var maDataBlocs = {
  , "c1" : "00811"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#811"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00811] For method balance list of called methods Object monObjet|V currentAssignment_getN397655|boolean performReassignmentsN400138"
+ , "c3" : "QC-JAV000007[00811] For method balance list of called methods Object monObjet|V currentAssignment_getN397783|boolean performReassignmentsN400266"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1580,7 +1580,7 @@ var maDataBlocs = {
  , "c1" : "00838"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#838"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00838] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.balance@POLYN396962 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00838] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.balance@POLYN397090 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1594,7 +1594,7 @@ var maDataBlocs = {
  , "c1" : "00885"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#885"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00885] For method performReassignments list of called methods Object monObjet|V currentPartitionConsumer_getN402663"
+ , "c3" : "QC-JAV000007[00885] For method performReassignments list of called methods Object monObjet|V currentPartitionConsumer_getN402791"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1685,84 +1685,84 @@ var maDataBlocs = {
  , "c1" : "00894"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#894"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00894] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.performReassignments@POLYN401243 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00894] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.performReassignments@POLYN401371 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00899"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#899"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00899] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.performReassignments@POLYN401243 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00899] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.performReassignments@POLYN401371 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00908"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#908"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00908] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.performReassignments@POLYN401243 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00908] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.performReassignments@POLYN401371 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00909"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#909"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00909] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.performReassignments@POLYN401243 the MagicNumber/String  'Expected more than one potential consumer for partition '{}'' should be converted to const"
+ , "c3" : "QC-JAV000010[00909] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.performReassignments@POLYN401371 the MagicNumber/String  'Expected more than one potential consumer for partition '{}'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00913"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#913"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00913] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.performReassignments@POLYN401243 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00913] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.performReassignments@POLYN401371 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00914"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#914"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00914] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.performReassignments@POLYN401243 the MagicNumber/String  'Expected partition '{}' to be assigned to a consumer' should be converted to const"
+ , "c3" : "QC-JAV000010[00914] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.performReassignments@POLYN401371 the MagicNumber/String  'Expected partition '{}' to be assigned to a consumer' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00917"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#917"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00917] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.performReassignments@POLYN401243 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00917] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.performReassignments@POLYN401371 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00919"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#919"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00919] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.performReassignments@POLYN401243 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00919] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.performReassignments@POLYN401371 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00920"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#920"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00920] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.performReassignments@POLYN401243 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00920] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.performReassignments@POLYN401371 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00926"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#926"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00926] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.performReassignments@POLYN401243 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00926] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.performReassignments@POLYN401371 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00928"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#928"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00928] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.performReassignments@POLYN401243 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00928] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.performReassignments@POLYN401371 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00929"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#929"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00929] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.performReassignments@POLYN401243 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00929] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.performReassignments@POLYN401371 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1790,14 +1790,14 @@ var maDataBlocs = {
  , "c1" : "00945"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#945"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00945] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.reassignPartition@POLYN404237 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00945] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.reassignPartition@POLYN404365 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00953"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#953"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00953] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.reassignPartition@POLYN404237 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00953] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.reassignPartition@POLYN404365 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1811,7 +1811,7 @@ var maDataBlocs = {
  , "c1" : "00958"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#958"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00958] For method reassignPartition list of called methods Object monObjet|V currentPartitionConsumer_getN405447|org.apache.kafka.common.TopicPartition partitionMovements_getTheActualPartitionToBeMovedN405543"
+ , "c3" : "QC-JAV000007[00958] For method reassignPartition list of called methods Object monObjet|V currentPartitionConsumer_getN405575|org.apache.kafka.common.TopicPartition partitionMovements_getTheActualPartitionToBeMovedN405671"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1832,7 +1832,7 @@ var maDataBlocs = {
  , "c1" : "00969"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#969"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00969] For method processPartitionMovement list of called methods Object monObjet|V currentPartitionConsumer_getN406113"
+ , "c3" : "QC-JAV000007[00969] For method processPartitionMovement list of called methods Object monObjet|V currentPartitionConsumer_getN406241"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1895,7 +1895,7 @@ var maDataBlocs = {
  , "c1" : "01013"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1013"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01013] For method compare list of called methods Object monObjet|V map_getN408605|int o1_compareToN408872"
+ , "c3" : "QC-JAV000007[01013] For method compare list of called methods Object monObjet|V map_getN408733|int o1_compareToN409000"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1909,7 +1909,7 @@ var maDataBlocs = {
  , "c1" : "01015"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1015"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01015] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.TopicComparator.compare@POLYN408481 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01015] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.TopicComparator.compare@POLYN408609 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1923,7 +1923,7 @@ var maDataBlocs = {
  , "c1" : "01031"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1031"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01031] For method compare list of called methods Object monObjet|V map_getN409558|int o1_compareToN409810"
+ , "c3" : "QC-JAV000007[01031] For method compare list of called methods Object monObjet|V map_getN409686|int o1_compareToN409938"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1937,7 +1937,7 @@ var maDataBlocs = {
  , "c1" : "01033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1033"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01033] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.SubscriptionComparator.compare@POLYN409434 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01033] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.SubscriptionComparator.compare@POLYN409562 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1951,7 +1951,7 @@ var maDataBlocs = {
  , "c1" : "01048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1048"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01048] For method removeMovementRecordOfPartition list of called methods Object monObjet|V partitionMovements_removeN410579|java.lang.String partition_topicN410675|V partitionMovementsByTopic_getN410810"
+ , "c3" : "QC-JAV000007[01048] For method removeMovementRecordOfPartition list of called methods Object monObjet|V partitionMovements_removeN410707|java.lang.String partition_topicN410803|V partitionMovementsByTopic_getN410938"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1972,7 +1972,7 @@ var maDataBlocs = {
  , "c1" : "01062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1062"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01062] For method addPartitionMovementRecord list of called methods Object monObjet|java.lang.String partition_topicN411558|V partitionMovementsByTopic_getN411897"
+ , "c3" : "QC-JAV000007[01062] For method addPartitionMovementRecord list of called methods Object monObjet|java.lang.String partition_topicN411686|V partitionMovementsByTopic_getN412025"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1993,7 +1993,7 @@ var maDataBlocs = {
  , "c1" : "01076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1076"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01076] For method movePartition list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair removeMovementRecordOfPartitionN412625"
+ , "c3" : "QC-JAV000007[01076] For method movePartition list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair removeMovementRecordOfPartitionN412753"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2007,7 +2007,7 @@ var maDataBlocs = {
  , "c1" : "01092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1092"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01092] For method getTheActualPartitionToBeMoved list of called methods Object monObjet|java.lang.String partition_topicN413268|V partitionMovements_getN413668|V partitionMovementsByTopic_getN413837"
+ , "c3" : "QC-JAV000007[01092] For method getTheActualPartitionToBeMoved list of called methods Object monObjet|java.lang.String partition_topicN413396|V partitionMovements_getN413796|V partitionMovementsByTopic_getN413965"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2063,28 +2063,28 @@ var maDataBlocs = {
  , "c1" : "01114"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01114] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.isLinked@POLYN414253 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01114] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.isLinked@POLYN414381 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01117"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01117] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.isLinked@POLYN414253 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01117] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.isLinked@POLYN414381 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01122"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01122] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.isLinked@POLYN414253 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01122] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.isLinked@POLYN414381 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01133"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01133] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.isLinked@POLYN414253 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01133] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.isLinked@POLYN414381 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2105,28 +2105,28 @@ var maDataBlocs = {
  , "c1" : "01138"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01138] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.in@POLYN415577 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01138] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.in@POLYN415705 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01141"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01141] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.in@POLYN415577 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01141] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.in@POLYN415705 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01142"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01142] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.in@POLYN415577 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01142] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.in@POLYN415705 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01144"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01144] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.in@POLYN415577 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01144] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.in@POLYN415705 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2154,35 +2154,35 @@ var maDataBlocs = {
  , "c1" : "01155"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01155] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.hasCycles@POLYN416432 the MagicNumber/String  'A cycle of length {} was found: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01155] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.hasCycles@POLYN416560 the MagicNumber/String  'A cycle of length {} was found: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01155"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01155] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.hasCycles@POLYN416432 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01155] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.hasCycles@POLYN416560 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01163"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01163] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.hasCycles@POLYN416432 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[01163] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.hasCycles@POLYN416560 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01164"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01164] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.hasCycles@POLYN416432 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01164] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.hasCycles@POLYN416560 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01165"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01165] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.hasCycles@POLYN416432 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01165] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.hasCycles@POLYN416560 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2196,84 +2196,84 @@ var maDataBlocs = {
  , "c1" : "01172"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01172] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.isSticky@POLYN417880 the MagicNumber/String  'Stickiness is violated for topic {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01172] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.isSticky@POLYN418008 the MagicNumber/String  'Stickiness is violated for topic {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01173"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01173] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.isSticky@POLYN417880 the MagicNumber/String  '\nPartition movements for this topic occurred among the following consumer pairs:' should be converted to const"
+ , "c3" : "QC-JAV000010[01173] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.isSticky@POLYN418008 the MagicNumber/String  '\nPartition movements for this topic occurred among the following consumer pairs:' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01174"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01174] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.isSticky@POLYN417880 the MagicNumber/String  '\n{}' should be converted to const"
+ , "c3" : "QC-JAV000010[01174] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.isSticky@POLYN418008 the MagicNumber/String  '\n{}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01175"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01175] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.isSticky@POLYN417880 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01175] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.isSticky@POLYN418008 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01179"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01179] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.isSticky@POLYN417880 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01179] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.isSticky@POLYN418008 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01201"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01201] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair.toString@POLYN419438 the MagicNumber/String  '-&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[01201] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair.toString@POLYN419566 the MagicNumber/String  '-&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01206"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01206] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair.hashCode@POLYN419604 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[01206] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair.hashCode@POLYN419732 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01207"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1207"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01207] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair.hashCode@POLYN419604 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01207] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair.hashCode@POLYN419732 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01208"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01208] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair.hashCode@POLYN419604 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01208] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair.hashCode@POLYN419732 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01208"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01208] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair.hashCode@POLYN419604 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01208] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair.hashCode@POLYN419732 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01209"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01209] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair.hashCode@POLYN419604 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01209] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair.hashCode@POLYN419732 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01209"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01209] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair.hashCode@POLYN419604 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01209] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair.hashCode@POLYN419732 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2287,21 +2287,21 @@ var maDataBlocs = {
  , "c1" : "01215"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01215] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair.equals@POLYN420331 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01215] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair.equals@POLYN420459 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01216"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01216] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair.equals@POLYN420331 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01216] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair.equals@POLYN420459 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01219"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01219] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair.equals@POLYN420331 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01219] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair.equals@POLYN420459 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2315,70 +2315,70 @@ var maDataBlocs = {
  , "c1" : "01228"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1228"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01228] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair.in@POLYN420873 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01228] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair.in@POLYN421001 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01229"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01229] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair.in@POLYN420873 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01229] In method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerPair.in@POLYN421001 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.deepCopy@POLYN407635"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.deepCopy@POLYN407763"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.canParticipateInReassignment@POLYN395564"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.canParticipateInReassignment@POLYN395692"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.removeMovementRecordOfPartition@POLYN410480"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.removeMovementRecordOfPartition@POLYN410608"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.addPartitionMovementRecord@POLYN411345"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.addPartitionMovementRecord@POLYN411473"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00793"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#793"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00793] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.canParticipateInReassignment@POLYN395564 the MagicNumber/String 'The consumer {} is assigned more partitions than the maximum possible.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00793] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.canParticipateInReassignment@POLYN395692 the MagicNumber/String 'The consumer {} is assigned more partitions than the maximum possible.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00797"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#797"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00797] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.canParticipateInReassignment@POLYN395564 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00797] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.canParticipateInReassignment@POLYN395692 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00803"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#803"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00803] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.canParticipateInReassignment@POLYN395564 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00803] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.canParticipateInReassignment@POLYN395692 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00805"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#805"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00805] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.canParticipateInReassignment@POLYN395564 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00805] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.canParticipateInReassignment@POLYN395692 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

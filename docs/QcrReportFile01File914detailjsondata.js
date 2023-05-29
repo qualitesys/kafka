@@ -229,63 +229,63 @@ var maDataBlocs = {
  , "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00065] For method parseKafkaPrincipal list of called methods Object monObjet|java.lang.String[] str_splitN178840"
+ , "c3" : "QC-JAV000007[00065] For method parseKafkaPrincipal list of called methods Object monObjet|java.lang.String[] str_splitN178968"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.utils.SecurityUtils.parseKafkaPrincipal@POLYN178522 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.utils.SecurityUtils.parseKafkaPrincipal@POLYN178650 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.utils.SecurityUtils.parseKafkaPrincipal@POLYN178522 the MagicNumber/String  'expected a string in format principalType:principalName but got ' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.utils.SecurityUtils.parseKafkaPrincipal@POLYN178650 the MagicNumber/String  'expected a string in format principalType:principalName but got ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.utils.SecurityUtils.parseKafkaPrincipal@POLYN178522 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.utils.SecurityUtils.parseKafkaPrincipal@POLYN178650 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.utils.SecurityUtils.parseKafkaPrincipal@POLYN178522 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.utils.SecurityUtils.parseKafkaPrincipal@POLYN178650 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.utils.SecurityUtils.parseKafkaPrincipal@POLYN178522 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.utils.SecurityUtils.parseKafkaPrincipal@POLYN178650 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.utils.SecurityUtils.parseKafkaPrincipal@POLYN178522 the MagicNumber/String  'expected a string in format principalType:principalName but got ' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.utils.SecurityUtils.parseKafkaPrincipal@POLYN178650 the MagicNumber/String  'expected a string in format principalType:principalName but got ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.utils.SecurityUtils.parseKafkaPrincipal@POLYN178522 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.utils.SecurityUtils.parseKafkaPrincipal@POLYN178650 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.utils.SecurityUtils.parseKafkaPrincipal@POLYN178522 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.common.utils.SecurityUtils.parseKafkaPrincipal@POLYN178650 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -320,77 +320,77 @@ var maDataBlocs = {
  , "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.utils.SecurityUtils.addConfiguredSecurityProviders@POLYN179269 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.utils.SecurityUtils.addConfiguredSecurityProviders@POLYN179397 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.utils.SecurityUtils.addConfiguredSecurityProviders@POLYN179269 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.utils.SecurityUtils.addConfiguredSecurityProviders@POLYN179397 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.utils.SecurityUtils.addConfiguredSecurityProviders@POLYN179269 the MagicNumber/String  '\\s+' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.utils.SecurityUtils.addConfiguredSecurityProviders@POLYN179397 the MagicNumber/String  '\\s+' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.utils.SecurityUtils.addConfiguredSecurityProviders@POLYN179269 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.utils.SecurityUtils.addConfiguredSecurityProviders@POLYN179397 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.utils.SecurityUtils.addConfiguredSecurityProviders@POLYN179269 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.utils.SecurityUtils.addConfiguredSecurityProviders@POLYN179397 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.utils.SecurityUtils.addConfiguredSecurityProviders@POLYN179269 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.utils.SecurityUtils.addConfiguredSecurityProviders@POLYN179397 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.utils.SecurityUtils.addConfiguredSecurityProviders@POLYN179269 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.utils.SecurityUtils.addConfiguredSecurityProviders@POLYN179397 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.utils.SecurityUtils.addConfiguredSecurityProviders@POLYN179269 the MagicNumber/String  'Creators provided through ' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.utils.SecurityUtils.addConfiguredSecurityProviders@POLYN179397 the MagicNumber/String  'Creators provided through ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00094"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.utils.SecurityUtils.addConfiguredSecurityProviders@POLYN179269 the MagicNumber/String  ' are expected to be sub-classes of SecurityProviderCreator' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.utils.SecurityUtils.addConfiguredSecurityProviders@POLYN179397 the MagicNumber/String  ' are expected to be sub-classes of SecurityProviderCreator' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00096"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.utils.SecurityUtils.addConfiguredSecurityProviders@POLYN179269 the MagicNumber/String  'Unrecognized security provider creator class' should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.common.utils.SecurityUtils.addConfiguredSecurityProviders@POLYN179397 the MagicNumber/String  'Unrecognized security provider creator class' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.utils.SecurityUtils.addConfiguredSecurityProviders@POLYN179269 the MagicNumber/String  'Unexpected implementation of security provider creator class' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.utils.SecurityUtils.addConfiguredSecurityProviders@POLYN179397 the MagicNumber/String  'Unexpected implementation of security provider creator class' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -502,28 +502,28 @@ var maDataBlocs = {
  , "c1" : "00139"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.common.utils.SecurityUtils.toPascalCase@POLYN182531 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.common.utils.SecurityUtils.toPascalCase@POLYN182659 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.common.utils.SecurityUtils.toPascalCase@POLYN182531 the MagicNumber/String  '_' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.common.utils.SecurityUtils.toPascalCase@POLYN182659 the MagicNumber/String  '_' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00142"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.common.utils.SecurityUtils.toPascalCase@POLYN182531 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.common.utils.SecurityUtils.toPascalCase@POLYN182659 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00145"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.common.utils.SecurityUtils.toPascalCase@POLYN182531 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.common.utils.SecurityUtils.toPascalCase@POLYN182659 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -537,28 +537,28 @@ var maDataBlocs = {
  , "c1" : "00156"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.common.utils.SecurityUtils.authorizeByResourceTypeCheckArgs@POLYN183328 the MagicNumber/String  'Must specify a non-filter resource type for authorizeByResourceType' should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.common.utils.SecurityUtils.authorizeByResourceTypeCheckArgs@POLYN183456 the MagicNumber/String  'Must specify a non-filter resource type for authorizeByResourceType' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.common.utils.SecurityUtils.authorizeByResourceTypeCheckArgs@POLYN183328 the MagicNumber/String  'Unknown resource type' should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.common.utils.SecurityUtils.authorizeByResourceTypeCheckArgs@POLYN183456 the MagicNumber/String  'Unknown resource type' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00166"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.common.utils.SecurityUtils.authorizeByResourceTypeCheckArgs@POLYN183328 the MagicNumber/String  'Must specify a non-filter operation type for authorizeByResourceType' should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.common.utils.SecurityUtils.authorizeByResourceTypeCheckArgs@POLYN183456 the MagicNumber/String  'Must specify a non-filter operation type for authorizeByResourceType' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00171"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.common.utils.SecurityUtils.authorizeByResourceTypeCheckArgs@POLYN183328 the MagicNumber/String  'Unknown operation type' should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.common.utils.SecurityUtils.authorizeByResourceTypeCheckArgs@POLYN183456 the MagicNumber/String  'Unknown operation type' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

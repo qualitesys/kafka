@@ -92,7 +92,7 @@ var maDataBlocs = {
  , "c1" : "00038"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/FallbackPriorTaskAssignor.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.processor.internals.assignment.FallbackPriorTaskAssignor.FallbackPriorTaskAssignor@POLYN154805 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.streams.processor.internals.assignment.FallbackPriorTaskAssignor.FallbackPriorTaskAssignor@POLYN154933 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -106,7 +106,7 @@ var maDataBlocs = {
  , "c1" : "00047"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/FallbackPriorTaskAssignor.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.processor.internals.assignment.FallbackPriorTaskAssignor.assign@POLYN154962 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.processor.internals.assignment.FallbackPriorTaskAssignor.assign@POLYN155090 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 

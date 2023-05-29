@@ -549,119 +549,119 @@ var maDataBlocs = {
  , "c1" : "00157"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.clients.producer.MockProducer.MockProducer@POLYN239098 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.clients.producer.MockProducer.MockProducer@POLYN239226 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.clients.producer.MockProducer.MockProducer@POLYN239098 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.clients.producer.MockProducer.MockProducer@POLYN239226 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.clients.producer.MockProducer.MockProducer@POLYN239098 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.clients.producer.MockProducer.MockProducer@POLYN239226 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.clients.producer.MockProducer.MockProducer@POLYN239098 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.clients.producer.MockProducer.MockProducer@POLYN239226 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00164"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.clients.producer.MockProducer.initTransactions@POLYN239326 the MagicNumber/String  'MockProducer has already been initialized for transactions.' should be converted to const"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.clients.producer.MockProducer.initTransactions@POLYN239454 the MagicNumber/String  'MockProducer has already been initialized for transactions.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00166"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.clients.producer.MockProducer.initTransactions@POLYN239326 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.clients.producer.MockProducer.initTransactions@POLYN239454 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00169"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.clients.producer.MockProducer.initTransactions@POLYN239326 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.clients.producer.MockProducer.initTransactions@POLYN239454 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.clients.producer.MockProducer.initTransactions@POLYN239326 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.clients.producer.MockProducer.initTransactions@POLYN239454 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00171"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.clients.producer.MockProducer.initTransactions@POLYN239326 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.clients.producer.MockProducer.initTransactions@POLYN239454 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00172"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.clients.producer.MockProducer.initTransactions@POLYN239326 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.clients.producer.MockProducer.initTransactions@POLYN239454 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.clients.producer.MockProducer.initTransactions@POLYN239326 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.clients.producer.MockProducer.initTransactions@POLYN239454 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00181"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.clients.producer.MockProducer.beginTransaction@POLYN240019 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.clients.producer.MockProducer.beginTransaction@POLYN240147 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00186"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.clients.producer.MockProducer.beginTransaction@POLYN240019 the MagicNumber/String  'Transaction already started' should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.clients.producer.MockProducer.beginTransaction@POLYN240147 the MagicNumber/String  'Transaction already started' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00189"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.clients.producer.MockProducer.beginTransaction@POLYN240019 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.clients.producer.MockProducer.beginTransaction@POLYN240147 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00190"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#190"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.clients.producer.MockProducer.beginTransaction@POLYN240019 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.clients.producer.MockProducer.beginTransaction@POLYN240147 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00191"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.clients.producer.MockProducer.beginTransaction@POLYN240019 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.clients.producer.MockProducer.beginTransaction@POLYN240147 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00192"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.clients.producer.MockProducer.beginTransaction@POLYN240019 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.clients.producer.MockProducer.beginTransaction@POLYN240147 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -696,77 +696,77 @@ var maDataBlocs = {
  , "c1" : "00211"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.clients.producer.MockProducer.sendOffsetsToTransaction@POLYN241051 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.clients.producer.MockProducer.sendOffsetsToTransaction@POLYN241179 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00215"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.clients.producer.MockProducer.sendOffsetsToTransaction@POLYN241051 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.clients.producer.MockProducer.sendOffsetsToTransaction@POLYN241179 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00221"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.clients.producer.MockProducer.sendOffsetsToTransaction@POLYN241051 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.clients.producer.MockProducer.sendOffsetsToTransaction@POLYN241179 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00230"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#230"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.clients.producer.MockProducer.commitTransaction@POLYN242021 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.clients.producer.MockProducer.commitTransaction@POLYN242149 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00242"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#242"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.clients.producer.MockProducer.commitTransaction@POLYN242021 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.clients.producer.MockProducer.commitTransaction@POLYN242149 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00243"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#243"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.clients.producer.MockProducer.commitTransaction@POLYN242021 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.clients.producer.MockProducer.commitTransaction@POLYN242149 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00244"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#244"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.clients.producer.MockProducer.commitTransaction@POLYN242021 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.clients.producer.MockProducer.commitTransaction@POLYN242149 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00255"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#255"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.clients.producer.MockProducer.abortTransaction@POLYN243052 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.clients.producer.MockProducer.abortTransaction@POLYN243180 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00262"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#262"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.clients.producer.MockProducer.abortTransaction@POLYN243052 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.clients.producer.MockProducer.abortTransaction@POLYN243180 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00263"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#263"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.clients.producer.MockProducer.abortTransaction@POLYN243052 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.clients.producer.MockProducer.abortTransaction@POLYN243180 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00264"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.clients.producer.MockProducer.abortTransaction@POLYN243052 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.clients.producer.MockProducer.abortTransaction@POLYN243180 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -780,28 +780,28 @@ var maDataBlocs = {
  , "c1" : "00269"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#269"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.clients.producer.MockProducer.verifyProducerState@POLYN243737 the MagicNumber/String  'MockProducer is already closed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.clients.producer.MockProducer.verifyProducerState@POLYN243865 the MagicNumber/String  'MockProducer is already closed.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00272"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#272"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.clients.producer.MockProducer.verifyProducerState@POLYN243737 the MagicNumber/String  'MockProducer is fenced.' should be converted to const"
+ , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.clients.producer.MockProducer.verifyProducerState@POLYN243865 the MagicNumber/String  'MockProducer is fenced.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00278"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#278"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.clients.producer.MockProducer.verifyTransactionsInitialized@POLYN244048 the MagicNumber/String  'MockProducer hasn't been initialized for transactions.' should be converted to const"
+ , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.clients.producer.MockProducer.verifyTransactionsInitialized@POLYN244176 the MagicNumber/String  'MockProducer hasn't been initialized for transactions.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00284"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#284"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.clients.producer.MockProducer.verifyTransactionInFlight@POLYN244233 the MagicNumber/String  'There is no open transaction.' should be converted to const"
+ , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.clients.producer.MockProducer.verifyTransactionInFlight@POLYN244361 the MagicNumber/String  'There is no open transaction.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -822,7 +822,7 @@ var maDataBlocs = {
  , "c1" : "00295"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#295"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN244579 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN244707 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -843,7 +843,7 @@ var maDataBlocs = {
  , "c1" : "00304"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#304"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00304] For method send list of called methods Object monObjet|java.util.concurrent.Future partitionN245706|long nextOffsetN246570"
+ , "c3" : "QC-JAV000007[00304] For method send list of called methods Object monObjet|java.util.concurrent.Future partitionN245834|long nextOffsetN246698"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -857,84 +857,84 @@ var maDataBlocs = {
  , "c1" : "00306"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#306"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN244896 the MagicNumber/String  'MockProducer is already closed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00306] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN245024 the MagicNumber/String  'MockProducer is already closed.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00310"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#310"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN244896 the MagicNumber/String  'MockProducer is fenced.' should be converted to const"
+ , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN245024 the MagicNumber/String  'MockProducer is fenced.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00310"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#310"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN244896 the MagicNumber/String  'Fenced' should be converted to const"
+ , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN245024 the MagicNumber/String  'Fenced' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00312"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#312"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN244896 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN245024 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00316"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#316"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00316] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN244896 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00316] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN245024 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00327"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#327"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN244896 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN245024 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00328"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#328"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN244896 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN245024 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00328"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#328"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN244896 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN245024 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00330"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#330"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN244896 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN245024 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00333"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#333"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN244896 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN245024 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00333"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#333"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN244896 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN245024 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00341"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#341"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN244896 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.clients.producer.MockProducer.send@POLYN245024 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -948,28 +948,28 @@ var maDataBlocs = {
  , "c1" : "00353"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#353"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.clients.producer.MockProducer.nextOffset@POLYN247757 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.clients.producer.MockProducer.nextOffset@POLYN247885 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00354"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#354"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.clients.producer.MockProducer.nextOffset@POLYN247757 the MagicNumber/String  1L should be converted to const"
+ , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.clients.producer.MockProducer.nextOffset@POLYN247885 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00355"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#355"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00355] In method org.apache.kafka.clients.producer.MockProducer.nextOffset@POLYN247757 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00355] In method org.apache.kafka.clients.producer.MockProducer.nextOffset@POLYN247885 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00357"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#357"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.clients.producer.MockProducer.nextOffset@POLYN247757 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.clients.producer.MockProducer.nextOffset@POLYN247885 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -983,7 +983,7 @@ var maDataBlocs = {
  , "c1" : "00366"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#366"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.clients.producer.MockProducer.flush@POLYN248387 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.clients.producer.MockProducer.flush@POLYN248515 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -997,7 +997,7 @@ var maDataBlocs = {
  , "c1" : "00375"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#375"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.clients.producer.MockProducer.partitionsFor@POLYN248747 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.clients.producer.MockProducer.partitionsFor@POLYN248875 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1011,7 +1011,7 @@ var maDataBlocs = {
  , "c1" : "00395"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#395"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.clients.producer.MockProducer.close@POLYN249384 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.clients.producer.MockProducer.close@POLYN249512 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1025,14 +1025,14 @@ var maDataBlocs = {
  , "c1" : "00400"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#400"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00400] In method org.apache.kafka.clients.producer.MockProducer.close@POLYN249543 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00400] In method org.apache.kafka.clients.producer.MockProducer.close@POLYN249671 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00404"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#404"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.clients.producer.MockProducer.close@POLYN249543 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.clients.producer.MockProducer.close@POLYN249671 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1046,7 +1046,7 @@ var maDataBlocs = {
  , "c1" : "00414"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#414"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.clients.producer.MockProducer.fenceProducer@POLYN249902 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.clients.producer.MockProducer.fenceProducer@POLYN250030 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1088,7 +1088,7 @@ var maDataBlocs = {
  , "c1" : "00474"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#474"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.clients.producer.MockProducer.clear@POLYN251840 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00474] In method org.apache.kafka.clients.producer.MockProducer.clear@POLYN251968 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1102,7 +1102,7 @@ var maDataBlocs = {
  , "c1" : "00486"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#486"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00486] In method org.apache.kafka.clients.producer.MockProducer.completeNext@POLYN252356 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00486] In method org.apache.kafka.clients.producer.MockProducer.completeNext@POLYN252484 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1123,21 +1123,21 @@ var maDataBlocs = {
  , "c1" : "00496"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#496"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00496] In method org.apache.kafka.clients.producer.MockProducer.errorNext@POLYN252575 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00496] In method org.apache.kafka.clients.producer.MockProducer.errorNext@POLYN252703 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00498"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#498"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00498] In method org.apache.kafka.clients.producer.MockProducer.errorNext@POLYN252575 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00498] In method org.apache.kafka.clients.producer.MockProducer.errorNext@POLYN252703 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00500"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#500"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00500] In method org.apache.kafka.clients.producer.MockProducer.errorNext@POLYN252575 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00500] In method org.apache.kafka.clients.producer.MockProducer.errorNext@POLYN252703 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1151,7 +1151,7 @@ var maDataBlocs = {
  , "c1" : "00507"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#507"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00507] For method partition list of called methods Object monObjet|java.lang.Integer record_partitionN253172|java.lang.String record_topicN253249|java.util.List cluster_partitionsForTopicN253420"
+ , "c3" : "QC-JAV000007[00507] For method partition list of called methods Object monObjet|java.lang.Integer record_partitionN253300|java.lang.String record_topicN253377|java.util.List cluster_partitionsForTopicN253548"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1172,35 +1172,35 @@ var maDataBlocs = {
  , "c1" : "00510"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#510"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.clients.producer.MockProducer.partition@POLYN253011 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.clients.producer.MockProducer.partition@POLYN253139 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00514"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#514"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00514] In method org.apache.kafka.clients.producer.MockProducer.partition@POLYN253011 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00514] In method org.apache.kafka.clients.producer.MockProducer.partition@POLYN253139 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00515"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#515"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00515] In method org.apache.kafka.clients.producer.MockProducer.partition@POLYN253011 the MagicNumber/String  'Invalid partition given with record: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00515] In method org.apache.kafka.clients.producer.MockProducer.partition@POLYN253139 the MagicNumber/String  'Invalid partition given with record: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00516"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#516"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.clients.producer.MockProducer.partition@POLYN253011 the MagicNumber/String  ' is not in the range [0...' should be converted to const"
+ , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.clients.producer.MockProducer.partition@POLYN253139 the MagicNumber/String  ' is not in the range [0...' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00518"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#518"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00518] In method org.apache.kafka.clients.producer.MockProducer.partition@POLYN253011 the MagicNumber/String  '].' should be converted to const"
+ , "c3" : "QC-JAV000010[00518] In method org.apache.kafka.clients.producer.MockProducer.partition@POLYN253139 the MagicNumber/String  '].' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1214,161 +1214,161 @@ var maDataBlocs = {
  , "c1" : "00546"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#546"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00546] In method org.apache.kafka.clients.producer.MockProducer.Completion.complete@POLYN255210 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00546] In method org.apache.kafka.clients.producer.MockProducer.Completion.complete@POLYN255338 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00547"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#547"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00547] In method org.apache.kafka.clients.producer.MockProducer.Completion.complete@POLYN255210 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00547] In method org.apache.kafka.clients.producer.MockProducer.Completion.complete@POLYN255338 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00549"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#549"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00549] In method org.apache.kafka.clients.producer.MockProducer.Completion.complete@POLYN255210 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00549] In method org.apache.kafka.clients.producer.MockProducer.Completion.complete@POLYN255338 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00552"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#552"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00552] In method org.apache.kafka.clients.producer.MockProducer.Completion.complete@POLYN255210 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00552] In method org.apache.kafka.clients.producer.MockProducer.Completion.complete@POLYN255338 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00553"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#553"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00553] In method org.apache.kafka.clients.producer.MockProducer.Completion.complete@POLYN255210 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00553] In method org.apache.kafka.clients.producer.MockProducer.Completion.complete@POLYN255338 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00554"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#554"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00554] In method org.apache.kafka.clients.producer.MockProducer.Completion.complete@POLYN255210 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00554] In method org.apache.kafka.clients.producer.MockProducer.Completion.complete@POLYN255338 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00556"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#556"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00556] In method org.apache.kafka.clients.producer.MockProducer.Completion.complete@POLYN255210 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00556] In method org.apache.kafka.clients.producer.MockProducer.Completion.complete@POLYN255338 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00556"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#556"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00556] In method org.apache.kafka.clients.producer.MockProducer.Completion.complete@POLYN255210 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00556] In method org.apache.kafka.clients.producer.MockProducer.Completion.complete@POLYN255338 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00556"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#556"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00556] In method org.apache.kafka.clients.producer.MockProducer.Completion.complete@POLYN255210 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00556] In method org.apache.kafka.clients.producer.MockProducer.Completion.complete@POLYN255338 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00556"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#556"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00556] In method org.apache.kafka.clients.producer.MockProducer.Completion.complete@POLYN255210 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00556] In method org.apache.kafka.clients.producer.MockProducer.Completion.complete@POLYN255338 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.MockProducer.send@POLYN244896"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.MockProducer.send@POLYN245024"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00306"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#306"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00306] In the recursive method org.apache.kafka.clients.producer.MockProducer.send@POLYN244896 the MagicNumber/String 'MockProducer is already closed.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00306] In the recursive method org.apache.kafka.clients.producer.MockProducer.send@POLYN245024 the MagicNumber/String 'MockProducer is already closed.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00310"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#310"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00310] In the recursive method org.apache.kafka.clients.producer.MockProducer.send@POLYN244896 the MagicNumber/String 'Fenced' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00310] In the recursive method org.apache.kafka.clients.producer.MockProducer.send@POLYN245024 the MagicNumber/String 'Fenced' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00310"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#310"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00310] In the recursive method org.apache.kafka.clients.producer.MockProducer.send@POLYN244896 the MagicNumber/String 'MockProducer is fenced.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00310] In the recursive method org.apache.kafka.clients.producer.MockProducer.send@POLYN245024 the MagicNumber/String 'MockProducer is fenced.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00312"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#312"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00312] In the recursive method org.apache.kafka.clients.producer.MockProducer.send@POLYN244896 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00312] In the recursive method org.apache.kafka.clients.producer.MockProducer.send@POLYN245024 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00316"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#316"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00316] In the recursive method org.apache.kafka.clients.producer.MockProducer.send@POLYN244896 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00316] In the recursive method org.apache.kafka.clients.producer.MockProducer.send@POLYN245024 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00327"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#327"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00327] In the recursive method org.apache.kafka.clients.producer.MockProducer.send@POLYN244896 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00327] In the recursive method org.apache.kafka.clients.producer.MockProducer.send@POLYN245024 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00328"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#328"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00328] In the recursive method org.apache.kafka.clients.producer.MockProducer.send@POLYN244896 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00328] In the recursive method org.apache.kafka.clients.producer.MockProducer.send@POLYN245024 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00328"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#328"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00328] In the recursive method org.apache.kafka.clients.producer.MockProducer.send@POLYN244896 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00328] In the recursive method org.apache.kafka.clients.producer.MockProducer.send@POLYN245024 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00330"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#330"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00330] In the recursive method org.apache.kafka.clients.producer.MockProducer.send@POLYN244896 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00330] In the recursive method org.apache.kafka.clients.producer.MockProducer.send@POLYN245024 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00333"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#333"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00333] In the recursive method org.apache.kafka.clients.producer.MockProducer.send@POLYN244896 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00333] In the recursive method org.apache.kafka.clients.producer.MockProducer.send@POLYN245024 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00333"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#333"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00333] In the recursive method org.apache.kafka.clients.producer.MockProducer.send@POLYN244896 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00333] In the recursive method org.apache.kafka.clients.producer.MockProducer.send@POLYN245024 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00341"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#341"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00341] In the recursive method org.apache.kafka.clients.producer.MockProducer.send@POLYN244896 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00341] In the recursive method org.apache.kafka.clients.producer.MockProducer.send@POLYN245024 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

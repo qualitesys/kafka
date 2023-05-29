@@ -126,14 +126,14 @@ var maDataBlocs = {
  , "c1" : "00033"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.trogdor.workload.Throttle.Throttle@POLYN155207 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.trogdor.workload.Throttle.Throttle@POLYN155335 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00034"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.trogdor.workload.Throttle.Throttle@POLYN155207 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.trogdor.workload.Throttle.Throttle@POLYN155335 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -147,35 +147,35 @@ var maDataBlocs = {
  , "c1" : "00038"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.trogdor.workload.Throttle.increment@POLYN155641 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.trogdor.workload.Throttle.increment@POLYN155769 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00039"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.trogdor.workload.Throttle.increment@POLYN155641 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.trogdor.workload.Throttle.increment@POLYN155769 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00047"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.trogdor.workload.Throttle.increment@POLYN155641 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.trogdor.workload.Throttle.increment@POLYN155769 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00049"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.trogdor.workload.Throttle.increment@POLYN155641 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.trogdor.workload.Throttle.increment@POLYN155769 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.trogdor.workload.Throttle.increment@POLYN155641 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.trogdor.workload.Throttle.increment@POLYN155769 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -203,7 +203,7 @@ var maDataBlocs = {
  , "c1" : "00066"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Throttle.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.trogdor.workload.Throttle.delay@POLYN156779 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.trogdor.workload.Throttle.delay@POLYN156907 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

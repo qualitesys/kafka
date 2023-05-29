@@ -264,7 +264,7 @@ var maDataBlocs = {
  , "c1" : "00087"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.metadata.BrokerRegistration.BrokerRegistration@POLYN190278 the MagicNumber/String  'Broker listeners must be named.' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.metadata.BrokerRegistration.BrokerRegistration@POLYN190406 the MagicNumber/String  'Broker listeners must be named.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -292,14 +292,14 @@ var maDataBlocs = {
  , "c1" : "00141"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.metadata.BrokerRegistration.node@POLYN193839 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.metadata.BrokerRegistration.node@POLYN193967 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.metadata.BrokerRegistration.node@POLYN193839 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.metadata.BrokerRegistration.node@POLYN193967 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -327,7 +327,7 @@ var maDataBlocs = {
  , "c1" : "00166"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.metadata.BrokerRegistration.toRecord@POLYN194810 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.metadata.BrokerRegistration.toRecord@POLYN194938 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -341,98 +341,98 @@ var maDataBlocs = {
  , "c1" : "00203"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.metadata.BrokerRegistration.equals@POLYN196790 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.metadata.BrokerRegistration.equals@POLYN196918 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00218"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197566 the MagicNumber/String  'BrokerRegistration(id=' should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197694 the MagicNumber/String  'BrokerRegistration(id=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00219"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197566 the MagicNumber/String  ', epoch=' should be converted to const"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197694 the MagicNumber/String  ', epoch=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00220"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197566 the MagicNumber/String  ', incarnationId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197694 the MagicNumber/String  ', incarnationId=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00221"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197566 the MagicNumber/String  ', listeners=[' should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197694 the MagicNumber/String  ', listeners=[' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00224"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#224"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197566 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197694 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00225"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197566 the MagicNumber/String  '], supportedFeatures={' should be converted to const"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197694 the MagicNumber/String  '], supportedFeatures={' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00227"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#227"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197566 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197694 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00228"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#228"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197566 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197694 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00229"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197566 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197694 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00230"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#230"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197566 the MagicNumber/String  ', rack=' should be converted to const"
+ , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197694 the MagicNumber/String  ', rack=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00231"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#231"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197566 the MagicNumber/String  ', fenced=' should be converted to const"
+ , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197694 the MagicNumber/String  ', fenced=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00232"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197566 the MagicNumber/String  ', inControlledShutdown=' should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197694 the MagicNumber/String  ', inControlledShutdown=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00233"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#233"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197566 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.metadata.BrokerRegistration.toString@POLYN197694 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -128,49 +128,49 @@ var maDataBlocs = {
  , "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/CipherInformation.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.network.CipherInformation.CipherInformation@POLYN154558 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.network.CipherInformation.CipherInformation@POLYN154686 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/CipherInformation.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.network.CipherInformation.CipherInformation@POLYN154558 the MagicNumber/String  'unknown' should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.network.CipherInformation.CipherInformation@POLYN154686 the MagicNumber/String  'unknown' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/CipherInformation.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.network.CipherInformation.CipherInformation@POLYN154558 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.network.CipherInformation.CipherInformation@POLYN154686 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/CipherInformation.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.network.CipherInformation.CipherInformation@POLYN154558 the MagicNumber/String  'unknown' should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.network.CipherInformation.CipherInformation@POLYN154686 the MagicNumber/String  'unknown' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/CipherInformation.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.network.CipherInformation.toString@POLYN155270 the MagicNumber/String  'CipherInformation(cipher=' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.common.network.CipherInformation.toString@POLYN155398 the MagicNumber/String  'CipherInformation(cipher=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/CipherInformation.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.network.CipherInformation.toString@POLYN155270 the MagicNumber/String  ', protocol=' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.network.CipherInformation.toString@POLYN155398 the MagicNumber/String  ', protocol=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/CipherInformation.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.network.CipherInformation.toString@POLYN155270 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.common.network.CipherInformation.toString@POLYN155398 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -184,21 +184,21 @@ var maDataBlocs = {
  , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/CipherInformation.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.network.CipherInformation.equals@POLYN155625 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.network.CipherInformation.equals@POLYN155753 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/CipherInformation.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.network.CipherInformation.equals@POLYN155625 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.network.CipherInformation.equals@POLYN155753 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/CipherInformation.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.network.CipherInformation.equals@POLYN155625 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.network.CipherInformation.equals@POLYN155753 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 
