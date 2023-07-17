@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PureJavaCrc32C.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/PureJavaCrc32C.java 51 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/PureJavaCrc32C.java 58 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -117,6 +117,13 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE484"
+ , "c3" : "Omitted Break Statement in Switch"
+ , "c4" : "7"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "1"
@@ -157,6 +164,55 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PureJavaCrc32C.java.html#58"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00058] For method update arguments byte[]  b|int  off|int  len"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PureJavaCrc32C.java.html#83"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE484[00083] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PureJavaCrc32C.java.html#85"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE484[00085] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PureJavaCrc32C.java.html#87"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE484[00087] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00089"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PureJavaCrc32C.java.html#89"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE484[00089] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PureJavaCrc32C.java.html#91"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE484[00091] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00093"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PureJavaCrc32C.java.html#93"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE484[00093] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00095"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/PureJavaCrc32C.java.html#95"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE484[00095] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {"" : ""

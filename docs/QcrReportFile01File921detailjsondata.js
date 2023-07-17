@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Utils.java 299 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Utils.java 302 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -646,6 +646,13 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE484"
+ , "c3" : "Omitted Break Statement in Switch"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "4"
@@ -1246,6 +1253,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#477"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00477] For method murmur2 arguments byte[]  data"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00501"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#501"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE484[00501] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00503"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#503"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE484[00503] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00505"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#505"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE484[00505] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {"" : ""

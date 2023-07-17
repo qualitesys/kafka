@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java 32 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java 33 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -143,6 +143,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAVCWE484"
+ , "c3" : "Omitted Break Statement in Switch"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
  , "c3" : "Instance is created within a loop, huge performance impact"
@@ -261,6 +268,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#138"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00138] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00134"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#134"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAVCWE484[00134] Omitted break statement in switch (see http://cwe.mitre.org/data/definitions/484.html)"
 }} 
 ,
 { "ligne" : {"" : ""

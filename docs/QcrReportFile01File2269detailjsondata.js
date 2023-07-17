@@ -11,7 +11,7 @@ var maDataBlocs = {
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.trogdor.workload." , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.trogdor.workload.PayloadKeyType" , "link" : "" , "methodes" : [ 
 ] 
 }} 
 ]

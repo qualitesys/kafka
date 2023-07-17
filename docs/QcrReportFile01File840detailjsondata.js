@@ -11,7 +11,7 @@ var maDataBlocs = {
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.security.scram.internals." , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.security.scram.internals.ScramMechanism" , "link" : "" , "methodes" : [ 
 ] 
 }} 
 ]

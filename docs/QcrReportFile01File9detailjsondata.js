@@ -11,7 +11,7 @@ var maDataBlocs = {
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.clients." , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.clients.ConnectionState" , "link" : "" , "methodes" : [ 
 ] 
 }} 
 ]

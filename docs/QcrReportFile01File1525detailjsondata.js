@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html" 
- , "texte" : "File shell/src/main/java/org/apache/kafka/shell/CommandUtils.java 45 rule violations " 
+ , "texte" : "File shell/src/main/java/org/apache/kafka/shell/CommandUtils.java 40 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -103,13 +103,6 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "5"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MAJOR"
- , "c2" : "QC-JAV000001"
- , "c3" : "Instance is created within a loop, huge performance impact"
  , "c4" : "5"
 }}
 ,
@@ -274,41 +267,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#106"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00106] The argument candidates is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#115"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00115] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#116"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00116] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#119"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00119] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00135"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#135"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00135] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00138"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#138"
- , "c2" : "MAJOR"
- , "c3" : "QC-JAV000001[00138] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""

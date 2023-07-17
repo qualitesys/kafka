@@ -11,7 +11,7 @@ var maDataBlocs = {
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.common.resource." , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.common.resource.ResourceType" , "link" : "" , "methodes" : [ 
 ] 
 }} 
 ]

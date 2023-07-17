@@ -11,7 +11,7 @@ var maDataBlocs = {
 , 
 "data02" : [
 { "classe" : 
- { "nomclasse" : "org.apache.kafka.connect.source." , "link" : "" , "methodes" : [ 
+ { "nomclasse" : "org.apache.kafka.connect.source.ConnectorTransactionBoundaries" , "link" : "" , "methodes" : [ 
 ] 
 }} 
 ]

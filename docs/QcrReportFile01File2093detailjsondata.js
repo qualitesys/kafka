@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java 36 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java 39 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -162,7 +162,7 @@ var maDataBlocs = {
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
  , "c3" : "Instance is created within a loop, huge performance impact"
- , "c4" : "2"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -319,6 +319,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#150"
  , "c2" : "INFO"
  , "c3" : "QC-JAV000019[00150] Lock statement on synchronized resource"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00159"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#159"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00159] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00165"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#165"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00165] Avoid declaring class instance within loop, performance impact"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00167"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#167"
+ , "c2" : "MAJOR"
+ , "c3" : "QC-JAV000001[00167] Avoid declaring class instance within loop, performance impact"
 }} 
 ,
 { "ligne" : {"" : ""
