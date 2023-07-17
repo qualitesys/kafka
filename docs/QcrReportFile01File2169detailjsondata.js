@@ -1131,7 +1131,7 @@ var maDataBlocs = {
  , "c1" : "00365"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java.html#365"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00365] For method record arguments int  iter|int  latency|int  bytes|long  time"
+ , "c3" : "QC-JAV000006[00365] For method record  arguments int  iter|int  latency|int  bytes|long  time"
 }} 
 ,
 { "ligne" : {"" : ""

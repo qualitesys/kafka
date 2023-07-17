@@ -92,7 +92,7 @@ var maDataBlocs = {
  , "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Value.java.html#34"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method record arguments MetricConfig  config|double  value|long  timeMs"
+ , "c3" : "QC-JAV000006[00034] For method record  arguments MetricConfig  config|double  value|long  timeMs"
 }} 
 ]
 , 

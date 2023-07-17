@@ -3089,7 +3089,7 @@ var maDataBlocs = {
  , "c1" : "01744"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1744"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01744] For method record arguments TopicPartition  partition|int  bytes|int  records"
+ , "c3" : "QC-JAV000006[01744] For method record  arguments TopicPartition  partition|int  bytes|int  records"
 }} 
 ,
 { "ligne" : {"" : ""

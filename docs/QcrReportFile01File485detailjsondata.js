@@ -193,7 +193,7 @@ var maDataBlocs = {
  , "c1" : "00084"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#84"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00084] For method record arguments MetricConfig  config|double  value|long  timeMs"
+ , "c3" : "QC-JAV000006[00084] For method record  arguments MetricConfig  config|double  value|long  timeMs"
 }} 
 ,
 { "ligne" : {"" : ""

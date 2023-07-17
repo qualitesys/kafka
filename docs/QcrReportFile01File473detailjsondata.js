@@ -126,7 +126,7 @@ var maDataBlocs = {
  , "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/CumulativeSum.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method record arguments MetricConfig  config|double  value|long  now"
+ , "c3" : "QC-JAV000006[00041] For method record  arguments MetricConfig  config|double  value|long  now"
 }} 
 ,
 { "ligne" : {"" : ""

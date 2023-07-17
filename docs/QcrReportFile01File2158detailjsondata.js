@@ -885,7 +885,7 @@ var maDataBlocs = {
  , "c1" : "00425"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#425"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00425] For method record arguments long  now"
+ , "c3" : "QC-JAV000006[00425] For method record  arguments long  now"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -149,7 +149,7 @@ var maDataBlocs = {
  , "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Histogram.java.html#33"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method record arguments double  value"
+ , "c3" : "QC-JAV000006[00033] For method record  arguments double  value"
 }} 
 ,
 { "ligne" : {"" : ""

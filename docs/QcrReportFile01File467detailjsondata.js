@@ -397,7 +397,7 @@ var maDataBlocs = {
  , "c1" : "00195"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#195"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00195] For method record arguments double  value"
+ , "c3" : "QC-JAV000006[00195] For method record  arguments double  value"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -411,7 +411,7 @@ var maDataBlocs = {
  , "c1" : "00209"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#209"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00209] For method record arguments double  value|long  timeMs"
+ , "c3" : "QC-JAV000006[00209] For method record  arguments double  value|long  timeMs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -425,7 +425,7 @@ var maDataBlocs = {
  , "c1" : "00224"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#224"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00224] For method record arguments double  value|long  timeMs|boolean  checkQuotas"
+ , "c3" : "QC-JAV000006[00224] For method record  arguments double  value|long  timeMs|boolean  checkQuotas"
 }} 
 ,
 { "ligne" : {"" : ""
