@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1234px" preserveAspectRatio="none" style="width:971px;height:1234px;background:#FFFFFF;" version="1.1" viewBox="0 0 971 1234" width="971px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="603" x="5" y="16.1387">An error has occured : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="431" x="5" y="30.1074">By the way, is there anyone on board who knows how to fly a plane?</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="44.0762"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="272" x="5" y="58.0449">Diagram size: 599 lines / 17196 characters.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="72.0137"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="374" x="5" y="85.9824">PlantUML (1.2022.7) cannot parse result from dot/GraphViz.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="99.9512"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="390" x="5" y="113.9199">This version of PlantUML is 334 days old, so you should</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="398" x="5" y="127.8887">consider upgrading from https://plantuml.com/download</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="141.8574"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="492" x="5" y="155.8262">Please go to https://plantuml.com/graphviz-dot to check your GraphViz version.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="169.7949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="277" x="5" y="183.7637">Java Runtime: OpenJDK Runtime Environment</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="187" x="5" y="197.7324">JVM: OpenJDK 64-Bit Server VM</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="211.7012">Default Encoding: UTF-8</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="5" y="225.6699">Language: en</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="5" y="239.6387">Country: null</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="253.6074"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="172" x="5" y="267.5762">PLANTUML_LIMIT_SIZE: 4096</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="281.5449"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="295.5137">This may be caused by :</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="9" y="309.4824">- a bug in PlantUML</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="144" x="9" y="323.4512">- a problem in GraphViz</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="337.4199"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="300" x="5" y="351.3887">You should send this diagram and this image to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="145" x="309" y="351.3887">plantuml@gmail.com</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="13" x="458" y="351.3887">or</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="5" y="365.3574">post to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="168" x="54" y="365.3574">https://plantuml.com/qa</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="117" x="226" y="365.3574">to solve this issue.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="405" x="5" y="379.3262">You can try to turn arround this issue by simplifing your diagram.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="393.2949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="458" x="5" y="407.2637">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="477" x="13" y="421.2324">java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="548" x="13" y="435.2012">java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="474" x="13" y="449.1699">java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="351" x="13" y="463.1387">java.base/java.util.Objects.checkIndex(Objects.java:372)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="314" x="13" y="477.1074">java.base/java.util.ArrayList.get(ArrayList.java:459)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="878" x="13" y="491.0762">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createWithLinks(FtileFactoryDelegatorSwitch.java:103)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="852" x="13" y="505.0449">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createSwitch(FtileFactoryDelegatorSwitch.java:79)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="519.0137">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="532.9824">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="546.9512">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="560.9199">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="574.8887">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="588.8574">net.sourceforge.plantuml.activitydiagram3.InstructionSwitch.createFtile(InstructionSwitch.java:119)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="13" y="602.8262">net.sourceforge.plantuml.activitydiagram3.InstructionList.createFtile(InstructionList.java:131)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="499" x="13" y="616.7949">net.sourceforge.plantuml.activitydiagram3.Branch.updateFtile(Branch.java:130)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="555" x="13" y="630.7637">net.sourceforge.plantuml.activitydiagram3.InstructionIf.createFtile(InstructionIf.java:136)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="13" y="644.7324">net.sourceforge.plantuml.activitydiagram3.InstructionList.createFtile(InstructionList.java:131)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="536" x="13" y="658.7012">net.sourceforge.plantuml.activitydiagram3.ftile.Swimlanes.drawU(Swimlanes.java:229)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="805" x="13" y="672.6699">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.getPiecewiseAffineTransform(CompressionXorYBuilder.java:51)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="655" x="13" y="686.6387">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.build(CompressionXorYBuilder.java:44)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="686" x="13" y="700.6074">net.sourceforge.plantuml.activitydiagram3.ActivityDiagram3.exportDiagramInternal(ActivityDiagram3.java:210)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="714.5762">net.sourceforge.plantuml.UmlDiagram.exportDiagramNow(UmlDiagram.java:135)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="538" x="13" y="728.5449">net.sourceforge.plantuml.AbstractPSystem.exportDiagram(AbstractPSystem.java:178)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="742.5137">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:172)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="756.4824">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="693" x="13" y="770.4512">com.qualitesys.qcrmavenplugin.commun.QcrCommunPlantUml.genererFichierSvg(QcrCommunPlantUml.java:82)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="585" x="13" y="784.4199">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lireFichier(QcrReporting01Mojo.java:927)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="556" x="13" y="798.3887">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lister(QcrReporting01Mojo.java:453)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="591" x="13" y="812.3574">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.doReport(QcrReporting01Mojo.java:2037)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="625" x="13" y="826.3262">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.executeReport(QcrReporting01Mojo.java:1739)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="582" x="13" y="840.2949">org.apache.maven.reporting.AbstractMavenReport.generate(AbstractMavenReport.java:251)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="748" x="13" y="854.2637">org.apache.maven.plugins.site.render.ReportDocumentRenderer.renderDocument(ReportDocumentRenderer.java:226)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="607" x="13" y="868.2324">org.apache.maven.doxia.siterenderer.DefaultSiteRenderer.render(DefaultSiteRenderer.java:348)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="882.2012">org.apache.maven.plugins.site.render.SiteMojo.renderLocale(SiteMojo.java:194)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="470" x="13" y="896.1699">org.apache.maven.plugins.site.render.SiteMojo.execute(SiteMojo.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="649" x="13" y="910.1387">org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="924.1074">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:370)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="531" x="13" y="938.0762">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:351)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="952.0449">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:215)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="966.0137">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:171)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="979.9824">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:163)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="651" x="13" y="993.9512">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="643" x="13" y="1007.9199">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="747" x="13" y="1021.8887">org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="1035.8574">org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1049.8262">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:299)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1063.7949">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="412" x="13" y="1077.7637">org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="367" x="13" y="1091.7324">org.apache.maven.cli.MavenCli.execute(MavenCli.java:963)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="362" x="13" y="1105.7012">org.apache.maven.cli.MavenCli.doMain(MavenCli.java:296)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="347" x="13" y="1119.6699">org.apache.maven.cli.MavenCli.main(MavenCli.java:199)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="1133.6387">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="1147.6074">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="679" x="13" y="1161.5762">java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="373" x="13" y="1175.5449">java.base/java.lang.reflect.Method.invoke(Method.java:566)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="562" x="13" y="1189.5137">org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="499" x="13" y="1203.4824">org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="568" x="13" y="1217.4512">org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="487" x="13" y="1231.4199">org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)</text><image height="51" width="51" x="920" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAYAAAA6oTAqAAABN0lEQVR4Xu3RQWrEMBBE0bn/FXzYZBUwj4i03K2WY/zhL8aWqsrM5/Py8hyO4/jKaN5WHDereVtwVFbzW3HMDz6Pan4rjnnUx2Q1vxXHZDW/FcdkNb8Vx2Q1vxXHZDW/FcdkNb8Vx4z03i1x9Ejv3RJHz2reVhw3q3lTlIR84h/hvVKqShw90nulZEocGtGMUjIlDo1oRimzZZ7Pan6K2XDPZzU/heGjEt9f1bxzRxrLRiW+v6p55440lq3W/lIsW639pVi2WvtLsWy19i/B0lXauwRLq7WvBUdUaU8LjqjSnlYcc1Vzt+Coq5q7FcdFNecWODKqObfCsY4ePW/Bco2eH70/3/3t/azmpYiG//X+FjzyY3wu0XMtjP4Bf4+IntvK6CMlem4r0ZHRcxHC9ytLX15e/gffQJWOecUKIPYAAAAASUVORK5CYII=" y="6"/><!--MD5=[8cf859611e2b286e9d07a0c98200e811]
+@startuml
+!pragma layout smetana
+start
+note right
+SSLEngine createClientSslEngine(String peerHost,
+int peerPort,String endpointIdentification)
+end note
+:return createSslEngine(Mode.CLIENT,peerHost,
+peerPort,endpointIdentification);;
+stop
+end
+start
+note right
+SSLEngine createServerSslEngine(String peerHost,
+int peerPort)
+end note
+:return createSslEngine(Mode.SERVER,peerHost,
+peerPort,null );;
+stop
+end
+start
+note right
+boolean shouldBeRebuilt(Map<String,Object> nextConfigs)
+end note
+if (!nextConfigs.equals(configs)) then (yes) 
+:return true;;
+stop
+endif 
+if (truststore!=null &&truststore.modified()) then (yes) 
+:return true;;
+stop
+endif 
+if (keystore!=null &&keystore.modified()) then (yes) 
+:return true;;
+stop
+endif 
+:return false;;
+stop
+end
+start
+note right
+Set<String> reconfigurableConfigs()
+end note
+:return SslConfigs.RECONFIGURABLE_CONFIGS;;
+stop
+end
+start
+note right
+KeyStore keystore()
+end note
+:return this.keystore!=null ? this.keystore.get():null ;;
+stop
+end
+start
+note right
+KeyStore truststore()
+end note
+:return this.truststore!=null ? this.truststore.get():null ;;
+stop
+end
+start
+note right
+void configure(Map<String,?> configs)
+end note
+:this.configs=Collections.unmodifiableMap(configs);;
+:this.protocol=(String )configs.get(SslConfigs.SSL_PROTOCOL_CONFIG);;
+:this.provider=(String )configs.get(SslConfigs.SSL_PROVIDER_CONFIG);;
+:SecurityUtils.addConfiguredSecurityProviders(this.configs);;
+:List<String> cipherSuitesList=(List<String> )configs.get(SslConfigs.SSL_CIPHER_SUITES_CONFIG);;
+if (cipherSuitesList!=null &&!cipherSuitesList.isEmpty()) then (yes) 
+:this.cipherSuites=cipherSuitesList.toArray(new String[0]);;
+else (no)
+:this.cipherSuites=null ;;
+endif 
+:List<String> enabledProtocolsList=(List<String> )configs.get(SslConfigs.SSL_ENABLED_PROTOCOLS_CONFIG);;
+if (enabledProtocolsList!=null &&!enabledProtocolsList.isEmpty()) then (yes) 
+:this.enabledProtocols=enabledProtocolsList.toArray(new String[0]);;
+else (no)
+:this.enabledProtocols=null ;;
+endif 
+:this.secureRandomImplementation=createSecureRandom((String )configs.get(SslConfigs.SSL_SECURE_RANDOM_IMPLEMENTATION_CONFIG));;
+:this.sslClientAuth=createSslClientAuth((String )configs.get(BrokerSecurityConfigs.SSL_CLIENT_AUTH_CONFIG));;
+:this.kmfAlgorithm=(String )configs.get(SslConfigs.SSL_KEYMANAGER_ALGORITHM_CONFIG);;
+:this.tmfAlgorithm=(String )configs.get(SslConfigs.SSL_TRUSTMANAGER_ALGORITHM_CONFIG);;
+:this.keystore=createKeystore((String )configs.get(SslConfigs.SSL_KEYSTORE_TYPE_CONFIG),
+(String )configs.get(SslConfigs.SSL_KEYSTORE_LOCATION_CONFIG),
+(Password )configs.get(SslConfigs.SSL_KEYSTORE_PASSWORD_CONFIG),
+(Password )configs.get(SslConfigs.SSL_KEY_PASSWORD_CONFIG),
+(Password )configs.get(SslConfigs.SSL_KEYSTORE_KEY_CONFIG),
+(Password )configs.get(SslConfigs.SSL_KEYSTORE_CERTIFICATE_CHAIN_CONFIG));;
+:this.truststore=createTruststore((String )configs.get(SslConfigs.SSL_TRUSTSTORE_TYPE_CONFIG),
+(String )configs.get(SslConfigs.SSL_TRUSTSTORE_LOCATION_CONFIG),
+(Password )configs.get(SslConfigs.SSL_TRUSTSTORE_PASSWORD_CONFIG),
+(Password )configs.get(SslConfigs.SSL_TRUSTSTORE_CERTIFICATES_CONFIG));;
+:this.sslContext=createSSLContext(keystore,
+truststore);;
+end
+start
+note right
+void close()
+end note
+:this.sslContext=null ;;
+end
+start
+note right
+SSLContext sslContext()
+end note
+:return this.sslContext;;
+stop
+end
+start
+note right
+SSLEngine createSslEngine(Mode mode,String peerHost,
+int peerPort,String endpointIdentification)
+end note
+:SSLEngine sslEngine=sslContext.createSSLEngine(peerHost,
+peerPort);;
+if (cipherSuites!=null ) then (yes) 
+:sslEngine.setEnabledCipherSuites(cipherSuites);;
+endif 
+if (enabledProtocols!=null ) then (yes) 
+:sslEngine.setEnabledProtocols(enabledProtocols);;
+endif 
+if (mode==Mode.SERVER) then (yes) 
+:sslEngine.setUseClientMode(false);;
+switch (switch sslClientAuth)
+endswitch
+:sslEngine.setUseClientMode(false);;
+else (no)
+:sslEngine.setUseClientMode(true);;
+:SSLParameters sslParams=sslEngine.getSSLParameters();;
+:sslParams.setEndpointIdentificationAlgorithm(endpointIdentification);;
+:sslEngine.setSSLParameters(sslParams);;
+endif 
+:return sslEngine;;
+stop
+end
+start
+note right
+SslClientAuth createSslClientAuth(String key)
+end note
+:SslClientAuth auth=SslClientAuth.forConfig(key);;
+if (auth!=null ) then (yes) 
+:return auth;;
+stop
+endif 
+:log.warn("Unrecognized client authentication configuration {}.  Falling "+
+"back to NONE.  Recognized client authentication configurations are {}.",
+key,String.join(", ",SslClientAuth.VALUES.stream().map(Enum::name).collect(Collectors.toList())));;
+:return SslClientAuth.NONE;;
+stop
+end
+start
+note right
+SecureRandom createSecureRandom(String key)
+end note
+if (key==null ) then (yes) 
+:return null ;;
+stop
+endif 
+switch (try/catch block)
+case (try)
+:return SecureRandom.getInstance(key);;
+stop
+case (catch (GeneralSecurityException e))
+:throw new KafkaException(e);;
+stop
+endswitch
+end
+start
+note right
+SSLContext createSSLContext(SecurityStore keystore,
+SecurityStore truststore)
+end note
+switch (try/catch block)
+case (try)
+:SSLContext sslContext;;
+if (provider!=null ) then (yes) 
+:sslContext=SSLContext.getInstance(protocol,
+provider);;
+else (no)
+:sslContext=SSLContext.getInstance(protocol);;
+endif 
+:KeyManager[] keyManagers=null ;;
+if (keystore!=null ||kmfAlgorithm!=null ) then (yes) 
+:String kmfAlgorithm=this.kmfAlgorithm!=null ? this.kmfAlgorithm:KeyManagerFactory.getDefaultAlgorithm();;
+:KeyManagerFactory kmf=KeyManagerFactory.getInstance(kmfAlgorithm);;
+if (keystore!=null ) then (yes) 
+:kmf.init(keystore.get(),keystore.keyPassword());;
+else (no)
+:kmf.init(null ,null );;
+endif 
+:keyManagers=kmf.getKeyManagers();;
+endif 
+:String tmfAlgorithm=this.tmfAlgorithm!=null ? this.tmfAlgorithm:TrustManagerFactory.getDefaultAlgorithm();;
+:TrustManagerFactory tmf=TrustManagerFactory.getInstance(tmfAlgorithm);;
+:KeyStore ts=truststore==null ? null :truststore.get();;
+:tmf.init(ts);;
+:sslContext.init(keyManagers,tmf.getTrustManagers(),
+this.secureRandomImplementation);;
+:log.debug("Created SSL context with keystore {},
+ truststore {}, provider {}.",keystore,truststore,
+sslContext.getProvider().getName());;
+:return sslContext;;
+stop
+case (catch (Exception e))
+:throw new KafkaException(e);;
+stop
+endswitch
+end
+start
+note right
+SecurityStore createKeystore(String type,
+String path,Password password,Password keyPassword,
+Password privateKey,Password certificateChain)
+end note
+if (privateKey!=null ) then (yes) 
+if (!PEM_TYPE.equals(type)) then (yes) 
+:throw new InvalidConfigurationException("SSL private key can be specified only for PEM, but key store type is "+
+type+".");;
+stop
+else if (certificateChain==null ) then (yes) 
+:throw new InvalidConfigurationException("SSL private key is specified,
+ but certificate chain is not specified.");;
+stop
+else if (path!=null ) then (yes) 
+:throw new InvalidConfigurationException("Both SSL key store location and separate private key are specified.");;
+stop
+else if (password!=null ) then (yes) 
+:throw new InvalidConfigurationException("SSL key store password cannot be specified with PEM format,
+ only key password may be specified.");;
+stop
+else (no)
+:return new PemStore(certificateChain,privateKey,
+keyPassword);;
+stop
+endif 
+else if (certificateChain!=null ) then (yes) 
+:throw new InvalidConfigurationException("SSL certificate chain is specified,
+ but private key is not specified");;
+stop
+else if (PEM_TYPE.equals(type)&&path!=null ) then (yes) 
+if (password!=null ) then (yes) 
+:throw new InvalidConfigurationException("SSL key store password cannot be specified with PEM format,
+ only key password may be specified");;
+stop
+else (no)
+:return new FileBasedPemStore(path,keyPassword,
+true);;
+stop
+endif 
+else if (path==null &&password!=null ) then (yes) 
+:throw new InvalidConfigurationException("SSL key store is not specified,
+ but key store password is specified.");;
+stop
+else if (path!=null &&password==null ) then (yes) 
+:throw new InvalidConfigurationException("SSL key store is specified,
+ but key store password is not specified.");;
+stop
+else if (path!=null &&password!=null ) then (yes) 
+:return new FileBasedStore(type,path,password,
+keyPassword,true);;
+stop
+else (no)
+:return null ;;
+stop
+endif 
+end
+start
+note right
+SecurityStore createTruststore(String type,
+String path,Password password,Password trustStoreCerts)
+end note
+if (trustStoreCerts!=null ) then (yes) 
+if (!PEM_TYPE.equals(type)) then (yes) 
+:throw new InvalidConfigurationException("SSL trust store certs can be specified only for PEM, but trust store type is "+
+type+".");;
+stop
+else if (path!=null ) then (yes) 
+:throw new InvalidConfigurationException("Both SSL trust store location and separate trust certificates are specified.");;
+stop
+else if (password!=null ) then (yes) 
+:throw new InvalidConfigurationException("SSL trust store password cannot be specified for PEM format.");;
+stop
+else (no)
+:return new PemStore(trustStoreCerts);;
+stop
+endif 
+else if (PEM_TYPE.equals(type)&&path!=null ) then (yes) 
+if (password!=null ) then (yes) 
+:throw new InvalidConfigurationException("SSL trust store password cannot be specified for PEM format.");;
+stop
+else (no)
+:return new FileBasedPemStore(path,null ,
+false);;
+stop
+endif 
+else if (path==null &&password!=null ) then (yes) 
+:throw new InvalidConfigurationException("SSL trust store is not specified,
+ but trust store password is specified.");;
+stop
+else if (path!=null ) then (yes) 
+:return new FileBasedStore(type,path,password,
+null ,false);;
+stop
+else (no)
+:return null ;;
+stop
+endif 
+end
+start
+note right
+constructor FileBasedStore(String type,String path,
+Password password,Password keyPassword,boolean isKeyStore)
+end note
+:Objects.requireNonNull(type,"type must not be null");;
+:this.type=type;;
+:this.path=path;;
+:this.password=password;;
+:this.keyPassword=keyPassword;;
+:fileLastModifiedMs=lastModifiedMs(path);;
+:this.keyStore=load(isKeyStore);;
+end
+start
+note right
+KeyStore get()
+end note
+:return keyStore;;
+stop
+end
+start
+note right
+char[] keyPassword()
+end note
+:Password passwd=keyPassword!=null ? keyPassword:password;;
+:return passwd==null ? null :passwd.value()
+.toCharArray();;
+stop
+end
+start
+note right
+KeyStore load(boolean isKeyStore)
+end note
+switch (try/catch block)
+case (try)
+:KeyStore ks=KeyStore.getInstance(type);;
+:char[] passwordChars=password!=null ? password.value()
+.toCharArray():null ;;
+:ks.load(in,passwordChars);;
+:return ks;;
+stop
+case (catch (GeneralSecurityException |IOException e))
+:throw new KafkaException("Failed to load SSL keystore "+
+path+" of type "+type,e);;
+stop
+endswitch
+end
+start
+note right
+Long lastModifiedMs(String path)
+end note
+switch (try/catch block)
+case (try)
+:return Files.getLastModifiedTime(Paths.get(path))
+.toMillis();;
+stop
+case (catch (IOException e))
+:log.error("Modification time of key store could not be obtained: "+
+path,e);;
+:return null ;;
+stop
+endswitch
+end
+start
+note right
+boolean modified()
+end note
+:Long modifiedMs=lastModifiedMs(path);;
+:return modifiedMs!=null &&!Objects.equals(modifiedMs,
+this.fileLastModifiedMs);;
+stop
+end
+start
+note right
+String toString()
+end note
+:return "SecurityStore("+"path="+path+", modificationTime="+
+(fileLastModifiedMs==null ? null :new Date(fileLastModifiedMs))+
+")";;
+stop
+end
+start
+note right
+constructor FileBasedPemStore(String path,
+Password keyPassword,boolean isKeyStore)
+end note
+:super (PEM_TYPE,path,null ,keyPassword,isKeyStore);;
+end
+start
+note right
+KeyStore load(boolean isKeyStore)
+end note
+switch (try/catch block)
+case (try)
+:Password storeContents=new Password(Utils.readFileAsString(path));;
+:PemStore pemStore=isKeyStore? new PemStore(storeContents,
+storeContents,keyPassword):new PemStore(storeContents);;
+:return pemStore.keyStore;;
+stop
+case (catch (Exception e))
+:throw new InvalidConfigurationException("Failed to load PEM SSL keystore "+
+path,e);;
+stop
+endswitch
+end
+start
+note right
+constructor PemStore(Password certificateChain,
+Password privateKey,Password keyPassword)
+end note
+:this.keyPassword=keyPassword==null ? null :keyPassword.value()
+.toCharArray();;
+:keyStore=createKeyStoreFromPem(privateKey.value(),
+certificateChain.value(),this.keyPassword);;
+end
+start
+note right
+constructor PemStore(Password trustStoreCerts)
+end note
+:this.keyPassword=null ;;
+:keyStore=createTrustStoreFromPem(trustStoreCerts.value());;
+end
+start
+note right
+KeyStore get()
+end note
+:return keyStore;;
+stop
+end
+start
+note right
+char[] keyPassword()
+end note
+:return keyPassword;;
+stop
+end
+start
+note right
+boolean modified()
+end note
+:return false;;
+stop
+end
+start
+note right
+KeyStore createKeyStoreFromPem(String privateKeyPem,
+String certChainPem,char[] keyPassword)
+end note
+switch (try/catch block)
+case (try)
+:KeyStore ks=KeyStore.getInstance("PKCS12");;
+:ks.load(null ,null );;
+:Key key=privateKey(privateKeyPem,keyPassword);;
+:Certificate[] certChain=certs(certChainPem);;
+:ks.setKeyEntry("kafka",key,keyPassword,certChain);;
+:return ks;;
+stop
+case (catch (Exception e))
+:throw new InvalidConfigurationException("Invalid PEM keystore configs",e);;
+stop
+endswitch
+end
+start
+note right
+KeyStore createTrustStoreFromPem(String trustedCertsPem)
+end note
+switch (try/catch block)
+case (try)
+:KeyStore ts=KeyStore.getInstance("PKCS12");;
+:ts.load(null ,null );;
+:Certificate[] certs=certs(trustedCertsPem);;
+:ts.setCertificateEntry("kafka"+i,certs[i]);;
+:return ts;;
+stop
+case (catch (InvalidConfigurationException e))
+:throw e;;
+stop
+case (catch (Exception e))
+:throw new InvalidConfigurationException("Invalid PEM truststore configs",e);;
+stop
+endswitch
+end
+start
+note right
+Certificate[] certs(String pem)
+end note
+:List<byte[]> certEntries=CERTIFICATE_PARSER.pemEntries(pem);;
+if (certEntries.isEmpty()) then (yes) 
+:throw new InvalidConfigurationException("At least one certificate expected,
+ but none found");;
+stop
+endif 
+:Certificate[] certs=new Certificate[certEntries.size()];;
+:certs[i]=CertificateFactory.getInstance("X.509")
+.generateCertificate(new ByteArrayInputStream(certEntries.get(i)));;
+:return certs;;
+stop
+end
+start
+note right
+PrivateKey privateKey(String pem,char[] keyPassword)
+end note
+:List<byte[]> keyEntries=PRIVATE_KEY_PARSER.pemEntries(pem);;
+if (keyEntries.isEmpty()) then (yes) 
+:throw new InvalidConfigurationException("Private key not provided");;
+stop
+endif 
+if (keyEntries.size()!=1) then (yes) 
+:throw new InvalidConfigurationException("Expected one private key, but found "+
+keyEntries.size());;
+stop
+endif 
+:byte[] keyBytes=keyEntries.get(0);;
+:PKCS8EncodedKeySpec keySpec;;
+if (keyPassword==null ) then (yes) 
+:keySpec=new PKCS8EncodedKeySpec(keyBytes);;
+else (no)
+:EncryptedPrivateKeyInfo keyInfo=new EncryptedPrivateKeyInfo(keyBytes);;
+:String algorithm=keyInfo.getAlgName();;
+:SecretKeyFactory keyFactory=SecretKeyFactory.getInstance(algorithm);;
+:SecretKey pbeKey=keyFactory.generateSecret(new PBEKeySpec(keyPassword));;
+:Cipher cipher=Cipher.getInstance(algorithm);;
+:cipher.init(Cipher.DECRYPT_MODE,pbeKey,keyInfo.getAlgParameters());;
+:keySpec=keyInfo.getKeySpec(cipher);;
+endif 
+:InvalidKeySpecException firstException=null ;;
+switch (try/catch block)
+case (try)
+:return factory.generatePrivate(keySpec);;
+stop
+case (catch (InvalidKeySpecException e))
+if (firstException==null ) then (yes) 
+:firstException=e;;
+endif 
+endswitch
+:throw new InvalidConfigurationException("Private key could not be loaded",
+firstException);;
+stop
+end
+start
+note right
+KeyFactory keyFactory(String algorithm)
+end note
+switch (try/catch block)
+case (try)
+:return KeyFactory.getInstance(algorithm);;
+stop
+case (catch (Exception e))
+:throw new InvalidConfigurationException("Could not create key factory for algorithm "+
+algorithm,e);;
+stop
+endswitch
+end
+start
+note right
+constructor PemParser(String name)
+end note
+:this.name=name;;
+:String beginOrEndFormat="-+%s\\s*.*%s[^-]*-+
+\\s+";;
+:String nameIgnoreSpace=name.replace(" ",
+"\\s+");;
+:String encodingParams="\\s*[^\\r\\n]*:[^\\r\\n]*[\\r\\n]+";;
+:String base64Pattern="([a-zA-Z0-9/+=\\s]*)";;
+:String patternStr=String.format(beginOrEndFormat,"BEGIN",nameIgnoreSpace)+
+String.format("(?:%s)*",encodingParams)+base64Pattern+
+String.format(beginOrEndFormat,"END",nameIgnoreSpace);;
+:pattern=Pattern.compile(patternStr);;
+end
+start
+note right
+List<byte[]> pemEntries(String pem)
+end note
+:Matcher matcher=pattern.matcher(pem+"\n");;
+:List<byte[]> entries=new ArrayList<>();;
+while (matcher.find())
+:String base64Str=matcher.group(1).replaceAll("\\s",
+"");;
+:entries.add(Base64.getDecoder().decode(base64Str));;
+endwhile
+if (entries.isEmpty()) then (yes) 
+:throw new InvalidConfigurationException("No matching "+
+name+" entries in PEM file");;
+stop
+endif 
+:return entries;;
+stop
+end
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

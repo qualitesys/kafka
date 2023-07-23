@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="413px" preserveAspectRatio="none" style="width:518px;height:413px;background:#FFFFFF;" version="1.1" viewBox="0 0 518 413" width="518px" zoomAndPan="magnify"><defs/><g><path d="M127.5,10 L127.5,18.5664 L107.5,22.5664 L127.5,26.5664 L127.5,35.1328 A0,0 0 0 0 127.5,35.1328 L501.5,35.1328 A0,0 0 0 0 501.5,35.1328 L501.5,20 L491.5,10 L127.5,10 A0,0 0 0 0 127.5,10 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M491.5,10 L491.5,20 L501.5,20 L491.5,10 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="353" x="133.5" y="27.0669">constructor LogDirNotFoundException(String message)</text><ellipse cx="97.5" cy="22.5664" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="131" x="32" y="55.1328"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="111" x="42" y="76.2715">super (message);</text><ellipse cx="97.5" cy="119.1016" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="91.3128" x2="103.6872" y1="112.9144" y2="125.2887"/><line style="stroke:#222222;stroke-width:2.5;" x1="103.6872" x2="91.3128" y1="112.9144" y2="125.2887"/><path d="M127.5,139.1016 L127.5,155.2344 L107.5,159.2344 L127.5,163.2344 L127.5,179.3672 A0,0 0 0 0 127.5,179.3672 L500.5,179.3672 A0,0 0 0 0 500.5,179.3672 L500.5,149.1016 L490.5,139.1016 L127.5,139.1016 A0,0 0 0 0 127.5,139.1016 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M490.5,139.1016 L490.5,149.1016 L500.5,149.1016 L490.5,139.1016 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="352" x="133.5" y="156.1685">constructor LogDirNotFoundException(String message,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="111" x="133.5" y="171.3013">Throwable cause)</text><ellipse cx="97.5" cy="159.2344" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="173" x="11" y="199.3672"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="153" x="21" y="220.5059">super (message,cause);</text><ellipse cx="97.5" cy="263.3359" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="91.3128" x2="103.6872" y1="257.1488" y2="269.5231"/><line style="stroke:#222222;stroke-width:2.5;" x1="103.6872" x2="91.3128" y1="257.1488" y2="269.5231"/><path d="M127.5,283.3359 L127.5,291.9023 L107.5,295.9023 L127.5,299.9023 L127.5,308.4688 A0,0 0 0 0 127.5,308.4688 L506.5,308.4688 A0,0 0 0 0 506.5,308.4688 L506.5,293.3359 L496.5,283.3359 L127.5,283.3359 A0,0 0 0 0 127.5,283.3359 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M496.5,283.3359 L496.5,293.3359 L506.5,293.3359 L496.5,283.3359 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="358" x="133.5" y="300.4028">constructor LogDirNotFoundException(Throwable cause)</text><ellipse cx="97.5" cy="295.9023" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="112" x="41.5" y="328.4688"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="92" x="51.5" y="349.6074">super (cause);</text><ellipse cx="97.5" cy="392.4375" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="91.3128" x2="103.6872" y1="386.2503" y2="398.6247"/><line style="stroke:#222222;stroke-width:2.5;" x1="103.6872" x2="91.3128" y1="386.2503" y2="398.6247"/><line style="stroke:#181818;stroke-width:1.0;" x1="97.5" x2="97.5" y1="32.5664" y2="55.1328"/><polygon fill="#181818" points="93.5,45.1328,97.5,55.1328,101.5,45.1328,97.5,49.1328" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="97.5" x2="97.5" y1="89.1016" y2="109.1016"/><polygon fill="#181818" points="93.5,99.1016,97.5,109.1016,101.5,99.1016,97.5,103.1016" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="97.5" x2="97.5" y1="169.2344" y2="199.3672"/><polygon fill="#181818" points="93.5,189.3672,97.5,199.3672,101.5,189.3672,97.5,193.3672" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="97.5" x2="97.5" y1="233.3359" y2="253.3359"/><polygon fill="#181818" points="93.5,243.3359,97.5,253.3359,101.5,243.3359,97.5,247.3359" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="97.5" x2="97.5" y1="305.9023" y2="328.4688"/><polygon fill="#181818" points="93.5,318.4688,97.5,328.4688,101.5,318.4688,97.5,322.4688" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="97.5" x2="97.5" y1="362.4375" y2="382.4375"/><polygon fill="#181818" points="93.5,372.4375,97.5,382.4375,101.5,372.4375,97.5,376.4375" style="stroke:#181818;stroke-width:1.0;"/><!--MD5=[c2d0944c435be65f1f42132152dce843]
+@startuml
+!pragma layout smetana
+start
+note right
+constructor LogDirNotFoundException(String message)
+end note
+:super (message);;
+end
+start
+note right
+constructor LogDirNotFoundException(String message,
+Throwable cause)
+end note
+:super (message,cause);;
+end
+start
+note right
+constructor LogDirNotFoundException(Throwable cause)
+end note
+:super (cause);;
+end
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

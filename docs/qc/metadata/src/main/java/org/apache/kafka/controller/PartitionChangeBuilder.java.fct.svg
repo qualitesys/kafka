@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="586px" preserveAspectRatio="none" style="width:623px;height:586px;background:#000000;" version="1.1" viewBox="0 0 623 586" width="623px" zoomAndPan="magnify"><defs/><g><rect fill="#01061B" height="1" style="stroke:#01061B;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="4" x="5" y="30.9688"> </text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="399" x="5" y="44.9375">&lt;b&gt;This version of PlantUML is 334 days old, so you should</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="408" x="5" y="58.9063">&lt;b&gt;consider upgrading from https://plantuml.com/download</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="611" x="5" y="68.875"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="188" x="6" y="83.875">[From string (line 282) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="104.1719"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="120.4688">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="136.7656">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="153.0625">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="169.3594">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="495" x="5" y="185.6563">boolean changeRecordIsNoOp(PartitionChangeRecord record )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="201.9531">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="185" x="5" y="218.25">... ( skipping 257 lines )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="234.5469">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="606" x="5" y="250.8438">if (!targetAdding.equals(Replicas.toList(partition.addingReplicas))) then (yes)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="341" x="5" y="267.1406">:record .setAddingReplicas(targetAdding);;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="283.4375">endif</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="585" x="5" y="299.7344">if (targetLeaderRecoveryState!=partition.leaderRecoveryState) then (yes)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="565" x="5" y="316.0313">:record .setLeaderRecoveryState(targetLeaderRecoveryState.value());;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="332.3281">endif</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="353" x="5" y="348.625">if (changeRecordIsNoOp(record )) then (yes)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="204" x="5" y="364.9219">:return Optional.empty();;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="381.2188">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="70" x="5" y="397.5156">else (no)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="448" x="5" y="413.8125">:return Optional.of(new ApiMessageAndVersion(record ,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="468" x="5" y="430.1094">PARTITION_CHANGE_RECORD.highestSupportedVersion()));;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="446.4063">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="40" x="5" y="462.7031">endif</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="479">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="495.2969">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="511.5938">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="527.8906">String toString()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="544.1875">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="378" x="5" y="560.4844">:return "PartitionChangeBuilder("+"partition="+</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="576.7813">Syntax Error?</text><!--MD5=[def2f673c70ddb55327567d6be874595]
+@startuml
+!pragma layout smetana
+start
+note right
+boolean changeRecordIsNoOp(PartitionChangeRecord record )
+end note
+if (record .isr()!=null ) then (yes) 
+:return false;;
+stop
+endif 
+if (record .leader()!=NO_LEADER_CHANGE) then (yes) 
+:return false;;
+stop
+endif 
+if (record .replicas()!=null ) then (yes) 
+:return false;;
+stop
+endif 
+if (record .removingReplicas()!=null ) then (yes) 
+:return false;;
+stop
+endif 
+if (record .addingReplicas()!=null ) then (yes) 
+:return false;;
+stop
+endif 
+if (record .leaderRecoveryState()!=LeaderRecoveryState.NO_CHANGE) then (yes) 
+:return false;;
+stop
+endif 
+:return true;;
+stop
+end
+start
+note right
+constructor PartitionChangeBuilder(PartitionRegistration partition,
+Uuid topicId,int partitionId,Function<Integer,
+Boolean> isAcceptableLeader,boolean isLeaderRecoverySupported)
+end note
+:this.partition=partition;;
+:this.topicId=topicId;;
+:this.partitionId=partitionId;;
+:this.isAcceptableLeader=isAcceptableLeader;;
+:this.isLeaderRecoverySupported=isLeaderRecoverySupported;;
+:this.targetIsr=Replicas.toList(partition.isr);;
+:this.targetReplicas=Replicas.toList(partition.replicas);;
+:this.targetRemoving=Replicas.toList(partition.removingReplicas);;
+:this.targetAdding=Replicas.toList(partition.addingReplicas);;
+:this.targetLeaderRecoveryState=partition.leaderRecoveryState;;
+end
+start
+note right
+PartitionChangeBuilder setTargetIsr(List<Integer> targetIsr)
+end note
+:this.targetIsr=targetIsr;;
+:return this;;
+stop
+end
+start
+note right
+PartitionChangeBuilder setTargetReplicas(List<Integer> targetReplicas)
+end note
+:this.targetReplicas=targetReplicas;;
+:return this;;
+stop
+end
+start
+note right
+PartitionChangeBuilder setElection(Election election)
+end note
+:this.election=election;;
+:return this;;
+stop
+end
+start
+note right
+PartitionChangeBuilder setTargetRemoving(List<Integer> targetRemoving)
+end note
+:this.targetRemoving=targetRemoving;;
+:return this;;
+stop
+end
+start
+note right
+PartitionChangeBuilder setTargetAdding(List<Integer> targetAdding)
+end note
+:this.targetAdding=targetAdding;;
+:return this;;
+stop
+end
+start
+note right
+PartitionChangeBuilder setTargetLeaderRecoveryState(LeaderRecoveryState targetLeaderRecoveryState)
+end note
+:this.targetLeaderRecoveryState=targetLeaderRecoveryState;;
+:return this;;
+stop
+end
+start
+note right
+constructor ElectionResult(int node,boolean unclean)
+end note
+:this.node=node;;
+:this.unclean=unclean;;
+end
+start
+note right
+ElectionResult electLeader()
+end note
+if (election==Election.PREFERRED) then (yes) 
+:return electPreferredLeader();;
+stop
+endif 
+:return electAnyLeader();;
+stop
+end
+start
+note right
+ElectionResult electPreferredLeader()
+end note
+:int preferredReplica=targetReplicas.get(0);;
+if (isValidNewLeader(preferredReplica)) then (yes) 
+:return new ElectionResult(preferredReplica,
+false);;
+stop
+endif 
+if (isValidNewLeader(partition.leader)) then (yes) 
+:return new ElectionResult(partition.leader,
+false);;
+stop
+endif 
+:Optional<Integer> onlineLeader=targetReplicas.stream()
+.skip(1).filter(this::isValidNewLeader).findFirst();;
+if (onlineLeader.isPresent()) then (yes) 
+:return new ElectionResult(onlineLeader.get(),
+false);;
+stop
+endif 
+:return new ElectionResult(NO_LEADER,false);;
+stop
+end
+start
+note right
+ElectionResult electAnyLeader()
+end note
+if (isValidNewLeader(partition.leader)) then (yes) 
+:return new ElectionResult(partition.leader,
+false);;
+stop
+endif 
+:Optional<Integer> onlineLeader=targetReplicas.stream()
+.filter(this::isValidNewLeader).findFirst();;
+if (onlineLeader.isPresent()) then (yes) 
+:return new ElectionResult(onlineLeader.get(),
+false);;
+stop
+endif 
+if (election==Election.UNCLEAN) then (yes) 
+:Optional<Integer> uncleanLeader=targetReplicas.stream()
+.filter(replica->isAcceptableLeader.apply(replica)).findFirst();;
+if (uncleanLeader.isPresent()) then (yes) 
+:return new ElectionResult(uncleanLeader.get(),
+true);;
+stop
+endif 
+endif 
+:return new ElectionResult(NO_LEADER,false);;
+stop
+end
+start
+note right
+boolean isValidNewLeader(int replica)
+end note
+:return targetIsr.contains(replica)&&isAcceptableLeader.apply(replica);;
+stop
+end
+start
+note right
+void tryElection(PartitionChangeRecord record )
+end note
+:ElectionResult electionResult=electLeader();;
+if (electionResult.node!=partition.leader) then (yes) 
+:log.debug("Setting new leader for topicId {},
+ partition {} to {} using {} election",topicId,
+partitionId,electionResult.node,electionResult.unclean? String.valueOf("an unclean"):String.valueOf("a clean"));;
+:record .setLeader(electionResult.node);;
+if (electionResult.unclean) then (yes) 
+:record .setIsr(Collections.singletonList(electionResult.node));;
+if (partition.leaderRecoveryState!=LeaderRecoveryState.RECOVERING&&isLeaderRecoverySupported) then (yes) 
+:record .setLeaderRecoveryState(LeaderRecoveryState.RECOVERING.value());;
+endif 
+endif 
+else (no)
+:log.debug("Failed to find a new leader with current state: {}",
+this);;
+endif 
+end
+start
+note right
+void triggerLeaderEpochBumpIfNeeded(PartitionChangeRecord record )
+end note
+if (record .leader()==NO_LEADER_CHANGE) then (yes) 
+if (!Replicas.contains(targetIsr,partition.isr)||!Replicas.contains(targetReplicas,partition.replicas)) then (yes) 
+:record .setLeader(partition.leader);;
+endif 
+endif 
+end
+start
+note right
+void completeReassignmentIfNeeded()
+end note
+if (targetRemoving.isEmpty()&&targetAdding.isEmpty()) then (yes) 
+:return ;;
+stop
+endif 
+:List<Integer> newTargetIsr=targetIsr;;
+:List<Integer> newTargetReplicas=targetReplicas;;
+if (!targetRemoving.isEmpty()) then (yes) 
+:newTargetIsr=new ArrayList<>(targetIsr.size());;
+if (!targetRemoving.contains(replica)) then (yes) 
+:newTargetIsr.add(replica);;
+endif 
+if (newTargetIsr.isEmpty()) then (yes) 
+:return ;;
+stop
+endif 
+:newTargetReplicas=new ArrayList<>(targetReplicas.size());;
+if (!targetRemoving.contains(replica)) then (yes) 
+:newTargetReplicas.add(replica);;
+endif 
+if (newTargetReplicas.isEmpty()) then (yes) 
+:return ;;
+stop
+endif 
+endif 
+if (!newTargetIsr.contains(replica)) then (yes) 
+:return ;;
+stop
+endif 
+:targetIsr=newTargetIsr;;
+:targetReplicas=newTargetReplicas;;
+:targetRemoving=Collections.emptyList();;
+:targetAdding=Collections.emptyList();;
+end
+start
+note right
+Optional<ApiMessageAndVersion> build()
+end note
+:PartitionChangeRecord record =new PartitionChangeRecord()
+.setTopicId(topicId).setPartitionId(partitionId);;
+:completeReassignmentIfNeeded();;
+:tryElection(record );;
+:triggerLeaderEpochBumpIfNeeded(record );;
+if (record .isr()==null &&!targetIsr.isEmpty()&&!targetIsr.equals(Replicas.toList(partition.isr))) then (yes) 
+:record .setIsr(targetIsr);;
+endif 
+if (!targetReplicas.isEmpty()&&!targetReplicas.equals(Replicas.toList(partition.replicas))) then (yes) 
+:record .setReplicas(targetReplicas);;
+endif 
+if (!targetRemoving.equals(Replicas.toList(partition.removingReplicas))) then (yes) 
+:record .setRemovingReplicas(targetRemoving);;
+endif 
+if (!targetAdding.equals(Replicas.toList(partition.addingReplicas))) then (yes) 
+:record .setAddingReplicas(targetAdding);;
+endif 
+if (targetLeaderRecoveryState!=partition.leaderRecoveryState) then (yes) 
+:record .setLeaderRecoveryState(targetLeaderRecoveryState.value());;
+endif 
+if (changeRecordIsNoOp(record )) then (yes) 
+:return Optional.empty();;
+stop
+else (no)
+:return Optional.of(new ApiMessageAndVersion(record ,
+PARTITION_CHANGE_RECORD.highestSupportedVersion()));;
+stop
+endif 
+end
+start
+note right
+String toString()
+end note
+:return "PartitionChangeBuilder("+"partition="+
+partition+", topicId="+topicId+", partitionId="+
+partitionId+", isAcceptableLeader="+isAcceptableLeader+
+", targetIsr="+targetIsr+", targetReplicas="+
+targetReplicas+", targetRemoving="+targetRemoving+
+", targetAdding="+targetAdding+", election="+
+election+", targetLeaderRecoveryState="+targetLeaderRecoveryState+
+')';;
+stop
+end
+@enduml
+
+@startuml
+!pragma layout smetana
+start
+note right
+boolean changeRecordIsNoOp(PartitionChangeRecord record )
+end note
+if (record .isr()!=null ) then (yes) 
+:return false;;
+stop
+endif 
+if (record .leader()!=NO_LEADER_CHANGE) then (yes) 
+:return false;;
+stop
+endif 
+if (record .replicas()!=null ) then (yes) 
+:return false;;
+stop
+endif 
+if (record .removingReplicas()!=null ) then (yes) 
+:return false;;
+stop
+endif 
+if (record .addingReplicas()!=null ) then (yes) 
+:return false;;
+stop
+endif 
+if (record .leaderRecoveryState()!=LeaderRecoveryState.NO_CHANGE) then (yes) 
+:return false;;
+stop
+endif 
+:return true;;
+stop
+end
+start
+note right
+constructor PartitionChangeBuilder(PartitionRegistration partition,
+Uuid topicId,int partitionId,Function<Integer,
+Boolean> isAcceptableLeader,boolean isLeaderRecoverySupported)
+end note
+:this.partition=partition;;
+:this.topicId=topicId;;
+:this.partitionId=partitionId;;
+:this.isAcceptableLeader=isAcceptableLeader;;
+:this.isLeaderRecoverySupported=isLeaderRecoverySupported;;
+:this.targetIsr=Replicas.toList(partition.isr);;
+:this.targetReplicas=Replicas.toList(partition.replicas);;
+:this.targetRemoving=Replicas.toList(partition.removingReplicas);;
+:this.targetAdding=Replicas.toList(partition.addingReplicas);;
+:this.targetLeaderRecoveryState=partition.leaderRecoveryState;;
+end
+start
+note right
+PartitionChangeBuilder setTargetIsr(List<Integer> targetIsr)
+end note
+:this.targetIsr=targetIsr;;
+:return this;;
+stop
+end
+start
+note right
+PartitionChangeBuilder setTargetReplicas(List<Integer> targetReplicas)
+end note
+:this.targetReplicas=targetReplicas;;
+:return this;;
+stop
+end
+start
+note right
+PartitionChangeBuilder setElection(Election election)
+end note
+:this.election=election;;
+:return this;;
+stop
+end
+start
+note right
+PartitionChangeBuilder setTargetRemoving(List<Integer> targetRemoving)
+end note
+:this.targetRemoving=targetRemoving;;
+:return this;;
+stop
+end
+start
+note right
+PartitionChangeBuilder setTargetAdding(List<Integer> targetAdding)
+end note
+:this.targetAdding=targetAdding;;
+:return this;;
+stop
+end
+start
+note right
+PartitionChangeBuilder setTargetLeaderRecoveryState(LeaderRecoveryState targetLeaderRecoveryState)
+end note
+:this.targetLeaderRecoveryState=targetLeaderRecoveryState;;
+:return this;;
+stop
+end
+start
+note right
+constructor ElectionResult(int node,boolean unclean)
+end note
+:this.node=node;;
+:this.unclean=unclean;;
+end
+start
+note right
+ElectionResult electLeader()
+end note
+if (election==Election.PREFERRED) then (yes) 
+:return electPreferredLeader();;
+stop
+endif 
+:return electAnyLeader();;
+stop
+end
+start
+note right
+ElectionResult electPreferredLeader()
+end note
+:int preferredReplica=targetReplicas.get(0);;
+if (isValidNewLeader(preferredReplica)) then (yes) 
+:return new ElectionResult(preferredReplica,
+false);;
+stop
+endif 
+if (isValidNewLeader(partition.leader)) then (yes) 
+:return new ElectionResult(partition.leader,
+false);;
+stop
+endif 
+:Optional<Integer> onlineLeader=targetReplicas.stream()
+.skip(1).filter(this::isValidNewLeader).findFirst();;
+if (onlineLeader.isPresent()) then (yes) 
+:return new ElectionResult(onlineLeader.get(),
+false);;
+stop
+endif 
+:return new ElectionResult(NO_LEADER,false);;
+stop
+end
+start
+note right
+ElectionResult electAnyLeader()
+end note
+if (isValidNewLeader(partition.leader)) then (yes) 
+:return new ElectionResult(partition.leader,
+false);;
+stop
+endif 
+:Optional<Integer> onlineLeader=targetReplicas.stream()
+.filter(this::isValidNewLeader).findFirst();;
+if (onlineLeader.isPresent()) then (yes) 
+:return new ElectionResult(onlineLeader.get(),
+false);;
+stop
+endif 
+if (election==Election.UNCLEAN) then (yes) 
+:Optional<Integer> uncleanLeader=targetReplicas.stream()
+.filter(replica->isAcceptableLeader.apply(replica)).findFirst();;
+if (uncleanLeader.isPresent()) then (yes) 
+:return new ElectionResult(uncleanLeader.get(),
+true);;
+stop
+endif 
+endif 
+:return new ElectionResult(NO_LEADER,false);;
+stop
+end
+start
+note right
+boolean isValidNewLeader(int replica)
+end note
+:return targetIsr.contains(replica)&&isAcceptableLeader.apply(replica);;
+stop
+end
+start
+note right
+void tryElection(PartitionChangeRecord record )
+end note
+:ElectionResult electionResult=electLeader();;
+if (electionResult.node!=partition.leader) then (yes) 
+:log.debug("Setting new leader for topicId {},
+ partition {} to {} using {} election",topicId,
+partitionId,electionResult.node,electionResult.unclean? String.valueOf("an unclean"):String.valueOf("a clean"));;
+:record .setLeader(electionResult.node);;
+if (electionResult.unclean) then (yes) 
+:record .setIsr(Collections.singletonList(electionResult.node));;
+if (partition.leaderRecoveryState!=LeaderRecoveryState.RECOVERING&&isLeaderRecoverySupported) then (yes) 
+:record .setLeaderRecoveryState(LeaderRecoveryState.RECOVERING.value());;
+endif 
+endif 
+else (no)
+:log.debug("Failed to find a new leader with current state: {}",
+this);;
+endif 
+end
+start
+note right
+void triggerLeaderEpochBumpIfNeeded(PartitionChangeRecord record )
+end note
+if (record .leader()==NO_LEADER_CHANGE) then (yes) 
+if (!Replicas.contains(targetIsr,partition.isr)||!Replicas.contains(targetReplicas,partition.replicas)) then (yes) 
+:record .setLeader(partition.leader);;
+endif 
+endif 
+end
+start
+note right
+void completeReassignmentIfNeeded()
+end note
+if (targetRemoving.isEmpty()&&targetAdding.isEmpty()) then (yes) 
+:return ;;
+stop
+endif 
+:List<Integer> newTargetIsr=targetIsr;;
+:List<Integer> newTargetReplicas=targetReplicas;;
+if (!targetRemoving.isEmpty()) then (yes) 
+:newTargetIsr=new ArrayList<>(targetIsr.size());;
+if (!targetRemoving.contains(replica)) then (yes) 
+:newTargetIsr.add(replica);;
+endif 
+if (newTargetIsr.isEmpty()) then (yes) 
+:return ;;
+stop
+endif 
+:newTargetReplicas=new ArrayList<>(targetReplicas.size());;
+if (!targetRemoving.contains(replica)) then (yes) 
+:newTargetReplicas.add(replica);;
+endif 
+if (newTargetReplicas.isEmpty()) then (yes) 
+:return ;;
+stop
+endif 
+endif 
+if (!newTargetIsr.contains(replica)) then (yes) 
+:return ;;
+stop
+endif 
+:targetIsr=newTargetIsr;;
+:targetReplicas=newTargetReplicas;;
+:targetRemoving=Collections.emptyList();;
+:targetAdding=Collections.emptyList();;
+end
+start
+note right
+Optional<ApiMessageAndVersion> build()
+end note
+:PartitionChangeRecord record =new PartitionChangeRecord()
+.setTopicId(topicId).setPartitionId(partitionId);;
+:completeReassignmentIfNeeded();;
+:tryElection(record );;
+:triggerLeaderEpochBumpIfNeeded(record );;
+if (record .isr()==null &&!targetIsr.isEmpty()&&!targetIsr.equals(Replicas.toList(partition.isr))) then (yes) 
+:record .setIsr(targetIsr);;
+endif 
+if (!targetReplicas.isEmpty()&&!targetReplicas.equals(Replicas.toList(partition.replicas))) then (yes) 
+:record .setReplicas(targetReplicas);;
+endif 
+if (!targetRemoving.equals(Replicas.toList(partition.removingReplicas))) then (yes) 
+:record .setRemovingReplicas(targetRemoving);;
+endif 
+if (!targetAdding.equals(Replicas.toList(partition.addingReplicas))) then (yes) 
+:record .setAddingReplicas(targetAdding);;
+endif 
+if (targetLeaderRecoveryState!=partition.leaderRecoveryState) then (yes) 
+:record .setLeaderRecoveryState(targetLeaderRecoveryState.value());;
+endif 
+if (changeRecordIsNoOp(record )) then (yes) 
+:return Optional.empty();;
+stop
+else (no)
+:return Optional.of(new ApiMessageAndVersion(record ,
+PARTITION_CHANGE_RECORD.highestSupportedVersion()));;
+stop
+endif 
+end
+start
+note right
+String toString()
+end note
+:return "PartitionChangeBuilder("+"partition="+
+partition+", topicId="+topicId+", partitionId="+
+partitionId+", isAcceptableLeader="+isAcceptableLeader+
+", targetIsr="+targetIsr+", targetReplicas="+
+targetReplicas+", targetRemoving="+targetRemoving+
+", targetAdding="+targetAdding+", election="+
+election+", targetLeaderRecoveryState="+targetLeaderRecoveryState+
+stop
+end
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

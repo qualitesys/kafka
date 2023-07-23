@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="586px" preserveAspectRatio="none" style="width:706px;height:586px;background:#000000;" version="1.1" viewBox="0 0 706 586" width="706px" zoomAndPan="magnify"><defs/><g><rect fill="#1B251C" height="1" style="stroke:#1B251C;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="4" x="5" y="30.9688"> </text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="399" x="5" y="44.9375">&lt;b&gt;This version of PlantUML is 334 days old, so you should</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="408" x="5" y="58.9063">&lt;b&gt;consider upgrading from https://plantuml.com/download</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="694" x="5" y="68.875"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="188" x="6" y="83.875">[From string (line 209) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="104.1719"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="120.4688">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="136.7656">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="153.0625">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="169.3594">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="344" x="5" y="185.6563">constructor ClusterConfigState(long offset,</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="201.9531">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="185" x="5" y="218.25">... ( skipping 183 lines )</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="15" x="5" y="234.5469">...</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="250.8438">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="267.1406">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="283.4375">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="299.7344">String toString()</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="316.0313">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="390" x="5" y="332.3281">:return "ClusterConfigState{"+"offset="+offset+</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="694" x="5" y="348.625">", sessionKey="+(sessionKey!=null ? String.valueOf("[hidden]"):String.valueOf("null"))+</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="408" x="5" y="364.9219">", connectorTaskCounts="+connectorTaskCounts+</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="483" x="5" y="381.2188">", connectorConfigs="+connectorConfigs+", taskConfigs="+</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="543" x="5" y="397.5156">taskConfigs+", inconsistentConnectors="+inconsistentConnectors+</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="413.8125">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="30" x="5" y="430.1094">end</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="37" x="5" y="446.4063">start</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="5" y="462.7031">note right</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="198" x="5" y="479">boolean equals(Object o)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="71" x="5" y="495.2969">end note</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="176" x="5" y="511.5938">if (this==o) then (yes)</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="5" y="527.8906">:return true;;</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="35" x="5" y="544.1875">stop</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="40" x="5" y="560.4844">endif</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="576.7813">Cannot find if</text><!--MD5=[6bd38908897fc4da4bd1d0ac1c06f461]
+@startuml
+!pragma layout smetana
+start
+note right
+constructor ClusterConfigState(long offset,
+SessionKey sessionKey,Map<String,Integer> connectorTaskCounts,
+Map<String,Map<String,String>> connectorConfigs,
+Map<String,TargetState> connectorTargetStates,
+Map<ConnectorTaskId,Map<String,String>> taskConfigs,
+Map<String,Integer> connectorTaskCountRecords,
+Map<String,Integer> connectorTaskConfigGenerations,
+Set<String> connectorsPendingFencing,Set<String> inconsistentConnectors)
+end note
+:this(offset,sessionKey,connectorTaskCounts,
+connectorConfigs,connectorTargetStates,taskConfigs,
+connectorTaskCountRecords,connectorTaskConfigGenerations,
+connectorsPendingFencing,inconsistentConnectors,
+null );;
+end
+start
+note right
+constructor ClusterConfigState(long offset,
+SessionKey sessionKey,Map<String,Integer> connectorTaskCounts,
+Map<String,Map<String,String>> connectorConfigs,
+Map<String,TargetState> connectorTargetStates,
+Map<ConnectorTaskId,Map<String,String>> taskConfigs,
+Map<String,Integer> connectorTaskCountRecords,
+Map<String,Integer> connectorTaskConfigGenerations,
+Set<String> connectorsPendingFencing,Set<String> inconsistentConnectors,
+WorkerConfigTransformer configTransformer)
+end note
+:this.offset=offset;;
+:this.sessionKey=sessionKey;;
+:this.connectorTaskCounts=connectorTaskCounts;;
+:this.connectorConfigs=connectorConfigs;;
+:this.connectorTargetStates=connectorTargetStates;;
+:this.taskConfigs=taskConfigs;;
+:this.connectorTaskCountRecords=connectorTaskCountRecords;;
+:this.connectorTaskConfigGenerations=connectorTaskConfigGenerations;;
+:this.connectorsPendingFencing=connectorsPendingFencing;;
+:this.inconsistentConnectors=inconsistentConnectors;;
+:this.configTransformer=configTransformer;;
+end
+start
+note right
+long offset()
+end note
+:return offset;;
+stop
+end
+start
+note right
+SessionKey sessionKey()
+end note
+:return sessionKey;;
+stop
+end
+start
+note right
+boolean contains(String connector)
+end note
+:return connectorConfigs.containsKey(connector);;
+stop
+end
+start
+note right
+Set<String> connectors()
+end note
+:return connectorConfigs.keySet();;
+stop
+end
+start
+note right
+Map<String,String> connectorConfig(String connector)
+end note
+:Map<String,String> configs=connectorConfigs.get(connector);;
+if (configTransformer!=null ) then (yes) 
+:configs=configTransformer.transform(connector,
+configs);;
+endif 
+:return configs;;
+stop
+end
+start
+note right
+Map<String,String> rawConnectorConfig(String connector)
+end note
+:return connectorConfigs.get(connector);;
+stop
+end
+start
+note right
+TargetState targetState(String connector)
+end note
+:return connectorTargetStates.get(connector);;
+stop
+end
+start
+note right
+Map<String,String> taskConfig(ConnectorTaskId task)
+end note
+:Map<String,String> configs=taskConfigs.get(task);;
+if (configTransformer!=null ) then (yes) 
+:configs=configTransformer.transform(task.connector(),
+configs);;
+endif 
+:return configs;;
+stop
+end
+start
+note right
+Map<String,String> rawTaskConfig(ConnectorTaskId task)
+end note
+:return taskConfigs.get(task);;
+stop
+end
+start
+note right
+List<Map<String,String>> allTaskConfigs(String connector)
+end note
+:Map<Integer,Map<String,String>> taskConfigs=new TreeMap<>();;
+if (taskConfigEntry.getKey().connector().equals(connector)) then (yes) 
+:Map<String,String> configs=taskConfigEntry.getValue();;
+if (configTransformer!=null ) then (yes) 
+:configs=configTransformer.transform(connector,
+configs);;
+endif 
+:taskConfigs.put(taskConfigEntry.getKey().task(),
+configs);;
+endif 
+:return Collections.unmodifiableList(new ArrayList<>(taskConfigs.values()));;
+stop
+end
+start
+note right
+int taskCount(String connectorName)
+end note
+:Integer count=connectorTaskCounts.get(connectorName);;
+:return count==null ? 0:count;;
+stop
+end
+start
+note right
+boolean pendingFencing(String connectorName)
+end note
+:return connectorsPendingFencing.contains(connectorName);;
+stop
+end
+start
+note right
+List<ConnectorTaskId> tasks(String connectorName)
+end note
+if (inconsistentConnectors.contains(connectorName)) then (yes) 
+:return Collections.emptyList();;
+stop
+endif 
+:Integer numTasks=connectorTaskCounts.get(connectorName);;
+if (numTasks==null ) then (yes) 
+:return Collections.emptyList();;
+stop
+endif 
+:List<ConnectorTaskId> taskIds=new ArrayList<>(numTasks);;
+:ConnectorTaskId taskId=new ConnectorTaskId(connectorName,
+taskIndex);;
+:taskIds.add(taskId);;
+:return Collections.unmodifiableList(taskIds);;
+stop
+end
+start
+note right
+Integer taskCountRecord(String connector)
+end note
+:return connectorTaskCountRecords.get(connector);;
+stop
+end
+start
+note right
+Integer taskConfigGeneration(String connector)
+end note
+:return connectorTaskConfigGenerations.get(connector);;
+stop
+end
+start
+note right
+Set<String> inconsistentConnectors()
+end note
+:return inconsistentConnectors;;
+stop
+end
+start
+note right
+String toString()
+end note
+:return "ClusterConfigState{"+"offset="+offset+
+", sessionKey="+(sessionKey!=null ? String.valueOf("[hidden]"):String.valueOf("null"))+
+", connectorTaskCounts="+connectorTaskCounts+
+", connectorConfigs="+connectorConfigs+", taskConfigs="+
+taskConfigs+", inconsistentConnectors="+inconsistentConnectors+
+'}';;
+stop
+end
+start
+note right
+boolean equals(Object o)
+end note
+if (this==o) then (yes) 
+:return true;;
+stop
+endif 
+if (o==null ||getClass()!=o.getClass()) then (yes) 
+:return false;;
+stop
+endif 
+:ClusterConfigState that=(ClusterConfigState )o;;
+:return offset==that.offset&&Objects.equals(sessionKey,
+that.sessionKey)&&Objects.equals(connectorTaskCounts,
+that.connectorTaskCounts)&&Objects.equals(connectorConfigs,
+that.connectorConfigs)&&Objects.equals(connectorTargetStates,
+that.connectorTargetStates)&&Objects.equals(taskConfigs,
+that.taskConfigs)&&Objects.equals(inconsistentConnectors,
+that.inconsistentConnectors)&&Objects.equals(configTransformer,
+that.configTransformer);;
+stop
+end
+start
+note right
+int hashCode()
+end note
+:return Objects.hash(offset,sessionKey,connectorTaskCounts,
+connectorConfigs,connectorTargetStates,taskConfigs,
+inconsistentConnectors,configTransformer);;
+stop
+end
+@enduml
+
+@startuml
+!pragma layout smetana
+start
+note right
+constructor ClusterConfigState(long offset,
+SessionKey sessionKey,Map<String,Integer> connectorTaskCounts,
+Map<String,Map<String,String>> connectorConfigs,
+Map<String,TargetState> connectorTargetStates,
+Map<ConnectorTaskId,Map<String,String>> taskConfigs,
+Map<String,Integer> connectorTaskCountRecords,
+Map<String,Integer> connectorTaskConfigGenerations,
+Set<String> connectorsPendingFencing,Set<String> inconsistentConnectors)
+end note
+:this(offset,sessionKey,connectorTaskCounts,
+connectorConfigs,connectorTargetStates,taskConfigs,
+connectorTaskCountRecords,connectorTaskConfigGenerations,
+connectorsPendingFencing,inconsistentConnectors,
+null );;
+end
+start
+note right
+constructor ClusterConfigState(long offset,
+SessionKey sessionKey,Map<String,Integer> connectorTaskCounts,
+Map<String,Map<String,String>> connectorConfigs,
+Map<String,TargetState> connectorTargetStates,
+Map<ConnectorTaskId,Map<String,String>> taskConfigs,
+Map<String,Integer> connectorTaskCountRecords,
+Map<String,Integer> connectorTaskConfigGenerations,
+Set<String> connectorsPendingFencing,Set<String> inconsistentConnectors,
+WorkerConfigTransformer configTransformer)
+end note
+:this.offset=offset;;
+:this.sessionKey=sessionKey;;
+:this.connectorTaskCounts=connectorTaskCounts;;
+:this.connectorConfigs=connectorConfigs;;
+:this.connectorTargetStates=connectorTargetStates;;
+:this.taskConfigs=taskConfigs;;
+:this.connectorTaskCountRecords=connectorTaskCountRecords;;
+:this.connectorTaskConfigGenerations=connectorTaskConfigGenerations;;
+:this.connectorsPendingFencing=connectorsPendingFencing;;
+:this.inconsistentConnectors=inconsistentConnectors;;
+:this.configTransformer=configTransformer;;
+end
+start
+note right
+long offset()
+end note
+:return offset;;
+stop
+end
+start
+note right
+SessionKey sessionKey()
+end note
+:return sessionKey;;
+stop
+end
+start
+note right
+boolean contains(String connector)
+end note
+:return connectorConfigs.containsKey(connector);;
+stop
+end
+start
+note right
+Set<String> connectors()
+end note
+:return connectorConfigs.keySet();;
+stop
+end
+start
+note right
+Map<String,String> connectorConfig(String connector)
+end note
+:Map<String,String> configs=connectorConfigs.get(connector);;
+if (configTransformer!=null ) then (yes) 
+:configs=configTransformer.transform(connector,
+configs);;
+endif 
+:return configs;;
+stop
+end
+start
+note right
+Map<String,String> rawConnectorConfig(String connector)
+end note
+:return connectorConfigs.get(connector);;
+stop
+end
+start
+note right
+TargetState targetState(String connector)
+end note
+:return connectorTargetStates.get(connector);;
+stop
+end
+start
+note right
+Map<String,String> taskConfig(ConnectorTaskId task)
+end note
+:Map<String,String> configs=taskConfigs.get(task);;
+if (configTransformer!=null ) then (yes) 
+:configs=configTransformer.transform(task.connector(),
+configs);;
+endif 
+:return configs;;
+stop
+end
+start
+note right
+Map<String,String> rawTaskConfig(ConnectorTaskId task)
+end note
+:return taskConfigs.get(task);;
+stop
+end
+start
+note right
+List<Map<String,String>> allTaskConfigs(String connector)
+end note
+:Map<Integer,Map<String,String>> taskConfigs=new TreeMap<>();;
+if (taskConfigEntry.getKey().connector().equals(connector)) then (yes) 
+:Map<String,String> configs=taskConfigEntry.getValue();;
+if (configTransformer!=null ) then (yes) 
+:configs=configTransformer.transform(connector,
+configs);;
+endif 
+:taskConfigs.put(taskConfigEntry.getKey().task(),
+configs);;
+endif 
+:return Collections.unmodifiableList(new ArrayList<>(taskConfigs.values()));;
+stop
+end
+start
+note right
+int taskCount(String connectorName)
+end note
+:Integer count=connectorTaskCounts.get(connectorName);;
+:return count==null ? 0:count;;
+stop
+end
+start
+note right
+boolean pendingFencing(String connectorName)
+end note
+:return connectorsPendingFencing.contains(connectorName);;
+stop
+end
+start
+note right
+List<ConnectorTaskId> tasks(String connectorName)
+end note
+if (inconsistentConnectors.contains(connectorName)) then (yes) 
+:return Collections.emptyList();;
+stop
+endif 
+:Integer numTasks=connectorTaskCounts.get(connectorName);;
+if (numTasks==null ) then (yes) 
+:return Collections.emptyList();;
+stop
+endif 
+:List<ConnectorTaskId> taskIds=new ArrayList<>(numTasks);;
+:ConnectorTaskId taskId=new ConnectorTaskId(connectorName,
+taskIndex);;
+:taskIds.add(taskId);;
+:return Collections.unmodifiableList(taskIds);;
+stop
+end
+start
+note right
+Integer taskCountRecord(String connector)
+end note
+:return connectorTaskCountRecords.get(connector);;
+stop
+end
+start
+note right
+Integer taskConfigGeneration(String connector)
+end note
+:return connectorTaskConfigGenerations.get(connector);;
+stop
+end
+start
+note right
+Set<String> inconsistentConnectors()
+end note
+:return inconsistentConnectors;;
+stop
+end
+start
+note right
+String toString()
+end note
+:return "ClusterConfigState{"+"offset="+offset+
+", sessionKey="+(sessionKey!=null ? String.valueOf("[hidden]"):String.valueOf("null"))+
+", connectorTaskCounts="+connectorTaskCounts+
+", connectorConfigs="+connectorConfigs+", taskConfigs="+
+taskConfigs+", inconsistentConnectors="+inconsistentConnectors+
+stop
+end
+start
+note right
+boolean equals(Object o)
+end note
+if (this==o) then (yes) 
+:return true;;
+stop
+endif 
+if (o==null ||getClass()!=o.getClass()) then (yes) 
+:return false;;
+stop
+endif 
+:ClusterConfigState that=(ClusterConfigState )o;;
+:return offset==that.offset&&Objects.equals(sessionKey,
+that.sessionKey)&&Objects.equals(connectorTaskCounts,
+that.connectorTaskCounts)&&Objects.equals(connectorConfigs,
+that.connectorConfigs)&&Objects.equals(connectorTargetStates,
+that.connectorTargetStates)&&Objects.equals(taskConfigs,
+that.taskConfigs)&&Objects.equals(inconsistentConnectors,
+that.inconsistentConnectors)&&Objects.equals(configTransformer,
+that.configTransformer);;
+stop
+end
+start
+note right
+int hashCode()
+end note
+:return Objects.hash(offset,sessionKey,connectorTaskCounts,
+connectorConfigs,connectorTargetStates,taskConfigs,
+inconsistentConnectors,configTransformer);;
+stop
+end
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

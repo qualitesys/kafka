@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="194px" preserveAspectRatio="none" style="width:478px;height:194px;background:#000000;" version="1.1" viewBox="0 0 478 194" width="478px" zoomAndPan="magnify"><defs/><g><rect fill="#18161B" height="1" style="stroke:#18161B;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="4" x="5" y="30.9688"> </text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="399" x="5" y="44.9375">&lt;b&gt;This version of PlantUML is 334 days old, so you should</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="408" x="5" y="58.9063">&lt;b&gt;consider upgrading from https://plantuml.com/download</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="466" x="5" y="68.875"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="168" x="6" y="83.875">[From string (line 4) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="104.1719"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="120.4688">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="136.7656">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="466" x="5" y="153.0625">"" &lt;|-- "org.apache.kafka.common.record.MemoryRecords"</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="459" x="5" y="169.3594">class org.apache.kafka.common.record.MemoryRecords {</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="185.6563">Syntax Error?</text><!--MD5=[d8e0db58864d018a3017d4a6c45fc260]
+@startuml
+!pragma layout smetana
+"" <|- - "org.apache.kafka.common.record.MemoryRecords"
+class org.apache.kafka.common.record.MemoryRecords {
+-MemoryRecords(ByteBuffer) : MemoryRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#61]]]
++sizeInBytes() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#67]]]
++writeTo(TransferableChannel;long;int) : long [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#72]]]
++writeFullyTo(GatheringByteChannel) : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#88]]]
++validBytes() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#102]]]
++downConvert(byte;long;Time) : ConvertedRecords<MemoryRecords> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#115]]]
++batchIterator() : AbstractIterator<MutableRecordBatch> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#120]]]
++firstBatchSize() : Integer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#130]]]
++filterTo(TopicPartition;RecordFilter;ByteBuffer;int;BufferSupplier) : FilterResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#152]]]
+-filterTo(TopicPartition;Iterable<MutableRecordBatch>;RecordFilter;ByteBuffer;int;BufferSupplier) : FilterResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#161]]]
+-filterBatch(RecordBatch;BufferSupplier;FilterResult;RecordFilter;byte;boolean;List<Record>) : BatchFilterResult [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#243]]]
+-buildRetainedRecordsInto(RecordBatch;List<Record>;ByteBufferOutputStream;long) : MemoryRecordsBuilder [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#292]]]
++buffer() : ByteBuffer [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#323]]]
++batches() : Iterable<MutableRecordBatch> [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#328]]]
++toString() : String [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#333]]]
++equals(Object) : boolean [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#340]]]
++hashCode() : int [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#352]]]
++readableRecords(ByteBuffer) : MemoryRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#469]]]
++builder(ByteBuffer;CompressionType;TimestampType;long) : MemoryRecordsBuilder [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#473]]]
++builder(ByteBuffer;CompressionType;TimestampType;long;int) : MemoryRecordsBuilder [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#480]]]
++idempotentBuilder(ByteBuffer;CompressionType;long;long;short;int) : MemoryRecordsBuilder [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#494]]]
++builder(ByteBuffer;byte;CompressionType;TimestampType;long;long) : MemoryRecordsBuilder [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#504]]]
++builder(ByteBuffer;byte;CompressionType;TimestampType;long) : MemoryRecordsBuilder [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#515]]]
++builder(ByteBuffer;byte;CompressionType;TimestampType;long;long;int) : MemoryRecordsBuilder [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#528]]]
++builder(ByteBuffer;CompressionType;long;long;short;int;boolean) : MemoryRecordsBuilder [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#539]]]
++builder(ByteBuffer;byte;CompressionType;TimestampType;long;long;long;short;int) : MemoryRecordsBuilder [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#551]]]
++builder(ByteBuffer;byte;CompressionType;TimestampType;long;long;long;short;int;boolean;int) : MemoryRecordsBuilder [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#564]]]
++builder(ByteBuffer;byte;CompressionType;TimestampType;long;long;long;short;int;boolean;boolean;int) : MemoryRecordsBuilder [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#579]]]
++withRecords(CompressionType;SimpleRecord...) : MemoryRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#596]]]
++withRecords(CompressionType;int;SimpleRecord...) : MemoryRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#600]]]
++withRecords(byte;CompressionType;SimpleRecord...) : MemoryRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#606]]]
++withRecords(long;CompressionType;SimpleRecord...) : MemoryRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#610]]]
++withRecords(byte;long;CompressionType;SimpleRecord...) : MemoryRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#615]]]
++withRecords(long;CompressionType;Integer;SimpleRecord...) : MemoryRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#619]]]
++withIdempotentRecords(CompressionType;long;short;int;SimpleRecord...) : MemoryRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#624]]]
++withIdempotentRecords(byte;long;CompressionType;long;short;int;int;SimpleRecord...) : MemoryRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#630]]]
++withIdempotentRecords(long;CompressionType;long;short;int;int;SimpleRecord...) : MemoryRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#637]]]
++withTransactionalRecords(CompressionType;long;short;int;SimpleRecord...) : MemoryRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#644]]]
++withTransactionalRecords(byte;long;CompressionType;long;short;int;int;SimpleRecord...) : MemoryRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#650]]]
++withTransactionalRecords(long;CompressionType;long;short;int;int;SimpleRecord...) : MemoryRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#657]]]
++withRecords(byte;long;CompressionType;TimestampType;SimpleRecord...) : MemoryRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#664]]]
++withRecords(byte;long;CompressionType;TimestampType;long;short;int;int;boolean;SimpleRecord...) : MemoryRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#671]]]
++withEndTransactionMarker(long;short;EndTransactionMarker) : MemoryRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#690]]]
++withEndTransactionMarker(long;long;short;EndTransactionMarker) : MemoryRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#695]]]
++withEndTransactionMarker(long;long;int;long;short;EndTransactionMarker) : MemoryRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#701]]]
++writeEndTransactionalMarker(ByteBuffer;long;long;int;long;short;EndTransactionMarker) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#713]]]
++withLeaderChangeMessage(long;long;int;ByteBuffer;LeaderChangeMessage) : MemoryRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#726]]]
+-writeLeaderChangeMessage(ByteBuffer;long;long;int;LeaderChangeMessage) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#738]]]
++withSnapshotHeaderRecord(long;long;int;ByteBuffer;SnapshotHeaderRecord) : MemoryRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#753]]]
+-writeSnapshotHeaderRecord(ByteBuffer;long;long;int;SnapshotHeaderRecord) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#765]]]
++withSnapshotFooterRecord(long;long;int;ByteBuffer;SnapshotFooterRecord) : MemoryRecords [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#781]]]
+-writeSnapshotFooterRecord(ByteBuffer;long;long;int;SnapshotFooterRecord) : void [[[./../../../../../../../../../.././qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#793]]]
+} 
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

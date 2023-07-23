@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="194px" preserveAspectRatio="none" style="width:561px;height:194px;background:#000000;" version="1.1" viewBox="0 0 561 194" width="561px" zoomAndPan="magnify"><defs/><g><rect fill="#042423" height="1" style="stroke:#042423;stroke-width:1.0;" width="1" x="0" y="0"/><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="127" x="5" y="17">PlantUML 1.2022.7</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="4" x="5" y="30.9688"> </text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="399" x="5" y="44.9375">&lt;b&gt;This version of PlantUML is 334 days old, so you should</text><text fill="#33FF02" font-family="sans-serif" font-size="12" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="408" x="5" y="58.9063">&lt;b&gt;consider upgrading from https://plantuml.com/download</text><rect fill="#33FF02" height="21.2969" style="stroke:#33FF02;stroke-width:1.0;" width="549" x="5" y="68.875"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="168" x="6" y="83.875">[From string (line 4) ]</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="5" x="5" y="104.1719"> </text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="79" x="5" y="120.4688">@startuml</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="190" x="5" y="136.7656">!pragma layout smetana</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="549" x="5" y="153.0625">"" &lt;|-- "org.apache.kafka.streams.processor.internals.StreamThread"</text><text fill="#33FF02" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" text-decoration="wavy underline" textLength="542" x="5" y="169.3594">class org.apache.kafka.streams.processor.internals.StreamThread {</text><text fill="#FF0000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="106" x="10" y="185.6563">Syntax Error?</text><!--MD5=[ddb2a097213a790726a6c2d8ea5ee449]
+@startuml
+!pragma layout smetana
+"" <|- - "org.apache.kafka.streams.processor.internals.StreamThread"
+class org.apache.kafka.streams.processor.internals.StreamThread {
++setStateListener(StreamThread.StateListener) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#190]]]
++state() : State [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#197]]]
+setPartitionAssignedTime(long) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#202]]]
+setState(State) : State [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#212]]]
++isRunning() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#252]]]
++create(TopologyMetadata;StreamsConfig;KafkaClientSupplier;Admin;UUID;String;StreamsMetricsImpl;Time;StreamsMetadataState;long;StateDirectory;StateRestoreListener;int;Runnable;BiConsumer<Throwable,Boolean>) : StreamThread [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#323]]]
++StreamThread(Time;StreamsConfig;Admin;Consumer<byte[],byte[]>;Consumer<byte[],byte[]>;ChangelogReader;String;TaskManager;StreamsMetricsImpl;TopologyMetadata;String;LogContext;AtomicInteger;AtomicLong;Queue<StreamsException>;Runnable;BiConsumer<Throwable,Boolean>;java.util.function.Consumer<Long>) : StreamThread [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#440]]]
++run() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#542]]]
+runLoop() : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#568]]]
++setStreamsUncaughtExceptionHandler(BiConsumer<Throwable,Boolean>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#637]]]
++maybeSendShutdown() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#641]]]
++waitOnThreadState(StreamThread.State;long) : boolean [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#649]]]
++shutdownToError() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#682]]]
++sendShutdownRequest(AssignorError) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#686]]]
+-handleTaskMigrated(TaskMigratedException) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#690]]]
+-subscribeConsumer() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#700]]]
++resizeCache(long) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#708]]]
+runOnce() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#731]]]
+-initializeAndRestorePhase() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#852]]]
+-checkForTopologyUpdates() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#887]]]
+-pollPhase() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#902]]]
+-pollRequests(Duration) : ConsumerRecords<byte[],byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#963]]]
+-resetOffsets(Set<TopicPartition>;Exception) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#977]]]
+-addToResetList(TopicPartition;Set<TopicPartition>;String;String;Set<String>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1042]]]
+maybeCommit() : int [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1058]]]
+-advanceNowAndComputeLatency() : long [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1099]]]
++shutdown() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1112]]]
+-completeShutdown(boolean) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1121]]]
++threadMetadata() : ThreadMetadata [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1170]]]
+updateThreadMetadata(String) : StreamThread [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1175]]]
+-updateThreadMetadata(Map<TaskId,Task>;Map<TaskId,Task>) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1190]]]
++activeTaskMap() : Map<TaskId,Task> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1226]]]
++activeTasks() : List<Task> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1230]]]
++allTasks() : Map<TaskId,Task> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1234]]]
++toString() : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1245]]]
++toString(String) : String [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1255]]]
++getGroupInstanceID() : Optional<String> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1259]]]
++requestLeaveGroupDuringShutdown() : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1263]]]
++producerMetrics() : Map<MetricName,Metric> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1267]]]
++consumerMetrics() : Map<MetricName,Metric> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1271]]]
++adminClientMetrics() : Map<MetricName,Metric> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1275]]]
++getStateLock() : Object [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1279]]]
+setNow(long) : void [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1284]]]
+taskManager() : TaskManager [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1288]]]
+currentNumIterations() : int [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1292]]]
+rebalanceListener() : ConsumerRebalanceListener [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1296]]]
+mainConsumer() : Consumer<byte[],byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1300]]]
+restoreConsumer() : Consumer<byte[],byte[]> [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1304]]]
+adminClient() : Admin [[[./../../../../../../../../../../.././qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1308]]]
+} 
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

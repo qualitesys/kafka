@@ -1,0 +1,2082 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1234px" preserveAspectRatio="none" style="width:959px;height:1234px;background:#FFFFFF;" version="1.1" viewBox="0 0 959 1234" width="959px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="603" x="5" y="16.1387">An error has occured : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="203" x="5" y="30.1074">Sir, are you classified as human?</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="44.0762"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="280" x="5" y="58.0449">Diagram size: 2072 lines / 59742 characters.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="72.0137"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="374" x="5" y="85.9824">PlantUML (1.2022.7) cannot parse result from dot/GraphViz.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="99.9512"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="390" x="5" y="113.9199">This version of PlantUML is 334 days old, so you should</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="398" x="5" y="127.8887">consider upgrading from https://plantuml.com/download</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="141.8574"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="492" x="5" y="155.8262">Please go to https://plantuml.com/graphviz-dot to check your GraphViz version.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="169.7949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="277" x="5" y="183.7637">Java Runtime: OpenJDK Runtime Environment</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="187" x="5" y="197.7324">JVM: OpenJDK 64-Bit Server VM</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="211.7012">Default Encoding: UTF-8</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="5" y="225.6699">Language: en</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="5" y="239.6387">Country: null</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="253.6074"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="172" x="5" y="267.5762">PLANTUML_LIMIT_SIZE: 4096</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="281.5449"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="295.5137">This may be caused by :</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="9" y="309.4824">- a bug in PlantUML</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="144" x="9" y="323.4512">- a problem in GraphViz</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="337.4199"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="300" x="5" y="351.3887">You should send this diagram and this image to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="145" x="309" y="351.3887">plantuml@gmail.com</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="13" x="458" y="351.3887">or</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="5" y="365.3574">post to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="168" x="54" y="365.3574">https://plantuml.com/qa</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="117" x="226" y="365.3574">to solve this issue.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="405" x="5" y="379.3262">You can try to turn arround this issue by simplifing your diagram.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="393.2949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="458" x="5" y="407.2637">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="477" x="13" y="421.2324">java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="548" x="13" y="435.2012">java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="474" x="13" y="449.1699">java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="351" x="13" y="463.1387">java.base/java.util.Objects.checkIndex(Objects.java:372)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="314" x="13" y="477.1074">java.base/java.util.ArrayList.get(ArrayList.java:459)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="878" x="13" y="491.0762">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createWithLinks(FtileFactoryDelegatorSwitch.java:103)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="852" x="13" y="505.0449">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createSwitch(FtileFactoryDelegatorSwitch.java:79)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="519.0137">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="532.9824">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="546.9512">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="560.9199">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="574.8887">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="588.8574">net.sourceforge.plantuml.activitydiagram3.InstructionSwitch.createFtile(InstructionSwitch.java:119)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="13" y="602.8262">net.sourceforge.plantuml.activitydiagram3.InstructionList.createFtile(InstructionList.java:131)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="499" x="13" y="616.7949">net.sourceforge.plantuml.activitydiagram3.Branch.updateFtile(Branch.java:130)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="555" x="13" y="630.7637">net.sourceforge.plantuml.activitydiagram3.InstructionIf.createFtile(InstructionIf.java:136)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="13" y="644.7324">net.sourceforge.plantuml.activitydiagram3.InstructionList.createFtile(InstructionList.java:131)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="536" x="13" y="658.7012">net.sourceforge.plantuml.activitydiagram3.ftile.Swimlanes.drawU(Swimlanes.java:229)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="805" x="13" y="672.6699">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.getPiecewiseAffineTransform(CompressionXorYBuilder.java:51)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="655" x="13" y="686.6387">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.build(CompressionXorYBuilder.java:44)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="686" x="13" y="700.6074">net.sourceforge.plantuml.activitydiagram3.ActivityDiagram3.exportDiagramInternal(ActivityDiagram3.java:210)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="714.5762">net.sourceforge.plantuml.UmlDiagram.exportDiagramNow(UmlDiagram.java:135)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="538" x="13" y="728.5449">net.sourceforge.plantuml.AbstractPSystem.exportDiagram(AbstractPSystem.java:178)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="742.5137">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:172)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="756.4824">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="693" x="13" y="770.4512">com.qualitesys.qcrmavenplugin.commun.QcrCommunPlantUml.genererFichierSvg(QcrCommunPlantUml.java:82)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="585" x="13" y="784.4199">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lireFichier(QcrReporting01Mojo.java:927)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="556" x="13" y="798.3887">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lister(QcrReporting01Mojo.java:453)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="591" x="13" y="812.3574">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.doReport(QcrReporting01Mojo.java:2037)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="625" x="13" y="826.3262">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.executeReport(QcrReporting01Mojo.java:1739)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="582" x="13" y="840.2949">org.apache.maven.reporting.AbstractMavenReport.generate(AbstractMavenReport.java:251)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="748" x="13" y="854.2637">org.apache.maven.plugins.site.render.ReportDocumentRenderer.renderDocument(ReportDocumentRenderer.java:226)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="607" x="13" y="868.2324">org.apache.maven.doxia.siterenderer.DefaultSiteRenderer.render(DefaultSiteRenderer.java:348)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="882.2012">org.apache.maven.plugins.site.render.SiteMojo.renderLocale(SiteMojo.java:194)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="470" x="13" y="896.1699">org.apache.maven.plugins.site.render.SiteMojo.execute(SiteMojo.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="649" x="13" y="910.1387">org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="924.1074">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:370)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="531" x="13" y="938.0762">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:351)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="952.0449">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:215)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="966.0137">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:171)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="979.9824">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:163)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="651" x="13" y="993.9512">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="643" x="13" y="1007.9199">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="747" x="13" y="1021.8887">org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="1035.8574">org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1049.8262">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:299)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1063.7949">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="412" x="13" y="1077.7637">org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="367" x="13" y="1091.7324">org.apache.maven.cli.MavenCli.execute(MavenCli.java:963)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="362" x="13" y="1105.7012">org.apache.maven.cli.MavenCli.doMain(MavenCli.java:296)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="347" x="13" y="1119.6699">org.apache.maven.cli.MavenCli.main(MavenCli.java:199)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="1133.6387">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="1147.6074">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="679" x="13" y="1161.5762">java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="373" x="13" y="1175.5449">java.base/java.lang.reflect.Method.invoke(Method.java:566)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="562" x="13" y="1189.5137">org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="499" x="13" y="1203.4824">org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="568" x="13" y="1217.4512">org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="487" x="13" y="1231.4199">org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)</text><image height="39" width="39" x="920" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAnCAYAAACMo1E1AAABDklEQVR4Xu3WMQ7CMBBEUR+LkoNxHEoOSBeqLXjSYm/iiCDypV/grHdGigS0dnLS2vPSlore3xXDe3p/Fwzdqvs34fKtun8Tj1tbPrncr2967r6pWEa/Ui4r4WftPTdnFT9dznPtPTevRFYiO9fec/NKWKIXZqlMc1bh0kOVE0tUdd9UDKvqvin4WsL4OfJ819cnhh6inGGalcvOQ3NW4VLNSmTnoTklXJbpXyF1Xs0dwiWZllHn1dwh/AoILRXnlvI87rnP3CFc8hPlDB3V+/9XztCq7jN3CJccqpwYotW5qRii1bkp+KWpzgfOqfOrcKk6HzinzpdwWab3AucyvTeESzK9FziX6b2Tk2/yAmR5BXOxVW60AAAAAElFTkSuQmCC" y="6"/><!--MD5=[9ce5a87c7f06f7b1c38800adb886af79]
+@startuml
+!pragma layout smetana
+start
+note right
+constructor InternalTopologyBuilder()
+end note
+:this.topologyName=null ;;
+end
+start
+note right
+constructor InternalTopologyBuilder(final TopologyConfig topologyConfigs)
+end note
+:this.topologyConfigs=topologyConfigs;;
+:this.topologyName=topologyConfigs.topologyName;;
+end
+start
+note right
+constructor StateStoreFactory(final StoreBuilder<S> builder)
+end note
+:this.builder=builder;;
+end
+start
+note right
+S build()
+end note
+:return builder.build();;
+stop
+end
+start
+note right
+long retentionPeriod()
+end note
+if (builder instanceof WindowStoreBuilder ) then (yes) 
+:return ((WindowStoreBuilder<?,?> )builder)
+.retentionPeriod();;
+stop
+else if (builder instanceof TimestampedWindowStoreBuilder ) then (yes) 
+:return ((TimestampedWindowStoreBuilder<?,
+?> )builder).retentionPeriod();;
+stop
+else if (builder instanceof SessionStoreBuilder ) then (yes) 
+:return ((SessionStoreBuilder<?,?> )builder)
+.retentionPeriod();;
+stop
+else (no)
+:throw new IllegalStateException("retentionPeriod is not supported when not a window store");;
+stop
+endif 
+end
+start
+note right
+Set<String> users()
+end note
+:return users;;
+stop
+end
+start
+note right
+boolean loggingEnabled()
+end note
+:return builder.loggingEnabled();;
+stop
+end
+start
+note right
+String name()
+end note
+:return builder.name();;
+stop
+end
+start
+note right
+boolean isWindowStore()
+end note
+:return builder instanceof WindowStoreBuilder ||builder instanceof TimestampedWindowStoreBuilder ||builder instanceof SessionStoreBuilder ;;
+stop
+end
+start
+note right
+Map<String,String> logConfig()
+end note
+:return builder.logConfig();;
+stop
+end
+start
+note right
+constructor NodeFactory(final String name,
+final String[] predecessors)
+end note
+:this.name=name;;
+:this.predecessors=predecessors;;
+end
+start
+note right
+constructor ProcessorNodeFactory(final String name,
+final String[] predecessors,final ProcessorSupplier<KIn,
+VIn,KOut,VOut> supplier)
+end note
+:super (name,predecessors.clone());;
+:this.supplier=supplier;;
+end
+start
+note right
+void addStateStore(final String stateStoreName)
+end note
+:stateStoreNames.add(stateStoreName);;
+end
+start
+note right
+ProcessorNode<KIn,VIn,KOut,VOut> build()
+end note
+:return new ProcessorNode<>(name,supplier.get(),
+stateStoreNames);;
+stop
+end
+start
+note right
+Processor describe()
+end note
+:return new Processor(name,new HashSet<>(stateStoreNames));;
+stop
+end
+start
+note right
+constructor FixedKeyProcessorNodeFactory(final String name,
+final String[] predecessors,final FixedKeyProcessorSupplier<KIn,
+VIn,VOut> supplier)
+end note
+:super (name,predecessors.clone(),null );;
+:this.supplier=supplier;;
+end
+start
+note right
+void addStateStore(final String stateStoreName)
+end note
+:stateStoreNames.add(stateStoreName);;
+end
+start
+note right
+ProcessorNode<KIn,VIn,KIn,VOut> build()
+end note
+:return new ProcessorNode<>(name,supplier.get(),
+stateStoreNames);;
+stop
+end
+start
+note right
+Processor describe()
+end note
+:return new Processor(name,new HashSet<>(stateStoreNames));;
+stop
+end
+start
+note right
+constructor SourceNodeFactory(final String name,
+final String[] topics,final Pattern pattern,
+final TimestampExtractor timestampExtractor,
+final Deserializer<KIn> keyDeserializer,final Deserializer<VIn> valDeserializer)
+end note
+:super (name,NO_PREDECESSORS);;
+:this.topics=topics!=null ? Arrays.asList(topics):new ArrayList<>();;
+:this.pattern=pattern;;
+:this.keyDeserializer=keyDeserializer;;
+:this.valDeserializer=valDeserializer;;
+:this.timestampExtractor=timestampExtractor;;
+end
+start
+note right
+List<String> getTopics(final Collection<String> subscribedTopics)
+end note
+if (subscribedTopics.isEmpty()) then (yes) 
+:return Collections.singletonList(String.valueOf(pattern));;
+stop
+endif 
+:final List<String> matchedTopics=new ArrayList<>();;
+if (pattern==topicToPatterns.get(update)) then (yes) 
+:matchedTopics.add(update);;
+else if (topicToPatterns.containsKey(update)&&isMatch(update)) then (yes) 
+:throw new TopologyException("Topic "+update+
+" is already matched for another regex pattern "+
+topicToPatterns.get(update)+" and hence cannot be matched to this regex pattern "+
+pattern+" any more.");;
+stop
+else if (isMatch(update)) then (yes) 
+:topicToPatterns.put(update,pattern);;
+:matchedTopics.add(update);;
+endif 
+:return matchedTopics;;
+stop
+end
+start
+note right
+ProcessorNode<KIn,VIn,KIn,VIn> build()
+end note
+:return new SourceNode<>(name,timestampExtractor,
+keyDeserializer,valDeserializer);;
+stop
+end
+start
+note right
+boolean isMatch(final String topic)
+end note
+:return pattern.matcher(topic).matches();;
+stop
+end
+start
+note right
+Source describe()
+end note
+:return new Source(name,topics.size()==0? null :new HashSet<>(topics),
+pattern);;
+stop
+end
+start
+note right
+constructor SinkNodeFactory(final String name,
+final String[] predecessors,final TopicNameExtractor<KIn,
+VIn> topicExtractor,final Serializer<KIn> keySerializer,
+final Serializer<VIn> valSerializer,final StreamPartitioner<?superKIn,
+?superVIn> partitioner)
+end note
+:super (name,predecessors.clone());;
+:this.topicExtractor=topicExtractor;;
+:this.keySerializer=keySerializer;;
+:this.valSerializer=valSerializer;;
+:this.partitioner=partitioner;;
+end
+start
+note right
+ProcessorNode<KIn,VIn,Void,Void> build()
+end note
+if (topicExtractor instanceof StaticTopicNameExtractor ) then (yes) 
+:final String topic=((StaticTopicNameExtractor<KIn,
+VIn> )topicExtractor).topicName;;
+if (internalTopicNamesWithProperties.containsKey(topic)) then (yes) 
+:return new SinkNode<>(name,new StaticTopicNameExtractor<>(decorateTopic(topic)),
+keySerializer,valSerializer,partitioner);;
+stop
+else (no)
+:return new SinkNode<>(name,topicExtractor,
+keySerializer,valSerializer,partitioner);;
+stop
+endif 
+else (no)
+:return new SinkNode<>(name,topicExtractor,
+keySerializer,valSerializer,partitioner);;
+stop
+endif 
+end
+start
+note right
+Sink<KIn,VIn> describe()
+end note
+:return new Sink<>(name,topicExtractor);;
+stop
+end
+start
+note right
+InternalTopologyBuilder setApplicationId(final String applicationId)
+end note
+:Objects.requireNonNull(applicationId,"applicationId can't be null");;
+:this.applicationId=applicationId;;
+:return this;;
+stop
+end
+start
+note right
+void setStreamsConfig(final StreamsConfig applicationConfig)
+end note
+:Objects.requireNonNull(applicationConfig,
+"config can't be null");;
+:topologyConfigs=new TopologyConfig(applicationConfig);;
+end
+start
+note right
+void setNamedTopology(final NamedTopology namedTopology)
+end note
+:this.namedTopology=namedTopology;;
+end
+start
+note right
+TopologyConfig topologyConfigs()
+end note
+:return topologyConfigs;;
+stop
+end
+start
+note right
+String topologyName()
+end note
+:return topologyName;;
+stop
+end
+start
+note right
+NamedTopology namedTopology()
+end note
+:return namedTopology;;
+stop
+end
+start
+note right
+InternalTopologyBuilder rewriteTopology(final StreamsConfig config)
+end note
+:Objects.requireNonNull(config,"config can't be null");;
+:setApplicationId(config.getString(StreamsConfig.APPLICATION_ID_CONFIG));;
+:setStreamsConfig(config);;
+if (topologyConfigs.cacheSize==0L) then (yes) 
+:storeFactory.builder.withCachingDisabled();;
+:storeBuilder.withCachingDisabled();;
+endif 
+:globalStateStores.put(storeBuilder.name(),
+storeBuilder.build());;
+:return this;;
+stop
+end
+start
+note right
+void addSource(final Topology.AutoOffsetReset offsetReset,
+final String name,final TimestampExtractor timestampExtractor,
+final Deserializer<?> keyDeserializer,final Deserializer<?> valDeserializer,
+final String ... topics)
+end note
+if (topics.length==0) then (yes) 
+:throw new TopologyException("You must provide at least one topic");;
+stop
+endif 
+:Objects.requireNonNull(name,"name must not be null");;
+if (nodeFactories.containsKey(name)) then (yes) 
+:throw new TopologyException("Processor "+
+name+" is already added.");;
+stop
+endif 
+:Objects.requireNonNull(topic,"topic names cannot be null");;
+:validateTopicNotAlreadyRegistered(topic);;
+:maybeAddToResetList(earliestResetTopics,
+latestResetTopics,offsetReset,topic);;
+:rawSourceTopicNames.add(topic);;
+:nodeFactories.put(name,new SourceNodeFactory<>(name,
+topics,null ,timestampExtractor,keyDeserializer,
+valDeserializer));;
+:nodeToSourceTopics.put(name,Arrays.asList(topics));;
+:nodeGrouper.add(name);;
+:nodeGroups=null ;;
+end
+start
+note right
+void addSource(final Topology.AutoOffsetReset offsetReset,
+final String name,final TimestampExtractor timestampExtractor,
+final Deserializer<?> keyDeserializer,final Deserializer<?> valDeserializer,
+final Pattern topicPattern)
+end note
+:Objects.requireNonNull(topicPattern,"topicPattern can't be null");;
+:Objects.requireNonNull(name,"name can't be null");;
+if (nodeFactories.containsKey(name)) then (yes) 
+:throw new TopologyException("Processor "+
+name+" is already added.");;
+stop
+endif 
+if (topicPattern.matcher(sourceTopicName).matches()) then (yes) 
+:throw new TopologyException("Pattern "+topicPattern+
+" will match a topic that has already been registered by another source.");;
+stop
+endif 
+:maybeAddToResetList(earliestResetPatterns,
+latestResetPatterns,offsetReset,topicPattern);;
+:nodeFactories.put(name,new SourceNodeFactory<>(name,
+null ,topicPattern,timestampExtractor,keyDeserializer,
+valDeserializer));;
+:nodeToSourcePatterns.put(name,topicPattern);;
+:nodeGrouper.add(name);;
+:nodeGroups=null ;;
+end
+:Objects.requireNonNull(name,"name must not be null");;
+:Objects.requireNonNull(topic,"topic must not be null");;
+:Objects.requireNonNull(predecessorNames,
+"predecessor names must not be null");;
+if (predecessorNames.length==0) then (yes) 
+:throw new TopologyException("Sink "+name+
+" must have at least one parent");;
+stop
+endif 
+:addSink(name,new StaticTopicNameExtractor<>(topic),
+keySerializer,valSerializer,partitioner,predecessorNames);;
+:nodeToSinkTopic.put(name,topic);;
+:nodeGroups=null ;;
+:Objects.requireNonNull(name,"name must not be null");;
+:Objects.requireNonNull(topicExtractor,"topic extractor must not be null");;
+:Objects.requireNonNull(predecessorNames,
+"predecessor names must not be null");;
+if (nodeFactories.containsKey(name)) then (yes) 
+:throw new TopologyException("Processor "+
+name+" is already added.");;
+stop
+endif 
+if (predecessorNames.length==0) then (yes) 
+:throw new TopologyException("Sink "+name+
+" must have at least one parent");;
+stop
+endif 
+:Objects.requireNonNull(predecessor,"predecessor name can't be null");;
+if (predecessor.equals(name)) then (yes) 
+:throw new TopologyException("Processor "+
+name+" cannot be a predecessor of itself.");;
+stop
+endif 
+if (!nodeFactories.containsKey(predecessor)) then (yes) 
+:throw new TopologyException("Predecessor processor "+
+predecessor+" is not added yet.");;
+stop
+endif 
+if (nodeToSinkTopic.containsKey(predecessor)) then (yes) 
+:throw new TopologyException("Sink "+predecessor+
+" cannot be used a parent.");;
+stop
+endif 
+:nodeFactories.put(name,new SinkNodeFactory<>(name,
+predecessorNames,topicExtractor,keySerializer,
+valSerializer,partitioner));;
+:nodeGrouper.add(name);;
+:nodeGrouper.unite(name,predecessorNames);;
+:nodeGroups=null ;;
+:Objects.requireNonNull(name,"name must not be null");;
+:Objects.requireNonNull(supplier,"supplier must not be null");;
+:Objects.requireNonNull(predecessorNames,
+"predecessor names must not be null");;
+:ApiUtils.checkSupplier(supplier);;
+if (nodeFactories.containsKey(name)) then (yes) 
+:throw new TopologyException("Processor "+
+name+" is already added.");;
+stop
+endif 
+if (predecessorNames.length==0) then (yes) 
+:throw new TopologyException("Processor "+
+name+" must have at least one parent");;
+stop
+endif 
+:Objects.requireNonNull(predecessor,"predecessor name must not be null");;
+if (predecessor.equals(name)) then (yes) 
+:throw new TopologyException("Processor "+
+name+" cannot be a predecessor of itself.");;
+stop
+endif 
+if (!nodeFactories.containsKey(predecessor)) then (yes) 
+:throw new TopologyException("Predecessor processor "+
+predecessor+" is not added yet for "+name);;
+stop
+endif 
+:nodeFactories.put(name,new ProcessorNodeFactory<>(name,
+predecessorNames,supplier));;
+:nodeGrouper.add(name);;
+:nodeGrouper.unite(name,predecessorNames);;
+:nodeGroups=null ;;
+:Objects.requireNonNull(name,"name must not be null");;
+:Objects.requireNonNull(supplier,"supplier must not be null");;
+:Objects.requireNonNull(predecessorNames,
+"predecessor names must not be null");;
+:ApiUtils.checkSupplier(supplier);;
+if (nodeFactories.containsKey(name)) then (yes) 
+:throw new TopologyException("Processor "+
+name+" is already added.");;
+stop
+endif 
+if (predecessorNames.length==0) then (yes) 
+:throw new TopologyException("Processor "+
+name+" must have at least one parent");;
+stop
+endif 
+:Objects.requireNonNull(predecessor,"predecessor name must not be null");;
+if (predecessor.equals(name)) then (yes) 
+:throw new TopologyException("Processor "+
+name+" cannot be a predecessor of itself.");;
+stop
+endif 
+if (!nodeFactories.containsKey(predecessor)) then (yes) 
+:throw new TopologyException("Predecessor processor "+
+predecessor+" is not added yet for "+name);;
+stop
+endif 
+:nodeFactories.put(name,new FixedKeyProcessorNodeFactory<>(name,
+predecessorNames,supplier));;
+:nodeGrouper.add(name);;
+:nodeGrouper.unite(name,predecessorNames);;
+:nodeGroups=null ;;
+start
+note right
+void addStateStore(final StoreBuilder<?> storeBuilder,
+final String ... processorNames)
+end note
+:addStateStore(storeBuilder,false,processorNames);;
+end
+start
+note right
+void addStateStore(final StoreBuilder<?> storeBuilder,
+final boolean allowOverride,final String ... processorNames)
+end note
+:Objects.requireNonNull(storeBuilder,"storeBuilder can't be null");;
+:final StateStoreFactory<?> stateFactory=stateFactories.get(storeBuilder.name());;
+if (!allowOverride&&stateFactory!=null &&!stateFactory.builder.equals(storeBuilder)) then (yes) 
+:throw new TopologyException("A different StateStore has already been added with the name "+
+storeBuilder.name());;
+stop
+endif 
+if (globalStateBuilders.containsKey(storeBuilder.name())) then (yes) 
+:throw new TopologyException("A different GlobalStateStore has already been added with the name "+
+storeBuilder.name());;
+stop
+endif 
+:stateFactories.put(storeBuilder.name(),new StateStoreFactory<>(storeBuilder));;
+if (processorNames!=null ) then (yes) 
+:Objects.requireNonNull(processorName,"processor name must not be null");;
+:connectProcessorAndStateStore(processorName,
+storeBuilder.name());;
+endif 
+:nodeGroups=null ;;
+end
+:Objects.requireNonNull(storeBuilder,"store builder must not be null");;
+:ApiUtils.checkSupplier(stateUpdateSupplier);;
+:validateGlobalStoreArguments(sourceName,
+topic,processorName,stateUpdateSupplier,storeBuilder.name(),
+storeBuilder.loggingEnabled());;
+:validateTopicNotAlreadyRegistered(topic);;
+:final String[] topics={topic};;
+:final String[] predecessors={sourceName};;
+:final ProcessorNodeFactory<KIn,VIn,Void,
+Void> nodeFactory=new ProcessorNodeFactory<>(processorName,
+predecessors,stateUpdateSupplier);;
+:globalTopics.add(topic);;
+:nodeFactories.put(sourceName,new SourceNodeFactory<>(sourceName,
+topics,null ,timestampExtractor,keyDeserializer,
+valueDeserializer));;
+:nodeToSourceTopics.put(sourceName,Arrays.asList(topics));;
+:nodeGrouper.add(sourceName);;
+:nodeFactory.addStateStore(storeBuilder.name());;
+:nodeFactories.put(processorName,nodeFactory);;
+:nodeGrouper.add(processorName);;
+:nodeGrouper.unite(processorName,predecessors);;
+:globalStateBuilders.put(storeBuilder.name(),
+storeBuilder);;
+:connectSourceStoreAndTopic(storeBuilder.name(),
+topic);;
+:nodeGroups=null ;;
+start
+note right
+void validateTopicNotAlreadyRegistered(final String topic)
+end note
+if (rawSourceTopicNames.contains(topic)||globalTopics.contains(topic)) then (yes) 
+:throw new TopologyException("Topic "+topic+
+" has already been registered by another source.");;
+stop
+endif 
+if (pattern.matcher(topic).matches()) then (yes) 
+:throw new TopologyException("Topic "+topic+
+" matches a Pattern already registered by another source.");;
+stop
+endif 
+end
+start
+note right
+void connectProcessorAndStateStores(final String processorName,
+final String ... stateStoreNames)
+end note
+:Objects.requireNonNull(processorName,"processorName can't be null");;
+:Objects.requireNonNull(stateStoreNames,"state store list must not be null");;
+if (stateStoreNames.length==0) then (yes) 
+:throw new TopologyException("Must provide at least one state store name.");;
+stop
+endif 
+:Objects.requireNonNull(stateStoreName,"state store name must not be null");;
+:connectProcessorAndStateStore(processorName,
+stateStoreName);;
+:nodeGroups=null ;;
+end
+start
+note right
+String getStoreForChangelogTopic(final String topicName)
+end note
+:return changelogTopicToStore.get(topicName);;
+stop
+end
+start
+note right
+void connectSourceStoreAndTopic(final String sourceStoreName,
+final String topic)
+end note
+if (storeToChangelogTopic.containsKey(sourceStoreName)) then (yes) 
+:throw new TopologyException("Source store "+
+sourceStoreName+" is already added.");;
+stop
+endif 
+:storeToChangelogTopic.put(sourceStoreName,
+topic);;
+:changelogTopicToStore.put(topic,sourceStoreName);;
+end
+start
+note right
+void addInternalTopic(final String topicName,
+final InternalTopicProperties internalTopicProperties)
+end note
+:Objects.requireNonNull(topicName,"topicName can't be null");;
+:Objects.requireNonNull(internalTopicProperties,
+"internalTopicProperties can't be null");;
+:internalTopicNamesWithProperties.put(topicName,
+internalTopicProperties);;
+end
+start
+note right
+void copartitionSources(final Collection<String> sourceNodes)
+end note
+:copartitionSourceGroups.add(new HashSet<>(sourceNodes));;
+end
+start
+note right
+void maybeUpdateCopartitionSourceGroups(final String replacedNodeName,
+final String optimizedNodeName)
+end note
+if (copartitionSourceGroup.contains(replacedNodeName)) then (yes) 
+:copartitionSourceGroup.remove(replacedNodeName);;
+:copartitionSourceGroup.add(optimizedNodeName);;
+endif 
+end
+start
+note right
+void validateCopartition()
+end note
+:final List<Set<String>> allCopartitionedSourceTopics=copartitionSourceGroups.stream().map(sourceGroup->sourceGroup.stream().flatMap(sourceNodeName->nodeToSourceTopics.getOrDefault(sourceNodeName,
+Collections.emptyList()).stream()).collect(Collectors.toSet())).collect(Collectors.toList());;
+:final Map<String,Integer> numberOfPartitionsPerTopic=new HashMap<>();;
+:copartition.forEach(topic->{final InternalTopicProperties prop=internalTopicNamesWithProperties.get(topic);
+:if (prop!=null &&prop.getNumberOfPartitions().isPresent()){numberOfPartitionsPerTopic.put(topic,
+prop.getNumberOfPartitions().get());}});;
+if (!numberOfPartitionsPerTopic.isEmpty()&&copartition.equals(numberOfPartitionsPerTopic.keySet())) then (yes) 
+:final Collection<Integer> partitionNumbers=numberOfPartitionsPerTopic.values();;
+:final Integer first=partitionNumbers.iterator()
+.next();;
+if (!partitionNumber.equals(first)) then (yes) 
+:final String msg=String.format("Following topics do not have the same number of "+
+"partitions: [%s]",new TreeMap<>(numberOfPartitionsPerTopic));;
+:throw new TopologyException(msg);;
+stop
+endif 
+endif 
+end
+start
+note right
+void validateGlobalStoreArguments(final String sourceName,
+final String topic,final String processorName,
+final ProcessorSupplier<?,?,Void,Void> stateUpdateSupplier,
+final String storeName,final boolean loggingEnabled)
+end note
+:Objects.requireNonNull(sourceName,"sourceName must not be null");;
+:Objects.requireNonNull(topic,"topic must not be null");;
+:Objects.requireNonNull(stateUpdateSupplier,
+"supplier must not be null");;
+:Objects.requireNonNull(processorName,"processorName must not be null");;
+if (nodeFactories.containsKey(sourceName)) then (yes) 
+:throw new TopologyException("Processor "+
+sourceName+" is already added.");;
+stop
+endif 
+if (nodeFactories.containsKey(processorName)) then (yes) 
+:throw new TopologyException("Processor "+
+processorName+" is already added.");;
+stop
+endif 
+if (stateFactories.containsKey(storeName)) then (yes) 
+:throw new TopologyException("A different StateStore has already been added with the name "+
+storeName);;
+stop
+endif 
+if (globalStateBuilders.containsKey(storeName)) then (yes) 
+:throw new TopologyException("A different GlobalStateStore has already been added with the name "+
+storeName);;
+stop
+endif 
+if (loggingEnabled) then (yes) 
+:throw new TopologyException("StateStore "+
+storeName+" for global table must not have logging enabled.");;
+stop
+endif 
+if (sourceName.equals(processorName)) then (yes) 
+:throw new TopologyException("sourceName and processorName must be different.");;
+stop
+endif 
+end
+start
+note right
+void connectProcessorAndStateStore(final String processorName,
+final String stateStoreName)
+end note
+if (globalStateBuilders.containsKey(stateStoreName)) then (yes) 
+:throw new TopologyException("Global StateStore "+
+stateStoreName+" can be used by a Processor without being specified; it should not be explicitly passed.");;
+stop
+endif 
+if (!stateFactories.containsKey(stateStoreName)) then (yes) 
+:throw new TopologyException("StateStore "+
+stateStoreName+" is not added yet.");;
+stop
+endif 
+if (!nodeFactories.containsKey(processorName)) then (yes) 
+:throw new TopologyException("Processor "+
+processorName+" is not added yet.");;
+stop
+endif 
+:final StateStoreFactory<?> stateStoreFactory=stateFactories.get(stateStoreName);;
+:final Iterator<String> iter=stateStoreFactory.users()
+.iterator();;
+if (iter.hasNext()) then (yes) 
+:final String user=iter.next();;
+:nodeGrouper.unite(user,processorName);;
+endif 
+:stateStoreFactory.users().add(processorName);;
+:final NodeFactory<?,?,?,?> nodeFactory=nodeFactories.get(processorName);;
+if (nodeFactory instanceof ProcessorNodeFactory ) then (yes) 
+:final ProcessorNodeFactory<?,?,?,?> processorNodeFactory=(ProcessorNodeFactory<?,
+?,?,?> )nodeFactory;;
+:processorNodeFactory.addStateStore(stateStoreName);;
+:connectStateStoreNameToSourceTopicsOrPattern(stateStoreName,
+processorNodeFactory);;
+else (no)
+:throw new TopologyException("cannot connect a state store "+
+stateStoreName+" to a source node or a sink node.");;
+stop
+endif 
+end
+start
+note right
+Set<SourceNodeFactory<?,?>> findSourcesForProcessorPredecessors(final String[] predecessors)
+end note
+:final Set<SourceNodeFactory<?,?>> sourceNodes=new HashSet<>();;
+:final NodeFactory<?,?,?,?> nodeFactory=nodeFactories.get(predecessor);;
+if (nodeFactory instanceof SourceNodeFactory ) then (yes) 
+:sourceNodes.add((SourceNodeFactory<?,?> )nodeFactory);;
+else if (nodeFactory instanceof ProcessorNodeFactory ) then (yes) 
+:sourceNodes.addAll(findSourcesForProcessorPredecessors(((ProcessorNodeFactory<?,
+?,?,?> )nodeFactory).predecessors));;
+endif 
+:return sourceNodes;;
+stop
+end
+if (stateStoreNameToRawSourceTopicNames.containsKey(stateStoreName)||stateStoreNameToSourceRegex.containsKey(stateStoreName)) then (yes) 
+:return ;;
+stop
+endif 
+:final Set<String> sourceTopics=new HashSet<>();;
+:final Set<Pattern> sourcePatterns=new HashSet<>();;
+:final Set<SourceNodeFactory<?,?>> sourceNodesForPredecessor=findSourcesForProcessorPredecessors(processorNodeFactory.predecessors);;
+if (sourceNodeFactory.pattern!=null ) then (yes) 
+:sourcePatterns.add(sourceNodeFactory.pattern);;
+else (no)
+:sourceTopics.addAll(sourceNodeFactory.topics);;
+endif 
+if (!sourceTopics.isEmpty()) then (yes) 
+:stateStoreNameToRawSourceTopicNames.put(stateStoreName,
+Collections.unmodifiableSet(sourceTopics));;
+endif 
+if (!sourcePatterns.isEmpty()) then (yes) 
+:stateStoreNameToSourceRegex.put(stateStoreName,
+Collections.unmodifiableSet(sourcePatterns));;
+endif 
+if (offsetReset!=null ) then (yes) 
+switch (switch offsetReset)
+endswitch
+endif 
+start
+note right
+Map<Integer,Set<String>> nodeGroups()
+end note
+if (nodeGroups==null ) then (yes) 
+:nodeGroups=makeNodeGroups();;
+endif 
+:return nodeGroups;;
+stop
+end
+start
+note right
+Map<Integer,Set<String>> makeNodeGroups()
+end note
+:final Map<Integer,Set<String>> nodeGroups=new LinkedHashMap<>();;
+:final Map<String,Set<String>> rootToNodeGroup=new HashMap<>();;
+:int nodeGroupId=0;;
+:nodeGroupId=putNodeGroupName(nodeName,nodeGroupId,
+nodeGroups,rootToNodeGroup);;
+:return nodeGroups;;
+stop
+end
+start
+note right
+int putNodeGroupName(final String nodeName,
+final int nodeGroupId,final Map<Integer,Set<String>> nodeGroups,
+final Map<String,Set<String>> rootToNodeGroup)
+end note
+:int newNodeGroupId=nodeGroupId;;
+:final String root=nodeGrouper.root(nodeName);;
+:Set<String> nodeGroup=rootToNodeGroup.get(root);;
+if (nodeGroup==null ) then (yes) 
+:nodeGroup=new HashSet<>();;
+:rootToNodeGroup.put(root,nodeGroup);;
+:nodeGroups.put(newNodeGroupId++,nodeGroup);;
+endif 
+:nodeGroup.add(nodeName);;
+:return newNodeGroupId;;
+stop
+end
+start
+note right
+ProcessorTopology buildTopology()
+end note
+:final Set<String> nodeGroup=new HashSet<>();;
+:nodeGroup.addAll(value);;
+:nodeGroup.removeAll(globalNodeGroups());;
+:initializeSubscription();;
+:return build(nodeGroup);;
+stop
+end
+start
+note right
+ProcessorTopology buildSubtopology(final int topicGroupId)
+end note
+:final Set<String> nodeGroup=nodeGroups()
+.get(topicGroupId);;
+:return build(nodeGroup);;
+stop
+end
+start
+note right
+ProcessorTopology buildGlobalStateTopology()
+end note
+:Objects.requireNonNull(applicationId,"topology has not completed optimization");;
+:final Set<String> globalGroups=globalNodeGroups();;
+if (globalGroups.isEmpty()) then (yes) 
+:return null ;;
+stop
+endif 
+:return build(globalGroups);;
+stop
+end
+start
+note right
+Set<String> globalNodeGroups()
+end note
+:final Set<String> globalGroups=new HashSet<>();;
+:final Set<String> nodes=nodeGroup.getValue();;
+if (isGlobalSource(node)) then (yes) 
+:globalGroups.addAll(nodes);;
+endif 
+:return globalGroups;;
+stop
+end
+start
+note right
+ProcessorTopology build(final Set<String> nodeGroup)
+end note
+:Objects.requireNonNull(applicationId,"topology has not completed optimization");;
+:final Map<String,ProcessorNode<?,?,?,?>> processorMap=new LinkedHashMap<>();;
+:final Map<String,SourceNode<?,?>> topicSourceMap=new HashMap<>();;
+:final Map<String,SinkNode<?,?>> topicSinkMap=new HashMap<>();;
+:final Map<String,StateStore> stateStoreMap=new LinkedHashMap<>();;
+:final Set<String> repartitionTopics=new HashSet<>();;
+if (nodeGroup==null ||nodeGroup.contains(factory.name)) then (yes) 
+:final ProcessorNode<?,?,?,?> node=factory.build();;
+:processorMap.put(node.name(),node);;
+if (factory instanceof ProcessorNodeFactory ) then (yes) 
+:buildProcessorNode(processorMap,stateStoreMap,
+(ProcessorNodeFactory<?,?,?,?> )factory,(ProcessorNode<Object,
+Object,Object,Object> )node);;
+else if (factory instanceof SourceNodeFactory ) then (yes) 
+:buildSourceNode(topicSourceMap,repartitionTopics,
+(SourceNodeFactory<?,?> )factory,(SourceNode<?,
+?> )node);;
+else if (factory instanceof SinkNodeFactory ) then (yes) 
+:buildSinkNode(processorMap,topicSinkMap,
+repartitionTopics,(SinkNodeFactory<?,?> )factory,
+(SinkNode<?,?> )node);;
+else (no)
+:throw new TopologyException("Unknown definition class: "+
+factory.getClass().getName());;
+stop
+endif 
+endif 
+:return new ProcessorTopology(new ArrayList<>(processorMap.values()),
+topicSourceMap,topicSinkMap,new ArrayList<>(stateStoreMap.values()),
+new ArrayList<>(globalStateStores.values()),
+storeToChangelogTopic,repartitionTopics);;
+stop
+end
+start
+note right
+void buildSinkNode(final Map<String,ProcessorNode<?,
+?,?,?>> processorMap,final Map<String,SinkNode<?,
+?>> topicSinkMap,final Set<String> repartitionTopics,
+final SinkNodeFactory<?,?> sinkNodeFactory,
+final SinkNode<?,?> node)
+end note
+:@SuppressWarnings ("unchecked")final ProcessorNode<Object,
+Object,?,?> sinkNode=(ProcessorNode<Object,
+Object,?,?> )node;;
+:final ProcessorNode<Object,Object,Object,
+Object> processor=getProcessor(processorMap,
+predecessorName);;
+:processor.addChild(sinkNode);;
+if (sinkNodeFactory.topicExtractor instanceof StaticTopicNameExtractor ) then (yes) 
+:final String topic=((StaticTopicNameExtractor<?,
+?> )sinkNodeFactory.topicExtractor).topicName;;
+if (internalTopicNamesWithProperties.containsKey(topic)) then (yes) 
+:final String decoratedTopic=decorateTopic(topic);;
+:topicSinkMap.put(decoratedTopic,node);;
+:repartitionTopics.add(decoratedTopic);;
+else (no)
+:topicSinkMap.put(topic,node);;
+endif 
+endif 
+end
+:return (ProcessorNode<KIn,VIn,KOut,VOut> )processorMap.get(predecessor);;
+stop
+start
+note right
+void buildSourceNode(final Map<String,SourceNode<?,
+?>> topicSourceMap,final Set<String> repartitionTopics,
+final SourceNodeFactory<?,?> sourceNodeFactory,
+final SourceNode<?,?> node)
+end note
+:final List<String> topics=(sourceNodeFactory.pattern!=null )? sourceNodeFactory.getTopics(subscriptionUpdates()):sourceNodeFactory.topics;;
+if (internalTopicNamesWithProperties.containsKey(topic)) then (yes) 
+:final String decoratedTopic=decorateTopic(topic);;
+:topicSourceMap.put(decoratedTopic,node);;
+:repartitionTopics.add(decoratedTopic);;
+else (no)
+:topicSourceMap.put(topic,node);;
+endif 
+end
+start
+note right
+void buildProcessorNode(final Map<String,
+ProcessorNode<?,?,?,?>> processorMap,final Map<String,
+StateStore> stateStoreMap,final ProcessorNodeFactory<?,
+?,?,?> factory,final ProcessorNode<Object,
+Object,Object,Object> node)
+end note
+:final ProcessorNode<Object,Object,Object,
+Object> predecessorNode=getProcessor(processorMap,
+predecessor);;
+:predecessorNode.addChild(node);;
+if (!stateStoreMap.containsKey(stateStoreName)) then (yes) 
+:final StateStore store;;
+if (stateFactories.containsKey(stateStoreName)) then (yes) 
+:final StateStoreFactory<?> stateStoreFactory=stateFactories.get(stateStoreName);;
+if (stateStoreFactory.loggingEnabled()&&!storeToChangelogTopic.containsKey(stateStoreName)) then (yes) 
+:final String prefix=topologyConfigs==null ? applicationId:ProcessorContextUtils.getPrefix(topologyConfigs.applicationConfigs.originals(),
+applicationId);;
+:final String changelogTopic=ProcessorStateManager.storeChangelogTopic(prefix,
+stateStoreName,topologyName);;
+:storeToChangelogTopic.put(stateStoreName,
+changelogTopic);;
+:changelogTopicToStore.put(changelogTopic,
+stateStoreName);;
+endif 
+:store=stateStoreFactory.build();;
+:stateStoreMap.put(stateStoreName,store);;
+else (no)
+:store=globalStateStores.get(stateStoreName);;
+:stateStoreMap.put(stateStoreName,store);;
+endif 
+if (store.persistent()) then (yes) 
+:hasPersistentStores=true;;
+endif 
+endif 
+end
+start
+note right
+Map<String,StateStore> globalStateStores()
+end note
+:Objects.requireNonNull(applicationId,"topology has not completed optimization");;
+:return Collections.unmodifiableMap(globalStateStores);;
+stop
+end
+start
+note right
+Set<String> allStateStoreNames()
+end note
+:Objects.requireNonNull(applicationId,"topology has not completed optimization");;
+:final Set<String> allNames=new HashSet<>(stateFactories.keySet());;
+:allNames.addAll(globalStateStores.keySet());;
+:return Collections.unmodifiableSet(allNames);;
+stop
+end
+start
+note right
+boolean hasStore(final String name)
+end note
+:return stateFactories.containsKey(name)||globalStateStores.containsKey(name);;
+stop
+end
+start
+note right
+boolean hasPersistentStores()
+end note
+:return hasPersistentStores;;
+stop
+end
+start
+note right
+Map<Subtopology,TopicsInfo> subtopologyToTopicsInfo()
+end note
+:final Map<Subtopology,TopicsInfo> topicGroups=new LinkedHashMap<>();;
+if (nodeGroups==null ) then (yes) 
+:nodeGroups=makeNodeGroups();;
+endif 
+:final Set<String> sinkTopics=new HashSet<>();;
+:final Set<String> sourceTopics=new HashSet<>();;
+:final Map<String,InternalTopicConfig> repartitionTopics=new HashMap<>();;
+:final Map<String,InternalTopicConfig> stateChangelogTopics=new HashMap<>();;
+:final List<String> topics=nodeToSourceTopics.get(node);;
+if (topics!=null ) then (yes) 
+if (globalTopics.contains(topic)) then (yes) 
+:continue ;;
+endif 
+if (internalTopicNamesWithProperties.containsKey(topic)) then (yes) 
+:final String internalTopic=decorateTopic(topic);;
+:final RepartitionTopicConfig repartitionTopicConfig=buildRepartitionTopicConfig(internalTopic,
+internalTopicNamesWithProperties.get(topic).getNumberOfPartitions());;
+:repartitionTopics.put(repartitionTopicConfig.name(),
+repartitionTopicConfig);;
+:sourceTopics.add(repartitionTopicConfig.name());;
+else (no)
+:sourceTopics.add(topic);;
+endif 
+endif 
+:final String topic=nodeToSinkTopic.get(node);;
+if (topic!=null ) then (yes) 
+if (internalTopicNamesWithProperties.containsKey(topic)) then (yes) 
+:sinkTopics.add(decorateTopic(topic));;
+else (no)
+:sinkTopics.add(topic);;
+endif 
+endif 
+if (stateFactory.users().contains(node)&&storeToChangelogTopic.containsKey(stateFactory.name())) then (yes) 
+:final String topicName=storeToChangelogTopic.get(stateFactory.name());;
+if (!stateChangelogTopics.containsKey(topicName)) then (yes) 
+:final InternalTopicConfig internalTopicConfig=createChangelogTopicConfig(stateFactory,
+topicName);;
+:stateChangelogTopics.put(topicName,internalTopicConfig);;
+endif 
+endif 
+if (!sourceTopics.isEmpty()) then (yes) 
+:topicGroups.put(new Subtopology(entry.getKey(),
+topologyName),new TopicsInfo(Collections.unmodifiableSet(sinkTopics),
+Collections.unmodifiableSet(sourceTopics),
+Collections.unmodifiableMap(repartitionTopics),
+Collections.unmodifiableMap(stateChangelogTopics)));;
+endif 
+:return Collections.unmodifiableMap(topicGroups);;
+stop
+end
+start
+note right
+Map<String,List<String>> nodeToSourceTopics()
+end note
+:return Collections.unmodifiableMap(nodeToSourceTopics);;
+stop
+end
+start
+note right
+RepartitionTopicConfig buildRepartitionTopicConfig(final String internalTopic,
+final Optional<Integer> numberOfPartitions)
+end note
+:return numberOfPartitions.map(partitions->new RepartitionTopicConfig(internalTopic,
+Collections.emptyMap(),partitions,true)).orElse(new RepartitionTopicConfig(internalTopic,
+Collections.emptyMap()));;
+stop
+end
+start
+note right
+void setRegexMatchedTopicsToSourceNodes()
+end note
+if (hasSubscriptionUpdates()) then (yes) 
+:final SourceNodeFactory<?,?> sourceNode=(SourceNodeFactory<?,
+?> )nodeFactories.get(nodeName);;
+:final List<String> sourceTopics=sourceNode.getTopics(subscriptionUpdates);;
+:nodeToSourceTopics.put(nodeName,sourceTopics);;
+:rawSourceTopicNames.addAll(sourceTopics);;
+:log.debug("Updated nodeToSourceTopics: {}",
+nodeToSourceTopics);;
+endif 
+end
+start
+note right
+void setRegexMatchedTopicToStateStore()
+end note
+if (hasSubscriptionUpdates()) then (yes) 
+:final Set<String> updatedTopicsForStateStore=new HashSet<>();;
+if (pattern.matcher(subscriptionUpdateTopic).matches()) then (yes) 
+:updatedTopicsForStateStore.add(subscriptionUpdateTopic);;
+endif 
+if (!updatedTopicsForStateStore.isEmpty()) then (yes) 
+:final Collection<String> storeTopics=stateStoreNameToRawSourceTopicNames.get(storePattern.getKey());;
+if (storeTopics!=null ) then (yes) 
+:updatedTopicsForStateStore.addAll(storeTopics);;
+endif 
+:stateStoreNameToRawSourceTopicNames.put(storePattern.getKey(),
+Collections.unmodifiableSet(updatedTopicsForStateStore));;
+endif 
+endif 
+end
+if (factory.isWindowStore()) then (yes) 
+:final WindowedChangelogTopicConfig config=new WindowedChangelogTopicConfig(name,
+factory.logConfig());;
+:config.setRetentionMs(factory.retentionPeriod());;
+:return config;;
+stop
+else (no)
+:return new UnwindowedChangelogTopicConfig(name,
+factory.logConfig());;
+stop
+endif 
+start
+note right
+boolean hasOffsetResetOverrides()
+end note
+:return !(earliestResetTopics.isEmpty()&&earliestResetPatterns.isEmpty()&&latestResetTopics.isEmpty()&&latestResetPatterns.isEmpty());;
+stop
+end
+start
+note right
+OffsetResetStrategy offsetResetStrategy(final String topic)
+end note
+if (maybeDecorateInternalSourceTopics(earliestResetTopics).contains(topic)||earliestResetPatterns.stream().anyMatch(p->p.matcher(topic).matches())) then (yes) 
+:return EARLIEST;;
+stop
+else if (maybeDecorateInternalSourceTopics(latestResetTopics).contains(topic)||latestResetPatterns.stream().anyMatch(p->p.matcher(topic).matches())) then (yes) 
+:return LATEST;;
+stop
+else if (containsTopic(topic)) then (yes) 
+:return NONE;;
+stop
+else (no)
+:throw new IllegalStateException(String.format("Unable to lookup offset reset strategy for the following topic as it does not exist in the topology%s: %s",
+hasNamedTopology()? topologyName:String.valueOf(""),
+topic));;
+stop
+endif 
+end
+start
+note right
+Map<String,List<String>> stateStoreNameToFullSourceTopicNames()
+end note
+:final Map<String,List<String>> results=new HashMap<>();;
+:results.put(entry.getKey(),maybeDecorateInternalSourceTopics(entry.getValue()));;
+:return results;;
+stop
+end
+start
+note right
+Collection<String> sourceTopicsForStore(final String storeName)
+end note
+:return maybeDecorateInternalSourceTopics(stateStoreNameToRawSourceTopicNames.get(storeName));;
+stop
+end
+start
+note right
+Collection<Set<String>> copartitionGroups()
+end note
+:final List<Set<String>> copartitionSourceTopics=copartitionSourceGroups.stream()
+.map(sourceGroup->sourceGroup.stream().flatMap(node->maybeDecorateInternalSourceTopics(nodeToSourceTopics.get(node)).stream()).collect(Collectors.toSet())).collect(Collectors.toList());;
+:final Map<String,Set<String>> topicsToCopartitionGroup=new LinkedHashMap<>();;
+if (topics!=null ) then (yes) 
+:Set<String> coparititonGroup=null ;;
+:coparititonGroup=topicsToCopartitionGroup.get(topic);;
+if (coparititonGroup!=null ) then (yes) 
+:break ;;
+endif 
+if (coparititonGroup==null ) then (yes) 
+:coparititonGroup=new HashSet<>();;
+endif 
+:coparititonGroup.addAll(maybeDecorateInternalSourceTopics(topics));;
+:topicsToCopartitionGroup.put(topic,coparititonGroup);;
+endif 
+:final Set<Set<String>> uniqueCopartitionGroups=new HashSet<>(topicsToCopartitionGroup.values());;
+:return Collections.unmodifiableList(new ArrayList<>(uniqueCopartitionGroups));;
+stop
+end
+start
+note right
+List<String> maybeDecorateInternalSourceTopics(final Collection<String> sourceTopics)
+end note
+if (sourceTopics==null ) then (yes) 
+:return Collections.emptyList();;
+stop
+endif 
+:final List<String> decoratedTopics=new ArrayList<>();;
+if (internalTopicNamesWithProperties.containsKey(topic)) then (yes) 
+:decoratedTopics.add(decorateTopic(topic));;
+else (no)
+:decoratedTopics.add(topic);;
+endif 
+:return decoratedTopics;;
+stop
+end
+start
+note right
+String decoratePseudoTopic(final String topic)
+end note
+:return decorateTopic(topic);;
+stop
+end
+start
+note right
+String decorateTopic(final String topic)
+end note
+if (applicationId==null ) then (yes) 
+:throw new TopologyException("there are internal topics and "+
+"applicationId hasn't been set. Call "+"setApplicationId first");;
+stop
+endif 
+:final String prefix=topologyConfigs==null ? applicationId:ProcessorContextUtils.getPrefix(topologyConfigs.applicationConfigs.originals(),
+applicationId);;
+if (hasNamedTopology()) then (yes) 
+:return prefix+"-"+topologyName+"-"+topic;;
+stop
+else (no)
+:return prefix+"-"+topic;;
+stop
+endif 
+end
+start
+note right
+void initializeSubscription()
+end note
+if (usesPatternSubscription()) then (yes) 
+:log.debug("Found pattern subscribed source topics,
+ initializing consumer's subscription pattern.");;
+:sourceTopicPatternString=buildSourceTopicsPatternString();;
+else (no)
+:log.debug("No source topics using pattern subscription found,
+ initializing consumer's subscription collection.");;
+:fullSourceTopicNames=maybeDecorateInternalSourceTopics(rawSourceTopicNames);;
+:Collections.sort(fullSourceTopicNames);;
+endif 
+end
+start
+note right
+String buildSourceTopicsPatternString()
+end note
+:final List<String> allSourceTopics=maybeDecorateInternalSourceTopics(rawSourceTopicNames);;
+:Collections.sort(allSourceTopics);;
+:final StringBuilder builder=new StringBuilder();;
+:builder.append(topic).append("|");;
+:builder.append(sourcePattern.pattern()).append("|");;
+if (builder.length()>0) then (yes) 
+:builder.setLength(builder.length()-1);;
+endif 
+:return builder.toString();;
+stop
+end
+start
+note right
+boolean usesPatternSubscription()
+end note
+:return !nodeToSourcePatterns.isEmpty();;
+stop
+end
+start
+note right
+List<String> fullSourceTopicNames()
+end note
+if (fullSourceTopicNames==null ) then (yes) 
+:fullSourceTopicNames=maybeDecorateInternalSourceTopics(rawSourceTopicNames);;
+:Collections.sort(fullSourceTopicNames);;
+endif 
+:return fullSourceTopicNames;;
+stop
+end
+start
+note right
+String sourceTopicPatternString()
+end note
+if (sourceTopicPatternString==null ) then (yes) 
+:sourceTopicPatternString=buildSourceTopicsPatternString();;
+endif 
+:return sourceTopicPatternString;;
+stop
+end
+start
+note right
+boolean containsTopic(final String topic)
+end note
+:return fullSourceTopicNames().contains(topic)||(usesPatternSubscription()&&Pattern.compile(sourceTopicPatternString())
+.matcher(topic).matches())||changelogTopicToStore.containsKey(topic);;
+stop
+end
+start
+note right
+boolean hasNoLocalTopology()
+end note
+:return nodeToSourcePatterns.isEmpty()&&rawSourceTopicNames.isEmpty();;
+stop
+end
+start
+note right
+boolean hasGlobalStores()
+end note
+:return !globalStateStores.isEmpty();;
+stop
+end
+start
+note right
+boolean isGlobalSource(final String nodeName)
+end note
+:final NodeFactory<?,?,?,?> nodeFactory=nodeFactories.get(nodeName);;
+if (nodeFactory instanceof SourceNodeFactory ) then (yes) 
+:final List<String> topics=((SourceNodeFactory<?,
+?> )nodeFactory).topics;;
+:return topics!=null &&topics.size()==1&&globalTopics.contains(topics.get(0));;
+stop
+endif 
+:return false;;
+stop
+end
+start
+note right
+TopologyDescription describe()
+end note
+:final TopologyDescription description=new TopologyDescription(topologyName);;
+:final Set<String> allNodesOfGroups=nodeGroup.getValue();;
+:final boolean isNodeGroupOfGlobalStores=nodeGroupContainsGlobalSourceNode(allNodesOfGroups);;
+if (!isNodeGroupOfGlobalStores) then (yes) 
+:describeSubtopology(description,nodeGroup.getKey(),
+allNodesOfGroups);;
+else (no)
+:describeGlobalStore(description,allNodesOfGroups,
+nodeGroup.getKey());;
+endif 
+:return description;;
+stop
+end
+start
+note right
+void describeGlobalStore(final TopologyDescription description,
+final Set<String> nodes,final int id)
+end note
+:final Iterator<String> it=nodes.iterator();;
+while (it.hasNext())
+:final String node=it.next();;
+if (isGlobalSource(node)) then (yes) 
+:it.remove();;
+:final String processorNode=nodes.iterator()
+.next();;
+:description.addGlobalStore(new GlobalStore(node,
+processorNode,((ProcessorNodeFactory<?,?,
+?,?> )nodeFactories.get(processorNode)).stateStoreNames.iterator().next(),
+nodeToSourceTopics.get(node).get(0),id));;
+:break ;;
+endif 
+endwhile
+end
+start
+note right
+boolean nodeGroupContainsGlobalSourceNode(final Set<String> allNodesOfGroups)
+end note
+if (isGlobalSource(node)) then (yes) 
+:return true;;
+stop
+endif 
+:return false;;
+stop
+end
+start
+note right
+int compare(final TopologyDescription.Node node1,
+final TopologyDescription.Node node2)
+end note
+if (node1.equals(node2)) then (yes) 
+:return 0;;
+stop
+endif 
+:final int size1=((AbstractNode )node1).size;;
+:final int size2=((AbstractNode )node2).size;;
+if (size1!=size2) then (yes) 
+:return size2-size1;;
+stop
+else (no)
+:return node1.name().compareTo(node2.name());;
+stop
+endif 
+end
+start
+note right
+void updateSize(final AbstractNode node,final int delta)
+end note
+:node.size+=delta;;
+:updateSize((AbstractNode )predecessor,delta);;
+end
+start
+note right
+void describeSubtopology(final TopologyDescription description,
+final Integer subtopologyId,final Set<String> nodeNames)
+end note
+:final Map<String,AbstractNode> nodesByName=new HashMap<>();;
+:nodesByName.put(nodeName,nodeFactories.get(nodeName)
+.describe());;
+:final AbstractNode predecessor=nodesByName.get(predecessorName);;
+:node.addPredecessor(predecessor);;
+:predecessor.addSuccessor(node);;
+:updateSize(predecessor,node.size);;
+:description.addSubtopology(new SubtopologyDescription(subtopologyId,
+new HashSet<>(nodesByName.values())));;
+end
+start
+note right
+constructor GlobalStore(final String sourceName,
+final String processorName,final String storeName,
+final String topicName,final int id)
+end note
+:source=new Source(sourceName,Collections.singleton(topicName),
+null );;
+:processor=new Processor(processorName,Collections.singleton(storeName));;
+:source.successors.add(processor);;
+:processor.predecessors.add(source);;
+:this.id=id;;
+end
+start
+note right
+int id()
+end note
+:return id;;
+stop
+end
+start
+note right
+TopologyDescription.Source source()
+end note
+:return source;;
+stop
+end
+start
+note right
+TopologyDescription.Processor processor()
+end note
+:return processor;;
+stop
+end
+start
+note right
+String toString()
+end note
+:return "Sub-topology: "+id+" for global store (will not generate tasks)\n"+
+"    "+source.toString()+"\n"+"    "+processor.toString()+
+"\n";;
+stop
+end
+start
+note right
+boolean equals(final Object o)
+end note
+if (this==o) then (yes) 
+:return true;;
+stop
+endif 
+if (o==null ||getClass()!=o.getClass()) then (yes) 
+:return false;;
+stop
+endif 
+:final GlobalStore that=(GlobalStore )o;;
+:return source.equals(that.source)&&processor.equals(that.processor);;
+stop
+end
+start
+note right
+int hashCode()
+end note
+:return Objects.hash(source,processor);;
+stop
+end
+start
+note right
+constructor AbstractNode(final String name)
+end note
+:Objects.requireNonNull(name,"name cannot be null");;
+:this.name=name;;
+:this.size=1;;
+end
+start
+note right
+String name()
+end note
+:return name;;
+stop
+end
+start
+note right
+Set<TopologyDescription.Node> predecessors()
+end note
+:return Collections.unmodifiableSet(predecessors);;
+stop
+end
+start
+note right
+Set<TopologyDescription.Node> successors()
+end note
+:return Collections.unmodifiableSet(successors);;
+stop
+end
+start
+note right
+void addPredecessor(final TopologyDescription.Node predecessor)
+end note
+:predecessors.add(predecessor);;
+end
+start
+note right
+void addSuccessor(final TopologyDescription.Node successor)
+end note
+:successors.add(successor);;
+end
+start
+note right
+constructor Source(final String name,final Set<String> topics,
+final Pattern pattern)
+end note
+:super (name);;
+if (topics==null &&pattern==null ) then (yes) 
+:throw new IllegalArgumentException("Either topics or pattern must be not-null,
+ but both are null.");;
+stop
+endif 
+if (topics!=null &&pattern!=null ) then (yes) 
+:throw new IllegalArgumentException("Either topics or pattern must be null,
+ but both are not null.");;
+stop
+endif 
+:this.topics=topics;;
+:this.topicPattern=pattern;;
+end
+start
+note right
+Set<String> topicSet()
+end note
+:return topics;;
+stop
+end
+start
+note right
+Pattern topicPattern()
+end note
+:return topicPattern;;
+stop
+end
+start
+note right
+void addPredecessor(final TopologyDescription.Node predecessor)
+end note
+:throw new UnsupportedOperationException("Sources don't have predecessors.");;
+stop
+end
+start
+note right
+String toString()
+end note
+:final String topicsString=topics==null ? topicPattern.toString():topics.toString();;
+:return "Source: "+name+" (topics: "+topicsString+
+")\n      - -> "+nodeNames(successors);;
+stop
+end
+start
+note right
+boolean equals(final Object o)
+end note
+if (this==o) then (yes) 
+:return true;;
+stop
+endif 
+if (o==null ||getClass()!=o.getClass()) then (yes) 
+:return false;;
+stop
+endif 
+:final Source source=(Source )o;;
+:return name.equals(source.name)&&Objects.equals(topics,
+source.topics)&&(topicPattern==null ? source.topicPattern==null :topicPattern.pattern().equals(source.topicPattern.pattern()));;
+stop
+end
+start
+note right
+int hashCode()
+end note
+:return Objects.hash(name,topics,topicPattern);;
+stop
+end
+start
+note right
+constructor Processor(final String name,final Set<String> stores)
+end note
+:super (name);;
+:this.stores=stores;;
+end
+start
+note right
+Set<String> stores()
+end note
+:return Collections.unmodifiableSet(stores);;
+stop
+end
+start
+note right
+String toString()
+end note
+:return "Processor: "+name+" (stores: "+stores+
+")\n      - -> "+nodeNames(successors)+"\n      <- - "+
+nodeNames(predecessors);;
+stop
+end
+start
+note right
+boolean equals(final Object o)
+end note
+if (this==o) then (yes) 
+:return true;;
+stop
+endif 
+if (o==null ||getClass()!=o.getClass()) then (yes) 
+:return false;;
+stop
+endif 
+:final Processor processor=(Processor )o;;
+:return name.equals(processor.name)&&stores.equals(processor.stores)&&predecessors.equals(processor.predecessors);;
+stop
+end
+start
+note right
+int hashCode()
+end note
+:return Objects.hash(name,stores);;
+stop
+end
+start
+note right
+constructor Sink(final String name,final TopicNameExtractor<K,
+V> topicNameExtractor)
+end note
+:super (name);;
+:this.topicNameExtractor=topicNameExtractor;;
+end
+start
+note right
+constructor Sink(final String name,final String topic)
+end note
+:super (name);;
+:this.topicNameExtractor=new StaticTopicNameExtractor<>(topic);;
+end
+start
+note right
+String topic()
+end note
+if (topicNameExtractor instanceof StaticTopicNameExtractor ) then (yes) 
+:return ((StaticTopicNameExtractor<K,V> )topicNameExtractor)
+.topicName;;
+stop
+else (no)
+:return null ;;
+stop
+endif 
+end
+start
+note right
+TopicNameExtractor<K,V> topicNameExtractor()
+end note
+if (topicNameExtractor instanceof StaticTopicNameExtractor ) then (yes) 
+:return null ;;
+stop
+else (no)
+:return topicNameExtractor;;
+stop
+endif 
+end
+start
+note right
+void addSuccessor(final TopologyDescription.Node successor)
+end note
+:throw new UnsupportedOperationException("Sinks don't have successors.");;
+stop
+end
+start
+note right
+String toString()
+end note
+if (topicNameExtractor instanceof StaticTopicNameExtractor ) then (yes) 
+:return "Sink: "+name+" (topic: "+topic()+
+")\n      <- - "+nodeNames(predecessors);;
+stop
+endif 
+:return "Sink: "+name+" (extractor class: "+
+topicNameExtractor+")\n      <- - "+nodeNames(predecessors);;
+stop
+end
+start
+note right
+boolean equals(final Object o)
+end note
+if (this==o) then (yes) 
+:return true;;
+stop
+endif 
+if (o==null ||getClass()!=o.getClass()) then (yes) 
+:return false;;
+stop
+endif 
+:final Sink<K,V> sink=(Sink<K,V> )o;;
+:return name.equals(sink.name)&&topicNameExtractor.equals(sink.topicNameExtractor)&&predecessors.equals(sink.predecessors);;
+stop
+end
+start
+note right
+int hashCode()
+end note
+:return Objects.hash(name,topicNameExtractor);;
+stop
+end
+start
+note right
+constructor SubtopologyDescription(final int id,
+final Set<TopologyDescription.Node> nodes)
+end note
+:this.id=id;;
+:this.nodes=new TreeSet<>(NODE_COMPARATOR);;
+:this.nodes.addAll(nodes);;
+end
+start
+note right
+int id()
+end note
+:return id;;
+stop
+end
+start
+note right
+Set<TopologyDescription.Node> nodes()
+end note
+:return Collections.unmodifiableSet(nodes);;
+stop
+end
+start
+note right
+Iterator<TopologyDescription.Node> nodesInOrder()
+end note
+:return nodes.iterator();;
+stop
+end
+start
+note right
+String toString()
+end note
+:return "Sub-topology: "+id+"\n"+nodesAsString()+
+"\n";;
+stop
+end
+start
+note right
+String nodesAsString()
+end note
+:final StringBuilder sb=new StringBuilder();;
+:sb.append("    ");;
+:sb.append(node);;
+:sb.append('\n');;
+:return sb.toString();;
+stop
+end
+start
+note right
+boolean equals(final Object o)
+end note
+if (this==o) then (yes) 
+:return true;;
+stop
+endif 
+if (o==null ||getClass()!=o.getClass()) then (yes) 
+:return false;;
+stop
+endif 
+:final SubtopologyDescription that=(SubtopologyDescription )o;;
+:return id==that.id&&nodes.equals(that.nodes);;
+stop
+end
+start
+note right
+int hashCode()
+end note
+:return Objects.hash(id,nodes);;
+stop
+end
+start
+note right
+constructor TopicsInfo(final Set<String> sinkTopics,
+final Set<String> sourceTopics,final Map<String,
+InternalTopicConfig> repartitionSourceTopics,
+final Map<String,InternalTopicConfig> stateChangelogTopics)
+end note
+:this.sinkTopics=sinkTopics;;
+:this.sourceTopics=sourceTopics;;
+:this.stateChangelogTopics=stateChangelogTopics;;
+:this.repartitionSourceTopics=repartitionSourceTopics;;
+end
+start
+note right
+Set<InternalTopicConfig> nonSourceChangelogTopics()
+end note
+:final Set<InternalTopicConfig> topicConfigs=new HashSet<>();;
+if (!sourceTopics.contains(changelogTopicEntry.getKey())) then (yes) 
+:topicConfigs.add(changelogTopicEntry.getValue());;
+endif 
+:return topicConfigs;;
+stop
+end
+start
+note right
+Set<String> sourceTopicChangelogs()
+end note
+:return sourceTopics.stream().filter(stateChangelogTopics::containsKey)
+.collect(Collectors.toSet());;
+stop
+end
+start
+note right
+boolean equals(final Object o)
+end note
+if (o instanceof TopicsInfo ) then (yes) 
+:final TopicsInfo other=(TopicsInfo )o;;
+:return other.sourceTopics.equals(sourceTopics)&&other.stateChangelogTopics.equals(stateChangelogTopics);;
+stop
+else (no)
+:return false;;
+stop
+endif 
+end
+start
+note right
+int hashCode()
+end note
+:final long n=((long )sourceTopics.hashCode()<<32)|(long )stateChangelogTopics.hashCode();;
+:return (int )(n%0xFFFFFFFFL);;
+stop
+end
+start
+note right
+String toString()
+end note
+:return "TopicsInfo{"+"sinkTopics="+sinkTopics+
+", sourceTopics="+sourceTopics+", repartitionSourceTopics="+
+repartitionSourceTopics+", stateChangelogTopics="+
+stateChangelogTopics+'}';;
+stop
+end
+start
+note right
+int compare(final TopologyDescription.GlobalStore globalStore1,
+final TopologyDescription.GlobalStore globalStore2)
+end note
+if (globalStore1.equals(globalStore2)) then (yes) 
+:return 0;;
+stop
+endif 
+:return globalStore1.id()-globalStore2.id();;
+stop
+end
+start
+note right
+int compare(final TopologyDescription.Subtopology subtopology1,
+final TopologyDescription.Subtopology subtopology2)
+end note
+if (subtopology1.equals(subtopology2)) then (yes) 
+:return 0;;
+stop
+endif 
+:return subtopology1.id()-subtopology2.id();;
+stop
+end
+start
+note right
+constructor TopologyDescription()
+end note
+:this(null );;
+end
+start
+note right
+constructor TopologyDescription(final String namedTopology)
+end note
+:this.namedTopology=namedTopology;;
+end
+start
+note right
+void addSubtopology(final TopologyDescription.Subtopology subtopology)
+end note
+:subtopologies.add(subtopology);;
+end
+start
+note right
+void addGlobalStore(final TopologyDescription.GlobalStore globalStore)
+end note
+:globalStores.add(globalStore);;
+end
+start
+note right
+Set<TopologyDescription.Subtopology> subtopologies()
+end note
+:return Collections.unmodifiableSet(subtopologies);;
+stop
+end
+start
+note right
+Set<TopologyDescription.GlobalStore> globalStores()
+end note
+:return Collections.unmodifiableSet(globalStores);;
+stop
+end
+start
+note right
+String toString()
+end note
+:final StringBuilder sb=new StringBuilder();;
+if (namedTopology==null ) then (yes) 
+:sb.append("Topologies:\n ");;
+else (no)
+:sb.append("Topology: ").append(namedTopology)
+.append(":\n ");;
+endif 
+:final TopologyDescription.Subtopology[] sortedSubtopologies=subtopologies.descendingSet()
+.toArray(new TopologyDescription.Subtopology[0]);;
+:final TopologyDescription.GlobalStore[] sortedGlobalStores=globalStores.descendingSet()
+.toArray(new GlobalStore[0]);;
+:int expectedId=0;;
+:int subtopologiesIndex=sortedSubtopologies.length-1;;
+:int globalStoresIndex=sortedGlobalStores.length-1;;
+while (subtopologiesIndex!=-1&&globalStoresIndex!=-1)
+:sb.append("  ");;
+:final TopologyDescription.Subtopology subtopology=sortedSubtopologies[subtopologiesIndex];;
+:final TopologyDescription.GlobalStore globalStore=sortedGlobalStores[globalStoresIndex];;
+if (subtopology.id()==expectedId) then (yes) 
+:sb.append(subtopology);;
+:subtopologiesIndex- -;;
+else (no)
+:sb.append(globalStore);;
+:globalStoresIndex- -;;
+endif 
+:expectedId++;;
+endwhile
+while (subtopologiesIndex!=-1)
+:final TopologyDescription.Subtopology subtopology=sortedSubtopologies[subtopologiesIndex];;
+:sb.append("  ");;
+:sb.append(subtopology);;
+:subtopologiesIndex- -;;
+endwhile
+while (globalStoresIndex!=-1)
+:final TopologyDescription.GlobalStore globalStore=sortedGlobalStores[globalStoresIndex];;
+:sb.append("  ");;
+:sb.append(globalStore);;
+:globalStoresIndex- -;;
+endwhile
+:return sb.toString();;
+stop
+end
+start
+note right
+boolean equals(final Object o)
+end note
+if (this==o) then (yes) 
+:return true;;
+stop
+endif 
+if (o==null ||getClass()!=o.getClass()) then (yes) 
+:return false;;
+stop
+endif 
+:final TopologyDescription that=(TopologyDescription )o;;
+:return subtopologies.equals(that.subtopologies)&&globalStores.equals(that.globalStores);;
+stop
+end
+start
+note right
+int hashCode()
+end note
+:return Objects.hash(subtopologies,globalStores);;
+stop
+end
+start
+note right
+String nodeNames(final Set<TopologyDescription.Node> nodes)
+end note
+:final StringBuilder sb=new StringBuilder();;
+if (!nodes.isEmpty()) then (yes) 
+:sb.append(n.name());;
+:sb.append(", ");;
+:sb.deleteCharAt(sb.length()-1);;
+:sb.deleteCharAt(sb.length()-1);;
+else (no)
+:return "none";;
+stop
+endif 
+:return sb.toString();;
+stop
+end
+start
+note right
+Set<String> subscriptionUpdates()
+end note
+:return Collections.unmodifiableSet(subscriptionUpdates);;
+stop
+end
+start
+note right
+boolean hasSubscriptionUpdates()
+end note
+:return !subscriptionUpdates.isEmpty();;
+stop
+end
+start
+note right
+void addSubscribedTopicsFromAssignment(final List<TopicPartition> partitions,
+final String logPrefix)
+end note
+if (usesPatternSubscription()) then (yes) 
+:final Set<String> assignedTopics=new HashSet<>();;
+:assignedTopics.add(topicPartition.topic());;
+:final Collection<String> existingTopics=subscriptionUpdates();;
+if (!existingTopics.equals(assignedTopics)) then (yes) 
+:assignedTopics.addAll(existingTopics);;
+:updateSubscribedTopics(assignedTopics,logPrefix);;
+endif 
+endif 
+end
+start
+note right
+void addSubscribedTopicsFromMetadata(final Set<String> topics,
+final String logPrefix)
+end note
+if (usesPatternSubscription()&&!subscriptionUpdates().equals(topics)) then (yes) 
+:updateSubscribedTopics(topics,logPrefix);;
+endif 
+end
+start
+note right
+void updateSubscribedTopics(final Set<String> topics,
+final String logPrefix)
+end note
+:subscriptionUpdates.clear();;
+:subscriptionUpdates.addAll(topics);;
+:log.debug("{}found {} topics possibly matching subscription",
+logPrefix,topics.size());;
+:setRegexMatchedTopicsToSourceNodes();;
+:setRegexMatchedTopicToStateStore();;
+end
+start
+note right
+List<String> allSourcePatternStrings()
+end note
+:return nodeToSourcePatterns.values().stream()
+.map(Pattern::pattern).collect(Collectors.toList());;
+stop
+end
+start
+note right
+boolean hasNamedTopology()
+end note
+:return topologyName!=null ;;
+stop
+end
+start
+note right
+Map<String,StateStoreFactory<?>> stateStores()
+end note
+:return stateFactories;;
+stop
+end
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="3460px" preserveAspectRatio="none" style="width:1007px;height:3460px;background:#FFFFFF;" version="1.1" viewBox="0 0 1007 3460" width="1007px" zoomAndPan="magnify"><defs/><g><path d="M230,10 L230,56.3984 L210,60.3984 L230,64.3984 L230,110.7969 A0,0 0 0 0 230,110.7969 L676,110.7969 A0,0 0 0 0 676,110.7969 L676,20 L666,10 L230,10 A0,0 0 0 0 230,10 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M666,10 L666,20 L676,20 L666,10 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="364" x="236" y="27.0669">constructor BaseRepartitionNode(final String nodeName,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="349" x="236" y="42.1997">final String sourceName,final ProcessorParameters&lt;K,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="354" x="236" y="57.3325">V,?,?&gt; processorParameters,final Serde&lt;K&gt; keySerde,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="319" x="236" y="72.4653">final Serde&lt;V&gt; valueSerde,final String sinkName,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="342" x="236" y="87.5981">final String repartitionTopic,final StreamPartitioner&lt;K,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="425" x="236" y="102.731">V&gt; partitioner,final InternalTopicProperties internalTopicProperties)</text><ellipse cx="200" cy="60.3984" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="142" x="129" y="130.7969"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="122" x="139" y="151.9355">super (nodeName);</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="177" x="111.5" y="184.7656"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="157" x="121.5" y="205.9043">this.keySerde=keySerde;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="201" x="99.5" y="238.7344"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="181" x="109.5" y="259.873">this.valueSerde=valueSerde;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="183" x="108.5" y="292.7031"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="163" x="118.5" y="313.8418">this.sinkName=sinkName;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="219" x="90.5" y="346.6719"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="199" x="100.5" y="367.8105">this.sourceName=sourceName;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="259" x="70.5" y="400.6406"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="239" x="80.5" y="421.7793">this.repartitionTopic=repartitionTopic;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="333" x="33.5" y="454.6094"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="313" x="43.5" y="475.748">this.processorParameters=processorParameters;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="193" x="103.5" y="508.5781"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="173" x="113.5" y="529.7168">this.partitioner=partitioner;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="353" x="23.5" y="562.5469"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="333" x="33.5" y="583.6855">this.internalTopicProperties=internalTopicProperties;</text><ellipse cx="200" cy="626.5156" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="193.8128" x2="206.1872" y1="620.3284" y2="632.7028"/><line style="stroke:#222222;stroke-width:2.5;" x1="206.1872" x2="193.8128" y1="620.3284" y2="632.7028"/><path d="M230,646.5156 L230,655.082 L210,659.082 L230,663.082 L230,671.6484 A0,0 0 0 0 230,671.6484 L448,671.6484 A0,0 0 0 0 448,671.6484 L448,656.5156 L438,646.5156 L230,646.5156 A0,0 0 0 0 230,646.5156 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M438,646.5156 L438,656.5156 L448,656.5156 L438,646.5156 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="197" x="236" y="663.5825">Serializer&lt;V&gt; valueSerializer()</text><ellipse cx="200" cy="659.082" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="357" x="21.5" y="691.6484"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="337" x="31.5" y="712.7871">return valueSerde!=null ? valueSerde.serializer():null ;</text><ellipse cx="200" cy="756.6172" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="200" cy="756.6172" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="200" cy="787.6172" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="193.8128" x2="206.1872" y1="781.43" y2="793.8044"/><line style="stroke:#222222;stroke-width:2.5;" x1="206.1872" x2="193.8128" y1="781.43" y2="793.8044"/><path d="M230,807.6172 L230,816.1836 L210,820.1836 L230,824.1836 L230,832.75 A0,0 0 0 0 230,832.75 L480,832.75 A0,0 0 0 0 480,832.75 L480,817.6172 L470,807.6172 L230,807.6172 A0,0 0 0 0 230,807.6172 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M470,807.6172 L470,817.6172 L480,817.6172 L470,807.6172 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="229" x="236" y="824.6841">Deserializer&lt;V&gt; valueDeserializer()</text><ellipse cx="200" cy="820.1836" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="373" x="13.5" y="852.75"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="353" x="23.5" y="873.8887">return valueSerde!=null ? valueSerde.deserializer():null ;</text><ellipse cx="200" cy="917.7188" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="200" cy="917.7188" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="200" cy="948.7188" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="193.8128" x2="206.1872" y1="942.5316" y2="954.9059"/><line style="stroke:#222222;stroke-width:2.5;" x1="206.1872" x2="193.8128" y1="942.5316" y2="954.9059"/><path d="M230,968.7188 L230,977.2852 L210,981.2852 L230,985.2852 L230,993.8516 A0,0 0 0 0 230,993.8516 L435,993.8516 A0,0 0 0 0 435,993.8516 L435,978.7188 L425,968.7188 L230,968.7188 A0,0 0 0 0 230,968.7188 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M425,968.7188 L425,978.7188 L435,978.7188 L425,968.7188 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="184" x="236" y="985.7856">Serializer&lt;K&gt; keySerializer()</text><ellipse cx="200" cy="981.2852" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="333" x="33.5" y="1013.8516"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="313" x="43.5" y="1034.9902">return keySerde!=null ? keySerde.serializer():null ;</text><ellipse cx="200" cy="1078.8203" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="200" cy="1078.8203" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="200" cy="1109.8203" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="193.8128" x2="206.1872" y1="1103.6331" y2="1116.0075"/><line style="stroke:#222222;stroke-width:2.5;" x1="206.1872" x2="193.8128" y1="1103.6331" y2="1116.0075"/><path d="M230,1129.8203 L230,1138.3867 L210,1142.3867 L230,1146.3867 L230,1154.9531 A0,0 0 0 0 230,1154.9531 L467,1154.9531 A0,0 0 0 0 467,1154.9531 L467,1139.8203 L457,1129.8203 L230,1129.8203 A0,0 0 0 0 230,1129.8203 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M457,1129.8203 L457,1139.8203 L467,1139.8203 L457,1129.8203 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="216" x="236" y="1146.8872">Deserializer&lt;K&gt; keyDeserializer()</text><ellipse cx="200" cy="1142.3867" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="349" x="25.5" y="1174.9531"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="329" x="35.5" y="1196.0918">return keySerde!=null ? keySerde.deserializer():null ;</text><ellipse cx="200" cy="1239.9219" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="200" cy="1239.9219" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="200" cy="1270.9219" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="193.8128" x2="206.1872" y1="1264.7347" y2="1277.1091"/><line style="stroke:#222222;stroke-width:2.5;" x1="206.1872" x2="193.8128" y1="1264.7347" y2="1277.1091"/><path d="M230,1290.9219 L230,1299.4883 L210,1303.4883 L230,1307.4883 L230,1316.0547 A0,0 0 0 0 230,1316.0547 L354,1316.0547 A0,0 0 0 0 354,1316.0547 L354,1300.9219 L344,1290.9219 L230,1290.9219 A0,0 0 0 0 230,1290.9219 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M344,1290.9219 L344,1300.9219 L354,1300.9219 L344,1290.9219 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="103" x="236" y="1307.9888">String toString()</text><ellipse cx="200" cy="1303.4883" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="75.875" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="378" x="11" y="1336.0547"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="292" x="21" y="1357.1934">return "BaseRepartitionNode{"+"keySerde="+</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="358" x="21" y="1371.1621">keySerde+", valueSerde="+valueSerde+", sinkName='"+</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="303" x="21" y="1385.1309">sinkName+'\''+", sourceName='"+sourceName+</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="296" x="21" y="1399.0996">internalTopicProperties+"} "+super .toString();</text><ellipse cx="200" cy="1442.9297" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="200" cy="1442.9297" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="200" cy="1473.9297" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="193.8128" x2="206.1872" y1="1467.7425" y2="1480.1169"/><line style="stroke:#222222;stroke-width:2.5;" x1="206.1872" x2="193.8128" y1="1467.7425" y2="1480.1169"/><path d="M230,1493.9297 L230,1510.0625 L210,1514.0625 L230,1518.0625 L230,1534.1953 A0,0 0 0 0 230,1534.1953 L847,1534.1953 A0,0 0 0 0 847,1534.1953 L847,1503.9297 L837,1493.9297 L230,1493.9297 A0,0 0 0 0 230,1493.9297 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M837,1493.9297 L837,1503.9297 L847,1503.9297 L837,1493.9297 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="596" x="236" y="1510.9966">BaseRepartitionNodeBuilder&lt;K,V,T&gt; withProcessorParameters(final ProcessorParameters&lt;K,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="189" x="236" y="1526.1294">V,?,?&gt; processorParameters)</text><ellipse cx="200" cy="1514.0625" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="333" x="33.5" y="1554.1953"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="313" x="43.5" y="1575.334">this.processorParameters=processorParameters;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="155" y="1608.1641"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="165" y="1629.3027">return this;</text><ellipse cx="200" cy="1673.1328" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="200" cy="1673.1328" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="200" cy="1704.1328" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="193.8128" x2="206.1872" y1="1697.9456" y2="1710.32"/><line style="stroke:#222222;stroke-width:2.5;" x1="206.1872" x2="193.8128" y1="1697.9456" y2="1710.32"/><path d="M230,1724.1328 L230,1732.6992 L210,1736.6992 L230,1740.6992 L230,1749.2656 A0,0 0 0 0 230,1749.2656 L746,1749.2656 A0,0 0 0 0 746,1749.2656 L746,1734.1328 L736,1724.1328 L230,1724.1328 A0,0 0 0 0 230,1724.1328 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M736,1724.1328 L736,1734.1328 L746,1734.1328 L736,1724.1328 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="495" x="236" y="1741.1997">BaseRepartitionNodeBuilder&lt;K,V,T&gt; withKeySerde(final Serde&lt;K&gt; keySerde)</text><ellipse cx="200" cy="1736.6992" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="177" x="111.5" y="1769.2656"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="157" x="121.5" y="1790.4043">this.keySerde=keySerde;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="155" y="1823.2344"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="165" y="1844.373">return this;</text><ellipse cx="200" cy="1888.2031" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="200" cy="1888.2031" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="200" cy="1919.2031" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="193.8128" x2="206.1872" y1="1913.0159" y2="1925.3903"/><line style="stroke:#222222;stroke-width:2.5;" x1="206.1872" x2="193.8128" y1="1913.0159" y2="1925.3903"/><path d="M230,1939.2031 L230,1947.7695 L210,1951.7695 L230,1955.7695 L230,1964.3359 A0,0 0 0 0 230,1964.3359 L772,1964.3359 A0,0 0 0 0 772,1964.3359 L772,1949.2031 L762,1939.2031 L230,1939.2031 A0,0 0 0 0 230,1939.2031 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M762,1939.2031 L762,1949.2031 L772,1949.2031 L762,1939.2031 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="521" x="236" y="1956.27">BaseRepartitionNodeBuilder&lt;K,V,T&gt; withValueSerde(final Serde&lt;V&gt; valueSerde)</text><ellipse cx="200" cy="1951.7695" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="201" x="99.5" y="1984.3359"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="181" x="109.5" y="2005.4746">this.valueSerde=valueSerde;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="155" y="2038.3047"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="165" y="2059.4434">return this;</text><ellipse cx="200" cy="2103.2734" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="200" cy="2103.2734" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="200" cy="2134.2734" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="193.8128" x2="206.1872" y1="2128.0863" y2="2140.4606"/><line style="stroke:#222222;stroke-width:2.5;" x1="206.1872" x2="193.8128" y1="2128.0863" y2="2140.4606"/><path d="M230,2154.2734 L230,2162.8398 L210,2166.8398 L230,2170.8398 L230,2179.4063 A0,0 0 0 0 230,2179.4063 L725,2179.4063 A0,0 0 0 0 725,2179.4063 L725,2164.2734 L715,2154.2734 L230,2154.2734 A0,0 0 0 0 230,2154.2734 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M715,2154.2734 L715,2164.2734 L725,2164.2734 L715,2154.2734 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="474" x="236" y="2171.3403">BaseRepartitionNodeBuilder&lt;K,V,T&gt; withSinkName(final String sinkName)</text><ellipse cx="200" cy="2166.8398" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="183" x="108.5" y="2199.4063"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="163" x="118.5" y="2220.5449">this.sinkName=sinkName;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="155" y="2253.375"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="165" y="2274.5137">return this;</text><ellipse cx="200" cy="2318.3438" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="200" cy="2318.3438" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="200" cy="2349.3438" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="193.8128" x2="206.1872" y1="2343.1566" y2="2355.5309"/><line style="stroke:#222222;stroke-width:2.5;" x1="206.1872" x2="193.8128" y1="2343.1566" y2="2355.5309"/><path d="M230,2369.3438 L230,2377.9102 L210,2381.9102 L230,2385.9102 L230,2394.4766 A0,0 0 0 0 230,2394.4766 L761,2394.4766 A0,0 0 0 0 761,2394.4766 L761,2379.3438 L751,2369.3438 L230,2369.3438 A0,0 0 0 0 230,2369.3438 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M751,2369.3438 L751,2379.3438 L761,2379.3438 L751,2369.3438 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="510" x="236" y="2386.4106">BaseRepartitionNodeBuilder&lt;K,V,T&gt; withSourceName(final String sourceName)</text><ellipse cx="200" cy="2381.9102" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="219" x="90.5" y="2414.4766"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="199" x="100.5" y="2435.6152">this.sourceName=sourceName;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="155" y="2468.4453"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="165" y="2489.584">return this;</text><ellipse cx="200" cy="2533.4141" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="200" cy="2533.4141" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="200" cy="2564.4141" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="193.8128" x2="206.1872" y1="2558.2269" y2="2570.6012"/><line style="stroke:#222222;stroke-width:2.5;" x1="206.1872" x2="193.8128" y1="2558.2269" y2="2570.6012"/><path d="M230,2584.4141 L230,2592.9805 L210,2596.9805 L230,2600.9805 L230,2609.5469 A0,0 0 0 0 230,2609.5469 L796,2609.5469 A0,0 0 0 0 796,2609.5469 L796,2594.4141 L786,2584.4141 L230,2584.4141 A0,0 0 0 0 230,2584.4141 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M786,2584.4141 L786,2594.4141 L796,2594.4141 L786,2584.4141 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="545" x="236" y="2601.481">BaseRepartitionNodeBuilder&lt;K,V,T&gt; withRepartitionTopic(final String repartitionTopic)</text><ellipse cx="200" cy="2596.9805" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="259" x="70.5" y="2629.5469"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="239" x="80.5" y="2650.6855">this.repartitionTopic=repartitionTopic;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="155" y="2683.5156"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="165" y="2704.6543">return this;</text><ellipse cx="200" cy="2748.4844" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="200" cy="2748.4844" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="200" cy="2779.4844" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="193.8128" x2="206.1872" y1="2773.2972" y2="2785.6716"/><line style="stroke:#222222;stroke-width:2.5;" x1="206.1872" x2="193.8128" y1="2773.2972" y2="2785.6716"/><path d="M230,2799.4844 L230,2815.6172 L210,2819.6172 L230,2823.6172 L230,2839.75 A0,0 0 0 0 230,2839.75 L799,2839.75 A0,0 0 0 0 799,2839.75 L799,2809.4844 L789,2799.4844 L230,2799.4844 A0,0 0 0 0 230,2799.4844 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M789,2799.4844 L789,2809.4844 L799,2809.4844 L789,2799.4844 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="548" x="236" y="2816.5513">BaseRepartitionNodeBuilder&lt;K,V,T&gt; withStreamPartitioner(final StreamPartitioner&lt;K,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="95" x="236" y="2831.6841">V&gt; partitioner)</text><ellipse cx="200" cy="2819.6172" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="193" x="103.5" y="2859.75"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="173" x="113.5" y="2880.8887">this.partitioner=partitioner;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="155" y="2913.7188"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="165" y="2934.8574">return this;</text><ellipse cx="200" cy="2978.6875" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="200" cy="2978.6875" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="200" cy="3009.6875" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="193.8128" x2="206.1872" y1="3003.5003" y2="3015.8747"/><line style="stroke:#222222;stroke-width:2.5;" x1="206.1872" x2="193.8128" y1="3003.5003" y2="3015.8747"/><path d="M230,3029.6875 L230,3038.2539 L210,3042.2539 L230,3046.2539 L230,3054.8203 A0,0 0 0 0 230,3054.8203 L739,3054.8203 A0,0 0 0 0 739,3054.8203 L739,3039.6875 L729,3029.6875 L230,3029.6875 A0,0 0 0 0 230,3029.6875 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M729,3029.6875 L729,3039.6875 L739,3039.6875 L729,3029.6875 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="488" x="236" y="3046.7544">BaseRepartitionNodeBuilder&lt;K,V,T&gt; withNodeName(final String nodeName)</text><ellipse cx="200" cy="3042.2539" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="197" x="101.5" y="3074.8203"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="177" x="111.5" y="3095.959">this.nodeName=nodeName;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="155" y="3128.7891"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="165" y="3149.9277">return this;</text><ellipse cx="200" cy="3193.7578" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="200" cy="3193.7578" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="200" cy="3224.7578" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="193.8128" x2="206.1872" y1="3218.5706" y2="3230.945"/><line style="stroke:#222222;stroke-width:2.5;" x1="206.1872" x2="193.8128" y1="3218.5706" y2="3230.945"/><path d="M230,3244.7578 L230,3253.3242 L210,3257.3242 L230,3261.3242 L230,3269.8906 A0,0 0 0 0 230,3269.8906 L995,3269.8906 A0,0 0 0 0 995,3269.8906 L995,3254.7578 L985,3244.7578 L230,3244.7578 A0,0 0 0 0 230,3244.7578 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M985,3244.7578 L985,3254.7578 L995,3254.7578 L985,3244.7578 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="744" x="236" y="3261.8247">BaseRepartitionNodeBuilder&lt;K,V,T&gt; withInternalTopicProperties(final InternalTopicProperties internalTopicProperties)</text><ellipse cx="200" cy="3257.3242" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="353" x="23.5" y="3289.8906"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="333" x="33.5" y="3311.0293">this.internalTopicProperties=internalTopicProperties;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="155" y="3343.8594"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="70" x="165" y="3364.998">return this;</text><ellipse cx="200" cy="3408.8281" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="200" cy="3408.8281" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="200" cy="3439.8281" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="193.8128" x2="206.1872" y1="3433.6409" y2="3446.0153"/><line style="stroke:#222222;stroke-width:2.5;" x1="206.1872" x2="193.8128" y1="3433.6409" y2="3446.0153"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="70.3984" y2="130.7969"/><polygon fill="#181818" points="196,120.7969,200,130.7969,204,120.7969,200,124.7969" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="164.7656" y2="184.7656"/><polygon fill="#181818" points="196,174.7656,200,184.7656,204,174.7656,200,178.7656" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="218.7344" y2="238.7344"/><polygon fill="#181818" points="196,228.7344,200,238.7344,204,228.7344,200,232.7344" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="272.7031" y2="292.7031"/><polygon fill="#181818" points="196,282.7031,200,292.7031,204,282.7031,200,286.7031" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="326.6719" y2="346.6719"/><polygon fill="#181818" points="196,336.6719,200,346.6719,204,336.6719,200,340.6719" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="380.6406" y2="400.6406"/><polygon fill="#181818" points="196,390.6406,200,400.6406,204,390.6406,200,394.6406" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="434.6094" y2="454.6094"/><polygon fill="#181818" points="196,444.6094,200,454.6094,204,444.6094,200,448.6094" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="488.5781" y2="508.5781"/><polygon fill="#181818" points="196,498.5781,200,508.5781,204,498.5781,200,502.5781" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="542.5469" y2="562.5469"/><polygon fill="#181818" points="196,552.5469,200,562.5469,204,552.5469,200,556.5469" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="596.5156" y2="616.5156"/><polygon fill="#181818" points="196,606.5156,200,616.5156,204,606.5156,200,610.5156" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="669.082" y2="691.6484"/><polygon fill="#181818" points="196,681.6484,200,691.6484,204,681.6484,200,685.6484" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="725.6172" y2="745.6172"/><polygon fill="#181818" points="196,735.6172,200,745.6172,204,735.6172,200,739.6172" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="830.1836" y2="852.75"/><polygon fill="#181818" points="196,842.75,200,852.75,204,842.75,200,846.75" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="886.7188" y2="906.7188"/><polygon fill="#181818" points="196,896.7188,200,906.7188,204,896.7188,200,900.7188" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="991.2852" y2="1013.8516"/><polygon fill="#181818" points="196,1003.8516,200,1013.8516,204,1003.8516,200,1007.8516" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="1047.8203" y2="1067.8203"/><polygon fill="#181818" points="196,1057.8203,200,1067.8203,204,1057.8203,200,1061.8203" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="1152.3867" y2="1174.9531"/><polygon fill="#181818" points="196,1164.9531,200,1174.9531,204,1164.9531,200,1168.9531" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="1208.9219" y2="1228.9219"/><polygon fill="#181818" points="196,1218.9219,200,1228.9219,204,1218.9219,200,1222.9219" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="1313.4883" y2="1336.0547"/><polygon fill="#181818" points="196,1326.0547,200,1336.0547,204,1326.0547,200,1330.0547" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="1411.9297" y2="1431.9297"/><polygon fill="#181818" points="196,1421.9297,200,1431.9297,204,1421.9297,200,1425.9297" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="1524.0625" y2="1554.1953"/><polygon fill="#181818" points="196,1544.1953,200,1554.1953,204,1544.1953,200,1548.1953" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="1588.1641" y2="1608.1641"/><polygon fill="#181818" points="196,1598.1641,200,1608.1641,204,1598.1641,200,1602.1641" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="1642.1328" y2="1662.1328"/><polygon fill="#181818" points="196,1652.1328,200,1662.1328,204,1652.1328,200,1656.1328" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="1746.6992" y2="1769.2656"/><polygon fill="#181818" points="196,1759.2656,200,1769.2656,204,1759.2656,200,1763.2656" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="1803.2344" y2="1823.2344"/><polygon fill="#181818" points="196,1813.2344,200,1823.2344,204,1813.2344,200,1817.2344" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="1857.2031" y2="1877.2031"/><polygon fill="#181818" points="196,1867.2031,200,1877.2031,204,1867.2031,200,1871.2031" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="1961.7695" y2="1984.3359"/><polygon fill="#181818" points="196,1974.3359,200,1984.3359,204,1974.3359,200,1978.3359" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="2018.3047" y2="2038.3047"/><polygon fill="#181818" points="196,2028.3047,200,2038.3047,204,2028.3047,200,2032.3047" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="2072.2734" y2="2092.2734"/><polygon fill="#181818" points="196,2082.2734,200,2092.2734,204,2082.2734,200,2086.2734" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="2176.8398" y2="2199.4063"/><polygon fill="#181818" points="196,2189.4063,200,2199.4063,204,2189.4063,200,2193.4063" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="2233.375" y2="2253.375"/><polygon fill="#181818" points="196,2243.375,200,2253.375,204,2243.375,200,2247.375" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="2287.3438" y2="2307.3438"/><polygon fill="#181818" points="196,2297.3438,200,2307.3438,204,2297.3438,200,2301.3438" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="2391.9102" y2="2414.4766"/><polygon fill="#181818" points="196,2404.4766,200,2414.4766,204,2404.4766,200,2408.4766" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="2448.4453" y2="2468.4453"/><polygon fill="#181818" points="196,2458.4453,200,2468.4453,204,2458.4453,200,2462.4453" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="2502.4141" y2="2522.4141"/><polygon fill="#181818" points="196,2512.4141,200,2522.4141,204,2512.4141,200,2516.4141" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="2606.9805" y2="2629.5469"/><polygon fill="#181818" points="196,2619.5469,200,2629.5469,204,2619.5469,200,2623.5469" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="2663.5156" y2="2683.5156"/><polygon fill="#181818" points="196,2673.5156,200,2683.5156,204,2673.5156,200,2677.5156" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="2717.4844" y2="2737.4844"/><polygon fill="#181818" points="196,2727.4844,200,2737.4844,204,2727.4844,200,2731.4844" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="2829.6172" y2="2859.75"/><polygon fill="#181818" points="196,2849.75,200,2859.75,204,2849.75,200,2853.75" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="2893.7188" y2="2913.7188"/><polygon fill="#181818" points="196,2903.7188,200,2913.7188,204,2903.7188,200,2907.7188" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="2947.6875" y2="2967.6875"/><polygon fill="#181818" points="196,2957.6875,200,2967.6875,204,2957.6875,200,2961.6875" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="3052.2539" y2="3074.8203"/><polygon fill="#181818" points="196,3064.8203,200,3074.8203,204,3064.8203,200,3068.8203" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="3108.7891" y2="3128.7891"/><polygon fill="#181818" points="196,3118.7891,200,3128.7891,204,3118.7891,200,3122.7891" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="3162.7578" y2="3182.7578"/><polygon fill="#181818" points="196,3172.7578,200,3182.7578,204,3172.7578,200,3176.7578" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="3267.3242" y2="3289.8906"/><polygon fill="#181818" points="196,3279.8906,200,3289.8906,204,3279.8906,200,3283.8906" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="3323.8594" y2="3343.8594"/><polygon fill="#181818" points="196,3333.8594,200,3343.8594,204,3333.8594,200,3337.8594" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="200" x2="200" y1="3377.8281" y2="3397.8281"/><polygon fill="#181818" points="196,3387.8281,200,3397.8281,204,3387.8281,200,3391.8281" style="stroke:#181818;stroke-width:1.0;"/><!--MD5=[ca6c642d379e17be85c297e7542d037c]
+@startuml
+!pragma layout smetana
+start
+note right
+constructor BaseRepartitionNode(final String nodeName,
+final String sourceName,final ProcessorParameters<K,
+V,?,?> processorParameters,final Serde<K> keySerde,
+final Serde<V> valueSerde,final String sinkName,
+final String repartitionTopic,final StreamPartitioner<K,
+V> partitioner,final InternalTopicProperties internalTopicProperties)
+end note
+:super (nodeName);;
+:this.keySerde=keySerde;;
+:this.valueSerde=valueSerde;;
+:this.sinkName=sinkName;;
+:this.sourceName=sourceName;;
+:this.repartitionTopic=repartitionTopic;;
+:this.processorParameters=processorParameters;;
+:this.partitioner=partitioner;;
+:this.internalTopicProperties=internalTopicProperties;;
+end
+start
+note right
+Serializer<V> valueSerializer()
+end note
+:return valueSerde!=null ? valueSerde.serializer():null ;;
+stop
+end
+start
+note right
+Deserializer<V> valueDeserializer()
+end note
+:return valueSerde!=null ? valueSerde.deserializer():null ;;
+stop
+end
+start
+note right
+Serializer<K> keySerializer()
+end note
+:return keySerde!=null ? keySerde.serializer():null ;;
+stop
+end
+start
+note right
+Deserializer<K> keyDeserializer()
+end note
+:return keySerde!=null ? keySerde.deserializer():null ;;
+stop
+end
+start
+note right
+String toString()
+end note
+:return "BaseRepartitionNode{"+"keySerde="+
+keySerde+", valueSerde="+valueSerde+", sinkName='"+
+sinkName+'\''+", sourceName='"+sourceName+
+'\''+", repartitionTopic='"+repartitionTopic+
+'\''+", processorParameters="+processorParameters+
+'\''+", partitioner="+partitioner+", internalTopicProperties="+
+internalTopicProperties+"} "+super .toString();;
+stop
+end
+start
+note right
+BaseRepartitionNodeBuilder<K,V,T> withProcessorParameters(final ProcessorParameters<K,
+V,?,?> processorParameters)
+end note
+:this.processorParameters=processorParameters;;
+:return this;;
+stop
+end
+start
+note right
+BaseRepartitionNodeBuilder<K,V,T> withKeySerde(final Serde<K> keySerde)
+end note
+:this.keySerde=keySerde;;
+:return this;;
+stop
+end
+start
+note right
+BaseRepartitionNodeBuilder<K,V,T> withValueSerde(final Serde<V> valueSerde)
+end note
+:this.valueSerde=valueSerde;;
+:return this;;
+stop
+end
+start
+note right
+BaseRepartitionNodeBuilder<K,V,T> withSinkName(final String sinkName)
+end note
+:this.sinkName=sinkName;;
+:return this;;
+stop
+end
+start
+note right
+BaseRepartitionNodeBuilder<K,V,T> withSourceName(final String sourceName)
+end note
+:this.sourceName=sourceName;;
+:return this;;
+stop
+end
+start
+note right
+BaseRepartitionNodeBuilder<K,V,T> withRepartitionTopic(final String repartitionTopic)
+end note
+:this.repartitionTopic=repartitionTopic;;
+:return this;;
+stop
+end
+start
+note right
+BaseRepartitionNodeBuilder<K,V,T> withStreamPartitioner(final StreamPartitioner<K,
+V> partitioner)
+end note
+:this.partitioner=partitioner;;
+:return this;;
+stop
+end
+start
+note right
+BaseRepartitionNodeBuilder<K,V,T> withNodeName(final String nodeName)
+end note
+:this.nodeName=nodeName;;
+:return this;;
+stop
+end
+start
+note right
+BaseRepartitionNodeBuilder<K,V,T> withInternalTopicProperties(final InternalTopicProperties internalTopicProperties)
+end note
+:this.internalTopicProperties=internalTopicProperties;;
+:return this;;
+stop
+end
+@enduml
+
+@startuml
+!pragma layout smetana
+start
+note right
+constructor BaseRepartitionNode(final String nodeName,
+final String sourceName,final ProcessorParameters<K,
+V,?,?> processorParameters,final Serde<K> keySerde,
+final Serde<V> valueSerde,final String sinkName,
+final String repartitionTopic,final StreamPartitioner<K,
+V> partitioner,final InternalTopicProperties internalTopicProperties)
+end note
+:super (nodeName);;
+:this.keySerde=keySerde;;
+:this.valueSerde=valueSerde;;
+:this.sinkName=sinkName;;
+:this.sourceName=sourceName;;
+:this.repartitionTopic=repartitionTopic;;
+:this.processorParameters=processorParameters;;
+:this.partitioner=partitioner;;
+:this.internalTopicProperties=internalTopicProperties;;
+end
+start
+note right
+Serializer<V> valueSerializer()
+end note
+:return valueSerde!=null ? valueSerde.serializer():null ;;
+stop
+end
+start
+note right
+Deserializer<V> valueDeserializer()
+end note
+:return valueSerde!=null ? valueSerde.deserializer():null ;;
+stop
+end
+start
+note right
+Serializer<K> keySerializer()
+end note
+:return keySerde!=null ? keySerde.serializer():null ;;
+stop
+end
+start
+note right
+Deserializer<K> keyDeserializer()
+end note
+:return keySerde!=null ? keySerde.deserializer():null ;;
+stop
+end
+start
+note right
+String toString()
+end note
+:return "BaseRepartitionNode{"+"keySerde="+
+keySerde+", valueSerde="+valueSerde+", sinkName='"+
+sinkName+'\''+", sourceName='"+sourceName+
+internalTopicProperties+"} "+super .toString();;
+stop
+end
+start
+note right
+BaseRepartitionNodeBuilder<K,V,T> withProcessorParameters(final ProcessorParameters<K,
+V,?,?> processorParameters)
+end note
+:this.processorParameters=processorParameters;;
+:return this;;
+stop
+end
+start
+note right
+BaseRepartitionNodeBuilder<K,V,T> withKeySerde(final Serde<K> keySerde)
+end note
+:this.keySerde=keySerde;;
+:return this;;
+stop
+end
+start
+note right
+BaseRepartitionNodeBuilder<K,V,T> withValueSerde(final Serde<V> valueSerde)
+end note
+:this.valueSerde=valueSerde;;
+:return this;;
+stop
+end
+start
+note right
+BaseRepartitionNodeBuilder<K,V,T> withSinkName(final String sinkName)
+end note
+:this.sinkName=sinkName;;
+:return this;;
+stop
+end
+start
+note right
+BaseRepartitionNodeBuilder<K,V,T> withSourceName(final String sourceName)
+end note
+:this.sourceName=sourceName;;
+:return this;;
+stop
+end
+start
+note right
+BaseRepartitionNodeBuilder<K,V,T> withRepartitionTopic(final String repartitionTopic)
+end note
+:this.repartitionTopic=repartitionTopic;;
+:return this;;
+stop
+end
+start
+note right
+BaseRepartitionNodeBuilder<K,V,T> withStreamPartitioner(final StreamPartitioner<K,
+V> partitioner)
+end note
+:this.partitioner=partitioner;;
+:return this;;
+stop
+end
+start
+note right
+BaseRepartitionNodeBuilder<K,V,T> withNodeName(final String nodeName)
+end note
+:this.nodeName=nodeName;;
+:return this;;
+stop
+end
+start
+note right
+BaseRepartitionNodeBuilder<K,V,T> withInternalTopicProperties(final InternalTopicProperties internalTopicProperties)
+end note
+:this.internalTopicProperties=internalTopicProperties;;
+:return this;;
+stop
+end
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

@@ -1,0 +1,925 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="11963px" preserveAspectRatio="none" style="width:1011px;height:11963px;background:#FFFFFF;" version="1.1" viewBox="0 0 1011 11963" width="1011px" zoomAndPan="magnify"><defs/><g><path d="M464,10 L464,26.1328 L444,30.1328 L464,34.1328 L464,50.2656 A0,0 0 0 0 464,50.2656 L881,50.2656 A0,0 0 0 0 881,50.2656 L881,20 L871,10 L464,10 A0,0 0 0 0 464,10 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M871,10 L871,20 L881,20 L871,10 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="396" x="470" y="27.0669">constructor MetadataResponse(MetadataResponseData data,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="88" x="470" y="42.1997">short version)</text><ellipse cx="434" cy="30.1328" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="306" x="281" y="70.2656"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="286" x="291" y="91.4043">this(data,hasReliableLeaderEpochs(version));</text><ellipse cx="434" cy="134.2344" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="128.0472" y2="140.4216"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="128.0472" y2="140.4216"/><path d="M464,154.2344 L464,170.3672 L444,174.3672 L464,178.3672 L464,194.5 A0,0 0 0 0 464,194.5 L881,194.5 A0,0 0 0 0 881,194.5 L881,164.2344 L871,154.2344 L464,154.2344 A0,0 0 0 0 464,154.2344 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M871,154.2344 L871,164.2344 L881,164.2344 L871,154.2344 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="396" x="470" y="171.3013">constructor MetadataResponse(MetadataResponseData data,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="222" x="470" y="186.4341">boolean hasReliableLeaderEpochs)</text><ellipse cx="434" cy="174.3672" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="190" x="339" y="214.5"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="170" x="349" y="235.6387">super (ApiKeys.METADATA);</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="119" x="374.5" y="268.4688"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="99" x="384.5" y="289.6074">this.data=data;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="383" x="242.5" y="322.4375"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="363" x="252.5" y="343.5762">this.hasReliableLeaderEpochs=hasReliableLeaderEpochs;</text><ellipse cx="434" cy="386.4063" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="380.2191" y2="392.5934"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="380.2191" y2="392.5934"/><path d="M464,406.4063 L464,414.9727 L444,418.9727 L464,422.9727 L464,431.5391 A0,0 0 0 0 464,431.5391 L682,431.5391 A0,0 0 0 0 682,431.5391 L682,416.4063 L672,406.4063 L464,406.4063 A0,0 0 0 0 464,406.4063 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M672,406.4063 L672,416.4063 L682,416.4063 L672,406.4063 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="197" x="470" y="423.4731">MetadataResponseData data()</text><ellipse cx="434" cy="418.9727" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="96" x="386" y="451.5391"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="76" x="396" y="472.6777">return data;</text><ellipse cx="434" cy="516.5078" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="516.5078" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="547.5078" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="541.3206" y2="553.695"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="541.3206" y2="553.695"/><path d="M464,567.5078 L464,576.0742 L444,580.0742 L464,584.0742 L464,592.6406 A0,0 0 0 0 464,592.6406 L611,592.6406 A0,0 0 0 0 611,592.6406 L611,577.5078 L601,567.5078 L464,567.5078 A0,0 0 0 0 464,567.5078 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M601,567.5078 L601,577.5078 L611,577.5078 L601,567.5078 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="126" x="470" y="584.5747">int throttleTimeMs()</text><ellipse cx="434" cy="580.0742" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="203" x="332.5" y="612.6406"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="183" x="342.5" y="633.7793">return data.throttleTimeMs();</text><ellipse cx="434" cy="677.6094" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="677.6094" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="708.6094" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="702.4222" y2="714.7966"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="702.4222" y2="714.7966"/><path d="M464,728.6094 L464,737.1758 L444,741.1758 L464,745.1758 L464,753.7422 A0,0 0 0 0 464,753.7422 L666,753.7422 A0,0 0 0 0 666,753.7422 L666,738.6094 L656,728.6094 L464,728.6094 A0,0 0 0 0 464,728.6094 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M656,728.6094 L656,738.6094 L666,738.6094 L656,728.6094 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="181" x="470" y="745.6763">Map&lt;String,Errors&gt; errors()</text><ellipse cx="434" cy="741.1758" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="318" x="275" y="773.7422"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="298" x="285" y="794.8809">Map&lt;String,Errors&gt; errors=new HashMap&lt;&gt;();</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="603" x="132.5" y="876.1133"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="142.5" y="897.252">throw new IllegalStateException("Use errorsByTopicId() when managing topic using topic id");</text><ellipse cx="434" cy="949.5977" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="949.5977" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><polygon fill="#F1F1F1" points="364,827.7109,504,827.7109,516,839.7109,504,851.7109,364,851.7109,352,839.7109,364,827.7109" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="20" x="438" y="861.9214">yes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="136" x="364" y="843.519">metadata.name()==null</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="450" x="209" y="1051"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="430" x="219" y="1072.1387">errors.put(metadata.name(),Errors.forCode(metadata.errorCode()));</text><polygon fill="#F1F1F1" points="310.5,1002.5977,557.5,1002.5977,569.5,1014.5977,557.5,1026.5977,310.5,1026.5977,298.5,1014.5977,310.5,1002.5977" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="20" x="438" y="1036.8081">yes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="247" x="310.5" y="1018.4058">metadata.errorCode()!=Errors.NONE.code()</text><polygon fill="#F1F1F1" points="434,1104.9688,446,1116.9688,434,1128.9688,422,1116.9688,434,1104.9688" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="105" x="381.5" y="1148.9688"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="85" x="391.5" y="1170.1074">return errors;</text><ellipse cx="434" cy="1213.9375" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="1213.9375" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="1244.9375" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="1238.7503" y2="1251.1247"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="1238.7503" y2="1251.1247"/><path d="M464,1264.9375 L464,1273.5039 L444,1277.5039 L464,1281.5039 L464,1290.0703 A0,0 0 0 0 464,1290.0703 L717,1290.0703 A0,0 0 0 0 717,1290.0703 L717,1274.9375 L707,1264.9375 L464,1264.9375 A0,0 0 0 0 464,1264.9375 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M707,1264.9375 L707,1274.9375 L717,1274.9375 L707,1264.9375 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="232" x="470" y="1282.0044">Map&lt;Uuid,Errors&gt; errorsByTopicId()</text><ellipse cx="434" cy="1277.5039" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="309" x="279.5" y="1310.0703"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="289" x="289.5" y="1331.209">Map&lt;Uuid,Errors&gt; errors=new HashMap&lt;&gt;();</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="569" x="149.5" y="1412.4414"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="549" x="159.5" y="1433.5801">throw new IllegalStateException("Use errors() when managing topic using topic name");</text><ellipse cx="434" cy="1485.9258" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="1485.9258" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><polygon fill="#F1F1F1" points="326.5,1364.0391,541.5,1364.0391,553.5,1376.0391,541.5,1388.0391,326.5,1388.0391,314.5,1376.0391,326.5,1364.0391" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="20" x="438" y="1398.2495">yes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="215" x="326.5" y="1379.8472">metadata.topicId()==Uuid.ZERO_UUID</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="457" x="205.5" y="1587.3281"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="437" x="215.5" y="1608.4668">errors.put(metadata.topicId(),Errors.forCode(metadata.errorCode()));</text><polygon fill="#F1F1F1" points="310.5,1538.9258,557.5,1538.9258,569.5,1550.9258,557.5,1562.9258,310.5,1562.9258,298.5,1550.9258,310.5,1538.9258" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="20" x="438" y="1573.1362">yes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="247" x="310.5" y="1554.7339">metadata.errorCode()!=Errors.NONE.code()</text><polygon fill="#F1F1F1" points="434,1641.2969,446,1653.2969,434,1665.2969,422,1653.2969,434,1641.2969" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="105" x="381.5" y="1685.2969"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="85" x="391.5" y="1706.4355">return errors;</text><ellipse cx="434" cy="1750.2656" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="1750.2656" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="1781.2656" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="1775.0784" y2="1787.4528"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="1775.0784" y2="1787.4528"/><path d="M464,1801.2656 L464,1809.832 L444,1813.832 L464,1817.832 L464,1826.3984 A0,0 0 0 0 464,1826.3984 L711,1826.3984 A0,0 0 0 0 711,1826.3984 L711,1811.2656 L701,1801.2656 L464,1801.2656 A0,0 0 0 0 464,1801.2656 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M701,1801.2656 L701,1811.2656 L711,1811.2656 L701,1801.2656 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="226" x="470" y="1818.3325">Map&lt;Errors,Integer&gt; errorCounts()</text><ellipse cx="434" cy="1813.832" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="363" x="252.5" y="1846.3984"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="343" x="262.5" y="1867.5371">Map&lt;Errors,Integer&gt; errorCounts=new HashMap&lt;&gt;();</text><rect fill="#F1F1F1" height="61.9063" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="659" x="104.5" y="1900.3672"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="639" x="114.5" y="1921.5059">data.topics().forEach(metadata-&gt;{metadata.partitions().forEach(p-&gt;updateErrorCounts(errorCounts,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="404" x="114.5" y="1935.4746">Errors.forCode(p.errorCode())));updateErrorCounts(errorCounts,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="265" x="114.5" y="1949.4434">Errors.forCode(metadata.errorCode()));});</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="142" x="363" y="1982.2734"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="122" x="373" y="2003.4121">return errorCounts;</text><ellipse cx="434" cy="2047.2422" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="2047.2422" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="2078.2422" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="2072.055" y2="2084.4294"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="2072.055" y2="2084.4294"/><path d="M464,2098.2422 L464,2106.8086 L444,2110.8086 L464,2114.8086 L464,2123.375 A0,0 0 0 0 464,2123.375 L739,2123.375 A0,0 0 0 0 739,2123.375 L739,2108.2422 L729,2098.2422 L464,2098.2422 A0,0 0 0 0 464,2098.2422 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M729,2098.2422 L729,2108.2422 L739,2108.2422 L729,2098.2422 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="254" x="470" y="2115.3091">Set&lt;String&gt; topicsByError(Errors error)</text><ellipse cx="434" cy="2110.8086" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="299" x="284.5" y="2143.375"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="279" x="294.5" y="2164.5137">Set&lt;String&gt; errorTopics=new HashSet&lt;&gt;();</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="243" x="312.5" y="2245.7461"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="223" x="322.5" y="2266.8848">errorTopics.add(metadata.name());</text><polygon fill="#F1F1F1" points="329,2197.3438,539,2197.3438,551,2209.3438,539,2221.3438,329,2221.3438,317,2209.3438,329,2197.3438" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="20" x="438" y="2231.5542">yes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="210" x="329" y="2213.1519">metadata.errorCode()==error.code()</text><polygon fill="#F1F1F1" points="434,2299.7148,446,2311.7148,434,2323.7148,422,2311.7148,434,2299.7148" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="138" x="365" y="2343.7148"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="118" x="375" y="2364.8535">return errorTopics;</text><ellipse cx="434" cy="2408.6836" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="2408.6836" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="2439.6836" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="2433.4964" y2="2445.8708"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="2433.4964" y2="2445.8708"/><path d="M464,2459.6836 L464,2468.25 L444,2472.25 L464,2476.25 L464,2484.8164 A0,0 0 0 0 464,2484.8164 L619,2484.8164 A0,0 0 0 0 619,2484.8164 L619,2469.6836 L609,2459.6836 L464,2459.6836 A0,0 0 0 0 464,2459.6836 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M609,2459.6836 L609,2469.6836 L619,2469.6836 L609,2459.6836 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="134" x="470" y="2476.7505">Cluster buildCluster()</text><ellipse cx="434" cy="2472.25" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="316" x="276" y="2504.8164"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="296" x="286" y="2525.9551">Set&lt;String&gt; internalTopics=new HashSet&lt;&gt;();</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="327" x="270.5" y="2558.7852"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="307" x="280.5" y="2579.9238">List&lt;PartitionInfo&gt; partitions=new ArrayList&lt;&gt;();</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="319" x="274.5" y="2612.7539"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="299" x="284.5" y="2633.8926">Map&lt;String,Uuid&gt; topicIds=new HashMap&lt;&gt;();</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="246" x="311" y="2763.5273"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="226" x="321" y="2784.666">internalTopics.add(metadata.topic);</text><polygon fill="#F1F1F1" points="378.5,2715.125,489.5,2715.125,501.5,2727.125,489.5,2739.125,378.5,2739.125,366.5,2727.125,378.5,2715.125" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="20" x="438" y="2749.3354">yes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="111" x="378.5" y="2730.9331">metadata.isInternal</text><polygon fill="#F1F1F1" points="434,2817.4961,446,2829.4961,434,2841.4961,422,2829.4961,434,2817.4961" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="325" x="271.5" y="2909.8984"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="305" x="281.5" y="2931.0371">topicIds.put(metadata.topic,metadata.topicId());</text><polygon fill="#F1F1F1" points="229.5,2861.4961,638.5,2861.4961,650.5,2873.4961,638.5,2885.4961,229.5,2885.4961,217.5,2873.4961,229.5,2861.4961" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="20" x="438" y="2895.7065">yes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="409" x="229.5" y="2877.3042">metadata.topicId()!=null &amp;&amp;!Uuid.ZERO_UUID.equals(metadata.topicId())</text><polygon fill="#F1F1F1" points="434,2963.8672,446,2975.8672,434,2987.8672,422,2975.8672,434,2963.8672" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#F1F1F1" height="47.9375" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="324" x="272" y="3007.8672"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="304" x="282" y="3029.0059">partitions.add(toPartitionInfo(partitionMetadata,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="116" x="282" y="3042.9746">holder().brokers));</text><polygon fill="#F1F1F1" points="345.5,2666.7227,522.5,2666.7227,534.5,2678.7227,522.5,2690.7227,345.5,2690.7227,333.5,2678.7227,345.5,2666.7227" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="20" x="438" y="2700.9331">yes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="177" x="345.5" y="2682.5308">metadata.error==Errors.NONE</text><polygon fill="#F1F1F1" points="434,3075.8047,446,3087.8047,434,3099.8047,422,3087.8047,434,3075.8047" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#F1F1F1" height="75.875" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="409" x="229.5" y="3119.8047"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="284" x="239.5" y="3140.9434">return new Cluster(data.clusterId(),brokers(),</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="389" x="239.5" y="3154.9121">partitions,topicsByError(Errors.TOPIC_AUTHORIZATION_FAILED),</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="299" x="239.5" y="3168.8809">topicsByError(Errors.INVALID_TOPIC_EXCEPTION),</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="224" x="239.5" y="3182.8496">internalTopics,controller(),topicIds);</text><ellipse cx="434" cy="3226.6797" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="3226.6797" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="3257.6797" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="3251.4925" y2="3263.8669"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="3251.4925" y2="3263.8669"/><path d="M464,3277.6797 L464,3293.8125 L444,3297.8125 L464,3301.8125 L464,3317.9453 A0,0 0 0 0 464,3317.9453 L844,3317.9453 A0,0 0 0 0 844,3317.9453 L844,3287.6797 L834,3277.6797 L464,3277.6797 A0,0 0 0 0 464,3277.6797 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M834,3277.6797 L834,3287.6797 L844,3287.6797 L834,3277.6797 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="359" x="470" y="3294.7466">PartitionInfo toPartitionInfo(PartitionMetadata metadata,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="207" x="470" y="3309.8794">Map&lt;Integer,Node&gt; nodesById)</text><ellipse cx="434" cy="3297.8125" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="103.8125" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="485" x="191.5" y="3337.9453"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="263" x="201.5" y="3359.084">return new PartitionInfo(metadata.topic(),</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="465" x="201.5" y="3373.0527">metadata.partition(),metadata.leaderId.map(nodesById::get).orElse(null ),</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="334" x="201.5" y="3387.0215">convertToNodeArray(metadata.replicaIds,nodesById),</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="304" x="201.5" y="3400.9902">convertToNodeArray(metadata.inSyncReplicaIds,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="375" x="201.5" y="3414.959">nodesById),convertToNodeArray(metadata.offlineReplicaIds,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="201.5" y="3428.9277">nodesById));</text><ellipse cx="434" cy="3472.7578" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="3472.7578" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="3503.7578" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="3497.5706" y2="3509.945"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="3497.5706" y2="3509.945"/><path d="M464,3523.7578 L464,3539.8906 L444,3543.8906 L464,3547.8906 L464,3564.0234 A0,0 0 0 0 464,3564.0234 L826,3564.0234 A0,0 0 0 0 826,3564.0234 L826,3533.7578 L816,3523.7578 L464,3523.7578 A0,0 0 0 0 464,3523.7578 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M816,3523.7578 L816,3533.7578 L826,3533.7578 L816,3523.7578 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="341" x="470" y="3540.8247">Node[] convertToNodeArray(List&lt;Integer&gt; replicaIds,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="207" x="470" y="3555.9575">Map&lt;Integer,Node&gt; nodesById)</text><ellipse cx="434" cy="3543.8906" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="47.9375" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="793" x="37.5" y="3584.0234"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="773" x="47.5" y="3605.1621">return replicaIds.stream().map(replicaId-&gt;{Node node=nodesById.get(replicaId);if (node==null )return new Node(replicaId,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="270" x="47.5" y="3619.1309">"",-1);return node;}).toArray(Node[]::new );</text><ellipse cx="434" cy="3662.9609" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="3662.9609" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="3693.9609" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="3687.7738" y2="3700.1481"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="3687.7738" y2="3700.1481"/><path d="M464,3713.9609 L464,3722.5273 L444,3726.5273 L464,3730.5273 L464,3739.0938 A0,0 0 0 0 464,3739.0938 L901,3739.0938 A0,0 0 0 0 901,3739.0938 L901,3723.9609 L891,3713.9609 L464,3713.9609 A0,0 0 0 0 464,3713.9609 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M891,3713.9609 L891,3723.9609 L901,3723.9609 L891,3713.9609 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="416" x="470" y="3731.0278">Optional&lt;Integer&gt; topicAuthorizedOperations(String topicName)</text><ellipse cx="434" cy="3726.5273" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="47.9375" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="301" x="283.5" y="3759.0938"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="281" x="293.5" y="3780.2324">MetadataResponseTopic topic=data.topics()</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="108" x="293.5" y="3794.2012">.find(topicName);</text><polygon fill="#F1F1F1" points="399.5,3827.0313,468.5,3827.0313,480.5,3839.0313,468.5,3851.0313,399.5,3851.0313,387.5,3839.0313,399.5,3827.0313" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="65" x="399.5" y="3842.8394">topic==null</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="20" x="367.5" y="3836.437">yes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="14" x="480.5" y="3836.437">no</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="171" x="206.75" y="3861.0313"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="151" x="216.75" y="3882.1699">return Optional.empty();</text><ellipse cx="292.25" cy="3926" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="292.25" cy="3926" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="356" x="397.75" y="3861.0313"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="336" x="407.75" y="3882.1699">return Optional.of(topic.topicAuthorizedOperations());</text><ellipse cx="575.75" cy="3926" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="575.75" cy="3926" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="3957" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="3950.8128" y2="3963.1872"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="3950.8128" y2="3963.1872"/><path d="M464,3977 L464,3985.5664 L444,3989.5664 L464,3993.5664 L464,4002.1328 A0,0 0 0 0 464,4002.1328 L697,4002.1328 A0,0 0 0 0 697,4002.1328 L697,3987 L687,3977 L464,3977 A0,0 0 0 0 464,3977 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M687,3977 L687,3987 L697,3987 L687,3977 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="212" x="470" y="3994.0669">int clusterAuthorizedOperations()</text><ellipse cx="434" cy="3989.5664" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="288" x="290" y="4022.1328"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="268" x="300" y="4043.2715">return data.clusterAuthorizedOperations();</text><ellipse cx="434" cy="4087.1016" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="4087.1016" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="4118.1016" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="4111.9144" y2="4124.2887"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="4111.9144" y2="4124.2887"/><path d="M464,4138.1016 L464,4146.668 L444,4150.668 L464,4154.668 L464,4163.2344 A0,0 0 0 0 464,4163.2344 L581,4163.2344 A0,0 0 0 0 581,4163.2344 L581,4148.1016 L571,4138.1016 L464,4138.1016 A0,0 0 0 0 464,4138.1016 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M571,4138.1016 L571,4148.1016 L581,4148.1016 L571,4138.1016 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="96" x="470" y="4155.1685">Holder holder()</text><ellipse cx="434" cy="4150.668" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="430" x="219" y="4231.6367"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="410" x="229" y="4252.7754">synchronized (data){if (holder==null )holder=new Holder(data);}</text><polygon fill="#F1F1F1" points="395,4183.2344,473,4183.2344,485,4195.2344,473,4207.2344,395,4207.2344,383,4195.2344,395,4183.2344" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="20" x="438" y="4217.4448">yes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="74" x="395" y="4199.0425">holder==null</text><polygon fill="#F1F1F1" points="434,4285.6055,446,4297.6055,434,4309.6055,422,4297.6055,434,4285.6055" style="stroke:#181818;stroke-width:0.5;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="107" x="380.5" y="4329.6055"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="87" x="390.5" y="4350.7441">return holder;</text><ellipse cx="434" cy="4394.5742" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="4394.5742" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="4425.5742" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="4419.387" y2="4431.7614"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="4419.387" y2="4431.7614"/><path d="M464,4445.5742 L464,4454.1406 L444,4458.1406 L464,4462.1406 L464,4470.707 A0,0 0 0 0 464,4470.707 L665,4470.707 A0,0 0 0 0 665,4470.707 L665,4455.5742 L655,4445.5742 L464,4445.5742 A0,0 0 0 0 464,4445.5742 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M655,4445.5742 L655,4455.5742 L665,4455.5742 L655,4445.5742 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="180" x="470" y="4462.6411">Collection&lt;Node&gt; brokers()</text><ellipse cx="434" cy="4458.1406" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="223" x="322.5" y="4490.707"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="203" x="332.5" y="4511.8457">return holder().brokers.values();</text><ellipse cx="434" cy="4555.6758" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="4555.6758" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="4586.6758" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="4580.4886" y2="4592.863"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="4580.4886" y2="4592.863"/><path d="M464,4606.6758 L464,4615.2422 L444,4619.2422 L464,4623.2422 L464,4631.8086 A0,0 0 0 0 464,4631.8086 L706,4631.8086 A0,0 0 0 0 706,4631.8086 L706,4616.6758 L696,4606.6758 L464,4606.6758 A0,0 0 0 0 464,4606.6758 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M696,4606.6758 L696,4616.6758 L706,4616.6758 L696,4606.6758 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="221" x="470" y="4623.7427">Map&lt;Integer,Node&gt; brokersById()</text><ellipse cx="434" cy="4619.2422" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="169" x="349.5" y="4651.8086"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="149" x="359.5" y="4672.9473">return holder().brokers;</text><ellipse cx="434" cy="4716.7773" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="4716.7773" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="4747.7773" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="4741.5902" y2="4753.9645"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="4741.5902" y2="4753.9645"/><path d="M464,4767.7773 L464,4776.3438 L444,4780.3438 L464,4784.3438 L464,4792.9102 A0,0 0 0 0 464,4792.9102 L769,4792.9102 A0,0 0 0 0 769,4792.9102 L769,4777.7773 L759,4767.7773 L464,4767.7773 A0,0 0 0 0 464,4767.7773 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M759,4767.7773 L759,4777.7773 L769,4777.7773 L759,4767.7773 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="284" x="470" y="4784.8442">Collection&lt;TopicMetadata&gt; topicMetadata()</text><ellipse cx="434" cy="4780.3438" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="212" x="328" y="4812.9102"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="192" x="338" y="4834.0488">return holder().topicMetadata;</text><ellipse cx="434" cy="4877.8789" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="4877.8789" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="4908.8789" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="4902.6917" y2="4915.0661"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="4902.6917" y2="4915.0661"/><path d="M464,4928.8789 L464,4937.4453 L444,4941.4453 L464,4945.4453 L464,4954.0117 A0,0 0 0 0 464,4954.0117 L593,4954.0117 A0,0 0 0 0 593,4954.0117 L593,4938.8789 L583,4928.8789 L464,4928.8789 A0,0 0 0 0 464,4928.8789 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M583,4928.8789 L583,4938.8789 L593,4938.8789 L583,4928.8789 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="108" x="470" y="4945.9458">Node controller()</text><ellipse cx="434" cy="4941.4453" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="181" x="343.5" y="4974.0117"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="161" x="353.5" y="4995.1504">return holder().controller;</text><ellipse cx="434" cy="5038.9805" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="5038.9805" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="5069.9805" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="5063.7933" y2="5076.1677"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="5063.7933" y2="5076.1677"/><path d="M464,5089.9805 L464,5098.5469 L444,5102.5469 L464,5106.5469 L464,5115.1133 A0,0 0 0 0 464,5115.1133 L591,5115.1133 A0,0 0 0 0 591,5115.1133 L591,5099.9805 L581,5089.9805 L464,5089.9805 A0,0 0 0 0 464,5089.9805 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M581,5089.9805 L581,5099.9805 L591,5099.9805 L581,5089.9805 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="470" y="5107.0474">String clusterId()</text><ellipse cx="434" cy="5102.5469" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="191" x="338.5" y="5135.1133"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="171" x="348.5" y="5156.252">return this.data.clusterId();</text><ellipse cx="434" cy="5200.082" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="5200.082" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="5231.082" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="5224.8948" y2="5237.2692"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="5224.8948" y2="5237.2692"/><path d="M464,5251.082 L464,5259.6484 L444,5263.6484 L464,5267.6484 L464,5276.2148 A0,0 0 0 0 464,5276.2148 L712,5276.2148 A0,0 0 0 0 712,5276.2148 L712,5261.082 L702,5251.082 L464,5251.082 A0,0 0 0 0 464,5251.082 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M702,5251.082 L702,5261.082 L712,5261.082 L702,5251.082 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="227" x="470" y="5268.1489">boolean hasReliableLeaderEpochs()</text><ellipse cx="434" cy="5263.6484" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="228" x="320" y="5296.2148"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="208" x="330" y="5317.3535">return hasReliableLeaderEpochs;</text><ellipse cx="434" cy="5361.1836" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="5361.1836" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="5392.1836" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="5385.9964" y2="5398.3708"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="5385.9964" y2="5398.3708"/><path d="M464,5412.1836 L464,5420.75 L444,5424.75 L464,5428.75 L464,5437.3164 A0,0 0 0 0 464,5437.3164 L795,5437.3164 A0,0 0 0 0 795,5437.3164 L795,5422.1836 L785,5412.1836 L464,5412.1836 A0,0 0 0 0 464,5412.1836 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M785,5412.1836 L785,5422.1836 L795,5422.1836 L785,5412.1836 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="310" x="470" y="5429.2505">boolean hasReliableLeaderEpochs(short version)</text><ellipse cx="434" cy="5424.75" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="140" x="364" y="5457.3164"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="374" y="5478.4551">return version&gt;=9;</text><ellipse cx="434" cy="5522.2852" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="5522.2852" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="5553.2852" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="5547.098" y2="5559.4723"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="5547.098" y2="5559.4723"/><path d="M464,5573.2852 L464,5589.418 L444,5593.418 L464,5597.418 L464,5613.5508 A0,0 0 0 0 464,5613.5508 L765,5613.5508 A0,0 0 0 0 765,5613.5508 L765,5583.2852 L755,5573.2852 L464,5573.2852 A0,0 0 0 0 464,5573.2852 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M755,5573.2852 L755,5583.2852 L765,5583.2852 L755,5573.2852 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="280" x="470" y="5590.3521">MetadataResponse parse(ByteBuffer buffer,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="88" x="470" y="5605.4849">short version)</text><ellipse cx="434" cy="5593.418" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="47.9375" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="606" x="131" y="5633.5508"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="586" x="141" y="5654.6895">return new MetadataResponse(new MetadataResponseData(new ByteBufferAccessor(buffer),</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="279" x="141" y="5668.6582">version),hasReliableLeaderEpochs(version));</text><ellipse cx="434" cy="5712.4883" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="5712.4883" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="5743.4883" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="5737.3011" y2="5749.6755"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="5737.3011" y2="5749.6755"/><path d="M464,5763.4883 L464,5787.1875 L444,5791.1875 L464,5795.1875 L464,5818.8867 A0,0 0 0 0 464,5818.8867 L961,5818.8867 A0,0 0 0 0 961,5818.8867 L961,5773.4883 L951,5763.4883 L464,5763.4883 A0,0 0 0 0 464,5763.4883 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M951,5763.4883 L951,5773.4883 L961,5773.4883 L951,5763.4883 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="330" x="470" y="5780.5552">constructor TopicMetadata(Errors error,String topic,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="476" x="470" y="5795.688">Uuid topicId,boolean isInternal,List&lt;PartitionMetadata&gt; partitionMetadata,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="163" x="470" y="5810.8208">int authorizedOperations)</text><ellipse cx="434" cy="5791.1875" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="123" x="372.5" y="5838.8867"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="103" x="382.5" y="5860.0254">this.error=error;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="123" x="372.5" y="5892.8555"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="103" x="382.5" y="5913.9941">this.topic=topic;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="145" x="361.5" y="5946.8242"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="125" x="371.5" y="5967.9629">this.topicId=topicId;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="177" x="345.5" y="6000.793"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="157" x="355.5" y="6021.9316">this.isInternal=isInternal;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="287" x="290.5" y="6054.7617"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="267" x="300.5" y="6075.9004">this.partitionMetadata=partitionMetadata;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="331" x="268.5" y="6108.7305"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="311" x="278.5" y="6129.8691">this.authorizedOperations=authorizedOperations;</text><ellipse cx="434" cy="6172.6992" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="6166.512" y2="6178.8864"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="6166.512" y2="6178.8864"/><path d="M464,6192.6992 L464,6208.832 L444,6212.832 L464,6216.832 L464,6232.9648 A0,0 0 0 0 464,6232.9648 L883,6232.9648 A0,0 0 0 0 883,6232.9648 L883,6202.6992 L873,6192.6992 L464,6192.6992 A0,0 0 0 0 464,6192.6992 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M873,6192.6992 L873,6202.6992 L883,6202.6992 L873,6192.6992 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="330" x="470" y="6209.7661">constructor TopicMetadata(Errors error,String topic,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="398" x="470" y="6224.8989">boolean isInternal,List&lt;PartitionMetadata&gt; partitionMetadata)</text><ellipse cx="434" cy="6212.832" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="47.9375" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="367" x="250.5" y="6252.9648"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="266" x="260.5" y="6274.1035">this(error,topic,Uuid.ZERO_UUID,isInternal,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="347" x="260.5" y="6288.0723">partitionMetadata,AUTHORIZED_OPERATIONS_OMITTED);</text><ellipse cx="434" cy="6330.9023" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="6324.7152" y2="6337.0895"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="6324.7152" y2="6337.0895"/><path d="M464,6350.9023 L464,6359.4688 L444,6363.4688 L464,6367.4688 L464,6376.0352 A0,0 0 0 0 464,6376.0352 L568,6376.0352 A0,0 0 0 0 568,6376.0352 L568,6360.9023 L558,6350.9023 L464,6350.9023 A0,0 0 0 0 464,6350.9023 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M558,6350.9023 L558,6360.9023 L568,6360.9023 L558,6350.9023 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="470" y="6367.9692">Errors error()</text><ellipse cx="434" cy="6363.4688" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="98" x="385" y="6396.0352"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="395" y="6417.1738">return error;</text><ellipse cx="434" cy="6461.0039" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="6461.0039" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="6492.0039" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="6485.8167" y2="6498.1911"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="6485.8167" y2="6498.1911"/><path d="M464,6512.0039 L464,6520.5703 L444,6524.5703 L464,6528.5703 L464,6537.1367 A0,0 0 0 0 464,6537.1367 L568,6537.1367 A0,0 0 0 0 568,6537.1367 L568,6522.0039 L558,6512.0039 L464,6512.0039 A0,0 0 0 0 464,6512.0039 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M558,6512.0039 L558,6522.0039 L568,6522.0039 L558,6512.0039 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="470" y="6529.0708">String topic()</text><ellipse cx="434" cy="6524.5703" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="98" x="385" y="6557.1367"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="395" y="6578.2754">return topic;</text><ellipse cx="434" cy="6622.1055" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="6622.1055" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="6653.1055" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="6646.9183" y2="6659.2927"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="6646.9183" y2="6659.2927"/><path d="M464,6673.1055 L464,6681.6719 L444,6685.6719 L464,6689.6719 L464,6698.2383 A0,0 0 0 0 464,6698.2383 L570,6698.2383 A0,0 0 0 0 570,6698.2383 L570,6683.1055 L560,6673.1055 L464,6673.1055 A0,0 0 0 0 464,6673.1055 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M560,6673.1055 L560,6683.1055 L570,6683.1055 L560,6673.1055 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="85" x="470" y="6690.1724">Uuid topicId()</text><ellipse cx="434" cy="6685.6719" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="109" x="379.5" y="6718.2383"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="89" x="389.5" y="6739.377">return topicId;</text><ellipse cx="434" cy="6783.207" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="6783.207" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="6814.207" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="6808.0198" y2="6820.3942"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="6808.0198" y2="6820.3942"/><path d="M464,6834.207 L464,6842.7734 L444,6846.7734 L464,6850.7734 L464,6859.3398 A0,0 0 0 0 464,6859.3398 L608,6859.3398 A0,0 0 0 0 608,6859.3398 L608,6844.207 L598,6834.207 L464,6834.207 A0,0 0 0 0 464,6834.207 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M598,6834.207 L598,6844.207 L608,6844.207 L598,6834.207 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="123" x="470" y="6851.2739">boolean isInternal()</text><ellipse cx="434" cy="6846.7734" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="125" x="371.5" y="6879.3398"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="105" x="381.5" y="6900.4785">return isInternal;</text><ellipse cx="434" cy="6944.3086" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="6944.3086" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="6975.3086" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="6969.1214" y2="6981.4958"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="6969.1214" y2="6981.4958"/><path d="M464,6995.3086 L464,7003.875 L444,7007.875 L464,7011.875 L464,7020.4414 A0,0 0 0 0 464,7020.4414 L771,7020.4414 A0,0 0 0 0 771,7020.4414 L771,7005.3086 L761,6995.3086 L464,6995.3086 A0,0 0 0 0 464,6995.3086 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M761,6995.3086 L761,7005.3086 L771,7005.3086 L761,6995.3086 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="286" x="470" y="7012.3755">List&lt;PartitionMetadata&gt; partitionMetadata()</text><ellipse cx="434" cy="7007.875" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="180" x="344" y="7040.4414"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="160" x="354" y="7061.5801">return partitionMetadata;</text><ellipse cx="434" cy="7105.4102" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="7105.4102" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="7136.4102" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="7130.223" y2="7142.5973"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="7130.223" y2="7142.5973"/><path d="M464,7156.4102 L464,7164.9766 L444,7168.9766 L464,7172.9766 L464,7181.543 A0,0 0 0 0 464,7181.543 L821,7181.543 A0,0 0 0 0 821,7181.543 L821,7166.4102 L811,7156.4102 L464,7156.4102 A0,0 0 0 0 464,7156.4102 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M811,7156.4102 L811,7166.4102 L821,7166.4102 L811,7156.4102 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="336" x="470" y="7173.4771">void authorizedOperations(int authorizedOperations)</text><ellipse cx="434" cy="7168.9766" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="331" x="268.5" y="7201.543"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="311" x="278.5" y="7222.6816">this.authorizedOperations=authorizedOperations;</text><ellipse cx="434" cy="7265.5117" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="7259.3245" y2="7271.6989"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="7259.3245" y2="7271.6989"/><path d="M464,7285.5117 L464,7294.0781 L444,7298.0781 L464,7302.0781 L464,7310.6445 A0,0 0 0 0 464,7310.6445 L653,7310.6445 A0,0 0 0 0 653,7310.6445 L653,7295.5117 L643,7285.5117 L464,7285.5117 A0,0 0 0 0 464,7285.5117 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M643,7285.5117 L643,7295.5117 L653,7295.5117 L643,7285.5117 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="168" x="470" y="7302.5786">int authorizedOperations()</text><ellipse cx="434" cy="7298.0781" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="202" x="333" y="7330.6445"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="182" x="343" y="7351.7832">return authorizedOperations;</text><ellipse cx="434" cy="7395.6133" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="7395.6133" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="7426.6133" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="7420.4261" y2="7432.8005"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="7420.4261" y2="7432.8005"/><path d="M464,7446.6133 L464,7455.1797 L444,7459.1797 L464,7463.1797 L464,7471.7461 A0,0 0 0 0 464,7471.7461 L675,7471.7461 A0,0 0 0 0 675,7471.7461 L675,7456.6133 L665,7446.6133 L464,7446.6133 A0,0 0 0 0 464,7446.6133 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M665,7446.6133 L665,7456.6133 L675,7456.6133 L665,7446.6133 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="190" x="470" y="7463.6802">boolean equals(final Object o)</text><ellipse cx="434" cy="7459.1797" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="93" x="387.5" y="7540.1484"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="397.5" y="7561.2871">return true;</text><ellipse cx="434" cy="7613.6328" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="7613.6328" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><polygon fill="#F1F1F1" points="411,7491.7461,457,7491.7461,469,7503.7461,457,7515.7461,411,7515.7461,399,7503.7461,411,7491.7461" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="20" x="438" y="7525.9565">yes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="46" x="411" y="7507.5542">this==o</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="97" x="385.5" y="7715.0352"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="77" x="395.5" y="7736.1738">return false;</text><ellipse cx="434" cy="7788.5195" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="7788.5195" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><polygon fill="#F1F1F1" points="336,7666.6328,532,7666.6328,544,7678.6328,532,7690.6328,336,7690.6328,324,7678.6328,336,7666.6328" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="20" x="438" y="7700.8433">yes</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="196" x="336" y="7682.4409">o==null ||getClass()!=o.getClass()</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="302" x="283" y="7841.5195"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="282" x="293" y="7862.6582">final TopicMetadata that=(TopicMetadata )o;</text><rect fill="#F1F1F1" height="75.875" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="562" x="153" y="7895.4883"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="494" x="163" y="7916.627">return isInternal==that.isInternal&amp;&amp;error==that.error&amp;&amp;Objects.equals(topic,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="542" x="163" y="7930.5957">that.topic)&amp;&amp;Objects.equals(topicId,that.topicId)&amp;&amp;Objects.equals(partitionMetadata,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="405" x="163" y="7944.5645">that.partitionMetadata)&amp;&amp;Objects.equals(authorizedOperations,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="174" x="163" y="7958.5332">that.authorizedOperations);</text><ellipse cx="434" cy="8002.3633" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="8002.3633" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="8033.3633" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="8027.1761" y2="8039.5505"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="8027.1761" y2="8039.5505"/><path d="M464,8053.3633 L464,8061.9297 L444,8065.9297 L464,8069.9297 L464,8078.4961 A0,0 0 0 0 464,8078.4961 L579,8078.4961 A0,0 0 0 0 579,8078.4961 L579,8063.3633 L569,8053.3633 L464,8053.3633 A0,0 0 0 0 464,8053.3633 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M569,8053.3633 L569,8063.3633 L579,8063.3633 L569,8053.3633 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94" x="470" y="8070.4302">int hashCode()</text><ellipse cx="434" cy="8065.9297" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="47.9375" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="282" x="293" y="8098.4961"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="262" x="303" y="8119.6348">return Objects.hash(error,topic,isInternal,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="261" x="303" y="8133.6035">partitionMetadata,authorizedOperations);</text><ellipse cx="434" cy="8177.4336" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="8177.4336" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="8208.4336" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="8202.2464" y2="8214.6208"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="8202.2464" y2="8214.6208"/><path d="M464,8228.4336 L464,8237 L444,8241 L464,8245 L464,8253.5664 A0,0 0 0 0 464,8253.5664 L588,8253.5664 A0,0 0 0 0 588,8253.5664 L588,8238.4336 L578,8228.4336 L464,8228.4336 A0,0 0 0 0 464,8228.4336 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M578,8228.4336 L578,8238.4336 L588,8238.4336 L578,8228.4336 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="103" x="470" y="8245.5005">String toString()</text><ellipse cx="434" cy="8241" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="215.5625" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="413" x="227.5" y="8273.5664"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="338" x="237.5" y="8294.7051">return "TopicMetadata{"+"error="+error+", topic='"+</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="318" x="237.5" y="8308.6738">topic+'\''+", topicId='"+topicId+'\''+", isInternal="+</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="342" x="237.5" y="8322.6426">isInternal+", partitionMetadata="+partitionMetadata+</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="318" x="237.5" y="8336.6113">", authorizedOperations="+authorizedOperations+</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="28" x="237.5" y="8350.5801">stop</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="24" x="237.5" y="8364.5488">end</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="30" x="237.5" y="8378.5176">start</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="62" x="237.5" y="8392.4863">note right</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="272" x="237.5" y="8406.4551">constructor PartitionMetadata(Errors error,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="354" x="237.5" y="8420.4238">TopicPartition topicPartition,Optional&lt;Integer&gt; leaderId,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="358" x="237.5" y="8434.3926">Optional&lt;Integer&gt; leaderEpoch,List&lt;Integer&gt; replicaIds,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="393" x="237.5" y="8448.3613">List&lt;Integer&gt; inSyncReplicaIds,List&lt;Integer&gt; offlineReplicaIds)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="57" x="237.5" y="8462.3301">end note</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="107" x="237.5" y="8476.2988">:this.error=error;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="229" x="319.5" y="8509.1289"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="209" x="329.5" y="8530.2676">this.topicPartition=topicPartition;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="163" x="352.5" y="8563.0977"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="143" x="362.5" y="8584.2363">this.leaderId=leaderId;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="219" x="324.5" y="8617.0664"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="199" x="334.5" y="8638.2051">this.leaderEpoch=leaderEpoch;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="181" x="343.5" y="8671.0352"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="161" x="353.5" y="8692.1738">this.replicaIds=replicaIds;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="267" x="300.5" y="8725.0039"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="247" x="310.5" y="8746.1426">this.inSyncReplicaIds=inSyncReplicaIds;</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="263" x="302.5" y="8778.9727"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="243" x="312.5" y="8800.1113">this.offlineReplicaIds=offlineReplicaIds;</text><ellipse cx="434" cy="8842.9414" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="8836.7542" y2="8849.1286"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="8836.7542" y2="8849.1286"/><path d="M464,8862.9414 L464,8871.5078 L444,8875.5078 L464,8879.5078 L464,8888.0742 A0,0 0 0 0 464,8888.0742 L568,8888.0742 A0,0 0 0 0 568,8888.0742 L568,8872.9414 L558,8862.9414 L464,8862.9414 A0,0 0 0 0 464,8862.9414 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M558,8862.9414 L558,8872.9414 L568,8872.9414 L558,8862.9414 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="470" y="8880.0083">int partition()</text><ellipse cx="434" cy="8875.5078" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="218" x="325" y="8908.0742"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="198" x="335" y="8929.2129">return topicPartition.partition();</text><ellipse cx="434" cy="8973.043" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="8973.043" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="9004.043" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="8997.8558" y2="9010.2302"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="8997.8558" y2="9010.2302"/><path d="M464,9024.043 L464,9032.6094 L444,9036.6094 L464,9040.6094 L464,9049.1758 A0,0 0 0 0 464,9049.1758 L568,9049.1758 A0,0 0 0 0 568,9049.1758 L568,9034.043 L558,9024.043 L464,9024.043 A0,0 0 0 0 464,9024.043 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M558,9024.043 L558,9034.043 L568,9034.043 L558,9024.043 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="83" x="470" y="9041.1099">String topic()</text><ellipse cx="434" cy="9036.6094" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="196" x="336" y="9069.1758"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="176" x="346" y="9090.3145">return topicPartition.topic();</text><ellipse cx="434" cy="9134.1445" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="9134.1445" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="9165.1445" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="9158.9573" y2="9171.3317"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="9158.9573" y2="9171.3317"/><path d="M464,9185.1445 L464,9193.7109 L444,9197.7109 L464,9201.7109 L464,9210.2773 A0,0 0 0 0 464,9210.2773 L742,9210.2773 A0,0 0 0 0 742,9210.2773 L742,9195.1445 L732,9185.1445 L464,9185.1445 A0,0 0 0 0 464,9185.1445 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M732,9185.1445 L732,9195.1445 L742,9195.1445 L732,9185.1445 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="257" x="470" y="9202.2114">PartitionMetadata withoutLeaderEpoch()</text><ellipse cx="434" cy="9197.7109" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="61.9063" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="354" x="257" y="9230.2773"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="313" x="267" y="9251.416">return new PartitionMetadata(error,topicPartition,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="334" x="267" y="9265.3848">leaderId,Optional.empty(),replicaIds,inSyncReplicaIds,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="110" x="267" y="9279.3535">offlineReplicaIds);</text><ellipse cx="434" cy="9323.1836" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="9323.1836" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="9354.1836" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="9347.9964" y2="9360.3708"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="9347.9964" y2="9360.3708"/><path d="M464,9374.1836 L464,9382.75 L444,9386.75 L464,9390.75 L464,9399.3164 A0,0 0 0 0 464,9399.3164 L588,9399.3164 A0,0 0 0 0 588,9399.3164 L588,9384.1836 L578,9374.1836 L464,9374.1836 A0,0 0 0 0 464,9374.1836 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M578,9374.1836 L578,9384.1836 L588,9384.1836 L578,9374.1836 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="103" x="470" y="9391.2505">String toString()</text><ellipse cx="434" cy="9386.75" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="187.625" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="429" x="219.5" y="9419.3164"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="283" x="229.5" y="9440.4551">return "PartitionMetadata("+"error="+error+</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="263" x="229.5" y="9454.4238">", partition="+topicPartition+", leader="+</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="354" x="229.5" y="9468.3926">leaderId+", leaderEpoch="+leaderEpoch+", replicas="+</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="398" x="229.5" y="9482.3613">Utils.join(replicaIds,",")+", isr="+Utils.join(inSyncReplicaIds,",")+</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="320" x="229.5" y="9496.3301">", offlineReplicas="+Utils.join(offlineReplicaIds,",")+</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="28" x="229.5" y="9510.2988">stop</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="24" x="229.5" y="9524.2676">end</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="30" x="229.5" y="9538.2363">start</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="62" x="229.5" y="9552.2051">note right</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="313" x="229.5" y="9566.1738">constructor Holder(MetadataResponseData data)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="57" x="229.5" y="9580.1426">end note</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="409" x="229.5" y="9594.1113">:this.brokers=Collections.unmodifiableMap(createBrokers(data));</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="325" x="271.5" y="9626.9414"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="305" x="281.5" y="9648.0801">this.topicMetadata=createTopicMetadata(data);</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="318" x="275" y="9680.9102"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="298" x="285" y="9702.0488">this.controller=brokers.get(data.controllerId());</text><ellipse cx="434" cy="9744.8789" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="9738.6917" y2="9751.0661"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="9738.6917" y2="9751.0661"/><path d="M464,9764.8789 L464,9773.4453 L444,9777.4453 L464,9781.4453 L464,9790.0117 A0,0 0 0 0 464,9790.0117 L908,9790.0117 A0,0 0 0 0 908,9790.0117 L908,9774.8789 L898,9764.8789 L464,9764.8789 A0,0 0 0 0 464,9764.8789 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M898,9764.8789 L898,9774.8789 L908,9774.8789 L898,9764.8789 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="423" x="470" y="9781.9458">Map&lt;Integer,Node&gt; createBrokers(MetadataResponseData data)</text><ellipse cx="434" cy="9777.4453" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="61.9063" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="481" x="193.5" y="9810.0117"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="461" x="203.5" y="9831.1504">return data.brokers().valuesList().stream().map(b-&gt;new Node(b.nodeId(),</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="381" x="203.5" y="9845.1191">b.host(),b.port(),b.rack())).collect(Collectors.toMap(Node::id,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="128" x="203.5" y="9859.0879">Function.identity()));</text><ellipse cx="434" cy="9902.918" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="9902.918" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="9933.918" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="9927.7308" y2="9940.1052"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="9927.7308" y2="9940.1052"/><path d="M464,9953.918 L464,9962.4844 L444,9966.4844 L464,9970.4844 L464,9979.0508 A0,0 0 0 0 464,9979.0508 L999,9979.0508 A0,0 0 0 0 999,9979.0508 L999,9963.918 L989,9953.918 L464,9953.918 A0,0 0 0 0 464,9953.918 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M989,9953.918 L989,9963.918 L999,9963.918 L989,9953.918 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="514" x="470" y="9970.9849">Collection&lt;TopicMetadata&gt; createTopicMetadata(MetadataResponseData data)</text><ellipse cx="434" cy="9966.4844" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="396" x="236" y="9999.0508"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="376" x="246" y="10020.1895">List&lt;TopicMetadata&gt; topicMetadataList=new ArrayList&lt;&gt;();</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="407" x="230.5" y="10053.0195"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="387" x="240.5" y="10074.1582">Errors topicError=Errors.forCode(topicMetadata.errorCode());</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="246" x="311" y="10106.9883"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="226" x="321" y="10128.127">String topic=topicMetadata.name();</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="255" x="306.5" y="10160.957"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="235" x="316.5" y="10182.0957">Uuid topicId=topicMetadata.topicId();</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="310" x="279" y="10214.9258"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="290" x="289" y="10236.0645">boolean isInternal=topicMetadata.isInternal();</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="438" x="215" y="10268.8945"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="418" x="225" y="10290.0332">List&lt;PartitionMetadata&gt; partitionMetadataList=new ArrayList&lt;&gt;();</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="451" x="208.5" y="10322.8633"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="431" x="218.5" y="10344.002">Errors partitionError=Errors.forCode(partitionMetadata.errorCode());</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="353" x="257.5" y="10376.832"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="333" x="267.5" y="10397.9707">int partitionIndex=partitionMetadata.partitionIndex();</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="283" x="292.5" y="10430.8008"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="263" x="302.5" y="10451.9395">int leaderId=partitionMetadata.leaderId();</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="544" x="162" y="10484.7695"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="524" x="172" y="10505.9082">Optional&lt;Integer&gt; leaderIdOpt=leaderId&lt;0? Optional.empty():Optional.of(leaderId);</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="636" x="116" y="10538.7383"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="616" x="126" y="10559.877">Optional&lt;Integer&gt; leaderEpoch=RequestUtils.getLeaderEpoch(partitionMetadata.leaderEpoch());</text><rect fill="#F1F1F1" height="47.9375" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="359" x="254.5" y="10592.707"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="339" x="264.5" y="10613.8457">TopicPartition topicPartition=new TopicPartition(topic,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="95" x="264.5" y="10627.8145">partitionIndex);</text><rect fill="#F1F1F1" height="61.9063" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="481" x="193.5" y="10660.6445"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="402" x="203.5" y="10681.7832">partitionMetadataList.add(new PartitionMetadata(partitionError,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="461" x="203.5" y="10695.752">topicPartition,leaderIdOpt,leaderEpoch,partitionMetadata.replicaNodes(),</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="417" x="203.5" y="10709.7207">partitionMetadata.isrNodes(),partitionMetadata.offlineReplicas()));</text><rect fill="#F1F1F1" height="61.9063" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="358" x="255" y="10742.5508"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="338" x="265" y="10763.6895">topicMetadataList.add(new TopicMetadata(topicError,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="281" x="265" y="10777.6582">topic,topicId,isInternal,partitionMetadataList,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="285" x="265" y="10791.627">topicMetadata.topicAuthorizedOperations()));</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="179" x="344.5" y="10824.457"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="159" x="354.5" y="10845.5957">return topicMetadataList;</text><ellipse cx="434" cy="10889.4258" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="10889.4258" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="10920.4258" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="10914.2386" y2="10926.613"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="10914.2386" y2="10926.613"/><path d="M464,10940.4258 L464,10971.6914 L444,10975.6914 L464,10979.6914 L464,11010.957 A0,0 0 0 0 464,11010.957 L926,11010.957 A0,0 0 0 0 926,11010.957 L926,10950.4258 L916,10940.4258 L464,10940.4258 A0,0 0 0 0 464,10940.4258 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M916,10940.4258 L916,10950.4258 L926,10950.4258 L916,10940.4258 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="331" x="470" y="10957.4927">MetadataResponse prepareResponse(short version,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="294" x="470" y="10972.6255">int throttleTimeMs,Collection&lt;Node&gt; brokers,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="441" x="470" y="10987.7583">String clusterId,int controllerId,List&lt;MetadataResponseTopic&gt; topics,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="207" x="470" y="11002.8911">int clusterAuthorizedOperations)</text><ellipse cx="434" cy="10975.6914" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="61.9063" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="400" x="234" y="11030.957"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="380" x="244" y="11052.0957">return prepareResponse(hasReliableLeaderEpochs(version),</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="282" x="244" y="11066.0645">throttleTimeMs,brokers,clusterId,controllerId,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="229" x="244" y="11080.0332">topics,clusterAuthorizedOperations);</text><ellipse cx="434" cy="11123.8633" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="11123.8633" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="11154.8633" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="11148.6761" y2="11161.0505"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="11148.6761" y2="11161.0505"/><path d="M464,11174.8633 L464,11206.1289 L444,11210.1289 L464,11214.1289 L464,11245.3945 A0,0 0 0 0 464,11245.3945 L926,11245.3945 A0,0 0 0 0 926,11245.3945 L926,11184.8633 L916,11174.8633 L464,11174.8633 A0,0 0 0 0 464,11174.8633 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M916,11174.8633 L916,11184.8633 L926,11184.8633 L916,11174.8633 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="414" x="470" y="11191.9302">MetadataResponse prepareResponse(boolean hasReliableEpoch,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="294" x="470" y="11207.063">int throttleTimeMs,Collection&lt;Node&gt; brokers,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="441" x="470" y="11222.1958">String clusterId,int controllerId,List&lt;MetadataResponseTopic&gt; topics,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="207" x="470" y="11237.3286">int clusterAuthorizedOperations)</text><ellipse cx="434" cy="11210.1289" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="470" x="199" y="11265.3945"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="450" x="209" y="11286.5332">MetadataResponseData responseData=new MetadataResponseData();</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="335" x="266.5" y="11319.3633"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="315" x="276.5" y="11340.502">responseData.setThrottleTimeMs(throttleTimeMs);</text><rect fill="#F1F1F1" height="47.9375" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="846" x="11" y="11373.332"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="311" x="21" y="11394.4707">brokers.forEach(broker-&gt;responseData.brokers()</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="826" x="21" y="11408.4395">.add(new MetadataResponseBroker().setNodeId(broker.id()).setHost(broker.host()).setPort(broker.port()).setRack(broker.rack())));</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="256" x="306" y="11441.2695"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="236" x="316" y="11462.4082">responseData.setClusterId(clusterId);</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="290" x="289" y="11495.2383"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="270" x="299" y="11516.377">responseData.setControllerId(controllerId);</text><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="504" x="182" y="11549.207"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="484" x="192" y="11570.3457">responseData.setClusterAuthorizedOperations(clusterAuthorizedOperations);</text><rect fill="#F1F1F1" height="47.9375" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="361" x="253.5" y="11603.1758"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="341" x="263.5" y="11624.3145">topics.forEach(topicMetadata-&gt;responseData.topics()</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="138" x="263.5" y="11638.2832">.add(topicMetadata));</text><rect fill="#F1F1F1" height="47.9375" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="312" x="278" y="11671.1133"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="292" x="288" y="11692.252">return new MetadataResponse(responseData,</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="288" y="11706.2207">hasReliableEpoch);</text><ellipse cx="434" cy="11750.0508" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="11750.0508" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="11781.0508" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="11774.8636" y2="11787.238"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="11774.8636" y2="11787.238"/><path d="M464,11801.0508 L464,11809.6172 L444,11813.6172 L464,11817.6172 L464,11826.1836 A0,0 0 0 0 464,11826.1836 L760,11826.1836 A0,0 0 0 0 760,11826.1836 L760,11811.0508 L750,11801.0508 L464,11801.0508 A0,0 0 0 0 464,11801.0508 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M750,11801.0508 L750,11811.0508 L760,11811.0508 L750,11801.0508 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="275" x="470" y="11818.1177">boolean shouldClientThrottle(short version)</text><ellipse cx="434" cy="11813.6172" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="140" x="364" y="11846.1836"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="374" y="11867.3223">return version&gt;=6;</text><ellipse cx="434" cy="11911.1523" fill="none" rx="11" ry="11" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="434" cy="11911.1523" fill="#222222" rx="6" ry="6" style="stroke:#111111;stroke-width:1.0;"/><ellipse cx="434" cy="11942.1523" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="427.8128" x2="440.1872" y1="11935.9652" y2="11948.3395"/><line style="stroke:#222222;stroke-width:2.5;" x1="440.1872" x2="427.8128" y1="11935.9652" y2="11948.3395"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="40.1328" y2="70.2656"/><polygon fill="#181818" points="430,60.2656,434,70.2656,438,60.2656,434,64.2656" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="104.2344" y2="124.2344"/><polygon fill="#181818" points="430,114.2344,434,124.2344,438,114.2344,434,118.2344" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="184.3672" y2="214.5"/><polygon fill="#181818" points="430,204.5,434,214.5,438,204.5,434,208.5" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="248.4688" y2="268.4688"/><polygon fill="#181818" points="430,258.4688,434,268.4688,438,258.4688,434,262.4688" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="302.4375" y2="322.4375"/><polygon fill="#181818" points="430,312.4375,434,322.4375,438,312.4375,434,316.4375" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="356.4063" y2="376.4063"/><polygon fill="#181818" points="430,366.4063,434,376.4063,438,366.4063,434,370.4063" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="428.9727" y2="451.5391"/><polygon fill="#181818" points="430,441.5391,434,451.5391,438,441.5391,434,445.5391" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="485.5078" y2="505.5078"/><polygon fill="#181818" points="430,495.5078,434,505.5078,438,495.5078,434,499.5078" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="590.0742" y2="612.6406"/><polygon fill="#181818" points="430,602.6406,434,612.6406,438,602.6406,434,606.6406" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="646.6094" y2="666.6094"/><polygon fill="#181818" points="430,656.6094,434,666.6094,438,656.6094,434,660.6094" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="751.1758" y2="773.7422"/><polygon fill="#181818" points="430,763.7422,434,773.7422,438,763.7422,434,767.7422" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="910.082" y2="938.5977"/><polygon fill="#181818" points="430,928.5977,434,938.5977,438,928.5977,434,932.5977" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="851.7109" y2="876.1133"/><polygon fill="#181818" points="430,866.1133,434,876.1133,438,866.1133,434,870.1133" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="516" x2="745.5" y1="839.7109" y2="839.7109"/><polygon fill="#181818" points="741.5,908.5977,745.5,918.5977,749.5,908.5977,745.5,912.5977" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="745.5" x2="745.5" y1="839.7109" y2="982.5977"/><line style="stroke:#181818;stroke-width:1.0;" x1="745.5" x2="434" y1="982.5977" y2="982.5977"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="982.5977" y2="1002.5977"/><polygon fill="#181818" points="430,992.5977,434,1002.5977,438,992.5977,434,996.5977" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="807.7109" y2="827.7109"/><polygon fill="#181818" points="430,817.7109,434,827.7109,438,817.7109,434,821.7109" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="1026.5977" y2="1051"/><polygon fill="#181818" points="430,1041,434,1051,438,1041,434,1045" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="569.5" x2="669" y1="1014.5977" y2="1014.5977"/><polygon fill="#181818" points="665,1057.9844,669,1067.9844,673,1057.9844,669,1061.9844" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="669" x2="669" y1="1014.5977" y2="1116.9688"/><line style="stroke:#181818;stroke-width:1.0;" x1="669" x2="446" y1="1116.9688" y2="1116.9688"/><polygon fill="#181818" points="456,1112.9688,446,1116.9688,456,1120.9688,452,1116.9688" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="1084.9688" y2="1104.9688"/><polygon fill="#181818" points="430,1094.9688,434,1104.9688,438,1094.9688,434,1098.9688" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="1128.9688" y2="1148.9688"/><polygon fill="#181818" points="430,1138.9688,434,1148.9688,438,1138.9688,434,1142.9688" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="1182.9375" y2="1202.9375"/><polygon fill="#181818" points="430,1192.9375,434,1202.9375,438,1192.9375,434,1196.9375" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="1287.5039" y2="1310.0703"/><polygon fill="#181818" points="430,1300.0703,434,1310.0703,438,1300.0703,434,1304.0703" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="1446.4102" y2="1474.9258"/><polygon fill="#181818" points="430,1464.9258,434,1474.9258,438,1464.9258,434,1468.9258" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="1388.0391" y2="1412.4414"/><polygon fill="#181818" points="430,1402.4414,434,1412.4414,438,1402.4414,434,1406.4414" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="553.5" x2="728.5" y1="1376.0391" y2="1376.0391"/><polygon fill="#181818" points="724.5,1444.9258,728.5,1454.9258,732.5,1444.9258,728.5,1448.9258" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="728.5" x2="728.5" y1="1376.0391" y2="1518.9258"/><line style="stroke:#181818;stroke-width:1.0;" x1="728.5" x2="434" y1="1518.9258" y2="1518.9258"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="1518.9258" y2="1538.9258"/><polygon fill="#181818" points="430,1528.9258,434,1538.9258,438,1528.9258,434,1532.9258" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="1344.0391" y2="1364.0391"/><polygon fill="#181818" points="430,1354.0391,434,1364.0391,438,1354.0391,434,1358.0391" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="1562.9258" y2="1587.3281"/><polygon fill="#181818" points="430,1577.3281,434,1587.3281,438,1577.3281,434,1581.3281" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="569.5" x2="672.5" y1="1550.9258" y2="1550.9258"/><polygon fill="#181818" points="668.5,1594.3125,672.5,1604.3125,676.5,1594.3125,672.5,1598.3125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="672.5" x2="672.5" y1="1550.9258" y2="1653.2969"/><line style="stroke:#181818;stroke-width:1.0;" x1="672.5" x2="446" y1="1653.2969" y2="1653.2969"/><polygon fill="#181818" points="456,1649.2969,446,1653.2969,456,1657.2969,452,1653.2969" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="1621.2969" y2="1641.2969"/><polygon fill="#181818" points="430,1631.2969,434,1641.2969,438,1631.2969,434,1635.2969" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="1665.2969" y2="1685.2969"/><polygon fill="#181818" points="430,1675.2969,434,1685.2969,438,1675.2969,434,1679.2969" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="1719.2656" y2="1739.2656"/><polygon fill="#181818" points="430,1729.2656,434,1739.2656,438,1729.2656,434,1733.2656" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="1823.832" y2="1846.3984"/><polygon fill="#181818" points="430,1836.3984,434,1846.3984,438,1836.3984,434,1840.3984" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="1880.3672" y2="1900.3672"/><polygon fill="#181818" points="430,1890.3672,434,1900.3672,438,1890.3672,434,1894.3672" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="1962.2734" y2="1982.2734"/><polygon fill="#181818" points="430,1972.2734,434,1982.2734,438,1972.2734,434,1976.2734" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="2016.2422" y2="2036.2422"/><polygon fill="#181818" points="430,2026.2422,434,2036.2422,438,2026.2422,434,2030.2422" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="2120.8086" y2="2143.375"/><polygon fill="#181818" points="430,2133.375,434,2143.375,438,2133.375,434,2137.375" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="2221.3438" y2="2245.7461"/><polygon fill="#181818" points="430,2235.7461,434,2245.7461,438,2235.7461,434,2239.7461" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="551" x2="565.5" y1="2209.3438" y2="2209.3438"/><polygon fill="#181818" points="561.5,2252.7305,565.5,2262.7305,569.5,2252.7305,565.5,2256.7305" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="565.5" x2="565.5" y1="2209.3438" y2="2311.7148"/><line style="stroke:#181818;stroke-width:1.0;" x1="565.5" x2="446" y1="2311.7148" y2="2311.7148"/><polygon fill="#181818" points="456,2307.7148,446,2311.7148,456,2315.7148,452,2311.7148" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="2279.7148" y2="2299.7148"/><polygon fill="#181818" points="430,2289.7148,434,2299.7148,438,2289.7148,434,2293.7148" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="2177.3438" y2="2197.3438"/><polygon fill="#181818" points="430,2187.3438,434,2197.3438,438,2187.3438,434,2191.3438" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="2323.7148" y2="2343.7148"/><polygon fill="#181818" points="430,2333.7148,434,2343.7148,438,2333.7148,434,2337.7148" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="2377.6836" y2="2397.6836"/><polygon fill="#181818" points="430,2387.6836,434,2397.6836,438,2387.6836,434,2391.6836" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="2482.25" y2="2504.8164"/><polygon fill="#181818" points="430,2494.8164,434,2504.8164,438,2494.8164,434,2498.8164" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="2538.7852" y2="2558.7852"/><polygon fill="#181818" points="430,2548.7852,434,2558.7852,438,2548.7852,434,2552.7852" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="2592.7539" y2="2612.7539"/><polygon fill="#181818" points="430,2602.7539,434,2612.7539,438,2602.7539,434,2606.7539" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="2739.125" y2="2763.5273"/><polygon fill="#181818" points="430,2753.5273,434,2763.5273,438,2753.5273,434,2757.5273" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="501.5" x2="567" y1="2727.125" y2="2727.125"/><polygon fill="#181818" points="563,2770.5117,567,2780.5117,571,2770.5117,567,2774.5117" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="567" x2="567" y1="2727.125" y2="2829.4961"/><line style="stroke:#181818;stroke-width:1.0;" x1="567" x2="446" y1="2829.4961" y2="2829.4961"/><polygon fill="#181818" points="456,2825.4961,446,2829.4961,456,2833.4961,452,2829.4961" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="2797.4961" y2="2817.4961"/><polygon fill="#181818" points="430,2807.4961,434,2817.4961,438,2807.4961,434,2811.4961" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="2885.4961" y2="2909.8984"/><polygon fill="#181818" points="430,2899.8984,434,2909.8984,438,2899.8984,434,2903.8984" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="650.5" x2="662.5" y1="2873.4961" y2="2873.4961"/><polygon fill="#181818" points="658.5,2916.8828,662.5,2926.8828,666.5,2916.8828,662.5,2920.8828" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="662.5" x2="662.5" y1="2873.4961" y2="2975.8672"/><line style="stroke:#181818;stroke-width:1.0;" x1="662.5" x2="446" y1="2975.8672" y2="2975.8672"/><polygon fill="#181818" points="456,2971.8672,446,2975.8672,456,2979.8672,452,2975.8672" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="2943.8672" y2="2963.8672"/><polygon fill="#181818" points="430,2953.8672,434,2963.8672,438,2953.8672,434,2957.8672" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="2841.4961" y2="2861.4961"/><polygon fill="#181818" points="430,2851.4961,434,2861.4961,438,2851.4961,434,2855.4961" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="2987.8672" y2="3007.8672"/><polygon fill="#181818" points="430,2997.8672,434,3007.8672,438,2997.8672,434,3001.8672" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="2690.7227" y2="2715.125"/><polygon fill="#181818" points="430,2705.125,434,2715.125,438,2705.125,434,2709.125" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="534.5" x2="672.5" y1="2678.7227" y2="2678.7227"/><polygon fill="#181818" points="668.5,2875.4648,672.5,2885.4648,676.5,2875.4648,672.5,2879.4648" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="672.5" x2="672.5" y1="2678.7227" y2="3087.8047"/><line style="stroke:#181818;stroke-width:1.0;" x1="672.5" x2="446" y1="3087.8047" y2="3087.8047"/><polygon fill="#181818" points="456,3083.8047,446,3087.8047,456,3091.8047,452,3087.8047" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="3055.8047" y2="3075.8047"/><polygon fill="#181818" points="430,3065.8047,434,3075.8047,438,3065.8047,434,3069.8047" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="2646.7227" y2="2666.7227"/><polygon fill="#181818" points="430,2656.7227,434,2666.7227,438,2656.7227,434,2660.7227" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="3099.8047" y2="3119.8047"/><polygon fill="#181818" points="430,3109.8047,434,3119.8047,438,3109.8047,434,3113.8047" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="3195.6797" y2="3215.6797"/><polygon fill="#181818" points="430,3205.6797,434,3215.6797,438,3205.6797,434,3209.6797" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="3307.8125" y2="3337.9453"/><polygon fill="#181818" points="430,3327.9453,434,3337.9453,438,3327.9453,434,3331.9453" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="3441.7578" y2="3461.7578"/><polygon fill="#181818" points="430,3451.7578,434,3461.7578,438,3451.7578,434,3455.7578" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="3553.8906" y2="3584.0234"/><polygon fill="#181818" points="430,3574.0234,434,3584.0234,438,3574.0234,434,3578.0234" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="3631.9609" y2="3651.9609"/><polygon fill="#181818" points="430,3641.9609,434,3651.9609,438,3641.9609,434,3645.9609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="3736.5273" y2="3759.0938"/><polygon fill="#181818" points="430,3749.0938,434,3759.0938,438,3749.0938,434,3753.0938" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="292.25" x2="292.25" y1="3895" y2="3915"/><polygon fill="#181818" points="288.25,3905,292.25,3915,296.25,3905,292.25,3909" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="575.75" x2="575.75" y1="3895" y2="3915"/><polygon fill="#181818" points="571.75,3905,575.75,3915,579.75,3905,575.75,3909" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="387.5" x2="292.25" y1="3839.0313" y2="3839.0313"/><line style="stroke:#181818;stroke-width:1.0;" x1="292.25" x2="292.25" y1="3839.0313" y2="3861.0313"/><polygon fill="#181818" points="288.25,3851.0313,292.25,3861.0313,296.25,3851.0313,292.25,3855.0313" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="480.5" x2="575.75" y1="3839.0313" y2="3839.0313"/><line style="stroke:#181818;stroke-width:1.0;" x1="575.75" x2="575.75" y1="3839.0313" y2="3861.0313"/><polygon fill="#181818" points="571.75,3851.0313,575.75,3861.0313,579.75,3851.0313,575.75,3855.0313" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="3807.0313" y2="3827.0313"/><polygon fill="#181818" points="430,3817.0313,434,3827.0313,438,3817.0313,434,3821.0313" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="3999.5664" y2="4022.1328"/><polygon fill="#181818" points="430,4012.1328,434,4022.1328,438,4012.1328,434,4016.1328" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="4056.1016" y2="4076.1016"/><polygon fill="#181818" points="430,4066.1016,434,4076.1016,438,4066.1016,434,4070.1016" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="4207.2344" y2="4231.6367"/><polygon fill="#181818" points="430,4221.6367,434,4231.6367,438,4221.6367,434,4225.6367" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="485" x2="659" y1="4195.2344" y2="4195.2344"/><polygon fill="#181818" points="655,4238.6211,659,4248.6211,663,4238.6211,659,4242.6211" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="659" x2="659" y1="4195.2344" y2="4297.6055"/><line style="stroke:#181818;stroke-width:1.0;" x1="659" x2="446" y1="4297.6055" y2="4297.6055"/><polygon fill="#181818" points="456,4293.6055,446,4297.6055,456,4301.6055,452,4297.6055" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="4265.6055" y2="4285.6055"/><polygon fill="#181818" points="430,4275.6055,434,4285.6055,438,4275.6055,434,4279.6055" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="4160.668" y2="4183.2344"/><polygon fill="#181818" points="430,4173.2344,434,4183.2344,438,4173.2344,434,4177.2344" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="4309.6055" y2="4329.6055"/><polygon fill="#181818" points="430,4319.6055,434,4329.6055,438,4319.6055,434,4323.6055" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="4363.5742" y2="4383.5742"/><polygon fill="#181818" points="430,4373.5742,434,4383.5742,438,4373.5742,434,4377.5742" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="4468.1406" y2="4490.707"/><polygon fill="#181818" points="430,4480.707,434,4490.707,438,4480.707,434,4484.707" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="4524.6758" y2="4544.6758"/><polygon fill="#181818" points="430,4534.6758,434,4544.6758,438,4534.6758,434,4538.6758" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="4629.2422" y2="4651.8086"/><polygon fill="#181818" points="430,4641.8086,434,4651.8086,438,4641.8086,434,4645.8086" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="4685.7773" y2="4705.7773"/><polygon fill="#181818" points="430,4695.7773,434,4705.7773,438,4695.7773,434,4699.7773" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="4790.3438" y2="4812.9102"/><polygon fill="#181818" points="430,4802.9102,434,4812.9102,438,4802.9102,434,4806.9102" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="4846.8789" y2="4866.8789"/><polygon fill="#181818" points="430,4856.8789,434,4866.8789,438,4856.8789,434,4860.8789" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="4951.4453" y2="4974.0117"/><polygon fill="#181818" points="430,4964.0117,434,4974.0117,438,4964.0117,434,4968.0117" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="5007.9805" y2="5027.9805"/><polygon fill="#181818" points="430,5017.9805,434,5027.9805,438,5017.9805,434,5021.9805" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="5112.5469" y2="5135.1133"/><polygon fill="#181818" points="430,5125.1133,434,5135.1133,438,5125.1133,434,5129.1133" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="5169.082" y2="5189.082"/><polygon fill="#181818" points="430,5179.082,434,5189.082,438,5179.082,434,5183.082" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="5273.6484" y2="5296.2148"/><polygon fill="#181818" points="430,5286.2148,434,5296.2148,438,5286.2148,434,5290.2148" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="5330.1836" y2="5350.1836"/><polygon fill="#181818" points="430,5340.1836,434,5350.1836,438,5340.1836,434,5344.1836" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="5434.75" y2="5457.3164"/><polygon fill="#181818" points="430,5447.3164,434,5457.3164,438,5447.3164,434,5451.3164" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="5491.2852" y2="5511.2852"/><polygon fill="#181818" points="430,5501.2852,434,5511.2852,438,5501.2852,434,5505.2852" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="5603.418" y2="5633.5508"/><polygon fill="#181818" points="430,5623.5508,434,5633.5508,438,5623.5508,434,5627.5508" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="5681.4883" y2="5701.4883"/><polygon fill="#181818" points="430,5691.4883,434,5701.4883,438,5691.4883,434,5695.4883" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="5801.1875" y2="5838.8867"/><polygon fill="#181818" points="430,5828.8867,434,5838.8867,438,5828.8867,434,5832.8867" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="5872.8555" y2="5892.8555"/><polygon fill="#181818" points="430,5882.8555,434,5892.8555,438,5882.8555,434,5886.8555" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="5926.8242" y2="5946.8242"/><polygon fill="#181818" points="430,5936.8242,434,5946.8242,438,5936.8242,434,5940.8242" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="5980.793" y2="6000.793"/><polygon fill="#181818" points="430,5990.793,434,6000.793,438,5990.793,434,5994.793" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="6034.7617" y2="6054.7617"/><polygon fill="#181818" points="430,6044.7617,434,6054.7617,438,6044.7617,434,6048.7617" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="6088.7305" y2="6108.7305"/><polygon fill="#181818" points="430,6098.7305,434,6108.7305,438,6098.7305,434,6102.7305" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="6142.6992" y2="6162.6992"/><polygon fill="#181818" points="430,6152.6992,434,6162.6992,438,6152.6992,434,6156.6992" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="6222.832" y2="6252.9648"/><polygon fill="#181818" points="430,6242.9648,434,6252.9648,438,6242.9648,434,6246.9648" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="6300.9023" y2="6320.9023"/><polygon fill="#181818" points="430,6310.9023,434,6320.9023,438,6310.9023,434,6314.9023" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="6373.4688" y2="6396.0352"/><polygon fill="#181818" points="430,6386.0352,434,6396.0352,438,6386.0352,434,6390.0352" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="6430.0039" y2="6450.0039"/><polygon fill="#181818" points="430,6440.0039,434,6450.0039,438,6440.0039,434,6444.0039" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="6534.5703" y2="6557.1367"/><polygon fill="#181818" points="430,6547.1367,434,6557.1367,438,6547.1367,434,6551.1367" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="6591.1055" y2="6611.1055"/><polygon fill="#181818" points="430,6601.1055,434,6611.1055,438,6601.1055,434,6605.1055" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="6695.6719" y2="6718.2383"/><polygon fill="#181818" points="430,6708.2383,434,6718.2383,438,6708.2383,434,6712.2383" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="6752.207" y2="6772.207"/><polygon fill="#181818" points="430,6762.207,434,6772.207,438,6762.207,434,6766.207" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="6856.7734" y2="6879.3398"/><polygon fill="#181818" points="430,6869.3398,434,6879.3398,438,6869.3398,434,6873.3398" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="6913.3086" y2="6933.3086"/><polygon fill="#181818" points="430,6923.3086,434,6933.3086,438,6923.3086,434,6927.3086" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="7017.875" y2="7040.4414"/><polygon fill="#181818" points="430,7030.4414,434,7040.4414,438,7030.4414,434,7034.4414" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="7074.4102" y2="7094.4102"/><polygon fill="#181818" points="430,7084.4102,434,7094.4102,438,7084.4102,434,7088.4102" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="7178.9766" y2="7201.543"/><polygon fill="#181818" points="430,7191.543,434,7201.543,438,7191.543,434,7195.543" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="7235.5117" y2="7255.5117"/><polygon fill="#181818" points="430,7245.5117,434,7255.5117,438,7245.5117,434,7249.5117" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="7308.0781" y2="7330.6445"/><polygon fill="#181818" points="430,7320.6445,434,7330.6445,438,7320.6445,434,7324.6445" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="7364.6133" y2="7384.6133"/><polygon fill="#181818" points="430,7374.6133,434,7384.6133,438,7374.6133,434,7378.6133" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="7574.1172" y2="7602.6328"/><polygon fill="#181818" points="430,7592.6328,434,7602.6328,438,7592.6328,434,7596.6328" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="7515.7461" y2="7540.1484"/><polygon fill="#181818" points="430,7530.1484,434,7540.1484,438,7530.1484,434,7534.1484" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="469" x2="490.5" y1="7503.7461" y2="7503.7461"/><polygon fill="#181818" points="486.5,7572.6328,490.5,7582.6328,494.5,7572.6328,490.5,7576.6328" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="490.5" x2="490.5" y1="7503.7461" y2="7646.6328"/><line style="stroke:#181818;stroke-width:1.0;" x1="490.5" x2="434" y1="7646.6328" y2="7646.6328"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="7646.6328" y2="7666.6328"/><polygon fill="#181818" points="430,7656.6328,434,7666.6328,438,7656.6328,434,7660.6328" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="7469.1797" y2="7491.7461"/><polygon fill="#181818" points="430,7481.7461,434,7491.7461,438,7481.7461,434,7485.7461" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="7749.0039" y2="7777.5195"/><polygon fill="#181818" points="430,7767.5195,434,7777.5195,438,7767.5195,434,7771.5195" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="7690.6328" y2="7715.0352"/><polygon fill="#181818" points="430,7705.0352,434,7715.0352,438,7705.0352,434,7709.0352" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="544" x2="556" y1="7678.6328" y2="7678.6328"/><polygon fill="#181818" points="552,7747.5195,556,7757.5195,560,7747.5195,556,7751.5195" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="556" x2="556" y1="7678.6328" y2="7821.5195"/><line style="stroke:#181818;stroke-width:1.0;" x1="556" x2="434" y1="7821.5195" y2="7821.5195"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="7821.5195" y2="7841.5195"/><polygon fill="#181818" points="430,7831.5195,434,7841.5195,438,7831.5195,434,7835.5195" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="7875.4883" y2="7895.4883"/><polygon fill="#181818" points="430,7885.4883,434,7895.4883,438,7885.4883,434,7889.4883" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="7971.3633" y2="7991.3633"/><polygon fill="#181818" points="430,7981.3633,434,7991.3633,438,7981.3633,434,7985.3633" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="8075.9297" y2="8098.4961"/><polygon fill="#181818" points="430,8088.4961,434,8098.4961,438,8088.4961,434,8092.4961" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="8146.4336" y2="8166.4336"/><polygon fill="#181818" points="430,8156.4336,434,8166.4336,438,8156.4336,434,8160.4336" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="8251" y2="8273.5664"/><polygon fill="#181818" points="430,8263.5664,434,8273.5664,438,8263.5664,434,8267.5664" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="8489.1289" y2="8509.1289"/><polygon fill="#181818" points="430,8499.1289,434,8509.1289,438,8499.1289,434,8503.1289" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="8543.0977" y2="8563.0977"/><polygon fill="#181818" points="430,8553.0977,434,8563.0977,438,8553.0977,434,8557.0977" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="8597.0664" y2="8617.0664"/><polygon fill="#181818" points="430,8607.0664,434,8617.0664,438,8607.0664,434,8611.0664" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="8651.0352" y2="8671.0352"/><polygon fill="#181818" points="430,8661.0352,434,8671.0352,438,8661.0352,434,8665.0352" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="8705.0039" y2="8725.0039"/><polygon fill="#181818" points="430,8715.0039,434,8725.0039,438,8715.0039,434,8719.0039" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="8758.9727" y2="8778.9727"/><polygon fill="#181818" points="430,8768.9727,434,8778.9727,438,8768.9727,434,8772.9727" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="8812.9414" y2="8832.9414"/><polygon fill="#181818" points="430,8822.9414,434,8832.9414,438,8822.9414,434,8826.9414" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="8885.5078" y2="8908.0742"/><polygon fill="#181818" points="430,8898.0742,434,8908.0742,438,8898.0742,434,8902.0742" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="8942.043" y2="8962.043"/><polygon fill="#181818" points="430,8952.043,434,8962.043,438,8952.043,434,8956.043" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="9046.6094" y2="9069.1758"/><polygon fill="#181818" points="430,9059.1758,434,9069.1758,438,9059.1758,434,9063.1758" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="9103.1445" y2="9123.1445"/><polygon fill="#181818" points="430,9113.1445,434,9123.1445,438,9113.1445,434,9117.1445" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="9207.7109" y2="9230.2773"/><polygon fill="#181818" points="430,9220.2773,434,9230.2773,438,9220.2773,434,9224.2773" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="9292.1836" y2="9312.1836"/><polygon fill="#181818" points="430,9302.1836,434,9312.1836,438,9302.1836,434,9306.1836" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="9396.75" y2="9419.3164"/><polygon fill="#181818" points="430,9409.3164,434,9419.3164,438,9409.3164,434,9413.3164" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="9606.9414" y2="9626.9414"/><polygon fill="#181818" points="430,9616.9414,434,9626.9414,438,9616.9414,434,9620.9414" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="9660.9102" y2="9680.9102"/><polygon fill="#181818" points="430,9670.9102,434,9680.9102,438,9670.9102,434,9674.9102" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="9714.8789" y2="9734.8789"/><polygon fill="#181818" points="430,9724.8789,434,9734.8789,438,9724.8789,434,9728.8789" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="9787.4453" y2="9810.0117"/><polygon fill="#181818" points="430,9800.0117,434,9810.0117,438,9800.0117,434,9804.0117" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="9871.918" y2="9891.918"/><polygon fill="#181818" points="430,9881.918,434,9891.918,438,9881.918,434,9885.918" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="9976.4844" y2="9999.0508"/><polygon fill="#181818" points="430,9989.0508,434,9999.0508,438,9989.0508,434,9993.0508" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="10033.0195" y2="10053.0195"/><polygon fill="#181818" points="430,10043.0195,434,10053.0195,438,10043.0195,434,10047.0195" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="10086.9883" y2="10106.9883"/><polygon fill="#181818" points="430,10096.9883,434,10106.9883,438,10096.9883,434,10100.9883" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="10140.957" y2="10160.957"/><polygon fill="#181818" points="430,10150.957,434,10160.957,438,10150.957,434,10154.957" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="10194.9258" y2="10214.9258"/><polygon fill="#181818" points="430,10204.9258,434,10214.9258,438,10204.9258,434,10208.9258" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="10248.8945" y2="10268.8945"/><polygon fill="#181818" points="430,10258.8945,434,10268.8945,438,10258.8945,434,10262.8945" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="10302.8633" y2="10322.8633"/><polygon fill="#181818" points="430,10312.8633,434,10322.8633,438,10312.8633,434,10316.8633" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="10356.832" y2="10376.832"/><polygon fill="#181818" points="430,10366.832,434,10376.832,438,10366.832,434,10370.832" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="10410.8008" y2="10430.8008"/><polygon fill="#181818" points="430,10420.8008,434,10430.8008,438,10420.8008,434,10424.8008" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="10464.7695" y2="10484.7695"/><polygon fill="#181818" points="430,10474.7695,434,10484.7695,438,10474.7695,434,10478.7695" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="10518.7383" y2="10538.7383"/><polygon fill="#181818" points="430,10528.7383,434,10538.7383,438,10528.7383,434,10532.7383" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="10572.707" y2="10592.707"/><polygon fill="#181818" points="430,10582.707,434,10592.707,438,10582.707,434,10586.707" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="10640.6445" y2="10660.6445"/><polygon fill="#181818" points="430,10650.6445,434,10660.6445,438,10650.6445,434,10654.6445" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="10722.5508" y2="10742.5508"/><polygon fill="#181818" points="430,10732.5508,434,10742.5508,438,10732.5508,434,10736.5508" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="10804.457" y2="10824.457"/><polygon fill="#181818" points="430,10814.457,434,10824.457,438,10814.457,434,10818.457" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="10858.4258" y2="10878.4258"/><polygon fill="#181818" points="430,10868.4258,434,10878.4258,438,10868.4258,434,10872.4258" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="10985.6914" y2="11030.957"/><polygon fill="#181818" points="430,11020.957,434,11030.957,438,11020.957,434,11024.957" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="11092.8633" y2="11112.8633"/><polygon fill="#181818" points="430,11102.8633,434,11112.8633,438,11102.8633,434,11106.8633" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="11220.1289" y2="11265.3945"/><polygon fill="#181818" points="430,11255.3945,434,11265.3945,438,11255.3945,434,11259.3945" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="11299.3633" y2="11319.3633"/><polygon fill="#181818" points="430,11309.3633,434,11319.3633,438,11309.3633,434,11313.3633" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="11353.332" y2="11373.332"/><polygon fill="#181818" points="430,11363.332,434,11373.332,438,11363.332,434,11367.332" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="11421.2695" y2="11441.2695"/><polygon fill="#181818" points="430,11431.2695,434,11441.2695,438,11431.2695,434,11435.2695" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="11475.2383" y2="11495.2383"/><polygon fill="#181818" points="430,11485.2383,434,11495.2383,438,11485.2383,434,11489.2383" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="11529.207" y2="11549.207"/><polygon fill="#181818" points="430,11539.207,434,11549.207,438,11539.207,434,11543.207" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="11583.1758" y2="11603.1758"/><polygon fill="#181818" points="430,11593.1758,434,11603.1758,438,11593.1758,434,11597.1758" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="11651.1133" y2="11671.1133"/><polygon fill="#181818" points="430,11661.1133,434,11671.1133,438,11661.1133,434,11665.1133" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="11719.0508" y2="11739.0508"/><polygon fill="#181818" points="430,11729.0508,434,11739.0508,438,11729.0508,434,11733.0508" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="11823.6172" y2="11846.1836"/><polygon fill="#181818" points="430,11836.1836,434,11846.1836,438,11836.1836,434,11840.1836" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="434" x2="434" y1="11880.1523" y2="11900.1523"/><polygon fill="#181818" points="430,11890.1523,434,11900.1523,438,11890.1523,434,11894.1523" style="stroke:#181818;stroke-width:1.0;"/><!--MD5=[11e0cc638e66ac2d68c52625470b8083]
+@startuml
+!pragma layout smetana
+start
+note right
+constructor MetadataResponse(MetadataResponseData data,
+short version)
+end note
+:this(data,hasReliableLeaderEpochs(version));;
+end
+start
+note right
+constructor MetadataResponse(MetadataResponseData data,
+boolean hasReliableLeaderEpochs)
+end note
+:super (ApiKeys.METADATA);;
+:this.data=data;;
+:this.hasReliableLeaderEpochs=hasReliableLeaderEpochs;;
+end
+start
+note right
+MetadataResponseData data()
+end note
+:return data;;
+stop
+end
+start
+note right
+int throttleTimeMs()
+end note
+:return data.throttleTimeMs();;
+stop
+end
+start
+note right
+Map<String,Errors> errors()
+end note
+:Map<String,Errors> errors=new HashMap<>();;
+if (metadata.name()==null ) then (yes) 
+:throw new IllegalStateException("Use errorsByTopicId() when managing topic using topic id");;
+stop
+endif 
+if (metadata.errorCode()!=Errors.NONE.code()) then (yes) 
+:errors.put(metadata.name(),Errors.forCode(metadata.errorCode()));;
+endif 
+:return errors;;
+stop
+end
+start
+note right
+Map<Uuid,Errors> errorsByTopicId()
+end note
+:Map<Uuid,Errors> errors=new HashMap<>();;
+if (metadata.topicId()==Uuid.ZERO_UUID) then (yes) 
+:throw new IllegalStateException("Use errors() when managing topic using topic name");;
+stop
+endif 
+if (metadata.errorCode()!=Errors.NONE.code()) then (yes) 
+:errors.put(metadata.topicId(),Errors.forCode(metadata.errorCode()));;
+endif 
+:return errors;;
+stop
+end
+start
+note right
+Map<Errors,Integer> errorCounts()
+end note
+:Map<Errors,Integer> errorCounts=new HashMap<>();;
+:data.topics().forEach(metadata->{metadata.partitions().forEach(p->updateErrorCounts(errorCounts,
+Errors.forCode(p.errorCode())));updateErrorCounts(errorCounts,
+Errors.forCode(metadata.errorCode()));});;
+:return errorCounts;;
+stop
+end
+start
+note right
+Set<String> topicsByError(Errors error)
+end note
+:Set<String> errorTopics=new HashSet<>();;
+if (metadata.errorCode()==error.code()) then (yes) 
+:errorTopics.add(metadata.name());;
+endif 
+:return errorTopics;;
+stop
+end
+start
+note right
+Cluster buildCluster()
+end note
+:Set<String> internalTopics=new HashSet<>();;
+:List<PartitionInfo> partitions=new ArrayList<>();;
+:Map<String,Uuid> topicIds=new HashMap<>();;
+if (metadata.error==Errors.NONE) then (yes) 
+if (metadata.isInternal) then (yes) 
+:internalTopics.add(metadata.topic);;
+endif 
+if (metadata.topicId()!=null &&!Uuid.ZERO_UUID.equals(metadata.topicId())) then (yes) 
+:topicIds.put(metadata.topic,metadata.topicId());;
+endif 
+:partitions.add(toPartitionInfo(partitionMetadata,
+holder().brokers));;
+endif 
+:return new Cluster(data.clusterId(),brokers(),
+partitions,topicsByError(Errors.TOPIC_AUTHORIZATION_FAILED),
+topicsByError(Errors.INVALID_TOPIC_EXCEPTION),
+internalTopics,controller(),topicIds);;
+stop
+end
+start
+note right
+PartitionInfo toPartitionInfo(PartitionMetadata metadata,
+Map<Integer,Node> nodesById)
+end note
+:return new PartitionInfo(metadata.topic(),
+metadata.partition(),metadata.leaderId.map(nodesById::get).orElse(null ),
+convertToNodeArray(metadata.replicaIds,nodesById),
+convertToNodeArray(metadata.inSyncReplicaIds,
+nodesById),convertToNodeArray(metadata.offlineReplicaIds,
+nodesById));;
+stop
+end
+start
+note right
+Node[] convertToNodeArray(List<Integer> replicaIds,
+Map<Integer,Node> nodesById)
+end note
+:return replicaIds.stream().map(replicaId->{Node node=nodesById.get(replicaId);if (node==null )return new Node(replicaId,
+"",-1);return node;}).toArray(Node[]::new );;
+stop
+end
+start
+note right
+Optional<Integer> topicAuthorizedOperations(String topicName)
+end note
+:MetadataResponseTopic topic=data.topics()
+.find(topicName);;
+if (topic==null ) then (yes) 
+:return Optional.empty();;
+stop
+else (no)
+:return Optional.of(topic.topicAuthorizedOperations());;
+stop
+endif 
+end
+start
+note right
+int clusterAuthorizedOperations()
+end note
+:return data.clusterAuthorizedOperations();;
+stop
+end
+start
+note right
+Holder holder()
+end note
+if (holder==null ) then (yes) 
+:synchronized (data){if (holder==null )holder=new Holder(data);};
+endif 
+:return holder;;
+stop
+end
+start
+note right
+Collection<Node> brokers()
+end note
+:return holder().brokers.values();;
+stop
+end
+start
+note right
+Map<Integer,Node> brokersById()
+end note
+:return holder().brokers;;
+stop
+end
+start
+note right
+Collection<TopicMetadata> topicMetadata()
+end note
+:return holder().topicMetadata;;
+stop
+end
+start
+note right
+Node controller()
+end note
+:return holder().controller;;
+stop
+end
+start
+note right
+String clusterId()
+end note
+:return this.data.clusterId();;
+stop
+end
+start
+note right
+boolean hasReliableLeaderEpochs()
+end note
+:return hasReliableLeaderEpochs;;
+stop
+end
+start
+note right
+boolean hasReliableLeaderEpochs(short version)
+end note
+:return version>=9;;
+stop
+end
+start
+note right
+MetadataResponse parse(ByteBuffer buffer,
+short version)
+end note
+:return new MetadataResponse(new MetadataResponseData(new ByteBufferAccessor(buffer),
+version),hasReliableLeaderEpochs(version));;
+stop
+end
+start
+note right
+constructor TopicMetadata(Errors error,String topic,
+Uuid topicId,boolean isInternal,List<PartitionMetadata> partitionMetadata,
+int authorizedOperations)
+end note
+:this.error=error;;
+:this.topic=topic;;
+:this.topicId=topicId;;
+:this.isInternal=isInternal;;
+:this.partitionMetadata=partitionMetadata;;
+:this.authorizedOperations=authorizedOperations;;
+end
+start
+note right
+constructor TopicMetadata(Errors error,String topic,
+boolean isInternal,List<PartitionMetadata> partitionMetadata)
+end note
+:this(error,topic,Uuid.ZERO_UUID,isInternal,
+partitionMetadata,AUTHORIZED_OPERATIONS_OMITTED);;
+end
+start
+note right
+Errors error()
+end note
+:return error;;
+stop
+end
+start
+note right
+String topic()
+end note
+:return topic;;
+stop
+end
+start
+note right
+Uuid topicId()
+end note
+:return topicId;;
+stop
+end
+start
+note right
+boolean isInternal()
+end note
+:return isInternal;;
+stop
+end
+start
+note right
+List<PartitionMetadata> partitionMetadata()
+end note
+:return partitionMetadata;;
+stop
+end
+start
+note right
+void authorizedOperations(int authorizedOperations)
+end note
+:this.authorizedOperations=authorizedOperations;;
+end
+start
+note right
+int authorizedOperations()
+end note
+:return authorizedOperations;;
+stop
+end
+start
+note right
+boolean equals(final Object o)
+end note
+if (this==o) then (yes) 
+:return true;;
+stop
+endif 
+if (o==null ||getClass()!=o.getClass()) then (yes) 
+:return false;;
+stop
+endif 
+:final TopicMetadata that=(TopicMetadata )o;;
+:return isInternal==that.isInternal&&error==that.error&&Objects.equals(topic,
+that.topic)&&Objects.equals(topicId,that.topicId)&&Objects.equals(partitionMetadata,
+that.partitionMetadata)&&Objects.equals(authorizedOperations,
+that.authorizedOperations);;
+stop
+end
+start
+note right
+int hashCode()
+end note
+:return Objects.hash(error,topic,isInternal,
+partitionMetadata,authorizedOperations);;
+stop
+end
+start
+note right
+String toString()
+end note
+:return "TopicMetadata{"+"error="+error+", topic='"+
+topic+'\''+", topicId='"+topicId+'\''+", isInternal="+
+isInternal+", partitionMetadata="+partitionMetadata+
+", authorizedOperations="+authorizedOperations+
+'}';;
+stop
+end
+start
+note right
+constructor PartitionMetadata(Errors error,
+TopicPartition topicPartition,Optional<Integer> leaderId,
+Optional<Integer> leaderEpoch,List<Integer> replicaIds,
+List<Integer> inSyncReplicaIds,List<Integer> offlineReplicaIds)
+end note
+:this.error=error;;
+:this.topicPartition=topicPartition;;
+:this.leaderId=leaderId;;
+:this.leaderEpoch=leaderEpoch;;
+:this.replicaIds=replicaIds;;
+:this.inSyncReplicaIds=inSyncReplicaIds;;
+:this.offlineReplicaIds=offlineReplicaIds;;
+end
+start
+note right
+int partition()
+end note
+:return topicPartition.partition();;
+stop
+end
+start
+note right
+String topic()
+end note
+:return topicPartition.topic();;
+stop
+end
+start
+note right
+PartitionMetadata withoutLeaderEpoch()
+end note
+:return new PartitionMetadata(error,topicPartition,
+leaderId,Optional.empty(),replicaIds,inSyncReplicaIds,
+offlineReplicaIds);;
+stop
+end
+start
+note right
+String toString()
+end note
+:return "PartitionMetadata("+"error="+error+
+", partition="+topicPartition+", leader="+
+leaderId+", leaderEpoch="+leaderEpoch+", replicas="+
+Utils.join(replicaIds,",")+", isr="+Utils.join(inSyncReplicaIds,",")+
+", offlineReplicas="+Utils.join(offlineReplicaIds,",")+
+')';;
+stop
+end
+start
+note right
+constructor Holder(MetadataResponseData data)
+end note
+:this.brokers=Collections.unmodifiableMap(createBrokers(data));;
+:this.topicMetadata=createTopicMetadata(data);;
+:this.controller=brokers.get(data.controllerId());;
+end
+start
+note right
+Map<Integer,Node> createBrokers(MetadataResponseData data)
+end note
+:return data.brokers().valuesList().stream().map(b->new Node(b.nodeId(),
+b.host(),b.port(),b.rack())).collect(Collectors.toMap(Node::id,
+Function.identity()));;
+stop
+end
+start
+note right
+Collection<TopicMetadata> createTopicMetadata(MetadataResponseData data)
+end note
+:List<TopicMetadata> topicMetadataList=new ArrayList<>();;
+:Errors topicError=Errors.forCode(topicMetadata.errorCode());;
+:String topic=topicMetadata.name();;
+:Uuid topicId=topicMetadata.topicId();;
+:boolean isInternal=topicMetadata.isInternal();;
+:List<PartitionMetadata> partitionMetadataList=new ArrayList<>();;
+:Errors partitionError=Errors.forCode(partitionMetadata.errorCode());;
+:int partitionIndex=partitionMetadata.partitionIndex();;
+:int leaderId=partitionMetadata.leaderId();;
+:Optional<Integer> leaderIdOpt=leaderId<0? Optional.empty():Optional.of(leaderId);;
+:Optional<Integer> leaderEpoch=RequestUtils.getLeaderEpoch(partitionMetadata.leaderEpoch());;
+:TopicPartition topicPartition=new TopicPartition(topic,
+partitionIndex);;
+:partitionMetadataList.add(new PartitionMetadata(partitionError,
+topicPartition,leaderIdOpt,leaderEpoch,partitionMetadata.replicaNodes(),
+partitionMetadata.isrNodes(),partitionMetadata.offlineReplicas()));;
+:topicMetadataList.add(new TopicMetadata(topicError,
+topic,topicId,isInternal,partitionMetadataList,
+topicMetadata.topicAuthorizedOperations()));;
+:return topicMetadataList;;
+stop
+end
+start
+note right
+MetadataResponse prepareResponse(short version,
+int throttleTimeMs,Collection<Node> brokers,
+String clusterId,int controllerId,List<MetadataResponseTopic> topics,
+int clusterAuthorizedOperations)
+end note
+:return prepareResponse(hasReliableLeaderEpochs(version),
+throttleTimeMs,brokers,clusterId,controllerId,
+topics,clusterAuthorizedOperations);;
+stop
+end
+start
+note right
+MetadataResponse prepareResponse(boolean hasReliableEpoch,
+int throttleTimeMs,Collection<Node> brokers,
+String clusterId,int controllerId,List<MetadataResponseTopic> topics,
+int clusterAuthorizedOperations)
+end note
+:MetadataResponseData responseData=new MetadataResponseData();;
+:responseData.setThrottleTimeMs(throttleTimeMs);;
+:brokers.forEach(broker->responseData.brokers()
+.add(new MetadataResponseBroker().setNodeId(broker.id()).setHost(broker.host()).setPort(broker.port()).setRack(broker.rack())));;
+:responseData.setClusterId(clusterId);;
+:responseData.setControllerId(controllerId);;
+:responseData.setClusterAuthorizedOperations(clusterAuthorizedOperations);;
+:topics.forEach(topicMetadata->responseData.topics()
+.add(topicMetadata));;
+:return new MetadataResponse(responseData,
+hasReliableEpoch);;
+stop
+end
+start
+note right
+boolean shouldClientThrottle(short version)
+end note
+:return version>=6;;
+stop
+end
+@enduml
+
+@startuml
+!pragma layout smetana
+start
+note right
+constructor MetadataResponse(MetadataResponseData data,
+short version)
+end note
+:this(data,hasReliableLeaderEpochs(version));;
+end
+start
+note right
+constructor MetadataResponse(MetadataResponseData data,
+boolean hasReliableLeaderEpochs)
+end note
+:super (ApiKeys.METADATA);;
+:this.data=data;;
+:this.hasReliableLeaderEpochs=hasReliableLeaderEpochs;;
+end
+start
+note right
+MetadataResponseData data()
+end note
+:return data;;
+stop
+end
+start
+note right
+int throttleTimeMs()
+end note
+:return data.throttleTimeMs();;
+stop
+end
+start
+note right
+Map<String,Errors> errors()
+end note
+:Map<String,Errors> errors=new HashMap<>();;
+if (metadata.name()==null ) then (yes) 
+:throw new IllegalStateException("Use errorsByTopicId() when managing topic using topic id");;
+stop
+endif 
+if (metadata.errorCode()!=Errors.NONE.code()) then (yes) 
+:errors.put(metadata.name(),Errors.forCode(metadata.errorCode()));;
+endif 
+:return errors;;
+stop
+end
+start
+note right
+Map<Uuid,Errors> errorsByTopicId()
+end note
+:Map<Uuid,Errors> errors=new HashMap<>();;
+if (metadata.topicId()==Uuid.ZERO_UUID) then (yes) 
+:throw new IllegalStateException("Use errors() when managing topic using topic name");;
+stop
+endif 
+if (metadata.errorCode()!=Errors.NONE.code()) then (yes) 
+:errors.put(metadata.topicId(),Errors.forCode(metadata.errorCode()));;
+endif 
+:return errors;;
+stop
+end
+start
+note right
+Map<Errors,Integer> errorCounts()
+end note
+:Map<Errors,Integer> errorCounts=new HashMap<>();;
+:data.topics().forEach(metadata->{metadata.partitions().forEach(p->updateErrorCounts(errorCounts,
+Errors.forCode(p.errorCode())));updateErrorCounts(errorCounts,
+Errors.forCode(metadata.errorCode()));});;
+:return errorCounts;;
+stop
+end
+start
+note right
+Set<String> topicsByError(Errors error)
+end note
+:Set<String> errorTopics=new HashSet<>();;
+if (metadata.errorCode()==error.code()) then (yes) 
+:errorTopics.add(metadata.name());;
+endif 
+:return errorTopics;;
+stop
+end
+start
+note right
+Cluster buildCluster()
+end note
+:Set<String> internalTopics=new HashSet<>();;
+:List<PartitionInfo> partitions=new ArrayList<>();;
+:Map<String,Uuid> topicIds=new HashMap<>();;
+if (metadata.error==Errors.NONE) then (yes) 
+if (metadata.isInternal) then (yes) 
+:internalTopics.add(metadata.topic);;
+endif 
+if (metadata.topicId()!=null &&!Uuid.ZERO_UUID.equals(metadata.topicId())) then (yes) 
+:topicIds.put(metadata.topic,metadata.topicId());;
+endif 
+:partitions.add(toPartitionInfo(partitionMetadata,
+holder().brokers));;
+endif 
+:return new Cluster(data.clusterId(),brokers(),
+partitions,topicsByError(Errors.TOPIC_AUTHORIZATION_FAILED),
+topicsByError(Errors.INVALID_TOPIC_EXCEPTION),
+internalTopics,controller(),topicIds);;
+stop
+end
+start
+note right
+PartitionInfo toPartitionInfo(PartitionMetadata metadata,
+Map<Integer,Node> nodesById)
+end note
+:return new PartitionInfo(metadata.topic(),
+metadata.partition(),metadata.leaderId.map(nodesById::get).orElse(null ),
+convertToNodeArray(metadata.replicaIds,nodesById),
+convertToNodeArray(metadata.inSyncReplicaIds,
+nodesById),convertToNodeArray(metadata.offlineReplicaIds,
+nodesById));;
+stop
+end
+start
+note right
+Node[] convertToNodeArray(List<Integer> replicaIds,
+Map<Integer,Node> nodesById)
+end note
+:return replicaIds.stream().map(replicaId->{Node node=nodesById.get(replicaId);if (node==null )return new Node(replicaId,
+"",-1);return node;}).toArray(Node[]::new );;
+stop
+end
+start
+note right
+Optional<Integer> topicAuthorizedOperations(String topicName)
+end note
+:MetadataResponseTopic topic=data.topics()
+.find(topicName);;
+if (topic==null ) then (yes) 
+:return Optional.empty();;
+stop
+else (no)
+:return Optional.of(topic.topicAuthorizedOperations());;
+stop
+endif 
+end
+start
+note right
+int clusterAuthorizedOperations()
+end note
+:return data.clusterAuthorizedOperations();;
+stop
+end
+start
+note right
+Holder holder()
+end note
+if (holder==null ) then (yes) 
+:synchronized (data){if (holder==null )holder=new Holder(data);};
+endif 
+:return holder;;
+stop
+end
+start
+note right
+Collection<Node> brokers()
+end note
+:return holder().brokers.values();;
+stop
+end
+start
+note right
+Map<Integer,Node> brokersById()
+end note
+:return holder().brokers;;
+stop
+end
+start
+note right
+Collection<TopicMetadata> topicMetadata()
+end note
+:return holder().topicMetadata;;
+stop
+end
+start
+note right
+Node controller()
+end note
+:return holder().controller;;
+stop
+end
+start
+note right
+String clusterId()
+end note
+:return this.data.clusterId();;
+stop
+end
+start
+note right
+boolean hasReliableLeaderEpochs()
+end note
+:return hasReliableLeaderEpochs;;
+stop
+end
+start
+note right
+boolean hasReliableLeaderEpochs(short version)
+end note
+:return version>=9;;
+stop
+end
+start
+note right
+MetadataResponse parse(ByteBuffer buffer,
+short version)
+end note
+:return new MetadataResponse(new MetadataResponseData(new ByteBufferAccessor(buffer),
+version),hasReliableLeaderEpochs(version));;
+stop
+end
+start
+note right
+constructor TopicMetadata(Errors error,String topic,
+Uuid topicId,boolean isInternal,List<PartitionMetadata> partitionMetadata,
+int authorizedOperations)
+end note
+:this.error=error;;
+:this.topic=topic;;
+:this.topicId=topicId;;
+:this.isInternal=isInternal;;
+:this.partitionMetadata=partitionMetadata;;
+:this.authorizedOperations=authorizedOperations;;
+end
+start
+note right
+constructor TopicMetadata(Errors error,String topic,
+boolean isInternal,List<PartitionMetadata> partitionMetadata)
+end note
+:this(error,topic,Uuid.ZERO_UUID,isInternal,
+partitionMetadata,AUTHORIZED_OPERATIONS_OMITTED);;
+end
+start
+note right
+Errors error()
+end note
+:return error;;
+stop
+end
+start
+note right
+String topic()
+end note
+:return topic;;
+stop
+end
+start
+note right
+Uuid topicId()
+end note
+:return topicId;;
+stop
+end
+start
+note right
+boolean isInternal()
+end note
+:return isInternal;;
+stop
+end
+start
+note right
+List<PartitionMetadata> partitionMetadata()
+end note
+:return partitionMetadata;;
+stop
+end
+start
+note right
+void authorizedOperations(int authorizedOperations)
+end note
+:this.authorizedOperations=authorizedOperations;;
+end
+start
+note right
+int authorizedOperations()
+end note
+:return authorizedOperations;;
+stop
+end
+start
+note right
+boolean equals(final Object o)
+end note
+if (this==o) then (yes) 
+:return true;;
+stop
+endif 
+if (o==null ||getClass()!=o.getClass()) then (yes) 
+:return false;;
+stop
+endif 
+:final TopicMetadata that=(TopicMetadata )o;;
+:return isInternal==that.isInternal&&error==that.error&&Objects.equals(topic,
+that.topic)&&Objects.equals(topicId,that.topicId)&&Objects.equals(partitionMetadata,
+that.partitionMetadata)&&Objects.equals(authorizedOperations,
+that.authorizedOperations);;
+stop
+end
+start
+note right
+int hashCode()
+end note
+:return Objects.hash(error,topic,isInternal,
+partitionMetadata,authorizedOperations);;
+stop
+end
+start
+note right
+String toString()
+end note
+:return "TopicMetadata{"+"error="+error+", topic='"+
+topic+'\''+", topicId='"+topicId+'\''+", isInternal="+
+isInternal+", partitionMetadata="+partitionMetadata+
+", authorizedOperations="+authorizedOperations+
+stop
+end
+start
+note right
+constructor PartitionMetadata(Errors error,
+TopicPartition topicPartition,Optional<Integer> leaderId,
+Optional<Integer> leaderEpoch,List<Integer> replicaIds,
+List<Integer> inSyncReplicaIds,List<Integer> offlineReplicaIds)
+end note
+:this.error=error;;
+:this.topicPartition=topicPartition;;
+:this.leaderId=leaderId;;
+:this.leaderEpoch=leaderEpoch;;
+:this.replicaIds=replicaIds;;
+:this.inSyncReplicaIds=inSyncReplicaIds;;
+:this.offlineReplicaIds=offlineReplicaIds;;
+end
+start
+note right
+int partition()
+end note
+:return topicPartition.partition();;
+stop
+end
+start
+note right
+String topic()
+end note
+:return topicPartition.topic();;
+stop
+end
+start
+note right
+PartitionMetadata withoutLeaderEpoch()
+end note
+:return new PartitionMetadata(error,topicPartition,
+leaderId,Optional.empty(),replicaIds,inSyncReplicaIds,
+offlineReplicaIds);;
+stop
+end
+start
+note right
+String toString()
+end note
+:return "PartitionMetadata("+"error="+error+
+", partition="+topicPartition+", leader="+
+leaderId+", leaderEpoch="+leaderEpoch+", replicas="+
+Utils.join(replicaIds,",")+", isr="+Utils.join(inSyncReplicaIds,",")+
+", offlineReplicas="+Utils.join(offlineReplicaIds,",")+
+stop
+end
+start
+note right
+constructor Holder(MetadataResponseData data)
+end note
+:this.brokers=Collections.unmodifiableMap(createBrokers(data));;
+:this.topicMetadata=createTopicMetadata(data);;
+:this.controller=brokers.get(data.controllerId());;
+end
+start
+note right
+Map<Integer,Node> createBrokers(MetadataResponseData data)
+end note
+:return data.brokers().valuesList().stream().map(b->new Node(b.nodeId(),
+b.host(),b.port(),b.rack())).collect(Collectors.toMap(Node::id,
+Function.identity()));;
+stop
+end
+start
+note right
+Collection<TopicMetadata> createTopicMetadata(MetadataResponseData data)
+end note
+:List<TopicMetadata> topicMetadataList=new ArrayList<>();;
+:Errors topicError=Errors.forCode(topicMetadata.errorCode());;
+:String topic=topicMetadata.name();;
+:Uuid topicId=topicMetadata.topicId();;
+:boolean isInternal=topicMetadata.isInternal();;
+:List<PartitionMetadata> partitionMetadataList=new ArrayList<>();;
+:Errors partitionError=Errors.forCode(partitionMetadata.errorCode());;
+:int partitionIndex=partitionMetadata.partitionIndex();;
+:int leaderId=partitionMetadata.leaderId();;
+:Optional<Integer> leaderIdOpt=leaderId<0? Optional.empty():Optional.of(leaderId);;
+:Optional<Integer> leaderEpoch=RequestUtils.getLeaderEpoch(partitionMetadata.leaderEpoch());;
+:TopicPartition topicPartition=new TopicPartition(topic,
+partitionIndex);;
+:partitionMetadataList.add(new PartitionMetadata(partitionError,
+topicPartition,leaderIdOpt,leaderEpoch,partitionMetadata.replicaNodes(),
+partitionMetadata.isrNodes(),partitionMetadata.offlineReplicas()));;
+:topicMetadataList.add(new TopicMetadata(topicError,
+topic,topicId,isInternal,partitionMetadataList,
+topicMetadata.topicAuthorizedOperations()));;
+:return topicMetadataList;;
+stop
+end
+start
+note right
+MetadataResponse prepareResponse(short version,
+int throttleTimeMs,Collection<Node> brokers,
+String clusterId,int controllerId,List<MetadataResponseTopic> topics,
+int clusterAuthorizedOperations)
+end note
+:return prepareResponse(hasReliableLeaderEpochs(version),
+throttleTimeMs,brokers,clusterId,controllerId,
+topics,clusterAuthorizedOperations);;
+stop
+end
+start
+note right
+MetadataResponse prepareResponse(boolean hasReliableEpoch,
+int throttleTimeMs,Collection<Node> brokers,
+String clusterId,int controllerId,List<MetadataResponseTopic> topics,
+int clusterAuthorizedOperations)
+end note
+:MetadataResponseData responseData=new MetadataResponseData();;
+:responseData.setThrottleTimeMs(throttleTimeMs);;
+:brokers.forEach(broker->responseData.brokers()
+.add(new MetadataResponseBroker().setNodeId(broker.id()).setHost(broker.host()).setPort(broker.port()).setRack(broker.rack())));;
+:responseData.setClusterId(clusterId);;
+:responseData.setControllerId(controllerId);;
+:responseData.setClusterAuthorizedOperations(clusterAuthorizedOperations);;
+:topics.forEach(topicMetadata->responseData.topics()
+.add(topicMetadata));;
+:return new MetadataResponse(responseData,
+hasReliableEpoch);;
+stop
+end
+start
+note right
+boolean shouldClientThrottle(short version)
+end note
+:return version>=6;;
+stop
+end
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

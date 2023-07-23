@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="441px" preserveAspectRatio="none" style="width:634px;height:441px;background:#FFFFFF;" version="1.1" viewBox="0 0 634 441" width="634px" zoomAndPan="magnify"><defs/><g><path d="M250.5,10 L250.5,18.5664 L230.5,22.5664 L250.5,26.5664 L250.5,35.1328 A0,0 0 0 0 250.5,35.1328 L561.5,35.1328 A0,0 0 0 0 561.5,35.1328 L561.5,20 L551.5,10 L250.5,10 A0,0 0 0 0 250.5,10 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M551.5,10 L551.5,20 L561.5,20 L551.5,10 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="290" x="256.5" y="27.0669">constructor ConfigException(String message)</text><ellipse cx="220.5" cy="22.5664" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="131" x="155" y="55.1328"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="111" x="165" y="76.2715">super (message);</text><ellipse cx="220.5" cy="119.1016" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="214.3128" x2="226.6872" y1="112.9144" y2="125.2887"/><line style="stroke:#222222;stroke-width:2.5;" x1="226.6872" x2="214.3128" y1="112.9144" y2="125.2887"/><path d="M250.5,139.1016 L250.5,147.668 L230.5,151.668 L250.5,155.668 L250.5,164.2344 A0,0 0 0 0 250.5,164.2344 L622.5,164.2344 A0,0 0 0 0 622.5,164.2344 L622.5,149.1016 L612.5,139.1016 L250.5,139.1016 A0,0 0 0 0 250.5,139.1016 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M612.5,139.1016 L612.5,149.1016 L622.5,149.1016 L612.5,139.1016 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="351" x="256.5" y="156.1685">constructor ConfigException(String name,Object value)</text><ellipse cx="220.5" cy="151.668" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="33.9688" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="159" x="141" y="184.2344"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="139" x="151" y="205.373">this(name,value,null );</text><ellipse cx="220.5" cy="248.2031" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="214.3128" x2="226.6872" y1="242.0159" y2="254.3903"/><line style="stroke:#222222;stroke-width:2.5;" x1="226.6872" x2="214.3128" y1="242.0159" y2="254.3903"/><path d="M250.5,268.2031 L250.5,284.3359 L230.5,288.3359 L250.5,292.3359 L250.5,308.4688 A0,0 0 0 0 250.5,308.4688 L621.5,308.4688 A0,0 0 0 0 621.5,308.4688 L621.5,278.2031 L611.5,268.2031 L250.5,268.2031 A0,0 0 0 0 250.5,268.2031 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M611.5,268.2031 L611.5,278.2031 L621.5,278.2031 L611.5,268.2031 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="350" x="256.5" y="285.27">constructor ConfigException(String name,Object value,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="256.5" y="300.4028">String message)</text><ellipse cx="220.5" cy="288.3359" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><rect fill="#F1F1F1" height="61.9063" rx="12.5" ry="12.5" style="stroke:#181818;stroke-width:0.5;" width="419" x="11" y="328.4688"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="320" x="21" y="349.6074">super ("Invalid value "+value+" for configuration "+</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="399" x="21" y="363.5762">name+(message==null ? String.valueOf(""):String.valueOf(": ")+</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="71" x="21" y="377.5449">message));</text><ellipse cx="220.5" cy="420.375" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="214.3128" x2="226.6872" y1="414.1878" y2="426.5622"/><line style="stroke:#222222;stroke-width:2.5;" x1="226.6872" x2="214.3128" y1="414.1878" y2="426.5622"/><line style="stroke:#181818;stroke-width:1.0;" x1="220.5" x2="220.5" y1="32.5664" y2="55.1328"/><polygon fill="#181818" points="216.5,45.1328,220.5,55.1328,224.5,45.1328,220.5,49.1328" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="220.5" x2="220.5" y1="89.1016" y2="109.1016"/><polygon fill="#181818" points="216.5,99.1016,220.5,109.1016,224.5,99.1016,220.5,103.1016" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="220.5" x2="220.5" y1="161.668" y2="184.2344"/><polygon fill="#181818" points="216.5,174.2344,220.5,184.2344,224.5,174.2344,220.5,178.2344" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="220.5" x2="220.5" y1="218.2031" y2="238.2031"/><polygon fill="#181818" points="216.5,228.2031,220.5,238.2031,224.5,228.2031,220.5,232.2031" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="220.5" x2="220.5" y1="298.3359" y2="328.4688"/><polygon fill="#181818" points="216.5,318.4688,220.5,328.4688,224.5,318.4688,220.5,322.4688" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="220.5" x2="220.5" y1="390.375" y2="410.375"/><polygon fill="#181818" points="216.5,400.375,220.5,410.375,224.5,400.375,220.5,404.375" style="stroke:#181818;stroke-width:1.0;"/><!--MD5=[b72e9cec28ece609797c634fdbf76292]
+@startuml
+!pragma layout smetana
+start
+note right
+constructor ConfigException(String message)
+end note
+:super (message);;
+end
+start
+note right
+constructor ConfigException(String name,Object value)
+end note
+:this(name,value,null );;
+end
+start
+note right
+constructor ConfigException(String name,Object value,
+String message)
+end note
+:super ("Invalid value "+value+" for configuration "+
+name+(message==null ? String.valueOf(""):String.valueOf(": ")+
+message));;
+end
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>
