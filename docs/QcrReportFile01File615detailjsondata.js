@@ -424,7 +424,7 @@ var maDataBlocs = {
  , "c1" : "00200"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#200"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00200] For method intersectForwardableApis list of called methods Object monObjet|ApiVersion toApiVersionN195092|java.util.Optional intersectN195376"
+ , "c3" : "QC-JAV000007[00200] For method intersectForwardableApis list of called methods Object monObjet|ApiVersion toApiVersionN195092|java.util.Optional&lt;ApiVersion&gt; intersectN195376|V intersectVersion_getN195615"
 }} 
 ,
 { "ligne" : {"" : ""

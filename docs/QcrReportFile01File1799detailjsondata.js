@@ -259,7 +259,7 @@ var maDataBlocs = {
  , "c1" : "00074"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphGraceSearchUtil.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00074] For method extractGracePeriod list of called methods Object monObjet|org.apache.kafka.streams.kstream.Windows kStreamWindowAggregate_windowsN164153|org.apache.kafka.streams.kstream.SessionWindows kStreamSessionWindowAggregate_windowsN164434|org.apache.kafka.streams.kstream.SlidingWindows kStreamSlidingWindowAggregate_windowsN164757"
+ , "c3" : "QC-JAV000007[00074] For method extractGracePeriod list of called methods Object monObjet|org.apache.kafka.streams.kstream.Windows&lt;W&gt; kStreamWindowAggregate_windowsN164153|org.apache.kafka.streams.kstream.SessionWindows kStreamSessionWindowAggregate_windowsN164434|org.apache.kafka.streams.kstream.SlidingWindows kStreamSlidingWindowAggregate_windowsN164757"
 }} 
 ,
 { "ligne" : {"" : ""

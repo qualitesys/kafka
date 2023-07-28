@@ -389,7 +389,7 @@ var maDataBlocs = {
  , "c1" : "00109"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#109"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00109] For method resolve list of called methods Object monObjet|java.net.InetAddress[] hostResolver_resolveN177218|java.util.List filterPreferredAddressesN177335"
+ , "c3" : "QC-JAV000007[00109] For method resolve list of called methods Object monObjet|java.net.InetAddress[] hostResolver_resolveN177218|java.util.List&lt;java.net.InetAddress&gt; filterPreferredAddressesN177335"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -424,7 +424,7 @@ var maDataBlocs = {
  , "c1" : "00124"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#124"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00124] For method filterPreferredAddresses list of called methods Object monObjet|java.lang.Class address_getClassN178427"
+ , "c3" : "QC-JAV000007[00124] For method filterPreferredAddresses list of called methods Object monObjet|java.lang.Class&lt;?&gt; address_getClassN178427"
 }} 
 ,
 { "ligne" : {"" : ""

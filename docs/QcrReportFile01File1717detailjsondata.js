@@ -1044,7 +1044,7 @@ var maDataBlocs = {
  , "c1" : "00603"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#603"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00603] For method doRepartition list of called methods Object monObjet|java.lang.String repartitionedInternal_nameN463943|org.apache.kafka.common.serialization.Serde repartitionedInternal_valueSerdeN464173|org.apache.kafka.common.serialization.Serde repartitionedInternal_keySerdeN464374|org.apache.kafka.streams.processor.internals.InternalTopicProperties repartitionedInternal_toInternalTopicPropertiesN464673"
+ , "c3" : "QC-JAV000007[00603] For method doRepartition list of called methods Object monObjet|java.lang.String repartitionedInternal_nameN463943|org.apache.kafka.common.serialization.Serde&lt;V&gt; repartitionedInternal_valueSerdeN464173|org.apache.kafka.common.serialization.Serde&lt;K&gt; repartitionedInternal_keySerdeN464374|org.apache.kafka.streams.processor.internals.InternalTopicProperties repartitionedInternal_toInternalTopicPropertiesN464673"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1219,7 +1219,7 @@ var maDataBlocs = {
  , "c1" : "00716"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#716"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00716] For method toTable list of called methods Object monObjet|java.lang.String namedInternal_orElseGenerateWithPrefixN470184|org.apache.kafka.common.serialization.Serde materializedInternal_keySerdeN470578|org.apache.kafka.common.serialization.Serde materializedInternal_valueSerdeN470769"
+ , "c3" : "QC-JAV000007[00716] For method toTable list of called methods Object monObjet|java.lang.String namedInternal_orElseGenerateWithPrefixN470184|org.apache.kafka.common.serialization.Serde&lt;K&gt; materializedInternal_keySerdeN470578|org.apache.kafka.common.serialization.Serde&lt;V&gt; materializedInternal_valueSerdeN470769"
 }} 
 ,
 { "ligne" : {"" : ""

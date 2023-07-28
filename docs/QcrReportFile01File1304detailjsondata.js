@@ -523,7 +523,7 @@ var maDataBlocs = {
  , "c1" : "00307"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#307"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00307] For method registerBroker list of called methods Object monObjet|V brokerRegistrations_getN261212|java.util.Optional finalizedFeatures_getN262788"
+ , "c3" : "QC-JAV000007[00307] For method registerBroker list of called methods Object monObjet|V brokerRegistrations_getN261212|java.util.Optional&lt;java.lang.Short&gt; finalizedFeatures_getN262788"
 }} 
 ,
 { "ligne" : {"" : ""

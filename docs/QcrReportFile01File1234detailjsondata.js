@@ -134,7 +134,7 @@ var maDataBlocs = {
  , "c1" : "00036"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#36"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00036] For method copySchemaBasics list of called methods Object monObjet|java.util.Map source_parametersN155188"
+ , "c3" : "QC-JAV000007[00036] For method copySchemaBasics list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; source_parametersN155188"
 }} 
 ,
 { "ligne" : {"" : ""

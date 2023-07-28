@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java 103 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java 108 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -229,7 +229,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "8"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : { "" : ""
@@ -243,7 +243,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -336,7 +336,7 @@ var maDataBlocs = {
  , "c1" : "00135"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#135"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00135] For method restoreTasks list of called methods Object monObjet|java.util.Set changelogReader_completedChangelogsN231289"
+ , "c3" : "QC-JAV000007[00135] For method restoreTasks list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt; changelogReader_completedChangelogsN231289|java.util.Collection&lt;V&gt; updatingTasks_valuesN231392"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -378,7 +378,7 @@ var maDataBlocs = {
  , "c1" : "00156"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#156"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00156] For method handleTaskCorruptedException list of called methods Object monObjet|java.util.Set taskCorruptedException_corruptedTasksN232397"
+ , "c3" : "QC-JAV000007[00156] For method handleTaskCorruptedException list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.processor.TaskId&gt; taskCorruptedException_corruptedTasksN232397|V updatingTasks_getN232668"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -455,7 +455,7 @@ var maDataBlocs = {
  , "c1" : "00179"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#179"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00179] For method handleStreamsExceptionWithTask list of called methods Object monObjet|java.util.Optional streamsException_taskIdN233647"
+ , "c3" : "QC-JAV000007[00179] For method handleStreamsExceptionWithTask list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.streams.processor.TaskId&gt; streamsException_taskIdN233647"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -581,7 +581,7 @@ var maDataBlocs = {
  , "c1" : "00259"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#259"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00259] For method removeTask list of called methods Object monObjet|V updatingTasks_getN237491|java.util.Collection task_changelogPartitionsN237759"
+ , "c3" : "QC-JAV000007[00259] For method removeTask list of called methods Object monObjet|V updatingTasks_getN237491|java.util.Collection&lt;org.apache.kafka.common.TopicPartition&gt; task_changelogPartitionsN237759"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -665,7 +665,7 @@ var maDataBlocs = {
  , "c1" : "00279"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#279"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00279] For method maybeCompleteRestoration list of called methods Object monObjet|java.util.Collection task_changelogPartitionsN238897"
+ , "c3" : "QC-JAV000007[00279] For method maybeCompleteRestoration list of called methods Object monObjet|java.util.Collection&lt;org.apache.kafka.common.TopicPartition&gt; task_changelogPartitionsN238897"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -938,6 +938,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleTaskCorruptedException@POLYN232178"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleStreamsException@POLYN233146"
 }} 
 ,
@@ -967,6 +974,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#105"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.run@POLYN229310 the MagicNumber/String 'State updater thread shutdown' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00157"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#157"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00157] In the recursive method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleTaskCorruptedException@POLYN232178 the MagicNumber/String 'Encountered task corrupted exception: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00162"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#162"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00162] In the recursive method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleTaskCorruptedException@POLYN232178 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00163"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#163"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00163] In the recursive method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleTaskCorruptedException@POLYN232178 the MagicNumber/String ' is corrupted but is not updating. ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00163"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#163"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00163] In the recursive method org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.handleTaskCorruptedException@POLYN232178 the MagicNumber/String 'Task ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

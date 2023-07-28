@@ -158,7 +158,7 @@ var maDataBlocs = {
  , "c1" : "00042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedSerializer.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00042] For method configure list of called methods Object monObjet|org.apache.kafka.common.serialization.Serializer windowInnerClassSerde_serializerN164293"
+ , "c3" : "QC-JAV000007[00042] For method configure list of called methods Object monObjet|org.apache.kafka.common.serialization.Serializer&lt;T&gt; windowInnerClassSerde_serializerN164293"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -316,7 +316,7 @@ var maDataBlocs = {
  , "c1" : "00077"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#77"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00077] For method all list of called methods Object monObjet|java.util.List segments_allSegmentsN193601"
+ , "c3" : "QC-JAV000007[00077] For method all list of called methods Object monObjet|java.util.List&lt;S&gt; segments_allSegmentsN193601"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -386,7 +386,7 @@ var maDataBlocs = {
  , "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#91"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00091] For method backwardAll list of called methods Object monObjet|java.util.List segments_allSegmentsN194429"
+ , "c3" : "QC-JAV000007[00091] For method backwardAll list of called methods Object monObjet|java.util.List&lt;S&gt; segments_allSegmentsN194429"
 }} 
 ,
 { "ligne" : {"" : ""

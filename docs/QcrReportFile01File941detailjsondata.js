@@ -486,7 +486,7 @@ var maDataBlocs = {
  , "c1" : "00216"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#216"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00216] For method validateValue list of called methods Object monObjet|java.util.List expectedClassesForN213935"
+ , "c3" : "QC-JAV000007[00216] For method validateValue list of called methods Object monObjet|java.util.List&lt;java.lang.Class&lt;?&gt;&gt; expectedClassesForN213935"
 }} 
 ,
 { "ligne" : {"" : ""

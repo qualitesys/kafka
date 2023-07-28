@@ -281,7 +281,7 @@ var maDataBlocs = {
  , "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#120"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00120] For method unmap list of called methods Object monObjet|org.apache.kafka.clients.admin.internals.AdminApiLookupStrategy handler_lookupStrategyN232583|java.util.OptionalInt lookupScope_destinationBrokerIdN232699"
+ , "c3" : "QC-JAV000007[00120] For method unmap list of called methods Object monObjet|org.apache.kafka.clients.admin.internals.AdminApiLookupStrategy&lt;K&gt; handler_lookupStrategyN232583|java.util.OptionalInt lookupScope_destinationBrokerIdN232699"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -386,7 +386,7 @@ var maDataBlocs = {
  , "c1" : "00206"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#206"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00206] For method onResponse list of called methods Object monObjet|ApiResult handler_handleResponseN236696|org.apache.kafka.clients.admin.internals.AdminApiLookupStrategy handler_lookupStrategyN237105"
+ , "c3" : "QC-JAV000007[00206] For method onResponse list of called methods Object monObjet|ApiResult&lt;K,V&gt; handler_handleResponseN236696|org.apache.kafka.clients.admin.internals.AdminApiLookupStrategy&lt;K&gt; handler_lookupStrategyN237105"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html" 
- , "texte" : "File streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java 25 rule violations " 
+ , "texte" : "File streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java 26 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -152,12 +152,28 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV000003"
  , "c3" : "High risk of strong class coupling"
  , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -208,21 +224,21 @@ var maDataBlocs = {
  , "c1" : "00079"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#79"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00079] For method readValue list of called methods Object monObjet|TestRecord readRecordN186361"
+ , "c3" : "QC-JAV000007[00079] For method readValue list of called methods Object monObjet|TestRecord&lt;K,V&gt; readRecordN186361"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#89"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00089] For method readKeyValue list of called methods Object monObjet|TestRecord readRecordN186728"
+ , "c3" : "QC-JAV000007[00089] For method readKeyValue list of called methods Object monObjet|TestRecord&lt;K,V&gt; readRecordN186728"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#131"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00131] For method readKeyValuesToMap list of called methods Object monObjet|TestRecord readRecordN188722"
+ , "c3" : "QC-JAV000007[00131] For method readKeyValuesToMap list of called methods Object monObjet|TestRecord&lt;K,V&gt; readRecordN188722"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -243,7 +259,7 @@ var maDataBlocs = {
  , "c1" : "00149"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#149"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00149] For method readKeyValuesToList list of called methods Object monObjet|org.apache.kafka.streams.KeyValue readKeyValueN189601"
+ , "c3" : "QC-JAV000007[00149] For method readKeyValuesToList list of called methods Object monObjet|org.apache.kafka.streams.KeyValue&lt;K,V&gt; readKeyValueN189601"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -349,6 +365,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#164"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00164] Public method readValuesToList is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestOutputTopic.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TestOutputTopic.readValue@POLYN186242"
 }} 
 ]
 , 

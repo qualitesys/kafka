@@ -558,7 +558,7 @@ var maDataBlocs = {
  , "c1" : "00220"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#220"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00220] For method iterator list of called methods Object monObjet|java.util.Set idToAcl_entrySetN200676"
+ , "c3" : "QC-JAV000007[00220] For method iterator list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; idToAcl_entrySetN200676"
 }} 
 ]
 , 

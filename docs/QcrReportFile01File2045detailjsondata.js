@@ -140,7 +140,7 @@ var maDataBlocs = {
  , "c1" : "00052"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeKeyValueIterator.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00052] For method hasNext list of called methods Object monObjet|org.apache.kafka.streams.state.KeyValueIterator nextIteratorFunction_applyN157443"
+ , "c3" : "QC-JAV000007[00052] For method hasNext list of called methods Object monObjet|org.apache.kafka.streams.state.KeyValueIterator&lt;K,V&gt; nextIteratorFunction_applyN157443"
 }} 
 ,
 { "ligne" : {"" : ""

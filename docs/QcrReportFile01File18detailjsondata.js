@@ -259,7 +259,7 @@ var maDataBlocs = {
  , "c1" : "00136"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#136"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00136] For method mergeWith list of called methods Object monObjet|java.util.Set topicIds_entrySetN194702"
+ , "c3" : "QC-JAV000007[00136] For method mergeWith list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; topicIds_entrySetN194702|V topicIds_getN195242"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -308,7 +308,7 @@ var maDataBlocs = {
  , "c1" : "00199"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#199"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00199] For method computeClusterView list of called methods Object monObjet|java.util.Collection metadataByPartition_valuesN197797"
+ , "c3" : "QC-JAV000007[00199] For method computeClusterView list of called methods Object monObjet|java.util.Collection&lt;V&gt; metadataByPartition_valuesN197797"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -689,7 +689,7 @@ var maDataBlocs = {
  , "c1" : "00364"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#364"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00364] For method maybeOptimizeRepartitionOperations list of called methods Object monObjet|java.util.Set keyChangingOperationsToOptimizableRepartitionNodes_entrySetN254217"
+ , "c3" : "QC-JAV000007[00364] For method maybeOptimizeRepartitionOperations list of called methods Object monObjet|java.util.Set&lt;Map.Entry&lt;K,V&gt;&gt; keyChangingOperationsToOptimizableRepartitionNodes_entrySetN254217|java.lang.String getFirstRepartitionTopicNameN254935|org.apache.kafka.streams.kstream.internals.graph.GraphNode findParentNodeMatchingN255438|java.util.Collection&lt;org.apache.kafka.streams.kstream.internals.graph.GraphNode&gt; repartitionNodeToBeReplaced_childrenN256287|java.util.Collection&lt;org.apache.kafka.streams.kstream.internals.graph.GraphNode&gt; repartitionNodeToBeReplaced_parentNodesN256390"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -864,7 +864,7 @@ var maDataBlocs = {
  , "c1" : "00435"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#435"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00435] For method maybeUpdateKeyChangingRepartitionNodeMap list of called methods Object monObjet|java.util.Set keyChangingOperationsToOptimizableRepartitionNodes_entrySetN257918"
+ , "c3" : "QC-JAV000007[00435] For method maybeUpdateKeyChangingRepartitionNodeMap list of called methods Object monObjet|java.util.Set&lt;Map.Entry&lt;K,V&gt;&gt; keyChangingOperationsToOptimizableRepartitionNodes_entrySetN257918|org.apache.kafka.streams.kstream.internals.graph.GraphNode findParentNodeMatchingN258290"
 }} 
 ,
 { "ligne" : {"" : ""

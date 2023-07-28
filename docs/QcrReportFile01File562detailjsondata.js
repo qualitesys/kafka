@@ -688,7 +688,7 @@ var maDataBlocs = {
  , "c1" : "00277"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#277"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00277] For method downConvert list of called methods Object monObjet|org.apache.kafka.common.record.ConvertedRecords RecordsUtil_downConvertN249137"
+ , "c3" : "QC-JAV000007[00277] For method downConvert list of called methods Object monObjet|org.apache.kafka.common.record.ConvertedRecords&lt;org.apache.kafka.common.record.MemoryRecords&gt; RecordsUtil_downConvertN249137"
 }} 
 ,
 { "ligne" : {"" : ""

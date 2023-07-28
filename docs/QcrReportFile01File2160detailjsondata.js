@@ -315,7 +315,7 @@ var maDataBlocs = {
  , "c1" : "00275"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#275"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00275] For method prefixScanSensor list of called methods Object monObjet|java.util.Map streamsMetrics_storeLevelTagMapN215044|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN215189"
+ , "c3" : "QC-JAV000007[00275] For method prefixScanSensor list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_storeLevelTagMapN215044|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN215189"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -413,7 +413,7 @@ var maDataBlocs = {
  , "c1" : "00422"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#422"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00422] For method e2ELatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN219013|java.util.Map streamsMetrics_storeLevelTagMapN219225"
+ , "c3" : "QC-JAV000007[00422] For method e2ELatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN219013|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_storeLevelTagMapN219225"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -434,7 +434,7 @@ var maDataBlocs = {
  , "c1" : "00440"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#440"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00440] For method sizeOrCountSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN219877|java.util.Map streamsMetrics_storeLevelTagMapN220199"
+ , "c3" : "QC-JAV000007[00440] For method sizeOrCountSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN219877|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_storeLevelTagMapN220199"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -455,7 +455,7 @@ var maDataBlocs = {
  , "c1" : "00457"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/StateStoreMetrics.java.html#457"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00457] For method throughputAndLatencySensor list of called methods Object monObjet|java.util.Map streamsMetrics_storeLevelTagMapN221014|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN221151"
+ , "c3" : "QC-JAV000007[00457] For method throughputAndLatencySensor list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_storeLevelTagMapN221014|org.apache.kafka.common.metrics.Sensor streamsMetrics_storeLevelSensorN221151"
 }} 
 ,
 { "ligne" : {"" : ""

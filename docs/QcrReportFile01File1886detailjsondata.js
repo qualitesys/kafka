@@ -352,14 +352,14 @@ var maDataBlocs = {
  , "c1" : "00250"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#250"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00250] For method initialize list of called methods Object monObjet|java.util.Map stateMaintainer_initializeN218510"
+ , "c3" : "QC-JAV000007[00250] For method initialize list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,java.lang.Long&gt; stateMaintainer_initializeN218510"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00259"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#259"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00259] For method pollAndUpdate list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerRecords globalConsumer_pollN219120"
+ , "c3" : "QC-JAV000007[00259] For method pollAndUpdate list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerRecords&lt;K,V&gt; globalConsumer_pollN219120"
 }} 
 ,
 { "ligne" : {"" : ""

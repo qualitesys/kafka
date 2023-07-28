@@ -928,7 +928,7 @@ var maDataBlocs = {
  , "c1" : "00413"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#413"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00413] For method range list of called methods Object monObjet|org.apache.kafka.streams.state.KeyValueIterator dbAccessor_rangeN271949"
+ , "c3" : "QC-JAV000007[00413] For method range list of called methods Object monObjet|KeyValueIterator&lt;Bytes,byte[]&gt; dbAccessor_rangeN271949"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1012,7 +1012,7 @@ var maDataBlocs = {
  , "c1" : "00442"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#442"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00442] For method all list of called methods Object monObjet|org.apache.kafka.streams.state.KeyValueIterator dbAccessor_allN272758"
+ , "c3" : "QC-JAV000007[00442] For method all list of called methods Object monObjet|KeyValueIterator&lt;Bytes,byte[]&gt; dbAccessor_allN272758"
 }} 
 ,
 { "ligne" : {"" : ""

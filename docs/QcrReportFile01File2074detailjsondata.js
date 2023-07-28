@@ -241,7 +241,7 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#82"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00082] For method putInternal list of called methods Object monObjet|org.apache.kafka.common.serialization.Deserializer LIST_SERDE_deserializerN177064"
+ , "c3" : "QC-JAV000007[00082] For method putInternal list of called methods Object monObjet|org.apache.kafka.common.serialization.Deserializer&lt;T&gt; LIST_SERDE_deserializerN177064"
 }} 
 ,
 { "ligne" : {"" : ""

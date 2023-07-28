@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java 1048 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java 1062 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -753,6 +753,21 @@ var maDataBlocs = {
 ]
 ,
 "data12b" : [
+{ "sequence" : { "noseq" : "0" , "pas" : [
+{ "ligne" : "S0:org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN584406 (R0 in line [01387],R1 in line [01387])" }
+,
+{ "ligne" : "S0:org.apache.kafka.connect.runtime.RestartRequest.connectorName@POLYN171106" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "1" , "pas" : [
+{ "ligne" : "S1:org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN584406 (R0 in line [01387],R1 in line [01387])" }
+,
+{ "ligne" : "S1:org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN584406 (R0 in line [01387],R1 in line [01387])" }
+,
+{ "ligne" : "S1:org.apache.kafka.connect.runtime.RestartRequest.connectorName@POLYN171106" }
+ ]
+ } }
 ]
 ,
 "data12c" : [
@@ -768,9 +783,16 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVCWE833"
+ , "c3" : "Potential deadlock between at least two ressources"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "301"
+ , "c4" : "313"
 }}
 ,
 { "ligne" : { "" : ""
@@ -3495,7 +3517,7 @@ var maDataBlocs = {
  , "c1" : "01327"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1327"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01327] For method restartConnectorAndTasks list of called methods Object monObjet|java.lang.String request_connectorNameN581766|java.util.Optional buildRestartPlanN582520"
+ , "c3" : "QC-JAV000007[01327] For method restartConnectorAndTasks list of called methods Object monObjet|java.lang.String request_connectorNameN581766|java.util.Optional&lt;org.apache.kafka.connect.runtime.RestartPlan&gt; buildRestartPlanN582520"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3635,7 +3657,7 @@ var maDataBlocs = {
  , "c1" : "01387"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1387"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01387] For method doRestartConnectorAndTasks list of called methods Object monObjet|java.lang.String request_connectorNameN584501|java.util.Optional buildRestartPlanN584599"
+ , "c3" : "QC-JAV000007[01387] For method doRestartConnectorAndTasks list of called methods Object monObjet|java.lang.String request_connectorNameN584501|java.util.Optional&lt;org.apache.kafka.connect.runtime.RestartPlan&gt; buildRestartPlanN584599|V maybePlan_getN584899|java.util.Collection&lt;org.apache.kafka.connect.util.ConnectorTaskId&gt; plan_taskIdsToRestartN585159|boolean plan_shouldRestartConnectorN585444"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4188,7 +4210,7 @@ var maDataBlocs = {
  , "c1" : "01700"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1700"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01700] For method startTask list of called methods Object monObjet|java.util.Map configState_connectorConfigN598083|java.lang.Integer configState_taskConfigGenerationN598692"
+ , "c3" : "QC-JAV000007[01700] For method startTask list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; configState_connectorConfigN598083|java.lang.Integer configState_taskConfigGenerationN598692"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4279,7 +4301,7 @@ var maDataBlocs = {
  , "c1" : "01776"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1776"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01776] For method startConnector list of called methods Object monObjet|java.util.Map configState_connectorConfigN601338|TargetState configState_targetStateN601559"
+ , "c3" : "QC-JAV000007[01776] For method startConnector list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; configState_connectorConfigN601338|TargetState configState_targetStateN601559"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5553,7 +5575,7 @@ var maDataBlocs = {
  , "c1" : "02453"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2453"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02453] For method start list of called methods Object monObjet|org.apache.kafka.common.KafkaFuture worker_fenceZombiesN630775"
+ , "c3" : "QC-JAV000007[02453] For method start list of called methods Object monObjet|org.apache.kafka.common.KafkaFuture&lt;java.lang.Void&gt; worker_fenceZombiesN630775"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5776,6 +5798,20 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : org.apache.kafka.connect.runtime.distributed.DistributedHerder.this"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN584406.request"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.DistributedHerder.run@POLYN534632"
 }} 
@@ -5833,13 +5869,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.DistributedHerder.stopReconfiguredTasks@POLYN549994"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.DistributedHerder.handleRebalanceCompleted@POLYN589372"
 }} 
 ,
@@ -5875,20 +5904,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN571667"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.DistributedHerder.validateSinkConnectorConfig@POLYN558279"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.DistributedHerder.leaderUrl@POLYN588089"
 }} 
 ,
@@ -5897,6 +5912,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN541609"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN584406"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5960,6 +5982,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectorInfo@POLYN554344"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN571667"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6030,6 +6059,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.DistributedHerder.stop@POLYN552691"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.DistributedHerder.stopReconfiguredTasks@POLYN549994"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6565,20 +6601,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00723"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#723"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00723] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedHerder.stopReconfiguredTasks@POLYN549994 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00737"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#737"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00737] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedHerder.stopReconfiguredTasks@POLYN549994 the MagicNumber/String 'Handling task config update by stopping tasks {}, which will be restarted after rebalance if still assigned to this worker' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01488"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1488"
  , "c2" : "BLOCKER"
@@ -6908,13 +6930,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01145"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1145"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01145] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN571667 the MagicNumber/String 'Submitting zombie fencing request {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01456"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1456"
  , "c2" : "BLOCKER"
@@ -7010,6 +7025,90 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#552"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00552] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedHerder.checkForKeyRotation@POLYN541609 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01391"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1391"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01391] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN584406 the MagicNumber/String 'Skipping restart of connector '{}' since no status is available: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01395"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1395"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01395] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN584406 the MagicNumber/String 'Executing {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01419"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1419"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01419] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN584406 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01420"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1420"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01420] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN584406 the MagicNumber/String 'Connector '{}' restart successful' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01422"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1422"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01422] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN584406 the MagicNumber/String 'Connector '{}' restart failed' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01426"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1426"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01426] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN584406 the MagicNumber/String 'Connector '{}' restart failed' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01430"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1430"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01430] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN584406 the MagicNumber/String 'Restarting {} of {} tasks for {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01434"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1434"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01434] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN584406 the MagicNumber/String 'Task '{}' restart successful' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01436"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1436"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01436] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN584406 the MagicNumber/String 'Task '{}' restart failed' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01439"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1439"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01439] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN584406 the MagicNumber/String 'Task '{}' restart failed' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01442"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1442"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01442] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN584406 the MagicNumber/String 'Restarted {} of {} tasks for {} as requested' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01444"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1444"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01444] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedHerder.doRestartConnectorAndTasks@POLYN584406 the MagicNumber/String 'Completed {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -7199,6 +7298,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#834"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00834] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedHerder.connectorInfo@POLYN554344 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01145"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1145"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01145] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedHerder.fenceZombieSourceTasks@POLYN571667 the MagicNumber/String 'Submitting zombie fencing request {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -7885,6 +7991,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#802"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00802] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedHerder.stop@POLYN552691 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00723"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#723"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00723] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedHerder.stopReconfiguredTasks@POLYN549994 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00737"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#737"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00737] In the recursive method org.apache.kafka.connect.runtime.distributed.DistributedHerder.stopReconfiguredTasks@POLYN549994 the MagicNumber/String 'Handling task config update by stopping tasks {}, which will be restarted after rebalance if still assigned to this worker' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -209,7 +209,7 @@ var maDataBlocs = {
  , "c1" : "00065"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00065] For method apply list of called methods Object monObjet|java.util.List schema_typeN180359"
+ , "c3" : "QC-JAV000007[00065] For method apply list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.connect.source.SourceRecord&gt; schema_typeN180359"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -769,7 +769,7 @@ var maDataBlocs = {
  , "c1" : "00421"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#421"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00421] For method checkDisconnects list of called methods Object monObjet|java.util.Collection unsent_removeN270370"
+ , "c3" : "QC-JAV000007[00421] For method checkDisconnects list of called methods Object monObjet|java.util.Collection&lt;org.apache.kafka.clients.ClientRequest&gt; unsent_removeN270370|org.apache.kafka.common.errors.AuthenticationException client_authenticationExceptionN270636"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -888,7 +888,7 @@ var maDataBlocs = {
  , "c1" : "00463"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#463"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00463] For method failExpiredRequests list of called methods Object monObjet|java.util.Collection unsent_removeExpiredRequestsN272009"
+ , "c3" : "QC-JAV000007[00463] For method failExpiredRequests list of called methods Object monObjet|java.util.Collection&lt;org.apache.kafka.clients.ClientRequest&gt; unsent_removeExpiredRequestsN272009"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -951,7 +951,7 @@ var maDataBlocs = {
  , "c1" : "00486"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#486"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00486] For method trySend list of called methods Object monObjet|java.util.Iterator unsent_requestIteratorN273286"
+ , "c3" : "QC-JAV000007[00486] For method trySend list of called methods Object monObjet|java.util.Iterator&lt;org.apache.kafka.clients.ClientRequest&gt; unsent_requestIteratorN273286"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1203,7 +1203,7 @@ var maDataBlocs = {
  , "c1" : "00693"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#693"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00693] For method clean list of called methods Object monObjet|java.util.Collection unsent_valuesN281812"
+ , "c3" : "QC-JAV000007[00693] For method clean list of called methods Object monObjet|java.util.Collection&lt;V&gt; unsent_valuesN281812"
 }} 
 ,
 { "ligne" : {"" : ""

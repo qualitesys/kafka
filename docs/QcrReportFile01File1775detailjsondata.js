@@ -101,7 +101,7 @@ var maDataBlocs = {
  , "c1" : "00037"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TransformerSupplierAdapter.java.html#37"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00037] For method get list of called methods Object monObjet|org.apache.kafka.streams.kstream.Transformer transformerSupplier_getN159310"
+ , "c3" : "QC-JAV000007[00037] For method get list of called methods Object monObjet|org.apache.kafka.streams.kstream.Transformer&lt;K,V,R&gt; transformerSupplier_getN159310"
 }} 
 ,
 { "ligne" : {"" : ""

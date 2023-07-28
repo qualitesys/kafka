@@ -134,7 +134,7 @@ var maDataBlocs = {
  , "c1" : "00078"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/ForeignJoinSubscriptionProcessorSupplier.java.html#78"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00078] For method process list of called methods Object monObjet|org.apache.kafka.streams.processor.api.ProcessorContext contextN174528"
+ , "c3" : "QC-JAV000007[00078] For method process list of called methods Object monObjet|org.apache.kafka.streams.processor.api.ProcessorContext&lt;KOut,VOut&gt; contextN174528"
 }} 
 ,
 { "ligne" : {"" : ""

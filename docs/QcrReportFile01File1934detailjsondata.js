@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java 110 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java 115 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -229,7 +229,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "27"
+ , "c4" : "31"
 }}
 ,
 { "ligne" : { "" : ""
@@ -243,7 +243,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "8"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : { "" : ""
@@ -497,7 +497,7 @@ var maDataBlocs = {
  , "c1" : "00184"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#184"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00184] For method resetProducer list of called methods Object monObjet|double totalBlockedTimeN205625|org.apache.kafka.clients.producer.Producer clientSupplier_getProducerN206002"
+ , "c3" : "QC-JAV000007[00184] For method resetProducer list of called methods Object monObjet|double totalBlockedTimeN205625|Producer&lt;byte[],byte[]&gt; clientSupplier_getProducerN206002"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -525,7 +525,7 @@ var maDataBlocs = {
  , "c1" : "00199"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#199"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00199] For method getMetricValue list of called methods Object monObjet|java.util.Set metrics_keySetN206329|java.lang.String String_formatN206814"
+ , "c3" : "QC-JAV000007[00199] For method getMetricValue list of called methods Object monObjet|java.util.Set&lt;K&gt; metrics_keySetN206329|java.lang.String String_formatN206814"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -812,6 +812,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsProducer.commitTransaction@POLYN210054"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamsProducer.close@POLYN212657"
 }} 
 ,
@@ -869,6 +876,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#269"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00269] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.send@POLYN208919 the MagicNumber/String 'Error encountered trying to send record to topic %s' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#289"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.commitTransaction@POLYN210054 the MagicNumber/String 'Exactly-once is not enabled' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00298"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#298"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00298] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.commitTransaction@POLYN210054 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00301"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#301"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00301] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.commitTransaction@POLYN210054 the MagicNumber/String 'Producer got fenced trying to commit a transaction' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00309"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#309"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00309] In the recursive method org.apache.kafka.streams.processor.internals.StreamsProducer.commitTransaction@POLYN210054 the MagicNumber/String 'Error encountered trying to commit a transaction' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -111,7 +111,7 @@ var maDataBlocs = {
  , "c1" : "00032"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/replica/RackAwareReplicaSelector.java.html#32"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00032] For method select list of called methods Object monObjet|java.util.Set partitionView_replicasN156483"
+ , "c3" : "QC-JAV000007[00032] For method select list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.replica.ReplicaView&gt; partitionView_replicasN156483"
 }} 
 ,
 { "ligne" : {"" : ""

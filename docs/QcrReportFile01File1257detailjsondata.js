@@ -290,7 +290,7 @@ var maDataBlocs = {
  , "c1" : "00218"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#218"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00218] For method processDirectories list of called methods Object monObjet|java.util.List createTypeClassGeneratorsN204782"
+ , "c3" : "QC-JAV000007[00218] For method processDirectories list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.message.TypeClassGenerator&gt; createTypeClassGeneratorsN204782"
 }} 
 ,
 { "ligne" : {"" : ""

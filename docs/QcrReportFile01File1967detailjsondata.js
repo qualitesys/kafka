@@ -341,7 +341,7 @@ var maDataBlocs = {
  , "c1" : "00074"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00074] For method assignStandby list of called methods Object monObjet|java.util.Set findClientsWithoutAssignedTaskN199080"
+ , "c3" : "QC-JAV000007[00074] For method assignStandby list of called methods Object monObjet|java.util.Set&lt;java.util.UUID&gt; findClientsWithoutAssignedTaskN199080"
 }} 
 ,
 { "ligne" : {"" : ""

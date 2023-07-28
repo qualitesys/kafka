@@ -406,7 +406,7 @@ var maDataBlocs = {
  , "c1" : "00171"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#171"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00171] For method registerStore list of called methods Object monObjet|java.util.List topicPartitionsForStoreN221794"
+ , "c3" : "QC-JAV000007[00171] For method registerStore list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; topicPartitionsForStoreN221794"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -511,7 +511,7 @@ var maDataBlocs = {
  , "c1" : "00240"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#240"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00240] For method restoreState list of called methods Object monObjet|V checkpointFileCache_getN224148|long getGlobalConsumerOffsetN224590|V highWatermarks_getN224686|org.apache.kafka.streams.processor.internals.RecordBatchingStateRestoreCallback StateRestoreCallbackAdapter_adaptN224787|org.apache.kafka.clients.consumer.ConsumerRecords globalConsumer_pollN225204|long maybeUpdateDeadlineOrThrowN225366|long getGlobalConsumerOffsetN226062|int restoreRecords_sizeN226375"
+ , "c3" : "QC-JAV000007[00240] For method restoreState list of called methods Object monObjet|V checkpointFileCache_getN224148|long getGlobalConsumerOffsetN224590|V highWatermarks_getN224686|org.apache.kafka.streams.processor.internals.RecordBatchingStateRestoreCallback StateRestoreCallbackAdapter_adaptN224787|org.apache.kafka.clients.consumer.ConsumerRecords&lt;K,V&gt; globalConsumer_pollN225204|long maybeUpdateDeadlineOrThrowN225366|long getGlobalConsumerOffsetN226062|int restoreRecords_sizeN226375"
 }} 
 ,
 { "ligne" : {"" : ""

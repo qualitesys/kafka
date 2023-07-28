@@ -124,7 +124,7 @@ var maDataBlocs = {
  , "c1" : "00052"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableRepartitionMap.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00052] For method view list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.KTableValueGetterSupplier parent_valueGetterSupplierN173961"
+ , "c3" : "QC-JAV000007[00052] For method view list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.KTableValueGetterSupplier&lt;K,V&gt; parent_valueGetterSupplierN173961"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -285,7 +285,7 @@ var maDataBlocs = {
  , "c1" : "00123"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableRepartitionMap.java.html#123"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00123] For method get list of called methods Object monObjet|org.apache.kafka.streams.state.ValueAndTimestamp parentGetter_getN177659"
+ , "c3" : "QC-JAV000007[00123] For method get list of called methods Object monObjet|org.apache.kafka.streams.state.ValueAndTimestamp&lt;V&gt; parentGetter_getN177659"
 }} 
 ,
 { "ligne" : {"" : ""

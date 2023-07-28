@@ -384,7 +384,7 @@ var maDataBlocs = {
  , "c1" : "00198"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#198"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00198] For method updateHead list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerRecord recordDeserializer_deserializeN186961|long consumerRecordSizeInBytesN188375"
+ , "c3" : "QC-JAV000007[00198] For method updateHead list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerRecord&lt;java.lang.Object,java.lang.Object&gt; recordDeserializer_deserializeN186961|long consumerRecordSizeInBytesN188375"
 }} 
 ,
 { "ligne" : {"" : ""

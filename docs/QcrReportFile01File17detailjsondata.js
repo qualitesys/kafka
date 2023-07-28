@@ -884,7 +884,7 @@ var maDataBlocs = {
  , "c1" : "00227"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#227"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00227] For method currentLeader list of called methods Object monObjet|java.util.Optional partitionMetadataIfCurrentN260367"
+ , "c3" : "QC-JAV000007[00227] For method currentLeader list of called methods Object monObjet|java.util.Optional&lt;MetadataResponse.PartitionMetadata&gt; partitionMetadataIfCurrentN260367|V maybeMetadata_getN260717"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1066,7 +1066,7 @@ var maDataBlocs = {
  , "c1" : "00317"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#317"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00317] For method handleMetadataResponse list of called methods Object monObjet|org.apache.kafka.clients.MetadataCache metadata_topicN266092|org.apache.kafka.clients.MetadataCache metadata_topicIdN266169|V oldTopicIds_getN266571|java.util.Map metadataResponse_brokersByIdN268359"
+ , "c3" : "QC-JAV000007[00317] For method handleMetadataResponse list of called methods Object monObjet|org.apache.kafka.clients.MetadataCache metadata_topicN266092|org.apache.kafka.clients.MetadataCache metadata_topicIdN266169|V oldTopicIds_getN266571|java.util.Map&lt;java.lang.Integer,org.apache.kafka.common.Node&gt; metadataResponse_brokersByIdN268359"
 }} 
 ,
 { "ligne" : {"" : ""

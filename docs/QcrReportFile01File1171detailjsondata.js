@@ -1267,7 +1267,7 @@ var maDataBlocs = {
  , "c1" : "00664"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#664"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00664] For method setupAndCreateKafkaBasedLog list of called methods Object monObjet|java.lang.String ConnectUtils_lookupKafkaClusterIdN390670|java.util.Map config_originalsN390803|org.apache.kafka.connect.util.TopicAdmin.NewTopicBuilder TopicAdmin_defineTopicN392556"
+ , "c3" : "QC-JAV000007[00664] For method setupAndCreateKafkaBasedLog list of called methods Object monObjet|java.lang.String ConnectUtils_lookupKafkaClusterIdN390670|java.util.Map&lt;java.lang.String,java.lang.Object&gt; config_originalsN390803|org.apache.kafka.connect.util.TopicAdmin.NewTopicBuilder TopicAdmin_defineTopicN392556"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1372,7 +1372,7 @@ var maDataBlocs = {
  , "c1" : "00733"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#733"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00733] For method createKafkaBasedLog list of called methods Object monObjet|org.apache.kafka.connect.util.KafkaBasedLog admin_createTopicsN394987"
+ , "c3" : "QC-JAV000007[00733] For method createKafkaBasedLog list of called methods Object monObjet|KafkaBasedLog&lt;String,byte[]&gt; admin_createTopicsN394987"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1764,7 +1764,7 @@ var maDataBlocs = {
  , "c1" : "00915"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#915"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00915] For method processTasksCommitRecord list of called methods Object monObjet|V deferredTaskUpdates_getN406021|java.util.Set taskIdsN406410"
+ , "c3" : "QC-JAV000007[00915] For method processTasksCommitRecord list of called methods Object monObjet|V deferredTaskUpdates_getN406021|java.util.Set&lt;java.lang.Integer&gt; taskIdsN406410"
 }} 
 ,
 { "ligne" : {"" : ""

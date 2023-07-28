@@ -131,7 +131,7 @@ var maDataBlocs = {
  , "c1" : "00044"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00044] For method completeUpTo list of called methods Object monObjet|java.util.Set pending_entrySetN164780"
+ , "c3" : "QC-JAV000007[00044] For method completeUpTo list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; pending_entrySetN164780"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -166,7 +166,7 @@ var maDataBlocs = {
  , "c1" : "00063"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00063] For method failAll list of called methods Object monObjet|java.util.Set pending_entrySetN165637"
+ , "c3" : "QC-JAV000007[00063] For method failAll list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; pending_entrySetN165637"
 }} 
 ,
 { "ligne" : {"" : ""

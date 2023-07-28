@@ -457,7 +457,7 @@ var maDataBlocs = {
  , "c1" : "00143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#143"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00143] For method putAndMaybeForward list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes baseKeyCacheFunction_keyN263327|boolean PrefixedWindowKeySchemas_isTimeFirstSchemaKeyN263468|org.apache.kafka.common.utils.Bytes indexKeyToBaseKeyN263663|org.apache.kafka.common.utils.Bytes baseKeyCacheFunction_cacheKeyN263922|org.apache.kafka.streams.state.internals.ThreadCache context_cacheN264023|org.apache.kafka.common.utils.Bytes Bytes_wrapN264574|org.apache.kafka.streams.kstream.Windowed TimeFirstWindowKeySchema_fromStoreBytesKeyN265119|org.apache.kafka.streams.kstream.Windowed KeyFirstWindowKeySchema_fromStoreBytesKeyN265253|org.apache.kafka.streams.kstream.Window windowedKeyBytes_windowN265379|K windowedKeyBytes_keyN265481"
+ , "c3" : "QC-JAV000007[00143] For method putAndMaybeForward list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes baseKeyCacheFunction_keyN263327|boolean PrefixedWindowKeySchemas_isTimeFirstSchemaKeyN263468|org.apache.kafka.common.utils.Bytes indexKeyToBaseKeyN263663|org.apache.kafka.common.utils.Bytes baseKeyCacheFunction_cacheKeyN263922|org.apache.kafka.streams.state.internals.ThreadCache context_cacheN264023|org.apache.kafka.common.utils.Bytes Bytes_wrapN264574|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; TimeFirstWindowKeySchema_fromStoreBytesKeyN265119|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; KeyFirstWindowKeySchema_fromStoreBytesKeyN265253|org.apache.kafka.streams.kstream.Window windowedKeyBytes_windowN265379|K windowedKeyBytes_keyN265481"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1269,13 +1269,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.getWrappedStore@POLYN260855"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN274453"
 }} 
 ,
@@ -1284,6 +1277,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetch@POLYN275690"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.getWrappedStore@POLYN260855"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1312,13 +1312,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetchAll@POLYN278571"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#107"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.getWrappedStore@POLYN260855 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1438,6 +1431,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#420"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00420] In the recursive method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetch@POLYN275690 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.getWrappedStore@POLYN260855 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

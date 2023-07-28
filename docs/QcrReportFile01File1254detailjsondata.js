@@ -222,7 +222,7 @@ var maDataBlocs = {
  , "c1" : "00046"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00046] For method generateAndWrite list of called methods Object monObjet|java.util.Iterator structRegistry_structsN238857"
+ , "c3" : "QC-JAV000007[00046] For method generateAndWrite list of called methods Object monObjet|java.util.Iterator&lt;org.apache.kafka.message.StructRegistry.StructInfo&gt; structRegistry_structsN238857"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -234,7 +234,7 @@ var maDataBlocs = {
  , "c1" : "00096"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#96"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00096] For method accept list of called methods Object monObjet|boolean glob_startsWithN173185|java.util.List CommandUtils_stripDotPathComponentsN173414"
+ , "c3" : "QC-JAV000007[00096] For method accept list of called methods Object monObjet|boolean glob_startsWithN173185|java.util.List&lt;java.lang.String&gt; CommandUtils_stripDotPathComponentsN173414"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -1063,7 +1063,7 @@ var maDataBlocs = {
  , "c1" : "00454"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#454"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00454] For method reenqueue list of called methods Object monObjet|java.util.Deque getOrCreateDequeN345092"
+ , "c3" : "QC-JAV000007[00454] For method reenqueue list of called methods Object monObjet|java.util.Deque&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; getOrCreateDequeN345092"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1098,7 +1098,7 @@ var maDataBlocs = {
  , "c1" : "00469"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#469"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00469] For method splitAndReenqueue list of called methods Object monObjet|java.util.Deque bigBatch_splitN345896"
+ , "c3" : "QC-JAV000007[00469] For method splitAndReenqueue list of called methods Object monObjet|java.util.Deque&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; bigBatch_splitN345896|int dq_sizeN346002|java.util.Deque&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; getOrCreateDequeN346100"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1595,7 +1595,7 @@ var maDataBlocs = {
  , "c1" : "00778"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#778"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00778] For method drainBatchesForOneNode list of called methods Object monObjet|java.util.List cluster_partitionsForNodeN358753"
+ , "c3" : "QC-JAV000007[00778] For method drainBatchesForOneNode list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_partitionsForNodeN358753|int getDrainIndexN358976|V parts_getN359227|java.util.Deque&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; getDequeN359827|int first_attemptsN360217|org.apache.kafka.common.record.MemoryRecords batch_recordsN361915"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1770,7 +1770,7 @@ var maDataBlocs = {
  , "c1" : "00880"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#880"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00880] For method drain list of called methods Object monObjet|java.util.List drainBatchesForOneNodeN363569"
+ , "c3" : "QC-JAV000007[00880] For method drain list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; drainBatchesForOneNodeN363569"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1924,7 +1924,7 @@ var maDataBlocs = {
  , "c1" : "01038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#1038"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01038] For method abortBatches list of called methods Object monObjet|java.util.Deque getDequeN368227"
+ , "c3" : "QC-JAV000007[01038] For method abortBatches list of called methods Object monObjet|java.util.Deque&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; getDequeN368227"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1952,7 +1952,7 @@ var maDataBlocs = {
  , "c1" : "01053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#1053"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01053] For method abortUndrainedBatches list of called methods Object monObjet|java.util.Deque getDequeN368848"
+ , "c3" : "QC-JAV000007[01053] For method abortUndrainedBatches list of called methods Object monObjet|java.util.Deque&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; getDequeN368848"
 }} 
 ,
 { "ligne" : {"" : ""

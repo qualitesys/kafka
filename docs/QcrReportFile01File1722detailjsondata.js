@@ -145,7 +145,7 @@ var maDataBlocs = {
  , "c1" : "00061"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamKTableJoinProcessor.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00061] For method process list of called methods Object monObjet|VR keyMapper_applyN167433|org.apache.kafka.streams.processor.api.ProcessorContext contextN167836"
+ , "c3" : "QC-JAV000007[00061] For method process list of called methods Object monObjet|VR keyMapper_applyN167433|org.apache.kafka.streams.processor.api.ProcessorContext&lt;KOut,VOut&gt; contextN167836"
 }} 
 ,
 { "ligne" : {"" : ""

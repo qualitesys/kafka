@@ -198,7 +198,7 @@ var maDataBlocs = {
  , "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#100"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00100] For method unmapJava7Or8 list of called methods Object monObjet|java.lang.Class Class_forNameN172761|java.lang.reflect.Method directBufferClass_getMethodN172859"
+ , "c3" : "QC-JAV000007[00100] For method unmapJava7Or8 list of called methods Object monObjet|java.lang.Class&lt;?&gt; Class_forNameN172761|java.lang.reflect.Method directBufferClass_getMethodN172859"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -268,7 +268,7 @@ var maDataBlocs = {
  , "c1" : "00125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#125"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00125] For method unmapJava9 list of called methods Object monObjet|java.lang.Class Class_forNameN174446|java.lang.reflect.Field unsafeClass_getDeclaredFieldN174753"
+ , "c3" : "QC-JAV000007[00125] For method unmapJava9 list of called methods Object monObjet|java.lang.Class&lt;?&gt; Class_forNameN174446|java.lang.reflect.Field unsafeClass_getDeclaredFieldN174753"
 }} 
 ,
 { "ligne" : {"" : ""

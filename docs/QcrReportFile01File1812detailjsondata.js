@@ -164,7 +164,7 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamTableJoinNode.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00057] For method writeToTopology list of called methods Object monObjet|java.lang.String processorParameters_processorNameN157378|org.apache.kafka.streams.processor.api.ProcessorSupplier processorParameters_processorSupplierN157517"
+ , "c3" : "QC-JAV000007[00057] For method writeToTopology list of called methods Object monObjet|java.lang.String processorParameters_processorNameN157378|org.apache.kafka.streams.processor.api.ProcessorSupplier&lt;KIn,VIn,KOut,VOut&gt; processorParameters_processorSupplierN157517"
 }} 
 ,
 { "ligne" : {"" : ""

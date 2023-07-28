@@ -843,7 +843,7 @@ var maDataBlocs = {
  , "c1" : "00453"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html#453"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00453] For method hasNext list of called methods Object monObjet|org.apache.kafka.streams.KeyValue getNextN248451"
+ , "c3" : "QC-JAV000007[00453] For method hasNext list of called methods Object monObjet|KeyValue&lt;Windowed&lt;Bytes&gt;,byte[]&gt; getNextN248451"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -920,7 +920,7 @@ var maDataBlocs = {
  , "c1" : "00515"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html#515"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00515] For method setAllIterators list of called methods Object monObjet|java.util.Set subKVMap_entrySetN251889"
+ , "c3" : "QC-JAV000007[00515] For method setAllIterators list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; subKVMap_entrySetN251889"
 }} 
 ,
 { "ligne" : {"" : ""

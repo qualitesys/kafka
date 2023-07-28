@@ -120,7 +120,7 @@ var maDataBlocs = {
  , "c1" : "00038"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionCacheFlushListener.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00038] For method apply list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.ProcessorNode context_currentNodeN157312"
+ , "c3" : "QC-JAV000007[00038] For method apply list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.ProcessorNode&lt;?,?,?,?&gt; context_currentNodeN157312"
 }} 
 ,
 { "ligne" : {"" : ""

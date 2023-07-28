@@ -192,7 +192,7 @@ var maDataBlocs = {
  , "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00059] For method errorCounts list of called methods Object monObjet|java.util.Map errorCountsN168356|java.util.Map errorCountsN168606"
+ , "c3" : "QC-JAV000007[00059] For method errorCounts list of called methods Object monObjet|java.util.Map&lt;Errors,java.lang.Integer&gt; errorCountsN168356|java.util.Map&lt;Errors,java.lang.Integer&gt; errorCountsN168606"
 }} 
 ,
 { "ligne" : {"" : ""

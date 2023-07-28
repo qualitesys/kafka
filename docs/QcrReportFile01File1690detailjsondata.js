@@ -269,7 +269,7 @@ var maDataBlocs = {
  , "c1" : "00101"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#101"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00101] For method process list of called methods Object monObjet|java.util.function.Function branchedInternal_chainFunctionN176029"
+ , "c3" : "QC-JAV000007[00101] For method process list of called methods Object monObjet|java.util.function.Function&lt;? super KStream&lt;K,V&gt;,? extends KStream&lt;K,V&gt;&gt; branchedInternal_chainFunctionN176029"
 }} 
 ,
 { "ligne" : {"" : ""

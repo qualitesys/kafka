@@ -203,7 +203,7 @@ var maDataBlocs = {
  , "c1" : "00092"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00092] For method validate list of called methods Object monObjet|V props_getN182971|java.util.List parseTopicsListN183157|V props_getN183598"
+ , "c3" : "QC-JAV000007[00092] For method validate list of called methods Object monObjet|V props_getN182971|java.util.List&lt;java.lang.String&gt; parseTopicsListN183157|V props_getN183598"
 }} 
 ,
 { "ligne" : {"" : ""

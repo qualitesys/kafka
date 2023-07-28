@@ -149,7 +149,7 @@ var maDataBlocs = {
  , "c1" : "00041"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindowedDeserializer.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00041] For method configure list of called methods Object monObjet|org.apache.kafka.common.serialization.Deserializer windowInnerClassSerde_deserializerN163017"
+ , "c3" : "QC-JAV000007[00041] For method configure list of called methods Object monObjet|org.apache.kafka.common.serialization.Deserializer&lt;T&gt; windowInnerClassSerde_deserializerN163017"
 }} 
 ,
 { "ligne" : {"" : ""

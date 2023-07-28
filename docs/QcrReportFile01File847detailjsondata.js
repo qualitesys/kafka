@@ -1261,7 +1261,7 @@ var maDataBlocs = {
  , "c1" : "00485"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#485"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00485] For method certs list of called methods Object monObjet|java.util.List CERTIFICATE_PARSER_pemEntriesN265960"
+ , "c3" : "QC-JAV000007[00485] For method certs list of called methods Object monObjet|List&lt;byte[]&gt; CERTIFICATE_PARSER_pemEntriesN265960"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1296,7 +1296,7 @@ var maDataBlocs = {
  , "c1" : "00498"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#498"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00498] For method privateKey list of called methods Object monObjet|java.util.List PRIVATE_KEY_PARSER_pemEntriesN266892"
+ , "c3" : "QC-JAV000007[00498] For method privateKey list of called methods Object monObjet|List&lt;byte[]&gt; PRIVATE_KEY_PARSER_pemEntriesN266892|V keyEntries_getN267314"
 }} 
 ,
 { "ligne" : {"" : ""

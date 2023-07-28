@@ -306,7 +306,7 @@ var maDataBlocs = {
  , "c1" : "00107"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#107"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00107] For method reconfigure list of called methods Object monObjet|java.util.function.Predicate JmxReporter_compilePredicateN202866"
+ , "c3" : "QC-JAV000007[00107] For method reconfigure list of called methods Object monObjet|java.util.function.Predicate&lt;java.lang.String&gt; JmxReporter_compilePredicateN202866"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -761,7 +761,7 @@ var maDataBlocs = {
  , "c1" : "00338"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#338"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00338] For method contextChange list of called methods Object monObjet|java.util.Map metricsContext_contextLabelsN214310"
+ , "c3" : "QC-JAV000007[00338] For method contextChange list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; metricsContext_contextLabelsN214310"
 }} 
 ,
 { "ligne" : {"" : ""

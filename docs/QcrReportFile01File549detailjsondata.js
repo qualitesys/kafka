@@ -201,7 +201,7 @@ var maDataBlocs = {
  , "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00038] For method firstBatch list of called methods Object monObjet|Iterable batchesN172562"
+ , "c3" : "QC-JAV000007[00038] For method firstBatch list of called methods Object monObjet|Iterable&lt;? extends RecordBatch&gt; batchesN172562"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -215,7 +215,7 @@ var maDataBlocs = {
  , "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00061] For method recordsIterator list of called methods Object monObjet|Iterable batchesN173349"
+ , "c3" : "QC-JAV000007[00061] For method recordsIterator list of called methods Object monObjet|Iterable&lt;? extends RecordBatch&gt; batchesN173349"
 }} 
 ,
 { "ligne" : {"" : ""

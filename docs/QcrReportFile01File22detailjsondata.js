@@ -289,7 +289,7 @@ var maDataBlocs = {
  , "c1" : "00127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#127"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00127] For method latestUsableVersion list of called methods Object monObjet|V supportedVersions_getN193099|java.util.Optional ApiVersionsResponse_intersectN193216"
+ , "c3" : "QC-JAV000007[00127] For method latestUsableVersion list of called methods Object monObjet|V supportedVersions_getN193099|java.util.Optional&lt;ApiVersion&gt; ApiVersionsResponse_intersectN193216"
 }} 
 ,
 { "ligne" : {"" : ""

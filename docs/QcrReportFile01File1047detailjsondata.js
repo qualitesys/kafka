@@ -163,7 +163,7 @@ var maDataBlocs = {
  , "c1" : "00035"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/AbstractConnectorClientConfigOverridePolicy.java.html#35"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00035] For method validate list of called methods Object monObjet|java.util.Map connectorClientConfigRequest_clientPropsN155643"
+ , "c3" : "QC-JAV000007[00035] For method validate list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; connectorClientConfigRequest_clientPropsN155643"
 }} 
 ,
 { "ligne" : {"" : ""

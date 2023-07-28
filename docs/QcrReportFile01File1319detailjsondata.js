@@ -1418,7 +1418,7 @@ var maDataBlocs = {
  , "c1" : "00701"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#701"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00701] For method run list of called methods Object monObjet|org.apache.kafka.controller.ControllerResult op_generateRecordsAndResultN452512"
+ , "c3" : "QC-JAV000007[00701] For method run list of called methods Object monObjet|org.apache.kafka.controller.ControllerResult&lt;T&gt; op_generateRecordsAndResultN452512"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2531,7 +2531,7 @@ var maDataBlocs = {
  , "c1" : "01730"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1730"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01730] For method incrementalAlterConfigs list of called methods Object monObjet|org.apache.kafka.controller.ControllerResult configurationControl_incrementalAlterConfigsN493808"
+ , "c3" : "QC-JAV000007[01730] For method incrementalAlterConfigs list of called methods Object monObjet|org.apache.kafka.controller.ControllerResult&lt;java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,org.apache.kafka.common.requests.ApiError&gt;&gt; configurationControl_incrementalAlterConfigsN493808"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2650,7 +2650,7 @@ var maDataBlocs = {
  , "c1" : "01775"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1775"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01775] For method legacyAlterConfigs list of called methods Object monObjet|org.apache.kafka.controller.ControllerResult configurationControl_legacyAlterConfigsN495887"
+ , "c3" : "QC-JAV000007[01775] For method legacyAlterConfigs list of called methods Object monObjet|org.apache.kafka.controller.ControllerResult&lt;java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,org.apache.kafka.common.requests.ApiError&gt;&gt; configurationControl_legacyAlterConfigsN495887"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2692,7 +2692,7 @@ var maDataBlocs = {
  , "c1" : "01794"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1794"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01794] For method processBrokerHeartbeat list of called methods Object monObjet|java.util.concurrent.CompletableFuture replicationControl_processBrokerHeartbeatN496742"
+ , "c3" : "QC-JAV000007[01794] For method processBrokerHeartbeat list of called methods Object monObjet|java.util.concurrent.CompletableFuture&lt;org.apache.kafka.metadata.BrokerHeartbeatReply&gt; replicationControl_processBrokerHeartbeatN496742"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2734,7 +2734,7 @@ var maDataBlocs = {
  , "c1" : "01823"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1823"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01823] For method registerBroker list of called methods Object monObjet|java.util.concurrent.CompletableFuture clusterControl_registerBrokerN497582"
+ , "c3" : "QC-JAV000007[01823] For method registerBroker list of called methods Object monObjet|java.util.concurrent.CompletableFuture&lt;org.apache.kafka.metadata.BrokerRegistrationReply&gt; clusterControl_registerBrokerN497582"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2769,7 +2769,7 @@ var maDataBlocs = {
  , "c1" : "01837"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1837"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01837] For method alterClientQuotas list of called methods Object monObjet|org.apache.kafka.controller.ControllerResult clientQuotaControlManager_alterClientQuotasN498460"
+ , "c3" : "QC-JAV000007[01837] For method alterClientQuotas list of called methods Object monObjet|org.apache.kafka.controller.ControllerResult&lt;java.util.Map&lt;org.apache.kafka.common.quota.ClientQuotaEntity,org.apache.kafka.common.requests.ApiError&gt;&gt; clientQuotaControlManager_alterClientQuotasN498460"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2860,7 +2860,7 @@ var maDataBlocs = {
  , "c1" : "01896"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1896"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01896] For method createPartitions list of called methods Object monObjet|java.util.concurrent.CompletableFuture replicationControl_createPartitionsN501726"
+ , "c3" : "QC-JAV000007[01896] For method createPartitions list of called methods Object monObjet|java.util.concurrent.CompletableFuture&lt;java.util.List&lt;CreatePartitionsTopicResult&gt;&gt; replicationControl_createPartitionsN501726"
 }} 
 ,
 { "ligne" : {"" : ""

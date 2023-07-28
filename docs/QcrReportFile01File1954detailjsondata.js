@@ -703,7 +703,7 @@ var maDataBlocs = {
  , "c1" : "00146"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#146"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00146] For method prevOwnedStandbyByConsumer list of called methods Object monObjet|java.util.Map previousActiveTasks_consumerToTaskIdsN231812"
+ , "c3" : "QC-JAV000007[00146] For method prevOwnedStandbyByConsumer list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.util.Set&lt;org.apache.kafka.streams.processor.TaskId&gt;&gt; previousActiveTasks_consumerToTaskIdsN231812"
 }} 
 ,
 { "ligne" : {"" : ""

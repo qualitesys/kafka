@@ -154,7 +154,7 @@ var maDataBlocs = {
  , "c1" : "00047"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00047] For method serializeParts list of called methods Object monObjet|org.apache.kafka.common.serialization.Serde innerSerdeN163398"
+ , "c3" : "QC-JAV000007[00047] For method serializeParts list of called methods Object monObjet|org.apache.kafka.common.serialization.Serde&lt;T&gt; innerSerdeN163398"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -210,7 +210,7 @@ var maDataBlocs = {
  , "c1" : "00058"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#58"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00058] For method deserializeParts list of called methods Object monObjet|org.apache.kafka.common.serialization.Serde innerSerdeN164311"
+ , "c3" : "QC-JAV000007[00058] For method deserializeParts list of called methods Object monObjet|org.apache.kafka.common.serialization.Serde&lt;T&gt; innerSerdeN164311"
 }} 
 ,
 { "ligne" : {"" : ""

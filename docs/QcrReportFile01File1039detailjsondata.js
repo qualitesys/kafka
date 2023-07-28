@@ -238,7 +238,7 @@ var maDataBlocs = {
  , "c1" : "00052"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00052] For method translateDownstream list of called methods Object monObjet|java.util.Optional latestOffsetSyncN162903"
+ , "c3" : "QC-JAV000007[00052] For method translateDownstream list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.connect.mirror.OffsetSync&gt; latestOffsetSyncN162903"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -1428,7 +1428,7 @@ var maDataBlocs = {
  , "c1" : "00902"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#902"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00902] For method pollPhase list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerRecords pollRequestsN374121|org.apache.kafka.clients.consumer.ConsumerRecords pollRequestsN374293|org.apache.kafka.clients.consumer.ConsumerRecords pollRequestsN374517|org.apache.kafka.clients.consumer.ConsumerRecords pollRequestsN374681|long advanceNowAndComputeLatencyN375040|int records_countN375114"
+ , "c3" : "QC-JAV000007[00902] For method pollPhase list of called methods Object monObjet|ConsumerRecords&lt;byte[],byte[]&gt; pollRequestsN374121|ConsumerRecords&lt;byte[],byte[]&gt; pollRequestsN374293|ConsumerRecords&lt;byte[],byte[]&gt; pollRequestsN374517|ConsumerRecords&lt;byte[],byte[]&gt; pollRequestsN374681|long advanceNowAndComputeLatencyN375040|int records_countN375114"
 }} 
 ,
 { "ligne" : {"" : ""

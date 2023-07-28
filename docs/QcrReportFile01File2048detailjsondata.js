@@ -271,7 +271,7 @@ var maDataBlocs = {
  , "c1" : "00068"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00068] For method fetch list of called methods Object monObjet|org.apache.kafka.streams.state.WindowStoreIterator provider_storesN179478"
+ , "c3" : "QC-JAV000007[00068] For method fetch list of called methods Object monObjet|org.apache.kafka.streams.state.WindowStoreIterator&lt;V&gt; provider_storesN179478"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -320,7 +320,7 @@ var maDataBlocs = {
  , "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#91"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00091] For method backwardFetch list of called methods Object monObjet|org.apache.kafka.streams.state.WindowStoreIterator provider_storesN180624"
+ , "c3" : "QC-JAV000007[00091] For method backwardFetch list of called methods Object monObjet|org.apache.kafka.streams.state.WindowStoreIterator&lt;V&gt; provider_storesN180624"
 }} 
 ,
 { "ligne" : {"" : ""

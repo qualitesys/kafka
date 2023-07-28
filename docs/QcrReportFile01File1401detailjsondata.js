@@ -423,7 +423,7 @@ var maDataBlocs = {
  , "c1" : "00094"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#94"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00094] For method appendLeaderChangeMessage list of called methods Object monObjet|java.util.List convertToVotersN201347|java.util.List convertToVotersN201476"
+ , "c3" : "QC-JAV000007[00094] For method appendLeaderChangeMessage list of called methods Object monObjet|java.util.List&lt;Voter&gt; convertToVotersN201347|java.util.List&lt;Voter&gt; convertToVotersN201476"
 }} 
 ,
 { "ligne" : {"" : ""

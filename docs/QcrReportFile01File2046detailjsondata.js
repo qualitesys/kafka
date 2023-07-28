@@ -158,7 +158,7 @@ var maDataBlocs = {
  , "c1" : "00051"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00051] For method get list of called methods Object monObjet|java.util.Set storeProvider_storesN179310"
+ , "c3" : "QC-JAV000007[00051] For method get list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.state.StoreBuilder&lt;?&gt;&gt; storeProvider_storesN179310"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -207,7 +207,7 @@ var maDataBlocs = {
  , "c1" : "00069"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00069] For method range list of called methods Object monObjet|java.util.Set storeProvider_storesN180819"
+ , "c3" : "QC-JAV000007[00069] For method range list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.state.StoreBuilder&lt;?&gt;&gt; storeProvider_storesN180819"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -228,7 +228,7 @@ var maDataBlocs = {
  , "c1" : "00087"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#87"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00087] For method reverseRange list of called methods Object monObjet|java.util.Set storeProvider_storesN182015"
+ , "c3" : "QC-JAV000007[00087] For method reverseRange list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.state.StoreBuilder&lt;?&gt;&gt; storeProvider_storesN182015"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -249,7 +249,7 @@ var maDataBlocs = {
  , "c1" : "00125"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#125"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00125] For method all list of called methods Object monObjet|java.util.Set storeProvider_storesN184515"
+ , "c3" : "QC-JAV000007[00125] For method all list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.state.StoreBuilder&lt;?&gt;&gt; storeProvider_storesN184515"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -263,7 +263,7 @@ var maDataBlocs = {
  , "c1" : "00143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#143"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00143] For method reverseAll list of called methods Object monObjet|java.util.Set storeProvider_storesN185617"
+ , "c3" : "QC-JAV000007[00143] For method reverseAll list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.state.StoreBuilder&lt;?&gt;&gt; storeProvider_storesN185617"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -277,7 +277,7 @@ var maDataBlocs = {
  , "c1" : "00161"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#161"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00161] For method approximateNumEntries list of called methods Object monObjet|java.util.Set storeProvider_storesN186058|long store_approximateNumEntriesN186346"
+ , "c3" : "QC-JAV000007[00161] For method approximateNumEntries list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.state.StoreBuilder&lt;?&gt;&gt; storeProvider_storesN186058|long store_approximateNumEntriesN186346"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -242,7 +242,7 @@ var maDataBlocs = {
  , "c1" : "00092"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00092] For method maybeCheckpoint list of called methods Object monObjet|java.util.Map stateMgr_changelogOffsetsN179350"
+ , "c3" : "QC-JAV000007[00092] For method maybeCheckpoint list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,java.lang.Long&gt; stateMgr_changelogOffsetsN179350"
 }} 
 ,
 { "ligne" : {"" : ""

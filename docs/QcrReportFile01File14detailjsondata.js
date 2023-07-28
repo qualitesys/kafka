@@ -279,7 +279,7 @@ var maDataBlocs = {
  , "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00059] For method requestQueue list of called methods Object monObjet|java.util.Deque requests_getN179252"
+ , "c3" : "QC-JAV000007[00059] For method requestQueue list of called methods Object monObjet|java.util.Deque&lt;NetworkClient.InFlightRequest&gt; requests_getN179252"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -307,7 +307,7 @@ var maDataBlocs = {
  , "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00069] For method completeNext list of called methods Object monObjet|java.util.Deque requestQueueN179738"
+ , "c3" : "QC-JAV000007[00069] For method completeNext list of called methods Object monObjet|java.util.Deque&lt;NetworkClient.InFlightRequest&gt; requestQueueN179738"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -328,7 +328,7 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00088] For method completeLastSent list of called methods Object monObjet|java.util.Deque requestQueueN180403"
+ , "c3" : "QC-JAV000007[00088] For method completeLastSent list of called methods Object monObjet|java.util.Deque&lt;NetworkClient.InFlightRequest&gt; requestQueueN180403"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -426,7 +426,7 @@ var maDataBlocs = {
  , "c1" : "00148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#148"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00148] For method clearAll list of called methods Object monObjet|Iterable requests_getN182845|Iterable requests_removeN183120"
+ , "c3" : "QC-JAV000007[00148] For method clearAll list of called methods Object monObjet|Iterable&lt;NetworkClient.InFlightRequest&gt; requests_getN182845|Iterable&lt;NetworkClient.InFlightRequest&gt; requests_removeN183120"
 }} 
 ,
 { "ligne" : {"" : ""

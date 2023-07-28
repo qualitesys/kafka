@@ -92,7 +92,7 @@ var maDataBlocs = {
  , "c1" : "00052"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionJoinForeignProcessorSupplier.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00052] For method get list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.KTableValueGetter foreignValueGetterSupplier_getN172221|org.apache.kafka.streams.processor.api.Processor record_valueN172863"
+ , "c3" : "QC-JAV000007[00052] For method get list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.KTableValueGetter&lt;K,V&gt; foreignValueGetterSupplier_getN172221|org.apache.kafka.streams.processor.api.Processor&lt;org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKey&lt;KO,K&gt;,org.apache.kafka.streams.kstream.internals.Change&lt;org.apache.kafka.streams.state.ValueAndTimestamp&lt;org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionWrapper&lt;K&gt;&gt;&gt;,K,org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapper&lt;VO&gt;&gt; record_valueN172863"
 }} 
 ,
 { "ligne" : {"" : ""

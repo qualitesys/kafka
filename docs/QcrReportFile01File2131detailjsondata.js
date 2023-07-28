@@ -242,7 +242,7 @@ var maDataBlocs = {
  , "c1" : "00139"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#139"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00139] For method updatePosition list of called methods Object monObjet|java.util.Optional stateStoreContext_recordMetadataN220061"
+ , "c3" : "QC-JAV000007[00139] For method updatePosition list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.streams.processor.api.RecordMetadata&gt; stateStoreContext_recordMetadataN220061"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -277,7 +277,7 @@ var maDataBlocs = {
  , "c1" : "00151"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#151"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00151] For method isPermitted list of called methods Object monObjet|org.apache.kafka.streams.query.Position positionBound_positionN220576|java.util.Map bound_getPartitionPositionsN220792|java.util.Map position_getPartitionPositionsN220930"
+ , "c3" : "QC-JAV000007[00151] For method isPermitted list of called methods Object monObjet|org.apache.kafka.streams.query.Position positionBound_positionN220576|java.util.Map&lt;java.lang.Integer,java.lang.Long&gt; bound_getPartitionPositionsN220792|java.util.Map&lt;java.lang.Integer,java.lang.Long&gt; position_getPartitionPositionsN220930"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -564,7 +564,7 @@ var maDataBlocs = {
  , "c1" : "00366"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#366"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00366] For method positionToTopicPartitionMap list of called methods Object monObjet|java.util.Set position_getTopicsN232267"
+ , "c3" : "QC-JAV000007[00366] For method positionToTopicPartitionMap list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; position_getTopicsN232267|java.util.Map&lt;java.lang.Integer,java.lang.Long&gt; position_getPartitionPositionsN232463"
 }} 
 ,
 { "ligne" : {"" : ""

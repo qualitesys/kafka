@@ -282,7 +282,7 @@ var maDataBlocs = {
  , "c1" : "00170"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableImpl.java.html#170"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00170] For method doFilter list of called methods Object monObjet|org.apache.kafka.common.serialization.Serde materializedInternal_keySerdeN390605|org.apache.kafka.common.serialization.Serde materializedInternal_valueSerdeN390777|java.lang.String materializedInternal_queryableStoreNameN390949"
+ , "c3" : "QC-JAV000007[00170] For method doFilter list of called methods Object monObjet|org.apache.kafka.common.serialization.Serde&lt;K&gt; materializedInternal_keySerdeN390605|org.apache.kafka.common.serialization.Serde&lt;V&gt; materializedInternal_valueSerdeN390777|java.lang.String materializedInternal_queryableStoreNameN390949"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -793,7 +793,7 @@ var maDataBlocs = {
  , "c1" : "00534"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableImpl.java.html#534"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00534] For method suppress list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal buildSuppressN412144|java.lang.String suppressedInternal_nameN412259"
+ , "c3" : "QC-JAV000007[00534] For method suppress list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal&lt;K&gt; buildSuppressN412144|java.lang.String suppressedInternal_nameN412259"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -842,7 +842,7 @@ var maDataBlocs = {
  , "c1" : "00592"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableImpl.java.html#592"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00592] For method buildSuppress list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal builder_buildFinalResultsSuppressionN414799"
+ , "c3" : "QC-JAV000007[00592] For method buildSuppress list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal&lt;K&gt; builder_buildFinalResultsSuppressionN414799"
 }} 
 ,
 { "ligne" : {"" : ""

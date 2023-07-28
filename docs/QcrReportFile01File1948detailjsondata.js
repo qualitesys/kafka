@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java 179 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java 187 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -605,7 +605,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "24"
+ , "c4" : "31"
 }}
 ,
 { "ligne" : { "" : ""
@@ -619,7 +619,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "13"
+ , "c4" : "14"
 }}
 ,
 { "ligne" : { "" : ""
@@ -810,7 +810,7 @@ var maDataBlocs = {
  , "c1" : "00210"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#210"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00210] For method getMinimumThreadVersion list of called methods Object monObjet|java.util.Collection threadVersions_valuesN257787"
+ , "c3" : "QC-JAV000007[00210] For method getMinimumThreadVersion list of called methods Object monObjet|java.util.Collection&lt;V&gt; threadVersions_valuesN257787"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -978,7 +978,7 @@ var maDataBlocs = {
  , "c1" : "00324"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#324"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00324] For method buildAndVerifyTopology list of called methods Object monObjet|int allInputTopicsCopy_sizeN263276|java.util.List builder_fullSourceTopicNamesN263379"
+ , "c3" : "QC-JAV000007[00324] For method buildAndVerifyTopology list of called methods Object monObjet|int allInputTopicsCopy_sizeN263276|java.util.List&lt;java.lang.String&gt; builder_fullSourceTopicNamesN263379|java.util.List&lt;java.lang.String&gt; builder_allSourcePatternStringsN263482|int newInputTopics_sizeN263766|org.apache.kafka.streams.processor.internals.ProcessorTopology builder_buildGlobalStateTopologyN264409"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1664,6 +1664,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TopologyMetadata.buildAndVerifyTopology@POLYN262919"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TopologyMetadata.registerAndBuildNewTopology@POLYN259060"
 }} 
 ,
@@ -1749,6 +1756,55 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TopologyMetadata.unregisterTopology@POLYN261261"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00344"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#344"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00344] In the recursive method org.apache.kafka.streams.processor.internals.TopologyMetadata.buildAndVerifyTopology@POLYN262919 the MagicNumber/String 'Tried to add the NamedTopology {} but it had overlap with other input topics {} or patterns {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00346"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#346"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00346] In the recursive method org.apache.kafka.streams.processor.internals.TopologyMetadata.buildAndVerifyTopology@POLYN262919 the MagicNumber/String 'Named Topologies may not subscribe to the same input topics or patterns' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00350"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#350"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00350] In the recursive method org.apache.kafka.streams.processor.internals.TopologyMetadata.buildAndVerifyTopology@POLYN262919 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00351"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#351"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00351] In the recursive method org.apache.kafka.streams.processor.internals.TopologyMetadata.buildAndVerifyTopology@POLYN262919 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00352"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#352"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00352] In the recursive method org.apache.kafka.streams.processor.internals.TopologyMetadata.buildAndVerifyTopology@POLYN262919 the MagicNumber/String 'Global state stores are not supported with Named Topologies' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00353"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#353"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00353] In the recursive method org.apache.kafka.streams.processor.internals.TopologyMetadata.buildAndVerifyTopology@POLYN262919 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00354"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#354"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00354] In the recursive method org.apache.kafka.streams.processor.internals.TopologyMetadata.buildAndVerifyTopology@POLYN262919 the MagicNumber/String 'Topology builder had global state, but global topology has already been set' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

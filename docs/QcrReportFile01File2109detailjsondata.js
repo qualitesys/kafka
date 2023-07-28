@@ -225,7 +225,7 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00075] For method fetchSessions list of called methods Object monObjet|java.util.List segments_segmentsN177937|org.apache.kafka.streams.kstream.Windowed TimeFirstSessionKeySchema_fromN178661"
+ , "c3" : "QC-JAV000007[00075] For method fetchSessions list of called methods Object monObjet|java.util.List&lt;S&gt; segments_segmentsN177937|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; TimeFirstSessionKeySchema_fromN178661"
 }} 
 ,
 { "ligne" : {"" : ""

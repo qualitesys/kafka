@@ -749,7 +749,7 @@ var maDataBlocs = {
  , "c1" : "00277"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#277"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00277] For method activateOptions list of called methods Object monObjet|org.apache.kafka.clients.producer.Producer getKafkaProducerN208633"
+ , "c3" : "QC-JAV000007[00277] For method activateOptions list of called methods Object monObjet|Producer&lt;byte[],byte[]&gt; getKafkaProducerN208633"
 }} 
 ,
 { "ligne" : {"" : ""

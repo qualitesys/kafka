@@ -367,7 +367,7 @@ var maDataBlocs = {
  , "c1" : "00087"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#87"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00087] For method consumerMetrics list of called methods Object monObjet|java.util.Map mainConsumer_metricsN187338|java.util.Map restoreConsumer_metricsN187463"
+ , "c3" : "QC-JAV000007[00087] For method consumerMetrics list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.MetricName,? extends Metric&gt; mainConsumer_metricsN187338|java.util.Map&lt;org.apache.kafka.common.MetricName,? extends Metric&gt; restoreConsumer_metricsN187463"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -395,7 +395,7 @@ var maDataBlocs = {
  , "c1" : "00097"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00097] For method adminClientMetrics list of called methods Object monObjet|java.util.Map adminClient_metricsN188011"
+ , "c3" : "QC-JAV000007[00097] For method adminClientMetrics list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.MetricName,? extends Metric&gt; adminClient_metricsN188011"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -416,7 +416,7 @@ var maDataBlocs = {
  , "c1" : "00102"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#102"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00102] For method producerMetrics list of called methods Object monObjet|java.util.Map producer_metricsN188563"
+ , "c3" : "QC-JAV000007[00102] For method producerMetrics list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.MetricName,? extends Metric&gt; producer_metricsN188563"
 }} 
 ,
 { "ligne" : {"" : ""

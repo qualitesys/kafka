@@ -567,7 +567,7 @@ var maDataBlocs = {
  , "c1" : "00143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#143"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00143] For method convertActiveToStandby list of called methods Object monObjet|java.util.Set activeTasksPerPartition_entrySetN207031"
+ , "c3" : "QC-JAV000007[00143] For method convertActiveToStandby list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; activeTasksPerPartition_entrySetN207031|org.apache.kafka.streams.processor.internals.StandbyTask standbyTaskCreator_createStandbyTaskFromActiveN207607"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -693,7 +693,7 @@ var maDataBlocs = {
  , "c1" : "00217"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#217"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00217] For method removeTaskBeforeClosing list of called methods Object monObjet|java.util.Set activeTasksPerPartition_entrySetN211074"
+ , "c3" : "QC-JAV000007[00217] For method removeTaskBeforeClosing list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; activeTasksPerPartition_entrySetN211074"
 }} 
 ,
 { "ligne" : {"" : ""

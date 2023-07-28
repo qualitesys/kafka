@@ -362,7 +362,7 @@ var maDataBlocs = {
  , "c1" : "00110"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#110"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00110] For method getAllMetadataForStore list of called methods Object monObjet|java.util.Collection topologyMetadata_sourceTopicsForStoreN254749"
+ , "c3" : "QC-JAV000007[00110] For method getAllMetadataForStore list of called methods Object monObjet|java.util.Collection&lt;java.lang.String&gt; topologyMetadata_sourceTopicsForStoreN254749"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -418,7 +418,7 @@ var maDataBlocs = {
  , "c1" : "00147"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#147"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00147] For method getAllMetadataForStore list of called methods Object monObjet|java.util.Collection topologyMetadata_sourceTopicsForStoreN256153"
+ , "c3" : "QC-JAV000007[00147] For method getAllMetadataForStore list of called methods Object monObjet|java.util.Collection&lt;java.lang.String&gt; topologyMetadata_sourceTopicsForStoreN256153"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -782,7 +782,7 @@ var maDataBlocs = {
  , "c1" : "00356"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#356"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00356] For method rebuildMetadataForNamedTopologies list of called methods Object monObjet|java.util.Map topologyMetadata_stateStoreNameToSourceTopicsForTopologyN266751|java.util.Map topologyMetadata_stateStoreNameToSourceTopicsN269303|V activePartitionHostMap_getN269406|V standbyPartitionHostMap_getN269528"
+ , "c3" : "QC-JAV000007[00356] For method rebuildMetadataForNamedTopologies list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.util.List&lt;java.lang.String&gt;&gt; topologyMetadata_stateStoreNameToSourceTopicsForTopologyN266751|java.util.Map&lt;java.lang.String,java.util.List&lt;java.lang.String&gt;&gt; topologyMetadata_stateStoreNameToSourceTopicsN269303|V activePartitionHostMap_getN269406|V standbyPartitionHostMap_getN269528"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -817,7 +817,7 @@ var maDataBlocs = {
  , "c1" : "00427"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#427"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00427] For method rebuildMetadataForSingleTopology list of called methods Object monObjet|java.util.Map topologyMetadata_stateStoreNameToSourceTopicsN270387"
+ , "c3" : "QC-JAV000007[00427] For method rebuildMetadataForSingleTopology list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.util.List&lt;java.lang.String&gt;&gt; topologyMetadata_stateStoreNameToSourceTopicsN270387"
 }} 
 ,
 { "ligne" : {"" : ""

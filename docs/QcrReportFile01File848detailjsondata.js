@@ -655,7 +655,7 @@ var maDataBlocs = {
  , "c1" : "00305"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#305"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00305] For method ensureCompatible list of called methods Object monObjet|java.util.List CertificateEntries_createN241002|java.util.List CertificateEntries_createN241119"
+ , "c3" : "QC-JAV000007[00305] For method ensureCompatible list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries&gt; CertificateEntries_createN241002|java.util.List&lt;org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries&gt; CertificateEntries_createN241119|V newEntries_getN241706|V oldEntries_getN241802"
 }} 
 ,
 { "ligne" : {"" : ""

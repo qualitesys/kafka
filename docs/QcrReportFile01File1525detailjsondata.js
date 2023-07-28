@@ -245,7 +245,7 @@ var maDataBlocs = {
  , "c1" : "00104"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#104"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00104] For method completePath list of called methods Object monObjet|boolean pathPrefix_startsWithN176983|java.util.List stripDotPathComponentsN177212|java.util.List data_rootN177331|org.apache.kafka.shell.MetadataNode directory_childN177775|java.util.NavigableMap directory_childrenN178428|java.util.NavigableMap directory_childrenN179887"
+ , "c3" : "QC-JAV000007[00104] For method completePath list of called methods Object monObjet|boolean pathPrefix_startsWithN176983|java.util.List&lt;java.lang.String&gt; stripDotPathComponentsN177212|boolean pathPrefix_endsWithN177408|org.apache.kafka.shell.MetadataNode directory_childN177775|java.util.NavigableMap&lt;java.lang.String,org.apache.kafka.shell.MetadataNode&gt; directory_childrenN178428|java.lang.String pathPrefix_substringN178818|java.util.NavigableMap&lt;java.lang.String,org.apache.kafka.shell.MetadataNode&gt; directory_childrenN179887"
 }} 
 ,
 { "ligne" : {"" : ""

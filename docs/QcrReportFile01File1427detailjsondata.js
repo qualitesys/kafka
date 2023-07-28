@@ -594,7 +594,7 @@ var maDataBlocs = {
  , "c1" : "00466"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#466"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00466] For method close list of called methods Object monObjet|java.util.List drainN236239"
+ , "c3" : "QC-JAV000007[00466] For method close list of called methods Object monObjet|java.util.List&lt;CompletedBatch&lt;T&gt;&gt; drainN236239"
 }} 
 ,
 { "ligne" : {"" : ""

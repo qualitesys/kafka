@@ -1063,7 +1063,7 @@ var maDataBlocs = {
  , "c1" : "00509"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#509"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00509] For method hasNext list of called methods Object monObjet|org.apache.kafka.streams.KeyValue getNextN266080|K getKeyN266383"
+ , "c3" : "QC-JAV000007[00509] For method hasNext list of called methods Object monObjet|KeyValue&lt;Bytes,byte[]&gt; getNextN266080|K getKeyN266383"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1224,7 +1224,7 @@ var maDataBlocs = {
  , "c1" : "00560"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#560"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00560] For method getNext list of called methods Object monObjet|java.util.Iterator setRecordIteratorN268007"
+ , "c3" : "QC-JAV000007[00560] For method getNext list of called methods Object monObjet|Iterator&lt;Map.Entry&lt;Bytes,byte[]&gt;&gt; setRecordIteratorN268007"
 }} 
 ,
 { "ligne" : {"" : ""

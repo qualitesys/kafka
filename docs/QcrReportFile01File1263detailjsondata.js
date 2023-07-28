@@ -206,7 +206,7 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#82"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00082] For method generateSchemas list of called methods Object monObjet|org.apache.kafka.message.Versions message_flexibleVersionsN213473|java.util.Iterator structRegistry_commonStructsN213585"
+ , "c3" : "QC-JAV000007[00082] For method generateSchemas list of called methods Object monObjet|org.apache.kafka.message.Versions message_flexibleVersionsN213473|java.util.Iterator&lt;org.apache.kafka.message.StructSpec&gt; structRegistry_commonStructsN213585"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -297,7 +297,7 @@ var maDataBlocs = {
  , "c1" : "00128"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#128"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00128] For method generateSchemaForVersion list of called methods Object monObjet|java.util.List struct_fieldsN216345|java.util.List struct_fieldsN216607|java.util.List struct_fieldsN217550"
+ , "c3" : "QC-JAV000007[00128] For method generateSchemaForVersion list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.message.FieldSpec&gt; struct_fieldsN216345|java.util.List&lt;org.apache.kafka.message.FieldSpec&gt; struct_fieldsN216607|java.util.List&lt;org.apache.kafka.message.FieldSpec&gt; struct_fieldsN217550|java.util.Optional&lt;org.apache.kafka.message.Versions&gt; field_flexibleVersionsN217903"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -409,7 +409,7 @@ var maDataBlocs = {
  , "c1" : "00174"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#174"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00174] For method generateTaggedFieldsSchemaForVersion list of called methods Object monObjet|java.util.List struct_fieldsN219052|java.util.List struct_fieldsN219314|java.util.List struct_fieldsN219984"
+ , "c3" : "QC-JAV000007[00174] For method generateTaggedFieldsSchemaForVersion list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.message.FieldSpec&gt; struct_fieldsN219052|java.util.List&lt;org.apache.kafka.message.FieldSpec&gt; struct_fieldsN219314|java.util.List&lt;org.apache.kafka.message.FieldSpec&gt; struct_fieldsN219984|java.util.Optional&lt;org.apache.kafka.message.Versions&gt; field_flexibleVersionsN220447"
 }} 
 ,
 { "ligne" : {"" : ""

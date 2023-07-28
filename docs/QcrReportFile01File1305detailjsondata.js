@@ -376,7 +376,7 @@ var maDataBlocs = {
  , "c1" : "00184"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#184"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00184] For method incrementalAlterConfigResource list of called methods Object monObjet|V configData_getN239824|V currentConfigs_getN239990|java.util.List getPartsN241185|org.apache.kafka.common.requests.ApiError validateAlterConfigN242533"
+ , "c3" : "QC-JAV000007[00184] For method incrementalAlterConfigResource list of called methods Object monObjet|V configData_getN239824|V currentConfigs_getN239990|java.util.List&lt;java.lang.String&gt; getPartsN241185|org.apache.kafka.common.requests.ApiError validateAlterConfigN242533"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -803,7 +803,7 @@ var maDataBlocs = {
  , "c1" : "00395"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#395"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00395] For method describeConfigs list of called methods Object monObjet|V configData_getN252713|java.util.Set configs_entrySetN253129|V configs_getN253657"
+ , "c3" : "QC-JAV000007[00395] For method describeConfigs list of called methods Object monObjet|V configData_getN252713|java.util.Set&lt;Entry&lt;K,V&gt;&gt; configs_entrySetN253129|V configs_getN253657"
 }} 
 ,
 { "ligne" : {"" : ""

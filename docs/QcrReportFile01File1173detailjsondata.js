@@ -533,7 +533,7 @@ var maDataBlocs = {
  , "c1" : "00162"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#162"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00162] For method configure list of called methods Object monObjet|java.lang.String ConnectUtils_lookupKafkaClusterIdN273308|java.util.Map config_originalsN273441|org.apache.kafka.connect.util.TopicAdmin.NewTopicBuilder TopicAdmin_defineTopicN275601|org.apache.kafka.connect.util.KafkaBasedLog createKafkaBasedLogN276149"
+ , "c3" : "QC-JAV000007[00162] For method configure list of called methods Object monObjet|java.lang.String ConnectUtils_lookupKafkaClusterIdN273308|java.util.Map&lt;java.lang.String,java.lang.Object&gt; config_originalsN273441|org.apache.kafka.connect.util.TopicAdmin.NewTopicBuilder TopicAdmin_defineTopicN275601|KafkaBasedLog&lt;String,byte[]&gt; createKafkaBasedLogN276149"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -596,7 +596,7 @@ var maDataBlocs = {
  , "c1" : "00211"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#211"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00211] For method createKafkaBasedLog list of called methods Object monObjet|org.apache.kafka.connect.util.KafkaBasedLog admin_createTopicsN276959"
+ , "c3" : "QC-JAV000007[00211] For method createKafkaBasedLog list of called methods Object monObjet|KafkaBasedLog&lt;String,byte[]&gt; admin_createTopicsN276959"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -708,7 +708,7 @@ var maDataBlocs = {
  , "c1" : "00278"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#278"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00278] For method sendConnectorStatus list of called methods Object monObjet|CacheEntry getOrAddN279245"
+ , "c3" : "QC-JAV000007[00278] For method sendConnectorStatus list of called methods Object monObjet|CacheEntry&lt;org.apache.kafka.connect.runtime.TaskStatus&gt; getOrAddN279245"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -729,7 +729,7 @@ var maDataBlocs = {
  , "c1" : "00285"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#285"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00285] For method sendTaskStatus list of called methods Object monObjet|CacheEntry getOrAddN279730"
+ , "c3" : "QC-JAV000007[00285] For method sendTaskStatus list of called methods Object monObjet|CacheEntry&lt;org.apache.kafka.connect.runtime.TaskStatus&gt; getOrAddN279730"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1436,7 +1436,7 @@ var maDataBlocs = {
  , "c1" : "00546"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#546"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00546] For method readConnectorStatus list of called methods Object monObjet|java.lang.String parseConnectorStatusKeyN296270|org.apache.kafka.connect.runtime.ConnectorStatus parseConnectorStatusN296787|CacheEntry getOrAddN297150"
+ , "c3" : "QC-JAV000007[00546] For method readConnectorStatus list of called methods Object monObjet|java.lang.String parseConnectorStatusKeyN296270|org.apache.kafka.connect.runtime.ConnectorStatus parseConnectorStatusN296787|CacheEntry&lt;org.apache.kafka.connect.runtime.TaskStatus&gt; getOrAddN297150"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1492,7 +1492,7 @@ var maDataBlocs = {
  , "c1" : "00570"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#570"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00570] For method readTaskStatus list of called methods Object monObjet|org.apache.kafka.connect.util.ConnectorTaskId parseConnectorTaskIdN297406|org.apache.kafka.connect.runtime.TaskStatus parseTaskStatusN297927|CacheEntry getOrAddN298403"
+ , "c3" : "QC-JAV000007[00570] For method readTaskStatus list of called methods Object monObjet|org.apache.kafka.connect.util.ConnectorTaskId parseConnectorTaskIdN297406|org.apache.kafka.connect.runtime.TaskStatus parseTaskStatusN297927|CacheEntry&lt;org.apache.kafka.connect.runtime.TaskStatus&gt; getOrAddN298403"
 }} 
 ,
 { "ligne" : {"" : ""

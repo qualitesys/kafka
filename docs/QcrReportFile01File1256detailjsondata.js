@@ -668,7 +668,7 @@ var maDataBlocs = {
  , "c1" : "00077"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#77"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00077] For method generateClass list of called methods Object monObjet|boolean struct_hasKeysN425512|java.util.Iterator structRegistry_commonStructsN429072"
+ , "c3" : "QC-JAV000007[00077] For method generateClass list of called methods Object monObjet|boolean struct_hasKeysN425512|java.util.Iterator&lt;org.apache.kafka.message.StructSpec&gt; structRegistry_commonStructsN429072"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2355,7 +2355,7 @@ var maDataBlocs = {
  , "c1" : "00664"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#664"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00664] For method generateClassWriter list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN460451|org.apache.kafka.message.VersionConditional VersionConditional_forVersionsN460784|org.apache.kafka.message.IsNullConditional IsNullConditional_forNameN464993|java.util.Optional field_tagN469287"
+ , "c3" : "QC-JAV000007[00664] For method generateClassWriter list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN460451|org.apache.kafka.message.VersionConditional VersionConditional_forVersionsN460784|org.apache.kafka.message.IsNullConditional IsNullConditional_forNameN464993|java.util.Optional&lt;java.lang.Integer&gt; field_tagN469287"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2880,7 +2880,7 @@ var maDataBlocs = {
  , "c1" : "00870"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#870"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00870] For method generateVariableLengthWriter list of called methods Object monObjet|java.lang.String String_formatN473880|java.lang.String String_formatN474016|java.lang.String String_formatN474205|java.lang.String String_formatN474391|java.lang.Class arrayType_elementTypeN476045|java.lang.String String_formatN476122"
+ , "c3" : "QC-JAV000007[00870] For method generateVariableLengthWriter list of called methods Object monObjet|java.lang.String String_formatN473880|java.lang.String String_formatN474016|java.lang.String String_formatN474205|java.lang.String String_formatN474391|java.lang.Class&lt;?&gt; arrayType_elementTypeN476045|java.lang.String String_formatN476122"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3384,7 +3384,7 @@ var maDataBlocs = {
  , "c1" : "01109"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1109"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01109] For method generateVariableLengthFieldSize list of called methods Object monObjet|java.lang.Class arrayType_elementTypeN488726"
+ , "c3" : "QC-JAV000007[01109] For method generateVariableLengthFieldSize list of called methods Object monObjet|java.lang.Class&lt;?&gt; arrayType_elementTypeN488726"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -240,7 +240,7 @@ var maDataBlocs = {
  , "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00061] For method build list of called methods Object monObjet|java.util.Map groupByTopicN187115"
+ , "c3" : "QC-JAV000007[00061] For method build list of called methods Object monObjet|java.util.Map&lt;java.lang.String,UpdateMetadataTopicState&gt; groupByTopicN187115"
 }} 
 ,
 { "ligne" : {"" : ""

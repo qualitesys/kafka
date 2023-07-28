@@ -410,7 +410,7 @@ var maDataBlocs = {
  , "c1" : "00144"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractSegments.java.html#144"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00144] For method allSegments list of called methods Object monObjet|java.util.Collection segments_valuesN185160"
+ , "c3" : "QC-JAV000007[00144] For method allSegments list of called methods Object monObjet|java.util.Collection&lt;V&gt; segments_valuesN185160"
 }} 
 ,
 { "ligne" : {"" : ""

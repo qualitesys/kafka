@@ -554,7 +554,7 @@ var maDataBlocs = {
  , "c1" : "00218"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#218"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00218] For method updatePartitions list of called methods Object monObjet|java.util.Set partitionQueues_entrySetN208437"
+ , "c3" : "QC-JAV000007[00218] For method updatePartitions list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; partitionQueues_entrySetN208437"
 }} 
 ,
 { "ligne" : {"" : ""

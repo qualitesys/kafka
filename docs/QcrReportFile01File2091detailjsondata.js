@@ -935,7 +935,7 @@ var maDataBlocs = {
  , "c1" : "00283"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#283"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00283] For method keyRange list of called methods Object monObjet|java.util.Set computeSubSetN208862"
+ , "c3" : "QC-JAV000007[00283] For method keyRange list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.utils.Bytes&gt; computeSubSetN208862"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -963,7 +963,7 @@ var maDataBlocs = {
  , "c1" : "00288"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#288"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00288] For method reverseKeyRange list of called methods Object monObjet|java.util.Set computeSubSetN209235"
+ , "c3" : "QC-JAV000007[00288] For method reverseKeyRange list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.utils.Bytes&gt; computeSubSetN209235"
 }} 
 ,
 { "ligne" : {"" : ""

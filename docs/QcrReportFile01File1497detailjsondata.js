@@ -461,8 +461,6 @@ var maDataBlocs = {
 ,
 "data12b" : [
 { "sequence" : { "noseq" : "0" , "pas" : [
-{ "ligne" : "S0:java.util.Hashtable.Hashtable@POLYN424834" }
-,
 { "ligne" : "S0:java.util.Hashtable.putAll@POLYN438584 (R0 in line [00536],R1 in line [00536])" }
 ,
 { "ligne" : "S0:java.util.Hashtable.put@POLYN435116 (R0 in line [00471])" }
@@ -1175,7 +1173,7 @@ var maDataBlocs = {
  , "c1" : "00559"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#559"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00559] For method clone list of called methods Object monObjet|java.util.Hashtable cloneHashtableN439734"
+ , "c3" : "QC-JAV000007[00559] For method clone list of called methods Object monObjet|java.util.Hashtable&lt;?,?&gt; cloneHashtableN439734"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1245,7 +1243,7 @@ var maDataBlocs = {
  , "c1" : "00593"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#593"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00593] For method toString list of called methods Object monObjet|int sizeN441359|java.util.Set entrySetN441696"
+ , "c3" : "QC-JAV000007[00593] For method toString list of called methods Object monObjet|int sizeN441359|java.util.Set&lt;Map.Entry&lt;K,V&gt;&gt; entrySetN441696"
 }} 
 ,
 { "ligne" : {"" : ""

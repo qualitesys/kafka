@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java 198 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java 209 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -157,7 +157,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "67"
+ , "c4" : "77"
 }}
 ,
 { "ligne" : { "" : ""
@@ -171,7 +171,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "11"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : { "" : ""
@@ -306,7 +306,7 @@ var maDataBlocs = {
  , "c1" : "00229"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#229"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00229] For method findNodeNames list of called methods Object monObjet|java.util.TreeSet controller_targetNodesN270422"
+ , "c3" : "QC-JAV000007[00229] For method findNodeNames list of called methods Object monObjet|java.util.TreeSet&lt;java.lang.String&gt; controller_targetNodesN270422"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -873,7 +873,7 @@ var maDataBlocs = {
  , "c1" : "00586"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#586"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00586] For method handleWorkerCompletion list of called methods Object monObjet|java.util.TreeMap task_activeWorkerIdsN289821|java.util.TreeMap time_millisecondsN289972"
+ , "c3" : "QC-JAV000007[00586] For method handleWorkerCompletion list of called methods Object monObjet|java.util.TreeMap&lt;java.lang.String,java.lang.Long&gt; task_activeWorkerIdsN289821"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1077,6 +1077,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.coordinator.TaskManager.DestroyTask.call@POLYN285117"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.coordinator.TaskManager.handleWorkerCompletion@POLYN288983"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1364,6 +1371,76 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#524"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00524] In the recursive method org.apache.kafka.trogdor.coordinator.TaskManager.DestroyTask.call@POLYN285117 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00588"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#588"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00588] In the recursive method org.apache.kafka.trogdor.coordinator.TaskManager.handleWorkerCompletion@POLYN288983 the MagicNumber/String '{}: Worker {} finished with status '{}'' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00591"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#591"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00591] In the recursive method org.apache.kafka.trogdor.coordinator.TaskManager.handleWorkerCompletion@POLYN288983 the MagicNumber/String '{}: Worker {} finished with error '{}' and status '{}'' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00599"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#599"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00599] In the recursive method org.apache.kafka.trogdor.coordinator.TaskManager.handleWorkerCompletion@POLYN288983 the MagicNumber/String '{}: Task {} is now complete on {} with error: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00600"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#600"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00600] In the recursive method org.apache.kafka.trogdor.coordinator.TaskManager.handleWorkerCompletion@POLYN288983 the MagicNumber/String ', ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00601"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#601"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00601] In the recursive method org.apache.kafka.trogdor.coordinator.TaskManager.handleWorkerCompletion@POLYN288983 the MagicNumber/String '-none-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00603"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#603"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00603] In the recursive method org.apache.kafka.trogdor.coordinator.TaskManager.handleWorkerCompletion@POLYN288983 the MagicNumber/String '{}: task {} stopped with error {}.  Stopping worker-s-: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00604"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#604"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00604] In the recursive method org.apache.kafka.trogdor.coordinator.TaskManager.handleWorkerCompletion@POLYN288983 the MagicNumber/String ', ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00604"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#604"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00604] In the recursive method org.apache.kafka.trogdor.coordinator.TaskManager.handleWorkerCompletion@POLYN288983 the MagicNumber/String ': ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00604"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#604"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00604] In the recursive method org.apache.kafka.trogdor.coordinator.TaskManager.handleWorkerCompletion@POLYN288983 the MagicNumber/String '{' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00604"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#604"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00604] In the recursive method org.apache.kafka.trogdor.coordinator.TaskManager.handleWorkerCompletion@POLYN288983 the MagicNumber/String '}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

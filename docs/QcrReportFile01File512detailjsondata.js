@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/Selector.java 420 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/Selector.java 427 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -589,7 +589,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "36"
+ , "c4" : "41"
 }}
 ,
 { "ligne" : { "" : ""
@@ -603,7 +603,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "9"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1557,7 +1557,7 @@ var maDataBlocs = {
  , "c1" : "00777"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#777"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00777] For method completeDelayedChannelClose list of called methods Object monObjet|java.util.Collection delayedClosingChannels_valuesN437167"
+ , "c3" : "QC-JAV000007[00777] For method completeDelayedChannelClose list of called methods Object monObjet|java.util.Collection&lt;V&gt; delayedClosingChannels_valuesN437167"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1585,7 +1585,7 @@ var maDataBlocs = {
  , "c1" : "00788"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#788"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00788] For method maybeCloseOldestConnection list of called methods Object monObjet|java.util.Map.Entry idleExpiryManager_pollExpiredConnectionN437563"
+ , "c3" : "QC-JAV000007[00788] For method maybeCloseOldestConnection list of called methods Object monObjet|Map.Entry&lt;java.lang.String,java.lang.Long&gt; idleExpiryManager_pollExpiredConnectionN437563"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1634,7 +1634,7 @@ var maDataBlocs = {
  , "c1" : "00835"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#835"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00835] For method clear list of called methods Object monObjet|java.util.Set closingChannels_entrySetN439726"
+ , "c3" : "QC-JAV000007[00835] For method clear list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; closingChannels_entrySetN439726|V failedSends_removeN439976|boolean maybeReadFromClosingChannelN440191"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1907,7 +1907,7 @@ var maDataBlocs = {
  , "c1" : "01019"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1019"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01019] For method lowestPriorityChannel list of called methods Object monObjet|java.util.Collection closingChannels_valuesN447461|java.util.Collection channels_valuesN447995"
+ , "c3" : "QC-JAV000007[01019] For method lowestPriorityChannel list of called methods Object monObjet|java.util.Collection&lt;V&gt; closingChannels_valuesN447461|java.util.Set&lt;K&gt; idleExpiryManager_lruConnections_keySetN447710|org.apache.kafka.common.network.KafkaChannel channels_valuesN447995"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3230,7 +3230,7 @@ var maDataBlocs = {
  , "c1" : "01453"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1453"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01453] For method pollExpiredConnection list of called methods Object monObjet|java.util.Set lruConnections_entrySetN475596"
+ , "c3" : "QC-JAV000007[01453] For method pollExpiredConnection list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; lruConnections_entrySetN475596"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3286,7 +3286,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.Selector.connect@POLYN411683"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.Selector.clear@POLYN439325"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3294,6 +3294,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.Selector.maybeReadFromClosingChannel@POLYN433752"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.Selector.doClose@POLYN444288"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.Selector.connect@POLYN411683"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.Selector.lowestPriorityChannel@POLYN447250"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3308,13 +3329,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.Selector.send@POLYN418745"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.Selector.doClose@POLYN444288"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3500,31 +3514,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00252"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#252"
+ , "c1" : "00845"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#845"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00252] In the recursive method org.apache.kafka.common.network.Selector.connect@POLYN411683 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00845] In the recursive method org.apache.kafka.common.network.Selector.clear@POLYN439325 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00260"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#260"
+ , "c1" : "00849"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#849"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00260] In the recursive method org.apache.kafka.common.network.Selector.connect@POLYN411683 the MagicNumber/String 'Immediately connected to node {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00849] In the recursive method org.apache.kafka.common.network.Selector.clear@POLYN439325 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00262"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#262"
+ , "c1" : "00857"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#857"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00262] In the recursive method org.apache.kafka.common.network.Selector.connect@POLYN411683 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00265"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#265"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00265] In the recursive method org.apache.kafka.common.network.Selector.connect@POLYN411683 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00857] In the recursive method org.apache.kafka.common.network.Selector.clear@POLYN439325 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3556,13 +3563,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00402"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#402"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00402] In the recursive method org.apache.kafka.common.network.Selector.send@POLYN418745 the MagicNumber/String 'Unexpected exception during send, closing connection {} and rethrowing exception {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00957"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#957"
  , "c2" : "BLOCKER"
@@ -3574,6 +3574,55 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#960"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00960] In the recursive method org.apache.kafka.common.network.Selector.doClose@POLYN444288 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00252"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#252"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00252] In the recursive method org.apache.kafka.common.network.Selector.connect@POLYN411683 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00260"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#260"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00260] In the recursive method org.apache.kafka.common.network.Selector.connect@POLYN411683 the MagicNumber/String 'Immediately connected to node {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00262"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#262"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00262] In the recursive method org.apache.kafka.common.network.Selector.connect@POLYN411683 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00265"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#265"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00265] In the recursive method org.apache.kafka.common.network.Selector.connect@POLYN411683 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01020"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1020"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01020] In the recursive method org.apache.kafka.common.network.Selector.lowestPriorityChannel@POLYN447250 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01023"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1023"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01023] In the recursive method org.apache.kafka.common.network.Selector.lowestPriorityChannel@POLYN447250 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00402"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#402"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00402] In the recursive method org.apache.kafka.common.network.Selector.send@POLYN418745 the MagicNumber/String 'Unexpected exception during send, closing connection {} and rethrowing exception {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

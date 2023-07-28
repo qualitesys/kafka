@@ -158,7 +158,7 @@ var maDataBlocs = {
  , "c1" : "00067"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00067] For method getOnlyPartitionResult list of called methods Object monObjet|java.util.Collection partitionResults_valuesN166404"
+ , "c3" : "QC-JAV000007[00067] For method getOnlyPartitionResult list of called methods Object monObjet|java.util.Collection&lt;V&gt; partitionResults_valuesN166404"
 }} 
 ,
 { "ligne" : {"" : ""

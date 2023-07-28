@@ -875,7 +875,7 @@ var maDataBlocs = {
  , "c1" : "00521"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#521"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00521] For method handleResponse list of called methods Object monObjet|org.apache.kafka.common.requests.FetchMetadata nextMetadata_nextCloseExistingN270872|java.util.LinkedHashMap response_responseDataN271011|org.apache.kafka.common.requests.FetchMetadata FetchMetadata_newIncrementalN272799|java.lang.String verifyIncrementalFetchResponsePartitionsN272972|org.apache.kafka.common.requests.FetchMetadata nextMetadata_nextCloseExistingN273311|org.apache.kafka.common.requests.FetchMetadata nextMetadata_nextIncrementalN274181"
+ , "c3" : "QC-JAV000007[00521] For method handleResponse list of called methods Object monObjet|org.apache.kafka.common.requests.FetchMetadata nextMetadata_nextCloseExistingN270872|java.util.LinkedHashMap&lt;org.apache.kafka.common.TopicPartition,FetchResponseData.PartitionData&gt; response_responseDataN271011|java.lang.String verifyFullFetchResponsePartitionsN271686|org.apache.kafka.common.requests.FetchMetadata FetchMetadata_newIncrementalN272799|java.lang.String verifyIncrementalFetchResponsePartitionsN272972|org.apache.kafka.common.requests.FetchMetadata nextMetadata_nextCloseExistingN273311|org.apache.kafka.common.requests.FetchMetadata nextMetadata_nextIncrementalN274181"
 }} 
 ,
 { "ligne" : {"" : ""

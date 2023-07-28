@@ -234,7 +234,7 @@ var maDataBlocs = {
  , "c1" : "00165"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#165"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00165] For method e2ELatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_nodeLevelSensorN188709|java.util.Map streamsMetrics_nodeLevelTagMapN188943"
+ , "c3" : "QC-JAV000007[00165] For method e2ELatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_nodeLevelSensorN188709|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_nodeLevelTagMapN188943"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -262,7 +262,7 @@ var maDataBlocs = {
  , "c1" : "00184"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#184"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00184] For method emitFinalLatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_nodeLevelSensorN189591|java.util.Map streamsMetrics_nodeLevelTagMapN189825"
+ , "c3" : "QC-JAV000007[00184] For method emitFinalLatencySensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_nodeLevelSensorN189591|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_nodeLevelTagMapN189825"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -290,7 +290,7 @@ var maDataBlocs = {
  , "c1" : "00202"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#202"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00202] For method emittedRecordsSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_nodeLevelSensorN190451|java.util.Map streamsMetrics_nodeLevelTagMapN190685"
+ , "c3" : "QC-JAV000007[00202] For method emittedRecordsSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_nodeLevelSensorN190451|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_nodeLevelTagMapN190685"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -318,7 +318,7 @@ var maDataBlocs = {
  , "c1" : "00220"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#220"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00220] For method throughputParentSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_taskLevelSensorN191287|java.util.Map streamsMetrics_nodeLevelTagMapN191491"
+ , "c3" : "QC-JAV000007[00220] For method throughputParentSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_taskLevelSensorN191287|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_nodeLevelTagMapN191491"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -339,7 +339,7 @@ var maDataBlocs = {
  , "c1" : "00240"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/ProcessorNodeMetrics.java.html#240"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00240] For method throughputSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_nodeLevelSensorN192152|java.util.Map streamsMetrics_nodeLevelTagMapN192400"
+ , "c3" : "QC-JAV000007[00240] For method throughputSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_nodeLevelSensorN192152|java.util.Map&lt;java.lang.String,java.lang.String&gt; streamsMetrics_nodeLevelTagMapN192400"
 }} 
 ,
 { "ligne" : {"" : ""

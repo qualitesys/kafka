@@ -314,7 +314,7 @@ var maDataBlocs = {
  , "c1" : "00171"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationUtils.java.html#171"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00171] For method validateScope list of called methods Object monObjet|java.util.Set token_scopeN190113"
+ , "c3" : "QC-JAV000007[00171] For method validateScope list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; token_scopeN190113"
 }} 
 ,
 { "ligne" : {"" : ""

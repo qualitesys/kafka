@@ -286,7 +286,7 @@ var maDataBlocs = {
  , "c1" : "00130"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#130"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00130] For method isAllowedTaskMovement list of called methods Object monObjet|java.util.Map source_clientTagsN196805|java.util.Map destination_clientTagsN196924"
+ , "c3" : "QC-JAV000007[00130] For method isAllowedTaskMovement list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; source_clientTagsN196805|java.util.Map&lt;java.lang.String,java.lang.String&gt; destination_clientTagsN196924"
 }} 
 ,
 { "ligne" : {"" : ""

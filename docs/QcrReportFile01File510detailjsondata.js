@@ -489,7 +489,7 @@ var maDataBlocs = {
  , "c1" : "00300"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#300"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00300] For method createClientCallbackHandler list of called methods Object monObjet|java.lang.Class clientCallbackHandlerClassN230831"
+ , "c3" : "QC-JAV000007[00300] For method createClientCallbackHandler list of called methods Object monObjet|java.lang.Class&lt;? extends AuthenticateCallbackHandler&gt; clientCallbackHandlerClassN230831"
 }} 
 ,
 { "ligne" : {"" : ""

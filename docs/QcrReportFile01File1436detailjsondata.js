@@ -194,7 +194,7 @@ var maDataBlocs = {
  , "c1" : "00066"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#66"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00066] For method hasNext list of called methods Object monObjet|java.util.Optional nextBatchN182957"
+ , "c3" : "QC-JAV000007[00066] For method hasNext list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.raft.Batch&lt;T&gt;&gt; nextBatchN182957"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -285,7 +285,7 @@ var maDataBlocs = {
  , "c1" : "00159"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#159"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00159] For method nextBatch list of called methods Object monObjet|java.util.Iterator nextBatchesN186960|org.apache.kafka.raft.Batch nextBatches_nextN187101"
+ , "c3" : "QC-JAV000007[00159] For method nextBatch list of called methods Object monObjet|java.util.Iterator&lt;org.apache.kafka.common.record.MutableRecordBatch&gt; nextBatchesN186960|org.apache.kafka.raft.Batch&lt;T&gt; nextBatches_nextN187101"
 }} 
 ,
 { "ligne" : {"" : ""

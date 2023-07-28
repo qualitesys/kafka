@@ -696,7 +696,7 @@ var maDataBlocs = {
  , "c1" : "00343"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#343"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00343] For method comparableClassFor list of called methods Object monObjet|java.lang.Class x_getClassN618817|java.lang.reflect.Type[] c_getGenericInterfacesN618980"
+ , "c3" : "QC-JAV000007[00343] For method comparableClassFor list of called methods Object monObjet|java.lang.Class&lt;?&gt; x_getClassN618817|java.lang.reflect.Type[] c_getGenericInterfacesN618980"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -990,7 +990,7 @@ var maDataBlocs = {
  , "c1" : "00552"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#552"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00552] For method get list of called methods Object monObjet|Node getNodeN627212"
+ , "c3" : "QC-JAV000007[00552] For method get list of called methods Object monObjet|Node&lt;K,V&gt; getNodeN627212"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1179,7 +1179,7 @@ var maDataBlocs = {
  , "c1" : "00622"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#622"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00622] For method putVal list of called methods Object monObjet|Node[] resizeN631543|Node newNodeN631874|Node newNodeN633084"
+ , "c3" : "QC-JAV000007[00622] For method putVal list of called methods Object monObjet|Node&lt;K,V&gt;[] resizeN631543|Node&lt;K,V&gt; newNodeN631874|Node&lt;K,V&gt; newNodeN633084"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1592,7 +1592,7 @@ var maDataBlocs = {
  , "c1" : "00752"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#752"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00752] For method treeifyBin list of called methods Object monObjet|TreeNode replacementTreeNodeN640403"
+ , "c3" : "QC-JAV000007[00752] For method treeifyBin list of called methods Object monObjet|TreeNode&lt;K,V&gt; replacementTreeNodeN640403"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1718,7 +1718,7 @@ var maDataBlocs = {
  , "c1" : "00794"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#794"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00794] For method remove list of called methods Object monObjet|Node removeNodeN642077"
+ , "c3" : "QC-JAV000007[00794] For method remove list of called methods Object monObjet|Node&lt;K,V&gt; removeNodeN642077"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2292,7 +2292,7 @@ var maDataBlocs = {
  , "c1" : "01013"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1013"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01013] For method contains list of called methods Object monObjet|Node getNodeN656249"
+ , "c3" : "QC-JAV000007[01013] For method contains list of called methods Object monObjet|Node&lt;K,V&gt; getNodeN656249"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2439,7 +2439,7 @@ var maDataBlocs = {
  , "c1" : "01052"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1052"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01052] For method getOrDefault list of called methods Object monObjet|Node getNodeN658867"
+ , "c3" : "QC-JAV000007[01052] For method getOrDefault list of called methods Object monObjet|Node&lt;K,V&gt; getNodeN658867"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2516,7 +2516,7 @@ var maDataBlocs = {
  , "c1" : "01068"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1068"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01068] For method replace list of called methods Object monObjet|Node getNodeN659973"
+ , "c3" : "QC-JAV000007[01068] For method replace list of called methods Object monObjet|Node&lt;K,V&gt; getNodeN659973"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2572,7 +2572,7 @@ var maDataBlocs = {
  , "c1" : "01080"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1080"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01080] For method replace list of called methods Object monObjet|Node getNodeN660801"
+ , "c3" : "QC-JAV000007[01080] For method replace list of called methods Object monObjet|Node&lt;K,V&gt; getNodeN660801"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2607,7 +2607,7 @@ var maDataBlocs = {
  , "c1" : "01092"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1092"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01092] For method computeIfAbsent list of called methods Object monObjet|Node[] resizeN662320|Node newNodeN664617"
+ , "c3" : "QC-JAV000007[01092] For method computeIfAbsent list of called methods Object monObjet|Node&lt;K,V&gt;[] resizeN662320|Node&lt;K,V&gt; newNodeN664617"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2789,7 +2789,7 @@ var maDataBlocs = {
  , "c1" : "01145"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1145"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01145] For method computeIfPresent list of called methods Object monObjet|Node getNodeN665609"
+ , "c3" : "QC-JAV000007[01145] For method computeIfPresent list of called methods Object monObjet|Node&lt;K,V&gt; getNodeN665609"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2873,7 +2873,7 @@ var maDataBlocs = {
  , "c1" : "01166"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1166"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01166] For method compute list of called methods Object monObjet|Node[] resizeN667504|Node newNodeN669845"
+ , "c3" : "QC-JAV000007[01166] For method compute list of called methods Object monObjet|Node&lt;K,V&gt;[] resizeN667504|Node&lt;K,V&gt; newNodeN669845"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3069,7 +3069,7 @@ var maDataBlocs = {
  , "c1" : "01219"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1219"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01219] For method merge list of called methods Object monObjet|Node[] resizeN671586|Node newNodeN673963"
+ , "c3" : "QC-JAV000007[01219] For method merge list of called methods Object monObjet|Node&lt;K,V&gt;[] resizeN671586|Node&lt;K,V&gt; newNodeN673963"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4623,7 +4623,7 @@ var maDataBlocs = {
  , "c1" : "01848"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1848"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01848] For method find list of called methods Object monObjet|java.lang.Class comparableClassForN708692|int compareComparablesN708816"
+ , "c3" : "QC-JAV000007[01848] For method find list of called methods Object monObjet|java.lang.Class&lt;?&gt; comparableClassForN708692|int compareComparablesN708816"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4777,7 +4777,7 @@ var maDataBlocs = {
  , "c1" : "01889"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1889"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01889] For method tieBreakOrder list of called methods Object monObjet|java.lang.Class a_getClassN710319"
+ , "c3" : "QC-JAV000007[01889] For method tieBreakOrder list of called methods Object monObjet|java.lang.Class&lt;?&gt; a_getClassN710319"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4833,7 +4833,7 @@ var maDataBlocs = {
  , "c1" : "01903"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1903"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01903] For method treeify list of called methods Object monObjet|java.lang.Class comparableClassForN712571|int compareComparablesN712695|int tieBreakOrderN712847"
+ , "c3" : "QC-JAV000007[01903] For method treeify list of called methods Object monObjet|java.lang.Class&lt;?&gt; comparableClassForN712571|int compareComparablesN712695|int tieBreakOrderN712847"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5036,7 +5036,7 @@ var maDataBlocs = {
  , "c1" : "01949"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1949"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01949] For method untreeify list of called methods Object monObjet|Node map_replacementNodeN714348"
+ , "c3" : "QC-JAV000007[01949] For method untreeify list of called methods Object monObjet|Node&lt;K,V&gt; map_replacementNodeN714348"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5099,7 +5099,7 @@ var maDataBlocs = {
  , "c1" : "01965"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1965"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01965] For method putTreeVal list of called methods Object monObjet|java.lang.Class comparableClassForN716219|int compareComparablesN716343|int tieBreakOrderN717338|TreeNode map_newTreeNodeN717907"
+ , "c3" : "QC-JAV000007[01965] For method putTreeVal list of called methods Object monObjet|java.lang.Class&lt;?&gt; comparableClassForN716219|int compareComparablesN716343|int tieBreakOrderN717338|TreeNode&lt;K,V&gt; map_newTreeNodeN717907"
 }} 
 ,
 { "ligne" : {"" : ""

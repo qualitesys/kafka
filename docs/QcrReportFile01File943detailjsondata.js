@@ -210,7 +210,7 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#82"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00082] For method scale list of called methods Object monObjet|java.util.Map schema_parametersN164911"
+ , "c3" : "QC-JAV000007[00082] For method scale list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; schema_parametersN164911"
 }} 
 ,
 { "ligne" : {"" : ""

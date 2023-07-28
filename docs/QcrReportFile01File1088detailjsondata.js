@@ -1427,7 +1427,7 @@ var maDataBlocs = {
  , "c1" : "00752"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#752"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00752] For method exactlyOnceSourceTaskProducerConfigs list of called methods Object monObjet|java.util.Map baseProducerConfigsN456434|java.lang.String taskTransactionalIdN456871"
+ , "c3" : "QC-JAV000007[00752] For method exactlyOnceSourceTaskProducerConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; baseProducerConfigsN456434|java.lang.String taskTransactionalIdN456871"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1497,7 +1497,7 @@ var maDataBlocs = {
  , "c1" : "00773"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#773"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00773] For method baseProducerConfigs list of called methods Object monObjet|java.util.Map connectorClientConfigOverridesN458976"
+ , "c3" : "QC-JAV000007[00773] For method baseProducerConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; connectorClientConfigOverridesN458976"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1560,7 +1560,7 @@ var maDataBlocs = {
  , "c1" : "00812"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#812"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00812] For method exactlyOnceSourceOffsetsConsumerConfigs list of called methods Object monObjet|java.util.Map baseConsumerConfigsN459658"
+ , "c3" : "QC-JAV000007[00812] For method exactlyOnceSourceOffsetsConsumerConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; baseConsumerConfigsN459658"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1588,7 +1588,7 @@ var maDataBlocs = {
  , "c1" : "00830"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#830"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00830] For method regularSourceOffsetsConsumerConfigs list of called methods Object monObjet|java.util.Map baseConsumerConfigsN460513"
+ , "c3" : "QC-JAV000007[00830] For method regularSourceOffsetsConsumerConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; baseConsumerConfigsN460513"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1602,7 +1602,7 @@ var maDataBlocs = {
  , "c1" : "00847"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#847"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00847] For method baseConsumerConfigs list of called methods Object monObjet|java.util.Map connectorClientConfigOverridesN462447"
+ , "c3" : "QC-JAV000007[00847] For method baseConsumerConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; connectorClientConfigOverridesN462447"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1658,7 +1658,7 @@ var maDataBlocs = {
  , "c1" : "00880"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#880"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00880] For method adminConfigs list of called methods Object monObjet|java.util.Map config_originalsN463269|java.util.Map connectorClientConfigOverridesN464291"
+ , "c3" : "QC-JAV000007[00880] For method adminConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; config_originalsN463269|java.util.Map&lt;java.lang.String,java.lang.Object&gt; connectorClientConfigOverridesN464291"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1707,7 +1707,7 @@ var maDataBlocs = {
  , "c1" : "00919"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#919"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00919] For method connectorClientConfigOverrides list of called methods Object monObjet|java.util.Map connConfig_originalsWithPrefixN465093|java.util.List connectorClientConfigOverridePolicy_validateN465393"
+ , "c3" : "QC-JAV000007[00919] For method connectorClientConfigOverrides list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; connConfig_originalsWithPrefixN465093|java.util.List&lt;org.apache.kafka.common.config.ConfigValue&gt; connectorClientConfigOverridePolicy_validateN465393"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1791,7 +1791,7 @@ var maDataBlocs = {
  , "c1" : "00961"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#961"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00961] For method sinkTaskReporters list of called methods Object monObjet|java.lang.String connConfig_dlqTopicNameN467396|java.util.Map baseProducerConfigsN467634|java.util.Map adminConfigsN467935|org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter DeadLetterQueueReporter_createAndSetupN468207"
+ , "c3" : "QC-JAV000007[00961] For method sinkTaskReporters list of called methods Object monObjet|java.lang.String connConfig_dlqTopicNameN467396|java.util.Map&lt;java.lang.String,java.lang.Object&gt; baseProducerConfigsN467634|java.util.Map&lt;java.lang.String,java.lang.Object&gt; adminConfigsN467935|org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter DeadLetterQueueReporter_createAndSetupN468207"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2316,7 +2316,7 @@ var maDataBlocs = {
  , "c1" : "01432"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1432"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01432] For method offsetStoreForRegularSourceConnector list of called methods Object monObjet|java.lang.String sourceConfig_offsetsTopicN490446|java.util.Map baseProducerConfigsN490560|java.util.Map regularSourceOffsetsConsumerConfigsN491038|java.util.Map adminConfigsN491493|org.apache.kafka.connect.storage.KafkaOffsetBackingStore KafkaOffsetBackingStore_forConnectorN491882"
+ , "c3" : "QC-JAV000007[01432] For method offsetStoreForRegularSourceConnector list of called methods Object monObjet|java.lang.String sourceConfig_offsetsTopicN490446|java.util.Map&lt;java.lang.String,java.lang.Object&gt; baseProducerConfigsN490560|java.util.Map&lt;java.lang.String,java.lang.Object&gt; regularSourceOffsetsConsumerConfigsN491038|java.util.Map&lt;java.lang.String,java.lang.Object&gt; adminConfigsN491493|org.apache.kafka.connect.storage.KafkaOffsetBackingStore KafkaOffsetBackingStore_forConnectorN491882"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2372,7 +2372,7 @@ var maDataBlocs = {
  , "c1" : "01496"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1496"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01496] For method offsetStoreForExactlyOnceSourceConnector list of called methods Object monObjet|java.util.Map baseProducerConfigsN493138|java.util.Map exactlyOnceSourceOffsetsConsumerConfigsN493439|java.util.Map adminConfigsN493894|org.apache.kafka.connect.storage.KafkaOffsetBackingStore KafkaOffsetBackingStore_forConnectorN494283"
+ , "c3" : "QC-JAV000007[01496] For method offsetStoreForExactlyOnceSourceConnector list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; baseProducerConfigsN493138|java.util.Map&lt;java.lang.String,java.lang.Object&gt; exactlyOnceSourceOffsetsConsumerConfigsN493439|java.util.Map&lt;java.lang.String,java.lang.Object&gt; adminConfigsN493894|org.apache.kafka.connect.storage.KafkaOffsetBackingStore KafkaOffsetBackingStore_forConnectorN494283"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2421,7 +2421,7 @@ var maDataBlocs = {
  , "c1" : "01546"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1546"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01546] For method offsetStoreForRegularSourceTask list of called methods Object monObjet|java.lang.String sourceConfig_offsetsTopicN495289|java.util.Map regularSourceOffsetsConsumerConfigsN495578|org.apache.kafka.connect.storage.KafkaOffsetBackingStore KafkaOffsetBackingStore_forTaskN495996"
+ , "c3" : "QC-JAV000007[01546] For method offsetStoreForRegularSourceTask list of called methods Object monObjet|java.lang.String sourceConfig_offsetsTopicN495289|java.util.Map&lt;java.lang.String,java.lang.Object&gt; regularSourceOffsetsConsumerConfigsN495578|org.apache.kafka.connect.storage.KafkaOffsetBackingStore KafkaOffsetBackingStore_forTaskN495996"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2463,7 +2463,7 @@ var maDataBlocs = {
  , "c1" : "01602"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1602"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01602] For method offsetStoreForExactlyOnceSourceTask list of called methods Object monObjet|java.util.Map exactlyOnceSourceOffsetsConsumerConfigsN497422|org.apache.kafka.connect.storage.KafkaOffsetBackingStore KafkaOffsetBackingStore_forTaskN498015"
+ , "c3" : "QC-JAV000007[01602] For method offsetStoreForExactlyOnceSourceTask list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; exactlyOnceSourceOffsetsConsumerConfigsN497422|org.apache.kafka.connect.storage.KafkaOffsetBackingStore KafkaOffsetBackingStore_forTaskN498015"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2799,13 +2799,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.Worker.start@POLYN429236"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.Worker.stopConnector@POLYN439870"
 }} 
 ,
@@ -2870,6 +2863,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.Worker.setTargetState@POLYN474270"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.Worker.start@POLYN429236"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3080,20 +3080,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#694"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00694] In the recursive method org.apache.kafka.connect.runtime.Worker.startTask@POLYN447174 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00203"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#203"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.connect.runtime.Worker.start@POLYN429236 the MagicNumber/String 'Worker starting' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#213"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.connect.runtime.Worker.start@POLYN429236 the MagicNumber/String 'Worker started' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3339,6 +3325,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1139"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[01139] In the recursive method org.apache.kafka.connect.runtime.Worker.setTargetState@POLYN474270 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00203"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#203"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.connect.runtime.Worker.start@POLYN429236 the MagicNumber/String 'Worker starting' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00213"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#213"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.connect.runtime.Worker.start@POLYN429236 the MagicNumber/String 'Worker started' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

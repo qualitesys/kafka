@@ -186,7 +186,7 @@ var maDataBlocs = {
  , "c1" : "00108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00108] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.ProcessorNode internalProcessorContext_currentNodeN212291|java.lang.Long internalProcessorContext_processorMetadataForKeyN213144|long StreamsConfig_InternalConfig_getLongN213385"
+ , "c3" : "QC-JAV000007[00108] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.ProcessorNode&lt;?,?,?,?&gt; internalProcessorContext_currentNodeN212291|java.lang.Long internalProcessorContext_processorMetadataForKeyN213144|long StreamsConfig_InternalConfig_getLongN213385"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -375,7 +375,7 @@ var maDataBlocs = {
  , "c1" : "00261"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#261"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00261] For method fetchAndEmit list of called methods Object monObjet|org.apache.kafka.streams.state.KeyValueIterator store_findSessionsN220015"
+ , "c3" : "QC-JAV000007[00261] For method fetchAndEmit list of called methods Object monObjet|org.apache.kafka.streams.state.KeyValueIterator&lt;org.apache.kafka.streams.kstream.Windowed&lt;K&gt;,AGG&gt; store_findSessionsN220015"
 }} 
 ,
 { "ligne" : {"" : ""

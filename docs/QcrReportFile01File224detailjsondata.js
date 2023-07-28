@@ -843,7 +843,7 @@ var maDataBlocs = {
  , "c1" : "00304"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#304"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00304] For method send list of called methods Object monObjet|java.util.concurrent.Future partitionN245834|long nextOffsetN246698"
+ , "c3" : "QC-JAV000007[00304] For method send list of called methods Object monObjet|java.util.concurrent.Future&lt;org.apache.kafka.clients.producer.RecordMetadata&gt; partitionN245834|long nextOffsetN246698"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1151,7 +1151,7 @@ var maDataBlocs = {
  , "c1" : "00507"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#507"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00507] For method partition list of called methods Object monObjet|java.lang.Integer record_partitionN253300|java.lang.String record_topicN253377|java.util.List cluster_partitionsForTopicN253548"
+ , "c3" : "QC-JAV000007[00507] For method partition list of called methods Object monObjet|java.lang.Integer record_partitionN253300|java.lang.String record_topicN253377|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_partitionsForTopicN253548|int partitions_sizeN253644|byte[] keySerializer_serializeN254030|byte[] valueSerializer_serializeN254216"
 }} 
 ,
 { "ligne" : {"" : ""

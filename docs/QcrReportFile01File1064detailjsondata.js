@@ -269,7 +269,7 @@ var maDataBlocs = {
  , "c1" : "00151"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#151"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00151] For method groupId list of called methods Object monObjet|java.util.Map MetricsUtils_getTagsN230905"
+ , "c3" : "QC-JAV000007[00151] For method groupId list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; MetricsUtils_getTagsN230905"
 }} 
 ,
 { "ligne" : {"" : ""

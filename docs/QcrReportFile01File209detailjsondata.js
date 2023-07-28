@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java 541 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java 566 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -455,7 +455,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "104"
+ , "c4" : "126"
 }}
 ,
 { "ligne" : { "" : ""
@@ -476,7 +476,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "11"
+ , "c4" : "14"
 }}
 ,
 { "ligne" : { "" : ""
@@ -541,7 +541,7 @@ var maDataBlocs = {
  , "c1" : "00248"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#248"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00248] For method sendFetches list of called methods Object monObjet|java.util.Map prepareFetchRequestsN487884|org.apache.kafka.common.requests.FetchRequest.Builder FetchRequest_Builder_forConsumerN488578|org.apache.kafka.clients.consumer.internals.RequestFuture client_sendN489344"
+ , "c3" : "QC-JAV000007[00248] For method sendFetches list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.Node,FetchSessionHandler.FetchRequestData&gt; prepareFetchRequestsN487884|org.apache.kafka.common.requests.FetchRequest.Builder FetchRequest_Builder_forConsumerN488578|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;org.apache.kafka.clients.ClientResponse&gt; client_sendN489344"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -765,7 +765,7 @@ var maDataBlocs = {
  , "c1" : "00377"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#377"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00377] For method getTopicMetadata list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture sendMetadataRequestN494801|org.apache.kafka.common.Cluster response_buildClusterN495325|java.util.Set cluster_unauthorizedTopicsN495423"
+ , "c3" : "QC-JAV000007[00377] For method getTopicMetadata list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;org.apache.kafka.clients.ClientResponse&gt; sendMetadataRequestN494801|org.apache.kafka.common.Cluster response_buildClusterN495325|java.util.Set&lt;java.lang.String&gt; cluster_unauthorizedTopicsN495423|java.util.Map&lt;java.lang.String,Errors&gt; response_errorsN495730"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -996,7 +996,7 @@ var maDataBlocs = {
  , "c1" : "00474"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#474"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00474] For method resetOffsetsIfNeeded list of called methods Object monObjet|java.util.Set subscriptions_partitionsNeedingResetN499099"
+ , "c3" : "QC-JAV000007[00474] For method resetOffsetsIfNeeded list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt; subscriptions_partitionsNeedingResetN499099|java.lang.Long offsetResetStrategyTimestampN499488"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1031,7 +1031,7 @@ var maDataBlocs = {
  , "c1" : "00497"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#497"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00497] For method validateOffsetsIfNeeded list of called methods Object monObjet|java.util.Set subscriptions_partitionsNeedingValidationN500169"
+ , "c3" : "QC-JAV000007[00497] For method validateOffsetsIfNeeded list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt; subscriptions_partitionsNeedingValidationN500169"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1101,7 +1101,7 @@ var maDataBlocs = {
  , "c1" : "00542"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#542"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00542] For method fetchOffsetsByTimes list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture sendListOffsetsRequestsN502579"
+ , "c3" : "QC-JAV000007[00542] For method fetchOffsetsByTimes list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;org.apache.kafka.clients.consumer.internals.Fetcher.ListOffsetResult&gt; sendListOffsetsRequestsN502579"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1318,7 +1318,7 @@ var maDataBlocs = {
  , "c1" : "00699"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#699"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00699] For method fetchRecords list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.FetchPosition subscriptions_positionN509717|java.util.List completedFetch_fetchRecordsN510145"
+ , "c3" : "QC-JAV000007[00699] For method fetchRecords list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.FetchPosition subscriptions_positionN509717|java.util.List&lt;org.apache.kafka.clients.consumer.ConsumerRecord&lt;K,V&gt;&gt; completedFetch_fetchRecordsN510145|java.lang.Long subscriptions_partitionLagN511066|java.lang.Long subscriptions_partitionLeadN511361"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1437,7 +1437,7 @@ var maDataBlocs = {
  , "c1" : "00768"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#768"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00768] For method resetOffsetsAsync list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture sendListOffsetRequestN513620|V resetTimestamps_getN514523"
+ , "c3" : "QC-JAV000007[00768] For method resetOffsetsAsync list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;org.apache.kafka.clients.consumer.internals.Fetcher.ListOffsetResult&gt; sendListOffsetRequestN513620|V resetTimestamps_getN514523"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1584,7 +1584,7 @@ var maDataBlocs = {
  , "c1" : "00819"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#819"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00819] For method validateOffsetsAsync list of called methods Object monObjet|java.util.Map regroupFetchPositionsByLeaderN516059|org.apache.kafka.clients.NodeApiVersions apiVersions_getN516479|java.util.Optional subscriptions_maybeCompleteValidationN518268"
+ , "c3" : "QC-JAV000007[00819] For method validateOffsetsAsync list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.Node,java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.clients.consumer.internals.SubscriptionState.FetchPosition&gt;&gt; regroupFetchPositionsByLeaderN516059|org.apache.kafka.clients.NodeApiVersions apiVersions_getN516479|java.util.Optional&lt;org.apache.kafka.clients.consumer.internals.SubscriptionState.LogTruncation&gt; subscriptions_maybeCompleteValidationN518268"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1654,7 +1654,7 @@ var maDataBlocs = {
  , "c1" : "00917"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#917"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00917] For method sendListOffsetsRequests list of called methods Object monObjet|java.util.Map groupListOffsetRequestsN520868|org.apache.kafka.clients.consumer.internals.RequestFuture sendListOffsetRequestN521680"
+ , "c3" : "QC-JAV000007[00917] For method sendListOffsetsRequests list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.Node,java.util.Map&lt;org.apache.kafka.common.TopicPartition,ListOffsetsPartition&gt;&gt; groupListOffsetRequestsN520868|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;org.apache.kafka.clients.consumer.internals.Fetcher.ListOffsetResult&gt; sendListOffsetRequestN521680"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1710,7 +1710,7 @@ var maDataBlocs = {
  , "c1" : "00965"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#965"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00965] For method groupListOffsetRequests list of called methods Object monObjet|java.util.Map metadata_currentLeaderN523799"
+ , "c3" : "QC-JAV000007[00965] For method groupListOffsetRequests list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.Node,java.util.Map&lt;org.apache.kafka.common.TopicPartition,ListOffsetsPartition&gt;&gt; metadata_currentLeaderN523799"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2004,7 +2004,7 @@ var maDataBlocs = {
  , "c1" : "01148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1148"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01148] For method selectReadReplica list of called methods Object monObjet|java.util.Optional subscriptions_preferredReadReplicaN532848"
+ , "c3" : "QC-JAV000007[01148] For method selectReadReplica list of called methods Object monObjet|java.util.Optional&lt;java.lang.Integer&gt; subscriptions_preferredReadReplicaN532848"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2025,7 +2025,7 @@ var maDataBlocs = {
  , "c1" : "01183"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1183"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01183] For method prepareFetchRequests list of called methods Object monObjet|java.util.Map metadata_topicIdsN534886|org.apache.kafka.common.Node selectReadReplicaN535684|V fetchable_getN536374|int node_idN536543|org.apache.kafka.clients.FetchSessionHandler sessionHandlerN536620|org.apache.kafka.clients.FetchSessionHandler.Builder handler_newBuilderN536988"
+ , "c3" : "QC-JAV000007[01183] For method prepareFetchRequests list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.Node,FetchSessionHandler.FetchRequestData&gt; metadata_topicIdsN534886|org.apache.kafka.common.Node selectReadReplicaN535684|V fetchable_getN536374|int node_idN536543|org.apache.kafka.clients.FetchSessionHandler sessionHandlerN536620|org.apache.kafka.clients.FetchSessionHandler.Builder handler_newBuilderN536988"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2844,7 +2844,7 @@ var maDataBlocs = {
  , "c1" : "01575"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1575"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01575] For method nextFetchedRecord list of called methods Object monObjet|long currentBatch_nextOffsetN557116|int currentBatch_partitionLeaderEpochN557346|long currentBatch_producerIdN557843|long currentBatch_nextOffsetN558373|org.apache.kafka.common.utils.CloseableIterator currentBatch_streamingIteratorN558467|org.apache.kafka.common.utils.CloseableIterator record_offsetN558940"
+ , "c3" : "QC-JAV000007[01575] For method nextFetchedRecord list of called methods Object monObjet|long currentBatch_nextOffsetN557116|int currentBatch_partitionLeaderEpochN557346|long currentBatch_producerIdN557843|long currentBatch_nextOffsetN558373|org.apache.kafka.common.utils.CloseableIterator&lt;org.apache.kafka.common.record.Record&gt; currentBatch_streamingIteratorN558467|org.apache.kafka.common.record.Record record_offsetN558940"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3306,7 +3306,7 @@ var maDataBlocs = {
  , "c1" : "01854"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1854"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01854] For method maybeUpdateAssignment list of called methods Object monObjet|int subscription_assignmentIdN571823|java.util.Set subscription_assignedPartitionsN572002"
+ , "c3" : "QC-JAV000007[01854] For method maybeUpdateAssignment list of called methods Object monObjet|int subscription_assignmentIdN571823|java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt; subscription_assignedPartitionsN572002|org.apache.kafka.common.MetricName partitionPreferredReadReplicaMetricNameN572753"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3362,7 +3362,7 @@ var maDataBlocs = {
  , "c1" : "01882"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1882"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01882] For method recordPartitionLead list of called methods Object monObjet|java.lang.String partitionLeadMetricNameN573459|java.util.Map topicPartitionTagsN573763"
+ , "c3" : "QC-JAV000007[01882] For method recordPartitionLead list of called methods Object monObjet|java.lang.String partitionLeadMetricNameN573459|java.util.Map&lt;java.lang.String,java.lang.String&gt; topicPartitionTagsN573763"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3383,7 +3383,7 @@ var maDataBlocs = {
  , "c1" : "01899"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1899"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01899] For method recordPartitionLag list of called methods Object monObjet|java.lang.String partitionLagMetricNameN574770|java.util.Map topicPartitionTagsN575074"
+ , "c3" : "QC-JAV000007[01899] For method recordPartitionLag list of called methods Object monObjet|java.lang.String partitionLagMetricNameN574770|java.util.Map&lt;java.lang.String,java.lang.String&gt; topicPartitionTagsN575074"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3432,7 +3432,7 @@ var maDataBlocs = {
  , "c1" : "01923"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1923"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01923] For method partitionPreferredReadReplicaMetricName list of called methods Object monObjet|java.util.Map topicPartitionTagsN576298"
+ , "c3" : "QC-JAV000007[01923] For method partitionPreferredReadReplicaMetricName list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; topicPartitionTagsN576298"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3537,6 +3537,20 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN509158"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.maybeUpdateAssignment@POLYN571728"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN534520"
 }} 
 ,
@@ -3559,6 +3573,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Fetcher.sendListOffsetRequest@POLYN525370"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN494468"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3975,6 +3996,111 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00702"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#702"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00702] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN509158 the MagicNumber/String 'Not returning fetched records for partition {} since it is no longer assigned' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00707"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#707"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00707] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN509158 the MagicNumber/String 'Not returning fetched records for assigned partition {} since it is no longer fetchable' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00711"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#711"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00711] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN509158 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00712"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#712"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00712] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN509158 the MagicNumber/String 'Missing position for fetchable partition ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00718"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#718"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00718] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN509158 the MagicNumber/String 'Returning {} fetched records at offset {} for assigned partition {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00721"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#721"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00721] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN509158 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00728"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#728"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00728] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN509158 the MagicNumber/String 'Updating fetch position from {} to {} for partition {} and returning {} records from  poll-- ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00731"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#731"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00731] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN509158 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00735"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#735"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00735] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN509158 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00739"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#739"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00739] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN509158 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00747"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#747"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00747] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN509158 the MagicNumber/String 'Ignoring fetched records for {} at offset {} since the current position is {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00752"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#752"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00752] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN509158 the MagicNumber/String 'Draining fetched records for partition {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01871"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1871"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01871] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.maybeUpdateAssignment@POLYN571728 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01872"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1872"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01872] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.maybeUpdateAssignment@POLYN571728 the MagicNumber/String 0L MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01872"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1872"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01872] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.maybeUpdateAssignment@POLYN571728 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01193"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1193"
  , "c2" : "BLOCKER"
@@ -4126,6 +4252,55 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1022"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[01022] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.sendListOffsetRequest@POLYN525370 the MagicNumber/String 'Received ListOffsetResponse {} from broker {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00397"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#397"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00397] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN494468 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00403"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#403"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00403] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN494468 the MagicNumber/String 'Topic metadata fetch included errors: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00410"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#410"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00410] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN494468 the MagicNumber/String '' is invalid' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00410"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#410"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00410] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN494468 the MagicNumber/String 'Topic '' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00416"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#416"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00416] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN494468 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00418"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#418"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00418] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN494468 the MagicNumber/String 'Unexpected error fetching metadata for topic ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00434"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#434"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00434] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN494468 the MagicNumber/String 'Timeout expired while fetching topic metadata' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

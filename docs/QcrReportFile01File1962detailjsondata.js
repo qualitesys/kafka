@@ -257,7 +257,7 @@ var maDataBlocs = {
  , "c1" : "00110"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#110"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00110] For method assignActiveStatefulTasks list of called methods Object monObjet|java.util.Collection clientStates_valuesN191509"
+ , "c3" : "QC-JAV000007[00110] For method assignActiveStatefulTasks list of called methods Object monObjet|java.util.Collection&lt;V&gt; clientStates_valuesN191509"
 }} 
 ,
 { "ligne" : {"" : ""

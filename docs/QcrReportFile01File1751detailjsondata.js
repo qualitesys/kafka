@@ -138,7 +138,7 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00057] For method view list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.KTableValueGetterSupplier parent_valueGetterSupplierN181486"
+ , "c3" : "QC-JAV000007[00057] For method view list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.KTableValueGetterSupplier&lt;K,V&gt; parent_valueGetterSupplierN181486"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -285,7 +285,7 @@ var maDataBlocs = {
  , "c1" : "00155"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#155"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00155] For method get list of called methods Object monObjet|org.apache.kafka.streams.state.ValueAndTimestamp parentGetter_getN186714|org.apache.kafka.streams.processor.internals.ProcessorRecordContext internalProcessorContext_recordContextN186815"
+ , "c3" : "QC-JAV000007[00155] For method get list of called methods Object monObjet|org.apache.kafka.streams.state.ValueAndTimestamp&lt;V&gt; parentGetter_getN186714|org.apache.kafka.streams.processor.internals.ProcessorRecordContext internalProcessorContext_recordContextN186815"
 }} 
 ,
 { "ligne" : {"" : ""

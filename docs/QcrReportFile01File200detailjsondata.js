@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java 291 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java 335 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -283,7 +283,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "4"
+ , "c4" : "45"
 }}
 ,
 { "ligne" : { "" : ""
@@ -297,7 +297,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -565,7 +565,7 @@ var maDataBlocs = {
  , "c1" : "00182"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#182"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00182] For method constrainedAssign list of called methods Object monObjet|int consumerToOwnedPartitions_sizeN365575|java.util.Collection partitionsPerTopic_valuesN365652|java.util.Collection assignment_getN367186|java.util.Collection assignment_getN371088|java.util.Collection assignment_getN372697"
+ , "c3" : "QC-JAV000007[00182] For method constrainedAssign list of called methods Object monObjet|int consumerToOwnedPartitions_sizeN365575|java.util.Collection&lt;V&gt; partitionsPerTopic_valuesN365652|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.common.TopicPartition&gt;&gt; assignment_getN367186|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; getUnassignedPartitionsN369421|int unassignedPartitions_indexOfN370406|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.common.TopicPartition&gt;&gt; assignment_getN371088|int consumerAssignment_sizeN371482|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.common.TopicPartition&gt;&gt; assignment_getN372697"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -866,7 +866,7 @@ var maDataBlocs = {
  , "c1" : "00383"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#383"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00383] For method generalAssign list of called methods Object monObjet|java.util.Collection partitionsPerTopic_valuesN377922"
+ , "c3" : "QC-JAV000007[00383] For method generalAssign list of called methods Object monObjet|java.util.Collection&lt;V&gt; partitionsPerTopic_valuesN377922|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; getAllTopicPartitionsN378394|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; currentAssignment_entrySetN378785|V subscriptions_getN379081|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; getUnassignedPartitionsN380364"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1153,7 +1153,7 @@ var maDataBlocs = {
  , "c1" : "00656"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#656"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00656] For method isBalanced list of called methods Object monObjet|V currentAssignment_getN389076|V currentAssignment_getN389212|java.util.Set currentAssignment_entrySetN389670"
+ , "c3" : "QC-JAV000007[00656] For method isBalanced list of called methods Object monObjet|V currentAssignment_getN389076|V currentAssignment_getN389212|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; currentAssignment_entrySetN389670|V currentAssignment_getN390441|int consumerPartitions_sizeN390537|V allSubscriptions_getN390635|int getMaxAssignmentSizeN390731|V partitionsPerTopic_getN391007|V allPartitions_getN391517|V currentAssignment_getN391613"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1349,7 +1349,7 @@ var maDataBlocs = {
  , "c1" : "00737"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#737"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00737] For method getBalanceScore list of called methods Object monObjet|java.util.Set consumer2AssignmentSize_entrySetN393761"
+ , "c3" : "QC-JAV000007[00737] For method getBalanceScore list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; consumer2AssignmentSize_entrySetN393761"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1510,7 +1510,7 @@ var maDataBlocs = {
  , "c1" : "00811"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#811"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00811] For method balance list of called methods Object monObjet|V currentAssignment_getN397783|boolean performReassignmentsN400266"
+ , "c3" : "QC-JAV000007[00811] For method balance list of called methods Object monObjet|V currentAssignment_getN397783|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.common.TopicPartition&gt;&gt; deepCopyN399736|boolean performReassignmentsN400266"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2336,13 +2336,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.canParticipateInReassignment@POLYN395692"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.removeMovementRecordOfPartition@POLYN410608"
 }} 
 ,
@@ -2351,6 +2344,139 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.PartitionMovements.addPartitionMovementRecord@POLYN411473"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374895"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.isBalanced@POLYN388703"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.canParticipateInReassignment@POLYN395692"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00387"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#387"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00387] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374895 the MagicNumber/String 'performing general assign. partitionsPerTopic: {}, subscriptions: {}, currentAssignment: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00409"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#409"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00409] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374895 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00425"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#425"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00425] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374895 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00432"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#432"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00432] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374895 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00436"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#436"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00436] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374895 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00452"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#452"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00452] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374895 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00467"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#467"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00467] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374895 the MagicNumber/String 'unassigned Partitions: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00482"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#482"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00482] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.generalAssign@POLYN374895 the MagicNumber/String 'Final assignment of partitions to consumers: \n{}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00663"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#663"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00663] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.isBalanced@POLYN388703 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00664"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#664"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00664] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.isBalanced@POLYN388703 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00674"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#674"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00674] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.isBalanced@POLYN388703 the MagicNumber/String '{} is assigned to more than one consumer.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00695"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#695"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00695] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.isBalanced@POLYN388703 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00701"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#701"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00701] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.isBalanced@POLYN388703 the MagicNumber/String '{} can be moved from consumer {} to consumer {} for a more balanced assignment.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00703"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#703"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00703] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.isBalanced@POLYN388703 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00709"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#709"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00709] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.isBalanced@POLYN388703 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2379,6 +2505,188 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#805"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00805] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.canParticipateInReassignment@POLYN395692 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00186"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#186"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00186] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 'Performing constrained assign with partitionsPerTopic: {}, consumerToOwnedPartitions: {}.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00197"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#197"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00197] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00204"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#204"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00204] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00220"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#220"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00220] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 'Found partition {} still claimed as owned by consumer {}, despite being claimed by multiple ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00221"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#221"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00221] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 'consumers already in the same generation. Removing it from the ownedPartitions' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00230"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#230"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00230] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00242"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#242"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00242] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00249"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#249"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00249] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00265"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#265"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00265] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 'After reassigning previously owned partitions, unfilled members: {}, unassigned partitions: {}, ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00266"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#266"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00266] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 'current assignment: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00283"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#283"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00283] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 'No more unfilled consumers to be assigned. The remaining unassigned partitions are: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00285"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#285"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00285] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 'No more unfilled consumers to be assigned.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00314"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#314"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00314] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00315"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#315"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00315] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 'Filled the last member up to maxQuota but still had partitions remaining to assign, ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00316"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#316"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00316] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 'will continue but this indicates a bug in the assignment.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00326"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#326"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00326] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 'Current number of members with more than the minQuota partitions: {}, is less than the expected number ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00327"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#327"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00327] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 'of members with more than the minQuota partitions: {}, and no more partitions to be assigned to the remaining unfilled consumers: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00329"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#329"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00329] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 'We haven't reached the expected number of members with ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00330"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#330"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00330] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 'more than the minQuota partitions, but no more partitions to be assigned' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00335"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#335"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00335] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 'Consumer: [{}] should have {} partitions, but got {} partitions, and no more partitions ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00336"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#336"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00336] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 'to be assigned. The remaining unfilled consumers are: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00337"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#337"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00337] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 'Consumer: [%s] doesn't reach minQuota partitions, ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00338"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#338"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00338] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 'and no more partitions to be assigned' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00340"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#340"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00340] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 'skip over this unfilled member: [{}] because we've reached the expected number of ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00341"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#341"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00341] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 'members with more than the minQuota partitions, and this member already have minQuota partitions' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00347"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#347"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00347] In the recursive method org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.constrainedAssign@POLYN364800 the MagicNumber/String 'Final assignment of partitions to consumers: \n{}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

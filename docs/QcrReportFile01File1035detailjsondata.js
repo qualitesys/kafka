@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html" 
- , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java 74 rule violations " 
+ , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java 80 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -211,7 +211,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "16"
+ , "c4" : "21"
 }}
 ,
 { "ligne" : { "" : ""
@@ -225,7 +225,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -276,7 +276,7 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#82"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00082] For method start list of called methods Object monObjet|org.apache.kafka.clients.consumer.KafkaConsumer MirrorUtils_newConsumerN199503|org.apache.kafka.clients.producer.KafkaProducer MirrorUtils_newProducerN199616|java.util.Set config_taskTopicPartitionsN199753"
+ , "c3" : "QC-JAV000007[00082] For method start list of called methods Object monObjet|KafkaConsumer&lt;byte[],byte[]&gt; MirrorUtils_newConsumerN199503|KafkaProducer&lt;byte[],byte[]&gt; MirrorUtils_newProducerN199616|java.util.Map&lt;org.apache.kafka.common.TopicPartition,java.lang.Long&gt; loadOffsetsN199867"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -535,7 +535,7 @@ var maDataBlocs = {
  , "c1" : "00229"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#229"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00229] For method loadOffset list of called methods Object monObjet|java.util.Map MirrorUtils_wrapPartitionN207475|org.apache.kafka.connect.storage.OffsetStorageReader context_offsetStorageReaderN207630"
+ , "c3" : "QC-JAV000007[00229] For method loadOffset list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; MirrorUtils_wrapPartitionN207475|org.apache.kafka.connect.storage.OffsetStorageReader context_offsetStorageReaderN207630"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -661,6 +661,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceTask.start@POLYN198566"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorSourceTask.stop@POLYN200790"
 }} 
 ,
@@ -732,6 +739,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#163"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00163] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceTask.poll@POLYN201875 the MagicNumber/String 'Failure during poll.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#85"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceTask.start@POLYN198566 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#98"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceTask.start@POLYN198566 the MagicNumber/String 'Starting with {} previously uncommitted partitions.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00099"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#99"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00099] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceTask.start@POLYN198566 the MagicNumber/String 0L MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00100"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#100"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00100] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceTask.start@POLYN198566 the MagicNumber/String 'Seeking offsets: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#102"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.connect.mirror.MirrorSourceTask.start@POLYN198566 the MagicNumber/String '{} replicating {} topic-partitions {}-&amp;gt;{}: {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

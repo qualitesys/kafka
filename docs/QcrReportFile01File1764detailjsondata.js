@@ -331,7 +331,7 @@ var maDataBlocs = {
  , "c1" : "00148"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#148"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00148] For method reduce list of called methods Object monObjet|org.apache.kafka.streams.kstream.Aggregator aggregatorForReducerN212090"
+ , "c3" : "QC-JAV000007[00148] For method reduce list of called methods Object monObjet|org.apache.kafka.streams.kstream.Aggregator&lt;K,V,V&gt; aggregatorForReducerN212090"
 }} 
 ,
 { "ligne" : {"" : ""
