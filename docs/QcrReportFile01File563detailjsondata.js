@@ -293,7 +293,7 @@ var maDataBlocs = {
  , "c1" : "00157"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LazyDownConversionRecords.java.html#157"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00157] For method makeNext list of called methods Object monObjet|T batchIterator_nextN181895|int currentBatch_sizeInBytesN182040"
+ , "c3" : "QC-JAV000007[00157] For method makeNext list of called methods Object monObjet|int currentBatch_sizeInBytesN182040"
 }} 
 ,
 { "ligne" : {"" : ""

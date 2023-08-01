@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java 492 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java 490 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -1111,7 +1111,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "16"
+ , "c4" : "14"
 }}
 ,
 { "ligne" : { "" : ""
@@ -3007,13 +3007,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01097"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1097"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01097] For method handleCachedTransactionRequestResult list of called methods Object monObjet|V transactionalRequestResultSupplier_getN414928"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01098"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1098"
  , "c2" : "CRITICAL"
@@ -3396,13 +3389,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1446"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01446] For method handleResponse arguments AbstractResponse  response"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01446"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1446"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01446] For method handleResponse list of called methods Object monObjet|V coordinators_getN428662"
 }} 
 ,
 { "ligne" : {"" : ""

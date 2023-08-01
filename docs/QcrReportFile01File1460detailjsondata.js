@@ -5916,7 +5916,7 @@ var maDataBlocs = {
  , "c1" : "01040"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1040"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01040] For method verifySubclass list of called methods Object monObjet|java.lang.Class&lt;?&gt; getClassN589040|V Caches_subclassAudits_getN589600|java.lang.Boolean Boolean_valueOfN589774"
+ , "c3" : "QC-JAV000007[01040] For method verifySubclass list of called methods Object monObjet|java.lang.Class&lt;?&gt; getClassN589040|java.lang.Boolean Boolean_valueOfN589774"
 }} 
 ,
 { "ligne" : {"" : ""

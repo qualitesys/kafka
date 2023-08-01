@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java 23 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java 22 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -179,18 +179,11 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "2"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#41"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00041] For method finishSnapshot list of called methods Object monObjet|V changes_computeIfAbsentN162456"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00043"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#43"
@@ -230,7 +223,7 @@ var maDataBlocs = {
  , "c1" : "00055"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00055] For method replay list of called methods Object monObjet|org.apache.kafka.common.quota.ClientQuotaEntity ClientQuotaImage_dataToEntityN162819|V changes_computeIfAbsentN162935"
+ , "c3" : "QC-JAV000007[00055] For method replay list of called methods Object monObjet|org.apache.kafka.common.quota.ClientQuotaEntity ClientQuotaImage_dataToEntityN162819"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -244,7 +237,7 @@ var maDataBlocs = {
  , "c1" : "00063"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasDelta.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00063] For method apply list of called methods Object monObjet|V changes_getN163740|org.apache.kafka.image.ClientQuotaImage change_applyN164041"
+ , "c3" : "QC-JAV000007[00063] For method apply list of called methods Object monObjet|org.apache.kafka.image.ClientQuotaImage change_applyN164041"
 }} 
 ,
 { "ligne" : {"" : ""

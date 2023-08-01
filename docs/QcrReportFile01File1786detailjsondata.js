@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java 24 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java 23 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -124,7 +124,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -195,13 +195,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java.html#54"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00054] For method init list of called methods Object monObjet|V undecoratedPrimaryKeySerdeTopicSupplier_getN168704|V undecoratedForeignKeySerdeTopicSupplier_getN168778"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java.html#54"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00054] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -259,7 +252,7 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java.html#82"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00082] For method fromBytes list of called methods Object monObjet|byte[] data_getN170630|org.apache.kafka.common.utils.Bytes ByteBuffer_wrapN170712|T foreignKeyDeserializer_deserializeN171116|T primaryKeyDeserializer_deserializeN171528"
+ , "c3" : "QC-JAV000007[00082] For method fromBytes list of called methods Object monObjet|byte[] data_getN170630|org.apache.kafka.common.utils.Bytes ByteBuffer_wrapN170712"
 }} 
 ,
 { "ligne" : {"" : ""

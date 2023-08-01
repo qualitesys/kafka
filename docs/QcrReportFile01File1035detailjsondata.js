@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html" 
- , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java 80 rule violations " 
+ , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java 79 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -253,7 +253,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -466,13 +466,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#195"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00195] For method maybeSyncOffsets arguments TopicPartition  topicPartition|long  upstreamOffset|long  downstreamOffset"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#195"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00195] For method maybeSyncOffsets list of called methods Object monObjet|V partitionStates_computeIfAbsentN205525"
 }} 
 ,
 { "ligne" : {"" : ""

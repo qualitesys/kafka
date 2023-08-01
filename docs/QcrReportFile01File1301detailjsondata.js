@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java 97 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java 92 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -264,7 +264,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "7"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -452,13 +452,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00283"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#283"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00283] For method fence list of called methods Object monObjet|V brokers_getN238346"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00285"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#285"
  , "c2" : "MAJOR"
@@ -498,13 +491,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#324"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00324] For method hasValidSession arguments int  brokerId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00324"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#324"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00324] For method hasValidSession list of called methods Object monObjet|V brokers_getN239656"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -550,13 +536,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00352"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#352"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00352] For method register list of called methods Object monObjet|V brokers_getN240587"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00354"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#354"
  , "c2" : "MAJOR"
@@ -578,13 +557,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00368"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#368"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00368] For method touch list of called methods Object monObjet|V brokers_getN241346"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00370"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#370"
  , "c2" : "MAJOR"
@@ -603,13 +575,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#408"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00408] For method updateControlledShutdownOffset arguments int  brokerId|long  controlledShutDownOffset"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00408"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#408"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00408] For method updateControlledShutdownOffset list of called methods Object monObjet|V brokers_getN242896"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -728,7 +693,7 @@ var maDataBlocs = {
  , "c1" : "00522"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#522"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00522] For method calculateNextBrokerState list of called methods Object monObjet|V brokers_getOrDefaultN247457|org.apache.kafka.controller.BrokerControlState currentBrokerStateN247613"
+ , "c3" : "QC-JAV000007[00522] For method calculateNextBrokerState list of called methods Object monObjet|org.apache.kafka.controller.BrokerControlState currentBrokerStateN247613"
 }} 
 ,
 { "ligne" : {"" : ""

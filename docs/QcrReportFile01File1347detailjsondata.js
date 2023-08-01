@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java 56 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java 55 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -260,7 +260,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "7"
+ , "c4" : "6"
 }}
  ] 
 ,
@@ -284,13 +284,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#74"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00074] For method getOrCreateTopicDelta arguments Uuid  id"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#74"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00074] For method getOrCreateTopicDelta list of called methods Object monObjet|V changedTopics_getN185529"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -353,7 +346,7 @@ var maDataBlocs = {
  , "c1" : "00093"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#93"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00093] For method replay list of called methods Object monObjet|V changedTopics_removeN186517|org.apache.kafka.image.TopicImage topicDelta_imageN186734|java.lang.String image_getTopicN187072|java.lang.String topicImage_nameN187400"
+ , "c3" : "QC-JAV000007[00093] For method replay list of called methods Object monObjet|org.apache.kafka.image.TopicImage topicDelta_imageN186734|java.lang.String image_getTopicN187072|java.lang.String topicImage_nameN187400"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -402,7 +395,7 @@ var maDataBlocs = {
  , "c1" : "00125"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#125"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00125] For method apply list of called methods Object monObjet|V changedTopics_getN188718|org.apache.kafka.image.TopicImage delta_applyN189212"
+ , "c3" : "QC-JAV000007[00125] For method apply list of called methods Object monObjet|org.apache.kafka.image.TopicImage delta_applyN189212"
 }} 
 ,
 { "ligne" : {"" : ""

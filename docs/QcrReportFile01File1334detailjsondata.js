@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java 10 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java 9 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -142,13 +142,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -164,13 +157,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#47"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00047] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00058"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationDelta.java.html#58"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00058] For method apply list of called methods Object monObjet|V changes_getN162513"
 }} 
 ,
 { "ligne" : {"" : ""

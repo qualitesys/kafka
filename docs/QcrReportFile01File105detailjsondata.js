@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java 1004 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java 1003 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -882,7 +882,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "54"
+ , "c4" : "53"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1326,13 +1326,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#634"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00634] For method close arguments Duration  timeout"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00634"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#634"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00634] For method close list of called methods Object monObjet|V hardShutdownTimeMs_getN996241"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1948,7 +1941,7 @@ var maDataBlocs = {
  , "c1" : "01127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1127"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01127] For method sendEligibleCalls list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; callsToSend_entrySetN1013959|V nodeReadyDeadlines_getN1014978|V nodeReadyDeadlines_removeN1016365|V calls_removeN1016795"
+ , "c3" : "QC-JAV000007[01127] For method sendEligibleCalls list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; callsToSend_entrySetN1013959"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2186,7 +2179,7 @@ var maDataBlocs = {
  , "c1" : "01231"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1231"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01231] For method handleResponses list of called methods Object monObjet|org.apache.kafka.common.requests.RequestHeader response_requestHeaderN1019764|V correlationIdToCalls_getN1019861"
+ , "c3" : "QC-JAV000007[01231] For method handleResponses list of called methods Object monObjet|org.apache.kafka.common.requests.RequestHeader response_requestHeaderN1019764"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2830,7 +2823,7 @@ var maDataBlocs = {
  , "c1" : "01589"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1589"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01589] For method getCreateTopicsCall list of called methods Object monObjet|V futures_getN1038641|org.apache.kafka.clients.admin.KafkaAdminClient.Call time_millisecondsN1041459|org.apache.kafka.clients.admin.KafkaAdminClient.Call getCreateTopicsCallN1041541"
+ , "c3" : "QC-JAV000007[01589] For method getCreateTopicsCall list of called methods Object monObjet|org.apache.kafka.clients.admin.KafkaAdminClient.Call time_millisecondsN1041459|org.apache.kafka.clients.admin.KafkaAdminClient.Call getCreateTopicsCallN1041541"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3033,7 +3026,7 @@ var maDataBlocs = {
  , "c1" : "01751"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1751"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01751] For method getDeleteTopicsCall list of called methods Object monObjet|V futures_getN1048884|org.apache.kafka.clients.admin.KafkaAdminClient.Call getDeleteTopicsCallN1050616"
+ , "c3" : "QC-JAV000007[01751] For method getDeleteTopicsCall list of called methods Object monObjet|org.apache.kafka.clients.admin.KafkaAdminClient.Call getDeleteTopicsCallN1050616"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3096,7 +3089,7 @@ var maDataBlocs = {
  , "c1" : "01823"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1823"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01823] For method getDeleteTopicsWithIdsCall list of called methods Object monObjet|V futures_getN1052882|org.apache.kafka.clients.admin.KafkaAdminClient.Call getDeleteTopicsWithIdsCallN1054614"
+ , "c3" : "QC-JAV000007[01823] For method getDeleteTopicsWithIdsCall list of called methods Object monObjet|org.apache.kafka.clients.admin.KafkaAdminClient.Call getDeleteTopicsWithIdsCallN1054614"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3593,7 +3586,7 @@ var maDataBlocs = {
  , "c1" : "02226"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2226"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02226] For method createAcls list of called methods Object monObjet|org.apache.kafka.clients.admin.CreateAclsResult acl_toFilterN1075518|V futures_getN1077005"
+ , "c3" : "QC-JAV000007[02226] For method createAcls list of called methods Object monObjet|org.apache.kafka.clients.admin.CreateAclsResult acl_toFilterN1075518"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3670,7 +3663,7 @@ var maDataBlocs = {
  , "c1" : "02285"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2285"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02285] For method deleteAcls list of called methods Object monObjet|V futures_getN1080292|org.apache.kafka.common.acl.AclBinding DeleteAclsResponse_aclBindingN1081445"
+ , "c3" : "QC-JAV000007[02285] For method deleteAcls list of called methods Object monObjet|org.apache.kafka.common.acl.AclBinding DeleteAclsResponse_aclBindingN1081445"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3712,7 +3705,7 @@ var maDataBlocs = {
  , "c1" : "02344"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2344"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02344] For method describeConfigs list of called methods Object monObjet|java.lang.Integer nodeForN1082580|V unified_getN1085168"
+ , "c3" : "QC-JAV000007[02344] For method describeConfigs list of called methods Object monObjet|java.lang.Integer nodeForN1082580"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4104,7 +4097,7 @@ var maDataBlocs = {
  , "c1" : "02593"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2593"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02593] For method alterReplicaLogDirs list of called methods Object monObjet|org.apache.kafka.clients.admin.AlterReplicaLogDirsResult replica_brokerIdN1098247|V replicaAssignmentByBroker_computeIfAbsentN1098324|org.apache.kafka.clients.admin.AlterReplicaLogDirsResult time_millisecondsN1099468|V futures_getN1100849"
+ , "c3" : "QC-JAV000007[02593] For method alterReplicaLogDirs list of called methods Object monObjet|org.apache.kafka.clients.admin.AlterReplicaLogDirsResult replica_brokerIdN1098247|org.apache.kafka.clients.admin.AlterReplicaLogDirsResult time_millisecondsN1099468"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4440,7 +4433,7 @@ var maDataBlocs = {
  , "c1" : "02736"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2736"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02736] For method describeReplicaLogDirs list of called methods Object monObjet|V partitionsByBroker_computeIfAbsentN1107090|org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult time_millisecondsN1108083|V replicaDirInfoByPartition_getN1110670|V futures_getN1111804"
+ , "c3" : "QC-JAV000007[02736] For method describeReplicaLogDirs list of called methods Object monObjet|org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult time_millisecondsN1108083"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4769,7 +4762,7 @@ var maDataBlocs = {
  , "c1" : "02859"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2859"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02859] For method getCreatePartitionsCall list of called methods Object monObjet|V futures_getN1116118|org.apache.kafka.clients.admin.KafkaAdminClient.Call getCreatePartitionsCallN1117909"
+ , "c3" : "QC-JAV000007[02859] For method getCreatePartitionsCall list of called methods Object monObjet|org.apache.kafka.clients.admin.KafkaAdminClient.Call getCreatePartitionsCallN1117909"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4839,7 +4832,7 @@ var maDataBlocs = {
  , "c1" : "02933"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2933"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02933] For method deleteRecords list of called methods Object monObjet|long calcDeadlineMsN1119594|V futures_getN1120933|org.apache.kafka.clients.admin.DeleteRecordsResult errors_getN1121029|org.apache.kafka.common.Node cluster_leaderForN1121363|org.apache.kafka.clients.admin.DeleteRecordsResult time_millisecondsN1122559|V futures_getN1123948"
+ , "c3" : "QC-JAV000007[02933] For method deleteRecords list of called methods Object monObjet|long calcDeadlineMsN1119594|org.apache.kafka.clients.admin.DeleteRecordsResult errors_getN1121029|org.apache.kafka.common.Node cluster_leaderForN1121363|org.apache.kafka.clients.admin.DeleteRecordsResult time_millisecondsN1122559"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5322,7 +5315,7 @@ var maDataBlocs = {
  , "c1" : "03479"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3479"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03479] For method alterPartitionReassignments list of called methods Object monObjet|V topicsToReassignments_getN1150635|java.util.Collection&lt;V&gt; topicsToReassignments_valuesN1155407"
+ , "c3" : "QC-JAV000007[03479] For method alterPartitionReassignments list of called methods Object monObjet|java.util.Collection&lt;V&gt; topicsToReassignments_valuesN1155407"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5756,7 +5749,7 @@ var maDataBlocs = {
  , "c1" : "03816"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3816"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03816] For method getListOffsetsCalls list of called methods Object monObjet|org.apache.kafka.common.Cluster mr_buildClusterN1169162|V futures_getN1169820|long getOffsetFromOffsetSpecN1169916|org.apache.kafka.common.Node clusterSnapshot_leaderForN1170141|V leadersOnNode_computeIfAbsentN1170520|V futures_getN1173215|V topicPartitionOffsets_getN1173427|V futures_getN1176358"
+ , "c3" : "QC-JAV000007[03816] For method getListOffsetsCalls list of called methods Object monObjet|org.apache.kafka.common.Cluster mr_buildClusterN1169162|long getOffsetFromOffsetSpecN1169916|org.apache.kafka.common.Node clusterSnapshot_leaderForN1170141"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6211,7 +6204,7 @@ var maDataBlocs = {
  , "c1" : "04059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4059"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04059] For method alterUserScramCredentials list of called methods Object monObjet|java.lang.String alteration_userN1184379|java.lang.String alteration_userN1185656|V futures_getN1189999"
+ , "c3" : "QC-JAV000007[04059] For method alterUserScramCredentials list of called methods Object monObjet|java.lang.String alteration_userN1184379|java.lang.String alteration_userN1185656"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6393,7 +6386,7 @@ var maDataBlocs = {
  , "c1" : "04254"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4254"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04254] For method updateFeatures list of called methods Object monObjet|org.apache.kafka.clients.admin.UpdateFeaturesResult time_millisecondsN1197034|V updateFutures_getN1198994"
+ , "c3" : "QC-JAV000007[04254] For method updateFeatures list of called methods Object monObjet|org.apache.kafka.clients.admin.UpdateFeaturesResult time_millisecondsN1197034"
 }} 
 ,
 { "ligne" : {"" : ""

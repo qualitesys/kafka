@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java 17 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java 16 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -115,7 +115,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -188,13 +188,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#80"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00080] For method add arguments long  offset|DeferredEvent  event"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#80"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00080] For method add list of called methods Object monObjet|V pending_getN166823"
 }} 
 ,
 { "ligne" : {"" : ""

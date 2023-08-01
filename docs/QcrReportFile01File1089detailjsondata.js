@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java 83 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java 81 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -225,13 +225,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "9"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -406,13 +399,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00330"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#330"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00330] For method logPluginPathConfigProviderWarning list of called methods Object monObjet|V rawOriginals_getN240745"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00330"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#330"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00330] The argument rawOriginals is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -499,13 +485,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#417"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00417] For method pluginLocations arguments Map&lt;String ,String &gt;  props"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00417"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#417"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00417] For method pluginLocations list of called methods Object monObjet|V props_getN243698"
 }} 
 ,
 { "ligne" : {"" : ""

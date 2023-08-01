@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java 106 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java 95 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -406,7 +406,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "15"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -423,13 +423,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#77"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00077] For method canConnect arguments String  id|long  now"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#77"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00077] For method canConnect list of called methods Object monObjet|V nodeState_getN236819"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -454,13 +447,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#91"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00091] For method isBlackedOut list of called methods Object monObjet|V nodeState_getN237389"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#93"
  , "c2" : "MAJOR"
@@ -472,13 +458,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#105"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00105] For method connectionDelay arguments String  id|long  now"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#105"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00105] For method connectionDelay list of called methods Object monObjet|V nodeState_getN238034"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -510,13 +489,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#125"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00125] For method isConnecting list of called methods Object monObjet|V nodeState_getN238888"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#127"
  , "c2" : "MAJOR"
@@ -531,13 +503,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00135"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#135"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00135] For method isPreparingConnection list of called methods Object monObjet|V nodeState_getN239340"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00137"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#137"
  , "c2" : "MAJOR"
@@ -549,13 +514,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#147"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00147] For method connecting arguments String  id|long  now|String  host"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00147"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#147"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00147] For method connecting list of called methods Object monObjet|V nodeState_getN239933"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -615,13 +573,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#204"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00204] For method throttle list of called methods Object monObjet|V nodeState_getN242502"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00207"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#207"
  , "c2" : "MAJOR"
@@ -633,13 +584,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#217"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00217] For method throttleDelayMs arguments String  id|long  now"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00217"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#217"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00217] For method throttleDelayMs list of called methods Object monObjet|V nodeState_getN243019"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -748,13 +692,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00313"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#313"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00313] For method isConnected list of called methods Object monObjet|V nodeState_getN246940"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00315"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#315"
  , "c2" : "MAJOR"
@@ -769,13 +706,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00322"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#322"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00322] For method isDisconnected list of called methods Object monObjet|V nodeState_getN247298"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00324"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#324"
  , "c2" : "MAJOR"
@@ -787,13 +717,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#331"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00331] For method authenticationException arguments String  id"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00331"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#331"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00331] For method authenticationException list of called methods Object monObjet|V nodeState_getN247656"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html" 
- , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java 75 rule violations " 
+ , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java 74 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -280,7 +280,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -556,13 +556,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#250"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.connect.mirror.MirrorCheckpointTask.refreshIdleConsumerGroupOffset@POLYN211576 the MagicNumber/String  'Error querying for consumer group {} on cluster {}.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00255"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#255"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00255] For method syncGroupOffset list of called methods Object monObjet|V idleConsumerGroupsOffset_getN213379|V convertedUpstreamOffset_getN213951|V targetConsumerOffset_getN214254"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2560,7 +2560,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method allLocalStorePartitionLags list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.clients.admin.ListOffsetsResult.ListOffsetsResultInfo&gt; fetchEndOffsetsN585381|V allChangelogPositions_getOrDefaultN585797|java.lang.String streamsMetadataState_getStoreForChangelogTopicN586238"
+ , "c3" : "QC-JAV000007[00001] For method allLocalStorePartitionLags list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.clients.admin.ListOffsetsResult.ListOffsetsResultInfo&gt; fetchEndOffsetsN585381|java.lang.String streamsMetadataState_getStoreForChangelogTopicN586238"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java 335 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java 330 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -339,7 +339,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "18"
+ , "c4" : "13"
 }}
  ] 
 ,
@@ -412,13 +412,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#95"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00095] For method allSubscriptionsEqual arguments Set&lt;String &gt;  allTopics|Map&lt;String ,Subscription &gt;  subscriptions|Map&lt;String ,List&lt;TopicPartition &gt; &gt;  consumerToOwnedPartitions|Set&lt;TopicPartition &gt;  partitionsWithMultiplePreviousOwners"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#95"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00095] For method allSubscriptionsEqual list of called methods Object monObjet|V memberData_generation_getN363069|V allPreviousPartitionsToOwner_putN363421"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -837,13 +830,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00353"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#353"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00353] For method getAllTopicPartitions list of called methods Object monObjet|V partitionsPerTopic_getN373909"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00353"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#353"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00353] The argument partitionsPerTopic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -866,7 +852,7 @@ var maDataBlocs = {
  , "c1" : "00383"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#383"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00383] For method generalAssign list of called methods Object monObjet|java.util.Collection&lt;V&gt; partitionsPerTopic_valuesN377922|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; getAllTopicPartitionsN378394|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; currentAssignment_entrySetN378785|V subscriptions_getN379081|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; getUnassignedPartitionsN380364"
+ , "c3" : "QC-JAV000007[00383] For method generalAssign list of called methods Object monObjet|java.util.Collection&lt;V&gt; partitionsPerTopic_valuesN377922|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; getAllTopicPartitionsN378394|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; currentAssignment_entrySetN378785|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; getUnassignedPartitionsN380364"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1045,13 +1031,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00549"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#549"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00549] For method getUnassignedPartitions list of called methods Object monObjet|V partitionsPerTopic_getN384992"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00550"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#550"
  , "c2" : "CRITICAL"
@@ -1153,7 +1132,7 @@ var maDataBlocs = {
  , "c1" : "00656"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#656"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00656] For method isBalanced list of called methods Object monObjet|V currentAssignment_getN389076|V currentAssignment_getN389212|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; currentAssignment_entrySetN389670|V currentAssignment_getN390441|int consumerPartitions_sizeN390537|V allSubscriptions_getN390635|int getMaxAssignmentSizeN390731|V partitionsPerTopic_getN391007|V allPartitions_getN391517|V currentAssignment_getN391613"
+ , "c3" : "QC-JAV000007[00656] For method isBalanced list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; currentAssignment_entrySetN389670|int consumerPartitions_sizeN390537|int getMaxAssignmentSizeN390731"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1454,7 +1433,7 @@ var maDataBlocs = {
  , "c1" : "00781"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#781"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00781] For method canParticipateInReassignment list of called methods Object monObjet|V currentAssignment_getN396148|int currentPartitions_sizeN396244|V consumer2AllPotentialTopics_getN396342|int getMaxAssignmentSizeN396438"
+ , "c3" : "QC-JAV000007[00781] For method canParticipateInReassignment list of called methods Object monObjet|int currentPartitions_sizeN396244|int getMaxAssignmentSizeN396438"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1510,7 +1489,7 @@ var maDataBlocs = {
  , "c1" : "00811"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#811"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00811] For method balance list of called methods Object monObjet|V currentAssignment_getN397783|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.common.TopicPartition&gt;&gt; deepCopyN399736|boolean performReassignmentsN400266"
+ , "c3" : "QC-JAV000007[00811] For method balance list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.common.TopicPartition&gt;&gt; deepCopyN399736|boolean performReassignmentsN400266"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1588,13 +1567,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#885"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00885] For method performReassignments arguments List&lt;TopicPartition &gt;  reassignablePartitions|Map&lt;String ,List&lt;TopicPartition &gt; &gt;  currentAssignment|Map&lt;TopicPartition ,ConsumerGenerationPair &gt;  prevAssignment|TreeSet&lt;String &gt;  sortedCurrentSubscriptions|Map&lt;String ,List&lt;String &gt; &gt;  consumer2AllPotentialTopics|Map&lt;String ,List&lt;String &gt; &gt;  topic2AllPotentialConsumers|Map&lt;TopicPartition ,String &gt;  currentPartitionConsumer|Map&lt;String ,Integer &gt;  partitionsPerTopic|int  totalPartitionCount"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00885"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#885"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00885] For method performReassignments list of called methods Object monObjet|V currentPartitionConsumer_getN402791"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1811,7 +1783,7 @@ var maDataBlocs = {
  , "c1" : "00958"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#958"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00958] For method reassignPartition list of called methods Object monObjet|V currentPartitionConsumer_getN405575|org.apache.kafka.common.TopicPartition partitionMovements_getTheActualPartitionToBeMovedN405671"
+ , "c3" : "QC-JAV000007[00958] For method reassignPartition list of called methods Object monObjet|org.apache.kafka.common.TopicPartition partitionMovements_getTheActualPartitionToBeMovedN405671"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1826,13 +1798,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#969"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00969] For method processPartitionMovement arguments TopicPartition  partition|String  newConsumer|Map&lt;String ,List&lt;TopicPartition &gt; &gt;  currentAssignment|TreeSet&lt;String &gt;  sortedCurrentSubscriptions|Map&lt;TopicPartition ,String &gt;  currentPartitionConsumer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00969"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#969"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00969] For method processPartitionMovement list of called methods Object monObjet|V currentPartitionConsumer_getN406241"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1895,7 +1860,7 @@ var maDataBlocs = {
  , "c1" : "01013"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1013"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01013] For method compare list of called methods Object monObjet|V map_getN408733|int o1_compareToN409000"
+ , "c3" : "QC-JAV000007[01013] For method compare list of called methods Object monObjet|int o1_compareToN409000"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1923,7 +1888,7 @@ var maDataBlocs = {
  , "c1" : "01031"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1031"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01031] For method compare list of called methods Object monObjet|V map_getN409686|int o1_compareToN409938"
+ , "c3" : "QC-JAV000007[01031] For method compare list of called methods Object monObjet|int o1_compareToN409938"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1951,7 +1916,7 @@ var maDataBlocs = {
  , "c1" : "01048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1048"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01048] For method removeMovementRecordOfPartition list of called methods Object monObjet|V partitionMovements_removeN410707|java.lang.String partition_topicN410803|V partitionMovementsByTopic_getN410938"
+ , "c3" : "QC-JAV000007[01048] For method removeMovementRecordOfPartition list of called methods Object monObjet|java.lang.String partition_topicN410803"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1972,7 +1937,7 @@ var maDataBlocs = {
  , "c1" : "01062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1062"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01062] For method addPartitionMovementRecord list of called methods Object monObjet|java.lang.String partition_topicN411686|V partitionMovementsByTopic_getN412025"
+ , "c3" : "QC-JAV000007[01062] For method addPartitionMovementRecord list of called methods Object monObjet|java.lang.String partition_topicN411686"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2007,7 +1972,7 @@ var maDataBlocs = {
  , "c1" : "01092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1092"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01092] For method getTheActualPartitionToBeMoved list of called methods Object monObjet|java.lang.String partition_topicN413396|V partitionMovements_getN413796|V partitionMovementsByTopic_getN413965"
+ , "c3" : "QC-JAV000007[01092] For method getTheActualPartitionToBeMoved list of called methods Object monObjet|java.lang.String partition_topicN413396"
 }} 
 ,
 { "ligne" : {"" : ""

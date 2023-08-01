@@ -225,7 +225,7 @@ var maDataBlocs = {
  , "c1" : "00096"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AbortTransactionHandler.java.html#96"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00096] For method handleResponse list of called methods Object monObjet|WriteTxnMarkersResponseData response_dataN180974|V markerResponses_getN181614|V topicResponses_getN182407|V partitionResponses_getN183256"
+ , "c3" : "QC-JAV000007[00096] For method handleResponse list of called methods Object monObjet|WriteTxnMarkersResponseData response_dataN180974"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableFilter.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableFilter.java 31 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableFilter.java 30 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -133,7 +133,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -216,13 +216,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableFilter.java.html#75"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00075] For method computeValue list of called methods Object monObjet|V valueAndTimestamp_valueN176118"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableFilter.java.html#76"
  , "c2" : "MAJOR"
@@ -268,7 +261,7 @@ var maDataBlocs = {
  , "c1" : "00108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableFilter.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00108] For method process list of called methods Object monObjet|K record_keyN177559|V record_valueN177662|VIn computeOldValueN177867"
+ , "c3" : "QC-JAV000007[00108] For method process list of called methods Object monObjet|VIn computeOldValueN177867"
 }} 
 ,
 { "ligne" : {"" : ""

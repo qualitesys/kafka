@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java 128 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java 127 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -190,7 +190,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "6"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -234,7 +234,7 @@ var maDataBlocs = {
  , "c1" : "00097"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00097] For method generateSchemas list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN214272|V messages_getN214388|short versions_lowestN215594"
+ , "c3" : "QC-JAV000007[00097] For method generateSchemas list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN214272|short versions_lowestN215594"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -910,13 +910,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00334"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#334"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00334] For method floorVersion list of called methods Object monObjet|V messages_getN228595"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00345"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#345"
  , "c2" : "MINOR"
@@ -927,7 +920,7 @@ var maDataBlocs = {
  , "c1" : "00345"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#345"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00345] For method writeSchema list of called methods Object monObjet|V messages_getN228973|short versions_lowestN229148|V messageInfo_schemaForVersion_getN229333|short versions_lowestN230627"
+ , "c3" : "QC-JAV000007[00345] For method writeSchema list of called methods Object monObjet|short versions_lowestN229148|short versions_lowestN230627"
 }} 
 ,
 { "ligne" : {"" : ""

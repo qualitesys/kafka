@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java 77 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java 76 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -221,7 +221,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "6"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -231,13 +231,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#56"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00056] For method taskIsNotCaughtUpOnClientAndOtherMoreCaughtUpClientsExist arguments TaskId  task|UUID  client|Map&lt;UUID ,ClientState &gt;  clientStates|Map&lt;TaskId ,SortedSet&lt;UUID &gt; &gt;  tasksToCaughtUpClients|Map&lt;TaskId ,SortedSet&lt;UUID &gt; &gt;  tasksToClientByLag"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00056"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#56"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00056] For method taskIsNotCaughtUpOnClientAndOtherMoreCaughtUpClientsExist list of called methods Object monObjet|V clientStates_getN196295|V clientStates_getN196455"
 }} 
 ,
 { "ligne" : {"" : ""

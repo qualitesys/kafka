@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java 67 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java 65 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -307,7 +307,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "9"
+ , "c4" : "7"
 }}
  ] 
 ,
@@ -460,13 +460,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#105"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00105] For method remove list of called methods Object monObjet|S segments_getSegmentForTimestampN195422"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#109"
  , "c2" : "MAJOR"
@@ -498,7 +491,7 @@ var maDataBlocs = {
  , "c1" : "00123"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#123"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00123] For method putIndex list of called methods Object monObjet|V indexKeySchema_getN196379|long segments_segmentIdN196500|S segments_getOrCreateSegmentIfLiveN196601"
+ , "c3" : "QC-JAV000007[00123] For method putIndex list of called methods Object monObjet|long segments_segmentIdN196500"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -526,7 +519,7 @@ var maDataBlocs = {
  , "c1" : "00137"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#137"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00137] For method getIndex list of called methods Object monObjet|V indexKeySchema_getN197140|long segments_segmentIdN197261|S segments_getOrCreateSegmentIfLiveN197362"
+ , "c3" : "QC-JAV000007[00137] For method getIndex list of called methods Object monObjet|long segments_segmentIdN197261"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -561,7 +554,7 @@ var maDataBlocs = {
  , "c1" : "00152"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#152"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00152] For method removeIndex list of called methods Object monObjet|V indexKeySchema_getN197897|long segments_segmentIdN198018|S segments_getOrCreateSegmentIfLiveN198119"
+ , "c3" : "QC-JAV000007[00152] For method removeIndex list of called methods Object monObjet|long segments_segmentIdN198018"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -589,7 +582,7 @@ var maDataBlocs = {
  , "c1" : "00167"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#167"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00167] For method put list of called methods Object monObjet|long segments_segmentIdN198741|S segments_getOrCreateSegmentIfLiveN198842"
+ , "c3" : "QC-JAV000007[00167] For method put list of called methods Object monObjet|long segments_segmentIdN198741"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -618,13 +611,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#193"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00193] For method get arguments Bytes  rawKey"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#193"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00193] For method get list of called methods Object monObjet|S segments_getSegmentForTimestampN199904"
 }} 
 ,
 { "ligne" : {"" : ""

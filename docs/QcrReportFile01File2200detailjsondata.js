@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java 35 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java 34 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -122,7 +122,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -335,13 +335,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#174"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00174] For method findProcessObject arguments String  mountPath"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00174"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/Kibosh.java.html#174"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00174] For method findProcessObject list of called methods Object monObjet|V processes_getN181590"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java 119 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java 117 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -274,7 +274,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "7"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -546,13 +546,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00276"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#276"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00276] For method buildAndOptimizeTopology list of called methods Object monObjet|V graphNodePriorityQueue_removeN250418"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00290"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#290"
  , "c2" : "MAJOR"
@@ -592,13 +585,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#298"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.buildAndOptimizeTopology@POLYN249701 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00308"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#308"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00308] For method mergeDuplicateSourceNodes list of called methods Object monObjet|V patternsToSourceNodes_getN252392|V topicsToSourceNodes_getN253097"
 }} 
 ,
 { "ligne" : {"" : ""

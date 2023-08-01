@@ -474,7 +474,7 @@ var maDataBlocs = {
  , "c1" : "00200"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#200"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00200] For method setRepartitionSourceTopicPartitionCount list of called methods Object monObjet|V repartitionTopicMetadata_getN199823|java.lang.Integer computePartitionCountN200022"
+ , "c3" : "QC-JAV000007[00200] For method setRepartitionSourceTopicPartitionCount list of called methods Object monObjet|java.lang.Integer computePartitionCountN200022"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -649,7 +649,7 @@ var maDataBlocs = {
  , "c1" : "00243"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#243"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00243] For method computePartitionCount list of called methods Object monObjet|V repartitionTopicMetadata_getN202007|java.lang.Integer clusterMetadata_partitionCountForTopicN202170"
+ , "c3" : "QC-JAV000007[00243] For method computePartitionCount list of called methods Object monObjet|java.lang.Integer clusterMetadata_partitionCountForTopicN202170"
 }} 
 ,
 { "ligne" : {"" : ""

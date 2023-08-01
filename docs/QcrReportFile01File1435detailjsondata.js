@@ -160,7 +160,7 @@ var maDataBlocs = {
  , "c1" : "00062"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#62"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00062] For method next list of called methods Object monObjet|V nextBatch_getN164548|long batch_lastOffsetN164696"
+ , "c3" : "QC-JAV000007[00062] For method next list of called methods Object monObjet|long batch_lastOffsetN164696"
 }} 
 ,
 { "ligne" : {"" : ""

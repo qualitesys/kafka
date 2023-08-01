@@ -179,7 +179,7 @@ var maDataBlocs = {
  , "c1" : "00067"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00067] For method initialize list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; stateMgr_initializeN172537|java.util.Map&lt;java.lang.String,java.lang.String&gt; topology_storeToChangelogTopicN172656|V storeNameToTopic_getN172815|org.apache.kafka.streams.processor.internals.SourceNode&lt;?,?&gt; topology_sourceN172941"
+ , "c3" : "QC-JAV000007[00067] For method initialize list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; stateMgr_initializeN172537|java.util.Map&lt;java.lang.String,java.lang.String&gt; topology_storeToChangelogTopicN172656|org.apache.kafka.streams.processor.internals.SourceNode&lt;?,?&gt; topology_sourceN172941"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -207,7 +207,7 @@ var maDataBlocs = {
  , "c1" : "00094"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateUpdateTask.java.html#94"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00094] For method update list of called methods Object monObjet|V deserializers_getN173740|org.apache.kafka.clients.consumer.ConsumerRecord&lt;java.lang.Object,java.lang.Object&gt; sourceNodeAndDeserializer_deserializeN173898"
+ , "c3" : "QC-JAV000007[00094] For method update list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerRecord&lt;java.lang.Object,java.lang.Object&gt; sourceNodeAndDeserializer_deserializeN173898"
 }} 
 ,
 { "ligne" : {"" : ""

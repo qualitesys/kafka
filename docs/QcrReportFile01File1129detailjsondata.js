@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java 73 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java 72 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -370,7 +370,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "5"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -387,13 +387,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#182"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00182] For method pluginClassLoader arguments String  name"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00182"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#182"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00182] For method pluginClassLoader list of called methods Object monObjet|V pluginLoaders_getN239441|V inner_getN239648"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -449,7 +442,7 @@ var maDataBlocs = {
  , "c1" : "00200"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#200"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00200] For method connectorLoader list of called methods Object monObjet|V aliases_getOrDefaultN240132|org.apache.kafka.connect.runtime.isolation.PluginClassLoader pluginClassLoaderN240250"
+ , "c3" : "QC-JAV000007[00200] For method connectorLoader list of called methods Object monObjet|org.apache.kafka.connect.runtime.isolation.PluginClassLoader pluginClassLoaderN240250"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -701,7 +694,7 @@ var maDataBlocs = {
  , "c1" : "00445"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/DelegatingClassLoader.java.html#445"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00445] For method loadClass list of called methods Object monObjet|V aliases_getOrDefaultN253780|org.apache.kafka.connect.runtime.isolation.PluginClassLoader pluginClassLoaderN253898"
+ , "c3" : "QC-JAV000007[00445] For method loadClass list of called methods Object monObjet|org.apache.kafka.connect.runtime.isolation.PluginClassLoader pluginClassLoaderN253898"
 }} 
 ,
 { "ligne" : {"" : ""

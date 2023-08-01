@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.Class.java.html" 
- , "texte" : "File secujava/java.lang.Class.java 559 rule violations " 
+ , "texte" : "File secujava/java.lang.Class.java 557 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -1559,7 +1559,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "57"
+ , "c4" : "55"
 }}
 ,
 { "ligne" : { "" : ""
@@ -3686,13 +3686,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "03309"
- , "c1link" : "./qc/secujava/java.lang.Class.java.html#3309"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03309] For method reflectionData list of called methods Object monObjet|V reflectionData_getN1184728"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "03314"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3314"
  , "c2" : "MAJOR"
@@ -3718,13 +3711,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#3323"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03323] For method newReflectionData arguments SoftReference&lt;ReflectionData&lt;T &gt; &gt;  oldReflectionData|int  classRedefinedCount"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03323"
- , "c1link" : "./qc/secujava/java.lang.Class.java.html#3323"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03323] For method newReflectionData list of called methods Object monObjet|V oldReflectionData_getN1185767"
 }} 
 ,
 { "ligne" : {"" : ""

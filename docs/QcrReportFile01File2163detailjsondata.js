@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html" 
- , "texte" : "File streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java 207 rule violations " 
+ , "texte" : "File streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java 204 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -386,7 +386,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "10"
+ , "c4" : "7"
 }}
  ] 
 ,
@@ -717,7 +717,7 @@ var maDataBlocs = {
  , "c1" : "00543"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#543"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00543] For method pipeRecord list of called methods Object monObjet|org.apache.kafka.common.TopicPartition getInputTopicOrPatternPartitionN423602|V globalPartitionsByInputTopic_getN423695"
+ , "c3" : "QC-JAV000007[00543] For method pipeRecord list of called methods Object monObjet|org.apache.kafka.common.TopicPartition getInputTopicOrPatternPartitionN423602"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -760,13 +760,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#565"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00565] For method enqueueTaskRecord arguments String  inputTopic|TopicPartition  topicOrPatternPartition|long  timestamp|byte[]  key|byte[]  value|Headers  headers"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00565"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#565"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00565] For method enqueueTaskRecord list of called methods Object monObjet|V offsetsByTopicOrPatternPartition_getN424751"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -924,13 +917,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00655"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#655"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00655] For method getInputTopicOrPatternPartition list of called methods Object monObjet|V partitionsByInputTopic_getN428553"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00661"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#661"
  , "c2" : "MAJOR"
@@ -941,7 +927,7 @@ var maDataBlocs = {
  , "c1" : "00671"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#671"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00671] For method captureOutputsAndReEnqueueInternalResults list of called methods Object monObjet|org.apache.kafka.common.TopicPartition getInputTopicOrPatternPartitionN429791|V globalPartitionsByInputTopic_getN429884"
+ , "c3" : "QC-JAV000007[00671] For method captureOutputsAndReEnqueueInternalResults list of called methods Object monObjet|org.apache.kafka.common.TopicPartition getInputTopicOrPatternPartitionN429791"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1019,13 +1005,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#726"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00726] For method getRecordsQueue arguments String  topicName"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00726"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#726"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00726] For method getRecordsQueue list of called methods Object monObjet|V outputRecordsByTopic_getN431619"
 }} 
 ,
 { "ligne" : {"" : ""

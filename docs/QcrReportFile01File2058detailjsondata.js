@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java 107 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java 105 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -330,7 +330,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "6"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -409,7 +409,7 @@ var maDataBlocs = {
  , "c1" : "00154"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html#154"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00154] For method put list of called methods Object monObjet|org.apache.kafka.streams.kstream.Window sessionKey_windowN234650|V endTimeMap_getN235590"
+ , "c3" : "QC-JAV000007[00154] For method put list of called methods Object monObjet|org.apache.kafka.streams.kstream.Window sessionKey_windowN234650"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -464,13 +464,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00182"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html#182"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00182] For method remove list of called methods Object monObjet|V endTimeMap_getN236413|V keyMap_getN236687"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00182"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html#182"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00182] The argument sessionKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -494,13 +487,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html#204"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00204] For method fetchSession arguments Bytes  key|long  sessionStartTime|long  sessionEndTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html#204"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00204] For method fetchSession list of called methods Object monObjet|V endTimeMap_getN237821|V keyMap_getN238038"
 }} 
 ,
 { "ligne" : {"" : ""

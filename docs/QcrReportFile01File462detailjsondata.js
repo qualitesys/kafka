@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java 159 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java 158 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -485,7 +485,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "6"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1013,13 +1013,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#445"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00445] For method removeSensor arguments String  name"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00445"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#445"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00445] For method removeSensor list of called methods Object monObjet|V sensors_getN305761|V childrenSensors_removeN306462"
 }} 
 ,
 { "ligne" : {"" : ""

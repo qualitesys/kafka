@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java 87 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java 86 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -338,13 +338,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -435,13 +428,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00001] For method convertToNodeArray arguments List&lt;Integer &gt;  replicaIds|Map&lt;Integer ,Node &gt;  nodesById"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method convertToNodeArray list of called methods Object monObjet|V nodesById_getN229151"
 }} 
 ,
 { "ligne" : {"" : ""

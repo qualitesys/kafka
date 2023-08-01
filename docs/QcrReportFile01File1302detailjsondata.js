@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java 73 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java 68 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -194,7 +194,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "6"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -333,13 +333,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#191"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00191] For method removeTopicEntryForBroker list of called methods Object monObjet|V isrMembers_getN205847"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00193"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#193"
  , "c2" : "MAJOR"
@@ -351,13 +344,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#201"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00201] For method add arguments int  brokerId|Uuid  topicId|int  newPartition|boolean  leader"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#201"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00201] For method add list of called methods Object monObjet|V isrMembers_getN206637|V topicMap_getN207034"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -421,13 +407,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#222"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00222] For method change arguments int  brokerId|Uuid  topicId|int  partition|boolean  wasLeader|boolean  isLeader"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00222"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#222"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00222] For method change list of called methods Object monObjet|V isrMembers_getN208061|V topicMap_getN208450"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -505,13 +484,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#247"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00247] For method remove arguments int  brokerId|Uuid  topicId|int  removedPartition|boolean  leader"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#247"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00247] For method remove list of called methods Object monObjet|V isrMembers_getN210002|V topicMap_getN210391"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -645,13 +617,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#283"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00283] For method iterator arguments int  brokerId|boolean  leadersOnly"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00283"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#283"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00283] For method iterator list of called methods Object monObjet|V isrMembers_getN212202"
 }} 
 ,
 { "ligne" : {"" : ""

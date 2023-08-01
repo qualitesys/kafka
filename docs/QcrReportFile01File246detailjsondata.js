@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java 300 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java 297 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -388,7 +388,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "11"
+ , "c4" : "8"
 }}
  ] 
 ,
@@ -419,13 +419,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#160"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00160] For method maybeRemoveFromInflightBatches arguments ProducerBatch  batch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#160"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00160] For method maybeRemoveFromInflightBatches list of called methods Object monObjet|V inFlightBatches_getN311132"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -524,13 +517,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#212"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00212] For method addToInflightBatches arguments List&lt;ProducerBatch &gt;  batches"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#212"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00212] For method addToInflightBatches list of called methods Object monObjet|V inFlightBatches_getN313816"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1055,7 +1041,7 @@ var maDataBlocs = {
  , "c1" : "00549"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#549"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00549] For method handleProduceResponse list of called methods Object monObjet|org.apache.kafka.common.requests.RequestHeader response_requestHeaderN328365|int requestHeader_correlationIdN328442|V batches_getN330937"
+ , "c3" : "QC-JAV000007[00549] For method handleProduceResponse list of called methods Object monObjet|org.apache.kafka.common.requests.RequestHeader response_requestHeaderN328365|int requestHeader_correlationIdN328442"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1280,13 +1266,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#691"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00691] For method failBatch arguments ProducerBatch  batch|ProduceResponse.PartitionResponse  response|boolean  adjustSequenceNumbers"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00691"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#691"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00691] For method failBatch list of called methods Object monObjet|V recordErrorMap_getN338226"
 }} 
 ,
 { "ligne" : {"" : ""

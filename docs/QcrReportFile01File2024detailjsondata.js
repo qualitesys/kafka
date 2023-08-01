@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java 70 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java 69 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -251,7 +251,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -310,13 +310,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#55"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.isDeletedCacheEntry@POLYN174608 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#59"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00059] For method hasNext list of called methods Object monObjet|K storeIterator_peekNextKeyN175115"
 }} 
 ,
 { "ligne" : {"" : ""

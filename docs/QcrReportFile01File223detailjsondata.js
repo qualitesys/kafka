@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java 293 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java 292 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -433,7 +433,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "10"
+ , "c4" : "9"
 }}
  ] 
 ,
@@ -1339,13 +1339,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#1293"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01293] For method close arguments Duration  timeout|boolean  swallowException"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01293"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#1293"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01293] For method close list of called methods Object monObjet|V firstException_getN576109"
 }} 
 ,
 { "ligne" : {"" : ""

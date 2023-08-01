@@ -233,7 +233,7 @@ var maDataBlocs = {
  , "c1" : "00081"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.html#81"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00081] For method getWriteBatches list of called methods Object monObjet|long WindowKeySchema_extractStoreTimestampN174112|long WindowKeySchema_extractStoreTimestampN174605|long segments_segmentIdN174726|S segments_getOrCreateSegmentIfLiveN174827"
+ , "c3" : "QC-JAV000007[00081] For method getWriteBatches list of called methods Object monObjet|long WindowKeySchema_extractStoreTimestampN174112|long WindowKeySchema_extractStoreTimestampN174605|long segments_segmentIdN174726"
 }} 
 ,
 { "ligne" : {"" : ""

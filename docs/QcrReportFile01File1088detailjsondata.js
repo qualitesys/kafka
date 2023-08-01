@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java 389 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java 388 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -704,7 +704,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "18"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : { "" : ""
@@ -958,7 +958,7 @@ var maDataBlocs = {
  , "c1" : "00358"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#358"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00358] For method isSinkConnector list of called methods Object monObjet|V connectors_getN436605|ClassLoader plugins_currentThreadLoaderN436878"
+ , "c3" : "QC-JAV000007[00358] For method isSinkConnector list of called methods Object monObjet|ClassLoader plugins_currentThreadLoaderN436878"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1162,13 +1162,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#520"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00520] For method isRunning arguments String  connName"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00520"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#520"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00520] For method isRunning list of called methods Object monObjet|V connectors_getN443892"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1966,7 +1959,7 @@ var maDataBlocs = {
  , "c1" : "01135"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1135"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01135] For method setTargetState list of called methods Object monObjet|V connectors_getN474553|org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader plugins_delegatingLoaderN474722"
+ , "c3" : "QC-JAV000007[01135] For method setTargetState list of called methods Object monObjet|org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader plugins_delegatingLoaderN474722"
 }} 
 ,
 { "ligne" : {"" : ""

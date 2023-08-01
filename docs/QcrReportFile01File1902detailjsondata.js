@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorTopology.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorTopology.java 49 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorTopology.java 48 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -277,13 +277,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "8"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -362,13 +355,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorTopology.java.html#145"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00145] For method updateSourceTopics arguments Map&lt;String ,List&lt;String &gt; &gt;  allSourceTopicsByNodeName"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorTopology.java.html#145"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00145] For method updateSourceTopics list of called methods Object monObjet|V allSourceTopicsByNodeName_getN195235"
 }} 
 ,
 { "ligne" : {"" : ""

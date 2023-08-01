@@ -721,7 +721,7 @@ var maDataBlocs = {
  , "c1" : "00311"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#311"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00311] For method computeAndCreateTopicPartitions list of called methods Object monObjet|java.util.Set&lt;K&gt; sourceTopicToPartitionCounts_keySetN258021|java.util.Set&lt;K&gt; targetTopicToPartitionCounts_keySetN258119|V partitionedSourceTopics_getN258818|V partitionedSourceTopics_getN258937|V sourceToRemoteTopics_getN259344|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; sourceTopicsWithNewPartitions_entrySetN259831"
+ , "c3" : "QC-JAV000007[00311] For method computeAndCreateTopicPartitions list of called methods Object monObjet|java.util.Set&lt;K&gt; sourceTopicToPartitionCounts_keySetN258021|java.util.Set&lt;K&gt; targetTopicToPartitionCounts_keySetN258119|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; sourceTopicsWithNewPartitions_entrySetN259831"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -749,7 +749,7 @@ var maDataBlocs = {
  , "c1" : "00354"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#354"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00354] For method createNewTopics list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.clients.admin.Config&gt; describeTopicConfigsN260484|java.lang.String formatRemoteTopicN260733|V sourceTopicToPartitionCounts_getN260821|java.util.Map&lt;java.lang.String,java.lang.String&gt; configToMapN260974"
+ , "c3" : "QC-JAV000007[00354] For method createNewTopics list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.clients.admin.Config&gt; describeTopicConfigsN260484|java.lang.String formatRemoteTopicN260733|java.util.Map&lt;java.lang.String,java.lang.String&gt; configToMapN260974"
 }} 
 ,
 { "ligne" : {"" : ""

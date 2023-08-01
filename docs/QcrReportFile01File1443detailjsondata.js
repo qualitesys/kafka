@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java 9 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java 8 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -160,7 +160,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -191,13 +191,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#78"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000007[00078] For method hasNext list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.raft.Batch&lt;T&gt;&gt; nextBatchN164479"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#87"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00087] For method next list of called methods Object monObjet|V nextBatch_getN164859"
 }} 
 ,
 { "ligne" : {"" : ""

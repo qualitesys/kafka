@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java 209 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java 207 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -206,7 +206,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "7"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -425,7 +425,7 @@ var maDataBlocs = {
  , "c1" : "00334"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#334"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00334] For method call list of called methods Object monObjet|V tasks_getN276202|java.lang.Void task_startDelayMsN278151"
+ , "c3" : "QC-JAV000007[00334] For method call list of called methods Object monObjet|java.lang.Void task_startDelayMsN278151"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -614,7 +614,7 @@ var maDataBlocs = {
  , "c1" : "00439"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#439"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00439] For method call list of called methods Object monObjet|V tasks_getN281904|java.lang.Void task_activeWorkerIdsN282807|java.lang.Void time_millisecondsN283277"
+ , "c3" : "QC-JAV000007[00439] For method call list of called methods Object monObjet|java.lang.Void task_activeWorkerIdsN282807|java.lang.Void time_millisecondsN283277"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -748,13 +748,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#491"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00491] In method org.apache.kafka.trogdor.coordinator.TaskManager.destroyTask@POLYN284371 the MagicNumber/String  'destroyTask(id={}) error' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00507"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#507"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00507] For method call list of called methods Object monObjet|V tasks_removeN285351"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -972,13 +965,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#646"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00646] For method task arguments TaskRequest  request"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00661"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#661"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00661] For method call list of called methods Object monObjet|V tasks_getN293304"
 }} 
 ,
 { "ligne" : {"" : ""

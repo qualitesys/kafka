@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java 37 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java 33 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -226,7 +226,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "5"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -257,13 +257,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#55"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00055] For method owner arguments String  tokenId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#55"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00055] For method owner list of called methods Object monObjet|V tokenCache_getN167995"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -323,13 +316,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#81"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00081] For method tokenForHmac list of called methods Object monObjet|V hmacTokenIdCache_getN169371"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#83"
  , "c2" : "MAJOR"
@@ -355,13 +341,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#90"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00090] For method removeToken arguments String  tokenId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#90"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00090] For method removeToken list of called methods Object monObjet|V tokenCache_removeN169866|V tokenIdHmacCache_removeN170035"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -397,13 +376,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#112"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00112] For method updateCredentials arguments String  tokenId|Map&lt;String ,ScramCredential &gt;  scramCredentialMap"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#112"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00112] For method updateCredentials list of called methods Object monObjet|V scramCredentialMap_getN171232"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyValueStoreBuilder.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyValueStoreBuilder.java 26 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyValueStoreBuilder.java 25 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -110,13 +110,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "11"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -153,13 +146,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyValueStoreBuilder.java.html#57"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.state.internals.TimestampedKeyValueStoreBuilder.TimestampedKeyValueStoreBuilder@POLYN180019 the MagicNumber/String  'storeSupplier's metricsScope can't be null' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyValueStoreBuilder.java.html#62"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00062] For method build list of called methods Object monObjet|V storeSupplier_getN180929"
 }} 
 ,
 { "ligne" : {"" : ""

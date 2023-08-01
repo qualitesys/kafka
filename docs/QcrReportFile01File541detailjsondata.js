@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java 52 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java 51 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -185,7 +185,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -291,13 +291,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#69"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00069] For method write list of called methods Object monObjet|V fields_getN180578"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#69"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00069] The argument buffer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -348,7 +341,7 @@ var maDataBlocs = {
  , "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#89"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00089] For method read list of called methods Object monObjet|int ByteUtils_readUnsignedVarintN181629|int ByteUtils_readUnsignedVarintN182206|int ByteUtils_readUnsignedVarintN182525|V fields_getN182621"
+ , "c3" : "QC-JAV000007[00089] For method read list of called methods Object monObjet|int ByteUtils_readUnsignedVarintN181629|int ByteUtils_readUnsignedVarintN182206|int ByteUtils_readUnsignedVarintN182525"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -411,7 +404,7 @@ var maDataBlocs = {
  , "c1" : "00117"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/TaggedFields.java.html#117"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00117] For method sizeOf list of called methods Object monObjet|int ByteUtils_sizeOfUnsignedVarintN183651|int ByteUtils_sizeOfUnsignedVarintN183980|V fields_getN184076|byte[] value_dataN184338"
+ , "c3" : "QC-JAV000007[00117] For method sizeOf list of called methods Object monObjet|int ByteUtils_sizeOfUnsignedVarintN183651|int ByteUtils_sizeOfUnsignedVarintN183980|byte[] value_dataN184338"
 }} 
 ,
 { "ligne" : {"" : ""

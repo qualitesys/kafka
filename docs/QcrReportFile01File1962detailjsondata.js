@@ -621,7 +621,7 @@ var maDataBlocs = {
  , "c1" : "00210"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#210"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00210] For method assignStatelessActiveTasks list of called methods Object monObjet|java.util.UUID statelessActiveTaskClientsByTaskLoad_pollN196497|V clientStates_getN196598"
+ , "c3" : "QC-JAV000007[00210] For method assignStatelessActiveTasks list of called methods Object monObjet|java.util.UUID statelessActiveTaskClientsByTaskLoad_pollN196497"
 }} 
 ,
 { "ligne" : {"" : ""

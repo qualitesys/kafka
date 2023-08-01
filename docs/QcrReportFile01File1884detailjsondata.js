@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java 97 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java 95 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -271,7 +271,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -316,13 +316,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#122"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00122] For method setGlobalProcessorContext arguments InternalProcessorContext  globalProcessorContext"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#127"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00127] For method initialize list of called methods Object monObjet|V storeToChangelogTopic_getN219137"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -468,13 +461,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00218"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#218"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00218] For method topicPartitionsForStore list of called methods Object monObjet|V storeToChangelogTopic_getN222559"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#218"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00218] The argument store is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -511,7 +497,7 @@ var maDataBlocs = {
  , "c1" : "00240"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#240"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00240] For method restoreState list of called methods Object monObjet|V checkpointFileCache_getN224148|long getGlobalConsumerOffsetN224590|V highWatermarks_getN224686|org.apache.kafka.streams.processor.internals.RecordBatchingStateRestoreCallback StateRestoreCallbackAdapter_adaptN224787|org.apache.kafka.clients.consumer.ConsumerRecords&lt;K,V&gt; globalConsumer_pollN225204|long maybeUpdateDeadlineOrThrowN225366|long getGlobalConsumerOffsetN226062|int restoreRecords_sizeN226375"
+ , "c3" : "QC-JAV000007[00240] For method restoreState list of called methods Object monObjet|long getGlobalConsumerOffsetN224590|org.apache.kafka.streams.processor.internals.RecordBatchingStateRestoreCallback StateRestoreCallbackAdapter_adaptN224787|org.apache.kafka.clients.consumer.ConsumerRecords&lt;K,V&gt; globalConsumer_pollN225204|long maybeUpdateDeadlineOrThrowN225366|long getGlobalConsumerOffsetN226062|int restoreRecords_sizeN226375"
 }} 
 ,
 { "ligne" : {"" : ""

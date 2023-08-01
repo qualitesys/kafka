@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java 134 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java 131 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -424,7 +424,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "10"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1095,13 +1095,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00652"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#652"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00652] For method requestCount list of called methods Object monObjet|V unsent_getN279565"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00654"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#654"
  , "c2" : "MAJOR"
@@ -1134,13 +1127,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#664"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00664] For method hasRequests arguments Node  node"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00664"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#664"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00664] For method hasRequests list of called methods Object monObjet|V unsent_getN280199"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1253,13 +1239,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#715"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00715] For method requestIterator arguments Node  node"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00715"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#715"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00715] For method requestIterator list of called methods Object monObjet|V unsent_getN282712"
 }} 
 ,
 { "ligne" : {"" : ""

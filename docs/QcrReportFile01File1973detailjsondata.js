@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java 182 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java 180 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -689,7 +689,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "26"
+ , "c4" : "24"
 }}
 ,
 { "ligne" : { "" : ""
@@ -873,7 +873,7 @@ var maDataBlocs = {
  , "c1" : "00299"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#299"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00299] For method removeAllThreadLevelSensors list of called methods Object monObjet|java.lang.String threadSensorPrefixN298220|V threadLevelSensors_removeN298379"
+ , "c3" : "QC-JAV000007[00299] For method removeAllThreadLevelSensors list of called methods Object monObjet|java.lang.String threadSensorPrefixN298220"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -895,13 +895,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#309"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00309] For method removeAllThreadLevelMetrics arguments String  threadId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00309"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#309"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00309] For method removeAllThreadLevelMetrics list of called methods Object monObjet|V threadLevelMetrics_removeN298838"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1013,7 +1006,7 @@ var maDataBlocs = {
  , "c1" : "00360"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#360"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00360] For method removeAllTaskLevelSensors list of called methods Object monObjet|java.lang.String taskSensorPrefixN301685|V taskLevelSensors_removeN301866"
+ , "c3" : "QC-JAV000007[00360] For method removeAllTaskLevelSensors list of called methods Object monObjet|java.lang.String taskSensorPrefixN301685"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1069,7 +1062,7 @@ var maDataBlocs = {
  , "c1" : "00387"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#387"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00387] For method removeAllNodeLevelSensors list of called methods Object monObjet|java.lang.String nodeSensorPrefixN303139|V nodeLevelSensors_removeN303342"
+ , "c3" : "QC-JAV000007[00387] For method removeAllNodeLevelSensors list of called methods Object monObjet|java.lang.String nodeSensorPrefixN303139"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1125,7 +1118,7 @@ var maDataBlocs = {
  , "c1" : "00417"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#417"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00417] For method removeAllTopicLevelSensors list of called methods Object monObjet|java.lang.String topicSensorPrefixN304743|V topicLevelSensors_removeN304968"
+ , "c3" : "QC-JAV000007[00417] For method removeAllTopicLevelSensors list of called methods Object monObjet|java.lang.String topicSensorPrefixN304743"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1188,7 +1181,7 @@ var maDataBlocs = {
  , "c1" : "00460"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#460"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00460] For method removeAllCacheLevelSensors list of called methods Object monObjet|java.lang.String cacheSensorPrefixN306952|V cacheLevelSensors_removeN307155"
+ , "c3" : "QC-JAV000007[00460] For method removeAllCacheLevelSensors list of called methods Object monObjet|java.lang.String cacheSensorPrefixN306952"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1742,13 +1735,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#909"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00909] For method removeSensor arguments Sensor  sensor"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00909"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#909"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00909] For method removeSensor list of called methods Object monObjet|V parentSensors_removeN326965"
 }} 
 ,
 { "ligne" : {"" : ""

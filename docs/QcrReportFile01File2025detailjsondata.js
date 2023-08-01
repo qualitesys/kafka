@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java 92 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java 89 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -336,7 +336,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "8"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -734,13 +734,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00200"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#200"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00200] For method remove list of called methods Object monObjet|S segments_getSegmentForTimestampN211399"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#204"
  , "c2" : "MAJOR"
@@ -752,13 +745,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#211"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00211] For method remove arguments Bytes  key|long  timestamp"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00211"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#211"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00211] For method remove list of called methods Object monObjet|S segments_getSegmentForTimestampN211892"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -779,7 +765,7 @@ var maDataBlocs = {
  , "c1" : "00220"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#220"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00220] For method put list of called methods Object monObjet|long segments_segmentIdN212492|S segments_getOrCreateSegmentIfLiveN212593"
+ , "c3" : "QC-JAV000007[00220] For method put list of called methods Object monObjet|long segments_segmentIdN212492"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -808,13 +794,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#236"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00236] For method get arguments Bytes  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00236"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#236"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00236] For method get list of called methods Object monObjet|S segments_getSegmentForTimestampN213324"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -940,7 +919,7 @@ var maDataBlocs = {
  , "c1" : "00334"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBSegmentedBytesStore.java.html#334"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00334] For method getWriteBatches list of called methods Object monObjet|long segments_segmentIdN218116|S segments_getOrCreateSegmentIfLiveN218217"
+ , "c3" : "QC-JAV000007[00334] For method getWriteBatches list of called methods Object monObjet|long segments_segmentIdN218116"
 }} 
 ,
 { "ligne" : {"" : ""

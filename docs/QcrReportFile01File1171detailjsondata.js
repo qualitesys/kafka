@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java 346 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java 344 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -495,7 +495,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "15"
+ , "c4" : "13"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1407,7 +1407,7 @@ var maDataBlocs = {
  , "c1" : "00753"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#753"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00753] For method onCompletion list of called methods Object monObjet|long record_offsetN396445|K record_keyN396654|K record_keyN396983|K record_keyN397818|K record_keyN398534"
+ , "c3" : "QC-JAV000007[00753] For method onCompletion list of called methods Object monObjet|long record_offsetN396445"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1764,7 +1764,7 @@ var maDataBlocs = {
  , "c1" : "00915"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#915"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00915] For method processTasksCommitRecord list of called methods Object monObjet|V deferredTaskUpdates_getN406021|java.util.Set&lt;java.lang.Integer&gt; taskIdsN406410"
+ , "c3" : "QC-JAV000007[00915] For method processTasksCommitRecord list of called methods Object monObjet|java.util.Set&lt;java.lang.Integer&gt; taskIdsN406410"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1849,13 +1849,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#983"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00983] For method recordToRestartRequest arguments ConsumerRecord&lt;String ,byte[] &gt;  record|SchemaAndValue  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00983"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#983"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00983] For method recordToRestartRequest list of called methods Object monObjet|K record_keyN407922|V valueAsMap_getN408528|V valueAsMap_getN409070"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1947,13 +1940,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#1027"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01027] For method processSessionKeyRecord arguments SchemaAndValue  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01027"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#1027"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01027] For method processSessionKeyRecord list of called methods Object monObjet|V valueAsMap_getN411409|V valueAsMap_getN411887|V valueAsMap_getN412224"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/LeaderState.java 77 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/LeaderState.java 75 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -372,7 +372,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "6"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -437,7 +437,7 @@ var maDataBlocs = {
  , "c1" : "00148"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#148"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00148] For method updateHighWatermark list of called methods Object monObjet|int voterStates_sizeN203409|V followersByDescendingFetchOffset_getN203531|V highWatermarkUpdateOpt_getN203708|V highWatermark_getN203990"
+ , "c3" : "QC-JAV000007[00148] For method updateHighWatermark list of called methods Object monObjet|int voterStates_sizeN203409"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -637,13 +637,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00273"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#273"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00273] For method ensureValidVoter list of called methods Object monObjet|V voterStates_getN208107"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00275"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#275"
  , "c2" : "MAJOR"
@@ -662,13 +655,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#284"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00284] For method getReplicaState arguments int  remoteNodeId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00284"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#284"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00284] For method getReplicaState list of called methods Object monObjet|V voterStates_getN208550"
 }} 
 ,
 { "ligne" : {"" : ""

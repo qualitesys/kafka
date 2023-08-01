@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java 252 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java 250 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -425,7 +425,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "11"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : { "" : ""
@@ -902,13 +902,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method lock list of called methods Object monObjet|V lockedTasksToOwner_getN264243"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.processor.internals.StateDirectory.lock@POLYN264040 the MagicNumber/String  true should be converted to const"
 }} 
@@ -974,13 +967,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00001] For method unlock arguments TaskId  taskId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method unlock list of called methods Object monObjet|V lockedTasksToOwner_getN265350"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1267,7 +1253,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateDirectory.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method cleanStateAndTaskDirectoriesCalledByUser list of called methods Object monObjet|java.io.File taskDir_fileN273540|V firstException_getN274831"
+ , "c3" : "QC-JAV000007[00001] For method cleanStateAndTaskDirectoriesCalledByUser list of called methods Object monObjet|java.io.File taskDir_fileN273540"
 }} 
 ,
 { "ligne" : {"" : ""

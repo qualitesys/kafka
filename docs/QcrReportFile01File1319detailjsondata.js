@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/QuorumController.java 408 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/QuorumController.java 407 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -625,7 +625,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "12"
+ , "c4" : "11"
 }}
  ] 
 ,
@@ -1370,13 +1370,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#575"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00575] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.snapshotLastOffsetFromLog@POLYN446864 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00604"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#604"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00604] For method run list of called methods Object monObjet|V handler_getN448465"
 }} 
 ,
 { "ligne" : {"" : ""

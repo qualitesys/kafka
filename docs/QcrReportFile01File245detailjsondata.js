@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java 246 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java 242 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -536,7 +536,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "16"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : { "" : ""
@@ -658,13 +658,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#236"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00236] For method append arguments String  topic|int  partition|long  timestamp|byte[]  key|byte[]  value|Header[]  headers|AppendCallbacks  callbacks|long  maxTimeToBlock|boolean  abortOnNewBatch|long  nowMs|Cluster  cluster"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00236"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#236"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00236] For method append list of called methods Object monObjet|V topicInfoMap_computeIfAbsentN334690"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1294,7 +1287,7 @@ var maDataBlocs = {
  , "c1" : "00601"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#601"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00601] For method partitionReady list of called methods Object monObjet|org.apache.kafka.common.Node cluster_leaderForN352391|int part_partitionN352736|long batch_waitedTimeMsN353267|int batch_attemptsN353360|int deque_sizeN353502|V nodeStats_getN354099|long batchReadyN354483"
+ , "c3" : "QC-JAV000007[00601] For method partitionReady list of called methods Object monObjet|org.apache.kafka.common.Node cluster_leaderForN352391|int part_partitionN352736|long batch_waitedTimeMsN353267|int batch_attemptsN353360|int deque_sizeN353502|long batchReadyN354483"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1595,7 +1588,7 @@ var maDataBlocs = {
  , "c1" : "00778"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#778"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00778] For method drainBatchesForOneNode list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_partitionsForNodeN358753|int getDrainIndexN358976|V parts_getN359227|java.util.Deque&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; getDequeN359827|int first_attemptsN360217|org.apache.kafka.common.record.MemoryRecords batch_recordsN361915"
+ , "c3" : "QC-JAV000007[00778] For method drainBatchesForOneNode list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_partitionsForNodeN358753|int getDrainIndexN358976|java.util.Deque&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; getDequeN359827|int first_attemptsN360217|org.apache.kafka.common.record.MemoryRecords batch_recordsN361915"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1795,13 +1788,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00892"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#892"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00892] For method updateNodeLatencyStats list of called methods Object monObjet|V nodeStats_computeIfAbsentN364057"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00894"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#894"
  , "c2" : "MAJOR"
@@ -1832,13 +1818,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00930"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#930"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00930] For method getDeque list of called methods Object monObjet|V topicInfoMap_getN364951"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00930"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#930"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00930] The argument tp is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1862,13 +1841,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#940"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00940] For method getOrCreateDeque arguments TopicPartition  tp"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00940"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#940"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00940] For method getOrCreateDeque list of called methods Object monObjet|V topicInfoMap_computeIfAbsentN365421"
 }} 
 ,
 { "ligne" : {"" : ""

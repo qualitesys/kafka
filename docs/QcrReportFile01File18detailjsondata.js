@@ -259,7 +259,7 @@ var maDataBlocs = {
  , "c1" : "00136"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#136"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00136] For method mergeWith list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; topicIds_entrySetN194702|V topicIds_getN195242"
+ , "c3" : "QC-JAV000007[00136] For method mergeWith list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; topicIds_entrySetN194702"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -771,7 +771,7 @@ var maDataBlocs = {
  , "c1" : "00394"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#394"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00394] For method newConfigProvider list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; config_originalsStringsN239062|V originalConfig_getN239670|org.apache.kafka.common.config.provider.ConfigProvider config_originalsWithPrefixN240495|ClassLoader compareAndSwapLoadersN240622"
+ , "c3" : "QC-JAV000007[00394] For method newConfigProvider list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; config_originalsStringsN239062|org.apache.kafka.common.config.provider.ConfigProvider config_originalsWithPrefixN240495|ClassLoader compareAndSwapLoadersN240622"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.Character.java.html" 
- , "texte" : "File secujava/java.lang.Character.java 224 rule violations " 
+ , "texte" : "File secujava/java.lang.Character.java 223 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -939,7 +939,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -1026,13 +1026,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Character.java.html#3053"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03053] For method forName arguments String  blockName"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03053"
- , "c1link" : "./qc/secujava/java.lang.Character.java.html#3053"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03053] For method forName list of called methods Object monObjet|V map_getN1294384"
 }} 
 ,
 { "ligne" : {"" : ""

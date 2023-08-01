@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java 105 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java 100 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -262,7 +262,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "9"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -376,7 +376,7 @@ var maDataBlocs = {
  , "c1" : "00184"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#184"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00184] For method incrementalAlterConfigResource list of called methods Object monObjet|V configData_getN239824|V currentConfigs_getN239990|java.util.List&lt;java.lang.String&gt; getPartsN241185|org.apache.kafka.common.requests.ApiError validateAlterConfigN242533"
+ , "c3" : "QC-JAV000007[00184] For method incrementalAlterConfigResource list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; getPartsN241185|org.apache.kafka.common.requests.ApiError validateAlterConfigN242533"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -555,13 +555,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00248"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#248"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00248] For method validateAlterConfig list of called methods Object monObjet|V configData_getN243322"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00255"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#255"
  , "c2" : "MAJOR"
@@ -614,7 +607,7 @@ var maDataBlocs = {
  , "c1" : "00304"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#304"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00304] For method legacyAlterConfigResource list of called methods Object monObjet|V configData_getN246416|V currentConfigs_getN246947|org.apache.kafka.common.requests.ApiError validateAlterConfigN248139"
+ , "c3" : "QC-JAV000007[00304] For method legacyAlterConfigResource list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError validateAlterConfigN248139"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -732,13 +725,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00366"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#366"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00366] For method replay list of called methods Object monObjet|V configData_getN249997"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00366"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#366"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00366] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -779,13 +765,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00386"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#386"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00386] For method getConfigs list of called methods Object monObjet|V configData_getN251193"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00388"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#388"
  , "c2" : "MAJOR"
@@ -803,7 +782,7 @@ var maDataBlocs = {
  , "c1" : "00395"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#395"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00395] For method describeConfigs list of called methods Object monObjet|V configData_getN252713|java.util.Set&lt;Entry&lt;K,V&gt;&gt; configs_entrySetN253129|V configs_getN253657"
+ , "c3" : "QC-JAV000007[00395] For method describeConfigs list of called methods Object monObjet|java.util.Set&lt;Entry&lt;K,V&gt;&gt; configs_entrySetN253129"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -933,24 +912,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00445"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#445"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00445] For method clusterConfig list of called methods Object monObjet|V configData_getN254860"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00447"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#447"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00447] In method org.apache.kafka.controller.ConfigurationControlManager.clusterConfig@POLYN254746 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00450"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#450"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00450] For method currentControllerConfig list of called methods Object monObjet|V configData_getN255221"
 }} 
 ,
 { "ligne" : {"" : ""

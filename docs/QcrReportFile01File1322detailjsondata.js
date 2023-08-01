@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java 586 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java 578 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -557,7 +557,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "30"
+ , "c4" : "22"
 }}
  ] 
 ,
@@ -790,7 +790,7 @@ var maDataBlocs = {
  , "c1" : "00404"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#404"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00404] For method replay list of called methods Object monObjet|java.lang.String Topic_unifyCollisionCharsN514174|V topicsWithCollisionChars_getN514311"
+ , "c3" : "QC-JAV000007[00404] For method replay list of called methods Object monObjet|java.lang.String Topic_unifyCollisionCharsN514174"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -826,13 +826,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#421"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00421] For method replay arguments PartitionRecord  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00421"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#421"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00421] For method replay list of called methods Object monObjet|V topics_getN515342|V topicInfo_parts_getN515834"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -923,7 +916,7 @@ var maDataBlocs = {
  , "c1" : "00459"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#459"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00459] For method updateReassigningTopicsIfNeeded list of called methods Object monObjet|V reassigningTopics_getOrDefaultN518703|V reassigningTopics_getOrDefaultN519050|int[] Replicas_copyWithoutN519182"
+ , "c3" : "QC-JAV000007[00459] For method updateReassigningTopicsIfNeeded list of called methods Object monObjet|int[] Replicas_copyWithoutN519182"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -944,7 +937,7 @@ var maDataBlocs = {
  , "c1" : "00477"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#477"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00477] For method replay list of called methods Object monObjet|V topics_getN519633|V topicInfo_parts_getN520030|org.apache.kafka.metadata.PartitionRegistration prevPartitionInfo_mergeN520435"
+ , "c3" : "QC-JAV000007[00477] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.PartitionRegistration prevPartitionInfo_mergeN520435"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1063,7 +1056,7 @@ var maDataBlocs = {
  , "c1" : "00515"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#515"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00515] For method replay list of called methods Object monObjet|V topics_removeN522585|java.lang.String Topic_unifyCollisionCharsN523091|V topicsWithCollisionChars_getN523216"
+ , "c3" : "QC-JAV000007[00515] For method replay list of called methods Object monObjet|java.lang.String Topic_unifyCollisionCharsN523091"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1133,7 +1126,7 @@ var maDataBlocs = {
  , "c1" : "00560"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#560"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00560] For method createTopics list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,java.util.Map&lt;java.lang.String,java.util.Map.Entry&lt;OpType,java.lang.String&gt;&gt;&gt; computeConfigChangesN526309|org.apache.kafka.controller.ControllerResult&lt;java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,org.apache.kafka.common.requests.ApiError&gt;&gt; configurationControl_incrementalAlterConfigsN526497|V topicErrors_getN528326|V successes_getN529246"
+ , "c3" : "QC-JAV000007[00560] For method createTopics list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,java.util.Map&lt;java.lang.String,java.util.Map.Entry&lt;OpType,java.lang.String&gt;&gt;&gt; computeConfigChangesN526309|org.apache.kafka.controller.ControllerResult&lt;java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,org.apache.kafka.common.requests.ApiError&gt;&gt; configurationControl_incrementalAlterConfigsN526497"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1287,7 +1280,7 @@ var maDataBlocs = {
  , "c1" : "00632"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#632"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00632] For method createTopic list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; translateCreationConfigsN530478|org.apache.kafka.common.requests.ApiError maybeCheckCreateTopicPolicyN536285|org.apache.kafka.common.Uuid Uuid_randomUuidN536648|java.util.Map&lt;java.lang.String,org.apache.kafka.clients.admin.ConfigEntry&gt; configurationControl_computeEffectiveTopicConfigsN537085|V effectiveConfig_getN537486"
+ , "c3" : "QC-JAV000007[00632] For method createTopic list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; translateCreationConfigsN530478|org.apache.kafka.common.requests.ApiError maybeCheckCreateTopicPolicyN536285|org.apache.kafka.common.Uuid Uuid_randomUuidN536648|java.util.Map&lt;java.lang.String,org.apache.kafka.clients.admin.ConfigEntry&gt; configurationControl_computeEffectiveTopicConfigsN537085"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1637,7 +1630,7 @@ var maDataBlocs = {
  , "c1" : "00775"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#775"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00775] For method validateNewTopicNames list of called methods Object monObjet|java.lang.String Topic_unifyCollisionCharsN540795|V topicsWithCollisionChars_getN540932"
+ , "c3" : "QC-JAV000007[00775] For method validateNewTopicNames list of called methods Object monObjet|java.lang.String Topic_unifyCollisionCharsN540795"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1762,13 +1755,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00823"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#823"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00823] For method findTopicIds list of called methods Object monObjet|V topicsByName_getN544154"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00823"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#823"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00823] The argument names is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1820,13 +1806,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#849"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00849] For method findTopicNames arguments long  offset|Collection&lt;Uuid &gt;  ids"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00849"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#849"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00849] For method findTopicNames list of called methods Object monObjet|V topics_getN546150"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1909,13 +1888,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00884"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#884"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00884] For method deleteTopic list of called methods Object monObjet|V topics_getN548140"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00884"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#884"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00884] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1932,13 +1904,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#894"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00894] For method getPartition arguments Uuid  topicId|int  partitionId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00894"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#894"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00894] For method getPartition list of called methods Object monObjet|V topics_getN548707"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1980,7 +1945,7 @@ var maDataBlocs = {
  , "c1" : "00921"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#921"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00921] For method alterPartition list of called methods Object monObjet|RequestHeaderData context_requestHeaderN549625|V topics_getN551497|V topic_parts_getN551772|Errors validateAlterPartitionDataN551876|java.util.Optional&lt;org.apache.kafka.server.common.ApiMessageAndVersion&gt; builder_buildN553131|org.apache.kafka.controller.ControllerResult&lt;AlterPartitionResponseData&gt; partition_mergeN553481"
+ , "c3" : "QC-JAV000007[00921] For method alterPartition list of called methods Object monObjet|RequestHeaderData context_requestHeaderN549625|Errors validateAlterPartitionDataN551876|java.util.Optional&lt;org.apache.kafka.server.common.ApiMessageAndVersion&gt; builder_buildN553131|org.apache.kafka.controller.ControllerResult&lt;AlterPartitionResponseData&gt; partition_mergeN553481"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2631,7 +2596,7 @@ var maDataBlocs = {
  , "c1" : "01251"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1251"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01251] For method electLeaders list of called methods Object monObjet|V topics_getN566580|org.apache.kafka.common.requests.ApiError electLeaderN566871|org.apache.kafka.common.requests.ApiError electLeaderN567856"
+ , "c3" : "QC-JAV000007[01251] For method electLeaders list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError electLeaderN566871|org.apache.kafka.common.requests.ApiError electLeaderN567856"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2736,7 +2701,7 @@ var maDataBlocs = {
  , "c1" : "01307"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1307"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01307] For method electLeader list of called methods Object monObjet|V topicsByName_getN568920|V topics_getN569209|V topicInfo_parts_getN569498|java.util.Optional&lt;org.apache.kafka.server.common.ApiMessageAndVersion&gt; builder_buildN570744"
+ , "c3" : "QC-JAV000007[01307] For method electLeader list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.server.common.ApiMessageAndVersion&gt; builder_buildN570744"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2880,13 +2845,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01424"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1424"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01424] For method maybeBalancePartitionLeaders list of called methods Object monObjet|V topics_getN575787|V topic_parts_getN576088"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01434"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1434"
  , "c2" : "MAJOR"
@@ -2995,7 +2953,7 @@ var maDataBlocs = {
  , "c1" : "01483"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1483"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01483] For method createPartitions list of called methods Object monObjet|V topicsByName_getN578436|V topics_getN578680|java.util.Collection&lt;V&gt; topicInfo_parts_valuesN580158|int topicInfo_parts_sizeN580915|org.apache.kafka.metadata.placement.ReplicaPlacer clusterControl_replicaPlacerN582536|V placements_getN583072|V isrs_getN583189"
+ , "c3" : "QC-JAV000007[01483] For method createPartitions list of called methods Object monObjet|java.util.Collection&lt;V&gt; topicInfo_parts_valuesN580158|int topicInfo_parts_sizeN580915|org.apache.kafka.metadata.placement.ReplicaPlacer clusterControl_replicaPlacerN582536"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3380,7 +3338,7 @@ var maDataBlocs = {
  , "c1" : "01621"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1621"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01621] For method generateLeaderAndIsrUpdates list of called methods Object monObjet|int records_sizeN586550|V topics_getN587064|V topic_parts_getN587395"
+ , "c3" : "QC-JAV000007[01621] For method generateLeaderAndIsrUpdates list of called methods Object monObjet|int records_sizeN586550"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3653,7 +3611,7 @@ var maDataBlocs = {
  , "c1" : "01723"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1723"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01723] For method alterPartitionReassignment list of called methods Object monObjet|V topicsByName_getN592081|V topics_getN592396|V topicInfo_parts_getN592848|java.util.Optional&lt;org.apache.kafka.server.common.ApiMessageAndVersion&gt; cancelPartitionReassignmentN593375|java.util.Optional&lt;org.apache.kafka.server.common.ApiMessageAndVersion&gt; changePartitionReassignmentN593523"
+ , "c3" : "QC-JAV000007[01723] For method alterPartitionReassignment list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.server.common.ApiMessageAndVersion&gt; cancelPartitionReassignmentN593375|java.util.Optional&lt;org.apache.kafka.server.common.ApiMessageAndVersion&gt; changePartitionReassignmentN593523"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3853,13 +3811,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01834"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1834"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01834] For method listPartitionReassignments list of called methods Object monObjet|V topicsByName_getN598261"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01846"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1846"
  , "c2" : "MAJOR"
@@ -3898,7 +3849,7 @@ var maDataBlocs = {
  , "c1" : "01855"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1855"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01855] For method listReassigningTopic list of called methods Object monObjet|V topics_getN598753|java.util.Optional&lt;OngoingPartitionReassignment&gt; getOngoingPartitionReassignmentN599139"
+ , "c3" : "QC-JAV000007[01855] For method listReassigningTopic list of called methods Object monObjet|java.util.Optional&lt;OngoingPartitionReassignment&gt; getOngoingPartitionReassignmentN599139"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3927,13 +3878,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1874"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01874] For method getOngoingPartitionReassignment arguments TopicControlInfo  topicInfo|int  partitionId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01874"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1874"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01874] For method getOngoingPartitionReassignment list of called methods Object monObjet|V topicInfo_parts_getN599748"
 }} 
 ,
 { "ligne" : {"" : ""

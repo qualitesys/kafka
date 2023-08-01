@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java 557 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java 556 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -843,7 +843,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "12"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1195,7 +1195,7 @@ var maDataBlocs = {
  , "c1" : "00413"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#413"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00413] For method joinGroupIfNeeded list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;java.nio.ByteBuffer&gt; initiateJoinGroupN403751|T future_valueN404487|java.lang.String String_formatN404861|RuntimeException future_exceptionN405185|java.lang.String String_formatN405366"
+ , "c3" : "QC-JAV000007[00413] For method joinGroupIfNeeded list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;java.nio.ByteBuffer&gt; initiateJoinGroupN403751|java.lang.String String_formatN404861|RuntimeException future_exceptionN405185|java.lang.String String_formatN405366"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1903,13 +1903,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#866"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00866] For method onSuccess arguments ClientResponse  resp|RequestFuture&lt;Void &gt;  future"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00866"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#866"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00866] For method onSuccess list of called methods Object monObjet|V coordinators_getN424335"
 }} 
 ,
 { "ligne" : {"" : ""

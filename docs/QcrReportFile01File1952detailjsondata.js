@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java 64 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java 63 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -201,7 +201,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -407,13 +407,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#235"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.taskAssignor@POLYN194600 the MagicNumber/String  'Expected an instantiable class name for ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00241"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignorConfiguration.java.html#241"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00241] For method assignmentListener list of called methods Object monObjet|V internalConfigs_getN195027"
 }} 
 ,
 { "ligne" : {"" : ""

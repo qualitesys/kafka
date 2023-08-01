@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/Selector.java 427 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/Selector.java 426 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -631,7 +631,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "20"
+ , "c4" : "19"
 }}
  ] 
 ,
@@ -893,13 +893,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#348"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00348] In method org.apache.kafka.common.network.Selector.buildAndAttachKafkaChannel@POLYN416396 the MagicNumber/String  'Channel could not be created for socket ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00364"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#364"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00364] For method close list of called methods Object monObjet|V firstException_getN418410"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1634,7 +1627,7 @@ var maDataBlocs = {
  , "c1" : "00835"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#835"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00835] For method clear list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; closingChannels_entrySetN439726|V failedSends_removeN439976|boolean maybeReadFromClosingChannelN440191"
+ , "c3" : "QC-JAV000007[00835] For method clear list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; closingChannels_entrySetN439726|boolean maybeReadFromClosingChannelN440191"
 }} 
 ,
 { "ligne" : {"" : ""

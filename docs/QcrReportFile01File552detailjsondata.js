@@ -270,7 +270,7 @@ var maDataBlocs = {
  , "c1" : "00092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00092] For method getAndCreateEstimationIfAbsent list of called methods Object monObjet|V COMPRESSION_RATIO_getN166940|float[] initialCompressionRatioN167106|V COMPRESSION_RATIO_putIfAbsentN167181"
+ , "c3" : "QC-JAV000007[00092] For method getAndCreateEstimationIfAbsent list of called methods Object monObjet|float[] initialCompressionRatioN167106"
 }} 
 ,
 { "ligne" : {"" : ""

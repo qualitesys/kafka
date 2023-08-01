@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java 157 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java 156 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -368,7 +368,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -455,13 +455,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#186"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00186] For method fetch arguments Bytes  key|long  windowStartTimestamp"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#186"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00186] For method fetch list of called methods Object monObjet|V segmentMap_getN251559"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1063,7 +1056,7 @@ var maDataBlocs = {
  , "c1" : "00509"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#509"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00509] For method hasNext list of called methods Object monObjet|KeyValue&lt;Bytes,byte[]&gt; getNextN266080|K getKeyN266383"
+ , "c3" : "QC-JAV000007[00509] For method hasNext list of called methods Object monObjet|KeyValue&lt;Bytes,byte[]&gt; getNextN266080"
 }} 
 ,
 { "ligne" : {"" : ""

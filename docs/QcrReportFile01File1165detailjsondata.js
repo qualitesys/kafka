@@ -1260,7 +1260,7 @@ var maDataBlocs = {
  , "c1" : "00309"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#309"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00309] For method restartConnectorAndTasks list of called methods Object monObjet|java.lang.String request_connectorNameN242445|java.util.Optional&lt;org.apache.kafka.connect.runtime.RestartPlan&gt; buildRestartPlanN242838|V maybePlan_getN243226"
+ , "c3" : "QC-JAV000007[00309] For method restartConnectorAndTasks list of called methods Object monObjet|java.lang.String request_connectorNameN242445|java.util.Optional&lt;org.apache.kafka.connect.runtime.RestartPlan&gt; buildRestartPlanN242838"
 }} 
 ,
 { "ligne" : {"" : ""

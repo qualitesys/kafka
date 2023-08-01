@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java 25 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java 23 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -231,13 +231,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -289,13 +282,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#87"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00087] For method put list of called methods Object monObjet|V copy_putN168594"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#95"
  , "c2" : "INFO"
@@ -321,13 +307,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#102"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00102] For method remove arguments Object  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#102"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00102] For method remove list of called methods Object monObjet|V copy_removeN169593"
 }} 
 ,
 { "ligne" : {"" : ""

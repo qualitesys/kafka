@@ -717,7 +717,7 @@ var maDataBlocs = {
  , "c1" : "00297"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#297"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00297] For method initializeAndStart list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; SinkConnectorConfig_parseTopicsListN302443|V taskConfig_getN302848"
+ , "c3" : "QC-JAV000007[00297] For method initializeAndStart list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; SinkConnectorConfig_parseTopicsListN302443"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -850,7 +850,7 @@ var maDataBlocs = {
  , "c1" : "00377"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#377"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00377] For method commitOffsets list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; currentOffsets_entrySetN307272|long taskProvidedOffset_offsetN310893|V offsetsToCommit_getN310970"
+ , "c3" : "QC-JAV000007[00377] For method commitOffsets list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; currentOffsets_entrySetN307272|long taskProvidedOffset_offsetN310893"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1564,7 +1564,7 @@ var maDataBlocs = {
  , "c1" : "00837"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#837"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00837] For method computeSinkRecordLag list of called methods Object monObjet|V consumed_getN332714|long consumedOffsetMeta_offsetN332965|long committedOffsetMeta_offsetN333042"
+ , "c3" : "QC-JAV000007[00837] For method computeSinkRecordLag list of called methods Object monObjet|long consumedOffsetMeta_offsetN332965|long committedOffsetMeta_offsetN333042"
 }} 
 ,
 { "ligne" : {"" : ""

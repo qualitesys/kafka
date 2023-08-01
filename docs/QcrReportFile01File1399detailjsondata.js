@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java 527 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java 525 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -1066,7 +1066,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "42"
+ , "c4" : "40"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2405,7 +2405,7 @@ var maDataBlocs = {
  , "c1" : "01197"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1197"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01197] For method handleFetchSnapshotRequest list of called methods Object monObjet|java.util.Optional&lt;FetchSnapshotRequestData.PartitionSnapshot&gt; FetchSnapshotRequest_forTopicPartitionN586808|V partitionSnapshotOpt_getN587562|java.util.Optional&lt;Errors&gt; validateLeaderOnlyRequestN587660|FetchSnapshotResponseData log_readSnapshotN588308|V snapshotOpt_getN588723|long snapshot_sizeInBytesN588800|FetchSnapshotResponseData snapshot_sliceN589837"
+ , "c3" : "QC-JAV000007[01197] For method handleFetchSnapshotRequest list of called methods Object monObjet|java.util.Optional&lt;FetchSnapshotRequestData.PartitionSnapshot&gt; FetchSnapshotRequest_forTopicPartitionN586808|java.util.Optional&lt;Errors&gt; validateLeaderOnlyRequestN587660|FetchSnapshotResponseData log_readSnapshotN588308|long snapshot_sizeInBytesN588800|FetchSnapshotResponseData snapshot_sliceN589837"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2496,7 +2496,7 @@ var maDataBlocs = {
  , "c1" : "01297"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1297"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01297] For method handleFetchSnapshotResponse list of called methods Object monObjet|java.util.Optional&lt;FetchSnapshotResponseData.PartitionSnapshot&gt; FetchSnapshotResponse_forTopicPartitionN591337|V partitionSnapshotOpt_getN591599|java.util.OptionalInt optionalLeaderIdN591761|java.util.Optional&lt;java.lang.Boolean&gt; maybeHandleCommonResponseN592083|org.apache.kafka.raft.FollowerState quorum_followerStateOrThrowN592362|boolean state_fetchingSnapshotN593563"
+ , "c3" : "QC-JAV000007[01297] For method handleFetchSnapshotResponse list of called methods Object monObjet|java.util.Optional&lt;FetchSnapshotResponseData.PartitionSnapshot&gt; FetchSnapshotResponse_forTopicPartitionN591337|java.util.OptionalInt optionalLeaderIdN591761|java.util.Optional&lt;java.lang.Boolean&gt; maybeHandleCommonResponseN592083|org.apache.kafka.raft.FollowerState quorum_followerStateOrThrowN592362|boolean state_fetchingSnapshotN593563"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2951,7 +2951,7 @@ var maDataBlocs = {
  , "c1" : "01685"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1685"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01685] For method maybeSendRequest list of called methods Object monObjet|org.apache.kafka.raft.RequestManager.ConnectionState requestManager_getOrCreateN608322|long connection_remainingBackoffMsN608506|int channel_newCorrelationIdN608843|V requestSupplier_getN608920|org.apache.kafka.common.protocol.ApiMessage RaftUtil_errorResponseN609562"
+ , "c3" : "QC-JAV000007[01685] For method maybeSendRequest list of called methods Object monObjet|org.apache.kafka.raft.RequestManager.ConnectionState requestManager_getOrCreateN608322|long connection_remainingBackoffMsN608506|int channel_newCorrelationIdN608843|org.apache.kafka.common.protocol.ApiMessage RaftUtil_errorResponseN609562"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3067,24 +3067,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01838"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1838"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01838] For method isRunning list of called methods Object monObjet|V shutdown_getN614052"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01840"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1840"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01840] In method org.apache.kafka.raft.KafkaRaftClient.isRunning@POLYN613975 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01843"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1843"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01843] For method isShuttingDown list of called methods Object monObjet|V shutdown_getN614290"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3749,7 +3735,7 @@ var maDataBlocs = {
  , "c1" : "02298"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2298"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02298] For method resign list of called methods Object monObjet|int leaderAndEpoch_epochN635279|V leaderStateOpt_getN636403"
+ , "c3" : "QC-JAV000007[02298] For method resign list of called methods Object monObjet|int leaderAndEpoch_epochN635279"
 }} 
 ,
 { "ligne" : {"" : ""

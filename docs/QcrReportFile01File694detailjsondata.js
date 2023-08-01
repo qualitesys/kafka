@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java 32 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java 31 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -187,13 +187,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "8"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -356,13 +349,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#168"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00168] For method toListOffsetsTopics arguments Map&lt;TopicPartition ,ListOffsetsPartition &gt;  timestampsToSearch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00168"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#168"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00168] For method toListOffsetsTopics list of called methods Object monObjet|V topics_computeIfAbsentN184600"
 }} 
 ,
 { "ligne" : {"" : ""

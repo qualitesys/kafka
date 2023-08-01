@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsImage.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/TopicsImage.java 16 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/TopicsImage.java 15 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -184,13 +184,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "5"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -199,13 +192,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsImage.java.html#63"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00063] For method getPartition arguments Uuid  id|int  partitionId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsImage.java.html#63"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00063] For method getPartition list of called methods Object monObjet|V topicsById_getN167481"
 }} 
 ,
 { "ligne" : {"" : ""

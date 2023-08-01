@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java 34 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java 33 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -160,13 +160,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -189,13 +182,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#68"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00068] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#68"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00068] For method configure list of called methods Object monObjet|V configs_getN173430"
 }} 
 ,
 { "ligne" : {"" : ""

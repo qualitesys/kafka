@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java 90 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java 88 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -269,7 +269,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "10"
+ , "c4" : "8"
 }}
  ] 
 ,
@@ -404,7 +404,7 @@ var maDataBlocs = {
  , "c1" : "00092"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00092] For method assignActive list of called methods Object monObjet|int sumCapacityN199648|int allTaskIds_sizeN199761|V previousStandbyTaskAssignment_getN201112"
+ , "c3" : "QC-JAV000007[00092] For method assignActive list of called methods Object monObjet|int sumCapacityN199648|int allTaskIds_sizeN199761"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -599,13 +599,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00200"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#200"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00200] For method findClientsWithPreviousAssignedTask list of called methods Object monObjet|V previousActiveTaskAssignment_getN205471"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00200"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#200"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00200] The argument clientsWithin is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -622,13 +615,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#208"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00208] For method findLeastLoadedClientWithPreviousStandByTask arguments TaskId  taskId|Set&lt;UUID &gt;  clientsWithin"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00208"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#208"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00208] For method findLeastLoadedClientWithPreviousStandByTask list of called methods Object monObjet|V previousStandbyTaskAssignment_getN206015"
 }} 
 ,
 { "ligne" : {"" : ""

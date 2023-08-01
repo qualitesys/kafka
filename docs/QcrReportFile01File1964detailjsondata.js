@@ -175,7 +175,7 @@ var maDataBlocs = {
  , "c1" : "00037"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StandbyTaskAssignmentUtils.java.html#37"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00037] For method pollClientAndMaybeAssignAndUpdateRemainingStandbyTasks list of called methods Object monObjet|V tasksToRemainingStandbys_getN158246|java.util.UUID standbyTaskClientsByTaskLoad_pollN158420"
+ , "c3" : "QC-JAV000007[00037] For method pollClientAndMaybeAssignAndUpdateRemainingStandbyTasks list of called methods Object monObjet|java.util.UUID standbyTaskClientsByTaskLoad_pollN158420"
 }} 
 ,
 { "ligne" : {"" : ""

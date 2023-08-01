@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java 17 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java 15 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -115,7 +115,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -131,7 +131,7 @@ var maDataBlocs = {
  , "c1" : "00046"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00046] For method generateNextProducerId list of called methods Object monObjet|T nextProducerBlock_getN163268|long block_nextBlockFirstIdN163721"
+ , "c3" : "QC-JAV000007[00046] For method generateNextProducerId list of called methods Object monObjet|long block_nextBlockFirstIdN163721"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -160,13 +160,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#65"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00065] For method replay arguments ProducerIdsRecord  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#65"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00065] For method replay list of called methods Object monObjet|T nextProducerBlock_getN164263"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -209,13 +202,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#76"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00076] For method iterator arguments long  epoch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#76"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00076] For method iterator list of called methods Object monObjet|T nextProducerBlock_getN165214"
 }} 
 ,
 { "ligne" : {"" : ""

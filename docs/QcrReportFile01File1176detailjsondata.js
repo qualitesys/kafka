@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java 44 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java 41 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -285,13 +285,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -448,13 +441,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#110"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00110] For method getTopic list of called methods Object monObjet|V topics_getN171741"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00112"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#112"
  , "c2" : "MAJOR"
@@ -476,13 +462,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#116"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00116] For method getAllTopics list of called methods Object monObjet|V topics_getN172204"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00118"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#118"
  , "c2" : "MAJOR"
@@ -494,13 +473,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#124"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00124] For method deleteTopic arguments String  connector|String  topic"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#124"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00124] For method deleteTopic list of called methods Object monObjet|V topics_getN172658"
 }} 
 ,
 { "ligne" : {"" : ""

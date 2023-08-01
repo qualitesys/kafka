@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java 126 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java 123 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -416,7 +416,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "18"
+ , "c4" : "15"
 }}
 ,
 { "ligne" : { "" : ""
@@ -447,13 +447,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#75"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00075] For method resize arguments long  newCacheSizeBytes"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00075"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#75"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00075] For method resize list of called methods Object monObjet|T circularIterator_nextN200698"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -884,13 +877,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00254"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#254"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00254] For method close list of called methods Object monObjet|V caches_removeN209043"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00256"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#256"
  , "c2" : "MAJOR"
@@ -958,13 +944,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#285"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00285] For method getOrCreateCache arguments String  name"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00285"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#285"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00285] For method getOrCreateCache list of called methods Object monObjet|V caches_getN210210"
 }} 
 ,
 { "ligne" : {"" : ""

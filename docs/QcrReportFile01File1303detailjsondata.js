@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java 65 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java 64 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -190,7 +190,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -247,13 +247,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#102"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00102] For method replay list of called methods Object monObjet|V clientQuotaData_getN209620"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#102"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00102] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -297,7 +290,7 @@ var maDataBlocs = {
  , "c1" : "00121"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#121"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00121] For method alterClientQuotaEntity list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError validateEntityN210870|org.apache.kafka.common.requests.ApiError configKeysForEntityTypeN211308|boolean clientQuotaData_containsKeyN212209|org.apache.kafka.common.requests.ApiError validateQuotaKeyValueN213193|V currentQuotas_getN213525"
+ , "c3" : "QC-JAV000007[00121] For method alterClientQuotaEntity list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError validateEntityN210870|org.apache.kafka.common.requests.ApiError configKeysForEntityTypeN211308|boolean clientQuotaData_containsKeyN212209|org.apache.kafka.common.requests.ApiError validateQuotaKeyValueN213193"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -444,7 +437,7 @@ var maDataBlocs = {
  , "c1" : "00221"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#221"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00221] For method validateQuotaKeyValue list of called methods Object monObjet|V validKeys_getN216356|java.lang.Double Double_valueOfN216931"
+ , "c3" : "QC-JAV000007[00221] For method validateQuotaKeyValue list of called methods Object monObjet|java.lang.Double Double_valueOfN216931"
 }} 
 ,
 { "ligne" : {"" : ""

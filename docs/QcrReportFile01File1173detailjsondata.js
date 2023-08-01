@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java 244 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java 237 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -503,7 +503,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "18"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : { "" : ""
@@ -889,13 +889,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00365"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#365"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00365] For method getOrAdd list of called methods Object monObjet|V tasks_getN284182"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00365"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#365"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00365] The argument task is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -924,13 +917,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00374"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#374"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00374] For method remove list of called methods Object monObjet|V tasks_removeN284776"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00374"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#374"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00374] The argument id is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -947,13 +933,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#380"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00380] For method removeTopic arguments String  topic|String  connector"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00380"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#380"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00380] For method removeTopic list of called methods Object monObjet|V topics_getN285169"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -975,13 +954,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#389"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00389] For method get arguments ConnectorTaskId  id"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00389"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#389"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00389] For method get list of called methods Object monObjet|V tasks_getN285541"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1076,13 +1048,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00412"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#412"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00412] For method getTopic list of called methods Object monObjet|V topics_getN286925"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00414"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#414"
  , "c2" : "MAJOR"
@@ -1101,13 +1066,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#418"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00418] For method getAllTopics arguments String  connector"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00418"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#418"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00418] For method getAllTopics list of called methods Object monObjet|V topics_getN287388"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1647,13 +1605,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#641"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00641] For method read arguments ConsumerRecord&lt;String ,byte[] &gt;  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00641"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#641"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00641] For method read list of called methods Object monObjet|K record_keyN300919"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java 108 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java 104 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -174,13 +174,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "7"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "4"
-}}
  ] 
 ,
 "data13b" : [
@@ -348,13 +341,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00230"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#230"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00230] For method handlePresentWorkers list of called methods Object monObjet|V workers_getN215222"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00230"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#230"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00230] The argument agentStatus is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -451,13 +437,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00289"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#289"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00289] For method call list of called methods Object monObjet|V workers_getN217848"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00291"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#291"
  , "c2" : "MAJOR"
@@ -511,13 +490,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#309"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00309] For method stopWorker arguments long  workerId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00324"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#324"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00324] For method call list of called methods Object monObjet|V workers_getN219375"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -588,13 +560,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#347"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00347] For method destroyWorker arguments long  workerId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00362"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/NodeManager.java.html#362"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00362] For method call list of called methods Object monObjet|V workers_removeN220850"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java 548 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java 541 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -811,7 +811,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "24"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1568,13 +1568,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00609"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#609"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00609] For method addStateStore list of called methods Object monObjet|V stateFactories_getN509207"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00609"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#609"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00609] The argument storeBuilder is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1807,7 +1800,7 @@ var maDataBlocs = {
  , "c1" : "00740"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#740"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00740] For method validateCopartition list of called methods Object monObjet|V internalTopicNamesWithProperties_getN516762|java.util.Collection&lt;V&gt; numberOfPartitionsPerTopic_valuesN517323"
+ , "c3" : "QC-JAV000007[00740] For method validateCopartition list of called methods Object monObjet|java.util.Collection&lt;V&gt; numberOfPartitionsPerTopic_valuesN517323"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1996,7 +1989,7 @@ var maDataBlocs = {
  , "c1" : "00805"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#805"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00805] For method connectProcessorAndStateStore list of called methods Object monObjet|V stateFactories_getN520488|java.util.Set&lt;java.lang.String&gt; stateStoreFactory_usersN520610|V nodeFactories_getN521095"
+ , "c3" : "QC-JAV000007[00805] For method connectProcessorAndStateStore list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; stateStoreFactory_usersN520610"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2060,13 +2053,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#836"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00836] For method findSourcesForProcessorPredecessors arguments String[]  predecessors"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00836"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#836"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00836] For method findSourcesForProcessorPredecessors list of called methods Object monObjet|V nodeFactories_getN522118"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2186,13 +2172,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#929"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00929] For method putNodeGroupName arguments String  nodeName|int  nodeGroupId|Map&lt;Integer ,Set&lt;String &gt; &gt;  nodeGroups|Map&lt;String ,Set&lt;String &gt; &gt;  rootToNodeGroup"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00929"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#929"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00929] For method putNodeGroupName list of called methods Object monObjet|T nodeGrouper_rootN526357|V rootToNodeGroup_getN526474"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2528,7 +2507,7 @@ var maDataBlocs = {
  , "c1" : "01101"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1101"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01101] For method buildProcessorNode list of called methods Object monObjet|V stateFactories_getN536489|java.lang.String ProcessorStateManager_storeChangelogTopicN536948|S stateStoreFactory_buildN537274|V globalStateStores_getN537460"
+ , "c3" : "QC-JAV000007[01101] For method buildProcessorNode list of called methods Object monObjet|java.lang.String ProcessorStateManager_storeChangelogTopicN536948"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2626,7 +2605,7 @@ var maDataBlocs = {
  , "c1" : "01173"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1173"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01173] For method subtopologyToTopicsInfo list of called methods Object monObjet|java.util.Map&lt;java.lang.Integer,java.util.Set&lt;java.lang.String&gt;&gt; makeNodeGroupsN539360|V nodeToSourceTopics_getN540198|java.lang.String decorateTopicN540642|org.apache.kafka.streams.processor.internals.RepartitionTopicConfig buildRepartitionTopicConfigN540735|V nodeToSinkTopic_getN541212|V storeToChangelogTopic_getN541973"
+ , "c3" : "QC-JAV000007[01173] For method subtopologyToTopicsInfo list of called methods Object monObjet|java.util.Map&lt;java.lang.Integer,java.util.Set&lt;java.lang.String&gt;&gt; makeNodeGroupsN539360|java.lang.String decorateTopicN540642|org.apache.kafka.streams.processor.internals.RepartitionTopicConfig buildRepartitionTopicConfigN540735"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2882,13 +2861,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01275"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1275"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01275] For method setRegexMatchedTopicToStateStore list of called methods Object monObjet|V stateStoreNameToRawSourceTopicNames_getN545259"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01278"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1278"
  , "c2" : "MAJOR"
@@ -2970,13 +2942,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1353"
  , "c2" : "INFO"
  , "c3" : "QC-JAV000019[01353] Lock statement on synchronized method copartitionGroups"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01353"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1353"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01353] For method copartitionGroups list of called methods Object monObjet|V topicsToCopartitionGroup_getN549775"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3225,13 +3190,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01496"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1496"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01496] For method isGlobalSource list of called methods Object monObjet|V nodeFactories_getN555431"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01501"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1501"
  , "c2" : "MAJOR"
@@ -3397,13 +3355,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1589"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01589] For method describeSubtopology arguments TopologyDescription  description|Integer  subtopologyId|Set&lt;String &gt;  nodeNames"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01589"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1589"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01589] For method describeSubtopology list of called methods Object monObjet|V nodesByName_getN560415"
 }} 
 ,
 { "ligne" : {"" : ""

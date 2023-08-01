@@ -378,7 +378,7 @@ var maDataBlocs = {
  , "c1" : "00156"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#156"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00156] For method handleTaskCorruptedException list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.processor.TaskId&gt; taskCorruptedException_corruptedTasksN232397|V updatingTasks_getN232668"
+ , "c3" : "QC-JAV000007[00156] For method handleTaskCorruptedException list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.processor.TaskId&gt; taskCorruptedException_corruptedTasksN232397"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -581,7 +581,7 @@ var maDataBlocs = {
  , "c1" : "00259"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#259"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00259] For method removeTask list of called methods Object monObjet|V updatingTasks_getN237491|java.util.Collection&lt;org.apache.kafka.common.TopicPartition&gt; task_changelogPartitionsN237759"
+ , "c3" : "QC-JAV000007[00259] For method removeTask list of called methods Object monObjet|java.util.Collection&lt;org.apache.kafka.common.TopicPartition&gt; task_changelogPartitionsN237759"
 }} 
 ,
 { "ligne" : {"" : ""

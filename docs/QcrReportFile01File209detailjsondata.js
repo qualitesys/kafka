@@ -1437,7 +1437,7 @@ var maDataBlocs = {
  , "c1" : "00768"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#768"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00768] For method resetOffsetsAsync list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;org.apache.kafka.clients.consumer.internals.Fetcher.ListOffsetResult&gt; sendListOffsetRequestN513620|V resetTimestamps_getN514523"
+ , "c3" : "QC-JAV000007[00768] For method resetOffsetsAsync list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;org.apache.kafka.clients.consumer.internals.Fetcher.ListOffsetResult&gt; sendListOffsetRequestN513620"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2025,7 +2025,7 @@ var maDataBlocs = {
  , "c1" : "01183"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1183"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01183] For method prepareFetchRequests list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.Node,FetchSessionHandler.FetchRequestData&gt; metadata_topicIdsN534886|org.apache.kafka.common.Node selectReadReplicaN535684|V fetchable_getN536374|int node_idN536543|org.apache.kafka.clients.FetchSessionHandler sessionHandlerN536620|org.apache.kafka.clients.FetchSessionHandler.Builder handler_newBuilderN536988"
+ , "c3" : "QC-JAV000007[01183] For method prepareFetchRequests list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.Node,FetchSessionHandler.FetchRequestData&gt; metadata_topicIdsN534886|org.apache.kafka.common.Node selectReadReplicaN535684|int node_idN536543|org.apache.kafka.clients.FetchSessionHandler sessionHandlerN536620|org.apache.kafka.clients.FetchSessionHandler.Builder handler_newBuilderN536988"
 }} 
 ,
 { "ligne" : {"" : ""

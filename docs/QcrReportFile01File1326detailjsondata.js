@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/AclsDelta.java 22 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/AclsDelta.java 21 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -174,7 +174,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -233,13 +233,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#88"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.image.AclsDelta.replay@POLYN171032 the MagicNumber/String  ' in either image or changes' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#92"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00092] For method apply list of called methods Object monObjet|V changes_getN172154"
 }} 
 ,
 { "ligne" : {"" : ""

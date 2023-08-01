@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java 320 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java 317 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -485,7 +485,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "16"
+ , "c4" : "13"
 }}
  ] 
 ,
@@ -813,13 +813,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00349"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#349"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00349] For method restoringChangelogByPartition list of called methods Object monObjet|V changelogs_getN299083"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00351"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#351"
  , "c2" : "MAJOR"
@@ -859,13 +852,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#410"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00410] For method restore arguments Map&lt;TaskId ,Task &gt;  tasks"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00410"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#410"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00410] For method restore list of called methods Object monObjet|V changelogs_getN304409"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -998,7 +984,7 @@ var maDataBlocs = {
  , "c1" : "00503"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#503"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00503] For method shouldResume list of called methods Object monObjet|V changelogs_getN306872|org.apache.kafka.streams.processor.TaskId manager_taskIdN306985|V tasks_getN307067"
+ , "c3" : "QC-JAV000007[00503] For method shouldResume list of called methods Object monObjet|org.apache.kafka.streams.processor.TaskId manager_taskIdN306985"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1033,7 +1019,7 @@ var maDataBlocs = {
  , "c1" : "00513"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#513"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00513] For method shouldPause list of called methods Object monObjet|V changelogs_getN307525|org.apache.kafka.streams.processor.TaskId manager_taskIdN307638|V tasks_getN307720"
+ , "c3" : "QC-JAV000007[00513] For method shouldPause list of called methods Object monObjet|org.apache.kafka.streams.processor.TaskId manager_taskIdN307638"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1460,7 +1446,7 @@ var maDataBlocs = {
  , "c1" : "00745"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#745"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00745] For method updateLimitOffsetsForStandbyChangelogs list of called methods Object monObjet|org.apache.kafka.common.TopicPartition metadata_storeMetadata_changelogPartitionN320539|V committedOffsets_getN320874"
+ , "c3" : "QC-JAV000007[00745] For method updateLimitOffsetsForStandbyChangelogs list of called methods Object monObjet|org.apache.kafka.common.TopicPartition metadata_storeMetadata_changelogPartitionN320539"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1530,7 +1516,7 @@ var maDataBlocs = {
  , "c1" : "00770"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#770"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00770] For method initializeChangelogs list of called methods Object monObjet|org.apache.kafka.common.TopicPartition metadata_storeMetadata_changelogPartitionN322223|java.util.Map&lt;org.apache.kafka.common.TopicPartition,java.lang.Long&gt; endOffsetForChangelogsN322712|java.util.Map&lt;org.apache.kafka.common.TopicPartition,java.lang.Long&gt; committedOffsetForChangelogsN322864|V changelogs_getN323056|V endOffsets_getN323157|boolean newPartitionsToFindCommittedOffset_containsN323258"
+ , "c3" : "QC-JAV000007[00770] For method initializeChangelogs list of called methods Object monObjet|org.apache.kafka.common.TopicPartition metadata_storeMetadata_changelogPartitionN322223|java.util.Map&lt;org.apache.kafka.common.TopicPartition,java.lang.Long&gt; endOffsetForChangelogsN322712|java.util.Map&lt;org.apache.kafka.common.TopicPartition,java.lang.Long&gt; committedOffsetForChangelogsN322864|boolean newPartitionsToFindCommittedOffset_containsN323258"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1824,7 +1810,7 @@ var maDataBlocs = {
  , "c1" : "00900"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#900"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00900] For method prepareChangelogs list of called methods Object monObjet|org.apache.kafka.common.TopicPartition storeMetadata_changelogPartitionN328507|java.lang.Long storeMetadata_offsetN328589|V changelogs_getN328671|org.apache.kafka.common.TopicPartition storeMetadata_changelogPartitionN329826|org.apache.kafka.streams.processor.StateStore storeMetadata_storeN329908"
+ , "c3" : "QC-JAV000007[00900] For method prepareChangelogs list of called methods Object monObjet|org.apache.kafka.common.TopicPartition storeMetadata_changelogPartitionN328507|java.lang.Long storeMetadata_offsetN328589|org.apache.kafka.common.TopicPartition storeMetadata_changelogPartitionN329826|org.apache.kafka.streams.processor.StateStore storeMetadata_storeN329908"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1972,13 +1958,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#961"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00961] For method unregister arguments Collection&lt;TopicPartition &gt;  revokedChangelogs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00961"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#961"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00961] For method unregister list of called methods Object monObjet|V changelogs_removeN331027"
 }} 
 ,
 { "ligne" : {"" : ""

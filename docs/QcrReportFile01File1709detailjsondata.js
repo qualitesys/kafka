@@ -152,7 +152,7 @@ var maDataBlocs = {
  , "c1" : "00086"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggregate.java.html#86"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00086] For method process list of called methods Object monObjet|org.apache.kafka.streams.processor.api.ProcessorContext&lt;KOut,VOut&gt; contextN175607|V store_getN176129|VA initializer_applyN176475|V oldAggAndTimestamp_valueN176642|VA aggregator_applyN176874"
+ , "c3" : "QC-JAV000007[00086] For method process list of called methods Object monObjet|org.apache.kafka.streams.processor.api.ProcessorContext&lt;KOut,VOut&gt; contextN175607|VA initializer_applyN176475|VA aggregator_applyN176874"
 }} 
 ,
 { "ligne" : {"" : ""

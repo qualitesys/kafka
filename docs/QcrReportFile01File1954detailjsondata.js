@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java 118 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java 115 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -624,7 +624,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -891,13 +891,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00321"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#321"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00321] For method computeTaskLags list of called methods Object monObjet|V taskOffsetSums_getOrDefaultN240297"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00321"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#321"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00321] The argument allTaskEndOffsetSums is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -998,13 +991,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#355"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00355] For method lagFor arguments TaskId  task"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00355"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#355"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00355] For method lagFor list of called methods Object monObjet|V taskLagTotals_getN241683"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1201,13 +1187,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#438"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00438] For method initializePrevActiveTasksFromOwnedPartitions arguments Map&lt;TopicPartition ,TaskId &gt;  taskForPartitionMap"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00438"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#438"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00438] For method initializePrevActiveTasksFromOwnedPartitions list of called methods Object monObjet|V taskForPartitionMap_getN245989"
 }} 
 ,
 { "ligne" : {"" : ""

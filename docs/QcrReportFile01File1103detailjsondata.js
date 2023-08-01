@@ -432,7 +432,7 @@ var maDataBlocs = {
  , "c1" : "00574"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#574"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00574] For method topicSettings list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; originalsWithPrefixN260911|V result_removeN261331"
+ , "c3" : "QC-JAV000007[00574] For method topicSettings list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; originalsWithPrefixN260911"
 }} 
 ,
 { "ligne" : {"" : ""

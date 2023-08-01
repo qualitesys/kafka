@@ -1503,7 +1503,7 @@ var maDataBlocs = {
  , "c1" : "00559"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#559"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00559] For method validateTopics list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Integer&gt; getNumPartitionsN304900|V topicsMap_getN305225"
+ , "c3" : "QC-JAV000007[00559] For method validateTopics list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Integer&gt; getNumPartitionsN304900"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1664,7 +1664,7 @@ var maDataBlocs = {
  , "c1" : "00633"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#633"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00633] For method processCreateTopicResults list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.common.KafkaFuture&lt;java.lang.Void&gt;&gt; createTopicsResult_valuesN309116|V createResultForTopic_getN309726"
+ , "c3" : "QC-JAV000007[00633] For method processCreateTopicResults list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.common.KafkaFuture&lt;java.lang.Void&gt;&gt; createTopicsResult_valuesN309116"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1846,7 +1846,7 @@ var maDataBlocs = {
  , "c1" : "00691"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#691"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00691] For method cleanUpCreatedTopics list of called methods Object monObjet|org.apache.kafka.clients.admin.DeleteTopicsResult adminClient_deleteTopicsN312254|java.util.Map&lt;java.lang.String,org.apache.kafka.common.KafkaFuture&lt;java.lang.Void&gt;&gt; deleteTopicsResult_topicNameValuesN312413|V deleteResultForTopic_getN312960"
+ , "c3" : "QC-JAV000007[00691] For method cleanUpCreatedTopics list of called methods Object monObjet|org.apache.kafka.clients.admin.DeleteTopicsResult adminClient_deleteTopicsN312254|java.util.Map&lt;java.lang.String,org.apache.kafka.common.KafkaFuture&lt;java.lang.Void&gt;&gt; deleteTopicsResult_topicNameValuesN312413"
 }} 
 ,
 { "ligne" : {"" : ""

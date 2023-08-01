@@ -1100,7 +1100,7 @@ var maDataBlocs = {
  , "c1" : "00556"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#556"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00556] For method instantiateConfigProviders list of called methods Object monObjet|V indirectConfigs_getN313426|java.lang.String providerClassPropertyN313931"
+ , "c3" : "QC-JAV000007[00556] For method instantiateConfigProviders list of called methods Object monObjet|java.lang.String providerClassPropertyN313931"
 }} 
 ,
 { "ligne" : {"" : ""

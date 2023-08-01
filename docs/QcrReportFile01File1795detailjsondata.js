@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java 64 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java 62 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -88,7 +88,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "7"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -161,13 +161,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#71"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00071] For method upgradeFromV0 arguments Map&lt;String ,? &gt;  configs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#71"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00071] For method upgradeFromV0 list of called methods Object monObjet|V configs_getN185850"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -273,13 +266,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#121"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00121] For method serializePrimaryKey arguments SubscriptionWrapper&lt;K &gt;  data"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#121"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00121] For method serializePrimaryKey list of called methods Object monObjet|V primaryKeySerializationPseudoTopicSupplier_getN188078"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -440,7 +426,7 @@ var maDataBlocs = {
  , "c1" : "00188"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#188"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00188] For method deserialize list of called methods Object monObjet|V buf_getN191795|java.lang.Long buf_getLongN192613|java.lang.Long buf_getLongN192718|V primaryKeySerializationPseudoTopicSupplier_getN193504|T primaryKeyDeserializer_deserializeN193589"
+ , "c3" : "QC-JAV000007[00188] For method deserialize list of called methods Object monObjet|java.lang.Long buf_getLongN192613|java.lang.Long buf_getLongN192718"
 }} 
 ,
 { "ligne" : {"" : ""

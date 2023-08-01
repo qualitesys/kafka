@@ -115,7 +115,7 @@ var maDataBlocs = {
  , "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTransactionsResult.java.html#45"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00045] For method description list of called methods Object monObjet|org.apache.kafka.clients.admin.internals.CoordinatorKey CoordinatorKey_byTransactionalIdN162148|V futures_getN162265"
+ , "c3" : "QC-JAV000007[00045] For method description list of called methods Object monObjet|org.apache.kafka.clients.admin.internals.CoordinatorKey CoordinatorKey_byTransactionalIdN162148"
 }} 
 ,
 { "ligne" : {"" : ""

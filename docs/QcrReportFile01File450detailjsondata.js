@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java 60 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java 58 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -156,13 +156,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -234,13 +227,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#65"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00065] For method bufferToBeReleased arguments ByteBuffer  justReleased"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#65"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00065] For method bufferToBeReleased list of called methods Object monObjet|V buffersInFlight_removeN171887"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -374,13 +360,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#137"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00137] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#137"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00137] For method equals list of called methods Object monObjet|V getN175068|V that_getN175248"
 }} 
 ,
 { "ligne" : {"" : ""

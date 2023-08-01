@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableRepartitionMap.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableRepartitionMap.java 25 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableRepartitionMap.java 24 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -115,7 +115,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -153,13 +153,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableRepartitionMap.java.html#83"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00083] For method process arguments Record&lt;K ,Change&lt;V &gt; &gt;  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableRepartitionMap.java.html#83"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00083] For method process list of called methods Object monObjet|V record_valueN175306|V record_valueN175632"
 }} 
 ,
 { "ligne" : {"" : ""

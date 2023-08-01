@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CircularIterator.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/CircularIterator.java 4 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/CircularIterator.java 3 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -121,13 +121,6 @@ var maDataBlocs = {
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "2"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -150,13 +143,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CircularIterator.java.html#67"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.utils.CircularIterator.hasNext@POLYN165002 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CircularIterator.java.html#71"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00071] For method next list of called methods Object monObjet|T advanceN165240"
 }} 
 ]
 , 

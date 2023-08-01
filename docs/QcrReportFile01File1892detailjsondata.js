@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java 89 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java 84 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -244,7 +244,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "8"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -282,13 +282,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#108"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00108] For method readyToProcess arguments long  wallClockTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#108"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00108] For method readyToProcess list of called methods Object monObjet|V idlePartitionDeadlines_getN206248"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -516,13 +509,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00209"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#209"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00209] For method partitionTimestamp list of called methods Object monObjet|V partitionQueues_getN207763"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00212"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#212"
  , "c2" : "MAJOR"
@@ -590,13 +576,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#240"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00240] For method setPartitionTime arguments TopicPartition  partition|long  partitionTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00240"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#240"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00240] For method setPartitionTime list of called methods Object monObjet|V partitionQueues_getN209761"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -687,7 +666,7 @@ var maDataBlocs = {
  , "c1" : "00296"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#296"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00296] For method addRawRecords list of called methods Object monObjet|V partitionQueues_getN211830|int recordQueue_sizeN212126|int recordQueue_addRawRecordsN212208"
+ , "c3" : "QC-JAV000007[00296] For method addRawRecords list of called methods Object monObjet|int recordQueue_sizeN212126|int recordQueue_addRawRecordsN212208"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -740,13 +719,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00334"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#334"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00334] For method headRecordOffset list of called methods Object monObjet|V partitionQueues_getN213180"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00337"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#337"
  , "c2" : "MAJOR"
@@ -772,13 +744,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#347"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00347] For method numBuffered arguments TopicPartition  partition"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00347"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#347"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00347] For method numBuffered list of called methods Object monObjet|V partitionQueues_getN213667"
 }} 
 ,
 { "ligne" : {"" : ""

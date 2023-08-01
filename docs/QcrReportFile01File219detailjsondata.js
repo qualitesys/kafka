@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java 385 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java 384 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -1051,7 +1051,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "15"
+ , "c4" : "14"
 }}
 ,
 { "ligne" : { "" : ""
@@ -3105,13 +3105,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1141"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01141] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.FetchPosition.toString@POLYN364426 the MagicNumber/String  '}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01159"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1159"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01159] For method toString list of called methods Object monObjet|V divergentOffsetOpt_getN365687"
 }} 
 ,
 { "ligne" : {"" : ""

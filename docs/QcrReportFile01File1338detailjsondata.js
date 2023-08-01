@@ -186,7 +186,7 @@ var maDataBlocs = {
  , "c1" : "00071"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00071] For method apply list of called methods Object monObjet|V changes_getN165895|org.apache.kafka.image.FeaturesImage image_metadataVersionN167086"
+ , "c3" : "QC-JAV000007[00071] For method apply list of called methods Object monObjet|org.apache.kafka.image.FeaturesImage image_metadataVersionN167086"
 }} 
 ,
 { "ligne" : {"" : ""

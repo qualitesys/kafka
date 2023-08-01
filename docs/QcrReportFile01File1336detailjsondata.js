@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java 24 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java 21 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -188,18 +188,11 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "1"
 }}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html#46"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00046] For method finishSnapshot list of called methods Object monObjet|V changes_computeIfAbsentN165488"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00048"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html#48"
@@ -238,13 +231,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html#60"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00060] For method replay list of called methods Object monObjet|V changes_computeIfAbsentN166193"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html#60"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00060] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -257,17 +243,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html#70"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00070] For method replay list of called methods Object monObjet|V changes_computeIfAbsentN166805"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00080] For method apply list of called methods Object monObjet|V changes_getN167443|org.apache.kafka.image.ConfigurationImage delta_applyN167744"
+ , "c3" : "QC-JAV000007[00080] For method apply list of called methods Object monObjet|org.apache.kafka.image.ConfigurationImage delta_applyN167744"
 }} 
 ,
 { "ligne" : {"" : ""

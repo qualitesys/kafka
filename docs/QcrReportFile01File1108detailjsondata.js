@@ -498,7 +498,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method performTaskAssignment list of called methods Object monObjet|org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.ClusterAssignment assignmentN309909|org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks diffN310829|org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks diffN311034|java.util.List&lt;org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad&gt; workerAssignmentN311714|java.util.List&lt;org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad&gt; workerAssignmentN312664|java.util.Map&lt;java.lang.String,org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks&gt; computeDeletedN312811|java.util.List&lt;org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad&gt; workerAssignmentN313276|java.util.Map&lt;java.lang.String,org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks&gt; performTaskRevocationN314200|V toRevoke_computeIfAbsentN314500|int toExplicitlyRevoke_sizeN314919|org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks computePreviousAssignmentN316379|java.util.Set&lt;K&gt; memberAssignments_keySetN316584"
+ , "c3" : "QC-JAV000007[00001] For method performTaskAssignment list of called methods Object monObjet|org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.ClusterAssignment assignmentN309909|org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks diffN310829|org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks diffN311034|java.util.List&lt;org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad&gt; workerAssignmentN311714|java.util.List&lt;org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad&gt; workerAssignmentN312664|java.util.Map&lt;java.lang.String,org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks&gt; computeDeletedN312811|java.util.List&lt;org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad&gt; workerAssignmentN313276|java.util.Map&lt;java.lang.String,org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks&gt; performTaskRevocationN314200|int toExplicitlyRevoke_sizeN314919|org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks computePreviousAssignmentN316379|java.util.Set&lt;K&gt; memberAssignments_keySetN316584"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1051,7 +1051,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method performTaskRevocation list of called methods Object monObjet|java.util.Collection&lt;java.lang.String&gt; activeAssignments_connectorsN330228|java.util.Collection&lt;org.apache.kafka.connect.util.ConnectorTaskId&gt; activeAssignments_tasksN330325|int existingWorkers_sizeN330688|int completeWorkerAssignment_sizeN330765|java.util.Collection&lt;java.lang.String&gt; existing_connectorsN333078|int existing_connectorsSizeN333172|int existing_connectorsSizeN333285|V revoking_computeIfAbsentN333531|java.util.Collection&lt;org.apache.kafka.connect.util.ConnectorTaskId&gt; existing_tasksN333954|int existing_tasksSizeN334048|int existing_tasksSizeN334278|V revoking_computeIfAbsentN334524"
+ , "c3" : "QC-JAV000007[00001] For method performTaskRevocation list of called methods Object monObjet|java.util.Collection&lt;java.lang.String&gt; activeAssignments_connectorsN330228|java.util.Collection&lt;org.apache.kafka.connect.util.ConnectorTaskId&gt; activeAssignments_tasksN330325|int existingWorkers_sizeN330688|int completeWorkerAssignment_sizeN330765|java.util.Collection&lt;java.lang.String&gt; existing_connectorsN333078|int existing_connectorsSizeN333172|int existing_connectorsSizeN333285|java.util.Collection&lt;org.apache.kafka.connect.util.ConnectorTaskId&gt; existing_tasksN333954|int existing_tasksSizeN334048|int existing_tasksSizeN334278"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1429,7 +1429,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method assignConnectors list of called methods Object monObjet|V workerAssignment_getN340389|int first_connectorsSizeN340654"
+ , "c3" : "QC-JAV000007[00001] For method assignConnectors list of called methods Object monObjet|int first_connectorsSizeN340654"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1506,7 +1506,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method assignTasks list of called methods Object monObjet|V workerAssignment_getN342085|int first_tasksSizeN342350"
+ , "c3" : "QC-JAV000007[00001] For method assignTasks list of called methods Object monObjet|int first_tasksSizeN342350"
 }} 
 ,
 { "ligne" : {"" : ""

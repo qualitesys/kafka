@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java 155 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java 149 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -332,7 +332,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "9"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -523,7 +523,7 @@ var maDataBlocs = {
  , "c1" : "00307"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#307"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00307] For method registerBroker list of called methods Object monObjet|V brokerRegistrations_getN261212|java.util.Optional&lt;java.lang.Short&gt; finalizedFeatures_getN262788"
+ , "c3" : "QC-JAV000007[00307] For method registerBroker list of called methods Object monObjet|java.util.Optional&lt;java.lang.Short&gt; finalizedFeatures_getN262788"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -627,13 +627,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00369"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#369"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00369] For method replay list of called methods Object monObjet|V brokerRegistrations_putN265355"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00369"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#369"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00369] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -685,13 +678,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#403"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00403] For method replay arguments UnregisterBrokerRecord  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00403"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#403"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00403] For method replay list of called methods Object monObjet|V brokerRegistrations_getN266916"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -831,7 +817,7 @@ var maDataBlocs = {
  , "c1" : "00458"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#458"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00458] For method replayRegistrationChange list of called methods Object monObjet|V brokerRegistrations_getN269814|org.apache.kafka.metadata.BrokerRegistration curRegistration_cloneWithN270449"
+ , "c3" : "QC-JAV000007[00458] For method replayRegistrationChange list of called methods Object monObjet|org.apache.kafka.metadata.BrokerRegistration curRegistration_cloneWithN270449"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1031,13 +1017,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00534"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#534"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00534] For method unfenced list of called methods Object monObjet|V brokerRegistrations_getN274191"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00536"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#536"
  , "c2" : "MAJOR"
@@ -1066,13 +1045,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00554"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#554"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00554] For method inControlledShutdown list of called methods Object monObjet|V brokerRegistrations_getN274893"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00556"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#556"
  , "c2" : "MAJOR"
@@ -1091,13 +1063,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#564"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00564] For method active arguments int  brokerId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00564"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#564"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00564] For method active list of called methods Object monObjet|V brokerRegistrations_getN275329"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1133,13 +1098,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#577"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00577] For method checkBrokerEpoch arguments int  brokerId|long  brokerEpoch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00577"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#577"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00577] For method checkBrokerEpoch list of called methods Object monObjet|V brokerRegistrations_getN275949"
 }} 
 ,
 { "ligne" : {"" : ""

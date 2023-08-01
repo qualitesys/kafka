@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java 68 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java 67 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -172,7 +172,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -370,7 +370,7 @@ var maDataBlocs = {
  , "c1" : "00159"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#159"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00159] For method assignStandbyTasksToClientsWithDifferentTags list of called methods Object monObjet|V tasksToRemainingStandbys_getN199237|java.util.UUID standbyTaskClientsByTaskLoad_pollN199761|V clientStates_getN200062"
+ , "c3" : "QC-JAV000007[00159] For method assignStandbyTasksToClientsWithDifferentTags list of called methods Object monObjet|java.util.UUID standbyTaskClientsByTaskLoad_pollN199761"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -518,13 +518,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#233"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00233] For method updateClientsOnAlreadyUsedTagEntries arguments UUID  usedClient|int  countOfUsedClients|Set&lt;String &gt;  rackAwareAssignmentTags|Map&lt;UUID ,ClientState &gt;  clientStates|Map&lt;TagEntry ,Set&lt;UUID &gt; &gt;  tagEntryToClients|Map&lt;String ,Set&lt;String &gt; &gt;  tagKeyToValues|Map&lt;TagEntry ,Set&lt;UUID &gt; &gt;  tagEntryToUsedClients"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00233"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#233"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00233] For method updateClientsOnAlreadyUsedTagEntries list of called methods Object monObjet|V clientStates_getN202298|V tagKeyToValues_getN202911|V tagEntryToClients_getN203543"
 }} 
 ,
 { "ligne" : {"" : ""

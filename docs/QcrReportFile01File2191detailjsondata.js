@@ -404,7 +404,7 @@ var maDataBlocs = {
  , "c1" : "00178"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#178"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00178] For method createTopics list of called methods Object monObjet|long Time_SYSTEM_millisecondsN221686|V topicsToCreate_removeN223156"
+ , "c3" : "QC-JAV000007[00178] For method createTopics list of called methods Object monObjet|long Time_SYSTEM_millisecondsN221686"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -670,7 +670,7 @@ var maDataBlocs = {
  , "c1" : "00252"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#252"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00252] For method verifyTopics list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.clients.admin.TopicDescription&gt; topicDescriptionsN226271|V topicsInfo_getN226519"
+ , "c3" : "QC-JAV000007[00252] For method verifyTopics list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.clients.admin.TopicDescription&gt; topicDescriptionsN226271"
 }} 
 ,
 { "ligne" : {"" : ""

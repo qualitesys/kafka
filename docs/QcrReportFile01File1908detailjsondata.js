@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java 74 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java 73 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -208,7 +208,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -596,13 +596,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#345"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00345] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00356"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#356"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00356] For method checkForException list of called methods Object monObjet|V sendException_getN219053"
 }} 
 ,
 { "ligne" : {"" : ""

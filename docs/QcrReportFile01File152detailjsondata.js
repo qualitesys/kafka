@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java 66 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java 64 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -244,7 +244,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -429,13 +429,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#276"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00276] For method clearInflightRequest arguments long  currentTimeMs|RequestSpec&lt;K &gt;  spec"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00276"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#276"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00276] For method clearInflightRequest list of called methods Object monObjet|V requestStates_getN239350"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -674,13 +667,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#468"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00468] For method remove arguments V  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00468"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#468"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00468] For method remove list of called methods Object monObjet|V map_getN247711"
 }} 
 ,
 { "ligne" : {"" : ""

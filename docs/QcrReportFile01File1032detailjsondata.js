@@ -305,7 +305,7 @@ var maDataBlocs = {
  , "c1" : "00138"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#138"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00138] For method clusterProps list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; originalsStringsN206652|V props_getN206949|V strings_getN207577"
+ , "c3" : "QC-JAV000007[00138] For method clusterProps list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; originalsStringsN206652"
 }} 
 ,
 { "ligne" : {"" : ""

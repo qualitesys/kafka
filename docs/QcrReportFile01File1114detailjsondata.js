@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java 145 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java 143 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -316,7 +316,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "5"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -805,13 +805,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00406"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#406"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00406] For method ownerUrl list of called methods Object monObjet|V taskOwners_getN252524"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00408"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#408"
  , "c2" : "MAJOR"
@@ -830,13 +823,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#413"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00413] For method ownerUrl arguments String  connector"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00413"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#413"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00413] For method ownerUrl list of called methods Object monObjet|V connectorOwners_getN252880"
 }} 
 ,
 { "ligne" : {"" : ""

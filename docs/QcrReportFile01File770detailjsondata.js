@@ -468,7 +468,7 @@ var maDataBlocs = {
  , "c1" : "00194"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#194"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00194] For method createSaslServer list of called methods Object monObjet|V subjects_getN271987|V callbackHandlers_getN272088|SaslServer createSaslKerberosServerN272277"
+ , "c3" : "QC-JAV000007[00194] For method createSaslServer list of called methods Object monObjet|SaslServer createSaslKerberosServerN272277"
 }} 
 ,
 { "ligne" : {"" : ""

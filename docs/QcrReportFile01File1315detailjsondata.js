@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java 61 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java 60 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -262,7 +262,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -405,13 +405,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#127"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00127] For method setTargetLeaderRecoveryState arguments LeaderRecoveryState  targetLeaderRecoveryState"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#160"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00160] For method electPreferredLeader list of called methods Object monObjet|V targetReplicas_getN204248"
 }} 
 ,
 { "ligne" : {"" : ""

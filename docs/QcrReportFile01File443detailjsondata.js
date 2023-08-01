@@ -348,7 +348,7 @@ var maDataBlocs = {
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00085] For method lastHeader list of called methods Object monObjet|int headers_sizeN174808|V headers_getN174999"
+ , "c3" : "QC-JAV000007[00085] For method lastHeader list of called methods Object monObjet|int headers_sizeN174808"
 }} 
 ,
 { "ligne" : {"" : ""

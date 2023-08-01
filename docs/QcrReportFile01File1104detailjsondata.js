@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java 1062 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java 1059 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -848,7 +848,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "25"
+ , "c4" : "22"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2256,13 +2256,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00910"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#910"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00910] For method validateSinkConnectorGroupId list of called methods Object monObjet|V validatedConfig_getN559471"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00910"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#910"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00910] The argument validatedConfig is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -2286,13 +2279,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#919"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00919] For method validateSourceConnectorExactlyOnceSupport arguments Map&lt;String ,String &gt;  rawConfig|Map&lt;String ,ConfigValue &gt;  validatedConfig|SourceConnector  connector"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00919"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#919"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00919] For method validateSourceConnectorExactlyOnceSupport list of called methods Object monObjet|V validatedConfig_getN560129"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2405,13 +2391,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#966"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00966] For method validateSourceConnectorTransactionBoundary arguments Map&lt;String ,String &gt;  rawConfig|Map&lt;String ,ConfigValue &gt;  validatedConfig|SourceConnector  connector"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00966"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#966"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00966] For method validateSourceConnectorTransactionBoundary list of called methods Object monObjet|V validatedConfig_getN562453"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3048,7 +3027,7 @@ var maDataBlocs = {
  , "c1" : "01178"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1178"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01178] For method fenceZombieSourceTasks list of called methods Object monObjet|int configState_taskCountN575072|java.lang.Integer configState_taskCountRecordN575168|java.lang.Integer configState_taskConfigGenerationN575685|V activeZombieFencings_getN575778"
+ , "c3" : "QC-JAV000007[01178] For method fenceZombieSourceTasks list of called methods Object monObjet|int configState_taskCountN575072|java.lang.Integer configState_taskCountRecordN575168|java.lang.Integer configState_taskConfigGenerationN575685"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3657,7 +3636,7 @@ var maDataBlocs = {
  , "c1" : "01387"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1387"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01387] For method doRestartConnectorAndTasks list of called methods Object monObjet|java.lang.String request_connectorNameN584501|java.util.Optional&lt;org.apache.kafka.connect.runtime.RestartPlan&gt; buildRestartPlanN584599|V maybePlan_getN584899|java.util.Collection&lt;org.apache.kafka.connect.util.ConnectorTaskId&gt; plan_taskIdsToRestartN585159|boolean plan_shouldRestartConnectorN585444"
+ , "c3" : "QC-JAV000007[01387] For method doRestartConnectorAndTasks list of called methods Object monObjet|java.lang.String request_connectorNameN584501|java.util.Optional&lt;org.apache.kafka.connect.runtime.RestartPlan&gt; buildRestartPlanN584599|java.util.Collection&lt;org.apache.kafka.connect.util.ConnectorTaskId&gt; plan_taskIdsToRestartN585159|boolean plan_shouldRestartConnectorN585444"
 }} 
 ,
 { "ligne" : {"" : ""

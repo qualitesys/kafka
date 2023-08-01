@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java 117 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java 116 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -247,7 +247,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "5"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -605,13 +605,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00293"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#293"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00293] For method create list of called methods Object monObjet|T aliases_nextElementN240472"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00293"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#293"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00293] The argument keystore is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -655,7 +648,7 @@ var maDataBlocs = {
  , "c1" : "00305"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#305"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00305] For method ensureCompatible list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries&gt; CertificateEntries_createN241002|java.util.List&lt;org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries&gt; CertificateEntries_createN241119|V newEntries_getN241706|V oldEntries_getN241802"
+ , "c3" : "QC-JAV000007[00305] For method ensureCompatible list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries&gt; CertificateEntries_createN241002|java.util.List&lt;org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries&gt; CertificateEntries_createN241119"
 }} 
 ,
 { "ligne" : {"" : ""

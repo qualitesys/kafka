@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html" 
- , "texte" : "File secujava/java.util.concurrent.ConcurrentHashMap.java 2336 rule violations " 
+ , "texte" : "File secujava/java.util.concurrent.ConcurrentHashMap.java 2332 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -794,7 +794,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "68"
+ , "c4" : "64"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2550,13 +2550,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01334"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1334"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01334] For method equals list of called methods Object monObjet|V m_getN1491404|V getN1492164"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01342"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1342"
  , "c2" : "MAJOR"
@@ -3376,13 +3369,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01580"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1580"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01580] For method getOrDefault list of called methods Object monObjet|V getN1504437"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01582"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1582"
  , "c2" : "MAJOR"
@@ -3450,13 +3436,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1596"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01596] For method replaceAll arguments BiFunction&lt;? super K ,? super V ,?  extends V &gt;  function"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01596"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1596"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01596] For method replaceAll list of called methods Object monObjet|V getN1506997"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -12081,13 +12060,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4716"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[04716] For method contains arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "04716"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4716"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04716] For method contains list of called methods Object monObjet|V map_getN1680767"
 }} 
 ,
 { "ligne" : {"" : ""

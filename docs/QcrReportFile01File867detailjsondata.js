@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListDeserializer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/serialization/ListDeserializer.java 67 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/serialization/ListDeserializer.java 65 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -192,7 +192,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -270,13 +270,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00084"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListDeserializer.java.html#84"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00084] For method configureListClass list of called methods Object monObjet|V configs_getN186183"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListDeserializer.java.html#84"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00084] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -328,13 +321,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListDeserializer.java.html#104"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00104] For method configureInnerSerde arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListDeserializer.java.html#104"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00104] For method configureInnerSerde list of called methods Object monObjet|V configs_getN187451"
 }} 
 ,
 { "ligne" : {"" : ""

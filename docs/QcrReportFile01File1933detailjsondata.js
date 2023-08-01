@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java 388 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java 386 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -478,7 +478,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "13"
+ , "c4" : "11"
 }}
  ] 
 ,
@@ -669,7 +669,7 @@ var maDataBlocs = {
  , "c1" : "00310"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#310"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00310] For method assign list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo SubscriptionInfo_decodeN383903|int info_versionN384024|int updateMinReceivedVersionN384276|int updateMinSupportedVersionN384383|java.util.UUID info_processIdN385019|V clientMetadataMap_getN385099|int allOwnedPartitions_sizeN385656"
+ , "c3" : "QC-JAV000007[00310] For method assign list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo SubscriptionInfo_decodeN383903|int info_versionN384024|int updateMinReceivedVersionN384276|int updateMinSupportedVersionN384383|java.util.UUID info_processIdN385019|int allOwnedPartitions_sizeN385656"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1128,13 +1128,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00648"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#648"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00648] For method createTaskAssignor list of called methods Object monObjet|V taskAssignorSupplier_getN399073"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00657"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#657"
  , "c2" : "MAJOR"
@@ -1209,13 +1202,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#721"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00721] For method computeEndOffsetSumsByTask arguments Map&lt;TopicPartition ,ListOffsetsResultInfo &gt;  endOffsets|Map&lt;TopicPartition ,Long &gt;  sourceChangelogEndOffsets|ChangelogTopics  changelogTopics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00721"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#721"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00721] For method computeEndOffsetSumsByTask list of called methods Object monObjet|V sourceChangelogEndOffsets_getN403018|V endOffsets_getN403199|V taskEndOffsetSums_getN403554"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1565,7 +1551,7 @@ var maDataBlocs = {
  , "c1" : "00896"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#896"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00896] For method addClientAssignments list of called methods Object monObjet|V activeTaskAssignments_getN411311|java.util.Set&lt;org.apache.kafka.streams.processor.TaskId&gt; populateActiveTaskAndPartitionsListsN411657|java.util.Map&lt;org.apache.kafka.streams.processor.TaskId,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; buildStandbyTaskMapN411948|boolean time_millisecondsN412865"
+ , "c3" : "QC-JAV000007[00896] For method addClientAssignments list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.processor.TaskId&gt; populateActiveTaskAndPartitionsListsN411657|java.util.Map&lt;org.apache.kafka.streams.processor.TaskId,java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt;&gt; buildStandbyTaskMapN411948|boolean time_millisecondsN412865"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1824,7 +1810,7 @@ var maDataBlocs = {
  , "c1" : "01078"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1078"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01078] For method assignTasksToThreads list of called methods Object monObjet|java.util.Collection&lt;V&gt; threadLoad_valuesN418511|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.streams.processor.TaskId&gt;&gt; assignment_getN419458|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.streams.processor.TaskId&gt;&gt; assignment_getN420820|int threadAssignment_sizeN420992|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.streams.processor.TaskId&gt;&gt; assignment_getN421557|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.streams.processor.TaskId&gt;&gt; assignment_getN422804|V threadLoad_getOrDefaultN423230"
+ , "c3" : "QC-JAV000007[01078] For method assignTasksToThreads list of called methods Object monObjet|java.util.Collection&lt;V&gt; threadLoad_valuesN418511|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.streams.processor.TaskId&gt;&gt; assignment_getN419458|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.streams.processor.TaskId&gt;&gt; assignment_getN420820|int threadAssignment_sizeN420992|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.streams.processor.TaskId&gt;&gt; assignment_getN421557|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.streams.processor.TaskId&gt;&gt; assignment_getN422804"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2328,7 +2314,7 @@ var maDataBlocs = {
  , "c1" : "01386"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1386"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01386] For method getActiveTasks list of called methods Object monObjet|V partitions_getN432701|java.util.List&lt;org.apache.kafka.streams.processor.TaskId&gt; info_activeTasksN432802"
+ , "c3" : "QC-JAV000007[01386] For method getActiveTasks list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.streams.processor.TaskId&gt; info_activeTasksN432802"
 }} 
 ,
 { "ligne" : {"" : ""

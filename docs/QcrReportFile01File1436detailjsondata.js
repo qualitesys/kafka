@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java 30 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java 29 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -185,7 +185,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "7"
+ , "c4" : "6"
 }}
  ] 
 ,
@@ -195,13 +195,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#66"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000007[00066] For method hasNext list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.raft.Batch&lt;T&gt;&gt; nextBatchN182957"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#77"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00077] For method next list of called methods Object monObjet|V nextBatch_getN183337"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -264,7 +257,7 @@ var maDataBlocs = {
  , "c1" : "00113"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#113"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00113] For method createMemoryRecords list of called methods Object monObjet|V allocatedBuffer_getN184755|org.apache.kafka.common.record.MemoryRecords readFileRecordsN185173"
+ , "c3" : "QC-JAV000007[00113] For method createMemoryRecords list of called methods Object monObjet|org.apache.kafka.common.record.MemoryRecords readFileRecordsN185173"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -355,7 +348,7 @@ var maDataBlocs = {
  , "c1" : "00218"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#218"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00218] For method readRecord list of called methods Object monObjet|long input_readVarlongN189634|int input_readVarintN189891|int input_readVarintN190148|T serde_readN190353|int input_readVarintN190471"
+ , "c3" : "QC-JAV000007[00218] For method readRecord list of called methods Object monObjet|long input_readVarlongN189634|int input_readVarintN189891|int input_readVarintN190148|int input_readVarintN190471"
 }} 
 ,
 { "ligne" : {"" : ""

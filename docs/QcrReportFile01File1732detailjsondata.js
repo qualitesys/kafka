@@ -166,7 +166,7 @@ var maDataBlocs = {
  , "c1" : "00081"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#81"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00081] For method process list of called methods Object monObjet|V store_getN171608|long record_timestampN171853|VA initializer_applyN172748"
+ , "c3" : "QC-JAV000007[00081] For method process list of called methods Object monObjet|long record_timestampN171853|VA initializer_applyN172748"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/TopicDelta.java 33 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/TopicDelta.java 31 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -208,13 +208,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -237,13 +230,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#64"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00064] For method replay arguments PartitionChangeRecord  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#64"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00064] For method replay list of called methods Object monObjet|V partitionChanges_getN174902"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -279,13 +265,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#70"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.image.TopicDelta.replay@POLYN174807 the MagicNumber/String  ':' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicDelta.java.html#76"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00076] For method apply list of called methods Object monObjet|V partitionChanges_getN176040"
 }} 
 ,
 { "ligne" : {"" : ""

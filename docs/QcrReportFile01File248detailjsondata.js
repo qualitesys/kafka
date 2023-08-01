@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java 20 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java 19 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -129,7 +129,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -139,13 +139,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#38"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00038] For method partition arguments String  topic|Cluster  cluster"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#38"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00038] For method partition list of called methods Object monObjet|V indexCache_getN160731"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -173,7 +166,7 @@ var maDataBlocs = {
  , "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00046] For method nextPartition list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_partitionsForTopicN161201|V indexCache_getN161297|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_availablePartitionsForTopicN161588|int Utils_toPositiveN161777|V availablePartitions_getN162099|int Utils_toPositiveN162370|V availablePartitions_getN162503"
+ , "c3" : "QC-JAV000007[00046] For method nextPartition list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_partitionsForTopicN161201|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_availablePartitionsForTopicN161588|int Utils_toPositiveN161777|int Utils_toPositiveN162370"
 }} 
 ,
 { "ligne" : {"" : ""

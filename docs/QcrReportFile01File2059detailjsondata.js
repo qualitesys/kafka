@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java 110 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java 107 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -320,7 +320,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "13"
+ , "c4" : "10"
 }}
  ] 
 ,
@@ -442,13 +442,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#254"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer.close@POLYN244292 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00261"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#261"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00261] For method flush list of called methods Object monObjet|V index_getN245018|V sortedMap_getN245274"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -574,7 +567,7 @@ var maDataBlocs = {
  , "c1" : "00314"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#314"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00314] For method restoreBatch list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes Bytes_wrapN247305|V index_removeN247519|V sortedMap_removeN247693|long computeRecordSizeN247859|boolean sortedMap_isEmptyN248080|org.apache.kafka.common.header.Headers record_headersN248279|boolean index_containsKeyN248481|boolean index_containsKeyN249923"
+ , "c3" : "QC-JAV000007[00314] For method restoreBatch list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes Bytes_wrapN247305|long computeRecordSizeN247859|boolean sortedMap_isEmptyN248080|org.apache.kafka.common.header.Headers record_headersN248279|boolean index_containsKeyN248481|boolean index_containsKeyN249923"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -830,13 +823,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00469"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#469"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00469] For method internalPriorValueForBuffered list of called methods Object monObjet|V index_getN254516|V sortedMap_getN254828"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00471"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#471"
  , "c2" : "MAJOR"
@@ -907,13 +893,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00508"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#508"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00508] For method getBuffered list of called methods Object monObjet|V index_getN256583"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00510"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#510"
  , "c2" : "MAJOR"
@@ -938,7 +917,7 @@ var maDataBlocs = {
  , "c1" : "00513"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#513"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00513] For method cleanPut list of called methods Object monObjet|V index_getN256948|long computeRecordSizeN257537|V sortedMap_putN257671"
+ , "c3" : "QC-JAV000007[00513] For method cleanPut list of called methods Object monObjet|long computeRecordSizeN257537"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java 53 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java 52 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -185,7 +185,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "6"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -468,13 +468,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#198"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00198] For method replay arguments RemoveAccessControlEntryRecord  record|Optional&lt;OffsetAndEpoch &gt;  snapshotId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#198"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00198] For method replay list of called methods Object monObjet|V idToAcl_removeN199465"
 }} 
 ,
 { "ligne" : {"" : ""

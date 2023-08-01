@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java 41 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java 40 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -192,7 +192,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -202,13 +202,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#49"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00049] For method fetch arguments K  key|long  time"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyWindowStore.java.html#49"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00049] For method fetch list of called methods Object monObjet|V provider_storesN178481"
 }} 
 ,
 { "ligne" : {"" : ""

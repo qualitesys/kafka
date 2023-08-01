@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java 1 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java 0 rule violation " 
  , "fic3"  : "" 
 }
 , 
@@ -87,24 +87,6 @@ var maDataBlocs = {
 ]
 , 
 "data14" : [
-]
-, 
-"data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
- ] 
-,
-"data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowStoreIteratorWrapper.java.html#105"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00105] For method peekNextKey list of called methods Object monObjet|K bytesIterator_peekNextKeyN171304"
-}} 
 ]
 , 
 "data15" : {

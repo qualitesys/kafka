@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ActiveTaskCreator.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ActiveTaskCreator.java 60 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ActiveTaskCreator.java 58 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -251,7 +251,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "5"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -296,13 +296,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ActiveTaskCreator.java.html#126"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00126] For method streamsProducerForTask arguments TaskId  taskId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ActiveTaskCreator.java.html#126"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00126] For method streamsProducerForTask list of called methods Object monObjet|V taskProducers_getN198522"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -506,13 +499,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ActiveTaskCreator.java.html#298"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00298] For method closeAndRemoveTaskProducerIfNeeded arguments TaskId  id"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00298"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ActiveTaskCreator.java.html#298"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00298] For method closeAndRemoveTaskProducerIfNeeded list of called methods Object monObjet|V taskProducers_removeN205063"
 }} 
 ,
 { "ligne" : {"" : ""
