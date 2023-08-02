@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java 66 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java 65 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -163,7 +163,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "5"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -186,7 +186,7 @@ var maDataBlocs = {
  , "c1" : "00108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00108] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.ProcessorNode&lt;?,?,?,?&gt; internalProcessorContext_currentNodeN212291|java.lang.Long internalProcessorContext_processorMetadataForKeyN213144|long StreamsConfig_InternalConfig_getLongN213385"
+ , "c3" : "QC-JAV000007[00108] For method init list of called methods Object monObjet|java.lang.Long internalProcessorContext_processorMetadataForKeyN213144|long StreamsConfig_InternalConfig_getLongN213385"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -271,13 +271,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#196"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00196] For method maybeForwardUpdate arguments Windowed&lt;KIn &gt;  windowedkey|VAgg  oldAgg|VAgg  newAgg"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00196"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#196"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00196] For method maybeForwardUpdate list of called methods Object monObjet|org.apache.kafka.streams.kstream.Window windowedkey_windowN217528"
 }} 
 ,
 { "ligne" : {"" : ""

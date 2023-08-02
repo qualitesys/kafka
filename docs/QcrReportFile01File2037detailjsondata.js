@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java 107 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java 106 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -282,7 +282,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "9"
+ , "c4" : "8"
 }}
  ] 
 ,
@@ -529,7 +529,7 @@ var maDataBlocs = {
  , "c1" : "00226"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#226"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00226] For method findSessions list of called methods Object monObjet|org.apache.kafka.streams.state.internals.ThreadCache context_cacheN238515|org.apache.kafka.streams.state.internals.HasNextCondition keySchema_hasNextConditionN238923"
+ , "c3" : "QC-JAV000007[00226] For method findSessions list of called methods Object monObjet|org.apache.kafka.streams.state.internals.HasNextCondition keySchema_hasNextConditionN238923"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -606,7 +606,7 @@ var maDataBlocs = {
  , "c1" : "00255"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#255"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00255] For method backwardFindSessions list of called methods Object monObjet|org.apache.kafka.streams.state.internals.ThreadCache context_cacheN240521|org.apache.kafka.streams.state.internals.HasNextCondition keySchema_hasNextConditionN240929"
+ , "c3" : "QC-JAV000007[00255] For method backwardFindSessions list of called methods Object monObjet|org.apache.kafka.streams.state.internals.HasNextCondition keySchema_hasNextConditionN240929"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -683,7 +683,7 @@ var maDataBlocs = {
  , "c1" : "00285"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#285"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00285] For method fetchSession list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes SessionKeySchema_toBinaryN241973|org.apache.kafka.common.utils.Bytes cacheFunction_cacheKeyN242118|org.apache.kafka.streams.state.internals.ThreadCache context_cacheN242219"
+ , "c3" : "QC-JAV000007[00285] For method fetchSession list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes SessionKeySchema_toBinaryN241973|org.apache.kafka.common.utils.Bytes cacheFunction_cacheKeyN242118"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -831,13 +831,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#453"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00453] In method org.apache.kafka.streams.state.internals.CachingSessionStore.CacheIteratorWrapper.currentSegmentLastTime@POLYN248918 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00456"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#456"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00456] For method getNextSegmentIterator list of called methods Object monObjet|org.apache.kafka.streams.state.internals.ThreadCache context_cacheN249612|org.apache.kafka.streams.state.internals.ThreadCache context_cacheN250134"
 }} 
 ,
 { "ligne" : {"" : ""

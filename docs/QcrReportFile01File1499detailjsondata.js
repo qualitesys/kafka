@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html" 
- , "texte" : "File secujava/java.util.concurrent.ConcurrentHashMap.java 2332 rule violations " 
+ , "texte" : "File secujava/java.util.concurrent.ConcurrentHashMap.java 2331 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -794,7 +794,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "64"
+ , "c4" : "63"
 }}
 ,
 { "ligne" : { "" : ""
@@ -7517,13 +7517,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2729"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02729] For method tieBreakOrder arguments Object  a|Object  b"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02729"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2729"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02729] For method tieBreakOrder list of called methods Object monObjet|java.lang.Class&lt;?&gt; a_getClassN1574497"
 }} 
 ,
 { "ligne" : {"" : ""

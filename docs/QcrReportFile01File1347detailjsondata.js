@@ -346,7 +346,7 @@ var maDataBlocs = {
  , "c1" : "00093"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#93"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00093] For method replay list of called methods Object monObjet|org.apache.kafka.image.TopicImage topicDelta_imageN186734|java.lang.String image_getTopicN187072|java.lang.String topicImage_nameN187400"
+ , "c3" : "QC-JAV000007[00093] For method replay list of called methods Object monObjet|java.lang.String image_getTopicN187072|java.lang.String topicImage_nameN187400"
 }} 
 ,
 { "ligne" : {"" : ""

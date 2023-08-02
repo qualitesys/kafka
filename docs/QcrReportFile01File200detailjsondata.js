@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java 330 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java 329 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -339,7 +339,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "13"
+ , "c4" : "12"
 }}
  ] 
 ,
@@ -558,7 +558,7 @@ var maDataBlocs = {
  , "c1" : "00182"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#182"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00182] For method constrainedAssign list of called methods Object monObjet|int consumerToOwnedPartitions_sizeN365575|java.util.Collection&lt;V&gt; partitionsPerTopic_valuesN365652|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.common.TopicPartition&gt;&gt; assignment_getN367186|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; getUnassignedPartitionsN369421|int unassignedPartitions_indexOfN370406|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.common.TopicPartition&gt;&gt; assignment_getN371088|int consumerAssignment_sizeN371482|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.common.TopicPartition&gt;&gt; assignment_getN372697"
+ , "c3" : "QC-JAV000007[00182] For method constrainedAssign list of called methods Object monObjet|int consumerToOwnedPartitions_sizeN365575|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.common.TopicPartition&gt;&gt; assignment_getN367186|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; getUnassignedPartitionsN369421|int unassignedPartitions_indexOfN370406|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.common.TopicPartition&gt;&gt; assignment_getN371088|int consumerAssignment_sizeN371482"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -852,7 +852,7 @@ var maDataBlocs = {
  , "c1" : "00383"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#383"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00383] For method generalAssign list of called methods Object monObjet|java.util.Collection&lt;V&gt; partitionsPerTopic_valuesN377922|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; getAllTopicPartitionsN378394|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; currentAssignment_entrySetN378785|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; getUnassignedPartitionsN380364"
+ , "c3" : "QC-JAV000007[00383] For method generalAssign list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; getAllTopicPartitionsN378394|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; getUnassignedPartitionsN380364"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1322,13 +1322,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#737"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00737] For method getBalanceScore arguments Map&lt;String ,List&lt;TopicPartition &gt; &gt;  assignment"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00737"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#737"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00737] For method getBalanceScore list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; consumer2AssignmentSize_entrySetN393761"
 }} 
 ,
 { "ligne" : {"" : ""

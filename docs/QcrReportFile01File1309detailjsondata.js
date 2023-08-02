@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java 16 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java 14 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -110,13 +110,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -125,13 +118,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#44"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00044] For method completeUpTo arguments long  offset"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#44"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00044] For method completeUpTo list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; pending_entrySetN164780"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -160,13 +146,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#63"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00063] For method failAll arguments Exception  exception"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ControllerPurgatory.java.html#63"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00063] For method failAll list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; pending_entrySetN165637"
 }} 
 ,
 { "ligne" : {"" : ""

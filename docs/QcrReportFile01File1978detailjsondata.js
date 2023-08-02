@@ -522,7 +522,7 @@ var maDataBlocs = {
  , "c1" : "00204"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#204"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00204] For method removeNamedTopology list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.ThreadMetadata&gt; metadataForLocalThreadsN236491|boolean maybeCompleteFutureIfStillInCREATEDN237265"
+ , "c3" : "QC-JAV000007[00204] For method removeNamedTopology list of called methods Object monObjet|boolean maybeCompleteFutureIfStillInCREATEDN237265"
 }} 
 ,
 { "ligne" : {"" : ""

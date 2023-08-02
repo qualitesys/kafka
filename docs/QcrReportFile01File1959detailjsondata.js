@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java 39 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java 37 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -172,7 +172,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -188,7 +188,7 @@ var maDataBlocs = {
  , "c1" : "00044"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00044] For method enforce list of called methods Object monObjet|java.lang.String String_formatN175299|java.util.Collection&lt;V&gt; repartitionTopicConfigs_valuesN175712|int validateAndGetNumOfPartitionsN176187|int getMaxPartitionsN176313|int getSamePartitionsN176420|java.util.Optional&lt;java.lang.Integer&gt; config_numberOfPartitionsN176678"
+ , "c3" : "QC-JAV000007[00044] For method enforce list of called methods Object monObjet|java.lang.String String_formatN175299|java.util.Collection&lt;V&gt; repartitionTopicConfigs_valuesN175712|int validateAndGetNumOfPartitionsN176187|int getMaxPartitionsN176313|int getSamePartitionsN176420"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -271,13 +271,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00122"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#122"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00122] For method validateAndGetNumOfPartitions list of called methods Object monObjet|java.util.Optional&lt;java.lang.Integer&gt; firstInternalTopicConfig_numberOfPartitionsN177750|java.util.Optional&lt;java.lang.Integer&gt; internalTopicConfig_numberOfPartitionsN177999|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; repartitionTopicConfigs_entrySetN178279"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#122"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00122] The argument repartitionTopicConfigs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -336,13 +329,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#155"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00155] For method getSamePartitions arguments Map&lt;String ,Integer &gt;  nonRepartitionTopicsInCopartitionGroup"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#155"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00155] For method getSamePartitions list of called methods Object monObjet|java.util.Collection&lt;V&gt; nonRepartitionTopicsInCopartitionGroup_valuesN179229"
 }} 
 ,
 { "ligne" : {"" : ""

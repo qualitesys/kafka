@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java 44 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java 43 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -183,7 +183,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -221,13 +221,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#176"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00176] For method isArchive arguments Path  path"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00176"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#176"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00176] For method isArchive list of called methods Object monObjet|java.lang.String path_toStringN199908"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -458,7 +451,7 @@ var maDataBlocs = {
  , "c1" : "00353"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#353"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00353] For method prunePluginName list of called methods Object monObjet|java.lang.Class&lt;? extends T&gt; plugin_pluginClassN207167|int simple_lastIndexOfN207264"
+ , "c3" : "QC-JAV000007[00353] For method prunePluginName list of called methods Object monObjet|int simple_lastIndexOfN207264"
 }} 
 ,
 { "ligne" : {"" : ""

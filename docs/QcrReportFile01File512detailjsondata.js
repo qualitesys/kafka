@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/Selector.java 426 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/Selector.java 423 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -631,7 +631,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "19"
+ , "c4" : "16"
 }}
  ] 
 ,
@@ -1547,13 +1547,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00777"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#777"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00777] For method completeDelayedChannelClose list of called methods Object monObjet|java.util.Collection&lt;V&gt; delayedClosingChannels_valuesN437167"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00782"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#782"
  , "c2" : "MAJOR"
@@ -1627,7 +1620,7 @@ var maDataBlocs = {
  , "c1" : "00835"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#835"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00835] For method clear list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; closingChannels_entrySetN439726|boolean maybeReadFromClosingChannelN440191"
+ , "c3" : "QC-JAV000007[00835] For method clear list of called methods Object monObjet|boolean maybeReadFromClosingChannelN440191"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1894,13 +1887,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1006"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01006] For method closingChannel arguments String  id"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01019"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1019"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01019] For method lowestPriorityChannel list of called methods Object monObjet|java.util.Collection&lt;V&gt; closingChannels_valuesN447461|java.util.Set&lt;K&gt; idleExpiryManager_lruConnections_keySetN447710|org.apache.kafka.common.network.KafkaChannel channels_valuesN447995"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3217,13 +3203,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1453"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01453] For method pollExpiredConnection arguments long  currentTimeNanos"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01453"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1453"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01453] For method pollExpiredConnection list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; lruConnections_entrySetN475596"
 }} 
 ,
 { "ligne" : {"" : ""

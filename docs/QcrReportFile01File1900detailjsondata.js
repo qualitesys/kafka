@@ -226,7 +226,7 @@ var maDataBlocs = {
  , "c1" : "00078"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorRecordContext.java.html#78"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00078] For method residentMemorySizeEstimate list of called methods Object monObjet|char[] topic_toCharArrayN179763|java.lang.String header_keyN179991|byte[] header_valueN180111"
+ , "c3" : "QC-JAV000007[00078] For method residentMemorySizeEstimate list of called methods Object monObjet|byte[] header_valueN180111"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html" 
- , "texte" : "File connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java 159 rule violations " 
+ , "texte" : "File connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java 158 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -276,7 +276,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -405,13 +405,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#347"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00347] For method asJsonSchema arguments Schema  schema"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00347"
- , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#347"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00347] For method asJsonSchema list of called methods Object monObjet|ObjectNode asJsonSchemaN299376"
 }} 
 ,
 { "ligne" : {"" : ""

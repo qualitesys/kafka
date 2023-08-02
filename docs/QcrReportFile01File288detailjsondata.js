@@ -256,7 +256,7 @@ var maDataBlocs = {
  , "c1" : "00115"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/compress/KafkaLZ4BlockInputStream.java.html#115"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00115] For method readHeader list of called methods Object monObjet|org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream.FLG FLG_fromByteN195007|org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream.BD BD_fromByteN195120"
+ , "c3" : "QC-JAV000007[00115] For method readHeader list of called methods Object monObjet|org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream.FLG FLG_fromByteN195007"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -1243,7 +1243,7 @@ var maDataBlocs = {
  , "c1" : "00593"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#593"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00593] For method toString list of called methods Object monObjet|int sizeN441359|java.util.Set&lt;Map.Entry&lt;K,V&gt;&gt; entrySetN441696"
+ , "c3" : "QC-JAV000007[00593] For method toString list of called methods Object monObjet|int sizeN441359"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -525,7 +525,7 @@ var maDataBlocs = {
  , "c1" : "00199"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#199"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00199] For method getMetricValue list of called methods Object monObjet|java.util.Set&lt;K&gt; metrics_keySetN206329|java.lang.String String_formatN206814"
+ , "c3" : "QC-JAV000007[00199] For method getMetricValue list of called methods Object monObjet|java.lang.String String_formatN206814"
 }} 
 ,
 { "ligne" : {"" : ""

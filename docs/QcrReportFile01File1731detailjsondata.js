@@ -198,7 +198,7 @@ var maDataBlocs = {
  , "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamWindowAggregate.java.html#91"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00091] For method process list of called methods Object monObjet|java.util.Map&lt;java.lang.Long,org.apache.kafka.streams.kstream.Window&gt; windows_windowsForN185194|org.apache.kafka.common.Cluster windowStore_fetchN185713|VA initializer_applyN186081|VA aggregator_applyN186406"
+ , "c3" : "QC-JAV000007[00091] For method process list of called methods Object monObjet|long record_timestampN184908|java.util.Map&lt;java.lang.Long,org.apache.kafka.streams.kstream.Window&gt; windows_windowsForN185194|org.apache.kafka.common.Cluster windowStore_fetchN185713|VA initializer_applyN186081|long record_timestampN186155|VA aggregator_applyN186406"
 }} 
 ,
 { "ligne" : {"" : ""

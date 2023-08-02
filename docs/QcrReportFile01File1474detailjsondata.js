@@ -2709,7 +2709,7 @@ var maDataBlocs = {
  , "c1" : "01809"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#1809"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01809] For method getCanonicalName0 list of called methods Object monObjet|java.lang.Class&lt;?&gt; getComponentTypeN1129926|java.lang.Class&lt;?&gt; getEnclosingClassN1130328|java.lang.String enclosingClass_getCanonicalNameN1130534|java.lang.String getSimpleNameN1130710"
+ , "c3" : "QC-JAV000007[01809] For method getCanonicalName0 list of called methods Object monObjet|java.lang.Class&lt;?&gt; getEnclosingClassN1130328|java.lang.String enclosingClass_getCanonicalNameN1130534|java.lang.String getSimpleNameN1130710"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4781,7 +4781,7 @@ var maDataBlocs = {
  , "c1" : "04168"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#4168"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04168] For method createAnnotationData list of called methods Object monObjet|java.lang.Class&lt;? super T&gt; getSuperclassN1217382|java.lang.Class.AnnotationData superClass_annotationDataN1217711"
+ , "c3" : "QC-JAV000007[04168] For method createAnnotationData list of called methods Object monObjet|java.lang.Class&lt;? super T&gt; getSuperclassN1217382"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4949,7 +4949,7 @@ var maDataBlocs = {
  , "c1" : "04494"
  , "c1link" : "./qc/secujava/java.lang.Class.java.html#4494"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04494] For method descriptorString list of called methods Object monObjet|java.lang.String getNameN1230006|java.lang.String getNameN1230744"
+ , "c3" : "QC-JAV000007[04494] For method descriptorString list of called methods Object monObjet|java.lang.String getNameN1230006"
 }} 
 ,
 { "ligne" : {"" : ""

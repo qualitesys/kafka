@@ -413,7 +413,7 @@ var maDataBlocs = {
  , "c1" : "00215"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#215"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00215] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.TaskId context_taskIdN243257|org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl context_metricsN243351|org.apache.kafka.common.metrics.Sensor StateStoreMetrics_suppressionBufferSizeSensorN243425|org.apache.kafka.common.metrics.Sensor StateStoreMetrics_suppressionBufferCountSensorN243584|org.apache.kafka.streams.processor.TaskId context_taskIdN243973"
+ , "c3" : "QC-JAV000007[00215] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl context_metricsN243351|org.apache.kafka.common.metrics.Sensor StateStoreMetrics_suppressionBufferSizeSensorN243425|org.apache.kafka.common.metrics.Sensor StateStoreMetrics_suppressionBufferCountSensorN243584"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -567,7 +567,7 @@ var maDataBlocs = {
  , "c1" : "00314"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#314"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00314] For method restoreBatch list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes Bytes_wrapN247305|long computeRecordSizeN247859|boolean sortedMap_isEmptyN248080|org.apache.kafka.common.header.Headers record_headersN248279|boolean index_containsKeyN248481|boolean index_containsKeyN249923"
+ , "c3" : "QC-JAV000007[00314] For method restoreBatch list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes Bytes_wrapN247305|long computeRecordSizeN247859|boolean sortedMap_isEmptyN248080|boolean index_containsKeyN248481|boolean index_containsKeyN249923"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -700,7 +700,7 @@ var maDataBlocs = {
  , "c1" : "00396"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#396"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00396] For method evictWhile list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; sortedMap_entrySetN250825|org.apache.kafka.common.serialization.Deserializer&lt;T&gt; keySerde_deserializerN251739|long computeRecordSizeN252779"
+ , "c3" : "QC-JAV000007[00396] For method evictWhile list of called methods Object monObjet|long computeRecordSizeN252779"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -952,7 +952,7 @@ var maDataBlocs = {
  , "c1" : "00549"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#549"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00549] For method computeRecordSize list of called methods Object monObjet|byte[] key_getN258631|long value_residentMemorySizeEstimateN258790"
+ , "c3" : "QC-JAV000007[00549] For method computeRecordSize list of called methods Object monObjet|long value_residentMemorySizeEstimateN258790"
 }} 
 ,
 { "ligne" : {"" : ""

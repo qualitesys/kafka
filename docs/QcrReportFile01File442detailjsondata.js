@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java 21 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java 20 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -165,7 +165,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -266,13 +266,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#64"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.header.internals.RecordHeader.equals@POLYN160083 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#72"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00072] For method hashCode list of called methods Object monObjet|java.lang.String keyN160824"
 }} 
 ,
 { "ligne" : {"" : ""

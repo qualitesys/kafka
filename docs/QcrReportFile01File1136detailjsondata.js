@@ -568,7 +568,7 @@ var maDataBlocs = {
  , "c1" : "00252"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#252"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00252] For method newConverter list of called methods Object monObjet|java.lang.Class&lt;?&gt; config_getClassN233037|boolean WorkerConfig_KEY_CONVERTER_CLASS_CONFIG_equalsN233769|org.apache.kafka.connect.storage.Converter config_originalsWithPrefixN233991|ClassLoader compareAndSwapLoadersN234423"
+ , "c3" : "QC-JAV000007[00252] For method newConverter list of called methods Object monObjet|boolean WorkerConfig_KEY_CONVERTER_CLASS_CONFIG_equalsN233769|org.apache.kafka.connect.storage.Converter config_originalsWithPrefixN233991|ClassLoader compareAndSwapLoadersN234423"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -687,7 +687,7 @@ var maDataBlocs = {
  , "c1" : "00342"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#342"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00342] For method newHeaderConverter list of called methods Object monObjet|org.apache.kafka.connect.storage.HeaderConverter config_getClassN237179|org.apache.kafka.connect.storage.HeaderConverter config_originalsWithPrefixN238010|ClassLoader compareAndSwapLoadersN238423"
+ , "c3" : "QC-JAV000007[00342] For method newHeaderConverter list of called methods Object monObjet|org.apache.kafka.connect.storage.HeaderConverter config_originalsWithPrefixN238010|ClassLoader compareAndSwapLoadersN238423"
 }} 
 ,
 { "ligne" : {"" : ""

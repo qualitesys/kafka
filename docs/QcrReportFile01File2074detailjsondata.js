@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java 24 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java 23 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -164,13 +164,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "7"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -235,13 +228,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#82"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00082] For method putInternal arguments Bytes  key|byte[]  addedValue|byte[]  oldValue"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#82"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00082] For method putInternal list of called methods Object monObjet|org.apache.kafka.common.serialization.Deserializer&lt;T&gt; LIST_SERDE_deserializerN177064"
 }} 
 ,
 { "ligne" : {"" : ""

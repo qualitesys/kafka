@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java 108 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java 107 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -285,7 +285,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "5"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -336,7 +336,7 @@ var maDataBlocs = {
  , "c1" : "00135"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#135"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00135] For method restoreTasks list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt; changelogReader_completedChangelogsN231289|java.util.Collection&lt;V&gt; updatingTasks_valuesN231392"
+ , "c3" : "QC-JAV000007[00135] For method restoreTasks list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt; changelogReader_completedChangelogsN231289"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -449,13 +449,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#179"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00179] For method handleStreamsExceptionWithTask arguments StreamsException  streamsException"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#179"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00179] For method handleStreamsExceptionWithTask list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.streams.processor.TaskId&gt; streamsException_taskIdN233647"
 }} 
 ,
 { "ligne" : {"" : ""

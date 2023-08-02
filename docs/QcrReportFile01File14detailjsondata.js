@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java 55 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java 53 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -242,7 +242,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "7"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -304,13 +304,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#69"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00069] For method completeNext list of called methods Object monObjet|java.util.Deque&lt;NetworkClient.InFlightRequest&gt; requestQueueN179738"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#79"
  , "c2" : "MINOR"
@@ -322,13 +315,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#88"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00088] For method completeLastSent arguments String  node"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#88"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00088] For method completeLastSent list of called methods Object monObjet|java.util.Deque&lt;NetworkClient.InFlightRequest&gt; requestQueueN180403"
 }} 
 ,
 { "ligne" : {"" : ""

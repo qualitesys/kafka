@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java 388 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java 387 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -704,7 +704,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "17"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1651,7 +1651,7 @@ var maDataBlocs = {
  , "c1" : "00880"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#880"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00880] For method adminConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; config_originalsN463269|java.util.Map&lt;java.lang.String,java.lang.Object&gt; connectorClientConfigOverridesN464291"
+ , "c3" : "QC-JAV000007[00880] For method adminConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; connectorClientConfigOverridesN464291"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1953,13 +1953,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1135"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01135] For method setTargetState arguments String  connName|TargetState  state|Callback&lt;TargetState &gt;  stateChangeCallback"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01135"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1135"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01135] For method setTargetState list of called methods Object monObjet|org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader plugins_delegatingLoaderN474722"
 }} 
 ,
 { "ligne" : {"" : ""

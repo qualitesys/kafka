@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java 64 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java 63 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -190,7 +190,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -381,7 +381,7 @@ var maDataBlocs = {
  , "c1" : "00188"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#188"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00188] For method configKeysForEntityType list of called methods Object monObjet|boolean entity_containsKeyN214413|boolean entity_containsKeyN214517|boolean entity_containsKeyN214621|org.apache.kafka.common.config.ConfigDef QuotaConfigs_ipConfigsN215196|org.apache.kafka.common.config.ConfigDef QuotaConfigs_userConfigsN215558|org.apache.kafka.common.config.ConfigDef QuotaConfigs_userConfigsN215701|org.apache.kafka.common.config.ConfigDef QuotaConfigs_clientConfigsN215844"
+ , "c3" : "QC-JAV000007[00188] For method configKeysForEntityType list of called methods Object monObjet|boolean entity_containsKeyN214413|boolean entity_containsKeyN214517|boolean entity_containsKeyN214621"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -431,13 +431,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#221"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00221] For method validateQuotaKeyValue arguments Map&lt;String ,ConfigDef.ConfigKey &gt;  validKeys|String  key|Double  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00221"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#221"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00221] For method validateQuotaKeyValue list of called methods Object monObjet|java.lang.Double Double_valueOfN216931"
 }} 
 ,
 { "ligne" : {"" : ""

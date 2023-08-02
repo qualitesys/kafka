@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java 169 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java 168 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -230,7 +230,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -310,13 +310,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java.html#91"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00091] For method registerMessageType arguments MessageSpec  spec"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java.html#91"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00091] For method registerMessageType list of called methods Object monObjet|java.util.Optional&lt;java.lang.Short&gt; spec_apiKeyN213093|java.util.Optional&lt;java.lang.Short&gt; spec_apiKeyN214368"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -673,7 +666,7 @@ var maDataBlocs = {
  , "c1" : "00197"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java.html#197"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00197] For method generateEnumValues list of called methods Object monObjet|java.lang.String apiData_nameN219185|java.util.List&lt;org.apache.kafka.message.RequestListenerType&gt; apiData_requestSpec_listenersN219547"
+ , "c3" : "QC-JAV000007[00197] For method generateEnumValues list of called methods Object monObjet|java.lang.String apiData_nameN219185"
 }} 
 ,
 { "ligne" : {"" : ""

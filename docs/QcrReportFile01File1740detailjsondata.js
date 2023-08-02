@@ -143,7 +143,7 @@ var maDataBlocs = {
  , "c1" : "00087"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableOuterJoin.java.html#87"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00087] For method process list of called methods Object monObjet|org.apache.kafka.streams.processor.api.ProcessorContext&lt;KOut,VOut&gt; contextN182250|org.apache.kafka.streams.state.ValueAndTimestamp&lt;V&gt; valueGetter_getN182926|long record_timestampN183405|VR joiner_applyN183807|VR joiner_applyN184152"
+ , "c3" : "QC-JAV000007[00087] For method process list of called methods Object monObjet|org.apache.kafka.streams.state.ValueAndTimestamp&lt;V&gt; valueGetter_getN182926|long record_timestampN183405|VR joiner_applyN183807|VR joiner_applyN184152"
 }} 
 ,
 { "ligne" : {"" : ""

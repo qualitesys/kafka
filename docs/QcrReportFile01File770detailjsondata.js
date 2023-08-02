@@ -937,7 +937,7 @@ var maDataBlocs = {
  , "c1" : "00551"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#551"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00551] For method handleHandshakeRequest list of called methods Object monObjet|SaslHandshakeRequestData handshakeRequest_dataN290078|short context_header_apiVersionN290175"
+ , "c3" : "QC-JAV000007[00551] For method handleHandshakeRequest list of called methods Object monObjet|short context_header_apiVersionN290175"
 }} 
 ,
 { "ligne" : {"" : ""

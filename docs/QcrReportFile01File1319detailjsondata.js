@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/QuorumController.java 407 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/QuorumController.java 406 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -625,7 +625,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "11"
+ , "c4" : "10"
 }}
  ] 
 ,
@@ -1076,13 +1076,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#368"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.controller.QuorumController.ConfigResourceExistenceChecker.accept@POLYN436437 the MagicNumber/String  '' does not exist.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00382"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#382"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00382] For method newNotControllerException list of called methods Object monObjet|org.apache.kafka.raft.LeaderAndEpoch raftClient_leaderAndEpochN437915"
 }} 
 ,
 { "ligne" : {"" : ""

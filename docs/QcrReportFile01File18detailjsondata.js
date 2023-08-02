@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/MetadataCache.java 29 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/MetadataCache.java 27 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -189,13 +189,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "4"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -256,13 +249,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00136"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#136"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00136] For method mergeWith list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; topicIds_entrySetN194702"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#138"
  , "c2" : "CRITICAL"
@@ -302,13 +288,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#189"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00189] The argument predicate is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00199"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#199"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00199] For method computeClusterView list of called methods Object monObjet|java.util.Collection&lt;V&gt; metadataByPartition_valuesN197797"
 }} 
 ,
 { "ligne" : {"" : ""

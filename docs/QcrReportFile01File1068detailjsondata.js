@@ -732,7 +732,7 @@ var maDataBlocs = {
  , "c1" : "00389"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#389"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00389] For method buildTransactionManager list of called methods Object monObjet|TransactionBoundary sourceConfig_transactionBoundaryN220087|org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.TransactionBoundaryManager time_millisecondsN220968|org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.TransactionBoundaryManager time_millisecondsN221244"
+ , "c3" : "QC-JAV000007[00389] For method buildTransactionManager list of called methods Object monObjet|TransactionBoundary sourceConfig_transactionBoundaryN220087"
 }} 
 ,
 { "ligne" : {"" : ""

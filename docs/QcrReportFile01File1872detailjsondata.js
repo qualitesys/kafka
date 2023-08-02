@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogRecordDeserializationHelper.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogRecordDeserializationHelper.java 13 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogRecordDeserializationHelper.java 12 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -90,13 +90,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -105,13 +98,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogRecordDeserializationHelper.java.html#43"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00043] For method applyChecksAndUpdatePosition arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  record|boolean  consistencyEnabled|Position  position"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogRecordDeserializationHelper.java.html#43"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00043] For method applyChecksAndUpdatePosition list of called methods Object monObjet|org.apache.kafka.common.header.Headers record_headersN159904|org.apache.kafka.common.header.Headers record_headersN160272"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java 297 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java 296 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -388,7 +388,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "8"
+ , "c4" : "7"
 }}
  ] 
 ,
@@ -447,13 +447,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#178"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00178] For method getExpiredInflightBatches arguments long  now"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#178"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00178] For method getExpiredInflightBatches list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; inFlightBatches_entrySetN312101"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1426,7 +1419,7 @@ var maDataBlocs = {
  , "c1" : "00796"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#796"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00796] For method sendProduceRequest list of called methods Object monObjet|byte apiVersions_maxUsableProduceMagicN341439|byte batch_magicN341663|org.apache.kafka.common.record.MemoryRecords batch_recordsN341974|org.apache.kafka.common.record.MemoryRecords batch_recordsN342130|java.lang.String transactionManager_transactionalIdN343206|org.apache.kafka.common.requests.ProduceRequest.Builder ProduceRequest_forMagicN343294|java.lang.String Integer_toStringN343765|org.apache.kafka.clients.ClientRequest client_newClientRequestN343861"
+ , "c3" : "QC-JAV000007[00796] For method sendProduceRequest list of called methods Object monObjet|byte apiVersions_maxUsableProduceMagicN341439|byte batch_magicN341663|org.apache.kafka.common.record.MemoryRecords batch_recordsN341974|java.lang.String transactionManager_transactionalIdN343206|org.apache.kafka.common.requests.ProduceRequest.Builder ProduceRequest_forMagicN343294|java.lang.String Integer_toStringN343765|org.apache.kafka.clients.ClientRequest client_newClientRequestN343861"
 }} 
 ,
 { "ligne" : {"" : ""

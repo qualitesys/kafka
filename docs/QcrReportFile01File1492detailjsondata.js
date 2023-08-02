@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.net.Socket.java.html" 
- , "texte" : "File secujava/java.net.Socket.java 216 rule violations " 
+ , "texte" : "File secujava/java.net.Socket.java 212 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -1340,13 +1340,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -2072,13 +2065,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.net.Socket.java.html#1"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method getSoLinger list of called methods Object monObjet|SocketImpl getImplN498009"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.net.Socket.java.html#1"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00001] In method java.net.Socket.getSoLinger@POLYN497801 the MagicNumber/String  'Socket is closed' should be converted to const"
 }} 
@@ -2170,13 +2156,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.net.Socket.java.html#1"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method getSoTimeout list of called methods Object monObjet|SocketImpl getImplN501909"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.net.Socket.java.html#1"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00001] In method java.net.Socket.getSoTimeout@POLYN501701 the MagicNumber/String  'Socket is closed' should be converted to const"
 }} 
@@ -2233,13 +2212,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.net.Socket.java.html#1"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method getSendBufferSize list of called methods Object monObjet|SocketImpl getImplN503896"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.net.Socket.java.html#1"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00001] In method java.net.Socket.getSendBufferSize@POLYN503629 the MagicNumber/String  'Socket is closed' should be converted to const"
 }} 
@@ -2291,13 +2263,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.net.Socket.java.html#1"
  , "c2" : "INFO"
  , "c3" : "QC-JAV000019[00001] Lock statement on synchronized method getReceiveBufferSize"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.net.Socket.java.html#1"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method getReceiveBufferSize list of called methods Object monObjet|SocketImpl getImplN506569"
 }} 
 ,
 { "ligne" : {"" : ""

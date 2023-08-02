@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java 21 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java 19 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -207,13 +207,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "7"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -246,13 +239,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#85"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00085] For method validate list of called methods Object monObjet|java.util.List&lt;DeleteAclsResponseData.DeleteAclsFilterResult&gt; filterResultsN177600|java.util.List&lt;DeleteAclsResponseData.DeleteAclsFilterResult&gt; filterResultsN178044"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#86"
  , "c2" : "MAJOR"
@@ -278,13 +264,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#104"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00104] For method filterResult arguments AclDeleteResult  result"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsResponse.java.html#104"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00104] For method filterResult list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.common.errors.ApiException&gt; result_exceptionN178836|java.util.Collection&lt;org.apache.kafka.server.authorizer.AclDeleteResult.AclBindingDeleteResult&gt; result_aclBindingDeleteResultsN179085"
 }} 
 ,
 { "ligne" : {"" : ""

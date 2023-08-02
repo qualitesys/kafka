@@ -179,7 +179,7 @@ var maDataBlocs = {
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00080] For method handleResponse list of called methods Object monObjet|int broker_idN171017|org.apache.kafka.clients.admin.internals.AllBrokersStrategy.BrokerKey requireSingletonN171102|ListTransactionsResponseData response_dataN172542"
+ , "c3" : "QC-JAV000007[00080] For method handleResponse list of called methods Object monObjet|int broker_idN171017|org.apache.kafka.clients.admin.internals.AllBrokersStrategy.BrokerKey requireSingletonN171102"
 }} 
 ,
 { "ligne" : {"" : ""

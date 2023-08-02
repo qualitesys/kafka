@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java 566 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java 564 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -511,7 +511,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "23"
+ , "c4" : "21"
 }}
 ,
 { "ligne" : { "" : ""
@@ -541,7 +541,7 @@ var maDataBlocs = {
  , "c1" : "00248"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#248"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00248] For method sendFetches list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.Node,FetchSessionHandler.FetchRequestData&gt; prepareFetchRequestsN487884|org.apache.kafka.common.requests.FetchRequest.Builder FetchRequest_Builder_forConsumerN488578|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;org.apache.kafka.clients.ClientResponse&gt; client_sendN489344"
+ , "c3" : "QC-JAV000007[00248] For method sendFetches list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.Node,FetchSessionHandler.FetchRequestData&gt; prepareFetchRequestsN487884|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;org.apache.kafka.clients.ClientResponse&gt; client_sendN489344"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1025,13 +1025,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#487"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00487] In method org.apache.kafka.clients.consumer.internals.Fetcher.resetOffsetsIfNeeded@POLYN498816 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00497"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#497"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00497] For method validateOffsetsIfNeeded list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt; subscriptions_partitionsNeedingValidationN500169"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1774,13 +1767,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1009"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01009] For method sendListOffsetRequest arguments Node  node|Map&lt;TopicPartition ,ListOffsetsPartition &gt;  timestampsToSearch|boolean  requireTimestamp"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01009"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1009"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01009] For method sendListOffsetRequest list of called methods Object monObjet|org.apache.kafka.common.requests.ListOffsetsRequest.Builder ListOffsetsRequest_Builder_forConsumerN525570"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -662,7 +662,7 @@ var maDataBlocs = {
  , "c1" : "00275"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#275"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00275] For method encodePartitionsByHostAsDictionary list of called methods Object monObjet|java.util.Collection&lt;V&gt; partitionsByHost_valuesN240440|java.util.Map&lt;java.lang.String,java.lang.Integer&gt; encodeTopicDictionaryAndGetN240691"
+ , "c3" : "QC-JAV000007[00275] For method encodePartitionsByHostAsDictionary list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Integer&gt; encodeTopicDictionaryAndGetN240691"
 }} 
 ,
 { "ligne" : {"" : ""

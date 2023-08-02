@@ -274,7 +274,7 @@ var maDataBlocs = {
  , "c1" : "00094"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Heartbeat.java.html#94"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00094] For method deserializeRecord list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct HEADER_SCHEMA_readN172142|java.lang.Short headerStruct_getShortN172238|org.apache.kafka.common.protocol.types.Schema valueSchemaN172334|java.lang.Long valueStruct_getLongN172461|org.apache.kafka.common.protocol.types.Struct KEY_SCHEMA_readN172557|java.lang.String keyStruct_getStringN172712|java.lang.String keyStruct_getStringN172808"
+ , "c3" : "QC-JAV000007[00094] For method deserializeRecord list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct HEADER_SCHEMA_readN172142|java.lang.Short headerStruct_getShortN172238|java.lang.Long valueStruct_getLongN172461|org.apache.kafka.common.protocol.types.Struct KEY_SCHEMA_readN172557|java.lang.String keyStruct_getStringN172712|java.lang.String keyStruct_getStringN172808"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.net.ServerSocket.java.html" 
- , "texte" : "File secujava/java.net.ServerSocket.java 131 rule violations " 
+ , "texte" : "File secujava/java.net.ServerSocket.java 129 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -723,13 +723,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -1159,13 +1152,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00619"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#619"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00619] For method getSoTimeout list of called methods Object monObjet|SocketImpl getImplN332454"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00621"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#621"
  , "c2" : "MAJOR"
@@ -1324,13 +1310,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#808"
  , "c2" : "INFO"
  , "c3" : "QC-JAV000019[00808] Lock statement on synchronized method getReceiveBufferSize"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00808"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#808"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00808] For method getReceiveBufferSize list of called methods Object monObjet|SocketImpl getImplN339207"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java 33 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java 32 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -230,7 +230,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "6"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -338,13 +338,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#259"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00259] In method org.apache.kafka.raft.internals.BatchBuilder.writeDefaultBatchHeader@POLYN203456 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00267"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#267"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00267] For method build list of called methods Object monObjet|java.nio.ByteBuffer batchOutput_bufferN204664"
 }} 
 ,
 { "ligne" : {"" : ""

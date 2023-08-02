@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java 1059 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java 1057 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -848,7 +848,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "22"
+ , "c4" : "20"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1376,13 +1376,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#521"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00521] For method checkForKeyRotation arguments long  now"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00521"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#521"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00521] For method checkForKeyRotation list of called methods Object monObjet|org.apache.kafka.connect.runtime.SessionKey configState_sessionKeyN541949|org.apache.kafka.connect.runtime.SessionKey configState_sessionKeyN542043"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3636,7 +3629,7 @@ var maDataBlocs = {
  , "c1" : "01387"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1387"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01387] For method doRestartConnectorAndTasks list of called methods Object monObjet|java.lang.String request_connectorNameN584501|java.util.Optional&lt;org.apache.kafka.connect.runtime.RestartPlan&gt; buildRestartPlanN584599|java.util.Collection&lt;org.apache.kafka.connect.util.ConnectorTaskId&gt; plan_taskIdsToRestartN585159|boolean plan_shouldRestartConnectorN585444"
+ , "c3" : "QC-JAV000007[01387] For method doRestartConnectorAndTasks list of called methods Object monObjet|java.lang.String request_connectorNameN584501|java.util.Optional&lt;org.apache.kafka.connect.runtime.RestartPlan&gt; buildRestartPlanN584599|boolean plan_shouldRestartConnectorN585444"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5548,13 +5541,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2421"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[02421] In method org.apache.kafka.connect.runtime.distributed.DistributedHerder.requestNotSignedProperly@POLYN627964 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02453"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2453"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02453] For method start list of called methods Object monObjet|org.apache.kafka.common.KafkaFuture&lt;java.lang.Void&gt; worker_fenceZombiesN630775"
 }} 
 ,
 { "ligne" : {"" : ""

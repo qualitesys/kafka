@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java 490 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java 484 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -1111,7 +1111,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "14"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1708,7 +1708,7 @@ var maDataBlocs = {
  , "c1" : "00521"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#521"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00521] For method incrementSequenceNumber list of called methods Object monObjet|java.lang.Integer sequenceNumberN389781|int DefaultRecordBatch_incrementSequenceN389866|org.apache.kafka.clients.producer.internals.TxnPartitionEntry txnPartitionMap_getN389959"
+ , "c3" : "QC-JAV000007[00521] For method incrementSequenceNumber list of called methods Object monObjet|java.lang.Integer sequenceNumberN389781|int DefaultRecordBatch_incrementSequenceN389866"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1761,13 +1761,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00541"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#541"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00541] For method firstInFlightSequence list of called methods Object monObjet|org.apache.kafka.clients.producer.internals.TxnPartitionEntry txnPartitionMap_getN390916"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00552"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#552"
  , "c2" : "INFO"
@@ -1779,13 +1772,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#552"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00552] For method nextBatchBySequence arguments TopicPartition  topicPartition"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00552"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#552"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00552] For method nextBatchBySequence list of called methods Object monObjet|org.apache.kafka.clients.producer.internals.TxnPartitionEntry txnPartitionMap_getN391289"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1824,13 +1810,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00563"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#563"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00563] For method maybeUpdateLastAckedSequence list of called methods Object monObjet|org.apache.kafka.clients.producer.internals.TxnPartitionEntry txnPartitionMap_getN392073"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00573"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#573"
  , "c2" : "INFO"
@@ -1863,13 +1842,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#581"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00581] For method updateLastAckedOffset arguments ProduceResponse.PartitionResponse  response|ProducerBatch  batch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00581"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#581"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00581] For method updateLastAckedOffset list of called methods Object monObjet|org.apache.kafka.clients.producer.internals.TxnPartitionEntry txnPartitionMap_getN393259"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2181,13 +2153,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00718"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#718"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00718] For method maybeResolveSequences list of called methods Object monObjet|java.util.Set&lt;K&gt; partitionsWithUnresolvedSequences_keySetN399149"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00720"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#720"
  , "c2" : "MAJOR"
@@ -2290,13 +2255,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#761"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00761] For method setNextSequence arguments TopicPartition  topicPartition|int  sequence"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00761"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#761"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00761] For method setNextSequence list of called methods Object monObjet|org.apache.kafka.clients.producer.internals.TxnPartitionEntry txnPartitionMap_getN401065"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java 52 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java 51 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -185,7 +185,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "5"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -545,13 +545,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#220"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00220] For method iterator arguments long  epoch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00220"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#220"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00220] For method iterator list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; idToAcl_entrySetN200676"
 }} 
 ]
 , 

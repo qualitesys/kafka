@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.BufferedInputStream.java.html" 
- , "texte" : "File secujava/java.io.BufferedInputStream.java 65 rule violations " 
+ , "texte" : "File secujava/java.io.BufferedInputStream.java 64 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -362,7 +362,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -420,7 +420,7 @@ var maDataBlocs = {
  , "c1" : "00213"
  , "c1link" : "./qc/secujava/java.io.BufferedInputStream.java.html#213"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00213] For method fill list of called methods Object monObjet|byte[] getBufIfOpenN247986|java.io.InputStream getInIfOpenN249913"
+ , "c3" : "QC-JAV000007[00213] For method fill list of called methods Object monObjet|byte[] getBufIfOpenN247986"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -715,13 +715,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.BufferedInputStream.java.html#408"
  , "c2" : "INFO"
  , "c3" : "QC-JAV000019[00408] Lock statement on synchronized method available"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00408"
- , "c1link" : "./qc/secujava/java.io.BufferedInputStream.java.html#408"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00408] For method available list of called methods Object monObjet|java.io.InputStream getInIfOpenN257252"
 }} 
 ,
 { "ligne" : {"" : ""

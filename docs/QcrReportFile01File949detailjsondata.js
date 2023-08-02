@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java 76 rule violations " 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java 75 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -323,7 +323,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "7"
+ , "c4" : "6"
 }}
  ] 
 ,
@@ -361,13 +361,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#85"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00085] For method get arguments Field  field"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#85"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00085] For method get list of called methods Object monObjet|org.apache.kafka.connect.data.Schema field_schemaN202516"
 }} 
 ,
 { "ligne" : {"" : ""

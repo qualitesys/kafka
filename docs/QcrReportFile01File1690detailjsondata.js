@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java 18 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java 17 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -176,7 +176,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -263,13 +263,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#101"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00101] For method process arguments KStreamImpl&lt;K ,V &gt;  branch|String  branchChildName|BranchedInternal&lt;K ,V &gt;  branchedInternal"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#101"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00101] For method process list of called methods Object monObjet|java.util.function.Function&lt;? super KStream&lt;K,V&gt;,? extends KStream&lt;K,V&gt;&gt; branchedInternal_chainFunctionN176029"
 }} 
 ,
 { "ligne" : {"" : ""

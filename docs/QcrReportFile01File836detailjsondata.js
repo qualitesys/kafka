@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java 12 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java 11 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -119,13 +119,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -134,13 +127,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#41"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00041] For method initialize arguments Subject  subject|CallbackHandler  callbackHandler|Map&lt;String ,? &gt;  sharedState|Map&lt;String ,? &gt;  options"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#41"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00041] For method initialize list of called methods Object monObjet|java.lang.String String_valueOfN158982"
 }} 
 ,
 { "ligne" : {"" : ""

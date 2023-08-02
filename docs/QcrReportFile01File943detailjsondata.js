@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java 16 rule violations " 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java 15 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -124,7 +124,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -204,13 +204,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#82"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00082] For method scale arguments Schema  schema"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Decimal.java.html#82"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00082] For method scale list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; schema_parametersN164911"
 }} 
 ,
 { "ligne" : {"" : ""

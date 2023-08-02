@@ -789,7 +789,7 @@ var maDataBlocs = {
  , "c1" : "00303"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#303"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00303] For method getMatchingTopicPartitions list of called methods Object monObjet|org.apache.kafka.clients.admin.ListTopicsResult adminClient_listTopicsN228941|org.apache.kafka.common.KafkaFuture&lt;java.util.Map&lt;java.lang.String,org.apache.kafka.clients.admin.TopicListing&gt;&gt; res_namesToListingsN229132|org.apache.kafka.clients.admin.DescribeTopicsResult adminClient_describeTopicsN229771|org.apache.kafka.common.KafkaFuture&lt;java.util.Map&lt;java.lang.String,org.apache.kafka.clients.admin.TopicDescription&gt;&gt; topicsResult_allTopicNamesN229984|java.util.List&lt;org.apache.kafka.common.TopicPartitionInfo&gt; desc_partitionsN230196"
+ , "c3" : "QC-JAV000007[00303] For method getMatchingTopicPartitions list of called methods Object monObjet|org.apache.kafka.clients.admin.ListTopicsResult adminClient_listTopicsN228941|org.apache.kafka.clients.admin.DescribeTopicsResult adminClient_describeTopicsN229771|java.util.List&lt;org.apache.kafka.common.TopicPartitionInfo&gt; desc_partitionsN230196"
 }} 
 ,
 { "ligne" : {"" : ""

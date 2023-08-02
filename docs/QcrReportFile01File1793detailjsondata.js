@@ -92,7 +92,7 @@ var maDataBlocs = {
  , "c1" : "00054"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionStoreReceiveProcessorSupplier.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00054] For method get list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor TaskMetrics_droppedRecordsSensorN174020|org.apache.kafka.streams.processor.api.ProcessorContext&lt;KOut,VOut&gt; contextN174761|org.apache.kafka.common.utils.Bytes keySchema_toBytesN175457"
+ , "c3" : "QC-JAV000007[00054] For method get list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor TaskMetrics_droppedRecordsSensorN174020|org.apache.kafka.common.utils.Bytes keySchema_toBytesN175457"
 }} 
 ,
 { "ligne" : {"" : ""

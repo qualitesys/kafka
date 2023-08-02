@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java 494 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java 493 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -478,7 +478,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "19"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : { "" : ""
@@ -607,13 +607,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#252"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00252] For method updatePatternSubscription arguments Cluster  cluster"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00252"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#252"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00252] For method updatePatternSubscription list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; cluster_topicsN393701"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1201,7 +1194,7 @@ var maDataBlocs = {
  , "c1" : "00644"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#644"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00644] For method onLeaderElected list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor lookupAssignorN410604|java.lang.String assignor_nameN410845|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Subscription ConsumerProtocol_deserializeSubscriptionN411378|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupAssignment assignor_assignN412578|java.nio.ByteBuffer ConsumerProtocol_serializeAssignmentN413575"
+ , "c3" : "QC-JAV000007[00644] For method onLeaderElected list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor lookupAssignorN410604|java.lang.String assignor_nameN410845|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Subscription ConsumerProtocol_deserializeSubscriptionN411378|java.nio.ByteBuffer ConsumerProtocol_serializeAssignmentN413575"
 }} 
 ,
 { "ligne" : {"" : ""

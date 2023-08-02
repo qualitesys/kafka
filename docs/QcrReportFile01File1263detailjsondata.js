@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java 127 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java 125 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -190,7 +190,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "5"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -296,13 +296,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#128"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00128] For method generateSchemaForVersion list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.message.FieldSpec&gt; struct_fieldsN216345|java.util.List&lt;org.apache.kafka.message.FieldSpec&gt; struct_fieldsN216607|java.util.List&lt;org.apache.kafka.message.FieldSpec&gt; struct_fieldsN217550|java.util.Optional&lt;org.apache.kafka.message.Versions&gt; field_flexibleVersionsN217903"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#128"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00128] The argument struct is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -403,13 +396,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#174"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00174] For method generateTaggedFieldsSchemaForVersion arguments StructSpec  struct|short  version|CodeBuffer  buffer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00174"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#174"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00174] For method generateTaggedFieldsSchemaForVersion list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.message.FieldSpec&gt; struct_fieldsN219052|java.util.List&lt;org.apache.kafka.message.FieldSpec&gt; struct_fieldsN219314|java.util.List&lt;org.apache.kafka.message.FieldSpec&gt; struct_fieldsN219984|java.util.Optional&lt;org.apache.kafka.message.Versions&gt; field_flexibleVersionsN220447"
 }} 
 ,
 { "ligne" : {"" : ""

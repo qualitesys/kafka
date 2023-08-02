@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java 70 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java 69 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -260,7 +260,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "5"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -655,13 +655,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#193"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00193] For method recordSizeInBytes arguments long  keyBytes|long  valueBytes|String  topic|Headers  headers"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#193"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00193] For method recordSizeInBytes list of called methods Object monObjet|byte[] Utils_utf8N193395|byte[] header_valueN193613"
 }} 
 ,
 { "ligne" : {"" : ""

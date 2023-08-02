@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AbortTransactionHandler.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/internals/AbortTransactionHandler.java 76 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/internals/AbortTransactionHandler.java 75 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -169,13 +169,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "5"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -219,13 +212,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AbortTransactionHandler.java.html#96"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00096] For method handleResponse arguments Node  broker|Set&lt;TopicPartition &gt;  topicPartitions|AbstractResponse  abstractResponse"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AbortTransactionHandler.java.html#96"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00096] For method handleResponse list of called methods Object monObjet|WriteTxnMarkersResponseData response_dataN180974"
 }} 
 ,
 { "ligne" : {"" : ""

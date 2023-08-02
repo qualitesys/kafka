@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java 541 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java 539 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -811,7 +811,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "17"
+ , "c4" : "15"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1986,13 +1986,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00805"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#805"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00805] For method connectProcessorAndStateStore list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; stateStoreFactory_usersN520610"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00808"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#808"
  , "c2" : "MAJOR"
@@ -2214,13 +2207,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#963"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00963] For method buildSubtopology arguments int  topicGroupId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00963"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#963"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00963] For method buildSubtopology list of called methods Object monObjet|java.util.Map&lt;java.lang.Integer,java.util.Set&lt;java.lang.String&gt;&gt; nodeGroupsN527825"
 }} 
 ,
 { "ligne" : {"" : ""

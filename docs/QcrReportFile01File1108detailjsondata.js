@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java 296 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java 295 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -307,7 +307,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "10"
+ , "c4" : "9"
 }}
  ] 
 ,
@@ -358,7 +358,7 @@ var maDataBlocs = {
  , "c1" : "00852"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#852"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00852] For method performAssignment list of called methods Object monObjet|java.util.Collection&lt;V&gt; memberConfigs_valuesN304412|java.lang.Long ensureLeaderConfigN304908|java.util.Map&lt;java.lang.String,org.apache.kafka.connect.runtime.distributed.ExtendedAssignment&gt; fillAssignmentsN305128"
+ , "c3" : "QC-JAV000007[00852] For method performAssignment list of called methods Object monObjet|java.lang.Long ensureLeaderConfigN304908|java.util.Map&lt;java.lang.String,org.apache.kafka.connect.runtime.distributed.ExtendedAssignment&gt; fillAssignmentsN305128"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -777,13 +777,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method duplicatedAssignments list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; connectorInstanceCounts_entrySetN320814|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; taskInstanceCounts_entrySetN321457"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00001] The argument memberAssignments is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1051,7 +1044,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method performTaskRevocation list of called methods Object monObjet|java.util.Collection&lt;java.lang.String&gt; activeAssignments_connectorsN330228|java.util.Collection&lt;org.apache.kafka.connect.util.ConnectorTaskId&gt; activeAssignments_tasksN330325|int existingWorkers_sizeN330688|int completeWorkerAssignment_sizeN330765|java.util.Collection&lt;java.lang.String&gt; existing_connectorsN333078|int existing_connectorsSizeN333172|int existing_connectorsSizeN333285|java.util.Collection&lt;org.apache.kafka.connect.util.ConnectorTaskId&gt; existing_tasksN333954|int existing_tasksSizeN334048|int existing_tasksSizeN334278"
+ , "c3" : "QC-JAV000007[00001] For method performTaskRevocation list of called methods Object monObjet|int existingWorkers_sizeN330688|int completeWorkerAssignment_sizeN330765|int existing_connectorsSizeN333172|int existing_connectorsSizeN333285|int existing_tasksSizeN334048|int existing_tasksSizeN334278"
 }} 
 ,
 { "ligne" : {"" : ""

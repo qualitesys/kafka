@@ -636,7 +636,7 @@ var maDataBlocs = {
  , "c1" : "00296"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#296"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00296] For method transitionToUnattached list of called methods Object monObjet|org.apache.kafka.raft.CandidateState candidateStateOrThrowN231073|org.apache.kafka.raft.VotedState votedStateOrThrowN231259|org.apache.kafka.raft.UnattachedState unattachedStateOrThrowN231445|int randomElectionTimeoutMsN231589"
+ , "c3" : "QC-JAV000007[00296] For method transitionToUnattached list of called methods Object monObjet|int randomElectionTimeoutMsN231589"
 }} 
 ,
 { "ligne" : {"" : ""

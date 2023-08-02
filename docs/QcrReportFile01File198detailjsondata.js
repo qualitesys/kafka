@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java 556 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java 555 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -843,7 +843,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "11"
+ , "c4" : "10"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1461,7 +1461,7 @@ var maDataBlocs = {
  , "c1" : "00585"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#585"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00585] For method handle list of called methods Object monObjet|Errors joinResponse_errorN409164|JoinGroupResponseData joinResponse_dataN413666"
+ , "c3" : "QC-JAV000007[00585] For method handle list of called methods Object monObjet|Errors joinResponse_errorN409164"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1734,7 +1734,7 @@ var maDataBlocs = {
  , "c1" : "00763"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#763"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00763] For method handle list of called methods Object monObjet|Errors syncResponse_errorN418357|SyncGroupResponseData syncResponse_dataN419295"
+ , "c3" : "QC-JAV000007[00763] For method handle list of called methods Object monObjet|Errors syncResponse_errorN418357"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2428,13 +2428,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1103"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01103] For method maybeLeaveGroup arguments String  leaveReason"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01103"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1103"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01103] For method maybeLeaveGroup list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;org.apache.kafka.clients.ClientResponse&gt; client_sendN433866"
 }} 
 ,
 { "ligne" : {"" : ""

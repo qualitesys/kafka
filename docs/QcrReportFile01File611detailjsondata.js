@@ -147,7 +147,7 @@ var maDataBlocs = {
  , "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterUserScramCredentialsRequest.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00068] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN161951|Errors apiError_errorN162047|java.lang.String apiError_messageN162144"
+ , "c3" : "QC-JAV000007[00068] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN161951|java.lang.String apiError_messageN162144"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java 327 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java 326 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -668,7 +668,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "6"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -867,13 +867,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#271"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00271] For method handleAssignment arguments Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  activeTasks|Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  standbyTasks"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00271"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#271"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00271] For method handleAssignment list of called methods Object monObjet|java.util.Set&lt;Map.Entry&lt;K,V&gt;&gt; taskCloseExceptions_entrySetN361210"
 }} 
 ,
 { "ligne" : {"" : ""

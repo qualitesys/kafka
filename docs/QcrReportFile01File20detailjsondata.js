@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/NetworkClient.java 318 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/NetworkClient.java 317 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -559,7 +559,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "14"
+ , "c4" : "13"
 }}
  ] 
 ,
@@ -1552,13 +1552,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00894"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#894"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00894] For method handleApiVersionsResponse list of called methods Object monObjet|ApiVersionsResponseData apiVersionsResponse_dataN370246"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00895"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#895"
  , "c2" : "CRITICAL"
@@ -1660,7 +1653,7 @@ var maDataBlocs = {
  , "c1" : "00961"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#961"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00961] For method handleInitiateApiVersionRequests list of called methods Object monObjet|java.util.Set&lt;java.util.Map.Entry&lt;K,V&gt;&gt; nodesNeedingApiVersionsFetch_entrySetN372872|org.apache.kafka.clients.ClientRequest newClientRequestN373655"
+ , "c3" : "QC-JAV000007[00961] For method handleInitiateApiVersionRequests list of called methods Object monObjet|org.apache.kafka.clients.ClientRequest newClientRequestN373655"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1884,7 +1877,7 @@ var maDataBlocs = {
  , "c1" : "01087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1087"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01087] For method handleSuccessfulResponse list of called methods Object monObjet|java.util.Collection&lt;org.apache.kafka.common.requests.MetadataResponse.TopicMetadata&gt; response_topicMetadataN378377|int missingListenerPartitions_sizeN378984|java.util.Map&lt;java.lang.String,Errors&gt; response_errorsN379344"
+ , "c3" : "QC-JAV000007[01087] For method handleSuccessfulResponse list of called methods Object monObjet|int missingListenerPartitions_sizeN378984|java.util.Map&lt;java.lang.String,Errors&gt; response_errorsN379344"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java 13 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java 12 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -135,7 +135,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -152,13 +152,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#49"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00049] For method addResult arguments int  partition|QueryResult&lt;R &gt;  r"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00067"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#67"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00067] For method getOnlyPartitionResult list of called methods Object monObjet|java.util.Collection&lt;V&gt; partitionResults_valuesN166404"
 }} 
 ,
 { "ligne" : {"" : ""

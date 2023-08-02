@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java 525 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java 522 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -1066,7 +1066,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "40"
+ , "c4" : "37"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1188,13 +1188,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#307"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00307] For method updateListenersProgress arguments long  highWatermark"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00307"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#307"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00307] For method updateListenersProgress list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.snapshot.SnapshotReader&lt;T&gt;&gt; latestSnapshotN544445"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2496,7 +2489,7 @@ var maDataBlocs = {
  , "c1" : "01297"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1297"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01297] For method handleFetchSnapshotResponse list of called methods Object monObjet|java.util.Optional&lt;FetchSnapshotResponseData.PartitionSnapshot&gt; FetchSnapshotResponse_forTopicPartitionN591337|java.util.OptionalInt optionalLeaderIdN591761|java.util.Optional&lt;java.lang.Boolean&gt; maybeHandleCommonResponseN592083|org.apache.kafka.raft.FollowerState quorum_followerStateOrThrowN592362|boolean state_fetchingSnapshotN593563"
+ , "c3" : "QC-JAV000007[01297] For method handleFetchSnapshotResponse list of called methods Object monObjet|java.util.Optional&lt;FetchSnapshotResponseData.PartitionSnapshot&gt; FetchSnapshotResponse_forTopicPartitionN591337|java.util.OptionalInt optionalLeaderIdN591761|java.util.Optional&lt;java.lang.Boolean&gt; maybeHandleCommonResponseN592083|org.apache.kafka.raft.FollowerState quorum_followerStateOrThrowN592362"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3144,13 +3137,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01878"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1878"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01878] For method maybeAppendBatches list of called methods Object monObjet|org.apache.kafka.raft.internals.BatchAccumulator&lt;T&gt; state_accumulatorN616431|org.apache.kafka.raft.internals.BatchAccumulator&lt;T&gt; state_accumulatorN616670"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01879"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1879"
  , "c2" : "CRITICAL"
@@ -3378,7 +3364,7 @@ var maDataBlocs = {
  , "c1" : "02045"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2045"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02045] For method maybeSendFetchOrFetchSnapshot list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.snapshot.RawSnapshotWriter&gt; state_fetchingSnapshotN623931|long snapshot_sizeInBytesN624028"
+ , "c3" : "QC-JAV000007[02045] For method maybeSendFetchOrFetchSnapshot list of called methods Object monObjet|long snapshot_sizeInBytesN624028"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3939,13 +3925,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2498"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02498] For method fireHandleSnapshot arguments SnapshotReader&lt;T &gt;  reader"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02498"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2498"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02498] For method fireHandleSnapshot list of called methods Object monObjet|org.apache.kafka.raft.OffsetAndEpoch reader_snapshotIdN642462"
 }} 
 ,
 { "ligne" : {"" : ""

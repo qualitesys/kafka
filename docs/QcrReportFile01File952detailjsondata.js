@@ -866,7 +866,7 @@ var maDataBlocs = {
  , "c1" : "00659"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#659"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00659] For method append list of called methods Object monObjet|java.lang.String escapeN406776|byte[] Utils_readBytesN407704|org.apache.kafka.connect.data.Schema struct_schemaN408951|java.text.DateFormat dateFormatForN410615"
+ , "c3" : "QC-JAV000007[00659] For method append list of called methods Object monObjet|java.lang.String escapeN406776|byte[] Utils_readBytesN407704|org.apache.kafka.connect.data.Schema struct_schemaN408951"
 }} 
 ,
 { "ligne" : {"" : ""

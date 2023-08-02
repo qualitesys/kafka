@@ -152,7 +152,7 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamReduce.java.html#82"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00082] For method process list of called methods Object monObjet|org.apache.kafka.streams.processor.api.ProcessorContext&lt;KOut,VOut&gt; contextN173687|long record_timestampN174634"
+ , "c3" : "QC-JAV000007[00082] For method process list of called methods Object monObjet|long record_timestampN174634"
 }} 
 ,
 { "ligne" : {"" : ""

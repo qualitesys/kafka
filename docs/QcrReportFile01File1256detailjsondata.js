@@ -1676,7 +1676,7 @@ var maDataBlocs = {
  , "c1" : "00408"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#408"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00408] For method generateClassReader list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN445518|org.apache.kafka.message.Versions field_versionsN446270|org.apache.kafka.message.Versions field_versionsN449217"
+ , "c3" : "QC-JAV000007[00408] For method generateClassReader list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN445518"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2355,7 +2355,7 @@ var maDataBlocs = {
  , "c1" : "00664"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#664"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00664] For method generateClassWriter list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN460451|org.apache.kafka.message.VersionConditional VersionConditional_forVersionsN460784|org.apache.kafka.message.IsNullConditional IsNullConditional_forNameN464993|java.util.Optional&lt;java.lang.Integer&gt; field_tagN469287"
+ , "c3" : "QC-JAV000007[00664] For method generateClassWriter list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN460451"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4266,7 +4266,7 @@ var maDataBlocs = {
  , "c1" : "01429"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1429"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01429] For method generateFieldDuplicate list of called methods Object monObjet|org.apache.kafka.message.FieldSpec target_fieldN503144|org.apache.kafka.message.IsNullConditional IsNullConditional_forNameN504213|java.lang.String String_formatN506764|java.lang.String field_concreteJavaTypeN506904"
+ , "c3" : "QC-JAV000007[01429] For method generateFieldDuplicate list of called methods Object monObjet|org.apache.kafka.message.FieldSpec target_fieldN503144|java.lang.String String_formatN506764|java.lang.String field_concreteJavaTypeN506904"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.Double.java.html" 
- , "texte" : "File secujava/java.lang.Double.java 51 rule violations " 
+ , "texte" : "File secujava/java.lang.Double.java 50 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -327,7 +327,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -344,13 +344,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Double.java.html#273"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00273] For method toHexString arguments double  d"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00273"
- , "c1link" : "./qc/secujava/java.lang.Double.java.html#273"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00273] For method toHexString list of called methods Object monObjet|java.lang.String Long_toHexStringN388889"
 }} 
 ,
 { "ligne" : {"" : ""

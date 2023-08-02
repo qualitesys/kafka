@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java 578 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java 576 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -557,7 +557,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "22"
+ , "c4" : "20"
 }}
  ] 
 ,
@@ -1945,7 +1945,7 @@ var maDataBlocs = {
  , "c1" : "00921"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#921"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00921] For method alterPartition list of called methods Object monObjet|RequestHeaderData context_requestHeaderN549625|Errors validateAlterPartitionDataN551876|java.util.Optional&lt;org.apache.kafka.server.common.ApiMessageAndVersion&gt; builder_buildN553131|org.apache.kafka.controller.ControllerResult&lt;AlterPartitionResponseData&gt; partition_mergeN553481"
+ , "c3" : "QC-JAV000007[00921] For method alterPartition list of called methods Object monObjet|Errors validateAlterPartitionDataN551876|java.util.Optional&lt;org.apache.kafka.server.common.ApiMessageAndVersion&gt; builder_buildN553131|org.apache.kafka.controller.ControllerResult&lt;AlterPartitionResponseData&gt; partition_mergeN553481"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2441,13 +2441,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01165"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1165"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01165] For method handleBrokerFenced list of called methods Object monObjet|java.util.Map&lt;java.lang.Integer,org.apache.kafka.metadata.BrokerRegistration&gt; clusterControl_brokerRegistrationsN561338"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01165"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1165"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01165] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -2789,13 +2782,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01387"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1387"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01387] For method unregisterBroker list of called methods Object monObjet|java.util.Map&lt;java.lang.Integer,org.apache.kafka.metadata.BrokerRegistration&gt; clusterControl_brokerRegistrationsN573577"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01389"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1389"
  , "c2" : "MAJOR"
@@ -2953,7 +2939,7 @@ var maDataBlocs = {
  , "c1" : "01483"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1483"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01483] For method createPartitions list of called methods Object monObjet|java.util.Collection&lt;V&gt; topicInfo_parts_valuesN580158|int topicInfo_parts_sizeN580915|org.apache.kafka.metadata.placement.ReplicaPlacer clusterControl_replicaPlacerN582536"
+ , "c3" : "QC-JAV000007[01483] For method createPartitions list of called methods Object monObjet|int topicInfo_parts_sizeN580915"
 }} 
 ,
 { "ligne" : {"" : ""

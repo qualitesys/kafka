@@ -362,7 +362,7 @@ var maDataBlocs = {
  , "c1" : "00147"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#147"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00147] For method validate list of called methods Object monObjet|org.apache.kafka.clients.admin.DescribeTopicsResult adminClient_describeTopicsN284204|java.util.Map&lt;java.lang.String,org.apache.kafka.common.KafkaFuture&lt;org.apache.kafka.clients.admin.TopicDescription&gt;&gt; describeTopicsResult_topicNameValuesN284297|org.apache.kafka.clients.admin.DescribeConfigsResult adminClient_describeConfigsN284595|java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,org.apache.kafka.common.KafkaFuture&lt;org.apache.kafka.clients.admin.Config&gt;&gt; describeConfigsResult_valuesN284900"
+ , "c3" : "QC-JAV000007[00147] For method validate list of called methods Object monObjet|org.apache.kafka.clients.admin.DescribeTopicsResult adminClient_describeTopicsN284204|java.util.Map&lt;java.lang.String,org.apache.kafka.common.KafkaFuture&lt;org.apache.kafka.clients.admin.TopicDescription&gt;&gt; describeTopicsResult_topicNameValuesN284297|org.apache.kafka.clients.admin.DescribeConfigsResult adminClient_describeConfigsN284595"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -593,7 +593,7 @@ var maDataBlocs = {
  , "c1" : "00258"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#258"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00258] For method validatePartitionCount list of called methods Object monObjet|java.lang.String topicConfig_nameN289411|java.util.Optional&lt;java.lang.Integer&gt; topicConfig_numberOfPartitionsN289493|java.util.List&lt;org.apache.kafka.common.TopicPartitionInfo&gt; topicDescription_partitionsN289751"
+ , "c3" : "QC-JAV000007[00258] For method validatePartitionCount list of called methods Object monObjet|java.lang.String topicConfig_nameN289411"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1601,7 +1601,7 @@ var maDataBlocs = {
  , "c1" : "00600"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#600"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00600] For method setup list of called methods Object monObjet|java.util.Collection&lt;V&gt; topicConfigs_valuesN307018|org.apache.kafka.clients.admin.CreateTopicsResult adminClient_createTopicsN308242"
+ , "c3" : "QC-JAV000007[00600] For method setup list of called methods Object monObjet|org.apache.kafka.clients.admin.CreateTopicsResult adminClient_createTopicsN308242"
 }} 
 ,
 { "ligne" : {"" : ""

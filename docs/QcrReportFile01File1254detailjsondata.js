@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java 167 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java 166 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -192,7 +192,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "5"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -299,7 +299,7 @@ var maDataBlocs = {
  , "c1" : "00083"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00083] For method generateRead list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN241382|java.lang.String String_formatN241592|org.apache.kafka.message.Versions field_versionsN242016"
+ , "c3" : "QC-JAV000007[00083] For method generateRead list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN241382|java.lang.String String_formatN241592"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -697,13 +697,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00215"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#215"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00215] For method generateVariableLengthTargetFromJson list of called methods Object monObjet|org.apache.kafka.message.FieldSpec target_fieldN252597"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00215"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#215"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00215] The argument target is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -922,7 +915,7 @@ var maDataBlocs = {
  , "c1" : "00280"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#280"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00280] For method generateWrite list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN255395|org.apache.kafka.message.VersionConditional VersionConditional_forVersionsN256231"
+ , "c3" : "QC-JAV000007[00280] For method generateWrite list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN255395"
 }} 
 ,
 { "ligne" : {"" : ""
