@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Comparable<Bytes>"
+ , "c1" : ""
+ , "c2" : "Comparable<Bytes>"
  , "c2" : "org.apache.kafka.common.utils.Bytes"
 }} 
 ]

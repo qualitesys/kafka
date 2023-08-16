@@ -285,7 +285,7 @@ var maDataBlocs = {
  , "c1" : "00121"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#121"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00121] For method testSerializeFetchResponse list of called methods Object monObjet|org.apache.kafka.common.record.RecordsSend&lt;? extends BaseRecords&gt; fetchResponse_toSendN178691"
+ , "c3" : "QC-JAV000007[00121] For method testSerializeFetchResponse list of called methods Object monObjet|org.apache.kafka.common.network.Send fetchResponse_toSendN178691"
 }} 
 ]
 , 

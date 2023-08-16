@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Comparable<PluginDesc<T>>"
+ , "c1" : ""
+ , "c2" : "Comparable<PluginDesc<T>>"
  , "c2" : "org.apache.kafka.connect.runtime.isolation.PluginDesc"
 }} 
 ]

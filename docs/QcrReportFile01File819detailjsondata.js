@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Initable"
+ , "c1" : ""
+ , "c2" : "Initable,Closeable"
  , "c2" : "org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks"
 }} 
 ]

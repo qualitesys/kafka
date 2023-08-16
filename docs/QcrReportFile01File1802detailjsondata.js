@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : ""
+ , "c1" : "BaseJoinProcessorNode<K,Change<V1>,Change<V2>,Change<VR>>"
+ , "c2" : ""
  , "c2" : "org.apache.kafka.streams.kstream.internals.graph.KTableKTableJoinNode"
 }} 
 ]

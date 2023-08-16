@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ProcessorContext"
+ , "c1" : ""
+ , "c2" : "ProcessorContext"
  , "c2" : "org.apache.kafka.streams.processor.internals.ForwardingDisabledProcessorContext"
 }} 
 ]

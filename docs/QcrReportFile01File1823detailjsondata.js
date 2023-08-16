@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Suppressed.StrictBufferConfig"
+ , "c1" : "BufferConfigInternal<Suppressed.StrictBufferConfig>"
+ , "c2" : "Suppressed.StrictBufferConfig"
  , "c2" : "org.apache.kafka.streams.kstream.internals.suppress.StrictBufferConfigImpl"
 }} 
 ]

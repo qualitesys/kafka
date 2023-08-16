@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java 147 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java 146 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -260,7 +260,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -858,13 +858,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#425"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00425] For method record  arguments long  now"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00425"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetricsRecorder.java.html#425"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00425] For method record list of called methods Object monObjet|int Double_minN253179|int Double_minN253714"
 }} 
 ,
 { "ligne" : {"" : ""

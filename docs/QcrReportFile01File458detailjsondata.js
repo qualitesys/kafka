@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "MetricValueProvider<Double>"
+ , "c1" : ""
+ , "c2" : "MetricValueProvider<Double>"
  , "c2" : "org.apache.kafka.common.metrics.Measurable"
 }} 
 ]

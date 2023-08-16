@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "RaftMessage"
+ , "c1" : ""
+ , "c2" : "RaftMessage"
  , "c2" : "org.apache.kafka.raft.RaftRequest"
 }} 
 ]

@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "TimestampExtractor"
+ , "c1" : ""
+ , "c2" : "TimestampExtractor"
  , "c2" : "org.apache.kafka.streams.examples.pageview.JsonTimestampExtractor"
 }} 
 ]

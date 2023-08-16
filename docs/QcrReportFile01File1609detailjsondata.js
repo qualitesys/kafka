@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "DeserializationExceptionHandler"
+ , "c1" : ""
+ , "c2" : "DeserializationExceptionHandler"
  , "c2" : "org.apache.kafka.streams.errors.LogAndContinueExceptionHandler"
 }} 
 ]

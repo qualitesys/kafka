@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Send"
+ , "c1" : ""
+ , "c2" : "Send"
  , "c2" : "org.apache.kafka.common.network.ByteBufferSend"
 }} 
 ]

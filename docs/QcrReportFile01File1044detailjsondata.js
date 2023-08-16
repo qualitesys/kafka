@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "MessageFormatter"
+ , "c1" : ""
+ , "c2" : "MessageFormatter"
  , "c2" : "org.apache.kafka.connect.mirror.formatters.OffsetSyncFormatter"
 }} 
 ]

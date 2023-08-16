@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "WrappingNullableSerializer<ValueAndTimestamp<V>,Void,V>"
+ , "c1" : ""
+ , "c2" : "WrappingNullableSerializer<ValueAndTimestamp<V>,Void,V>"
  , "c2" : "org.apache.kafka.streams.state.internals.ValueAndTimestampSerializer"
 }} 
 ]

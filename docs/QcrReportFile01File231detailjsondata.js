@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Partitioner"
+ , "c1" : ""
+ , "c2" : "Partitioner"
  , "c2" : "org.apache.kafka.clients.producer.RoundRobinPartitioner"
 }} 
 ]

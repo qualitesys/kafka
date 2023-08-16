@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AutoCloseable"
+ , "c1" : ""
+ , "c2" : "AutoCloseable"
  , "c2" : "org.apache.kafka.common.security.oauthbearer.internals.expiring.ExpiringCredentialRefreshingLogin"
 }} 
 ]

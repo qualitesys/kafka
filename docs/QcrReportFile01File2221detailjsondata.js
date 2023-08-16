@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ExceptionMapper<Throwable>"
+ , "c1" : ""
+ , "c2" : "ExceptionMapper<Throwable>"
  , "c2" : "org.apache.kafka.trogdor.rest.RestExceptionMapper"
 }} 
 ]

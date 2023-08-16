@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ConnectClusterDetails"
+ , "c1" : ""
+ , "c2" : "ConnectClusterDetails"
  , "c2" : "org.apache.kafka.connect.runtime.health.ConnectClusterDetailsImpl"
 }} 
 ]

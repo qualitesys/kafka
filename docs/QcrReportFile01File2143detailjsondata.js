@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Comparable<TimestampedSegment>"
+ , "c1" : "RocksDBTimestampedStore"
+ , "c2" : "Comparable<TimestampedSegment>,Segment"
  , "c2" : "org.apache.kafka.streams.state.internals.TimestampedSegment"
 }} 
 ]

@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Map<K,V>"
+ , "c1" : "SnapshottableHashTable<TimelineHashMap.TimelineHashMapEntry<K,V>>"
+ , "c2" : "Map<K,V>"
  , "c2" : "org.apache.kafka.timeline.TimelineHashMap"
 }} 
 ]

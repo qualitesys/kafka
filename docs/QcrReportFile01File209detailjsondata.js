@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Closeable"
+ , "c1" : ""
+ , "c2" : "Closeable"
  , "c2" : "org.apache.kafka.clients.consumer.internals.Fetcher"
 }} 
 ]
@@ -1577,7 +1578,7 @@ var maDataBlocs = {
  , "c1" : "00819"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#819"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00819] For method validateOffsetsAsync list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.Node,java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.clients.consumer.internals.SubscriptionState.FetchPosition&gt;&gt; regroupFetchPositionsByLeaderN516059|org.apache.kafka.clients.NodeApiVersions apiVersions_getN516479|java.util.Optional&lt;org.apache.kafka.clients.consumer.internals.SubscriptionState.LogTruncation&gt; subscriptions_maybeCompleteValidationN518268"
+ , "c3" : "QC-JAV000007[00819] For method validateOffsetsAsync list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.Node,java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.clients.consumer.internals.SubscriptionState.FetchPosition&gt;&gt; regroupFetchPositionsByLeaderN516059|org.apache.kafka.clients.NodeApiVersions apiVersions_getN516479|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;T2&gt; offsetsForLeaderEpochClient_sendAsyncRequestN517303|java.util.Optional&lt;org.apache.kafka.clients.consumer.internals.SubscriptionState.LogTruncation&gt; subscriptions_maybeCompleteValidationN518268"
 }} 
 ,
 { "ligne" : {"" : ""

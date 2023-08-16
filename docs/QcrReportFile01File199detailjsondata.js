@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ConsumerPartitionAssignor"
+ , "c1" : ""
+ , "c2" : "ConsumerPartitionAssignor"
  , "c2" : "org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor"
 }} 
 ]

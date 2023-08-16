@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "TaskMetadata"
+ , "c1" : ""
+ , "c2" : "TaskMetadata"
  , "c2" : "org.apache.kafka.streams.processor.internals.TaskMetadataImpl"
 }} 
 ]

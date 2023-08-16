@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ObjectInput"
+ , "c1" : "InputStream"
+ , "c2" : "ObjectInput,ObjectStreamConstants"
  , "c2" : "java.io.ObjectInputStream"
 }} 
 ]

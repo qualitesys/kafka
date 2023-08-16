@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Iterator<byte[]>"
+ , "c1" : ""
+ , "c2" : "Iterator<byte[]>"
  , "c2" : "org.apache.kafka.trogdor.workload.PayloadIterator"
 }} 
 ]

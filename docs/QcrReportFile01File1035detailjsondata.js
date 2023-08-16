@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : ""
+ , "c1" : "SourceTask"
+ , "c2" : ""
  , "c2" : "org.apache.kafka.connect.mirror.MirrorSourceTask"
 }} 
 ]
@@ -276,7 +277,7 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#82"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00082] For method start list of called methods Object monObjet|KafkaConsumer&lt;byte[],byte[]&gt; MirrorUtils_newConsumerN199503|KafkaProducer&lt;byte[],byte[]&gt; MirrorUtils_newProducerN199616|java.util.Map&lt;org.apache.kafka.common.TopicPartition,java.lang.Long&gt; loadOffsetsN199867"
+ , "c3" : "QC-JAV000007[00082] For method start list of called methods Object monObjet|java.lang.String config_sourceClusterAliasN198976|org.apache.kafka.connect.mirror.MirrorMetrics config_metricsN199050|java.time.Duration config_consumerPollTimeoutN199124|long config_maxOffsetLagN199198|org.apache.kafka.connect.mirror.ReplicationPolicy config_replicationPolicyN199272|java.lang.String config_offsetSyncsTopicN199429|KafkaConsumer&lt;byte[],byte[]&gt; MirrorUtils_newConsumerN199503|KafkaProducer&lt;byte[],byte[]&gt; MirrorUtils_newProducerN199616|java.util.Map&lt;org.apache.kafka.common.TopicPartition,java.lang.Long&gt; loadOffsetsN199867"
 }} 
 ,
 { "ligne" : {"" : ""

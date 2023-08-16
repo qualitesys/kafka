@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : ""
+ , "c1" : "Writer"
+ , "c2" : ""
  , "c2" : "java.io.PrintWriter"
 }} 
 ]
@@ -760,6 +761,7 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
+{ "ligne" :  "R0:java.io.Writer.lock" }
 ]
 ,
 "data12b" : [

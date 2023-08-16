@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AuthorizableRequestContext"
+ , "c1" : ""
+ , "c2" : "AuthorizableRequestContext"
  , "c2" : "org.apache.kafka.common.requests.RequestContext"
 }} 
 ]

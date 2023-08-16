@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ProductionExceptionHandler"
+ , "c1" : ""
+ , "c2" : "ProductionExceptionHandler"
  , "c2" : "org.apache.kafka.streams.errors.DefaultProductionExceptionHandler"
 }} 
 ]

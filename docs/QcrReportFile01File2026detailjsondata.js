@@ -2,13 +2,14 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java 44 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java 47 rule violations " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : ""
+ , "c1" : "AbstractDualSchemaRocksDBSegmentedBytesStore<KeyValueSegment>"
+ , "c2" : ""
  , "c2" : "org.apache.kafka.streams.state.internals.AbstractRocksDBTimeOrderedSegmentedBytesStore"
 }} 
 ]
@@ -173,9 +174,23 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "11"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "3"
+}}
  ] 
 ,
 "data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#83"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00083] For method hasNext list of called methods Object monObjet|byte[] getN191852"
+}} 
+,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#85"
@@ -380,6 +395,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00236"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#236"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00236] For method fetchAll list of called methods Object monObjet|java.util.List&lt;S&gt; segments_segmentsN199487"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00238"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#238"
  , "c2" : "MAJOR"
@@ -433,6 +455,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#251"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00251] For method backwardFetchAll arguments long  timeFrom|long  timeTo"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00251"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#251"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00251] For method backwardFetchAll list of called methods Object monObjet|java.util.List&lt;S&gt; segments_segmentsN200392"
 }} 
 ,
 { "ligne" : {"" : ""

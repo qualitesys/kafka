@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : ""
+ , "c1" : "RequestTargetException"
+ , "c2" : ""
  , "c2" : "org.apache.kafka.connect.runtime.distributed.NotLeaderException"
 }} 
 ]

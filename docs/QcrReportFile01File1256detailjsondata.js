@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "MessageClassGenerator"
+ , "c1" : ""
+ , "c2" : "MessageClassGenerator"
  , "c2" : "org.apache.kafka.message.MessageDataGenerator"
 }} 
 ]

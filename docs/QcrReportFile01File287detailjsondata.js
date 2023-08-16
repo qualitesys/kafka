@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Cache<K,V>"
+ , "c1" : ""
+ , "c2" : "Cache<K,V>"
  , "c2" : "org.apache.kafka.common.cache.SynchronizedCache"
 }} 
 ]

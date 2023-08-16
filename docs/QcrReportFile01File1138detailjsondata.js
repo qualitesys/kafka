@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ConnectRestExtensionContext"
+ , "c1" : ""
+ , "c2" : "ConnectRestExtensionContext"
  , "c2" : "org.apache.kafka.connect.runtime.rest.ConnectRestExtensionContextImpl"
 }} 
 ]

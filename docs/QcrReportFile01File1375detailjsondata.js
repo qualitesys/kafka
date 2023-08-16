@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ReplicaPlacer"
+ , "c1" : ""
+ , "c2" : "ReplicaPlacer"
  , "c2" : "org.apache.kafka.metadata.placement.StripedReplicaPlacer"
 }} 
 ]

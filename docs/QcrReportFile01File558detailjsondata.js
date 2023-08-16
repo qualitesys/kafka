@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "MutableRecordBatch"
+ , "c1" : "AbstractRecordBatch"
+ , "c2" : "MutableRecordBatch"
  , "c2" : "org.apache.kafka.common.record.DefaultRecordBatch"
 }} 
 ]

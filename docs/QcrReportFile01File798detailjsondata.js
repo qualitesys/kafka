@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "OAuthBearerToken"
+ , "c1" : ""
+ , "c2" : "OAuthBearerToken"
  , "c2" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws"
 }} 
 ]

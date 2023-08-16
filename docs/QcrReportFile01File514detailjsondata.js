@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ChannelBuilder"
+ , "c1" : ""
+ , "c2" : "ChannelBuilder,ListenerReconfigurable"
  , "c2" : "org.apache.kafka.common.network.SslChannelBuilder"
 }} 
 ]

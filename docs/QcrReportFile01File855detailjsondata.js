@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Serializer<byte[]>"
+ , "c1" : ""
+ , "c2" : "Serializer<byte[]>"
  , "c2" : "org.apache.kafka.common.serialization.ByteArraySerializer"
 }} 
 ]

@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Statement"
+ , "c1" : ""
+ , "c2" : "Statement"
  , "c2" : "java.sql.PreparedStatement"
 }} 
 ]

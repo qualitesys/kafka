@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Comparable<BufferKey>"
+ , "c1" : ""
+ , "c2" : "Comparable<BufferKey>"
  , "c2" : "org.apache.kafka.streams.state.internals.BufferKey"
 }} 
 ]

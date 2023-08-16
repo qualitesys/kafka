@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Versioned"
+ , "c1" : ""
+ , "c2" : "Versioned"
  , "c2" : "org.apache.kafka.connect.connector.Connector"
 }} 
 ]

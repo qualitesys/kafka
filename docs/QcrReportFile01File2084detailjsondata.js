@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "SessionStore<K,V>"
+ , "c1" : "WrappedStateStore<SessionStore<Bytes,byte[]>,Windowed<K>,V>"
+ , "c2" : "SessionStore<K,V>"
  , "c2" : "org.apache.kafka.streams.state.internals.MeteredSessionStore"
 }} 
 ]

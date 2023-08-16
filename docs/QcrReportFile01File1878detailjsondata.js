@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "StateUpdater"
+ , "c1" : ""
+ , "c2" : "StateUpdater"
  , "c2" : "org.apache.kafka.streams.processor.internals.DefaultStateUpdater"
 }} 
 ]

@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "OffsetBackingStore"
+ , "c1" : ""
+ , "c2" : "OffsetBackingStore"
  , "c2" : "org.apache.kafka.connect.storage.MemoryOffsetBackingStore"
 }} 
 ]

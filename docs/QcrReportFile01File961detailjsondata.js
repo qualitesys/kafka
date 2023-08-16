@@ -2,13 +2,14 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java 14 rule violations " 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java 15 rule violations " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Header"
+ , "c1" : ""
+ , "c2" : "Header"
  , "c2" : "org.apache.kafka.connect.header.ConnectHeader"
 }} 
 ]
@@ -155,6 +156,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -170,6 +178,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java.html#38"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.connect.header.ConnectHeader.ConnectHeader@POLYN160372 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeader.java.html#52"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00052] For method schema list of called methods Object monObjet|org.apache.kafka.connect.data.Schema schemaAndValue_schemaN161070"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ProcessorSupplier<KO,SubscriptionWrapper<K>,CombinedKey<KO,K>,Change<ValueAndTimestamp<SubscriptionWrapper<K>>>>"
+ , "c1" : ""
+ , "c2" : "ProcessorSupplier<KO,SubscriptionWrapper<K>,CombinedKey<KO,K>,Change<ValueAndTimestamp<SubscriptionWrapper<K>>>>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionStoreReceiveProcessorSupplier"
 }} 
 ]

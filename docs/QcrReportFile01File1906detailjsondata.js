@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "BatchingStateRestoreCallback"
+ , "c1" : ""
+ , "c2" : "BatchingStateRestoreCallback"
  , "c2" : "org.apache.kafka.streams.processor.internals.RecordBatchingStateRestoreCallback"
 }} 
 ]

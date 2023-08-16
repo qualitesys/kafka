@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ConcurrentMap<K,V>"
+ , "c1" : ""
+ , "c2" : "ConcurrentMap<K,V>"
  , "c2" : "org.apache.kafka.common.utils.CopyOnWriteMap"
 }} 
 ]

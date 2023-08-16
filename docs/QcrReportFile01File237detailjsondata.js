@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Future<RecordMetadata>"
+ , "c1" : ""
+ , "c2" : "Future<RecordMetadata>"
  , "c2" : "org.apache.kafka.clients.producer.internals.FutureRecordMetadata"
 }} 
 ]

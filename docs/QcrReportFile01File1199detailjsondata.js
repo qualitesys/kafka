@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Callback<U>"
+ , "c1" : ""
+ , "c2" : "Callback<U>,Future<T>"
  , "c2" : "org.apache.kafka.connect.util.ConvertingFutureCallback"
 }} 
 ]

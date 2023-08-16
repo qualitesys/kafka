@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : ""
+ , "c1" : "Windows<Window>"
+ , "c2" : ""
  , "c2" : "org.apache.kafka.streams.kstream.JoinWindows"
 }} 
 ]

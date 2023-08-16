@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "KTableProcessorSupplier<KIn,VIn,KIn,VIn>"
+ , "c1" : ""
+ , "c2" : "KTableProcessorSupplier<KIn,VIn,KIn,VIn>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.KTablePassThrough"
 }} 
 ]

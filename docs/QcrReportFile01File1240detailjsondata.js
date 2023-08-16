@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : ""
+ , "c1" : "ShutdownableThread"
+ , "c2" : ""
  , "c2" : "kafka.examples.Consumer"
 }} 
 ]

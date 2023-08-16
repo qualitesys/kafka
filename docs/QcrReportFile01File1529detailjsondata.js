@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Commands.Handler"
+ , "c1" : ""
+ , "c2" : "Commands.Handler"
  , "c2" : "org.apache.kafka.shell.FindCommandHandler"
 }} 
 ]

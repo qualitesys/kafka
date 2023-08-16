@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Comparable<TaskId>"
+ , "c1" : ""
+ , "c2" : "Comparable<TaskId>"
  , "c2" : "org.apache.kafka.streams.processor.TaskId"
 }} 
 ]

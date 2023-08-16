@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Authenticator"
+ , "c1" : ""
+ , "c2" : "Authenticator"
  , "c2" : "org.apache.kafka.common.security.authenticator.SaslClientAuthenticator"
 }} 
 ]
@@ -687,7 +688,7 @@ var maDataBlocs = {
  , "c1" : "00431"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#431"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00431] For method sendSaslClientToken list of called methods Object monObjet|byte[] createSaslTokenN272951|org.apache.kafka.common.network.ByteBufferSend ByteBufferSend_sizePrefixedN273329"
+ , "c3" : "QC-JAV000007[00431] For method sendSaslClientToken list of called methods Object monObjet|byte[] createSaslTokenN272951|org.apache.kafka.common.network.ByteBufferSend ByteBufferSend_sizePrefixedN273329|org.apache.kafka.common.network.Send request_toSendN273718"
 }} 
 ,
 { "ligne" : {"" : ""

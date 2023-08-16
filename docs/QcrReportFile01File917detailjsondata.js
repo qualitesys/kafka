@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Time"
+ , "c1" : ""
+ , "c2" : "Time"
  , "c2" : "org.apache.kafka.common.utils.SystemTime"
 }} 
 ]

@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "StateStoreProvider"
+ , "c1" : ""
+ , "c2" : "StateStoreProvider"
  , "c2" : "org.apache.kafka.streams.state.internals.WrappingStoreProvider"
 }} 
 ]

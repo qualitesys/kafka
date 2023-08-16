@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ConnectorClientConfigOverridePolicy"
+ , "c1" : ""
+ , "c2" : "ConnectorClientConfigOverridePolicy"
  , "c2" : "org.apache.kafka.connect.connector.policy.AbstractConnectorClientConfigOverridePolicy"
 }} 
 ]

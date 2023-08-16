@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ExceptionMapper<Exception>"
+ , "c1" : ""
+ , "c2" : "ExceptionMapper<Exception>"
  , "c2" : "org.apache.kafka.connect.runtime.rest.errors.ConnectExceptionMapper"
 }} 
 ]

@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Reconfigurable"
+ , "c1" : ""
+ , "c2" : "Reconfigurable"
  , "c2" : "org.apache.kafka.common.network.ListenerReconfigurable"
 }} 
 ]

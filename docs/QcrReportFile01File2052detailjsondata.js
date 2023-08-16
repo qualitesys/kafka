@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "PeekingKeyValueIterator<Bytes,LRUCacheEntry>"
+ , "c1" : ""
+ , "c2" : "PeekingKeyValueIterator<Bytes,LRUCacheEntry>"
  , "c2" : "org.apache.kafka.streams.state.internals.FilteredCacheIterator"
 }} 
 ]

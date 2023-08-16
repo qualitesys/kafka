@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "QueryResult<R>"
+ , "c1" : ""
+ , "c2" : "QueryResult<R>"
  , "c2" : "org.apache.kafka.streams.query.internals.AbstractQueryResult"
 }} 
 ]

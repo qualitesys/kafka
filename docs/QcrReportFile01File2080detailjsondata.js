@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : ""
+ , "c1" : "AbstractMergedSortedCacheStoreIterator<Windowed<Bytes>,Windowed<Bytes>,byte[],byte[]>"
+ , "c2" : ""
  , "c2" : "org.apache.kafka.streams.state.internals.MergedSortedCacheSessionStoreIterator"
 }} 
 ]

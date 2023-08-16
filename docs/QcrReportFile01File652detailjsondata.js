@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : ""
+ , "c1" : "AbstractResponse"
+ , "c2" : ""
  , "c2" : "org.apache.kafka.common.requests.DescribeGroupsResponse"
 }} 
 ]

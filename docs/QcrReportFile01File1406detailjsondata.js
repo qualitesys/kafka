@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Comparable<OffsetAndEpoch>"
+ , "c1" : ""
+ , "c2" : "Comparable<OffsetAndEpoch>"
  , "c2" : "org.apache.kafka.raft.OffsetAndEpoch"
 }} 
 ]

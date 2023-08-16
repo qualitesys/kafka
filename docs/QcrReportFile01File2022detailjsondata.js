@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "KeyValueIterator<Long,V>"
+ , "c1" : ""
+ , "c2" : "KeyValueIterator<Long,V>,Closeable"
  , "c2" : "org.apache.kafka.streams.state.WindowStoreIterator"
 }} 
 ]

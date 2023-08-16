@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : ""
+ , "c1" : "WorkerTask"
+ , "c2" : ""
  , "c2" : "org.apache.kafka.connect.runtime.WorkerSinkTask"
 }} 
 ]
@@ -1753,7 +1754,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerSinkTask.openPartitions@POLYN321604"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerSinkTask.initialize@POLYN296041"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1761,6 +1762,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerSinkTask.close@POLYN296749"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerSinkTask.openPartitions@POLYN321604"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1782,13 +1790,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerSinkTask.doCommitSync@POLYN304682"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerSinkTask.initialize@POLYN296041"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2226,6 +2227,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00154"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#154"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00154] In the recursive method org.apache.kafka.connect.runtime.WorkerSinkTask.initialize@POLYN296041 the MagicNumber/String '{} Task failed initialization and will not be started.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#173"
  , "c2" : "BLOCKER"
@@ -2307,13 +2315,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#345"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00345] In the recursive method org.apache.kafka.connect.runtime.WorkerSinkTask.doCommitSync@POLYN304682 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#154"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00154] In the recursive method org.apache.kafka.connect.runtime.WorkerSinkTask.initialize@POLYN296041 the MagicNumber/String '{} Task failed initialization and will not be started.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

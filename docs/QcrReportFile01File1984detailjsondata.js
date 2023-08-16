@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Query<V>"
+ , "c1" : ""
+ , "c2" : "Query<V>"
  , "c2" : "org.apache.kafka.streams.query.KeyQuery"
 }} 
 ]

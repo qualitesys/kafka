@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "KeyValueIterator<K,byte[]>"
+ , "c1" : ""
+ , "c2" : "KeyValueIterator<K,byte[]>"
  , "c2" : "org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueIteratorAdapter"
 }} 
 ]

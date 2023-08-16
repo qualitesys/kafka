@@ -2,13 +2,14 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredValidatorCallbackHandler.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredValidatorCallbackHandler.java 52 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredValidatorCallbackHandler.java 51 rule violations " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AuthenticateCallbackHandler"
+ , "c1" : ""
+ , "c2" : "AuthenticateCallbackHandler"
  , "c2" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredValidatorCallbackHandler"
 }} 
 ]
@@ -222,7 +223,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "5"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -400,13 +401,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredValidatorCallbackHandler.java.html#154"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00154] For method handleCallback arguments OAuthBearerValidatorCallback  callback"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredValidatorCallbackHandler.java.html#154"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00154] For method handleCallback list of called methods Object monObjet|java.lang.String callback_tokenValueN195663"
 }} 
 ,
 { "ligne" : {"" : ""

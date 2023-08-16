@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "SaslClient"
+ , "c1" : ""
+ , "c2" : "SaslClient"
  , "c2" : "org.apache.kafka.common.security.scram.internals.ScramSaslClient"
 }} 
 ]

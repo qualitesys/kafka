@@ -252,7 +252,7 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java.html#82"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00082] For method fromBytes list of called methods Object monObjet|byte[] data_getN170630|org.apache.kafka.common.utils.Bytes ByteBuffer_wrapN170712"
+ , "c3" : "QC-JAV000007[00082] For method fromBytes list of called methods Object monObjet|byte[] data_getN170630"
 }} 
 ,
 { "ligne" : {"" : ""

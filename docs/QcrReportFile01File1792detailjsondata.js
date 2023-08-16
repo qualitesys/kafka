@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Serde<SubscriptionResponseWrapper<V>>"
+ , "c1" : ""
+ , "c2" : "Serde<SubscriptionResponseWrapper<V>>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapperSerde"
 }} 
 ]

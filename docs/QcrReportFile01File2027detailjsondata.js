@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Segments<S>"
+ , "c1" : ""
+ , "c2" : "Segments<S>"
  , "c2" : "org.apache.kafka.streams.state.internals.AbstractSegments"
 }} 
 ]

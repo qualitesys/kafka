@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "StreamPartitioner<Windowed<K>,V>"
+ , "c1" : ""
+ , "c2" : "StreamPartitioner<Windowed<K>,V>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.WindowedStreamPartitioner"
 }} 
 ]

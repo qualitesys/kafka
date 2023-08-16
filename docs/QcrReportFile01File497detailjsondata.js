@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ChannelMetadataRegistry"
+ , "c1" : ""
+ , "c2" : "ChannelMetadataRegistry"
  , "c2" : "org.apache.kafka.common.network.DefaultChannelMetadataRegistry"
 }} 
 ]

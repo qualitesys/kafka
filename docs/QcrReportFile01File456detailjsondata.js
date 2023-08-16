@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Metric"
+ , "c1" : ""
+ , "c2" : "Metric"
  , "c2" : "org.apache.kafka.common.metrics.KafkaMetric"
 }} 
 ]

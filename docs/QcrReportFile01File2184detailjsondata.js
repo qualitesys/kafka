@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Topology"
+ , "c1" : ""
+ , "c2" : "Topology"
  , "c2" : "org.apache.kafka.trogdor.basic.BasicTopology"
 }} 
 ]

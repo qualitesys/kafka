@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Comparable<RestartRequest>"
+ , "c1" : ""
+ , "c2" : "Comparable<RestartRequest>"
  , "c2" : "org.apache.kafka.connect.runtime.RestartRequest"
 }} 
 ]

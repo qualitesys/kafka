@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "GlobalStateManager"
+ , "c1" : ""
+ , "c2" : "GlobalStateManager"
  , "c2" : "org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl"
 }} 
 ]

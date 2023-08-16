@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "NamedOperation<Joined<K,V,VO>>"
+ , "c1" : ""
+ , "c2" : "NamedOperation<Joined<K,V,VO>>"
  , "c2" : "org.apache.kafka.streams.kstream.Joined"
 }} 
 ]

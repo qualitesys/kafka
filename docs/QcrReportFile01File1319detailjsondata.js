@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Controller"
+ , "c1" : ""
+ , "c2" : "Controller"
  , "c2" : "org.apache.kafka.controller.QuorumController"
 }} 
 ]

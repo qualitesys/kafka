@@ -2,13 +2,14 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.StringBuilder.java.html" 
- , "texte" : "File secujava/java.lang.StringBuilder.java 64 rule violations " 
+ , "texte" : "File secujava/java.lang.StringBuilder.java 60 rule violations " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.io.Serializable"
+ , "c1" : "AbstractStringBuilder"
+ , "c2" : "java.io.Serializable,CharSequence"
  , "c2" : "java.lang.StringBuilder"
 }} 
 ]
@@ -452,7 +453,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -473,7 +474,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -532,13 +533,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#141"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00141] For method append arguments StringBuilder  sb"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00141"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#141"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00141] For method append list of called methods Object monObjet|int sb_lengthN233938"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -902,28 +896,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.StringBuilder.append@POLYN238304"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.StringBuilder.insert@POLYN243595"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.StringBuilder.appendCodePoint@POLYN238508"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.StringBuilder.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.StringBuilder.deleteCharAt@POLYN238987"
 }} 
 ]
 , 

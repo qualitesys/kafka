@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "RemoteLogMetadataTransform<RemoteLogSegmentMetadataUpdate>"
+ , "c1" : ""
+ , "c2" : "RemoteLogMetadataTransform<RemoteLogSegmentMetadataUpdate>"
  , "c2" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogSegmentMetadataUpdateTransform"
 }} 
 ]

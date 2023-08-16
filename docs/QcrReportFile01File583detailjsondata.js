@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "UnalignedRecords"
+ , "c1" : ""
+ , "c2" : "UnalignedRecords"
  , "c2" : "org.apache.kafka.common.record.UnalignedFileRecords"
 }} 
 ]

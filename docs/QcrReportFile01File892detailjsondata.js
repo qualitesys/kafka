@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Iterator<T>"
+ , "c1" : ""
+ , "c2" : "Iterator<T>,Closeable"
  , "c2" : "org.apache.kafka.common.utils.CloseableIterator"
 }} 
 ]

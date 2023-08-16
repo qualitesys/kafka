@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ConcurrentMap<K,V>"
+ , "c1" : "AbstractMap<K,V>"
+ , "c2" : "ConcurrentMap<K,V>,Serializable"
  , "c2" : "java.util.concurrent.ConcurrentHashMap"
 }} 
 ]

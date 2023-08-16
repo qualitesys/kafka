@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ConnectedStoreProvider"
+ , "c1" : ""
+ , "c2" : "ConnectedStoreProvider,Supplier<Transformer<K,V,R>>"
  , "c2" : "org.apache.kafka.streams.kstream.TransformerSupplier"
 }} 
 ]

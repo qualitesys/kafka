@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "SourceTaskContext"
+ , "c1" : ""
+ , "c2" : "SourceTaskContext"
  , "c2" : "org.apache.kafka.connect.runtime.WorkerSourceTaskContext"
 }} 
 ]

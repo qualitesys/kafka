@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Checksum"
+ , "c1" : ""
+ , "c2" : "Checksum"
  , "c2" : "org.apache.kafka.common.utils.PureJavaCrc32C"
 }} 
 ]

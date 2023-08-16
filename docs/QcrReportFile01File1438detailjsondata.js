@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "FuturePurgatory<T>"
+ , "c1" : ""
+ , "c2" : "FuturePurgatory<T>"
  , "c2" : "org.apache.kafka.raft.internals.ThresholdPurgatory"
 }} 
 ]

@@ -2,13 +2,14 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java 172 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java 170 rule violations " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : ""
+ , "c1" : "WorkerTask"
+ , "c2" : ""
  , "c2" : "org.apache.kafka.connect.runtime.AbstractWorkerSourceTask"
 }} 
 ]
@@ -335,7 +336,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "50"
+ , "c4" : "49"
 }}
 ,
 { "ligne" : { "" : ""
@@ -349,7 +350,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "10"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1237,13 +1238,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.removeMetrics@POLYN271102"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00379"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#379"
  , "c2" : "BLOCKER"
@@ -1584,13 +1578,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#270"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00270] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.initializeAndStart@POLYN270207 the MagicNumber/String '{} Source task finished initialization and start' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00296"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#296"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00296] In the recursive method org.apache.kafka.connect.runtime.AbstractWorkerSourceTask.removeMetrics@POLYN271102 the MagicNumber/String 'source task metrics tracker' MUST BE CONVERTED to const"
 }} 
 ]
 , 

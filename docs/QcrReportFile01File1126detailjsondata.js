@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ErrantRecordReporter"
+ , "c1" : ""
+ , "c2" : "ErrantRecordReporter"
  , "c2" : "org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter"
 }} 
 ]

@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Reconfigurable"
+ , "c1" : ""
+ , "c2" : "Reconfigurable,Closeable"
  , "c2" : "org.apache.kafka.common.security.ssl.SslFactory"
 }} 
 ]

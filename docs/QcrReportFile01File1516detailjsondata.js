@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "RecordSerde<ApiMessageAndVersion>"
+ , "c1" : ""
+ , "c2" : "RecordSerde<ApiMessageAndVersion>"
  , "c2" : "org.apache.kafka.server.common.serialization.AbstractApiMessageSerde"
 }} 
 ]

@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Iterator<List<ApiMessageAndVersion>>"
+ , "c1" : ""
+ , "c2" : "Iterator<List<ApiMessageAndVersion>>"
  , "c2" : "org.apache.kafka.metadata.authorizer.StandardAclRecordIterator"
 }} 
 ]

@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "NamedOperation<Repartitioned<K,V>>"
+ , "c1" : ""
+ , "c2" : "NamedOperation<Repartitioned<K,V>>"
  , "c2" : "org.apache.kafka.streams.kstream.Repartitioned"
 }} 
 ]

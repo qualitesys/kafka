@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Revertable"
+ , "c1" : "BaseHashTable<T>"
+ , "c2" : "Revertable"
  , "c2" : "org.apache.kafka.timeline.SnapshottableHashTable"
 }} 
 ]

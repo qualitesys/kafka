@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "EpochState"
+ , "c1" : ""
+ , "c2" : "EpochState"
  , "c2" : "org.apache.kafka.raft.FollowerState"
 }} 
 ]

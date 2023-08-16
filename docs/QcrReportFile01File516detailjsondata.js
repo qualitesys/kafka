@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "GatheringByteChannel"
+ , "c1" : ""
+ , "c2" : "GatheringByteChannel"
  , "c2" : "org.apache.kafka.common.network.TransferableChannel"
 }} 
 ]

@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AccessTokenValidator"
+ , "c1" : ""
+ , "c2" : "AccessTokenValidator"
  , "c2" : "org.apache.kafka.common.security.oauthbearer.secured.LoginAccessTokenValidator"
 }} 
 ]

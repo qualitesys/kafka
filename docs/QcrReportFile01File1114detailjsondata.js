@@ -2,13 +2,14 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java 143 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java 144 rule violations " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Closeable"
+ , "c1" : "AbstractCoordinator"
+ , "c2" : "Closeable"
  , "c2" : "org.apache.kafka.connect.runtime.distributed.WorkerCoordinator"
 }} 
 ]
@@ -316,7 +317,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -403,6 +404,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#121"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00121] For method poll arguments long  timeout"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#121"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00121] For method poll list of called methods Object monObjet|boolean time_millisecondsN240729"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "LogInputStream<MutableRecordBatch>"
+ , "c1" : ""
+ , "c2" : "LogInputStream<MutableRecordBatch>"
  , "c2" : "org.apache.kafka.common.record.ByteBufferLogInputStream"
 }} 
 ]

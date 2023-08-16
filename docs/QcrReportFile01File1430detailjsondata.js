@@ -2,13 +2,14 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java 6 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java 9 rule violations " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "RaftMessageQueue"
+ , "c1" : ""
+ , "c2" : "RaftMessageQueue"
  , "c2" : "org.apache.kafka.raft.internals.BlockingMessageQueue"
 }} 
 ]
@@ -100,10 +101,17 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -162,6 +170,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.internals.BlockingMessageQueue.add@POLYN158102"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.internals.BlockingMessageQueue.poll@POLYN157497"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00049"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#49"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00049] In the recursive method org.apache.kafka.raft.internals.BlockingMessageQueue.poll@POLYN157497 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BlockingMessageQueue.java.html#50"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.raft.internals.BlockingMessageQueue.poll@POLYN157497 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

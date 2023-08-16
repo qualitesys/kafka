@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Wrapper"
+ , "c1" : ""
+ , "c2" : "Wrapper,AutoCloseable"
  , "c2" : "secujava.Connection"
 }} 
 ]

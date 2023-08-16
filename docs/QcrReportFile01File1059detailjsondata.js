@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Herder"
+ , "c1" : ""
+ , "c2" : "Herder,TaskStatus.Listener,ConnectorStatus.Listener"
  , "c2" : "org.apache.kafka.connect.runtime.AbstractHerder"
 }} 
 ]

@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Appendable"
+ , "c1" : "FilterOutputStream"
+ , "c2" : "Appendable,Closeable"
  , "c2" : "java.io.PrintStream"
 }} 
 ]
@@ -535,7 +536,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "4"
  , "sourcenoligne" : "[00525]"
- , "c3" : ["java.io.PrintStream.write@POLYN369313.s" , "---java.io.PrintWriter.write@POLYN353240" , "java.io.PrintStream.write@POLYN369313.cibledummy_00525"]
+ , "c3" : ["java.io.PrintStream.write@POLYN369313.s" , "---java.io.Writer.write@POLYN200780" , "java.io.PrintStream.write@POLYN369313.cibledummy_00525"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -591,7 +592,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "3"
  , "sourcenoligne" : "[00503]"
- , "c3" : ["java.io.PrintStream.write@POLYN368395.buf" , "---java.io.PrintWriter.write@POLYN352248" , "java.io.PrintStream.write@POLYN368395.cibledummy_00503"]
+ , "c3" : ["java.io.PrintStream.write@POLYN368395.buf" , "---java.io.Writer.write@POLYN200115" , "java.io.PrintStream.write@POLYN368395.cibledummy_00503"]
  , "c4" : ""
  , "c5" : "none"
 }}

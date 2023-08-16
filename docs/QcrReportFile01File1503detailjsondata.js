@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Cloneable"
+ , "c1" : ""
+ , "c2" : "Cloneable,Serializable"
  , "c2" : "secujava.Cookie"
 }} 
 ]

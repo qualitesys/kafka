@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AbstractRequestResponse"
+ , "c1" : ""
+ , "c2" : "AbstractRequestResponse"
  , "c2" : "org.apache.kafka.common.requests.ResponseHeader"
 }} 
 ]

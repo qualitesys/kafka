@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Callback"
+ , "c1" : ""
+ , "c2" : "Callback"
  , "c2" : "org.apache.kafka.common.security.auth.SaslExtensionsCallback"
 }} 
 ]

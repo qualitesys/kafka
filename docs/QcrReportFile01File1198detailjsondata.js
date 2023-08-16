@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Serializable"
+ , "c1" : ""
+ , "c2" : "Serializable,Comparable<ConnectorTaskId>"
  , "c2" : "org.apache.kafka.connect.util.ConnectorTaskId"
 }} 
 ]

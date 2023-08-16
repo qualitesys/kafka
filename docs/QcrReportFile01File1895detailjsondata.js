@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "RecordCollector.Supplier"
+ , "c1" : "AbstractProcessorContext<Object,Object>"
+ , "c2" : "RecordCollector.Supplier"
  , "c2" : "org.apache.kafka.streams.processor.internals.ProcessorContextImpl"
 }} 
 ]

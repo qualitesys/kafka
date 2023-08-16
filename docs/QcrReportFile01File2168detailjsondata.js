@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ArgumentAction"
+ , "c1" : ""
+ , "c2" : "ArgumentAction"
  , "c2" : "org.apache.kafka.tools.PrintVersionAndExitAction"
 }} 
 ]

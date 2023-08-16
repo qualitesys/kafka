@@ -2,13 +2,14 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedStore.java 91 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedStore.java 85 rule violations " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "TimestampedBytesStore"
+ , "c1" : "RocksDBStore"
+ , "c2" : "TimestampedBytesStore"
  , "c2" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedStore"
 }} 
 ]
@@ -103,7 +104,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "7"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -117,7 +118,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -732,13 +733,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedStore.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBTimestampedStore.RocksDBDualCFRangeIterator.makeNext@POLYN236345"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00097"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedStore.java.html#97"
  , "c2" : "BLOCKER"
@@ -750,41 +744,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedStore.java.html#100"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00100] In the recursive method org.apache.kafka.streams.state.internals.RocksDBTimestampedStore.setDbAccessor@POLYN219869 the MagicNumber/String 'Opening store {} in regular mode' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00454"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedStore.java.html#454"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00454] In the recursive method org.apache.kafka.streams.state.internals.RocksDBTimestampedStore.RocksDBDualCFRangeIterator.makeNext@POLYN236345 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00456"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedStore.java.html#456"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00456] In the recursive method org.apache.kafka.streams.state.internals.RocksDBTimestampedStore.RocksDBDualCFRangeIterator.makeNext@POLYN236345 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00461"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedStore.java.html#461"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00461] In the recursive method org.apache.kafka.streams.state.internals.RocksDBTimestampedStore.RocksDBDualCFRangeIterator.makeNext@POLYN236345 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00463"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedStore.java.html#463"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00463] In the recursive method org.apache.kafka.streams.state.internals.RocksDBTimestampedStore.RocksDBDualCFRangeIterator.makeNext@POLYN236345 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00469"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedStore.java.html#469"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00469] In the recursive method org.apache.kafka.streams.state.internals.RocksDBTimestampedStore.RocksDBDualCFRangeIterator.makeNext@POLYN236345 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 , 

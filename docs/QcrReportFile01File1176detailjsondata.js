@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "StatusBackingStore"
+ , "c1" : ""
+ , "c2" : "StatusBackingStore"
  , "c2" : "org.apache.kafka.connect.storage.MemoryStatusBackingStore"
 }} 
 ]
@@ -224,7 +225,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S0:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN169387 (R0 in line [00063],R2 in line [00063])" }
 ,
-{ "ligne" : "S0:java.util.Map.remove@POLYN457025" }
+{ "ligne" : "S0:java.util.HashMap.remove@POLYN659378" }
  ]
  } }
 ,

@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Admin"
+ , "c1" : ""
+ , "c2" : "Admin"
  , "c2" : "org.apache.kafka.clients.admin.AdminClient"
 }} 
 ]

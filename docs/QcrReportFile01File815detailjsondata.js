@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "CloseableVerificationKeyResolver"
+ , "c1" : ""
+ , "c2" : "CloseableVerificationKeyResolver"
  , "c2" : "org.apache.kafka.common.security.oauthbearer.secured.JwksFileVerificationKeyResolver"
 }} 
 ]

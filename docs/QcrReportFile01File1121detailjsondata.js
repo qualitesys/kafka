@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Callable<V>"
+ , "c1" : ""
+ , "c2" : "Callable<V>"
  , "c2" : "org.apache.kafka.connect.runtime.errors.Operation"
 }} 
 ]

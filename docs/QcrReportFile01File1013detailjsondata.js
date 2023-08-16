@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ReplicationPolicy"
+ , "c1" : ""
+ , "c2" : "ReplicationPolicy,Configurable"
  , "c2" : "org.apache.kafka.connect.mirror.DefaultReplicationPolicy"
 }} 
 ]

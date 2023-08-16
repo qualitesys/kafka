@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "EventQueue"
+ , "c1" : ""
+ , "c2" : "EventQueue"
  , "c2" : "org.apache.kafka.queue.KafkaEventQueue"
 }} 
 ]

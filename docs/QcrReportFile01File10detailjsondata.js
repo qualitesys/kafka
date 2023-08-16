@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "HostResolver"
+ , "c1" : ""
+ , "c2" : "HostResolver"
  , "c2" : "org.apache.kafka.clients.DefaultHostResolver"
 }} 
 ]

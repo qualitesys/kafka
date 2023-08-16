@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.io.Serializable"
+ , "c1" : ""
+ , "c2" : "java.io.Serializable,Comparable<String>,CharSequence"
  , "c2" : "java.lang.String"
 }} 
 ]

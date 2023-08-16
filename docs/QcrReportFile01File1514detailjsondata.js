@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Validator"
+ , "c1" : ""
+ , "c2" : "Validator"
  , "c2" : "org.apache.kafka.server.common.MetadataVersionValidator"
 }} 
 ]

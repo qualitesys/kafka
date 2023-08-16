@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : ""
+ , "c1" : "WindowedSum"
+ , "c2" : ""
  , "c2" : "org.apache.kafka.common.metrics.stats.WindowedCount"
 }} 
 ]

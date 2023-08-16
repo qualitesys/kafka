@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Iterable<ConsumerRecord<K,V>>"
+ , "c1" : ""
+ , "c2" : "Iterable<ConsumerRecord<K,V>>"
  , "c2" : "org.apache.kafka.clients.consumer.ConsumerRecords"
 }} 
 ]

@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ConsumerNetworkClient.PollCondition"
+ , "c1" : ""
+ , "c2" : "ConsumerNetworkClient.PollCondition"
  , "c2" : "org.apache.kafka.clients.consumer.internals.RequestFuture"
 }} 
 ]

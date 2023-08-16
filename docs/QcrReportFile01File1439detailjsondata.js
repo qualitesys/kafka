@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "RawSnapshotReader"
+ , "c1" : ""
+ , "c2" : "RawSnapshotReader,AutoCloseable"
  , "c2" : "org.apache.kafka.snapshot.FileRawSnapshotReader"
 }} 
 ]

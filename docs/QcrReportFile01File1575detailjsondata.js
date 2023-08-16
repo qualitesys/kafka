@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "RemoteLogMetadataTransform<RemotePartitionDeleteMetadata>"
+ , "c1" : ""
+ , "c2" : "RemoteLogMetadataTransform<RemotePartitionDeleteMetadata>"
  , "c2" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemotePartitionDeleteMetadataTransform"
 }} 
 ]

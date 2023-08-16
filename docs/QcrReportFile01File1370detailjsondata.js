@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ClusterMetadataAuthorizer"
+ , "c1" : ""
+ , "c2" : "ClusterMetadataAuthorizer"
  , "c2" : "org.apache.kafka.metadata.authorizer.StandardAuthorizer"
 }} 
 ]

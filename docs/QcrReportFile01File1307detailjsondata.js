@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AclMutator"
+ , "c1" : ""
+ , "c2" : "AclMutator,AutoCloseable"
  , "c2" : "org.apache.kafka.controller.Controller"
 }} 
 ]

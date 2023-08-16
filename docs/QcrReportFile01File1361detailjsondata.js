@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Comparator<Optional<String>>"
+ , "c1" : ""
+ , "c2" : "Comparator<Optional<String>>"
  , "c2" : "org.apache.kafka.metadata.OptionalStringComparator"
 }} 
 ]

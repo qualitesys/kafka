@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "RaftClient.Listener<Integer>"
+ , "c1" : ""
+ , "c2" : "RaftClient.Listener<Integer>"
  , "c2" : "org.apache.kafka.raft.ReplicatedCounter"
 }} 
 ]

@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "InternalNameProvider"
+ , "c1" : ""
+ , "c2" : "InternalNameProvider"
  , "c2" : "org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder"
 }} 
 ]

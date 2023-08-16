@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ServletResponse"
+ , "c1" : ""
+ , "c2" : "ServletResponse"
  , "c2" : "javax.servlet.http.HttpServletResponse"
 }} 
 ]

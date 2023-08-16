@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Header"
+ , "c1" : ""
+ , "c2" : "Header"
  , "c2" : "org.apache.kafka.common.header.internals.RecordHeader"
 }} 
 ]

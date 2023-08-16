@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Iterator<Batch<T>>"
+ , "c1" : ""
+ , "c2" : "Iterator<Batch<T>>,AutoCloseable"
  , "c2" : "org.apache.kafka.raft.BatchReader"
 }} 
 ]

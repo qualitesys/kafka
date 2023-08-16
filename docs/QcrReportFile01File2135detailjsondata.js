@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "WindowStore<Bytes,byte[]>"
+ , "c1" : "WrappedStateStore<WindowStore<Bytes,byte[]>,byte[],byte[]>"
+ , "c2" : "WindowStore<Bytes,byte[]>,CachedStateStore<byte[],byte[]>"
  , "c2" : "org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore"
 }} 
 ]

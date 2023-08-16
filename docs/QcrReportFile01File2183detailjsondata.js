@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Platform"
+ , "c1" : ""
+ , "c2" : "Platform"
  , "c2" : "org.apache.kafka.trogdor.basic.BasicPlatform"
 }} 
 ]

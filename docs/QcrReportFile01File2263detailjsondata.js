@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "PayloadGenerator"
+ , "c1" : ""
+ , "c2" : "PayloadGenerator"
  , "c2" : "org.apache.kafka.trogdor.workload.GaussianTimestampRandomPayloadGenerator"
 }} 
 ]

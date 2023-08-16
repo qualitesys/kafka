@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ConnectAssignor"
+ , "c1" : ""
+ , "c2" : "ConnectAssignor"
  , "c2" : "org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor"
 }} 
 ]

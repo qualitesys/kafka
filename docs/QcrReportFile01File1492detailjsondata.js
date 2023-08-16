@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "java.io.Closeable"
+ , "c1" : ""
+ , "c2" : "java.io.Closeable"
  , "c2" : "java.net.Socket"
 }} 
 ]

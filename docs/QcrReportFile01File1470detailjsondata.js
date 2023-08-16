@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Appendable"
+ , "c1" : ""
+ , "c2" : "Appendable,Closeable,Flushable"
  , "c2" : "java.io.Writer"
 }} 
 ]

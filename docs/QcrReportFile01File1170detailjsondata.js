@@ -2,13 +2,14 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/FileOffsetBackingStore.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/FileOffsetBackingStore.java 24 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/FileOffsetBackingStore.java 28 rule violations " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : ""
+ , "c1" : "MemoryOffsetBackingStore"
+ , "c2" : ""
  , "c2" : "org.apache.kafka.connect.storage.FileOffsetBackingStore"
 }} 
 ]
@@ -108,6 +109,7 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
+{ "ligne" :  "R0:org.apache.kafka.connect.storage.FileOffsetBackingStore.this" }
 ]
 ,
 "data12b" : [
@@ -121,7 +123,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "5"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -135,7 +137,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -305,7 +307,28 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/FileOffsetBackingStore.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.FileOffsetBackingStore.start@POLYN166835"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/FileOffsetBackingStore.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.FileOffsetBackingStore.load@POLYN167293"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/FileOffsetBackingStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.FileOffsetBackingStore.stop@POLYN167084"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00058"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/FileOffsetBackingStore.java.html#58"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.connect.storage.FileOffsetBackingStore.start@POLYN166835 the MagicNumber/String 'Starting FileOffsetBackingStore with file {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -341,6 +364,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/FileOffsetBackingStore.java.html#79"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.connect.storage.FileOffsetBackingStore.load@POLYN167293 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/FileOffsetBackingStore.java.html#66"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00066] In the recursive method org.apache.kafka.connect.storage.FileOffsetBackingStore.stop@POLYN167084 the MagicNumber/String 'Stopped FileOffsetBackingStore' MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Scheduler"
+ , "c1" : ""
+ , "c2" : "Scheduler"
  , "c2" : "org.apache.kafka.common.utils.SystemScheduler"
 }} 
 ]

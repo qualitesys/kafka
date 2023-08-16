@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "KeyValueIterator<Bytes,byte[]>"
+ , "c1" : "AbstractIterator<KeyValue<Bytes,byte[]>>"
+ , "c2" : "KeyValueIterator<Bytes,byte[]>"
  , "c2" : "org.apache.kafka.streams.state.internals.RocksDbIterator"
 }} 
 ]

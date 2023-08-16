@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Serializer<Windowed<T>>"
+ , "c1" : ""
+ , "c2" : "Serializer<Windowed<T>>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.WindowedSerializer"
 }} 
 ]

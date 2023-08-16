@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "FlushGenerator"
+ , "c1" : ""
+ , "c2" : "FlushGenerator"
  , "c2" : "org.apache.kafka.trogdor.workload.GaussianFlushGenerator"
 }} 
 ]

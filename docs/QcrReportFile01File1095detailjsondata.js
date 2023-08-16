@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "SinkTaskContext"
+ , "c1" : ""
+ , "c2" : "SinkTaskContext"
  , "c2" : "org.apache.kafka.connect.runtime.WorkerSinkTaskContext"
 }} 
 ]

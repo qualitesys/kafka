@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "TransactionGenerator"
+ , "c1" : ""
+ , "c2" : "TransactionGenerator"
  , "c2" : "org.apache.kafka.trogdor.workload.TimeIntervalTransactionsGenerator"
 }} 
 ]

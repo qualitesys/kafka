@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "StandbyTaskAssignor"
+ , "c1" : ""
+ , "c2" : "StandbyTaskAssignor"
  , "c2" : "org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor"
 }} 
 ]

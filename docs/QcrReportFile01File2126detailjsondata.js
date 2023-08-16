@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "CacheFunction"
+ , "c1" : ""
+ , "c2" : "CacheFunction"
  , "c2" : "org.apache.kafka.streams.state.internals.SegmentedCacheFunction"
 }} 
 ]

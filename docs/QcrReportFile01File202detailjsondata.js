@@ -2,13 +2,14 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java 493 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java 495 rule violations " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : ""
+ , "c1" : "AbstractCoordinator"
+ , "c2" : ""
  , "c2" : "org.apache.kafka.clients.consumer.internals.ConsumerCoordinator"
 }} 
 ]
@@ -478,7 +479,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "18"
+ , "c4" : "20"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1446,7 +1447,7 @@ var maDataBlocs = {
  , "c1" : "00820"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#820"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00820] For method onLeavePrepare list of called methods Object monObjet|java.lang.Exception invokePartitionsLostN419902|java.lang.Exception invokePartitionsRevokedN420006"
+ , "c3" : "QC-JAV000007[00820] For method onLeavePrepare list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation generationN419132|java.lang.Exception invokePartitionsLostN419902|java.lang.Exception invokePartitionsRevokedN420006"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1635,7 +1636,7 @@ var maDataBlocs = {
  , "c1" : "00921"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#921"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00921] For method fetchCommittedOffsets list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.clients.consumer.OffsetAndMetadata&gt;&gt; sendOffsetFetchRequestN424557"
+ , "c3" : "QC-JAV000007[00921] For method fetchCommittedOffsets list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation generationIfStableN423888|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.clients.consumer.OffsetAndMetadata&gt;&gt; sendOffsetFetchRequestN424557"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2040,6 +2041,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01199"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1199"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01199] For method sendOffsetCommitRequest list of called methods Object monObjet|org.apache.kafka.common.Node checkAndGetCoordinatorN434956|org.apache.kafka.clients.consumer.internals.AbstractCoordinator.Generation generationIfStableN436661"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01199"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1199"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01199] The argument offsets is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -2420,6 +2428,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1399"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01399] For method sendOffsetFetchRequest arguments Set&lt;TopicPartition &gt;  partitions"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01399"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1399"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01399] For method sendOffsetFetchRequest list of called methods Object monObjet|org.apache.kafka.common.Node checkAndGetCoordinatorN444828"
 }} 
 ,
 { "ligne" : {"" : ""

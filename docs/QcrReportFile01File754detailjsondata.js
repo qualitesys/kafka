@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AuthenticationContext"
+ , "c1" : ""
+ , "c2" : "AuthenticationContext"
  , "c2" : "org.apache.kafka.common.security.auth.PlaintextAuthenticationContext"
 }} 
 ]

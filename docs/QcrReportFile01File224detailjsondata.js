@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Producer<K,V>"
+ , "c1" : ""
+ , "c2" : "Producer<K,V>"
  , "c2" : "org.apache.kafka.clients.producer.MockProducer"
 }} 
 ]

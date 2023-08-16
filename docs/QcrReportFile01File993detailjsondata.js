@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "HeaderConverter"
+ , "c1" : ""
+ , "c2" : "HeaderConverter"
  , "c2" : "org.apache.kafka.connect.storage.SimpleHeaderConverter"
 }} 
 ]

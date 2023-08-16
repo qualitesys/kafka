@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ConfigDef.Validator"
+ , "c1" : ""
+ , "c2" : "ConfigDef.Validator"
  , "c2" : "org.apache.kafka.connect.transforms.util.NonEmptyListValidator"
 }} 
 ]

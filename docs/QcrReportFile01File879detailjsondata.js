@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Serializer<UUID>"
+ , "c1" : ""
+ , "c2" : "Serializer<UUID>"
  , "c2" : "org.apache.kafka.common.serialization.UUIDSerializer"
 }} 
 ]

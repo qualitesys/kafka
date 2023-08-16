@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : ""
+ , "c1" : "SourceGraphNode<K,V>"
+ , "c2" : ""
  , "c2" : "org.apache.kafka.streams.kstream.internals.graph.TableSourceNode"
 }} 
 ]

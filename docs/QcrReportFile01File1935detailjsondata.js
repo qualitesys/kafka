@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ConsumerRebalanceListener"
+ , "c1" : ""
+ , "c2" : "ConsumerRebalanceListener"
  , "c2" : "org.apache.kafka.streams.processor.internals.StreamsRebalanceListener"
 }} 
 ]

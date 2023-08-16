@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "CogroupedKStream<K,VOut>"
+ , "c1" : "AbstractStream<K,VOut>"
+ , "c2" : "CogroupedKStream<K,VOut>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.CogroupedKStreamImpl"
 }} 
 ]

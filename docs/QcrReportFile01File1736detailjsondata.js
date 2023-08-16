@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "KTableValueGetterSupplier<K,R>"
+ , "c1" : ""
+ , "c2" : "KTableValueGetterSupplier<K,R>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.KTableKTableAbstractJoinValueGetterSupplier"
 }} 
 ]

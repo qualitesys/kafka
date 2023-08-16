@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Deserializer<JsonNode>"
+ , "c1" : ""
+ , "c2" : "Deserializer<JsonNode>"
  , "c2" : "org.apache.kafka.connect.json.JsonDeserializer"
 }} 
 ]

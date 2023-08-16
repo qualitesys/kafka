@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "AdminApiLookupStrategy<AllBrokersStrategy.BrokerKey>"
+ , "c1" : ""
+ , "c2" : "AdminApiLookupStrategy<AllBrokersStrategy.BrokerKey>"
  , "c2" : "org.apache.kafka.clients.admin.internals.AllBrokersStrategy"
 }} 
 ]

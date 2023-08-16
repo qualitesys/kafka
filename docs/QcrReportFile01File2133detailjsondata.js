@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "StreamsMetadata"
+ , "c1" : ""
+ , "c2" : "StreamsMetadata"
  , "c2" : "org.apache.kafka.streams.state.internals.StreamsMetadataImpl"
 }} 
 ]

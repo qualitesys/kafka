@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Comparable<Uuid>"
+ , "c1" : ""
+ , "c2" : "Comparable<Uuid>"
  , "c2" : "org.apache.kafka.common.Uuid"
 }} 
 ]

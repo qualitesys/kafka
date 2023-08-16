@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "TransportLayer"
+ , "c1" : ""
+ , "c2" : "TransportLayer"
  , "c2" : "org.apache.kafka.common.network.SslTransportLayer"
 }} 
 ]

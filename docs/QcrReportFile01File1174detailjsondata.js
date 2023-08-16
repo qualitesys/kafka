@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ConfigBackingStore"
+ , "c1" : ""
+ , "c2" : "ConfigBackingStore"
  , "c2" : "org.apache.kafka.connect.storage.MemoryConfigBackingStore"
 }} 
 ]

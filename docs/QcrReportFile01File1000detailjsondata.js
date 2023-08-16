@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ContainerRequestFilter"
+ , "c1" : ""
+ , "c2" : "ContainerRequestFilter"
  , "c2" : "org.apache.kafka.connect.rest.basic.auth.extension.JaasBasicAuthFilter"
 }} 
 ]

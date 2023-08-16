@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ConnectResource"
+ , "c1" : ""
+ , "c2" : "ConnectResource"
  , "c2" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource"
 }} 
 ]

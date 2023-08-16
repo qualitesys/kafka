@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Query<KeyValueIterator<Windowed<K>,V>>"
+ , "c1" : ""
+ , "c2" : "Query<KeyValueIterator<Windowed<K>,V>>"
  , "c2" : "org.apache.kafka.streams.query.WindowRangeQuery"
 }} 
 ]

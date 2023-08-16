@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Receive"
+ , "c1" : ""
+ , "c2" : "Receive"
  , "c2" : "org.apache.kafka.common.network.NetworkReceive"
 }} 
 ]

@@ -2,13 +2,14 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java 136 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java 138 rule violations " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : ""
+ , "c1" : "AbstractConfig"
+ , "c2" : ""
  , "c2" : "org.apache.kafka.streams.StreamsConfig"
 }} 
 ]
@@ -390,7 +391,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "11"
+ , "c4" : "13"
 }}
  ] 
 ,
@@ -1089,6 +1090,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01651"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1651"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01651] For method defaultKeySerde list of called methods Object monObjet|java.lang.Object getN484747"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01653"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1653"
  , "c2" : "MAJOR"
@@ -1114,6 +1122,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1662"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01662] In method org.apache.kafka.streams.StreamsConfig.defaultKeySerde@POLYN484665 the MagicNumber/String  'Failed to configure key serde %s' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01673"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1673"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01673] For method defaultValueSerde list of called methods Object monObjet|java.lang.Object getN485734"
 }} 
 ,
 { "ligne" : {"" : ""

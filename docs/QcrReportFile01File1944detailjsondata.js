@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ThreadMetadata"
+ , "c1" : ""
+ , "c2" : "ThreadMetadata"
  , "c2" : "org.apache.kafka.streams.processor.internals.ThreadMetadataImpl"
 }} 
 ]

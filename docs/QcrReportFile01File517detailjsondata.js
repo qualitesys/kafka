@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ScatteringByteChannel"
+ , "c1" : ""
+ , "c2" : "ScatteringByteChannel,TransferableChannel"
  , "c2" : "org.apache.kafka.common.network.TransportLayer"
 }} 
 ]

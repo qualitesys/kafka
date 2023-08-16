@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Deserializer<Long>"
+ , "c1" : ""
+ , "c2" : "Deserializer<Long>"
  , "c2" : "org.apache.kafka.common.serialization.LongDeserializer"
 }} 
 ]

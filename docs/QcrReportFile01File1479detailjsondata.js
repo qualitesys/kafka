@@ -2,13 +2,14 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.Float.java.html" 
- , "texte" : "File secujava/java.lang.Float.java 36 rule violations " 
+ , "texte" : "File secujava/java.lang.Float.java 32 rule violations " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Comparable<Float>"
+ , "c1" : "Number"
+ , "c2" : "Comparable<Float>"
  , "c2" : "java.lang.Float"
 }} 
 ]
@@ -298,13 +299,6 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -315,7 +309,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "6"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -563,34 +557,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.shortValue@POLYN381403"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Float.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.toHexString@POLYN371625"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00278"
- , "c1link" : "./qc/secujava/java.lang.Float.java.html#278"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00278] In the recursive method java.lang.Float.toHexString@POLYN371625 the MagicNumber/String 0.0f MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00286"
- , "c1link" : "./qc/secujava/java.lang.Float.java.html#286"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00286] In the recursive method java.lang.Float.toHexString@POLYN371625 the MagicNumber/String 'p-1022$' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00286"
- , "c1link" : "./qc/secujava/java.lang.Float.java.html#286"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00286] In the recursive method java.lang.Float.toHexString@POLYN371625 the MagicNumber/String 'p-126' MUST BE CONVERTED to const"
 }} 
 ]
 , 

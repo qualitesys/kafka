@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : ""
+ , "c1" : "AdminApiHandler.Batched<TopicPartition,PartitionProducerState>"
+ , "c2" : ""
  , "c2" : "org.apache.kafka.clients.admin.internals.DescribeProducersHandler"
 }} 
 ]

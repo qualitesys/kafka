@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Comparable<Integer>"
+ , "c1" : "Number"
+ , "c2" : "Comparable<Integer>"
  , "c2" : "java.lang.Integer"
 }} 
 ]

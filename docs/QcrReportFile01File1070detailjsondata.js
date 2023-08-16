@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "CloseableConnectorContext"
+ , "c1" : ""
+ , "c2" : "CloseableConnectorContext"
  , "c2" : "org.apache.kafka.connect.runtime.HerderConnectorContext"
 }} 
 ]

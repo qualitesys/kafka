@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "RemoteLogMetadataManager"
+ , "c1" : ""
+ , "c2" : "RemoteLogMetadataManager"
  , "c2" : "org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager"
 }} 
 ]

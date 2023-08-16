@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Iterable<T>"
+ , "c1" : ""
+ , "c2" : "Iterable<T>"
  , "c2" : "org.apache.kafka.raft.Batch"
 }} 
 ]

@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Future<T>"
+ , "c1" : ""
+ , "c2" : "Future<T>"
  , "c2" : "org.apache.kafka.common.KafkaFuture"
 }} 
 ]

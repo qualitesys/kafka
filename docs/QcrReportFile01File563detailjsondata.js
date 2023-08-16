@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "BaseRecords"
+ , "c1" : ""
+ , "c2" : "BaseRecords"
  , "c2" : "org.apache.kafka.common.record.LazyDownConversionRecords"
 }} 
 ]

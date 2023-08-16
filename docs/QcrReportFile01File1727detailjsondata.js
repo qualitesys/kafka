@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "KStreamAggProcessorSupplier<K,V,K,V>"
+ , "c1" : ""
+ , "c2" : "KStreamAggProcessorSupplier<K,V,K,V>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.KStreamReduce"
 }} 
 ]

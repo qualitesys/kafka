@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "TimeOrderedKeyValueBuffer<K,V>"
+ , "c1" : ""
+ , "c2" : "TimeOrderedKeyValueBuffer<K,V>"
  , "c2" : "org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer"
 }} 
 ]

@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : ""
+ , "c1" : "AsyncClient<Map<TopicPartition,SubscriptionState.FetchPosition>,OffsetsForLeaderEpochRequest,OffsetsForLeaderEpochResponse,OffsetsForLeaderEpochClient.OffsetForEpochResult>"
+ , "c2" : ""
  , "c2" : "org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient"
 }} 
 ]

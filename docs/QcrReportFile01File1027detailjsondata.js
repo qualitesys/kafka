@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : ""
+ , "c1" : "SourceTask"
+ , "c2" : ""
  , "c2" : "org.apache.kafka.connect.mirror.MirrorCheckpointTask"
 }} 
 ]
@@ -296,7 +297,7 @@ var maDataBlocs = {
  , "c1" : "00086"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#86"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00086] For method start list of called methods Object monObjet|org.apache.kafka.clients.admin.AdminClient AdminClient_createN204037|org.apache.kafka.clients.admin.AdminClient AdminClient_createN204150"
+ , "c3" : "QC-JAV000007[00086] For method start list of called methods Object monObjet|java.lang.String config_sourceClusterAliasN203353|java.lang.String config_targetClusterAliasN203427|java.util.Set&lt;java.lang.String&gt; config_taskConsumerGroupsN203501|org.apache.kafka.clients.admin.AdminClient AdminClient_createN204037|org.apache.kafka.clients.admin.AdminClient AdminClient_createN204150"
 }} 
 ,
 { "ligne" : {"" : ""

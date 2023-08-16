@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Iterable<Header>"
+ , "c1" : ""
+ , "c2" : "Iterable<Header>"
  , "c2" : "org.apache.kafka.common.header.Headers"
 }} 
 ]

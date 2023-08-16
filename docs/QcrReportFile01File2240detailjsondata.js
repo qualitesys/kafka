@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "WorkerStatusTracker"
+ , "c1" : ""
+ , "c2" : "WorkerStatusTracker"
  , "c2" : "org.apache.kafka.trogdor.task.AgentWorkerStatusTracker"
 }} 
 ]

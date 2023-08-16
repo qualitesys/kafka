@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ReplicaSelector"
+ , "c1" : ""
+ , "c2" : "ReplicaSelector"
  , "c2" : "org.apache.kafka.common.replica.RackAwareReplicaSelector"
 }} 
 ]

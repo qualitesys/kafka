@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Comparable<StandardAcl>"
+ , "c1" : ""
+ , "c2" : "Comparable<StandardAcl>"
  , "c2" : "org.apache.kafka.metadata.authorizer.StandardAcl"
 }} 
 ]

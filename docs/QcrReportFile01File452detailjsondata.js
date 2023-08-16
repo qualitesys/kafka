@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "MemoryPool"
+ , "c1" : ""
+ , "c2" : "MemoryPool"
  , "c2" : "org.apache.kafka.common.memory.SimpleMemoryPool"
 }} 
 ]

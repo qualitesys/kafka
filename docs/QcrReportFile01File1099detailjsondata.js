@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "TransactionContext"
+ , "c1" : ""
+ , "c2" : "TransactionContext"
  , "c2" : "org.apache.kafka.connect.runtime.WorkerTransactionContext"
 }} 
 ]

@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ConfigProvider"
+ , "c1" : ""
+ , "c2" : "ConfigProvider"
  , "c2" : "org.apache.kafka.common.config.provider.FileConfigProvider"
 }} 
 ]

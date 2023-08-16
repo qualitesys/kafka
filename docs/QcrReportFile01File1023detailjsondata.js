@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "GroupFilter"
+ , "c1" : ""
+ , "c2" : "GroupFilter"
  , "c2" : "org.apache.kafka.connect.mirror.DefaultGroupFilter"
 }} 
 ]

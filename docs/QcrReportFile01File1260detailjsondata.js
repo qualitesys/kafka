@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "TypeClassGenerator"
+ , "c1" : ""
+ , "c2" : "TypeClassGenerator"
  , "c2" : "org.apache.kafka.message.MetadataJsonConvertersGenerator"
 }} 
 ]

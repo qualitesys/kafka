@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Serializable"
+ , "c1" : ""
+ , "c2" : "Serializable"
  , "c2" : "org.apache.kafka.common.TopicPartition"
 }} 
 ]

@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "CompoundStat"
+ , "c1" : "SampledStat"
+ , "c2" : "CompoundStat"
  , "c2" : "org.apache.kafka.common.metrics.stats.Frequencies"
 }} 
 ]

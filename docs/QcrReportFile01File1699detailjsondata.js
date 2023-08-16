@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "GlobalKTable<K,V>"
+ , "c1" : ""
+ , "c2" : "GlobalKTable<K,V>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.GlobalKTableImpl"
 }} 
 ]

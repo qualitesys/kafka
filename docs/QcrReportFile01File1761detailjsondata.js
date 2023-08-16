@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "CacheFlushListener<Windowed<KOut>,VOut>"
+ , "c1" : ""
+ , "c2" : "CacheFlushListener<Windowed<KOut>,VOut>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.SessionCacheFlushListener"
 }} 
 ]

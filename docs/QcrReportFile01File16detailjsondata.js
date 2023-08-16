@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "MetadataUpdater"
+ , "c1" : ""
+ , "c2" : "MetadataUpdater"
  , "c2" : "org.apache.kafka.clients.ManualMetadataUpdater"
 }} 
 ]

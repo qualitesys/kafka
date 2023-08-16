@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Consumer<MetadataNodeManager.Data>"
+ , "c1" : ""
+ , "c2" : "Consumer<MetadataNodeManager.Data>"
  , "c2" : "org.apache.kafka.shell.GlobVisitor"
 }} 
 ]

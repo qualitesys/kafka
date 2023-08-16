@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : ""
+ , "c1" : "AbstractConfig"
+ , "c2" : ""
  , "c2" : "org.apache.kafka.clients.consumer.ConsumerConfig"
 }} 
 ]
@@ -311,7 +312,7 @@ var maDataBlocs = {
  , "c1" : "00623"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerConfig.java.html#623"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00623] For method maybeOverrideEnableAutoCommit list of called methods Object monObjet|boolean getBooleanN258925"
+ , "c3" : "QC-JAV000007[00623] For method maybeOverrideEnableAutoCommit list of called methods Object monObjet|java.lang.Boolean getBooleanN258925"
 }} 
 ,
 { "ligne" : {"" : ""

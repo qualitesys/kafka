@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ChangelogRegister"
+ , "c1" : ""
+ , "c2" : "ChangelogRegister"
  , "c2" : "org.apache.kafka.streams.processor.internals.ChangelogReader"
 }} 
 ]

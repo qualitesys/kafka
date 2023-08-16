@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Closeable"
+ , "c1" : ""
+ , "c2" : "Closeable,OffsetStorageReader"
  , "c2" : "org.apache.kafka.connect.storage.CloseableOffsetStorageReader"
 }} 
 ]

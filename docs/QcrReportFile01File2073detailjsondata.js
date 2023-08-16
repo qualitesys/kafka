@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "WrappingNullableSerializer<LeftOrRightValue<V1,V2>,Void,Object>"
+ , "c1" : ""
+ , "c2" : "WrappingNullableSerializer<LeftOrRightValue<V1,V2>,Void,Object>"
  , "c2" : "org.apache.kafka.streams.state.internals.LeftOrRightValueSerializer"
 }} 
 ]

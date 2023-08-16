@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "RecordSerde<String>"
+ , "c1" : ""
+ , "c2" : "RecordSerde<String>"
  , "c2" : "org.apache.kafka.raft.internals.StringSerde"
 }} 
 ]

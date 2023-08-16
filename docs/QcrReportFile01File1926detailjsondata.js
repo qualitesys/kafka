@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "TopicNameExtractor<K,V>"
+ , "c1" : ""
+ , "c2" : "TopicNameExtractor<K,V>"
  , "c2" : "org.apache.kafka.streams.processor.internals.StaticTopicNameExtractor"
 }} 
 ]

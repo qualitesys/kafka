@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ThroughputGenerator"
+ , "c1" : ""
+ , "c2" : "ThroughputGenerator"
  , "c2" : "org.apache.kafka.trogdor.workload.ConstantThroughputGenerator"
 }} 
 ]

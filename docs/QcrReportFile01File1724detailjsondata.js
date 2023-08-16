@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "FixedKeyProcessorSupplier<KIn,VIn,VOut>"
+ , "c1" : ""
+ , "c2" : "FixedKeyProcessorSupplier<KIn,VIn,VOut>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.KStreamMapValues"
 }} 
 ]

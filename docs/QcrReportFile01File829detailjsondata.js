@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "LoginModule"
+ , "c1" : ""
+ , "c2" : "LoginModule"
  , "c2" : "org.apache.kafka.common.security.plain.PlainLoginModule"
 }} 
 ]

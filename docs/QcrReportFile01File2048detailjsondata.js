@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ReadOnlyWindowStore<K,V>"
+ , "c1" : ""
+ , "c2" : "ReadOnlyWindowStore<K,V>"
  , "c2" : "org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore"
 }} 
 ]

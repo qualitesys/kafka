@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "QuorumStateStore"
+ , "c1" : ""
+ , "c2" : "QuorumStateStore"
  , "c2" : "org.apache.kafka.raft.FileBasedStateStore"
 }} 
 ]

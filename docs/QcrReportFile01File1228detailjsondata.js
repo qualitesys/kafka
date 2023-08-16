@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Predicate<R>"
+ , "c1" : ""
+ , "c2" : "Predicate<R>"
  , "c2" : "org.apache.kafka.connect.transforms.predicates.HasHeaderKey"
 }} 
 ]

@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ConfigPropertyFilter"
+ , "c1" : ""
+ , "c2" : "ConfigPropertyFilter"
  , "c2" : "org.apache.kafka.connect.mirror.DefaultConfigPropertyFilter"
 }} 
 ]

@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Principal"
+ , "c1" : ""
+ , "c2" : "Principal"
  , "c2" : "org.apache.kafka.common.security.auth.KafkaPrincipal"
 }} 
 ]

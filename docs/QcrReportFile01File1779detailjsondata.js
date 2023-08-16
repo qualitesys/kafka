@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Deserializer<Outer>"
+ , "c1" : ""
+ , "c2" : "Deserializer<Outer>"
  , "c2" : "org.apache.kafka.streams.kstream.internals.WrappingNullableDeserializer"
 }} 
 ]

@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "Message"
+ , "c1" : ""
+ , "c2" : "Message"
  , "c2" : "org.apache.kafka.common.protocol.ApiMessage"
 }} 
 ]

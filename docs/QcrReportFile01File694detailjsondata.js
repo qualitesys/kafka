@@ -2,13 +2,14 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java 31 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java 32 rule violations " 
  , "fic3"  : "" 
 }
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : ""
+ , "c1" : "AbstractRequest"
+ , "c2" : ""
  , "c2" : "org.apache.kafka.common.requests.ListOffsetsRequest"
 }} 
 ]
@@ -187,6 +188,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "8"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -293,6 +301,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#114"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00114] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#114"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00114] For method getErrorResponse list of called methods Object monObjet|short versionN181590"
 }} 
 ,
 { "ligne" : {"" : ""

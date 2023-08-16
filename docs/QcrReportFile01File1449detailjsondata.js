@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : ""
+ , "c1" : "FilterInputStream"
+ , "c2" : ""
  , "c2" : "java.io.BufferedInputStream"
 }} 
 ]

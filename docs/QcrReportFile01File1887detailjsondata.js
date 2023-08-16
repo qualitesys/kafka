@@ -8,7 +8,8 @@ var maDataBlocs = {
 , 
 "data01" : [
 { "ligne" : { "" : ""
- , "c1" : "ProcessorContext"
+ , "c1" : ""
+ , "c2" : "ProcessorContext,org.apache.kafka.streams.processor.api.ProcessorContext<KOut,VOut>,org.apache.kafka.streams.processor.api.FixedKeyProcessorContext<KOut,VOut>,StateStoreContext"
  , "c2" : "org.apache.kafka.streams.processor.internals.InternalProcessorContext"
 }} 
 ]
