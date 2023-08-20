@@ -122,7 +122,7 @@ var maDataBlocs = {
  , "c1" : "00049"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/CommittedOffsetsFile.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method toString arguments Map.Entry&lt;Integer ,Long &gt;  entry"
+ , "c3" : "QC-JAV000006[00049] For method toString arguments Map.Entry&lt;Integer,Long&gt;  entry"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -171,7 +171,7 @@ var maDataBlocs = {
  , "c1" : "00070"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/CommittedOffsetsFile.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method writeEntries arguments Map&lt;Integer ,Long &gt;  committedOffsets"
+ , "c3" : "QC-JAV000006[00070] For method writeEntries arguments Map&lt;Integer,Long&gt;  committedOffsets"
 }} 
 ,
 { "ligne" : {"" : ""

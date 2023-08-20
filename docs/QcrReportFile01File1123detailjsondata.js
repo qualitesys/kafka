@@ -295,7 +295,7 @@ var maDataBlocs = {
  , "c1" : "00097"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00097] For method executeFailed arguments Stage  stage|Class&lt;? &gt;  executingClass|ConsumerRecord&lt;byte[] ,byte[] &gt;  consumerRecord|Throwable  error"
+ , "c3" : "QC-JAV000006[00097] For method executeFailed arguments Stage  stage|Class&lt;?&gt;  executingClass|ConsumerRecord&lt;byte[],byte[]&gt;  consumerRecord|Throwable  error"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -323,7 +323,7 @@ var maDataBlocs = {
  , "c1" : "00114"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#114"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00114] For method executeFailed arguments Stage  stage|Class&lt;? &gt;  executingClass|SourceRecord  sourceRecord|Throwable  error"
+ , "c3" : "QC-JAV000006[00114] For method executeFailed arguments Stage  stage|Class&lt;?&gt;  executingClass|SourceRecord  sourceRecord|Throwable  error"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -603,7 +603,7 @@ var maDataBlocs = {
  , "c1" : "00296"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#296"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00296] For method reporters arguments List&lt;ErrorReporter &gt;  reporters"
+ , "c3" : "QC-JAV000006[00296] For method reporters arguments List&lt;ErrorReporter&gt;  reporters"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -631,7 +631,7 @@ var maDataBlocs = {
  , "c1" : "00314"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#314"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00314] For method consumerRecord arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  consumedMessage"
+ , "c3" : "QC-JAV000006[00314] For method consumerRecord arguments ConsumerRecord&lt;byte[],byte[]&gt;  consumedMessage"
 }} 
 ,
 { "ligne" : {"" : ""

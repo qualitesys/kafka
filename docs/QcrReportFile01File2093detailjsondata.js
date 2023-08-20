@@ -199,7 +199,7 @@ var maDataBlocs = {
  , "c1" : "00080"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OffsetCheckpoint.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method write arguments Map&lt;TopicPartition ,Long &gt;  offsets"
+ , "c3" : "QC-JAV000006[00080] For method write arguments Map&lt;TopicPartition,Long&gt;  offsets"
 }} 
 ,
 { "ligne" : {"" : ""

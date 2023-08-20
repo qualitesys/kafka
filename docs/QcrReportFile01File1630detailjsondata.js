@@ -227,7 +227,7 @@ var maDataBlocs = {
  , "c1" : "00105"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#105"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00105] For method addTopologyDescriptionMetric arguments StreamsMetricsImpl  streamsMetrics|Gauge&lt;String &gt;  topologyDescription"
+ , "c3" : "QC-JAV000006[00105] For method addTopologyDescriptionMetric arguments StreamsMetricsImpl  streamsMetrics|Gauge&lt;String&gt;  topologyDescription"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -241,7 +241,7 @@ var maDataBlocs = {
  , "c1" : "00115"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#115"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00115] For method addStateMetric arguments StreamsMetricsImpl  streamsMetrics|Gauge&lt;State &gt;  stateProvider"
+ , "c3" : "QC-JAV000006[00115] For method addStateMetric arguments StreamsMetricsImpl  streamsMetrics|Gauge&lt;State&gt;  stateProvider"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -255,7 +255,7 @@ var maDataBlocs = {
  , "c1" : "00125"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/metrics/ClientMetrics.java.html#125"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00125] For method addNumAliveStreamThreadMetric arguments StreamsMetricsImpl  streamsMetrics|Gauge&lt;Integer &gt;  stateProvider"
+ , "c3" : "QC-JAV000006[00125] For method addNumAliveStreamThreadMetric arguments StreamsMetricsImpl  streamsMetrics|Gauge&lt;Integer&gt;  stateProvider"
 }} 
 ,
 { "ligne" : {"" : ""

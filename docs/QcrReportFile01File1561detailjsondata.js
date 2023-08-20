@@ -178,7 +178,7 @@ var maDataBlocs = {
  , "c1" : "00063"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00063] For method listAllRemoteLogSegments arguments Map&lt;RemoteLogSegmentId ,RemoteLogSegmentMetadata &gt;  idToSegmentMetadata"
+ , "c3" : "QC-JAV000006[00063] For method listAllRemoteLogSegments arguments Map&lt;RemoteLogSegmentId,RemoteLogSegmentMetadata&gt;  idToSegmentMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -192,7 +192,7 @@ var maDataBlocs = {
  , "c1" : "00084"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.html#84"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00084] For method collectConvertedIdToMetadata arguments Collection&lt;RemoteLogSegmentId &gt;  segmentIds|Map&lt;RemoteLogSegmentId ,RemoteLogSegmentMetadata &gt;  idToSegmentMetadata|Collection&lt;RemoteLogSegmentMetadata &gt;  result"
+ , "c3" : "QC-JAV000006[00084] For method collectConvertedIdToMetadata arguments Collection&lt;RemoteLogSegmentId&gt;  segmentIds|Map&lt;RemoteLogSegmentId,RemoteLogSegmentMetadata&gt;  idToSegmentMetadata|Collection&lt;RemoteLogSegmentMetadata&gt;  result"
 }} 
 ,
 { "ligne" : {"" : ""

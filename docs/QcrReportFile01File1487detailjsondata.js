@@ -548,7 +548,7 @@ var maDataBlocs = {
  , "c1" : "00690"
  , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#690"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00690] For method printEnclosedStackTrace arguments PrintStreamOrWriter  s|StackTraceElement[]  enclosingTrace|String  caption|String  prefix|Set&lt;Throwable &gt;  dejaVu"
+ , "c3" : "QC-JAV000006[00690] For method printEnclosedStackTrace arguments PrintStreamOrWriter  s|StackTraceElement[]  enclosingTrace|String  caption|String  prefix|Set&lt;Throwable&gt;  dejaVu"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -905,7 +905,7 @@ var maDataBlocs = {
  , "c1" : "00977"
  , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#977"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00977] For method validateSuppressedExceptionsList arguments List&lt;Throwable &gt;  deserSuppressedExceptions"
+ , "c3" : "QC-JAV000006[00977] For method validateSuppressedExceptionsList arguments List&lt;Throwable&gt;  deserSuppressedExceptions"
 }} 
 ,
 { "ligne" : {"" : ""

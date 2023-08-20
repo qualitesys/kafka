@@ -183,7 +183,7 @@ var maDataBlocs = {
  , "c1" : "00106"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableJoinMerger.java.html#106"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00106] For method init arguments ProcessorContext&lt;K ,Change&lt;V &gt; &gt;  context"
+ , "c3" : "QC-JAV000006[00106] For method init arguments ProcessorContext&lt;K,Change&lt;V&gt;&gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -204,7 +204,7 @@ var maDataBlocs = {
  , "c1" : "00119"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableJoinMerger.java.html#119"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00119] For method process arguments Record&lt;K ,Change&lt;V &gt; &gt;  record"
+ , "c3" : "QC-JAV000006[00119] For method process arguments Record&lt;K,Change&lt;V&gt;&gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""

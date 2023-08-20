@@ -363,7 +363,7 @@ var maDataBlocs = {
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00072] For method assign arguments Map&lt;String ,Integer &gt;  partitionsPerTopic|Map&lt;String ,Subscription &gt;  subscriptions"
+ , "c3" : "QC-JAV000006[00072] For method assign arguments Map&lt;String,Integer&gt;  partitionsPerTopic|Map&lt;String,Subscription&gt;  subscriptions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -412,7 +412,7 @@ var maDataBlocs = {
  , "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#95"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00095] For method allSubscriptionsEqual arguments Set&lt;String &gt;  allTopics|Map&lt;String ,Subscription &gt;  subscriptions|Map&lt;String ,List&lt;TopicPartition &gt; &gt;  consumerToOwnedPartitions|Set&lt;TopicPartition &gt;  partitionsWithMultiplePreviousOwners"
+ , "c3" : "QC-JAV000006[00095] For method allSubscriptionsEqual arguments Set&lt;String&gt;  allTopics|Map&lt;String,Subscription&gt;  subscriptions|Map&lt;String,List&lt;TopicPartition&gt;&gt;  consumerToOwnedPartitions|Set&lt;TopicPartition&gt;  partitionsWithMultiplePreviousOwners"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -552,7 +552,7 @@ var maDataBlocs = {
  , "c1" : "00182"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#182"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00182] For method constrainedAssign arguments Map&lt;String ,Integer &gt;  partitionsPerTopic|Map&lt;String ,List&lt;TopicPartition &gt; &gt;  consumerToOwnedPartitions|Set&lt;TopicPartition &gt;  partitionsWithMultiplePreviousOwners"
+ , "c3" : "QC-JAV000006[00182] For method constrainedAssign arguments Map&lt;String,Integer&gt;  partitionsPerTopic|Map&lt;String,List&lt;TopicPartition&gt;&gt;  consumerToOwnedPartitions|Set&lt;TopicPartition&gt;  partitionsWithMultiplePreviousOwners"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -825,7 +825,7 @@ var maDataBlocs = {
  , "c1" : "00353"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#353"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00353] For method getAllTopicPartitions arguments Map&lt;String ,Integer &gt;  partitionsPerTopic|List&lt;String &gt;  sortedAllTopics|int  totalPartitionsCount"
+ , "c3" : "QC-JAV000006[00353] For method getAllTopicPartitions arguments Map&lt;String,Integer&gt;  partitionsPerTopic|List&lt;String&gt;  sortedAllTopics|int  totalPartitionsCount"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -846,7 +846,7 @@ var maDataBlocs = {
  , "c1" : "00383"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#383"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00383] For method generalAssign arguments Map&lt;String ,Integer &gt;  partitionsPerTopic|Map&lt;String ,Subscription &gt;  subscriptions|Map&lt;String ,List&lt;TopicPartition &gt; &gt;  currentAssignment"
+ , "c3" : "QC-JAV000006[00383] For method generalAssign arguments Map&lt;String,Integer&gt;  partitionsPerTopic|Map&lt;String,Subscription&gt;  subscriptions|Map&lt;String,List&lt;TopicPartition&gt;&gt;  currentAssignment"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1000,7 +1000,7 @@ var maDataBlocs = {
  , "c1" : "00501"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#501"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00501] For method getUnassignedPartitions arguments List&lt;TopicPartition &gt;  sortedAllPartitions|List&lt;TopicPartition &gt;  sortedAssignedPartitions|Map&lt;String ,List&lt;String &gt; &gt;  topic2AllPotentialConsumers"
+ , "c3" : "QC-JAV000006[00501] For method getUnassignedPartitions arguments List&lt;TopicPartition&gt;  sortedAllPartitions|List&lt;TopicPartition&gt;  sortedAssignedPartitions|Map&lt;String,List&lt;String&gt;&gt;  topic2AllPotentialConsumers"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1028,7 +1028,7 @@ var maDataBlocs = {
  , "c1" : "00549"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#549"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00549] For method getUnassignedPartitions arguments int  totalPartitionsCount|Map&lt;String ,Integer &gt;  partitionsPerTopic|List&lt;TopicPartition &gt;  sortedAssignedPartitions"
+ , "c3" : "QC-JAV000006[00549] For method getUnassignedPartitions arguments int  totalPartitionsCount|Map&lt;String,Integer&gt;  partitionsPerTopic|List&lt;TopicPartition&gt;  sortedAssignedPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1070,7 +1070,7 @@ var maDataBlocs = {
  , "c1" : "00597"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#597"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00597] For method updatePrevAssignment arguments Map&lt;TopicPartition ,ConsumerGenerationPair &gt;  prevAssignment|List&lt;TopicPartition &gt;  partitions|String  consumer|int  generation"
+ , "c3" : "QC-JAV000006[00597] For method updatePrevAssignment arguments Map&lt;TopicPartition,ConsumerGenerationPair&gt;  prevAssignment|List&lt;TopicPartition&gt;  partitions|String  consumer|int  generation"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1084,7 +1084,7 @@ var maDataBlocs = {
  , "c1" : "00619"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#619"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00619] For method prepopulateCurrentAssignments arguments Map&lt;String ,Subscription &gt;  subscriptions|Map&lt;TopicPartition ,ConsumerGenerationPair &gt;  prevAssignment"
+ , "c3" : "QC-JAV000006[00619] For method prepopulateCurrentAssignments arguments Map&lt;String,Subscription&gt;  subscriptions|Map&lt;TopicPartition,ConsumerGenerationPair&gt;  prevAssignment"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1126,7 +1126,7 @@ var maDataBlocs = {
  , "c1" : "00656"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#656"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00656] For method isBalanced arguments Map&lt;String ,List&lt;TopicPartition &gt; &gt;  currentAssignment|TreeSet&lt;String &gt;  sortedCurrentSubscriptions|Map&lt;String ,List&lt;String &gt; &gt;  allSubscriptions|Map&lt;String ,Integer &gt;  partitionsPerTopic|int  totalPartitionCount"
+ , "c3" : "QC-JAV000006[00656] For method isBalanced arguments Map&lt;String,List&lt;TopicPartition&gt;&gt;  currentAssignment|TreeSet&lt;String&gt;  sortedCurrentSubscriptions|Map&lt;String,List&lt;String&gt;&gt;  allSubscriptions|Map&lt;String,Integer&gt;  partitionsPerTopic|int  totalPartitionCount"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1294,7 +1294,7 @@ var maDataBlocs = {
  , "c1" : "00720"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#720"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00720] For method getMaxAssignmentSize arguments int  totalPartitionCount|List&lt;String &gt;  allSubscribedTopics|Map&lt;String ,Integer &gt;  partitionsPerTopic"
+ , "c3" : "QC-JAV000006[00720] For method getMaxAssignmentSize arguments int  totalPartitionCount|List&lt;String&gt;  allSubscribedTopics|Map&lt;String,Integer&gt;  partitionsPerTopic"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1322,7 +1322,7 @@ var maDataBlocs = {
  , "c1" : "00737"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#737"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00737] For method getBalanceScore arguments Map&lt;String ,List&lt;TopicPartition &gt; &gt;  assignment"
+ , "c3" : "QC-JAV000006[00737] For method getBalanceScore arguments Map&lt;String,List&lt;TopicPartition&gt;&gt;  assignment"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1357,7 +1357,7 @@ var maDataBlocs = {
  , "c1" : "00759"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#759"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00759] For method assignPartition arguments TopicPartition  partition|TreeSet&lt;String &gt;  sortedCurrentSubscriptions|Map&lt;String ,List&lt;TopicPartition &gt; &gt;  currentAssignment|Map&lt;String ,List&lt;String &gt; &gt;  consumer2AllPotentialTopics|Map&lt;TopicPartition ,String &gt;  currentPartitionConsumer"
+ , "c3" : "QC-JAV000006[00759] For method assignPartition arguments TopicPartition  partition|TreeSet&lt;String&gt;  sortedCurrentSubscriptions|Map&lt;String,List&lt;TopicPartition&gt;&gt;  currentAssignment|Map&lt;String,List&lt;String&gt;&gt;  consumer2AllPotentialTopics|Map&lt;TopicPartition,String&gt;  currentPartitionConsumer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1399,7 +1399,7 @@ var maDataBlocs = {
  , "c1" : "00775"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#775"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00775] For method canParticipateInReassignment arguments String  topic|Map&lt;String ,List&lt;String &gt; &gt;  topic2AllPotentialConsumers"
+ , "c3" : "QC-JAV000006[00775] For method canParticipateInReassignment arguments String  topic|Map&lt;String,List&lt;String&gt;&gt;  topic2AllPotentialConsumers"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1420,7 +1420,7 @@ var maDataBlocs = {
  , "c1" : "00781"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#781"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00781] For method canParticipateInReassignment arguments String  consumer|Map&lt;String ,List&lt;TopicPartition &gt; &gt;  currentAssignment|Map&lt;String ,List&lt;String &gt; &gt;  consumer2AllPotentialTopics|Map&lt;String ,List&lt;String &gt; &gt;  topic2AllPotentialConsumers|Map&lt;String ,Integer &gt;  partitionsPerTopic|int  totalPartitionCount"
+ , "c3" : "QC-JAV000006[00781] For method canParticipateInReassignment arguments String  consumer|Map&lt;String,List&lt;TopicPartition&gt;&gt;  currentAssignment|Map&lt;String,List&lt;String&gt;&gt;  consumer2AllPotentialTopics|Map&lt;String,List&lt;String&gt;&gt;  topic2AllPotentialConsumers|Map&lt;String,Integer&gt;  partitionsPerTopic|int  totalPartitionCount"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1476,7 +1476,7 @@ var maDataBlocs = {
  , "c1" : "00811"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#811"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00811] For method balance arguments Map&lt;String ,List&lt;TopicPartition &gt; &gt;  currentAssignment|Map&lt;TopicPartition ,ConsumerGenerationPair &gt;  prevAssignment|List&lt;TopicPartition &gt;  sortedPartitions|List&lt;TopicPartition &gt;  unassignedPartitions|TreeSet&lt;String &gt;  sortedCurrentSubscriptions|Map&lt;String ,List&lt;String &gt; &gt;  consumer2AllPotentialTopics|Map&lt;String ,List&lt;String &gt; &gt;  topic2AllPotentialConsumers|Map&lt;TopicPartition ,String &gt;  currentPartitionConsumer|boolean  revocationRequired|Map&lt;String ,Integer &gt;  partitionsPerTopic|int  totalPartitionCount"
+ , "c3" : "QC-JAV000006[00811] For method balance arguments Map&lt;String,List&lt;TopicPartition&gt;&gt;  currentAssignment|Map&lt;TopicPartition,ConsumerGenerationPair&gt;  prevAssignment|List&lt;TopicPartition&gt;  sortedPartitions|List&lt;TopicPartition&gt;  unassignedPartitions|TreeSet&lt;String&gt;  sortedCurrentSubscriptions|Map&lt;String,List&lt;String&gt;&gt;  consumer2AllPotentialTopics|Map&lt;String,List&lt;String&gt;&gt;  topic2AllPotentialConsumers|Map&lt;TopicPartition,String&gt;  currentPartitionConsumer|boolean  revocationRequired|Map&lt;String,Integer&gt;  partitionsPerTopic|int  totalPartitionCount"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1560,7 +1560,7 @@ var maDataBlocs = {
  , "c1" : "00885"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#885"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00885] For method performReassignments arguments List&lt;TopicPartition &gt;  reassignablePartitions|Map&lt;String ,List&lt;TopicPartition &gt; &gt;  currentAssignment|Map&lt;TopicPartition ,ConsumerGenerationPair &gt;  prevAssignment|TreeSet&lt;String &gt;  sortedCurrentSubscriptions|Map&lt;String ,List&lt;String &gt; &gt;  consumer2AllPotentialTopics|Map&lt;String ,List&lt;String &gt; &gt;  topic2AllPotentialConsumers|Map&lt;TopicPartition ,String &gt;  currentPartitionConsumer|Map&lt;String ,Integer &gt;  partitionsPerTopic|int  totalPartitionCount"
+ , "c3" : "QC-JAV000006[00885] For method performReassignments arguments List&lt;TopicPartition&gt;  reassignablePartitions|Map&lt;String,List&lt;TopicPartition&gt;&gt;  currentAssignment|Map&lt;TopicPartition,ConsumerGenerationPair&gt;  prevAssignment|TreeSet&lt;String&gt;  sortedCurrentSubscriptions|Map&lt;String,List&lt;String&gt;&gt;  consumer2AllPotentialTopics|Map&lt;String,List&lt;String&gt;&gt;  topic2AllPotentialConsumers|Map&lt;TopicPartition,String&gt;  currentPartitionConsumer|Map&lt;String,Integer&gt;  partitionsPerTopic|int  totalPartitionCount"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1735,7 +1735,7 @@ var maDataBlocs = {
  , "c1" : "00939"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#939"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00939] For method reassignPartition arguments TopicPartition  partition|Map&lt;String ,List&lt;TopicPartition &gt; &gt;  currentAssignment|TreeSet&lt;String &gt;  sortedCurrentSubscriptions|Map&lt;TopicPartition ,String &gt;  currentPartitionConsumer|Map&lt;String ,List&lt;String &gt; &gt;  consumer2AllPotentialTopics"
+ , "c3" : "QC-JAV000006[00939] For method reassignPartition arguments TopicPartition  partition|Map&lt;String,List&lt;TopicPartition&gt;&gt;  currentAssignment|TreeSet&lt;String&gt;  sortedCurrentSubscriptions|Map&lt;TopicPartition,String&gt;  currentPartitionConsumer|Map&lt;String,List&lt;String&gt;&gt;  consumer2AllPotentialTopics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1770,7 +1770,7 @@ var maDataBlocs = {
  , "c1" : "00958"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#958"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00958] For method reassignPartition arguments TopicPartition  partition|Map&lt;String ,List&lt;TopicPartition &gt; &gt;  currentAssignment|TreeSet&lt;String &gt;  sortedCurrentSubscriptions|Map&lt;TopicPartition ,String &gt;  currentPartitionConsumer|String  newConsumer"
+ , "c3" : "QC-JAV000006[00958] For method reassignPartition arguments TopicPartition  partition|Map&lt;String,List&lt;TopicPartition&gt;&gt;  currentAssignment|TreeSet&lt;String&gt;  sortedCurrentSubscriptions|Map&lt;TopicPartition,String&gt;  currentPartitionConsumer|String  newConsumer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1791,7 +1791,7 @@ var maDataBlocs = {
  , "c1" : "00969"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#969"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00969] For method processPartitionMovement arguments TopicPartition  partition|String  newConsumer|Map&lt;String ,List&lt;TopicPartition &gt; &gt;  currentAssignment|TreeSet&lt;String &gt;  sortedCurrentSubscriptions|Map&lt;TopicPartition ,String &gt;  currentPartitionConsumer"
+ , "c3" : "QC-JAV000006[00969] For method processPartitionMovement arguments TopicPartition  partition|String  newConsumer|Map&lt;String,List&lt;TopicPartition&gt;&gt;  currentAssignment|TreeSet&lt;String&gt;  sortedCurrentSubscriptions|Map&lt;TopicPartition,String&gt;  currentPartitionConsumer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1819,7 +1819,7 @@ var maDataBlocs = {
  , "c1" : "00992"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#992"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00992] For method deepCopy arguments Map&lt;String ,List&lt;TopicPartition &gt; &gt;  source|Map&lt;String ,List&lt;TopicPartition &gt; &gt;  dest"
+ , "c3" : "QC-JAV000006[00992] For method deepCopy arguments Map&lt;String,List&lt;TopicPartition&gt;&gt;  source|Map&lt;String,List&lt;TopicPartition&gt;&gt;  dest"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1840,7 +1840,7 @@ var maDataBlocs = {
  , "c1" : "00998"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#998"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00998] For method deepCopy arguments Map&lt;String ,List&lt;TopicPartition &gt; &gt;  assignment"
+ , "c3" : "QC-JAV000006[00998] For method deepCopy arguments Map&lt;String,List&lt;TopicPartition&gt;&gt;  assignment"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1987,7 +1987,7 @@ var maDataBlocs = {
  , "c1" : "01112"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1112"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01112] For method isLinked arguments String  src|String  dst|Set&lt;ConsumerPair &gt;  pairs|List&lt;String &gt;  currentPath"
+ , "c3" : "QC-JAV000006[01112] For method isLinked arguments String  src|String  dst|Set&lt;ConsumerPair&gt;  pairs|List&lt;String&gt;  currentPath"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2050,7 +2050,7 @@ var maDataBlocs = {
  , "c1" : "01136"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1136"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01136] For method in arguments List&lt;String &gt;  cycle|Set&lt;List&lt;String &gt; &gt;  cycles"
+ , "c3" : "QC-JAV000006[01136] For method in arguments List&lt;String&gt;  cycle|Set&lt;List&lt;String&gt;&gt;  cycles"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2092,7 +2092,7 @@ var maDataBlocs = {
  , "c1" : "01147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1147"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01147] For method hasCycles arguments Set&lt;ConsumerPair &gt;  pairs"
+ , "c3" : "QC-JAV000006[01147] For method hasCycles arguments Set&lt;ConsumerPair&gt;  pairs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2267,7 +2267,7 @@ var maDataBlocs = {
  , "c1" : "01225"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractStickyAssignor.java.html#1225"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01225] For method in arguments Set&lt;ConsumerPair &gt;  pairs"
+ , "c3" : "QC-JAV000006[01225] For method in arguments Set&lt;ConsumerPair&gt;  pairs"
 }} 
 ,
 { "ligne" : {"" : ""

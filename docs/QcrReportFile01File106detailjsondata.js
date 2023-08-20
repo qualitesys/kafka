@@ -104,7 +104,7 @@ var maDataBlocs = {
  , "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupOffsetsOptions.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method topicPartitions arguments List&lt;TopicPartition &gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00043] For method topicPartitions arguments List&lt;TopicPartition&gt;  topicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -622,7 +622,7 @@ var maDataBlocs = {
  , "c1" : "00197"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#197"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00197] For method setCreateTopicPolicy arguments Optional&lt;CreateTopicPolicy &gt;  createTopicPolicy"
+ , "c3" : "QC-JAV000006[00197] For method setCreateTopicPolicy arguments Optional&lt;CreateTopicPolicy&gt;  createTopicPolicy"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1119,7 +1119,7 @@ var maDataBlocs = {
  , "c1" : "00560"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#560"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00560] For method createTopics arguments CreateTopicsRequestData  request|Set&lt;String &gt;  describable"
+ , "c3" : "QC-JAV000006[00560] For method createTopics arguments CreateTopicsRequestData  request|Set&lt;String&gt;  describable"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1273,7 +1273,7 @@ var maDataBlocs = {
  , "c1" : "00632"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#632"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00632] For method createTopic arguments CreatableTopic  topic|List&lt;ApiMessageAndVersion &gt;  records|Map&lt;String ,CreatableTopicResult &gt;  successes|boolean  authorizedToReturnConfigs"
+ , "c3" : "QC-JAV000006[00632] For method createTopic arguments CreatableTopic  topic|List&lt;ApiMessageAndVersion&gt;  records|Map&lt;String,CreatableTopicResult&gt;  successes|boolean  authorizedToReturnConfigs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1609,7 +1609,7 @@ var maDataBlocs = {
  , "c1" : "00764"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#764"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00764] For method maybeCheckCreateTopicPolicy arguments Supplier&lt;CreateTopicPolicy.RequestMetadata &gt;  supplier"
+ , "c3" : "QC-JAV000006[00764] For method maybeCheckCreateTopicPolicy arguments Supplier&lt;CreateTopicPolicy.RequestMetadata&gt;  supplier"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1623,7 +1623,7 @@ var maDataBlocs = {
  , "c1" : "00775"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#775"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00775] For method validateNewTopicNames arguments Map&lt;String ,ApiError &gt;  topicErrors|CreatableTopicCollection  topics|Map&lt;String ,?  extends Set&lt;String &gt; &gt;  topicsWithCollisionChars"
+ , "c3" : "QC-JAV000006[00775] For method validateNewTopicNames arguments Map&lt;String,ApiError&gt;  topicErrors|CreatableTopicCollection  topics|Map&lt;String,?extendsSet&lt;String&gt;&gt;  topicsWithCollisionChars"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1693,7 +1693,7 @@ var maDataBlocs = {
  , "c1" : "00798"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#798"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00798] For method computeConfigChanges arguments Map&lt;String ,ApiError &gt;  topicErrors|CreatableTopicCollection  topics"
+ , "c3" : "QC-JAV000006[00798] For method computeConfigChanges arguments Map&lt;String,ApiError&gt;  topicErrors|CreatableTopicCollection  topics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1749,7 +1749,7 @@ var maDataBlocs = {
  , "c1" : "00823"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#823"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00823] For method findTopicIds arguments long  offset|Collection&lt;String &gt;  names"
+ , "c3" : "QC-JAV000006[00823] For method findTopicIds arguments long  offset|Collection&lt;String&gt;  names"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1805,7 +1805,7 @@ var maDataBlocs = {
  , "c1" : "00849"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#849"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00849] For method findTopicNames arguments long  offset|Collection&lt;Uuid &gt;  ids"
+ , "c3" : "QC-JAV000006[00849] For method findTopicNames arguments long  offset|Collection&lt;Uuid&gt;  ids"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1847,7 +1847,7 @@ var maDataBlocs = {
  , "c1" : "00867"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#867"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00867] For method deleteTopics arguments Collection&lt;Uuid &gt;  ids"
+ , "c3" : "QC-JAV000006[00867] For method deleteTopics arguments Collection&lt;Uuid&gt;  ids"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1882,7 +1882,7 @@ var maDataBlocs = {
  , "c1" : "00884"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#884"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00884] For method deleteTopic arguments Uuid  id|List&lt;ApiMessageAndVersion &gt;  records"
+ , "c3" : "QC-JAV000006[00884] For method deleteTopic arguments Uuid  id|List&lt;ApiMessageAndVersion&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2435,7 +2435,7 @@ var maDataBlocs = {
  , "c1" : "01165"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1165"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01165] For method handleBrokerFenced arguments int  brokerId|List&lt;ApiMessageAndVersion &gt;  records"
+ , "c3" : "QC-JAV000006[01165] For method handleBrokerFenced arguments int  brokerId|List&lt;ApiMessageAndVersion&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2484,7 +2484,7 @@ var maDataBlocs = {
  , "c1" : "01194"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1194"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01194] For method handleBrokerUnregistered arguments int  brokerId|long  brokerEpoch|List&lt;ApiMessageAndVersion &gt;  records"
+ , "c3" : "QC-JAV000006[01194] For method handleBrokerUnregistered arguments int  brokerId|long  brokerEpoch|List&lt;ApiMessageAndVersion&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2512,7 +2512,7 @@ var maDataBlocs = {
  , "c1" : "01214"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1214"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01214] For method handleBrokerUnfenced arguments int  brokerId|long  brokerEpoch|List&lt;ApiMessageAndVersion &gt;  records"
+ , "c3" : "QC-JAV000006[01214] For method handleBrokerUnfenced arguments int  brokerId|long  brokerEpoch|List&lt;ApiMessageAndVersion&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2547,7 +2547,7 @@ var maDataBlocs = {
  , "c1" : "01239"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1239"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01239] For method handleBrokerInControlledShutdown arguments int  brokerId|long  brokerEpoch|List&lt;ApiMessageAndVersion &gt;  records"
+ , "c3" : "QC-JAV000006[01239] For method handleBrokerInControlledShutdown arguments int  brokerId|long  brokerEpoch|List&lt;ApiMessageAndVersion&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2687,7 +2687,7 @@ var maDataBlocs = {
  , "c1" : "01307"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1307"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01307] For method electLeader arguments String  topic|int  partitionId|ElectionType  electionType|List&lt;ApiMessageAndVersion &gt;  records"
+ , "c3" : "QC-JAV000006[01307] For method electLeader arguments String  topic|int  partitionId|ElectionType  electionType|List&lt;ApiMessageAndVersion&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2897,7 +2897,7 @@ var maDataBlocs = {
  , "c1" : "01461"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1461"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01461] For method createPartitions arguments List&lt;CreatePartitionsTopic &gt;  topics"
+ , "c3" : "QC-JAV000006[01461] For method createPartitions arguments List&lt;CreatePartitionsTopic&gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2932,7 +2932,7 @@ var maDataBlocs = {
  , "c1" : "01483"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1483"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01483] For method createPartitions arguments CreatePartitionsTopic  topic|List&lt;ApiMessageAndVersion &gt;  records"
+ , "c3" : "QC-JAV000006[01483] For method createPartitions arguments CreatePartitionsTopic  topic|List&lt;ApiMessageAndVersion&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3184,7 +3184,7 @@ var maDataBlocs = {
  , "c1" : "01578"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1578"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01578] For method validateManualPartitionAssignment arguments List&lt;Integer &gt;  assignment|OptionalInt  replicationFactor"
+ , "c3" : "QC-JAV000006[01578] For method validateManualPartitionAssignment arguments List&lt;Integer&gt;  assignment|OptionalInt  replicationFactor"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3317,7 +3317,7 @@ var maDataBlocs = {
  , "c1" : "01621"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1621"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01621] For method generateLeaderAndIsrUpdates arguments String  context|int  brokerToRemove|int  brokerToAdd|List&lt;ApiMessageAndVersion &gt;  records|Iterator&lt;TopicIdPartition &gt;  iterator"
+ , "c3" : "QC-JAV000006[01621] For method generateLeaderAndIsrUpdates arguments String  context|int  brokerToRemove|int  brokerToAdd|List&lt;ApiMessageAndVersion&gt;  records|Iterator&lt;TopicIdPartition&gt;  iterator"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3590,7 +3590,7 @@ var maDataBlocs = {
  , "c1" : "01723"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1723"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01723] For method alterPartitionReassignment arguments String  topicName|ReassignablePartition  target|List&lt;ApiMessageAndVersion &gt;  records"
+ , "c3" : "QC-JAV000006[01723] For method alterPartitionReassignment arguments String  topicName|ReassignablePartition  target|List&lt;ApiMessageAndVersion&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3793,7 +3793,7 @@ var maDataBlocs = {
  , "c1" : "01834"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1834"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01834] For method listPartitionReassignments arguments List&lt;ListPartitionReassignmentsTopics &gt;  topicList"
+ , "c3" : "QC-JAV000006[01834] For method listPartitionReassignments arguments List&lt;ListPartitionReassignmentsTopics&gt;  topicList"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3828,7 +3828,7 @@ var maDataBlocs = {
  , "c1" : "01855"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1855"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01855] For method listReassigningTopic arguments ListPartitionReassignmentsResponseData  response|Uuid  topicId|List&lt;Integer &gt;  partitionIds"
+ , "c3" : "QC-JAV000006[01855] For method listReassigningTopic arguments ListPartitionReassignmentsResponseData  response|Uuid  topicId|List&lt;Integer&gt;  partitionIds"
 }} 
 ,
 { "ligne" : {"" : ""

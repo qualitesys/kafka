@@ -433,7 +433,7 @@ var maDataBlocs = {
  , "c1" : "00125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeaders.java.html#125"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00125] For method closeAware arguments Iterator&lt;Header &gt;  original"
+ , "c3" : "QC-JAV000006[00125] For method closeAware arguments Iterator&lt;Header&gt;  original"
 }} 
 ,
 { "ligne" : {"" : ""

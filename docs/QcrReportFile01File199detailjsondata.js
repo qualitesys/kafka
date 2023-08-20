@@ -146,7 +146,7 @@ var maDataBlocs = {
  , "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method assign arguments Map&lt;String ,Integer &gt;  partitionsPerTopic|Map&lt;String ,Subscription &gt;  subscriptions"
+ , "c3" : "QC-JAV000006[00047] For method assign arguments Map&lt;String,Integer&gt;  partitionsPerTopic|Map&lt;String,Subscription&gt;  subscriptions"
 }} 
 ,
 { "ligne" : {"" : ""

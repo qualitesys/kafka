@@ -330,7 +330,7 @@ var maDataBlocs = {
  , "c1" : "00140"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#140"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00140] For method withLoggingEnabled arguments Map&lt;String ,String &gt;  config"
+ , "c3" : "QC-JAV000006[00140] For method withLoggingEnabled arguments Map&lt;String,String&gt;  config"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -561,7 +561,7 @@ var maDataBlocs = {
  , "c1" : "00314"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#314"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00314] For method restoreBatch arguments Collection&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  batch"
+ , "c3" : "QC-JAV000006[00314] For method restoreBatch arguments Collection&lt;ConsumerRecord&lt;byte[],byte[]&gt;&gt;  batch"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -694,7 +694,7 @@ var maDataBlocs = {
  , "c1" : "00396"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#396"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00396] For method evictWhile arguments Supplier&lt;Boolean &gt;  predicate|Consumer&lt;Eviction&lt;K ,V &gt; &gt;  callback"
+ , "c3" : "QC-JAV000006[00396] For method evictWhile arguments Supplier&lt;Boolean&gt;  predicate|Consumer&lt;Eviction&lt;K,V&gt;&gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -848,7 +848,7 @@ var maDataBlocs = {
  , "c1" : "00480"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#480"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00480] For method put arguments long  time|Record&lt;K ,Change&lt;V &gt; &gt;  record|ProcessorRecordContext  recordContext"
+ , "c3" : "QC-JAV000006[00480] For method put arguments long  time|Record&lt;K,Change&lt;V&gt;&gt;  record|ProcessorRecordContext  recordContext"
 }} 
 ,
 { "ligne" : {"" : ""

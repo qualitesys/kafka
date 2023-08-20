@@ -156,7 +156,7 @@ var maDataBlocs = {
  , "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractStream.java.html#91"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00091] For method ensureCopartitionWith arguments Collection&lt;?  extends AbstractStream&lt;K ,? &gt; &gt;  otherStreams"
+ , "c3" : "QC-JAV000006[00091] For method ensureCopartitionWith arguments Collection&lt;?extendsAbstractStream&lt;K,?&gt;&gt;  otherStreams"
 }} 
 ,
 { "ligne" : {"" : ""

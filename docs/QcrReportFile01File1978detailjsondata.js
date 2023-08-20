@@ -376,7 +376,7 @@ var maDataBlocs = {
  , "c1" : "00104"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#104"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00104] For method start arguments Collection&lt;NamedTopology &gt;  initialTopologies"
+ , "c3" : "QC-JAV000006[00104] For method start arguments Collection&lt;NamedTopology&gt;  initialTopologies"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -628,7 +628,7 @@ var maDataBlocs = {
  , "c1" : "00284"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#284"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00284] For method maybeCompleteFutureIfStillInCREATED arguments KafkaFutureImpl&lt;Void &gt;  updateTopologyFuture|String  operation"
+ , "c3" : "QC-JAV000006[00284] For method maybeCompleteFutureIfStillInCREATED arguments KafkaFutureImpl&lt;Void&gt;  updateTopologyFuture|String  operation"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -670,7 +670,7 @@ var maDataBlocs = {
  , "c1" : "00295"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/namedtopology/KafkaStreamsNamedTopologyWrapper.java.html#295"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00295] For method resetOffsets arguments Set&lt;TopicPartition &gt;  partitionsToReset"
+ , "c3" : "QC-JAV000006[00295] For method resetOffsets arguments Set&lt;TopicPartition&gt;  partitionsToReset"
 }} 
 ,
 { "ligne" : {"" : ""

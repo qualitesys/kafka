@@ -106,7 +106,7 @@ var maDataBlocs = {
  , "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionEntry.java.html#66"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method resetSequenceNumbers arguments Consumer&lt;ProducerBatch &gt;  resetSequence"
+ , "c3" : "QC-JAV000006[00066] For method resetSequenceNumbers arguments Consumer&lt;ProducerBatch&gt;  resetSequence"
 }} 
 ,
 { "ligne" : {"" : ""

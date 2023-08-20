@@ -811,7 +811,7 @@ var maDataBlocs = {
  , "c1" : "00337"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#337"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00337] For method appendNewBatch arguments String  topic|int  partition|Deque&lt;ProducerBatch &gt;  dq|long  timestamp|byte[]  key|byte[]  value|Header[]  headers|AppendCallbacks  callbacks|ByteBuffer  buffer"
+ , "c3" : "QC-JAV000006[00337] For method appendNewBatch arguments String  topic|int  partition|Deque&lt;ProducerBatch&gt;  dq|long  timestamp|byte[]  key|byte[]  value|Header[]  headers|AppendCallbacks  callbacks|ByteBuffer  buffer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -895,7 +895,7 @@ var maDataBlocs = {
  , "c1" : "00383"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#383"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00383] For method tryAppend arguments long  timestamp|byte[]  key|byte[]  value|Header[]  headers|Callback  callback|Deque&lt;ProducerBatch &gt;  deque|long  nowMs"
+ , "c3" : "QC-JAV000006[00383] For method tryAppend arguments long  timestamp|byte[]  key|byte[]  value|Header[]  headers|Callback  callback|Deque&lt;ProducerBatch&gt;  deque|long  nowMs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1133,7 +1133,7 @@ var maDataBlocs = {
  , "c1" : "00503"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#503"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00503] For method insertInSequenceOrder arguments Deque&lt;ProducerBatch &gt;  deque|ProducerBatch  batch"
+ , "c3" : "QC-JAV000006[00503] For method insertInSequenceOrder arguments Deque&lt;ProducerBatch&gt;  deque|ProducerBatch  batch"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1252,7 +1252,7 @@ var maDataBlocs = {
  , "c1" : "00561"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#561"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00561] For method batchReady arguments long  nowMs|boolean  exhausted|TopicPartition  part|Node  leader|long  waitedTimeMs|boolean  backingOff|boolean  full|long  nextReadyCheckDelayMs|Set&lt;Node &gt;  readyNodes"
+ , "c3" : "QC-JAV000006[00561] For method batchReady arguments long  nowMs|boolean  exhausted|TopicPartition  part|Node  leader|long  waitedTimeMs|boolean  backingOff|boolean  full|long  nextReadyCheckDelayMs|Set&lt;Node&gt;  readyNodes"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1280,7 +1280,7 @@ var maDataBlocs = {
  , "c1" : "00601"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#601"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00601] For method partitionReady arguments Cluster  cluster|long  nowMs|String  topic|TopicInfo  topicInfo|long  nextReadyCheckDelayMs|Set&lt;Node &gt;  readyNodes|Set&lt;String &gt;  unknownLeaderTopics"
+ , "c3" : "QC-JAV000006[00601] For method partitionReady arguments Cluster  cluster|long  nowMs|String  topic|TopicInfo  topicInfo|long  nextReadyCheckDelayMs|Set&lt;Node&gt;  readyNodes|Set&lt;String&gt;  unknownLeaderTopics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1756,7 +1756,7 @@ var maDataBlocs = {
  , "c1" : "00880"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#880"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00880] For method drain arguments Cluster  cluster|Set&lt;Node &gt;  nodes|int  maxSize|long  now"
+ , "c3" : "QC-JAV000006[00880] For method drain arguments Cluster  cluster|Set&lt;Node&gt;  nodes|int  maxSize|long  now"
 }} 
 ,
 { "ligne" : {"" : ""

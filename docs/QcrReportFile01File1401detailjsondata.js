@@ -403,7 +403,7 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/LeaderState.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method convertToVoters arguments Set&lt;Integer &gt;  voterIds"
+ , "c3" : "QC-JAV000006[00088] For method convertToVoters arguments Set&lt;Integer&gt;  voterIds"
 }} 
 ,
 { "ligne" : {"" : ""

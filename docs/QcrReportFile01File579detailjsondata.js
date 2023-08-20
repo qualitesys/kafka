@@ -113,7 +113,7 @@ var maDataBlocs = {
  , "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsUtil.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method downConvert arguments Iterable&lt;?  extends RecordBatch &gt;  batches|byte  toMagic|long  firstOffset|Time  time"
+ , "c3" : "QC-JAV000006[00042] For method downConvert arguments Iterable&lt;?extendsRecordBatch&gt;  batches|byte  toMagic|long  firstOffset|Time  time"
 }} 
 ,
 { "ligne" : {"" : ""

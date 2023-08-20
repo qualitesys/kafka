@@ -775,7 +775,7 @@ var maDataBlocs = {
  , "c1" : "00176"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#176"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00176] For method executeTopologyUpdatesAndBumpThreadVersion arguments Consumer&lt;Set&lt;String &gt; &gt;  handleTopologyAdditions|Consumer&lt;Set&lt;String &gt; &gt;  handleTopologyRemovals"
+ , "c3" : "QC-JAV000006[00176] For method executeTopologyUpdatesAndBumpThreadVersion arguments Consumer&lt;Set&lt;String&gt;&gt;  handleTopologyAdditions|Consumer&lt;Set&lt;String&gt;&gt;  handleTopologyRemovals"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -810,7 +810,7 @@ var maDataBlocs = {
  , "c1" : "00224"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#224"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00224] For method maybeWaitForNonEmptyTopology arguments Supplier&lt;StreamThread.State &gt;  threadState"
+ , "c3" : "QC-JAV000006[00224] For method maybeWaitForNonEmptyTopology arguments Supplier&lt;StreamThread.State&gt;  threadState"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -845,7 +845,7 @@ var maDataBlocs = {
  , "c1" : "00245"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#245"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00245] For method registerAndBuildNewTopology arguments KafkaFutureImpl&lt;Void &gt;  future|InternalTopologyBuilder  newTopologyBuilder"
+ , "c3" : "QC-JAV000006[00245] For method registerAndBuildNewTopology arguments KafkaFutureImpl&lt;Void&gt;  future|InternalTopologyBuilder  newTopologyBuilder"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -915,7 +915,7 @@ var maDataBlocs = {
  , "c1" : "00295"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#295"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00295] For method unregisterTopology arguments KafkaFutureImpl&lt;Void &gt;  removeTopologyFuture|String  topologyName"
+ , "c3" : "QC-JAV000006[00295] For method unregisterTopology arguments KafkaFutureImpl&lt;Void&gt;  removeTopologyFuture|String  topologyName"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1321,7 +1321,7 @@ var maDataBlocs = {
  , "c1" : "00560"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#560"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00560] For method subtopologyTopicsInfoMapExcluding arguments Set&lt;String &gt;  topologiesToExclude"
+ , "c3" : "QC-JAV000006[00560] For method subtopologyTopicsInfoMapExcluding arguments Set&lt;String&gt;  topologiesToExclude"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1342,14 +1342,14 @@ var maDataBlocs = {
  , "c1" : "00583"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#583"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00583] For method addSubscribedTopicsFromMetadata arguments Set&lt;String &gt;  topics|String  logPrefix"
+ , "c3" : "QC-JAV000006[00583] For method addSubscribedTopicsFromMetadata arguments Set&lt;String&gt;  topics|String  logPrefix"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00587"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#587"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00587] For method addSubscribedTopicsFromAssignment arguments List&lt;TopicPartition &gt;  partitions|String  logPrefix"
+ , "c3" : "QC-JAV000006[00587] For method addSubscribedTopicsFromAssignment arguments List&lt;TopicPartition&gt;  partitions|String  logPrefix"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1412,7 +1412,7 @@ var maDataBlocs = {
  , "c1" : "00634"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#634"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00634] For method evaluateConditionIsTrueForAnyBuilders arguments Function&lt;InternalTopologyBuilder ,Boolean &gt;  condition"
+ , "c3" : "QC-JAV000006[00634] For method evaluateConditionIsTrueForAnyBuilders arguments Function&lt;InternalTopologyBuilder,Boolean&gt;  condition"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1440,7 +1440,7 @@ var maDataBlocs = {
  , "c1" : "00643"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TopologyMetadata.java.html#643"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00643] For method applyToEachBuilder arguments Consumer&lt;InternalTopologyBuilder &gt;  function"
+ , "c3" : "QC-JAV000006[00643] For method applyToEachBuilder arguments Consumer&lt;InternalTopologyBuilder&gt;  function"
 }} 
 ,
 { "ligne" : {"" : ""

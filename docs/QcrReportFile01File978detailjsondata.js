@@ -179,56 +179,56 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method start arguments Map&lt;String ,String &gt;  props"
+ , "c3" : "QC-JAV000006[00088] For method start arguments Map&lt;String,String&gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#101"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00101] For method put arguments Collection&lt;SinkRecord &gt;  records"
+ , "c3" : "QC-JAV000006[00101] For method put arguments Collection&lt;SinkRecord&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#110"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00110] For method flush arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  currentOffsets"
+ , "c3" : "QC-JAV000006[00110] For method flush arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  currentOffsets"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#124"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00124] For method preCommit arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  currentOffsets"
+ , "c3" : "QC-JAV000006[00124] For method preCommit arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  currentOffsets"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#136"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00136] For method open arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00136] For method open arguments Collection&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#144"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00144] For method onPartitionsAssigned arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00144] For method onPartitionsAssigned arguments Collection&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#155"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00155] For method close arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00155] For method close arguments Collection&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00163"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#163"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00163] For method onPartitionsRevoked arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00163] For method onPartitionsRevoked arguments Collection&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""

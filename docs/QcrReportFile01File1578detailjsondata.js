@@ -127,7 +127,7 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00088] For method configure arguments Map&lt;String,?&gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""

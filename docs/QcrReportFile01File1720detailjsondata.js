@@ -121,7 +121,7 @@ var maDataBlocs = {
  , "c1" : "00101"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamKStreamJoin.java.html#101"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00101] For method init arguments ProcessorContext&lt;K ,VOut &gt;  context"
+ , "c3" : "QC-JAV000006[00101] For method init arguments ProcessorContext&lt;K,VOut&gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -142,7 +142,7 @@ var maDataBlocs = {
  , "c1" : "00124"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamKStreamJoin.java.html#124"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00124] For method process arguments Record&lt;K ,V1 &gt;  record"
+ , "c3" : "QC-JAV000006[00124] For method process arguments Record&lt;K,V1&gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -240,7 +240,7 @@ var maDataBlocs = {
  , "c1" : "00212"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamKStreamJoin.java.html#212"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00212] For method emitNonJoinedOuterRecords arguments KeyValueStore&lt;TimestampedKeyAndJoinSide&lt;K &gt; ,LeftOrRightValue&lt;V1 ,V2 &gt; &gt;  store|Record&lt;K ,V1 &gt;  record"
+ , "c3" : "QC-JAV000006[00212] For method emitNonJoinedOuterRecords arguments KeyValueStore&lt;TimestampedKeyAndJoinSide&lt;K&gt;,LeftOrRightValue&lt;V1,V2&gt;&gt;  store|Record&lt;K,V1&gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""

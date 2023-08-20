@@ -121,35 +121,35 @@ var maDataBlocs = {
  , "c1" : "00049"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method replicationHops arguments Map&lt;String ,Object &gt;  properties|String  upstreamClusterAlias"
+ , "c3" : "QC-JAV000006[00049] For method replicationHops arguments Map&lt;String,Object&gt;  properties|String  upstreamClusterAlias"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method heartbeatTopics arguments Map&lt;String ,Object &gt;  properties"
+ , "c3" : "QC-JAV000006[00057] For method heartbeatTopics arguments Map&lt;String,Object&gt;  properties"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00065"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method checkpointTopics arguments Map&lt;String ,Object &gt;  properties"
+ , "c3" : "QC-JAV000006[00065] For method checkpointTopics arguments Map&lt;String,Object&gt;  properties"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00073"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#73"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00073] For method upstreamClusters arguments Map&lt;String ,Object &gt;  properties"
+ , "c3" : "QC-JAV000006[00073] For method upstreamClusters arguments Map&lt;String,Object&gt;  properties"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/RemoteClusterUtils.java.html#87"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00087] For method translateOffsets arguments Map&lt;String ,Object &gt;  properties|String  remoteClusterAlias|String  consumerGroupId|Duration  timeout"
+ , "c3" : "QC-JAV000006[00087] For method translateOffsets arguments Map&lt;String,Object&gt;  properties|String  remoteClusterAlias|String  consumerGroupId|Duration  timeout"
 }} 
 ]
 , 

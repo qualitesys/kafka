@@ -152,7 +152,7 @@ var maDataBlocs = {
  , "c1" : "00043"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedSerializer.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00043] For method configure arguments Map&lt;String,?&gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -292,7 +292,7 @@ var maDataBlocs = {
  , "c1" : "00070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedSerializer.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method serialize arguments String  topic|Windowed&lt;T &gt;  data"
+ , "c3" : "QC-JAV000006[00070] For method serialize arguments String  topic|Windowed&lt;T&gt;  data"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -320,7 +320,7 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedSerializer.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method serializeBaseKey arguments String  topic|Windowed&lt;T &gt;  data"
+ , "c3" : "QC-JAV000006[00088] For method serializeBaseKey arguments String  topic|Windowed&lt;T&gt;  data"
 }} 
 ,
 { "ligne" : {"" : ""

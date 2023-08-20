@@ -177,7 +177,7 @@ var maDataBlocs = {
  , "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasResponse.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method complete arguments Map&lt;ClientQuotaEntity ,KafkaFutureImpl&lt;Void &gt; &gt;  futures"
+ , "c3" : "QC-JAV000006[00043] For method complete arguments Map&lt;ClientQuotaEntity,KafkaFutureImpl&lt;Void&gt;&gt;  futures"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -268,7 +268,7 @@ var maDataBlocs = {
  , "c1" : "00098"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AlterClientQuotasResponse.java.html#98"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00098] For method fromQuotaEntities arguments Map&lt;ClientQuotaEntity ,ApiError &gt;  result|int  throttleTimeMs"
+ , "c3" : "QC-JAV000006[00098] For method fromQuotaEntities arguments Map&lt;ClientQuotaEntity,ApiError&gt;  result|int  throttleTimeMs"
 }} 
 ,
 { "ligne" : {"" : ""

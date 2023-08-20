@@ -1153,7 +1153,7 @@ var maDataBlocs = {
  , "c1" : "00274"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#274"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00274] For method updateLeaderEndOffsetAndTimestamp arguments LeaderState&lt;T &gt;  state|long  currentTimeMs"
+ , "c3" : "QC-JAV000006[00274] For method updateLeaderEndOffsetAndTimestamp arguments LeaderState&lt;T&gt;  state|long  currentTimeMs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1167,7 +1167,7 @@ var maDataBlocs = {
  , "c1" : "00287"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#287"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00287] For method onUpdateLeaderHighWatermark arguments LeaderState&lt;T &gt;  state|long  currentTimeMs"
+ , "c3" : "QC-JAV000006[00287] For method onUpdateLeaderHighWatermark arguments LeaderState&lt;T&gt;  state|long  currentTimeMs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1216,14 +1216,14 @@ var maDataBlocs = {
  , "c1" : "00340"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#340"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00340] For method maybeFireHandleCommit arguments long  baseOffset|int  epoch|long  appendTimestamp|int  sizeInBytes|List&lt;T &gt;  records"
+ , "c3" : "QC-JAV000006[00340] For method maybeFireHandleCommit arguments long  baseOffset|int  epoch|long  appendTimestamp|int  sizeInBytes|List&lt;T&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00350"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#350"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00350] For method maybeFireLeaderChange arguments LeaderState&lt;T &gt;  state"
+ , "c3" : "QC-JAV000006[00350] For method maybeFireLeaderChange arguments LeaderState&lt;T&gt;  state"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1244,14 +1244,14 @@ var maDataBlocs = {
  , "c1" : "00385"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#385"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00385] For method register arguments Listener&lt;T &gt;  listener"
+ , "c3" : "QC-JAV000006[00385] For method register arguments Listener&lt;T&gt;  listener"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00391"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#391"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00391] For method unregister arguments Listener&lt;T &gt;  listener"
+ , "c3" : "QC-JAV000006[00391] For method unregister arguments Listener&lt;T&gt;  listener"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1265,7 +1265,7 @@ var maDataBlocs = {
  , "c1" : "00443"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#443"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00443] For method flushLeaderLog arguments LeaderState&lt;T &gt;  state|long  currentTimeMs"
+ , "c3" : "QC-JAV000006[00443] For method flushLeaderLog arguments LeaderState&lt;T&gt;  state|long  currentTimeMs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1335,7 +1335,7 @@ var maDataBlocs = {
  , "c1" : "00478"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#478"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00478] For method transitionToResigned arguments List&lt;Integer &gt;  preferredSuccessors"
+ , "c3" : "QC-JAV000006[00478] For method transitionToResigned arguments List&lt;Integer&gt;  preferredSuccessors"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1825,7 +1825,7 @@ var maDataBlocs = {
  , "c1" : "00813"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#813"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00813] For method endEpochElectionBackoff arguments List&lt;Integer &gt;  preferredSuccessors"
+ , "c3" : "QC-JAV000006[00813] For method endEpochElectionBackoff arguments List&lt;Integer&gt;  preferredSuccessors"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1909,7 +1909,7 @@ var maDataBlocs = {
  , "c1" : "00860"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#860"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00860] For method buildFetchResponse arguments Errors  error|Records  records|ValidOffsetAndEpoch  validOffsetAndEpoch|Optional&lt;LogOffsetMetadata &gt;  highWatermark"
+ , "c3" : "QC-JAV000006[00860] For method buildFetchResponse arguments Errors  error|Records  records|ValidOffsetAndEpoch  validOffsetAndEpoch|Optional&lt;LogOffsetMetadata&gt;  highWatermark"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1944,7 +1944,7 @@ var maDataBlocs = {
  , "c1" : "00895"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#895"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00895] For method buildEmptyFetchResponse arguments Errors  error|Optional&lt;LogOffsetMetadata &gt;  highWatermark"
+ , "c3" : "QC-JAV000006[00895] For method buildEmptyFetchResponse arguments Errors  error|Optional&lt;LogOffsetMetadata&gt;  highWatermark"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2126,7 +2126,7 @@ var maDataBlocs = {
  , "c1" : "01036"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1036"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01036] For method listenerName arguments Listener&lt;? &gt;  listener"
+ , "c3" : "QC-JAV000006[01036] For method listenerName arguments Listener&lt;?&gt;  listener"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2623,7 +2623,7 @@ var maDataBlocs = {
  , "c1" : "01416"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1416"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01416] For method convertToReplicaStates arguments Map&lt;Integer ,Long &gt;  replicaEndOffsets"
+ , "c3" : "QC-JAV000006[01416] For method convertToReplicaStates arguments Map&lt;Integer,Long&gt;  replicaEndOffsets"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2938,7 +2938,7 @@ var maDataBlocs = {
  , "c1" : "01685"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1685"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01685] For method maybeSendRequest arguments long  currentTimeMs|int  destinationId|Supplier&lt;ApiMessage &gt;  requestSupplier"
+ , "c3" : "QC-JAV000006[01685] For method maybeSendRequest arguments long  currentTimeMs|int  destinationId|Supplier&lt;ApiMessage&gt;  requestSupplier"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2994,7 +2994,7 @@ var maDataBlocs = {
  , "c1" : "01746"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1746"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01746] For method maybeSendRequests arguments long  currentTimeMs|Set&lt;Integer &gt;  destinationIds|Supplier&lt;ApiMessage &gt;  requestSupplier"
+ , "c3" : "QC-JAV000006[01746] For method maybeSendRequests arguments long  currentTimeMs|Set&lt;Integer&gt;  destinationIds|Supplier&lt;ApiMessage&gt;  requestSupplier"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3078,7 +3078,7 @@ var maDataBlocs = {
  , "c1" : "01848"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1848"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01848] For method appendBatch arguments LeaderState&lt;T &gt;  state|BatchAccumulator.CompletedBatch&lt;T &gt;  batch|long  appendTimeMs"
+ , "c3" : "QC-JAV000006[01848] For method appendBatch arguments LeaderState&lt;T&gt;  state|BatchAccumulator.CompletedBatch&lt;T&gt;  batch|long  appendTimeMs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3134,7 +3134,7 @@ var maDataBlocs = {
  , "c1" : "01878"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1878"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01878] For method maybeAppendBatches arguments LeaderState&lt;T &gt;  state|long  currentTimeMs"
+ , "c3" : "QC-JAV000006[01878] For method maybeAppendBatches arguments LeaderState&lt;T&gt;  state|long  currentTimeMs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3505,7 +3505,7 @@ var maDataBlocs = {
  , "c1" : "02139"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2139"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02139] For method processRegistration arguments Registration&lt;T &gt;  registration"
+ , "c3" : "QC-JAV000006[02139] For method processRegistration arguments Registration&lt;T&gt;  registration"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3652,7 +3652,7 @@ var maDataBlocs = {
  , "c1" : "02254"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2254"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02254] For method scheduleAppend arguments int  epoch|List&lt;T &gt;  records"
+ , "c3" : "QC-JAV000006[02254] For method scheduleAppend arguments int  epoch|List&lt;T&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3666,7 +3666,7 @@ var maDataBlocs = {
  , "c1" : "02259"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2259"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02259] For method scheduleAtomicAppend arguments int  epoch|List&lt;T &gt;  records"
+ , "c3" : "QC-JAV000006[02259] For method scheduleAtomicAppend arguments int  epoch|List&lt;T&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3680,7 +3680,7 @@ var maDataBlocs = {
  , "c1" : "02263"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2263"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02263] For method append arguments int  epoch|List&lt;T &gt;  records|boolean  isAtomic"
+ , "c3" : "QC-JAV000006[02263] For method append arguments int  epoch|List&lt;T&gt;  records|boolean  isAtomic"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3925,7 +3925,7 @@ var maDataBlocs = {
  , "c1" : "02498"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2498"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02498] For method fireHandleSnapshot arguments SnapshotReader&lt;T &gt;  reader"
+ , "c3" : "QC-JAV000006[02498] For method fireHandleSnapshot arguments SnapshotReader&lt;T&gt;  reader"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3967,14 +3967,14 @@ var maDataBlocs = {
  , "c1" : "02534"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2534"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02534] For method fireHandleCommit arguments long  baseOffset|int  epoch|long  appendTimestamp|int  sizeInBytes|List&lt;T &gt;  records"
+ , "c3" : "QC-JAV000006[02534] For method fireHandleCommit arguments long  baseOffset|int  epoch|long  appendTimestamp|int  sizeInBytes|List&lt;T&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02550"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2550"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02550] For method fireHandleCommit arguments BatchReader&lt;T &gt;  reader"
+ , "c3" : "QC-JAV000006[02550] For method fireHandleCommit arguments BatchReader&lt;T&gt;  reader"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4058,7 +4058,7 @@ var maDataBlocs = {
  , "c1" : "02593"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2593"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02593] For method onClose arguments BatchReader&lt;T &gt;  reader"
+ , "c3" : "QC-JAV000006[02593] For method onClose arguments BatchReader&lt;T&gt;  reader"
 }} 
 ,
 { "ligne" : {"" : ""

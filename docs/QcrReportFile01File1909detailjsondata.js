@@ -138,7 +138,7 @@ var maDataBlocs = {
  , "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordDeserializer.java.html#53"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method deserialize arguments ProcessorContext&lt;? ,? &gt;  processorContext|ConsumerRecord&lt;byte[] ,byte[] &gt;  rawRecord"
+ , "c3" : "QC-JAV000006[00053] For method deserialize arguments ProcessorContext&lt;?,?&gt;  processorContext|ConsumerRecord&lt;byte[],byte[]&gt;  rawRecord"
 }} 
 ,
 { "ligne" : {"" : ""

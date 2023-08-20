@@ -155,14 +155,14 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00057] For method configure arguments Map&lt;String,?&gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueSerializer.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00063] For method serialize arguments String  topic|LeftOrRightValue&lt;V1 ,V2 &gt;  data"
+ , "c3" : "QC-JAV000006[00063] For method serialize arguments String  topic|LeftOrRightValue&lt;V1,V2&gt;  data"
 }} 
 ,
 { "ligne" : {"" : ""

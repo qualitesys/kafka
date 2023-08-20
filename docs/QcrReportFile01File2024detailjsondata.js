@@ -275,7 +275,7 @@ var maDataBlocs = {
  , "c1" : "00048"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#48"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method deserializeStorePair arguments KeyValue&lt;KS ,VS &gt;  pair"
+ , "c3" : "QC-JAV000006[00048] For method deserializeStorePair arguments KeyValue&lt;KS,VS&gt;  pair"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -296,7 +296,7 @@ var maDataBlocs = {
  , "c1" : "00054"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00054] For method isDeletedCacheEntry arguments KeyValue&lt;Bytes ,LRUCacheEntry &gt;  nextFromCache"
+ , "c3" : "QC-JAV000006[00054] For method isDeletedCacheEntry arguments KeyValue&lt;Bytes,LRUCacheEntry&gt;  nextFromCache"
 }} 
 ,
 { "ligne" : {"" : ""

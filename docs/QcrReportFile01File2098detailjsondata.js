@@ -346,7 +346,7 @@ var maDataBlocs = {
  , "c1" : "00162"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#162"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00162] For method toStoreKeyBinary arguments Windowed&lt;Bytes &gt;  timeKey|int  seqnum"
+ , "c3" : "QC-JAV000006[00162] For method toStoreKeyBinary arguments Windowed&lt;Bytes&gt;  timeKey|int  seqnum"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -633,7 +633,7 @@ var maDataBlocs = {
  , "c1" : "00316"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedWindowKeySchemas.java.html#316"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00316] For method toStoreKeyBinary arguments Windowed&lt;Bytes &gt;  timeKey|int  seqnum"
+ , "c3" : "QC-JAV000006[00316] For method toStoreKeyBinary arguments Windowed&lt;Bytes&gt;  timeKey|int  seqnum"
 }} 
 ,
 { "ligne" : {"" : ""

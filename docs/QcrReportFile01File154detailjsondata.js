@@ -117,14 +117,14 @@ var maDataBlocs = {
  , "c1" : "00146"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#146"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00146] For method buildBatchedRequest arguments int  brokerId|Set&lt;K &gt;  keys"
+ , "c3" : "QC-JAV000006[00146] For method buildBatchedRequest arguments int  brokerId|Set&lt;K&gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00149"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#149"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00149] For method buildRequest arguments int  brokerId|Set&lt;K &gt;  keys"
+ , "c3" : "QC-JAV000006[00149] For method buildRequest arguments int  brokerId|Set&lt;K&gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -145,7 +145,7 @@ var maDataBlocs = {
  , "c1" : "00164"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#164"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00164] For method buildRequest arguments int  brokerId|Set&lt;K &gt;  keys"
+ , "c3" : "QC-JAV000006[00164] For method buildRequest arguments int  brokerId|Set&lt;K&gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -159,7 +159,7 @@ var maDataBlocs = {
  , "c1" : "00171"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiHandler.java.html#171"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00171] For method handleResponse arguments Node  broker|Set&lt;K &gt;  keys|AbstractResponse  response"
+ , "c3" : "QC-JAV000006[00171] For method handleResponse arguments Node  broker|Set&lt;K&gt;  keys|AbstractResponse  response"
 }} 
 ,
 { "ligne" : {"" : ""

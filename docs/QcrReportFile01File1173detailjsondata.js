@@ -590,7 +590,7 @@ var maDataBlocs = {
  , "c1" : "00211"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#211"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00211] For method createKafkaBasedLog arguments String  topic|Map&lt;String ,Object &gt;  producerProps|Map&lt;String ,Object &gt;  consumerProps|Callback&lt;ConsumerRecord&lt;String ,byte[] &gt; &gt;  consumedCallback|NewTopic  topicDescription|Supplier&lt;TopicAdmin &gt;  adminSupplier"
+ , "c3" : "QC-JAV000006[00211] For method createKafkaBasedLog arguments String  topic|Map&lt;String,Object&gt;  producerProps|Map&lt;String,Object&gt;  consumerProps|Callback&lt;ConsumerRecord&lt;String,byte[]&gt;&gt;  consumedCallback|NewTopic  topicDescription|Supplier&lt;TopicAdmin&gt;  adminSupplier"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1248,7 +1248,7 @@ var maDataBlocs = {
  , "c1" : "00501"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#501"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00501] For method serialize arguments AbstractStatus&lt;? &gt;  status"
+ , "c3" : "QC-JAV000006[00501] For method serialize arguments AbstractStatus&lt;?&gt;  status"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1605,7 +1605,7 @@ var maDataBlocs = {
  , "c1" : "00641"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#641"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00641] For method read arguments ConsumerRecord&lt;String ,byte[] &gt;  record"
+ , "c3" : "QC-JAV000006[00641] For method read arguments ConsumerRecord&lt;String,byte[]&gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""

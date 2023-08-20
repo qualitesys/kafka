@@ -1481,7 +1481,7 @@ var maDataBlocs = {
  , "c1" : "00555"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#555"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00555] For method updateConfigsWithEager arguments AtomicReference&lt;Set&lt;String &gt; &gt;  connectorConfigUpdatesCopy|AtomicReference&lt;Set&lt;String &gt; &gt;  connectorTargetStateChangesCopy"
+ , "c3" : "QC-JAV000006[00555] For method updateConfigsWithEager arguments AtomicReference&lt;Set&lt;String&gt;&gt;  connectorConfigUpdatesCopy|AtomicReference&lt;Set&lt;String&gt;&gt;  connectorTargetStateChangesCopy"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1572,7 +1572,7 @@ var maDataBlocs = {
  , "c1" : "00603"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#603"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00603] For method updateConfigsWithIncrementalCooperative arguments AtomicReference&lt;Set&lt;String &gt; &gt;  connectorConfigUpdatesCopy|AtomicReference&lt;Set&lt;String &gt; &gt;  connectorTargetStateChangesCopy|AtomicReference&lt;Set&lt;ConnectorTaskId &gt; &gt;  taskConfigUpdatesCopy"
+ , "c3" : "QC-JAV000006[00603] For method updateConfigsWithIncrementalCooperative arguments AtomicReference&lt;Set&lt;String&gt;&gt;  connectorConfigUpdatesCopy|AtomicReference&lt;Set&lt;String&gt;&gt;  connectorTargetStateChangesCopy|AtomicReference&lt;Set&lt;ConnectorTaskId&gt;&gt;  taskConfigUpdatesCopy"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1663,7 +1663,7 @@ var maDataBlocs = {
  , "c1" : "00654"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#654"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00654] For method processConnectorConfigUpdates arguments Set&lt;String &gt;  connectorConfigUpdates"
+ , "c3" : "QC-JAV000006[00654] For method processConnectorConfigUpdates arguments Set&lt;String&gt;  connectorConfigUpdates"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1747,7 +1747,7 @@ var maDataBlocs = {
  , "c1" : "00683"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#683"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00683] For method processTargetStateChanges arguments Set&lt;String &gt;  connectorTargetStateChanges"
+ , "c3" : "QC-JAV000006[00683] For method processTargetStateChanges arguments Set&lt;String&gt;  connectorTargetStateChanges"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1803,7 +1803,7 @@ var maDataBlocs = {
  , "c1" : "00710"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#710"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00710] For method processTaskConfigUpdatesWithIncrementalCooperative arguments Set&lt;ConnectorTaskId &gt;  taskConfigUpdates"
+ , "c3" : "QC-JAV000006[00710] For method processTaskConfigUpdatesWithIncrementalCooperative arguments Set&lt;ConnectorTaskId&gt;  taskConfigUpdates"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1838,7 +1838,7 @@ var maDataBlocs = {
  , "c1" : "00722"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#722"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00722] For method stopReconfiguredTasks arguments Set&lt;String &gt;  connectors"
+ , "c3" : "QC-JAV000006[00722] For method stopReconfiguredTasks arguments Set&lt;String&gt;  connectors"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1950,7 +1950,7 @@ var maDataBlocs = {
  , "c1" : "00806"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#806"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00806] For method connectors arguments Callback&lt;Collection&lt;String &gt; &gt;  callback"
+ , "c3" : "QC-JAV000006[00806] For method connectors arguments Callback&lt;Collection&lt;String&gt;&gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1985,7 +1985,7 @@ var maDataBlocs = {
  , "c1" : "00820"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#820"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00820] For method connectorInfo arguments String  connName|Callback&lt;ConnectorInfo &gt;  callback"
+ , "c3" : "QC-JAV000006[00820] For method connectorInfo arguments String  connName|Callback&lt;ConnectorInfo&gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2048,7 +2048,7 @@ var maDataBlocs = {
  , "c1" : "00841"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#841"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00841] For method tasksConfig arguments String  connName|Callback&lt;Map&lt;ConnectorTaskId ,Map&lt;String ,String &gt; &gt; &gt;  callback"
+ , "c3" : "QC-JAV000006[00841] For method tasksConfig arguments String  connName|Callback&lt;Map&lt;ConnectorTaskId,Map&lt;String,String&gt;&gt;&gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2118,7 +2118,7 @@ var maDataBlocs = {
  , "c1" : "00866"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#866"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00866] For method connectorConfig arguments String  connName|Callback&lt;Map&lt;String ,String &gt; &gt;  callback"
+ , "c3" : "QC-JAV000006[00866] For method connectorConfig arguments String  connName|Callback&lt;Map&lt;String,String&gt;&gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2132,7 +2132,7 @@ var maDataBlocs = {
  , "c1" : "00872"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#872"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00872] For method deleteConnectorConfig arguments String  connName|Callback&lt;Created&lt;ConnectorInfo &gt; &gt;  callback"
+ , "c3" : "QC-JAV000006[00872] For method deleteConnectorConfig arguments String  connName|Callback&lt;Created&lt;ConnectorInfo&gt;&gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2230,21 +2230,21 @@ var maDataBlocs = {
  , "c1" : "00895"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#895"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00895] For method validateSinkConnectorConfig arguments SinkConnector  connector|ConfigDef  configDef|Map&lt;String ,String &gt;  config"
+ , "c3" : "QC-JAV000006[00895] For method validateSinkConnectorConfig arguments SinkConnector  connector|ConfigDef  configDef|Map&lt;String,String&gt;  config"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00902"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#902"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00902] For method validateSourceConnectorConfig arguments SourceConnector  connector|ConfigDef  configDef|Map&lt;String ,String &gt;  config"
+ , "c3" : "QC-JAV000006[00902] For method validateSourceConnectorConfig arguments SourceConnector  connector|ConfigDef  configDef|Map&lt;String,String&gt;  config"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00910"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#910"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00910] For method validateSinkConnectorGroupId arguments Map&lt;String ,ConfigValue &gt;  validatedConfig"
+ , "c3" : "QC-JAV000006[00910] For method validateSinkConnectorGroupId arguments Map&lt;String,ConfigValue&gt;  validatedConfig"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2272,7 +2272,7 @@ var maDataBlocs = {
  , "c1" : "00919"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#919"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00919] For method validateSourceConnectorExactlyOnceSupport arguments Map&lt;String ,String &gt;  rawConfig|Map&lt;String ,ConfigValue &gt;  validatedConfig|SourceConnector  connector"
+ , "c3" : "QC-JAV000006[00919] For method validateSourceConnectorExactlyOnceSupport arguments Map&lt;String,String&gt;  rawConfig|Map&lt;String,ConfigValue&gt;  validatedConfig|SourceConnector  connector"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2384,7 +2384,7 @@ var maDataBlocs = {
  , "c1" : "00966"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#966"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00966] For method validateSourceConnectorTransactionBoundary arguments Map&lt;String ,String &gt;  rawConfig|Map&lt;String ,ConfigValue &gt;  validatedConfig|SourceConnector  connector"
+ , "c3" : "QC-JAV000006[00966] For method validateSourceConnectorTransactionBoundary arguments Map&lt;String,String&gt;  rawConfig|Map&lt;String,ConfigValue&gt;  validatedConfig|SourceConnector  connector"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2496,21 +2496,21 @@ var maDataBlocs = {
  , "c1" : "01005"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1005"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01005] For method connectorUsesAdmin arguments org.apache.kafka.connect.health.ConnectorType  connectorType|Map&lt;String ,String &gt;  connProps"
+ , "c3" : "QC-JAV000006[01005] For method connectorUsesAdmin arguments org.apache.kafka.connect.health.ConnectorType  connectorType|Map&lt;String,String&gt;  connProps"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01011"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1011"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01011] For method connectorUsesConsumer arguments org.apache.kafka.connect.health.ConnectorType  connectorType|Map&lt;String ,String &gt;  connProps"
+ , "c3" : "QC-JAV000006[01011] For method connectorUsesConsumer arguments org.apache.kafka.connect.health.ConnectorType  connectorType|Map&lt;String,String&gt;  connProps"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01016"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1016"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01016] For method connectorUsesSeparateOffsetsTopicClients arguments org.apache.kafka.connect.health.ConnectorType  connectorType|Map&lt;String ,String &gt;  connProps"
+ , "c3" : "QC-JAV000006[01016] For method connectorUsesSeparateOffsetsTopicClients arguments org.apache.kafka.connect.health.ConnectorType  connectorType|Map&lt;String,String&gt;  connProps"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2538,7 +2538,7 @@ var maDataBlocs = {
  , "c1" : "01025"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1025"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01025] For method putConnectorConfig arguments String  connName|Map&lt;String ,String &gt;  config|boolean  allowReplace|Callback&lt;Created&lt;ConnectorInfo &gt; &gt;  callback"
+ , "c3" : "QC-JAV000006[01025] For method putConnectorConfig arguments String  connName|Map&lt;String,String&gt;  config|boolean  allowReplace|Callback&lt;Created&lt;ConnectorInfo&gt;&gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2713,7 +2713,7 @@ var maDataBlocs = {
  , "c1" : "01095"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1095"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01095] For method taskConfigs arguments String  connName|Callback&lt;List&lt;TaskInfo &gt; &gt;  callback"
+ , "c3" : "QC-JAV000006[01095] For method taskConfigs arguments String  connName|Callback&lt;List&lt;TaskInfo&gt;&gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2783,7 +2783,7 @@ var maDataBlocs = {
  , "c1" : "01120"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1120"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01120] For method putTaskConfigs arguments String  connName|List&lt;Map&lt;String ,String &gt; &gt;  configs|Callback&lt;Void &gt;  callback|InternalRequestSignature  requestSignature"
+ , "c3" : "QC-JAV000006[01120] For method putTaskConfigs arguments String  connName|List&lt;Map&lt;String,String&gt;&gt;  configs|Callback&lt;Void&gt;  callback|InternalRequestSignature  requestSignature"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2860,7 +2860,7 @@ var maDataBlocs = {
  , "c1" : "01144"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1144"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01144] For method fenceZombieSourceTasks arguments String  connName|Callback&lt;Void &gt;  callback|InternalRequestSignature  requestSignature"
+ , "c3" : "QC-JAV000006[01144] For method fenceZombieSourceTasks arguments String  connName|Callback&lt;Void&gt;  callback|InternalRequestSignature  requestSignature"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2874,7 +2874,7 @@ var maDataBlocs = {
  , "c1" : "01154"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1154"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01154] For method fenceZombieSourceTasks arguments ConnectorTaskId  id|Callback&lt;Void &gt;  callback"
+ , "c3" : "QC-JAV000006[01154] For method fenceZombieSourceTasks arguments ConnectorTaskId  id|Callback&lt;Void&gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3014,7 +3014,7 @@ var maDataBlocs = {
  , "c1" : "01178"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1178"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01178] For method fenceZombieSourceTasks arguments String  connName|Callback&lt;Void &gt;  callback"
+ , "c3" : "QC-JAV000006[01178] For method fenceZombieSourceTasks arguments String  connName|Callback&lt;Void&gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3238,7 +3238,7 @@ var maDataBlocs = {
  , "c1" : "01250"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1250"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01250] For method restartConnector arguments String  connName|Callback&lt;Void &gt;  callback"
+ , "c3" : "QC-JAV000006[01250] For method restartConnector arguments String  connName|Callback&lt;Void&gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3252,7 +3252,7 @@ var maDataBlocs = {
  , "c1" : "01255"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1255"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01255] For method restartConnector arguments long  delayMs|String  connName|Callback&lt;Void &gt;  callback"
+ , "c3" : "QC-JAV000006[01255] For method restartConnector arguments long  delayMs|String  connName|Callback&lt;Void&gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3336,7 +3336,7 @@ var maDataBlocs = {
  , "c1" : "01285"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1285"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01285] For method restartTask arguments ConnectorTaskId  id|Callback&lt;Void &gt;  callback"
+ , "c3" : "QC-JAV000006[01285] For method restartTask arguments ConnectorTaskId  id|Callback&lt;Void&gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3483,7 +3483,7 @@ var maDataBlocs = {
  , "c1" : "01327"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1327"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01327] For method restartConnectorAndTasks arguments RestartRequest  request|Callback&lt;ConnectorStateInfo &gt;  callback"
+ , "c3" : "QC-JAV000006[01327] For method restartConnectorAndTasks arguments RestartRequest  request|Callback&lt;ConnectorStateInfo&gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4099,7 +4099,7 @@ var maDataBlocs = {
  , "c1" : "01643"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1643"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01643] For method startAndStop arguments Collection&lt;Callable&lt;Void &gt; &gt;  callables"
+ , "c3" : "QC-JAV000006[01643] For method startAndStop arguments Collection&lt;Callable&lt;Void&gt;&gt;  callables"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4267,7 +4267,7 @@ var maDataBlocs = {
  , "c1" : "01776"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1776"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01776] For method startConnector arguments String  connectorName|Callback&lt;Void &gt;  callback"
+ , "c3" : "QC-JAV000006[01776] For method startConnector arguments String  connectorName|Callback&lt;Void&gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4491,7 +4491,7 @@ var maDataBlocs = {
  , "c1" : "01873"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1873"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01873] For method reconfigureConnector arguments String  connName|Callback&lt;Void &gt;  cb"
+ , "c3" : "QC-JAV000006[01873] For method reconfigureConnector arguments String  connName|Callback&lt;Void&gt;  cb"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4708,7 +4708,7 @@ var maDataBlocs = {
  , "c1" : "01970"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1970"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01970] For method verifyTaskGenerationAndOwnership arguments ConnectorTaskId  id|int  initialTaskGen|Callback&lt;Void &gt;  callback"
+ , "c3" : "QC-JAV000006[01970] For method verifyTaskGenerationAndOwnership arguments ConnectorTaskId  id|int  initialTaskGen|Callback&lt;Void&gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4785,7 +4785,7 @@ var maDataBlocs = {
  , "c1" : "01986"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1986"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01986] For method checkRebalanceNeeded arguments Callback&lt;? &gt;  callback"
+ , "c3" : "QC-JAV000006[01986] For method checkRebalanceNeeded arguments Callback&lt;?&gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4827,7 +4827,7 @@ var maDataBlocs = {
  , "c1" : "02004"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2004"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02004] For method runOnTickThread arguments Callable&lt;Void &gt;  action|Callback&lt;Void &gt;  callback"
+ , "c3" : "QC-JAV000006[02004] For method runOnTickThread arguments Callable&lt;Void&gt;  action|Callback&lt;Void&gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4841,7 +4841,7 @@ var maDataBlocs = {
  , "c1" : "02013"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2013"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02013] For method addRequest arguments Callable&lt;Void &gt;  action|Callback&lt;Void &gt;  callback"
+ , "c3" : "QC-JAV000006[02013] For method addRequest arguments Callable&lt;Void&gt;  action|Callback&lt;Void&gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4855,14 +4855,14 @@ var maDataBlocs = {
  , "c1" : "02017"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2017"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02017] For method addRequest arguments long  delayMs|Callable&lt;Void &gt;  action|Callback&lt;Void &gt;  callback"
+ , "c3" : "QC-JAV000006[02017] For method addRequest arguments long  delayMs|Callable&lt;Void&gt;  action|Callback&lt;Void&gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02025"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2025"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02025] For method runRequest arguments Callable&lt;Void &gt;  action|Callback&lt;Void &gt;  callback"
+ , "c3" : "QC-JAV000006[02025] For method runRequest arguments Callable&lt;Void&gt;  action|Callback&lt;Void&gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4988,7 +4988,7 @@ var maDataBlocs = {
  , "c1" : "02082"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2082"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02082] For method onTaskConfigUpdate arguments Collection&lt;ConnectorTaskId &gt;  tasks"
+ , "c3" : "QC-JAV000006[02082] For method onTaskConfigUpdate arguments Collection&lt;ConnectorTaskId&gt;  tasks"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5212,7 +5212,7 @@ var maDataBlocs = {
  , "c1" : "02208"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2208"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02208] For method forwardErrorCallback arguments Callback&lt;? &gt;  callback"
+ , "c3" : "QC-JAV000006[02208] For method forwardErrorCallback arguments Callback&lt;?&gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5373,7 +5373,7 @@ var maDataBlocs = {
  , "c1" : "02323"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2323"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02323] For method onRevoked arguments String  leader|Collection&lt;String &gt;  connectors|Collection&lt;ConnectorTaskId &gt;  tasks"
+ , "c3" : "QC-JAV000006[02323] For method onRevoked arguments String  leader|Collection&lt;String&gt;  connectors|Collection&lt;ConnectorTaskId&gt;  tasks"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5422,7 +5422,7 @@ var maDataBlocs = {
  , "c1" : "02369"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2369"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02369] For method resetActiveTopics arguments Collection&lt;String &gt;  connectors|Collection&lt;ConnectorTaskId &gt;  tasks"
+ , "c3" : "QC-JAV000006[02369] For method resetActiveTopics arguments Collection&lt;String&gt;  connectors|Collection&lt;ConnectorTaskId&gt;  tasks"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5450,7 +5450,7 @@ var maDataBlocs = {
  , "c1" : "02393"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2393"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02393] For method requestNotSignedProperly arguments InternalRequestSignature  requestSignature|Callback&lt;? &gt;  callback"
+ , "c3" : "QC-JAV000006[02393] For method requestNotSignedProperly arguments InternalRequestSignature  requestSignature|Callback&lt;?&gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5625,7 +5625,7 @@ var maDataBlocs = {
  , "c1" : "02524"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#2524"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02524] For method addCallback arguments Callback&lt;Void &gt;  callback"
+ , "c3" : "QC-JAV000006[02524] For method addCallback arguments Callback&lt;Void&gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""

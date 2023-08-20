@@ -252,7 +252,7 @@ var maDataBlocs = {
  , "c1" : "00141"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#141"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00141] For method onRecordsReceived arguments ConsumerRecords&lt;String ,String &gt;  records"
+ , "c3" : "QC-JAV000006[00141] For method onRecordsReceived arguments ConsumerRecords&lt;String,String&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -308,7 +308,7 @@ var maDataBlocs = {
  , "c1" : "00177"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#177"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00177] For method onComplete arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets|Exception  exception"
+ , "c3" : "QC-JAV000006[00177] For method onComplete arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets|Exception  exception"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -357,14 +357,14 @@ var maDataBlocs = {
  , "c1" : "00194"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#194"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00194] For method onPartitionsAssigned arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00194] For method onPartitionsAssigned arguments Collection&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00199"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#199"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00199] For method onPartitionsRevoked arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00199] For method onPartitionsRevoked arguments Collection&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -385,7 +385,7 @@ var maDataBlocs = {
  , "c1" : "00211"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/VerifiableConsumer.java.html#211"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00211] For method commitSync arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets"
+ , "c3" : "QC-JAV000006[00211] For method commitSync arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets"
 }} 
 ,
 { "ligne" : {"" : ""

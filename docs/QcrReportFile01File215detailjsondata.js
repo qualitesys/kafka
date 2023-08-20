@@ -123,7 +123,7 @@ var maDataBlocs = {
  , "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#53"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method prepareRequest arguments Node  node|Map&lt;TopicPartition ,SubscriptionState.FetchPosition &gt;  requestData"
+ , "c3" : "QC-JAV000006[00053] For method prepareRequest arguments Node  node|Map&lt;TopicPartition,SubscriptionState.FetchPosition&gt;  requestData"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -144,7 +144,7 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/OffsetsForLeaderEpochClient.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method handleResponse arguments Node  node|Map&lt;TopicPartition ,SubscriptionState.FetchPosition &gt;  requestData|OffsetsForLeaderEpochResponse  response"
+ , "c3" : "QC-JAV000006[00075] For method handleResponse arguments Node  node|Map&lt;TopicPartition,SubscriptionState.FetchPosition&gt;  requestData|OffsetsForLeaderEpochResponse  response"
 }} 
 ,
 { "ligne" : {"" : ""

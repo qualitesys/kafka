@@ -1029,7 +1029,7 @@ var maDataBlocs = {
  , "c1" : "00096"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#96"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00096] For method rebalance arguments Collection&lt;TopicPartition &gt;  newAssignment"
+ , "c3" : "QC-JAV000006[00096] For method rebalance arguments Collection&lt;TopicPartition&gt;  newAssignment"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1050,7 +1050,7 @@ var maDataBlocs = {
  , "c1" : "00108"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00108] For method subscribe arguments Collection&lt;String &gt;  topics"
+ , "c3" : "QC-JAV000006[00108] For method subscribe arguments Collection&lt;String&gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1106,7 +1106,7 @@ var maDataBlocs = {
  , "c1" : "00141"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#141"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00141] For method subscribe arguments Collection&lt;String &gt;  topics|ConsumerRebalanceListener  listener"
+ , "c3" : "QC-JAV000006[00141] For method subscribe arguments Collection&lt;String&gt;  topics|ConsumerRebalanceListener  listener"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1120,7 +1120,7 @@ var maDataBlocs = {
  , "c1" : "00148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#148"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00148] For method assign arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00148] For method assign arguments Collection&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1274,7 +1274,7 @@ var maDataBlocs = {
  , "c1" : "00227"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#227"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00227] For method addRecord arguments ConsumerRecord&lt;K ,V &gt;  record"
+ , "c3" : "QC-JAV000006[00227] For method addRecord arguments ConsumerRecord&lt;K,V&gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1344,7 +1344,7 @@ var maDataBlocs = {
  , "c1" : "00254"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#254"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00254] For method commitAsync arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets|OffsetCommitCallback  callback"
+ , "c3" : "QC-JAV000006[00254] For method commitAsync arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets|OffsetCommitCallback  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1379,7 +1379,7 @@ var maDataBlocs = {
  , "c1" : "00264"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#264"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00264] For method commitSync arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets"
+ , "c3" : "QC-JAV000006[00264] For method commitSync arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1442,7 +1442,7 @@ var maDataBlocs = {
  , "c1" : "00290"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#290"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00290] For method commitSync arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets|Duration  timeout"
+ , "c3" : "QC-JAV000006[00290] For method commitSync arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets|Duration  timeout"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1505,7 +1505,7 @@ var maDataBlocs = {
  , "c1" : "00319"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#319"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00319] For method committed arguments Set&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00319] For method committed arguments Set&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1533,7 +1533,7 @@ var maDataBlocs = {
  , "c1" : "00329"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#329"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00329] For method committed arguments Set&lt;TopicPartition &gt;  partitions|Duration  timeout"
+ , "c3" : "QC-JAV000006[00329] For method committed arguments Set&lt;TopicPartition&gt;  partitions|Duration  timeout"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1589,7 +1589,7 @@ var maDataBlocs = {
  , "c1" : "00352"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#352"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00352] For method seekToBeginning arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00352] For method seekToBeginning arguments Collection&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1603,7 +1603,7 @@ var maDataBlocs = {
  , "c1" : "00357"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#357"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00357] For method updateBeginningOffsets arguments Map&lt;TopicPartition ,Long &gt;  newOffsets"
+ , "c3" : "QC-JAV000006[00357] For method updateBeginningOffsets arguments Map&lt;TopicPartition,Long&gt;  newOffsets"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1617,7 +1617,7 @@ var maDataBlocs = {
  , "c1" : "00362"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#362"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00362] For method seekToEnd arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00362] For method seekToEnd arguments Collection&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1631,7 +1631,7 @@ var maDataBlocs = {
  , "c1" : "00367"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#367"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00367] For method updateEndOffsets arguments Map&lt;TopicPartition ,Long &gt;  newOffsets"
+ , "c3" : "QC-JAV000006[00367] For method updateEndOffsets arguments Map&lt;TopicPartition,Long&gt;  newOffsets"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1673,7 +1673,7 @@ var maDataBlocs = {
  , "c1" : "00389"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#389"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00389] For method updatePartitions arguments String  topic|List&lt;PartitionInfo &gt;  partitions"
+ , "c3" : "QC-JAV000006[00389] For method updatePartitions arguments String  topic|List&lt;PartitionInfo&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1694,7 +1694,7 @@ var maDataBlocs = {
  , "c1" : "00395"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#395"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00395] For method pause arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00395] For method pause arguments Collection&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1708,7 +1708,7 @@ var maDataBlocs = {
  , "c1" : "00403"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#403"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00403] For method resume arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00403] For method resume arguments Collection&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1722,7 +1722,7 @@ var maDataBlocs = {
  , "c1" : "00411"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#411"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00411] For method offsetsForTimes arguments Map&lt;TopicPartition ,Long &gt;  timestampsToSearch"
+ , "c3" : "QC-JAV000006[00411] For method offsetsForTimes arguments Map&lt;TopicPartition,Long&gt;  timestampsToSearch"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1743,7 +1743,7 @@ var maDataBlocs = {
  , "c1" : "00416"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#416"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00416] For method beginningOffsets arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00416] For method beginningOffsets arguments Collection&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1799,7 +1799,7 @@ var maDataBlocs = {
  , "c1" : "00433"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#433"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00433] For method endOffsets arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00433] For method endOffsets arguments Collection&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1995,21 +1995,21 @@ var maDataBlocs = {
  , "c1" : "00531"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#531"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00531] For method offsetsForTimes arguments Map&lt;TopicPartition ,Long &gt;  timestampsToSearch|Duration  timeout"
+ , "c3" : "QC-JAV000006[00531] For method offsetsForTimes arguments Map&lt;TopicPartition,Long&gt;  timestampsToSearch|Duration  timeout"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00537"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#537"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00537] For method beginningOffsets arguments Collection&lt;TopicPartition &gt;  partitions|Duration  timeout"
+ , "c3" : "QC-JAV000006[00537] For method beginningOffsets arguments Collection&lt;TopicPartition&gt;  partitions|Duration  timeout"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00542"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#542"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00542] For method endOffsets arguments Collection&lt;TopicPartition &gt;  partitions|Duration  timeout"
+ , "c3" : "QC-JAV000006[00542] For method endOffsets arguments Collection&lt;TopicPartition&gt;  partitions|Duration  timeout"
 }} 
 ,
 { "ligne" : {"" : ""

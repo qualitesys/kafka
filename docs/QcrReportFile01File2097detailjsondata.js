@@ -391,7 +391,7 @@ var maDataBlocs = {
  , "c1" : "00194"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#194"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00194] For method toBinary arguments Windowed&lt;Bytes &gt;  sessionKey"
+ , "c3" : "QC-JAV000006[00194] For method toBinary arguments Windowed&lt;Bytes&gt;  sessionKey"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -685,7 +685,7 @@ var maDataBlocs = {
  , "c1" : "00346"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#346"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00346] For method toBinary arguments Windowed&lt;Bytes &gt;  sessionKey"
+ , "c3" : "QC-JAV000006[00346] For method toBinary arguments Windowed&lt;Bytes&gt;  sessionKey"
 }} 
 ,
 { "ligne" : {"" : ""

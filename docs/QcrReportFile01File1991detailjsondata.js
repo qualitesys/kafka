@@ -221,7 +221,7 @@ var maDataBlocs = {
  , "c1" : "00101"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryRequest.java.html#101"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00101] For method withPartitions arguments Set&lt;Integer &gt;  partitions"
+ , "c3" : "QC-JAV000006[00101] For method withPartitions arguments Set&lt;Integer&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""

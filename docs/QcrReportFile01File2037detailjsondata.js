@@ -306,7 +306,7 @@ var maDataBlocs = {
  , "c1" : "00085"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00085] For method initInternal arguments InternalProcessorContext&lt;? ,? &gt;  context"
+ , "c3" : "QC-JAV000006[00085] For method initInternal arguments InternalProcessorContext&lt;?,?&gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -334,7 +334,7 @@ var maDataBlocs = {
  , "c1" : "00096"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#96"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00096] For method putAndMaybeForward arguments ThreadCache.DirtyEntry  entry|InternalProcessorContext&lt;? ,? &gt;  context"
+ , "c3" : "QC-JAV000006[00096] For method putAndMaybeForward arguments ThreadCache.DirtyEntry  entry|InternalProcessorContext&lt;?,?&gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -404,7 +404,7 @@ var maDataBlocs = {
  , "c1" : "00135"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#135"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00135] For method setFlushListener arguments CacheFlushListener&lt;byte[] ,byte[] &gt;  flushListener|boolean  sendOldValues"
+ , "c3" : "QC-JAV000006[00135] For method setFlushListener arguments CacheFlushListener&lt;byte[],byte[]&gt;  flushListener|boolean  sendOldValues"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -418,7 +418,7 @@ var maDataBlocs = {
  , "c1" : "00144"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#144"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00144] For method put arguments Windowed&lt;Bytes &gt;  key|byte[]  value"
+ , "c3" : "QC-JAV000006[00144] For method put arguments Windowed&lt;Bytes&gt;  key|byte[]  value"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -439,7 +439,7 @@ var maDataBlocs = {
  , "c1" : "00162"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#162"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00162] For method remove arguments Windowed&lt;Bytes &gt;  sessionKey"
+ , "c3" : "QC-JAV000006[00162] For method remove arguments Windowed&lt;Bytes&gt;  sessionKey"
 }} 
 ,
 { "ligne" : {"" : ""

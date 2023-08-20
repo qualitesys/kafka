@@ -192,7 +192,7 @@ var maDataBlocs = {
  , "c1" : "00091"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectDistributed.java.html#91"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00091] For method startConnect arguments Map&lt;String ,String &gt;  workerProps"
+ , "c3" : "QC-JAV000006[00091] For method startConnect arguments Map&lt;String,String&gt;  workerProps"
 }} 
 ,
 { "ligne" : {"" : ""

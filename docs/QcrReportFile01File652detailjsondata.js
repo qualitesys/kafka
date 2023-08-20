@@ -204,7 +204,7 @@ var maDataBlocs = {
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeGroupsResponse.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method groupMetadata arguments String  groupId|Errors  error|String  state|String  protocolType|String  protocol|List&lt;DescribedGroupMember &gt;  members|Set&lt;Byte &gt;  authorizedOperations"
+ , "c3" : "QC-JAV000006[00070] For method groupMetadata arguments String  groupId|Errors  error|String  state|String  protocolType|String  protocol|List&lt;DescribedGroupMember&gt;  members|Set&lt;Byte&gt;  authorizedOperations"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -218,7 +218,7 @@ var maDataBlocs = {
  , "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeGroupsResponse.java.html#89"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00089] For method groupMetadata arguments String  groupId|Errors  error|String  state|String  protocolType|String  protocol|List&lt;DescribedGroupMember &gt;  members|int  authorizedOperations"
+ , "c3" : "QC-JAV000006[00089] For method groupMetadata arguments String  groupId|Errors  error|String  state|String  protocolType|String  protocol|List&lt;DescribedGroupMember&gt;  members|int  authorizedOperations"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -239,7 +239,7 @@ var maDataBlocs = {
  , "c1" : "00135"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeGroupsResponse.java.html#135"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00135] For method fromError arguments int  throttleTimeMs|Errors  error|List&lt;String &gt;  groupIds"
+ , "c3" : "QC-JAV000006[00135] For method fromError arguments int  throttleTimeMs|Errors  error|List&lt;String&gt;  groupIds"
 }} 
 ,
 { "ligne" : {"" : ""

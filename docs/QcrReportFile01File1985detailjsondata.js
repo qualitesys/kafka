@@ -212,7 +212,7 @@ var maDataBlocs = {
  , "c1" : "00065"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method fromMap arguments Map&lt;String ,?  extends Map&lt;Integer ,Long &gt; &gt;  map"
+ , "c3" : "QC-JAV000006[00065] For method fromMap arguments Map&lt;String,?extendsMap&lt;Integer,Long&gt;&gt;  map"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -310,7 +310,7 @@ var maDataBlocs = {
  , "c1" : "00137"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/Position.java.html#137"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00137] For method deepCopy arguments Map&lt;String ,?  extends Map&lt;Integer ,Long &gt; &gt;  map"
+ , "c3" : "QC-JAV000006[00137] For method deepCopy arguments Map&lt;String,?extendsMap&lt;Integer,Long&gt;&gt;  map"
 }} 
 ,
 { "ligne" : {"" : ""

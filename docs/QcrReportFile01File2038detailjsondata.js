@@ -325,7 +325,7 @@ var maDataBlocs = {
  , "c1" : "00089"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#89"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00089] For method initInternal arguments InternalProcessorContext&lt;? ,? &gt;  context|String  changelogTopic"
+ , "c3" : "QC-JAV000006[00089] For method initInternal arguments InternalProcessorContext&lt;?,?&gt;  context|String  changelogTopic"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -353,7 +353,7 @@ var maDataBlocs = {
  , "c1" : "00104"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#104"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00104] For method putAndMaybeForward arguments ThreadCache.DirtyEntry  entry|InternalProcessorContext&lt;? ,? &gt;  context"
+ , "c3" : "QC-JAV000006[00104] For method putAndMaybeForward arguments ThreadCache.DirtyEntry  entry|InternalProcessorContext&lt;?,?&gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -423,7 +423,7 @@ var maDataBlocs = {
  , "c1" : "00146"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#146"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00146] For method setFlushListener arguments CacheFlushListener&lt;byte[] ,byte[] &gt;  flushListener|boolean  sendOldValues"
+ , "c3" : "QC-JAV000006[00146] For method setFlushListener arguments CacheFlushListener&lt;byte[],byte[]&gt;  flushListener|boolean  sendOldValues"
 }} 
 ,
 { "ligne" : {"" : ""

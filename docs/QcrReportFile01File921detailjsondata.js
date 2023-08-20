@@ -1728,7 +1728,7 @@ var maDataBlocs = {
  , "c1" : "00664"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#664"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00664] For method loadProps arguments String  filename|List&lt;String &gt;  onlyIncludeKeys"
+ , "c3" : "QC-JAV000006[00664] For method loadProps arguments String  filename|List&lt;String&gt;  onlyIncludeKeys"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1868,7 +1868,7 @@ var maDataBlocs = {
  , "c1" : "00823"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#823"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00823] For method mkProperties arguments Map&lt;String ,String &gt;  properties"
+ , "c3" : "QC-JAV000006[00823] For method mkProperties arguments Map&lt;String,String&gt;  properties"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1882,7 +1882,7 @@ var maDataBlocs = {
  , "c1" : "00837"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#837"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00837] For method mkObjectProperties arguments Map&lt;String ,Object &gt;  properties"
+ , "c3" : "QC-JAV000006[00837] For method mkObjectProperties arguments Map&lt;String,Object&gt;  properties"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2050,7 +2050,7 @@ var maDataBlocs = {
  , "c1" : "01012"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1012"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01012] For method closeQuietly arguments AutoCloseable  closeable|String  name|AtomicReference&lt;Throwable &gt;  firstException"
+ , "c3" : "QC-JAV000006[01012] For method closeQuietly arguments AutoCloseable  closeable|String  name|AtomicReference&lt;Throwable&gt;  firstException"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2085,7 +2085,7 @@ var maDataBlocs = {
  , "c1" : "01029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1029"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01029] For method closeAllQuietly arguments AtomicReference&lt;Throwable &gt;  firstException|String  name|AutoCloseable  ...closeables"
+ , "c3" : "QC-JAV000006[01029] For method closeAllQuietly arguments AtomicReference&lt;Throwable&gt;  firstException|String  name|AutoCloseable  ...closeables"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2393,7 +2393,7 @@ var maDataBlocs = {
  , "c1" : "01224"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1224"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01224] For method to32BitField arguments Set&lt;Byte &gt;  bytes"
+ , "c3" : "QC-JAV000006[01224] For method to32BitField arguments Set&lt;Byte&gt;  bytes"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2715,7 +2715,7 @@ var maDataBlocs = {
  , "c1" : "01424"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1424"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01424] For method enumOptions arguments Class&lt;?  extends Enum&lt;? &gt; &gt;  enumClass"
+ , "c3" : "QC-JAV000006[01424] For method enumOptions arguments Class&lt;?extendsEnum&lt;?&gt;&gt;  enumClass"
 }} 
 ,
 { "ligne" : {"" : ""

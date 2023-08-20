@@ -852,7 +852,7 @@ var maDataBlocs = {
  , "c1" : "00410"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#410"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00410] For method restore arguments Map&lt;TaskId ,Task &gt;  tasks"
+ , "c3" : "QC-JAV000006[00410] For method restore arguments Map&lt;TaskId,Task&gt;  tasks"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -957,14 +957,14 @@ var maDataBlocs = {
  , "c1" : "00482"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#482"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00482] For method pauseResumePartitions arguments Map&lt;TaskId ,Task &gt;  tasks|Set&lt;TopicPartition &gt;  restoringChangelogs"
+ , "c3" : "QC-JAV000006[00482] For method pauseResumePartitions arguments Map&lt;TaskId,Task&gt;  tasks|Set&lt;TopicPartition&gt;  restoringChangelogs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00492"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#492"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00492] For method updatePartitionsByType arguments Map&lt;TaskId ,Task &gt;  tasks|Set&lt;TopicPartition &gt;  restoringChangelogs|TaskType  taskType"
+ , "c3" : "QC-JAV000006[00492] For method updatePartitionsByType arguments Map&lt;TaskId,Task&gt;  tasks|Set&lt;TopicPartition&gt;  restoringChangelogs|TaskType  taskType"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -978,7 +978,7 @@ var maDataBlocs = {
  , "c1" : "00503"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#503"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00503] For method shouldResume arguments Map&lt;TaskId ,Task &gt;  tasks|TopicPartition  partition|TaskType  taskType"
+ , "c3" : "QC-JAV000006[00503] For method shouldResume arguments Map&lt;TaskId,Task&gt;  tasks|TopicPartition  partition|TaskType  taskType"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1013,7 +1013,7 @@ var maDataBlocs = {
  , "c1" : "00513"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#513"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00513] For method shouldPause arguments Map&lt;TaskId ,Task &gt;  tasks|TopicPartition  partition|TaskType  taskType"
+ , "c3" : "QC-JAV000006[00513] For method shouldPause arguments Map&lt;TaskId,Task&gt;  tasks|TopicPartition  partition|TaskType  taskType"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1153,14 +1153,14 @@ var maDataBlocs = {
  , "c1" : "00560"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#560"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00560] For method maybeUpdateLimitOffsetsForStandbyChangelogs arguments Map&lt;TaskId ,Task &gt;  tasks"
+ , "c3" : "QC-JAV000006[00560] For method maybeUpdateLimitOffsetsForStandbyChangelogs arguments Map&lt;TaskId,Task&gt;  tasks"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00586"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#586"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00586] For method bufferChangelogRecords arguments ChangelogMetadata  changelogMetadata|List&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  records"
+ , "c3" : "QC-JAV000006[00586] For method bufferChangelogRecords arguments ChangelogMetadata  changelogMetadata|List&lt;ConsumerRecord&lt;byte[],byte[]&gt;&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1300,7 +1300,7 @@ var maDataBlocs = {
  , "c1" : "00668"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#668"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00668] For method getTasksFromPartitions arguments Map&lt;TaskId ,Task &gt;  tasks|Set&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00668] For method getTasksFromPartitions arguments Map&lt;TaskId,Task&gt;  tasks|Set&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1314,7 +1314,7 @@ var maDataBlocs = {
  , "c1" : "00677"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#677"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00677] For method clearTaskTimeout arguments Set&lt;Task &gt;  tasks"
+ , "c3" : "QC-JAV000006[00677] For method clearTaskTimeout arguments Set&lt;Task&gt;  tasks"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1335,7 +1335,7 @@ var maDataBlocs = {
  , "c1" : "00685"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#685"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00685] For method maybeInitTaskTimeoutOrThrow arguments Set&lt;Task &gt;  tasks|Exception  cause"
+ , "c3" : "QC-JAV000006[00685] For method maybeInitTaskTimeoutOrThrow arguments Set&lt;Task&gt;  tasks|Exception  cause"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1349,7 +1349,7 @@ var maDataBlocs = {
  , "c1" : "00691"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#691"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00691] For method committedOffsetForChangelogs arguments Map&lt;TaskId ,Task &gt;  tasks|Set&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00691] For method committedOffsetForChangelogs arguments Map&lt;TaskId,Task&gt;  tasks|Set&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1398,7 +1398,7 @@ var maDataBlocs = {
  , "c1" : "00718"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#718"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00718] For method endOffsetForChangelogs arguments Map&lt;TaskId ,Task &gt;  tasks|Set&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00718] For method endOffsetForChangelogs arguments Map&lt;TaskId,Task&gt;  tasks|Set&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1426,7 +1426,7 @@ var maDataBlocs = {
  , "c1" : "00745"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#745"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00745] For method updateLimitOffsetsForStandbyChangelogs arguments Map&lt;TopicPartition ,Long &gt;  committedOffsets"
+ , "c3" : "QC-JAV000006[00745] For method updateLimitOffsetsForStandbyChangelogs arguments Map&lt;TopicPartition,Long&gt;  committedOffsets"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1496,7 +1496,7 @@ var maDataBlocs = {
  , "c1" : "00770"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#770"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00770] For method initializeChangelogs arguments Map&lt;TaskId ,Task &gt;  tasks|Set&lt;ChangelogMetadata &gt;  newPartitionsToRestore"
+ , "c3" : "QC-JAV000006[00770] For method initializeChangelogs arguments Map&lt;TaskId,Task&gt;  tasks|Set&lt;ChangelogMetadata&gt;  newPartitionsToRestore"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1636,7 +1636,7 @@ var maDataBlocs = {
  , "c1" : "00848"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#848"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00848] For method addChangelogsToRestoreConsumer arguments Set&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00848] For method addChangelogsToRestoreConsumer arguments Set&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1671,7 +1671,7 @@ var maDataBlocs = {
  , "c1" : "00862"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#862"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00862] For method pauseChangelogsFromRestoreConsumer arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00862] For method pauseChangelogsFromRestoreConsumer arguments Collection&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1713,7 +1713,7 @@ var maDataBlocs = {
  , "c1" : "00875"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#875"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00875] For method removeChangelogsFromRestoreConsumer arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00875] For method removeChangelogsFromRestoreConsumer arguments Collection&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1748,7 +1748,7 @@ var maDataBlocs = {
  , "c1" : "00887"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#887"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00887] For method resumeChangelogsFromRestoreConsumer arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00887] For method resumeChangelogsFromRestoreConsumer arguments Collection&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1790,7 +1790,7 @@ var maDataBlocs = {
  , "c1" : "00900"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#900"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00900] For method prepareChangelogs arguments Set&lt;ChangelogMetadata &gt;  newPartitionsToRestore"
+ , "c3" : "QC-JAV000006[00900] For method prepareChangelogs arguments Set&lt;ChangelogMetadata&gt;  newPartitionsToRestore"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1944,7 +1944,7 @@ var maDataBlocs = {
  , "c1" : "00961"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreChangelogReader.java.html#961"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00961] For method unregister arguments Collection&lt;TopicPartition &gt;  revokedChangelogs"
+ , "c3" : "QC-JAV000006[00961] For method unregister arguments Collection&lt;TopicPartition&gt;  revokedChangelogs"
 }} 
 ,
 { "ligne" : {"" : ""

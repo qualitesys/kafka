@@ -879,7 +879,7 @@ var maDataBlocs = {
  , "c1" : "00256"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#256"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00256] For method putAll arguments List&lt;KeyValue&lt;byte[] ,LRUCacheEntry &gt; &gt;  entries"
+ , "c3" : "QC-JAV000006[00256] For method putAll arguments List&lt;KeyValue&lt;byte[],LRUCacheEntry&gt;&gt;  entries"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1040,7 +1040,7 @@ var maDataBlocs = {
  , "c1" : "00307"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/NamedCache.java.html#307"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00307] For method keySetIterator arguments Set&lt;Bytes &gt;  keySet|boolean  forward"
+ , "c3" : "QC-JAV000006[00307] For method keySetIterator arguments Set&lt;Bytes&gt;  keySet|boolean  forward"
 }} 
 ,
 { "ligne" : {"" : ""

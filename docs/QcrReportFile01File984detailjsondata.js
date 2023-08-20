@@ -285,7 +285,7 @@ var maDataBlocs = {
  , "c1" : "00101"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#101"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00101] For method newRecord arguments String  topic|Integer  kafkaPartition|Schema  keySchema|Object  key|Schema  valueSchema|Object  value|Long  timestamp|Iterable&lt;Header &gt;  headers"
+ , "c3" : "QC-JAV000006[00101] For method newRecord arguments String  topic|Integer  kafkaPartition|Schema  keySchema|Object  key|Schema  valueSchema|Object  value|Long  timestamp|Iterable&lt;Header&gt;  headers"
 }} 
 ,
 { "ligne" : {"" : ""

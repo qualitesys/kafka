@@ -239,7 +239,7 @@ var maDataBlocs = {
  , "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#100"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00100] For method mapToString arguments Map&lt;String ,Short &gt;  map"
+ , "c3" : "QC-JAV000006[00100] For method mapToString arguments Map&lt;String,Short&gt;  map"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -302,7 +302,7 @@ var maDataBlocs = {
  , "c1" : "00130"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/BaseVersionRange.java.html#130"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00130] For method valueOrThrow arguments String  key|Map&lt;String ,Short &gt;  versionRangeMap"
+ , "c3" : "QC-JAV000006[00130] For method valueOrThrow arguments String  key|Map&lt;String,Short&gt;  versionRangeMap"
 }} 
 ,
 { "ligne" : {"" : ""

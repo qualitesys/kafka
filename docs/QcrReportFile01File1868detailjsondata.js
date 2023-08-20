@@ -169,7 +169,7 @@ var maDataBlocs = {
  , "c1" : "00137"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#137"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00137] For method putAll arguments List&lt;KeyValue&lt;K ,V &gt; &gt;  entries"
+ , "c3" : "QC-JAV000006[00137] For method putAll arguments List&lt;KeyValue&lt;K,V&gt;&gt;  entries"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -260,14 +260,14 @@ var maDataBlocs = {
  , "c1" : "00269"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#269"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00269] For method remove arguments Windowed&lt;K &gt;  sessionKey"
+ , "c3" : "QC-JAV000006[00269] For method remove arguments Windowed&lt;K&gt;  sessionKey"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00274"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadWriteDecorator.java.html#274"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00274] For method put arguments Windowed&lt;K &gt;  sessionKey|AGG  aggregate"
+ , "c3" : "QC-JAV000006[00274] For method put arguments Windowed&lt;K&gt;  sessionKey|AGG  aggregate"
 }} 
 ,
 { "ligne" : {"" : ""

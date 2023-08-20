@@ -114,7 +114,7 @@ var maDataBlocs = {
  , "c1" : "00040"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/DefaultStandbyTaskAssignor.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method assign arguments Map&lt;UUID ,ClientState &gt;  clients|Set&lt;TaskId &gt;  allTaskIds|Set&lt;TaskId &gt;  statefulTaskIds|AssignorConfiguration.AssignmentConfigs  configs"
+ , "c3" : "QC-JAV000006[00040] For method assign arguments Map&lt;UUID,ClientState&gt;  clients|Set&lt;TaskId&gt;  allTaskIds|Set&lt;TaskId&gt;  statefulTaskIds|AssignorConfiguration.AssignmentConfigs  configs"
 }} 
 ,
 { "ligne" : {"" : ""

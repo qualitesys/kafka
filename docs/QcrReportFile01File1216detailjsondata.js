@@ -229,7 +229,7 @@ var maDataBlocs = {
  , "c1" : "00064"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#64"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method configure arguments Map&lt;String ,? &gt;  props"
+ , "c3" : "QC-JAV000006[00064] For method configure arguments Map&lt;String,?&gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -306,7 +306,7 @@ var maDataBlocs = {
  , "c1" : "00103"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#103"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00103] For method applySchemaless arguments Map&lt;String ,Object &gt;  originalRecord|String  fieldNamePrefix|Map&lt;String ,Object &gt;  newRecord"
+ , "c3" : "QC-JAV000006[00103] For method applySchemaless arguments Map&lt;String,Object&gt;  originalRecord|String  fieldNamePrefix|Map&lt;String,Object&gt;  newRecord"
 }} 
 ,
 { "ligne" : {"" : ""

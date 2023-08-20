@@ -123,7 +123,7 @@ var maDataBlocs = {
  , "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/StringSerializer.java.html#33"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00033] For method configure arguments Map&lt;String,?&gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -216,7 +216,7 @@ var maDataBlocs = {
  , "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#81"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00081] For method estimateSizeInBytes arguments byte  magic|long  baseOffset|CompressionType  compressionType|Iterable&lt;Record &gt;  records"
+ , "c3" : "QC-JAV000006[00081] For method estimateSizeInBytes arguments byte  magic|long  baseOffset|CompressionType  compressionType|Iterable&lt;Record&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -237,7 +237,7 @@ var maDataBlocs = {
  , "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#95"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00095] For method estimateSizeInBytes arguments byte  magic|CompressionType  compressionType|Iterable&lt;SimpleRecord &gt;  records"
+ , "c3" : "QC-JAV000006[00095] For method estimateSizeInBytes arguments byte  magic|CompressionType  compressionType|Iterable&lt;SimpleRecord&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""

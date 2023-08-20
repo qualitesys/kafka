@@ -243,42 +243,42 @@ var maDataBlocs = {
  , "c1" : "00076"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#76"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method register arguments Object  component|Map&lt;Class&lt;? &gt; ,Integer &gt;  contracts"
+ , "c3" : "QC-JAV000006[00076] For method register arguments Object  component|Map&lt;Class&lt;?&gt;,Integer&gt;  contracts"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00084"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#84"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00084] For method register arguments Object  component|Class&lt;? &gt;  ...contracts"
+ , "c3" : "QC-JAV000006[00084] For method register arguments Object  component|Class&lt;?&gt;  ...contracts"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00092] For method register arguments Class&lt;? &gt;  componentClass|Map&lt;Class&lt;? &gt; ,Integer &gt;  contracts"
+ , "c3" : "QC-JAV000006[00092] For method register arguments Class&lt;?&gt;  componentClass|Map&lt;Class&lt;?&gt;,Integer&gt;  contracts"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#100"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00100] For method register arguments Class&lt;? &gt;  componentClass|Class&lt;? &gt;  ...contracts"
+ , "c3" : "QC-JAV000006[00100] For method register arguments Class&lt;?&gt;  componentClass|Class&lt;?&gt;  ...contracts"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00108] For method register arguments Class&lt;? &gt;  componentClass|int  priority"
+ , "c3" : "QC-JAV000006[00108] For method register arguments Class&lt;?&gt;  componentClass|int  priority"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#116"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00116] For method register arguments Class&lt;? &gt;  componentClass"
+ , "c3" : "QC-JAV000006[00116] For method register arguments Class&lt;?&gt;  componentClass"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -299,7 +299,7 @@ var maDataBlocs = {
  , "c1" : "00131"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/ConnectRestConfigurable.java.html#131"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00131] For method allowedToRegister arguments Class&lt;? &gt;  componentClass"
+ , "c3" : "QC-JAV000006[00131] For method allowedToRegister arguments Class&lt;?&gt;  componentClass"
 }} 
 ,
 { "ligne" : {"" : ""

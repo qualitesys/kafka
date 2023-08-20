@@ -668,7 +668,7 @@ var maDataBlocs = {
  , "c1" : "00161"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#161"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00161] For method addList arguments String  key|List&lt;? &gt;  value|Schema  schema"
+ , "c3" : "QC-JAV000006[00161] For method addList arguments String  key|List&lt;?&gt;  value|Schema  schema"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -696,7 +696,7 @@ var maDataBlocs = {
  , "c1" : "00170"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#170"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00170] For method addMap arguments String  key|Map&lt;? ,? &gt;  value|Schema  schema"
+ , "c3" : "QC-JAV000006[00170] For method addMap arguments String  key|Map&lt;?,?&gt;  value|Schema  schema"
 }} 
 ,
 { "ligne" : {"" : ""

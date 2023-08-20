@@ -146,7 +146,7 @@ var maDataBlocs = {
  , "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/JwksFileVerificationKeyResolver.java.html#110"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00110] For method resolveKey arguments JsonWebSignature  jws|List&lt;JsonWebStructure &gt;  nestingContext"
+ , "c3" : "QC-JAV000006[00110] For method resolveKey arguments JsonWebSignature  jws|List&lt;JsonWebStructure&gt;  nestingContext"
 }} 
 ,
 { "ligne" : {"" : ""

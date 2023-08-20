@@ -549,7 +549,7 @@ var maDataBlocs = {
  , "c1" : "00226"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractProcessorContext.java.html#226"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00226] For method setCurrentNode arguments ProcessorNode&lt;? ,? ,? ,? &gt;  currentNode"
+ , "c3" : "QC-JAV000006[00226] For method setCurrentNode arguments ProcessorNode&lt;?,?,?,?&gt;  currentNode"
 }} 
 ,
 { "ligne" : {"" : ""

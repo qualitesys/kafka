@@ -123,7 +123,7 @@ var maDataBlocs = {
  , "c1" : "00077"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableLeftJoin.java.html#77"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00077] For method init arguments ProcessorContext&lt;K ,Change&lt;VOut &gt; &gt;  context"
+ , "c3" : "QC-JAV000006[00077] For method init arguments ProcessorContext&lt;K,Change&lt;VOut&gt;&gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -137,7 +137,7 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableLeftJoin.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method process arguments Record&lt;K ,Change&lt;V1 &gt; &gt;  record"
+ , "c3" : "QC-JAV000006[00088] For method process arguments Record&lt;K,Change&lt;V1&gt;&gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -242,7 +242,7 @@ var maDataBlocs = {
  , "c1" : "00155"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableLeftJoin.java.html#155"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00155] For method init arguments ProcessorContext&lt;? ,? &gt;  context"
+ , "c3" : "QC-JAV000006[00155] For method init arguments ProcessorContext&lt;?,?&gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""

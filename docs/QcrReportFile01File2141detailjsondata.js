@@ -155,14 +155,14 @@ var maDataBlocs = {
  , "c1" : "00052"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideSerializer.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00052] For method configure arguments Map&lt;String,?&gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyAndJoinSideSerializer.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method serialize arguments String  topic|TimestampedKeyAndJoinSide&lt;K &gt;  data"
+ , "c3" : "QC-JAV000006[00057] For method serialize arguments String  topic|TimestampedKeyAndJoinSide&lt;K&gt;  data"
 }} 
 ,
 { "ligne" : {"" : ""

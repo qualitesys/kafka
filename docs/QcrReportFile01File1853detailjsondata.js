@@ -95,7 +95,7 @@ var maDataBlocs = {
  , "c1" : "00035"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/api/ContextualFixedKeyProcessor.java.html#35"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00035] For method init arguments FixedKeyProcessorContext&lt;KIn ,VOut &gt;  context"
+ , "c3" : "QC-JAV000006[00035] For method init arguments FixedKeyProcessorContext&lt;KIn,VOut&gt;  context"
 }} 
 ]
 , 

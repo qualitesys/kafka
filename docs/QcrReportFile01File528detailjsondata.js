@@ -298,7 +298,7 @@ var maDataBlocs = {
  , "c1" : "00084"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/Protocol.java.html#84"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00084] For method populateSchemaFields arguments Schema  schema|Set&lt;BoundField &gt;  fields"
+ , "c3" : "QC-JAV000006[00084] For method populateSchemaFields arguments Schema  schema|Set&lt;BoundField&gt;  fields"
 }} 
 ,
 { "ligne" : {"" : ""

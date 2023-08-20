@@ -166,7 +166,7 @@ var maDataBlocs = {
  , "c1" : "00060"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method initialize arguments Subject  subject|CallbackHandler  callbackHandler|Map&lt;String ,? &gt;  sharedState|Map&lt;String ,? &gt;  options"
+ , "c3" : "QC-JAV000006[00060] For method initialize arguments Subject  subject|CallbackHandler  callbackHandler|Map&lt;String,?&gt;  sharedState|Map&lt;String,?&gt;  options"
 }} 
 ,
 { "ligne" : {"" : ""

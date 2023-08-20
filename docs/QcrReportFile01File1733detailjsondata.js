@@ -213,7 +213,7 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableFilter.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method computeValue arguments KIn  key|ValueAndTimestamp&lt;VIn &gt;  valueAndTimestamp"
+ , "c3" : "QC-JAV000006[00075] For method computeValue arguments KIn  key|ValueAndTimestamp&lt;VIn&gt;  valueAndTimestamp"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -234,7 +234,7 @@ var maDataBlocs = {
  , "c1" : "00095"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableFilter.java.html#95"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00095] For method init arguments ProcessorContext&lt;KIn ,Change&lt;VIn &gt; &gt;  context"
+ , "c3" : "QC-JAV000006[00095] For method init arguments ProcessorContext&lt;KIn,Change&lt;VIn&gt;&gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -255,7 +255,7 @@ var maDataBlocs = {
  , "c1" : "00108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableFilter.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00108] For method process arguments Record&lt;KIn ,Change&lt;VIn &gt; &gt;  record"
+ , "c3" : "QC-JAV000006[00108] For method process arguments Record&lt;KIn,Change&lt;VIn&gt;&gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -297,7 +297,7 @@ var maDataBlocs = {
  , "c1" : "00127"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableFilter.java.html#127"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00127] For method computeOldValue arguments KIn  key|Change&lt;VIn &gt;  change"
+ , "c3" : "QC-JAV000006[00127] For method computeOldValue arguments KIn  key|Change&lt;VIn&gt;  change"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -339,7 +339,7 @@ var maDataBlocs = {
  , "c1" : "00169"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableFilter.java.html#169"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00169] For method init arguments ProcessorContext&lt;? ,? &gt;  context"
+ , "c3" : "QC-JAV000006[00169] For method init arguments ProcessorContext&lt;?,?&gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""

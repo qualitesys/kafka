@@ -189,7 +189,7 @@ var maDataBlocs = {
  , "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00068] For method newFuture arguments Collection&lt;TopicPartition &gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00068] For method newFuture arguments Collection&lt;TopicPartition&gt;  topicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -203,14 +203,14 @@ var maDataBlocs = {
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00085] For method buildBatchedRequest arguments int  brokerId|Set&lt;TopicPartition &gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00085] For method buildBatchedRequest arguments int  brokerId|Set&lt;TopicPartition&gt;  topicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#101"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00101] For method handlePartitionError arguments TopicPartition  topicPartition|ApiError  apiError|Map&lt;TopicPartition ,Throwable &gt;  failed|List&lt;TopicPartition &gt;  unmapped"
+ , "c3" : "QC-JAV000006[00101] For method handlePartitionError arguments TopicPartition  topicPartition|ApiError  apiError|Map&lt;TopicPartition,Throwable&gt;  failed|List&lt;TopicPartition&gt;  unmapped"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -399,7 +399,7 @@ var maDataBlocs = {
  , "c1" : "00157"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeProducersHandler.java.html#157"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00157] For method handleResponse arguments Node  broker|Set&lt;TopicPartition &gt;  keys|AbstractResponse  abstractResponse"
+ , "c3" : "QC-JAV000006[00157] For method handleResponse arguments Node  broker|Set&lt;TopicPartition&gt;  keys|AbstractResponse  abstractResponse"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -1040,7 +1040,7 @@ var maDataBlocs = {
  , "c1" : "00509"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#509"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00509] For method pollSelectionKeys arguments Set&lt;SelectionKey &gt;  selectionKeys|boolean  isImmediatelyConnected|long  currentTimeNanos"
+ , "c3" : "QC-JAV000006[00509] For method pollSelectionKeys arguments Set&lt;SelectionKey&gt;  selectionKeys|boolean  isImmediatelyConnected|long  currentTimeNanos"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1369,7 +1369,7 @@ var maDataBlocs = {
  , "c1" : "00659"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#659"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00659] For method determineHandlingOrder arguments Set&lt;SelectionKey &gt;  selectionKeys"
+ , "c3" : "QC-JAV000006[00659] For method determineHandlingOrder arguments Set&lt;SelectionKey&gt;  selectionKeys"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2580,7 +2580,7 @@ var maDataBlocs = {
  , "c1" : "01260"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1260"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01260] For method createMeter arguments Metrics  metrics|String  groupName|Map&lt;String ,String &gt;  metricTags|SampledStat  stat|String  baseName|String  descriptiveName"
+ , "c3" : "QC-JAV000006[01260] For method createMeter arguments Metrics  metrics|String  groupName|Map&lt;String,String&gt;  metricTags|SampledStat  stat|String  baseName|String  descriptiveName"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2636,7 +2636,7 @@ var maDataBlocs = {
  , "c1" : "01272"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1272"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01272] For method createMeter arguments Metrics  metrics|String  groupName|Map&lt;String ,String &gt;  metricTags|String  baseName|String  descriptiveName"
+ , "c3" : "QC-JAV000006[01272] For method createMeter arguments Metrics  metrics|String  groupName|Map&lt;String,String&gt;  metricTags|String  baseName|String  descriptiveName"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2650,7 +2650,7 @@ var maDataBlocs = {
  , "c1" : "01283"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1283"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01283] For method createIOThreadRatioMeterLegacy arguments Metrics  metrics|String  groupName|Map&lt;String ,String &gt;  metricTags|String  baseName|String  action"
+ , "c3" : "QC-JAV000006[01283] For method createIOThreadRatioMeterLegacy arguments Metrics  metrics|String  groupName|Map&lt;String,String&gt;  metricTags|String  baseName|String  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2699,7 +2699,7 @@ var maDataBlocs = {
  , "c1" : "01292"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#1292"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01292] For method createIOThreadRatioMeter arguments Metrics  metrics|String  groupName|Map&lt;String ,String &gt;  metricTags|String  baseName|String  action"
+ , "c3" : "QC-JAV000006[01292] For method createIOThreadRatioMeter arguments Metrics  metrics|String  groupName|Map&lt;String,String&gt;  metricTags|String  baseName|String  action"
 }} 
 ,
 { "ligne" : {"" : ""

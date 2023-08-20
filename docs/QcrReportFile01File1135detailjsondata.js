@@ -199,7 +199,7 @@ var maDataBlocs = {
  , "c1" : "00165"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#165"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00165] For method isConcrete arguments Class&lt;? &gt;  klass"
+ , "c3" : "QC-JAV000006[00165] For method isConcrete arguments Class&lt;?&gt;  klass"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -381,7 +381,7 @@ var maDataBlocs = {
  , "c1" : "00306"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#306"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00306] For method simpleName arguments PluginDesc&lt;? &gt;  plugin"
+ , "c3" : "QC-JAV000006[00306] For method simpleName arguments PluginDesc&lt;?&gt;  plugin"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -395,7 +395,7 @@ var maDataBlocs = {
  , "c1" : "00317"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#317"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00317] For method prunedName arguments PluginDesc&lt;? &gt;  plugin"
+ , "c3" : "QC-JAV000006[00317] For method prunedName arguments PluginDesc&lt;?&gt;  plugin"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -444,7 +444,7 @@ var maDataBlocs = {
  , "c1" : "00353"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#353"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00353] For method prunePluginName arguments PluginDesc&lt;? &gt;  plugin|String  suffix"
+ , "c3" : "QC-JAV000006[00353] For method prunePluginName arguments PluginDesc&lt;?&gt;  plugin|String  suffix"
 }} 
 ,
 { "ligne" : {"" : ""

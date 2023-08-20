@@ -382,7 +382,7 @@ var maDataBlocs = {
  , "c1" : "00187"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#187"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00187] For method addListener arguments RequestFutureListener&lt;T &gt;  listener"
+ , "c3" : "QC-JAV000006[00187] For method addListener arguments RequestFutureListener&lt;T&gt;  listener"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -396,7 +396,7 @@ var maDataBlocs = {
  , "c1" : "00217"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#217"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00217] For method chain arguments RequestFuture&lt;T &gt;  future"
+ , "c3" : "QC-JAV000006[00217] For method chain arguments RequestFuture&lt;T&gt;  future"
 }} 
 ,
 { "ligne" : {"" : ""

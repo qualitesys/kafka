@@ -147,7 +147,7 @@ var maDataBlocs = {
  , "c1" : "00063"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumFeatures.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00063] For method create arguments int  nodeId|ApiVersions  apiVersions|Map&lt;String ,VersionRange &gt;  localSupportedFeatures|Collection&lt;Node &gt;  quorumNodes"
+ , "c3" : "QC-JAV000006[00063] For method create arguments int  nodeId|ApiVersions  apiVersions|Map&lt;String,VersionRange&gt;  localSupportedFeatures|Collection&lt;Node&gt;  quorumNodes"
 }} 
 ,
 { "ligne" : {"" : ""

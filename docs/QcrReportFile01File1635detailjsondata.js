@@ -289,14 +289,14 @@ var maDataBlocs = {
  , "c1" : "00161"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#161"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00161] For method withKeySerde arguments Serde&lt;K &gt;  keySerde"
+ , "c3" : "QC-JAV000006[00161] For method withKeySerde arguments Serde&lt;K&gt;  keySerde"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00172"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Consumed.java.html#172"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00172] For method withValueSerde arguments Serde&lt;V &gt;  valueSerde"
+ , "c3" : "QC-JAV000006[00172] For method withValueSerde arguments Serde&lt;V&gt;  valueSerde"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -122,7 +122,7 @@ var maDataBlocs = {
  , "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreateDelegationTokenOptions.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method renewers arguments List&lt;KafkaPrincipal &gt;  renewers"
+ , "c3" : "QC-JAV000006[00038] For method renewers arguments List&lt;KafkaPrincipal&gt;  renewers"
 }} 
 ,
 { "ligne" : {"" : ""

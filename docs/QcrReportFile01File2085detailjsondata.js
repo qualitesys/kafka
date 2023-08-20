@@ -118,7 +118,7 @@ var maDataBlocs = {
  , "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#53"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method prepareValueSerdeForStore arguments Serde&lt;ValueAndTimestamp&lt;V &gt; &gt;  valueSerde|SerdeGetter  getter"
+ , "c3" : "QC-JAV000006[00053] For method prepareValueSerdeForStore arguments Serde&lt;ValueAndTimestamp&lt;V&gt;&gt;  valueSerde|SerdeGetter  getter"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -146,7 +146,7 @@ var maDataBlocs = {
  , "c1" : "00074"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredTimestampedKeyValueStore.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00074] For method putIfDifferentValues arguments K  key|ValueAndTimestamp&lt;V &gt;  newValue|byte[]  oldSerializedValue"
+ , "c3" : "QC-JAV000006[00074] For method putIfDifferentValues arguments K  key|ValueAndTimestamp&lt;V&gt;  newValue|byte[]  oldSerializedValue"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -157,7 +157,7 @@ var maDataBlocs = {
  , "c1" : "00056"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkTask.java.html#56"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method start arguments Map&lt;String ,String &gt;  props"
+ , "c3" : "QC-JAV000006[00056] For method start arguments Map&lt;String,String&gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -178,7 +178,7 @@ var maDataBlocs = {
  , "c1" : "00066"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkTask.java.html#66"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method put arguments Collection&lt;SinkRecord &gt;  records"
+ , "c3" : "QC-JAV000006[00066] For method put arguments Collection&lt;SinkRecord&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -262,7 +262,7 @@ var maDataBlocs = {
  , "c1" : "00092"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkTask.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00092] For method flush arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets"
+ , "c3" : "QC-JAV000006[00092] For method flush arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets"
 }} 
 ,
 { "ligne" : {"" : ""

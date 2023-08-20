@@ -127,7 +127,7 @@ var maDataBlocs = {
  , "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramLoginModule.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method initialize arguments Subject  subject|CallbackHandler  callbackHandler|Map&lt;String ,? &gt;  sharedState|Map&lt;String ,? &gt;  options"
+ , "c3" : "QC-JAV000006[00041] For method initialize arguments Subject  subject|CallbackHandler  callbackHandler|Map&lt;String,?&gt;  sharedState|Map&lt;String,?&gt;  options"
 }} 
 ,
 { "ligne" : {"" : ""

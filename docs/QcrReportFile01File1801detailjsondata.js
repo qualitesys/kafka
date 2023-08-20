@@ -152,14 +152,14 @@ var maDataBlocs = {
  , "c1" : "00060"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GroupedTableOperationRepartitionNode.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method unsafeCastChangedToValueSerializer arguments Serializer&lt;V &gt;  valueSerializer"
+ , "c3" : "QC-JAV000006[00060] For method unsafeCastChangedToValueSerializer arguments Serializer&lt;V&gt;  valueSerializer"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GroupedTableOperationRepartitionNode.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00071] For method unsafeCastChangedToValueDeserializer arguments Deserializer&lt;?  extends V &gt;  valueDeserializer"
+ , "c3" : "QC-JAV000006[00071] For method unsafeCastChangedToValueDeserializer arguments Deserializer&lt;?extendsV&gt;  valueDeserializer"
 }} 
 ,
 { "ligne" : {"" : ""

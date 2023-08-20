@@ -271,21 +271,21 @@ var maDataBlocs = {
  , "c1" : "00145"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Repartitioned.java.html#145"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00145] For method withKeySerde arguments Serde&lt;K &gt;  keySerde"
+ , "c3" : "QC-JAV000006[00145] For method withKeySerde arguments Serde&lt;K&gt;  keySerde"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Repartitioned.java.html#155"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00155] For method withValueSerde arguments Serde&lt;V &gt;  valueSerde"
+ , "c3" : "QC-JAV000006[00155] For method withValueSerde arguments Serde&lt;V&gt;  valueSerde"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00167"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Repartitioned.java.html#167"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00167] For method withStreamPartitioner arguments StreamPartitioner&lt;K ,V &gt;  partitioner"
+ , "c3" : "QC-JAV000006[00167] For method withStreamPartitioner arguments StreamPartitioner&lt;K,V&gt;  partitioner"
 }} 
 ]
 , 

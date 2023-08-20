@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c1" : "00028"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/formatters/HeartbeatFormatter.java.html#28"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method writeTo arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  record|PrintStream  output"
+ , "c3" : "QC-JAV000006[00028] For method writeTo arguments ConsumerRecord&lt;byte[],byte[]&gt;  record|PrintStream  output"
 }} 
 ,
 { "ligne" : {"" : ""

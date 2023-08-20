@@ -292,14 +292,14 @@ var maDataBlocs = {
  , "c1" : "00092"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00092] For method setExistenceChecker arguments Consumer&lt;ConfigResource &gt;  existenceChecker"
+ , "c3" : "QC-JAV000006[00092] For method setExistenceChecker arguments Consumer&lt;ConfigResource&gt;  existenceChecker"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00097"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00097] For method setAlterConfigPolicy arguments Optional&lt;AlterConfigPolicy &gt;  alterConfigPolicy"
+ , "c3" : "QC-JAV000006[00097] For method setAlterConfigPolicy arguments Optional&lt;AlterConfigPolicy&gt;  alterConfigPolicy"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -313,7 +313,7 @@ var maDataBlocs = {
  , "c1" : "00107"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#107"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00107] For method setStaticConfig arguments Map&lt;String ,Object &gt;  staticConfig"
+ , "c3" : "QC-JAV000006[00107] For method setStaticConfig arguments Map&lt;String,Object&gt;  staticConfig"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -355,7 +355,7 @@ var maDataBlocs = {
  , "c1" : "00168"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#168"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00168] For method incrementalAlterConfigs arguments Map&lt;ConfigResource ,Map&lt;String ,Entry&lt;OpType ,String &gt; &gt; &gt;  configChanges|boolean  newlyCreatedResource"
+ , "c3" : "QC-JAV000006[00168] For method incrementalAlterConfigs arguments Map&lt;ConfigResource,Map&lt;String,Entry&lt;OpType,String&gt;&gt;&gt;  configChanges|boolean  newlyCreatedResource"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -369,7 +369,7 @@ var maDataBlocs = {
  , "c1" : "00184"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#184"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00184] For method incrementalAlterConfigResource arguments ConfigResource  configResource|Map&lt;String ,Entry&lt;OpType ,String &gt; &gt;  keysToOps|boolean  newlyCreatedResource|List&lt;ApiMessageAndVersion &gt;  outputRecords|Map&lt;ConfigResource ,ApiError &gt;  outputResults"
+ , "c3" : "QC-JAV000006[00184] For method incrementalAlterConfigResource arguments ConfigResource  configResource|Map&lt;String,Entry&lt;OpType,String&gt;&gt;  keysToOps|boolean  newlyCreatedResource|List&lt;ApiMessageAndVersion&gt;  outputRecords|Map&lt;ConfigResource,ApiError&gt;  outputResults"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -551,7 +551,7 @@ var maDataBlocs = {
  , "c1" : "00248"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#248"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00248] For method validateAlterConfig arguments ConfigResource  configResource|List&lt;ApiMessageAndVersion &gt;  newRecords|boolean  newlyCreatedResource"
+ , "c3" : "QC-JAV000006[00248] For method validateAlterConfig arguments ConfigResource  configResource|List&lt;ApiMessageAndVersion&gt;  newRecords|boolean  newlyCreatedResource"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -586,7 +586,7 @@ var maDataBlocs = {
  , "c1" : "00287"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#287"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00287] For method legacyAlterConfigs arguments Map&lt;ConfigResource ,Map&lt;String ,String &gt; &gt;  newConfigs|boolean  newlyCreatedResource"
+ , "c3" : "QC-JAV000006[00287] For method legacyAlterConfigs arguments Map&lt;ConfigResource,Map&lt;String,String&gt;&gt;  newConfigs|boolean  newlyCreatedResource"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -600,7 +600,7 @@ var maDataBlocs = {
  , "c1" : "00304"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#304"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00304] For method legacyAlterConfigResource arguments ConfigResource  configResource|Map&lt;String ,String &gt;  newConfigs|boolean  newlyCreatedResource|List&lt;ApiMessageAndVersion &gt;  outputRecords|Map&lt;ConfigResource ,ApiError &gt;  outputResults"
+ , "c3" : "QC-JAV000006[00304] For method legacyAlterConfigResource arguments ConfigResource  configResource|Map&lt;String,String&gt;  newConfigs|boolean  newlyCreatedResource|List&lt;ApiMessageAndVersion&gt;  outputRecords|Map&lt;ConfigResource,ApiError&gt;  outputResults"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -775,7 +775,7 @@ var maDataBlocs = {
  , "c1" : "00395"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#395"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00395] For method describeConfigs arguments long  lastCommittedOffset|Map&lt;ConfigResource ,Collection&lt;String &gt; &gt;  resources"
+ , "c3" : "QC-JAV000006[00395] For method describeConfigs arguments long  lastCommittedOffset|Map&lt;ConfigResource,Collection&lt;String&gt;&gt;  resources"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -901,7 +901,7 @@ var maDataBlocs = {
  , "c1" : "00440"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#440"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00440] For method computeEffectiveTopicConfigs arguments Map&lt;String ,String &gt;  creationConfigs"
+ , "c3" : "QC-JAV000006[00440] For method computeEffectiveTopicConfigs arguments Map&lt;String,String&gt;  creationConfigs"
 }} 
 ,
 { "ligne" : {"" : ""

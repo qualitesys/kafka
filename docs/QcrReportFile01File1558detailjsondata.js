@@ -306,7 +306,7 @@ var maDataBlocs = {
  , "c1" : "00179"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#179"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00179] For method processConsumerRecord arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  record"
+ , "c3" : "QC-JAV000006[00179] For method processConsumerRecord arguments ConsumerRecord&lt;byte[],byte[]&gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -432,7 +432,7 @@ var maDataBlocs = {
  , "c1" : "00279"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#279"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00279] For method executeReassignment arguments Set&lt;Integer &gt;  assignedMetaPartitionsSnapshot"
+ , "c3" : "QC-JAV000006[00279] For method executeReassignment arguments Set&lt;Integer&gt;  assignedMetaPartitionsSnapshot"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -453,21 +453,21 @@ var maDataBlocs = {
  , "c1" : "00288"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#288"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00288] For method addAssignmentsForPartitions arguments Set&lt;TopicIdPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00288] For method addAssignmentsForPartitions arguments Set&lt;TopicIdPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00292"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#292"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00292] For method removeAssignmentsForPartitions arguments Set&lt;TopicIdPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00292] For method removeAssignmentsForPartitions arguments Set&lt;TopicIdPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00296"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerTask.java.html#296"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00296] For method updateAssignmentsForPartitions arguments Set&lt;TopicIdPartition &gt;  addedPartitions|Set&lt;TopicIdPartition &gt;  removedPartitions"
+ , "c3" : "QC-JAV000006[00296] For method updateAssignmentsForPartitions arguments Set&lt;TopicIdPartition&gt;  addedPartitions|Set&lt;TopicIdPartition&gt;  removedPartitions"
 }} 
 ,
 { "ligne" : {"" : ""

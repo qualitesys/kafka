@@ -316,7 +316,7 @@ var maDataBlocs = {
  , "c1" : "00144"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#144"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00144] For method commitTasksAndMaybeUpdateCommittableOffsets arguments Collection&lt;Task &gt;  tasksToCommit|Map&lt;Task ,Map&lt;TopicPartition ,OffsetAndMetadata &gt; &gt;  consumedOffsetsAndMetadata"
+ , "c3" : "QC-JAV000006[00144] For method commitTasksAndMaybeUpdateCommittableOffsets arguments Collection&lt;Task&gt;  tasksToCommit|Map&lt;Task,Map&lt;TopicPartition,OffsetAndMetadata&gt;&gt;  consumedOffsetsAndMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -358,7 +358,7 @@ var maDataBlocs = {
  , "c1" : "00177"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#177"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00177] For method commitOffsetsOrTransaction arguments Map&lt;Task ,Map&lt;TopicPartition ,OffsetAndMetadata &gt; &gt;  offsetsPerTask"
+ , "c3" : "QC-JAV000006[00177] For method commitOffsetsOrTransaction arguments Map&lt;Task,Map&lt;TopicPartition,OffsetAndMetadata&gt;&gt;  offsetsPerTask"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -449,7 +449,7 @@ var maDataBlocs = {
  , "c1" : "00250"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#250"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00250] For method updateTaskCommitMetadata arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  allOffsets"
+ , "c3" : "QC-JAV000006[00250] For method updateTaskCommitMetadata arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  allOffsets"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -166,7 +166,7 @@ var maDataBlocs = {
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteConsumerGroupOffsetsResult.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00085] For method maybeCompleteExceptionally arguments Map&lt;TopicPartition ,Errors &gt;  partitionLevelErrors|TopicPartition  partition|KafkaFutureImpl&lt;Void &gt;  result"
+ , "c3" : "QC-JAV000006[00085] For method maybeCompleteExceptionally arguments Map&lt;TopicPartition,Errors&gt;  partitionLevelErrors|TopicPartition  partition|KafkaFutureImpl&lt;Void&gt;  result"
 }} 
 ,
 { "ligne" : {"" : ""

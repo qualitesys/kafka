@@ -211,14 +211,14 @@ var maDataBlocs = {
  , "c1" : "00081"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#81"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00081] For method count arguments Materialized&lt;K ,Long ,WindowStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
+ , "c3" : "QC-JAV000006[00081] For method count arguments Materialized&lt;K,Long,WindowStore&lt;Bytes,byte[]&gt;&gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00086"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#86"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00086] For method count arguments Named  named|Materialized&lt;K ,Long ,WindowStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
+ , "c3" : "QC-JAV000006[00086] For method count arguments Named  named|Materialized&lt;K,Long,WindowStore&lt;Bytes,byte[]&gt;&gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -239,7 +239,7 @@ var maDataBlocs = {
  , "c1" : "00098"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#98"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00098] For method doCount arguments Named  named|Materialized&lt;K ,Long ,WindowStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
+ , "c3" : "QC-JAV000006[00098] For method doCount arguments Named  named|Materialized&lt;K,Long,WindowStore&lt;Bytes,byte[]&gt;&gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -344,28 +344,28 @@ var maDataBlocs = {
  , "c1" : "00178"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#178"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00178] For method reduce arguments Reducer&lt;V &gt;  reducer"
+ , "c3" : "QC-JAV000006[00178] For method reduce arguments Reducer&lt;V&gt;  reducer"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00183"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#183"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00183] For method reduce arguments Reducer&lt;V &gt;  reducer|Named  named"
+ , "c3" : "QC-JAV000006[00183] For method reduce arguments Reducer&lt;V&gt;  reducer|Named  named"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00188"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#188"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00188] For method reduce arguments Reducer&lt;V &gt;  reducer|Materialized&lt;K ,V ,WindowStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
+ , "c3" : "QC-JAV000006[00188] For method reduce arguments Reducer&lt;V&gt;  reducer|Materialized&lt;K,V,WindowStore&lt;Bytes,byte[]&gt;&gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00194"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#194"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00194] For method reduce arguments Reducer&lt;V &gt;  reducer|Named  named|Materialized&lt;K ,V ,WindowStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
+ , "c3" : "QC-JAV000006[00194] For method reduce arguments Reducer&lt;V&gt;  reducer|Named  named|Materialized&lt;K,V,WindowStore&lt;Bytes,byte[]&gt;&gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -561,7 +561,7 @@ var maDataBlocs = {
  , "c1" : "00299"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedKStreamImpl.java.html#299"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00299] For method aggregatorForReducer arguments Reducer&lt;V &gt;  reducer"
+ , "c3" : "QC-JAV000006[00299] For method aggregatorForReducer arguments Reducer&lt;V&gt;  reducer"
 }} 
 ,
 { "ligne" : {"" : ""

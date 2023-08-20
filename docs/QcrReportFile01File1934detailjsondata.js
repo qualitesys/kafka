@@ -518,7 +518,7 @@ var maDataBlocs = {
  , "c1" : "00199"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#199"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00199] For method getMetricValue arguments Map&lt;MetricName ,?  extends Metric &gt;  metrics|String  name"
+ , "c3" : "QC-JAV000006[00199] For method getMetricValue arguments Map&lt;MetricName,?extendsMetric&gt;  metrics|String  name"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -567,7 +567,7 @@ var maDataBlocs = {
  , "c1" : "00219"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#219"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00219] For method totalBlockedTime arguments Producer&lt;? ,? &gt;  producer"
+ , "c3" : "QC-JAV000006[00219] For method totalBlockedTime arguments Producer&lt;?,?&gt;  producer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -658,7 +658,7 @@ var maDataBlocs = {
  , "c1" : "00253"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#253"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00253] For method send arguments ProducerRecord&lt;byte[] ,byte[] &gt;  record|Callback  callback"
+ , "c3" : "QC-JAV000006[00253] For method send arguments ProducerRecord&lt;byte[],byte[]&gt;  record|Callback  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -714,7 +714,7 @@ var maDataBlocs = {
  , "c1" : "00286"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsProducer.java.html#286"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00286] For method commitTransaction arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets|ConsumerGroupMetadata  consumerGroupMetadata"
+ , "c3" : "QC-JAV000006[00286] For method commitTransaction arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets|ConsumerGroupMetadata  consumerGroupMetadata"
 }} 
 ,
 { "ligne" : {"" : ""

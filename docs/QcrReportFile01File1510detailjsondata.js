@@ -355,7 +355,7 @@ var maDataBlocs = {
  , "c1" : "00261"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#261"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00261] For method enqueue arguments EventContext  eventContext|Function&lt;OptionalLong ,OptionalLong &gt;  deadlineNsCalculator"
+ , "c3" : "QC-JAV000006[00261] For method enqueue arguments EventContext  eventContext|Function&lt;OptionalLong,OptionalLong&gt;  deadlineNsCalculator"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -481,7 +481,7 @@ var maDataBlocs = {
  , "c1" : "00374"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#374"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00374] For method enqueue arguments EventInsertionType  insertionType|String  tag|Function&lt;OptionalLong ,OptionalLong &gt;  deadlineNsCalculator|Event  event"
+ , "c3" : "QC-JAV000006[00374] For method enqueue arguments EventInsertionType  insertionType|String  tag|Function&lt;OptionalLong,OptionalLong&gt;  deadlineNsCalculator|Event  event"
 }} 
 ,
 { "ligne" : {"" : ""

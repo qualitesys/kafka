@@ -1013,7 +1013,7 @@ var maDataBlocs = {
  , "c1" : "00513"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#513"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00513] For method sizeInBytes arguments long  baseOffset|Iterable&lt;Record &gt;  records"
+ , "c3" : "QC-JAV000006[00513] For method sizeInBytes arguments long  baseOffset|Iterable&lt;Record&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1062,7 +1062,7 @@ var maDataBlocs = {
  , "c1" : "00532"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#532"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00532] For method sizeInBytes arguments Iterable&lt;SimpleRecord &gt;  records"
+ , "c3" : "QC-JAV000006[00532] For method sizeInBytes arguments Iterable&lt;SimpleRecord&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""

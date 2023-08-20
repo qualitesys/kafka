@@ -888,7 +888,7 @@ var maDataBlocs = {
  , "c1" : "00206"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#206"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00206] For method onLeaderElected arguments String  leaderId|String  protocol|List&lt;JoinGroupResponseData.JoinGroupResponseMember &gt;  allMemberMetadata|boolean  skipAssignment"
+ , "c3" : "QC-JAV000006[00206] For method onLeaderElected arguments String  leaderId|String  protocol|List&lt;JoinGroupResponseData.JoinGroupResponseMember&gt;  allMemberMetadata|boolean  skipAssignment"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1455,7 +1455,7 @@ var maDataBlocs = {
  , "c1" : "00585"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#585"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00585] For method handle arguments JoinGroupResponse  joinResponse|RequestFuture&lt;ByteBuffer &gt;  future"
+ , "c3" : "QC-JAV000006[00585] For method handle arguments JoinGroupResponse  joinResponse|RequestFuture&lt;ByteBuffer&gt;  future"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1728,7 +1728,7 @@ var maDataBlocs = {
  , "c1" : "00763"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#763"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00763] For method handle arguments SyncGroupResponse  syncResponse|RequestFuture&lt;ByteBuffer &gt;  future"
+ , "c3" : "QC-JAV000006[00763] For method handle arguments SyncGroupResponse  syncResponse|RequestFuture&lt;ByteBuffer&gt;  future"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1903,7 +1903,7 @@ var maDataBlocs = {
  , "c1" : "00866"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#866"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00866] For method onSuccess arguments ClientResponse  resp|RequestFuture&lt;Void &gt;  future"
+ , "c3" : "QC-JAV000006[00866] For method onSuccess arguments ClientResponse  resp|RequestFuture&lt;Void&gt;  future"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1987,7 +1987,7 @@ var maDataBlocs = {
  , "c1" : "00900"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#900"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00900] For method onFailure arguments RuntimeException  e|RequestFuture&lt;Void &gt;  future"
+ , "c3" : "QC-JAV000006[00900] For method onFailure arguments RuntimeException  e|RequestFuture&lt;Void&gt;  future"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2449,7 +2449,7 @@ var maDataBlocs = {
  , "c1" : "01139"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1139"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01139] For method handle arguments LeaveGroupResponse  leaveResponse|RequestFuture&lt;Void &gt;  future"
+ , "c3" : "QC-JAV000006[01139] For method handle arguments LeaveGroupResponse  leaveResponse|RequestFuture&lt;Void&gt;  future"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2540,7 +2540,7 @@ var maDataBlocs = {
  , "c1" : "01177"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1177"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01177] For method handle arguments HeartbeatResponse  heartbeatResponse|RequestFuture&lt;Void &gt;  future"
+ , "c3" : "QC-JAV000006[01177] For method handle arguments HeartbeatResponse  heartbeatResponse|RequestFuture&lt;Void&gt;  future"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2645,14 +2645,14 @@ var maDataBlocs = {
  , "c1" : "01233"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1233"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01233] For method handle arguments R  response|RequestFuture&lt;T &gt;  future"
+ , "c3" : "QC-JAV000006[01233] For method handle arguments R  response|RequestFuture&lt;T&gt;  future"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01236"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1236"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01236] For method onFailure arguments RuntimeException  e|RequestFuture&lt;T &gt;  future"
+ , "c3" : "QC-JAV000006[01236] For method onFailure arguments RuntimeException  e|RequestFuture&lt;T&gt;  future"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2673,7 +2673,7 @@ var maDataBlocs = {
  , "c1" : "01246"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1246"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01246] For method onSuccess arguments ClientResponse  clientResponse|RequestFuture&lt;T &gt;  future"
+ , "c3" : "QC-JAV000006[01246] For method onSuccess arguments ClientResponse  clientResponse|RequestFuture&lt;T&gt;  future"
 }} 
 ,
 { "ligne" : {"" : ""

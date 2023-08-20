@@ -114,7 +114,7 @@ var maDataBlocs = {
  , "c1" : "00030"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/JsonTimestampExtractor.java.html#30"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method extract arguments ConsumerRecord&lt;Object ,Object &gt;  record|long  partitionTime"
+ , "c3" : "QC-JAV000006[00030] For method extract arguments ConsumerRecord&lt;Object,Object&gt;  record|long  partitionTime"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -298,7 +298,7 @@ var maDataBlocs = {
  , "c1" : "00131"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#131"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00131] For method voters arguments Set&lt;Integer &gt;  votersId"
+ , "c3" : "QC-JAV000006[00131] For method voters arguments Set&lt;Integer&gt;  votersId"
 }} 
 ,
 { "ligne" : {"" : ""

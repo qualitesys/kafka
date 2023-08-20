@@ -270,7 +270,7 @@ var maDataBlocs = {
  , "c1" : "00108"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertField.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00108] For method configure arguments Map&lt;String ,? &gt;  props"
+ , "c3" : "QC-JAV000006[00108] For method configure arguments Map&lt;String,?&gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""

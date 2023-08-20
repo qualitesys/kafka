@@ -240,7 +240,7 @@ var maDataBlocs = {
  , "c1" : "00073"
  , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceTask.java.html#73"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00073] For method start arguments Map&lt;String ,String &gt;  props"
+ , "c3" : "QC-JAV000006[00073] For method start arguments Map&lt;String,String&gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""

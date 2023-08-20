@@ -157,7 +157,7 @@ var maDataBlocs = {
  , "c1" : "00084"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/ThresholdPurgatory.java.html#84"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00084] For method compareTo arguments ThresholdKey&lt;T &gt;  o"
+ , "c3" : "QC-JAV000006[00084] For method compareTo arguments ThresholdKey&lt;T&gt;  o"
 }} 
 ,
 { "ligne" : {"" : ""

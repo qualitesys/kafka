@@ -133,7 +133,7 @@ var maDataBlocs = {
  , "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#95"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00095] For method complete arguments Map&lt;K ,V &gt;  values"
+ , "c3" : "QC-JAV000006[00095] For method complete arguments Map&lt;K,V&gt;  values"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -154,7 +154,7 @@ var maDataBlocs = {
  , "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiFuture.java.html#104"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00104] For method completeExceptionally arguments Map&lt;K ,Throwable &gt;  errors"
+ , "c3" : "QC-JAV000006[00104] For method completeExceptionally arguments Map&lt;K,Throwable&gt;  errors"
 }} 
 ,
 { "ligne" : {"" : ""

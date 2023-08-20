@@ -214,7 +214,7 @@ var maDataBlocs = {
  , "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00069] For method buildKeySet arguments Collection&lt;String &gt;  groupIds"
+ , "c3" : "QC-JAV000006[00069] For method buildKeySet arguments Collection&lt;String&gt;  groupIds"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -228,7 +228,7 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method newFuture arguments Collection&lt;String &gt;  groupIds"
+ , "c3" : "QC-JAV000006[00075] For method newFuture arguments Collection&lt;String&gt;  groupIds"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -242,7 +242,7 @@ var maDataBlocs = {
  , "c1" : "00092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00092] For method buildBatchedRequest arguments int  coordinatorId|Set&lt;CoordinatorKey &gt;  keys"
+ , "c3" : "QC-JAV000006[00092] For method buildBatchedRequest arguments int  coordinatorId|Set&lt;CoordinatorKey&gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -270,7 +270,7 @@ var maDataBlocs = {
  , "c1" : "00107"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#107"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00107] For method handleResponse arguments Node  coordinator|Set&lt;CoordinatorKey &gt;  groupIds|AbstractResponse  abstractResponse"
+ , "c3" : "QC-JAV000006[00107] For method handleResponse arguments Node  coordinator|Set&lt;CoordinatorKey&gt;  groupIds|AbstractResponse  abstractResponse"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -382,7 +382,7 @@ var maDataBlocs = {
  , "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeConsumerGroupsHandler.java.html#161"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00161] For method handleError arguments CoordinatorKey  groupId|Errors  error|Map&lt;CoordinatorKey ,Throwable &gt;  failed|Set&lt;CoordinatorKey &gt;  groupsToUnmap"
+ , "c3" : "QC-JAV000006[00161] For method handleError arguments CoordinatorKey  groupId|Errors  error|Map&lt;CoordinatorKey,Throwable&gt;  failed|Set&lt;CoordinatorKey&gt;  groupsToUnmap"
 }} 
 ,
 { "ligne" : {"" : ""

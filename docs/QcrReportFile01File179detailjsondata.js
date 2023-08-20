@@ -144,7 +144,7 @@ var maDataBlocs = {
  , "c1" : "00133"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerPartitionAssignor.java.html#133"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00133] For method setGroupInstanceId arguments Optional&lt;String &gt;  groupInstanceId"
+ , "c3" : "QC-JAV000006[00133] For method setGroupInstanceId arguments Optional&lt;String&gt;  groupInstanceId"
 }} 
 ,
 { "ligne" : {"" : ""

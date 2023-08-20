@@ -623,7 +623,7 @@ var maDataBlocs = {
  , "c1" : "00454"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#454"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00454] For method usableBrokers arguments Function&lt;Integer ,Optional&lt;String &gt; &gt;  idToRack"
+ , "c3" : "QC-JAV000006[00454] For method usableBrokers arguments Function&lt;Integer,Optional&lt;String&gt;&gt;  idToRack"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -686,7 +686,7 @@ var maDataBlocs = {
  , "c1" : "00522"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokerHeartbeatManager.java.html#522"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00522] For method calculateNextBrokerState arguments int  brokerId|BrokerHeartbeatRequestData  request|long  lastCommittedOffset|Supplier&lt;Boolean &gt;  hasLeaderships"
+ , "c3" : "QC-JAV000006[00522] For method calculateNextBrokerState arguments int  brokerId|BrokerHeartbeatRequestData  request|long  lastCommittedOffset|Supplier&lt;Boolean&gt;  hasLeaderships"
 }} 
 ,
 { "ligne" : {"" : ""

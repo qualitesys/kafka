@@ -795,7 +795,7 @@ var maDataBlocs = {
  , "c1" : "00367"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#367"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00367] For method compareComparables arguments Class&lt;? &gt;  kc|Object  k|Object  x"
+ , "c3" : "QC-JAV000006[00367] For method compareComparables arguments Class&lt;?&gt;  kc|Object  k|Object  x"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -921,7 +921,7 @@ var maDataBlocs = {
  , "c1" : "00497"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#497"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00497] For method putMapEntries arguments Map&lt;?  extends K ,?  extends V &gt;  m|boolean  evict"
+ , "c3" : "QC-JAV000006[00497] For method putMapEntries arguments Map&lt;?extendsK,?extendsV&gt;  m|boolean  evict"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1586,7 +1586,7 @@ var maDataBlocs = {
  , "c1" : "00752"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#752"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00752] For method treeifyBin arguments Node&lt;K ,V &gt;[]  tab|int  hash"
+ , "c3" : "QC-JAV000006[00752] For method treeifyBin arguments Node&lt;K,V&gt;[]  tab|int  hash"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1698,7 +1698,7 @@ var maDataBlocs = {
  , "c1" : "00781"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#781"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00781] For method putAll arguments Map&lt;?  extends K ,?  extends V &gt;  m"
+ , "c3" : "QC-JAV000006[00781] For method putAll arguments Map&lt;?extendsK,?extendsV&gt;  m"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2111,7 +2111,7 @@ var maDataBlocs = {
  , "c1" : "00922"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#922"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00922] For method forEach arguments Consumer&lt;? super K &gt;  action"
+ , "c3" : "QC-JAV000006[00922] For method forEach arguments Consumer&lt;?superK&gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2209,7 +2209,7 @@ var maDataBlocs = {
  , "c1" : "00970"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#970"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00970] For method forEach arguments Consumer&lt;? super V &gt;  action"
+ , "c3" : "QC-JAV000006[00970] For method forEach arguments Consumer&lt;?superV&gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2377,7 +2377,7 @@ var maDataBlocs = {
  , "c1" : "01033"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1033"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01033] For method forEach arguments Consumer&lt;? super Map.Entry&lt;K ,V &gt; &gt;  action"
+ , "c3" : "QC-JAV000006[01033] For method forEach arguments Consumer&lt;?superMap.Entry&lt;K,V&gt;&gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2601,7 +2601,7 @@ var maDataBlocs = {
  , "c1" : "01092"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1092"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01092] For method computeIfAbsent arguments K  key|Function&lt;? super K ,?  extends V &gt;  mappingFunction"
+ , "c3" : "QC-JAV000006[01092] For method computeIfAbsent arguments K  key|Function&lt;?superK,?extendsV&gt;  mappingFunction"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2783,7 +2783,7 @@ var maDataBlocs = {
  , "c1" : "01145"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1145"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01145] For method computeIfPresent arguments K  key|BiFunction&lt;? super K ,? super V ,?  extends V &gt;  remappingFunction"
+ , "c3" : "QC-JAV000006[01145] For method computeIfPresent arguments K  key|BiFunction&lt;?superK,?superV,?extendsV&gt;  remappingFunction"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2867,7 +2867,7 @@ var maDataBlocs = {
  , "c1" : "01166"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1166"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01166] For method compute arguments K  key|BiFunction&lt;? super K ,? super V ,?  extends V &gt;  remappingFunction"
+ , "c3" : "QC-JAV000006[01166] For method compute arguments K  key|BiFunction&lt;?superK,?superV,?extendsV&gt;  remappingFunction"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3063,7 +3063,7 @@ var maDataBlocs = {
  , "c1" : "01219"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1219"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01219] For method merge arguments K  key|V  value|BiFunction&lt;? super V ,? super V ,?  extends V &gt;  remappingFunction"
+ , "c3" : "QC-JAV000006[01219] For method merge arguments K  key|V  value|BiFunction&lt;?superV,?superV,?extendsV&gt;  remappingFunction"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3259,7 +3259,7 @@ var maDataBlocs = {
  , "c1" : "01278"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1278"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01278] For method forEach arguments BiConsumer&lt;? super K ,? super V &gt;  action"
+ , "c3" : "QC-JAV000006[01278] For method forEach arguments BiConsumer&lt;?superK,?superV&gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3315,7 +3315,7 @@ var maDataBlocs = {
  , "c1" : "01294"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1294"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01294] For method replaceAll arguments BiFunction&lt;? super K ,? super V ,?  extends V &gt;  function"
+ , "c3" : "QC-JAV000006[01294] For method replaceAll arguments BiFunction&lt;?superK,?superV,?extendsV&gt;  function"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3749,7 +3749,7 @@ var maDataBlocs = {
  , "c1" : "01526"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1526"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01526] For method forEachRemaining arguments Consumer&lt;? super K &gt;  action"
+ , "c3" : "QC-JAV000006[01526] For method forEachRemaining arguments Consumer&lt;?superK&gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3847,7 +3847,7 @@ var maDataBlocs = {
  , "c1" : "01555"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1555"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01555] For method tryAdvance arguments Consumer&lt;? super K &gt;  action"
+ , "c3" : "QC-JAV000006[01555] For method tryAdvance arguments Consumer&lt;?superK&gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3973,7 +3973,7 @@ var maDataBlocs = {
  , "c1" : "01598"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1598"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01598] For method forEachRemaining arguments Consumer&lt;? super V &gt;  action"
+ , "c3" : "QC-JAV000006[01598] For method forEachRemaining arguments Consumer&lt;?superV&gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4071,7 +4071,7 @@ var maDataBlocs = {
  , "c1" : "01627"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1627"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01627] For method tryAdvance arguments Consumer&lt;? super V &gt;  action"
+ , "c3" : "QC-JAV000006[01627] For method tryAdvance arguments Consumer&lt;?superV&gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4197,7 +4197,7 @@ var maDataBlocs = {
  , "c1" : "01669"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1669"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01669] For method forEachRemaining arguments Consumer&lt;? super Map.Entry&lt;K ,V &gt; &gt;  action"
+ , "c3" : "QC-JAV000006[01669] For method forEachRemaining arguments Consumer&lt;?superMap.Entry&lt;K,V&gt;&gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4295,7 +4295,7 @@ var maDataBlocs = {
  , "c1" : "01698"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1698"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01698] For method tryAdvance arguments Consumer&lt;? super Map.Entry&lt;K ,V &gt; &gt;  action"
+ , "c3" : "QC-JAV000006[01698] For method tryAdvance arguments Consumer&lt;?superMap.Entry&lt;K,V&gt;&gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4386,28 +4386,28 @@ var maDataBlocs = {
  , "c1" : "01739"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1739"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01739] For method newNode arguments int  hash|K  key|V  value|Node&lt;K ,V &gt;  next"
+ , "c3" : "QC-JAV000006[01739] For method newNode arguments int  hash|K  key|V  value|Node&lt;K,V&gt;  next"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01743"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1743"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01743] For method replacementNode arguments Node&lt;K ,V &gt;  p|Node&lt;K ,V &gt;  next"
+ , "c3" : "QC-JAV000006[01743] For method replacementNode arguments Node&lt;K,V&gt;  p|Node&lt;K,V&gt;  next"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01749"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1749"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01749] For method newTreeNode arguments int  hash|K  key|V  value|Node&lt;K ,V &gt;  next"
+ , "c3" : "QC-JAV000006[01749] For method newTreeNode arguments int  hash|K  key|V  value|Node&lt;K,V&gt;  next"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01754"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1754"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01754] For method replacementTreeNode arguments Node&lt;K ,V &gt;  p|Node&lt;K ,V &gt;  next"
+ , "c3" : "QC-JAV000006[01754] For method replacementTreeNode arguments Node&lt;K,V&gt;  p|Node&lt;K,V&gt;  next"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4463,7 +4463,7 @@ var maDataBlocs = {
  , "c1" : "01772"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1772"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01772] For method afterNodeAccess arguments Node&lt;K ,V &gt;  p"
+ , "c3" : "QC-JAV000006[01772] For method afterNodeAccess arguments Node&lt;K,V&gt;  p"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4477,7 +4477,7 @@ var maDataBlocs = {
  , "c1" : "01774"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1774"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01774] For method afterNodeRemoval arguments Node&lt;K ,V &gt;  p"
+ , "c3" : "QC-JAV000006[01774] For method afterNodeRemoval arguments Node&lt;K,V&gt;  p"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4617,7 +4617,7 @@ var maDataBlocs = {
  , "c1" : "01848"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1848"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01848] For method find arguments int  h|Object  k|Class&lt;? &gt;  kc"
+ , "c3" : "QC-JAV000006[01848] For method find arguments int  h|Object  k|Class&lt;?&gt;  kc"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4820,7 +4820,7 @@ var maDataBlocs = {
  , "c1" : "01903"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1903"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01903] For method treeify arguments Node&lt;K ,V &gt;[]  tab"
+ , "c3" : "QC-JAV000006[01903] For method treeify arguments Node&lt;K,V&gt;[]  tab"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5023,7 +5023,7 @@ var maDataBlocs = {
  , "c1" : "01949"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1949"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01949] For method untreeify arguments HashMap&lt;K ,V &gt;  map"
+ , "c3" : "QC-JAV000006[01949] For method untreeify arguments HashMap&lt;K,V&gt;  map"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5086,7 +5086,7 @@ var maDataBlocs = {
  , "c1" : "01965"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1965"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01965] For method putTreeVal arguments HashMap&lt;K ,V &gt;  map|Node&lt;K ,V &gt;[]  tab|int  h|K  k|V  v"
+ , "c3" : "QC-JAV000006[01965] For method putTreeVal arguments HashMap&lt;K,V&gt;  map|Node&lt;K,V&gt;[]  tab|int  h|K  k|V  v"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5352,7 +5352,7 @@ var maDataBlocs = {
  , "c1" : "02021"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#2021"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02021] For method removeTreeNode arguments HashMap&lt;K ,V &gt;  map|Node&lt;K ,V &gt;[]  tab|boolean  movable"
+ , "c3" : "QC-JAV000006[02021] For method removeTreeNode arguments HashMap&lt;K,V&gt;  map|Node&lt;K,V&gt;[]  tab|boolean  movable"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5618,7 +5618,7 @@ var maDataBlocs = {
  , "c1" : "02126"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#2126"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02126] For method split arguments HashMap&lt;K ,V &gt;  map|Node&lt;K ,V &gt;[]  tab|int  index|int  bit"
+ , "c3" : "QC-JAV000006[02126] For method split arguments HashMap&lt;K,V&gt;  map|Node&lt;K,V&gt;[]  tab|int  index|int  bit"
 }} 
 ,
 { "ligne" : {"" : ""

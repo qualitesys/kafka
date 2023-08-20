@@ -136,7 +136,7 @@ var maDataBlocs = {
  , "c1" : "00039"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/SchemaSourceConnector.java.html#39"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00039] For method start arguments Map&lt;String ,String &gt;  props"
+ , "c3" : "QC-JAV000006[00039] For method start arguments Map&lt;String,String&gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -171,7 +171,7 @@ var maDataBlocs = {
  , "c1" : "00102"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#102"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00102] For method taskStates arguments List&lt;ConnectorStateInfo.TaskState &gt;  states"
+ , "c3" : "QC-JAV000006[00102] For method taskStates arguments List&lt;ConnectorStateInfo.TaskState&gt;  states"
 }} 
 ]
 , 

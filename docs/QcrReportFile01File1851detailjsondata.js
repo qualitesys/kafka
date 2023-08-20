@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/UsePartitionTimeOnInvalidTimestamp.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method onInvalidTimestamp arguments ConsumerRecord&lt;Object ,Object &gt;  record|long  recordTimestamp|long  partitionTime"
+ , "c3" : "QC-JAV000006[00057] For method onInvalidTimestamp arguments ConsumerRecord&lt;Object,Object&gt;  record|long  recordTimestamp|long  partitionTime"
 }} 
 ,
 { "ligne" : {"" : ""

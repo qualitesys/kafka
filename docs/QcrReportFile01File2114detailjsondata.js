@@ -323,7 +323,7 @@ var maDataBlocs = {
  , "c1" : "00152"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedStore.java.html#152"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00152] For method prepareBatch arguments List&lt;KeyValue&lt;Bytes ,byte[] &gt; &gt;  entries|WriteBatch  batch"
+ , "c3" : "QC-JAV000006[00152] For method prepareBatch arguments List&lt;KeyValue&lt;Bytes,byte[]&gt;&gt;  entries|WriteBatch  batch"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -484,7 +484,7 @@ var maDataBlocs = {
  , "c1" : "00266"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimestampedStore.java.html#266"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00266] For method prepareBatchForRestore arguments Collection&lt;KeyValue&lt;byte[] ,byte[] &gt; &gt;  records|WriteBatch  batch"
+ , "c3" : "QC-JAV000006[00266] For method prepareBatchForRestore arguments Collection&lt;KeyValue&lt;byte[],byte[]&gt;&gt;  records|WriteBatch  batch"
 }} 
 ,
 { "ligne" : {"" : ""

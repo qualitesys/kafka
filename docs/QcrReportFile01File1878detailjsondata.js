@@ -652,7 +652,7 @@ var maDataBlocs = {
  , "c1" : "00279"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#279"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00279] For method maybeCompleteRestoration arguments StreamTask  task|Set&lt;TopicPartition &gt;  restoredChangelogs"
+ , "c3" : "QC-JAV000006[00279] For method maybeCompleteRestoration arguments StreamTask  task|Set&lt;TopicPartition&gt;  restoredChangelogs"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -173,7 +173,7 @@ var maDataBlocs = {
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00072] For method singletonRequest arguments TopicPartition  topicPartition|int  leaderEpoch|int  leaderId|List&lt;Integer &gt;  preferredSuccessors"
+ , "c3" : "QC-JAV000006[00072] For method singletonRequest arguments TopicPartition  topicPartition|int  leaderEpoch|int  leaderId|List&lt;Integer&gt;  preferredSuccessors"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -187,7 +187,7 @@ var maDataBlocs = {
  , "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/EndQuorumEpochRequest.java.html#79"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00079] For method singletonRequest arguments TopicPartition  topicPartition|String  clusterId|int  leaderEpoch|int  leaderId|List&lt;Integer &gt;  preferredSuccessors"
+ , "c3" : "QC-JAV000006[00079] For method singletonRequest arguments TopicPartition  topicPartition|String  clusterId|int  leaderEpoch|int  leaderId|List&lt;Integer&gt;  preferredSuccessors"
 }} 
 ,
 { "ligne" : {"" : ""

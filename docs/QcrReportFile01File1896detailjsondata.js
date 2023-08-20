@@ -290,7 +290,7 @@ var maDataBlocs = {
  , "c1" : "00081"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#81"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00081] For method getPrefix arguments Map&lt;String ,Object &gt;  configs|String  applicationId"
+ , "c3" : "QC-JAV000006[00081] For method getPrefix arguments Map&lt;String,Object&gt;  configs|String  applicationId"
 }} 
 ,
 { "ligne" : {"" : ""

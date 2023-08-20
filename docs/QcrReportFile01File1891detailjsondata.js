@@ -897,7 +897,7 @@ var maDataBlocs = {
  , "c1" : "00302"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#302"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00302] For method getTopics arguments Collection&lt;String &gt;  subscribedTopics"
+ , "c3" : "QC-JAV000006[00302] For method getTopics arguments Collection&lt;String&gt;  subscribedTopics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1058,7 +1058,7 @@ var maDataBlocs = {
  , "c1" : "00437"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#437"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00437] For method addSource arguments Topology.AutoOffsetReset  offsetReset|String  name|TimestampExtractor  timestampExtractor|Deserializer&lt;? &gt;  keyDeserializer|Deserializer&lt;? &gt;  valDeserializer|String  ...topics"
+ , "c3" : "QC-JAV000006[00437] For method addSource arguments Topology.AutoOffsetReset  offsetReset|String  name|TimestampExtractor  timestampExtractor|Deserializer&lt;?&gt;  keyDeserializer|Deserializer&lt;?&gt;  valDeserializer|String  ...topics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1121,7 +1121,7 @@ var maDataBlocs = {
  , "c1" : "00464"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#464"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00464] For method addSource arguments Topology.AutoOffsetReset  offsetReset|String  name|TimestampExtractor  timestampExtractor|Deserializer&lt;? &gt;  keyDeserializer|Deserializer&lt;? &gt;  valDeserializer|Pattern  topicPattern"
+ , "c3" : "QC-JAV000006[00464] For method addSource arguments Topology.AutoOffsetReset  offsetReset|String  name|TimestampExtractor  timestampExtractor|Deserializer&lt;?&gt;  keyDeserializer|Deserializer&lt;?&gt;  valDeserializer|Pattern  topicPattern"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1548,7 +1548,7 @@ var maDataBlocs = {
  , "c1" : "00604"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#604"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00604] For method addStateStore arguments StoreBuilder&lt;? &gt;  storeBuilder|String  ...processorNames"
+ , "c3" : "QC-JAV000006[00604] For method addStateStore arguments StoreBuilder&lt;?&gt;  storeBuilder|String  ...processorNames"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1562,7 +1562,7 @@ var maDataBlocs = {
  , "c1" : "00609"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#609"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00609] For method addStateStore arguments StoreBuilder&lt;? &gt;  storeBuilder|boolean  allowOverride|String  ...processorNames"
+ , "c3" : "QC-JAV000006[00609] For method addStateStore arguments StoreBuilder&lt;?&gt;  storeBuilder|boolean  allowOverride|String  ...processorNames"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1786,7 +1786,7 @@ var maDataBlocs = {
  , "c1" : "00726"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#726"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00726] For method copartitionSources arguments Collection&lt;String &gt;  sourceNodes"
+ , "c3" : "QC-JAV000006[00726] For method copartitionSources arguments Collection&lt;String&gt;  sourceNodes"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1877,7 +1877,7 @@ var maDataBlocs = {
  , "c1" : "00775"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#775"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00775] For method validateGlobalStoreArguments arguments String  sourceName|String  topic|String  processorName|ProcessorSupplier&lt;? ,? ,Void ,Void &gt;  stateUpdateSupplier|String  storeName|boolean  loggingEnabled"
+ , "c3" : "QC-JAV000006[00775] For method validateGlobalStoreArguments arguments String  sourceName|String  topic|String  processorName|ProcessorSupplier&lt;?,?,Void,Void&gt;  stateUpdateSupplier|String  storeName|boolean  loggingEnabled"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2164,7 +2164,7 @@ var maDataBlocs = {
  , "c1" : "00929"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#929"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00929] For method putNodeGroupName arguments String  nodeName|int  nodeGroupId|Map&lt;Integer ,Set&lt;String &gt; &gt;  nodeGroups|Map&lt;String ,Set&lt;String &gt; &gt;  rootToNodeGroup"
+ , "c3" : "QC-JAV000006[00929] For method putNodeGroupName arguments String  nodeName|int  nodeGroupId|Map&lt;Integer,Set&lt;String&gt;&gt;  nodeGroups|Map&lt;String,Set&lt;String&gt;&gt;  rootToNodeGroup"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2255,7 +2255,7 @@ var maDataBlocs = {
  , "c1" : "00996"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#996"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00996] For method build arguments Set&lt;String &gt;  nodeGroup"
+ , "c3" : "QC-JAV000006[00996] For method build arguments Set&lt;String&gt;  nodeGroup"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2353,7 +2353,7 @@ var maDataBlocs = {
  , "c1" : "01045"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1045"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01045] For method buildSinkNode arguments Map&lt;String ,ProcessorNode&lt;? ,? ,? ,? &gt; &gt;  processorMap|Map&lt;String ,SinkNode&lt;? ,? &gt; &gt;  topicSinkMap|Set&lt;String &gt;  repartitionTopics|SinkNodeFactory&lt;? ,? &gt;  sinkNodeFactory|SinkNode&lt;? ,? &gt;  node"
+ , "c3" : "QC-JAV000006[01045] For method buildSinkNode arguments Map&lt;String,ProcessorNode&lt;?,?,?,?&gt;&gt;  processorMap|Map&lt;String,SinkNode&lt;?,?&gt;&gt;  topicSinkMap|Set&lt;String&gt;  repartitionTopics|SinkNodeFactory&lt;?,?&gt;  sinkNodeFactory|SinkNode&lt;?,?&gt;  node"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2437,7 +2437,7 @@ var maDataBlocs = {
  , "c1" : "01080"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1080"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01080] For method buildSourceNode arguments Map&lt;String ,SourceNode&lt;? ,? &gt; &gt;  topicSourceMap|Set&lt;String &gt;  repartitionTopics|SourceNodeFactory&lt;? ,? &gt;  sourceNodeFactory|SourceNode&lt;? ,? &gt;  node"
+ , "c3" : "QC-JAV000006[01080] For method buildSourceNode arguments Map&lt;String,SourceNode&lt;?,?&gt;&gt;  topicSourceMap|Set&lt;String&gt;  repartitionTopics|SourceNodeFactory&lt;?,?&gt;  sourceNodeFactory|SourceNode&lt;?,?&gt;  node"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2486,7 +2486,7 @@ var maDataBlocs = {
  , "c1" : "01101"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1101"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01101] For method buildProcessorNode arguments Map&lt;String ,ProcessorNode&lt;? ,? ,? ,? &gt; &gt;  processorMap|Map&lt;String ,StateStore &gt;  stateStoreMap|ProcessorNodeFactory&lt;? ,? ,? ,? &gt;  factory|ProcessorNode&lt;Object ,Object ,Object ,Object &gt;  node"
+ , "c3" : "QC-JAV000006[01101] For method buildProcessorNode arguments Map&lt;String,ProcessorNode&lt;?,?,?,?&gt;&gt;  processorMap|Map&lt;String,StateStore&gt;  stateStoreMap|ProcessorNodeFactory&lt;?,?,?,?&gt;  factory|ProcessorNode&lt;Object,Object,Object,Object&gt;  node"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2794,7 +2794,7 @@ var maDataBlocs = {
  , "c1" : "01252"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1252"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01252] For method buildRepartitionTopicConfig arguments String  internalTopic|Optional&lt;Integer &gt;  numberOfPartitions"
+ , "c3" : "QC-JAV000006[01252] For method buildRepartitionTopicConfig arguments String  internalTopic|Optional&lt;Integer&gt;  numberOfPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2983,7 +2983,7 @@ var maDataBlocs = {
  , "c1" : "01389"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1389"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01389] For method maybeDecorateInternalSourceTopics arguments Collection&lt;String &gt;  sourceTopics"
+ , "c3" : "QC-JAV000006[01389] For method maybeDecorateInternalSourceTopics arguments Collection&lt;String&gt;  sourceTopics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3221,7 +3221,7 @@ var maDataBlocs = {
  , "c1" : "01524"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1524"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01524] For method describeGlobalStore arguments TopologyDescription  description|Set&lt;String &gt;  nodes|int  id"
+ , "c3" : "QC-JAV000006[01524] For method describeGlobalStore arguments TopologyDescription  description|Set&lt;String&gt;  nodes|int  id"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3270,7 +3270,7 @@ var maDataBlocs = {
  , "c1" : "01548"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1548"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01548] For method nodeGroupContainsGlobalSourceNode arguments Set&lt;String &gt;  allNodesOfGroups"
+ , "c3" : "QC-JAV000006[01548] For method nodeGroupContainsGlobalSourceNode arguments Set&lt;String&gt;  allNodesOfGroups"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3340,7 +3340,7 @@ var maDataBlocs = {
  , "c1" : "01589"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1589"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01589] For method describeSubtopology arguments TopologyDescription  description|Integer  subtopologyId|Set&lt;String &gt;  nodeNames"
+ , "c3" : "QC-JAV000006[01589] For method describeSubtopology arguments TopologyDescription  description|Integer  subtopologyId|Set&lt;String&gt;  nodeNames"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4187,7 +4187,7 @@ var maDataBlocs = {
  , "c1" : "02136"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2136"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02136] For method nodeNames arguments Set&lt;TopologyDescription.Node &gt;  nodes"
+ , "c3" : "QC-JAV000006[02136] For method nodeNames arguments Set&lt;TopologyDescription.Node&gt;  nodes"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4236,7 +4236,7 @@ var maDataBlocs = {
  , "c1" : "02159"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2159"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02159] For method addSubscribedTopicsFromAssignment arguments List&lt;TopicPartition &gt;  partitions|String  logPrefix"
+ , "c3" : "QC-JAV000006[02159] For method addSubscribedTopicsFromAssignment arguments List&lt;TopicPartition&gt;  partitions|String  logPrefix"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4257,14 +4257,14 @@ var maDataBlocs = {
  , "c1" : "02175"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2175"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02175] For method addSubscribedTopicsFromMetadata arguments Set&lt;String &gt;  topics|String  logPrefix"
+ , "c3" : "QC-JAV000006[02175] For method addSubscribedTopicsFromMetadata arguments Set&lt;String&gt;  topics|String  logPrefix"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "02181"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2181"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02181] For method updateSubscribedTopics arguments Set&lt;String &gt;  topics|String  logPrefix"
+ , "c3" : "QC-JAV000006[02181] For method updateSubscribedTopics arguments Set&lt;String&gt;  topics|String  logPrefix"
 }} 
 ,
 { "ligne" : {"" : ""

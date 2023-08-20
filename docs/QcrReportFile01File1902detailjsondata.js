@@ -354,7 +354,7 @@ var maDataBlocs = {
  , "c1" : "00145"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorTopology.java.html#145"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00145] For method updateSourceTopics arguments Map&lt;String ,List&lt;String &gt; &gt;  allSourceTopicsByNodeName"
+ , "c3" : "QC-JAV000006[00145] For method updateSourceTopics arguments Map&lt;String,List&lt;String&gt;&gt;  allSourceTopicsByNodeName"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -452,7 +452,7 @@ var maDataBlocs = {
  , "c1" : "00171"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorTopology.java.html#171"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00171] For method childrenToString arguments String  indent|List&lt;?  extends ProcessorNode&lt;? ,? ,? ,? &gt; &gt;  children"
+ , "c3" : "QC-JAV000006[00171] For method childrenToString arguments String  indent|List&lt;?extendsProcessorNode&lt;?,?,?,?&gt;&gt;  children"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -571,7 +571,7 @@ var maDataBlocs = {
  , "c1" : "00228"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorTopology.java.html#228"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00228] For method topicsToString arguments String  indent|List&lt;String &gt;  topics"
+ , "c3" : "QC-JAV000006[00228] For method topicsToString arguments String  indent|List&lt;String&gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -114,7 +114,7 @@ var maDataBlocs = {
  , "c1" : "00066"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/ForeignJoinSubscriptionProcessorSupplier.java.html#66"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method init arguments ProcessorContext&lt;K ,SubscriptionResponseWrapper&lt;VO &gt; &gt;  context"
+ , "c3" : "QC-JAV000006[00066] For method init arguments ProcessorContext&lt;K,SubscriptionResponseWrapper&lt;VO&gt;&gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -128,7 +128,7 @@ var maDataBlocs = {
  , "c1" : "00078"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/ForeignJoinSubscriptionProcessorSupplier.java.html#78"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00078] For method process arguments Record&lt;KO ,Change&lt;VO &gt; &gt;  record"
+ , "c3" : "QC-JAV000006[00078] For method process arguments Record&lt;KO,Change&lt;VO&gt;&gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""

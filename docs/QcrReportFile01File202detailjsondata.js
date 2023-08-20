@@ -495,7 +495,7 @@ var maDataBlocs = {
  , "c1" : "00138"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#138"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00138] For method sameRequest arguments Set&lt;TopicPartition &gt;  currentRequest|Generation  currentGeneration"
+ , "c3" : "QC-JAV000006[00138] For method sameRequest arguments Set&lt;TopicPartition&gt;  currentRequest|Generation  currentGeneration"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -635,7 +635,7 @@ var maDataBlocs = {
  , "c1" : "00268"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#268"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00268] For method maybeUpdateJoinedSubscription arguments Set&lt;TopicPartition &gt;  assignedPartitions"
+ , "c3" : "QC-JAV000006[00268] For method maybeUpdateJoinedSubscription arguments Set&lt;TopicPartition&gt;  assignedPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -670,7 +670,7 @@ var maDataBlocs = {
  , "c1" : "00306"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#306"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00306] For method invokePartitionsAssigned arguments SortedSet&lt;TopicPartition &gt;  assignedPartitions"
+ , "c3" : "QC-JAV000006[00306] For method invokePartitionsAssigned arguments SortedSet&lt;TopicPartition&gt;  assignedPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -712,7 +712,7 @@ var maDataBlocs = {
  , "c1" : "00325"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#325"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00325] For method invokePartitionsRevoked arguments SortedSet&lt;TopicPartition &gt;  revokedPartitions"
+ , "c3" : "QC-JAV000006[00325] For method invokePartitionsRevoked arguments SortedSet&lt;TopicPartition&gt;  revokedPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -768,7 +768,7 @@ var maDataBlocs = {
  , "c1" : "00348"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#348"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00348] For method invokePartitionsLost arguments SortedSet&lt;TopicPartition &gt;  lostPartitions"
+ , "c3" : "QC-JAV000006[00348] For method invokePartitionsLost arguments SortedSet&lt;TopicPartition&gt;  lostPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1125,7 +1125,7 @@ var maDataBlocs = {
  , "c1" : "00582"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#582"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00582] For method updateGroupSubscription arguments Set&lt;String &gt;  topics"
+ , "c3" : "QC-JAV000006[00582] For method updateGroupSubscription arguments Set&lt;String&gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1139,7 +1139,7 @@ var maDataBlocs = {
  , "c1" : "00615"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#615"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00615] For method maybeUpdateGroupSubscription arguments String  assignorName|Map&lt;String ,Assignment &gt;  assignments|Set&lt;String &gt;  allSubscribedTopics"
+ , "c3" : "QC-JAV000006[00615] For method maybeUpdateGroupSubscription arguments String  assignorName|Map&lt;String,Assignment&gt;  assignments|Set&lt;String&gt;  allSubscribedTopics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1188,7 +1188,7 @@ var maDataBlocs = {
  , "c1" : "00644"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#644"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00644] For method onLeaderElected arguments String  leaderId|String  assignmentStrategy|List&lt;JoinGroupResponseData.JoinGroupResponseMember &gt;  allSubscriptions|boolean  skipAssignment"
+ , "c3" : "QC-JAV000006[00644] For method onLeaderElected arguments String  leaderId|String  assignmentStrategy|List&lt;JoinGroupResponseData.JoinGroupResponseMember&gt;  allSubscriptions|boolean  skipAssignment"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1265,7 +1265,7 @@ var maDataBlocs = {
  , "c1" : "00715"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#715"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00715] For method validateCooperativeAssignment arguments Map&lt;String ,List&lt;TopicPartition &gt; &gt;  ownedPartitions|Map&lt;String ,Assignment &gt;  assignments"
+ , "c3" : "QC-JAV000006[00715] For method validateCooperativeAssignment arguments Map&lt;String,List&lt;TopicPartition&gt;&gt;  ownedPartitions|Map&lt;String,Assignment&gt;  assignments"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1629,7 +1629,7 @@ var maDataBlocs = {
  , "c1" : "00921"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#921"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00921] For method fetchCommittedOffsets arguments Set&lt;TopicPartition &gt;  partitions|Timer  timer"
+ , "c3" : "QC-JAV000006[00921] For method fetchCommittedOffsets arguments Set&lt;TopicPartition&gt;  partitions|Timer  timer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1776,7 +1776,7 @@ var maDataBlocs = {
  , "c1" : "01005"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1005"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01005] For method commitOffsetsAsync arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets|OffsetCommitCallback  callback"
+ , "c3" : "QC-JAV000006[01005] For method commitOffsetsAsync arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets|OffsetCommitCallback  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1804,7 +1804,7 @@ var maDataBlocs = {
  , "c1" : "01056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1056"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01056] For method doCommitOffsetsAsync arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets|OffsetCommitCallback  callback"
+ , "c3" : "QC-JAV000006[01056] For method doCommitOffsetsAsync arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets|OffsetCommitCallback  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1846,7 +1846,7 @@ var maDataBlocs = {
  , "c1" : "01094"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1094"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01094] For method commitOffsetsSync arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets|Timer  timer"
+ , "c3" : "QC-JAV000006[01094] For method commitOffsetsSync arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets|Timer  timer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2014,7 +2014,7 @@ var maDataBlocs = {
  , "c1" : "01183"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1183"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01183] For method onComplete arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets|Exception  exception"
+ , "c3" : "QC-JAV000006[01183] For method onComplete arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets|Exception  exception"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2035,7 +2035,7 @@ var maDataBlocs = {
  , "c1" : "01199"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1199"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01199] For method sendOffsetCommitRequest arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets"
+ , "c3" : "QC-JAV000006[01199] For method sendOffsetCommitRequest arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2168,7 +2168,7 @@ var maDataBlocs = {
  , "c1" : "01279"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1279"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01279] For method handle arguments OffsetCommitResponse  commitResponse|RequestFuture&lt;Void &gt;  future"
+ , "c3" : "QC-JAV000006[01279] For method handle arguments OffsetCommitResponse  commitResponse|RequestFuture&lt;Void&gt;  future"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2427,7 +2427,7 @@ var maDataBlocs = {
  , "c1" : "01399"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1399"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01399] For method sendOffsetFetchRequest arguments Set&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[01399] For method sendOffsetFetchRequest arguments Set&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2462,7 +2462,7 @@ var maDataBlocs = {
  , "c1" : "01420"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1420"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01420] For method handle arguments OffsetFetchResponse  response|RequestFuture&lt;Map&lt;TopicPartition ,OffsetAndMetadata &gt; &gt;  future"
+ , "c3" : "QC-JAV000006[01420] For method handle arguments OffsetFetchResponse  response|RequestFuture&lt;Map&lt;TopicPartition,OffsetAndMetadata&gt;&gt;  future"
 }} 
 ,
 { "ligne" : {"" : ""

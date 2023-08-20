@@ -336,7 +336,7 @@ var maDataBlocs = {
  , "c1" : "00141"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#141"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00141] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00141] For method configure arguments Map&lt;String,?&gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -392,14 +392,14 @@ var maDataBlocs = {
  , "c1" : "00194"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#194"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00194] For method validateReconfiguration arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00194] For method validateReconfiguration arguments Map&lt;String,?&gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00200"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#200"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00200] For method reconfigure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00200] For method reconfigure arguments Map&lt;String,?&gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -455,14 +455,14 @@ var maDataBlocs = {
  , "c1" : "00267"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#267"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00267] For method buildServerAuthenticator arguments Map&lt;String ,? &gt;  configs|Map&lt;String ,AuthenticateCallbackHandler &gt;  callbackHandlers|String  id|TransportLayer  transportLayer|Map&lt;String ,Subject &gt;  subjects|Map&lt;String ,Long &gt;  connectionsMaxReauthMsByMechanism|ChannelMetadataRegistry  metadataRegistry"
+ , "c3" : "QC-JAV000006[00267] For method buildServerAuthenticator arguments Map&lt;String,?&gt;  configs|Map&lt;String,AuthenticateCallbackHandler&gt;  callbackHandlers|String  id|TransportLayer  transportLayer|Map&lt;String,Subject&gt;  subjects|Map&lt;String,Long&gt;  connectionsMaxReauthMsByMechanism|ChannelMetadataRegistry  metadataRegistry"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00280"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#280"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00280] For method buildClientAuthenticator arguments Map&lt;String ,? &gt;  configs|AuthenticateCallbackHandler  callbackHandler|String  id|String  serverHost|String  servicePrincipal|TransportLayer  transportLayer|Subject  subject"
+ , "c3" : "QC-JAV000006[00280] For method buildClientAuthenticator arguments Map&lt;String,?&gt;  configs|AuthenticateCallbackHandler  callbackHandler|String  id|String  serverHost|String  servicePrincipal|TransportLayer  transportLayer|Subject  subject"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -483,7 +483,7 @@ var maDataBlocs = {
  , "c1" : "00300"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#300"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00300] For method createClientCallbackHandler arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00300] For method createClientCallbackHandler arguments Map&lt;String,?&gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -518,7 +518,7 @@ var maDataBlocs = {
  , "c1" : "00309"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#309"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00309] For method createServerCallbackHandlers arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00309] For method createServerCallbackHandlers arguments Map&lt;String,?&gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -581,7 +581,7 @@ var maDataBlocs = {
  , "c1" : "00330"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#330"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00330] For method createConnectionsMaxReauthMsMap arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00330] For method createConnectionsMaxReauthMsMap arguments Map&lt;String,?&gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""

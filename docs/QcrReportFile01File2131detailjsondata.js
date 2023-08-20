@@ -599,7 +599,7 @@ var maDataBlocs = {
  , "c1" : "00379"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#379"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00379] For method topicPartitionMapToPosition arguments Map&lt;TopicPartition ,Long &gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00379] For method topicPartitionMapToPosition arguments Map&lt;TopicPartition,Long&gt;  topicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""

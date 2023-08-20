@@ -169,7 +169,7 @@ var maDataBlocs = {
  , "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method contains arguments Collection&lt;ClientQuotaFilterComponent &gt;  components"
+ , "c3" : "QC-JAV000006[00049] For method contains arguments Collection&lt;ClientQuotaFilterComponent&gt;  components"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -183,7 +183,7 @@ var maDataBlocs = {
  , "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/quota/ClientQuotaFilter.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00059] For method containsOnly arguments Collection&lt;ClientQuotaFilterComponent &gt;  components"
+ , "c3" : "QC-JAV000006[00059] For method containsOnly arguments Collection&lt;ClientQuotaFilterComponent&gt;  components"
 }} 
 ,
 { "ligne" : {"" : ""

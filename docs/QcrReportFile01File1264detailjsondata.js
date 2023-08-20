@@ -225,7 +225,7 @@ var maDataBlocs = {
  , "c1" : "00087"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#87"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00087] For method addStructSpecs arguments Versions  parentVersions|List&lt;FieldSpec &gt;  fields"
+ , "c3" : "QC-JAV000006[00087] For method addStructSpecs arguments Versions  parentVersions|List&lt;FieldSpec&gt;  fields"
 }} 
 ,
 { "ligne" : {"" : ""

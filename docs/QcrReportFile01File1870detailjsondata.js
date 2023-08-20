@@ -330,14 +330,14 @@ var maDataBlocs = {
  , "c1" : "00145"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ActiveTaskCreator.java.html#145"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00145] For method removeRevokedUnknownTasks arguments Set&lt;TaskId &gt;  assignedTasks"
+ , "c3" : "QC-JAV000006[00145] For method removeRevokedUnknownTasks arguments Set&lt;TaskId&gt;  assignedTasks"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00149"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ActiveTaskCreator.java.html#149"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00149] For method uncreatedTasksForTopologies arguments Set&lt;String &gt;  currentTopologies"
+ , "c3" : "QC-JAV000006[00149] For method uncreatedTasksForTopologies arguments Set&lt;String&gt;  currentTopologies"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -351,7 +351,7 @@ var maDataBlocs = {
  , "c1" : "00154"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ActiveTaskCreator.java.html#154"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00154] For method createTasks arguments Consumer&lt;byte[] ,byte[] &gt;  consumer|Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  tasksToBeCreated"
+ , "c3" : "QC-JAV000006[00154] For method createTasks arguments Consumer&lt;byte[],byte[]&gt;  consumer|Map&lt;TaskId,Set&lt;TopicPartition&gt;&gt;  tasksToBeCreated"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -435,7 +435,7 @@ var maDataBlocs = {
  , "c1" : "00214"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ActiveTaskCreator.java.html#214"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00214] For method createActiveTaskFromStandby arguments StandbyTask  standbyTask|Set&lt;TopicPartition &gt;  inputPartitions|Consumer&lt;byte[] ,byte[] &gt;  consumer"
+ , "c3" : "QC-JAV000006[00214] For method createActiveTaskFromStandby arguments StandbyTask  standbyTask|Set&lt;TopicPartition&gt;  inputPartitions|Consumer&lt;byte[],byte[]&gt;  consumer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -456,7 +456,7 @@ var maDataBlocs = {
  , "c1" : "00235"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ActiveTaskCreator.java.html#235"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00235] For method createActiveTask arguments TaskId  taskId|Set&lt;TopicPartition &gt;  inputPartitions|Consumer&lt;byte[] ,byte[] &gt;  consumer|LogContext  logContext|ProcessorTopology  topology|ProcessorStateManager  stateManager|InternalProcessorContext  context"
+ , "c3" : "QC-JAV000006[00235] For method createActiveTask arguments TaskId  taskId|Set&lt;TopicPartition&gt;  inputPartitions|Consumer&lt;byte[],byte[]&gt;  consumer|LogContext  logContext|ProcessorTopology  topology|ProcessorStateManager  stateManager|InternalProcessorContext  context"
 }} 
 ,
 { "ligne" : {"" : ""

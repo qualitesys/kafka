@@ -320,28 +320,28 @@ var maDataBlocs = {
  , "c1" : "00123"
  , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#123"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00123] For method setDelayedProducePurgatory arguments DelayedOperationPurgatory&lt;DelayedProduce &gt;  delayedProducePurgatory"
+ , "c3" : "QC-JAV000006[00123] For method setDelayedProducePurgatory arguments DelayedOperationPurgatory&lt;DelayedProduce&gt;  delayedProducePurgatory"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#128"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00128] For method setDelayedFetchPurgatory arguments DelayedOperationPurgatory&lt;DelayedFetch &gt;  delayedFetchPurgatory"
+ , "c3" : "QC-JAV000006[00128] For method setDelayedFetchPurgatory arguments DelayedOperationPurgatory&lt;DelayedFetch&gt;  delayedFetchPurgatory"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#133"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00133] For method setDelayedDeleteRecordsPurgatory arguments DelayedOperationPurgatory&lt;DelayedDeleteRecords &gt;  delayedDeleteRecordsPurgatory"
+ , "c3" : "QC-JAV000006[00133] For method setDelayedDeleteRecordsPurgatory arguments DelayedOperationPurgatory&lt;DelayedDeleteRecords&gt;  delayedDeleteRecordsPurgatory"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/core/src/main/java/kafka/server/builders/ReplicaManagerBuilder.java.html#138"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00138] For method setDelayedElectLeaderPurgatoryParam arguments DelayedOperationPurgatory&lt;DelayedElectLeader &gt;  delayedElectLeaderPurgatory"
+ , "c3" : "QC-JAV000006[00138] For method setDelayedElectLeaderPurgatoryParam arguments DelayedOperationPurgatory&lt;DelayedElectLeader&gt;  delayedElectLeaderPurgatory"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -295,14 +295,14 @@ var maDataBlocs = {
  , "c1" : "00098"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#98"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00098] For method ensureProperty arguments Map&lt;String ,? super String &gt;  props|String  key|String  expectedValue|String  justification|boolean  caseSensitive"
+ , "c3" : "QC-JAV000006[00098] For method ensureProperty arguments Map&lt;String,?superString&gt;  props|String  key|String  expectedValue|String  justification|boolean  caseSensitive"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00118"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#118"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00118] For method ensurePropertyAndGetWarning arguments Map&lt;String ,? super String &gt;  props|String  key|String  expectedValue|String  justification|boolean  caseSensitive"
+ , "c3" : "QC-JAV000006[00118] For method ensurePropertyAndGetWarning arguments Map&lt;String,?superString&gt;  props|String  key|String  expectedValue|String  justification|boolean  caseSensitive"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -358,7 +358,7 @@ var maDataBlocs = {
  , "c1" : "00149"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/ConnectUtils.java.html#149"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00149] For method addMetricsContextProperties arguments Map&lt;String ,Object &gt;  prop|WorkerConfig  config|String  clusterId"
+ , "c3" : "QC-JAV000006[00149] For method addMetricsContextProperties arguments Map&lt;String,Object&gt;  prop|WorkerConfig  config|String  clusterId"
 }} 
 ,
 { "ligne" : {"" : ""

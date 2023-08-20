@@ -662,7 +662,7 @@ var maDataBlocs = {
  , "c1" : "00077"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#77"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00077] For method generateClass arguments Optional&lt;MessageSpec &gt;  topLevelMessageSpec|String  className|StructSpec  struct|Versions  parentVersions"
+ , "c3" : "QC-JAV000006[00077] For method generateClass arguments Optional&lt;MessageSpec&gt;  topLevelMessageSpec|String  className|StructSpec  struct|Versions  parentVersions"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -290,7 +290,7 @@ var maDataBlocs = {
  , "c1" : "00098"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#98"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00098] For method forEach arguments BiConsumer&lt;TopicPartition ,S &gt;  biConsumer"
+ , "c3" : "QC-JAV000006[00098] For method forEach arguments BiConsumer&lt;TopicPartition,S&gt;  biConsumer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -304,14 +304,14 @@ var maDataBlocs = {
  , "c1" : "00130"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#130"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00130] For method set arguments Map&lt;TopicPartition ,S &gt;  partitionToState"
+ , "c3" : "QC-JAV000006[00130] For method set arguments Map&lt;TopicPartition,S&gt;  partitionToState"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00140"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/PartitionStates.java.html#140"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00140] For method update arguments Map&lt;TopicPartition ,S &gt;  partitionToState"
+ , "c3" : "QC-JAV000006[00140] For method update arguments Map&lt;TopicPartition,S&gt;  partitionToState"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -230,7 +230,7 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListDeserializer.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00075] For method configure arguments Map&lt;String,?&gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -265,7 +265,7 @@ var maDataBlocs = {
  , "c1" : "00084"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListDeserializer.java.html#84"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00084] For method configureListClass arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00084] For method configureListClass arguments Map&lt;String,?&gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -321,7 +321,7 @@ var maDataBlocs = {
  , "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListDeserializer.java.html#104"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00104] For method configureInnerSerde arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00104] For method configureInnerSerde arguments Map&lt;String,?&gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""

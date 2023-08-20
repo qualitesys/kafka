@@ -148,7 +148,7 @@ var maDataBlocs = {
  , "c1" : "00122"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/GroupedStreamAggregateBuilder.java.html#122"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00122] For method createRepartitionSource arguments String  repartitionTopicNamePrefix|OptimizableRepartitionNodeBuilder&lt;K ,V &gt;  optimizableRepartitionNodeBuilder"
+ , "c3" : "QC-JAV000006[00122] For method createRepartitionSource arguments String  repartitionTopicNamePrefix|OptimizableRepartitionNodeBuilder&lt;K,V&gt;  optimizableRepartitionNodeBuilder"
 }} 
 ,
 { "ligne" : {"" : ""

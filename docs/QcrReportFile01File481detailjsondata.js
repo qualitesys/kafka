@@ -308,7 +308,7 @@ var maDataBlocs = {
  , "c1" : "00103"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#103"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00103] For method combine arguments List&lt;Sample &gt;  samples|MetricConfig  config|long  now"
+ , "c3" : "QC-JAV000006[00103] For method combine arguments List&lt;Sample&gt;  samples|MetricConfig  config|long  now"
 }} 
 ,
 { "ligne" : {"" : ""

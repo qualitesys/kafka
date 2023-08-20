@@ -242,14 +242,14 @@ var maDataBlocs = {
  , "c1" : "00124"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedTableImpl.java.html#124"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00124] For method reduce arguments Reducer&lt;V &gt;  adder|Reducer&lt;V &gt;  subtractor|Materialized&lt;K ,V ,KeyValueStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
+ , "c3" : "QC-JAV000006[00124] For method reduce arguments Reducer&lt;V&gt;  adder|Reducer&lt;V&gt;  subtractor|Materialized&lt;K,V,KeyValueStore&lt;Bytes,byte[]&gt;&gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedTableImpl.java.html#131"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00131] For method reduce arguments Reducer&lt;V &gt;  adder|Reducer&lt;V &gt;  subtractor|Named  named|Materialized&lt;K ,V ,KeyValueStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
+ , "c3" : "QC-JAV000006[00131] For method reduce arguments Reducer&lt;V&gt;  adder|Reducer&lt;V&gt;  subtractor|Named  named|Materialized&lt;K,V,KeyValueStore&lt;Bytes,byte[]&gt;&gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -298,21 +298,21 @@ var maDataBlocs = {
  , "c1" : "00156"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedTableImpl.java.html#156"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00156] For method reduce arguments Reducer&lt;V &gt;  adder|Reducer&lt;V &gt;  subtractor"
+ , "c3" : "QC-JAV000006[00156] For method reduce arguments Reducer&lt;V&gt;  adder|Reducer&lt;V&gt;  subtractor"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00163"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedTableImpl.java.html#163"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00163] For method count arguments Materialized&lt;K ,Long ,KeyValueStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
+ , "c3" : "QC-JAV000006[00163] For method count arguments Materialized&lt;K,Long,KeyValueStore&lt;Bytes,byte[]&gt;&gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00168"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KGroupedTableImpl.java.html#168"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00168] For method count arguments Named  named|Materialized&lt;K ,Long ,KeyValueStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
+ , "c3" : "QC-JAV000006[00168] For method count arguments Named  named|Materialized&lt;K,Long,KeyValueStore&lt;Bytes,byte[]&gt;&gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""

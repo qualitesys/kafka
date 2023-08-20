@@ -252,7 +252,7 @@ var maDataBlocs = {
  , "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/KafkaFutureImpl.java.html#104"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00104] For method whenComplete arguments BiConsumer&lt;? super T ,? super Throwable &gt;  biConsumer"
+ , "c3" : "QC-JAV000006[00104] For method whenComplete arguments BiConsumer&lt;?superT,?superThrowable&gt;  biConsumer"
 }} 
 ,
 { "ligne" : {"" : ""

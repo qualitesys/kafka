@@ -476,28 +476,28 @@ var maDataBlocs = {
  , "c1" : "00079"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#79"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00079] For method setMainConsumer arguments Consumer&lt;byte[] ,byte[] &gt;  mainConsumer"
+ , "c3" : "QC-JAV000006[00079] For method setMainConsumer arguments Consumer&lt;byte[],byte[]&gt;  mainConsumer"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00083] For method handleNewAssignmentAndCreateTasks arguments Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  activeTasksToCreate|Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  standbyTasksToCreate|Set&lt;TaskId &gt;  assignedActiveTasks|Set&lt;TaskId &gt;  assignedStandbyTasks"
+ , "c3" : "QC-JAV000006[00083] For method handleNewAssignmentAndCreateTasks arguments Map&lt;TaskId,Set&lt;TopicPartition&gt;&gt;  activeTasksToCreate|Map&lt;TaskId,Set&lt;TopicPartition&gt;&gt;  standbyTasksToCreate|Set&lt;TaskId&gt;  assignedActiveTasks|Set&lt;TaskId&gt;  assignedStandbyTasks"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00092] For method maybeCreateTasksFromNewTopologies arguments Set&lt;String &gt;  currentNamedTopologies"
+ , "c3" : "QC-JAV000006[00092] For method maybeCreateTasksFromNewTopologies arguments Set&lt;String&gt;  currentNamedTopologies"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00103"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#103"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00103] For method createTasks arguments Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  activeTasksToCreate|Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  standbyTasksToCreate"
+ , "c3" : "QC-JAV000006[00103] For method createTasks arguments Map&lt;TaskId,Set&lt;TopicPartition&gt;&gt;  activeTasksToCreate|Map&lt;TaskId,Set&lt;TopicPartition&gt;&gt;  standbyTasksToCreate"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -560,7 +560,7 @@ var maDataBlocs = {
  , "c1" : "00143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#143"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00143] For method convertActiveToStandby arguments StreamTask  activeTask|Set&lt;TopicPartition &gt;  partitions|Map&lt;TaskId ,RuntimeException &gt;  taskCloseExceptions"
+ , "c3" : "QC-JAV000006[00143] For method convertActiveToStandby arguments StreamTask  activeTask|Set&lt;TopicPartition&gt;  partitions|Map&lt;TaskId,RuntimeException&gt;  taskCloseExceptions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -595,7 +595,7 @@ var maDataBlocs = {
  , "c1" : "00162"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#162"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00162] For method convertStandbyToActive arguments StandbyTask  standbyTask|Set&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00162] For method convertStandbyToActive arguments StandbyTask  standbyTask|Set&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -630,7 +630,7 @@ var maDataBlocs = {
  , "c1" : "00175"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#175"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00175] For method updateInputPartitionsAndResume arguments Task  task|Set&lt;TopicPartition &gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00175] For method updateInputPartitionsAndResume arguments Task  task|Set&lt;TopicPartition&gt;  topicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -651,7 +651,7 @@ var maDataBlocs = {
  , "c1" : "00192"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#192"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00192] For method cleanUpTaskProducerAndRemoveTask arguments TaskId  taskId|Map&lt;TaskId ,RuntimeException &gt;  taskCloseExceptions"
+ , "c3" : "QC-JAV000006[00192] For method cleanUpTaskProducerAndRemoveTask arguments TaskId  taskId|Map&lt;TaskId,RuntimeException&gt;  taskCloseExceptions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -728,7 +728,7 @@ var maDataBlocs = {
  , "c1" : "00255"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/Tasks.java.html#255"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00255] For method tasks arguments Collection&lt;TaskId &gt;  taskIds"
+ , "c3" : "QC-JAV000006[00255] For method tasks arguments Collection&lt;TaskId&gt;  taskIds"
 }} 
 ,
 { "ligne" : {"" : ""

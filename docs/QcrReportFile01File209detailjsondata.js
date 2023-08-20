@@ -1053,7 +1053,7 @@ var maDataBlocs = {
  , "c1" : "00516"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#516"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00516] For method offsetsForTimes arguments Map&lt;TopicPartition ,Long &gt;  timestampsToSearch|Timer  timer"
+ , "c3" : "QC-JAV000006[00516] For method offsetsForTimes arguments Map&lt;TopicPartition,Long&gt;  timestampsToSearch|Timer  timer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1088,7 +1088,7 @@ var maDataBlocs = {
  , "c1" : "00542"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#542"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00542] For method fetchOffsetsByTimes arguments Map&lt;TopicPartition ,Long &gt;  timestampsToSearch|Timer  timer|boolean  requireTimestamps"
+ , "c3" : "QC-JAV000006[00542] For method fetchOffsetsByTimes arguments Map&lt;TopicPartition,Long&gt;  timestampsToSearch|Timer  timer|boolean  requireTimestamps"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1200,21 +1200,21 @@ var maDataBlocs = {
  , "c1" : "00609"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#609"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00609] For method beginningOffsets arguments Collection&lt;TopicPartition &gt;  partitions|Timer  timer"
+ , "c3" : "QC-JAV000006[00609] For method beginningOffsets arguments Collection&lt;TopicPartition&gt;  partitions|Timer  timer"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00613"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#613"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00613] For method endOffsets arguments Collection&lt;TopicPartition &gt;  partitions|Timer  timer"
+ , "c3" : "QC-JAV000006[00613] For method endOffsets arguments Collection&lt;TopicPartition&gt;  partitions|Timer  timer"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00617"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#617"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00617] For method beginningOrEndOffset arguments Collection&lt;TopicPartition &gt;  partitions|long  timestamp|Timer  timer"
+ , "c3" : "QC-JAV000006[00617] For method beginningOrEndOffset arguments Collection&lt;TopicPartition&gt;  partitions|long  timestamp|Timer  timer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1424,7 +1424,7 @@ var maDataBlocs = {
  , "c1" : "00768"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#768"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00768] For method resetOffsetsAsync arguments Map&lt;TopicPartition ,Long &gt;  partitionResetTimestamps"
+ , "c3" : "QC-JAV000006[00768] For method resetOffsetsAsync arguments Map&lt;TopicPartition,Long&gt;  partitionResetTimestamps"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1571,7 +1571,7 @@ var maDataBlocs = {
  , "c1" : "00819"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#819"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00819] For method validateOffsetsAsync arguments Map&lt;TopicPartition ,FetchPosition &gt;  partitionsToValidate"
+ , "c3" : "QC-JAV000006[00819] For method validateOffsetsAsync arguments Map&lt;TopicPartition,FetchPosition&gt;  partitionsToValidate"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1606,7 +1606,7 @@ var maDataBlocs = {
  , "c1" : "00891"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#891"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00891] For method buildLogTruncationException arguments List&lt;SubscriptionState.LogTruncation &gt;  truncations"
+ , "c3" : "QC-JAV000006[00891] For method buildLogTruncationException arguments List&lt;SubscriptionState.LogTruncation&gt;  truncations"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1641,7 +1641,7 @@ var maDataBlocs = {
  , "c1" : "00917"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#917"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00917] For method sendListOffsetsRequests arguments Map&lt;TopicPartition ,Long &gt;  timestampsToSearch|boolean  requireTimestamps"
+ , "c3" : "QC-JAV000006[00917] For method sendListOffsetsRequests arguments Map&lt;TopicPartition,Long&gt;  timestampsToSearch|boolean  requireTimestamps"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1697,7 +1697,7 @@ var maDataBlocs = {
  , "c1" : "00965"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#965"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00965] For method groupListOffsetRequests arguments Map&lt;TopicPartition ,Long &gt;  timestampsToSearch|Set&lt;TopicPartition &gt;  partitionsToRetry"
+ , "c3" : "QC-JAV000006[00965] For method groupListOffsetRequests arguments Map&lt;TopicPartition,Long&gt;  timestampsToSearch|Set&lt;TopicPartition&gt;  partitionsToRetry"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1767,7 +1767,7 @@ var maDataBlocs = {
  , "c1" : "01009"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1009"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01009] For method sendListOffsetRequest arguments Node  node|Map&lt;TopicPartition ,ListOffsetsPartition &gt;  timestampsToSearch|boolean  requireTimestamp"
+ , "c3" : "QC-JAV000006[01009] For method sendListOffsetRequest arguments Node  node|Map&lt;TopicPartition,ListOffsetsPartition&gt;  timestampsToSearch|boolean  requireTimestamp"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1795,7 +1795,7 @@ var maDataBlocs = {
  , "c1" : "01038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1038"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01038] For method handleListOffsetResponse arguments ListOffsetsResponse  listOffsetsResponse|RequestFuture&lt;ListOffsetResult &gt;  future"
+ , "c3" : "QC-JAV000006[01038] For method handleListOffsetResponse arguments ListOffsetsResponse  listOffsetsResponse|RequestFuture&lt;ListOffsetResult&gt;  future"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2110,7 +2110,7 @@ var maDataBlocs = {
  , "c1" : "01244"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1244"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01244] For method regroupFetchPositionsByLeader arguments Map&lt;TopicPartition ,FetchPosition &gt;  partitionMap"
+ , "c3" : "QC-JAV000006[01244] For method regroupFetchPositionsByLeader arguments Map&lt;TopicPartition,FetchPosition&gt;  partitionMap"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2628,7 +2628,7 @@ var maDataBlocs = {
  , "c1" : "01448"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1448"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01448] For method clearBufferedDataForUnassignedPartitions arguments Collection&lt;TopicPartition &gt;  assignedPartitions"
+ , "c3" : "QC-JAV000006[01448] For method clearBufferedDataForUnassignedPartitions arguments Collection&lt;TopicPartition&gt;  assignedPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2670,7 +2670,7 @@ var maDataBlocs = {
  , "c1" : "01470"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1470"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01470] For method clearBufferedDataForUnassignedTopics arguments Collection&lt;String &gt;  assignedTopics"
+ , "c3" : "QC-JAV000006[01470] For method clearBufferedDataForUnassignedTopics arguments Collection&lt;String&gt;  assignedTopics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3482,7 +3482,7 @@ var maDataBlocs = {
  , "c1" : "01943"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1943"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01943] For method topicsForPartitions arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[01943] For method topicsForPartitions arguments Collection&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""

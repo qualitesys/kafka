@@ -1185,7 +1185,7 @@ var maDataBlocs = {
  , "c1" : "00588"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#588"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00588] For method collectTopicPartitionsToSearch arguments Admin  admin|Optional&lt;String &gt;  topic|Optional&lt;Integer &gt;  partition|Optional&lt;Integer &gt;  brokerId"
+ , "c3" : "QC-JAV000006[00588] For method collectTopicPartitionsToSearch arguments Admin  admin|Optional&lt;String&gt;  topic|Optional&lt;Integer&gt;  partition|Optional&lt;Integer&gt;  brokerId"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1206,7 +1206,7 @@ var maDataBlocs = {
  , "c1" : "00613"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#613"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00613] For method filterHangingTransactions arguments Map&lt;Long ,List&lt;OpenTransaction &gt; &gt;  openTransactionsByProducerId|Map&lt;Long ,String &gt;  transactionalIds|Map&lt;String ,TransactionDescription &gt;  descriptions"
+ , "c3" : "QC-JAV000006[00613] For method filterHangingTransactions arguments Map&lt;Long,List&lt;OpenTransaction&gt;&gt;  openTransactionsByProducerId|Map&lt;Long,String&gt;  transactionalIds|Map&lt;String,TransactionDescription&gt;  descriptions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1248,7 +1248,7 @@ var maDataBlocs = {
  , "c1" : "00650"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#650"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00650] For method printHangingTransactions arguments List&lt;OpenTransaction &gt;  hangingTransactions|PrintStream  out"
+ , "c3" : "QC-JAV000006[00650] For method printHangingTransactions arguments List&lt;OpenTransaction&gt;  hangingTransactions|PrintStream  out"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1276,7 +1276,7 @@ var maDataBlocs = {
  , "c1" : "00676"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#676"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00676] For method describeTransactions arguments Admin  admin|Collection&lt;String &gt;  transactionalIds"
+ , "c3" : "QC-JAV000006[00676] For method describeTransactions arguments Admin  admin|Collection&lt;String&gt;  transactionalIds"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1339,7 +1339,7 @@ var maDataBlocs = {
  , "c1" : "00705"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#705"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00705] For method groupByProducerId arguments List&lt;OpenTransaction &gt;  openTransactions"
+ , "c3" : "QC-JAV000006[00705] For method groupByProducerId arguments List&lt;OpenTransaction&gt;  openTransactions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1381,14 +1381,14 @@ var maDataBlocs = {
  , "c1" : "00731"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#731"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00731] For method findTopicPartitions arguments Admin  admin|Optional&lt;Integer &gt;  brokerId|List&lt;String &gt;  topics"
+ , "c3" : "QC-JAV000006[00731] For method findTopicPartitions arguments Admin  admin|Optional&lt;Integer&gt;  brokerId|List&lt;String&gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00748"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#748"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00748] For method findTopicPartitions arguments Admin  admin|Optional&lt;Integer &gt;  brokerId|List&lt;String &gt;  topics|List&lt;TopicPartition &gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00748] For method findTopicPartitions arguments Admin  admin|Optional&lt;Integer&gt;  brokerId|List&lt;String&gt;  topics|List&lt;TopicPartition&gt;  topicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1451,14 +1451,14 @@ var maDataBlocs = {
  , "c1" : "00775"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#775"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00775] For method collectCandidateOpenTransactions arguments Admin  admin|Optional&lt;Integer &gt;  brokerId|long  maxTransactionTimeoutMs|List&lt;TopicPartition &gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00775] For method collectCandidateOpenTransactions arguments Admin  admin|Optional&lt;Integer&gt;  brokerId|long  maxTransactionTimeoutMs|List&lt;TopicPartition&gt;  topicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00813"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#813"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00813] For method collectCandidateOpenTransactions arguments Admin  admin|Optional&lt;Integer &gt;  brokerId|long  maxTransactionTimeoutMs|List&lt;TopicPartition &gt;  topicPartitions|List&lt;OpenTransaction &gt;  candidateTransactions"
+ , "c3" : "QC-JAV000006[00813] For method collectCandidateOpenTransactions arguments Admin  admin|Optional&lt;Integer&gt;  brokerId|long  maxTransactionTimeoutMs|List&lt;TopicPartition&gt;  topicPartitions|List&lt;OpenTransaction&gt;  candidateTransactions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1507,7 +1507,7 @@ var maDataBlocs = {
  , "c1" : "00848"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#848"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00848] For method lookupTransactionalIds arguments Admin  admin|Set&lt;Long &gt;  producerIds"
+ , "c3" : "QC-JAV000006[00848] For method lookupTransactionalIds arguments Admin  admin|Set&lt;Long&gt;  producerIds"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1612,7 +1612,7 @@ var maDataBlocs = {
  , "c1" : "00917"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#917"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00917] For method printRow arguments List&lt;Integer &gt;  columnLengths|String[]  row|PrintStream  out"
+ , "c3" : "QC-JAV000006[00917] For method printRow arguments List&lt;Integer&gt;  columnLengths|String[]  row|PrintStream  out"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1668,7 +1668,7 @@ var maDataBlocs = {
  , "c1" : "00932"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#932"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00932] For method prettyPrintTable arguments String[]  headers|List&lt;String[] &gt;  rows|PrintStream  out"
+ , "c3" : "QC-JAV000006[00932] For method prettyPrintTable arguments String[]  headers|List&lt;String[]&gt;  rows|PrintStream  out"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1892,7 +1892,7 @@ var maDataBlocs = {
  , "c1" : "01015"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionsCommand.java.html#1015"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01015] For method execute arguments String[]  args|Function&lt;Namespace ,Admin &gt;  adminSupplier|PrintStream  out|Time  time"
+ , "c3" : "QC-JAV000006[01015] For method execute arguments String[]  args|Function&lt;Namespace,Admin&gt;  adminSupplier|PrintStream  out|Time  time"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -429,14 +429,14 @@ var maDataBlocs = {
  , "c1" : "00155"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#155"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00155] For method filter arguments Predicate&lt;? super K ,? super V &gt;  predicate"
+ , "c3" : "QC-JAV000006[00155] For method filter arguments Predicate&lt;?superK,?superV&gt;  predicate"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00160"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#160"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00160] For method filter arguments Predicate&lt;? super K ,? super V &gt;  predicate|Named  named"
+ , "c3" : "QC-JAV000006[00160] For method filter arguments Predicate&lt;?superK,?superV&gt;  predicate|Named  named"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -464,14 +464,14 @@ var maDataBlocs = {
  , "c1" : "00184"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#184"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00184] For method filterNot arguments Predicate&lt;? super K ,? super V &gt;  predicate"
+ , "c3" : "QC-JAV000006[00184] For method filterNot arguments Predicate&lt;?superK,?superV&gt;  predicate"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00189"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#189"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00189] For method filterNot arguments Predicate&lt;? super K ,? super V &gt;  predicate|Named  named"
+ , "c3" : "QC-JAV000006[00189] For method filterNot arguments Predicate&lt;?superK,?superV&gt;  predicate|Named  named"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -688,7 +688,7 @@ var maDataBlocs = {
  , "c1" : "00389"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#389"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00389] For method print arguments Printed&lt;K ,V &gt;  printed"
+ , "c3" : "QC-JAV000006[00389] For method print arguments Printed&lt;K,V&gt;  printed"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -702,14 +702,14 @@ var maDataBlocs = {
  , "c1" : "00403"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#403"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00403] For method foreach arguments ForeachAction&lt;? super K ,? super V &gt;  action"
+ , "c3" : "QC-JAV000006[00403] For method foreach arguments ForeachAction&lt;?superK,?superV&gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00408"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#408"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00408] For method foreach arguments ForeachAction&lt;? super K ,? super V &gt;  action|Named  named"
+ , "c3" : "QC-JAV000006[00408] For method foreach arguments ForeachAction&lt;?superK,?superV&gt;  action|Named  named"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -730,14 +730,14 @@ var maDataBlocs = {
  , "c1" : "00423"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#423"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00423] For method peek arguments ForeachAction&lt;? super K ,? super V &gt;  action"
+ , "c3" : "QC-JAV000006[00423] For method peek arguments ForeachAction&lt;?superK,?superV&gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00428"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#428"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00428] For method peek arguments ForeachAction&lt;? super K ,? super V &gt;  action|Named  named"
+ , "c3" : "QC-JAV000006[00428] For method peek arguments ForeachAction&lt;?superK,?superV&gt;  action|Named  named"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -758,14 +758,14 @@ var maDataBlocs = {
  , "c1" : "00454"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#454"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00454] For method branch arguments Predicate&lt;? super K ,? super V &gt;  ...predicates"
+ , "c3" : "QC-JAV000006[00454] For method branch arguments Predicate&lt;?superK,?superV&gt;  ...predicates"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00461"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#461"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00461] For method branch arguments Named  named|Predicate&lt;? super K ,? super V &gt;  ...predicates"
+ , "c3" : "QC-JAV000006[00461] For method branch arguments Named  named|Predicate&lt;?superK,?superV&gt;  ...predicates"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -779,7 +779,7 @@ var maDataBlocs = {
  , "c1" : "00468"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#468"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00468] For method doBranch arguments NamedInternal  named|Predicate&lt;? super K ,? super V &gt;  ...predicates"
+ , "c3" : "QC-JAV000006[00468] For method doBranch arguments NamedInternal  named|Predicate&lt;?superK,?superV&gt;  ...predicates"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -891,14 +891,14 @@ var maDataBlocs = {
  , "c1" : "00518"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#518"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00518] For method merge arguments KStream&lt;K ,V &gt;  stream"
+ , "c3" : "QC-JAV000006[00518] For method merge arguments KStream&lt;K,V&gt;  stream"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00523"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#523"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00523] For method merge arguments KStream&lt;K ,V &gt;  stream|Named  named"
+ , "c3" : "QC-JAV000006[00523] For method merge arguments KStream&lt;K,V&gt;  stream|Named  named"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -919,7 +919,7 @@ var maDataBlocs = {
  , "c1" : "00531"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#531"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00531] For method merge arguments InternalStreamsBuilder  builder|KStream&lt;K ,V &gt;  stream|NamedInternal  named"
+ , "c3" : "QC-JAV000006[00531] For method merge arguments InternalStreamsBuilder  builder|KStream&lt;K,V&gt;  stream|NamedInternal  named"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -982,7 +982,7 @@ var maDataBlocs = {
  , "c1" : "00568"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#568"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00568] For method through arguments String  topic|Produced&lt;K ,V &gt;  produced"
+ , "c3" : "QC-JAV000006[00568] For method through arguments String  topic|Produced&lt;K,V&gt;  produced"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1031,14 +1031,14 @@ var maDataBlocs = {
  , "c1" : "00599"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#599"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00599] For method repartition arguments Repartitioned&lt;K ,V &gt;  repartitioned"
+ , "c3" : "QC-JAV000006[00599] For method repartition arguments Repartitioned&lt;K,V&gt;  repartitioned"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00603"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#603"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00603] For method doRepartition arguments Repartitioned&lt;K ,V &gt;  repartitioned"
+ , "c3" : "QC-JAV000006[00603] For method doRepartition arguments Repartitioned&lt;K,V&gt;  repartitioned"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1101,7 +1101,7 @@ var maDataBlocs = {
  , "c1" : "00652"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#652"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00652] For method to arguments String  topic|Produced&lt;K ,V &gt;  produced"
+ , "c3" : "QC-JAV000006[00652] For method to arguments String  topic|Produced&lt;K,V&gt;  produced"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1136,7 +1136,7 @@ var maDataBlocs = {
  , "c1" : "00668"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#668"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00668] For method to arguments TopicNameExtractor&lt;K ,V &gt;  topicExtractor"
+ , "c3" : "QC-JAV000006[00668] For method to arguments TopicNameExtractor&lt;K,V&gt;  topicExtractor"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1150,7 +1150,7 @@ var maDataBlocs = {
  , "c1" : "00673"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#673"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00673] For method to arguments TopicNameExtractor&lt;K ,V &gt;  topicExtractor|Produced&lt;K ,V &gt;  produced"
+ , "c3" : "QC-JAV000006[00673] For method to arguments TopicNameExtractor&lt;K,V&gt;  topicExtractor|Produced&lt;K,V&gt;  produced"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1185,7 +1185,7 @@ var maDataBlocs = {
  , "c1" : "00688"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#688"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00688] For method to arguments TopicNameExtractor&lt;K ,V &gt;  topicExtractor|ProducedInternal&lt;K ,V &gt;  produced"
+ , "c3" : "QC-JAV000006[00688] For method to arguments TopicNameExtractor&lt;K,V&gt;  topicExtractor|ProducedInternal&lt;K,V&gt;  produced"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1206,14 +1206,14 @@ var maDataBlocs = {
  , "c1" : "00711"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#711"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00711] For method toTable arguments Materialized&lt;K ,V ,KeyValueStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
+ , "c3" : "QC-JAV000006[00711] For method toTable arguments Materialized&lt;K,V,KeyValueStore&lt;Bytes,byte[]&gt;&gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00716"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#716"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00716] For method toTable arguments Named  named|Materialized&lt;K ,V ,KeyValueStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
+ , "c3" : "QC-JAV000006[00716] For method toTable arguments Named  named|Materialized&lt;K,V,KeyValueStore&lt;Bytes,byte[]&gt;&gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1297,7 +1297,7 @@ var maDataBlocs = {
  , "c1" : "00813"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#813"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00813] For method groupByKey arguments Grouped&lt;K ,V &gt;  grouped"
+ , "c3" : "QC-JAV000006[00813] For method groupByKey arguments Grouped&lt;K,V&gt;  grouped"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1479,7 +1479,7 @@ var maDataBlocs = {
  , "c1" : "00977"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#977"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00977] For method repartitionForJoin arguments String  repartitionName|Serde&lt;K &gt;  keySerdeOverride|Serde&lt;V &gt;  valueSerdeOverride"
+ , "c3" : "QC-JAV000006[00977] For method repartitionForJoin arguments String  repartitionName|Serde&lt;K&gt;  keySerdeOverride|Serde&lt;V&gt;  valueSerdeOverride"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2088,14 +2088,14 @@ var maDataBlocs = {
  , "c1" : "01485"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#1485"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01485] For method process arguments org.apache.kafka.streams.processor.ProcessorSupplier&lt;? super K ,? super V &gt;  processorSupplier|String  ...stateStoreNames"
+ , "c3" : "QC-JAV000006[01485] For method process arguments org.apache.kafka.streams.processor.ProcessorSupplier&lt;?superK,?superV&gt;  processorSupplier|String  ...stateStoreNames"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01492"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImpl.java.html#1492"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01492] For method process arguments org.apache.kafka.streams.processor.ProcessorSupplier&lt;? super K ,? super V &gt;  processorSupplier|Named  named|String  ...stateStoreNames"
+ , "c3" : "QC-JAV000006[01492] For method process arguments org.apache.kafka.streams.processor.ProcessorSupplier&lt;?superK,?superV&gt;  processorSupplier|Named  named|String  ...stateStoreNames"
 }} 
 ,
 { "ligne" : {"" : ""

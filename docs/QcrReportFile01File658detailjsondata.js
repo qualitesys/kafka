@@ -180,7 +180,7 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeQuorumResponse.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method singletonResponse arguments TopicPartition  topicPartition|int  leaderId|int  leaderEpoch|long  highWatermark|List&lt;ReplicaState &gt;  voterStates|List&lt;ReplicaState &gt;  observerStates"
+ , "c3" : "QC-JAV000006[00075] For method singletonResponse arguments TopicPartition  topicPartition|int  leaderId|int  leaderEpoch|long  highWatermark|List&lt;ReplicaState&gt;  voterStates|List&lt;ReplicaState&gt;  observerStates"
 }} 
 ,
 { "ligne" : {"" : ""

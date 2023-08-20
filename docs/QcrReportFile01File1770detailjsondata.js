@@ -164,7 +164,7 @@ var maDataBlocs = {
  , "c1" : "00065"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedCogroupedKStreamImpl.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method aggregate arguments Initializer&lt;V &gt;  initializer"
+ , "c3" : "QC-JAV000006[00065] For method aggregate arguments Initializer&lt;V&gt;  initializer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -185,14 +185,14 @@ var maDataBlocs = {
  , "c1" : "00070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedCogroupedKStreamImpl.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method aggregate arguments Initializer&lt;V &gt;  initializer|Materialized&lt;K ,V ,WindowStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
+ , "c3" : "QC-JAV000006[00070] For method aggregate arguments Initializer&lt;V&gt;  initializer|Materialized&lt;K,V,WindowStore&lt;Bytes,byte[]&gt;&gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedCogroupedKStreamImpl.java.html#76"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method aggregate arguments Initializer&lt;V &gt;  initializer|Named  named"
+ , "c3" : "QC-JAV000006[00076] For method aggregate arguments Initializer&lt;V&gt;  initializer|Named  named"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -213,7 +213,7 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedCogroupedKStreamImpl.java.html#82"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00082] For method aggregate arguments Initializer&lt;V &gt;  initializer|Named  named|Materialized&lt;K ,V ,WindowStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
+ , "c3" : "QC-JAV000006[00082] For method aggregate arguments Initializer&lt;V&gt;  initializer|Named  named|Materialized&lt;K,V,WindowStore&lt;Bytes,byte[]&gt;&gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -262,7 +262,7 @@ var maDataBlocs = {
  , "c1" : "00105"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimeWindowedCogroupedKStreamImpl.java.html#105"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00105] For method materialize arguments MaterializedInternal&lt;K ,V ,WindowStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
+ , "c3" : "QC-JAV000006[00105] For method materialize arguments MaterializedInternal&lt;K,V,WindowStore&lt;Bytes,byte[]&gt;&gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -310,7 +310,7 @@ var maDataBlocs = {
  , "c1" : "00309"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#309"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00309] For method logInternalConverterRemovalWarnings arguments Map&lt;String ,String &gt;  props"
+ , "c3" : "QC-JAV000006[00309] For method logInternalConverterRemovalWarnings arguments Map&lt;String,String&gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -394,7 +394,7 @@ var maDataBlocs = {
  , "c1" : "00330"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#330"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00330] For method logPluginPathConfigProviderWarning arguments Map&lt;String ,String &gt;  rawOriginals"
+ , "c3" : "QC-JAV000006[00330] For method logPluginPathConfigProviderWarning arguments Map&lt;String,String&gt;  rawOriginals"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -478,14 +478,14 @@ var maDataBlocs = {
  , "c1" : "00413"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#413"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00413] For method postProcessParsedConfig arguments Map&lt;String ,Object &gt;  parsedValues"
+ , "c3" : "QC-JAV000006[00413] For method postProcessParsedConfig arguments Map&lt;String,Object&gt;  parsedValues"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00417"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfig.java.html#417"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00417] For method pluginLocations arguments Map&lt;String ,String &gt;  props"
+ , "c3" : "QC-JAV000006[00417] For method pluginLocations arguments Map&lt;String,String&gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""

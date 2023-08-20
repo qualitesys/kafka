@@ -560,7 +560,7 @@ var maDataBlocs = {
  , "c1" : "00222"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#222"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00222] For method mechanismNamesCompatibleWithPolicy arguments Map&lt;String ,? &gt;  props"
+ , "c3" : "QC-JAV000006[00222] For method mechanismNamesCompatibleWithPolicy arguments Map&lt;String,?&gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -581,7 +581,7 @@ var maDataBlocs = {
  , "c1" : "00229"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#229"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00229] For method createSaslServer arguments String  mechanism|String  protocol|String  serverName|Map&lt;String ,? &gt;  props|CallbackHandler  callbackHandler"
+ , "c3" : "QC-JAV000006[00229] For method createSaslServer arguments String  mechanism|String  protocol|String  serverName|Map&lt;String,?&gt;  props|CallbackHandler  callbackHandler"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -609,7 +609,7 @@ var maDataBlocs = {
  , "c1" : "00241"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#241"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00241] For method getMechanismNames arguments Map&lt;String ,? &gt;  props"
+ , "c3" : "QC-JAV000006[00241] For method getMechanismNames arguments Map&lt;String,?&gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""

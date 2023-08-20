@@ -648,7 +648,7 @@ var maDataBlocs = {
  , "c1" : "00261"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#261"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00261] For method onCommitCompleted arguments Throwable  error|long  seqno|Map&lt;TopicPartition ,OffsetAndMetadata &gt;  committedOffsets"
+ , "c3" : "QC-JAV000006[00261] For method onCommitCompleted arguments Throwable  error|long  seqno|Map&lt;TopicPartition,OffsetAndMetadata&gt;  committedOffsets"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -795,7 +795,7 @@ var maDataBlocs = {
  , "c1" : "00341"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#341"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00341] For method doCommitSync arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets|int  seqno"
+ , "c3" : "QC-JAV000006[00341] For method doCommitSync arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets|int  seqno"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -816,7 +816,7 @@ var maDataBlocs = {
  , "c1" : "00355"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#355"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00355] For method doCommitAsync arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets|int  seqno"
+ , "c3" : "QC-JAV000006[00355] For method doCommitAsync arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets|int  seqno"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -830,7 +830,7 @@ var maDataBlocs = {
  , "c1" : "00365"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#365"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00365] For method doCommit arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets|boolean  closing|int  seqno"
+ , "c3" : "QC-JAV000006[00365] For method doCommit arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets|boolean  closing|int  seqno"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -844,7 +844,7 @@ var maDataBlocs = {
  , "c1" : "00377"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#377"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00377] For method commitOffsets arguments long  now|boolean  closing|Collection&lt;TopicPartition &gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00377] For method commitOffsets arguments long  now|boolean  closing|Collection&lt;TopicPartition&gt;  topicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1075,7 +1075,7 @@ var maDataBlocs = {
  , "c1" : "00485"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#485"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00485] For method convertMessages arguments ConsumerRecords&lt;byte[] ,byte[] &gt;  msgs"
+ , "c3" : "QC-JAV000006[00485] For method convertMessages arguments ConsumerRecords&lt;byte[],byte[]&gt;  msgs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1131,7 +1131,7 @@ var maDataBlocs = {
  , "c1" : "00512"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#512"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00512] For method convertAndTransformRecord arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  msg"
+ , "c3" : "QC-JAV000006[00512] For method convertAndTransformRecord arguments ConsumerRecord&lt;byte[],byte[]&gt;  msg"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1180,7 +1180,7 @@ var maDataBlocs = {
  , "c1" : "00548"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#548"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00548] For method convertHeadersFor arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  record"
+ , "c3" : "QC-JAV000006[00548] For method convertHeadersFor arguments ConsumerRecord&lt;byte[],byte[]&gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1313,7 +1313,7 @@ var maDataBlocs = {
  , "c1" : "00635"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#635"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00635] For method openPartitions arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00635] For method openPartitions arguments Collection&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1327,7 +1327,7 @@ var maDataBlocs = {
  , "c1" : "00644"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#644"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00644] For method closePartitions arguments Collection&lt;TopicPartition &gt;  topicPartitions|boolean  lost"
+ , "c3" : "QC-JAV000006[00644] For method closePartitions arguments Collection&lt;TopicPartition&gt;  topicPartitions|boolean  lost"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1390,7 +1390,7 @@ var maDataBlocs = {
  , "c1" : "00693"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#693"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00693] For method onPartitionsAssigned arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00693] For method onPartitionsAssigned arguments Collection&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1425,7 +1425,7 @@ var maDataBlocs = {
  , "c1" : "00745"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#745"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00745] For method onPartitionsRevoked arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00745] For method onPartitionsRevoked arguments Collection&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1439,7 +1439,7 @@ var maDataBlocs = {
  , "c1" : "00750"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#750"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00750] For method onPartitionsLost arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00750] For method onPartitionsLost arguments Collection&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1453,7 +1453,7 @@ var maDataBlocs = {
  , "c1" : "00754"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#754"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00754] For method onPartitionsRemoved arguments Collection&lt;TopicPartition &gt;  partitions|boolean  lost"
+ , "c3" : "QC-JAV000006[00754] For method onPartitionsRemoved arguments Collection&lt;TopicPartition&gt;  partitions|boolean  lost"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1649,28 +1649,28 @@ var maDataBlocs = {
  , "c1" : "00880"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#880"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00880] For method recordConsumedOffsets arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets"
+ , "c3" : "QC-JAV000006[00880] For method recordConsumedOffsets arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00885"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#885"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00885] For method recordCommittedOffsets arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets"
+ , "c3" : "QC-JAV000006[00885] For method recordCommittedOffsets arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00890"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#890"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00890] For method assignedOffsets arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets"
+ , "c3" : "QC-JAV000006[00890] For method assignedOffsets arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00896"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#896"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00896] For method clearOffsets arguments Collection&lt;TopicPartition &gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00896] For method clearOffsets arguments Collection&lt;TopicPartition&gt;  topicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""

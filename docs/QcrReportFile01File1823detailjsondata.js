@@ -229,7 +229,7 @@ var maDataBlocs = {
  , "c1" : "00083"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/StrictBufferConfigImpl.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00083] For method withLoggingEnabled arguments Map&lt;String ,String &gt;  config"
+ , "c3" : "QC-JAV000006[00083] For method withLoggingEnabled arguments Map&lt;String,String&gt;  config"
 }} 
 ,
 { "ligne" : {"" : ""

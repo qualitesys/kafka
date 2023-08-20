@@ -651,7 +651,7 @@ var maDataBlocs = {
  , "c1" : "00241"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#241"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00241] For method putConnectorConfig arguments String  connector|HttpHeaders  headers|Boolean  forward|Map&lt;String ,String &gt;  connectorConfig"
+ , "c3" : "QC-JAV000006[00241] For method putConnectorConfig arguments String  connector|HttpHeaders  headers|Boolean  forward|Map&lt;String,String&gt;  connectorConfig"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -952,7 +952,7 @@ var maDataBlocs = {
  , "c1" : "00380"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#380"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00380] For method checkAndPutConnectorConfigName arguments String  connectorName|Map&lt;String ,String &gt;  connectorConfig"
+ , "c3" : "QC-JAV000006[00380] For method checkAndPutConnectorConfigName arguments String  connectorName|Map&lt;String,String&gt;  connectorConfig"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1106,7 +1106,7 @@ var maDataBlocs = {
  , "c1" : "00471"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#471"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00471] For method translate arguments RestClient.HttpResponse&lt;T &gt;  response"
+ , "c3" : "QC-JAV000006[00471] For method translate arguments RestClient.HttpResponse&lt;T&gt;  response"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1120,7 +1120,7 @@ var maDataBlocs = {
  , "c1" : "00478"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorsResource.java.html#478"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00478] For method translate arguments RestClient.HttpResponse&lt;ConnectorInfo &gt;  response"
+ , "c3" : "QC-JAV000006[00478] For method translate arguments RestClient.HttpResponse&lt;ConnectorInfo&gt;  response"
 }} 
 ,
 { "ligne" : {"" : ""

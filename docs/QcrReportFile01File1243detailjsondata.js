@@ -416,7 +416,7 @@ var maDataBlocs = {
  , "c1" : "00183"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#183"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00183] For method deleteTopic arguments Admin  adminClient|List&lt;String &gt;  topicsToDelete"
+ , "c3" : "QC-JAV000006[00183] For method deleteTopic arguments Admin  adminClient|List&lt;String&gt;  topicsToDelete"
 }} 
 ,
 { "ligne" : {"" : ""

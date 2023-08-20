@@ -231,7 +231,7 @@ var maDataBlocs = {
  , "c1" : "00126"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#126"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00126] For method getTopics arguments Map&lt;TopicPartition ,CommittedOffset &gt;  pendingTxnOffsetCommits"
+ , "c3" : "QC-JAV000006[00126] For method getTopics arguments Map&lt;TopicPartition,CommittedOffset&gt;  pendingTxnOffsetCommits"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -266,7 +266,7 @@ var maDataBlocs = {
  , "c1" : "00154"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#154"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00154] For method getErrorResponseTopics arguments List&lt;TxnOffsetCommitRequestTopic &gt;  requestTopics|Errors  e"
+ , "c3" : "QC-JAV000006[00154] For method getErrorResponseTopics arguments List&lt;TxnOffsetCommitRequestTopic&gt;  requestTopics|Errors  e"
 }} 
 ,
 { "ligne" : {"" : ""

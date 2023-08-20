@@ -212,7 +212,7 @@ var maDataBlocs = {
  , "c1" : "00094"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataShell.java.html#94"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00094] For method run arguments List&lt;String &gt;  args"
+ , "c3" : "QC-JAV000006[00094] For method run arguments List&lt;String&gt;  args"
 }} 
 ,
 { "ligne" : {"" : ""

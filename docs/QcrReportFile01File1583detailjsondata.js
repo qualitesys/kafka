@@ -111,7 +111,7 @@ var maDataBlocs = {
  , "c1" : "00059"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00059] For method init arguments ProcessorContext&lt;String ,String &gt;  context"
+ , "c3" : "QC-JAV000006[00059] For method init arguments ProcessorContext&lt;String,String&gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -174,7 +174,7 @@ var maDataBlocs = {
  , "c1" : "00077"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#77"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00077] For method process arguments Record&lt;String ,String &gt;  record"
+ , "c3" : "QC-JAV000006[00077] For method process arguments Record&lt;String,String&gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""

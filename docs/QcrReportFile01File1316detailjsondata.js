@@ -146,7 +146,7 @@ var maDataBlocs = {
  , "c1" : "00032"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionReassignmentReplicas.java.html#32"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method calculateDifference arguments List&lt;Integer &gt;  a|List&lt;Integer &gt;  b"
+ , "c3" : "QC-JAV000006[00032] For method calculateDifference arguments List&lt;Integer&gt;  a|List&lt;Integer&gt;  b"
 }} 
 ,
 { "ligne" : {"" : ""

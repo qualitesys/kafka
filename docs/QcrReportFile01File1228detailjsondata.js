@@ -162,7 +162,7 @@ var maDataBlocs = {
  , "c1" : "00058"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#58"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00058] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00058] For method configure arguments Map&lt;String,?&gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""

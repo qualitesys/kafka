@@ -179,7 +179,7 @@ var maDataBlocs = {
  , "c1" : "00040"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method configure arguments Map&lt;String ,? &gt;  props"
+ , "c3" : "QC-JAV000006[00040] For method configure arguments Map&lt;String,?&gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""

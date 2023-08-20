@@ -138,7 +138,7 @@ var maDataBlocs = {
  , "c1" : "00050"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheWindowStoreIterator.java.html#50"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method deserializeStorePair arguments KeyValue&lt;Long ,byte[] &gt;  pair"
+ , "c3" : "QC-JAV000006[00050] For method deserializeStorePair arguments KeyValue&lt;Long,byte[]&gt;  pair"
 }} 
 ,
 { "ligne" : {"" : ""

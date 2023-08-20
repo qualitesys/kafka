@@ -354,7 +354,7 @@ var maDataBlocs = {
  , "c1" : "00232"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#232"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00232] For method config arguments Map&lt;String ,Object &gt;  configs"
+ , "c3" : "QC-JAV000006[00232] For method config arguments Map&lt;String,Object&gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1096,7 +1096,7 @@ var maDataBlocs = {
  , "c1" : "00656"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#656"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00656] For method endOffsets arguments Set&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00656] For method endOffsets arguments Set&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1271,7 +1271,7 @@ var maDataBlocs = {
  , "c1" : "00715"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicAdmin.java.html#715"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00715] For method retryEndOffsets arguments Set&lt;TopicPartition &gt;  partitions|Duration  timeoutDuration|long  retryBackoffMs"
+ , "c3" : "QC-JAV000006[00715] For method retryEndOffsets arguments Set&lt;TopicPartition&gt;  partitions|Duration  timeoutDuration|long  retryBackoffMs"
 }} 
 ,
 { "ligne" : {"" : ""

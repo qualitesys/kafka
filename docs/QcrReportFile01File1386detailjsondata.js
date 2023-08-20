@@ -379,7 +379,7 @@ var maDataBlocs = {
  , "c1" : "00180"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashSet.java.html#180"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00180] For method containsAll arguments Collection&lt;? &gt;  collection"
+ , "c3" : "QC-JAV000006[00180] For method containsAll arguments Collection&lt;?&gt;  collection"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -400,7 +400,7 @@ var maDataBlocs = {
  , "c1" : "00188"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashSet.java.html#188"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00188] For method addAll arguments Collection&lt;?  extends T &gt;  collection"
+ , "c3" : "QC-JAV000006[00188] For method addAll arguments Collection&lt;?extendsT&gt;  collection"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -421,7 +421,7 @@ var maDataBlocs = {
  , "c1" : "00199"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashSet.java.html#199"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00199] For method retainAll arguments Collection&lt;? &gt;  collection"
+ , "c3" : "QC-JAV000006[00199] For method retainAll arguments Collection&lt;?&gt;  collection"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -449,7 +449,7 @@ var maDataBlocs = {
  , "c1" : "00213"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashSet.java.html#213"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00213] For method removeAll arguments Collection&lt;? &gt;  collection"
+ , "c3" : "QC-JAV000006[00213] For method removeAll arguments Collection&lt;?&gt;  collection"
 }} 
 ,
 { "ligne" : {"" : ""

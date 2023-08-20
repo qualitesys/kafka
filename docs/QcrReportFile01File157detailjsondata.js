@@ -171,14 +171,14 @@ var maDataBlocs = {
  , "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00068] For method buildRequest arguments Set&lt;BrokerKey &gt;  keys"
+ , "c3" : "QC-JAV000006[00068] For method buildRequest arguments Set&lt;BrokerKey&gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method handleResponse arguments Set&lt;BrokerKey &gt;  keys|AbstractResponse  abstractResponse"
+ , "c3" : "QC-JAV000006[00075] For method handleResponse arguments Set&lt;BrokerKey&gt;  keys|AbstractResponse  abstractResponse"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -199,7 +199,7 @@ var maDataBlocs = {
  , "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#100"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00100] For method validateLookupKeys arguments Set&lt;BrokerKey &gt;  keys"
+ , "c3" : "QC-JAV000006[00100] For method validateLookupKeys arguments Set&lt;BrokerKey&gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -290,7 +290,7 @@ var maDataBlocs = {
  , "c1" : "00148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#148"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00148] For method completeLookup arguments Map&lt;BrokerKey ,Integer &gt;  brokerMapping"
+ , "c3" : "QC-JAV000006[00148] For method completeLookup arguments Map&lt;BrokerKey,Integer&gt;  brokerMapping"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -325,7 +325,7 @@ var maDataBlocs = {
  , "c1" : "00159"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#159"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00159] For method completeLookupExceptionally arguments Map&lt;BrokerKey ,Throwable &gt;  lookupErrors"
+ , "c3" : "QC-JAV000006[00159] For method completeLookupExceptionally arguments Map&lt;BrokerKey,Throwable&gt;  lookupErrors"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -346,7 +346,7 @@ var maDataBlocs = {
  , "c1" : "00167"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#167"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00167] For method complete arguments Map&lt;BrokerKey ,V &gt;  values"
+ , "c3" : "QC-JAV000006[00167] For method complete arguments Map&lt;BrokerKey,V&gt;  values"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -374,7 +374,7 @@ var maDataBlocs = {
  , "c1" : "00180"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#180"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00180] For method completeExceptionally arguments Map&lt;BrokerKey ,Throwable &gt;  errors"
+ , "c3" : "QC-JAV000006[00180] For method completeExceptionally arguments Map&lt;BrokerKey,Throwable&gt;  errors"
 }} 
 ,
 { "ligne" : {"" : ""

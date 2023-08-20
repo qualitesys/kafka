@@ -359,14 +359,14 @@ var maDataBlocs = {
  , "c1" : "00142"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#142"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00142] For method forConsumer arguments short  maxVersion|int  maxWait|int  minBytes|Map&lt;TopicPartition ,PartitionData &gt;  fetchData"
+ , "c3" : "QC-JAV000006[00142] For method forConsumer arguments short  maxVersion|int  maxWait|int  minBytes|Map&lt;TopicPartition,PartitionData&gt;  fetchData"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#147"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00147] For method forReplica arguments short  allowedVersion|int  replicaId|int  maxWait|int  minBytes|Map&lt;TopicPartition ,PartitionData &gt;  fetchData"
+ , "c3" : "QC-JAV000006[00147] For method forReplica arguments short  allowedVersion|int  replicaId|int  maxWait|int  minBytes|Map&lt;TopicPartition,PartitionData&gt;  fetchData"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -401,21 +401,21 @@ var maDataBlocs = {
  , "c1" : "00189"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#189"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00189] For method removed arguments List&lt;TopicIdPartition &gt;  removed"
+ , "c3" : "QC-JAV000006[00189] For method removed arguments List&lt;TopicIdPartition&gt;  removed"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00198"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#198"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00198] For method replaced arguments List&lt;TopicIdPartition &gt;  replaced"
+ , "c3" : "QC-JAV000006[00198] For method replaced arguments List&lt;TopicIdPartition&gt;  replaced"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00203"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#203"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00203] For method addToForgottenTopicMap arguments List&lt;TopicIdPartition &gt;  toForget|Map&lt;String ,FetchRequestData.ForgottenTopic &gt;  forgottenTopicMap"
+ , "c3" : "QC-JAV000006[00203] For method addToForgottenTopicMap arguments List&lt;TopicIdPartition&gt;  toForget|Map&lt;String,FetchRequestData.ForgottenTopic&gt;  forgottenTopicMap"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -625,7 +625,7 @@ var maDataBlocs = {
  , "c1" : "00350"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#350"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00350] For method fetchData arguments Map&lt;Uuid ,String &gt;  topicNames"
+ , "c3" : "QC-JAV000006[00350] For method fetchData arguments Map&lt;Uuid,String&gt;  topicNames"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -667,7 +667,7 @@ var maDataBlocs = {
  , "c1" : "00388"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchRequest.java.html#388"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00388] For method forgottenTopics arguments Map&lt;Uuid ,String &gt;  topicNames"
+ , "c3" : "QC-JAV000006[00388] For method forgottenTopics arguments Map&lt;Uuid,String&gt;  topicNames"
 }} 
 ,
 { "ligne" : {"" : ""

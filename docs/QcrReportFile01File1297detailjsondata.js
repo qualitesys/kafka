@@ -208,7 +208,7 @@ var maDataBlocs = {
  , "c1" : "00080"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method createAcls arguments List&lt;AclBinding &gt;  acls"
+ , "c3" : "QC-JAV000006[00080] For method createAcls arguments List&lt;AclBinding&gt;  acls"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -341,7 +341,7 @@ var maDataBlocs = {
  , "c1" : "00146"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#146"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00146] For method deleteAcls arguments List&lt;AclBindingFilter &gt;  filters"
+ , "c3" : "QC-JAV000006[00146] For method deleteAcls arguments List&lt;AclBindingFilter&gt;  filters"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -362,7 +362,7 @@ var maDataBlocs = {
  , "c1" : "00161"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#161"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00161] For method deleteAclsForFilter arguments AclBindingFilter  filter|Set&lt;ApiMessageAndVersion &gt;  records"
+ , "c3" : "QC-JAV000006[00161] For method deleteAclsForFilter arguments AclBindingFilter  filter|Set&lt;ApiMessageAndVersion&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -446,7 +446,7 @@ var maDataBlocs = {
  , "c1" : "00186"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#186"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00186] For method replay arguments AccessControlEntryRecord  record|Optional&lt;OffsetAndEpoch &gt;  snapshotId"
+ , "c3" : "QC-JAV000006[00186] For method replay arguments AccessControlEntryRecord  record|Optional&lt;OffsetAndEpoch&gt;  snapshotId"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -467,7 +467,7 @@ var maDataBlocs = {
  , "c1" : "00198"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#198"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00198] For method replay arguments RemoveAccessControlEntryRecord  record|Optional&lt;OffsetAndEpoch &gt;  snapshotId"
+ , "c3" : "QC-JAV000006[00198] For method replay arguments RemoveAccessControlEntryRecord  record|Optional&lt;OffsetAndEpoch&gt;  snapshotId"
 }} 
 ,
 { "ligne" : {"" : ""

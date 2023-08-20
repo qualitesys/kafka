@@ -226,7 +226,7 @@ var maDataBlocs = {
  , "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method create arguments Collection&lt;ApiVersion &gt;  overrides"
+ , "c3" : "QC-JAV000006[00067] For method create arguments Collection&lt;ApiVersion&gt;  overrides"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -975,7 +975,7 @@ var maDataBlocs = {
  , "c1" : "00349"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#349"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00349] For method createTopicsResultTest arguments Admin  client|Collection&lt;String &gt;  topics"
+ , "c3" : "QC-JAV000006[00349] For method createTopicsResultTest arguments Admin  client|Collection&lt;String&gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1010,7 +1010,7 @@ var maDataBlocs = {
  , "c1" : "00363"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ClientCompatibilityTest.java.html#363"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00363] For method topicExists arguments Collection&lt;TopicListing &gt;  listings|String  topicName"
+ , "c3" : "QC-JAV000006[00363] For method topicExists arguments Collection&lt;TopicListing&gt;  listings|String  topicName"
 }} 
 ,
 { "ligne" : {"" : ""

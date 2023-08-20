@@ -182,7 +182,7 @@ var maDataBlocs = {
  , "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00068] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00068] For method configure arguments Map&lt;String,?&gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -259,7 +259,7 @@ var maDataBlocs = {
  , "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#93"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00093] For method serializeNullIndexList arguments DataOutputStream  out|List&lt;Inner &gt;  data"
+ , "c3" : "QC-JAV000006[00093] For method serializeNullIndexList arguments DataOutputStream  out|List&lt;Inner&gt;  data"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -294,7 +294,7 @@ var maDataBlocs = {
  , "c1" : "00108"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ListSerializer.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00108] For method serialize arguments String  topic|List&lt;Inner &gt;  data"
+ , "c3" : "QC-JAV000006[00108] For method serialize arguments String  topic|List&lt;Inner&gt;  data"
 }} 
 ,
 { "ligne" : {"" : ""

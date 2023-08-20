@@ -337,21 +337,21 @@ var maDataBlocs = {
  , "c1" : "00213"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#213"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00213] For method withKeySerde arguments Serde&lt;K &gt;  keySerde"
+ , "c3" : "QC-JAV000006[00213] For method withKeySerde arguments Serde&lt;K&gt;  keySerde"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00232"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#232"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00232] For method withValueSerde arguments Serde&lt;V1 &gt;  valueSerde"
+ , "c3" : "QC-JAV000006[00232] For method withValueSerde arguments Serde&lt;V1&gt;  valueSerde"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00251"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#251"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00251] For method withOtherValueSerde arguments Serde&lt;V2 &gt;  otherValueSerde"
+ , "c3" : "QC-JAV000006[00251] For method withOtherValueSerde arguments Serde&lt;V2&gt;  otherValueSerde"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -372,7 +372,7 @@ var maDataBlocs = {
  , "c1" : "00316"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/StreamJoined.java.html#316"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00316] For method withLoggingEnabled arguments Map&lt;String ,String &gt;  config"
+ , "c3" : "QC-JAV000006[00316] For method withLoggingEnabled arguments Map&lt;String,String&gt;  config"
 }} 
 ,
 { "ligne" : {"" : ""

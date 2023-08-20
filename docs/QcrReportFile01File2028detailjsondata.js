@@ -175,7 +175,7 @@ var maDataBlocs = {
  , "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractStoreBuilder.java.html#62"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00062] For method withLoggingEnabled arguments Map&lt;String ,String &gt;  config"
+ , "c3" : "QC-JAV000006[00062] For method withLoggingEnabled arguments Map&lt;String,String&gt;  config"
 }} 
 ,
 { "ligne" : {"" : ""

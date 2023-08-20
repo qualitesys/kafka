@@ -345,7 +345,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method configureConnector arguments SourceAndTarget  sourceAndTarget|Class&lt;? &gt;  connectorClass"
+ , "c3" : "QC-JAV000006[00001] For method configureConnector arguments SourceAndTarget  sourceAndTarget|Class&lt;?&gt;  connectorClass"
 }} 
 ,
 { "ligne" : {"" : ""

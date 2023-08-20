@@ -403,7 +403,7 @@ var maDataBlocs = {
  , "c1" : "00166"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java.html#166"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00166] For method generateRandomPayload arguments Integer  recordSize|List&lt;byte[] &gt;  payloadByteList|byte[]  payload|Random  random"
+ , "c3" : "QC-JAV000006[00166] For method generateRandomPayload arguments Integer  recordSize|List&lt;byte[]&gt;  payloadByteList|byte[]  payload|Random  random"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -459,7 +459,7 @@ var maDataBlocs = {
  , "c1" : "00179"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ProducerPerformance.java.html#179"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00179] For method readProps arguments List&lt;String &gt;  producerProps|String  producerConfig|String  transactionalId|boolean  transactionsEnabled"
+ , "c3" : "QC-JAV000006[00179] For method readProps arguments List&lt;String&gt;  producerProps|String  producerConfig|String  transactionalId|boolean  transactionsEnabled"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -196,7 +196,7 @@ var maDataBlocs = {
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#58"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00058] For method buildRequest arguments Set&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00058] For method buildRequest arguments Set&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -217,7 +217,7 @@ var maDataBlocs = {
  , "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method handleTopicError arguments String  topic|Errors  topicError|Set&lt;TopicPartition &gt;  requestPartitions|Map&lt;TopicPartition ,Throwable &gt;  failed"
+ , "c3" : "QC-JAV000006[00067] For method handleTopicError arguments String  topic|Errors  topicError|Set&lt;TopicPartition&gt;  requestPartitions|Map&lt;TopicPartition,Throwable&gt;  failed"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -322,7 +322,7 @@ var maDataBlocs = {
  , "c1" : "00105"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#105"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00105] For method failAllPartitionsForTopic arguments String  topic|Set&lt;TopicPartition &gt;  partitions|Map&lt;TopicPartition ,Throwable &gt;  failed|Function&lt;TopicPartition ,Throwable &gt;  exceptionGenerator"
+ , "c3" : "QC-JAV000006[00105] For method failAllPartitionsForTopic arguments String  topic|Set&lt;TopicPartition&gt;  partitions|Map&lt;TopicPartition,Throwable&gt;  failed|Function&lt;TopicPartition,Throwable&gt;  exceptionGenerator"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -350,7 +350,7 @@ var maDataBlocs = {
  , "c1" : "00116"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#116"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00116] For method handlePartitionError arguments TopicPartition  topicPartition|Errors  partitionError|Map&lt;TopicPartition ,Throwable &gt;  failed"
+ , "c3" : "QC-JAV000006[00116] For method handlePartitionError arguments TopicPartition  topicPartition|Errors  partitionError|Map&lt;TopicPartition,Throwable&gt;  failed"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -399,7 +399,7 @@ var maDataBlocs = {
  , "c1" : "00140"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#140"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00140] For method handleResponse arguments Set&lt;TopicPartition &gt;  requestPartitions|AbstractResponse  abstractResponse"
+ , "c3" : "QC-JAV000006[00140] For method handleResponse arguments Set&lt;TopicPartition&gt;  requestPartitions|AbstractResponse  abstractResponse"
 }} 
 ,
 { "ligne" : {"" : ""

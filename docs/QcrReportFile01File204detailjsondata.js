@@ -150,7 +150,7 @@ var maDataBlocs = {
  , "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerMetadata.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00063] For method addTransientTopics arguments Set&lt;String &gt;  topics"
+ , "c3" : "QC-JAV000006[00063] For method addTransientTopics arguments Set&lt;String&gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""

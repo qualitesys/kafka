@@ -228,7 +228,7 @@ var maDataBlocs = {
  , "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00069] For method buildRequest arguments Set&lt;CoordinatorKey &gt;  keys"
+ , "c3" : "QC-JAV000006[00069] For method buildRequest arguments Set&lt;CoordinatorKey&gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -263,7 +263,7 @@ var maDataBlocs = {
  , "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#89"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00089] For method handleResponse arguments Set&lt;CoordinatorKey &gt;  keys|AbstractResponse  abstractResponse"
+ , "c3" : "QC-JAV000006[00089] For method handleResponse arguments Set&lt;CoordinatorKey&gt;  keys|AbstractResponse  abstractResponse"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -312,7 +312,7 @@ var maDataBlocs = {
  , "c1" : "00123"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#123"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00123] For method requireSingletonAndType arguments Set&lt;CoordinatorKey &gt;  keys"
+ , "c3" : "QC-JAV000006[00123] For method requireSingletonAndType arguments Set&lt;CoordinatorKey&gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -354,7 +354,7 @@ var maDataBlocs = {
  , "c1" : "00134"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#134"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00134] For method ensureSameType arguments Set&lt;CoordinatorKey &gt;  keys"
+ , "c3" : "QC-JAV000006[00134] For method ensureSameType arguments Set&lt;CoordinatorKey&gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -410,7 +410,7 @@ var maDataBlocs = {
  , "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/CoordinatorStrategy.java.html#147"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00147] For method handleError arguments Errors  error|CoordinatorKey  key|int  nodeId|Map&lt;CoordinatorKey ,Integer &gt;  mappedKeys|Map&lt;CoordinatorKey ,Throwable &gt;  failedKeys"
+ , "c3" : "QC-JAV000006[00147] For method handleError arguments Errors  error|CoordinatorKey  key|int  nodeId|Map&lt;CoordinatorKey,Integer&gt;  mappedKeys|Map&lt;CoordinatorKey,Throwable&gt;  failedKeys"
 }} 
 ,
 { "ligne" : {"" : ""

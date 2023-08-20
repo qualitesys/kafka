@@ -693,7 +693,7 @@ var maDataBlocs = {
  , "c1" : "00317"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConnector.java.html#317"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00317] For method transitionTo arguments TargetState  targetState|Callback&lt;TargetState &gt;  stateChangeCallback"
+ , "c3" : "QC-JAV000006[00317] For method transitionTo arguments TargetState  targetState|Callback&lt;TargetState&gt;  stateChangeCallback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -756,7 +756,7 @@ var maDataBlocs = {
  , "c1" : "00337"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConnector.java.html#337"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00337] For method doTransitionTo arguments TargetState  targetState|Callback&lt;TargetState &gt;  stateChangeCallback"
+ , "c3" : "QC-JAV000006[00337] For method doTransitionTo arguments TargetState  targetState|Callback&lt;TargetState&gt;  stateChangeCallback"
 }} 
 ,
 { "ligne" : {"" : ""

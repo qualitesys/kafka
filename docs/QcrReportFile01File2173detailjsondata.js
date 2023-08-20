@@ -826,7 +826,7 @@ var maDataBlocs = {
  , "c1" : "00221"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#221"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00221] For method producerRecordFromConsumerRecord arguments String  topic|ConsumerRecord&lt;String ,String &gt;  record"
+ , "c3" : "QC-JAV000006[00221] For method producerRecordFromConsumerRecord arguments String  topic|ConsumerRecord&lt;String,String&gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -840,7 +840,7 @@ var maDataBlocs = {
  , "c1" : "00225"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#225"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00225] For method consumerPositions arguments KafkaConsumer&lt;String ,String &gt;  consumer"
+ , "c3" : "QC-JAV000006[00225] For method consumerPositions arguments KafkaConsumer&lt;String,String&gt;  consumer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -861,7 +861,7 @@ var maDataBlocs = {
  , "c1" : "00233"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#233"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00233] For method resetToLastCommittedPositions arguments KafkaConsumer&lt;String ,String &gt;  consumer"
+ , "c3" : "QC-JAV000006[00233] For method resetToLastCommittedPositions arguments KafkaConsumer&lt;String,String&gt;  consumer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -882,7 +882,7 @@ var maDataBlocs = {
  , "c1" : "00244"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#244"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00244] For method messagesRemaining arguments KafkaConsumer&lt;String ,String &gt;  consumer|TopicPartition  partition"
+ , "c3" : "QC-JAV000006[00244] For method messagesRemaining arguments KafkaConsumer&lt;String,String&gt;  consumer|TopicPartition  partition"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -903,7 +903,7 @@ var maDataBlocs = {
  , "c1" : "00253"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#253"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00253] For method toJsonString arguments Map&lt;String ,Object &gt;  data"
+ , "c3" : "QC-JAV000006[00253] For method toJsonString arguments Map&lt;String,Object&gt;  data"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -973,7 +973,7 @@ var maDataBlocs = {
  , "c1" : "00281"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/TransactionalMessageCopier.java.html#281"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00281] For method abortTransactionAndResetPosition arguments KafkaProducer&lt;String ,String &gt;  producer|KafkaConsumer&lt;String ,String &gt;  consumer"
+ , "c3" : "QC-JAV000006[00281] For method abortTransactionAndResetPosition arguments KafkaProducer&lt;String,String&gt;  producer|KafkaConsumer&lt;String,String&gt;  consumer"
 }} 
 ,
 { "ligne" : {"" : ""

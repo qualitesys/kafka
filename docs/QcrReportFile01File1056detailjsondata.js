@@ -230,7 +230,7 @@ var maDataBlocs = {
  , "c1" : "00073"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#73"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00073] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00073] For method configure arguments Map&lt;String,?&gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -244,7 +244,7 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/NumberConverter.java.html#82"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00082] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00082] For method configure arguments Map&lt;String,?&gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""

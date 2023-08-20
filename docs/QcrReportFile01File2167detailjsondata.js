@@ -209,7 +209,7 @@ var maDataBlocs = {
  , "c1" : "00256"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#256"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00256] For method addArgument arguments String  option|String  help|Class&lt;? &gt;  clazz"
+ , "c3" : "QC-JAV000006[00256] For method addArgument arguments String  option|String  help|Class&lt;?&gt;  clazz"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -223,7 +223,7 @@ var maDataBlocs = {
  , "c1" : "00337"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#337"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00337] For method maybeAddInt arguments Map&lt;String ,Object &gt;  m|String  option"
+ , "c3" : "QC-JAV000006[00337] For method maybeAddInt arguments Map&lt;String,Object&gt;  m|String  option"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -237,7 +237,7 @@ var maDataBlocs = {
  , "c1" : "00344"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#344"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00344] For method maybeAddLong arguments Map&lt;String ,Object &gt;  m|String  option"
+ , "c3" : "QC-JAV000006[00344] For method maybeAddLong arguments Map&lt;String,Object&gt;  m|String  option"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -251,7 +251,7 @@ var maDataBlocs = {
  , "c1" : "00351"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#351"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00351] For method maybeAddString arguments Map&lt;String ,Object &gt;  m|String  option"
+ , "c3" : "QC-JAV000006[00351] For method maybeAddString arguments Map&lt;String,Object&gt;  m|String  option"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -265,7 +265,7 @@ var maDataBlocs = {
  , "c1" : "00358"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#358"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00358] For method maybeAddPassword arguments Map&lt;String ,Object &gt;  m|String  option"
+ , "c3" : "QC-JAV000006[00358] For method maybeAddPassword arguments Map&lt;String,Object&gt;  m|String  option"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -279,7 +279,7 @@ var maDataBlocs = {
  , "c1" : "00365"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#365"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00365] For method maybeAddClass arguments Map&lt;String ,Object &gt;  m|String  option"
+ , "c3" : "QC-JAV000006[00365] For method maybeAddClass arguments Map&lt;String,Object&gt;  m|String  option"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -300,7 +300,7 @@ var maDataBlocs = {
  , "c1" : "00377"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/OAuthCompatibilityTool.java.html#377"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00377] For method maybeAddStringList arguments Map&lt;String ,Object &gt;  m|String  option"
+ , "c3" : "QC-JAV000006[00377] For method maybeAddStringList arguments Map&lt;String,Object&gt;  m|String  option"
 }} 
 ,
 { "ligne" : {"" : ""

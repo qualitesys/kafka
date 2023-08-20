@@ -804,7 +804,7 @@ var maDataBlocs = {
  , "c1" : "00312"
  , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#312"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00312] For method maybeResetInputAndSeekToEndIntermediateTopicOffsets arguments Map&lt;Object ,Object &gt;  consumerConfig|boolean  dryRun"
+ , "c3" : "QC-JAV000006[00312] For method maybeResetInputAndSeekToEndIntermediateTopicOffsets arguments Map&lt;Object,Object&gt;  consumerConfig|boolean  dryRun"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -923,7 +923,7 @@ var maDataBlocs = {
  , "c1" : "00423"
  , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#423"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00423] For method maybeSeekToEnd arguments String  groupId|Consumer&lt;byte[] ,byte[] &gt;  client|Set&lt;TopicPartition &gt;  intermediateTopicPartitions"
+ , "c3" : "QC-JAV000006[00423] For method maybeSeekToEnd arguments String  groupId|Consumer&lt;byte[],byte[]&gt;  client|Set&lt;TopicPartition&gt;  intermediateTopicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -972,7 +972,7 @@ var maDataBlocs = {
  , "c1" : "00437"
  , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#437"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00437] For method maybeReset arguments String  groupId|Consumer&lt;byte[] ,byte[] &gt;  client|Set&lt;TopicPartition &gt;  inputTopicPartitions"
+ , "c3" : "QC-JAV000006[00437] For method maybeReset arguments String  groupId|Consumer&lt;byte[],byte[]&gt;  client|Set&lt;TopicPartition&gt;  inputTopicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1035,7 +1035,7 @@ var maDataBlocs = {
  , "c1" : "00475"
  , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#475"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00475] For method resetOffsetsFromResetPlan arguments Consumer&lt;byte[] ,byte[] &gt;  client|Set&lt;TopicPartition &gt;  inputTopicPartitions|Map&lt;TopicPartition ,Long &gt;  topicPartitionsAndOffset"
+ , "c3" : "QC-JAV000006[00475] For method resetOffsetsFromResetPlan arguments Consumer&lt;byte[],byte[]&gt;  client|Set&lt;TopicPartition&gt;  inputTopicPartitions|Map&lt;TopicPartition,Long&gt;  topicPartitionsAndOffset"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1056,14 +1056,14 @@ var maDataBlocs = {
  , "c1" : "00496"
  , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#496"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00496] For method resetByDuration arguments Consumer&lt;byte[] ,byte[] &gt;  client|Set&lt;TopicPartition &gt;  inputTopicPartitions|Duration  duration"
+ , "c3" : "QC-JAV000006[00496] For method resetByDuration arguments Consumer&lt;byte[],byte[]&gt;  client|Set&lt;TopicPartition&gt;  inputTopicPartitions|Duration  duration"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00503"
  , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#503"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00503] For method resetToDatetime arguments Consumer&lt;byte[] ,byte[] &gt;  client|Set&lt;TopicPartition &gt;  inputTopicPartitions|Long  timestamp"
+ , "c3" : "QC-JAV000006[00503] For method resetToDatetime arguments Consumer&lt;byte[],byte[]&gt;  client|Set&lt;TopicPartition&gt;  inputTopicPartitions|Long  timestamp"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1112,7 +1112,7 @@ var maDataBlocs = {
  , "c1" : "00528"
  , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#528"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00528] For method shiftOffsetsBy arguments Consumer&lt;byte[] ,byte[] &gt;  client|Set&lt;TopicPartition &gt;  inputTopicPartitions|long  shiftBy"
+ , "c3" : "QC-JAV000006[00528] For method shiftOffsetsBy arguments Consumer&lt;byte[],byte[]&gt;  client|Set&lt;TopicPartition&gt;  inputTopicPartitions|long  shiftBy"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1133,7 +1133,7 @@ var maDataBlocs = {
  , "c1" : "00550"
  , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#550"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00550] For method resetOffsetsTo arguments Consumer&lt;byte[] ,byte[] &gt;  client|Set&lt;TopicPartition &gt;  inputTopicPartitions|Long  offset"
+ , "c3" : "QC-JAV000006[00550] For method resetOffsetsTo arguments Consumer&lt;byte[],byte[]&gt;  client|Set&lt;TopicPartition&gt;  inputTopicPartitions|Long  offset"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1259,7 +1259,7 @@ var maDataBlocs = {
  , "c1" : "00593"
  , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#593"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00593] For method checkOffsetRange arguments Map&lt;TopicPartition ,Long &gt;  inputTopicPartitionsAndOffset|Map&lt;TopicPartition ,Long &gt;  beginningOffsets|Map&lt;TopicPartition ,Long &gt;  endOffsets"
+ , "c3" : "QC-JAV000006[00593] For method checkOffsetRange arguments Map&lt;TopicPartition,Long&gt;  inputTopicPartitionsAndOffset|Map&lt;TopicPartition,Long&gt;  beginningOffsets|Map&lt;TopicPartition,Long&gt;  endOffsets"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1392,7 +1392,7 @@ var maDataBlocs = {
  , "c1" : "00656"
  , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#656"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00656] For method doDelete arguments List&lt;String &gt;  topicsToDelete|Admin  adminClient"
+ , "c3" : "QC-JAV000006[00656] For method doDelete arguments List&lt;String&gt;  topicsToDelete|Admin  adminClient"
 }} 
 ,
 { "ligne" : {"" : ""

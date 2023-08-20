@@ -335,7 +335,7 @@ var maDataBlocs = {
  , "c1" : "00174"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#174"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00174] For method create arguments Path  logDir|OffsetAndEpoch  snapshotId|Optional&lt;ReplicatedLog &gt;  replicatedLog"
+ , "c3" : "QC-JAV000006[00174] For method create arguments Path  logDir|OffsetAndEpoch  snapshotId|Optional&lt;ReplicatedLog&gt;  replicatedLog"
 }} 
 ,
 { "ligne" : {"" : ""

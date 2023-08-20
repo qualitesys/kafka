@@ -194,7 +194,7 @@ var maDataBlocs = {
  , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method supportedFeatures arguments Map&lt;String ,SupportedVersionRange &gt;  features"
+ , "c3" : "QC-JAV000006[00055] For method supportedFeatures arguments Map&lt;String,SupportedVersionRange&gt;  features"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -243,7 +243,7 @@ var maDataBlocs = {
  , "c1" : "00134"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#134"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00134] For method fromSupportedFeaturesMap arguments Map&lt;String ,Map&lt;String ,Short &gt; &gt;  featuresMap"
+ , "c3" : "QC-JAV000006[00134] For method fromSupportedFeaturesMap arguments Map&lt;String,Map&lt;String,Short&gt;&gt;  featuresMap"
 }} 
 ,
 { "ligne" : {"" : ""

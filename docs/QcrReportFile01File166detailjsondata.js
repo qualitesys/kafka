@@ -214,14 +214,14 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method newFuture arguments Collection&lt;String &gt;  transactionalIds"
+ , "c3" : "QC-JAV000006[00057] For method newFuture arguments Collection&lt;String&gt;  transactionalIds"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00063] For method buildKeySet arguments Collection&lt;String &gt;  transactionalIds"
+ , "c3" : "QC-JAV000006[00063] For method buildKeySet arguments Collection&lt;String&gt;  transactionalIds"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -242,7 +242,7 @@ var maDataBlocs = {
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method buildBatchedRequest arguments int  brokerId|Set&lt;CoordinatorKey &gt;  keys"
+ , "c3" : "QC-JAV000006[00080] For method buildBatchedRequest arguments int  brokerId|Set&lt;CoordinatorKey&gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -270,7 +270,7 @@ var maDataBlocs = {
  , "c1" : "00097"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00097] For method handleResponse arguments Node  broker|Set&lt;CoordinatorKey &gt;  keys|AbstractResponse  abstractResponse"
+ , "c3" : "QC-JAV000006[00097] For method handleResponse arguments Node  broker|Set&lt;CoordinatorKey&gt;  keys|AbstractResponse  abstractResponse"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -361,7 +361,7 @@ var maDataBlocs = {
  , "c1" : "00153"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DescribeTransactionsHandler.java.html#153"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00153] For method handleError arguments CoordinatorKey  transactionalIdKey|Errors  error|Map&lt;CoordinatorKey ,Throwable &gt;  failed|List&lt;CoordinatorKey &gt;  unmapped"
+ , "c3" : "QC-JAV000006[00153] For method handleError arguments CoordinatorKey  transactionalIdKey|Errors  error|Map&lt;CoordinatorKey,Throwable&gt;  failed|List&lt;CoordinatorKey&gt;  unmapped"
 }} 
 ,
 { "ligne" : {"" : ""

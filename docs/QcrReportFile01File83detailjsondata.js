@@ -165,7 +165,7 @@ var maDataBlocs = {
  , "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeLogDirsResult.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method convertMapValues arguments Map&lt;String ,LogDirDescription &gt;  map"
+ , "c3" : "QC-JAV000006[00060] For method convertMapValues arguments Map&lt;String,LogDirDescription&gt;  map"
 }} 
 ,
 { "ligne" : {"" : ""

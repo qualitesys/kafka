@@ -220,7 +220,7 @@ var maDataBlocs = {
  , "c1" : "00070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/EagerBufferConfigImpl.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method withLoggingEnabled arguments Map&lt;String ,String &gt;  config"
+ , "c3" : "QC-JAV000006[00070] For method withLoggingEnabled arguments Map&lt;String,String&gt;  config"
 }} 
 ,
 { "ligne" : {"" : ""

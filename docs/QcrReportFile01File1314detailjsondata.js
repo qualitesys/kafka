@@ -294,7 +294,7 @@ var maDataBlocs = {
  , "c1" : "00126"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#126"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00126] For method updateFeatures arguments Map&lt;String ,Short &gt;  updates|Map&lt;String ,FeatureUpdate.UpgradeType &gt;  upgradeTypes|Map&lt;Integer ,Map&lt;String ,VersionRange &gt; &gt;  brokerFeatures|boolean  validateOnly"
+ , "c3" : "QC-JAV000006[00126] For method updateFeatures arguments Map&lt;String,Short&gt;  updates|Map&lt;String,FeatureUpdate.UpgradeType&gt;  upgradeTypes|Map&lt;Integer,Map&lt;String,VersionRange&gt;&gt;  brokerFeatures|boolean  validateOnly"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -315,7 +315,7 @@ var maDataBlocs = {
  , "c1" : "00150"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00150] For method updateFeature arguments String  featureName|short  newVersion|FeatureUpdate.UpgradeType  upgradeType|Map&lt;Integer ,Map&lt;String ,VersionRange &gt; &gt;  brokersAndFeatures|List&lt;ApiMessageAndVersion &gt;  records"
+ , "c3" : "QC-JAV000006[00150] For method updateFeature arguments String  featureName|short  newVersion|FeatureUpdate.UpgradeType  upgradeType|Map&lt;Integer,Map&lt;String,VersionRange&gt;&gt;  brokersAndFeatures|List&lt;ApiMessageAndVersion&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -483,7 +483,7 @@ var maDataBlocs = {
  , "c1" : "00221"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#221"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00221] For method updateMetadataVersion arguments short  newVersionLevel|boolean  allowUnsafeDowngrade|Consumer&lt;ApiMessageAndVersion &gt;  recordConsumer"
+ , "c3" : "QC-JAV000006[00221] For method updateMetadataVersion arguments short  newVersionLevel|boolean  allowUnsafeDowngrade|Consumer&lt;ApiMessageAndVersion&gt;  recordConsumer"
 }} 
 ,
 { "ligne" : {"" : ""

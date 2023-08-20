@@ -193,7 +193,7 @@ var maDataBlocs = {
  , "c1" : "00083"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ProduceResponse.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00083] For method toData arguments Map&lt;TopicPartition ,PartitionResponse &gt;  responses|int  throttleTimeMs"
+ , "c3" : "QC-JAV000006[00083] For method toData arguments Map&lt;TopicPartition,PartitionResponse&gt;  responses|int  throttleTimeMs"
 }} 
 ,
 { "ligne" : {"" : ""

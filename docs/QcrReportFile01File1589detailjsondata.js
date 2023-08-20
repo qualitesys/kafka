@@ -1070,7 +1070,7 @@ var maDataBlocs = {
  , "c1" : "00518"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#518"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00518] For method wrappedExceptionIsIn arguments Throwable  throwable|Set&lt;Class&lt;?  extends Throwable &gt; &gt;  exceptionsOfInterest"
+ , "c3" : "QC-JAV000006[00518] For method wrappedExceptionIsIn arguments Throwable  throwable|Set&lt;Class&lt;?extendsThrowable&gt;&gt;  exceptionsOfInterest"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2540,7 +2540,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method processStreamThread arguments Consumer&lt;StreamThread &gt;  consumer"
+ , "c3" : "QC-JAV000006[00001] For method processStreamThread arguments Consumer&lt;StreamThread&gt;  consumer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2554,7 +2554,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method allLocalStorePartitionLags arguments List&lt;Task &gt;  tasksToCollectLagFor"
+ , "c3" : "QC-JAV000006[00001] For method allLocalStorePartitionLags arguments List&lt;Task&gt;  tasksToCollectLagFor"
 }} 
 ,
 { "ligne" : {"" : ""

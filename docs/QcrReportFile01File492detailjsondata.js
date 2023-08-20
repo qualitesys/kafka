@@ -251,7 +251,7 @@ var maDataBlocs = {
  , "c1" : "00098"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ChannelBuilders.java.html#98"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00098] For method serverChannelBuilder arguments ListenerName  listenerName|boolean  isInterBrokerListener|SecurityProtocol  securityProtocol|AbstractConfig  config|CredentialCache  credentialCache|DelegationTokenCache  tokenCache|Time  time|LogContext  logContext|Supplier&lt;ApiVersionsResponse &gt;  apiVersionSupplier"
+ , "c3" : "QC-JAV000006[00098] For method serverChannelBuilder arguments ListenerName  listenerName|boolean  isInterBrokerListener|SecurityProtocol  securityProtocol|AbstractConfig  config|CredentialCache  credentialCache|DelegationTokenCache  tokenCache|Time  time|LogContext  logContext|Supplier&lt;ApiVersionsResponse&gt;  apiVersionSupplier"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -272,7 +272,7 @@ var maDataBlocs = {
  , "c1" : "00112"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ChannelBuilders.java.html#112"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00112] For method create arguments SecurityProtocol  securityProtocol|Mode  mode|JaasContext.Type  contextType|AbstractConfig  config|ListenerName  listenerName|boolean  isInterBrokerListener|String  clientSaslMechanism|boolean  saslHandshakeRequestEnable|CredentialCache  credentialCache|DelegationTokenCache  tokenCache|Time  time|LogContext  logContext|Supplier&lt;ApiVersionsResponse &gt;  apiVersionSupplier"
+ , "c3" : "QC-JAV000006[00112] For method create arguments SecurityProtocol  securityProtocol|Mode  mode|JaasContext.Type  contextType|AbstractConfig  config|ListenerName  listenerName|boolean  isInterBrokerListener|String  clientSaslMechanism|boolean  saslHandshakeRequestEnable|CredentialCache  credentialCache|DelegationTokenCache  tokenCache|Time  time|LogContext  logContext|Supplier&lt;ApiVersionsResponse&gt;  apiVersionSupplier"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -454,7 +454,7 @@ var maDataBlocs = {
  , "c1" : "00223"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ChannelBuilders.java.html#223"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00223] For method createPrincipalBuilder arguments Map&lt;String ,? &gt;  configs|KerberosShortNamer  kerberosShortNamer|SslPrincipalMapper  sslPrincipalMapper"
+ , "c3" : "QC-JAV000006[00223] For method createPrincipalBuilder arguments Map&lt;String,?&gt;  configs|KerberosShortNamer  kerberosShortNamer|SslPrincipalMapper  sslPrincipalMapper"
 }} 
 ,
 { "ligne" : {"" : ""

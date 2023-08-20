@@ -663,7 +663,7 @@ var maDataBlocs = {
  , "c1" : "00202"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#202"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00202] For method setRaftClient arguments RaftClient&lt;ApiMessageAndVersion &gt;  logManager"
+ , "c3" : "QC-JAV000006[00202] For method setRaftClient arguments RaftClient&lt;ApiMessageAndVersion&gt;  logManager"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -740,14 +740,14 @@ var maDataBlocs = {
  , "c1" : "00257"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#257"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00257] For method setCreateTopicPolicy arguments Optional&lt;CreateTopicPolicy &gt;  createTopicPolicy"
+ , "c3" : "QC-JAV000006[00257] For method setCreateTopicPolicy arguments Optional&lt;CreateTopicPolicy&gt;  createTopicPolicy"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00262"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#262"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00262] For method setAlterConfigPolicy arguments Optional&lt;AlterConfigPolicy &gt;  alterConfigPolicy"
+ , "c3" : "QC-JAV000006[00262] For method setAlterConfigPolicy arguments Optional&lt;AlterConfigPolicy&gt;  alterConfigPolicy"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -768,7 +768,7 @@ var maDataBlocs = {
  , "c1" : "00277"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#277"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00277] For method setStaticConfig arguments Map&lt;String ,Object &gt;  staticConfig"
+ , "c3" : "QC-JAV000006[00277] For method setStaticConfig arguments Map&lt;String,Object&gt;  staticConfig"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1517,7 +1517,7 @@ var maDataBlocs = {
  , "c1" : "00806"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#806"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00806] For method handleCommit arguments BatchReader&lt;ApiMessageAndVersion &gt;  reader"
+ , "c3" : "QC-JAV000006[00806] For method handleCommit arguments BatchReader&lt;ApiMessageAndVersion&gt;  reader"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1594,7 +1594,7 @@ var maDataBlocs = {
  , "c1" : "00861"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#861"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00861] For method handleSnapshot arguments SnapshotReader&lt;ApiMessageAndVersion &gt;  reader"
+ , "c3" : "QC-JAV000006[00861] For method handleSnapshot arguments SnapshotReader&lt;ApiMessageAndVersion&gt;  reader"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2105,7 +2105,7 @@ var maDataBlocs = {
  , "c1" : "01249"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1249"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01249] For method replay arguments ApiMessage  message|Optional&lt;OffsetAndEpoch &gt;  snapshotId|long  offset"
+ , "c3" : "QC-JAV000006[01249] For method replay arguments ApiMessage  message|Optional&lt;OffsetAndEpoch&gt;  snapshotId|long  offset"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2273,7 +2273,7 @@ var maDataBlocs = {
  , "c1" : "01637"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1637"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01637] For method createTopics arguments ControllerRequestContext  context|CreateTopicsRequestData  request|Set&lt;String &gt;  describable"
+ , "c3" : "QC-JAV000006[01637] For method createTopics arguments ControllerRequestContext  context|CreateTopicsRequestData  request|Set&lt;String&gt;  describable"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2322,7 +2322,7 @@ var maDataBlocs = {
  , "c1" : "01658"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1658"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01658] For method findTopicIds arguments ControllerRequestContext  context|Collection&lt;String &gt;  names"
+ , "c3" : "QC-JAV000006[01658] For method findTopicIds arguments ControllerRequestContext  context|Collection&lt;String&gt;  names"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2371,7 +2371,7 @@ var maDataBlocs = {
  , "c1" : "01677"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1677"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01677] For method findTopicNames arguments ControllerRequestContext  context|Collection&lt;Uuid &gt;  ids"
+ , "c3" : "QC-JAV000006[01677] For method findTopicNames arguments ControllerRequestContext  context|Collection&lt;Uuid&gt;  ids"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2399,7 +2399,7 @@ var maDataBlocs = {
  , "c1" : "01688"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1688"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01688] For method deleteTopics arguments ControllerRequestContext  context|Collection&lt;Uuid &gt;  ids"
+ , "c3" : "QC-JAV000006[01688] For method deleteTopics arguments ControllerRequestContext  context|Collection&lt;Uuid&gt;  ids"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2427,7 +2427,7 @@ var maDataBlocs = {
  , "c1" : "01699"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1699"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01699] For method describeConfigs arguments ControllerRequestContext  context|Map&lt;ConfigResource ,Collection&lt;String &gt; &gt;  resources"
+ , "c3" : "QC-JAV000006[01699] For method describeConfigs arguments ControllerRequestContext  context|Map&lt;ConfigResource,Collection&lt;String&gt;&gt;  resources"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2511,7 +2511,7 @@ var maDataBlocs = {
  , "c1" : "01730"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1730"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01730] For method incrementalAlterConfigs arguments ControllerRequestContext  context|Map&lt;ConfigResource ,Map&lt;String ,Entry&lt;OpType ,String &gt; &gt; &gt;  configChanges|boolean  validateOnly"
+ , "c3" : "QC-JAV000006[01730] For method incrementalAlterConfigs arguments ControllerRequestContext  context|Map&lt;ConfigResource,Map&lt;String,Entry&lt;OpType,String&gt;&gt;&gt;  configChanges|boolean  validateOnly"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2630,7 +2630,7 @@ var maDataBlocs = {
  , "c1" : "01775"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1775"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01775] For method legacyAlterConfigs arguments ControllerRequestContext  context|Map&lt;ConfigResource ,Map&lt;String ,String &gt; &gt;  newConfigs|boolean  validateOnly"
+ , "c3" : "QC-JAV000006[01775] For method legacyAlterConfigs arguments ControllerRequestContext  context|Map&lt;ConfigResource,Map&lt;String,String&gt;&gt;  newConfigs|boolean  validateOnly"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2749,7 +2749,7 @@ var maDataBlocs = {
  , "c1" : "01837"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1837"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01837] For method alterClientQuotas arguments ControllerRequestContext  context|Collection&lt;ClientQuotaAlteration &gt;  quotaAlterations|boolean  validateOnly"
+ , "c3" : "QC-JAV000006[01837] For method alterClientQuotas arguments ControllerRequestContext  context|Collection&lt;ClientQuotaAlteration&gt;  quotaAlterations|boolean  validateOnly"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2840,7 +2840,7 @@ var maDataBlocs = {
  , "c1" : "01896"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1896"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01896] For method createPartitions arguments ControllerRequestContext  context|List&lt;CreatePartitionsTopic &gt;  topics|boolean  validateOnly"
+ , "c3" : "QC-JAV000006[01896] For method createPartitions arguments ControllerRequestContext  context|List&lt;CreatePartitionsTopic&gt;  topics|boolean  validateOnly"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2903,7 +2903,7 @@ var maDataBlocs = {
  , "c1" : "01934"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1934"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01934] For method createAcls arguments ControllerRequestContext  context|List&lt;AclBinding &gt;  aclBindings"
+ , "c3" : "QC-JAV000006[01934] For method createAcls arguments ControllerRequestContext  context|List&lt;AclBinding&gt;  aclBindings"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2924,7 +2924,7 @@ var maDataBlocs = {
  , "c1" : "01943"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1943"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01943] For method deleteAcls arguments ControllerRequestContext  context|List&lt;AclBindingFilter &gt;  filters"
+ , "c3" : "QC-JAV000006[01943] For method deleteAcls arguments ControllerRequestContext  context|List&lt;AclBindingFilter&gt;  filters"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -191,7 +191,7 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TimeWindowedDeserializer.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00057] For method configure arguments Map&lt;String,?&gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""

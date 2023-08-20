@@ -178,7 +178,7 @@ var maDataBlocs = {
  , "c1" : "00116"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/ConnectorPluginsResource.java.html#116"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00116] For method validateConfigs arguments String  pluginName|Map&lt;String ,String &gt;  connectorConfig"
+ , "c3" : "QC-JAV000006[00116] For method validateConfigs arguments String  pluginName|Map&lt;String,String&gt;  connectorConfig"
 }} 
 ,
 { "ligne" : {"" : ""

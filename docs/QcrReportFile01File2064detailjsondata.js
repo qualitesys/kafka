@@ -196,7 +196,7 @@ var maDataBlocs = {
  , "c1" : "00055"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueSegment.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method openDB arguments Map&lt;String ,Object &gt;  configs|File  stateDir"
+ , "c3" : "QC-JAV000006[00055] For method openDB arguments Map&lt;String,Object&gt;  configs|File  stateDir"
 }} 
 ,
 { "ligne" : {"" : ""

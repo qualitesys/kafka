@@ -375,7 +375,7 @@ var maDataBlocs = {
  , "c1" : "00144"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#144"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00144] For method prepareValueSerde arguments Serde&lt;V &gt;  valueSerde|SerdeGetter  getter"
+ , "c3" : "QC-JAV000006[00144] For method prepareValueSerde arguments Serde&lt;V&gt;  valueSerde|SerdeGetter  getter"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -417,7 +417,7 @@ var maDataBlocs = {
  , "c1" : "00176"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#176"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00176] For method setFlushListener arguments CacheFlushListener&lt;Windowed&lt;K &gt; ,V &gt;  listener|boolean  sendOldValues"
+ , "c3" : "QC-JAV000006[00176] For method setFlushListener arguments CacheFlushListener&lt;Windowed&lt;K&gt;,V&gt;  listener|boolean  sendOldValues"
 }} 
 ,
 { "ligne" : {"" : ""

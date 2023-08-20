@@ -266,7 +266,7 @@ var maDataBlocs = {
  , "c1" : "00065"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method setFlushListener arguments CacheFlushListener&lt;K ,V &gt;  listener|boolean  sendOldValues"
+ , "c3" : "QC-JAV000006[00065] For method setFlushListener arguments CacheFlushListener&lt;K,V&gt;  listener|boolean  sendOldValues"
 }} 
 ,
 { "ligne" : {"" : ""

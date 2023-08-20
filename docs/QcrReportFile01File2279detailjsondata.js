@@ -162,7 +162,7 @@ var maDataBlocs = {
  , "c1" : "00095"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionWorker.java.html#95"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00095] For method start arguments Platform  platform|WorkerStatusTracker  status|KafkaFutureImpl&lt;String &gt;  doneFuture"
+ , "c3" : "QC-JAV000006[00095] For method start arguments Platform  platform|WorkerStatusTracker  status|KafkaFutureImpl&lt;String&gt;  doneFuture"
 }} 
 ,
 { "ligne" : {"" : ""

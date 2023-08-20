@@ -214,14 +214,14 @@ var maDataBlocs = {
  , "c1" : "00128"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#128"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00128] For method withValueJoiner arguments ValueJoinerWithKey&lt;? super K ,? super V1 ,? super V2 ,?  extends VR &gt;  valueJoiner"
+ , "c3" : "QC-JAV000006[00128] For method withValueJoiner arguments ValueJoinerWithKey&lt;?superK,?superV1,?superV2,?extendsVR&gt;  valueJoiner"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#133"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00133] For method withJoinThisProcessorParameters arguments ProcessorParameters&lt;K ,V1 ,? ,? &gt;  joinThisProcessorParameters"
+ , "c3" : "QC-JAV000006[00133] For method withJoinThisProcessorParameters arguments ProcessorParameters&lt;K,V1,?,?&gt;  joinThisProcessorParameters"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -235,56 +235,56 @@ var maDataBlocs = {
  , "c1" : "00143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#143"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00143] For method withJoinOtherProcessorParameters arguments ProcessorParameters&lt;K ,V2 ,? ,? &gt;  joinOtherProcessParameters"
+ , "c3" : "QC-JAV000006[00143] For method withJoinOtherProcessorParameters arguments ProcessorParameters&lt;K,V2,?,?&gt;  joinOtherProcessParameters"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00148"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#148"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00148] For method withJoinMergeProcessorParameters arguments ProcessorParameters&lt;K ,VR ,? ,? &gt;  joinMergeProcessorParameters"
+ , "c3" : "QC-JAV000006[00148] For method withJoinMergeProcessorParameters arguments ProcessorParameters&lt;K,VR,?,?&gt;  joinMergeProcessorParameters"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00153"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#153"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00153] For method withThisWindowedStreamProcessorParameters arguments ProcessorParameters&lt;K ,V1 ,? ,? &gt;  thisWindowedStreamProcessorParameters"
+ , "c3" : "QC-JAV000006[00153] For method withThisWindowedStreamProcessorParameters arguments ProcessorParameters&lt;K,V1,?,?&gt;  thisWindowedStreamProcessorParameters"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00158"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#158"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00158] For method withOtherWindowedStreamProcessorParameters arguments ProcessorParameters&lt;K ,V2 ,? ,? &gt;  otherWindowedStreamProcessorParameters"
+ , "c3" : "QC-JAV000006[00158] For method withOtherWindowedStreamProcessorParameters arguments ProcessorParameters&lt;K,V2,?,?&gt;  otherWindowedStreamProcessorParameters"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00164"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#164"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00164] For method withThisWindowStoreBuilder arguments StoreBuilder&lt;WindowStore&lt;K ,V1 &gt; &gt;  thisWindowStoreBuilder"
+ , "c3" : "QC-JAV000006[00164] For method withThisWindowStoreBuilder arguments StoreBuilder&lt;WindowStore&lt;K,V1&gt;&gt;  thisWindowStoreBuilder"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00169"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#169"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00169] For method withOtherWindowStoreBuilder arguments StoreBuilder&lt;WindowStore&lt;K ,V2 &gt; &gt;  otherWindowStoreBuilder"
+ , "c3" : "QC-JAV000006[00169] For method withOtherWindowStoreBuilder arguments StoreBuilder&lt;WindowStore&lt;K,V2&gt;&gt;  otherWindowStoreBuilder"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00174"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#174"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00174] For method withOuterJoinWindowStoreBuilder arguments Optional&lt;StoreBuilder&lt;KeyValueStore&lt;TimestampedKeyAndJoinSide&lt;K &gt; ,LeftOrRightValue&lt;V1 ,V2 &gt; &gt; &gt; &gt;  outerJoinWindowStoreBuilder"
+ , "c3" : "QC-JAV000006[00174] For method withOuterJoinWindowStoreBuilder arguments Optional&lt;StoreBuilder&lt;KeyValueStore&lt;TimestampedKeyAndJoinSide&lt;K&gt;,LeftOrRightValue&lt;V1,V2&gt;&gt;&gt;&gt;  outerJoinWindowStoreBuilder"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00179"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#179"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00179] For method withJoined arguments Joined&lt;K ,V1 ,V2 &gt;  joined"
+ , "c3" : "QC-JAV000006[00179] For method withJoined arguments Joined&lt;K,V1,V2&gt;  joined"
 }} 
 ,
 { "ligne" : {"" : ""

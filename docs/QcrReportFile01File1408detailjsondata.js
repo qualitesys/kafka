@@ -608,7 +608,7 @@ var maDataBlocs = {
  , "c1" : "00272"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#272"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00272] For method transitionToResigned arguments List&lt;Integer &gt;  preferredSuccessors"
+ , "c3" : "QC-JAV000006[00272] For method transitionToResigned arguments List&lt;Integer&gt;  preferredSuccessors"
 }} 
 ,
 { "ligne" : {"" : ""

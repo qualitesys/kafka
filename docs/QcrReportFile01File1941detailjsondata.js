@@ -684,14 +684,14 @@ var maDataBlocs = {
  , "c1" : "00128"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#128"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00128] For method setMainConsumer arguments Consumer&lt;byte[] ,byte[] &gt;  mainConsumer"
+ , "c3" : "QC-JAV000006[00128] For method setMainConsumer arguments Consumer&lt;byte[],byte[]&gt;  mainConsumer"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00149"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#149"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00149] For method handleRebalanceStart arguments Set&lt;String &gt;  subscribedTopics"
+ , "c3" : "QC-JAV000006[00149] For method handleRebalanceStart arguments Set&lt;String&gt;  subscribedTopics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -712,7 +712,7 @@ var maDataBlocs = {
  , "c1" : "00170"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#170"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00170] For method handleCorruption arguments Set&lt;TaskId &gt;  corruptedTasks"
+ , "c3" : "QC-JAV000006[00170] For method handleCorruption arguments Set&lt;TaskId&gt;  corruptedTasks"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -775,7 +775,7 @@ var maDataBlocs = {
  , "c1" : "00212"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#212"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00212] For method closeDirtyAndRevive arguments Collection&lt;Task &gt;  taskWithChangelogs|boolean  markAsCorrupted"
+ , "c3" : "QC-JAV000006[00212] For method closeDirtyAndRevive arguments Collection&lt;Task&gt;  taskWithChangelogs|boolean  markAsCorrupted"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -866,7 +866,7 @@ var maDataBlocs = {
  , "c1" : "00271"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#271"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00271] For method handleAssignment arguments Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  activeTasks|Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  standbyTasks"
+ , "c3" : "QC-JAV000006[00271] For method handleAssignment arguments Map&lt;TaskId,Set&lt;TopicPartition&gt;&gt;  activeTasks|Map&lt;TaskId,Set&lt;TopicPartition&gt;&gt;  standbyTasks"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1006,7 +1006,7 @@ var maDataBlocs = {
  , "c1" : "00352"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#352"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00352] For method handleCloseAndRecycle arguments Set&lt;Task &gt;  tasksToRecycle|Set&lt;Task &gt;  tasksToCloseClean|Set&lt;Task &gt;  tasksToCloseDirty|Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  activeTasksToCreate|Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  standbyTasksToCreate|LinkedHashMap&lt;TaskId ,RuntimeException &gt;  taskCloseExceptions"
+ , "c3" : "QC-JAV000006[00352] For method handleCloseAndRecycle arguments Set&lt;Task&gt;  tasksToRecycle|Set&lt;Task&gt;  tasksToCloseClean|Set&lt;Task&gt;  tasksToCloseDirty|Map&lt;TaskId,Set&lt;TopicPartition&gt;&gt;  activeTasksToCreate|Map&lt;TaskId,Set&lt;TopicPartition&gt;&gt;  standbyTasksToCreate|LinkedHashMap&lt;TaskId,RuntimeException&gt;  taskCloseExceptions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1181,7 +1181,7 @@ var maDataBlocs = {
  , "c1" : "00448"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#448"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00448] For method tryToCompleteRestoration arguments long  now|java.util.function .Consumer&lt;Set&lt;TopicPartition &gt; &gt;  offsetResetter"
+ , "c3" : "QC-JAV000006[00448] For method tryToCompleteRestoration arguments long  now|java.util.function.Consumer&lt;Set&lt;TopicPartition&gt;&gt;  offsetResetter"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1265,7 +1265,7 @@ var maDataBlocs = {
  , "c1" : "00518"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#518"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00518] For method handleRevocation arguments Collection&lt;TopicPartition &gt;  revokedPartitions"
+ , "c3" : "QC-JAV000006[00518] For method handleRevocation arguments Collection&lt;TopicPartition&gt;  revokedPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1405,7 +1405,7 @@ var maDataBlocs = {
  , "c1" : "00622"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#622"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00622] For method prepareCommitAndAddOffsetsToMap arguments Set&lt;Task &gt;  tasksToPrepare|Map&lt;Task ,Map&lt;TopicPartition ,OffsetAndMetadata &gt; &gt;  consumedOffsetsPerTask"
+ , "c3" : "QC-JAV000006[00622] For method prepareCommitAndAddOffsetsToMap arguments Set&lt;Task&gt;  tasksToPrepare|Map&lt;Task,Map&lt;TopicPartition,OffsetAndMetadata&gt;&gt;  consumedOffsetsPerTask"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1566,7 +1566,7 @@ var maDataBlocs = {
  , "c1" : "00733"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#733"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00733] For method releaseLockedDirectoriesForTasks arguments Set&lt;TaskId &gt;  tasksToUnlock"
+ , "c3" : "QC-JAV000006[00733] For method releaseLockedDirectoriesForTasks arguments Set&lt;TaskId&gt;  tasksToUnlock"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1594,7 +1594,7 @@ var maDataBlocs = {
  , "c1" : "00759"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#759"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00759] For method sumOfChangelogOffsets arguments TaskId  id|Map&lt;TopicPartition ,Long &gt;  changelogOffsets"
+ , "c3" : "QC-JAV000006[00759] For method sumOfChangelogOffsets arguments TaskId  id|Map&lt;TopicPartition,Long&gt;  changelogOffsets"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1755,7 +1755,7 @@ var maDataBlocs = {
  , "c1" : "00851"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#851"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00851] For method closeAndCleanUpTasks arguments Collection&lt;Task &gt;  activeTasks|Collection&lt;Task &gt;  standbyTasks|boolean  clean"
+ , "c3" : "QC-JAV000006[00851] For method closeAndCleanUpTasks arguments Collection&lt;Task&gt;  activeTasks|Collection&lt;Task&gt;  standbyTasks|boolean  clean"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1797,7 +1797,7 @@ var maDataBlocs = {
  , "c1" : "00879"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#879"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00879] For method tryCloseCleanActiveTasks arguments Collection&lt;Task &gt;  activeTasksToClose|boolean  clean|AtomicReference&lt;RuntimeException &gt;  firstException"
+ , "c3" : "QC-JAV000006[00879] For method tryCloseCleanActiveTasks arguments Collection&lt;Task&gt;  activeTasksToClose|boolean  clean|AtomicReference&lt;RuntimeException&gt;  firstException"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1944,7 +1944,7 @@ var maDataBlocs = {
  , "c1" : "00977"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#977"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00977] For method tryCloseCleanStandbyTasks arguments Collection&lt;Task &gt;  standbyTasksToClose|boolean  clean|AtomicReference&lt;RuntimeException &gt;  firstException"
+ , "c3" : "QC-JAV000006[00977] For method tryCloseCleanStandbyTasks arguments Collection&lt;Task&gt;  standbyTasksToClose|boolean  clean|AtomicReference&lt;RuntimeException&gt;  firstException"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1972,7 +1972,7 @@ var maDataBlocs = {
  , "c1" : "01060"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1060"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01060] For method addRecordsToTasks arguments ConsumerRecords&lt;byte[] ,byte[] &gt;  records"
+ , "c3" : "QC-JAV000006[01060] For method addRecordsToTasks arguments ConsumerRecords&lt;byte[],byte[]&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2021,7 +2021,7 @@ var maDataBlocs = {
  , "c1" : "01081"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1081"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01081] For method commit arguments Collection&lt;Task &gt;  tasksToCommit"
+ , "c3" : "QC-JAV000006[01081] For method commit arguments Collection&lt;Task&gt;  tasksToCommit"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2049,7 +2049,7 @@ var maDataBlocs = {
  , "c1" : "01113"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1113"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01113] For method commitTasksAndMaybeUpdateCommittableOffsets arguments Collection&lt;Task &gt;  tasksToCommit|Map&lt;Task ,Map&lt;TopicPartition ,OffsetAndMetadata &gt; &gt;  consumedOffsetsAndMetadata"
+ , "c3" : "QC-JAV000006[01113] For method commitTasksAndMaybeUpdateCommittableOffsets arguments Collection&lt;Task&gt;  tasksToCommit|Map&lt;Task,Map&lt;TopicPartition,OffsetAndMetadata&gt;&gt;  consumedOffsetsAndMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2091,7 +2091,7 @@ var maDataBlocs = {
  , "c1" : "01150"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01150] For method maybeCloseTasksFromRemovedTopologies arguments Set&lt;String &gt;  currentNamedTopologies"
+ , "c3" : "QC-JAV000006[01150] For method maybeCloseTasksFromRemovedTopologies arguments Set&lt;String&gt;  currentNamedTopologies"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2259,7 +2259,7 @@ var maDataBlocs = {
  , "c1" : "01263"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1263"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01263] For method maybeWrapAndSetFirstException arguments AtomicReference&lt;RuntimeException &gt;  firstException|RuntimeException  exception|TaskId  taskId"
+ , "c3" : "QC-JAV000006[01263] For method maybeWrapAndSetFirstException arguments AtomicReference&lt;RuntimeException&gt;  firstException|RuntimeException  exception|TaskId  taskId"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2287,7 +2287,7 @@ var maDataBlocs = {
  , "c1" : "01274"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1274"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01274] For method executeAndMaybeSwallow arguments boolean  clean|Runnable  runnable|java.util.function .Consumer&lt;RuntimeException &gt;  actionIfClean|java.util.function .Consumer&lt;RuntimeException &gt;  actionIfNotClean"
+ , "c3" : "QC-JAV000006[01274] For method executeAndMaybeSwallow arguments boolean  clean|Runnable  runnable|java.util.function.Consumer&lt;RuntimeException&gt;  actionIfClean|java.util.function.Consumer&lt;RuntimeException&gt;  actionIfNotClean"
 }} 
 ,
 { "ligne" : {"" : ""

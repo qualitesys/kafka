@@ -230,7 +230,7 @@ var maDataBlocs = {
  , "c1" : "00056"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#56"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method taskIsNotCaughtUpOnClientAndOtherMoreCaughtUpClientsExist arguments TaskId  task|UUID  client|Map&lt;UUID ,ClientState &gt;  clientStates|Map&lt;TaskId ,SortedSet&lt;UUID &gt; &gt;  tasksToCaughtUpClients|Map&lt;TaskId ,SortedSet&lt;UUID &gt; &gt;  tasksToClientByLag"
+ , "c3" : "QC-JAV000006[00056] For method taskIsNotCaughtUpOnClientAndOtherMoreCaughtUpClientsExist arguments TaskId  task|UUID  client|Map&lt;UUID,ClientState&gt;  clientStates|Map&lt;TaskId,SortedSet&lt;UUID&gt;&gt;  tasksToCaughtUpClients|Map&lt;TaskId,SortedSet&lt;UUID&gt;&gt;  tasksToClientByLag"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -265,7 +265,7 @@ var maDataBlocs = {
  , "c1" : "00070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method taskIsCaughtUpOnClient arguments TaskId  task|UUID  client|Map&lt;TaskId ,SortedSet&lt;UUID &gt; &gt;  tasksToCaughtUpClients"
+ , "c3" : "QC-JAV000006[00070] For method taskIsCaughtUpOnClient arguments TaskId  task|UUID  client|Map&lt;TaskId,SortedSet&lt;UUID&gt;&gt;  tasksToCaughtUpClients"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -286,7 +286,7 @@ var maDataBlocs = {
  , "c1" : "00077"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#77"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00077] For method assignActiveTaskMovements arguments Map&lt;TaskId ,SortedSet&lt;UUID &gt; &gt;  tasksToCaughtUpClients|Map&lt;TaskId ,SortedSet&lt;UUID &gt; &gt;  tasksToClientByLag|Map&lt;UUID ,ClientState &gt;  clientStates|Map&lt;UUID ,Set&lt;TaskId &gt; &gt;  warmups|AtomicInteger  remainingWarmupReplicas"
+ , "c3" : "QC-JAV000006[00077] For method assignActiveTaskMovements arguments Map&lt;TaskId,SortedSet&lt;UUID&gt;&gt;  tasksToCaughtUpClients|Map&lt;TaskId,SortedSet&lt;UUID&gt;&gt;  tasksToClientByLag|Map&lt;UUID,ClientState&gt;  clientStates|Map&lt;UUID,Set&lt;TaskId&gt;&gt;  warmups|AtomicInteger  remainingWarmupReplicas"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -342,7 +342,7 @@ var maDataBlocs = {
  , "c1" : "00125"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#125"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00125] For method assignStandbyTaskMovements arguments Map&lt;TaskId ,SortedSet&lt;UUID &gt; &gt;  tasksToCaughtUpClients|Map&lt;TaskId ,SortedSet&lt;UUID &gt; &gt;  tasksToClientByLag|Map&lt;UUID ,ClientState &gt;  clientStates|AtomicInteger  remainingWarmupReplicas|Map&lt;UUID ,Set&lt;TaskId &gt; &gt;  warmups"
+ , "c3" : "QC-JAV000006[00125] For method assignStandbyTaskMovements arguments Map&lt;TaskId,SortedSet&lt;UUID&gt;&gt;  tasksToCaughtUpClients|Map&lt;TaskId,SortedSet&lt;UUID&gt;&gt;  tasksToClientByLag|Map&lt;UUID,ClientState&gt;  clientStates|AtomicInteger  remainingWarmupReplicas|Map&lt;UUID,Set&lt;TaskId&gt;&gt;  warmups"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -433,7 +433,7 @@ var maDataBlocs = {
  , "c1" : "00190"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#190"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00190] For method tryToSwapStandbyAndActiveOnCaughtUpClient arguments Map&lt;UUID ,ClientState &gt;  clientStates|ConstrainedPrioritySet  caughtUpClientsByTaskLoad|TaskMovement  movement"
+ , "c3" : "QC-JAV000006[00190] For method tryToSwapStandbyAndActiveOnCaughtUpClient arguments Map&lt;UUID,ClientState&gt;  clientStates|ConstrainedPrioritySet  caughtUpClientsByTaskLoad|TaskMovement  movement"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -489,7 +489,7 @@ var maDataBlocs = {
  , "c1" : "00209"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#209"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00209] For method tryToMoveActiveToCaughtUpClientAndTryToWarmUp arguments Map&lt;UUID ,ClientState &gt;  clientStates|Map&lt;UUID ,Set&lt;TaskId &gt; &gt;  warmups|AtomicInteger  remainingWarmupReplicas|ConstrainedPrioritySet  caughtUpClientsByTaskLoad|TaskMovement  movement"
+ , "c3" : "QC-JAV000006[00209] For method tryToMoveActiveToCaughtUpClientAndTryToWarmUp arguments Map&lt;UUID,ClientState&gt;  clientStates|Map&lt;UUID,Set&lt;TaskId&gt;&gt;  warmups|AtomicInteger  remainingWarmupReplicas|ConstrainedPrioritySet  caughtUpClientsByTaskLoad|TaskMovement  movement"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -552,7 +552,7 @@ var maDataBlocs = {
  , "c1" : "00229"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#229"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00229] For method tryToMoveActiveToMostCaughtUpClient arguments Map&lt;TaskId ,SortedSet&lt;UUID &gt; &gt;  tasksToClientByLag|Map&lt;UUID ,ClientState &gt;  clientStates|Map&lt;UUID ,Set&lt;TaskId &gt; &gt;  warmups|AtomicInteger  remainingWarmupReplicas|ConstrainedPrioritySet  caughtUpClientsByTaskLoad|TaskMovement  movement"
+ , "c3" : "QC-JAV000006[00229] For method tryToMoveActiveToMostCaughtUpClient arguments Map&lt;TaskId,SortedSet&lt;UUID&gt;&gt;  tasksToClientByLag|Map&lt;UUID,ClientState&gt;  clientStates|Map&lt;UUID,Set&lt;TaskId&gt;&gt;  warmups|AtomicInteger  remainingWarmupReplicas|ConstrainedPrioritySet  caughtUpClientsByTaskLoad|TaskMovement  movement"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -615,7 +615,7 @@ var maDataBlocs = {
  , "c1" : "00258"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#258"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00258] For method moveActiveAndTryToWarmUp arguments AtomicInteger  remainingWarmupReplicas|TaskId  task|ClientState  sourceClientState|ClientState  destinationClientState|Set&lt;TaskId &gt;  warmups"
+ , "c3" : "QC-JAV000006[00258] For method moveActiveAndTryToWarmUp arguments AtomicInteger  remainingWarmupReplicas|TaskId  task|ClientState  sourceClientState|ClientState  destinationClientState|Set&lt;TaskId&gt;  warmups"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -713,7 +713,7 @@ var maDataBlocs = {
  , "c1" : "00300"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#300"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00300] For method mostCaughtUpEligibleClient arguments Map&lt;TaskId ,SortedSet&lt;UUID &gt; &gt;  tasksToClientByLag|TaskId  task|UUID  destinationClient"
+ , "c3" : "QC-JAV000006[00300] For method mostCaughtUpEligibleClient arguments Map&lt;TaskId,SortedSet&lt;UUID&gt;&gt;  tasksToClientByLag|TaskId  task|UUID  destinationClient"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -727,7 +727,7 @@ var maDataBlocs = {
  , "c1" : "00306"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#306"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00306] For method mostCaughtUpEligibleClient arguments Map&lt;TaskId ,SortedSet&lt;UUID &gt; &gt;  tasksToClientByLag|Function&lt;UUID ,Boolean &gt;  constraint|TaskId  task|UUID  destinationClient"
+ , "c3" : "QC-JAV000006[00306] For method mostCaughtUpEligibleClient arguments Map&lt;TaskId,SortedSet&lt;UUID&gt;&gt;  tasksToClientByLag|Function&lt;UUID,Boolean&gt;  constraint|TaskId  task|UUID  destinationClient"
 }} 
 ,
 { "ligne" : {"" : ""

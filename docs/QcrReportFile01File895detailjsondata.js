@@ -293,7 +293,7 @@ var maDataBlocs = {
  , "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CopyOnWriteMap.java.html#95"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00095] For method putAll arguments Map&lt;?  extends K ,?  extends V &gt;  entries"
+ , "c3" : "QC-JAV000006[00095] For method putAll arguments Map&lt;?extendsK,?extendsV&gt;  entries"
 }} 
 ,
 { "ligne" : {"" : ""

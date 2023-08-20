@@ -856,14 +856,14 @@ var maDataBlocs = {
  , "c1" : "00694"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#694"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00694] For method sendOffsetsToTransaction arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets|String  consumerGroupId"
+ , "c3" : "QC-JAV000006[00694] For method sendOffsetsToTransaction arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets|String  consumerGroupId"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00741"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#741"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00741] For method sendOffsetsToTransaction arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets|ConsumerGroupMetadata  groupMetadata"
+ , "c3" : "QC-JAV000006[00741] For method sendOffsetsToTransaction arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets|ConsumerGroupMetadata  groupMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -905,7 +905,7 @@ var maDataBlocs = {
  , "c1" : "00833"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#833"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00833] For method send arguments ProducerRecord&lt;K ,V &gt;  record"
+ , "c3" : "QC-JAV000006[00833] For method send arguments ProducerRecord&lt;K,V&gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -919,7 +919,7 @@ var maDataBlocs = {
  , "c1" : "00946"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#946"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00946] For method send arguments ProducerRecord&lt;K ,V &gt;  record|Callback  callback"
+ , "c3" : "QC-JAV000006[00946] For method send arguments ProducerRecord&lt;K,V&gt;  record|Callback  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -954,7 +954,7 @@ var maDataBlocs = {
  , "c1" : "00971"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#971"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00971] For method doSend arguments ProducerRecord&lt;K ,V &gt;  record|Callback  callback"
+ , "c3" : "QC-JAV000006[00971] For method doSend arguments ProducerRecord&lt;K,V&gt;  record|Callback  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1521,14 +1521,14 @@ var maDataBlocs = {
  , "c1" : "01353"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#1353"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01353] For method configureClusterResourceListeners arguments Serializer&lt;K &gt;  keySerializer|Serializer&lt;V &gt;  valueSerializer|List&lt;? &gt;  ...candidateLists"
+ , "c3" : "QC-JAV000006[01353] For method configureClusterResourceListeners arguments Serializer&lt;K&gt;  keySerializer|Serializer&lt;V&gt;  valueSerializer|List&lt;?&gt;  ...candidateLists"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01373"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/KafkaProducer.java.html#1373"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01373] For method partition arguments ProducerRecord&lt;K ,V &gt;  record|byte[]  serializedKey|byte[]  serializedValue|Cluster  cluster"
+ , "c3" : "QC-JAV000006[01373] For method partition arguments ProducerRecord&lt;K,V&gt;  record|byte[]  serializedKey|byte[]  serializedValue|Cluster  cluster"
 }} 
 ,
 { "ligne" : {"" : ""

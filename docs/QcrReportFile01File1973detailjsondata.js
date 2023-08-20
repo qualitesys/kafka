@@ -1371,7 +1371,7 @@ var maDataBlocs = {
  , "c1" : "00577"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#577"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00577] For method customInvocationRateAndCountSensor arguments String  threadId|String  groupName|String  entityName|String  operationName|Map&lt;String ,String &gt;  tags|Sensor.RecordingLevel  recordingLevel"
+ , "c3" : "QC-JAV000006[00577] For method customInvocationRateAndCountSensor arguments String  threadId|String  groupName|String  entityName|String  operationName|Map&lt;String,String&gt;  tags|Sensor.RecordingLevel  recordingLevel"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1420,7 +1420,7 @@ var maDataBlocs = {
  , "c1" : "00642"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#642"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00642] For method addAvgAndMaxToSensor arguments Sensor  sensor|String  group|Map&lt;String ,String &gt;  tags|String  operation|String  descriptionOfAvg|String  descriptionOfMax"
+ , "c3" : "QC-JAV000006[00642] For method addAvgAndMaxToSensor arguments Sensor  sensor|String  group|Map&lt;String,String&gt;  tags|String  operation|String  descriptionOfAvg|String  descriptionOfMax"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1434,7 +1434,7 @@ var maDataBlocs = {
  , "c1" : "00666"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#666"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00666] For method addMinAndMaxToSensor arguments Sensor  sensor|String  group|Map&lt;String ,String &gt;  tags|String  operation|String  descriptionOfMin|String  descriptionOfMax"
+ , "c3" : "QC-JAV000006[00666] For method addMinAndMaxToSensor arguments Sensor  sensor|String  group|Map&lt;String,String&gt;  tags|String  operation|String  descriptionOfMin|String  descriptionOfMax"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1448,7 +1448,7 @@ var maDataBlocs = {
  , "c1" : "00691"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#691"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00691] For method addAvgAndMaxLatencyToSensor arguments Sensor  sensor|String  group|Map&lt;String ,String &gt;  tags|String  operation"
+ , "c3" : "QC-JAV000006[00691] For method addAvgAndMaxLatencyToSensor arguments Sensor  sensor|String  group|Map&lt;String,String&gt;  tags|String  operation"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1497,7 +1497,7 @@ var maDataBlocs = {
  , "c1" : "00713"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#713"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00713] For method addAvgAndMinAndMaxToSensor arguments Sensor  sensor|String  group|Map&lt;String ,String &gt;  tags|String  operation|String  descriptionOfAvg|String  descriptionOfMin|String  descriptionOfMax"
+ , "c3" : "QC-JAV000006[00713] For method addAvgAndMinAndMaxToSensor arguments Sensor  sensor|String  group|Map&lt;String,String&gt;  tags|String  operation|String  descriptionOfAvg|String  descriptionOfMin|String  descriptionOfMax"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1511,7 +1511,7 @@ var maDataBlocs = {
  , "c1" : "00731"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#731"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00731] For method addInvocationRateAndCountToSensor arguments Sensor  sensor|String  group|Map&lt;String ,String &gt;  tags|String  operation|String  descriptionOfRate|String  descriptionOfCount"
+ , "c3" : "QC-JAV000006[00731] For method addInvocationRateAndCountToSensor arguments Sensor  sensor|String  group|Map&lt;String,String&gt;  tags|String  operation|String  descriptionOfRate|String  descriptionOfCount"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1525,7 +1525,7 @@ var maDataBlocs = {
  , "c1" : "00749"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#749"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00749] For method addInvocationRateToSensor arguments Sensor  sensor|String  group|Map&lt;String ,String &gt;  tags|String  operation|String  descriptionOfRate"
+ , "c3" : "QC-JAV000006[00749] For method addInvocationRateToSensor arguments Sensor  sensor|String  group|Map&lt;String,String&gt;  tags|String  operation|String  descriptionOfRate"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1539,21 +1539,21 @@ var maDataBlocs = {
  , "c1" : "00765"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#765"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00765] For method addInvocationRateAndCountToSensor arguments Sensor  sensor|String  group|Map&lt;String ,String &gt;  tags|String  operation"
+ , "c3" : "QC-JAV000006[00765] For method addInvocationRateAndCountToSensor arguments Sensor  sensor|String  group|Map&lt;String,String&gt;  tags|String  operation"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00779"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#779"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00779] For method addRateOfSumAndSumMetricsToSensor arguments Sensor  sensor|String  group|Map&lt;String ,String &gt;  tags|String  operation|String  descriptionOfRate|String  descriptionOfTotal"
+ , "c3" : "QC-JAV000006[00779] For method addRateOfSumAndSumMetricsToSensor arguments Sensor  sensor|String  group|Map&lt;String,String&gt;  tags|String  operation|String  descriptionOfRate|String  descriptionOfTotal"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00789"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#789"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00789] For method addRateOfSumMetricToSensor arguments Sensor  sensor|String  group|Map&lt;String ,String &gt;  tags|String  operation|String  description"
+ , "c3" : "QC-JAV000006[00789] For method addRateOfSumMetricToSensor arguments Sensor  sensor|String  group|Map&lt;String,String&gt;  tags|String  operation|String  description"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1567,7 +1567,7 @@ var maDataBlocs = {
  , "c1" : "00798"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#798"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00798] For method addSumMetricToSensor arguments Sensor  sensor|String  group|Map&lt;String ,String &gt;  tags|String  operation|String  description"
+ , "c3" : "QC-JAV000006[00798] For method addSumMetricToSensor arguments Sensor  sensor|String  group|Map&lt;String,String&gt;  tags|String  operation|String  description"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1581,7 +1581,7 @@ var maDataBlocs = {
  , "c1" : "00806"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#806"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00806] For method addSumMetricToSensor arguments Sensor  sensor|String  group|Map&lt;String ,String &gt;  tags|String  operation|boolean  withSuffix|String  description"
+ , "c3" : "QC-JAV000006[00806] For method addSumMetricToSensor arguments Sensor  sensor|String  group|Map&lt;String,String&gt;  tags|String  operation|boolean  withSuffix|String  description"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1595,7 +1595,7 @@ var maDataBlocs = {
  , "c1" : "00823"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#823"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00823] For method addValueMetricToSensor arguments Sensor  sensor|String  group|Map&lt;String ,String &gt;  tags|String  name|String  description"
+ , "c3" : "QC-JAV000006[00823] For method addValueMetricToSensor arguments Sensor  sensor|String  group|Map&lt;String,String&gt;  tags|String  name|String  description"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1609,7 +1609,7 @@ var maDataBlocs = {
  , "c1" : "00831"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#831"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00831] For method addAvgAndSumMetricsToSensor arguments Sensor  sensor|String  group|Map&lt;String ,String &gt;  tags|String  metricNamePrefix|String  descriptionOfAvg|String  descriptionOfTotal"
+ , "c3" : "QC-JAV000006[00831] For method addAvgAndSumMetricsToSensor arguments Sensor  sensor|String  group|Map&lt;String,String&gt;  tags|String  metricNamePrefix|String  descriptionOfAvg|String  descriptionOfTotal"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1623,7 +1623,7 @@ var maDataBlocs = {
  , "c1" : "00844"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#844"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00844] For method addTotalCountAndSumMetricsToSensor arguments Sensor  sensor|String  group|Map&lt;String ,String &gt;  tags|String  countMetricNamePrefix|String  sumMetricNamePrefix|String  descriptionOfCount|String  descriptionOfTotal"
+ , "c3" : "QC-JAV000006[00844] For method addTotalCountAndSumMetricsToSensor arguments Sensor  sensor|String  group|Map&lt;String,String&gt;  tags|String  countMetricNamePrefix|String  sumMetricNamePrefix|String  descriptionOfCount|String  descriptionOfTotal"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1707,7 +1707,7 @@ var maDataBlocs = {
  , "c1" : "00891"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#891"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00891] For method getSensors arguments Map&lt;String ,Deque&lt;String &gt; &gt;  sensors|String  sensorName|String  key|RecordingLevel  recordingLevel|Sensor  ...parents"
+ , "c3" : "QC-JAV000006[00891] For method getSensors arguments Map&lt;String,Deque&lt;String&gt;&gt;  sensors|String  sensorName|String  key|RecordingLevel  recordingLevel|Sensor  ...parents"
 }} 
 ,
 { "ligne" : {"" : ""

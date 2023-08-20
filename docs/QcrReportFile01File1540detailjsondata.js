@@ -116,7 +116,7 @@ var maDataBlocs = {
  , "c1" : "00028"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/NoOpCommandHandler.java.html#28"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method run arguments Optional&lt;InteractiveShell &gt;  shell|PrintWriter  writer|MetadataNodeManager  manager"
+ , "c3" : "QC-JAV000006[00028] For method run arguments Optional&lt;InteractiveShell&gt;  shell|PrintWriter  writer|MetadataNodeManager  manager"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -187,7 +187,7 @@ var maDataBlocs = {
  , "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedSerializer.java.html#53"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method serialize arguments String  topic|Headers  headers|Change&lt;T &gt;  data"
+ , "c3" : "QC-JAV000006[00053] For method serialize arguments String  topic|Headers  headers|Change&lt;T&gt;  data"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -278,7 +278,7 @@ var maDataBlocs = {
  , "c1" : "00080"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/ChangedSerializer.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method serialize arguments String  topic|Change&lt;T &gt;  data"
+ , "c3" : "QC-JAV000006[00080] For method serialize arguments String  topic|Change&lt;T&gt;  data"
 }} 
 ,
 { "ligne" : {"" : ""

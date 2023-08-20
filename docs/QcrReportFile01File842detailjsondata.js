@@ -465,7 +465,7 @@ var maDataBlocs = {
  , "c1" : "00218"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslClient.java.html#218"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00218] For method createSaslClient arguments String[]  mechanisms|String  authorizationId|String  protocol|String  serverName|Map&lt;String ,? &gt;  props|CallbackHandler  cbh"
+ , "c3" : "QC-JAV000006[00218] For method createSaslClient arguments String[]  mechanisms|String  authorizationId|String  protocol|String  serverName|Map&lt;String,?&gt;  props|CallbackHandler  cbh"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -507,7 +507,7 @@ var maDataBlocs = {
  , "c1" : "00243"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramSaslClient.java.html#243"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00243] For method getMechanismNames arguments Map&lt;String ,? &gt;  props"
+ , "c3" : "QC-JAV000006[00243] For method getMechanismNames arguments Map&lt;String,?&gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -111,14 +111,14 @@ var maDataBlocs = {
  , "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00044] For method buildRequest arguments Set&lt;K &gt;  keys"
+ , "c3" : "QC-JAV000006[00044] For method buildRequest arguments Set&lt;K&gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/StaticBrokerStrategy.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method handleResponse arguments Set&lt;K &gt;  keys|AbstractResponse  response"
+ , "c3" : "QC-JAV000006[00049] For method handleResponse arguments Set&lt;K&gt;  keys|AbstractResponse  response"
 }} 
 ]
 , 

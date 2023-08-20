@@ -182,7 +182,7 @@ var maDataBlocs = {
  , "c1" : "00071"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00071] For method initializeConfiguration arguments Supplier&lt;Configuration &gt;  configurationSupplier"
+ , "c3" : "QC-JAV000006[00071] For method initializeConfiguration arguments Supplier&lt;Configuration&gt;  configurationSupplier"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -231,7 +231,7 @@ var maDataBlocs = {
  , "c1" : "00108"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00108] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00108] For method configure arguments Map&lt;String,?&gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""

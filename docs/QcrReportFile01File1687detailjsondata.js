@@ -218,7 +218,7 @@ var maDataBlocs = {
  , "c1" : "00071"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00071] For method init arguments ProcessorContext&lt;Windowed&lt;KIn &gt; ,Change&lt;VAgg &gt; &gt;  context"
+ , "c3" : "QC-JAV000006[00071] For method init arguments ProcessorContext&lt;Windowed&lt;KIn&gt;,Change&lt;VAgg&gt;&gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -253,7 +253,7 @@ var maDataBlocs = {
  , "c1" : "00105"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#105"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00105] For method maybeForwardUpdate arguments Record&lt;KIn ,VIn &gt;  record|Window  window|VAgg  oldAgg|VAgg  newAgg|long  newTimestamp"
+ , "c3" : "QC-JAV000006[00105] For method maybeForwardUpdate arguments Record&lt;KIn,VIn&gt;  record|Window  window|VAgg  oldAgg|VAgg  newAgg|long  newTimestamp"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -274,7 +274,7 @@ var maDataBlocs = {
  , "c1" : "00120"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#120"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00120] For method maybeForwardFinalResult arguments Record&lt;KIn ,VIn &gt;  record|long  windowCloseTime"
+ , "c3" : "QC-JAV000006[00120] For method maybeForwardFinalResult arguments Record&lt;KIn,VIn&gt;  record|long  windowCloseTime"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -435,7 +435,7 @@ var maDataBlocs = {
  , "c1" : "00197"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#197"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00197] For method fetchAndEmit arguments Record&lt;KIn ,VIn &gt;  record|long  windowCloseTime|long  emitRangeLowerBound|long  emitRangeUpperBound"
+ , "c3" : "QC-JAV000006[00197] For method fetchAndEmit arguments Record&lt;KIn,VIn&gt;  record|long  windowCloseTime|long  emitRangeLowerBound|long  emitRangeUpperBound"
 }} 
 ,
 { "ligne" : {"" : ""

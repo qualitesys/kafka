@@ -185,7 +185,7 @@ var maDataBlocs = {
  , "c1" : "00068"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesImage.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00068] For method write arguments Consumer&lt;List&lt;ApiMessageAndVersion &gt; &gt;  out"
+ , "c3" : "QC-JAV000006[00068] For method write arguments Consumer&lt;List&lt;ApiMessageAndVersion&gt;&gt;  out"
 }} 
 ,
 { "ligne" : {"" : ""

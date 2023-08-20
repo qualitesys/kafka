@@ -117,7 +117,7 @@ var maDataBlocs = {
  , "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/ClusterResourceListeners.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method maybeAddAll arguments List&lt;? &gt;  candidateList"
+ , "c3" : "QC-JAV000006[00047] For method maybeAddAll arguments List&lt;?&gt;  candidateList"
 }} 
 ,
 { "ligne" : {"" : ""

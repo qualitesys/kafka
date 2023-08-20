@@ -215,7 +215,7 @@ var maDataBlocs = {
  , "c1" : "00065"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method abort arguments Logger  log|String  what|Throwable  exception|KafkaFutureImpl&lt;String &gt;  doneFuture"
+ , "c3" : "QC-JAV000006[00065] For method abort arguments Logger  log|String  what|Throwable  exception|KafkaFutureImpl&lt;String&gt;  doneFuture"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -285,7 +285,7 @@ var maDataBlocs = {
  , "c1" : "00097"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00097] For method addConfigsToProperties arguments Properties  props|Map&lt;String ,String &gt;  commonConf|Map&lt;String ,String &gt;  clientConf"
+ , "c3" : "QC-JAV000006[00097] For method addConfigsToProperties arguments Properties  props|Map&lt;String,String&gt;  commonConf|Map&lt;String,String&gt;  clientConf"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -313,7 +313,7 @@ var maDataBlocs = {
  , "c1" : "00128"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#128"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00128] For method createTopics arguments Logger  log|String  bootstrapServers|Map&lt;String ,String &gt;  commonClientConf|Map&lt;String ,String &gt;  adminClientConf|Map&lt;String ,NewTopic &gt;  topics|boolean  failOnExisting"
+ , "c3" : "QC-JAV000006[00128] For method createTopics arguments Logger  log|String  bootstrapServers|Map&lt;String,String&gt;  commonClientConf|Map&lt;String,String&gt;  adminClientConf|Map&lt;String,NewTopic&gt;  topics|boolean  failOnExisting"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -334,7 +334,7 @@ var maDataBlocs = {
  , "c1" : "00151"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#151"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00151] For method createTopics arguments Logger  log|Admin  adminClient|Map&lt;String ,NewTopic &gt;  topics|boolean  failOnExisting"
+ , "c3" : "QC-JAV000006[00151] For method createTopics arguments Logger  log|Admin  adminClient|Map&lt;String,NewTopic&gt;  topics|boolean  failOnExisting"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -397,7 +397,7 @@ var maDataBlocs = {
  , "c1" : "00178"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#178"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00178] For method createTopics arguments Logger  log|Admin  adminClient|Collection&lt;NewTopic &gt;  topics"
+ , "c3" : "QC-JAV000006[00178] For method createTopics arguments Logger  log|Admin  adminClient|Collection&lt;NewTopic&gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -663,7 +663,7 @@ var maDataBlocs = {
  , "c1" : "00252"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#252"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00252] For method verifyTopics arguments Logger  log|Admin  adminClient|Collection&lt;String &gt;  topicsToVerify|Map&lt;String ,NewTopic &gt;  topicsInfo|int  retryCount|long  retryBackoffMs"
+ , "c3" : "QC-JAV000006[00252] For method verifyTopics arguments Logger  log|Admin  adminClient|Collection&lt;String&gt;  topicsToVerify|Map&lt;String,NewTopic&gt;  topicsInfo|int  retryCount|long  retryBackoffMs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -726,7 +726,7 @@ var maDataBlocs = {
  , "c1" : "00273"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#273"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00273] For method topicDescriptions arguments Collection&lt;String &gt;  topicsToVerify|Admin  adminClient|int  retryCount|long  retryBackoffMs"
+ , "c3" : "QC-JAV000006[00273] For method topicDescriptions arguments Collection&lt;String&gt;  topicsToVerify|Admin  adminClient|int  retryCount|long  retryBackoffMs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -824,7 +824,7 @@ var maDataBlocs = {
  , "c1" : "00336"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#336"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00336] For method createAdminClient arguments String  bootstrapServers|Map&lt;String ,String &gt;  commonClientConf|Map&lt;String ,String &gt;  adminClientConf"
+ , "c3" : "QC-JAV000006[00336] For method createAdminClient arguments String  bootstrapServers|Map&lt;String,String&gt;  commonClientConf|Map&lt;String,String&gt;  adminClientConf"
 }} 
 ,
 { "ligne" : {"" : ""

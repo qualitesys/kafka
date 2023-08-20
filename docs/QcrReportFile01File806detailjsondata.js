@@ -117,7 +117,7 @@ var maDataBlocs = {
  , "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java.html#35"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00035] For method create arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00035] For method create arguments Map&lt;String,?&gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -131,14 +131,14 @@ var maDataBlocs = {
  , "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java.html#39"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00039] For method create arguments Map&lt;String ,? &gt;  configs|String  saslMechanism"
+ , "c3" : "QC-JAV000006[00039] For method create arguments Map&lt;String,?&gt;  configs|String  saslMechanism"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method create arguments Map&lt;String ,? &gt;  configs|VerificationKeyResolver  verificationKeyResolver"
+ , "c3" : "QC-JAV000006[00046] For method create arguments Map&lt;String,?&gt;  configs|VerificationKeyResolver  verificationKeyResolver"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -152,7 +152,7 @@ var maDataBlocs = {
  , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00051] For method create arguments Map&lt;String ,? &gt;  configs|String  saslMechanism|VerificationKeyResolver  verificationKeyResolver"
+ , "c3" : "QC-JAV000006[00051] For method create arguments Map&lt;String,?&gt;  configs|String  saslMechanism|VerificationKeyResolver  verificationKeyResolver"
 }} 
 ,
 { "ligne" : {"" : ""

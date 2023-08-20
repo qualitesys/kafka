@@ -196,7 +196,7 @@ var maDataBlocs = {
  , "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/Serdes.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00041] For method configure arguments Map&lt;String,?&gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""

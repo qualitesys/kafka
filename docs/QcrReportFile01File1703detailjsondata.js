@@ -403,7 +403,7 @@ var maDataBlocs = {
  , "c1" : "00199"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#199"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00199] For method addStateStore arguments StoreBuilder&lt;? &gt;  builder"
+ , "c3" : "QC-JAV000006[00199] For method addStateStore arguments StoreBuilder&lt;?&gt;  builder"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -459,7 +459,7 @@ var maDataBlocs = {
  , "c1" : "00234"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#234"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00234] For method addGraphNode arguments Collection&lt;GraphNode &gt;  parents|GraphNode  child"
+ , "c3" : "QC-JAV000006[00234] For method addGraphNode arguments Collection&lt;GraphNode&gt;  parents|GraphNode  child"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -921,7 +921,7 @@ var maDataBlocs = {
  , "c1" : "00467"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#467"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00467] For method mergeNodeHasRepartitionChildren arguments GraphNode  mergeNode|LinkedHashSet&lt;OptimizableRepartitionNode&lt;? ,? &gt; &gt;  repartitionNodes"
+ , "c3" : "QC-JAV000006[00467] For method mergeNodeHasRepartitionChildren arguments GraphNode  mergeNode|LinkedHashSet&lt;OptimizableRepartitionNode&lt;?,?&gt;&gt;  repartitionNodes"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -977,7 +977,7 @@ var maDataBlocs = {
  , "c1" : "00506"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#506"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00506] For method getFirstRepartitionTopicName arguments Collection&lt;OptimizableRepartitionNode&lt;? ,? &gt; &gt;  repartitionNodes"
+ , "c3" : "QC-JAV000006[00506] For method getFirstRepartitionTopicName arguments Collection&lt;OptimizableRepartitionNode&lt;?,?&gt;&gt;  repartitionNodes"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1061,7 +1061,7 @@ var maDataBlocs = {
  , "c1" : "00532"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/InternalStreamsBuilder.java.html#532"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00532] For method findParentNodeMatching arguments GraphNode  startSeekingNode|Predicate&lt;GraphNode &gt;  parentNodePredicate"
+ , "c3" : "QC-JAV000006[00532] For method findParentNodeMatching arguments GraphNode  startSeekingNode|Predicate&lt;GraphNode&gt;  parentNodePredicate"
 }} 
 ,
 { "ligne" : {"" : ""

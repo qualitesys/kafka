@@ -228,7 +228,7 @@ var maDataBlocs = {
  , "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigValue.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method recommendedValues arguments List&lt;Object &gt;  recommendedValues"
+ , "c3" : "QC-JAV000006[00067] For method recommendedValues arguments List&lt;Object&gt;  recommendedValues"
 }} 
 ,
 { "ligne" : {"" : ""

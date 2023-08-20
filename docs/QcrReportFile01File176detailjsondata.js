@@ -179,7 +179,7 @@ var maDataBlocs = {
  , "c1" : "00586"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerConfig.java.html#586"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00586] For method postProcessParsedConfig arguments Map&lt;String ,Object &gt;  parsedValues"
+ , "c3" : "QC-JAV000006[00586] For method postProcessParsedConfig arguments Map&lt;String,Object&gt;  parsedValues"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -193,7 +193,7 @@ var maDataBlocs = {
  , "c1" : "00593"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerConfig.java.html#593"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00593] For method maybeOverrideClientId arguments Map&lt;String ,Object &gt;  configs"
+ , "c3" : "QC-JAV000006[00593] For method maybeOverrideClientId arguments Map&lt;String,Object&gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -249,7 +249,7 @@ var maDataBlocs = {
  , "c1" : "00607"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/ConsumerConfig.java.html#607"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00607] For method appendDeserializerToConfig arguments Map&lt;String ,Object &gt;  configs|Deserializer&lt;? &gt;  keyDeserializer|Deserializer&lt;? &gt;  valueDeserializer"
+ , "c3" : "QC-JAV000006[00607] For method appendDeserializerToConfig arguments Map&lt;String,Object&gt;  configs|Deserializer&lt;?&gt;  keyDeserializer|Deserializer&lt;?&gt;  valueDeserializer"
 }} 
 ,
 { "ligne" : {"" : ""

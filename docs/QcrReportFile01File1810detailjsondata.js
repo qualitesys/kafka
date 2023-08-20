@@ -127,7 +127,7 @@ var maDataBlocs = {
  , "c1" : "00047"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamSourceNode.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method merge arguments StreamSourceNode&lt;? ,? &gt;  other"
+ , "c3" : "QC-JAV000006[00047] For method merge arguments StreamSourceNode&lt;?,?&gt;  other"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -241,7 +241,7 @@ var maDataBlocs = {
  , "c1" : "00069"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00069] For method completeNext arguments MetadataNodeManager  nodeManager|List&lt;String &gt;  nextWords|List&lt;Candidate &gt;  candidates"
+ , "c3" : "QC-JAV000006[00069] For method completeNext arguments MetadataNodeManager  nodeManager|List&lt;String&gt;  nextWords|List&lt;Candidate&gt;  candidates"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -262,7 +262,7 @@ var maDataBlocs = {
  , "c1" : "00083"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00083] For method run arguments Optional&lt;InteractiveShell &gt;  shell|PrintWriter  writer|MetadataNodeManager  manager"
+ , "c3" : "QC-JAV000006[00083] For method run arguments Optional&lt;InteractiveShell&gt;  shell|PrintWriter  writer|MetadataNodeManager  manager"
 }} 
 ,
 { "ligne" : {"" : ""

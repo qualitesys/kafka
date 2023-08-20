@@ -360,7 +360,7 @@ var maDataBlocs = {
  , "c1" : "00087"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#87"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00087] For method consumerMetrics arguments Consumer&lt;byte[] ,byte[] &gt;  mainConsumer|Consumer&lt;byte[] ,byte[] &gt;  restoreConsumer"
+ , "c3" : "QC-JAV000006[00087] For method consumerMetrics arguments Consumer&lt;byte[],byte[]&gt;  mainConsumer|Consumer&lt;byte[],byte[]&gt;  restoreConsumer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -409,7 +409,7 @@ var maDataBlocs = {
  , "c1" : "00102"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#102"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00102] For method producerMetrics arguments Collection&lt;StreamsProducer &gt;  producers"
+ , "c3" : "QC-JAV000006[00102] For method producerMetrics arguments Collection&lt;StreamsProducer&gt;  producers"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -437,7 +437,7 @@ var maDataBlocs = {
  , "c1" : "00117"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#117"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00117] For method fetchCommittedOffsets arguments Set&lt;TopicPartition &gt;  partitions|Consumer&lt;byte[] ,byte[] &gt;  consumer"
+ , "c3" : "QC-JAV000006[00117] For method fetchCommittedOffsets arguments Set&lt;TopicPartition&gt;  partitions|Consumer&lt;byte[],byte[]&gt;  consumer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -493,7 +493,7 @@ var maDataBlocs = {
  , "c1" : "00139"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#139"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00139] For method fetchEndOffsetsFuture arguments Collection&lt;TopicPartition &gt;  partitions|Admin  adminClient"
+ , "c3" : "QC-JAV000006[00139] For method fetchEndOffsetsFuture arguments Collection&lt;TopicPartition&gt;  partitions|Admin  adminClient"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -514,7 +514,7 @@ var maDataBlocs = {
  , "c1" : "00150"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00150] For method getEndOffsets arguments KafkaFuture&lt;Map&lt;TopicPartition ,ListOffsetsResultInfo &gt; &gt;  endOffsetsFuture"
+ , "c3" : "QC-JAV000006[00150] For method getEndOffsets arguments KafkaFuture&lt;Map&lt;TopicPartition,ListOffsetsResultInfo&gt;&gt;  endOffsetsFuture"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -542,7 +542,7 @@ var maDataBlocs = {
  , "c1" : "00162"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#162"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00162] For method fetchEndOffsets arguments Collection&lt;TopicPartition &gt;  partitions|Admin  adminClient"
+ , "c3" : "QC-JAV000006[00162] For method fetchEndOffsets arguments Collection&lt;TopicPartition&gt;  partitions|Admin  adminClient"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -584,7 +584,7 @@ var maDataBlocs = {
  , "c1" : "00175"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#175"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00175] For method producerRecordSizeInBytes arguments ProducerRecord&lt;byte[] ,byte[] &gt;  record"
+ , "c3" : "QC-JAV000006[00175] For method producerRecordSizeInBytes arguments ProducerRecord&lt;byte[],byte[]&gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -640,7 +640,7 @@ var maDataBlocs = {
  , "c1" : "00184"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#184"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00184] For method consumerRecordSizeInBytes arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  record"
+ , "c3" : "QC-JAV000006[00184] For method consumerRecordSizeInBytes arguments ConsumerRecord&lt;byte[],byte[]&gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""

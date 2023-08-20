@@ -161,14 +161,14 @@ var maDataBlocs = {
  , "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method newFuture arguments Collection&lt;String &gt;  transactionalIds"
+ , "c3" : "QC-JAV000006[00049] For method newFuture arguments Collection&lt;String&gt;  transactionalIds"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method buildKeySet arguments Collection&lt;String &gt;  transactionalIds"
+ , "c3" : "QC-JAV000006[00055] For method buildKeySet arguments Collection&lt;String&gt;  transactionalIds"
 }} 
 ,
 { "ligne" : {"" : ""

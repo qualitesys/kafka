@@ -212,14 +212,14 @@ var maDataBlocs = {
  , "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00061] For method newFuture arguments Collection&lt;String &gt;  groupIds"
+ , "c3" : "QC-JAV000006[00061] For method newFuture arguments Collection&lt;String&gt;  groupIds"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method buildKeySet arguments Collection&lt;String &gt;  groupIds"
+ , "c3" : "QC-JAV000006[00067] For method buildKeySet arguments Collection&lt;String&gt;  groupIds"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -233,7 +233,7 @@ var maDataBlocs = {
  , "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00074] For method buildBatchedRequest arguments int  coordinatorId|Set&lt;CoordinatorKey &gt;  keys"
+ , "c3" : "QC-JAV000006[00074] For method buildBatchedRequest arguments int  coordinatorId|Set&lt;CoordinatorKey&gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -247,7 +247,7 @@ var maDataBlocs = {
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00085] For method handleResponse arguments Node  coordinator|Set&lt;CoordinatorKey &gt;  groupIds|AbstractResponse  abstractResponse"
+ , "c3" : "QC-JAV000006[00085] For method handleResponse arguments Node  coordinator|Set&lt;CoordinatorKey&gt;  groupIds|AbstractResponse  abstractResponse"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -282,7 +282,7 @@ var maDataBlocs = {
  , "c1" : "00109"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupsHandler.java.html#109"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00109] For method handleError arguments CoordinatorKey  groupId|Errors  error|Map&lt;CoordinatorKey ,Throwable &gt;  failed|Set&lt;CoordinatorKey &gt;  groupsToUnmap"
+ , "c3" : "QC-JAV000006[00109] For method handleError arguments CoordinatorKey  groupId|Errors  error|Map&lt;CoordinatorKey,Throwable&gt;  failed|Set&lt;CoordinatorKey&gt;  groupsToUnmap"
 }} 
 ,
 { "ligne" : {"" : ""

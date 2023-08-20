@@ -265,7 +265,7 @@ var maDataBlocs = {
  , "c1" : "00063"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTaskContext.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00063] For method offset arguments Map&lt;TopicPartition ,Long &gt;  offsets"
+ , "c3" : "QC-JAV000006[00063] For method offset arguments Map&lt;TopicPartition,Long&gt;  offsets"
 }} 
 ,
 { "ligne" : {"" : ""

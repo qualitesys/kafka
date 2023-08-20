@@ -294,7 +294,7 @@ var maDataBlocs = {
  , "c1" : "00111"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#111"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00111] For method append arguments int  epoch|List&lt;T &gt;  records"
+ , "c3" : "QC-JAV000006[00111] For method append arguments int  epoch|List&lt;T&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -308,7 +308,7 @@ var maDataBlocs = {
  , "c1" : "00131"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#131"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00131] For method appendAtomic arguments int  epoch|List&lt;T &gt;  records"
+ , "c3" : "QC-JAV000006[00131] For method appendAtomic arguments int  epoch|List&lt;T&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -322,7 +322,7 @@ var maDataBlocs = {
  , "c1" : "00135"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#135"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00135] For method append arguments int  epoch|List&lt;T &gt;  records|boolean  isAtomic"
+ , "c3" : "QC-JAV000006[00135] For method append arguments int  epoch|List&lt;T&gt;  records|boolean  isAtomic"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -399,7 +399,7 @@ var maDataBlocs = {
  , "c1" : "00182"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#182"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00182] For method maybeAllocateBatch arguments Collection&lt;T &gt;  records|ObjectSerializationCache  serializationCache"
+ , "c3" : "QC-JAV000006[00182] For method maybeAllocateBatch arguments Collection&lt;T&gt;  records|ObjectSerializationCache  serializationCache"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -448,7 +448,7 @@ var maDataBlocs = {
  , "c1" : "00230"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#230"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00230] For method appendControlMessage arguments Function&lt;ByteBuffer ,MemoryRecords &gt;  valueCreator"
+ , "c3" : "QC-JAV000006[00230] For method appendControlMessage arguments Function&lt;ByteBuffer,MemoryRecords&gt;  valueCreator"
 }} 
 ,
 { "ligne" : {"" : ""

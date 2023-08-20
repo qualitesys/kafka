@@ -565,7 +565,7 @@ var maDataBlocs = {
  , "c1" : "00206"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#206"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00206] For method registerStateStores arguments List&lt;StateStore &gt;  allStores|InternalProcessorContext  processorContext"
+ , "c3" : "QC-JAV000006[00206] For method registerStateStores arguments List&lt;StateStore&gt;  allStores|InternalProcessorContext  processorContext"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -593,7 +593,7 @@ var maDataBlocs = {
  , "c1" : "00218"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#218"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00218] For method registerGlobalStateStores arguments List&lt;StateStore &gt;  stateStores"
+ , "c3" : "QC-JAV000006[00218] For method registerGlobalStateStores arguments List&lt;StateStore&gt;  stateStores"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -838,7 +838,7 @@ var maDataBlocs = {
  , "c1" : "00371"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#371"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00371] For method markChangelogAsCorrupted arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00371] For method markChangelogAsCorrupted arguments Collection&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -936,7 +936,7 @@ var maDataBlocs = {
  , "c1" : "00426"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#426"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00426] For method restore arguments StateStoreMetadata  storeMetadata|List&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  restoreRecords"
+ , "c3" : "QC-JAV000006[00426] For method restore arguments StateStoreMetadata  storeMetadata|List&lt;ConsumerRecord&lt;byte[],byte[]&gt;&gt;  restoreRecords"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1272,7 +1272,7 @@ var maDataBlocs = {
  , "c1" : "00593"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#593"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00593] For method updateChangelogOffsets arguments Map&lt;TopicPartition ,Long &gt;  writtenOffsets"
+ , "c3" : "QC-JAV000006[00593] For method updateChangelogOffsets arguments Map&lt;TopicPartition,Long&gt;  writtenOffsets"
 }} 
 ,
 { "ligne" : {"" : ""

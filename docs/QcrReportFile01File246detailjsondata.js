@@ -510,7 +510,7 @@ var maDataBlocs = {
  , "c1" : "00212"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#212"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00212] For method addToInflightBatches arguments List&lt;ProducerBatch &gt;  batches"
+ , "c3" : "QC-JAV000006[00212] For method addToInflightBatches arguments List&lt;ProducerBatch&gt;  batches"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -531,7 +531,7 @@ var maDataBlocs = {
  , "c1" : "00223"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#223"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00223] For method addToInflightBatches arguments Map&lt;Integer ,List&lt;ProducerBatch &gt; &gt;  batches"
+ , "c3" : "QC-JAV000006[00223] For method addToInflightBatches arguments Map&lt;Integer,List&lt;ProducerBatch&gt;&gt;  batches"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1028,7 +1028,7 @@ var maDataBlocs = {
  , "c1" : "00549"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#549"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00549] For method handleProduceResponse arguments ClientResponse  response|Map&lt;TopicPartition ,ProducerBatch &gt;  batches|long  now"
+ , "c3" : "QC-JAV000006[00549] For method handleProduceResponse arguments ClientResponse  response|Map&lt;TopicPartition,ProducerBatch&gt;  batches|long  now"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1350,7 +1350,7 @@ var maDataBlocs = {
  , "c1" : "00754"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#754"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00754] For method failBatch arguments ProducerBatch  batch|RuntimeException  topLevelException|Function&lt;Integer ,RuntimeException &gt;  recordExceptions|boolean  adjustSequenceNumbers"
+ , "c3" : "QC-JAV000006[00754] For method failBatch arguments ProducerBatch  batch|RuntimeException  topLevelException|Function&lt;Integer,RuntimeException&gt;  recordExceptions|boolean  adjustSequenceNumbers"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1399,7 +1399,7 @@ var maDataBlocs = {
  , "c1" : "00788"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#788"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00788] For method sendProduceRequests arguments Map&lt;Integer ,List&lt;ProducerBatch &gt; &gt;  collated|long  now"
+ , "c3" : "QC-JAV000006[00788] For method sendProduceRequests arguments Map&lt;Integer,List&lt;ProducerBatch&gt;&gt;  collated|long  now"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1413,7 +1413,7 @@ var maDataBlocs = {
  , "c1" : "00796"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#796"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00796] For method sendProduceRequest arguments long  now|int  destination|short  acks|int  timeout|List&lt;ProducerBatch &gt;  batches"
+ , "c3" : "QC-JAV000006[00796] For method sendProduceRequest arguments long  now|int  destination|short  acks|int  timeout|List&lt;ProducerBatch&gt;  batches"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1714,7 +1714,7 @@ var maDataBlocs = {
  , "c1" : "00962"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#962"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00962] For method updateProduceRequestMetrics arguments Map&lt;Integer ,List&lt;ProducerBatch &gt; &gt;  batches"
+ , "c3" : "QC-JAV000006[00962] For method updateProduceRequestMetrics arguments Map&lt;Integer,List&lt;ProducerBatch&gt;&gt;  batches"
 }} 
 ,
 { "ligne" : {"" : ""

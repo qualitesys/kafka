@@ -305,7 +305,7 @@ var maDataBlocs = {
  , "c1" : "00209"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#209"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00209] For method parseVoterConnections arguments List&lt;String &gt;  voterEntries"
+ , "c3" : "QC-JAV000006[00209] For method parseVoterConnections arguments List&lt;String&gt;  voterEntries"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -459,14 +459,14 @@ var maDataBlocs = {
  , "c1" : "00244"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#244"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00244] For method quorumVoterStringsToNodes arguments List&lt;String &gt;  voters"
+ , "c3" : "QC-JAV000006[00244] For method quorumVoterStringsToNodes arguments List&lt;String&gt;  voters"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00248"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#248"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00248] For method voterConnectionsToNodes arguments Map&lt;Integer ,RaftConfig.AddressSpec &gt;  voterConnections"
+ , "c3" : "QC-JAV000006[00248] For method voterConnectionsToNodes arguments Map&lt;Integer,RaftConfig.AddressSpec&gt;  voterConnections"
 }} 
 ,
 { "ligne" : {"" : ""

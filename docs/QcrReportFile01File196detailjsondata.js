@@ -139,7 +139,7 @@ var maDataBlocs = {
  , "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RoundRobinAssignor.java.html#104"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00104] For method assign arguments Map&lt;String ,Integer &gt;  partitionsPerTopic|Map&lt;String ,Subscription &gt;  subscriptions"
+ , "c3" : "QC-JAV000006[00104] For method assign arguments Map&lt;String,Integer&gt;  partitionsPerTopic|Map&lt;String,Subscription&gt;  subscriptions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -167,7 +167,7 @@ var maDataBlocs = {
  , "c1" : "00125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RoundRobinAssignor.java.html#125"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00125] For method allPartitionsSorted arguments Map&lt;String ,Integer &gt;  partitionsPerTopic|Map&lt;String ,Subscription &gt;  subscriptions"
+ , "c3" : "QC-JAV000006[00125] For method allPartitionsSorted arguments Map&lt;String,Integer&gt;  partitionsPerTopic|Map&lt;String,Subscription&gt;  subscriptions"
 }} 
 ,
 { "ligne" : {"" : ""

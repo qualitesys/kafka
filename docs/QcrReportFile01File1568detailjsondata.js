@@ -489,7 +489,7 @@ var maDataBlocs = {
  , "c1" : "00273"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#273"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00273] For method onPartitionLeadershipChanges arguments Set&lt;TopicIdPartition &gt;  leaderPartitions|Set&lt;TopicIdPartition &gt;  followerPartitions"
+ , "c3" : "QC-JAV000006[00273] For method onPartitionLeadershipChanges arguments Set&lt;TopicIdPartition&gt;  leaderPartitions|Set&lt;TopicIdPartition&gt;  followerPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -524,14 +524,14 @@ var maDataBlocs = {
  , "c1" : "00301"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#301"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00301] For method assignPartitions arguments Set&lt;TopicIdPartition &gt;  allPartitions"
+ , "c3" : "QC-JAV000006[00301] For method assignPartitions arguments Set&lt;TopicIdPartition&gt;  allPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00310"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#310"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00310] For method onStopPartitions arguments Set&lt;TopicIdPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00310] For method onStopPartitions arguments Set&lt;TopicIdPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -545,7 +545,7 @@ var maDataBlocs = {
  , "c1" : "00331"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManager.java.html#331"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00331] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00331] For method configure arguments Map&lt;String,?&gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""

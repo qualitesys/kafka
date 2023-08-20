@@ -135,7 +135,7 @@ var maDataBlocs = {
  , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method validateScopes arguments String  scopeClaimName|Collection&lt;String &gt;  scopes"
+ , "c3" : "QC-JAV000006[00055] For method validateScopes arguments String  scopeClaimName|Collection&lt;String&gt;  scopes"
 }} 
 ,
 { "ligne" : {"" : ""

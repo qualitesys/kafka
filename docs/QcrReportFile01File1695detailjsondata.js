@@ -458,7 +458,7 @@ var maDataBlocs = {
  , "c1" : "00201"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedStreamAggregateBuilder.java.html#201"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00201] For method processRepartitions arguments Map&lt;KGroupedStreamImpl&lt;K ,? &gt; ,Aggregator&lt;? super K ,? super Object ,VOut &gt; &gt;  groupPatterns|StoreBuilder&lt;? &gt;  storeBuilder"
+ , "c3" : "QC-JAV000006[00201] For method processRepartitions arguments Map&lt;KGroupedStreamImpl&lt;K,?&gt;,Aggregator&lt;?superK,?superObject,VOut&gt;&gt;  groupPatterns|StoreBuilder&lt;?&gt;  storeBuilder"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -521,7 +521,7 @@ var maDataBlocs = {
  , "c1" : "00262"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/CogroupedStreamAggregateBuilder.java.html#262"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00262] For method getStatefulProcessorNode arguments String  processorName|boolean  stateCreated|StoreBuilder&lt;? &gt;  storeBuilder|ProcessorSupplier&lt;K ,? ,K ,? &gt;  kStreamAggregate"
+ , "c3" : "QC-JAV000006[00262] For method getStatefulProcessorNode arguments String  processorName|boolean  stateCreated|StoreBuilder&lt;?&gt;  storeBuilder|ProcessorSupplier&lt;K,?,K,?&gt;  kStreamAggregate"
 }} 
 ,
 { "ligne" : {"" : ""

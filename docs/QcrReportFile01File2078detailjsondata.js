@@ -313,7 +313,7 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method getIterator arguments TreeMap&lt;Bytes ,byte[] &gt;  treeMap|Bytes  from|Bytes  to|boolean  forward"
+ , "c3" : "QC-JAV000006[00075] For method getIterator arguments TreeMap&lt;Bytes,byte[]&gt;  treeMap|Bytes  from|Bytes  to|boolean  forward"
 }} 
 ,
 { "ligne" : {"" : ""

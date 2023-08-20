@@ -237,14 +237,14 @@ var maDataBlocs = {
  , "c1" : "00186"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#186"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00186] For method post arguments HttpURLConnection  con|Map&lt;String ,String &gt;  headers|String  requestBody|Integer  connectTimeoutMs|Integer  readTimeoutMs"
+ , "c3" : "QC-JAV000006[00186] For method post arguments HttpURLConnection  con|Map&lt;String,String&gt;  headers|String  requestBody|Integer  connectTimeoutMs|Integer  readTimeoutMs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00196"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#196"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00196] For method handleInput arguments HttpURLConnection  con|Map&lt;String ,String &gt;  headers|String  requestBody|Integer  connectTimeoutMs|Integer  readTimeoutMs"
+ , "c3" : "QC-JAV000006[00196] For method handleInput arguments HttpURLConnection  con|Map&lt;String,String&gt;  headers|String  requestBody|Integer  connectTimeoutMs|Integer  readTimeoutMs"
 }} 
 ,
 { "ligne" : {"" : ""

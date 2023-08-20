@@ -207,7 +207,7 @@ var maDataBlocs = {
  , "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#66"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00066] For method configure arguments Map&lt;String,?&gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -235,14 +235,14 @@ var maDataBlocs = {
  , "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#87"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00087] For method validateReconfiguration arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00087] For method validateReconfiguration arguments Map&lt;String,?&gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SslChannelBuilder.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00092] For method reconfigure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00092] For method reconfigure arguments Map&lt;String,?&gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""

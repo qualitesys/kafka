@@ -491,7 +491,7 @@ var maDataBlocs = {
  , "c1" : "00240"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#240"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00240] For method restoreState arguments StateRestoreCallback  stateRestoreCallback|List&lt;TopicPartition &gt;  topicPartitions|Map&lt;TopicPartition ,Long &gt;  highWatermarks|String  storeName|RecordConverter  recordConverter"
+ , "c3" : "QC-JAV000006[00240] For method restoreState arguments StateRestoreCallback  stateRestoreCallback|List&lt;TopicPartition&gt;  topicPartitions|Map&lt;TopicPartition,Long&gt;  highWatermarks|String  storeName|RecordConverter  recordConverter"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -785,7 +785,7 @@ var maDataBlocs = {
  , "c1" : "00403"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#403"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00403] For method updateChangelogOffsets arguments Map&lt;TopicPartition ,Long &gt;  offsets"
+ , "c3" : "QC-JAV000006[00403] For method updateChangelogOffsets arguments Map&lt;TopicPartition,Long&gt;  offsets"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -184,7 +184,7 @@ var maDataBlocs = {
  , "c1" : "00085"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/internals/ApiUtils.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00085] For method checkSupplier arguments Supplier&lt;? &gt;  supplier"
+ , "c3" : "QC-JAV000006[00085] For method checkSupplier arguments Supplier&lt;?&gt;  supplier"
 }} 
 ,
 { "ligne" : {"" : ""

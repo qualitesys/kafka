@@ -702,7 +702,7 @@ var maDataBlocs = {
  , "c1" : "00277"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#277"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00277] For method restoreAllInternal arguments Collection&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  records"
+ , "c3" : "QC-JAV000006[00277] For method restoreAllInternal arguments Collection&lt;ConsumerRecord&lt;byte[],byte[]&gt;&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -730,7 +730,7 @@ var maDataBlocs = {
  , "c1" : "00291"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#291"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00291] For method getWriteBatches arguments Collection&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  records"
+ , "c3" : "QC-JAV000006[00291] For method getWriteBatches arguments Collection&lt;ConsumerRecord&lt;byte[],byte[]&gt;&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""

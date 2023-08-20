@@ -108,7 +108,7 @@ var maDataBlocs = {
  , "c1" : "00040"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThreadTotalBlockedTime.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method metricValue arguments Map&lt;MetricName ,?  extends Metric &gt;  metrics|String  name"
+ , "c3" : "QC-JAV000006[00040] For method metricValue arguments Map&lt;MetricName,?extendsMetric&gt;  metrics|String  name"
 }} 
 ,
 { "ligne" : {"" : ""

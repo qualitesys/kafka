@@ -118,7 +118,7 @@ var maDataBlocs = {
  , "c1" : "00058"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java.html#58"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00058] For method configure arguments Map&lt;String ,? &gt;  props"
+ , "c3" : "QC-JAV000006[00058] For method configure arguments Map&lt;String,?&gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""

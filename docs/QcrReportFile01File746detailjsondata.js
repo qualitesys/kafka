@@ -217,7 +217,7 @@ var maDataBlocs = {
  , "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method loadServerContext arguments ListenerName  listenerName|String  mechanism|Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00060] For method loadServerContext arguments ListenerName  listenerName|String  mechanism|Map&lt;String,?&gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -294,7 +294,7 @@ var maDataBlocs = {
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method loadClientContext arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00080] For method loadClientContext arguments Map&lt;String,?&gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -581,7 +581,7 @@ var maDataBlocs = {
  , "c1" : "00184"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasContext.java.html#184"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00184] For method configEntryOption arguments List&lt;AppConfigurationEntry &gt;  configurationEntries|String  key|String  loginModuleName"
+ , "c3" : "QC-JAV000006[00184] For method configEntryOption arguments List&lt;AppConfigurationEntry&gt;  configurationEntries|String  key|String  loginModuleName"
 }} 
 ,
 { "ligne" : {"" : ""

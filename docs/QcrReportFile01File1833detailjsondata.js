@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c1" : "00061"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/LogAndSkipOnInvalidTimestamp.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00061] For method onInvalidTimestamp arguments ConsumerRecord&lt;Object ,Object &gt;  record|long  recordTimestamp|long  partitionTime"
+ , "c3" : "QC-JAV000006[00061] For method onInvalidTimestamp arguments ConsumerRecord&lt;Object,Object&gt;  record|long  recordTimestamp|long  partitionTime"
 }} 
 ,
 { "ligne" : {"" : ""

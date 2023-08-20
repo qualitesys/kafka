@@ -93,7 +93,7 @@ var maDataBlocs = {
  , "c1" : "00042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamFilter.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method process arguments FixedKeyRecord&lt;K ,V &gt;  record"
+ , "c3" : "QC-JAV000006[00042] For method process arguments FixedKeyRecord&lt;K,V&gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""

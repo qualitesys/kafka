@@ -131,7 +131,7 @@ var maDataBlocs = {
  , "c1" : "00107"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DeleteAclsResult.java.html#107"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00107] For method getAclBindings arguments Map&lt;AclBindingFilter ,KafkaFuture&lt;FilterResults &gt; &gt;  futures"
+ , "c3" : "QC-JAV000006[00107] For method getAclBindings arguments Map&lt;AclBindingFilter,KafkaFuture&lt;FilterResults&gt;&gt;  futures"
 }} 
 ,
 { "ligne" : {"" : ""

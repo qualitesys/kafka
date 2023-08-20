@@ -258,7 +258,7 @@ var maDataBlocs = {
  , "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#79"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00079] For method setTargetTimes arguments List&lt;ListOffsetsTopic &gt;  topics"
+ , "c3" : "QC-JAV000006[00079] For method setTargetTimes arguments List&lt;ListOffsetsTopic&gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -363,7 +363,7 @@ var maDataBlocs = {
  , "c1" : "00168"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListOffsetsRequest.java.html#168"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00168] For method toListOffsetsTopics arguments Map&lt;TopicPartition ,ListOffsetsPartition &gt;  timestampsToSearch"
+ , "c3" : "QC-JAV000006[00168] For method toListOffsetsTopics arguments Map&lt;TopicPartition,ListOffsetsPartition&gt;  timestampsToSearch"
 }} 
 ,
 { "ligne" : {"" : ""

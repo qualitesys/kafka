@@ -691,7 +691,7 @@ var maDataBlocs = {
  , "c1" : "00177"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#177"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00177] For method putAll arguments String  namespace|List&lt;KeyValue&lt;Bytes ,LRUCacheEntry &gt; &gt;  entries"
+ , "c3" : "QC-JAV000006[00177] For method putAll arguments String  namespace|List&lt;KeyValue&lt;Bytes,LRUCacheEntry&gt;&gt;  entries"
 }} 
 ,
 { "ligne" : {"" : ""

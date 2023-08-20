@@ -382,7 +382,7 @@ var maDataBlocs = {
  , "c1" : "00177"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#177"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00177] For method newRecord arguments R  record|Schema  updatedSchema|Object  updatedValue|Iterable&lt;Header &gt;  updatedHeaders"
+ , "c3" : "QC-JAV000006[00177] For method newRecord arguments R  record|Schema  updatedSchema|Object  updatedValue|Iterable&lt;Header&gt;  updatedHeaders"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -417,7 +417,7 @@ var maDataBlocs = {
  , "c1" : "00192"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#192"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00192] For method newRecord arguments R  record|Schema  updatedSchema|Object  updatedValue|Iterable&lt;Header &gt;  updatedHeaders"
+ , "c3" : "QC-JAV000006[00192] For method newRecord arguments R  record|Schema  updatedSchema|Object  updatedValue|Iterable&lt;Header&gt;  updatedHeaders"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -459,7 +459,7 @@ var maDataBlocs = {
  , "c1" : "00211"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#211"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00211] For method newRecord arguments R  record|Schema  updatedSchema|Object  updatedValue|Iterable&lt;Header &gt;  updatedHeaders"
+ , "c3" : "QC-JAV000006[00211] For method newRecord arguments R  record|Schema  updatedSchema|Object  updatedValue|Iterable&lt;Header&gt;  updatedHeaders"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -473,7 +473,7 @@ var maDataBlocs = {
  , "c1" : "00228"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#228"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00228] For method configure arguments Map&lt;String ,? &gt;  props"
+ , "c3" : "QC-JAV000006[00228] For method configure arguments Map&lt;String,?&gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""

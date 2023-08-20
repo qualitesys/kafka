@@ -837,7 +837,7 @@ var maDataBlocs = {
  , "c1" : "00616"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#616"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00616] For method commit arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets"
+ , "c3" : "QC-JAV000006[00616] For method commit arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1495,7 +1495,7 @@ var maDataBlocs = {
  , "c1" : "01132"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1132"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01132] For method unregister arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[01132] For method unregister arguments Collection&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1537,7 +1537,7 @@ var maDataBlocs = {
  , "c1" : "01171"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1171"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01171] For method waitObject arguments Object  obj|Supplier&lt;Boolean &gt;  condition|long  timeoutMs"
+ , "c3" : "QC-JAV000006[01171] For method waitObject arguments Object  obj|Supplier&lt;Boolean&gt;  condition|long  timeoutMs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1572,7 +1572,7 @@ var maDataBlocs = {
  , "c1" : "01207"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1207"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01207] For method putAll arguments List&lt;KeyValue&lt;K ,V &gt; &gt;  entries"
+ , "c3" : "QC-JAV000006[01207] For method putAll arguments List&lt;KeyValue&lt;K,V&gt;&gt;  entries"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1670,7 +1670,7 @@ var maDataBlocs = {
  , "c1" : "01358"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1358"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01358] For method commitTransaction arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets|ConsumerGroupMetadata  consumerGroupMetadata"
+ , "c3" : "QC-JAV000006[01358] For method commitTransaction arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets|ConsumerGroupMetadata  consumerGroupMetadata"
 }} 
 ,
 { "ligne" : {"" : ""

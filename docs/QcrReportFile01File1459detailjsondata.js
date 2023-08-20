@@ -3127,7 +3127,7 @@ var maDataBlocs = {
  , "c1" : "01222"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1222"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01222] For method filterCheck arguments Class&lt;? &gt;  clazz|int  arrayLength"
+ , "c3" : "QC-JAV000006[01222] For method filterCheck arguments Class&lt;?&gt;  clazz|int  arrayLength"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3295,7 +3295,7 @@ var maDataBlocs = {
  , "c1" : "01445"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1445"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01445] For method auditSubclass arguments Class&lt;? &gt;  subcl"
+ , "c3" : "QC-JAV000006[01445] For method auditSubclass arguments Class&lt;?&gt;  subcl"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4737,7 +4737,7 @@ var maDataBlocs = {
  , "c1" : "02424"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2424"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02424] For method getFieldOffset arguments String  name|Class&lt;? &gt;  type"
+ , "c3" : "QC-JAV000006[02424] For method getFieldOffset arguments String  name|Class&lt;?&gt;  type"
 }} 
 ,
 { "ligne" : {"" : ""

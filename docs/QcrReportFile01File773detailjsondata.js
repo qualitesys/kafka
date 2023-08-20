@@ -130,7 +130,7 @@ var maDataBlocs = {
  , "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosClientCallbackHandler.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method configure arguments Map&lt;String ,? &gt;  configs|String  saslMechanism|List&lt;AppConfigurationEntry &gt;  jaasConfigEntries"
+ , "c3" : "QC-JAV000006[00038] For method configure arguments Map&lt;String,?&gt;  configs|String  saslMechanism|List&lt;AppConfigurationEntry&gt;  jaasConfigEntries"
 }} 
 ,
 { "ligne" : {"" : ""

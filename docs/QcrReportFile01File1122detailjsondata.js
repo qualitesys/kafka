@@ -297,7 +297,7 @@ var maDataBlocs = {
  , "c1" : "00069"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00069] For method consumerRecord arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  consumedMessage"
+ , "c3" : "QC-JAV000006[00069] For method consumerRecord arguments ConsumerRecord&lt;byte[],byte[]&gt;  consumedMessage"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -318,14 +318,14 @@ var maDataBlocs = {
  , "c1" : "00124"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#124"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00124] For method executingClass arguments Class&lt;? &gt;  klass"
+ , "c3" : "QC-JAV000006[00124] For method executingClass arguments Class&lt;?&gt;  klass"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00134"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#134"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00134] For method currentContext arguments Stage  stage|Class&lt;? &gt;  klass"
+ , "c3" : "QC-JAV000006[00134] For method currentContext arguments Stage  stage|Class&lt;?&gt;  klass"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -507,7 +507,7 @@ var maDataBlocs = {
  , "c1" : "00232"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/ProcessingContext.java.html#232"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00232] For method reporters arguments Collection&lt;ErrorReporter &gt;  reporters"
+ , "c3" : "QC-JAV000006[00232] For method reporters arguments Collection&lt;ErrorReporter&gt;  reporters"
 }} 
 ,
 { "ligne" : {"" : ""

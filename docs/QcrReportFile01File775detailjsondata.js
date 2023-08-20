@@ -259,7 +259,7 @@ var maDataBlocs = {
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00085] For method configure arguments Map&lt;String ,? &gt;  configs|String  contextName|Configuration  configuration|AuthenticateCallbackHandler  callbackHandler"
+ , "c3" : "QC-JAV000006[00085] For method configure arguments Map&lt;String,?&gt;  configs|String  contextName|Configuration  configuration|AuthenticateCallbackHandler  callbackHandler"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -728,7 +728,7 @@ var maDataBlocs = {
  , "c1" : "00288"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#288"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00288] For method getServiceName arguments Map&lt;String ,? &gt;  configs|String  contextName|Configuration  configuration"
+ , "c3" : "QC-JAV000006[00288] For method getServiceName arguments Map&lt;String,?&gt;  configs|String  contextName|Configuration  configuration"
 }} 
 ,
 { "ligne" : {"" : ""

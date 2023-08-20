@@ -197,7 +197,7 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method acquireLoginManager arguments JaasContext  jaasContext|String  saslMechanism|Class&lt;?  extends Login &gt;  defaultLoginClass|Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00088] For method acquireLoginManager arguments JaasContext  jaasContext|String  saslMechanism|Class&lt;?extendsLogin&gt;  defaultLoginClass|Map&lt;String,?&gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -97,7 +97,7 @@ var maDataBlocs = {
  , "c1" : "00043"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ChangelogRecordDeserializationHelper.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method applyChecksAndUpdatePosition arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  record|boolean  consistencyEnabled|Position  position"
+ , "c3" : "QC-JAV000006[00043] For method applyChecksAndUpdatePosition arguments ConsumerRecord&lt;byte[],byte[]&gt;  record|boolean  consistencyEnabled|Position  position"
 }} 
 ,
 { "ligne" : {"" : ""

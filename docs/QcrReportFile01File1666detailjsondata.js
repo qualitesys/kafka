@@ -155,14 +155,14 @@ var maDataBlocs = {
  , "c1" : "00103"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TableJoined.java.html#103"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00103] For method withPartitioner arguments StreamPartitioner&lt;K ,Void &gt;  partitioner"
+ , "c3" : "QC-JAV000006[00103] For method withPartitioner arguments StreamPartitioner&lt;K,Void&gt;  partitioner"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/TableJoined.java.html#120"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00120] For method withOtherPartitioner arguments StreamPartitioner&lt;KO ,Void &gt;  otherPartitioner"
+ , "c3" : "QC-JAV000006[00120] For method withOtherPartitioner arguments StreamPartitioner&lt;KO,Void&gt;  otherPartitioner"
 }} 
 ,
 { "ligne" : {"" : ""

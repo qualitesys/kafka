@@ -308,7 +308,7 @@ var maDataBlocs = {
  , "c1" : "00140"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FindCoordinatorResponse.java.html#140"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00140] For method prepareErrorResponse arguments Errors  error|List&lt;String &gt;  keys"
+ , "c3" : "QC-JAV000006[00140] For method prepareErrorResponse arguments Errors  error|List&lt;String&gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""

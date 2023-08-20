@@ -499,7 +499,7 @@ var maDataBlocs = {
  , "c1" : "00509"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsBuilder.java.html#509"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00509] For method addStateStore arguments StoreBuilder&lt;? &gt;  builder"
+ , "c3" : "QC-JAV000006[00509] For method addStateStore arguments StoreBuilder&lt;?&gt;  builder"
 }} 
 ,
 { "ligne" : {"" : ""

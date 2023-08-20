@@ -286,14 +286,14 @@ var maDataBlocs = {
  , "c1" : "00266"
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#266"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00266] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00266] For method configure arguments Map&lt;String,?&gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00277"
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#277"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00277] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00277] For method configure arguments Map&lt;String,?&gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""

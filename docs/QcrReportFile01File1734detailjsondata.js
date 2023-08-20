@@ -276,7 +276,7 @@ var maDataBlocs = {
  , "c1" : "00170"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableImpl.java.html#170"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00170] For method doFilter arguments Predicate&lt;? super K ,? super V &gt;  predicate|Named  named|MaterializedInternal&lt;K ,V ,KeyValueStore&lt;Bytes ,byte[] &gt; &gt;  materializedInternal|boolean  filterNot"
+ , "c3" : "QC-JAV000006[00170] For method doFilter arguments Predicate&lt;?superK,?superV&gt;  predicate|Named  named|MaterializedInternal&lt;K,V,KeyValueStore&lt;Bytes,byte[]&gt;&gt;  materializedInternal|boolean  filterNot"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -346,7 +346,7 @@ var maDataBlocs = {
  , "c1" : "00228"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableImpl.java.html#228"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00228] For method filter arguments Predicate&lt;? super K ,? super V &gt;  predicate"
+ , "c3" : "QC-JAV000006[00228] For method filter arguments Predicate&lt;?superK,?superV&gt;  predicate"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -374,7 +374,7 @@ var maDataBlocs = {
  , "c1" : "00234"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableImpl.java.html#234"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00234] For method filter arguments Predicate&lt;? super K ,? super V &gt;  predicate|Named  named"
+ , "c3" : "QC-JAV000006[00234] For method filter arguments Predicate&lt;?superK,?superV&gt;  predicate|Named  named"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -402,7 +402,7 @@ var maDataBlocs = {
  , "c1" : "00240"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableImpl.java.html#240"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00240] For method filter arguments Predicate&lt;? super K ,? super V &gt;  predicate|Named  named|Materialized&lt;K ,V ,KeyValueStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
+ , "c3" : "QC-JAV000006[00240] For method filter arguments Predicate&lt;?superK,?superV&gt;  predicate|Named  named|Materialized&lt;K,V,KeyValueStore&lt;Bytes,byte[]&gt;&gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -430,14 +430,14 @@ var maDataBlocs = {
  , "c1" : "00251"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableImpl.java.html#251"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00251] For method filter arguments Predicate&lt;? super K ,? super V &gt;  predicate|Materialized&lt;K ,V ,KeyValueStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
+ , "c3" : "QC-JAV000006[00251] For method filter arguments Predicate&lt;?superK,?superV&gt;  predicate|Materialized&lt;K,V,KeyValueStore&lt;Bytes,byte[]&gt;&gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00257"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableImpl.java.html#257"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00257] For method filterNot arguments Predicate&lt;? super K ,? super V &gt;  predicate"
+ , "c3" : "QC-JAV000006[00257] For method filterNot arguments Predicate&lt;?superK,?superV&gt;  predicate"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -465,7 +465,7 @@ var maDataBlocs = {
  , "c1" : "00263"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableImpl.java.html#263"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00263] For method filterNot arguments Predicate&lt;? super K ,? super V &gt;  predicate|Named  named"
+ , "c3" : "QC-JAV000006[00263] For method filterNot arguments Predicate&lt;?superK,?superV&gt;  predicate|Named  named"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -493,14 +493,14 @@ var maDataBlocs = {
  , "c1" : "00270"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableImpl.java.html#270"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00270] For method filterNot arguments Predicate&lt;? super K ,? super V &gt;  predicate|Materialized&lt;K ,V ,KeyValueStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
+ , "c3" : "QC-JAV000006[00270] For method filterNot arguments Predicate&lt;?superK,?superV&gt;  predicate|Materialized&lt;K,V,KeyValueStore&lt;Bytes,byte[]&gt;&gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00276"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableImpl.java.html#276"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00276] For method filterNot arguments Predicate&lt;? super K ,? super V &gt;  predicate|Named  named|Materialized&lt;K ,V ,KeyValueStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
+ , "c3" : "QC-JAV000006[00276] For method filterNot arguments Predicate&lt;?superK,?superV&gt;  predicate|Named  named|Materialized&lt;K,V,KeyValueStore&lt;Bytes,byte[]&gt;&gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -787,7 +787,7 @@ var maDataBlocs = {
  , "c1" : "00534"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableImpl.java.html#534"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00534] For method suppress arguments Suppressed&lt;? super K &gt;  suppressed"
+ , "c3" : "QC-JAV000006[00534] For method suppress arguments Suppressed&lt;?superK&gt;  suppressed"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -836,7 +836,7 @@ var maDataBlocs = {
  , "c1" : "00592"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableImpl.java.html#592"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00592] For method buildSuppress arguments Suppressed&lt;? super K &gt;  suppress|String  name"
+ , "c3" : "QC-JAV000006[00592] For method buildSuppress arguments Suppressed&lt;?superK&gt;  suppress|String  name"
 }} 
 ,
 { "ligne" : {"" : ""

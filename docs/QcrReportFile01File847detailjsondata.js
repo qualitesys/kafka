@@ -275,7 +275,7 @@ var maDataBlocs = {
  , "c1" : "00102"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#102"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00102] For method shouldBeRebuilt arguments Map&lt;String ,Object &gt;  nextConfigs"
+ , "c3" : "QC-JAV000006[00102] For method shouldBeRebuilt arguments Map&lt;String,Object&gt;  nextConfigs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -359,7 +359,7 @@ var maDataBlocs = {
  , "c1" : "00132"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#132"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00132] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00132] For method configure arguments Map&lt;String,?&gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -180,7 +180,7 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProduceRequestResult.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method set arguments long  baseOffset|long  logAppendTime|Function&lt;Integer ,RuntimeException &gt;  errorsByIndex"
+ , "c3" : "QC-JAV000006[00057] For method set arguments long  baseOffset|long  logAppendTime|Function&lt;Integer,RuntimeException&gt;  errorsByIndex"
 }} 
 ,
 { "ligne" : {"" : ""

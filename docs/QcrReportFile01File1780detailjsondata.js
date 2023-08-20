@@ -143,7 +143,7 @@ var maDataBlocs = {
  , "c1" : "00051"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WrappingNullableSerde.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00051] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00051] For method configure arguments Map&lt;String,?&gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -164,7 +164,7 @@ var maDataBlocs = {
  , "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00042] For method configure arguments Map&lt;String,?&gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -220,7 +220,7 @@ var maDataBlocs = {
  , "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#81"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00081] For method get arguments String  path|Set&lt;String &gt;  keys"
+ , "c3" : "QC-JAV000006[00081] For method get arguments String  path|Set&lt;String&gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""

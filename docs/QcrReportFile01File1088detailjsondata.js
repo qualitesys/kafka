@@ -825,7 +825,7 @@ var maDataBlocs = {
  , "c1" : "00273"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#273"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00273] For method startConnector arguments String  connName|Map&lt;String ,String &gt;  connProps|CloseableConnectorContext  ctx|ConnectorStatus.Listener  statusListener|TargetState  initialState|Callback&lt;TargetState &gt;  onConnectorStateChange"
+ , "c3" : "QC-JAV000006[00273] For method startConnector arguments String  connName|Map&lt;String,String&gt;  connProps|CloseableConnectorContext  ctx|ConnectorStatus.Listener  statusListener|TargetState  initialState|Callback&lt;TargetState&gt;  onConnectorStateChange"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1063,7 +1063,7 @@ var maDataBlocs = {
  , "c1" : "00440"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#440"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00440] For method stopConnectors arguments Collection&lt;String &gt;  ids"
+ , "c3" : "QC-JAV000006[00440] For method stopConnectors arguments Collection&lt;String&gt;  ids"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1133,7 +1133,7 @@ var maDataBlocs = {
  , "c1" : "00468"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#468"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00468] For method awaitStopConnectors arguments Collection&lt;String &gt;  ids"
+ , "c3" : "QC-JAV000006[00468] For method awaitStopConnectors arguments Collection&lt;String&gt;  ids"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1147,7 +1147,7 @@ var maDataBlocs = {
  , "c1" : "00490"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#490"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00490] For method stopAndAwaitConnectors arguments Collection&lt;String &gt;  ids"
+ , "c3" : "QC-JAV000006[00490] For method stopAndAwaitConnectors arguments Collection&lt;String&gt;  ids"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1175,28 +1175,28 @@ var maDataBlocs = {
  , "c1" : "00536"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#536"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00536] For method startSinkTask arguments ConnectorTaskId  id|ClusterConfigState  configState|Map&lt;String ,String &gt;  connProps|Map&lt;String ,String &gt;  taskProps|TaskStatus.Listener  statusListener|TargetState  initialState"
+ , "c3" : "QC-JAV000006[00536] For method startSinkTask arguments ConnectorTaskId  id|ClusterConfigState  configState|Map&lt;String,String&gt;  connProps|Map&lt;String,String&gt;  taskProps|TaskStatus.Listener  statusListener|TargetState  initialState"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00559"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#559"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00559] For method startSourceTask arguments ConnectorTaskId  id|ClusterConfigState  configState|Map&lt;String ,String &gt;  connProps|Map&lt;String ,String &gt;  taskProps|TaskStatus.Listener  statusListener|TargetState  initialState"
+ , "c3" : "QC-JAV000006[00559] For method startSourceTask arguments ConnectorTaskId  id|ClusterConfigState  configState|Map&lt;String,String&gt;  connProps|Map&lt;String,String&gt;  taskProps|TaskStatus.Listener  statusListener|TargetState  initialState"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00585"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#585"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00585] For method startExactlyOnceSourceTask arguments ConnectorTaskId  id|ClusterConfigState  configState|Map&lt;String ,String &gt;  connProps|Map&lt;String ,String &gt;  taskProps|TaskStatus.Listener  statusListener|TargetState  initialState|Runnable  preProducerCheck|Runnable  postProducerCheck"
+ , "c3" : "QC-JAV000006[00585] For method startExactlyOnceSourceTask arguments ConnectorTaskId  id|ClusterConfigState  configState|Map&lt;String,String&gt;  connProps|Map&lt;String,String&gt;  taskProps|TaskStatus.Listener  statusListener|TargetState  initialState|Runnable  preProducerCheck|Runnable  postProducerCheck"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00609"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#609"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00609] For method startTask arguments ConnectorTaskId  id|Map&lt;String ,String &gt;  connProps|Map&lt;String ,String &gt;  taskProps|TaskStatus.Listener  statusListener|TaskBuilder  taskBuilder"
+ , "c3" : "QC-JAV000006[00609] For method startTask arguments ConnectorTaskId  id|Map&lt;String,String&gt;  connProps|Map&lt;String,String&gt;  taskProps|TaskStatus.Listener  statusListener|TaskBuilder  taskBuilder"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1336,14 +1336,14 @@ var maDataBlocs = {
  , "c1" : "00706"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#706"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00706] For method fenceZombies arguments String  connName|int  numTasks|Map&lt;String ,String &gt;  connProps"
+ , "c3" : "QC-JAV000006[00706] For method fenceZombies arguments String  connName|int  numTasks|Map&lt;String,String&gt;  connProps"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00711"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#711"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00711] For method fenceZombies arguments String  connName|int  numTasks|Map&lt;String ,String &gt;  connProps|Function&lt;Map&lt;String ,Object &gt; ,Admin &gt;  adminFactory"
+ , "c3" : "QC-JAV000006[00711] For method fenceZombies arguments String  connName|int  numTasks|Map&lt;String,String&gt;  connProps|Function&lt;Map&lt;String,Object&gt;,Admin&gt;  adminFactory"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1413,7 +1413,7 @@ var maDataBlocs = {
  , "c1" : "00752"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#752"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00752] For method exactlyOnceSourceTaskProducerConfigs arguments ConnectorTaskId  id|WorkerConfig  config|ConnectorConfig  connConfig|Class&lt;?  extends Connector &gt;  connectorClass|ConnectorClientConfigOverridePolicy  connectorClientConfigOverridePolicy|String  clusterId"
+ , "c3" : "QC-JAV000006[00752] For method exactlyOnceSourceTaskProducerConfigs arguments ConnectorTaskId  id|WorkerConfig  config|ConnectorConfig  connConfig|Class&lt;?extendsConnector&gt;  connectorClass|ConnectorClientConfigOverridePolicy  connectorClientConfigOverridePolicy|String  clusterId"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1483,7 +1483,7 @@ var maDataBlocs = {
  , "c1" : "00773"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#773"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00773] For method baseProducerConfigs arguments String  connName|String  defaultClientId|WorkerConfig  config|ConnectorConfig  connConfig|Class&lt;?  extends Connector &gt;  connectorClass|ConnectorClientConfigOverridePolicy  connectorClientConfigOverridePolicy|String  clusterId"
+ , "c3" : "QC-JAV000006[00773] For method baseProducerConfigs arguments String  connName|String  defaultClientId|WorkerConfig  config|ConnectorConfig  connConfig|Class&lt;?extendsConnector&gt;  connectorClass|ConnectorClientConfigOverridePolicy  connectorClientConfigOverridePolicy|String  clusterId"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1546,7 +1546,7 @@ var maDataBlocs = {
  , "c1" : "00812"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#812"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00812] For method exactlyOnceSourceOffsetsConsumerConfigs arguments String  connName|String  defaultClientId|WorkerConfig  config|ConnectorConfig  connConfig|Class&lt;?  extends Connector &gt;  connectorClass|ConnectorClientConfigOverridePolicy  connectorClientConfigOverridePolicy|String  clusterId"
+ , "c3" : "QC-JAV000006[00812] For method exactlyOnceSourceOffsetsConsumerConfigs arguments String  connName|String  defaultClientId|WorkerConfig  config|ConnectorConfig  connConfig|Class&lt;?extendsConnector&gt;  connectorClass|ConnectorClientConfigOverridePolicy  connectorClientConfigOverridePolicy|String  clusterId"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1574,7 +1574,7 @@ var maDataBlocs = {
  , "c1" : "00830"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#830"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00830] For method regularSourceOffsetsConsumerConfigs arguments String  connName|String  defaultClientId|WorkerConfig  config|ConnectorConfig  connConfig|Class&lt;?  extends Connector &gt;  connectorClass|ConnectorClientConfigOverridePolicy  connectorClientConfigOverridePolicy|String  clusterId"
+ , "c3" : "QC-JAV000006[00830] For method regularSourceOffsetsConsumerConfigs arguments String  connName|String  defaultClientId|WorkerConfig  config|ConnectorConfig  connConfig|Class&lt;?extendsConnector&gt;  connectorClass|ConnectorClientConfigOverridePolicy  connectorClientConfigOverridePolicy|String  clusterId"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1588,7 +1588,7 @@ var maDataBlocs = {
  , "c1" : "00847"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#847"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00847] For method baseConsumerConfigs arguments String  connName|String  defaultClientId|WorkerConfig  config|ConnectorConfig  connConfig|Class&lt;?  extends Connector &gt;  connectorClass|ConnectorClientConfigOverridePolicy  connectorClientConfigOverridePolicy|String  clusterId|ConnectorType  connectorType"
+ , "c3" : "QC-JAV000006[00847] For method baseConsumerConfigs arguments String  connName|String  defaultClientId|WorkerConfig  config|ConnectorConfig  connConfig|Class&lt;?extendsConnector&gt;  connectorClass|ConnectorClientConfigOverridePolicy  connectorClientConfigOverridePolicy|String  clusterId|ConnectorType  connectorType"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1644,7 +1644,7 @@ var maDataBlocs = {
  , "c1" : "00880"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#880"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00880] For method adminConfigs arguments String  connName|String  defaultClientId|WorkerConfig  config|ConnectorConfig  connConfig|Class&lt;?  extends Connector &gt;  connectorClass|ConnectorClientConfigOverridePolicy  connectorClientConfigOverridePolicy|String  clusterId|ConnectorType  connectorType"
+ , "c3" : "QC-JAV000006[00880] For method adminConfigs arguments String  connName|String  defaultClientId|WorkerConfig  config|ConnectorConfig  connConfig|Class&lt;?extendsConnector&gt;  connectorClass|ConnectorClientConfigOverridePolicy  connectorClientConfigOverridePolicy|String  clusterId|ConnectorType  connectorType"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1693,7 +1693,7 @@ var maDataBlocs = {
  , "c1" : "00919"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#919"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00919] For method connectorClientConfigOverrides arguments String  connName|ConnectorConfig  connConfig|Class&lt;?  extends Connector &gt;  connectorClass|String  clientConfigPrefix|ConnectorType  connectorType|ConnectorClientConfigRequest.ClientType  clientType|ConnectorClientConfigOverridePolicy  connectorClientConfigOverridePolicy"
+ , "c3" : "QC-JAV000006[00919] For method connectorClientConfigOverrides arguments String  connName|ConnectorConfig  connConfig|Class&lt;?extendsConnector&gt;  connectorClass|String  clientConfigPrefix|ConnectorType  connectorType|ConnectorClientConfigRequest.ClientType  clientType|ConnectorClientConfigOverridePolicy  connectorClientConfigOverridePolicy"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1777,7 +1777,7 @@ var maDataBlocs = {
  , "c1" : "00961"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#961"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00961] For method sinkTaskReporters arguments ConnectorTaskId  id|SinkConnectorConfig  connConfig|ErrorHandlingMetrics  errorHandlingMetrics|Class&lt;?  extends Connector &gt;  connectorClass"
+ , "c3" : "QC-JAV000006[00961] For method sinkTaskReporters arguments ConnectorTaskId  id|SinkConnectorConfig  connConfig|ErrorHandlingMetrics  errorHandlingMetrics|Class&lt;?extendsConnector&gt;  connectorClass"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1882,7 +1882,7 @@ var maDataBlocs = {
  , "c1" : "01027"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1027"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01027] For method stopTasks arguments Collection&lt;ConnectorTaskId &gt;  ids"
+ , "c3" : "QC-JAV000006[01027] For method stopTasks arguments Collection&lt;ConnectorTaskId&gt;  ids"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1924,7 +1924,7 @@ var maDataBlocs = {
  , "c1" : "01058"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1058"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01058] For method awaitStopTasks arguments Collection&lt;ConnectorTaskId &gt;  ids"
+ , "c3" : "QC-JAV000006[01058] For method awaitStopTasks arguments Collection&lt;ConnectorTaskId&gt;  ids"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1938,7 +1938,7 @@ var maDataBlocs = {
  , "c1" : "01079"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1079"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01079] For method stopAndAwaitTasks arguments Collection&lt;ConnectorTaskId &gt;  ids"
+ , "c3" : "QC-JAV000006[01079] For method stopAndAwaitTasks arguments Collection&lt;ConnectorTaskId&gt;  ids"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1952,7 +1952,7 @@ var maDataBlocs = {
  , "c1" : "01135"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1135"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01135] For method setTargetState arguments String  connName|TargetState  state|Callback&lt;TargetState &gt;  stateChangeCallback"
+ , "c3" : "QC-JAV000006[01135] For method setTargetState arguments String  connName|TargetState  state|Callback&lt;TargetState&gt;  stateChangeCallback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2092,7 +2092,7 @@ var maDataBlocs = {
  , "c1" : "01247"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1247"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01247] For method doBuild arguments Task  task|ConnectorTaskId  id|ClusterConfigState  configState|TaskStatus.Listener  statusListener|TargetState  initialState|ConnectorConfig  connectorConfig|Converter  keyConverter|Converter  valueConverter|HeaderConverter  headerConverter|ClassLoader  classLoader|ErrorHandlingMetrics  errorHandlingMetrics|Class&lt;?  extends Connector &gt;  connectorClass|RetryWithToleranceOperator  retryWithToleranceOperator"
+ , "c3" : "QC-JAV000006[01247] For method doBuild arguments Task  task|ConnectorTaskId  id|ClusterConfigState  configState|TaskStatus.Listener  statusListener|TargetState  initialState|ConnectorConfig  connectorConfig|Converter  keyConverter|Converter  valueConverter|HeaderConverter  headerConverter|ClassLoader  classLoader|ErrorHandlingMetrics  errorHandlingMetrics|Class&lt;?extendsConnector&gt;  connectorClass|RetryWithToleranceOperator  retryWithToleranceOperator"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2141,7 +2141,7 @@ var maDataBlocs = {
  , "c1" : "01272"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1272"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01272] For method doBuild arguments Task  task|ConnectorTaskId  id|ClusterConfigState  configState|TaskStatus.Listener  statusListener|TargetState  initialState|ConnectorConfig  connectorConfig|Converter  keyConverter|Converter  valueConverter|HeaderConverter  headerConverter|ClassLoader  classLoader|ErrorHandlingMetrics  errorHandlingMetrics|Class&lt;?  extends Connector &gt;  connectorClass|RetryWithToleranceOperator  retryWithToleranceOperator"
+ , "c3" : "QC-JAV000006[01272] For method doBuild arguments Task  task|ConnectorTaskId  id|ClusterConfigState  configState|TaskStatus.Listener  statusListener|TargetState  initialState|ConnectorConfig  connectorConfig|Converter  keyConverter|Converter  valueConverter|HeaderConverter  headerConverter|ClassLoader  classLoader|ErrorHandlingMetrics  errorHandlingMetrics|Class&lt;?extendsConnector&gt;  connectorClass|RetryWithToleranceOperator  retryWithToleranceOperator"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2183,7 +2183,7 @@ var maDataBlocs = {
  , "c1" : "01313"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1313"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01313] For method doBuild arguments Task  task|ConnectorTaskId  id|ClusterConfigState  configState|TaskStatus.Listener  statusListener|TargetState  initialState|ConnectorConfig  connectorConfig|Converter  keyConverter|Converter  valueConverter|HeaderConverter  headerConverter|ClassLoader  classLoader|ErrorHandlingMetrics  errorHandlingMetrics|Class&lt;?  extends Connector &gt;  connectorClass|RetryWithToleranceOperator  retryWithToleranceOperator"
+ , "c3" : "QC-JAV000006[01313] For method doBuild arguments Task  task|ConnectorTaskId  id|ClusterConfigState  configState|TaskStatus.Listener  statusListener|TargetState  initialState|ConnectorConfig  connectorConfig|Converter  keyConverter|Converter  valueConverter|HeaderConverter  headerConverter|ClassLoader  classLoader|ErrorHandlingMetrics  errorHandlingMetrics|Class&lt;?extendsConnector&gt;  connectorClass|RetryWithToleranceOperator  retryWithToleranceOperator"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2246,7 +2246,7 @@ var maDataBlocs = {
  , "c1" : "01381"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1381"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01381] For method doBuild arguments Task  task|ConnectorTaskId  id|ClusterConfigState  configState|TaskStatus.Listener  statusListener|TargetState  initialState|ConnectorConfig  connectorConfig|Converter  keyConverter|Converter  valueConverter|HeaderConverter  headerConverter|ClassLoader  classLoader|ErrorHandlingMetrics  errorHandlingMetrics|Class&lt;?  extends Connector &gt;  connectorClass|RetryWithToleranceOperator  retryWithToleranceOperator"
+ , "c3" : "QC-JAV000006[01381] For method doBuild arguments Task  task|ConnectorTaskId  id|ClusterConfigState  configState|TaskStatus.Listener  statusListener|TargetState  initialState|ConnectorConfig  connectorConfig|Converter  keyConverter|Converter  valueConverter|HeaderConverter  headerConverter|ClassLoader  classLoader|ErrorHandlingMetrics  errorHandlingMetrics|Class&lt;?extendsConnector&gt;  connectorClass|RetryWithToleranceOperator  retryWithToleranceOperator"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2400,7 +2400,7 @@ var maDataBlocs = {
  , "c1" : "01546"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1546"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01546] For method offsetStoreForRegularSourceTask arguments ConnectorTaskId  id|SourceConnectorConfig  sourceConfig|Class&lt;?  extends Connector &gt;  connectorClass|Producer&lt;byte[] ,byte[] &gt;  producer|Map&lt;String ,Object &gt;  producerProps|TopicAdmin  topicAdmin"
+ , "c3" : "QC-JAV000006[01546] For method offsetStoreForRegularSourceTask arguments ConnectorTaskId  id|SourceConnectorConfig  sourceConfig|Class&lt;?extendsConnector&gt;  connectorClass|Producer&lt;byte[],byte[]&gt;  producer|Map&lt;String,Object&gt;  producerProps|TopicAdmin  topicAdmin"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2442,7 +2442,7 @@ var maDataBlocs = {
  , "c1" : "01602"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1602"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01602] For method offsetStoreForExactlyOnceSourceTask arguments ConnectorTaskId  id|SourceConnectorConfig  sourceConfig|Class&lt;?  extends Connector &gt;  connectorClass|Producer&lt;byte[] ,byte[] &gt;  producer|Map&lt;String ,Object &gt;  producerProps|TopicAdmin  topicAdmin"
+ , "c3" : "QC-JAV000006[01602] For method offsetStoreForExactlyOnceSourceTask arguments ConnectorTaskId  id|SourceConnectorConfig  sourceConfig|Class&lt;?extendsConnector&gt;  connectorClass|Producer&lt;byte[],byte[]&gt;  producer|Map&lt;String,Object&gt;  producerProps|TopicAdmin  topicAdmin"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2484,7 +2484,7 @@ var maDataBlocs = {
  , "c1" : "01658"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1658"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01658] For method sameOffsetTopicAsWorker arguments String  offsetsTopic|Map&lt;String ,Object &gt;  producerProps"
+ , "c3" : "QC-JAV000006[01658] For method sameOffsetTopicAsWorker arguments String  offsetsTopic|Map&lt;String,Object&gt;  producerProps"
 }} 
 ,
 { "ligne" : {"" : ""

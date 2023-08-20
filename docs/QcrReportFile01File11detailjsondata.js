@@ -490,7 +490,7 @@ var maDataBlocs = {
  , "c1" : "00386"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#386"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00386] For method topicPartitionsToLogString arguments Collection&lt;TopicPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00386] For method topicPartitionsToLogString arguments Collection&lt;TopicPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -532,7 +532,7 @@ var maDataBlocs = {
  , "c1" : "00393"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#393"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00393] For method topicIdPartitionsToLogString arguments Collection&lt;TopicIdPartition &gt;  partitions"
+ , "c3" : "QC-JAV000006[00393] For method topicIdPartitionsToLogString arguments Collection&lt;TopicIdPartition&gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -581,7 +581,7 @@ var maDataBlocs = {
  , "c1" : "00425"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#425"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00425] For method verifyFullFetchResponsePartitions arguments Set&lt;TopicPartition &gt;  topicPartitions|Set&lt;Uuid &gt;  ids|short  version"
+ , "c3" : "QC-JAV000006[00425] For method verifyFullFetchResponsePartitions arguments Set&lt;TopicPartition&gt;  topicPartitions|Set&lt;Uuid&gt;  ids|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -686,7 +686,7 @@ var maDataBlocs = {
  , "c1" : "00459"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#459"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00459] For method verifyIncrementalFetchResponsePartitions arguments Set&lt;TopicPartition &gt;  topicPartitions|Set&lt;Uuid &gt;  ids|short  version"
+ , "c3" : "QC-JAV000006[00459] For method verifyIncrementalFetchResponsePartitions arguments Set&lt;TopicPartition&gt;  topicPartitions|Set&lt;Uuid&gt;  ids|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -770,7 +770,7 @@ var maDataBlocs = {
  , "c1" : "00484"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#484"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00484] For method responseDataToLogString arguments Set&lt;TopicPartition &gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00484] For method responseDataToLogString arguments Set&lt;TopicPartition&gt;  topicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""

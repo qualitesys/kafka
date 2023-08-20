@@ -310,7 +310,7 @@ var maDataBlocs = {
  , "c1" : "00120"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#120"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00120] For method deserializeRecord arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  record"
+ , "c3" : "QC-JAV000006[00120] For method deserializeRecord arguments ConsumerRecord&lt;byte[],byte[]&gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -359,7 +359,7 @@ var maDataBlocs = {
  , "c1" : "00172"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#172"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00172] For method unwrapGroup arguments Map&lt;String ,? &gt;  connectPartition"
+ , "c3" : "QC-JAV000006[00172] For method unwrapGroup arguments Map&lt;String,?&gt;  connectPartition"
 }} 
 ,
 { "ligne" : {"" : ""

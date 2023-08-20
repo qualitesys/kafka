@@ -136,7 +136,7 @@ var maDataBlocs = {
  , "c1" : "00041"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkConnector.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method start arguments Map&lt;String ,String &gt;  props"
+ , "c3" : "QC-JAV000006[00041] For method start arguments Map&lt;String,String&gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""

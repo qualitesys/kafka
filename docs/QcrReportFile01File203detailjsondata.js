@@ -141,7 +141,7 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method onConsume arguments ConsumerRecords&lt;K ,V &gt;  records"
+ , "c3" : "QC-JAV000006[00057] For method onConsume arguments ConsumerRecords&lt;K,V&gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -162,7 +162,7 @@ var maDataBlocs = {
  , "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerInterceptors.java.html#79"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00079] For method onCommit arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets"
+ , "c3" : "QC-JAV000006[00079] For method onCommit arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets"
 }} 
 ,
 { "ligne" : {"" : ""

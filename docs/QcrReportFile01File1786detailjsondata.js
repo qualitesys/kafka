@@ -189,7 +189,7 @@ var maDataBlocs = {
  , "c1" : "00054"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00054] For method init arguments ProcessorContext&lt;? ,? &gt;  context"
+ , "c3" : "QC-JAV000006[00054] For method init arguments ProcessorContext&lt;?,?&gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""

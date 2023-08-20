@@ -441,7 +441,7 @@ var maDataBlocs = {
  , "c1" : "00230"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#230"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00230] For method taskAssignments arguments Map&lt;String ,Collection&lt;Integer &gt; &gt;  assignments"
+ , "c3" : "QC-JAV000006[00230] For method taskAssignments arguments Map&lt;String,Collection&lt;Integer&gt;&gt;  assignments"
 }} 
 ,
 { "ligne" : {"" : ""

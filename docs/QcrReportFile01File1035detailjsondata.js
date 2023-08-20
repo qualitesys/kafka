@@ -270,7 +270,7 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#82"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00082] For method start arguments Map&lt;String ,String &gt;  props"
+ , "c3" : "QC-JAV000006[00082] For method start arguments Map&lt;String,String&gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -508,7 +508,7 @@ var maDataBlocs = {
  , "c1" : "00225"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#225"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00225] For method loadOffsets arguments Set&lt;TopicPartition &gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00225] For method loadOffsets arguments Set&lt;TopicPartition&gt;  topicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -543,7 +543,7 @@ var maDataBlocs = {
  , "c1" : "00236"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#236"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00236] For method convertRecord arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  record"
+ , "c3" : "QC-JAV000006[00236] For method convertRecord arguments ConsumerRecord&lt;byte[],byte[]&gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -564,7 +564,7 @@ var maDataBlocs = {
  , "c1" : "00248"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#248"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00248] For method convertHeaders arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  record"
+ , "c3" : "QC-JAV000006[00248] For method convertHeaders arguments ConsumerRecord&lt;byte[],byte[]&gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""

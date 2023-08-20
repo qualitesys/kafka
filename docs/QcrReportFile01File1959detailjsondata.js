@@ -181,7 +181,7 @@ var maDataBlocs = {
  , "c1" : "00044"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00044] For method enforce arguments Set&lt;String &gt;  copartitionGroup|Map&lt;String ,InternalTopicConfig &gt;  allRepartitionTopicsNumPartitions|Cluster  metadata"
+ , "c3" : "QC-JAV000006[00044] For method enforce arguments Set&lt;String&gt;  copartitionGroup|Map&lt;String,InternalTopicConfig&gt;  allRepartitionTopicsNumPartitions|Cluster  metadata"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -265,7 +265,7 @@ var maDataBlocs = {
  , "c1" : "00122"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#122"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00122] For method validateAndGetNumOfPartitions arguments Map&lt;Object ,InternalTopicConfig &gt;  repartitionTopicConfigs|Collection&lt;InternalTopicConfig &gt;  internalTopicConfigs"
+ , "c3" : "QC-JAV000006[00122] For method validateAndGetNumOfPartitions arguments Map&lt;Object,InternalTopicConfig&gt;  repartitionTopicConfigs|Collection&lt;InternalTopicConfig&gt;  internalTopicConfigs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -328,7 +328,7 @@ var maDataBlocs = {
  , "c1" : "00155"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#155"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00155] For method getSamePartitions arguments Map&lt;String ,Integer &gt;  nonRepartitionTopicsInCopartitionGroup"
+ , "c3" : "QC-JAV000006[00155] For method getSamePartitions arguments Map&lt;String,Integer&gt;  nonRepartitionTopicsInCopartitionGroup"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -356,7 +356,7 @@ var maDataBlocs = {
  , "c1" : "00169"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#169"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00169] For method getMaxPartitions arguments Map&lt;Object ,InternalTopicConfig &gt;  repartitionTopicsInCopartitionGroup"
+ , "c3" : "QC-JAV000006[00169] For method getMaxPartitions arguments Map&lt;Object,InternalTopicConfig&gt;  repartitionTopicsInCopartitionGroup"
 }} 
 ,
 { "ligne" : {"" : ""

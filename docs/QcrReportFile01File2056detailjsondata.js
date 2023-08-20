@@ -478,7 +478,7 @@ var maDataBlocs = {
  , "c1" : "00165"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html#165"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00165] For method putAll arguments List&lt;KeyValue&lt;Bytes ,byte[] &gt; &gt;  entries"
+ , "c3" : "QC-JAV000006[00165] For method putAll arguments List&lt;KeyValue&lt;Bytes,byte[]&gt;&gt;  entries"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -674,7 +674,7 @@ var maDataBlocs = {
  , "c1" : "00216"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html#216"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00216] For method getKeyValueIterator arguments Set&lt;Bytes &gt;  rangeSet|boolean  forward"
+ , "c3" : "QC-JAV000006[00216] For method getKeyValueIterator arguments Set&lt;Bytes&gt;  rangeSet|boolean  forward"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -706,7 +706,7 @@ var maDataBlocs = {
  , "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#161"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00161] For method filterTo arguments TopicPartition  partition|Iterable&lt;MutableRecordBatch &gt;  batches|RecordFilter  filter|ByteBuffer  destinationBuffer|int  maxRecordBatchSize|BufferSupplier  decompressionBufferSupplier"
+ , "c3" : "QC-JAV000006[00161] For method filterTo arguments TopicPartition  partition|Iterable&lt;MutableRecordBatch&gt;  batches|RecordFilter  filter|ByteBuffer  destinationBuffer|int  maxRecordBatchSize|BufferSupplier  decompressionBufferSupplier"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -839,7 +839,7 @@ var maDataBlocs = {
  , "c1" : "00243"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#243"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00243] For method filterBatch arguments RecordBatch  batch|BufferSupplier  decompressionBufferSupplier|FilterResult  filterResult|RecordFilter  filter|byte  batchMagic|boolean  writeOriginalBatch|List&lt;Record &gt;  retainedRecords"
+ , "c3" : "QC-JAV000006[00243] For method filterBatch arguments RecordBatch  batch|BufferSupplier  decompressionBufferSupplier|FilterResult  filterResult|RecordFilter  filter|byte  batchMagic|boolean  writeOriginalBatch|List&lt;Record&gt;  retainedRecords"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -923,7 +923,7 @@ var maDataBlocs = {
  , "c1" : "00292"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#292"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00292] For method buildRetainedRecordsInto arguments RecordBatch  originalBatch|List&lt;Record &gt;  retainedRecords|ByteBufferOutputStream  bufferOutputStream|long  deleteHorizonMs"
+ , "c3" : "QC-JAV000006[00292] For method buildRetainedRecordsInto arguments RecordBatch  originalBatch|List&lt;Record&gt;  retainedRecords|ByteBufferOutputStream  bufferOutputStream|long  deleteHorizonMs"
 }} 
 ,
 { "ligne" : {"" : ""

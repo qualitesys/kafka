@@ -180,7 +180,7 @@ var maDataBlocs = {
  , "c1" : "00054"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00054] For method performAssignment arguments String  leaderId|String  protocol|List&lt;JoinGroupResponseMember &gt;  allMemberMetadata|WorkerCoordinator  coordinator"
+ , "c3" : "QC-JAV000006[00054] For method performAssignment arguments String  leaderId|String  protocol|List&lt;JoinGroupResponseMember&gt;  allMemberMetadata|WorkerCoordinator  coordinator"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -250,7 +250,7 @@ var maDataBlocs = {
  , "c1" : "00090"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#90"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00090] For method performTaskAssignment arguments String  leaderId|long  maxOffset|Map&lt;String ,ExtendedWorkerState &gt;  memberConfigs|WorkerCoordinator  coordinator"
+ , "c3" : "QC-JAV000006[00090] For method performTaskAssignment arguments String  leaderId|long  maxOffset|Map&lt;String,ExtendedWorkerState&gt;  memberConfigs|WorkerCoordinator  coordinator"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -334,7 +334,7 @@ var maDataBlocs = {
  , "c1" : "00124"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#124"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00124] For method fillAssignmentsAndSerialize arguments Collection&lt;String &gt;  members|short  error|String  leaderId|String  leaderUrl|long  maxOffset|Map&lt;String ,Collection&lt;String &gt; &gt;  connectorAssignments|Map&lt;String ,Collection&lt;ConnectorTaskId &gt; &gt;  taskAssignments"
+ , "c3" : "QC-JAV000006[00124] For method fillAssignmentsAndSerialize arguments Collection&lt;String&gt;  members|short  error|String  leaderId|String  leaderUrl|long  maxOffset|Map&lt;String,Collection&lt;String&gt;&gt;  connectorAssignments|Map&lt;String,Collection&lt;ConnectorTaskId&gt;&gt;  taskAssignments"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -404,7 +404,7 @@ var maDataBlocs = {
  , "c1" : "00150"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/EagerAssignor.java.html#150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00150] For method findMaxMemberConfigOffset arguments Map&lt;String ,ExtendedWorkerState &gt;  memberConfigs|WorkerCoordinator  coordinator"
+ , "c3" : "QC-JAV000006[00150] For method findMaxMemberConfigOffset arguments Map&lt;String,ExtendedWorkerState&gt;  memberConfigs|WorkerCoordinator  coordinator"
 }} 
 ,
 { "ligne" : {"" : ""

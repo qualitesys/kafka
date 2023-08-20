@@ -146,7 +146,7 @@ var maDataBlocs = {
  , "c1" : "00044"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/NoneConnectorClientConfigOverridePolicy.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00044] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00044] For method configure arguments Map&lt;String,?&gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""

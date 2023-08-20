@@ -367,7 +367,7 @@ var maDataBlocs = {
  , "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#91"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00091] For method enforceWrappedStore arguments WindowStore&lt;Bytes ,byte[] &gt;  underlying"
+ , "c3" : "QC-JAV000006[00091] For method enforceWrappedStore arguments WindowStore&lt;Bytes,byte[]&gt;  underlying"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -423,7 +423,7 @@ var maDataBlocs = {
  , "c1" : "00123"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#123"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00123] For method initInternal arguments InternalProcessorContext&lt;? ,? &gt;  context"
+ , "c3" : "QC-JAV000006[00123] For method initInternal arguments InternalProcessorContext&lt;?,?&gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -451,7 +451,7 @@ var maDataBlocs = {
  , "c1" : "00143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#143"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00143] For method putAndMaybeForward arguments List&lt;DirtyEntry &gt;  entries|InternalProcessorContext&lt;? ,? &gt;  context"
+ , "c3" : "QC-JAV000006[00143] For method putAndMaybeForward arguments List&lt;DirtyEntry&gt;  entries|InternalProcessorContext&lt;?,?&gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -528,7 +528,7 @@ var maDataBlocs = {
  , "c1" : "00202"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#202"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00202] For method putAndMaybeForward arguments InternalProcessorContext&lt;? ,? &gt;  context|DirtyEntry  finalEntry|Bytes  binaryKey|long  windowStartTimestamp"
+ , "c3" : "QC-JAV000006[00202] For method putAndMaybeForward arguments InternalProcessorContext&lt;?,?&gt;  context|DirtyEntry  finalEntry|Bytes  binaryKey|long  windowStartTimestamp"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -605,7 +605,7 @@ var maDataBlocs = {
  , "c1" : "00244"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#244"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00244] For method setFlushListener arguments CacheFlushListener&lt;byte[] ,byte[] &gt;  flushListener|boolean  sendOldValues"
+ , "c3" : "QC-JAV000006[00244] For method setFlushListener arguments CacheFlushListener&lt;byte[],byte[]&gt;  flushListener|boolean  sendOldValues"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -794,7 +794,7 @@ var maDataBlocs = {
  , "c1" : "00353"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#353"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00353] For method fetchInternal arguments WindowStoreIterator&lt;byte[] &gt;  underlyingIterator|Bytes  key|long  timeFrom|long  timeTo|boolean  forward"
+ , "c3" : "QC-JAV000006[00353] For method fetchInternal arguments WindowStoreIterator&lt;byte[]&gt;  underlyingIterator|Bytes  key|long  timeFrom|long  timeTo|boolean  forward"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -941,7 +941,7 @@ var maDataBlocs = {
  , "c1" : "00423"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#423"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00423] For method fetchKeyRange arguments KeyValueIterator&lt;Windowed&lt;Bytes &gt; ,byte[] &gt;  underlyingIterator|Bytes  keyFrom|Bytes  keyTo|long  timeFrom|long  timeTo|boolean  forward"
+ , "c3" : "QC-JAV000006[00423] For method fetchKeyRange arguments KeyValueIterator&lt;Windowed&lt;Bytes&gt;,byte[]&gt;  underlyingIterator|Bytes  keyFrom|Bytes  keyTo|long  timeFrom|long  timeTo|boolean  forward"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -983,7 +983,7 @@ var maDataBlocs = {
  , "c1" : "00471"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#471"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00471] For method fetchAllInternal arguments KeyValueIterator&lt;Windowed&lt;Bytes &gt; ,byte[] &gt;  underlyingIterator|long  timeFrom|long  timeTo|boolean  forward"
+ , "c3" : "QC-JAV000006[00471] For method fetchAllInternal arguments KeyValueIterator&lt;Windowed&lt;Bytes&gt;,byte[]&gt;  underlyingIterator|long  timeFrom|long  timeTo|boolean  forward"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -243,7 +243,7 @@ var maDataBlocs = {
  , "c1" : "00096"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#96"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00096] For method validate arguments Optional&lt;Short &gt;  version"
+ , "c3" : "QC-JAV000006[00096] For method validate arguments Optional&lt;Short&gt;  version"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -306,7 +306,7 @@ var maDataBlocs = {
  , "c1" : "00131"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#131"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00131] For method aclBindings arguments List&lt;DescribeAclsResource &gt;  resources"
+ , "c3" : "QC-JAV000006[00131] For method aclBindings arguments List&lt;DescribeAclsResource&gt;  resources"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -320,7 +320,7 @@ var maDataBlocs = {
  , "c1" : "00135"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsResponse.java.html#135"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00135] For method aclsResources arguments Collection&lt;AclBinding &gt;  acls"
+ , "c3" : "QC-JAV000006[00135] For method aclsResources arguments Collection&lt;AclBinding&gt;  acls"
 }} 
 ,
 { "ligne" : {"" : ""

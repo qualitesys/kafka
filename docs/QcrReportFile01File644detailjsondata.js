@@ -168,7 +168,7 @@ var maDataBlocs = {
  , "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00044] For method complete arguments KafkaFutureImpl&lt;Map&lt;ClientQuotaEntity ,Map&lt;String ,Double &gt; &gt; &gt;  future"
+ , "c3" : "QC-JAV000006[00044] For method complete arguments KafkaFutureImpl&lt;Map&lt;ClientQuotaEntity,Map&lt;String,Double&gt;&gt;&gt;  future"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -217,7 +217,7 @@ var maDataBlocs = {
  , "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasResponse.java.html#87"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00087] For method fromQuotaEntities arguments Map&lt;ClientQuotaEntity ,Map&lt;String ,Double &gt; &gt;  entities|int  throttleTimeMs"
+ , "c3" : "QC-JAV000006[00087] For method fromQuotaEntities arguments Map&lt;ClientQuotaEntity,Map&lt;String,Double&gt;&gt;  entities|int  throttleTimeMs"
 }} 
 ,
 { "ligne" : {"" : ""

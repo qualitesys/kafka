@@ -177,7 +177,7 @@ var maDataBlocs = {
  , "c1" : "00108"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00108] For method configure arguments Map&lt;String ,? &gt;  configs"
+ , "c3" : "QC-JAV000006[00108] For method configure arguments Map&lt;String,?&gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -212,7 +212,7 @@ var maDataBlocs = {
  , "c1" : "00133"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PushHttpMetricsReporter.java.html#133"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00133] For method init arguments List&lt;KafkaMetric &gt;  initMetrics"
+ , "c3" : "QC-JAV000006[00133] For method init arguments List&lt;KafkaMetric&gt;  initMetrics"
 }} 
 ,
 { "ligne" : {"" : ""

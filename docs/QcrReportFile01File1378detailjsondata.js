@@ -134,7 +134,7 @@ var maDataBlocs = {
  , "c1" : "00055"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileWriter.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method append arguments List&lt;ApiMessageAndVersion &gt;  messageBatch"
+ , "c3" : "QC-JAV000006[00055] For method append arguments List&lt;ApiMessageAndVersion&gt;  messageBatch"
 }} 
 ,
 { "ligne" : {"" : ""

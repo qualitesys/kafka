@@ -352,7 +352,7 @@ var maDataBlocs = {
  , "c1" : "00852"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#852"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00852] For method performAssignment arguments String  leaderId|String  protocol|List&lt;JoinGroupResponseMember &gt;  allMemberMetadata|WorkerCoordinator  coordinator"
+ , "c3" : "QC-JAV000006[00852] For method performAssignment arguments String  leaderId|String  protocol|List&lt;JoinGroupResponseMember&gt;  allMemberMetadata|WorkerCoordinator  coordinator"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -450,7 +450,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method performTaskAssignment arguments String  leaderId|long  maxOffset|Map&lt;String ,ExtendedWorkerState &gt;  memberConfigs|WorkerCoordinator  coordinator|short  protocolVersion"
+ , "c3" : "QC-JAV000006[00001] For method performTaskAssignment arguments String  leaderId|long  maxOffset|Map&lt;String,ExtendedWorkerState&gt;  memberConfigs|WorkerCoordinator  coordinator|short  protocolVersion"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -492,7 +492,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method performTaskAssignment arguments ClusterConfigState  configSnapshot|int  lastCompletedGenerationId|int  currentGenerationId|Map&lt;String ,ConnectorsAndTasks &gt;  memberAssignments"
+ , "c3" : "QC-JAV000006[00001] For method performTaskAssignment arguments ClusterConfigState  configSnapshot|int  lastCompletedGenerationId|int  currentGenerationId|Map&lt;String,ConnectorsAndTasks&gt;  memberAssignments"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -716,7 +716,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method computeDeleted arguments ConnectorsAndTasks  deleted|Map&lt;String ,Collection&lt;String &gt; &gt;  connectorAssignments|Map&lt;String ,Collection&lt;ConnectorTaskId &gt; &gt;  taskAssignments"
+ , "c3" : "QC-JAV000006[00001] For method computeDeleted arguments ConnectorsAndTasks  deleted|Map&lt;String,Collection&lt;String&gt;&gt;  connectorAssignments|Map&lt;String,Collection&lt;ConnectorTaskId&gt;&gt;  taskAssignments"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -737,7 +737,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method computePreviousAssignment arguments Map&lt;String ,ConnectorsAndTasks &gt;  toRevoke|Map&lt;String ,Collection&lt;String &gt; &gt;  connectorAssignments|Map&lt;String ,Collection&lt;ConnectorTaskId &gt; &gt;  taskAssignments|ConnectorsAndTasks  lostAssignments"
+ , "c3" : "QC-JAV000006[00001] For method computePreviousAssignment arguments Map&lt;String,ConnectorsAndTasks&gt;  toRevoke|Map&lt;String,Collection&lt;String&gt;&gt;  connectorAssignments|Map&lt;String,Collection&lt;ConnectorTaskId&gt;&gt;  taskAssignments|ConnectorsAndTasks  lostAssignments"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -772,7 +772,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method duplicatedAssignments arguments Map&lt;String ,ConnectorsAndTasks &gt;  memberAssignments"
+ , "c3" : "QC-JAV000006[00001] For method duplicatedAssignments arguments Map&lt;String,ConnectorsAndTasks&gt;  memberAssignments"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -800,7 +800,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method computeDuplicatedAssignments arguments Map&lt;String ,ConnectorsAndTasks &gt;  memberAssignments|Map&lt;String ,Collection&lt;String &gt; &gt;  connectorAssignments|Map&lt;String ,Collection&lt;ConnectorTaskId &gt; &gt;  taskAssignment"
+ , "c3" : "QC-JAV000006[00001] For method computeDuplicatedAssignments arguments Map&lt;String,ConnectorsAndTasks&gt;  memberAssignments|Map&lt;String,Collection&lt;String&gt;&gt;  connectorAssignments|Map&lt;String,Collection&lt;ConnectorTaskId&gt;&gt;  taskAssignment"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -828,7 +828,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method handleLostAssignments arguments ConnectorsAndTasks  lostAssignments|ConnectorsAndTasks  newSubmissions|List&lt;WorkerLoad &gt;  completeWorkerAssignment"
+ , "c3" : "QC-JAV000006[00001] For method handleLostAssignments arguments ConnectorsAndTasks  lostAssignments|ConnectorsAndTasks  newSubmissions|List&lt;WorkerLoad&gt;  completeWorkerAssignment"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1010,7 +1010,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method candidateWorkersForReassignment arguments List&lt;WorkerLoad &gt;  completeWorkerAssignment"
+ , "c3" : "QC-JAV000006[00001] For method candidateWorkersForReassignment arguments List&lt;WorkerLoad&gt;  completeWorkerAssignment"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1024,7 +1024,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method pickCandidateWorkerForReassignment arguments List&lt;WorkerLoad &gt;  completeWorkerAssignment"
+ , "c3" : "QC-JAV000006[00001] For method pickCandidateWorkerForReassignment arguments List&lt;WorkerLoad&gt;  completeWorkerAssignment"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1038,7 +1038,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method performTaskRevocation arguments ConnectorsAndTasks  activeAssignments|Collection&lt;WorkerLoad &gt;  completeWorkerAssignment"
+ , "c3" : "QC-JAV000006[00001] For method performTaskRevocation arguments ConnectorsAndTasks  activeAssignments|Collection&lt;WorkerLoad&gt;  completeWorkerAssignment"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1255,7 +1255,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method fillAssignments arguments Collection&lt;String &gt;  members|short  error|String  leaderId|String  leaderUrl|long  maxOffset|ClusterAssignment  clusterAssignment|int  delay|short  protocolVersion"
+ , "c3" : "QC-JAV000006[00001] For method fillAssignments arguments Collection&lt;String&gt;  members|short  error|String  leaderId|String  leaderUrl|long  maxOffset|ClusterAssignment  clusterAssignment|int  delay|short  protocolVersion"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1325,7 +1325,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method serializeAssignments arguments Map&lt;String ,ExtendedAssignment &gt;  assignments|short  protocolVersion"
+ , "c3" : "QC-JAV000006[00001] For method serializeAssignments arguments Map&lt;String,ExtendedAssignment&gt;  assignments|short  protocolVersion"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1374,7 +1374,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method assignment arguments Map&lt;String ,ConnectorsAndTasks &gt;  memberAssignments"
+ , "c3" : "QC-JAV000006[00001] For method assignment arguments Map&lt;String,ConnectorsAndTasks&gt;  memberAssignments"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1416,7 +1416,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method assignConnectors arguments List&lt;WorkerLoad &gt;  workerAssignment|Collection&lt;String &gt;  connectors"
+ , "c3" : "QC-JAV000006[00001] For method assignConnectors arguments List&lt;WorkerLoad&gt;  workerAssignment|Collection&lt;String&gt;  connectors"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1493,7 +1493,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method assignTasks arguments List&lt;WorkerLoad &gt;  workerAssignment|Collection&lt;ConnectorTaskId &gt;  tasks"
+ , "c3" : "QC-JAV000006[00001] For method assignTasks arguments List&lt;WorkerLoad&gt;  workerAssignment|Collection&lt;ConnectorTaskId&gt;  tasks"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1570,7 +1570,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method workerAssignment arguments Map&lt;String ,ConnectorsAndTasks &gt;  memberAssignments|ConnectorsAndTasks  toExclude"
+ , "c3" : "QC-JAV000006[00001] For method workerAssignment arguments Map&lt;String,ConnectorsAndTasks&gt;  memberAssignments|ConnectorsAndTasks  toExclude"
 }} 
 ,
 { "ligne" : {"" : ""

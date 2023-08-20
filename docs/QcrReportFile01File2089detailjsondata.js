@@ -136,7 +136,7 @@ var maDataBlocs = {
  , "c1" : "00065"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowedKeyValueIterator.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method windowedKey arguments Windowed&lt;Bytes &gt;  bytesKey"
+ , "c3" : "QC-JAV000006[00065] For method windowedKey arguments Windowed&lt;Bytes&gt;  bytesKey"
 }} 
 ,
 { "ligne" : {"" : ""

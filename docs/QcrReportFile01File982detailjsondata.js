@@ -118,7 +118,7 @@ var maDataBlocs = {
  , "c1" : "00052"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method exactlyOnceSupport arguments Map&lt;String ,String &gt;  connectorConfig"
+ , "c3" : "QC-JAV000006[00052] For method exactlyOnceSupport arguments Map&lt;String,String&gt;  connectorConfig"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -132,7 +132,7 @@ var maDataBlocs = {
  , "c1" : "00071"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00071] For method canDefineTransactionBoundaries arguments Map&lt;String ,String &gt;  connectorConfig"
+ , "c3" : "QC-JAV000006[00071] For method canDefineTransactionBoundaries arguments Map&lt;String,String&gt;  connectorConfig"
 }} 
 ,
 { "ligne" : {"" : ""

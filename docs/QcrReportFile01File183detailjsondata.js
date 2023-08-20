@@ -189,7 +189,7 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method subscriptionUserData arguments Set&lt;String &gt;  topics"
+ , "c3" : "QC-JAV000006[00075] For method subscriptionUserData arguments Set&lt;String&gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -217,7 +217,7 @@ var maDataBlocs = {
  , "c1" : "00103"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#103"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00103] For method assign arguments Map&lt;String ,Integer &gt;  partitionsPerTopic|Map&lt;String ,Subscription &gt;  subscriptions"
+ , "c3" : "QC-JAV000006[00103] For method assign arguments Map&lt;String,Integer&gt;  partitionsPerTopic|Map&lt;String,Subscription&gt;  subscriptions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -231,7 +231,7 @@ var maDataBlocs = {
  , "c1" : "00115"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#115"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00115] For method adjustAssignment arguments Map&lt;String ,List&lt;TopicPartition &gt; &gt;  assignments|Map&lt;TopicPartition ,String &gt;  partitionsTransferringOwnership"
+ , "c3" : "QC-JAV000006[00115] For method adjustAssignment arguments Map&lt;String,List&lt;TopicPartition&gt;&gt;  assignments|Map&lt;TopicPartition,String&gt;  partitionsTransferringOwnership"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -252,7 +252,7 @@ var maDataBlocs = {
  , "c1" : "00123"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/CooperativeStickyAssignor.java.html#123"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00123] For method computePartitionsTransferringOwnership arguments Map&lt;String ,Subscription &gt;  subscriptions|Map&lt;String ,List&lt;TopicPartition &gt; &gt;  assignments"
+ , "c3" : "QC-JAV000006[00123] For method computePartitionsTransferringOwnership arguments Map&lt;String,Subscription&gt;  subscriptions|Map&lt;String,List&lt;TopicPartition&gt;&gt;  assignments"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -1267,7 +1267,7 @@ var maDataBlocs = {
  , "c1" : "00302"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#302"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00302] For method sendOffsetsToTransaction arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets|ConsumerGroupMetadata  groupMetadata"
+ , "c3" : "QC-JAV000006[00302] For method sendOffsetsToTransaction arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets|ConsumerGroupMetadata  groupMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2870,7 +2870,7 @@ var maDataBlocs = {
  , "c1" : "01062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1062"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01062] For method txnOffsetCommitHandler arguments TransactionalRequestResult  result|Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets|ConsumerGroupMetadata  groupMetadata"
+ , "c3" : "QC-JAV000006[01062] For method txnOffsetCommitHandler arguments TransactionalRequestResult  result|Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets|ConsumerGroupMetadata  groupMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2961,7 +2961,7 @@ var maDataBlocs = {
  , "c1" : "01097"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1097"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01097] For method handleCachedTransactionRequestResult arguments Supplier&lt;TransactionalRequestResult &gt;  transactionalRequestResultSupplier|State  nextState|String  operation"
+ , "c3" : "QC-JAV000006[01097] For method handleCachedTransactionRequestResult arguments Supplier&lt;TransactionalRequestResult&gt;  transactionalRequestResultSupplier|State  nextState|String  operation"
 }} 
 ,
 { "ligne" : {"" : ""
