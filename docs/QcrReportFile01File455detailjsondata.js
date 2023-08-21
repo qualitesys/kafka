@@ -286,21 +286,21 @@ var maDataBlocs = {
  , "c1" : "00092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00092] For method configure arguments Map&lt;String,?&gt;  configs"
+ , "c3" : "QC-JAV000006[00092] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#102"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00102] For method validateReconfiguration arguments Map&lt;String,?&gt;  configs"
+ , "c3" : "QC-JAV000006[00102] For method validateReconfiguration arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00107"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#107"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00107] For method reconfigure arguments Map&lt;String,?&gt;  configs"
+ , "c3" : "QC-JAV000006[00107] For method reconfigure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -321,7 +321,7 @@ var maDataBlocs = {
  , "c1" : "00122"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#122"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00122] For method init arguments List&lt;KafkaMetric&gt;  metrics"
+ , "c3" : "QC-JAV000006[00122] For method init arguments List&lt;KafkaMetric &gt;  metrics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -720,7 +720,7 @@ var maDataBlocs = {
  , "c1" : "00310"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#310"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00310] For method compilePredicate arguments Map&lt;String,?&gt;  originalConfig"
+ , "c3" : "QC-JAV000006[00310] For method compilePredicate arguments Map&lt;String ,? &gt;  originalConfig"
 }} 
 ,
 { "ligne" : {"" : ""

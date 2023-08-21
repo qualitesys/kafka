@@ -339,7 +339,7 @@ var maDataBlocs = {
  , "c1" : "00099"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateMetadataRequest.java.html#99"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00099] For method groupByTopic arguments Map&lt;String,Uuid&gt;  topicIds|List&lt;UpdateMetadataPartitionState&gt;  partitionStates"
+ , "c3" : "QC-JAV000006[00099] For method groupByTopic arguments Map&lt;String ,Uuid &gt;  topicIds|List&lt;UpdateMetadataPartitionState &gt;  partitionStates"
 }} 
 ,
 { "ligne" : {"" : ""

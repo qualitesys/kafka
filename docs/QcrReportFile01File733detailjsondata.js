@@ -177,7 +177,7 @@ var maDataBlocs = {
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/UpdateFeaturesResponse.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method createWithErrors arguments ApiError  topLevelError|Map&lt;String,ApiError&gt;  updateErrors|int  throttleTimeMs"
+ , "c3" : "QC-JAV000006[00080] For method createWithErrors arguments ApiError  topLevelError|Map&lt;String ,ApiError &gt;  updateErrors|int  throttleTimeMs"
 }} 
 ,
 { "ligne" : {"" : ""

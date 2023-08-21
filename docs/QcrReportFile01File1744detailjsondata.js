@@ -132,21 +132,21 @@ var maDataBlocs = {
  , "c1" : "00071"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTablePassThrough.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00071] For method init arguments ProcessorContext&lt;KIn,Change&lt;VIn&gt;&gt;  context"
+ , "c3" : "QC-JAV000006[00071] For method init arguments ProcessorContext&lt;KIn ,Change&lt;VIn &gt; &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTablePassThrough.java.html#76"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method process arguments Record&lt;KIn,Change&lt;VIn&gt;&gt;  record"
+ , "c3" : "QC-JAV000006[00076] For method process arguments Record&lt;KIn ,Change&lt;VIn &gt; &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTablePassThrough.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00085] For method init arguments ProcessorContext&lt;?,?&gt;  context"
+ , "c3" : "QC-JAV000006[00085] For method init arguments ProcessorContext&lt;? ,? &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""

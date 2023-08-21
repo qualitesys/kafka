@@ -279,7 +279,7 @@ var maDataBlocs = {
  , "c1" : "00138"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractRocksDBTimeOrderedSegmentedBytesStore.java.html#138"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00138] For method getIndexToBaseStoreIterator arguments SegmentIterator&lt;KeyValueSegment&gt;  segmentIterator"
+ , "c3" : "QC-JAV000006[00138] For method getIndexToBaseStoreIterator arguments SegmentIterator&lt;KeyValueSegment &gt;  segmentIterator"
 }} 
 ,
 { "ligne" : {"" : ""

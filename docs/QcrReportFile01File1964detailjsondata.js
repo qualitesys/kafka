@@ -154,7 +154,7 @@ var maDataBlocs = {
  , "c1" : "00032"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StandbyTaskAssignmentUtils.java.html#32"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00032] For method createLeastLoadedPrioritySetConstrainedByAssignedTask arguments Map&lt;UUID,ClientState&gt;  clients"
+ , "c3" : "QC-JAV000006[00032] For method createLeastLoadedPrioritySetConstrainedByAssignedTask arguments Map&lt;UUID ,ClientState &gt;  clients"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -168,7 +168,7 @@ var maDataBlocs = {
  , "c1" : "00037"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StandbyTaskAssignmentUtils.java.html#37"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method pollClientAndMaybeAssignAndUpdateRemainingStandbyTasks arguments int  numStandbyReplicas|Map&lt;UUID,ClientState&gt;  clients|Map&lt;TaskId,Integer&gt;  tasksToRemainingStandbys|ConstrainedPrioritySet  standbyTaskClientsByTaskLoad|TaskId  activeTaskId|Logger  log"
+ , "c3" : "QC-JAV000006[00037] For method pollClientAndMaybeAssignAndUpdateRemainingStandbyTasks arguments int  numStandbyReplicas|Map&lt;UUID ,ClientState &gt;  clients|Map&lt;TaskId ,Integer &gt;  tasksToRemainingStandbys|ConstrainedPrioritySet  standbyTaskClientsByTaskLoad|TaskId  activeTaskId|Logger  log"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -266,7 +266,7 @@ var maDataBlocs = {
  , "c1" : "00064"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StandbyTaskAssignmentUtils.java.html#64"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method computeTasksToRemainingStandbys arguments int  numStandbyReplicas|Set&lt;TaskId&gt;  statefulTaskIds"
+ , "c3" : "QC-JAV000006[00064] For method computeTasksToRemainingStandbys arguments int  numStandbyReplicas|Set&lt;TaskId &gt;  statefulTaskIds"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -832,7 +832,7 @@ var maDataBlocs = {
  , "c1" : "00639"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#639"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE481[00639] Assigning instead of comparing on k=(e=(Map.Entry&amp;lt;?,?&amp;gt; )o).getKey() (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-JAVCWE481[00639] Assigning instead of comparing on k=(e=(Map.Entry&amp;lt;? ,? &amp;gt; )o).getKey() (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1112,7 +1112,7 @@ var maDataBlocs = {
  , "c1" : "00724"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#724"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00724] For method compareComparables arguments Class&lt;?&gt;  kc|Object  k|Object  x"
+ , "c3" : "QC-JAV000006[00724] For method compareComparables arguments Class&lt;? &gt;  kc|Object  k|Object  x"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1658,7 +1658,7 @@ var maDataBlocs = {
  , "c1" : "01046"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1046"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE481[01046] Assigning instead of comparing on p=((TreeBin&amp;lt;K,V&amp;gt; )f).putTreeVal(hash,key,value) (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-JAVCWE481[01046] Assigning instead of comparing on p=((TreeBin&amp;lt;K ,V &amp;gt; )f).putTreeVal(hash,key,value) (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1812,7 +1812,7 @@ var maDataBlocs = {
  , "c1" : "01075"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1075"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01075] For method putAll arguments Map&lt;?extendsK,?extendsV&gt;  m"
+ , "c3" : "QC-JAV000006[01075] For method putAll arguments Map&lt;?  extends K ,?  extends V &gt;  m"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3387,7 +3387,7 @@ var maDataBlocs = {
  , "c1" : "01585"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1585"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01585] For method forEach arguments BiConsumer&lt;?superK,?superV&gt;  action"
+ , "c3" : "QC-JAV000006[01585] For method forEach arguments BiConsumer&lt;? super K ,? super V &gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3436,7 +3436,7 @@ var maDataBlocs = {
  , "c1" : "01596"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1596"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01596] For method replaceAll arguments BiFunction&lt;?superK,?superV,?extendsV&gt;  function"
+ , "c3" : "QC-JAV000006[01596] For method replaceAll arguments BiFunction&lt;? super K ,? super V ,?  extends V &gt;  function"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3541,7 +3541,7 @@ var maDataBlocs = {
  , "c1" : "01637"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1637"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01637] For method computeIfAbsent arguments K  key|Function&lt;?superK,?extendsV&gt;  mappingFunction"
+ , "c3" : "QC-JAV000006[01637] For method computeIfAbsent arguments K  key|Function&lt;? super K ,?  extends V &gt;  mappingFunction"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4010,7 +4010,7 @@ var maDataBlocs = {
  , "c1" : "01738"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1738"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01738] For method computeIfPresent arguments K  key|BiFunction&lt;?superK,?superV,?extendsV&gt;  remappingFunction"
+ , "c3" : "QC-JAV000006[01738] For method computeIfPresent arguments K  key|BiFunction&lt;? super K ,? super V ,?  extends V &gt;  remappingFunction"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4325,7 +4325,7 @@ var maDataBlocs = {
  , "c1" : "01828"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1828"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01828] For method compute arguments K  key|BiFunction&lt;?superK,?superV,?extendsV&gt;  remappingFunction"
+ , "c3" : "QC-JAV000006[01828] For method compute arguments K  key|BiFunction&lt;? super K ,? super V ,?  extends V &gt;  remappingFunction"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4843,7 +4843,7 @@ var maDataBlocs = {
  , "c1" : "01954"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1954"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01954] For method merge arguments K  key|V  value|BiFunction&lt;?superV,?superV,?extendsV&gt;  remappingFunction"
+ , "c3" : "QC-JAV000006[01954] For method merge arguments K  key|V  value|BiFunction&lt;? super V ,? super V ,?  extends V &gt;  remappingFunction"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5879,7 +5879,7 @@ var maDataBlocs = {
  , "c1" : "02291"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2291"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02291] For method helpTransfer arguments Node&lt;K,V&gt;[]  tab|Node&lt;K,V&gt;  f"
+ , "c3" : "QC-JAV000006[02291] For method helpTransfer arguments Node&lt;K ,V &gt;[]  tab|Node&lt;K ,V &gt;  f"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5893,7 +5893,7 @@ var maDataBlocs = {
  , "c1" : "02294"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2294"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE481[02294] Assigning instead of comparing on nextTab=((ForwardingNode&amp;lt;K,V&amp;gt; )f).nextTable (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-JAVCWE481[02294] Assigning instead of comparing on nextTab=((ForwardingNode&amp;lt;K ,V &amp;gt; )f).nextTable (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6124,7 +6124,7 @@ var maDataBlocs = {
  , "c1" : "02361"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2361"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02361] For method transfer arguments Node&lt;K,V&gt;[]  tab|Node&lt;K,V&gt;[]  nextTab"
+ , "c3" : "QC-JAV000006[02361] For method transfer arguments Node&lt;K ,V &gt;[]  tab|Node&lt;K ,V &gt;[]  nextTab"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -7174,7 +7174,7 @@ var maDataBlocs = {
  , "c1" : "02605"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2605"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02605] For method treeifyBin arguments Node&lt;K,V&gt;[]  tab|int  index"
+ , "c3" : "QC-JAV000006[02605] For method treeifyBin arguments Node&lt;K ,V &gt;[]  tab|int  index"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -7370,7 +7370,7 @@ var maDataBlocs = {
  , "c1" : "02673"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2673"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02673] For method findTreeNode arguments int  h|Object  k|Class&lt;?&gt;  kc"
+ , "c3" : "QC-JAV000006[02673] For method findTreeNode arguments int  h|Object  k|Class&lt;? &gt;  kc"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -8238,7 +8238,7 @@ var maDataBlocs = {
  , "c1" : "02930"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2930"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02930] For method removeTreeNode arguments TreeNode&lt;K,V&gt;  p"
+ , "c3" : "QC-JAV000006[02930] For method removeTreeNode arguments TreeNode&lt;K ,V &gt;  p"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -9498,7 +9498,7 @@ var maDataBlocs = {
  , "c1" : "03339"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#3339"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03339] For method pushState arguments Node&lt;K,V&gt;[]  t|int  i|int  n"
+ , "c3" : "QC-JAV000006[03339] For method pushState arguments Node&lt;K ,V &gt;[]  t|int  i|int  n"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -9673,7 +9673,7 @@ var maDataBlocs = {
  , "c1" : "03479"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#3479"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE481[03479] Assigning instead of comparing on k=(e=(Map.Entry&amp;lt;?,?&amp;gt; )o).getKey() (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-JAVCWE481[03479] Assigning instead of comparing on k=(e=(Map.Entry&amp;lt;? ,? &amp;gt; )o).getKey() (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -9743,7 +9743,7 @@ var maDataBlocs = {
  , "c1" : "03518"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#3518"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03518] For method forEachRemaining arguments Consumer&lt;?superK&gt;  action"
+ , "c3" : "QC-JAV000006[03518] For method forEachRemaining arguments Consumer&lt;? super K &gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -9778,7 +9778,7 @@ var maDataBlocs = {
  , "c1" : "03524"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#3524"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03524] For method tryAdvance arguments Consumer&lt;?superK&gt;  action"
+ , "c3" : "QC-JAV000006[03524] For method tryAdvance arguments Consumer&lt;? super K &gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -9855,7 +9855,7 @@ var maDataBlocs = {
  , "c1" : "03557"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#3557"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03557] For method forEachRemaining arguments Consumer&lt;?superV&gt;  action"
+ , "c3" : "QC-JAV000006[03557] For method forEachRemaining arguments Consumer&lt;? super V &gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -9890,7 +9890,7 @@ var maDataBlocs = {
  , "c1" : "03563"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#3563"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03563] For method tryAdvance arguments Consumer&lt;?superV&gt;  action"
+ , "c3" : "QC-JAV000006[03563] For method tryAdvance arguments Consumer&lt;? super V &gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -9967,7 +9967,7 @@ var maDataBlocs = {
  , "c1" : "03597"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#3597"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03597] For method forEachRemaining arguments Consumer&lt;?superMap.Entry&lt;K,V&gt;&gt;  action"
+ , "c3" : "QC-JAV000006[03597] For method forEachRemaining arguments Consumer&lt;? super Map.Entry&lt;K ,V &gt; &gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -10016,7 +10016,7 @@ var maDataBlocs = {
  , "c1" : "03603"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#3603"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03603] For method tryAdvance arguments Consumer&lt;?superMap.Entry&lt;K,V&gt;&gt;  action"
+ , "c3" : "QC-JAV000006[03603] For method tryAdvance arguments Consumer&lt;? super Map.Entry&lt;K ,V &gt; &gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -10121,7 +10121,7 @@ var maDataBlocs = {
  , "c1" : "03646"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#3646"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03646] For method forEach arguments long  parallelismThreshold|BiConsumer&lt;?superK,?superV&gt;  action"
+ , "c3" : "QC-JAV000006[03646] For method forEach arguments long  parallelismThreshold|BiConsumer&lt;? super K ,? super V &gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -10261,7 +10261,7 @@ var maDataBlocs = {
  , "c1" : "03742"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#3742"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03742] For method reduceToDouble arguments long  parallelismThreshold|ToDoubleBiFunction&lt;?superK,?superV&gt;  transformer|double  basis|DoubleBinaryOperator  reducer"
+ , "c3" : "QC-JAV000006[03742] For method reduceToDouble arguments long  parallelismThreshold|ToDoubleBiFunction&lt;? super K ,? super V &gt;  transformer|double  basis|DoubleBinaryOperator  reducer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -10310,7 +10310,7 @@ var maDataBlocs = {
  , "c1" : "03768"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#3768"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03768] For method reduceToLong arguments long  parallelismThreshold|ToLongBiFunction&lt;?superK,?superV&gt;  transformer|long  basis|LongBinaryOperator  reducer"
+ , "c3" : "QC-JAV000006[03768] For method reduceToLong arguments long  parallelismThreshold|ToLongBiFunction&lt;? super K ,? super V &gt;  transformer|long  basis|LongBinaryOperator  reducer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -10359,7 +10359,7 @@ var maDataBlocs = {
  , "c1" : "03794"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#3794"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03794] For method reduceToInt arguments long  parallelismThreshold|ToIntBiFunction&lt;?superK,?superV&gt;  transformer|int  basis|IntBinaryOperator  reducer"
+ , "c3" : "QC-JAV000006[03794] For method reduceToInt arguments long  parallelismThreshold|ToIntBiFunction&lt;? super K ,? super V &gt;  transformer|int  basis|IntBinaryOperator  reducer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -10408,7 +10408,7 @@ var maDataBlocs = {
  , "c1" : "03813"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#3813"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03813] For method forEachKey arguments long  parallelismThreshold|Consumer&lt;?superK&gt;  action"
+ , "c3" : "QC-JAV000006[03813] For method forEachKey arguments long  parallelismThreshold|Consumer&lt;? super K &gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -10506,7 +10506,7 @@ var maDataBlocs = {
  , "c1" : "03879"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#3879"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03879] For method reduceKeys arguments long  parallelismThreshold|BiFunction&lt;?superK,?superK,?extendsK&gt;  reducer"
+ , "c3" : "QC-JAV000006[03879] For method reduceKeys arguments long  parallelismThreshold|BiFunction&lt;? super K ,? super K ,?  extends K &gt;  reducer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -10590,7 +10590,7 @@ var maDataBlocs = {
  , "c1" : "03928"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#3928"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03928] For method reduceKeysToDouble arguments long  parallelismThreshold|ToDoubleFunction&lt;?superK&gt;  transformer|double  basis|DoubleBinaryOperator  reducer"
+ , "c3" : "QC-JAV000006[03928] For method reduceKeysToDouble arguments long  parallelismThreshold|ToDoubleFunction&lt;? super K &gt;  transformer|double  basis|DoubleBinaryOperator  reducer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -10639,7 +10639,7 @@ var maDataBlocs = {
  , "c1" : "03954"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#3954"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03954] For method reduceKeysToLong arguments long  parallelismThreshold|ToLongFunction&lt;?superK&gt;  transformer|long  basis|LongBinaryOperator  reducer"
+ , "c3" : "QC-JAV000006[03954] For method reduceKeysToLong arguments long  parallelismThreshold|ToLongFunction&lt;? super K &gt;  transformer|long  basis|LongBinaryOperator  reducer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -10688,7 +10688,7 @@ var maDataBlocs = {
  , "c1" : "03980"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#3980"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03980] For method reduceKeysToInt arguments long  parallelismThreshold|ToIntFunction&lt;?superK&gt;  transformer|int  basis|IntBinaryOperator  reducer"
+ , "c3" : "QC-JAV000006[03980] For method reduceKeysToInt arguments long  parallelismThreshold|ToIntFunction&lt;? super K &gt;  transformer|int  basis|IntBinaryOperator  reducer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -10737,7 +10737,7 @@ var maDataBlocs = {
  , "c1" : "03999"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#3999"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03999] For method forEachValue arguments long  parallelismThreshold|Consumer&lt;?superV&gt;  action"
+ , "c3" : "QC-JAV000006[03999] For method forEachValue arguments long  parallelismThreshold|Consumer&lt;? super V &gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -10835,7 +10835,7 @@ var maDataBlocs = {
  , "c1" : "04065"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4065"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04065] For method reduceValues arguments long  parallelismThreshold|BiFunction&lt;?superV,?superV,?extendsV&gt;  reducer"
+ , "c3" : "QC-JAV000006[04065] For method reduceValues arguments long  parallelismThreshold|BiFunction&lt;? super V ,? super V ,?  extends V &gt;  reducer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -10919,7 +10919,7 @@ var maDataBlocs = {
  , "c1" : "04114"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4114"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04114] For method reduceValuesToDouble arguments long  parallelismThreshold|ToDoubleFunction&lt;?superV&gt;  transformer|double  basis|DoubleBinaryOperator  reducer"
+ , "c3" : "QC-JAV000006[04114] For method reduceValuesToDouble arguments long  parallelismThreshold|ToDoubleFunction&lt;? super V &gt;  transformer|double  basis|DoubleBinaryOperator  reducer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -10968,7 +10968,7 @@ var maDataBlocs = {
  , "c1" : "04140"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4140"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04140] For method reduceValuesToLong arguments long  parallelismThreshold|ToLongFunction&lt;?superV&gt;  transformer|long  basis|LongBinaryOperator  reducer"
+ , "c3" : "QC-JAV000006[04140] For method reduceValuesToLong arguments long  parallelismThreshold|ToLongFunction&lt;? super V &gt;  transformer|long  basis|LongBinaryOperator  reducer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -11017,7 +11017,7 @@ var maDataBlocs = {
  , "c1" : "04166"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4166"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04166] For method reduceValuesToInt arguments long  parallelismThreshold|ToIntFunction&lt;?superV&gt;  transformer|int  basis|IntBinaryOperator  reducer"
+ , "c3" : "QC-JAV000006[04166] For method reduceValuesToInt arguments long  parallelismThreshold|ToIntFunction&lt;? super V &gt;  transformer|int  basis|IntBinaryOperator  reducer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -11066,7 +11066,7 @@ var maDataBlocs = {
  , "c1" : "04185"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4185"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04185] For method forEachEntry arguments long  parallelismThreshold|Consumer&lt;?superMap.Entry&lt;K,V&gt;&gt;  action"
+ , "c3" : "QC-JAV000006[04185] For method forEachEntry arguments long  parallelismThreshold|Consumer&lt;? super Map.Entry&lt;K ,V &gt; &gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -11164,7 +11164,7 @@ var maDataBlocs = {
  , "c1" : "04249"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4249"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04249] For method reduceEntries arguments long  parallelismThreshold|BiFunction&lt;Map.Entry&lt;K,V&gt;,Map.Entry&lt;K,V&gt;,?extendsMap.Entry&lt;K,V&gt;&gt;  reducer"
+ , "c3" : "QC-JAV000006[04249] For method reduceEntries arguments long  parallelismThreshold|BiFunction&lt;Map.Entry&lt;K ,V &gt; ,Map.Entry&lt;K ,V &gt; ,?  extends Map.Entry&lt;K ,V &gt; &gt;  reducer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -11248,7 +11248,7 @@ var maDataBlocs = {
  , "c1" : "04298"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4298"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04298] For method reduceEntriesToDouble arguments long  parallelismThreshold|ToDoubleFunction&lt;Map.Entry&lt;K,V&gt;&gt;  transformer|double  basis|DoubleBinaryOperator  reducer"
+ , "c3" : "QC-JAV000006[04298] For method reduceEntriesToDouble arguments long  parallelismThreshold|ToDoubleFunction&lt;Map.Entry&lt;K ,V &gt; &gt;  transformer|double  basis|DoubleBinaryOperator  reducer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -11297,7 +11297,7 @@ var maDataBlocs = {
  , "c1" : "04324"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4324"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04324] For method reduceEntriesToLong arguments long  parallelismThreshold|ToLongFunction&lt;Map.Entry&lt;K,V&gt;&gt;  transformer|long  basis|LongBinaryOperator  reducer"
+ , "c3" : "QC-JAV000006[04324] For method reduceEntriesToLong arguments long  parallelismThreshold|ToLongFunction&lt;Map.Entry&lt;K ,V &gt; &gt;  transformer|long  basis|LongBinaryOperator  reducer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -11346,7 +11346,7 @@ var maDataBlocs = {
  , "c1" : "04350"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4350"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04350] For method reduceEntriesToInt arguments long  parallelismThreshold|ToIntFunction&lt;Map.Entry&lt;K,V&gt;&gt;  transformer|int  basis|IntBinaryOperator  reducer"
+ , "c3" : "QC-JAV000006[04350] For method reduceEntriesToInt arguments long  parallelismThreshold|ToIntFunction&lt;Map.Entry&lt;K ,V &gt; &gt;  transformer|int  basis|IntBinaryOperator  reducer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -11549,7 +11549,7 @@ var maDataBlocs = {
  , "c1" : "04483"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4483"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04483] For method containsAll arguments Collection&lt;?&gt;  c"
+ , "c3" : "QC-JAV000006[04483] For method containsAll arguments Collection&lt;? &gt;  c"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -11577,7 +11577,7 @@ var maDataBlocs = {
  , "c1" : "04493"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4493"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04493] For method removeAll arguments Collection&lt;?&gt;  c"
+ , "c3" : "QC-JAV000006[04493] For method removeAll arguments Collection&lt;? &gt;  c"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -11612,7 +11612,7 @@ var maDataBlocs = {
  , "c1" : "04505"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4505"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04505] For method retainAll arguments Collection&lt;?&gt;  c"
+ , "c3" : "QC-JAV000006[04505] For method retainAll arguments Collection&lt;? &gt;  c"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -11724,7 +11724,7 @@ var maDataBlocs = {
  , "c1" : "04603"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4603"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04603] For method addAll arguments Collection&lt;?extendsK&gt;  c"
+ , "c3" : "QC-JAV000006[04603] For method addAll arguments Collection&lt;?  extends K &gt;  c"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -11787,7 +11787,7 @@ var maDataBlocs = {
  , "c1" : "04625"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4625"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE481[04625] Assigning instead of comparing on c=(Set&amp;lt;?&amp;gt; )o (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-JAVCWE481[04625] Assigning instead of comparing on c=(Set&amp;lt;? &amp;gt; )o (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -11836,7 +11836,7 @@ var maDataBlocs = {
  , "c1" : "04637"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4637"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04637] For method forEach arguments Consumer&lt;?superK&gt;  action"
+ , "c3" : "QC-JAV000006[04637] For method forEach arguments Consumer&lt;? super K &gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -11955,7 +11955,7 @@ var maDataBlocs = {
  , "c1" : "04683"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4683"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04683] For method addAll arguments Collection&lt;?extendsV&gt;  c"
+ , "c3" : "QC-JAV000006[04683] For method addAll arguments Collection&lt;?  extends V &gt;  c"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -12004,7 +12004,7 @@ var maDataBlocs = {
  , "c1" : "04695"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4695"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04695] For method forEach arguments Consumer&lt;?superV&gt;  action"
+ , "c3" : "QC-JAV000006[04695] For method forEach arguments Consumer&lt;? super V &gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -12060,7 +12060,7 @@ var maDataBlocs = {
  , "c1" : "04719"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4719"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE481[04719] Assigning instead of comparing on k=(e=(Map.Entry&amp;lt;?,?&amp;gt; )o).getKey() (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-JAVCWE481[04719] Assigning instead of comparing on k=(e=(Map.Entry&amp;lt;? ,? &amp;gt; )o).getKey() (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -12109,7 +12109,7 @@ var maDataBlocs = {
  , "c1" : "04728"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4728"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE481[04728] Assigning instead of comparing on k=(e=(Map.Entry&amp;lt;?,?&amp;gt; )o).getKey() (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-JAVCWE481[04728] Assigning instead of comparing on k=(e=(Map.Entry&amp;lt;? ,? &amp;gt; )o).getKey() (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -12158,7 +12158,7 @@ var maDataBlocs = {
  , "c1" : "04743"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4743"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04743] For method add arguments Entry&lt;K,V&gt;  e"
+ , "c3" : "QC-JAV000006[04743] For method add arguments Entry&lt;K ,V &gt;  e"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -12179,7 +12179,7 @@ var maDataBlocs = {
  , "c1" : "04747"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4747"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04747] For method addAll arguments Collection&lt;?extendsEntry&lt;K,V&gt;&gt;  c"
+ , "c3" : "QC-JAV000006[04747] For method addAll arguments Collection&lt;?  extends Entry&lt;K ,V &gt; &gt;  c"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -12249,7 +12249,7 @@ var maDataBlocs = {
  , "c1" : "04771"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4771"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAVCWE481[04771] Assigning instead of comparing on c=(Set&amp;lt;?&amp;gt; )o (see http://cwe.mitre.org/data/definitions/481.html)"
+ , "c3" : "QC-JAVCWE481[04771] Assigning instead of comparing on c=(Set&amp;lt;? &amp;gt; )o (see http://cwe.mitre.org/data/definitions/481.html)"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -12298,7 +12298,7 @@ var maDataBlocs = {
  , "c1" : "04783"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4783"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04783] For method forEach arguments Consumer&lt;?superMap.Entry&lt;K,V&gt;&gt;  action"
+ , "c3" : "QC-JAV000006[04783] For method forEach arguments Consumer&lt;? super Map.Entry&lt;K ,V &gt; &gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -12550,7 +12550,7 @@ var maDataBlocs = {
  , "c1" : "04859"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4859"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04859] For method pushState arguments Node&lt;K,V&gt;[]  t|int  i|int  n"
+ , "c3" : "QC-JAV000006[04859] For method pushState arguments Node&lt;K ,V &gt;[]  t|int  i|int  n"
 }} 
 ,
 { "ligne" : {"" : ""

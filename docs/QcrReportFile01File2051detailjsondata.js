@@ -136,7 +136,7 @@ var maDataBlocs = {
  , "c1" : "00036"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ExceptionUtils.java.html#36"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00036] For method throwSuppressed arguments String  message|LinkedList&lt;RuntimeException&gt;  suppressed"
+ , "c3" : "QC-JAV000006[00036] For method throwSuppressed arguments String  message|LinkedList&lt;RuntimeException &gt;  suppressed"
 }} 
 ,
 { "ligne" : {"" : ""

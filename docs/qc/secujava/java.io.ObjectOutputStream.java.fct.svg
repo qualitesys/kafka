@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1193px" preserveAspectRatio="none" style="width:957px;height:1193px;background:#FFFFFF;" version="1.1" viewBox="0 0 957 1193" width="957px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="603" x="5" y="16.1387">An error has occured : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="266" x="5" y="30.1074">Wouldn't you prefer a nice game of chess?</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="44.0762"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="280" x="5" y="58.0449">Diagram size: 1565 lines / 32683 characters.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="72.0137"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="374" x="5" y="85.9824">PlantUML (1.2022.7) cannot parse result from dot/GraphViz.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="99.9512"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="390" x="5" y="113.9199">This version of PlantUML is 363 days old, so you should</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="398" x="5" y="127.8887">consider upgrading from https://plantuml.com/download</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="141.8574"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="492" x="5" y="155.8262">Please go to https://plantuml.com/graphviz-dot to check your GraphViz version.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="169.7949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="277" x="5" y="183.7637">Java Runtime: OpenJDK Runtime Environment</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="187" x="5" y="197.7324">JVM: OpenJDK 64-Bit Server VM</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="211.7012">Default Encoding: UTF-8</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="5" y="225.6699">Language: en</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="5" y="239.6387">Country: null</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="253.6074"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="172" x="5" y="267.5762">PLANTUML_LIMIT_SIZE: 4096</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="281.5449"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="295.5137">This may be caused by :</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="9" y="309.4824">- a bug in PlantUML</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="144" x="9" y="323.4512">- a problem in GraphViz</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="337.4199"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="300" x="5" y="351.3887">You should send this diagram and this image to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="145" x="309" y="351.3887">plantuml@gmail.com</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="13" x="458" y="351.3887">or</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="5" y="365.3574">post to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="168" x="54" y="365.3574">https://plantuml.com/qa</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="117" x="226" y="365.3574">to solve this issue.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="405" x="5" y="379.3262">You can try to turn arround this issue by simplifing your diagram.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="393.2949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="458" x="5" y="407.2637">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="477" x="13" y="421.2324">java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="548" x="13" y="435.2012">java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="474" x="13" y="449.1699">java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="351" x="13" y="463.1387">java.base/java.util.Objects.checkIndex(Objects.java:372)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="314" x="13" y="477.1074">java.base/java.util.ArrayList.get(ArrayList.java:459)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="878" x="13" y="491.0762">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createWithLinks(FtileFactoryDelegatorSwitch.java:103)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="852" x="13" y="505.0449">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createSwitch(FtileFactoryDelegatorSwitch.java:79)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="519.0137">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="532.9824">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="546.9512">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="560.9199">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="574.8887">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="588.8574">net.sourceforge.plantuml.activitydiagram3.InstructionSwitch.createFtile(InstructionSwitch.java:119)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="13" y="602.8262">net.sourceforge.plantuml.activitydiagram3.InstructionList.createFtile(InstructionList.java:131)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="536" x="13" y="616.7949">net.sourceforge.plantuml.activitydiagram3.ftile.Swimlanes.drawU(Swimlanes.java:229)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="805" x="13" y="630.7637">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.getPiecewiseAffineTransform(CompressionXorYBuilder.java:51)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="655" x="13" y="644.7324">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.build(CompressionXorYBuilder.java:44)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="686" x="13" y="658.7012">net.sourceforge.plantuml.activitydiagram3.ActivityDiagram3.exportDiagramInternal(ActivityDiagram3.java:210)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="672.6699">net.sourceforge.plantuml.UmlDiagram.exportDiagramNow(UmlDiagram.java:135)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="538" x="13" y="686.6387">net.sourceforge.plantuml.AbstractPSystem.exportDiagram(AbstractPSystem.java:178)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="700.6074">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:172)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="714.5762">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="693" x="13" y="728.5449">com.qualitesys.qcrmavenplugin.commun.QcrCommunPlantUml.genererFichierSvg(QcrCommunPlantUml.java:82)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="585" x="13" y="742.5137">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lireFichier(QcrReporting01Mojo.java:927)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="556" x="13" y="756.4824">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lister(QcrReporting01Mojo.java:453)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="591" x="13" y="770.4512">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.doReport(QcrReporting01Mojo.java:2037)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="625" x="13" y="784.4199">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.executeReport(QcrReporting01Mojo.java:1739)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="582" x="13" y="798.3887">org.apache.maven.reporting.AbstractMavenReport.generate(AbstractMavenReport.java:251)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="748" x="13" y="812.3574">org.apache.maven.plugins.site.render.ReportDocumentRenderer.renderDocument(ReportDocumentRenderer.java:226)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="607" x="13" y="826.3262">org.apache.maven.doxia.siterenderer.DefaultSiteRenderer.render(DefaultSiteRenderer.java:348)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="840.2949">org.apache.maven.plugins.site.render.SiteMojo.renderLocale(SiteMojo.java:194)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="470" x="13" y="854.2637">org.apache.maven.plugins.site.render.SiteMojo.execute(SiteMojo.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="649" x="13" y="868.2324">org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="882.2012">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:370)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="531" x="13" y="896.1699">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:351)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="910.1387">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:215)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="924.1074">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:171)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="938.0762">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:163)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="651" x="13" y="952.0449">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="643" x="13" y="966.0137">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="747" x="13" y="979.9824">org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="993.9512">org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1007.9199">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:299)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1021.8887">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="412" x="13" y="1035.8574">org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="367" x="13" y="1049.8262">org.apache.maven.cli.MavenCli.execute(MavenCli.java:963)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="362" x="13" y="1063.7949">org.apache.maven.cli.MavenCli.doMain(MavenCli.java:296)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="347" x="13" y="1077.7637">org.apache.maven.cli.MavenCli.main(MavenCli.java:199)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="1091.7324">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="1105.7012">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="679" x="13" y="1119.6699">java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="373" x="13" y="1133.6387">java.base/java.lang.reflect.Method.invoke(Method.java:566)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="562" x="13" y="1147.6074">org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="499" x="13" y="1161.5762">org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="568" x="13" y="1175.5449">org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="487" x="13" y="1189.5137">org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)</text><image height="32" width="37" x="920" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAgCAYAAACVU7GwAAAB3UlEQVR4Xt2WsU4CQRCGj4rEhIoXoKcg4SWuJPFJqHgJOnrjM0B4ChssbDQUNgYLKyQRTpORXzMH/Lezu2dyh/onf3LF7sy3s3NzlyR/XbOZSJq+S7st0mgcnCQbWa02wusr1XD4cQLRbJ4RCpVRgFbr+/nYtUNpdXBVAGKo2isFICQG0K+AGo+3pYAqh1ossvzKLCALar1+qwaq2z0AWVCAuEjupdO5kcHg9st4vrreCV6MWGM95y8IC0NVAgwgXFXh6oWMNuEYBaFKCmIBzecPZiBO6jMOxvsLwsmx2AJCz0wmd95AnNhyr/fsjZML96tQrqZGz/AeFid3GYfjfaZ0UDKQVsl3bSoGYJd+Q/GRZSgNhl7i9S4xBBvjhvd4hSZXKA4WC4V1lqNef5ZCqX9Sqf0i3JHbl2lUjBPp9bkMqJheKICQt6NRMMaJ+H+JHRoHEEO4vJtOg3Fy6TS3HHOFDGA5Wy6DsXIxCDs0hTm5z7zXlK+v1L5pzIl9ft0H4/1OPT75+wrWYYqPKTc/EpXxS78fBxZTLZcBikMhRiYiseb8TmEhJ4xxpX+ekP59lnHlUFBoRLBrgYLKVKw2KFVM89cOBSEh4JCcgc4GdSz0G76VgMQwVfPc+nf6BM7TeK7eGJBTAAAAAElFTkSuQmCC" y="6"/><!--MD5=[dfabd45f44d69402b59984970b81ceda]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1193px" preserveAspectRatio="none" style="width:985px;height:1193px;background:#FFFFFF;" version="1.1" viewBox="0 0 985 1193" width="985px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="603" x="5" y="16.1387">An error has occured : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="480" x="5" y="30.1074">Who shaves the barber who shaves all the men who don't shave themselves?</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="44.0762"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="280" x="5" y="58.0449">Diagram size: 1565 lines / 32355 characters.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="72.0137"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="374" x="5" y="85.9824">PlantUML (1.2022.7) cannot parse result from dot/GraphViz.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="99.9512"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="390" x="5" y="113.9199">This version of PlantUML is 364 days old, so you should</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="398" x="5" y="127.8887">consider upgrading from https://plantuml.com/download</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="141.8574"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="492" x="5" y="155.8262">Please go to https://plantuml.com/graphviz-dot to check your GraphViz version.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="169.7949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="277" x="5" y="183.7637">Java Runtime: OpenJDK Runtime Environment</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="187" x="5" y="197.7324">JVM: OpenJDK 64-Bit Server VM</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="211.7012">Default Encoding: UTF-8</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="5" y="225.6699">Language: en</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="5" y="239.6387">Country: null</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="253.6074"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="172" x="5" y="267.5762">PLANTUML_LIMIT_SIZE: 4096</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="281.5449"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="295.5137">This may be caused by :</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="9" y="309.4824">- a bug in PlantUML</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="144" x="9" y="323.4512">- a problem in GraphViz</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="337.4199"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="300" x="5" y="351.3887">You should send this diagram and this image to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="145" x="309" y="351.3887">plantuml@gmail.com</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="13" x="458" y="351.3887">or</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="5" y="365.3574">post to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="168" x="54" y="365.3574">https://plantuml.com/qa</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="117" x="226" y="365.3574">to solve this issue.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="405" x="5" y="379.3262">You can try to turn arround this issue by simplifing your diagram.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="393.2949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="458" x="5" y="407.2637">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="477" x="13" y="421.2324">java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="548" x="13" y="435.2012">java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="474" x="13" y="449.1699">java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="351" x="13" y="463.1387">java.base/java.util.Objects.checkIndex(Objects.java:372)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="314" x="13" y="477.1074">java.base/java.util.ArrayList.get(ArrayList.java:459)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="878" x="13" y="491.0762">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createWithLinks(FtileFactoryDelegatorSwitch.java:103)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="852" x="13" y="505.0449">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createSwitch(FtileFactoryDelegatorSwitch.java:79)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="519.0137">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="532.9824">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="546.9512">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="560.9199">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="574.8887">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="588.8574">net.sourceforge.plantuml.activitydiagram3.InstructionSwitch.createFtile(InstructionSwitch.java:119)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="13" y="602.8262">net.sourceforge.plantuml.activitydiagram3.InstructionList.createFtile(InstructionList.java:131)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="536" x="13" y="616.7949">net.sourceforge.plantuml.activitydiagram3.ftile.Swimlanes.drawU(Swimlanes.java:229)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="805" x="13" y="630.7637">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.getPiecewiseAffineTransform(CompressionXorYBuilder.java:51)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="655" x="13" y="644.7324">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.build(CompressionXorYBuilder.java:44)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="686" x="13" y="658.7012">net.sourceforge.plantuml.activitydiagram3.ActivityDiagram3.exportDiagramInternal(ActivityDiagram3.java:210)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="672.6699">net.sourceforge.plantuml.UmlDiagram.exportDiagramNow(UmlDiagram.java:135)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="538" x="13" y="686.6387">net.sourceforge.plantuml.AbstractPSystem.exportDiagram(AbstractPSystem.java:178)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="700.6074">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:172)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="714.5762">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="693" x="13" y="728.5449">com.qualitesys.qcrmavenplugin.commun.QcrCommunPlantUml.genererFichierSvg(QcrCommunPlantUml.java:82)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="585" x="13" y="742.5137">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lireFichier(QcrReporting01Mojo.java:927)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="556" x="13" y="756.4824">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lister(QcrReporting01Mojo.java:453)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="591" x="13" y="770.4512">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.doReport(QcrReporting01Mojo.java:2037)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="625" x="13" y="784.4199">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.executeReport(QcrReporting01Mojo.java:1739)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="582" x="13" y="798.3887">org.apache.maven.reporting.AbstractMavenReport.generate(AbstractMavenReport.java:251)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="748" x="13" y="812.3574">org.apache.maven.plugins.site.render.ReportDocumentRenderer.renderDocument(ReportDocumentRenderer.java:226)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="607" x="13" y="826.3262">org.apache.maven.doxia.siterenderer.DefaultSiteRenderer.render(DefaultSiteRenderer.java:348)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="840.2949">org.apache.maven.plugins.site.render.SiteMojo.renderLocale(SiteMojo.java:194)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="470" x="13" y="854.2637">org.apache.maven.plugins.site.render.SiteMojo.execute(SiteMojo.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="649" x="13" y="868.2324">org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="882.2012">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:370)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="531" x="13" y="896.1699">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:351)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="910.1387">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:215)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="924.1074">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:171)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="938.0762">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:163)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="651" x="13" y="952.0449">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="643" x="13" y="966.0137">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="747" x="13" y="979.9824">org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="993.9512">org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1007.9199">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:299)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1021.8887">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="412" x="13" y="1035.8574">org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="367" x="13" y="1049.8262">org.apache.maven.cli.MavenCli.execute(MavenCli.java:963)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="362" x="13" y="1063.7949">org.apache.maven.cli.MavenCli.doMain(MavenCli.java:296)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="347" x="13" y="1077.7637">org.apache.maven.cli.MavenCli.main(MavenCli.java:199)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="1091.7324">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="1105.7012">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="679" x="13" y="1119.6699">java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="373" x="13" y="1133.6387">java.base/java.lang.reflect.Method.invoke(Method.java:566)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="562" x="13" y="1147.6074">org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="499" x="13" y="1161.5762">org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="568" x="13" y="1175.5449">org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="487" x="13" y="1189.5137">org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)</text><image height="30" width="65" x="920" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAAAeCAYAAABzL3NnAAABCklEQVR4Xu3QMY4CQRBDUW5FPGfkAHNMQlY74YOScFBNt9SWKvOXvut2+zLneb684zjeTu4/cgk7VRyRDJFL2KniiGSIXMJOFUckQ+QSdqo4Ihkil7A/i8Id5wP2E/YT9hP2Ezw9hkW5SvD+eL6dXAerb0sUqWQckQyRS1h9W6JIJeOIZIhcwurbEkUqGUckQ+QSVt+WKFLJOCIZIpew+g6Lch3n2J8O/hSFO84H7CfsJ+wnzPEE5SpBO6N6+rZEkUrGzqievi1RpJKxM6qnb0sUqWTsjOrp2xJFKhk7o3r6DotylaCdVXvuvyJYwXZW7bn/imAF21m15/4rghVsZ9We+68IVrCdVXt/VoJwRZjPSfYAAAAASUVORK5CYII=" y="6"/><!--MD5=[dc8469deacee39a0a23ce1f23537c53e]
 @startuml
 !pragma layout smetana
 start
 note right
-constructor ObjectOutputStream(OutputStream out)
+constructor ObjectOutputStream(OutputStreamout)
 end note
 :verifySubclass();;
 :bout=new BlockDataOutputStream(out);;
-:handles=new HandleTable(10,(float )3.00);;
-:subs=new ReplaceTable(10,(float )3.00);;
+:handles=new HandleTable(10,(float)3.00);;
+:subs=new ReplaceTable(10,(float)3.00);;
 :enableOverride=false;;
 :writeStreamHeader();;
 :bout.setBlockDataMode(true);;
@@ -22,7 +22,7 @@ start
 note right
 constructor ObjectOutputStream()
 end note
-:SecurityManager sm=System.getSecurityManager();;
+:SecurityManagersm=System.getSecurityManager();;
 if (sm!=null ) then (yes) 
 :sm.checkPermission(SUBCLASS_IMPLEMENTATION_PERMISSION);;
 endif 
@@ -34,7 +34,7 @@ endif
 end
 start
 note right
-void useProtocolVersion(int version)
+void useProtocolVersion(intversion)
 end note
 if (handles.size()!=0) then (yes) 
 :throw new IllegalStateException("stream non-empty");;
@@ -45,7 +45,7 @@ endswitch
 end
 start
 note right
-void writeObject(Object obj)
+void writeObject(Objectobj)
 end note
 if (enableOverride) then (yes) 
 :writeObjectOverride(obj);;
@@ -55,7 +55,7 @@ endif
 switch (try/catch block)
 case (try)
 :writeObject0(obj,false);;
-case (catch (IOException ex))
+case (catch (IOExceptionex))
 if (depth==0) then (yes) 
 :writeFatalException(ex);;
 endif 
@@ -65,17 +65,17 @@ endswitch
 end
 start
 note right
-void writeObjectOverride(Object obj)
+void writeObjectOverride(Objectobj)
 end note
 end
 start
 note right
-void writeUnshared(Object obj)
+void writeUnshared(Objectobj)
 end note
 switch (try/catch block)
 case (try)
 :writeObject0(obj,true);;
-case (catch (IOException ex))
+case (catch (IOExceptionex))
 if (depth==0) then (yes) 
 :writeFatalException(ex);;
 endif 
@@ -87,29 +87,29 @@ start
 note right
 void defaultWriteObject()
 end note
-:SerialCallbackContext ctx=curContext;;
+:SerialCallbackContextctx=curContext;;
 if (ctx==null ) then (yes) 
 :throw new NotActiveException("not in call to writeObject");;
 stop
 endif 
-:Object curObj=ctx.getObj();;
-:ObjectStreamClass curDesc=ctx.getDesc();;
+:ObjectcurObj=ctx.getObj();;
+:ObjectStreamClasscurDesc=ctx.getDesc();;
 :bout.setBlockDataMode(false);;
 :defaultWriteFields(curObj,curDesc);;
 :bout.setBlockDataMode(true);;
 end
 start
 note right
-ObjectOutputStream.PutField putFields()
+ObjectOutputStream.PutFieldputFields()
 end note
 if (curPut==null ) then (yes) 
-:SerialCallbackContext ctx=curContext;;
+:SerialCallbackContextctx=curContext;;
 if (ctx==null ) then (yes) 
 :throw new NotActiveException("not in call to writeObject");;
 stop
 endif 
-:Object curObj=ctx.getObj();;
-:ObjectStreamClass curDesc=ctx.getDesc();;
+:ObjectcurObj=ctx.getObj();;
+:ObjectStreamClasscurDesc=ctx.getDesc();;
 :curPut=new PutFieldImpl(curDesc);;
 endif 
 :return curPut;;
@@ -142,31 +142,31 @@ endif
 end
 start
 note right
-void annotateClass(Class<?> cl)
+void annotateClass(Class<? >cl)
 end note
 end
 start
 note right
-void annotateProxyClass(Class<?> cl)
+void annotateProxyClass(Class<? >cl)
 end note
 end
 start
 note right
-Object replaceObject(Object obj)
+ObjectreplaceObject(Objectobj)
 end note
 :return obj;;
 stop
 end
 start
 note right
-boolean enableReplaceObject(boolean enable)
+booleanenableReplaceObject(booleanenable)
 end note
 if (enable==enableReplace) then (yes) 
 :return enable;;
 stop
 endif 
 if (enable) then (yes) 
-:SecurityManager sm=System.getSecurityManager();;
+:SecurityManagersm=System.getSecurityManager();;
 if (sm!=null ) then (yes) 
 :sm.checkPermission(SUBSTITUTION_PERMISSION);;
 endif 
@@ -184,31 +184,31 @@ end note
 end
 start
 note right
-void writeClassDescriptor(ObjectStreamClass desc)
+void writeClassDescriptor(ObjectStreamClassdesc)
 end note
 :desc.writeNonProxy(this);;
 end
 start
 note right
-void write(int val)
+void write(intval)
 end note
 :bout.write(val);;
 end
 start
 note right
-void write(byte[] buf)
+void write(byte[]buf)
 end note
 :bout.write(buf,0,buf.length,false);;
 end
 start
 note right
-void write(byte[] buf,int off,int len)
+void write(byte[]buf,intoff,intlen)
 end note
 if (buf==null ) then (yes) 
 :throw new NullPointerException();;
 stop
 endif 
-:int endoff=off+len;;
+:intendoff=off+len;;
 if (off<0||len<0||endoff>buf.length||endoff<0) then (yes) 
 :throw new IndexOutOfBoundsException();;
 stop
@@ -237,132 +237,132 @@ end note
 end
 start
 note right
-void writeBoolean(boolean val)
+void writeBoolean(booleanval)
 end note
 :bout.writeBoolean(val);;
 end
 start
 note right
-void writeByte(int val)
+void writeByte(intval)
 end note
 :bout.writeByte(val);;
 end
 start
 note right
-void writeShort(int val)
+void writeShort(intval)
 end note
 :bout.writeShort(val);;
 end
 start
 note right
-void writeChar(int val)
+void writeChar(intval)
 end note
 :bout.writeChar(val);;
 end
 start
 note right
-void writeInt(int val)
+void writeInt(intval)
 end note
 :bout.writeInt(val);;
 end
 start
 note right
-void writeLong(long val)
+void writeLong(longval)
 end note
 :bout.writeLong(val);;
 end
 start
 note right
-void writeFloat(float val)
+void writeFloat(floatval)
 end note
 :bout.writeFloat(val);;
 end
 start
 note right
-void writeDouble(double val)
+void writeDouble(doubleval)
 end note
 :bout.writeDouble(val);;
 end
 start
 note right
-void writeBytes(String str)
+void writeBytes(Stringstr)
 end note
 :bout.writeBytes(str);;
 end
 start
 note right
-void writeChars(String str)
+void writeChars(Stringstr)
 end note
 :bout.writeChars(str);;
 end
 start
 note right
-void writeUTF(String str)
+void writeUTF(Stringstr)
 end note
 :bout.writeUTF(str);;
 end
 start
 note right
-void put(String name,boolean val)
+void put(Stringname,booleanval)
 end note
 end
 start
 note right
-void put(String name,byte val)
+void put(Stringname,byteval)
 end note
 end
 start
 note right
-void put(String name,char val)
+void put(Stringname,charval)
 end note
 end
 start
 note right
-void put(String name,short val)
+void put(Stringname,shortval)
 end note
 end
 start
 note right
-void put(String name,int val)
+void put(Stringname,intval)
 end note
 end
 start
 note right
-void put(String name,long val)
+void put(Stringname,longval)
 end note
 end
 start
 note right
-void put(String name,float val)
+void put(Stringname,floatval)
 end note
 end
 start
 note right
-void put(String name,double val)
+void put(Stringname,doubleval)
 end note
 end
 start
 note right
-void put(String name,Object val)
+void put(Stringname,Objectval)
 end note
 end
 start
 note right
-void write(ObjectOutput out)
+void write(ObjectOutputout)
 end note
 end
 start
 note right
-int getProtocolVersion()
+intgetProtocolVersion()
 end note
 :return protocol;;
 stop
 end
 start
 note right
-void writeTypeString(String str)
+void writeTypeString(Stringstr)
 end note
-:int handle;;
+:inthandle;;
 if (str==null ) then (yes) 
 :writeNull();;
 else if ((handle=handles.lookup(str))!=-1) then (yes) 
@@ -375,20 +375,20 @@ start
 note right
 void verifySubclass()
 end note
-:Class<?> cl=getClass();;
+:Class<? >cl=getClass();;
 if (cl==ObjectOutputStream.class ) then (yes) 
 :return ;;
 stop
 endif 
-:SecurityManager sm=System.getSecurityManager();;
+:SecurityManagersm=System.getSecurityManager();;
 if (sm==null ) then (yes) 
 :return ;;
 stop
 endif 
 :processQueue(Caches.subclassAuditsQueue,
 Caches.subclassAudits);;
-:WeakClassKey key=new WeakClassKey(cl,Caches.subclassAuditsQueue);;
-:Boolean result=Caches.subclassAudits.get(key);;
+:WeakClassKeykey=new WeakClassKey(cl,Caches.subclassAuditsQueue);;
+:Booleanresult=Caches.subclassAudits.get(key);;
 if (result==null ) then (yes) 
 :result=Boolean.valueOf(auditSubclass(cl));;
 :Caches.subclassAudits.putIfAbsent(key,result);;
@@ -401,12 +401,12 @@ endif
 end
 start
 note right
-boolean auditSubclass(final Class<?> subcl)
+booleanauditSubclass(final Class<? >subcl)
 end note
-:Boolean result=AccessController.doPrivileged(new PrivilegedAction<Boolean >(){public Boolean run(){for (Class<?> cl=subcl;
+:Booleanresult=AccessController.doPrivileged(new PrivilegedAction<Boolean>(){public Booleanrun(){for (Class<? >cl=subcl;
 :cl!=ObjectOutputStream.class ;cl=cl.getSuperclass()){try {cl.getDeclaredMethod("writeUnshared",
-new Class<? >[]{Object.class });return Boolean.FALSE;}catch (NoSuchMethodException ex){}try {cl.getDeclaredMethod("putFields",
-(Class<?>[] )null );return Boolean.FALSE;}catch (NoSuchMethodException ex){}}return Boolean.TRUE;}});;
+new Class<? >[]{Object.class });return Boolean.FALSE;}catch (NoSuchMethodExceptionex){}try {cl.getDeclaredMethod("putFields",
+(Class<? >[])null );return Boolean.FALSE;}catch (NoSuchMethodExceptionex){}}return Boolean.TRUE;}});;
 :return result.booleanValue();;
 stop
 end
@@ -419,13 +419,13 @@ end note
 end
 start
 note right
-void writeObject0(Object obj,boolean unshared)
+void writeObject0(Objectobj,booleanunshared)
 end note
-:boolean oldMode=bout.setBlockDataMode(false);;
+:booleanoldMode=bout.setBlockDataMode(false);;
 :depth++;;
 switch (try/catch block)
 case (try)
-:int h;;
+:inth;;
 if ((obj=subs.lookup(obj))==null ) then (yes) 
 :writeNull();;
 :return ;;
@@ -434,26 +434,26 @@ else if (!unshared&&(h=handles.lookup(obj))!=-1) then (yes)
 :writeHandle(h);;
 :return ;;
 stop
-else if (obj instanceof Class ) then (yes) 
-:writeClass((Class )obj,unshared);;
+else if (obj instanceof Class) then (yes) 
+:writeClass((Class)obj,unshared);;
 :return ;;
 stop
-else if (obj instanceof ObjectStreamClass ) then (yes) 
-:writeClassDesc((ObjectStreamClass )obj,unshared);;
+else if (obj instanceof ObjectStreamClass) then (yes) 
+:writeClassDesc((ObjectStreamClass)obj,unshared);;
 :return ;;
 stop
 endif 
-:Object orig=obj;;
-:Class<?> cl=obj.getClass();;
-:ObjectStreamClass desc;;
-:Class<?> repCl;;
+:Objectorig=obj;;
+:Class<? >cl=obj.getClass();;
+:ObjectStreamClassdesc;;
+:Class<? >repCl;;
 :desc=ObjectStreamClass.lookup(cl,true);;
 if (!desc.hasWriteReplaceMethod()||(obj=desc.invokeWriteReplace(obj))==null ||(repCl=obj.getClass())==cl) then (yes) 
 :break ;;
 endif 
 :cl=repCl;;
 if (enableReplace) then (yes) 
-:Object rep=replaceObject(obj);;
+:Objectrep=replaceObject(obj);;
 if (rep!=obj&&rep!=null ) then (yes) 
 :cl=rep.getClass();;
 :desc=ObjectStreamClass.lookup(cl,true);;
@@ -470,23 +470,23 @@ else if (!unshared&&(h=handles.lookup(obj))!=-1) then (yes)
 :writeHandle(h);;
 :return ;;
 stop
-else if (obj instanceof Class ) then (yes) 
-:writeClass((Class )obj,unshared);;
+else if (obj instanceof Class) then (yes) 
+:writeClass((Class)obj,unshared);;
 :return ;;
 stop
-else if (obj instanceof ObjectStreamClass ) then (yes) 
-:writeClassDesc((ObjectStreamClass )obj,unshared);;
+else if (obj instanceof ObjectStreamClass) then (yes) 
+:writeClassDesc((ObjectStreamClass)obj,unshared);;
 :return ;;
 stop
 endif 
 endif 
-if (obj instanceof String ) then (yes) 
-:writeString((String )obj,unshared);;
+if (obj instanceof String) then (yes) 
+:writeString((String)obj,unshared);;
 else if (cl.isArray()) then (yes) 
 :writeArray(obj,desc,unshared);;
-else if (obj instanceof Enum ) then (yes) 
-:writeEnum((Enum<?> )obj,desc,unshared);;
-else if (obj instanceof Serializable ) then (yes) 
+else if (obj instanceof Enum) then (yes) 
+:writeEnum((Enum<? >)obj,desc,unshared);;
+else if (obj instanceof Serializable) then (yes) 
 :writeOrdinaryObject(obj,desc,unshared);;
 else (no)
 if (extendedDebugInfo) then (yes) 
@@ -508,14 +508,14 @@ end note
 end
 start
 note right
-void writeHandle(int handle)
+void writeHandle(inthandle)
 end note
 :bout.writeByte(TC_REFERENCE);;
 :bout.writeInt(baseWireHandle+handle);;
 end
 start
 note right
-void writeClass(Class<?> cl,boolean unshared)
+void writeClass(Class<? >cl,booleanunshared)
 end note
 :bout.writeByte(TC_CLASS);;
 :writeClassDesc(ObjectStreamClass.lookup(cl,
@@ -524,10 +524,10 @@ true),false);;
 end
 start
 note right
-void writeClassDesc(ObjectStreamClass desc,
-boolean unshared)
+void writeClassDesc(ObjectStreamClassdesc,
+booleanunshared)
 end note
-:int handle;;
+:inthandle;;
 if (desc==null ) then (yes) 
 :writeNull();;
 else if (!unshared&&(handle=handles.lookup(desc))!=-1) then (yes) 
@@ -540,20 +540,20 @@ endif
 end
 start
 note right
-boolean isCustomSubclass()
+booleanisCustomSubclass()
 end note
 :return getClass().getClassLoader()!=ObjectOutputStream.class .getClassLoader();;
 stop
 end
 start
 note right
-void writeProxyDesc(ObjectStreamClass desc,
-boolean unshared)
+void writeProxyDesc(ObjectStreamClassdesc,
+booleanunshared)
 end note
 :bout.writeByte(TC_PROXYCLASSDESC);;
 :handles.assign(unshared? null :desc);;
-:Class<?> cl=desc.forClass();;
-:Class<?>[] ifaces=cl.getInterfaces();;
+:Class<? >cl=desc.forClass();;
+:Class<? >[]ifaces=cl.getInterfaces();;
 :bout.writeInt(ifaces.length);;
 :bout.writeUTF(ifaces[i].getName());;
 :bout.setBlockDataMode(true);;
@@ -567,8 +567,8 @@ endif
 end
 start
 note right
-void writeNonProxyDesc(ObjectStreamClass desc,
-boolean unshared)
+void writeNonProxyDesc(ObjectStreamClassdesc,
+booleanunshared)
 end note
 :bout.writeByte(TC_CLASSDESC);;
 :handles.assign(unshared? null :desc);;
@@ -577,7 +577,7 @@ if (protocol==PROTOCOL_VERSION_1) then (yes)
 else (no)
 :writeClassDescriptor(desc);;
 endif 
-:Class<?> cl=desc.forClass();;
+:Class<? >cl=desc.forClass();;
 :bout.setBlockDataMode(true);;
 if (cl!=null &&isCustomSubclass()) then (yes) 
 :ReflectUtil.checkPackageAccess(cl);;
@@ -589,10 +589,10 @@ endif
 end
 start
 note right
-void writeString(String str,boolean unshared)
+void writeString(Stringstr,booleanunshared)
 end note
 :handles.assign(unshared? null :str);;
-:long utflen=bout.getUTFLength(str);;
+:longutflen=bout.getUTFLength(str);;
 if (utflen<=0xFFFF) then (yes) 
 :bout.writeByte(TC_STRING);;
 :bout.writeUTF(str,utflen);;
@@ -603,44 +603,44 @@ endif
 end
 start
 note right
-void writeArray(Object array,ObjectStreamClass desc,
-boolean unshared)
+void writeArray(Objectarray,ObjectStreamClassdesc,
+booleanunshared)
 end note
 :bout.writeByte(TC_ARRAY);;
 :writeClassDesc(desc,false);;
 :handles.assign(unshared? null :array);;
-:Class<?> ccl=desc.forClass().getComponentType();;
+:Class<? >ccl=desc.forClass().getComponentType();;
 if (ccl.isPrimitive()) then (yes) 
 if (ccl==Integer.TYPE) then (yes) 
-:int[] ia=(int[] )array;;
+:int[]ia=(int[])array;;
 :bout.writeInt(ia.length);;
 :bout.writeInts(ia,0,ia.length);;
 else if (ccl==Byte.TYPE) then (yes) 
-:byte[] ba=(byte[] )array;;
+:byte[]ba=(byte[])array;;
 :bout.writeInt(ba.length);;
 :bout.write(ba,0,ba.length,true);;
 else if (ccl==Long.TYPE) then (yes) 
-:long[] ja=(long[] )array;;
+:long[]ja=(long[])array;;
 :bout.writeInt(ja.length);;
 :bout.writeLongs(ja,0,ja.length);;
 else if (ccl==Float.TYPE) then (yes) 
-:float[] fa=(float[] )array;;
+:float[]fa=(float[])array;;
 :bout.writeInt(fa.length);;
 :bout.writeFloats(fa,0,fa.length);;
 else if (ccl==Double.TYPE) then (yes) 
-:double[] da=(double[] )array;;
+:double[]da=(double[])array;;
 :bout.writeInt(da.length);;
 :bout.writeDoubles(da,0,da.length);;
 else if (ccl==Short.TYPE) then (yes) 
-:short[] sa=(short[] )array;;
+:short[]sa=(short[])array;;
 :bout.writeInt(sa.length);;
 :bout.writeShorts(sa,0,sa.length);;
 else if (ccl==Character.TYPE) then (yes) 
-:char[] ca=(char[] )array;;
+:char[]ca=(char[])array;;
 :bout.writeInt(ca.length);;
 :bout.writeChars(ca,0,ca.length);;
 else if (ccl==Boolean.TYPE) then (yes) 
-:boolean[] za=(boolean[] )array;;
+:boolean[]za=(boolean[])array;;
 :bout.writeInt(za.length);;
 :bout.writeBooleans(za,0,za.length);;
 else (no)
@@ -648,8 +648,8 @@ else (no)
 stop
 endif 
 else (no)
-:Object[] objs=(Object[] )array;;
-:int len=objs.length;;
+:Object[]objs=(Object[])array;;
+:intlen=objs.length;;
 :bout.writeInt(len);;
 if (extendedDebugInfo) then (yes) 
 :debugInfoStack.push("array (class \""+array.getClass().getName()+
@@ -670,11 +670,11 @@ endif
 end
 start
 note right
-void writeEnum(Enum<?> en,ObjectStreamClass desc,
-boolean unshared)
+void writeEnum(Enum<? >en,ObjectStreamClassdesc,
+booleanunshared)
 end note
 :bout.writeByte(TC_ENUM);;
-:ObjectStreamClass sdesc=desc.getSuperDesc();;
+:ObjectStreamClasssdesc=desc.getSuperDesc();;
 :writeClassDesc((sdesc.forClass()==Enum.class )? desc:sdesc,
 false);;
 :handles.assign(unshared? null :en);;
@@ -682,8 +682,8 @@ false);;
 end
 start
 note right
-void writeOrdinaryObject(Object obj,ObjectStreamClass desc,
-boolean unshared)
+void writeOrdinaryObject(Objectobj,ObjectStreamClassdesc,
+booleanunshared)
 end note
 if (extendedDebugInfo) then (yes) 
 :debugInfoStack.push((depth==1? String.valueOf("root "):String.valueOf(""))+
@@ -697,7 +697,7 @@ case (try)
 :writeClassDesc(desc,false);;
 :handles.assign(unshared? null :obj);;
 if (desc.isExternalizable()&&!desc.isProxy()) then (yes) 
-:writeExternalData((Externalizable )obj);;
+:writeExternalData((Externalizable)obj);;
 else (no)
 :writeSerialData(obj,desc);;
 endif 
@@ -705,14 +705,14 @@ endswitch
 end
 start
 note right
-void writeExternalData(Externalizable obj)
+void writeExternalData(Externalizableobj)
 end note
-:PutFieldImpl oldPut=curPut;;
+:PutFieldImploldPut=curPut;;
 :curPut=null ;;
 if (extendedDebugInfo) then (yes) 
 :debugInfoStack.push("writeExternal data");;
 endif 
-:SerialCallbackContext oldContext=curContext;;
+:SerialCallbackContextoldContext=curContext;;
 switch (try/catch block)
 case (try)
 :curContext=null ;;
@@ -729,14 +729,14 @@ endswitch
 end
 start
 note right
-void writeSerialData(Object obj,ObjectStreamClass desc)
+void writeSerialData(Objectobj,ObjectStreamClassdesc)
 end note
-:ObjectStreamClass.ClassDataSlot[] slots=desc.getClassDataLayout();;
-:ObjectStreamClass slotDesc=slots[i].desc;;
+:ObjectStreamClass.ClassDataSlot[]slots=desc.getClassDataLayout();;
+:ObjectStreamClassslotDesc=slots[i].desc;;
 if (slotDesc.hasWriteObjectMethod()) then (yes) 
-:PutFieldImpl oldPut=curPut;;
+:PutFieldImploldPut=curPut;;
 :curPut=null ;;
-:SerialCallbackContext oldContext=curContext;;
+:SerialCallbackContextoldContext=curContext;;
 if (extendedDebugInfo) then (yes) 
 :debugInfoStack.push("custom writeObject data (class \""+
 slotDesc.getName()+"\")");;
@@ -757,23 +757,23 @@ endif
 end
 start
 note right
-void defaultWriteFields(Object obj,ObjectStreamClass desc)
+void defaultWriteFields(Objectobj,ObjectStreamClassdesc)
 end note
-:Class<?> cl=desc.forClass();;
+:Class<? >cl=desc.forClass();;
 if (cl!=null &&obj!=null &&!cl.isInstance(obj)) then (yes) 
 :throw new ClassCastException();;
 stop
 endif 
 :desc.checkDefaultSerialize();;
-:int primDataSize=desc.getPrimDataSize();;
+:intprimDataSize=desc.getPrimDataSize();;
 if (primVals==null ||primVals.length<primDataSize) then (yes) 
 :primVals=new byte[primDataSize];;
 endif 
 :desc.getPrimFieldValues(obj,primVals);;
 :bout.write(primVals,0,primDataSize,false);;
-:ObjectStreamField[] fields=desc.getFields(false);;
-:Object[] objVals=new Object[desc.getNumObjFields()];;
-:int numPrimFields=fields.length-objVals.length;;
+:ObjectStreamField[]fields=desc.getFields(false);;
+:Object[]objVals=new Object[desc.getNumObjFields()];;
+:intnumPrimFields=fields.length-objVals.length;;
 :desc.getObjFieldValues(obj,objVals);;
 if (extendedDebugInfo) then (yes) 
 :debugInfoStack.push("field (class \""+desc.getName()+
@@ -789,10 +789,10 @@ endswitch
 end
 start
 note right
-void writeFatalException(IOException ex)
+void writeFatalException(IOExceptionex)
 end note
 :clear();;
-:boolean oldMode=bout.setBlockDataMode(false);;
+:booleanoldMode=bout.setBlockDataMode(false);;
 switch (try/catch block)
 case (try)
 :bout.writeByte(TC_EXCEPTION);;
@@ -802,19 +802,19 @@ endswitch
 end
 start
 note right
-void floatsToBytes(float[] src,int srcpos,
-byte[] dst,int dstpos,int nfloats)
+void floatsToBytes(float[]src,intsrcpos,byte[]dst,
+intdstpos,intnfloats)
 end note
 end
 start
 note right
-void doublesToBytes(double[] src,int srcpos,
-byte[] dst,int dstpos,int ndoubles)
+void doublesToBytes(double[]src,intsrcpos,
+byte[]dst,intdstpos,intndoubles)
 end note
 end
 start
 note right
-constructor PutFieldImpl(ObjectStreamClass desc)
+constructor PutFieldImpl(ObjectStreamClassdesc)
 end note
 :this.desc=desc;;
 :primVals=new byte[desc.getPrimDataSize()];;
@@ -822,76 +822,76 @@ end note
 end
 start
 note right
-void put(String name,boolean val)
+void put(Stringname,booleanval)
 end note
 :Bits.putBoolean(primVals,getFieldOffset(name,
 Boolean.TYPE),val);;
 end
 start
 note right
-void put(String name,byte val)
+void put(Stringname,byteval)
 end note
 :primVals[getFieldOffset(name,Byte.TYPE)]=val;;
 end
 start
 note right
-void put(String name,char val)
+void put(Stringname,charval)
 end note
 :Bits.putChar(primVals,getFieldOffset(name,
 Character.TYPE),val);;
 end
 start
 note right
-void put(String name,short val)
+void put(Stringname,shortval)
 end note
 :Bits.putShort(primVals,getFieldOffset(name,
 Short.TYPE),val);;
 end
 start
 note right
-void put(String name,int val)
+void put(Stringname,intval)
 end note
 :Bits.putInt(primVals,getFieldOffset(name,
 Integer.TYPE),val);;
 end
 start
 note right
-void put(String name,float val)
+void put(Stringname,floatval)
 end note
 :Bits.putFloat(primVals,getFieldOffset(name,
 Float.TYPE),val);;
 end
 start
 note right
-void put(String name,long val)
+void put(Stringname,longval)
 end note
 :Bits.putLong(primVals,getFieldOffset(name,
 Long.TYPE),val);;
 end
 start
 note right
-void put(String name,double val)
+void put(Stringname,doubleval)
 end note
 :Bits.putDouble(primVals,getFieldOffset(name,
 Double.TYPE),val);;
 end
 start
 note right
-void put(String name,Object val)
+void put(Stringname,Objectval)
 end note
 :objVals[getFieldOffset(name,Object.class )]=val;;
 end
 start
 note right
-void write(ObjectOutput out)
+void write(ObjectOutputout)
 end note
 if (ObjectOutputStream.this!=out) then (yes) 
 :throw new IllegalArgumentException("wrong stream");;
 stop
 endif 
 :out.write(primVals,0,primVals.length);;
-:ObjectStreamField[] fields=desc.getFields(false);;
-:int numPrimFields=fields.length-objVals.length;;
+:ObjectStreamField[]fields=desc.getFields(false);;
+:intnumPrimFields=fields.length-objVals.length;;
 if (fields[numPrimFields+i].isUnshared()) then (yes) 
 :throw new IOException("cannot write unshared object");;
 stop
@@ -903,8 +903,8 @@ note right
 void writeFields()
 end note
 :bout.write(primVals,0,primVals.length,false);;
-:ObjectStreamField[] fields=desc.getFields(false);;
-:int numPrimFields=fields.length-objVals.length;;
+:ObjectStreamField[]fields=desc.getFields(false);;
+:intnumPrimFields=fields.length-objVals.length;;
 if (extendedDebugInfo) then (yes) 
 :debugInfoStack.push("field (class \""+desc.getName()+
 "\", name: \""+fields[numPrimFields+i].getName()+
@@ -919,9 +919,9 @@ endswitch
 end
 start
 note right
-int getFieldOffset(String name,Class<?> type)
+intgetFieldOffset(Stringname,Class<? >type)
 end note
-:ObjectStreamField field=desc.getField(name,
+:ObjectStreamFieldfield=desc.getField(name,
 type);;
 if (field==null ) then (yes) 
 :throw new IllegalArgumentException("no such field "+
@@ -933,14 +933,14 @@ stop
 end
 start
 note right
-constructor BlockDataOutputStream(OutputStream out)
+constructor BlockDataOutputStream(OutputStreamout)
 end note
 :this.out=out;;
 :dout=new DataOutputStream(this);;
 end
 start
 note right
-boolean setBlockDataMode(boolean mode)
+booleansetBlockDataMode(booleanmode)
 end note
 if (blkmode==mode) then (yes) 
 :return blkmode;;
@@ -953,29 +953,29 @@ stop
 end
 start
 note right
-boolean getBlockDataMode()
+booleangetBlockDataMode()
 end note
 :return blkmode;;
 stop
 end
 start
 note right
-void write(int b)
+void write(intb)
 end note
 if (pos>=MAX_BLOCK_SIZE) then (yes) 
 :drain();;
 endif 
-:buf[pos++]=(byte )b;;
+:buf[pos++]=(byte)b;;
 end
 start
 note right
-void write(byte[] b)
+void write(byte[]b)
 end note
 :write(b,0,b.length,false);;
 end
 start
 note right
-void write(byte[] b,int off,int len)
+void write(byte[]b,intoff,intlen)
 end note
 :write(b,off,len,false);;
 end
@@ -995,7 +995,7 @@ end note
 end
 start
 note right
-void write(byte[] b,int off,int len,boolean copy)
+void write(byte[]b,intoff,intlen,booleancopy)
 end note
 if (!(copy||blkmode)) then (yes) 
 :drain();;
@@ -1013,7 +1013,7 @@ if (len>=MAX_BLOCK_SIZE&&!copy&&pos==0) then (yes)
 :off+=MAX_BLOCK_SIZE;;
 :len-=MAX_BLOCK_SIZE;;
 else (no)
-:int wlen=Math.min(len,MAX_BLOCK_SIZE-pos);;
+:intwlen=Math.min(len,MAX_BLOCK_SIZE-pos);;
 :System.arraycopy(b,off,buf,pos,wlen);;
 :pos+=wlen;;
 :off+=wlen;;
@@ -1037,11 +1037,11 @@ endif
 end
 start
 note right
-void writeBlockHeader(int len)
+void writeBlockHeader(intlen)
 end note
 if (len<=0xFF) then (yes) 
 :hbuf[0]=TC_BLOCKDATA;;
-:hbuf[1]=(byte )len;;
+:hbuf[1]=(byte)len;;
 :out.write(hbuf,0,2);;
 else (no)
 :hbuf[0]=TC_BLOCKDATALONG;;
@@ -1051,7 +1051,7 @@ endif
 end
 start
 note right
-void writeBoolean(boolean v)
+void writeBoolean(booleanv)
 end note
 if (pos>=MAX_BLOCK_SIZE) then (yes) 
 :drain();;
@@ -1060,19 +1060,19 @@ endif
 end
 start
 note right
-void writeByte(int v)
+void writeByte(intv)
 end note
 if (pos>=MAX_BLOCK_SIZE) then (yes) 
 :drain();;
 endif 
-:buf[pos++]=(byte )v;;
+:buf[pos++]=(byte)v;;
 end
 start
 note right
-void writeChar(int v)
+void writeChar(intv)
 end note
 if (pos+2<=MAX_BLOCK_SIZE) then (yes) 
-:Bits.putChar(buf,pos,(char )v);;
+:Bits.putChar(buf,pos,(char)v);;
 :pos+=2;;
 else (no)
 :dout.writeChar(v);;
@@ -1080,10 +1080,10 @@ endif
 end
 start
 note right
-void writeShort(int v)
+void writeShort(intv)
 end note
 if (pos+2<=MAX_BLOCK_SIZE) then (yes) 
-:Bits.putShort(buf,pos,(short )v);;
+:Bits.putShort(buf,pos,(short)v);;
 :pos+=2;;
 else (no)
 :dout.writeShort(v);;
@@ -1091,7 +1091,7 @@ endif
 end
 start
 note right
-void writeInt(int v)
+void writeInt(intv)
 end note
 if (pos+4<=MAX_BLOCK_SIZE) then (yes) 
 :Bits.putInt(buf,pos,v);;
@@ -1102,7 +1102,7 @@ endif
 end
 start
 note right
-void writeFloat(float v)
+void writeFloat(floatv)
 end note
 if (pos+4<=MAX_BLOCK_SIZE) then (yes) 
 :Bits.putFloat(buf,pos,v);;
@@ -1113,7 +1113,7 @@ endif
 end
 start
 note right
-void writeLong(long v)
+void writeLong(longv)
 end note
 if (pos+8<=MAX_BLOCK_SIZE) then (yes) 
 :Bits.putLong(buf,pos,v);;
@@ -1124,7 +1124,7 @@ endif
 end
 start
 note right
-void writeDouble(double v)
+void writeDouble(doublev)
 end note
 if (pos+8<=MAX_BLOCK_SIZE) then (yes) 
 :Bits.putDouble(buf,pos,v);;
@@ -1135,11 +1135,11 @@ endif
 end
 start
 note right
-void writeBytes(String s)
+void writeBytes(Strings)
 end note
-:int endoff=s.length();;
-:int cpos=0;;
-:int csize=0;;
+:intendoff=s.length();;
+:intcpos=0;;
+:intcsize=0;;
 if (cpos>=csize) then (yes) 
 :cpos=0;;
 :csize=Math.min(endoff-off,CHAR_BUF_SIZE);;
@@ -1148,39 +1148,39 @@ endif
 if (pos>=MAX_BLOCK_SIZE) then (yes) 
 :drain();;
 endif 
-:int n=Math.min(csize-cpos,MAX_BLOCK_SIZE-pos);;
-:int stop=pos+n;;
+:intn=Math.min(csize-cpos,MAX_BLOCK_SIZE-pos);;
+:intstop=pos+n;;
 while (pos<stop)
-:buf[pos++]=(byte )cbuf[cpos++];;
+:buf[pos++]=(byte)cbuf[cpos++];;
 endwhile
 :off+=n;;
 end
 start
 note right
-void writeChars(String s)
+void writeChars(Strings)
 end note
-:int endoff=s.length();;
-:int csize=Math.min(endoff-off,CHAR_BUF_SIZE);;
+:intendoff=s.length();;
+:intcsize=Math.min(endoff-off,CHAR_BUF_SIZE);;
 :s.getChars(off,off+csize,cbuf,0);;
 :writeChars(cbuf,0,csize);;
 :off+=csize;;
 end
 start
 note right
-void writeUTF(String s)
+void writeUTF(Strings)
 end note
 :writeUTF(s,getUTFLength(s));;
 end
 start
 note right
-void writeBooleans(boolean[] v,int off,int len)
+void writeBooleans(boolean[]v,intoff,intlen)
 end note
-:int endoff=off+len;;
+:intendoff=off+len;;
 while (off<endoff)
 if (pos>=MAX_BLOCK_SIZE) then (yes) 
 :drain();;
 endif 
-:int stop=Math.min(endoff,off+(MAX_BLOCK_SIZE-pos));;
+:intstop=Math.min(endoff,off+(MAX_BLOCK_SIZE-pos));;
 while (off<stop)
 :Bits.putBoolean(buf,pos++,v[off++]);;
 endwhile
@@ -1188,14 +1188,14 @@ endwhile
 end
 start
 note right
-void writeChars(char[] v,int off,int len)
+void writeChars(char[]v,intoff,intlen)
 end note
-:int limit=MAX_BLOCK_SIZE-2;;
-:int endoff=off+len;;
+:intlimit=MAX_BLOCK_SIZE-2;;
+:intendoff=off+len;;
 while (off<endoff)
 if (pos<=limit) then (yes) 
-:int avail=(MAX_BLOCK_SIZE-pos)>>1;;
-:int stop=Math.min(endoff,off+avail);;
+:intavail=(MAX_BLOCK_SIZE-pos)>>1;;
+:intstop=Math.min(endoff,off+avail);;
 while (off<stop)
 :Bits.putChar(buf,pos,v[off++]);;
 :pos+=2;;
@@ -1207,14 +1207,14 @@ endwhile
 end
 start
 note right
-void writeShorts(short[] v,int off,int len)
+void writeShorts(short[]v,intoff,intlen)
 end note
-:int limit=MAX_BLOCK_SIZE-2;;
-:int endoff=off+len;;
+:intlimit=MAX_BLOCK_SIZE-2;;
+:intendoff=off+len;;
 while (off<endoff)
 if (pos<=limit) then (yes) 
-:int avail=(MAX_BLOCK_SIZE-pos)>>1;;
-:int stop=Math.min(endoff,off+avail);;
+:intavail=(MAX_BLOCK_SIZE-pos)>>1;;
+:intstop=Math.min(endoff,off+avail);;
 while (off<stop)
 :Bits.putShort(buf,pos,v[off++]);;
 :pos+=2;;
@@ -1226,14 +1226,14 @@ endwhile
 end
 start
 note right
-void writeInts(int[] v,int off,int len)
+void writeInts(int[]v,intoff,intlen)
 end note
-:int limit=MAX_BLOCK_SIZE-4;;
-:int endoff=off+len;;
+:intlimit=MAX_BLOCK_SIZE-4;;
+:intendoff=off+len;;
 while (off<endoff)
 if (pos<=limit) then (yes) 
-:int avail=(MAX_BLOCK_SIZE-pos)>>2;;
-:int stop=Math.min(endoff,off+avail);;
+:intavail=(MAX_BLOCK_SIZE-pos)>>2;;
+:intstop=Math.min(endoff,off+avail);;
 while (off<stop)
 :Bits.putInt(buf,pos,v[off++]);;
 :pos+=4;;
@@ -1245,14 +1245,14 @@ endwhile
 end
 start
 note right
-void writeFloats(float[] v,int off,int len)
+void writeFloats(float[]v,intoff,intlen)
 end note
-:int limit=MAX_BLOCK_SIZE-4;;
-:int endoff=off+len;;
+:intlimit=MAX_BLOCK_SIZE-4;;
+:intendoff=off+len;;
 while (off<endoff)
 if (pos<=limit) then (yes) 
-:int avail=(MAX_BLOCK_SIZE-pos)>>2;;
-:int chunklen=Math.min(endoff-off,avail);;
+:intavail=(MAX_BLOCK_SIZE-pos)>>2;;
+:intchunklen=Math.min(endoff-off,avail);;
 :floatsToBytes(v,off,buf,pos,chunklen);;
 :off+=chunklen;;
 :pos+=chunklen<<2;;
@@ -1263,14 +1263,14 @@ endwhile
 end
 start
 note right
-void writeLongs(long[] v,int off,int len)
+void writeLongs(long[]v,intoff,intlen)
 end note
-:int limit=MAX_BLOCK_SIZE-8;;
-:int endoff=off+len;;
+:intlimit=MAX_BLOCK_SIZE-8;;
+:intendoff=off+len;;
 while (off<endoff)
 if (pos<=limit) then (yes) 
-:int avail=(MAX_BLOCK_SIZE-pos)>>3;;
-:int stop=Math.min(endoff,off+avail);;
+:intavail=(MAX_BLOCK_SIZE-pos)>>3;;
+:intstop=Math.min(endoff,off+avail);;
 while (off<stop)
 :Bits.putLong(buf,pos,v[off++]);;
 :pos+=8;;
@@ -1282,14 +1282,14 @@ endwhile
 end
 start
 note right
-void writeDoubles(double[] v,int off,int len)
+void writeDoubles(double[]v,intoff,intlen)
 end note
-:int limit=MAX_BLOCK_SIZE-8;;
-:int endoff=off+len;;
+:intlimit=MAX_BLOCK_SIZE-8;;
+:intendoff=off+len;;
 while (off<endoff)
 if (pos<=limit) then (yes) 
-:int avail=(MAX_BLOCK_SIZE-pos)>>3;;
-:int chunklen=Math.min(endoff-off,avail);;
+:intavail=(MAX_BLOCK_SIZE-pos)>>3;;
+:intchunklen=Math.min(endoff-off,avail);;
 :doublesToBytes(v,off,buf,pos,chunklen);;
 :off+=chunklen;;
 :pos+=chunklen<<3;;
@@ -1300,13 +1300,13 @@ endwhile
 end
 start
 note right
-long getUTFLength(String s)
+longgetUTFLength(Strings)
 end note
-:int len=s.length();;
-:long utflen=0;;
-:int csize=Math.min(len-off,CHAR_BUF_SIZE);;
+:intlen=s.length();;
+:longutflen=0;;
+:intcsize=Math.min(len-off,CHAR_BUF_SIZE);;
 :s.getChars(off,off+csize,cbuf,0);;
-:char c=cbuf[cpos];;
+:charc=cbuf[cpos];;
 if (c>=0x0001&&c<=0x007F) then (yes) 
 :utflen++;;
 else if (c>0x07FF) then (yes) 
@@ -1320,14 +1320,14 @@ stop
 end
 start
 note right
-void writeUTF(String s,long utflen)
+void writeUTF(Strings,longutflen)
 end note
 if (utflen>0xFFFFL) then (yes) 
 :throw new UTFDataFormatException();;
 stop
 endif 
-:writeShort((int )utflen);;
-if (utflen==(long )s.length()) then (yes) 
+:writeShort((int)utflen);;
+if (utflen==(long)s.length()) then (yes) 
 :writeBytes(s);;
 else (no)
 :writeUTFBody(s);;
@@ -1335,16 +1335,16 @@ endif
 end
 start
 note right
-void writeLongUTF(String s)
+void writeLongUTF(Strings)
 end note
 :writeLongUTF(s,getUTFLength(s));;
 end
 start
 note right
-void writeLongUTF(String s,long utflen)
+void writeLongUTF(Strings,longutflen)
 end note
 :writeLong(utflen);;
-if (utflen==(long )s.length()) then (yes) 
+if (utflen==(long)s.length()) then (yes) 
 :writeBytes(s);;
 else (no)
 :writeUTFBody(s);;
@@ -1352,24 +1352,24 @@ endif
 end
 start
 note right
-void writeUTFBody(String s)
+void writeUTFBody(Strings)
 end note
-:int limit=MAX_BLOCK_SIZE-3;;
-:int len=s.length();;
-:int csize=Math.min(len-off,CHAR_BUF_SIZE);;
+:intlimit=MAX_BLOCK_SIZE-3;;
+:intlen=s.length();;
+:intcsize=Math.min(len-off,CHAR_BUF_SIZE);;
 :s.getChars(off,off+csize,cbuf,0);;
-:char c=cbuf[cpos];;
+:charc=cbuf[cpos];;
 if (pos<=limit) then (yes) 
 if (c<=0x007F&&c!=0) then (yes) 
-:buf[pos++]=(byte )c;;
+:buf[pos++]=(byte)c;;
 else if (c>0x07FF) then (yes) 
-:buf[pos+2]=(byte )(0x80|((c>>0)&0x3F));;
-:buf[pos+1]=(byte )(0x80|((c>>6)&0x3F));;
-:buf[pos+0]=(byte )(0xE0|((c>>12)&0x0F));;
+:buf[pos+2]=(byte)(0x80|((c>>0)&0x3F));;
+:buf[pos+1]=(byte)(0x80|((c>>6)&0x3F));;
+:buf[pos+0]=(byte)(0xE0|((c>>12)&0x0F));;
 :pos+=3;;
 else (no)
-:buf[pos+1]=(byte )(0x80|((c>>0)&0x3F));;
-:buf[pos+0]=(byte )(0xC0|((c>>6)&0x1F));;
+:buf[pos+1]=(byte)(0x80|((c>>0)&0x3F));;
+:buf[pos+0]=(byte)(0xC0|((c>>6)&0x1F));;
 :pos+=2;;
 endif 
 else (no)
@@ -1388,19 +1388,19 @@ endif
 end
 start
 note right
-constructor HandleTable(int initialCapacity,
-float loadFactor)
+constructor HandleTable(intinitialCapacity,
+floatloadFactor)
 end note
 :this.loadFactor=loadFactor;;
 :spine=new int[initialCapacity];;
 :next=new int[initialCapacity];;
 :objs=new Object[initialCapacity];;
-:threshold=(int )(initialCapacity*loadFactor);;
+:threshold=(int)(initialCapacity*loadFactor);;
 :clear();;
 end
 start
 note right
-int assign(Object obj)
+intassign(Objectobj)
 end note
 if (size>=next.length) then (yes) 
 :growEntries();;
@@ -1414,13 +1414,13 @@ stop
 end
 start
 note right
-int lookup(Object obj)
+intlookup(Objectobj)
 end note
 if (size==0) then (yes) 
 :return -1;;
 stop
 endif 
-:int index=hash(obj)%spine.length;;
+:intindex=hash(obj)%spine.length;;
 if (objs[i]==obj) then (yes) 
 :return i;;
 stop
@@ -1438,16 +1438,16 @@ end note
 end
 start
 note right
-int size()
+intsize()
 end note
 :return size;;
 stop
 end
 start
 note right
-void insert(Object obj,int handle)
+void insert(Objectobj,inthandle)
 end note
-:int index=hash(obj)%spine.length;;
+:intindex=hash(obj)%spine.length;;
 :objs[handle]=obj;;
 :next[handle]=spine[index];;
 :spine[index]=handle;;
@@ -1457,7 +1457,7 @@ note right
 void growSpine()
 end note
 :spine=new int[(spine.length<<1)+1];;
-:threshold=(int )(spine.length*loadFactor);;
+:threshold=(int)(spine.length*loadFactor);;
 :Arrays.fill(spine,-1);;
 :insert(objs[i],i);;
 end
@@ -1465,34 +1465,34 @@ start
 note right
 void growEntries()
 end note
-:int newLength=(next.length<<1)+1;;
-:int[] newNext=new int[newLength];;
+:intnewLength=(next.length<<1)+1;;
+:int[]newNext=new int[newLength];;
 :System.arraycopy(next,0,newNext,0,size);;
 :next=newNext;;
-:Object[] newObjs=new Object[newLength];;
+:Object[]newObjs=new Object[newLength];;
 :System.arraycopy(objs,0,newObjs,0,size);;
 :objs=newObjs;;
 end
 start
 note right
-int hash(Object obj)
+inthash(Objectobj)
 end note
 :return System.identityHashCode(obj)&0x7FFFFFFF;;
 stop
 end
 start
 note right
-constructor ReplaceTable(int initialCapacity,
-float loadFactor)
+constructor ReplaceTable(intinitialCapacity,
+floatloadFactor)
 end note
 :htab=new HandleTable(initialCapacity,loadFactor);;
 :reps=new Object[initialCapacity];;
 end
 start
 note right
-void assign(Object obj,Object rep)
+void assign(Objectobj,Objectrep)
 end note
-:int index=htab.assign(obj);;
+:intindex=htab.assign(obj);;
 while (index>=reps.length)
 :grow();;
 endwhile
@@ -1500,9 +1500,9 @@ endwhile
 end
 start
 note right
-Object lookup(Object obj)
+Objectlookup(Objectobj)
 end note
-:int index=htab.lookup(obj);;
+:intindex=htab.lookup(obj);;
 :return (index>=0)? reps[index]:obj;;
 stop
 end
@@ -1515,7 +1515,7 @@ end note
 end
 start
 note right
-int size()
+intsize()
 end note
 :return htab.size();;
 stop
@@ -1524,7 +1524,7 @@ start
 note right
 void grow()
 end note
-:Object[] newReps=new Object[(reps.length<<1)+1];;
+:Object[]newReps=new Object[(reps.length<<1)+1];;
 :System.arraycopy(reps,0,newReps,0,reps.length);;
 :reps=newReps;;
 end
@@ -1548,15 +1548,15 @@ end note
 end
 start
 note right
-void push(String entry)
+void push(Stringentry)
 end note
 :stack.add("\t- "+entry);;
 end
 start
 note right
-String toString()
+StringtoString()
 end note
-:StringBuilder buffer=new StringBuilder();;
+:StringBuilderbuffer=new StringBuilder();;
 if (!stack.isEmpty()) then (yes) 
 :buffer.append(stack.get(i-1)+((i!=1)? String.valueOf("\n"):String.valueOf("")));;
 endif 

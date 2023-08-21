@@ -127,7 +127,7 @@ var maDataBlocs = {
  , "c1" : "00083"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerRefreshingLogin.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00083] For method configure arguments Map&lt;String,?&gt;  configs|String  contextName|Configuration  configuration|AuthenticateCallbackHandler  loginCallbackHandler"
+ , "c3" : "QC-JAV000006[00083] For method configure arguments Map&lt;String ,? &gt;  configs|String  contextName|Configuration  configuration|AuthenticateCallbackHandler  loginCallbackHandler"
 }} 
 ,
 { "ligne" : {"" : ""

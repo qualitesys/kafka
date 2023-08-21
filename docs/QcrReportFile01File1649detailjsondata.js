@@ -259,21 +259,21 @@ var maDataBlocs = {
  , "c1" : "00206"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#206"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00206] For method withValueSerde arguments Serde&lt;V&gt;  valueSerde"
+ , "c3" : "QC-JAV000006[00206] For method withValueSerde arguments Serde&lt;V &gt;  valueSerde"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00217"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#217"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00217] For method withKeySerde arguments Serde&lt;K&gt;  keySerde"
+ , "c3" : "QC-JAV000006[00217] For method withKeySerde arguments Serde&lt;K &gt;  keySerde"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00230"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Materialized.java.html#230"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00230] For method withLoggingEnabled arguments Map&lt;String,String&gt;  config"
+ , "c3" : "QC-JAV000006[00230] For method withLoggingEnabled arguments Map&lt;String ,String &gt;  config"
 }} 
 ,
 { "ligne" : {"" : ""

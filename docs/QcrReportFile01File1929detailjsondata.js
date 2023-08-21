@@ -727,14 +727,14 @@ var maDataBlocs = {
  , "c1" : "00239"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#239"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00239] For method addPartitionsForOffsetReset arguments Set&lt;TopicPartition&gt;  partitionsForOffsetReset"
+ , "c3" : "QC-JAV000006[00239] For method addPartitionsForOffsetReset arguments Set&lt;TopicPartition &gt;  partitionsForOffsetReset"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00248"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#248"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00248] For method completeRestoration arguments java.util.function.Consumer&lt;Set&lt;TopicPartition&gt;&gt;  offsetResetter"
+ , "c3" : "QC-JAV000006[00248] For method completeRestoration arguments java.util.function .Consumer&lt;Set&lt;TopicPartition &gt; &gt;  offsetResetter"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1140,7 +1140,7 @@ var maDataBlocs = {
  , "c1" : "00541"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#541"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00541] For method updateInputPartitions arguments Set&lt;TopicPartition&gt;  topicPartitions|Map&lt;String,List&lt;String&gt;&gt;  allTopologyNodesToSourceTopics"
+ , "c3" : "QC-JAV000006[00541] For method updateInputPartitions arguments Set&lt;TopicPartition &gt;  topicPartitions|Map&lt;String ,List&lt;String &gt; &gt;  allTopologyNodesToSourceTopics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1483,7 +1483,7 @@ var maDataBlocs = {
  , "c1" : "00828"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#828"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00828] For method punctuate arguments ProcessorNode&lt;?,?,?,?&gt;  node|long  timestamp|PunctuationType  type|Punctuator  punctuator"
+ , "c3" : "QC-JAV000006[00828] For method punctuate arguments ProcessorNode&lt;? ,? ,? ,? &gt;  node|long  timestamp|PunctuationType  type|Punctuator  punctuator"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1553,7 +1553,7 @@ var maDataBlocs = {
  , "c1" : "00863"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#863"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00863] For method updateProcessorContext arguments ProcessorNode&lt;?,?,?,?&gt;  currNode|long  wallClockTime|ProcessorRecordContext  recordContext"
+ , "c3" : "QC-JAV000006[00863] For method updateProcessorContext arguments ProcessorNode&lt;? ,? ,? ,? &gt;  currNode|long  wallClockTime|ProcessorRecordContext  recordContext"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1567,7 +1567,7 @@ var maDataBlocs = {
  , "c1" : "00886"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#886"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00886] For method resetOffsetsIfNeededAndInitializeMetadata arguments java.util.function.Consumer&lt;Set&lt;TopicPartition&gt;&gt;  offsetResetter"
+ , "c3" : "QC-JAV000006[00886] For method resetOffsetsIfNeededAndInitializeMetadata arguments java.util.function .Consumer&lt;Set&lt;TopicPartition &gt; &gt;  offsetResetter"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1623,7 +1623,7 @@ var maDataBlocs = {
  , "c1" : "00921"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#921"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00921] For method initializeTaskTimeAndProcessorMetadata arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsetsAndMetadata"
+ , "c3" : "QC-JAV000006[00921] For method initializeTaskTimeAndProcessorMetadata arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsetsAndMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1735,7 +1735,7 @@ var maDataBlocs = {
  , "c1" : "00984"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#984"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00984] For method addRecords arguments TopicPartition  partition|Iterable&lt;ConsumerRecord&lt;byte[],byte[]&gt;&gt;  records"
+ , "c3" : "QC-JAV000006[00984] For method addRecords arguments TopicPartition  partition|Iterable&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""

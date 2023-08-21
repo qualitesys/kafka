@@ -134,7 +134,7 @@ var maDataBlocs = {
  , "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CollectionUtils.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method groupPartitionsByTopic arguments Collection&lt;TopicPartition&gt;  partitions"
+ , "c3" : "QC-JAV000006[00067] For method groupPartitionsByTopic arguments Collection&lt;TopicPartition &gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""

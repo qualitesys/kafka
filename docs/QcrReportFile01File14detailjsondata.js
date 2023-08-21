@@ -426,7 +426,7 @@ var maDataBlocs = {
  , "c1" : "00159"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#159"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00159] For method hasExpiredRequest arguments long  now|Deque&lt;NetworkClient.InFlightRequest&gt;  deque"
+ , "c3" : "QC-JAV000006[00159] For method hasExpiredRequest arguments long  now|Deque&lt;NetworkClient.InFlightRequest &gt;  deque"
 }} 
 ,
 { "ligne" : {"" : ""

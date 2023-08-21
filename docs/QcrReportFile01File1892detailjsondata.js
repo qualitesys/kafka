@@ -533,7 +533,7 @@ var maDataBlocs = {
  , "c1" : "00218"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#218"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00218] For method updatePartitions arguments Set&lt;TopicPartition&gt;  newInputPartitions|Function&lt;TopicPartition,RecordQueue&gt;  recordQueueCreator"
+ , "c3" : "QC-JAV000006[00218] For method updatePartitions arguments Set&lt;TopicPartition &gt;  newInputPartitions|Function&lt;TopicPartition ,RecordQueue &gt;  recordQueueCreator"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -652,7 +652,7 @@ var maDataBlocs = {
  , "c1" : "00296"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#296"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00296] For method addRawRecords arguments TopicPartition  partition|Iterable&lt;ConsumerRecord&lt;byte[],byte[]&gt;&gt;  rawRecords"
+ , "c3" : "QC-JAV000006[00296] For method addRawRecords arguments TopicPartition  partition|Iterable&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  rawRecords"
 }} 
 ,
 { "ligne" : {"" : ""

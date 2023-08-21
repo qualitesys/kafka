@@ -483,7 +483,7 @@ var maDataBlocs = {
  , "c1" : "00174"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineHashMap.java.html#174"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00174] For method putAll arguments Map&lt;?extendsK,?extendsV&gt;  map"
+ , "c3" : "QC-JAV000006[00174] For method putAll arguments Map&lt;?  extends K ,?  extends V &gt;  map"
 }} 
 ,
 { "ligne" : {"" : ""

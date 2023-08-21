@@ -244,14 +244,14 @@ var maDataBlocs = {
  , "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#62"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00062] For method configure arguments Map&lt;String,?&gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00062] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00069"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ValueAndTimestampSerializer.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00069] For method serialize arguments String  topic|ValueAndTimestamp&lt;V&gt;  data"
+ , "c3" : "QC-JAV000006[00069] For method serialize arguments String  topic|ValueAndTimestamp&lt;V &gt;  data"
 }} 
 ,
 { "ligne" : {"" : ""

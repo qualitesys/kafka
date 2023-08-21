@@ -182,7 +182,7 @@ var maDataBlocs = {
  , "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SourceNode.java.html#62"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00062] For method init arguments InternalProcessorContext&lt;KIn,VIn&gt;  context"
+ , "c3" : "QC-JAV000006[00062] For method init arguments InternalProcessorContext&lt;KIn ,VIn &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -203,7 +203,7 @@ var maDataBlocs = {
  , "c1" : "00083"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SourceNode.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00083] For method process arguments Record&lt;KIn,VIn&gt;  record"
+ , "c3" : "QC-JAV000006[00083] For method process arguments Record&lt;KIn ,VIn &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""

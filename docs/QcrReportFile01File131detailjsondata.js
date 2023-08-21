@@ -203,7 +203,7 @@ var maDataBlocs = {
  , "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupResult.java.html#100"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00100] For method maybeCompleteExceptionally arguments Map&lt;MemberIdentity,Errors&gt;  memberErrors|MemberIdentity  member|KafkaFutureImpl&lt;Void&gt;  result"
+ , "c3" : "QC-JAV000006[00100] For method maybeCompleteExceptionally arguments Map&lt;MemberIdentity ,Errors &gt;  memberErrors|MemberIdentity  member|KafkaFutureImpl&lt;Void &gt;  result"
 }} 
 ,
 { "ligne" : {"" : ""

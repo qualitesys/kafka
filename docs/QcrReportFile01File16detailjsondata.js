@@ -186,7 +186,7 @@ var maDataBlocs = {
  , "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method setNodes arguments List&lt;Node&gt;  nodes"
+ , "c3" : "QC-JAV000006[00049] For method setNodes arguments List&lt;Node &gt;  nodes"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -214,14 +214,14 @@ var maDataBlocs = {
  , "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00069] For method handleServerDisconnect arguments long  now|String  nodeId|Optional&lt;AuthenticationException&gt;  maybeAuthException"
+ , "c3" : "QC-JAV000006[00069] For method handleServerDisconnect arguments long  now|String  nodeId|Optional&lt;AuthenticationException &gt;  maybeAuthException"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method handleFailedRequest arguments long  now|Optional&lt;KafkaException&gt;  maybeFatalException"
+ , "c3" : "QC-JAV000006[00075] For method handleFailedRequest arguments long  now|Optional&lt;KafkaException &gt;  maybeFatalException"
 }} 
 ,
 { "ligne" : {"" : ""

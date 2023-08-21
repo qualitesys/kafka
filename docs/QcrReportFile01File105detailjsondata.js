@@ -1662,7 +1662,7 @@ var maDataBlocs = {
  , "c1" : "00942"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#942"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00942] For method handleTimeouts arguments Collection&lt;Call&gt;  calls|String  msg"
+ , "c3" : "QC-JAV000006[00942] For method handleTimeouts arguments Collection&lt;Call &gt;  calls|String  msg"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1830,7 +1830,7 @@ var maDataBlocs = {
  , "c1" : "01064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1064"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01064] For method transitionToPendingAndClearList arguments List&lt;Call&gt;  calls"
+ , "c3" : "QC-JAV000006[01064] For method transitionToPendingAndClearList arguments List&lt;Call &gt;  calls"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2166,7 +2166,7 @@ var maDataBlocs = {
  , "c1" : "01231"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1231"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01231] For method handleResponses arguments long  now|List&lt;ClientResponse&gt;  responses"
+ , "c3" : "QC-JAV000006[01231] For method handleResponses arguments long  now|List&lt;ClientResponse &gt;  responses"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2264,7 +2264,7 @@ var maDataBlocs = {
  , "c1" : "01288"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1288"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01288] For method unassignUnsentCalls arguments Predicate&lt;Node&gt;  shouldUnassign"
+ , "c3" : "QC-JAV000006[01288] For method unassignUnsentCalls arguments Predicate&lt;Node &gt;  shouldUnassign"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2299,7 +2299,7 @@ var maDataBlocs = {
  , "c1" : "01304"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1304"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01304] For method hasActiveExternalCalls arguments Collection&lt;Call&gt;  calls"
+ , "c3" : "QC-JAV000006[01304] For method hasActiveExternalCalls arguments Collection&lt;Call &gt;  calls"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2747,7 +2747,7 @@ var maDataBlocs = {
  , "c1" : "01564"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1564"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01564] For method createTopics arguments Collection&lt;NewTopic&gt;  newTopics|CreateTopicsOptions  options"
+ , "c3" : "QC-JAV000006[01564] For method createTopics arguments Collection&lt;NewTopic &gt;  newTopics|CreateTopicsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2796,7 +2796,7 @@ var maDataBlocs = {
  , "c1" : "01589"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1589"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01589] For method getCreateTopicsCall arguments CreateTopicsOptions  options|Map&lt;String,KafkaFutureImpl&lt;TopicMetadataAndConfig&gt;&gt;  futures|CreatableTopicCollection  topics|Map&lt;String,ThrottlingQuotaExceededException&gt;  quotaExceededExceptions|long  now|long  deadline"
+ , "c3" : "QC-JAV000006[01589] For method getCreateTopicsCall arguments CreateTopicsOptions  options|Map&lt;String ,KafkaFutureImpl&lt;TopicMetadataAndConfig &gt; &gt;  futures|CreatableTopicCollection  topics|Map&lt;String ,ThrottlingQuotaExceededException &gt;  quotaExceededExceptions|long  now|long  deadline"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2901,7 +2901,7 @@ var maDataBlocs = {
  , "c1" : "01701"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1701"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01701] For method handleDeleteTopicsUsingNames arguments Collection&lt;String&gt;  topicNames|DeleteTopicsOptions  options"
+ , "c3" : "QC-JAV000006[01701] For method handleDeleteTopicsUsingNames arguments Collection&lt;String &gt;  topicNames|DeleteTopicsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2950,7 +2950,7 @@ var maDataBlocs = {
  , "c1" : "01726"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1726"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01726] For method handleDeleteTopicsUsingIds arguments Collection&lt;Uuid&gt;  topicIds|DeleteTopicsOptions  options"
+ , "c3" : "QC-JAV000006[01726] For method handleDeleteTopicsUsingIds arguments Collection&lt;Uuid &gt;  topicIds|DeleteTopicsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2999,7 +2999,7 @@ var maDataBlocs = {
  , "c1" : "01751"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1751"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01751] For method getDeleteTopicsCall arguments DeleteTopicsOptions  options|Map&lt;String,KafkaFutureImpl&lt;Void&gt;&gt;  futures|List&lt;String&gt;  topics|Map&lt;String,ThrottlingQuotaExceededException&gt;  quotaExceededExceptions|long  now|long  deadline"
+ , "c3" : "QC-JAV000006[01751] For method getDeleteTopicsCall arguments DeleteTopicsOptions  options|Map&lt;String ,KafkaFutureImpl&lt;Void &gt; &gt;  futures|List&lt;String &gt;  topics|Map&lt;String ,ThrottlingQuotaExceededException &gt;  quotaExceededExceptions|long  now|long  deadline"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3062,7 +3062,7 @@ var maDataBlocs = {
  , "c1" : "01823"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1823"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01823] For method getDeleteTopicsWithIdsCall arguments DeleteTopicsOptions  options|Map&lt;Uuid,KafkaFutureImpl&lt;Void&gt;&gt;  futures|List&lt;Uuid&gt;  topicIds|Map&lt;Uuid,ThrottlingQuotaExceededException&gt;  quotaExceededExceptions|long  now|long  deadline"
+ , "c3" : "QC-JAV000006[01823] For method getDeleteTopicsWithIdsCall arguments DeleteTopicsOptions  options|Map&lt;Uuid ,KafkaFutureImpl&lt;Void &gt; &gt;  futures|List&lt;Uuid &gt;  topicIds|Map&lt;Uuid ,ThrottlingQuotaExceededException &gt;  quotaExceededExceptions|long  now|long  deadline"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3181,7 +3181,7 @@ var maDataBlocs = {
  , "c1" : "01939"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1939"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01939] For method handleDescribeTopicsByNames arguments Collection&lt;String&gt;  topicNames|DescribeTopicsOptions  options"
+ , "c3" : "QC-JAV000006[01939] For method handleDescribeTopicsByNames arguments Collection&lt;String &gt;  topicNames|DescribeTopicsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3293,7 +3293,7 @@ var maDataBlocs = {
  , "c1" : "02015"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2015"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02015] For method handleDescribeTopicsByIds arguments Collection&lt;Uuid&gt;  topicIds|DescribeTopicsOptions  options"
+ , "c3" : "QC-JAV000006[02015] For method handleDescribeTopicsByIds arguments Collection&lt;Uuid &gt;  topicIds|DescribeTopicsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3559,7 +3559,7 @@ var maDataBlocs = {
  , "c1" : "02226"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2226"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02226] For method createAcls arguments Collection&lt;AclBinding&gt;  acls|CreateAclsOptions  options"
+ , "c3" : "QC-JAV000006[02226] For method createAcls arguments Collection&lt;AclBinding &gt;  acls|CreateAclsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3629,7 +3629,7 @@ var maDataBlocs = {
  , "c1" : "02285"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2285"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02285] For method deleteAcls arguments Collection&lt;AclBindingFilter&gt;  filters|DeleteAclsOptions  options"
+ , "c3" : "QC-JAV000006[02285] For method deleteAcls arguments Collection&lt;AclBindingFilter &gt;  filters|DeleteAclsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3671,7 +3671,7 @@ var maDataBlocs = {
  , "c1" : "02344"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2344"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02344] For method describeConfigs arguments Collection&lt;ConfigResource&gt;  configResources|DescribeConfigsOptions  options"
+ , "c3" : "QC-JAV000006[02344] For method describeConfigs arguments Collection&lt;ConfigResource &gt;  configResources|DescribeConfigsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3874,7 +3874,7 @@ var maDataBlocs = {
  , "c1" : "02466"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2466"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02466] For method alterConfigs arguments Map&lt;ConfigResource,Config&gt;  configs|AlterConfigsOptions  options"
+ , "c3" : "QC-JAV000006[02466] For method alterConfigs arguments Map&lt;ConfigResource ,Config &gt;  configs|AlterConfigsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3916,7 +3916,7 @@ var maDataBlocs = {
  , "c1" : "02486"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2486"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02486] For method alterConfigs arguments Map&lt;ConfigResource,Config&gt;  configs|AlterConfigsOptions  options|Collection&lt;ConfigResource&gt;  resources|NodeProvider  nodeProvider"
+ , "c3" : "QC-JAV000006[02486] For method alterConfigs arguments Map&lt;ConfigResource ,Config &gt;  configs|AlterConfigsOptions  options|Collection&lt;ConfigResource &gt;  resources|NodeProvider  nodeProvider"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3979,7 +3979,7 @@ var maDataBlocs = {
  , "c1" : "02531"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2531"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02531] For method incrementalAlterConfigs arguments Map&lt;ConfigResource,Collection&lt;AlterConfigOp&gt;&gt;  configs|AlterConfigsOptions  options"
+ , "c3" : "QC-JAV000006[02531] For method incrementalAlterConfigs arguments Map&lt;ConfigResource ,Collection&lt;AlterConfigOp &gt; &gt;  configs|AlterConfigsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4021,7 +4021,7 @@ var maDataBlocs = {
  , "c1" : "02553"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2553"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02553] For method incrementalAlterConfigs arguments Map&lt;ConfigResource,Collection&lt;AlterConfigOp&gt;&gt;  configs|AlterConfigsOptions  options|Collection&lt;ConfigResource&gt;  resources|NodeProvider  nodeProvider"
+ , "c3" : "QC-JAV000006[02553] For method incrementalAlterConfigs arguments Map&lt;ConfigResource ,Collection&lt;AlterConfigOp &gt; &gt;  configs|AlterConfigsOptions  options|Collection&lt;ConfigResource &gt;  resources|NodeProvider  nodeProvider"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4063,7 +4063,7 @@ var maDataBlocs = {
  , "c1" : "02593"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2593"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02593] For method alterReplicaLogDirs arguments Map&lt;TopicPartitionReplica,String&gt;  replicaAssignment|AlterReplicaLogDirsOptions  options"
+ , "c3" : "QC-JAV000006[02593] For method alterReplicaLogDirs arguments Map&lt;TopicPartitionReplica ,String &gt;  replicaAssignment|AlterReplicaLogDirsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4252,7 +4252,7 @@ var maDataBlocs = {
  , "c1" : "02674"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2674"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02674] For method describeLogDirs arguments Collection&lt;Integer&gt;  brokers|DescribeLogDirsOptions  options"
+ , "c3" : "QC-JAV000006[02674] For method describeLogDirs arguments Collection&lt;Integer &gt;  brokers|DescribeLogDirsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4399,7 +4399,7 @@ var maDataBlocs = {
  , "c1" : "02736"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2736"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02736] For method describeReplicaLogDirs arguments Collection&lt;TopicPartitionReplica&gt;  replicas|DescribeReplicaLogDirsOptions  options"
+ , "c3" : "QC-JAV000006[02736] For method describeReplicaLogDirs arguments Collection&lt;TopicPartitionReplica &gt;  replicas|DescribeReplicaLogDirsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4651,7 +4651,7 @@ var maDataBlocs = {
  , "c1" : "02831"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2831"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02831] For method createPartitions arguments Map&lt;String,NewPartitions&gt;  newPartitions|CreatePartitionsOptions  options"
+ , "c3" : "QC-JAV000006[02831] For method createPartitions arguments Map&lt;String ,NewPartitions &gt;  newPartitions|CreatePartitionsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4721,7 +4721,7 @@ var maDataBlocs = {
  , "c1" : "02859"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2859"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02859] For method getCreatePartitionsCall arguments CreatePartitionsOptions  options|Map&lt;String,KafkaFutureImpl&lt;Void&gt;&gt;  futures|CreatePartitionsTopicCollection  topics|Map&lt;String,ThrottlingQuotaExceededException&gt;  quotaExceededExceptions|long  now|long  deadline"
+ , "c3" : "QC-JAV000006[02859] For method getCreatePartitionsCall arguments CreatePartitionsOptions  options|Map&lt;String ,KafkaFutureImpl&lt;Void &gt; &gt;  futures|CreatePartitionsTopicCollection  topics|Map&lt;String ,ThrottlingQuotaExceededException &gt;  quotaExceededExceptions|long  now|long  deadline"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4791,7 +4791,7 @@ var maDataBlocs = {
  , "c1" : "02933"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2933"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[02933] For method deleteRecords arguments Map&lt;TopicPartition,RecordsToDelete&gt;  recordsToDelete|DeleteRecordsOptions  options"
+ , "c3" : "QC-JAV000006[02933] For method deleteRecords arguments Map&lt;TopicPartition ,RecordsToDelete &gt;  recordsToDelete|DeleteRecordsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4938,7 +4938,7 @@ var maDataBlocs = {
  , "c1" : "03202"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3202"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03202] For method rescheduleMetadataTask arguments MetadataOperationContext&lt;?,?&gt;  context|Supplier&lt;List&lt;Call&gt;&gt;  nextCalls"
+ , "c3" : "QC-JAV000006[03202] For method rescheduleMetadataTask arguments MetadataOperationContext&lt;? ,? &gt;  context|Supplier&lt;List&lt;Call &gt; &gt;  nextCalls"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4959,7 +4959,7 @@ var maDataBlocs = {
  , "c1" : "03211"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3211"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03211] For method describeConsumerGroups arguments Collection&lt;String&gt;  groupIds|DescribeConsumerGroupsOptions  options"
+ , "c3" : "QC-JAV000006[03211] For method describeConsumerGroups arguments Collection&lt;String &gt;  groupIds|DescribeConsumerGroupsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5204,7 +5204,7 @@ var maDataBlocs = {
  , "c1" : "03413"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3413"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03413] For method deleteConsumerGroups arguments Collection&lt;String&gt;  groupIds|DeleteConsumerGroupsOptions  options"
+ , "c3" : "QC-JAV000006[03413] For method deleteConsumerGroups arguments Collection&lt;String &gt;  groupIds|DeleteConsumerGroupsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5225,7 +5225,7 @@ var maDataBlocs = {
  , "c1" : "03423"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3423"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03423] For method deleteConsumerGroupOffsets arguments String  groupId|Set&lt;TopicPartition&gt;  partitions|DeleteConsumerGroupOffsetsOptions  options"
+ , "c3" : "QC-JAV000006[03423] For method deleteConsumerGroupOffsets arguments String  groupId|Set&lt;TopicPartition &gt;  partitions|DeleteConsumerGroupOffsetsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5246,7 +5246,7 @@ var maDataBlocs = {
  , "c1" : "03440"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3440"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03440] For method electLeaders arguments ElectionType  electionType|Set&lt;TopicPartition&gt;  topicPartitions|ElectLeadersOptions  options"
+ , "c3" : "QC-JAV000006[03440] For method electLeaders arguments ElectionType  electionType|Set&lt;TopicPartition &gt;  topicPartitions|ElectLeadersOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5274,7 +5274,7 @@ var maDataBlocs = {
  , "c1" : "03479"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3479"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03479] For method alterPartitionReassignments arguments Map&lt;TopicPartition,Optional&lt;NewPartitionReassignment&gt;&gt;  reassignments|AlterPartitionReassignmentsOptions  options"
+ , "c3" : "QC-JAV000006[03479] For method alterPartitionReassignments arguments Map&lt;TopicPartition ,Optional&lt;NewPartitionReassignment &gt; &gt;  reassignments|AlterPartitionReassignmentsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5477,7 +5477,7 @@ var maDataBlocs = {
  , "c1" : "03627"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3627"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03627] For method listPartitionReassignments arguments Optional&lt;Set&lt;TopicPartition&gt;&gt;  partitions|ListPartitionReassignmentsOptions  options"
+ , "c3" : "QC-JAV000006[03627] For method listPartitionReassignments arguments Optional&lt;Set&lt;TopicPartition &gt; &gt;  partitions|ListPartitionReassignmentsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5652,7 +5652,7 @@ var maDataBlocs = {
  , "c1" : "03778"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3778"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03778] For method alterConsumerGroupOffsets arguments String  groupId|Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets|AlterConsumerGroupOffsetsOptions  options"
+ , "c3" : "QC-JAV000006[03778] For method alterConsumerGroupOffsets arguments String  groupId|Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets|AlterConsumerGroupOffsetsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5673,7 +5673,7 @@ var maDataBlocs = {
  , "c1" : "03791"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3791"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03791] For method listOffsets arguments Map&lt;TopicPartition,OffsetSpec&gt;  topicPartitionOffsets|ListOffsetsOptions  options"
+ , "c3" : "QC-JAV000006[03791] For method listOffsets arguments Map&lt;TopicPartition ,OffsetSpec &gt;  topicPartitionOffsets|ListOffsetsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5701,7 +5701,7 @@ var maDataBlocs = {
  , "c1" : "03816"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3816"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03816] For method getListOffsetsCalls arguments MetadataOperationContext&lt;ListOffsetsResultInfo,ListOffsetsOptions&gt;  context|Map&lt;TopicPartition,OffsetSpec&gt;  topicPartitionOffsets|Map&lt;TopicPartition,KafkaFutureImpl&lt;ListOffsetsResultInfo&gt;&gt;  futures"
+ , "c3" : "QC-JAV000006[03816] For method getListOffsetsCalls arguments MetadataOperationContext&lt;ListOffsetsResultInfo ,ListOffsetsOptions &gt;  context|Map&lt;TopicPartition ,OffsetSpec &gt;  topicPartitionOffsets|Map&lt;TopicPartition ,KafkaFutureImpl&lt;ListOffsetsResultInfo &gt; &gt;  futures"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6086,7 +6086,7 @@ var maDataBlocs = {
  , "c1" : "03982"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3982"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[03982] For method alterClientQuotas arguments Collection&lt;ClientQuotaAlteration&gt;  entries|AlterClientQuotasOptions  options"
+ , "c3" : "QC-JAV000006[03982] For method alterClientQuotas arguments Collection&lt;ClientQuotaAlteration &gt;  entries|AlterClientQuotasOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6114,7 +6114,7 @@ var maDataBlocs = {
  , "c1" : "04013"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4013"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04013] For method describeUserScramCredentials arguments List&lt;String&gt;  users|DescribeUserScramCredentialsOptions  options"
+ , "c3" : "QC-JAV000006[04013] For method describeUserScramCredentials arguments List&lt;String &gt;  users|DescribeUserScramCredentialsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6156,7 +6156,7 @@ var maDataBlocs = {
  , "c1" : "04059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4059"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04059] For method alterUserScramCredentials arguments List&lt;UserScramCredentialAlteration&gt;  alterations|AlterUserScramCredentialsOptions  options"
+ , "c3" : "QC-JAV000006[04059] For method alterUserScramCredentials arguments List&lt;UserScramCredentialAlteration &gt;  alterations|AlterUserScramCredentialsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6338,7 +6338,7 @@ var maDataBlocs = {
  , "c1" : "04254"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4254"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04254] For method updateFeatures arguments Map&lt;String,FeatureUpdate&gt;  featureUpdates|UpdateFeaturesOptions  options"
+ , "c3" : "QC-JAV000006[04254] For method updateFeatures arguments Map&lt;String ,FeatureUpdate &gt;  featureUpdates|UpdateFeaturesOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6555,7 +6555,7 @@ var maDataBlocs = {
  , "c1" : "04461"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4461"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04461] For method describeProducers arguments Collection&lt;TopicPartition&gt;  topicPartitions|DescribeProducersOptions  options"
+ , "c3" : "QC-JAV000006[04461] For method describeProducers arguments Collection&lt;TopicPartition &gt;  topicPartitions|DescribeProducersOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6576,7 +6576,7 @@ var maDataBlocs = {
  , "c1" : "04470"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4470"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04470] For method describeTransactions arguments Collection&lt;String&gt;  transactionalIds|DescribeTransactionsOptions  options"
+ , "c3" : "QC-JAV000006[04470] For method describeTransactions arguments Collection&lt;String &gt;  transactionalIds|DescribeTransactionsOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6646,7 +6646,7 @@ var maDataBlocs = {
  , "c1" : "04497"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4497"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[04497] For method fenceProducers arguments Collection&lt;String&gt;  transactionalIds|FenceProducersOptions  options"
+ , "c3" : "QC-JAV000006[04497] For method fenceProducers arguments Collection&lt;String &gt;  transactionalIds|FenceProducersOptions  options"
 }} 
 ,
 { "ligne" : {"" : ""

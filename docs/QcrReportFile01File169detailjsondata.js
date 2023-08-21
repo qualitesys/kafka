@@ -166,14 +166,14 @@ var maDataBlocs = {
  , "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method buildBatchedRequest arguments int  brokerId|Set&lt;AllBrokersStrategy.BrokerKey&gt;  keys"
+ , "c3" : "QC-JAV000006[00067] For method buildBatchedRequest arguments int  brokerId|Set&lt;AllBrokersStrategy.BrokerKey &gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method handleResponse arguments Node  broker|Set&lt;AllBrokersStrategy.BrokerKey&gt;  keys|AbstractResponse  abstractResponse"
+ , "c3" : "QC-JAV000006[00080] For method handleResponse arguments Node  broker|Set&lt;AllBrokersStrategy.BrokerKey &gt;  keys|AbstractResponse  abstractResponse"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -278,7 +278,7 @@ var maDataBlocs = {
  , "c1" : "00116"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListTransactionsHandler.java.html#116"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00116] For method requireSingleton arguments Set&lt;AllBrokersStrategy.BrokerKey&gt;  keys|int  brokerId"
+ , "c3" : "QC-JAV000006[00116] For method requireSingleton arguments Set&lt;AllBrokersStrategy.BrokerKey &gt;  keys|int  brokerId"
 }} 
 ,
 { "ligne" : {"" : ""

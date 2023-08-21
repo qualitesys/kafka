@@ -228,7 +228,7 @@ var maDataBlocs = {
  , "c1" : "00093"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/TimestampRecordProcessor.java.html#93"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00093] For method processRecords arguments ConsumerRecords&lt;byte[],byte[]&gt;  consumerRecords"
+ , "c3" : "QC-JAV000006[00093] For method processRecords arguments ConsumerRecords&lt;byte[] ,byte[] &gt;  consumerRecords"
 }} 
 ,
 { "ligne" : {"" : ""

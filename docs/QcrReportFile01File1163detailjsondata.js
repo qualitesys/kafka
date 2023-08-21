@@ -262,7 +262,7 @@ var maDataBlocs = {
  , "c1" : "00080"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method configureSslContextFactoryKeyStore arguments SslContextFactory  ssl|Map&lt;String,Object&gt;  sslConfigValues"
+ , "c3" : "QC-JAV000006[00080] For method configureSslContextFactoryKeyStore arguments SslContextFactory  ssl|Map&lt;String ,Object &gt;  sslConfigValues"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -304,7 +304,7 @@ var maDataBlocs = {
  , "c1" : "00096"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#96"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00096] For method getOrDefault arguments Map&lt;String,Object&gt;  configMap|String  key|Object  defaultValue"
+ , "c3" : "QC-JAV000006[00096] For method getOrDefault arguments Map&lt;String ,Object &gt;  configMap|String  key|Object  defaultValue"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -318,7 +318,7 @@ var maDataBlocs = {
  , "c1" : "00106"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#106"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00106] For method configureSslContextFactoryTrustStore arguments SslContextFactory  ssl|Map&lt;String,Object&gt;  sslConfigValues"
+ , "c3" : "QC-JAV000006[00106] For method configureSslContextFactoryTrustStore arguments SslContextFactory  ssl|Map&lt;String ,Object &gt;  sslConfigValues"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -353,7 +353,7 @@ var maDataBlocs = {
  , "c1" : "00122"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#122"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00122] For method configureSslContextFactoryAlgorithms arguments SslContextFactory  ssl|Map&lt;String,Object&gt;  sslConfigValues"
+ , "c3" : "QC-JAV000006[00122] For method configureSslContextFactoryAlgorithms arguments SslContextFactory  ssl|Map&lt;String ,Object &gt;  sslConfigValues"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -409,7 +409,7 @@ var maDataBlocs = {
  , "c1" : "00148"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#148"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00148] For method configureSslContextFactoryEndpointIdentification arguments SslContextFactory  ssl|Map&lt;String,Object&gt;  sslConfigValues"
+ , "c3" : "QC-JAV000006[00148] For method configureSslContextFactoryEndpointIdentification arguments SslContextFactory  ssl|Map&lt;String ,Object &gt;  sslConfigValues"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -437,7 +437,7 @@ var maDataBlocs = {
  , "c1" : "00157"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/util/SSLUtils.java.html#157"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00157] For method configureSslContextFactoryAuthentication arguments SslContextFactory.Server  ssl|Map&lt;String,Object&gt;  sslConfigValues"
+ , "c3" : "QC-JAV000006[00157] For method configureSslContextFactoryAuthentication arguments SslContextFactory.Server  ssl|Map&lt;String ,Object &gt;  sslConfigValues"
 }} 
 ,
 { "ligne" : {"" : ""

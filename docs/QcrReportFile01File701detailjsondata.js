@@ -407,7 +407,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method toPartitionInfo arguments PartitionMetadata  metadata|Map&lt;Integer,Node&gt;  nodesById"
+ , "c3" : "QC-JAV000006[00001] For method toPartitionInfo arguments PartitionMetadata  metadata|Map&lt;Integer ,Node &gt;  nodesById"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -428,7 +428,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method convertToNodeArray arguments List&lt;Integer&gt;  replicaIds|Map&lt;Integer,Node&gt;  nodesById"
+ , "c3" : "QC-JAV000006[00001] For method convertToNodeArray arguments List&lt;Integer &gt;  replicaIds|Map&lt;Integer ,Node &gt;  nodesById"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -855,14 +855,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method prepareResponse arguments short  version|int  throttleTimeMs|Collection&lt;Node&gt;  brokers|String  clusterId|int  controllerId|List&lt;MetadataResponseTopic&gt;  topics|int  clusterAuthorizedOperations"
+ , "c3" : "QC-JAV000006[00001] For method prepareResponse arguments short  version|int  throttleTimeMs|Collection&lt;Node &gt;  brokers|String  clusterId|int  controllerId|List&lt;MetadataResponseTopic &gt;  topics|int  clusterAuthorizedOperations"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataResponse.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method prepareResponse arguments boolean  hasReliableEpoch|int  throttleTimeMs|Collection&lt;Node&gt;  brokers|String  clusterId|int  controllerId|List&lt;MetadataResponseTopic&gt;  topics|int  clusterAuthorizedOperations"
+ , "c3" : "QC-JAV000006[00001] For method prepareResponse arguments boolean  hasReliableEpoch|int  throttleTimeMs|Collection&lt;Node &gt;  brokers|String  clusterId|int  controllerId|List&lt;MetadataResponseTopic &gt;  topics|int  clusterAuthorizedOperations"
 }} 
 ,
 { "ligne" : {"" : ""

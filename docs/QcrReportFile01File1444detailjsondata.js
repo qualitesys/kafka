@@ -253,7 +253,7 @@ var maDataBlocs = {
  , "c1" : "00157"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#157"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00157] For method append arguments List&lt;T&gt;  records"
+ , "c3" : "QC-JAV000006[00157] For method append arguments List&lt;T &gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -267,7 +267,7 @@ var maDataBlocs = {
  , "c1" : "00188"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#188"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00188] For method appendBatches arguments List&lt;CompletedBatch&lt;T&gt;&gt;  batches"
+ , "c3" : "QC-JAV000006[00188] For method appendBatches arguments List&lt;CompletedBatch&lt;T &gt; &gt;  batches"
 }} 
 ,
 { "ligne" : {"" : ""

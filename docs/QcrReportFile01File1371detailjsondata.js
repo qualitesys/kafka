@@ -381,14 +381,14 @@ var maDataBlocs = {
  , "c1" : "00176"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#176"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00176] For method copyWithNewConfig arguments int  nodeId|Set&lt;String&gt;  newSuperUsers|AuthorizationResult  newDefaultResult"
+ , "c3" : "QC-JAV000006[00176] For method copyWithNewConfig arguments int  nodeId|Set&lt;String &gt;  newSuperUsers|AuthorizationResult  newDefaultResult"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00189"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#189"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00189] For method copyWithNewAcls arguments Collection&lt;Entry&lt;Uuid,StandardAcl&gt;&gt;  aclEntries"
+ , "c3" : "QC-JAV000006[00189] For method copyWithNewAcls arguments Collection&lt;Entry&lt;Uuid ,StandardAcl &gt; &gt;  aclEntries"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -703,7 +703,7 @@ var maDataBlocs = {
  , "c1" : "00350"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#350"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00350] For method findAclRule arguments Set&lt;KafkaPrincipal&gt;  matchingPrincipals|String  host|Action  action"
+ , "c3" : "QC-JAV000006[00350] For method findAclRule arguments Set&lt;KafkaPrincipal &gt;  matchingPrincipals|String  host|Action  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -745,7 +745,7 @@ var maDataBlocs = {
  , "c1" : "00400"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#400"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00400] For method checkSection arguments Action  action|StandardAcl  exemplar|Set&lt;KafkaPrincipal&gt;  matchingPrincipals|String  host|MatchingAclBuilder  matchingAclBuilder"
+ , "c3" : "QC-JAV000006[00400] For method checkSection arguments Action  action|StandardAcl  exemplar|Set&lt;KafkaPrincipal &gt;  matchingPrincipals|String  host|MatchingAclBuilder  matchingAclBuilder"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -829,7 +829,7 @@ var maDataBlocs = {
  , "c1" : "00490"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizerData.java.html#490"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00490] For method findResult arguments Action  action|Set&lt;KafkaPrincipal&gt;  matchingPrincipals|String  host|StandardAcl  acl"
+ , "c3" : "QC-JAV000006[00490] For method findResult arguments Action  action|Set&lt;KafkaPrincipal &gt;  matchingPrincipals|String  host|StandardAcl  acl"
 }} 
 ,
 { "ligne" : {"" : ""

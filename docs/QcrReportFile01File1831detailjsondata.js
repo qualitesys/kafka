@@ -107,7 +107,7 @@ var maDataBlocs = {
  , "c1" : "00055"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ExtractRecordMetadataTimestamp.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method extract arguments ConsumerRecord&lt;Object,Object&gt;  record|long  partitionTime"
+ , "c3" : "QC-JAV000006[00055] For method extract arguments ConsumerRecord&lt;Object ,Object &gt;  record|long  partitionTime"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -135,7 +135,7 @@ var maDataBlocs = {
  , "c1" : "00073"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ExtractRecordMetadataTimestamp.java.html#73"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00073] For method onInvalidTimestamp arguments ConsumerRecord&lt;Object,Object&gt;  record|long  recordTimestamp|long  partitionTime"
+ , "c3" : "QC-JAV000006[00073] For method onInvalidTimestamp arguments ConsumerRecord&lt;Object ,Object &gt;  record|long  recordTimestamp|long  partitionTime"
 }} 
 ]
 , 

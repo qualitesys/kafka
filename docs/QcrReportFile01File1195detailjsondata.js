@@ -150,7 +150,7 @@ var maDataBlocs = {
  , "c1" : "00071"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceTask.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00071] For method start arguments Map&lt;String,String&gt;  props"
+ , "c3" : "QC-JAV000006[00071] For method start arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""

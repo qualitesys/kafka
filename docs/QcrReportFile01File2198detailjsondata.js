@@ -202,7 +202,7 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultWorker.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method start arguments Platform  platform|WorkerStatusTracker  status|KafkaFutureImpl&lt;String&gt;  haltFuture"
+ , "c3" : "QC-JAV000006[00057] For method start arguments Platform  platform|WorkerStatusTracker  status|KafkaFutureImpl&lt;String &gt;  haltFuture"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -412,7 +412,7 @@ var maDataBlocs = {
  , "c1" : "00133"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultWorker.java.html#133"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00133] For method rootHandler arguments String  networkDevice|Consumer&lt;String&gt;  consumer"
+ , "c3" : "QC-JAV000006[00133] For method rootHandler arguments String  networkDevice|Consumer&lt;String &gt;  consumer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -475,7 +475,7 @@ var maDataBlocs = {
  , "c1" : "00141"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultWorker.java.html#141"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00141] For method childHandler arguments String  networkDevice|Consumer&lt;String&gt;  consumer"
+ , "c3" : "QC-JAV000006[00141] For method childHandler arguments String  networkDevice|Consumer&lt;String &gt;  consumer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -545,7 +545,7 @@ var maDataBlocs = {
  , "c1" : "00151"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultWorker.java.html#151"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00151] For method netemDelay arguments int  delayMs|int  deviationMs|Consumer&lt;String&gt;  consumer"
+ , "c3" : "QC-JAV000006[00151] For method netemDelay arguments int  delayMs|int  deviationMs|Consumer&lt;String &gt;  consumer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -594,7 +594,7 @@ var maDataBlocs = {
  , "c1" : "00160"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/fault/DegradedNetworkFaultWorker.java.html#160"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00160] For method tbfRate arguments int  rateLimitKbit|Consumer&lt;String&gt;  consumer"
+ , "c3" : "QC-JAV000006[00160] For method tbfRate arguments int  rateLimitKbit|Consumer&lt;String &gt;  consumer"
 }} 
 ,
 { "ligne" : {"" : ""

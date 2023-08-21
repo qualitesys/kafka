@@ -184,7 +184,7 @@ var maDataBlocs = {
  , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AbortTransactionHandler.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method newFuture arguments Set&lt;TopicPartition&gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00055] For method newFuture arguments Set&lt;TopicPartition &gt;  topicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -198,7 +198,7 @@ var maDataBlocs = {
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AbortTransactionHandler.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00072] For method buildBatchedRequest arguments int  brokerId|Set&lt;TopicPartition&gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00072] For method buildBatchedRequest arguments int  brokerId|Set&lt;TopicPartition &gt;  topicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -212,7 +212,7 @@ var maDataBlocs = {
  , "c1" : "00096"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AbortTransactionHandler.java.html#96"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00096] For method handleResponse arguments Node  broker|Set&lt;TopicPartition&gt;  topicPartitions|AbstractResponse  abstractResponse"
+ , "c3" : "QC-JAV000006[00096] For method handleResponse arguments Node  broker|Set&lt;TopicPartition &gt;  topicPartitions|AbstractResponse  abstractResponse"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -534,7 +534,7 @@ var maDataBlocs = {
  , "c1" : "00180"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AbortTransactionHandler.java.html#180"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00180] For method validateTopicPartitions arguments Set&lt;TopicPartition&gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00180] For method validateTopicPartitions arguments Set&lt;TopicPartition &gt;  topicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""

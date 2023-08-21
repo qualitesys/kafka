@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1193px" preserveAspectRatio="none" style="width:1027px;height:1193px;background:#FFFFFF;" version="1.1" viewBox="0 0 1027 1193" width="1027px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="603" x="5" y="16.1387">An error has occured : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="139" x="5" y="30.1074">Six by nine. Forty two.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="44.0762"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="280" x="5" y="58.0449">Diagram size: 1004 lines / 31088 characters.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="72.0137"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="374" x="5" y="85.9824">PlantUML (1.2022.7) cannot parse result from dot/GraphViz.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="99.9512"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="390" x="5" y="113.9199">This version of PlantUML is 363 days old, so you should</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="398" x="5" y="127.8887">consider upgrading from https://plantuml.com/download</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="141.8574"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="492" x="5" y="155.8262">Please go to https://plantuml.com/graphviz-dot to check your GraphViz version.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="169.7949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="277" x="5" y="183.7637">Java Runtime: OpenJDK Runtime Environment</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="187" x="5" y="197.7324">JVM: OpenJDK 64-Bit Server VM</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="211.7012">Default Encoding: UTF-8</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="5" y="225.6699">Language: en</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="5" y="239.6387">Country: null</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="253.6074"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="172" x="5" y="267.5762">PLANTUML_LIMIT_SIZE: 4096</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="281.5449"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="295.5137">This may be caused by :</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="9" y="309.4824">- a bug in PlantUML</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="144" x="9" y="323.4512">- a problem in GraphViz</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="337.4199"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="300" x="5" y="351.3887">You should send this diagram and this image to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="145" x="309" y="351.3887">plantuml@gmail.com</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="13" x="458" y="351.3887">or</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="5" y="365.3574">post to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="168" x="54" y="365.3574">https://plantuml.com/qa</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="117" x="226" y="365.3574">to solve this issue.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="405" x="5" y="379.3262">You can try to turn arround this issue by simplifing your diagram.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="393.2949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="458" x="5" y="407.2637">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="477" x="13" y="421.2324">java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="548" x="13" y="435.2012">java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="474" x="13" y="449.1699">java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="351" x="13" y="463.1387">java.base/java.util.Objects.checkIndex(Objects.java:372)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="314" x="13" y="477.1074">java.base/java.util.ArrayList.get(ArrayList.java:459)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="878" x="13" y="491.0762">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createWithLinks(FtileFactoryDelegatorSwitch.java:103)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="852" x="13" y="505.0449">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createSwitch(FtileFactoryDelegatorSwitch.java:79)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="519.0137">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="532.9824">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="546.9512">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="560.9199">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="574.8887">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="588.8574">net.sourceforge.plantuml.activitydiagram3.InstructionSwitch.createFtile(InstructionSwitch.java:119)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="13" y="602.8262">net.sourceforge.plantuml.activitydiagram3.InstructionList.createFtile(InstructionList.java:131)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="536" x="13" y="616.7949">net.sourceforge.plantuml.activitydiagram3.ftile.Swimlanes.drawU(Swimlanes.java:229)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="805" x="13" y="630.7637">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.getPiecewiseAffineTransform(CompressionXorYBuilder.java:51)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="655" x="13" y="644.7324">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.build(CompressionXorYBuilder.java:44)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="686" x="13" y="658.7012">net.sourceforge.plantuml.activitydiagram3.ActivityDiagram3.exportDiagramInternal(ActivityDiagram3.java:210)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="672.6699">net.sourceforge.plantuml.UmlDiagram.exportDiagramNow(UmlDiagram.java:135)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="538" x="13" y="686.6387">net.sourceforge.plantuml.AbstractPSystem.exportDiagram(AbstractPSystem.java:178)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="700.6074">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:172)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="714.5762">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="693" x="13" y="728.5449">com.qualitesys.qcrmavenplugin.commun.QcrCommunPlantUml.genererFichierSvg(QcrCommunPlantUml.java:82)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="585" x="13" y="742.5137">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lireFichier(QcrReporting01Mojo.java:927)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="556" x="13" y="756.4824">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lister(QcrReporting01Mojo.java:453)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="591" x="13" y="770.4512">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.doReport(QcrReporting01Mojo.java:2037)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="625" x="13" y="784.4199">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.executeReport(QcrReporting01Mojo.java:1739)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="582" x="13" y="798.3887">org.apache.maven.reporting.AbstractMavenReport.generate(AbstractMavenReport.java:251)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="748" x="13" y="812.3574">org.apache.maven.plugins.site.render.ReportDocumentRenderer.renderDocument(ReportDocumentRenderer.java:226)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="607" x="13" y="826.3262">org.apache.maven.doxia.siterenderer.DefaultSiteRenderer.render(DefaultSiteRenderer.java:348)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="840.2949">org.apache.maven.plugins.site.render.SiteMojo.renderLocale(SiteMojo.java:194)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="470" x="13" y="854.2637">org.apache.maven.plugins.site.render.SiteMojo.execute(SiteMojo.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="649" x="13" y="868.2324">org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="882.2012">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:370)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="531" x="13" y="896.1699">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:351)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="910.1387">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:215)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="924.1074">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:171)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="938.0762">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:163)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="651" x="13" y="952.0449">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="643" x="13" y="966.0137">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="747" x="13" y="979.9824">org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="993.9512">org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1007.9199">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:299)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1021.8887">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="412" x="13" y="1035.8574">org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="367" x="13" y="1049.8262">org.apache.maven.cli.MavenCli.execute(MavenCli.java:963)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="362" x="13" y="1063.7949">org.apache.maven.cli.MavenCli.doMain(MavenCli.java:296)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="347" x="13" y="1077.7637">org.apache.maven.cli.MavenCli.main(MavenCli.java:199)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="1091.7324">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="1105.7012">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="679" x="13" y="1119.6699">java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="373" x="13" y="1133.6387">java.base/java.lang.reflect.Method.invoke(Method.java:566)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="562" x="13" y="1147.6074">org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="499" x="13" y="1161.5762">org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="568" x="13" y="1175.5449">org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="487" x="13" y="1189.5137">org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)</text><image height="46" width="107" x="920" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGsAAAAuCAYAAAAvKufTAAACSUlEQVR4Xu2PQWrFQAzFev/DdVHoeVpwN0FY1E48MIERaKM85vt/fPzxc3yFAeNxTwPG454GjMc9DRiPexowtq3wZG9WsP1UN3jrgAFj2wpP9mYF2091g7cOGDC2rfBkb1aw/VQ3eOuAAeOYdrz1rt13bD/VFxswjml/ynrX7ju2n+qLDRjHtD9lvWv3HdtP9cUGjGPan6rAtzIr2H6qG7x1wIBxTDu+At/KrGD7qW7w1gEDxjHt+Ap8K7OC7ae6wVsHDBjb2pHdPqW9P9XN7r5pwNjWjuz2Ke39qW52900DxrZ2ZLdPae9PdbO7bxowtq3wZG9WmNpbN3jrgAFj2wpP9maFqb11g7cOGDC2rfBkb1aY2ls3eOuAAeNxTwPG454GjMc9DRiPexowHvc0YDzuacBY8vPr+19t3+1mZc+7sz2/Zdqev5fJt24aMJbkQZm273azsufd2Z7fMm3P38vkWzcNGEvyoEzbd7tZ2fPubM9vmbbn72XyrZsGjCXtmLd30/bWFxgwlrQj395N21tfYMBY0o58ezdtb32BAWPJ7pHXvblizzuyPb9l2p6/l8m3bhowluwewz+QuWLPO7I9v2Xanr+XybduGjCW7B7DP5C5Ys87sj2/Zdqev5fJt24aMJa0Y97eTdtbX2DAWNKOfHs3bW99gQFjSTvy7d20vfUFBowlr0eatt+tm7a3bl73DwwYS/KgTNvv1k3bWzev+wcGjCV5UKbtd+um7a2b1/0DA8bjngaMxz0NGI97GjAe9zRgPG7oL5d+9xVo7hUJAAAAAElFTkSuQmCC" y="6"/><!--MD5=[64254ab5afc7f9472ea4da9ce31ebba4]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1193px" preserveAspectRatio="none" style="width:948px;height:1193px;background:#FFFFFF;" version="1.1" viewBox="0 0 948 1193" width="948px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="603" x="5" y="16.1387">An error has occured : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="467" x="5" y="30.1074">No JavaScript frameworks were created during the writing of this message.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="44.0762"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="280" x="5" y="58.0449">Diagram size: 1004 lines / 30811 characters.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="72.0137"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="374" x="5" y="85.9824">PlantUML (1.2022.7) cannot parse result from dot/GraphViz.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="99.9512"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="390" x="5" y="113.9199">This version of PlantUML is 364 days old, so you should</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="398" x="5" y="127.8887">consider upgrading from https://plantuml.com/download</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="141.8574"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="492" x="5" y="155.8262">Please go to https://plantuml.com/graphviz-dot to check your GraphViz version.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="169.7949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="277" x="5" y="183.7637">Java Runtime: OpenJDK Runtime Environment</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="187" x="5" y="197.7324">JVM: OpenJDK 64-Bit Server VM</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="211.7012">Default Encoding: UTF-8</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="5" y="225.6699">Language: en</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="5" y="239.6387">Country: null</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="253.6074"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="172" x="5" y="267.5762">PLANTUML_LIMIT_SIZE: 4096</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="281.5449"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="295.5137">This may be caused by :</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="9" y="309.4824">- a bug in PlantUML</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="144" x="9" y="323.4512">- a problem in GraphViz</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="337.4199"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="300" x="5" y="351.3887">You should send this diagram and this image to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="145" x="309" y="351.3887">plantuml@gmail.com</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="13" x="458" y="351.3887">or</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="5" y="365.3574">post to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="168" x="54" y="365.3574">https://plantuml.com/qa</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="117" x="226" y="365.3574">to solve this issue.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="405" x="5" y="379.3262">You can try to turn arround this issue by simplifing your diagram.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="393.2949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="458" x="5" y="407.2637">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="477" x="13" y="421.2324">java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="548" x="13" y="435.2012">java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="474" x="13" y="449.1699">java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="351" x="13" y="463.1387">java.base/java.util.Objects.checkIndex(Objects.java:372)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="314" x="13" y="477.1074">java.base/java.util.ArrayList.get(ArrayList.java:459)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="878" x="13" y="491.0762">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createWithLinks(FtileFactoryDelegatorSwitch.java:103)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="852" x="13" y="505.0449">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createSwitch(FtileFactoryDelegatorSwitch.java:79)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="519.0137">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="532.9824">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="546.9512">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="560.9199">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="574.8887">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="588.8574">net.sourceforge.plantuml.activitydiagram3.InstructionSwitch.createFtile(InstructionSwitch.java:119)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="13" y="602.8262">net.sourceforge.plantuml.activitydiagram3.InstructionList.createFtile(InstructionList.java:131)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="536" x="13" y="616.7949">net.sourceforge.plantuml.activitydiagram3.ftile.Swimlanes.drawU(Swimlanes.java:229)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="805" x="13" y="630.7637">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.getPiecewiseAffineTransform(CompressionXorYBuilder.java:51)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="655" x="13" y="644.7324">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.build(CompressionXorYBuilder.java:44)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="686" x="13" y="658.7012">net.sourceforge.plantuml.activitydiagram3.ActivityDiagram3.exportDiagramInternal(ActivityDiagram3.java:210)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="672.6699">net.sourceforge.plantuml.UmlDiagram.exportDiagramNow(UmlDiagram.java:135)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="538" x="13" y="686.6387">net.sourceforge.plantuml.AbstractPSystem.exportDiagram(AbstractPSystem.java:178)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="700.6074">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:172)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="714.5762">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="693" x="13" y="728.5449">com.qualitesys.qcrmavenplugin.commun.QcrCommunPlantUml.genererFichierSvg(QcrCommunPlantUml.java:82)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="585" x="13" y="742.5137">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lireFichier(QcrReporting01Mojo.java:927)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="556" x="13" y="756.4824">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lister(QcrReporting01Mojo.java:453)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="591" x="13" y="770.4512">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.doReport(QcrReporting01Mojo.java:2037)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="625" x="13" y="784.4199">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.executeReport(QcrReporting01Mojo.java:1739)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="582" x="13" y="798.3887">org.apache.maven.reporting.AbstractMavenReport.generate(AbstractMavenReport.java:251)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="748" x="13" y="812.3574">org.apache.maven.plugins.site.render.ReportDocumentRenderer.renderDocument(ReportDocumentRenderer.java:226)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="607" x="13" y="826.3262">org.apache.maven.doxia.siterenderer.DefaultSiteRenderer.render(DefaultSiteRenderer.java:348)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="840.2949">org.apache.maven.plugins.site.render.SiteMojo.renderLocale(SiteMojo.java:194)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="470" x="13" y="854.2637">org.apache.maven.plugins.site.render.SiteMojo.execute(SiteMojo.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="649" x="13" y="868.2324">org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="882.2012">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:370)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="531" x="13" y="896.1699">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:351)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="910.1387">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:215)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="924.1074">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:171)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="938.0762">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:163)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="651" x="13" y="952.0449">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="643" x="13" y="966.0137">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="747" x="13" y="979.9824">org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="993.9512">org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1007.9199">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:299)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1021.8887">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="412" x="13" y="1035.8574">org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="367" x="13" y="1049.8262">org.apache.maven.cli.MavenCli.execute(MavenCli.java:963)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="362" x="13" y="1063.7949">org.apache.maven.cli.MavenCli.doMain(MavenCli.java:296)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="347" x="13" y="1077.7637">org.apache.maven.cli.MavenCli.main(MavenCli.java:199)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="1091.7324">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="1105.7012">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="679" x="13" y="1119.6699">java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="373" x="13" y="1133.6387">java.base/java.lang.reflect.Method.invoke(Method.java:566)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="562" x="13" y="1147.6074">org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="499" x="13" y="1161.5762">org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="568" x="13" y="1175.5449">org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="487" x="13" y="1189.5137">org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)</text><image height="32" width="28" x="920" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAgCAYAAAABtRhCAAACb0lEQVR4XrVXz0sVURSe0P/AhYq0LFs9H/gK27kLxI1JIT1IQahNtGhTQUSLh2EICWGmiC6CciG18CmoEQqWZFQEr1Yp/kIe+CMkFcX06HfsjHfOOJJ174GPc+fMmfPd79x738zzvP+wnZ1tkvHa1i96kXlMMwtZP2bNQCRkILj19gJV9uYxMtkRN4Tww9OvmSQ5VEy1w3EeO1EIm1jMMAGIBFCq86wZiosyUQfFOi/SZF3M9dExgVZ3aeAkPXx3LfDMUeNDC/+Zh29mHLsRJFAI4sax66F8mK4ZSSgPQAl2HbxfZc9aP91mIrTV3JVmPo6JxKUme7mQBHi0B7OHCgGuoQQF9aQQ1/kAJiST9cWYqvQ21zCL6rHOlXzUQ0dCCrEuepvbgqiVrnho04M3eU7hHxko3OjPJRrynOB3j0dbK/sbi7uJCwR1oi2sfmwOnoDVrzWhJFtA58wjweP19BlW6AIQY5Ix4do9j1xg6cYJbqdsTFHKhJsp+0BdIfTJYDrRJhZ7qgKE7JcflbN8F5iryw2v4ez9JpqKlTnBj6J8WnjyNLhLf45/5hsz50qdALXB4RPCEJw/G7OK2UTc96ZSti9X7tD7ssv/jLFDYhIXjJ4up97zV/dJ8aV1t6CdmhLdTjHY9eHg9fSsopNaEh3OkCpsPHhbiEoEu0raj43OWBvDvDbHqMvqxIQUweqLaapP9u2hX/ko4L6J4H3Ua7j5KviLYx7MUy8nyXu+ZA9tc8HXk0mIMT6icpq/c+JR+NscLFUkoSCKFDF0IDU+Tx3fsuwr0lORufI/I0QopoMoioIAimMict/Mhde5USS7rE2LdPza2D0AAAAASUVORK5CYII=" y="6"/><!--MD5=[e387e61c6868d27265aabefdff22c59f]
 @startuml
 !pragma layout smetana
 start
 note right
-constructor NetworkClient(Selectable selector,
-Metadata metadata,String clientId,int maxInFlightRequestsPerConnection,
-long reconnectBackoffMs,long reconnectBackoffMax,
-int socketSendBuffer,int socketReceiveBuffer,
-int defaultRequestTimeoutMs,long connectionSetupTimeoutMs,
-long connectionSetupTimeoutMaxMs,Time time,
-boolean discoverBrokerVersions,ApiVersions apiVersions,
-LogContext logContext)
+constructor NetworkClient(Selectableselector,
+Metadatametadata,StringclientId,intmaxInFlightRequestsPerConnection,
+longreconnectBackoffMs,longreconnectBackoffMax,
+intsocketSendBuffer,intsocketReceiveBuffer,
+intdefaultRequestTimeoutMs,longconnectionSetupTimeoutMs,
+longconnectionSetupTimeoutMaxMs,Timetime,
+booleandiscoverBrokerVersions,ApiVersionsapiVersions,
+LogContextlogContext)
 end note
 :this(selector,metadata,clientId,maxInFlightRequestsPerConnection,
 reconnectBackoffMs,reconnectBackoffMax,socketSendBuffer,
@@ -21,14 +21,14 @@ logContext);;
 end
 start
 note right
-constructor NetworkClient(Selectable selector,
-Metadata metadata,String clientId,int maxInFlightRequestsPerConnection,
-long reconnectBackoffMs,long reconnectBackoffMax,
-int socketSendBuffer,int socketReceiveBuffer,
-int defaultRequestTimeoutMs,long connectionSetupTimeoutMs,
-long connectionSetupTimeoutMaxMs,Time time,
-boolean discoverBrokerVersions,ApiVersions apiVersions,
-Sensor throttleTimeSensor,LogContext logContext)
+constructor NetworkClient(Selectableselector,
+Metadatametadata,StringclientId,intmaxInFlightRequestsPerConnection,
+longreconnectBackoffMs,longreconnectBackoffMax,
+intsocketSendBuffer,intsocketReceiveBuffer,
+intdefaultRequestTimeoutMs,longconnectionSetupTimeoutMs,
+longconnectionSetupTimeoutMaxMs,Timetime,
+booleandiscoverBrokerVersions,ApiVersionsapiVersions,
+SensorthrottleTimeSensor,LogContextlogContext)
 end note
 :this(null ,metadata,selector,clientId,maxInFlightRequestsPerConnection,
 reconnectBackoffMs,reconnectBackoffMax,socketSendBuffer,
@@ -39,14 +39,14 @@ logContext,new DefaultHostResolver());;
 end
 start
 note right
-constructor NetworkClient(Selectable selector,
-MetadataUpdater metadataUpdater,String clientId,
-int maxInFlightRequestsPerConnection,long reconnectBackoffMs,
-long reconnectBackoffMax,int socketSendBuffer,
-int socketReceiveBuffer,int defaultRequestTimeoutMs,
-long connectionSetupTimeoutMs,long connectionSetupTimeoutMaxMs,
-Time time,boolean discoverBrokerVersions,
-ApiVersions apiVersions,LogContext logContext)
+constructor NetworkClient(Selectableselector,
+MetadataUpdatermetadataUpdater,StringclientId,
+intmaxInFlightRequestsPerConnection,longreconnectBackoffMs,
+longreconnectBackoffMax,intsocketSendBuffer,
+intsocketReceiveBuffer,intdefaultRequestTimeoutMs,
+longconnectionSetupTimeoutMs,longconnectionSetupTimeoutMaxMs,
+Timetime,booleandiscoverBrokerVersions,ApiVersionsapiVersions,
+LogContextlogContext)
 end note
 :this(metadataUpdater,null ,selector,clientId,
 maxInFlightRequestsPerConnection,reconnectBackoffMs,
@@ -57,15 +57,15 @@ apiVersions,null ,logContext,new DefaultHostResolver());;
 end
 start
 note right
-constructor NetworkClient(MetadataUpdater metadataUpdater,
-Metadata metadata,Selectable selector,String clientId,
-int maxInFlightRequestsPerConnection,long reconnectBackoffMs,
-long reconnectBackoffMax,int socketSendBuffer,
-int socketReceiveBuffer,int defaultRequestTimeoutMs,
-long connectionSetupTimeoutMs,long connectionSetupTimeoutMaxMs,
-Time time,boolean discoverBrokerVersions,
-ApiVersions apiVersions,Sensor throttleTimeSensor,
-LogContext logContext,HostResolver hostResolver)
+constructor NetworkClient(MetadataUpdatermetadataUpdater,
+Metadatametadata,Selectableselector,StringclientId,
+intmaxInFlightRequestsPerConnection,longreconnectBackoffMs,
+longreconnectBackoffMax,intsocketSendBuffer,
+intsocketReceiveBuffer,intdefaultRequestTimeoutMs,
+longconnectionSetupTimeoutMs,longconnectionSetupTimeoutMaxMs,
+Timetime,booleandiscoverBrokerVersions,ApiVersionsapiVersions,
+SensorthrottleTimeSensor,LogContextlogContext,
+HostResolverhostResolver)
 end note
 if (metadataUpdater==null ) then (yes) 
 if (metadata==null ) then (yes) 
@@ -97,7 +97,7 @@ connectionSetupTimeoutMaxMs,logContext,hostResolver);;
 end
 start
 note right
-boolean ready(Node node,long now)
+booleanready(Nodenode,longnow)
 end note
 if (node.isEmpty()) then (yes) 
 :throw new IllegalArgumentException("Cannot connect to empty node "+
@@ -116,7 +116,7 @@ stop
 end
 start
 note right
-boolean canConnect(Node node,long now)
+booleancanConnect(Nodenode,longnow)
 end note
 :return connectionStates.canConnect(node.idString(),
 now);;
@@ -124,7 +124,7 @@ stop
 end
 start
 note right
-void disconnect(String nodeId)
+void disconnect(StringnodeId)
 end note
 if (connectionStates.isDisconnected(nodeId)) then (yes) 
 :log.debug("Client requested disconnect from node {},
@@ -135,16 +135,16 @@ endif
 :log.info("Client requested disconnect from node {}",
 nodeId);;
 :selector.close(nodeId);;
-:long now=time.milliseconds();;
+:longnow=time.milliseconds();;
 :cancelInFlightRequests(nodeId,now,abortedSends);;
 :connectionStates.disconnected(nodeId,now);;
 end
 start
 note right
-void cancelInFlightRequests(String nodeId,
-long now,Collection<ClientResponse> responses)
+void cancelInFlightRequests(StringnodeId,
+longnow,Collection<ClientResponse>responses)
 end note
-:Iterable<InFlightRequest> inFlightRequests=this.inFlightRequests.clearAll(nodeId);;
+:Iterable<InFlightRequest>inFlightRequests=this.inFlightRequests.clearAll(nodeId);;
 if (log.isDebugEnabled()) then (yes) 
 :log.debug("Cancelled in-flight {} request with correlation id {} due to node {} being disconnected "+
 "(elapsed time since creation: {}ms, elapsed time since send: {}ms,
@@ -170,18 +170,18 @@ endif
 end
 start
 note right
-void close(String nodeId)
+void close(StringnodeId)
 end note
 :log.info("Client requested connection close from node {}",
 nodeId);;
 :selector.close(nodeId);;
-:long now=time.milliseconds();;
+:longnow=time.milliseconds();;
 :cancelInFlightRequests(nodeId,now,null );;
 :connectionStates.remove(nodeId);;
 end
 start
 note right
-long connectionDelay(Node node,long now)
+longconnectionDelay(Nodenode,longnow)
 end note
 :return connectionStates.connectionDelay(node.idString(),
 now);;
@@ -189,7 +189,7 @@ stop
 end
 start
 note right
-long throttleDelayMs(Node node,long now)
+longthrottleDelayMs(Nodenode,longnow)
 end note
 :return connectionStates.throttleDelayMs(node.idString(),
 now);;
@@ -197,7 +197,7 @@ stop
 end
 start
 note right
-long pollDelayMs(Node node,long now)
+longpollDelayMs(Nodenode,longnow)
 end note
 :return connectionStates.pollDelayMs(node.idString(),
 now);;
@@ -205,21 +205,21 @@ stop
 end
 start
 note right
-boolean connectionFailed(Node node)
+booleanconnectionFailed(Nodenode)
 end note
 :return connectionStates.isDisconnected(node.idString());;
 stop
 end
 start
 note right
-AuthenticationException authenticationException(Node node)
+AuthenticationExceptionauthenticationException(Nodenode)
 end note
 :return connectionStates.authenticationException(node.idString());;
 stop
 end
 start
 note right
-boolean isReady(Node node,long now)
+booleanisReady(Nodenode,longnow)
 end note
 :return !metadataUpdater.isUpdateDue(now)&&canSendRequest(node.idString(),
 now);;
@@ -227,33 +227,33 @@ stop
 end
 start
 note right
-boolean canSendRequest(String node,long now)
+booleancanSendRequest(Stringnode,longnow)
 end note
 :return connectionStates.isReady(node,now)&&selector.isChannelReady(node)&&inFlightRequests.canSendMore(node);;
 stop
 end
 start
 note right
-void send(ClientRequest request,long now)
+void send(ClientRequestrequest,longnow)
 end note
 :doSend(request,false,now);;
 end
 start
 note right
-void sendInternalMetadataRequest(MetadataRequest.Builder builder,
-String nodeConnectionId,long now)
+void sendInternalMetadataRequest(MetadataRequest.Builderbuilder,
+StringnodeConnectionId,longnow)
 end note
-:ClientRequest clientRequest=newClientRequest(nodeConnectionId,
+:ClientRequestclientRequest=newClientRequest(nodeConnectionId,
 builder,now,true);;
 :doSend(clientRequest,true,now);;
 end
 start
 note right
-void doSend(ClientRequest clientRequest,boolean isInternalRequest,
-long now)
+void doSend(ClientRequestclientRequest,booleanisInternalRequest,
+longnow)
 end note
 :ensureActive();;
-:String nodeId=clientRequest.destination();;
+:StringnodeId=clientRequest.destination();;
 if (!isInternalRequest) then (yes) 
 if (!canSendRequest(nodeId,now)) then (yes) 
 :throw new IllegalStateException("Attempt to send a request to node "+
@@ -261,11 +261,11 @@ nodeId+" which is not ready.");;
 stop
 endif 
 endif 
-:AbstractRequest.Builder<?> builder=clientRequest.requestBuilder();;
+:AbstractRequest.Builder<? >builder=clientRequest.requestBuilder();;
 switch (try/catch block)
 case (try)
-:NodeApiVersions versionInfo=apiVersions.get(nodeId);;
-:short version;;
+:NodeApiVersionsversionInfo=apiVersions.get(nodeId);;
+:shortversion;;
 if (versionInfo==null ) then (yes) 
 :version=builder.latestAllowedVersion();;
 if (discoverBrokerVersions&&log.isTraceEnabled()) then (yes) 
@@ -279,11 +279,11 @@ builder.oldestAllowedVersion(),builder.latestAllowedVersion());;
 endif 
 :doSend(clientRequest,isInternalRequest,now,
 builder.build(version));;
-case (catch (UnsupportedVersionException unsupportedVersionException))
+case (catch (UnsupportedVersionExceptionunsupportedVersionException))
 :log.debug("Version mismatch when attempting to send {} with correlation id {} to {}",
 builder,clientRequest.correlationId(),clientRequest.destination(),
 unsupportedVersionException);;
-:ClientResponse clientResponse=new ClientResponse(clientRequest.makeHeader(builder.latestAllowedVersion()),
+:ClientResponseclientResponse=new ClientResponse(clientRequest.makeHeader(builder.latestAllowedVersion()),
 clientRequest.callback(),clientRequest.destination(),
 now,now,false,unsupportedVersionException,
 null ,null );;
@@ -297,18 +297,18 @@ endswitch
 end
 start
 note right
-void doSend(ClientRequest clientRequest,boolean isInternalRequest,
-long now,AbstractRequest request)
+void doSend(ClientRequestclientRequest,booleanisInternalRequest,
+longnow,AbstractRequestrequest)
 end note
-:String destination=clientRequest.destination();;
-:RequestHeader header=clientRequest.makeHeader(request.version());;
+:Stringdestination=clientRequest.destination();;
+:RequestHeaderheader=clientRequest.makeHeader(request.version());;
 if (log.isDebugEnabled()) then (yes) 
 :log.debug("Sending {} request with header {} and timeout {} to node {}: {}",
 clientRequest.apiKey(),header,clientRequest.requestTimeoutMs(),
 destination,request);;
 endif 
-:Send send=request.toSend(header);;
-:InFlightRequest inFlightRequest=new InFlightRequest(clientRequest,
+:Sendsend=request.toSend(header);;
+:InFlightRequestinFlightRequest=new InFlightRequest(clientRequest,
 header,isInternalRequest,request,send,now);;
 :this.inFlightRequests.add(inFlightRequest);;
 :selector.send(new NetworkSend(clientRequest.destination(),
@@ -316,26 +316,26 @@ send));;
 end
 start
 note right
-List<ClientResponse> poll(long timeout,long now)
+List<ClientResponse>poll(longtimeout,longnow)
 end note
 :ensureActive();;
 if (!abortedSends.isEmpty()) then (yes) 
-:List<ClientResponse> responses=new ArrayList<>();;
+:List<ClientResponse>responses=new ArrayList<>();;
 :handleAbortedSends(responses);;
 :completeResponses(responses);;
 :return responses;;
 stop
 endif 
-:long metadataTimeout=metadataUpdater.maybeUpdate(now);;
+:longmetadataTimeout=metadataUpdater.maybeUpdate(now);;
 switch (try/catch block)
 case (try)
 :this.selector.poll(Utils.min(timeout,metadataTimeout,
 defaultRequestTimeoutMs));;
-case (catch (IOException e))
+case (catch (IOExceptione))
 :log.error("Unexpected error during I/O",e);;
 endswitch
-:long updatedNow=this.time.milliseconds();;
-:List<ClientResponse> responses=new ArrayList<>();;
+:longupdatedNow=this.time.milliseconds();;
+:List<ClientResponse>responses=new ArrayList<>();;
 :handleCompletedSends(responses,updatedNow);;
 :handleCompletedReceives(responses,updatedNow);;
 :handleDisconnections(responses,updatedNow);;
@@ -349,46 +349,46 @@ stop
 end
 start
 note right
-void completeResponses(List<ClientResponse> responses)
+void completeResponses(List<ClientResponse>responses)
 end note
 switch (try/catch block)
 case (try)
 :response.onComplete();;
-case (catch (Exception e))
+case (catch (Exceptione))
 :log.error("Uncaught error in request completion:",e);;
 endswitch
 end
 start
 note right
-int inFlightRequestCount()
+intinFlightRequestCount()
 end note
 :return this.inFlightRequests.count();;
 stop
 end
 start
 note right
-boolean hasInFlightRequests()
+booleanhasInFlightRequests()
 end note
 :return !this.inFlightRequests.isEmpty();;
 stop
 end
 start
 note right
-int inFlightRequestCount(String node)
+intinFlightRequestCount(Stringnode)
 end note
 :return this.inFlightRequests.count(node);;
 stop
 end
 start
 note right
-boolean hasInFlightRequests(String node)
+booleanhasInFlightRequests(Stringnode)
 end note
 :return !this.inFlightRequests.isEmpty(node);;
 stop
 end
 start
 note right
-boolean hasReadyNodes(long now)
+booleanhasReadyNodes(longnow)
 end note
 :return connectionStates.hasReadyNodes(now);;
 stop
@@ -409,7 +409,7 @@ endif
 end
 start
 note right
-boolean active()
+booleanactive()
 end note
 :return state.get()==State.ACTIVE;;
 stop
@@ -438,22 +438,22 @@ endif
 end
 start
 note right
-Node leastLoadedNode(long now)
+NodeleastLoadedNode(longnow)
 end note
-:List<Node> nodes=this.metadataUpdater.fetchNodes();;
+:List<Node>nodes=this.metadataUpdater.fetchNodes();;
 if (nodes.isEmpty()) then (yes) 
 :throw new IllegalStateException("There are no nodes in the Kafka cluster");;
 stop
 endif 
-:int inflight=Integer.MAX_VALUE;;
-:Node foundConnecting=null ;;
-:Node foundCanConnect=null ;;
-:Node foundReady=null ;;
-:int offset=this.randOffset.nextInt(nodes.size());;
-:int idx=(offset+i)%nodes.size();;
-:Node node=nodes.get(idx);;
+:intinflight=Integer.MAX_VALUE;;
+:NodefoundConnecting=null ;;
+:NodefoundCanConnect=null ;;
+:NodefoundReady=null ;;
+:intoffset=this.randOffset.nextInt(nodes.size());;
+:intidx=(offset+i)%nodes.size();;
+:Nodenode=nodes.get(idx);;
 if (canSendRequest(node.idString(),now)) then (yes) 
-:int currInflight=this.inFlightRequests.count(node.idString());;
+:intcurrInflight=this.inFlightRequests.count(node.idString());;
 if (currInflight==0) then (yes) 
 :log.trace("Found least loaded node {} connected with no in-flight requests",
 node);;
@@ -496,19 +496,19 @@ endif
 end
 start
 note right
-AbstractResponse parseResponse(ByteBuffer responseBuffer,
-RequestHeader requestHeader)
+AbstractResponseparseResponse(ByteBufferresponseBuffer,
+RequestHeaderrequestHeader)
 end note
 switch (try/catch block)
 case (try)
 :return AbstractResponse.parseResponse(responseBuffer,
 requestHeader);;
 stop
-case (catch (BufferUnderflowException e))
+case (catch (BufferUnderflowExceptione))
 :throw new SchemaException("Buffer underflow while parsing response for request with header "+
 requestHeader,e);;
 stop
-case (catch (CorrelationIdMismatchException e))
+case (catch (CorrelationIdMismatchExceptione))
 if (SaslClientAuthenticator.isReserved(requestHeader.correlationId())&&!SaslClientAuthenticator.isReserved(e.responseCorrelationId())) then (yes) 
 :throw new SchemaException("The response is unrelated to Sasl request since its correlation id is "+
 e.responseCorrelationId()+" and the reserved range for Sasl request is [ "+
@@ -524,8 +524,8 @@ endswitch
 end
 start
 note right
-void processDisconnection(List<ClientResponse> responses,
-String nodeId,long now,ChannelState disconnectState)
+void processDisconnection(List<ClientResponse>responses,
+StringnodeId,longnow,ChannelStatedisconnectState)
 end note
 :connectionStates.disconnected(nodeId,now);;
 :apiVersions.remove(nodeId);;
@@ -538,10 +538,10 @@ nodeId,Optional.ofNullable(disconnectState.exception()));;
 end
 start
 note right
-void handleTimedOutRequests(List<ClientResponse> responses,
-long now)
+void handleTimedOutRequests(List<ClientResponse>responses,
+longnow)
 end note
-:List<String> nodeIds=this.inFlightRequests.nodesWithTimedOutRequests(now);;
+:List<String>nodeIds=this.inFlightRequests.nodesWithTimedOutRequests(now);;
 :this.selector.close(nodeId);;
 :log.info("Disconnecting from node {} due to request timeout.",
 nodeId);;
@@ -550,17 +550,17 @@ ChannelState.LOCAL_CLOSE);;
 end
 start
 note right
-void handleAbortedSends(List<ClientResponse> responses)
+void handleAbortedSends(List<ClientResponse>responses)
 end note
 :responses.addAll(abortedSends);;
 :abortedSends.clear();;
 end
 start
 note right
-void handleTimedOutConnections(List<ClientResponse> responses,
-long now)
+void handleTimedOutConnections(List<ClientResponse>responses,
+longnow)
 end note
-:List<String> nodes=connectionStates.nodesWithConnectionSetupTimeout(now);;
+:List<String>nodes=connectionStates.nodesWithConnectionSetupTimeout(now);;
 :this.selector.close(nodeId);;
 :log.info("Disconnecting from node {} due to socket connection setup timeout. "+
 "The timeout value is {} ms.",nodeId,connectionStates.connectionSetupTimeoutMs(nodeId));;
@@ -569,10 +569,10 @@ ChannelState.LOCAL_CLOSE);;
 end
 start
 note right
-void handleCompletedSends(List<ClientResponse> responses,
-long now)
+void handleCompletedSends(List<ClientResponse>responses,
+longnow)
 end note
-:InFlightRequest request=this.inFlightRequests.lastSent(send.destinationId());;
+:InFlightRequestrequest=this.inFlightRequests.lastSent(send.destinationId());;
 if (!request.expectResponse) then (yes) 
 :this.inFlightRequests.completeLastSent(send.destinationId());;
 :responses.add(request.completed(null ,now));;
@@ -580,10 +580,10 @@ endif
 end
 start
 note right
-void maybeThrottle(AbstractResponse response,
-short apiVersion,String nodeId,long now)
+void maybeThrottle(AbstractResponseresponse,
+shortapiVersion,StringnodeId,longnow)
 end note
-:int throttleTimeMs=response.throttleTimeMs();;
+:intthrottleTimeMs=response.throttleTimeMs();;
 if (throttleTimeMs>0&&response.shouldClientThrottle(apiVersion)) then (yes) 
 :connectionStates.throttle(nodeId,now+throttleTimeMs);;
 :log.trace("Connection to node {} is throttled for {} ms until timestamp {}",nodeId,throttleTimeMs,now+
@@ -592,12 +592,12 @@ endif
 end
 start
 note right
-void handleCompletedReceives(List<ClientResponse> responses,
-long now)
+void handleCompletedReceives(List<ClientResponse>responses,
+longnow)
 end note
-:String source=receive.source();;
-:InFlightRequest req=inFlightRequests.completeNext(source);;
-:AbstractResponse response=parseResponse(receive.payload(),
+:Stringsource=receive.source();;
+:InFlightRequestreq=inFlightRequests.completeNext(source);;
+:AbstractResponseresponse=parseResponse(receive.payload(),
 req.header);;
 if (throttleTimeSensor!=null ) then (yes) 
 :throttleTimeSensor.record (response.throttleTimeMs(),
@@ -610,22 +610,22 @@ response);;
 endif 
 :maybeThrottle(response,req.header.apiVersion(),
 req.destination,now);;
-if (req.isInternalRequest&&response instanceof MetadataResponse ) then (yes) 
+if (req.isInternalRequest&&response instanceof MetadataResponse) then (yes) 
 :metadataUpdater.handleSuccessfulResponse(req.header,
-now,(MetadataResponse )response);;
-else if (req.isInternalRequest&&response instanceof ApiVersionsResponse ) then (yes) 
+now,(MetadataResponse)response);;
+else if (req.isInternalRequest&&response instanceof ApiVersionsResponse) then (yes) 
 :handleApiVersionsResponse(responses,req,
-now,(ApiVersionsResponse )response);;
+now,(ApiVersionsResponse)response);;
 else (no)
 :responses.add(req.completed(response,now));;
 endif 
 end
 start
 note right
-void handleApiVersionsResponse(List<ClientResponse> responses,
-InFlightRequest req,long now,ApiVersionsResponse apiVersionsResponse)
+void handleApiVersionsResponse(List<ClientResponse>responses,
+InFlightRequestreq,longnow,ApiVersionsResponseapiVersionsResponse)
 end note
-:final String node=req.destination;;
+:final Stringnode=req.destination;;
 if (apiVersionsResponse.data().errorCode()!=Errors.NONE.code()) then (yes) 
 if (req.request.version()==0||apiVersionsResponse.data().errorCode()!=Errors.UNSUPPORTED_VERSION.code()) then (yes) 
 :log.warn("Received error {} from node {} when making an ApiVersionsRequest with correlation id {}. Disconnecting.",
@@ -635,9 +635,9 @@ node,req.header.correlationId());;
 :processDisconnection(responses,node,now,
 ChannelState.LOCAL_CLOSE);;
 else (no)
-:short maxApiVersion=0;;
+:shortmaxApiVersion=0;;
 if (apiVersionsResponse.data().apiKeys().size()>0) then (yes) 
-:ApiVersion apiVersion=apiVersionsResponse.data()
+:ApiVersionapiVersion=apiVersionsResponse.data()
 .apiKeys().find(ApiKeys.API_VERSIONS.id);;
 if (apiVersion!=null ) then (yes) 
 :maxApiVersion=apiVersion.maxVersion();;
@@ -648,7 +648,7 @@ endif
 :return ;;
 stop
 endif 
-:NodeApiVersions nodeVersionInfo=new NodeApiVersions(apiVersionsResponse.data().apiKeys(),
+:NodeApiVersionsnodeVersionInfo=new NodeApiVersions(apiVersionsResponse.data().apiKeys(),
 apiVersionsResponse.data().supportedFeatures());;
 :apiVersions.update(node,nodeVersionInfo);;
 :this.connectionStates.ready(node);;
@@ -661,10 +661,10 @@ nodeVersionInfo);;
 end
 start
 note right
-void handleDisconnections(List<ClientResponse> responses,
-long now)
+void handleDisconnections(List<ClientResponse>responses,
+longnow)
 end note
-:String node=entry.getKey();;
+:Stringnode=entry.getKey();;
 :log.info("Node {} disconnected.",node);;
 :processDisconnection(responses,node,now,
 entry.getValue());;
@@ -685,19 +685,19 @@ endif
 end
 start
 note right
-void handleInitiateApiVersionRequests(long now)
+void handleInitiateApiVersionRequests(longnow)
 end note
-:Iterator<Map.Entry<String,ApiVersionsRequest.Builder>> iter=nodesNeedingApiVersionsFetch.entrySet()
+:Iterator<Map.Entry<String,ApiVersionsRequest.Builder>>iter=nodesNeedingApiVersionsFetch.entrySet()
 .iterator();;
 while (iter.hasNext())
-:Map.Entry<String,ApiVersionsRequest.Builder> entry=iter.next();;
-:String node=entry.getKey();;
+:Map.Entry<String,ApiVersionsRequest.Builder>entry=iter.next();;
+:Stringnode=entry.getKey();;
 if (selector.isChannelReady(node)&&inFlightRequests.canSendMore(node)) then (yes) 
 :log.debug("Initiating API versions fetch from node {}.",
 node);;
 :this.connectionStates.checkingApiVersions(node);;
-:ApiVersionsRequest.Builder apiVersionRequestBuilder=entry.getValue();;
-:ClientRequest clientRequest=newClientRequest(node,
+:ApiVersionsRequest.BuilderapiVersionRequestBuilder=entry.getValue();;
+:ClientRequestclientRequest=newClientRequest(node,
 apiVersionRequestBuilder,now,true);;
 :doSend(clientRequest,true,now);;
 :iter.remove();;
@@ -706,19 +706,19 @@ endwhile
 end
 start
 note right
-void initiateConnect(Node node,long now)
+void initiateConnect(Nodenode,longnow)
 end note
-:String nodeConnectionId=node.idString();;
+:StringnodeConnectionId=node.idString();;
 switch (try/catch block)
 case (try)
 :connectionStates.connecting(nodeConnectionId,
 now,node.host());;
-:InetAddress address=connectionStates.currentAddress(nodeConnectionId);;
+:InetAddressaddress=connectionStates.currentAddress(nodeConnectionId);;
 :log.debug("Initiating connection to node {} using address {}",
 node,address);;
 :selector.connect(nodeConnectionId,new InetSocketAddress(address,
 node.port()),this.socketSendBuffer,this.socketReceiveBuffer);;
-case (catch (IOException e))
+case (catch (IOExceptione))
 :log.warn("Error connecting to node {}",node,e);;
 :connectionStates.disconnected(nodeConnectionId,
 now);;
@@ -728,45 +728,45 @@ endswitch
 end
 start
 note right
-constructor DefaultMetadataUpdater(Metadata metadata)
+constructor DefaultMetadataUpdater(Metadatametadata)
 end note
 :this.metadata=metadata;;
 :this.inProgress=null ;;
 end
 start
 note right
-List<Node> fetchNodes()
+List<Node>fetchNodes()
 end note
 :return metadata.fetch().nodes();;
 stop
 end
 start
 note right
-boolean isUpdateDue(long now)
+booleanisUpdateDue(longnow)
 end note
 :return !hasFetchInProgress()&&this.metadata.timeToNextUpdate(now)==0;;
 stop
 end
 start
 note right
-boolean hasFetchInProgress()
+booleanhasFetchInProgress()
 end note
 :return inProgress!=null ;;
 stop
 end
 start
 note right
-long maybeUpdate(long now)
+longmaybeUpdate(longnow)
 end note
-:long timeToNextMetadataUpdate=metadata.timeToNextUpdate(now);;
-:long waitForMetadataFetch=hasFetchInProgress()? defaultRequestTimeoutMs:0;;
-:long metadataTimeout=Math.max(timeToNextMetadataUpdate,
+:longtimeToNextMetadataUpdate=metadata.timeToNextUpdate(now);;
+:longwaitForMetadataFetch=hasFetchInProgress()? defaultRequestTimeoutMs:0;;
+:longmetadataTimeout=Math.max(timeToNextMetadataUpdate,
 waitForMetadataFetch);;
 if (metadataTimeout>0) then (yes) 
 :return metadataTimeout;;
 stop
 endif 
-:Node node=leastLoadedNode(now);;
+:Nodenode=leastLoadedNode(now);;
 if (node==null ) then (yes) 
 :log.debug("Give up sending metadata request since no node is available");;
 :return reconnectBackoffMs;;
@@ -777,13 +777,13 @@ stop
 end
 start
 note right
-void handleServerDisconnect(long now,String destinationId,
-Optional<AuthenticationException> maybeFatalException)
+void handleServerDisconnect(longnow,StringdestinationId,
+Optional<AuthenticationException>maybeFatalException)
 end note
-:Cluster cluster=metadata.fetch();;
+:Clustercluster=metadata.fetch();;
 if (cluster.isBootstrapConfigured()) then (yes) 
-:int nodeId=Integer.parseInt(destinationId);;
-:Node node=cluster.nodeById(nodeId);;
+:intnodeId=Integer.parseInt(destinationId);;
+:Nodenode=cluster.nodeById(nodeId);;
 if (node!=null ) then (yes) 
 :log.warn("Bootstrap broker {} disconnected",
 node);;
@@ -797,7 +797,7 @@ endif
 end
 start
 note right
-void handleFailedRequest(long now,Optional<KafkaException> maybeFatalException)
+void handleFailedRequest(longnow,Optional<KafkaException>maybeFatalException)
 end note
 :maybeFatalException.ifPresent(metadata::fatalError);;
 :metadata.failedUpdate(now);;
@@ -805,18 +805,18 @@ end note
 end
 start
 note right
-void handleSuccessfulResponse(RequestHeader requestHeader,
-long now,MetadataResponse response)
+void handleSuccessfulResponse(RequestHeaderrequestHeader,
+longnow,MetadataResponseresponse)
 end note
-:List<TopicPartition> missingListenerPartitions=response.topicMetadata()
+:List<TopicPartition>missingListenerPartitions=response.topicMetadata()
 .stream().flatMap(topicMetadata->topicMetadata.partitionMetadata().stream().filter(partitionMetadata->partitionMetadata.error==Errors.LISTENER_NOT_FOUND).map(partitionMetadata->new TopicPartition(topicMetadata.topic(),partitionMetadata.partition()))).collect(Collectors.toList());;
 if (!missingListenerPartitions.isEmpty()) then (yes) 
-:int count=missingListenerPartitions.size();;
+:intcount=missingListenerPartitions.size();;
 :log.warn("{} partitions have leader brokers without a matching listener,
  including {}",count,missingListenerPartitions.subList(0,
 Math.min(10,count)));;
 endif 
-:Map<String,Errors> errors=response.errors();;
+:Map<String,Errors>errors=response.errors();;
 if (!errors.isEmpty()) then (yes) 
 :log.warn("Error while fetching metadata with correlation id {} : {}",
 requestHeader.correlationId(),errors);;
@@ -839,7 +839,7 @@ end note
 end
 start
 note right
-boolean isAnyNodeConnecting()
+booleanisAnyNodeConnecting()
 end note
 if (connectionStates.isConnecting(node.idString())) then (yes) 
 :return true;;
@@ -850,12 +850,12 @@ stop
 end
 start
 note right
-long maybeUpdate(long now,Node node)
+longmaybeUpdate(longnow,Nodenode)
 end note
-:String nodeConnectionId=node.idString();;
+:StringnodeConnectionId=node.idString();;
 if (canSendRequest(nodeConnectionId,now)) then (yes) 
-:Metadata.MetadataRequestAndVersion requestAndVersion=metadata.newMetadataRequestAndVersion(now);;
-:MetadataRequest.Builder metadataRequest=requestAndVersion.requestBuilder;;
+:Metadata.MetadataRequestAndVersionrequestAndVersion=metadata.newMetadataRequestAndVersion(now);;
+:MetadataRequest.BuildermetadataRequest=requestAndVersion.requestBuilder;;
 :log.debug("Sending metadata request {} to node {}",
 metadataRequest,node);;
 :sendInternalMetadataRequest(metadataRequest,
@@ -881,17 +881,17 @@ stop
 end
 start
 note right
-constructor InProgressData(int requestVersion,
-boolean isPartialUpdate)
+constructor InProgressData(intrequestVersion,
+booleanisPartialUpdate)
 end note
 :this.requestVersion=requestVersion;;
 :this.isPartialUpdate=isPartialUpdate;;
 end
 start
 note right
-ClientRequest newClientRequest(String nodeId,
-AbstractRequest.Builder<?> requestBuilder,
-long createdTimeMs,boolean expectResponse)
+ClientRequestnewClientRequest(StringnodeId,
+AbstractRequest.Builder<? >requestBuilder,
+longcreatedTimeMs,booleanexpectResponse)
 end note
 :return newClientRequest(nodeId,requestBuilder,
 createdTimeMs,expectResponse,defaultRequestTimeoutMs,
@@ -900,7 +900,7 @@ stop
 end
 start
 note right
-int nextCorrelationId()
+intnextCorrelationId()
 end note
 if (SaslClientAuthenticator.isReserved(correlation)) then (yes) 
 :correlation=SaslClientAuthenticator.MAX_RESERVED_CORRELATION_ID+1;;
@@ -910,10 +910,10 @@ stop
 end
 start
 note right
-ClientRequest newClientRequest(String nodeId,
-AbstractRequest.Builder<?> requestBuilder,
-long createdTimeMs,boolean expectResponse,
-int requestTimeoutMs,RequestCompletionHandler callback)
+ClientRequestnewClientRequest(StringnodeId,
+AbstractRequest.Builder<? >requestBuilder,
+longcreatedTimeMs,booleanexpectResponse,intrequestTimeoutMs,
+RequestCompletionHandlercallback)
 end note
 :return new ClientRequest(nodeId,requestBuilder,
 nextCorrelationId(),clientId,createdTimeMs,
@@ -922,16 +922,16 @@ stop
 end
 start
 note right
-boolean discoverBrokerVersions()
+booleandiscoverBrokerVersions()
 end note
 :return discoverBrokerVersions;;
 stop
 end
 start
 note right
-constructor InFlightRequest(ClientRequest clientRequest,
-RequestHeader header,boolean isInternalRequest,
-AbstractRequest request,Send send,long sendTimeMs)
+constructor InFlightRequest(ClientRequestclientRequest,
+RequestHeaderheader,booleanisInternalRequest,
+AbstractRequestrequest,Sendsend,longsendTimeMs)
 end note
 :this(header,clientRequest.requestTimeoutMs(),
 clientRequest.createdTimeMs(),clientRequest.destination(),
@@ -940,11 +940,11 @@ isInternalRequest,request,send,sendTimeMs);;
 end
 start
 note right
-constructor InFlightRequest(RequestHeader header,
-int requestTimeoutMs,long createdTimeMs,String destination,
-RequestCompletionHandler callback,boolean expectResponse,
-boolean isInternalRequest,AbstractRequest request,
-Send send,long sendTimeMs)
+constructor InFlightRequest(RequestHeaderheader,
+intrequestTimeoutMs,longcreatedTimeMs,Stringdestination,
+RequestCompletionHandlercallback,booleanexpectResponse,
+booleanisInternalRequest,AbstractRequestrequest,
+Sendsend,longsendTimeMs)
 end note
 :this.header=header;;
 :this.requestTimeoutMs=requestTimeoutMs;;
@@ -959,22 +959,22 @@ end note
 end
 start
 note right
-long timeElapsedSinceSendMs(long currentTimeMs)
+longtimeElapsedSinceSendMs(longcurrentTimeMs)
 end note
 :return Math.max(0,currentTimeMs-sendTimeMs);;
 stop
 end
 start
 note right
-long timeElapsedSinceCreateMs(long currentTimeMs)
+longtimeElapsedSinceCreateMs(longcurrentTimeMs)
 end note
 :return Math.max(0,currentTimeMs-createdTimeMs);;
 stop
 end
 start
 note right
-ClientResponse completed(AbstractResponse response,
-long timeMs)
+ClientResponsecompleted(AbstractResponseresponse,
+longtimeMs)
 end note
 :return new ClientResponse(header,callback,
 destination,createdTimeMs,timeMs,false,null ,
@@ -983,7 +983,7 @@ stop
 end
 start
 note right
-ClientResponse disconnected(long timeMs,AuthenticationException authenticationException)
+ClientResponsedisconnected(longtimeMs,AuthenticationExceptionauthenticationException)
 end note
 :return new ClientResponse(header,callback,
 destination,createdTimeMs,timeMs,true,null ,
@@ -992,7 +992,7 @@ stop
 end
 start
 note right
-String toString()
+StringtoString()
 end note
 :return "InFlightRequest(header="+header+
 ", destination="+destination+", expectResponse="+

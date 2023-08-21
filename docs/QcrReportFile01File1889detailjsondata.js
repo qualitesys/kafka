@@ -355,7 +355,7 @@ var maDataBlocs = {
  , "c1" : "00147"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#147"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00147] For method validate arguments Map&lt;String,InternalTopicConfig&gt;  topicConfigs"
+ , "c3" : "QC-JAV000006[00147] For method validate arguments Map&lt;String ,InternalTopicConfig &gt;  topicConfigs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1020,7 +1020,7 @@ var maDataBlocs = {
  , "c1" : "00386"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#386"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00386] For method makeReady arguments Map&lt;String,InternalTopicConfig&gt;  topics"
+ , "c3" : "QC-JAV000006[00386] For method makeReady arguments Map&lt;String ,InternalTopicConfig &gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1349,7 +1349,7 @@ var maDataBlocs = {
  , "c1" : "00513"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#513"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00513] For method getNumPartitions arguments Set&lt;String&gt;  topics|Set&lt;String&gt;  tempUnknownTopics"
+ , "c3" : "QC-JAV000006[00513] For method getNumPartitions arguments Set&lt;String &gt;  topics|Set&lt;String &gt;  tempUnknownTopics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1496,7 +1496,7 @@ var maDataBlocs = {
  , "c1" : "00559"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#559"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00559] For method validateTopics arguments Set&lt;String&gt;  topicsToValidate|Map&lt;String,InternalTopicConfig&gt;  topicsMap|Set&lt;String&gt;  tempUnknownTopics"
+ , "c3" : "QC-JAV000006[00559] For method validateTopics arguments Set&lt;String &gt;  topicsToValidate|Map&lt;String ,InternalTopicConfig &gt;  topicsMap|Set&lt;String &gt;  tempUnknownTopics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1594,7 +1594,7 @@ var maDataBlocs = {
  , "c1" : "00600"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#600"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00600] For method setup arguments Map&lt;String,InternalTopicConfig&gt;  topicConfigs"
+ , "c3" : "QC-JAV000006[00600] For method setup arguments Map&lt;String ,InternalTopicConfig &gt;  topicConfigs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1657,7 +1657,7 @@ var maDataBlocs = {
  , "c1" : "00633"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#633"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00633] For method processCreateTopicResults arguments CreateTopicsResult  createTopicsResult|Set&lt;String&gt;  topicStillToCreate|Set&lt;String&gt;  createdTopics|long  deadline"
+ , "c3" : "QC-JAV000006[00633] For method processCreateTopicResults arguments CreateTopicsResult  createTopicsResult|Set&lt;String &gt;  topicStillToCreate|Set&lt;String &gt;  createdTopics|long  deadline"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1839,7 +1839,7 @@ var maDataBlocs = {
  , "c1" : "00691"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#691"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00691] For method cleanUpCreatedTopics arguments Set&lt;String&gt;  topicsToCleanUp"
+ , "c3" : "QC-JAV000006[00691] For method cleanUpCreatedTopics arguments Set&lt;String &gt;  topicsToCleanUp"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2140,7 +2140,7 @@ var maDataBlocs = {
  , "c1" : "00762"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#762"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00762] For method maybeThrowTimeoutException arguments List&lt;Set&lt;String&gt;&gt;  topicStillToProcess|long  deadline|String  errorMessage"
+ , "c3" : "QC-JAV000006[00762] For method maybeThrowTimeoutException arguments List&lt;Set&lt;String &gt; &gt;  topicStillToProcess|long  deadline|String  errorMessage"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2154,7 +2154,7 @@ var maDataBlocs = {
  , "c1" : "00774"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#774"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00774] For method maybeThrowTimeoutExceptionDuringSetup arguments Set&lt;String&gt;  topicStillToProcess|Set&lt;String&gt;  createdTopics|Map&lt;String,Throwable&gt;  lastErrorsSeenForTopic|long  deadline"
+ , "c3" : "QC-JAV000006[00774] For method maybeThrowTimeoutExceptionDuringSetup arguments Set&lt;String &gt;  topicStillToProcess|Set&lt;String &gt;  createdTopics|Map&lt;String ,Throwable &gt;  lastErrorsSeenForTopic|long  deadline"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2196,7 +2196,7 @@ var maDataBlocs = {
  , "c1" : "00792"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#792"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00792] For method maybeSleep arguments List&lt;Set&lt;String&gt;&gt;  resultSetsStillToValidate|long  deadline|String  action"
+ , "c3" : "QC-JAV000006[00792] For method maybeSleep arguments List&lt;Set&lt;String &gt; &gt;  resultSetsStillToValidate|long  deadline|String  action"
 }} 
 ,
 { "ligne" : {"" : ""

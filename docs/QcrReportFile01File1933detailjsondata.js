@@ -523,14 +523,14 @@ var maDataBlocs = {
  , "c1" : "00143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#143"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00143] For method addConsumer arguments String  consumerMemberId|List&lt;TopicPartition&gt;  ownedPartitions"
+ , "c3" : "QC-JAV000006[00143] For method addConsumer arguments String  consumerMemberId|List&lt;TopicPartition &gt;  ownedPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00149"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#149"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00149] For method addPreviousTasksAndOffsetSums arguments String  consumerId|Map&lt;TaskId,Long&gt;  taskOffsetSums"
+ , "c3" : "QC-JAV000006[00149] For method addPreviousTasksAndOffsetSums arguments String  consumerId|Map&lt;TaskId ,Long &gt;  taskOffsetSums"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -572,7 +572,7 @@ var maDataBlocs = {
  , "c1" : "00202"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#202"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00202] For method configure arguments Map&lt;String,?&gt;  configs"
+ , "c3" : "QC-JAV000006[00202] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -635,14 +635,14 @@ var maDataBlocs = {
  , "c1" : "00246"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#246"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00246] For method subscriptionUserData arguments Set&lt;String&gt;  topics"
+ , "c3" : "QC-JAV000006[00246] For method subscriptionUserData arguments Set&lt;String &gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00274"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#274"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00274] For method errorAssignment arguments Map&lt;UUID,ClientMetadata&gt;  clientsMetadata|int  errorCode"
+ , "c3" : "QC-JAV000006[00274] For method errorAssignment arguments Map&lt;UUID ,ClientMetadata &gt;  clientsMetadata|int  errorCode"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -901,7 +901,7 @@ var maDataBlocs = {
  , "c1" : "00540"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#540"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00540] For method populateTasksForMaps arguments Map&lt;TopicPartition,TaskId&gt;  taskForPartition|Map&lt;Subtopology,Set&lt;TaskId&gt;&gt;  tasksForTopicGroup|Set&lt;String&gt;  allSourceTopics|Map&lt;TaskId,Set&lt;TopicPartition&gt;&gt;  partitionsForTask|Cluster  fullMetadata"
+ , "c3" : "QC-JAV000006[00540] For method populateTasksForMaps arguments Map&lt;TopicPartition ,TaskId &gt;  taskForPartition|Map&lt;Subtopology ,Set&lt;TaskId &gt; &gt;  tasksForTopicGroup|Set&lt;String &gt;  allSourceTopics|Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  partitionsForTask|Cluster  fullMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -957,7 +957,7 @@ var maDataBlocs = {
  , "c1" : "00566"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#566"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00566] For method checkAllPartitions arguments Set&lt;String&gt;  allSourceTopics|Map&lt;TaskId,Set&lt;TopicPartition&gt;&gt;  partitionsForTask|Set&lt;TopicPartition&gt;  allAssignedPartitions|Cluster  fullMetadata"
+ , "c3" : "QC-JAV000006[00566] For method checkAllPartitions arguments Set&lt;String &gt;  allSourceTopics|Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  partitionsForTask|Set&lt;TopicPartition &gt;  allAssignedPartitions|Cluster  fullMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1055,7 +1055,7 @@ var maDataBlocs = {
  , "c1" : "00596"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#596"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00596] For method assignTasksToClients arguments Cluster  fullMetadata|Set&lt;String&gt;  allSourceTopics|Map&lt;Subtopology,TopicsInfo&gt;  topicGroups|Map&lt;UUID,ClientMetadata&gt;  clientMetadataMap|Map&lt;TaskId,Set&lt;TopicPartition&gt;&gt;  partitionsForTask|Set&lt;TaskId&gt;  statefulTasks"
+ , "c3" : "QC-JAV000006[00596] For method assignTasksToClients arguments Cluster  fullMetadata|Set&lt;String &gt;  allSourceTopics|Map&lt;Subtopology ,TopicsInfo &gt;  topicGroups|Map&lt;UUID ,ClientMetadata &gt;  clientMetadataMap|Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  partitionsForTask|Set&lt;TaskId &gt;  statefulTasks"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1146,7 +1146,7 @@ var maDataBlocs = {
  , "c1" : "00674"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#674"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00674] For method populateClientStatesMap arguments Map&lt;UUID,ClientState&gt;  clientStates|Map&lt;UUID,ClientMetadata&gt;  clientMetadataMap|Map&lt;TopicPartition,TaskId&gt;  taskForPartition|ChangelogTopics  changelogTopics"
+ , "c3" : "QC-JAV000006[00674] For method populateClientStatesMap arguments Map&lt;UUID ,ClientState &gt;  clientStates|Map&lt;UUID ,ClientMetadata &gt;  clientMetadataMap|Map&lt;TopicPartition ,TaskId &gt;  taskForPartition|ChangelogTopics  changelogTopics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1202,7 +1202,7 @@ var maDataBlocs = {
  , "c1" : "00721"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#721"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00721] For method computeEndOffsetSumsByTask arguments Map&lt;TopicPartition,ListOffsetsResultInfo&gt;  endOffsets|Map&lt;TopicPartition,Long&gt;  sourceChangelogEndOffsets|ChangelogTopics  changelogTopics"
+ , "c3" : "QC-JAV000006[00721] For method computeEndOffsetSumsByTask arguments Map&lt;TopicPartition ,ListOffsetsResultInfo &gt;  endOffsets|Map&lt;TopicPartition ,Long &gt;  sourceChangelogEndOffsets|ChangelogTopics  changelogTopics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1265,7 +1265,7 @@ var maDataBlocs = {
  , "c1" : "00758"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#758"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00758] For method populatePartitionsByHostMaps arguments Map&lt;HostInfo,Set&lt;TopicPartition&gt;&gt;  partitionsByHost|Map&lt;HostInfo,Set&lt;TopicPartition&gt;&gt;  standbyPartitionsByHost|Map&lt;TaskId,Set&lt;TopicPartition&gt;&gt;  partitionsForTask|Map&lt;UUID,ClientMetadata&gt;  clientMetadataMap"
+ , "c3" : "QC-JAV000006[00758] For method populatePartitionsByHostMaps arguments Map&lt;HostInfo ,Set&lt;TopicPartition &gt; &gt;  partitionsByHost|Map&lt;HostInfo ,Set&lt;TopicPartition &gt; &gt;  standbyPartitionsByHost|Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  partitionsForTask|Map&lt;UUID ,ClientMetadata &gt;  clientMetadataMap"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1349,7 +1349,7 @@ var maDataBlocs = {
  , "c1" : "00790"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#790"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00790] For method computeNewAssignment arguments Set&lt;TaskId&gt;  statefulTasks|Map&lt;UUID,ClientMetadata&gt;  clientsMetadata|Map&lt;TaskId,Set&lt;TopicPartition&gt;&gt;  partitionsForTask|Map&lt;HostInfo,Set&lt;TopicPartition&gt;&gt;  partitionsByHostState|Map&lt;HostInfo,Set&lt;TopicPartition&gt;&gt;  standbyPartitionsByHost|Set&lt;TopicPartition&gt;  allOwnedPartitions|int  minUserMetadataVersion|int  minSupportedMetadataVersion|boolean  versionProbing|boolean  shouldTriggerProbingRebalance"
+ , "c3" : "QC-JAV000006[00790] For method computeNewAssignment arguments Set&lt;TaskId &gt;  statefulTasks|Map&lt;UUID ,ClientMetadata &gt;  clientsMetadata|Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  partitionsForTask|Map&lt;HostInfo ,Set&lt;TopicPartition &gt; &gt;  partitionsByHostState|Map&lt;HostInfo ,Set&lt;TopicPartition &gt; &gt;  standbyPartitionsByHost|Set&lt;TopicPartition &gt;  allOwnedPartitions|int  minUserMetadataVersion|int  minSupportedMetadataVersion|boolean  versionProbing|boolean  shouldTriggerProbingRebalance"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1545,7 +1545,7 @@ var maDataBlocs = {
  , "c1" : "00896"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#896"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00896] For method addClientAssignments arguments Set&lt;TaskId&gt;  statefulTasks|Map&lt;String,Assignment&gt;  assignment|ClientMetadata  clientMetadata|Map&lt;TaskId,Set&lt;TopicPartition&gt;&gt;  partitionsForTask|Map&lt;HostInfo,Set&lt;TopicPartition&gt;&gt;  partitionsByHostState|Map&lt;HostInfo,Set&lt;TopicPartition&gt;&gt;  standbyPartitionsByHost|Set&lt;TopicPartition&gt;  allOwnedPartitions|Map&lt;String,List&lt;TaskId&gt;&gt;  activeTaskAssignments|Map&lt;String,List&lt;TaskId&gt;&gt;  standbyTaskAssignments|int  minUserMetadataVersion|int  minSupportedMetadataVersion|boolean  probingRebalanceNeeded"
+ , "c3" : "QC-JAV000006[00896] For method addClientAssignments arguments Set&lt;TaskId &gt;  statefulTasks|Map&lt;String ,Assignment &gt;  assignment|ClientMetadata  clientMetadata|Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  partitionsForTask|Map&lt;HostInfo ,Set&lt;TopicPartition &gt; &gt;  partitionsByHostState|Map&lt;HostInfo ,Set&lt;TopicPartition &gt; &gt;  standbyPartitionsByHost|Set&lt;TopicPartition &gt;  allOwnedPartitions|Map&lt;String ,List&lt;TaskId &gt; &gt;  activeTaskAssignments|Map&lt;String ,List&lt;TaskId &gt; &gt;  standbyTaskAssignments|int  minUserMetadataVersion|int  minSupportedMetadataVersion|boolean  probingRebalanceNeeded"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1678,7 +1678,7 @@ var maDataBlocs = {
  , "c1" : "00981"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#981"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00981] For method populateActiveTaskAndPartitionsLists arguments List&lt;TopicPartition&gt;  activePartitionsList|List&lt;TaskId&gt;  assignedActiveList|String  consumer|ClientState  clientState|List&lt;TaskId&gt;  activeTasksForConsumer|Map&lt;TaskId,Set&lt;TopicPartition&gt;&gt;  partitionsForTask|Set&lt;TopicPartition&gt;  allOwnedPartitions"
+ , "c3" : "QC-JAV000006[00981] For method populateActiveTaskAndPartitionsLists arguments List&lt;TopicPartition &gt;  activePartitionsList|List&lt;TaskId &gt;  assignedActiveList|String  consumer|ClientState  clientState|List&lt;TaskId &gt;  activeTasksForConsumer|Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  partitionsForTask|Set&lt;TopicPartition &gt;  allOwnedPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1769,7 +1769,7 @@ var maDataBlocs = {
  , "c1" : "01041"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1041"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01041] For method buildStandbyTaskMap arguments String  consumer|Iterable&lt;TaskId&gt;  standbyTasks|Iterable&lt;TaskId&gt;  revokedTasks|Set&lt;TaskId&gt;  allStatefulTasks|Map&lt;TaskId,Set&lt;TopicPartition&gt;&gt;  partitionsForTask|ClientState  clientState"
+ , "c3" : "QC-JAV000006[01041] For method buildStandbyTaskMap arguments String  consumer|Iterable&lt;TaskId &gt;  standbyTasks|Iterable&lt;TaskId &gt;  revokedTasks|Set&lt;TaskId &gt;  allStatefulTasks|Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  partitionsForTask|ClientState  clientState"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1804,7 +1804,7 @@ var maDataBlocs = {
  , "c1" : "01078"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1078"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01078] For method assignTasksToThreads arguments Collection&lt;TaskId&gt;  tasksToAssign|boolean  isStateful|SortedSet&lt;String&gt;  consumers|ClientState  state|Map&lt;String,Integer&gt;  threadLoad"
+ , "c3" : "QC-JAV000006[01078] For method assignTasksToThreads arguments Collection&lt;TaskId &gt;  tasksToAssign|boolean  isStateful|SortedSet&lt;String &gt;  consumers|ClientState  state|Map&lt;String ,Integer &gt;  threadLoad"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2203,7 +2203,7 @@ var maDataBlocs = {
  , "c1" : "01344"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1344"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01344] For method maybeScheduleFollowupRebalance arguments long  encodedNextScheduledRebalanceMs|int  receivedAssignmentMetadataVersion|int  latestCommonlySupportedVersion|Set&lt;HostInfo&gt;  groupHostInfo"
+ , "c3" : "QC-JAV000006[01344] For method maybeScheduleFollowupRebalance arguments long  encodedNextScheduledRebalanceMs|int  receivedAssignmentMetadataVersion|int  latestCommonlySupportedVersion|Set&lt;HostInfo &gt;  groupHostInfo"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2273,7 +2273,7 @@ var maDataBlocs = {
  , "c1" : "01375"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1375"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01375] For method verifyHostInfo arguments Set&lt;HostInfo&gt;  groupHostInfo"
+ , "c3" : "QC-JAV000006[01375] For method verifyHostInfo arguments Set&lt;HostInfo &gt;  groupHostInfo"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2308,7 +2308,7 @@ var maDataBlocs = {
  , "c1" : "01386"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1386"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01386] For method getActiveTasks arguments List&lt;TopicPartition&gt;  partitions|AssignmentInfo  info"
+ , "c3" : "QC-JAV000006[01386] For method getActiveTasks arguments List&lt;TopicPartition &gt;  partitions|AssignmentInfo  info"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2350,7 +2350,7 @@ var maDataBlocs = {
  , "c1" : "01396"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1396"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01396] For method getTopicPartitionInfo arguments Map&lt;HostInfo,Set&lt;TopicPartition&gt;&gt;  partitionsByHost"
+ , "c3" : "QC-JAV000006[01396] For method getTopicPartitionInfo arguments Map&lt;HostInfo ,Set&lt;TopicPartition &gt; &gt;  partitionsByHost"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2392,7 +2392,7 @@ var maDataBlocs = {
  , "c1" : "01415"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1415"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01415] For method validateActiveTaskEncoding arguments List&lt;TopicPartition&gt;  partitions|AssignmentInfo  info|String  logPrefix"
+ , "c3" : "QC-JAV000006[01415] For method validateActiveTaskEncoding arguments List&lt;TopicPartition &gt;  partitions|AssignmentInfo  info|String  logPrefix"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2462,7 +2462,7 @@ var maDataBlocs = {
  , "c1" : "01471"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#1471"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01471] For method handleRebalanceStart arguments Set&lt;String&gt;  topics"
+ , "c3" : "QC-JAV000006[01471] For method handleRebalanceStart arguments Set&lt;String &gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""

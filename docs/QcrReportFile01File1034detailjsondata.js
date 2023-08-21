@@ -470,7 +470,7 @@ var maDataBlocs = {
  , "c1" : "00105"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#105"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00105] For method start arguments Map&lt;String,String&gt;  props"
+ , "c3" : "QC-JAV000006[00105] For method start arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -680,7 +680,7 @@ var maDataBlocs = {
  , "c1" : "00281"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#281"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00281] For method toTopics arguments Collection&lt;TopicPartition&gt;  tps"
+ , "c3" : "QC-JAV000006[00281] For method toTopics arguments Collection&lt;TopicPartition &gt;  tps"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -722,7 +722,7 @@ var maDataBlocs = {
  , "c1" : "00354"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#354"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00354] For method createNewTopics arguments Set&lt;String&gt;  newSourceTopics|Map&lt;String,Long&gt;  sourceTopicToPartitionCounts"
+ , "c3" : "QC-JAV000006[00354] For method createNewTopics arguments Set&lt;String &gt;  newSourceTopics|Map&lt;String ,Long &gt;  sourceTopicToPartitionCounts"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -750,7 +750,7 @@ var maDataBlocs = {
  , "c1" : "00370"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#370"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00370] For method createNewTopics arguments Map&lt;String,NewTopic&gt;  newTopics"
+ , "c3" : "QC-JAV000006[00370] For method createNewTopics arguments Map&lt;String ,NewTopic &gt;  newTopics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -785,7 +785,7 @@ var maDataBlocs = {
  , "c1" : "00380"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#380"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00380] For method createNewPartitions arguments Map&lt;String,NewPartitions&gt;  newPartitions"
+ , "c3" : "QC-JAV000006[00380] For method createNewPartitions arguments Map&lt;String ,NewPartitions &gt;  newPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -834,7 +834,7 @@ var maDataBlocs = {
  , "c1" : "00402"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#402"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00402] For method describeTopics arguments AdminClient  adminClient|Collection&lt;String&gt;  topics"
+ , "c3" : "QC-JAV000006[00402] For method describeTopics arguments AdminClient  adminClient|Collection&lt;String &gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -862,7 +862,7 @@ var maDataBlocs = {
  , "c1" : "00414"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#414"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00414] For method updateTopicConfigs arguments Map&lt;String,Config&gt;  topicConfigs"
+ , "c3" : "QC-JAV000006[00414] For method updateTopicConfigs arguments Map&lt;String ,Config &gt;  topicConfigs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -897,7 +897,7 @@ var maDataBlocs = {
  , "c1" : "00426"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#426"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00426] For method updateTopicAcls arguments List&lt;AclBinding&gt;  bindings"
+ , "c3" : "QC-JAV000006[00426] For method updateTopicAcls arguments List&lt;AclBinding &gt;  bindings"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -953,7 +953,7 @@ var maDataBlocs = {
  , "c1" : "00441"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#441"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00441] For method describeTopicConfigs arguments Set&lt;String&gt;  topics"
+ , "c3" : "QC-JAV000006[00441] For method describeTopicConfigs arguments Set&lt;String &gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""

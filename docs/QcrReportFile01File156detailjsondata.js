@@ -263,7 +263,7 @@ var maDataBlocs = {
  , "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#104"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00104] For method handleServerDisconnect arguments long  now|String  destinationId|Optional&lt;AuthenticationException&gt;  maybeFatalException"
+ , "c3" : "QC-JAV000006[00104] For method handleServerDisconnect arguments long  now|String  destinationId|Optional&lt;AuthenticationException &gt;  maybeFatalException"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -277,7 +277,7 @@ var maDataBlocs = {
  , "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#110"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00110] For method handleFailedRequest arguments long  now|Optional&lt;KafkaException&gt;  maybeFatalException"
+ , "c3" : "QC-JAV000006[00110] For method handleFailedRequest arguments long  now|Optional&lt;KafkaException &gt;  maybeFatalException"
 }} 
 ,
 { "ligne" : {"" : ""

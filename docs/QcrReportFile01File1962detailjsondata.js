@@ -195,7 +195,7 @@ var maDataBlocs = {
  , "c1" : "00048"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#48"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method assign arguments Map&lt;UUID,ClientState&gt;  clients|Set&lt;TaskId&gt;  allTaskIds|Set&lt;TaskId&gt;  statefulTaskIds|AssignmentConfigs  configs"
+ , "c3" : "QC-JAV000006[00048] For method assign arguments Map&lt;UUID ,ClientState &gt;  clients|Set&lt;TaskId &gt;  allTaskIds|Set&lt;TaskId &gt;  statefulTaskIds|AssignmentConfigs  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -251,7 +251,7 @@ var maDataBlocs = {
  , "c1" : "00110"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#110"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00110] For method assignActiveStatefulTasks arguments SortedMap&lt;UUID,ClientState&gt;  clientStates|SortedSet&lt;TaskId&gt;  statefulTasks"
+ , "c3" : "QC-JAV000006[00110] For method assignActiveStatefulTasks arguments SortedMap&lt;UUID ,ClientState &gt;  clientStates|SortedSet&lt;TaskId &gt;  statefulTasks"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -286,7 +286,7 @@ var maDataBlocs = {
  , "c1" : "00129"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#129"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00129] For method assignStandbyReplicaTasks arguments TreeMap&lt;UUID,ClientState&gt;  clientStates|Set&lt;TaskId&gt;  allTaskIds|Set&lt;TaskId&gt;  statefulTasks|AssignmentConfigs  configs"
+ , "c3" : "QC-JAV000006[00129] For method assignStandbyReplicaTasks arguments TreeMap&lt;UUID ,ClientState &gt;  clientStates|Set&lt;TaskId &gt;  allTaskIds|Set&lt;TaskId &gt;  statefulTasks|AssignmentConfigs  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -314,7 +314,7 @@ var maDataBlocs = {
  , "c1" : "00150"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00150] For method balanceTasksOverThreads arguments SortedMap&lt;UUID,ClientState&gt;  clientStates|Function&lt;ClientState,Set&lt;TaskId&gt;&gt;  currentAssignmentAccessor|BiConsumer&lt;ClientState,TaskId&gt;  taskUnassignor|BiConsumer&lt;ClientState,TaskId&gt;  taskAssignor|BiPredicate&lt;ClientState,ClientState&gt;  taskMovementAttemptPredicate"
+ , "c3" : "QC-JAV000006[00150] For method balanceTasksOverThreads arguments SortedMap&lt;UUID ,ClientState &gt;  clientStates|Function&lt;ClientState ,Set&lt;TaskId &gt; &gt;  currentAssignmentAccessor|BiConsumer&lt;ClientState ,TaskId &gt;  taskUnassignor|BiConsumer&lt;ClientState ,TaskId &gt;  taskAssignor|BiPredicate&lt;ClientState ,ClientState &gt;  taskMovementAttemptPredicate"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -608,7 +608,7 @@ var maDataBlocs = {
  , "c1" : "00210"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#210"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00210] For method assignStatelessActiveTasks arguments TreeMap&lt;UUID,ClientState&gt;  clientStates|Iterable&lt;TaskId&gt;  statelessTasks"
+ , "c3" : "QC-JAV000006[00210] For method assignStatelessActiveTasks arguments TreeMap&lt;UUID ,ClientState &gt;  clientStates|Iterable&lt;TaskId &gt;  statelessTasks"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -650,7 +650,7 @@ var maDataBlocs = {
  , "c1" : "00226"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#226"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00226] For method tasksToCaughtUpClients arguments Set&lt;TaskId&gt;  statefulTasks|Map&lt;UUID,ClientState&gt;  clientStates|long  acceptableRecoveryLag"
+ , "c3" : "QC-JAV000006[00226] For method tasksToCaughtUpClients arguments Set&lt;TaskId &gt;  statefulTasks|Map&lt;UUID ,ClientState &gt;  clientStates|long  acceptableRecoveryLag"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -692,7 +692,7 @@ var maDataBlocs = {
  , "c1" : "00246"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#246"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00246] For method tasksToClientByLag arguments Set&lt;TaskId&gt;  statefulTasks|Map&lt;UUID,ClientState&gt;  clientStates"
+ , "c3" : "QC-JAV000006[00246] For method tasksToClientByLag arguments Set&lt;TaskId &gt;  statefulTasks|Map&lt;UUID ,ClientState &gt;  clientStates"
 }} 
 ,
 { "ligne" : {"" : ""

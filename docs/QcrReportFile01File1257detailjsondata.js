@@ -192,7 +192,7 @@ var maDataBlocs = {
  , "c1" : "00177"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#177"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00177] For method createTypeClassGenerators arguments String  packageName|List&lt;String&gt;  types"
+ , "c3" : "QC-JAV000006[00177] For method createTypeClassGenerators arguments String  packageName|List&lt;String &gt;  types"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -241,7 +241,7 @@ var maDataBlocs = {
  , "c1" : "00199"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#199"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00199] For method createMessageClassGenerators arguments String  packageName|List&lt;String&gt;  types"
+ , "c3" : "QC-JAV000006[00199] For method createMessageClassGenerators arguments String  packageName|List&lt;String &gt;  types"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -283,7 +283,7 @@ var maDataBlocs = {
  , "c1" : "00218"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#218"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00218] For method processDirectories arguments String  packageName|String  outputDir|String  inputDir|List&lt;String&gt;  typeClassGeneratorTypes|List&lt;String&gt;  messageClassGeneratorTypes"
+ , "c3" : "QC-JAV000006[00218] For method processDirectories arguments String  packageName|String  outputDir|String  inputDir|List&lt;String &gt;  typeClassGeneratorTypes|List&lt;String &gt;  messageClassGeneratorTypes"
 }} 
 ,
 { "ligne" : {"" : ""

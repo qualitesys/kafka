@@ -458,7 +458,7 @@ var maDataBlocs = {
  , "c1" : "00310"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#310"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00310] For method enrich arguments Plugins  plugins|ConfigDef  baseConfigDef|Map&lt;String,String&gt;  props|boolean  requireFullConfig"
+ , "c3" : "QC-JAV000006[00310] For method enrich arguments Plugins  plugins|ConfigDef  baseConfigDef|Map&lt;String ,String &gt;  props|boolean  requireFullConfig"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -815,7 +815,7 @@ var maDataBlocs = {
  , "c1" : "00488"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#488"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00488] For method getConfigDefFromConfigProvidingClass arguments String  key|Class&lt;?&gt;  cls"
+ , "c3" : "QC-JAV000006[00488] For method getConfigDefFromConfigProvidingClass arguments String  key|Class&lt;? &gt;  cls"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -906,14 +906,14 @@ var maDataBlocs = {
  , "c1" : "00541"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#541"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00541] For method validValues arguments String  name|Map&lt;String,Object&gt;  parsedConfig"
+ , "c3" : "QC-JAV000006[00541] For method validValues arguments String  name|Map&lt;String ,Object &gt;  parsedConfig"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00550"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#550"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00550] For method visible arguments String  name|Map&lt;String,Object&gt;  parsedConfig"
+ , "c3" : "QC-JAV000006[00550] For method visible arguments String  name|Map&lt;String ,Object &gt;  parsedConfig"
 }} 
 ,
 { "ligne" : {"" : ""

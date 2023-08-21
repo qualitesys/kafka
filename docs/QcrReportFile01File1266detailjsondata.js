@@ -144,7 +144,7 @@ var maDataBlocs = {
  , "c1" : "00059"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/Target.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00059] For method arrayElementTarget arguments Function&lt;String,String&gt;  assignmentStatementGenerator"
+ , "c3" : "QC-JAV000006[00059] For method arrayElementTarget arguments Function&lt;String ,String &gt;  assignmentStatementGenerator"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -237,21 +237,21 @@ var maDataBlocs = {
  , "c1" : "00160"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#160"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00160] For method withMaterializedInternal arguments MaterializedInternal&lt;K,V,?&gt;  materializedInternal"
+ , "c3" : "QC-JAV000006[00160] For method withMaterializedInternal arguments MaterializedInternal&lt;K ,V ,? &gt;  materializedInternal"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00165"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#165"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00165] For method withConsumedInternal arguments ConsumedInternal&lt;K,V&gt;  consumedInternal"
+ , "c3" : "QC-JAV000006[00165] For method withConsumedInternal arguments ConsumedInternal&lt;K ,V &gt;  consumedInternal"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/TableSourceNode.java.html#170"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00170] For method withProcessorParameters arguments ProcessorParameters&lt;K,V,?,?&gt;  processorParameters"
+ , "c3" : "QC-JAV000006[00170] For method withProcessorParameters arguments ProcessorParameters&lt;K ,V ,? ,? &gt;  processorParameters"
 }} 
 ,
 { "ligne" : {"" : ""

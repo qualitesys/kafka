@@ -157,7 +157,7 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method onSend arguments ProducerRecord&lt;K,V&gt;  record"
+ , "c3" : "QC-JAV000006[00057] For method onSend arguments ProducerRecord&lt;K ,V &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -213,7 +213,7 @@ var maDataBlocs = {
  , "c1" : "00106"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerInterceptors.java.html#106"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00106] For method onSendError arguments ProducerRecord&lt;K,V&gt;  record|TopicPartition  interceptTopicPartition|Exception  exception"
+ , "c3" : "QC-JAV000006[00106] For method onSendError arguments ProducerRecord&lt;K ,V &gt;  record|TopicPartition  interceptTopicPartition|Exception  exception"
 }} 
 ,
 { "ligne" : {"" : ""

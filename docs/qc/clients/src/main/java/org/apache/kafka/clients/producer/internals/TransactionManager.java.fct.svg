@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1193px" preserveAspectRatio="none" style="width:947px;height:1193px;background:#FFFFFF;" version="1.1" viewBox="0 0 947 1193" width="947px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="603" x="5" y="16.1387">An error has occured : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="349" x="5" y="30.1074">Not everybody understands the humor of programmers.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="44.0762"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="280" x="5" y="58.0449">Diagram size: 1655 lines / 49796 characters.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="72.0137"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="374" x="5" y="85.9824">PlantUML (1.2022.7) cannot parse result from dot/GraphViz.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="99.9512"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="390" x="5" y="113.9199">This version of PlantUML is 363 days old, so you should</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="398" x="5" y="127.8887">consider upgrading from https://plantuml.com/download</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="141.8574"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="492" x="5" y="155.8262">Please go to https://plantuml.com/graphviz-dot to check your GraphViz version.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="169.7949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="277" x="5" y="183.7637">Java Runtime: OpenJDK Runtime Environment</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="187" x="5" y="197.7324">JVM: OpenJDK 64-Bit Server VM</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="211.7012">Default Encoding: UTF-8</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="5" y="225.6699">Language: en</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="5" y="239.6387">Country: null</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="253.6074"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="172" x="5" y="267.5762">PLANTUML_LIMIT_SIZE: 4096</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="281.5449"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="295.5137">This may be caused by :</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="9" y="309.4824">- a bug in PlantUML</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="144" x="9" y="323.4512">- a problem in GraphViz</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="337.4199"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="300" x="5" y="351.3887">You should send this diagram and this image to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="145" x="309" y="351.3887">plantuml@gmail.com</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="13" x="458" y="351.3887">or</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="5" y="365.3574">post to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="168" x="54" y="365.3574">https://plantuml.com/qa</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="117" x="226" y="365.3574">to solve this issue.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="405" x="5" y="379.3262">You can try to turn arround this issue by simplifing your diagram.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="393.2949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="458" x="5" y="407.2637">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="477" x="13" y="421.2324">java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="548" x="13" y="435.2012">java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="474" x="13" y="449.1699">java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="351" x="13" y="463.1387">java.base/java.util.Objects.checkIndex(Objects.java:372)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="314" x="13" y="477.1074">java.base/java.util.ArrayList.get(ArrayList.java:459)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="878" x="13" y="491.0762">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createWithLinks(FtileFactoryDelegatorSwitch.java:103)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="852" x="13" y="505.0449">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createSwitch(FtileFactoryDelegatorSwitch.java:79)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="519.0137">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="532.9824">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="546.9512">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="560.9199">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="574.8887">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="588.8574">net.sourceforge.plantuml.activitydiagram3.InstructionSwitch.createFtile(InstructionSwitch.java:119)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="13" y="602.8262">net.sourceforge.plantuml.activitydiagram3.InstructionList.createFtile(InstructionList.java:131)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="536" x="13" y="616.7949">net.sourceforge.plantuml.activitydiagram3.ftile.Swimlanes.drawU(Swimlanes.java:229)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="805" x="13" y="630.7637">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.getPiecewiseAffineTransform(CompressionXorYBuilder.java:51)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="655" x="13" y="644.7324">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.build(CompressionXorYBuilder.java:44)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="686" x="13" y="658.7012">net.sourceforge.plantuml.activitydiagram3.ActivityDiagram3.exportDiagramInternal(ActivityDiagram3.java:210)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="672.6699">net.sourceforge.plantuml.UmlDiagram.exportDiagramNow(UmlDiagram.java:135)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="538" x="13" y="686.6387">net.sourceforge.plantuml.AbstractPSystem.exportDiagram(AbstractPSystem.java:178)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="700.6074">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:172)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="714.5762">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="693" x="13" y="728.5449">com.qualitesys.qcrmavenplugin.commun.QcrCommunPlantUml.genererFichierSvg(QcrCommunPlantUml.java:82)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="585" x="13" y="742.5137">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lireFichier(QcrReporting01Mojo.java:927)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="556" x="13" y="756.4824">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lister(QcrReporting01Mojo.java:453)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="591" x="13" y="770.4512">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.doReport(QcrReporting01Mojo.java:2037)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="625" x="13" y="784.4199">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.executeReport(QcrReporting01Mojo.java:1739)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="582" x="13" y="798.3887">org.apache.maven.reporting.AbstractMavenReport.generate(AbstractMavenReport.java:251)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="748" x="13" y="812.3574">org.apache.maven.plugins.site.render.ReportDocumentRenderer.renderDocument(ReportDocumentRenderer.java:226)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="607" x="13" y="826.3262">org.apache.maven.doxia.siterenderer.DefaultSiteRenderer.render(DefaultSiteRenderer.java:348)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="840.2949">org.apache.maven.plugins.site.render.SiteMojo.renderLocale(SiteMojo.java:194)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="470" x="13" y="854.2637">org.apache.maven.plugins.site.render.SiteMojo.execute(SiteMojo.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="649" x="13" y="868.2324">org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="882.2012">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:370)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="531" x="13" y="896.1699">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:351)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="910.1387">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:215)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="924.1074">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:171)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="938.0762">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:163)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="651" x="13" y="952.0449">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="643" x="13" y="966.0137">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="747" x="13" y="979.9824">org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="993.9512">org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1007.9199">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:299)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1021.8887">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="412" x="13" y="1035.8574">org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="367" x="13" y="1049.8262">org.apache.maven.cli.MavenCli.execute(MavenCli.java:963)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="362" x="13" y="1063.7949">org.apache.maven.cli.MavenCli.doMain(MavenCli.java:296)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="347" x="13" y="1077.7637">org.apache.maven.cli.MavenCli.main(MavenCli.java:199)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="1091.7324">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="1105.7012">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="679" x="13" y="1119.6699">java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="373" x="13" y="1133.6387">java.base/java.lang.reflect.Method.invoke(Method.java:566)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="562" x="13" y="1147.6074">org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="499" x="13" y="1161.5762">org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="568" x="13" y="1175.5449">org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="487" x="13" y="1189.5137">org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)</text><image height="21" width="27" x="920" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAVCAYAAAC33pUlAAAAh0lEQVR4Xu2NwQ2AMAwDOwhP9t+MGUBUyiOnpk5EecFJecSOndY+ybHt5z3UI6r3jmq4ej9ElSi/hCpTfgorqQ57UrAkO+yZEoWpK9/0KVGIuvJNH8LjVcM/HR6tGv7p0GQoO8zb7qDJkuwwb7uDJncF77k7aHJX8J57CgsxHOmPiEoj/edVLiQKj7DcrvLeAAAAAElFTkSuQmCC" y="6"/><!--MD5=[dd50054000abf3bcf4a9736b1a5daea2]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1193px" preserveAspectRatio="none" style="width:950px;height:1193px;background:#FFFFFF;" version="1.1" viewBox="0 0 950 1193" width="950px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="603" x="5" y="16.1387">An error has occured : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="289" x="5" y="30.1074">N'ai-je donc tant vecu que pour cette infamie?</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="44.0762"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="280" x="5" y="58.0449">Diagram size: 1655 lines / 49539 characters.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="72.0137"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="374" x="5" y="85.9824">PlantUML (1.2022.7) cannot parse result from dot/GraphViz.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="99.9512"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="390" x="5" y="113.9199">This version of PlantUML is 364 days old, so you should</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="398" x="5" y="127.8887">consider upgrading from https://plantuml.com/download</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="141.8574"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="492" x="5" y="155.8262">Please go to https://plantuml.com/graphviz-dot to check your GraphViz version.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="169.7949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="277" x="5" y="183.7637">Java Runtime: OpenJDK Runtime Environment</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="187" x="5" y="197.7324">JVM: OpenJDK 64-Bit Server VM</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="211.7012">Default Encoding: UTF-8</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="5" y="225.6699">Language: en</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="5" y="239.6387">Country: null</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="253.6074"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="172" x="5" y="267.5762">PLANTUML_LIMIT_SIZE: 4096</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="281.5449"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="295.5137">This may be caused by :</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="9" y="309.4824">- a bug in PlantUML</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="144" x="9" y="323.4512">- a problem in GraphViz</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="337.4199"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="300" x="5" y="351.3887">You should send this diagram and this image to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="145" x="309" y="351.3887">plantuml@gmail.com</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="13" x="458" y="351.3887">or</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="5" y="365.3574">post to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="168" x="54" y="365.3574">https://plantuml.com/qa</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="117" x="226" y="365.3574">to solve this issue.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="405" x="5" y="379.3262">You can try to turn arround this issue by simplifing your diagram.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="393.2949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="458" x="5" y="407.2637">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="477" x="13" y="421.2324">java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="548" x="13" y="435.2012">java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="474" x="13" y="449.1699">java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="351" x="13" y="463.1387">java.base/java.util.Objects.checkIndex(Objects.java:372)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="314" x="13" y="477.1074">java.base/java.util.ArrayList.get(ArrayList.java:459)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="878" x="13" y="491.0762">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createWithLinks(FtileFactoryDelegatorSwitch.java:103)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="852" x="13" y="505.0449">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createSwitch(FtileFactoryDelegatorSwitch.java:79)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="519.0137">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="532.9824">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="546.9512">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="560.9199">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="574.8887">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="588.8574">net.sourceforge.plantuml.activitydiagram3.InstructionSwitch.createFtile(InstructionSwitch.java:119)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="13" y="602.8262">net.sourceforge.plantuml.activitydiagram3.InstructionList.createFtile(InstructionList.java:131)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="536" x="13" y="616.7949">net.sourceforge.plantuml.activitydiagram3.ftile.Swimlanes.drawU(Swimlanes.java:229)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="805" x="13" y="630.7637">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.getPiecewiseAffineTransform(CompressionXorYBuilder.java:51)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="655" x="13" y="644.7324">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.build(CompressionXorYBuilder.java:44)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="686" x="13" y="658.7012">net.sourceforge.plantuml.activitydiagram3.ActivityDiagram3.exportDiagramInternal(ActivityDiagram3.java:210)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="672.6699">net.sourceforge.plantuml.UmlDiagram.exportDiagramNow(UmlDiagram.java:135)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="538" x="13" y="686.6387">net.sourceforge.plantuml.AbstractPSystem.exportDiagram(AbstractPSystem.java:178)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="700.6074">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:172)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="714.5762">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="693" x="13" y="728.5449">com.qualitesys.qcrmavenplugin.commun.QcrCommunPlantUml.genererFichierSvg(QcrCommunPlantUml.java:82)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="585" x="13" y="742.5137">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lireFichier(QcrReporting01Mojo.java:927)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="556" x="13" y="756.4824">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lister(QcrReporting01Mojo.java:453)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="591" x="13" y="770.4512">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.doReport(QcrReporting01Mojo.java:2037)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="625" x="13" y="784.4199">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.executeReport(QcrReporting01Mojo.java:1739)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="582" x="13" y="798.3887">org.apache.maven.reporting.AbstractMavenReport.generate(AbstractMavenReport.java:251)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="748" x="13" y="812.3574">org.apache.maven.plugins.site.render.ReportDocumentRenderer.renderDocument(ReportDocumentRenderer.java:226)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="607" x="13" y="826.3262">org.apache.maven.doxia.siterenderer.DefaultSiteRenderer.render(DefaultSiteRenderer.java:348)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="840.2949">org.apache.maven.plugins.site.render.SiteMojo.renderLocale(SiteMojo.java:194)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="470" x="13" y="854.2637">org.apache.maven.plugins.site.render.SiteMojo.execute(SiteMojo.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="649" x="13" y="868.2324">org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="882.2012">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:370)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="531" x="13" y="896.1699">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:351)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="910.1387">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:215)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="924.1074">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:171)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="938.0762">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:163)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="651" x="13" y="952.0449">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="643" x="13" y="966.0137">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="747" x="13" y="979.9824">org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="993.9512">org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1007.9199">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:299)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1021.8887">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="412" x="13" y="1035.8574">org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="367" x="13" y="1049.8262">org.apache.maven.cli.MavenCli.execute(MavenCli.java:963)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="362" x="13" y="1063.7949">org.apache.maven.cli.MavenCli.doMain(MavenCli.java:296)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="347" x="13" y="1077.7637">org.apache.maven.cli.MavenCli.main(MavenCli.java:199)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="1091.7324">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="1105.7012">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="679" x="13" y="1119.6699">java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="373" x="13" y="1133.6387">java.base/java.lang.reflect.Method.invoke(Method.java:566)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="562" x="13" y="1147.6074">org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="499" x="13" y="1161.5762">org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="568" x="13" y="1175.5449">org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="487" x="13" y="1189.5137">org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)</text><image height="48" width="30" x="920" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAwCAYAAAAGlsrkAAABLUlEQVR4Xu2NO05DUQxEsxBK9kGbxSO9lbCGRCmIfI/tjCegWxCONI09n9NpwMf58+KI+adhsRLzT8NiJeYt3CKOO9kFN8xBJ7vghjnoZBcQjorc7xz8Hx7jhjnoZBfcMAed7IIb5qCTXejCX2/vl2/FOwer7Igu/BrDkyL6lL+FBaqIPuVvYYEqok/5W1hQaeKPnhEsqDTxR88IFlSa+KNnBAtUEX3K38ICVUSf8rewQBXRp/wtPwlz3OqxAwEOWj12IMDBSc/tWcmFedlDoww0MC97aJSBBubLHj4rddCntMBnpQ76lBb4rNRBn9ICn7uUDruUDruUDruUDruUDruUDpU66HOUDpU66HOUDpU66HOUDg91HMddt3AgeYXS4aFeYxhjv6V0SPpTw1fHifWXxZb9GQAAAABJRU5ErkJggg==" y="6"/><!--MD5=[a12c571876fecd0539e48bb30a99ef66]
 @startuml
 !pragma layout smetana
 start
 note right
-boolean isTransitionValid(State source,State target)
+booleanisTransitionValid(Statesource,Statetarget)
 end note
 switch (switch target)
 endswitch
 end
 start
 note right
-constructor Priority(int priority)
+constructor Priority(intpriority)
 end note
 :this.priority=priority;;
 end
 start
 note right
-constructor TransactionManager(final LogContext logContext,
-final String transactionalId,final int transactionTimeoutMs,
-final long retryBackoffMs,final ApiVersions apiVersions)
+constructor TransactionManager(final LogContextlogContext,
+final StringtransactionalId,final inttransactionTimeoutMs,
+final longretryBackoffMs,final ApiVersionsapiVersions)
 end note
 :this.producerIdAndEpoch=ProducerIdAndEpoch.NONE;;
 :this.transactionalId=transactionalId;;
@@ -40,20 +40,20 @@ Comparator.comparingInt(o->o.priority().priority));;
 end
 start
 note right
-TransactionalRequestResult initializeTransactions()
+TransactionalRequestResultinitializeTransactions()
 end note
 :return initializeTransactions(ProducerIdAndEpoch.NONE);;
 stop
 end
 start
 note right
-TransactionalRequestResult initializeTransactions(ProducerIdAndEpoch producerIdAndEpoch)
+TransactionalRequestResultinitializeTransactions(ProducerIdAndEpochproducerIdAndEpoch)
 end note
 :maybeFailWithError();;
-:boolean isEpochBump=producerIdAndEpoch!=ProducerIdAndEpoch.NONE;;
+:booleanisEpochBump=producerIdAndEpoch!=ProducerIdAndEpoch.NONE;;
 :return handleCachedTransactionRequestResult(()->{if (!isEpochBump){transitionTo(State.INITIALIZING);
 :log.info("Invoking InitProducerId for the first time in order to acquire a producer ID");}else {log.info("Invoking InitProducerId with current producer ID and epoch {} in order to bump the epoch",
-producerIdAndEpoch);}InitProducerIdRequestData requestData=new InitProducerIdRequestData().setTransactionalId(transactionalId).setTransactionTimeoutMs(transactionTimeoutMs).setProducerId(producerIdAndEpoch.producerId).setProducerEpoch(producerIdAndEpoch.epoch);InitProducerIdHandler handler=new InitProducerIdHandler(new InitProducerIdRequest.Builder(requestData),isEpochBump);enqueueRequest(handler);return handler.result;},State.INITIALIZING,"initTransactions");;
+producerIdAndEpoch);}InitProducerIdRequestDatarequestData=new InitProducerIdRequestData().setTransactionalId(transactionalId).setTransactionTimeoutMs(transactionTimeoutMs).setProducerId(producerIdAndEpoch.producerId).setProducerEpoch(producerIdAndEpoch.epoch);InitProducerIdHandlerhandler=new InitProducerIdHandler(new InitProducerIdRequest.Builder(requestData),isEpochBump);enqueueRequest(handler);return handler.result;},State.INITIALIZING,"initTransactions");;
 stop
 end
 start
@@ -67,7 +67,7 @@ end note
 end
 start
 note right
-TransactionalRequestResult beginCommit()
+TransactionalRequestResultbeginCommit()
 end note
 :return handleCachedTransactionRequestResult(()->{maybeFailWithError();transitionTo(State.COMMITTING_TRANSACTION);return beginCompletingTransaction(TransactionResult.COMMIT);},
 State.COMMITTING_TRANSACTION,"commitTransaction");;
@@ -75,7 +75,7 @@ stop
 end
 start
 note right
-TransactionalRequestResult beginAbort()
+TransactionalRequestResultbeginAbort()
 end note
 :return handleCachedTransactionRequestResult(()->{if (currentState!=State.ABORTABLE_ERROR)maybeFailWithError();
 :transitionTo(State.ABORTING_TRANSACTION);newPartitionsInTransaction.clear();return beginCompletingTransaction(TransactionResult.ABORT);},
@@ -84,15 +84,15 @@ stop
 end
 start
 note right
-TransactionalRequestResult beginCompletingTransaction(TransactionResult transactionResult)
+TransactionalRequestResultbeginCompletingTransaction(TransactionResulttransactionResult)
 end note
 if (!newPartitionsInTransaction.isEmpty()) then (yes) 
 :enqueueRequest(addPartitionsToTransactionHandler());;
 endif 
-if (!(lastError instanceof InvalidPidMappingException )) then (yes) 
-:EndTxnRequest.Builder builder=new EndTxnRequest.Builder(new EndTxnRequestData()
+if (!(lastError instanceof InvalidPidMappingException)) then (yes) 
+:EndTxnRequest.Builderbuilder=new EndTxnRequest.Builder(new EndTxnRequestData()
 .setTransactionalId(transactionalId).setProducerId(producerIdAndEpoch.producerId).setProducerEpoch(producerIdAndEpoch.epoch).setCommitted(transactionResult.id));;
-:EndTxnHandler handler=new EndTxnHandler(builder);;
+:EndTxnHandlerhandler=new EndTxnHandler(builder);;
 :enqueueRequest(handler);;
 if (!epochBumpRequired) then (yes) 
 :return handler.result;;
@@ -104,8 +104,8 @@ stop
 end
 start
 note right
-TransactionalRequestResult sendOffsetsToTransaction(final Map<TopicPartition,
-OffsetAndMetadata> offsets,final ConsumerGroupMetadata groupMetadata)
+TransactionalRequestResultsendOffsetsToTransaction(final Map<TopicPartition,
+OffsetAndMetadata>offsets,final ConsumerGroupMetadatagroupMetadata)
 end note
 :ensureTransactional();;
 :throwIfPendingState("sendOffsetsToTransaction");;
@@ -117,9 +117,9 @@ stop
 endif 
 :log.debug("Begin adding offsets {} for consumer group {} to transaction",
 offsets,groupMetadata);;
-:AddOffsetsToTxnRequest.Builder builder=new AddOffsetsToTxnRequest.Builder(new AddOffsetsToTxnRequestData()
+:AddOffsetsToTxnRequest.Builderbuilder=new AddOffsetsToTxnRequest.Builder(new AddOffsetsToTxnRequestData()
 .setTransactionalId(transactionalId).setProducerId(producerIdAndEpoch.producerId).setProducerEpoch(producerIdAndEpoch.epoch).setGroupId(groupMetadata.groupId()));;
-:AddOffsetsToTxnHandler handler=new AddOffsetsToTxnHandler(builder,
+:AddOffsetsToTxnHandlerhandler=new AddOffsetsToTxnHandler(builder,
 offsets,groupMetadata);;
 :enqueueRequest(handler);;
 :return handler.result;;
@@ -127,7 +127,7 @@ stop
 end
 start
 note right
-void maybeAddPartition(TopicPartition topicPartition)
+void maybeAddPartition(TopicPartitiontopicPartition)
 end note
 :maybeFailWithError();;
 :throwIfPendingState("send");;
@@ -154,14 +154,14 @@ endif
 end
 start
 note right
-RuntimeException lastError()
+RuntimeExceptionlastError()
 end note
 :return lastError;;
 stop
 end
 start
 note right
-boolean isSendToPartitionAllowed(TopicPartition tp)
+booleanisSendToPartitionAllowed(TopicPartitiontp)
 end note
 if (hasFatalError()) then (yes) 
 :return false;;
@@ -172,56 +172,56 @@ stop
 end
 start
 note right
-String transactionalId()
+StringtransactionalId()
 end note
 :return transactionalId;;
 stop
 end
 start
 note right
-boolean hasProducerId()
+booleanhasProducerId()
 end note
 :return producerIdAndEpoch.isValid();;
 stop
 end
 start
 note right
-boolean isTransactional()
+booleanisTransactional()
 end note
 :return transactionalId!=null ;;
 stop
 end
 start
 note right
-boolean hasPartitionsToAdd()
+booleanhasPartitionsToAdd()
 end note
 :return !newPartitionsInTransaction.isEmpty()||!pendingPartitionsInTransaction.isEmpty();;
 stop
 end
 start
 note right
-boolean isCompleting()
+booleanisCompleting()
 end note
 :return currentState==State.COMMITTING_TRANSACTION||currentState==State.ABORTING_TRANSACTION;;
 stop
 end
 start
 note right
-boolean hasError()
+booleanhasError()
 end note
 :return currentState==State.ABORTABLE_ERROR||currentState==State.FATAL_ERROR;;
 stop
 end
 start
 note right
-boolean isAborting()
+booleanisAborting()
 end note
 :return currentState==State.ABORTING_TRANSACTION;;
 stop
 end
 start
 note right
-void transitionToAbortableError(RuntimeException exception)
+void transitionToAbortableError(RuntimeExceptionexception)
 end note
 if (currentState==State.ABORTING_TRANSACTION) then (yes) 
 :log.debug("Skipping transition to abortable error state since the transaction is already being "+
@@ -235,7 +235,7 @@ exception.toString());;
 end
 start
 note right
-void transitionToFatalError(RuntimeException exception)
+void transitionToFatalError(RuntimeExceptionexception)
 end note
 :log.info("Transiting to fatal error state due to {}",
 exception.toString());;
@@ -246,28 +246,28 @@ endif
 end
 start
 note right
-boolean isPartitionAdded(TopicPartition partition)
+booleanisPartitionAdded(TopicPartitionpartition)
 end note
 :return partitionsInTransaction.contains(partition);;
 stop
 end
 start
 note right
-boolean isPartitionPendingAdd(TopicPartition partition)
+booleanisPartitionPendingAdd(TopicPartitionpartition)
 end note
 :return newPartitionsInTransaction.contains(partition)||pendingPartitionsInTransaction.contains(partition);;
 stop
 end
 start
 note right
-ProducerIdAndEpoch producerIdAndEpoch()
+ProducerIdAndEpochproducerIdAndEpoch()
 end note
 :return producerIdAndEpoch;;
 stop
 end
 start
 note right
-void maybeUpdateProducerIdAndEpoch(TopicPartition topicPartition)
+void maybeUpdateProducerIdAndEpoch(TopicPartitiontopicPartition)
 end note
 if (hasStaleProducerIdAndEpoch(topicPartition)&&!hasInflightBatches(topicPartition)) then (yes) 
 :txnPartitionMap.startSequencesAtBeginning(topicPartition,
@@ -279,7 +279,7 @@ endif
 end
 start
 note right
-void setProducerIdAndEpoch(ProducerIdAndEpoch producerIdAndEpoch)
+void setProducerIdAndEpoch(ProducerIdAndEpochproducerIdAndEpoch)
 end note
 :log.info("ProducerId set to {} with epoch {}",
 producerIdAndEpoch.producerId,producerIdAndEpoch.epoch);;
@@ -301,7 +301,7 @@ this.producerIdAndEpoch);;
 end
 start
 note right
-void resetSequenceForPartition(TopicPartition topicPartition)
+void resetSequenceForPartition(TopicPartitiontopicPartition)
 end note
 :txnPartitionMap.topicPartitions.remove(topicPartition);;
 :this.partitionsWithUnresolvedSequences.remove(topicPartition);;
@@ -315,7 +315,7 @@ end note
 end
 start
 note right
-void requestEpochBumpForPartition(TopicPartition tp)
+void requestEpochBumpForPartition(TopicPartitiontp)
 end note
 :epochBumpRequired=true;;
 :this.partitionsToRewriteSequences.add(tp);;
@@ -327,7 +327,7 @@ end note
 if (this.producerIdAndEpoch.epoch==Short.MAX_VALUE) then (yes) 
 :resetIdempotentProducerId();;
 else (no)
-:setProducerIdAndEpoch(new ProducerIdAndEpoch(this.producerIdAndEpoch.producerId,(short )(this.producerIdAndEpoch.epoch+
+:setProducerIdAndEpoch(new ProducerIdAndEpoch(this.producerIdAndEpoch.producerId,(short)(this.producerIdAndEpoch.epoch+
 1)));;
 :log.debug("Incremented producer epoch, current producer ID and epoch are now {}",
 this.producerIdAndEpoch);;
@@ -348,9 +348,9 @@ if (epochBumpRequired) then (yes)
 endif 
 if (currentState!=State.INITIALIZING&&!hasProducerId()) then (yes) 
 :transitionTo(State.INITIALIZING);;
-:InitProducerIdRequestData requestData=new InitProducerIdRequestData()
+:InitProducerIdRequestDatarequestData=new InitProducerIdRequestData()
 .setTransactionalId(null ).setTransactionTimeoutMs(Integer.MAX_VALUE);;
-:InitProducerIdHandler handler=new InitProducerIdHandler(new InitProducerIdRequest.Builder(requestData),
+:InitProducerIdHandlerhandler=new InitProducerIdHandler(new InitProducerIdRequest.Builder(requestData),
 false);;
 :enqueueRequest(handler);;
 endif 
@@ -358,7 +358,7 @@ endif
 end
 start
 note right
-Integer sequenceNumber(TopicPartition topicPartition)
+IntegersequenceNumber(TopicPartitiontopicPartition)
 end note
 :return txnPartitionMap.getOrCreate(topicPartition)
 .nextSequence;;
@@ -366,7 +366,7 @@ stop
 end
 start
 note right
-ProducerIdAndEpoch producerIdAndEpoch(TopicPartition topicPartition)
+ProducerIdAndEpochproducerIdAndEpoch(TopicPartitiontopicPartition)
 end note
 :return txnPartitionMap.getOrCreate(topicPartition)
 .producerIdAndEpoch;;
@@ -374,17 +374,17 @@ stop
 end
 start
 note right
-void incrementSequenceNumber(TopicPartition topicPartition,
-int increment)
+void incrementSequenceNumber(TopicPartitiontopicPartition,
+intincrement)
 end note
-:Integer currentSequence=sequenceNumber(topicPartition);;
+:IntegercurrentSequence=sequenceNumber(topicPartition);;
 :currentSequence=DefaultRecordBatch.incrementSequence(currentSequence,
 increment);;
 :txnPartitionMap.get(topicPartition).nextSequence=currentSequence;;
 end
 start
 note right
-void addInFlightBatch(ProducerBatch batch)
+void addInFlightBatch(ProducerBatchbatch)
 end note
 if (!batch.hasSequence()) then (yes) 
 :throw new IllegalStateException("Can't track batch for partition "+
@@ -396,13 +396,13 @@ endif
 end
 start
 note right
-int firstInFlightSequence(TopicPartition topicPartition)
+intfirstInFlightSequence(TopicPartitiontopicPartition)
 end note
 if (!hasInflightBatches(topicPartition)) then (yes) 
 :return RecordBatch.NO_SEQUENCE;;
 stop
 endif 
-:SortedSet<ProducerBatch> inflightBatches=txnPartitionMap.get(topicPartition)
+:SortedSet<ProducerBatch>inflightBatches=txnPartitionMap.get(topicPartition)
 .inflightBatchesBySequence;;
 if (inflightBatches.isEmpty()) then (yes) 
 :return RecordBatch.NO_SEQUENCE;;
@@ -414,16 +414,16 @@ endif
 end
 start
 note right
-ProducerBatch nextBatchBySequence(TopicPartition topicPartition)
+ProducerBatchnextBatchBySequence(TopicPartitiontopicPartition)
 end note
-:SortedSet<ProducerBatch> queue=txnPartitionMap.get(topicPartition)
+:SortedSet<ProducerBatch>queue=txnPartitionMap.get(topicPartition)
 .inflightBatchesBySequence;;
 :return queue.isEmpty()? null :queue.first();;
 stop
 end
 start
 note right
-void removeInFlightBatch(ProducerBatch batch)
+void removeInFlightBatch(ProducerBatchbatch)
 end note
 if (hasInflightBatches(batch.topicPartition)) then (yes) 
 :txnPartitionMap.get(batch.topicPartition)
@@ -432,10 +432,10 @@ endif
 end
 start
 note right
-int maybeUpdateLastAckedSequence(TopicPartition topicPartition,
-int sequence)
+intmaybeUpdateLastAckedSequence(TopicPartitiontopicPartition,
+intsequence)
 end note
-:int lastAckedSequence=lastAckedSequence(topicPartition)
+:intlastAckedSequence=lastAckedSequence(topicPartition)
 .orElse(NO_LAST_ACKED_SEQUENCE_NUMBER);;
 if (sequence>lastAckedSequence) then (yes) 
 :txnPartitionMap.get(topicPartition).lastAckedSequence=sequence;;
@@ -447,29 +447,29 @@ stop
 end
 start
 note right
-OptionalInt lastAckedSequence(TopicPartition topicPartition)
+OptionalIntlastAckedSequence(TopicPartitiontopicPartition)
 end note
 :return txnPartitionMap.lastAckedSequence(topicPartition);;
 stop
 end
 start
 note right
-OptionalLong lastAckedOffset(TopicPartition topicPartition)
+OptionalLonglastAckedOffset(TopicPartitiontopicPartition)
 end note
 :return txnPartitionMap.lastAckedOffset(topicPartition);;
 stop
 end
 start
 note right
-void updateLastAckedOffset(ProduceResponse.PartitionResponse response,
-ProducerBatch batch)
+void updateLastAckedOffset(ProduceResponse.PartitionResponseresponse,
+ProducerBatchbatch)
 end note
 if (response.baseOffset==ProduceResponse.INVALID_OFFSET) then (yes) 
 :return ;;
 stop
 endif 
-:long lastOffset=response.baseOffset+batch.recordCount-1;;
-:OptionalLong lastAckedOffset=lastAckedOffset(batch.topicPartition);;
+:longlastOffset=response.baseOffset+batch.recordCount-1;;
+:OptionalLonglastAckedOffset=lastAckedOffset(batch.topicPartition);;
 if (!lastAckedOffset.isPresent()&&!isTransactional()) then (yes) 
 :txnPartitionMap.getOrCreate(batch.topicPartition);;
 endif 
@@ -483,10 +483,10 @@ endif
 end
 start
 note right
-void handleCompletedBatch(ProducerBatch batch,
-ProduceResponse.PartitionResponse response)
+void handleCompletedBatch(ProducerBatchbatch,
+ProduceResponse.PartitionResponseresponse)
 end note
-:int lastAckedSequence=maybeUpdateLastAckedSequence(batch.topicPartition,
+:intlastAckedSequence=maybeUpdateLastAckedSequence(batch.topicPartition,
 batch.lastSequence());;
 :log.debug("ProducerId: {}; Set last ack'd sequence number for topic-partition {} to {}",
 batch.producerId(),batch.topicPartition,lastAckedSequence);;
@@ -495,9 +495,9 @@ batch.producerId(),batch.topicPartition,lastAckedSequence);;
 end
 start
 note right
-void maybeTransitionToErrorState(RuntimeException exception)
+void maybeTransitionToErrorState(RuntimeExceptionexception)
 end note
-if (exception instanceof ClusterAuthorizationException ||exception instanceof TransactionalIdAuthorizationException ||exception instanceof ProducerFencedException ||exception instanceof UnsupportedVersionException ) then (yes) 
+if (exception instanceof ClusterAuthorizationException||exception instanceof TransactionalIdAuthorizationException||exception instanceof ProducerFencedException||exception instanceof UnsupportedVersionException) then (yes) 
 :transitionToFatalError(exception);;
 else if (isTransactional()) then (yes) 
 if (canBumpEpoch()&&!isCompleting()) then (yes) 
@@ -508,8 +508,8 @@ endif
 end
 start
 note right
-void handleFailedBatch(ProducerBatch batch,
-RuntimeException exception,boolean adjustSequenceNumbers)
+void handleFailedBatch(ProducerBatchbatch,
+RuntimeExceptionexception,booleanadjustSequenceNumbers)
 end note
 :maybeTransitionToErrorState(exception);;
 :removeInFlightBatch(batch);;
@@ -521,13 +521,13 @@ batch.baseSequence(),exception);;
 :return ;;
 stop
 endif 
-if (exception instanceof OutOfOrderSequenceException &&!isTransactional()) then (yes) 
+if (exception instanceof OutOfOrderSequenceException&&!isTransactional()) then (yes) 
 :log.error("The broker returned {} for topic-partition {} with producerId {},
  epoch {}, and sequence number {}",exception,
 batch.topicPartition,batch.producerId(),batch.producerEpoch(),
 batch.baseSequence());;
 :requestEpochBumpForPartition(batch.topicPartition);;
-else if (exception instanceof UnknownProducerIdException ) then (yes) 
+else if (exception instanceof UnknownProducerIdException) then (yes) 
 :resetSequenceForPartition(batch.topicPartition);;
 else (no)
 if (adjustSequenceNumbers) then (yes) 
@@ -541,7 +541,7 @@ endif
 end
 start
 note right
-void adjustSequencesDueToFailedBatch(ProducerBatch batch)
+void adjustSequencesDueToFailedBatch(ProducerBatchbatch)
 end note
 if (!txnPartitionMap.contains(batch.topicPartition)) then (yes) 
 :return ;;
@@ -549,7 +549,7 @@ stop
 endif 
 :log.debug("producerId: {}, send to partition {} failed fatally. Reducing future sequence numbers by {}",
 batch.producerId(),batch.topicPartition,batch.recordCount);;
-:int currentSequence=sequenceNumber(batch.topicPartition);;
+:intcurrentSequence=sequenceNumber(batch.topicPartition);;
 :currentSequence-=batch.recordCount;;
 if (currentSequence<0) then (yes) 
 :throw new IllegalStateException("Sequence number for partition "+
@@ -559,7 +559,7 @@ stop
 endif 
 :setNextSequence(batch.topicPartition,currentSequence);;
 :txnPartitionMap.get(batch.topicPartition).resetSequenceNumbers(inFlightBatch->{if (inFlightBatch.baseSequence()<batch.baseSequence())return ;
-:int newSequence=inFlightBatch.baseSequence()-batch.recordCount;if (newSequence<0)throw new IllegalStateException("Sequence number for batch with sequence "+
+:intnewSequence=inFlightBatch.baseSequence()-batch.recordCount;if (newSequence<0)throw new IllegalStateException("Sequence number for batch with sequence "+
 inFlightBatch.baseSequence()+" for partition "+
 batch.topicPartition+" is going to become negative: "+
 newSequence);inFlightBatch.resetProducerState(new ProducerIdAndEpoch(inFlightBatch.producerId(),
@@ -568,7 +568,7 @@ inFlightBatch.isTransactional());});;
 end
 start
 note right
-boolean hasInflightBatches(TopicPartition topicPartition)
+booleanhasInflightBatches(TopicPartitiontopicPartition)
 end note
 :return !txnPartitionMap.getOrCreate(topicPartition)
 .inflightBatchesBySequence.isEmpty();;
@@ -576,7 +576,7 @@ stop
 end
 start
 note right
-boolean hasStaleProducerIdAndEpoch(TopicPartition topicPartition)
+booleanhasStaleProducerIdAndEpoch(TopicPartitiontopicPartition)
 end note
 :return !producerIdAndEpoch.equals(txnPartitionMap.getOrCreate(topicPartition)
 .producerIdAndEpoch);;
@@ -584,23 +584,23 @@ stop
 end
 start
 note right
-boolean hasUnresolvedSequences()
+booleanhasUnresolvedSequences()
 end note
 :return !partitionsWithUnresolvedSequences.isEmpty();;
 stop
 end
 start
 note right
-boolean hasUnresolvedSequence(TopicPartition topicPartition)
+booleanhasUnresolvedSequence(TopicPartitiontopicPartition)
 end note
 :return partitionsWithUnresolvedSequences.containsKey(topicPartition);;
 stop
 end
 start
 note right
-void markSequenceUnresolved(ProducerBatch batch)
+void markSequenceUnresolved(ProducerBatchbatch)
 end note
-:int nextSequence=batch.lastSequence()+1;;
+:intnextSequence=batch.lastSequence()+1;;
 :partitionsWithUnresolvedSequences.compute(batch.topicPartition,
 (k,v)->v==null ? nextSequence:Math.max(v,
 nextSequence));;
@@ -611,21 +611,21 @@ start
 note right
 void maybeResolveSequences()
 end note
-:TopicPartition topicPartition=iter.next();;
+:TopicPartitiontopicPartition=iter.next();;
 if (!hasInflightBatches(topicPartition)) then (yes) 
 if (isNextSequence(topicPartition,sequenceNumber(topicPartition))) then (yes) 
 :iter.remove();;
 else (no)
 if (isTransactional()) then (yes) 
-:String unackedMessagesErr="The client hasn't received acknowledgment for some previously "+
+:StringunackedMessagesErr="The client hasn't received acknowledgment for some previously "+
 "sent messages and can no longer retry them. ";;
 if (canBumpEpoch()) then (yes) 
 :epochBumpRequired=true;;
-:KafkaException exception=new KafkaException(unackedMessagesErr+
+:KafkaExceptionexception=new KafkaException(unackedMessagesErr+
 "It is safe to abort "+"the transaction and continue.");;
 :transitionToAbortableError(exception);;
 else (no)
-:KafkaException exception=new KafkaException(unackedMessagesErr+
+:KafkaExceptionexception=new KafkaException(unackedMessagesErr+
 "It isn't safe to continue.");;
 :transitionToFatalError(exception);;
 endif 
@@ -642,8 +642,8 @@ endif
 end
 start
 note right
-boolean isNextSequence(TopicPartition topicPartition,
-int sequence)
+booleanisNextSequence(TopicPartitiontopicPartition,
+intsequence)
 end note
 :return sequence-lastAckedSequence(topicPartition)
 .orElse(NO_LAST_ACKED_SEQUENCE_NUMBER)==1;;
@@ -651,27 +651,27 @@ stop
 end
 start
 note right
-void setNextSequence(TopicPartition topicPartition,
-int sequence)
+void setNextSequence(TopicPartitiontopicPartition,
+intsequence)
 end note
 :txnPartitionMap.get(topicPartition).nextSequence=sequence;;
 end
 start
 note right
-boolean isNextSequenceForUnresolvedPartition(TopicPartition topicPartition,
-int sequence)
+booleanisNextSequenceForUnresolvedPartition(TopicPartitiontopicPartition,
+intsequence)
 end note
 :return this.hasUnresolvedSequence(topicPartition)&&sequence==this.partitionsWithUnresolvedSequences.get(topicPartition);;
 stop
 end
 start
 note right
-TxnRequestHandler nextRequest(boolean hasIncompleteBatches)
+TxnRequestHandlernextRequest(booleanhasIncompleteBatches)
 end note
 if (!newPartitionsInTransaction.isEmpty()) then (yes) 
 :enqueueRequest(addPartitionsToTransactionHandler());;
 endif 
-:TxnRequestHandler nextRequestHandler=pendingRequests.peek();;
+:TxnRequestHandlernextRequestHandler=pendingRequests.peek();;
 if (nextRequestHandler==null ) then (yes) 
 :return null ;;
 stop
@@ -705,14 +705,14 @@ stop
 end
 start
 note right
-void retry(TxnRequestHandler request)
+void retry(TxnRequestHandlerrequest)
 end note
 :request.setRetry();;
 :enqueueRequest(request);;
 end
 start
 note right
-void authenticationFailed(AuthenticationException e)
+void authenticationFailed(AuthenticationExceptione)
 end note
 :request.fatalError(e);;
 end
@@ -720,7 +720,7 @@ start
 note right
 void close()
 end note
-:KafkaException shutdownException=new KafkaException("The producer closed forcefully");;
+:KafkaExceptionshutdownException=new KafkaException("The producer closed forcefully");;
 :pendingRequests.forEach(handler->handler.fatalError(shutdownException));;
 if (pendingTransition!=null ) then (yes) 
 :pendingTransition.result.fail(shutdownException);;
@@ -728,21 +728,21 @@ endif
 end
 start
 note right
-Node coordinator(FindCoordinatorRequest.CoordinatorType type)
+Nodecoordinator(FindCoordinatorRequest.CoordinatorTypetype)
 end note
 switch (switch type)
 endswitch
 end
 start
 note right
-void lookupCoordinator(TxnRequestHandler request)
+void lookupCoordinator(TxnRequestHandlerrequest)
 end note
 :lookupCoordinator(request.coordinatorType(),
 request.coordinatorKey());;
 end
 start
 note right
-void setInFlightCorrelationId(int correlationId)
+void setInFlightCorrelationId(intcorrelationId)
 end note
 :inFlightRequestCorrelationId=correlationId;;
 end
@@ -754,59 +754,59 @@ end note
 end
 start
 note right
-boolean hasInFlightRequest()
+booleanhasInFlightRequest()
 end note
 :return inFlightRequestCorrelationId!=NO_INFLIGHT_REQUEST_CORRELATION_ID;;
 stop
 end
 start
 note right
-boolean hasFatalError()
+booleanhasFatalError()
 end note
 :return currentState==State.FATAL_ERROR;;
 stop
 end
 start
 note right
-boolean hasAbortableError()
+booleanhasAbortableError()
 end note
 :return currentState==State.ABORTABLE_ERROR;;
 stop
 end
 start
 note right
-boolean transactionContainsPartition(TopicPartition topicPartition)
+booleantransactionContainsPartition(TopicPartitiontopicPartition)
 end note
 :return partitionsInTransaction.contains(topicPartition);;
 stop
 end
 start
 note right
-boolean hasPendingOffsetCommits()
+booleanhasPendingOffsetCommits()
 end note
 :return !pendingTxnOffsetCommits.isEmpty();;
 stop
 end
 start
 note right
-boolean hasPendingRequests()
+booleanhasPendingRequests()
 end note
 :return !pendingRequests.isEmpty();;
 stop
 end
 start
 note right
-boolean hasOngoingTransaction()
+booleanhasOngoingTransaction()
 end note
 :return currentState==State.IN_TRANSACTION||isCompleting()||hasAbortableError();;
 stop
 end
 start
 note right
-boolean canRetry(ProduceResponse.PartitionResponse response,
-ProducerBatch batch)
+booleancanRetry(ProduceResponse.PartitionResponseresponse,
+ProducerBatchbatch)
 end note
-:Errors error=response.error;;
+:Errorserror=response.error;;
 if (error==Errors.UNKNOWN_PRODUCER_ID) then (yes) 
 if (response.logStartOffset==-1) then (yes) 
 :return true;;
@@ -842,12 +842,12 @@ endif
 stop
 endif 
 endif 
-:return error.exception() instanceof RetriableException ;;
+:return error.exception() instanceof RetriableException;;
 stop
 end
 start
 note right
-boolean isReady()
+booleanisReady()
 end note
 :return isTransactional()&&currentState==State.READY;;
 stop
@@ -856,22 +856,22 @@ start
 note right
 void handleCoordinatorReady()
 end note
-:NodeApiVersions nodeApiVersions=transactionCoordinator!=null ? apiVersions.get(transactionCoordinator.idString()):null ;;
-:ApiVersion initProducerIdVersion=nodeApiVersions!=null ? nodeApiVersions.apiVersion(ApiKeys.INIT_PRODUCER_ID):null ;;
+:NodeApiVersionsnodeApiVersions=transactionCoordinator!=null ? apiVersions.get(transactionCoordinator.idString()):null ;;
+:ApiVersioninitProducerIdVersion=nodeApiVersions!=null ? nodeApiVersions.apiVersion(ApiKeys.INIT_PRODUCER_ID):null ;;
 :this.coordinatorSupportsBumpingEpoch=initProducerIdVersion!=null &&initProducerIdVersion.maxVersion()>=3;;
 end
 start
 note right
-void transitionTo(State target)
+void transitionTo(Statetarget)
 end note
 :transitionTo(target,null );;
 end
 start
 note right
-void transitionTo(State target,RuntimeException error)
+void transitionTo(Statetarget,RuntimeExceptionerror)
 end note
 if (!currentState.isTransitionValid(currentState,target)) then (yes) 
-:String idString=transactionalId==null ? String.valueOf(""):String.valueOf("TransactionalId ")+
+:StringidString=transactionalId==null ? String.valueOf(""):String.valueOf("TransactionalId ")+
 transactionalId+": ";;
 :throw new IllegalStateException(idString+
 "Invalid transition attempted from state "+
@@ -911,12 +911,12 @@ note right
 void maybeFailWithError()
 end note
 if (hasError()) then (yes) 
-if (lastError instanceof ProducerFencedException ) then (yes) 
+if (lastError instanceof ProducerFencedException) then (yes) 
 :throw new ProducerFencedException("Producer with transactionalId '"+
 transactionalId+"' and "+producerIdAndEpoch+
 " has been fenced by another producer "+"with the same transactionalId");;
 stop
-else if (lastError instanceof InvalidProducerEpochException ) then (yes) 
+else if (lastError instanceof InvalidProducerEpochException) then (yes) 
 :throw new InvalidProducerEpochException("Producer with transactionalId '"+
 transactionalId+"' and "+producerIdAndEpoch+
 " attempted to produce with an old epoch");;
@@ -930,10 +930,10 @@ endif
 end
 start
 note right
-boolean maybeTerminateRequestWithError(TxnRequestHandler requestHandler)
+booleanmaybeTerminateRequestWithError(TxnRequestHandlerrequestHandler)
 end note
 if (hasError()) then (yes) 
-if (hasAbortableError()&&requestHandler instanceof FindCoordinatorHandler ) then (yes) 
+if (hasAbortableError()&&requestHandler instanceof FindCoordinatorHandler) then (yes) 
 :return false;;
 stop
 endif 
@@ -946,7 +946,7 @@ stop
 end
 start
 note right
-void enqueueRequest(TxnRequestHandler requestHandler)
+void enqueueRequest(TxnRequestHandlerrequestHandler)
 end note
 :log.debug("Enqueuing transactional request {}",
 requestHandler.requestBuilder());;
@@ -954,23 +954,23 @@ requestHandler.requestBuilder());;
 end
 start
 note right
-void lookupCoordinator(FindCoordinatorRequest.CoordinatorType type,
-String coordinatorKey)
+void lookupCoordinator(FindCoordinatorRequest.CoordinatorTypetype,
+StringcoordinatorKey)
 end note
 switch (switch type)
 endswitch
-:FindCoordinatorRequestData data=new FindCoordinatorRequestData()
+:FindCoordinatorRequestDatadata=new FindCoordinatorRequestData()
 .setKeyType(type.id()).setKey(coordinatorKey);;
-:FindCoordinatorRequest.Builder builder=new FindCoordinatorRequest.Builder(data);;
+:FindCoordinatorRequest.Builderbuilder=new FindCoordinatorRequest.Builder(data);;
 :enqueueRequest(new FindCoordinatorHandler(builder));;
 end
 start
 note right
-TxnRequestHandler addPartitionsToTransactionHandler()
+TxnRequestHandleraddPartitionsToTransactionHandler()
 end note
 :pendingPartitionsInTransaction.addAll(newPartitionsInTransaction);;
 :newPartitionsInTransaction.clear();;
-:AddPartitionsToTxnRequest.Builder builder=new AddPartitionsToTxnRequest.Builder(transactionalId,
+:AddPartitionsToTxnRequest.Builderbuilder=new AddPartitionsToTxnRequest.Builder(transactionalId,
 producerIdAndEpoch.producerId,producerIdAndEpoch.epoch,
 new ArrayList<>(pendingPartitionsInTransaction));;
 :return new AddPartitionsToTxnHandler(builder);;
@@ -978,16 +978,16 @@ stop
 end
 start
 note right
-TxnOffsetCommitHandler txnOffsetCommitHandler(TransactionalRequestResult result,
-Map<TopicPartition,OffsetAndMetadata> offsets,
-ConsumerGroupMetadata groupMetadata)
+TxnOffsetCommitHandlertxnOffsetCommitHandler(TransactionalRequestResultresult,
+Map<TopicPartition,OffsetAndMetadata>offsets,
+ConsumerGroupMetadatagroupMetadata)
 end note
-:OffsetAndMetadata offsetAndMetadata=entry.getValue();;
-:CommittedOffset committedOffset=new CommittedOffset(offsetAndMetadata.offset(),
+:OffsetAndMetadataoffsetAndMetadata=entry.getValue();;
+:CommittedOffsetcommittedOffset=new CommittedOffset(offsetAndMetadata.offset(),
 offsetAndMetadata.metadata(),offsetAndMetadata.leaderEpoch());;
 :pendingTxnOffsetCommits.put(entry.getKey(),
 committedOffset);;
-:final TxnOffsetCommitRequest.Builder builder=new TxnOffsetCommitRequest.Builder(transactionalId,
+:final TxnOffsetCommitRequest.Builderbuilder=new TxnOffsetCommitRequest.Builder(transactionalId,
 groupMetadata.groupId(),producerIdAndEpoch.producerId,
 producerIdAndEpoch.epoch,pendingTxnOffsetCommits,
 groupMetadata.memberId(),groupMetadata.generationId(),
@@ -998,7 +998,7 @@ stop
 end
 start
 note right
-void throwIfPendingState(String operation)
+void throwIfPendingState(Stringoperation)
 end note
 if (pendingTransition!=null ) then (yes) 
 if (pendingTransition.result.isAcked()) then (yes) 
@@ -1013,8 +1013,8 @@ endif
 end
 start
 note right
-TransactionalRequestResult handleCachedTransactionRequestResult(Supplier<TransactionalRequestResult> transactionalRequestResultSupplier,
-State nextState,String operation)
+TransactionalRequestResulthandleCachedTransactionRequestResult(Supplier<TransactionalRequestResult>transactionalRequestResultSupplier,
+StatenextState,Stringoperation)
 end note
 :ensureTransactional();;
 if (pendingTransition!=null ) then (yes) 
@@ -1030,7 +1030,7 @@ else (no)
 stop
 endif 
 endif 
-:TransactionalRequestResult result=transactionalRequestResultSupplier.get();;
+:TransactionalRequestResultresult=transactionalRequestResultSupplier.get();;
 :pendingTransition=new PendingStateTransition(result,
 nextState,operation);;
 :return result;;
@@ -1038,7 +1038,7 @@ stop
 end
 start
 note right
-boolean canBumpEpoch()
+booleancanBumpEpoch()
 end note
 if (!isTransactional()) then (yes) 
 :return true;;
@@ -1065,33 +1065,33 @@ endif
 end
 start
 note right
-constructor TxnRequestHandler(TransactionalRequestResult result)
+constructor TxnRequestHandler(TransactionalRequestResultresult)
 end note
 :this.result=result;;
 end
 start
 note right
-constructor TxnRequestHandler(String operation)
+constructor TxnRequestHandler(Stringoperation)
 end note
 :this(new TransactionalRequestResult(operation));;
 end
 start
 note right
-void fatalError(RuntimeException e)
+void fatalError(RuntimeExceptione)
 end note
 :result.fail(e);;
 :transitionToFatalError(e);;
 end
 start
 note right
-void abortableError(RuntimeException e)
+void abortableError(RuntimeExceptione)
 end note
 :result.fail(e);;
 :transitionToAbortableError(e);;
 end
 start
 note right
-void abortableErrorIfPossible(RuntimeException e)
+void abortableErrorIfPossible(RuntimeExceptione)
 end note
 if (canBumpEpoch()) then (yes) 
 :epochBumpRequired=true;;
@@ -1102,7 +1102,7 @@ endif
 end
 start
 note right
-void fail(RuntimeException e)
+void fail(RuntimeExceptione)
 end note
 :result.fail(e);;
 end
@@ -1115,14 +1115,14 @@ end note
 end
 start
 note right
-long retryBackoffMs()
+longretryBackoffMs()
 end note
 :return retryBackoffMs;;
 stop
 end
 start
 note right
-void onComplete(ClientResponse response)
+void onComplete(ClientResponseresponse)
 end note
 if (response.requestHeader().correlationId()!=inFlightRequestCorrelationId) then (yes) 
 :fatalError(new RuntimeException("Detected more than one in-flight transactional request."));;
@@ -1149,21 +1149,21 @@ endif
 end
 start
 note right
-boolean needsCoordinator()
+booleanneedsCoordinator()
 end note
 :return coordinatorType()!=null ;;
 stop
 end
 start
 note right
-FindCoordinatorRequest.CoordinatorType coordinatorType()
+FindCoordinatorRequest.CoordinatorTypecoordinatorType()
 end note
 :return FindCoordinatorRequest.CoordinatorType.TRANSACTION;;
 stop
 end
 start
 note right
-String coordinatorKey()
+StringcoordinatorKey()
 end note
 :return transactionalId;;
 stop
@@ -1176,27 +1176,27 @@ end note
 end
 start
 note right
-boolean isRetry()
+booleanisRetry()
 end note
 :return isRetry;;
 stop
 end
 start
 note right
-boolean isEndTxn()
+booleanisEndTxn()
 end note
 :return false;;
 stop
 end
 start
 note right
-void handleResponse(AbstractResponse responseBody)
+void handleResponse(AbstractResponseresponseBody)
 end note
 end
 start
 note right
-constructor InitProducerIdHandler(InitProducerIdRequest.Builder builder,
-boolean isEpochBump)
+constructor InitProducerIdHandler(InitProducerIdRequest.Builderbuilder,
+booleanisEpochBump)
 end note
 :super ("InitProducerId");;
 :this.builder=builder;;
@@ -1204,21 +1204,21 @@ end note
 end
 start
 note right
-InitProducerIdRequest.Builder requestBuilder()
+InitProducerIdRequest.BuilderrequestBuilder()
 end note
 :return builder;;
 stop
 end
 start
 note right
-Priority priority()
+Prioritypriority()
 end note
 :return this.isEpochBump? Priority.EPOCH_BUMP:Priority.INIT_PRODUCER_ID;;
 stop
 end
 start
 note right
-FindCoordinatorRequest.CoordinatorType coordinatorType()
+FindCoordinatorRequest.CoordinatorTypecoordinatorType()
 end note
 if (isTransactional()) then (yes) 
 :return FindCoordinatorRequest.CoordinatorType.TRANSACTION;;
@@ -1230,12 +1230,12 @@ endif
 end
 start
 note right
-void handleResponse(AbstractResponse response)
+void handleResponse(AbstractResponseresponse)
 end note
-:InitProducerIdResponse initProducerIdResponse=(InitProducerIdResponse )response;;
-:Errors error=initProducerIdResponse.error();;
+:InitProducerIdResponseinitProducerIdResponse=(InitProducerIdResponse)response;;
+:Errorserror=initProducerIdResponse.error();;
 if (error==Errors.NONE) then (yes) 
-:ProducerIdAndEpoch producerIdAndEpoch=new ProducerIdAndEpoch(initProducerIdResponse.data().producerId(),
+:ProducerIdAndEpochproducerIdAndEpoch=new ProducerIdAndEpoch(initProducerIdResponse.data().producerId(),
 initProducerIdResponse.data().producerEpoch());;
 :setProducerIdAndEpoch(producerIdAndEpoch);;
 :transitionTo(State.READY);;
@@ -1261,7 +1261,7 @@ endif
 end
 start
 note right
-constructor AddPartitionsToTxnHandler(AddPartitionsToTxnRequest.Builder builder)
+constructor AddPartitionsToTxnHandler(AddPartitionsToTxnRequest.Builderbuilder)
 end note
 :super ("AddPartitionsToTxn");;
 :this.builder=builder;;
@@ -1269,29 +1269,29 @@ end note
 end
 start
 note right
-AddPartitionsToTxnRequest.Builder requestBuilder()
+AddPartitionsToTxnRequest.BuilderrequestBuilder()
 end note
 :return builder;;
 stop
 end
 start
 note right
-Priority priority()
+Prioritypriority()
 end note
 :return Priority.ADD_PARTITIONS_OR_OFFSETS;;
 stop
 end
 start
 note right
-void handleResponse(AbstractResponse response)
+void handleResponse(AbstractResponseresponse)
 end note
-:AddPartitionsToTxnResponse addPartitionsToTxnResponse=(AddPartitionsToTxnResponse )response;;
-:Map<TopicPartition,Errors> errors=addPartitionsToTxnResponse.errors();;
-:boolean hasPartitionErrors=false;;
-:Set<String> unauthorizedTopics=new HashSet<>();;
+:AddPartitionsToTxnResponseaddPartitionsToTxnResponse=(AddPartitionsToTxnResponse)response;;
+:Map<TopicPartition,Errors>errors=addPartitionsToTxnResponse.errors();;
+:booleanhasPartitionErrors=false;;
+:Set<String>unauthorizedTopics=new HashSet<>();;
 :retryBackoffMs=TransactionManager.this.retryBackoffMs;;
-:TopicPartition topicPartition=topicPartitionErrorEntry.getKey();;
-:Errors error=topicPartitionErrorEntry.getValue();;
+:TopicPartitiontopicPartition=topicPartitionErrorEntry.getKey();;
+:Errorserror=topicPartitionErrorEntry.getValue();;
 if (error==Errors.NONE) then (yes) 
 :continue ;;
 else if (error==Errors.COORDINATOR_NOT_AVAILABLE||error==Errors.NOT_COORDINATOR) then (yes) 
@@ -1336,7 +1336,7 @@ else (no)
 topicPartition,error);;
 :hasPartitionErrors=true;;
 endif 
-:Set<TopicPartition> partitions=errors.keySet();;
+:Set<TopicPartition>partitions=errors.keySet();;
 :pendingPartitionsInTransaction.removeAll(partitions);;
 if (!unauthorizedTopics.isEmpty()) then (yes) 
 :abortableError(new TopicAuthorizationException(unauthorizedTopics));;
@@ -1353,7 +1353,7 @@ endif
 end
 start
 note right
-long retryBackoffMs()
+longretryBackoffMs()
 end note
 :return Math.min(TransactionManager.this.retryBackoffMs,
 this.retryBackoffMs);;
@@ -1369,57 +1369,57 @@ endif
 end
 start
 note right
-constructor FindCoordinatorHandler(FindCoordinatorRequest.Builder builder)
+constructor FindCoordinatorHandler(FindCoordinatorRequest.Builderbuilder)
 end note
 :super ("FindCoordinator");;
 :this.builder=builder;;
 end
 start
 note right
-FindCoordinatorRequest.Builder requestBuilder()
+FindCoordinatorRequest.BuilderrequestBuilder()
 end note
 :return builder;;
 stop
 end
 start
 note right
-Priority priority()
+Prioritypriority()
 end note
 :return Priority.FIND_COORDINATOR;;
 stop
 end
 start
 note right
-FindCoordinatorRequest.CoordinatorType coordinatorType()
+FindCoordinatorRequest.CoordinatorTypecoordinatorType()
 end note
 :return null ;;
 stop
 end
 start
 note right
-String coordinatorKey()
+StringcoordinatorKey()
 end note
 :return null ;;
 stop
 end
 start
 note right
-void handleResponse(AbstractResponse response)
+void handleResponse(AbstractResponseresponse)
 end note
-:CoordinatorType coordinatorType=CoordinatorType.forId(builder.data()
+:CoordinatorTypecoordinatorType=CoordinatorType.forId(builder.data()
 .keyType());;
-:List<Coordinator> coordinators=((FindCoordinatorResponse )response)
+:List<Coordinator>coordinators=((FindCoordinatorResponse)response)
 .coordinators();;
 if (coordinators.size()!=1) then (yes) 
 :log.error("Group coordinator lookup failed: Invalid response containing more than a single coordinator");;
 :fatalError(new IllegalStateException("Group coordinator lookup failed: Invalid response containing more than a single coordinator"));;
 endif 
-:Coordinator coordinatorData=coordinators.get(0);;
-:String key=coordinatorData.key()==null ? builder.data()
+:CoordinatorcoordinatorData=coordinators.get(0);;
+:Stringkey=coordinatorData.key()==null ? builder.data()
 .key():coordinatorData.key();;
-:Errors error=Errors.forCode(coordinatorData.errorCode());;
+:Errorserror=Errors.forCode(coordinatorData.errorCode());;
 if (error==Errors.NONE) then (yes) 
-:Node node=new Node(coordinatorData.nodeId(),
+:Nodenode=new Node(coordinatorData.nodeId(),
 coordinatorData.host(),coordinatorData.port());;
 switch (switch coordinatorType)
 endswitch
@@ -1441,7 +1441,7 @@ endif
 end
 start
 note right
-constructor EndTxnHandler(EndTxnRequest.Builder builder)
+constructor EndTxnHandler(EndTxnRequest.Builderbuilder)
 end note
 :super ("EndTxn("+builder.data.committed()+
 ")");;
@@ -1449,31 +1449,31 @@ end note
 end
 start
 note right
-EndTxnRequest.Builder requestBuilder()
+EndTxnRequest.BuilderrequestBuilder()
 end note
 :return builder;;
 stop
 end
 start
 note right
-Priority priority()
+Prioritypriority()
 end note
 :return Priority.END_TXN;;
 stop
 end
 start
 note right
-boolean isEndTxn()
+booleanisEndTxn()
 end note
 :return true;;
 stop
 end
 start
 note right
-void handleResponse(AbstractResponse response)
+void handleResponse(AbstractResponseresponse)
 end note
-:EndTxnResponse endTxnResponse=(EndTxnResponse )response;;
-:Errors error=endTxnResponse.error();;
+:EndTxnResponseendTxnResponse=(EndTxnResponse)response;;
+:Errorserror=endTxnResponse.error();;
 if (error==Errors.NONE) then (yes) 
 :completeTransaction();;
 :result.done();;
@@ -1498,9 +1498,9 @@ endif
 end
 start
 note right
-constructor AddOffsetsToTxnHandler(AddOffsetsToTxnRequest.Builder builder,
-Map<TopicPartition,OffsetAndMetadata> offsets,
-ConsumerGroupMetadata groupMetadata)
+constructor AddOffsetsToTxnHandler(AddOffsetsToTxnRequest.Builderbuilder,
+Map<TopicPartition,OffsetAndMetadata>offsets,
+ConsumerGroupMetadatagroupMetadata)
 end note
 :super ("AddOffsetsToTxn");;
 :this.builder=builder;;
@@ -1509,24 +1509,24 @@ end note
 end
 start
 note right
-AddOffsetsToTxnRequest.Builder requestBuilder()
+AddOffsetsToTxnRequest.BuilderrequestBuilder()
 end note
 :return builder;;
 stop
 end
 start
 note right
-Priority priority()
+Prioritypriority()
 end note
 :return Priority.ADD_PARTITIONS_OR_OFFSETS;;
 stop
 end
 start
 note right
-void handleResponse(AbstractResponse response)
+void handleResponse(AbstractResponseresponse)
 end note
-:AddOffsetsToTxnResponse addOffsetsToTxnResponse=(AddOffsetsToTxnResponse )response;;
-:Errors error=Errors.forCode(addOffsetsToTxnResponse.data()
+:AddOffsetsToTxnResponseaddOffsetsToTxnResponse=(AddOffsetsToTxnResponse)response;;
+:Errorserror=Errors.forCode(addOffsetsToTxnResponse.data()
 .errorCode());;
 if (error==Errors.NONE) then (yes) 
 :log.debug("Successfully added partition for consumer group {} to transaction",
@@ -1555,51 +1555,51 @@ endif
 end
 start
 note right
-constructor TxnOffsetCommitHandler(TransactionalRequestResult result,
-TxnOffsetCommitRequest.Builder builder)
+constructor TxnOffsetCommitHandler(TransactionalRequestResultresult,
+TxnOffsetCommitRequest.Builderbuilder)
 end note
 :super (result);;
 :this.builder=builder;;
 end
 start
 note right
-TxnOffsetCommitRequest.Builder requestBuilder()
+TxnOffsetCommitRequest.BuilderrequestBuilder()
 end note
 :return builder;;
 stop
 end
 start
 note right
-Priority priority()
+Prioritypriority()
 end note
 :return Priority.ADD_PARTITIONS_OR_OFFSETS;;
 stop
 end
 start
 note right
-FindCoordinatorRequest.CoordinatorType coordinatorType()
+FindCoordinatorRequest.CoordinatorTypecoordinatorType()
 end note
 :return FindCoordinatorRequest.CoordinatorType.GROUP;;
 stop
 end
 start
 note right
-String coordinatorKey()
+StringcoordinatorKey()
 end note
 :return builder.data.groupId();;
 stop
 end
 start
 note right
-void handleResponse(AbstractResponse response)
+void handleResponse(AbstractResponseresponse)
 end note
-:TxnOffsetCommitResponse txnOffsetCommitResponse=(TxnOffsetCommitResponse )response;;
-:boolean coordinatorReloaded=false;;
-:Map<TopicPartition,Errors> errors=txnOffsetCommitResponse.errors();;
+:TxnOffsetCommitResponsetxnOffsetCommitResponse=(TxnOffsetCommitResponse)response;;
+:booleancoordinatorReloaded=false;;
+:Map<TopicPartition,Errors>errors=txnOffsetCommitResponse.errors();;
 :log.debug("Received TxnOffsetCommit response for consumer group {}: {}",
 builder.data.groupId(),errors);;
-:TopicPartition topicPartition=entry.getKey();;
-:Errors error=entry.getValue();;
+:TopicPartitiontopicPartition=entry.getKey();;
+:Errorserror=entry.getValue();;
 if (error==Errors.NONE) then (yes) 
 :pendingTxnOffsetCommits.remove(topicPartition);;
 else if (error==Errors.COORDINATOR_NOT_AVAILABLE||error==Errors.NOT_COORDINATOR||error==Errors.REQUEST_TIMED_OUT) then (yes) 
@@ -1639,15 +1639,15 @@ endif
 end
 start
 note right
-boolean isFatalException(Errors error)
+booleanisFatalException(Errorserror)
 end note
 :return error==Errors.TRANSACTIONAL_ID_AUTHORIZATION_FAILED||error==Errors.INVALID_PRODUCER_EPOCH||error==Errors.PRODUCER_FENCED||error==Errors.UNSUPPORTED_FOR_MESSAGE_FORMAT;;
 stop
 end
 start
 note right
-constructor PendingStateTransition(TransactionalRequestResult result,
-State state,String operation)
+constructor PendingStateTransition(TransactionalRequestResultresult,
+Statestate,Stringoperation)
 end note
 :this.result=result;;
 :this.state=state;;

@@ -153,7 +153,7 @@ var maDataBlocs = {
  , "c1" : "00083"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableRepartitionMap.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00083] For method process arguments Record&lt;K,Change&lt;V&gt;&gt;  record"
+ , "c3" : "QC-JAV000006[00083] For method process arguments Record&lt;K ,Change&lt;V &gt; &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -265,7 +265,7 @@ var maDataBlocs = {
  , "c1" : "00117"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableRepartitionMap.java.html#117"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00117] For method init arguments ProcessorContext&lt;?,?&gt;  context"
+ , "c3" : "QC-JAV000006[00117] For method init arguments ProcessorContext&lt;? ,? &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""

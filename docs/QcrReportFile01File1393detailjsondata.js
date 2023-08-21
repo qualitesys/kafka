@@ -214,7 +214,7 @@ var maDataBlocs = {
  , "c1" : "00041"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method withVotedCandidate arguments int  epoch|int  votedId|Set&lt;Integer&gt;  voters"
+ , "c3" : "QC-JAV000006[00041] For method withVotedCandidate arguments int  epoch|int  votedId|Set&lt;Integer &gt;  voters"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -263,7 +263,7 @@ var maDataBlocs = {
  , "c1" : "00049"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method withElectedLeader arguments int  epoch|int  leaderId|Set&lt;Integer&gt;  voters"
+ , "c3" : "QC-JAV000006[00049] For method withElectedLeader arguments int  epoch|int  leaderId|Set&lt;Integer &gt;  voters"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -312,7 +312,7 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ElectionState.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method withUnknownLeader arguments int  epoch|Set&lt;Integer&gt;  voters"
+ , "c3" : "QC-JAV000006[00057] For method withUnknownLeader arguments int  epoch|Set&lt;Integer &gt;  voters"
 }} 
 ,
 { "ligne" : {"" : ""

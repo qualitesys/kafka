@@ -176,7 +176,7 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterImage.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method write arguments Consumer&lt;List&lt;ApiMessageAndVersion&gt;&gt;  out|MetadataVersion  metadataVersion"
+ , "c3" : "QC-JAV000006[00057] For method write arguments Consumer&lt;List&lt;ApiMessageAndVersion &gt; &gt;  out|MetadataVersion  metadataVersion"
 }} 
 ,
 { "ligne" : {"" : ""

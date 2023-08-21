@@ -181,7 +181,7 @@ var maDataBlocs = {
  , "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#53"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method checkpointNeeded arguments boolean  enforceCheckpoint|Map&lt;TopicPartition,Long&gt;  oldOffsetSnapshot|Map&lt;TopicPartition,Long&gt;  newOffsetSnapshot"
+ , "c3" : "QC-JAV000006[00053] For method checkpointNeeded arguments boolean  enforceCheckpoint|Map&lt;TopicPartition ,Long &gt;  oldOffsetSnapshot|Map&lt;TopicPartition ,Long &gt;  newOffsetSnapshot"
 }} 
 ,
 { "ligne" : {"" : ""

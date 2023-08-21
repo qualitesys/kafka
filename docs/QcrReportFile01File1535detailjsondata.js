@@ -259,7 +259,7 @@ var maDataBlocs = {
  , "c1" : "00077"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#77"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00077] For method completeNext arguments MetadataNodeManager  nodeManager|List&lt;String&gt;  nextWords|List&lt;Candidate&gt;  candidates"
+ , "c3" : "QC-JAV000006[00077] For method completeNext arguments MetadataNodeManager  nodeManager|List&lt;String &gt;  nextWords|List&lt;Candidate &gt;  candidates"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -280,7 +280,7 @@ var maDataBlocs = {
  , "c1" : "00101"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#101"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00101] For method run arguments Optional&lt;InteractiveShell&gt;  shell|PrintWriter  writer|MetadataNodeManager  manager"
+ , "c3" : "QC-JAV000006[00101] For method run arguments Optional&lt;InteractiveShell &gt;  shell|PrintWriter  writer|MetadataNodeManager  manager"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -378,7 +378,7 @@ var maDataBlocs = {
  , "c1" : "00132"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#132"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00132] For method printTargets arguments PrintWriter  writer|OptionalInt  screenWidth|List&lt;String&gt;  targetFiles|List&lt;TargetDirectory&gt;  targetDirectories"
+ , "c3" : "QC-JAV000006[00132] For method printTargets arguments PrintWriter  writer|OptionalInt  screenWidth|List&lt;String &gt;  targetFiles|List&lt;TargetDirectory &gt;  targetDirectories"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -469,7 +469,7 @@ var maDataBlocs = {
  , "c1" : "00154"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#154"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00154] For method printEntries arguments PrintWriter  writer|String  intro|OptionalInt  screenWidth|List&lt;String&gt;  entries"
+ , "c3" : "QC-JAV000006[00154] For method printEntries arguments PrintWriter  writer|String  intro|OptionalInt  screenWidth|List&lt;String &gt;  entries"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -567,7 +567,7 @@ var maDataBlocs = {
  , "c1" : "00186"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#186"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00186] For method calculateColumnSchema arguments OptionalInt  screenWidth|List&lt;String&gt;  entries"
+ , "c3" : "QC-JAV000006[00186] For method calculateColumnSchema arguments OptionalInt  screenWidth|List&lt;String &gt;  entries"
 }} 
 ,
 { "ligne" : {"" : ""

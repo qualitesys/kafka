@@ -209,7 +209,7 @@ var maDataBlocs = {
  , "c1" : "00093"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#93"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00093] For method offset arguments Map&lt;String,?&gt;  partition|Map&lt;String,?&gt;  offset"
+ , "c3" : "QC-JAV000006[00093] For method offset arguments Map&lt;String ,? &gt;  partition|Map&lt;String ,? &gt;  offset"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -272,7 +272,7 @@ var maDataBlocs = {
  , "c1" : "00137"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#137"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00137] For method doFlush arguments Callback&lt;Void&gt;  callback"
+ , "c3" : "QC-JAV000006[00137] For method doFlush arguments Callback&lt;Void &gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""

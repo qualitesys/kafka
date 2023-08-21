@@ -400,7 +400,7 @@ var maDataBlocs = {
  , "c1" : "01085"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1085"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01085] For method getBoolean arguments Map&lt;String,Object&gt;  configs|String  key|boolean  defaultValue"
+ , "c3" : "QC-JAV000006[01085] For method getBoolean arguments Map&lt;String ,Object &gt;  configs|String  key|boolean  defaultValue"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -435,7 +435,7 @@ var maDataBlocs = {
  , "c1" : "01097"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1097"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01097] For method getLong arguments Map&lt;String,Object&gt;  configs|String  key|long  defaultValue"
+ , "c3" : "QC-JAV000006[01097] For method getLong arguments Map&lt;String ,Object &gt;  configs|String  key|long  defaultValue"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -470,7 +470,7 @@ var maDataBlocs = {
  , "c1" : "01109"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1109"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01109] For method getString arguments Map&lt;String,Object&gt;  configs|String  key|String  defaultValue"
+ , "c3" : "QC-JAV000006[01109] For method getString arguments Map&lt;String ,Object &gt;  configs|String  key|String  defaultValue"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -659,7 +659,7 @@ var maDataBlocs = {
  , "c1" : "01275"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1275"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01275] For method postProcessParsedConfig arguments Map&lt;String,Object&gt;  parsedValues"
+ , "c3" : "QC-JAV000006[01275] For method postProcessParsedConfig arguments Map&lt;String ,Object &gt;  parsedValues"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -792,7 +792,7 @@ var maDataBlocs = {
  , "c1" : "01341"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1341"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01341] For method checkIfUnexpectedUserSpecifiedConsumerConfig arguments Map&lt;String,Object&gt;  clientProvidedProps|String[]  nonConfigurableConfigs"
+ , "c3" : "QC-JAV000006[01341] For method checkIfUnexpectedUserSpecifiedConsumerConfig arguments Map&lt;String ,Object &gt;  clientProvidedProps|String[]  nonConfigurableConfigs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1051,7 +1051,7 @@ var maDataBlocs = {
  , "c1" : "01617"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1617"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01617] For method getClientPropsWithPrefix arguments String  prefix|Set&lt;String&gt;  configNames"
+ , "c3" : "QC-JAV000006[01617] For method getClientPropsWithPrefix arguments String  prefix|Set&lt;String &gt;  configNames"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1163,7 +1163,7 @@ var maDataBlocs = {
  , "c1" : "01710"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1710"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01710] For method clientProps arguments Set&lt;String&gt;  configNames|Map&lt;String,Object&gt;  originals"
+ , "c3" : "QC-JAV000006[01710] For method clientProps arguments Set&lt;String &gt;  configNames|Map&lt;String ,Object &gt;  originals"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -161,7 +161,7 @@ var maDataBlocs = {
  , "c1" : "00060"
  , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method start arguments Map&lt;String,String&gt;  props"
+ , "c3" : "QC-JAV000006[00060] For method start arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -203,7 +203,7 @@ var maDataBlocs = {
  , "c1" : "00077"
  , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#77"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00077] For method put arguments Collection&lt;SinkRecord&gt;  sinkRecords"
+ , "c3" : "QC-JAV000006[00077] For method put arguments Collection&lt;SinkRecord &gt;  sinkRecords"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -217,7 +217,7 @@ var maDataBlocs = {
  , "c1" : "00085"
  , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSinkTask.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00085] For method flush arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets"
+ , "c3" : "QC-JAV000006[00085] For method flush arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets"
 }} 
 ,
 { "ligne" : {"" : ""

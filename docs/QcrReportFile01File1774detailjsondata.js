@@ -115,7 +115,7 @@ var maDataBlocs = {
  , "c1" : "00056"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedTupleForwarder.java.html#56"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method maybeForward arguments Record&lt;K,Change&lt;V&gt;&gt;  record"
+ , "c3" : "QC-JAV000006[00056] For method maybeForward arguments Record&lt;K ,Change&lt;V &gt; &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""

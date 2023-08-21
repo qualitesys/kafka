@@ -114,7 +114,7 @@ var maDataBlocs = {
  , "c1" : "00041"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/TimestampedCacheFlushListener.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method apply arguments Record&lt;KOut,Change&lt;ValueAndTimestamp&lt;VOut&gt;&gt;&gt;  record"
+ , "c3" : "QC-JAV000006[00041] For method apply arguments Record&lt;KOut ,Change&lt;ValueAndTimestamp&lt;VOut &gt; &gt; &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""

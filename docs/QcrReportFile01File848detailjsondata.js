@@ -271,7 +271,7 @@ var maDataBlocs = {
  , "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#86"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00086] For method configure arguments Map&lt;String,?&gt;  configs"
+ , "c3" : "QC-JAV000006[00086] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -327,14 +327,14 @@ var maDataBlocs = {
  , "c1" : "00115"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#115"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00115] For method validateReconfiguration arguments Map&lt;String,?&gt;  newConfigs"
+ , "c3" : "QC-JAV000006[00115] For method validateReconfiguration arguments Map&lt;String ,? &gt;  newConfigs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#120"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00120] For method reconfigure arguments Map&lt;String,?&gt;  newConfigs"
+ , "c3" : "QC-JAV000006[00120] For method reconfigure arguments Map&lt;String ,? &gt;  newConfigs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -362,7 +362,7 @@ var maDataBlocs = {
  , "c1" : "00130"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#130"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00130] For method instantiateSslEngineFactory arguments Map&lt;String,Object&gt;  configs"
+ , "c3" : "QC-JAV000006[00130] For method instantiateSslEngineFactory arguments Map&lt;String ,Object &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -390,7 +390,7 @@ var maDataBlocs = {
  , "c1" : "00145"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#145"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00145] For method createNewSslEngineFactory arguments Map&lt;String,?&gt;  newConfigs"
+ , "c3" : "QC-JAV000006[00145] For method createNewSslEngineFactory arguments Map&lt;String ,? &gt;  newConfigs"
 }} 
 ,
 { "ligne" : {"" : ""

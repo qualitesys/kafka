@@ -417,7 +417,7 @@ var maDataBlocs = {
  , "c1" : "00182"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#182"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00182] For method createSaslServer arguments String  mechanism|String  protocol|String  serverName|Map&lt;String,?&gt;  props|CallbackHandler  cbh"
+ , "c3" : "QC-JAV000006[00182] For method createSaslServer arguments String  mechanism|String  protocol|String  serverName|Map&lt;String ,? &gt;  props|CallbackHandler  cbh"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -431,7 +431,7 @@ var maDataBlocs = {
  , "c1" : "00192"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#192"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00192] For method getMechanismNames arguments Map&lt;String,?&gt;  props"
+ , "c3" : "QC-JAV000006[00192] For method getMechanismNames arguments Map&lt;String ,? &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -291,7 +291,7 @@ var maDataBlocs = {
  , "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00069] For method errorCounts arguments Stream&lt;Errors&gt;  errors"
+ , "c3" : "QC-JAV000006[00069] For method errorCounts arguments Stream&lt;Errors &gt;  errors"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -312,14 +312,14 @@ var maDataBlocs = {
  , "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#73"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00073] For method errorCounts arguments Collection&lt;Errors&gt;  errors"
+ , "c3" : "QC-JAV000006[00073] For method errorCounts arguments Collection&lt;Errors &gt;  errors"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method apiErrorCounts arguments Map&lt;?,ApiError&gt;  errors"
+ , "c3" : "QC-JAV000006[00080] For method apiErrorCounts arguments Map&lt;? ,ApiError &gt;  errors"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -333,7 +333,7 @@ var maDataBlocs = {
  , "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#87"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00087] For method updateErrorCounts arguments Map&lt;Errors,Integer&gt;  errorCounts|Errors  error"
+ , "c3" : "QC-JAV000006[00087] For method updateErrorCounts arguments Map&lt;Errors ,Integer &gt;  errorCounts|Errors  error"
 }} 
 ,
 { "ligne" : {"" : ""

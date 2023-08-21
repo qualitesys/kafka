@@ -282,14 +282,14 @@ var maDataBlocs = {
  , "c1" : "00105"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#105"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00105] For method remove arguments Windowed&lt;Bytes&gt;  key"
+ , "c3" : "QC-JAV000006[00105] For method remove arguments Windowed&lt;Bytes &gt;  key"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#109"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00109] For method put arguments Windowed&lt;Bytes&gt;  sessionKey|byte[]  aggregate"
+ , "c3" : "QC-JAV000006[00109] For method put arguments Windowed&lt;Bytes &gt;  sessionKey|byte[]  aggregate"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -324,7 +324,7 @@ var maDataBlocs = {
  , "c1" : "00121"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#121"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00121] For method getWriteBatches arguments Collection&lt;ConsumerRecord&lt;byte[],byte[]&gt;&gt;  records"
+ , "c3" : "QC-JAV000006[00121] For method getWriteBatches arguments Collection&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -394,7 +394,7 @@ var maDataBlocs = {
  , "c1" : "00163"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#163"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00163] For method getIndexToBaseStoreIterator arguments SegmentIterator&lt;KeyValueSegment&gt;  segmentIterator"
+ , "c3" : "QC-JAV000006[00163] For method getIndexToBaseStoreIterator arguments SegmentIterator&lt;KeyValueSegment &gt;  segmentIterator"
 }} 
 ,
 { "ligne" : {"" : ""

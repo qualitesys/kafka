@@ -111,7 +111,7 @@ var maDataBlocs = {
  , "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/FixedOrderMap.java.html#37"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00037] For method removeEldestEntry arguments Map.Entry&lt;K,V&gt;  eldest"
+ , "c3" : "QC-JAV000006[00037] For method removeEldestEntry arguments Map.Entry&lt;K ,V &gt;  eldest"
 }} 
 ,
 { "ligne" : {"" : ""

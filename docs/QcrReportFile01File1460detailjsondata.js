@@ -5602,14 +5602,14 @@ var maDataBlocs = {
  , "c1" : "00522"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#522"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00522] For method annotateClass arguments Class&lt;?&gt;  cl"
+ , "c3" : "QC-JAV000006[00522] For method annotateClass arguments Class&lt;? &gt;  cl"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00546"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#546"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00546] For method annotateProxyClass arguments Class&lt;?&gt;  cl"
+ , "c3" : "QC-JAV000006[00546] For method annotateProxyClass arguments Class&lt;? &gt;  cl"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5938,7 +5938,7 @@ var maDataBlocs = {
  , "c1" : "01067"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1067"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01067] For method auditSubclass arguments Class&lt;?&gt;  subcl"
+ , "c3" : "QC-JAV000006[01067] For method auditSubclass arguments Class&lt;? &gt;  subcl"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6099,7 +6099,7 @@ var maDataBlocs = {
  , "c1" : "01211"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1211"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01211] For method writeClass arguments Class&lt;?&gt;  cl|boolean  unshared"
+ , "c3" : "QC-JAV000006[01211] For method writeClass arguments Class&lt;? &gt;  cl|boolean  unshared"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6449,7 +6449,7 @@ var maDataBlocs = {
  , "c1" : "01396"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1396"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01396] For method writeEnum arguments Enum&lt;?&gt;  en|ObjectStreamClass  desc|boolean  unshared"
+ , "c3" : "QC-JAV000006[01396] For method writeEnum arguments Enum&lt;? &gt;  en|ObjectStreamClass  desc|boolean  unshared"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -7023,7 +7023,7 @@ var maDataBlocs = {
  , "c1" : "01723"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1723"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01723] For method getFieldOffset arguments String  name|Class&lt;?&gt;  type"
+ , "c3" : "QC-JAV000006[01723] For method getFieldOffset arguments String  name|Class&lt;? &gt;  type"
 }} 
 ,
 { "ligne" : {"" : ""

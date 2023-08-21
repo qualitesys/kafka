@@ -227,14 +227,14 @@ var maDataBlocs = {
  , "c1" : "00080"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method count arguments Materialized&lt;K,Long,SessionStore&lt;Bytes,byte[]&gt;&gt;  materialized"
+ , "c3" : "QC-JAV000006[00080] For method count arguments Materialized&lt;K ,Long ,SessionStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00085] For method count arguments Named  named|Materialized&lt;K,Long,SessionStore&lt;Bytes,byte[]&gt;&gt;  materialized"
+ , "c3" : "QC-JAV000006[00085] For method count arguments Named  named|Materialized&lt;K ,Long ,SessionStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -262,7 +262,7 @@ var maDataBlocs = {
  , "c1" : "00103"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#103"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00103] For method doCount arguments Named  named|Materialized&lt;K,Long,SessionStore&lt;Bytes,byte[]&gt;&gt;  materialized"
+ , "c3" : "QC-JAV000006[00103] For method doCount arguments Named  named|Materialized&lt;K ,Long ,SessionStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -304,28 +304,28 @@ var maDataBlocs = {
  , "c1" : "00132"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#132"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00132] For method reduce arguments Reducer&lt;V&gt;  reducer"
+ , "c3" : "QC-JAV000006[00132] For method reduce arguments Reducer&lt;V &gt;  reducer"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#137"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00137] For method reduce arguments Reducer&lt;V&gt;  reducer|Named  named"
+ , "c3" : "QC-JAV000006[00137] For method reduce arguments Reducer&lt;V &gt;  reducer|Named  named"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00142"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#142"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00142] For method reduce arguments Reducer&lt;V&gt;  reducer|Materialized&lt;K,V,SessionStore&lt;Bytes,byte[]&gt;&gt;  materialized"
+ , "c3" : "QC-JAV000006[00142] For method reduce arguments Reducer&lt;V &gt;  reducer|Materialized&lt;K ,V ,SessionStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00148"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#148"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00148] For method reduce arguments Reducer&lt;V&gt;  reducer|Named  named|Materialized&lt;K,V,SessionStore&lt;Bytes,byte[]&gt;&gt;  materialized"
+ , "c3" : "QC-JAV000006[00148] For method reduce arguments Reducer&lt;V &gt;  reducer|Named  named|Materialized&lt;K ,V ,SessionStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -556,7 +556,7 @@ var maDataBlocs = {
  , "c1" : "00296"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#296"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00296] For method mergerForAggregator arguments Aggregator&lt;K,V,V&gt;  aggregator"
+ , "c3" : "QC-JAV000006[00296] For method mergerForAggregator arguments Aggregator&lt;K ,V ,V &gt;  aggregator"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -570,7 +570,7 @@ var maDataBlocs = {
  , "c1" : "00300"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedKStreamImpl.java.html#300"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00300] For method aggregatorForReducer arguments Reducer&lt;V&gt;  reducer"
+ , "c3" : "QC-JAV000006[00300] For method aggregatorForReducer arguments Reducer&lt;V &gt;  reducer"
 }} 
 ,
 { "ligne" : {"" : ""

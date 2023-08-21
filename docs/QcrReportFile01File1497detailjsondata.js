@@ -1132,7 +1132,7 @@ var maDataBlocs = {
  , "c1" : "00536"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#536"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00536] For method putAll arguments Map&lt;?extendsK,?extendsV&gt;  t"
+ , "c3" : "QC-JAV000006[00536] For method putAll arguments Map&lt;?  extends K ,?  extends V &gt;  t"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1405,7 +1405,7 @@ var maDataBlocs = {
  , "c1" : "00710"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#710"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00710] For method add arguments Map.Entry&lt;K,V&gt;  o"
+ , "c3" : "QC-JAV000006[00710] For method add arguments Map.Entry&lt;K ,V &gt;  o"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1692,7 +1692,7 @@ var maDataBlocs = {
  , "c1" : "00888"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#888"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00888] For method forEach arguments BiConsumer&lt;?superK,?superV&gt;  action"
+ , "c3" : "QC-JAV000006[00888] For method forEach arguments BiConsumer&lt;? super K ,? super V &gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1748,7 +1748,7 @@ var maDataBlocs = {
  , "c1" : "00908"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#908"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00908] For method replaceAll arguments BiFunction&lt;?superK,?superV,?extendsV&gt;  function"
+ , "c3" : "QC-JAV000006[00908] For method replaceAll arguments BiFunction&lt;? super K ,? super V ,?  extends V &gt;  function"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2049,7 +2049,7 @@ var maDataBlocs = {
  , "c1" : "01027"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1027"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01027] For method computeIfAbsent arguments K  key|Function&lt;?superK,?extendsV&gt;  mappingFunction"
+ , "c3" : "QC-JAV000006[01027] For method computeIfAbsent arguments K  key|Function&lt;? super K ,?  extends V &gt;  mappingFunction"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2105,7 +2105,7 @@ var maDataBlocs = {
  , "c1" : "01063"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1063"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01063] For method computeIfPresent arguments K  key|BiFunction&lt;?superK,?superV,?extendsV&gt;  remappingFunction"
+ , "c3" : "QC-JAV000006[01063] For method computeIfPresent arguments K  key|BiFunction&lt;? super K ,? super V ,?  extends V &gt;  remappingFunction"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2196,7 +2196,7 @@ var maDataBlocs = {
  , "c1" : "01105"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1105"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01105] For method compute arguments K  key|BiFunction&lt;?superK,?superV,?extendsV&gt;  remappingFunction"
+ , "c3" : "QC-JAV000006[01105] For method compute arguments K  key|BiFunction&lt;? super K ,? super V ,?  extends V &gt;  remappingFunction"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2294,7 +2294,7 @@ var maDataBlocs = {
  , "c1" : "01156"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1156"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01156] For method merge arguments K  key|V  value|BiFunction&lt;?superV,?superV,?extendsV&gt;  remappingFunction"
+ , "c3" : "QC-JAV000006[01156] For method merge arguments K  key|V  value|BiFunction&lt;? super V ,? super V ,?  extends V &gt;  remappingFunction"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2623,14 +2623,14 @@ var maDataBlocs = {
  , "c1" : "01329"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1329"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01329] For method putLoadFactor arguments Hashtable&lt;?,?&gt;  table|float  lf"
+ , "c3" : "QC-JAV000006[01329] For method putLoadFactor arguments Hashtable&lt;? ,? &gt;  table|float  lf"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01345"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1345"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01345] For method reconstitutionPut arguments Entry&lt;?,?&gt;[]  tab|K  key|V  value"
+ , "c3" : "QC-JAV000006[01345] For method reconstitutionPut arguments Entry&lt;? ,? &gt;[]  tab|K  key|V  value"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -175,7 +175,7 @@ var maDataBlocs = {
  , "c1" : "00054"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00054] For method configure arguments Map&lt;String,?&gt;  configs"
+ , "c3" : "QC-JAV000006[00054] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""

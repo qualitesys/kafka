@@ -162,7 +162,7 @@ var maDataBlocs = {
  , "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableReduce.java.html#62"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00062] For method init arguments ProcessorContext&lt;K,Change&lt;V&gt;&gt;  context"
+ , "c3" : "QC-JAV000006[00062] For method init arguments ProcessorContext&lt;K ,Change&lt;V &gt; &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -176,7 +176,7 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableReduce.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method process arguments Record&lt;K,Change&lt;V&gt;&gt;  record"
+ , "c3" : "QC-JAV000006[00075] For method process arguments Record&lt;K ,Change&lt;V &gt; &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""

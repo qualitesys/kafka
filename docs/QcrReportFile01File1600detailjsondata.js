@@ -597,7 +597,7 @@ var maDataBlocs = {
  , "c1" : "00269"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#269"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00269] For method addSource arguments String  name|Deserializer&lt;?&gt;  keyDeserializer|Deserializer&lt;?&gt;  valueDeserializer|String  ...topics"
+ , "c3" : "QC-JAV000006[00269] For method addSource arguments String  name|Deserializer&lt;? &gt;  keyDeserializer|Deserializer&lt;? &gt;  valueDeserializer|String  ...topics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -625,7 +625,7 @@ var maDataBlocs = {
  , "c1" : "00295"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#295"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00295] For method addSource arguments String  name|Deserializer&lt;?&gt;  keyDeserializer|Deserializer&lt;?&gt;  valueDeserializer|Pattern  topicPattern"
+ , "c3" : "QC-JAV000006[00295] For method addSource arguments String  name|Deserializer&lt;? &gt;  keyDeserializer|Deserializer&lt;? &gt;  valueDeserializer|Pattern  topicPattern"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -653,7 +653,7 @@ var maDataBlocs = {
  , "c1" : "00323"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#323"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00323] For method addSource arguments AutoOffsetReset  offsetReset|String  name|Deserializer&lt;?&gt;  keyDeserializer|Deserializer&lt;?&gt;  valueDeserializer|String  ...topics"
+ , "c3" : "QC-JAV000006[00323] For method addSource arguments AutoOffsetReset  offsetReset|String  name|Deserializer&lt;? &gt;  keyDeserializer|Deserializer&lt;? &gt;  valueDeserializer|String  ...topics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -674,7 +674,7 @@ var maDataBlocs = {
  , "c1" : "00351"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#351"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00351] For method addSource arguments AutoOffsetReset  offsetReset|String  name|Deserializer&lt;?&gt;  keyDeserializer|Deserializer&lt;?&gt;  valueDeserializer|Pattern  topicPattern"
+ , "c3" : "QC-JAV000006[00351] For method addSource arguments AutoOffsetReset  offsetReset|String  name|Deserializer&lt;? &gt;  keyDeserializer|Deserializer&lt;? &gt;  valueDeserializer|Pattern  topicPattern"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -695,7 +695,7 @@ var maDataBlocs = {
  , "c1" : "00379"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#379"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00379] For method addSource arguments AutoOffsetReset  offsetReset|String  name|TimestampExtractor  timestampExtractor|Deserializer&lt;?&gt;  keyDeserializer|Deserializer&lt;?&gt;  valueDeserializer|String  ...topics"
+ , "c3" : "QC-JAV000006[00379] For method addSource arguments AutoOffsetReset  offsetReset|String  name|TimestampExtractor  timestampExtractor|Deserializer&lt;? &gt;  keyDeserializer|Deserializer&lt;? &gt;  valueDeserializer|String  ...topics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -709,7 +709,7 @@ var maDataBlocs = {
  , "c1" : "00411"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#411"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00411] For method addSource arguments AutoOffsetReset  offsetReset|String  name|TimestampExtractor  timestampExtractor|Deserializer&lt;?&gt;  keyDeserializer|Deserializer&lt;?&gt;  valueDeserializer|Pattern  topicPattern"
+ , "c3" : "QC-JAV000006[00411] For method addSource arguments AutoOffsetReset  offsetReset|String  name|TimestampExtractor  timestampExtractor|Deserializer&lt;? &gt;  keyDeserializer|Deserializer&lt;? &gt;  valueDeserializer|Pattern  topicPattern"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -912,7 +912,7 @@ var maDataBlocs = {
  , "c1" : "00734"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/Topology.java.html#734"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00734] For method addStateStore arguments StoreBuilder&lt;?&gt;  storeBuilder|String  ...processorNames"
+ , "c3" : "QC-JAV000006[00734] For method addStateStore arguments StoreBuilder&lt;? &gt;  storeBuilder|String  ...processorNames"
 }} 
 ,
 { "ligne" : {"" : ""

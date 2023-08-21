@@ -286,7 +286,7 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method assign arguments Map&lt;UUID,ClientState&gt;  clients|Set&lt;TaskId&gt;  allTaskIds|Set&lt;TaskId&gt;  statefulTaskIds|AssignmentConfigs  configs"
+ , "c3" : "QC-JAV000006[00057] For method assign arguments Map&lt;UUID ,ClientState &gt;  clients|Set&lt;TaskId &gt;  allTaskIds|Set&lt;TaskId &gt;  statefulTaskIds|AssignmentConfigs  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -475,7 +475,7 @@ var maDataBlocs = {
  , "c1" : "00137"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#137"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00137] For method allocateTaskWithClientCandidates arguments TaskId  taskId|Set&lt;UUID&gt;  clientsWithin|boolean  active"
+ , "c3" : "QC-JAV000006[00137] For method allocateTaskWithClientCandidates arguments TaskId  taskId|Set&lt;UUID &gt;  clientsWithin|boolean  active"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -489,7 +489,7 @@ var maDataBlocs = {
  , "c1" : "00147"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#147"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00147] For method assignTaskToClient arguments Set&lt;TaskId&gt;  assigned|TaskId  taskId|ClientState  client"
+ , "c3" : "QC-JAV000006[00147] For method assignTaskToClient arguments Set&lt;TaskId &gt;  assigned|TaskId  taskId|ClientState  client"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -517,7 +517,7 @@ var maDataBlocs = {
  , "c1" : "00164"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#164"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00164] For method findClient arguments TaskId  taskId|Set&lt;UUID&gt;  clientsWithin"
+ , "c3" : "QC-JAV000006[00164] For method findClient arguments TaskId  taskId|Set&lt;UUID &gt;  clientsWithin"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -594,7 +594,7 @@ var maDataBlocs = {
  , "c1" : "00200"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#200"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00200] For method findClientsWithPreviousAssignedTask arguments TaskId  taskId|Set&lt;UUID&gt;  clientsWithin"
+ , "c3" : "QC-JAV000006[00200] For method findClientsWithPreviousAssignedTask arguments TaskId  taskId|Set&lt;UUID &gt;  clientsWithin"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -615,7 +615,7 @@ var maDataBlocs = {
  , "c1" : "00208"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#208"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00208] For method findLeastLoadedClientWithPreviousStandByTask arguments TaskId  taskId|Set&lt;UUID&gt;  clientsWithin"
+ , "c3" : "QC-JAV000006[00208] For method findLeastLoadedClientWithPreviousStandByTask arguments TaskId  taskId|Set&lt;UUID &gt;  clientsWithin"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -636,7 +636,7 @@ var maDataBlocs = {
  , "c1" : "00218"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#218"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00218] For method leastLoaded arguments TaskId  taskId|Set&lt;UUID&gt;  clientIds"
+ , "c3" : "QC-JAV000006[00218] For method leastLoaded arguments TaskId  taskId|Set&lt;UUID &gt;  clientIds"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -671,7 +671,7 @@ var maDataBlocs = {
  , "c1" : "00226"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#226"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00226] For method findLeastLoaded arguments TaskId  taskId|Set&lt;UUID&gt;  clientIds|boolean  checkTaskPairs"
+ , "c3" : "QC-JAV000006[00226] For method findLeastLoaded arguments TaskId  taskId|Set&lt;UUID &gt;  clientIds|boolean  checkTaskPairs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -713,7 +713,7 @@ var maDataBlocs = {
  , "c1" : "00249"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#249"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00249] For method mapPreviousTaskAssignment arguments Map&lt;UUID,ClientState&gt;  clients"
+ , "c3" : "QC-JAV000006[00249] For method mapPreviousTaskAssignment arguments Map&lt;UUID ,ClientState &gt;  clients"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -741,7 +741,7 @@ var maDataBlocs = {
  , "c1" : "00263"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#263"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00263] For method sumCapacity arguments Collection&lt;ClientState&gt;  values"
+ , "c3" : "QC-JAV000006[00263] For method sumCapacity arguments Collection&lt;ClientState &gt;  values"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -762,7 +762,7 @@ var maDataBlocs = {
  , "c1" : "00280"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#280"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00280] For method hasNewPair arguments TaskId  task1|Set&lt;TaskId&gt;  taskIds"
+ , "c3" : "QC-JAV000006[00280] For method hasNewPair arguments TaskId  task1|Set&lt;TaskId &gt;  taskIds"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -790,7 +790,7 @@ var maDataBlocs = {
  , "c1" : "00293"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#293"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00293] For method addPairs arguments TaskId  taskId|Set&lt;TaskId&gt;  assigned"
+ , "c3" : "QC-JAV000006[00293] For method addPairs arguments TaskId  taskId|Set&lt;TaskId &gt;  assigned"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -397,7 +397,7 @@ var maDataBlocs = {
  , "c1" : "00154"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#154"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00154] For method prepareToSendRecord arguments SourceRecord  sourceRecord|ProducerRecord&lt;byte[],byte[]&gt;  producerRecord"
+ , "c3" : "QC-JAV000006[00154] For method prepareToSendRecord arguments SourceRecord  sourceRecord|ProducerRecord&lt;byte[] ,byte[] &gt;  producerRecord"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -432,7 +432,7 @@ var maDataBlocs = {
  , "c1" : "00188"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#188"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00188] For method recordSent arguments SourceRecord  sourceRecord|ProducerRecord&lt;byte[],byte[]&gt;  producerRecord|RecordMetadata  recordMetadata"
+ , "c3" : "QC-JAV000006[00188] For method recordSent arguments SourceRecord  sourceRecord|ProducerRecord&lt;byte[] ,byte[] &gt;  producerRecord|RecordMetadata  recordMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -446,7 +446,7 @@ var maDataBlocs = {
  , "c1" : "00199"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#199"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00199] For method producerSendFailed arguments boolean  synchronous|ProducerRecord&lt;byte[],byte[]&gt;  producerRecord|SourceRecord  preTransformRecord|Exception  e"
+ , "c3" : "QC-JAV000006[00199] For method producerSendFailed arguments boolean  synchronous|ProducerRecord&lt;byte[] ,byte[] &gt;  producerRecord|SourceRecord  preTransformRecord|Exception  e"
 }} 
 ,
 { "ligne" : {"" : ""

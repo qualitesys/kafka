@@ -310,7 +310,7 @@ var maDataBlocs = {
  , "c1" : "00114"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#114"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00114] For method configure arguments Map&lt;String,?&gt;  props"
+ , "c3" : "QC-JAV000006[00114] For method configure arguments Map&lt;String ,? &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -891,7 +891,7 @@ var maDataBlocs = {
  , "c1" : "00392"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Cast.java.html#392"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00392] For method parseFieldTypes arguments List&lt;String&gt;  mappings"
+ , "c3" : "QC-JAV000006[00392] For method parseFieldTypes arguments List&lt;String &gt;  mappings"
 }} 
 ,
 { "ligne" : {"" : ""

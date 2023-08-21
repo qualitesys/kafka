@@ -116,7 +116,7 @@ var maDataBlocs = {
  , "c1" : "00030"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/PrintVersionAndExitAction.java.html#30"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method run arguments ArgumentParser  parser|Argument  arg|Map&lt;String,Object&gt;  attrs|String  flag|Object  value"
+ , "c3" : "QC-JAV000006[00030] For method run arguments ArgumentParser  parser|Argument  arg|Map&lt;String ,Object &gt;  attrs|String  flag|Object  value"
 }} 
 ,
 { "ligne" : {"" : ""

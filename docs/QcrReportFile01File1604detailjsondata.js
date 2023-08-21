@@ -100,14 +100,14 @@ var maDataBlocs = {
  , "c1" : "00028"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/DefaultProductionExceptionHandler.java.html#28"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method handle arguments ProducerRecord&lt;byte[],byte[]&gt;  record|Exception  exception"
+ , "c3" : "QC-JAV000006[00028] For method handle arguments ProducerRecord&lt;byte[] ,byte[] &gt;  record|Exception  exception"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00034"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/DefaultProductionExceptionHandler.java.html#34"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method configure arguments Map&lt;String,?&gt;  configs"
+ , "c3" : "QC-JAV000006[00034] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""

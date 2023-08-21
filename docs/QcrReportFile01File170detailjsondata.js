@@ -169,7 +169,7 @@ var maDataBlocs = {
  , "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/MetadataOperationContext.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00059] For method setResponse arguments Optional&lt;MetadataResponse&gt;  response"
+ , "c3" : "QC-JAV000006[00059] For method setResponse arguments Optional&lt;MetadataResponse &gt;  response"
 }} 
 ,
 { "ligne" : {"" : ""

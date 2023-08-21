@@ -164,7 +164,7 @@ var maDataBlocs = {
  , "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.html#50"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method configure arguments Map&lt;String,?&gt;  configs|String  contextName|Configuration  configuration|AuthenticateCallbackHandler  loginCallbackHandler"
+ , "c3" : "QC-JAV000006[00050] For method configure arguments Map&lt;String ,? &gt;  configs|String  contextName|Configuration  configuration|AuthenticateCallbackHandler  loginCallbackHandler"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -185,7 +185,7 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method configure arguments Map&lt;String,?&gt;  configs|String  saslMechanism|List&lt;AppConfigurationEntry&gt;  jaasConfigEntries"
+ , "c3" : "QC-JAV000006[00088] For method configure arguments Map&lt;String ,? &gt;  configs|String  saslMechanism|List&lt;AppConfigurationEntry &gt;  jaasConfigEntries"
 }} 
 ,
 { "ligne" : {"" : ""

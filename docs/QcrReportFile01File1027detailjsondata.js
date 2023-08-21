@@ -290,7 +290,7 @@ var maDataBlocs = {
  , "c1" : "00086"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#86"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00086] For method start arguments Map&lt;String,String&gt;  props"
+ , "c3" : "QC-JAV000006[00086] For method start arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -654,7 +654,7 @@ var maDataBlocs = {
  , "c1" : "00307"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#307"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00307] For method syncGroupOffset arguments String  consumerGroupId|Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsetToSync"
+ , "c3" : "QC-JAV000006[00307] For method syncGroupOffset arguments String  consumerGroupId|Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsetToSync"
 }} 
 ,
 { "ligne" : {"" : ""

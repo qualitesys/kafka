@@ -104,7 +104,7 @@ var maDataBlocs = {
  , "c1" : "00031"
  , "c1link" : "./qc/tools/src/main/java/org/apache/kafka/tools/ToolsUtils.java.html#31"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00031] For method printMetrics arguments Map&lt;MetricName,?extendsMetric&gt;  metrics"
+ , "c3" : "QC-JAV000006[00031] For method printMetrics arguments Map&lt;MetricName ,?  extends Metric &gt;  metrics"
 }} 
 ,
 { "ligne" : {"" : ""

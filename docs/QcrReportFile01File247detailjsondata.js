@@ -710,63 +710,63 @@ var maDataBlocs = {
  , "c1" : "00164"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/SenderMetricsRegistry.java.html#164"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00164] For method topicRecordSendRate arguments Map&lt;String,String&gt;  tags"
+ , "c3" : "QC-JAV000006[00164] For method topicRecordSendRate arguments Map&lt;String ,String &gt;  tags"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00168"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/SenderMetricsRegistry.java.html#168"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00168] For method topicRecordSendTotal arguments Map&lt;String,String&gt;  tags"
+ , "c3" : "QC-JAV000006[00168] For method topicRecordSendTotal arguments Map&lt;String ,String &gt;  tags"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00172"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/SenderMetricsRegistry.java.html#172"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00172] For method topicByteRate arguments Map&lt;String,String&gt;  tags"
+ , "c3" : "QC-JAV000006[00172] For method topicByteRate arguments Map&lt;String ,String &gt;  tags"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00176"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/SenderMetricsRegistry.java.html#176"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00176] For method topicByteTotal arguments Map&lt;String,String&gt;  tags"
+ , "c3" : "QC-JAV000006[00176] For method topicByteTotal arguments Map&lt;String ,String &gt;  tags"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00180"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/SenderMetricsRegistry.java.html#180"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00180] For method topicCompressionRate arguments Map&lt;String,String&gt;  tags"
+ , "c3" : "QC-JAV000006[00180] For method topicCompressionRate arguments Map&lt;String ,String &gt;  tags"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00184"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/SenderMetricsRegistry.java.html#184"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00184] For method topicRecordRetryRate arguments Map&lt;String,String&gt;  tags"
+ , "c3" : "QC-JAV000006[00184] For method topicRecordRetryRate arguments Map&lt;String ,String &gt;  tags"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00188"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/SenderMetricsRegistry.java.html#188"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00188] For method topicRecordRetryTotal arguments Map&lt;String,String&gt;  tags"
+ , "c3" : "QC-JAV000006[00188] For method topicRecordRetryTotal arguments Map&lt;String ,String &gt;  tags"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00192"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/SenderMetricsRegistry.java.html#192"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00192] For method topicRecordErrorRate arguments Map&lt;String,String&gt;  tags"
+ , "c3" : "QC-JAV000006[00192] For method topicRecordErrorRate arguments Map&lt;String ,String &gt;  tags"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00196"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/SenderMetricsRegistry.java.html#196"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00196] For method topicRecordErrorTotal arguments Map&lt;String,String&gt;  tags"
+ , "c3" : "QC-JAV000006[00196] For method topicRecordErrorTotal arguments Map&lt;String ,String &gt;  tags"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -794,7 +794,7 @@ var maDataBlocs = {
  , "c1" : "00216"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/SenderMetricsRegistry.java.html#216"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00216] For method createTemplate arguments String  name|String  group|String  description|Set&lt;String&gt;  tags"
+ , "c3" : "QC-JAV000006[00216] For method createTemplate arguments String  name|String  group|String  description|Set&lt;String &gt;  tags"
 }} 
 ]
 , 

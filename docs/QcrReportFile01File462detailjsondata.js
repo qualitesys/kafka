@@ -600,7 +600,7 @@ var maDataBlocs = {
  , "c1" : "00193"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#193"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00193] For method metricName arguments String  name|String  group|String  description|Map&lt;String,String&gt;  tags"
+ , "c3" : "QC-JAV000006[00193] For method metricName arguments String  name|String  group|String  description|Map&lt;String ,String &gt;  tags"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -635,7 +635,7 @@ var maDataBlocs = {
  , "c1" : "00242"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#242"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00242] For method metricName arguments String  name|String  group|Map&lt;String,String&gt;  tags"
+ , "c3" : "QC-JAV000006[00242] For method metricName arguments String  name|String  group|Map&lt;String ,String &gt;  tags"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -649,7 +649,7 @@ var maDataBlocs = {
  , "c1" : "00256"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#256"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00256] For method toHtmlTable arguments String  domain|Iterable&lt;MetricNameTemplate&gt;  allMetrics"
+ , "c3" : "QC-JAV000006[00256] For method toHtmlTable arguments String  domain|Iterable&lt;MetricNameTemplate &gt;  allMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1083,7 +1083,7 @@ var maDataBlocs = {
  , "c1" : "00507"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#507"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00507] For method addMetric arguments MetricName  metricName|MetricConfig  config|MetricValueProvider&lt;?&gt;  metricValueProvider"
+ , "c3" : "QC-JAV000006[00507] For method addMetric arguments MetricName  metricName|MetricConfig  config|MetricValueProvider&lt;? &gt;  metricValueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1125,7 +1125,7 @@ var maDataBlocs = {
  , "c1" : "00527"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#527"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00527] For method addMetric arguments MetricName  metricName|MetricValueProvider&lt;?&gt;  metricValueProvider"
+ , "c3" : "QC-JAV000006[00527] For method addMetric arguments MetricName  metricName|MetricValueProvider&lt;? &gt;  metricValueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1139,7 +1139,7 @@ var maDataBlocs = {
  , "c1" : "00540"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#540"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00540] For method addMetricIfAbsent arguments MetricName  metricName|MetricConfig  config|MetricValueProvider&lt;?&gt;  metricValueProvider"
+ , "c3" : "QC-JAV000006[00540] For method addMetricIfAbsent arguments MetricName  metricName|MetricConfig  config|MetricValueProvider&lt;? &gt;  metricValueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1335,7 +1335,7 @@ var maDataBlocs = {
  , "c1" : "00664"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#664"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00664] For method metricInstance arguments MetricNameTemplate  template|Map&lt;String,String&gt;  tags"
+ , "c3" : "QC-JAV000006[00664] For method metricInstance arguments MetricNameTemplate  template|Map&lt;String ,String &gt;  tags"
 }} 
 ,
 { "ligne" : {"" : ""

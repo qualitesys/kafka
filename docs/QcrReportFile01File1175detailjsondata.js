@@ -215,14 +215,14 @@ var maDataBlocs = {
  , "c1" : "00079"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#79"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00079] For method get arguments Collection&lt;ByteBuffer&gt;  keys"
+ , "c3" : "QC-JAV000006[00079] For method get arguments Collection&lt;ByteBuffer &gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#90"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00090] For method set arguments Map&lt;ByteBuffer,ByteBuffer&gt;  values|Callback&lt;Void&gt;  callback"
+ , "c3" : "QC-JAV000006[00090] For method set arguments Map&lt;ByteBuffer ,ByteBuffer &gt;  values|Callback&lt;Void &gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""

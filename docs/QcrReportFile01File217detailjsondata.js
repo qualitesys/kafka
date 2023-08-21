@@ -106,14 +106,14 @@ var maDataBlocs = {
  , "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java.html#27"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00027] For method onSuccess arguments F  value|RequestFuture&lt;T&gt;  future"
+ , "c3" : "QC-JAV000006[00027] For method onSuccess arguments F  value|RequestFuture&lt;T &gt;  future"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00029"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFutureAdapter.java.html#29"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00029] For method onFailure arguments RuntimeException  e|RequestFuture&lt;T&gt;  future"
+ , "c3" : "QC-JAV000006[00029] For method onFailure arguments RuntimeException  e|RequestFuture&lt;T &gt;  future"
 }} 
 ,
 { "ligne" : {"" : ""

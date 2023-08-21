@@ -696,14 +696,14 @@ var maDataBlocs = {
  , "c1" : "00192"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#192"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00192] For method completeExceptionally arguments RuntimeException  topLevelException|Function&lt;Integer,RuntimeException&gt;  recordExceptions"
+ , "c3" : "QC-JAV000006[00192] For method completeExceptionally arguments RuntimeException  topLevelException|Function&lt;Integer ,RuntimeException &gt;  recordExceptions"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00220"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#220"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00220] For method done arguments long  baseOffset|long  logAppendTime|RuntimeException  topLevelException|Function&lt;Integer,RuntimeException&gt;  recordExceptions"
+ , "c3" : "QC-JAV000006[00220] For method done arguments long  baseOffset|long  logAppendTime|RuntimeException  topLevelException|Function&lt;Integer ,RuntimeException &gt;  recordExceptions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -780,7 +780,7 @@ var maDataBlocs = {
  , "c1" : "00255"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerBatch.java.html#255"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00255] For method completeFutureAndFireCallbacks arguments long  baseOffset|long  logAppendTime|Function&lt;Integer,RuntimeException&gt;  recordExceptions"
+ , "c3" : "QC-JAV000006[00255] For method completeFutureAndFireCallbacks arguments long  baseOffset|long  logAppendTime|Function&lt;Integer ,RuntimeException &gt;  recordExceptions"
 }} 
 ,
 { "ligne" : {"" : ""

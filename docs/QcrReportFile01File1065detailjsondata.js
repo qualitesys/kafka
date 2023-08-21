@@ -1486,7 +1486,7 @@ var maDataBlocs = {
  , "c1" : "00385"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetricsRegistry.java.html#385"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00385] For method createTemplate arguments String  name|String  group|String  doc|Set&lt;String&gt;  tags"
+ , "c3" : "QC-JAV000006[00385] For method createTemplate arguments String  name|String  group|String  doc|Set&lt;String &gt;  tags"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -349,7 +349,7 @@ var maDataBlocs = {
  , "c1" : "00109"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#109"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00109] For method loadSnapshot arguments Map&lt;Uuid,StandardAcl&gt;  acls"
+ , "c3" : "QC-JAV000006[00109] For method loadSnapshot arguments Map&lt;Uuid ,StandardAcl &gt;  acls"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -391,7 +391,7 @@ var maDataBlocs = {
  , "c1" : "00129"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#129"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00129] For method authorize arguments AuthorizableRequestContext  requestContext|List&lt;Action&gt;  actions"
+ , "c3" : "QC-JAV000006[00129] For method authorize arguments AuthorizableRequestContext  requestContext|List&lt;Action &gt;  actions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -440,7 +440,7 @@ var maDataBlocs = {
  , "c1" : "00159"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#159"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00159] For method configure arguments Map&lt;String,?&gt;  configs"
+ , "c3" : "QC-JAV000006[00159] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -482,7 +482,7 @@ var maDataBlocs = {
  , "c1" : "00181"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#181"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00181] For method getConfiguredSuperUsers arguments Map&lt;String,?&gt;  configs"
+ , "c3" : "QC-JAV000006[00181] For method getConfiguredSuperUsers arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -517,7 +517,7 @@ var maDataBlocs = {
  , "c1" : "00196"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#196"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00196] For method getDefaultResult arguments Map&lt;String,?&gt;  configs"
+ , "c3" : "QC-JAV000006[00196] For method getDefaultResult arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""

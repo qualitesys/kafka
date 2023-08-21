@@ -169,7 +169,7 @@ var maDataBlocs = {
  , "c1" : "00055"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method newTopicCreation arguments WorkerConfig  workerConfig|Map&lt;String,TopicCreationGroup&gt;  topicGroups"
+ , "c3" : "QC-JAV000006[00055] For method newTopicCreation arguments WorkerConfig  workerConfig|Map&lt;String ,TopicCreationGroup &gt;  topicGroups"
 }} 
 ,
 { "ligne" : {"" : ""

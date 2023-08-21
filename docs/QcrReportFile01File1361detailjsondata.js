@@ -84,7 +84,7 @@ var maDataBlocs = {
  , "c1" : "00028"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/OptionalStringComparator.java.html#28"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00028] For method compare arguments Optional&lt;String&gt;  a|Optional&lt;String&gt;  b"
+ , "c3" : "QC-JAV000006[00028] For method compare arguments Optional&lt;String &gt;  a|Optional&lt;String &gt;  b"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -239,7 +239,7 @@ var maDataBlocs = {
  , "c1" : "00084"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#84"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00084] For method groupByTopic arguments List&lt;LeaderAndIsrPartitionState&gt;  partitionStates|Map&lt;String,Uuid&gt;  topicIds"
+ , "c3" : "QC-JAV000006[00084] For method groupByTopic arguments List&lt;LeaderAndIsrPartitionState &gt;  partitionStates|Map&lt;String ,Uuid &gt;  topicIds"
 }} 
 ,
 { "ligne" : {"" : ""

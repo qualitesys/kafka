@@ -687,7 +687,7 @@ var maDataBlocs = {
  , "c1" : "00323"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#323"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00323] For method create arguments TopologyMetadata  topologyMetadata|StreamsConfig  config|KafkaClientSupplier  clientSupplier|Admin  adminClient|UUID  processId|String  clientId|StreamsMetricsImpl  streamsMetrics|Time  time|StreamsMetadataState  streamsMetadataState|long  cacheSizeBytes|StateDirectory  stateDirectory|StateRestoreListener  userStateRestoreListener|int  threadIdx|Runnable  shutdownErrorHook|BiConsumer&lt;Throwable,Boolean&gt;  streamsUncaughtExceptionHandler"
+ , "c3" : "QC-JAV000006[00323] For method create arguments TopologyMetadata  topologyMetadata|StreamsConfig  config|KafkaClientSupplier  clientSupplier|Admin  adminClient|UUID  processId|String  clientId|StreamsMetricsImpl  streamsMetrics|Time  time|StreamsMetadataState  streamsMetadataState|long  cacheSizeBytes|StateDirectory  stateDirectory|StateRestoreListener  userStateRestoreListener|int  threadIdx|Runnable  shutdownErrorHook|BiConsumer&lt;Throwable ,Boolean &gt;  streamsUncaughtExceptionHandler"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1030,7 +1030,7 @@ var maDataBlocs = {
  , "c1" : "00637"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#637"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00637] For method setStreamsUncaughtExceptionHandler arguments BiConsumer&lt;Throwable,Boolean&gt;  streamsUncaughtExceptionHandler"
+ , "c3" : "QC-JAV000006[00637] For method setStreamsUncaughtExceptionHandler arguments BiConsumer&lt;Throwable ,Boolean &gt;  streamsUncaughtExceptionHandler"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1485,7 +1485,7 @@ var maDataBlocs = {
  , "c1" : "00977"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#977"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00977] For method resetOffsets arguments Set&lt;TopicPartition&gt;  partitions|Exception  cause"
+ , "c3" : "QC-JAV000006[00977] For method resetOffsets arguments Set&lt;TopicPartition &gt;  partitions|Exception  cause"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1639,7 +1639,7 @@ var maDataBlocs = {
  , "c1" : "01042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1042"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01042] For method addToResetList arguments TopicPartition  partition|Set&lt;TopicPartition&gt;  partitions|String  logMessage|String  resetPolicy|Set&lt;String&gt;  loggedTopics"
+ , "c3" : "QC-JAV000006[01042] For method addToResetList arguments TopicPartition  partition|Set&lt;TopicPartition &gt;  partitions|String  logMessage|String  resetPolicy|Set&lt;String &gt;  loggedTopics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1800,7 +1800,7 @@ var maDataBlocs = {
  , "c1" : "01190"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1190"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01190] For method updateThreadMetadata arguments Map&lt;TaskId,Task&gt;  activeTasks|Map&lt;TaskId,Task&gt;  standbyTasks"
+ , "c3" : "QC-JAV000006[01190] For method updateThreadMetadata arguments Map&lt;TaskId ,Task &gt;  activeTasks|Map&lt;TaskId ,Task &gt;  standbyTasks"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -439,7 +439,7 @@ var maDataBlocs = {
  , "c1" : "00181"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#181"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00181] For method ensureCopartitioning arguments Collection&lt;Set&lt;String&gt;&gt;  copartitionGroups|Map&lt;String,InternalTopicConfig&gt;  repartitionTopicMetadata|Cluster  clusterMetadata"
+ , "c3" : "QC-JAV000006[00181] For method ensureCopartitioning arguments Collection&lt;Set&lt;String &gt; &gt;  copartitionGroups|Map&lt;String ,InternalTopicConfig &gt;  repartitionTopicMetadata|Cluster  clusterMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -467,7 +467,7 @@ var maDataBlocs = {
  , "c1" : "00200"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#200"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00200] For method setRepartitionSourceTopicPartitionCount arguments Map&lt;String,InternalTopicConfig&gt;  repartitionTopicMetadata|Collection&lt;TopicsInfo&gt;  topicGroups|Cluster  clusterMetadata"
+ , "c3" : "QC-JAV000006[00200] For method setRepartitionSourceTopicPartitionCount arguments Map&lt;String ,InternalTopicConfig &gt;  repartitionTopicMetadata|Collection&lt;TopicsInfo &gt;  topicGroups|Cluster  clusterMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -642,7 +642,7 @@ var maDataBlocs = {
  , "c1" : "00243"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopics.java.html#243"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00243] For method computePartitionCount arguments Map&lt;String,InternalTopicConfig&gt;  repartitionTopicMetadata|Collection&lt;TopicsInfo&gt;  topicGroups|Cluster  clusterMetadata|String  repartitionSourceTopic"
+ , "c3" : "QC-JAV000006[00243] For method computePartitionCount arguments Map&lt;String ,InternalTopicConfig &gt;  repartitionTopicMetadata|Collection&lt;TopicsInfo &gt;  topicGroups|Cluster  clusterMetadata|String  repartitionSourceTopic"
 }} 
 ,
 { "ligne" : {"" : ""

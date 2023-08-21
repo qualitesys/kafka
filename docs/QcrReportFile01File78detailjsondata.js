@@ -86,7 +86,7 @@ var maDataBlocs = {
  , "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeDelegationTokenOptions.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method owners arguments List&lt;KafkaPrincipal&gt;  owners"
+ , "c3" : "QC-JAV000006[00040] For method owners arguments List&lt;KafkaPrincipal &gt;  owners"
 }} 
 ]
 , 

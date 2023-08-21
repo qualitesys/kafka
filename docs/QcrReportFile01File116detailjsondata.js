@@ -145,14 +145,14 @@ var maDataBlocs = {
  , "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method filterStates arguments Collection&lt;TransactionState&gt;  states"
+ , "c3" : "QC-JAV000006[00046] For method filterStates arguments Collection&lt;TransactionState &gt;  states"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListTransactionsOptions.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00059] For method filterProducerIds arguments Collection&lt;Long&gt;  producerIdFilters"
+ , "c3" : "QC-JAV000006[00059] For method filterProducerIds arguments Collection&lt;Long &gt;  producerIdFilters"
 }} 
 ,
 { "ligne" : {"" : ""

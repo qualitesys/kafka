@@ -564,7 +564,7 @@ var maDataBlocs = {
  , "c1" : "00215"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#215"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00215] For method onLeaderElected arguments String  leaderId|String  protocol|List&lt;JoinGroupResponseMember&gt;  allMemberMetadata|boolean  skipAssignment"
+ , "c3" : "QC-JAV000006[00215] For method onLeaderElected arguments String  leaderId|String  protocol|List&lt;JoinGroupResponseMember &gt;  allMemberMetadata|boolean  skipAssignment"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -907,14 +907,14 @@ var maDataBlocs = {
  , "c1" : "00464"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#464"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00464] For method withCopies arguments Collection&lt;String&gt;  connectors|Collection&lt;ConnectorTaskId&gt;  tasks"
+ , "c3" : "QC-JAV000006[00464] For method withCopies arguments Collection&lt;String &gt;  connectors|Collection&lt;ConnectorTaskId &gt;  tasks"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00471"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#471"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00471] For method with arguments Collection&lt;String&gt;  connectors|Collection&lt;ConnectorTaskId&gt;  tasks"
+ , "c3" : "QC-JAV000006[00471] For method with arguments Collection&lt;String &gt;  connectors|Collection&lt;ConnectorTaskId &gt;  tasks"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -963,7 +963,7 @@ var maDataBlocs = {
  , "c1" : "00531"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#531"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00531] For method withCopies arguments Collection&lt;String&gt;  connectors|Collection&lt;ConnectorTaskId&gt;  tasks"
+ , "c3" : "QC-JAV000006[00531] For method withCopies arguments Collection&lt;String &gt;  connectors|Collection&lt;ConnectorTaskId &gt;  tasks"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -984,7 +984,7 @@ var maDataBlocs = {
  , "c1" : "00540"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerCoordinator.java.html#540"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00540] For method with arguments Collection&lt;String&gt;  connectors|Collection&lt;ConnectorTaskId&gt;  tasks"
+ , "c3" : "QC-JAV000006[00540] For method with arguments Collection&lt;String &gt;  connectors|Collection&lt;ConnectorTaskId &gt;  tasks"
 }} 
 ,
 { "ligne" : {"" : ""

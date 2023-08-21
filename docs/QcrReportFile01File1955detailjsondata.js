@@ -103,7 +103,7 @@ var maDataBlocs = {
  , "c1" : "00034"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientStateTask.java.html#34"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00034] For method taskIds arguments Set&lt;TaskId&gt;  clientToTaskIds"
+ , "c3" : "QC-JAV000006[00034] For method taskIds arguments Set&lt;TaskId &gt;  clientToTaskIds"
 }} 
 ]
 , 

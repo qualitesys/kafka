@@ -136,7 +136,7 @@ var maDataBlocs = {
  , "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#53"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method partitionGroups arguments Map&lt;Subtopology,Set&lt;String&gt;&gt;  topicGroups|Cluster  metadata"
+ , "c3" : "QC-JAV000006[00053] For method partitionGroups arguments Map&lt;Subtopology ,Set&lt;String &gt; &gt;  topicGroups|Cluster  metadata"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -234,7 +234,7 @@ var maDataBlocs = {
  , "c1" : "00081"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#81"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00081] For method maxNumPartitions arguments Cluster  metadata|Set&lt;String&gt;  topics"
+ , "c3" : "QC-JAV000006[00081] For method maxNumPartitions arguments Cluster  metadata|Set&lt;String &gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""

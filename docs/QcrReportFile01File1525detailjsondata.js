@@ -133,7 +133,7 @@ var maDataBlocs = {
  , "c1" : "00040"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method getEffectivePaths arguments List&lt;String&gt;  paths"
+ , "c3" : "QC-JAV000006[00040] For method getEffectivePaths arguments List&lt;String &gt;  paths"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -147,7 +147,7 @@ var maDataBlocs = {
  , "c1" : "00059"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00059] For method completeCommand arguments String  commandPrefix|List&lt;Candidate&gt;  candidates"
+ , "c3" : "QC-JAV000006[00059] For method completeCommand arguments String  commandPrefix|List&lt;Candidate &gt;  candidates"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -203,7 +203,7 @@ var maDataBlocs = {
  , "c1" : "00083"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00083] For method stripDotPathComponents arguments List&lt;String&gt;  input"
+ , "c3" : "QC-JAV000006[00083] For method stripDotPathComponents arguments List&lt;String &gt;  input"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -238,7 +238,7 @@ var maDataBlocs = {
  , "c1" : "00104"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#104"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00104] For method completePath arguments MetadataNodeManager  nodeManager|String  pathPrefix|List&lt;Candidate&gt;  candidates"
+ , "c3" : "QC-JAV000006[00104] For method completePath arguments MetadataNodeManager  nodeManager|String  pathPrefix|List&lt;Candidate &gt;  candidates"
 }} 
 ,
 { "ligne" : {"" : ""

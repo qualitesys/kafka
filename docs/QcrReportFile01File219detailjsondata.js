@@ -1263,7 +1263,7 @@ var maDataBlocs = {
  , "c1" : "00166"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#166"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00166] For method subscribe arguments Set&lt;String&gt;  topics|ConsumerRebalanceListener  listener"
+ , "c3" : "QC-JAV000006[00166] For method subscribe arguments Set&lt;String &gt;  topics|ConsumerRebalanceListener  listener"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1291,7 +1291,7 @@ var maDataBlocs = {
  , "c1" : "00178"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#178"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00178] For method subscribeFromPattern arguments Set&lt;String&gt;  topics"
+ , "c3" : "QC-JAV000006[00178] For method subscribeFromPattern arguments Set&lt;String &gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1305,7 +1305,7 @@ var maDataBlocs = {
  , "c1" : "00186"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#186"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00186] For method changeSubscription arguments Set&lt;String&gt;  topicsToSubscribe"
+ , "c3" : "QC-JAV000006[00186] For method changeSubscription arguments Set&lt;String &gt;  topicsToSubscribe"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1333,7 +1333,7 @@ var maDataBlocs = {
  , "c1" : "00201"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#201"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00201] For method groupSubscribe arguments Collection&lt;String&gt;  topics"
+ , "c3" : "QC-JAV000006[00201] For method groupSubscribe arguments Collection&lt;String &gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1354,7 +1354,7 @@ var maDataBlocs = {
  , "c1" : "00220"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#220"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00220] For method assignFromUser arguments Set&lt;TopicPartition&gt;  partitions"
+ , "c3" : "QC-JAV000006[00220] For method assignFromUser arguments Set&lt;TopicPartition &gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1396,7 +1396,7 @@ var maDataBlocs = {
  , "c1" : "00247"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#247"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00247] For method checkAssignmentMatchedSubscription arguments Collection&lt;TopicPartition&gt;  assignments"
+ , "c3" : "QC-JAV000006[00247] For method checkAssignmentMatchedSubscription arguments Collection&lt;TopicPartition &gt;  assignments"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1452,7 +1452,7 @@ var maDataBlocs = {
  , "c1" : "00273"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#273"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00273] For method assignFromSubscribed arguments Collection&lt;TopicPartition&gt;  assignments"
+ , "c3" : "QC-JAV000006[00273] For method assignFromSubscribed arguments Collection&lt;TopicPartition &gt;  assignments"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1739,7 +1739,7 @@ var maDataBlocs = {
  , "c1" : "00427"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#427"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00427] For method fetchablePartitions arguments Predicate&lt;TopicPartition&gt;  isAvailable"
+ , "c3" : "QC-JAV000006[00427] For method fetchablePartitions arguments Predicate&lt;TopicPartition &gt;  isAvailable"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2285,7 +2285,7 @@ var maDataBlocs = {
  , "c1" : "00640"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#640"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00640] For method requestOffsetReset arguments Collection&lt;TopicPartition&gt;  partitions|OffsetResetStrategy  offsetResetStrategy"
+ , "c3" : "QC-JAV000006[00640] For method requestOffsetReset arguments Collection&lt;TopicPartition &gt;  partitions|OffsetResetStrategy  offsetResetStrategy"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2320,7 +2320,7 @@ var maDataBlocs = {
  , "c1" : "00651"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#651"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00651] For method setNextAllowedRetry arguments Set&lt;TopicPartition&gt;  partitions|long  nextAllowResetTimeMs"
+ , "c3" : "QC-JAV000006[00651] For method setNextAllowedRetry arguments Set&lt;TopicPartition &gt;  partitions|long  nextAllowResetTimeMs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2383,7 +2383,7 @@ var maDataBlocs = {
  , "c1" : "00684"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#684"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00684] For method collectPartitions arguments Predicate&lt;TopicPartitionState&gt;  filter"
+ , "c3" : "QC-JAV000006[00684] For method collectPartitions arguments Predicate&lt;TopicPartitionState &gt;  filter"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2565,7 +2565,7 @@ var maDataBlocs = {
  , "c1" : "00745"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#745"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00745] For method requestFailed arguments Set&lt;TopicPartition&gt;  partitions|long  nextRetryTimeMs"
+ , "c3" : "QC-JAV000006[00745] For method requestFailed arguments Set&lt;TopicPartition &gt;  partitions|long  nextRetryTimeMs"
 }} 
 ,
 { "ligne" : {"" : ""

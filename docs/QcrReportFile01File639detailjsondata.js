@@ -191,7 +191,7 @@ var maDataBlocs = {
  , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsRequest.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00051] For method groupByTopic arguments List&lt;String&gt;  topics"
+ , "c3" : "QC-JAV000006[00051] For method groupByTopic arguments List&lt;String &gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""

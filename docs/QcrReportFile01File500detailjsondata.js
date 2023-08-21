@@ -939,7 +939,7 @@ var maDataBlocs = {
  , "c1" : "00530"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#530"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00530] For method maybeBeginServerReauthentication arguments NetworkReceive  saslHandshakeNetworkReceive|Supplier&lt;Long&gt;  nowNanosSupplier"
+ , "c3" : "QC-JAV000006[00530] For method maybeBeginServerReauthentication arguments NetworkReceive  saslHandshakeNetworkReceive|Supplier&lt;Long &gt;  nowNanosSupplier"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -995,7 +995,7 @@ var maDataBlocs = {
  , "c1" : "00587"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#587"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00587] For method maybeBeginClientReauthentication arguments Supplier&lt;Long&gt;  nowNanosSupplier"
+ , "c3" : "QC-JAV000006[00587] For method maybeBeginClientReauthentication arguments Supplier&lt;Long &gt;  nowNanosSupplier"
 }} 
 ,
 { "ligne" : {"" : ""

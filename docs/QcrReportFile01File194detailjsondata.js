@@ -123,7 +123,7 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method consumersPerTopic arguments Map&lt;String,Subscription&gt;  consumerMetadata"
+ , "c3" : "QC-JAV000006[00075] For method consumersPerTopic arguments Map&lt;String ,Subscription &gt;  consumerMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -158,7 +158,7 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method assign arguments Map&lt;String,Integer&gt;  partitionsPerTopic|Map&lt;String,Subscription&gt;  subscriptions"
+ , "c3" : "QC-JAV000006[00088] For method assign arguments Map&lt;String ,Integer &gt;  partitionsPerTopic|Map&lt;String ,Subscription &gt;  subscriptions"
 }} 
 ,
 { "ligne" : {"" : ""

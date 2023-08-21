@@ -197,7 +197,7 @@ var maDataBlocs = {
  , "c1" : "00069"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicConfig.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00069] For method getProperties arguments Map&lt;String,String&gt;  defaultProperties|long  additionalRetentionMs"
+ , "c3" : "QC-JAV000006[00069] For method getProperties arguments Map&lt;String ,String &gt;  defaultProperties|long  additionalRetentionMs"
 }} 
 ,
 { "ligne" : {"" : ""

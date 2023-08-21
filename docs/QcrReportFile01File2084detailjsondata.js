@@ -410,7 +410,7 @@ var maDataBlocs = {
  , "c1" : "00159"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#159"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00159] For method setFlushListener arguments CacheFlushListener&lt;Windowed&lt;K&gt;,V&gt;  listener|boolean  sendOldValues"
+ , "c3" : "QC-JAV000006[00159] For method setFlushListener arguments CacheFlushListener&lt;Windowed&lt;K &gt; ,V &gt;  listener|boolean  sendOldValues"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -459,7 +459,7 @@ var maDataBlocs = {
  , "c1" : "00177"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#177"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00177] For method put arguments Windowed&lt;K&gt;  sessionKey|V  aggregate"
+ , "c3" : "QC-JAV000006[00177] For method put arguments Windowed&lt;K &gt;  sessionKey|V  aggregate"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -494,7 +494,7 @@ var maDataBlocs = {
  , "c1" : "00200"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredSessionStore.java.html#200"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00200] For method remove arguments Windowed&lt;K&gt;  sessionKey"
+ , "c3" : "QC-JAV000006[00200] For method remove arguments Windowed&lt;K &gt;  sessionKey"
 }} 
 ,
 { "ligne" : {"" : ""

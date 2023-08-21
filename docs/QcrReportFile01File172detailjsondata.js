@@ -212,7 +212,7 @@ var maDataBlocs = {
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00072] For method validateKeys arguments Set&lt;CoordinatorKey&gt;  groupIds"
+ , "c3" : "QC-JAV000006[00072] For method validateKeys arguments Set&lt;CoordinatorKey &gt;  groupIds"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -247,14 +247,14 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#82"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00082] For method buildBatchedRequest arguments int  coordinatorId|Set&lt;CoordinatorKey&gt;  groupIds"
+ , "c3" : "QC-JAV000006[00082] For method buildBatchedRequest arguments int  coordinatorId|Set&lt;CoordinatorKey &gt;  groupIds"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method handleResponse arguments Node  coordinator|Set&lt;CoordinatorKey&gt;  groupIds|AbstractResponse  abstractResponse"
+ , "c3" : "QC-JAV000006[00088] For method handleResponse arguments Node  coordinator|Set&lt;CoordinatorKey &gt;  groupIds|AbstractResponse  abstractResponse"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -268,7 +268,7 @@ var maDataBlocs = {
  , "c1" : "00117"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#117"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00117] For method handleGroupError arguments CoordinatorKey  groupId|Errors  error|Map&lt;CoordinatorKey,Throwable&gt;  failed|Set&lt;CoordinatorKey&gt;  groupsToUnmap"
+ , "c3" : "QC-JAV000006[00117] For method handleGroupError arguments CoordinatorKey  groupId|Errors  error|Map&lt;CoordinatorKey ,Throwable &gt;  failed|Set&lt;CoordinatorKey &gt;  groupsToUnmap"
 }} 
 ,
 { "ligne" : {"" : ""

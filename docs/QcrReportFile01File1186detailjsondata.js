@@ -165,28 +165,28 @@ var maDataBlocs = {
  , "c1" : "00041"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceConnector.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method initialize arguments ConnectorContext  ctx|List&lt;Map&lt;String,String&gt;&gt;  taskConfigs"
+ , "c3" : "QC-JAV000006[00041] For method initialize arguments ConnectorContext  ctx|List&lt;Map&lt;String ,String &gt; &gt;  taskConfigs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00046"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceConnector.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method reconfigure arguments Map&lt;String,String&gt;  props"
+ , "c3" : "QC-JAV000006[00046] For method reconfigure arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceConnector.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00051] For method validate arguments Map&lt;String,String&gt;  connectorConfigs"
+ , "c3" : "QC-JAV000006[00051] For method validate arguments Map&lt;String ,String &gt;  connectorConfigs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceConnector.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00061] For method start arguments Map&lt;String,String&gt;  props"
+ , "c3" : "QC-JAV000006[00061] For method start arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""

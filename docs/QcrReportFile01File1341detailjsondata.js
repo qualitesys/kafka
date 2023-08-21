@@ -514,7 +514,7 @@ var maDataBlocs = {
  , "c1" : "00155"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#155"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00155] For method read arguments long  highestOffset|int  highestEpoch|Iterator&lt;List&lt;ApiMessageAndVersion&gt;&gt;  reader"
+ , "c3" : "QC-JAV000006[00155] For method read arguments long  highestOffset|int  highestEpoch|Iterator&lt;List&lt;ApiMessageAndVersion &gt; &gt;  reader"
 }} 
 ,
 { "ligne" : {"" : ""

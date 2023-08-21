@@ -245,7 +245,7 @@ var maDataBlocs = {
  , "c1" : "00136"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#136"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00136] For method mergeWith arguments String  newClusterId|Map&lt;Integer,Node&gt;  newNodes|Collection&lt;PartitionMetadata&gt;  addPartitions|Set&lt;String&gt;  addUnauthorizedTopics|Set&lt;String&gt;  addInvalidTopics|Set&lt;String&gt;  addInternalTopics|Node  newController|Map&lt;String,Uuid&gt;  topicIds|BiPredicate&lt;String,Boolean&gt;  retainTopic"
+ , "c3" : "QC-JAV000006[00136] For method mergeWith arguments String  newClusterId|Map&lt;Integer ,Node &gt;  newNodes|Collection&lt;PartitionMetadata &gt;  addPartitions|Set&lt;String &gt;  addUnauthorizedTopics|Set&lt;String &gt;  addInvalidTopics|Set&lt;String &gt;  addInternalTopics|Node  newController|Map&lt;String ,Uuid &gt;  topicIds|BiPredicate&lt;String ,Boolean &gt;  retainTopic"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -294,7 +294,7 @@ var maDataBlocs = {
  , "c1" : "00208"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#208"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00208] For method bootstrap arguments List&lt;InetSocketAddress&gt;  addresses"
+ , "c3" : "QC-JAV000006[00208] For method bootstrap arguments List&lt;InetSocketAddress &gt;  addresses"
 }} 
 ,
 { "ligne" : {"" : ""

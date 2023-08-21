@@ -226,14 +226,14 @@ var maDataBlocs = {
  , "c1" : "00161"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#161"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00161] For method withJoinThisProcessorParameters arguments ProcessorParameters&lt;K,Change&lt;V1&gt;,?,?&gt;  joinThisProcessorParameters"
+ , "c3" : "QC-JAV000006[00161] For method withJoinThisProcessorParameters arguments ProcessorParameters&lt;K ,Change&lt;V1 &gt; ,? ,? &gt;  joinThisProcessorParameters"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00166"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#166"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00166] For method withJoinOtherProcessorParameters arguments ProcessorParameters&lt;K,Change&lt;V2&gt;,?,?&gt;  joinOtherProcessorParameters"
+ , "c3" : "QC-JAV000006[00166] For method withJoinOtherProcessorParameters arguments ProcessorParameters&lt;K ,Change&lt;V2 &gt; ,? ,? &gt;  joinOtherProcessorParameters"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -254,14 +254,14 @@ var maDataBlocs = {
  , "c1" : "00181"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#181"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00181] For method withKeySerde arguments Serde&lt;K&gt;  keySerde"
+ , "c3" : "QC-JAV000006[00181] For method withKeySerde arguments Serde&lt;K &gt;  keySerde"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00186"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#186"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00186] For method withValueSerde arguments Serde&lt;VR&gt;  valueSerde"
+ , "c3" : "QC-JAV000006[00186] For method withValueSerde arguments Serde&lt;VR &gt;  valueSerde"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -289,7 +289,7 @@ var maDataBlocs = {
  , "c1" : "00206"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/KTableKTableJoinNode.java.html#206"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00206] For method withStoreBuilder arguments StoreBuilder&lt;TimestampedKeyValueStore&lt;K,VR&gt;&gt;  storeBuilder"
+ , "c3" : "QC-JAV000006[00206] For method withStoreBuilder arguments StoreBuilder&lt;TimestampedKeyValueStore&lt;K ,VR &gt; &gt;  storeBuilder"
 }} 
 ]
 , 

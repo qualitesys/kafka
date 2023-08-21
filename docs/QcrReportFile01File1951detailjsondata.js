@@ -599,7 +599,7 @@ var maDataBlocs = {
  , "c1" : "00237"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#237"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00237] For method encodeHostPartitionMapUsingDictionary arguments DataOutputStream  out|Map&lt;String,Integer&gt;  topicNameDict|Map&lt;HostInfo,Set&lt;TopicPartition&gt;&gt;  hostPartitionMap"
+ , "c3" : "QC-JAV000006[00237] For method encodeHostPartitionMapUsingDictionary arguments DataOutputStream  out|Map&lt;String ,Integer &gt;  topicNameDict|Map&lt;HostInfo ,Set&lt;TopicPartition &gt; &gt;  hostPartitionMap"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -634,7 +634,7 @@ var maDataBlocs = {
  , "c1" : "00254"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#254"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00254] For method encodeTopicDictionaryAndGet arguments DataOutputStream  out|Set&lt;TopicPartition&gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00254] For method encodeTopicDictionaryAndGet arguments DataOutputStream  out|Set&lt;TopicPartition &gt;  topicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -704,7 +704,7 @@ var maDataBlocs = {
  , "c1" : "00296"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#296"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00296] For method writeTopicPartitions arguments DataOutputStream  out|Set&lt;TopicPartition&gt;  partitions"
+ , "c3" : "QC-JAV000006[00296] For method writeTopicPartitions arguments DataOutputStream  out|Set&lt;TopicPartition &gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1019,7 +1019,7 @@ var maDataBlocs = {
  , "c1" : "00434"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#434"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00434] For method decodeHostPartitionMapUsingDictionary arguments DataInputStream  in|Map&lt;Integer,String&gt;  topicIndexDict"
+ , "c3" : "QC-JAV000006[00434] For method decodeHostPartitionMapUsingDictionary arguments DataInputStream  in|Map&lt;Integer ,String &gt;  topicIndexDict"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1096,7 +1096,7 @@ var maDataBlocs = {
  , "c1" : "00458"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/AssignmentInfo.java.html#458"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00458] For method readTopicPartitions arguments DataInputStream  in|Map&lt;Integer,String&gt;  topicIndexDict"
+ , "c3" : "QC-JAV000006[00458] For method readTopicPartitions arguments DataInputStream  in|Map&lt;Integer ,String &gt;  topicIndexDict"
 }} 
 ,
 { "ligne" : {"" : ""

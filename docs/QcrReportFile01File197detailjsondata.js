@@ -187,7 +187,7 @@ var maDataBlocs = {
  , "c1" : "00210"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#210"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00210] For method subscriptionUserData arguments Set&lt;String&gt;  topics"
+ , "c3" : "QC-JAV000006[00210] For method subscriptionUserData arguments Set&lt;String &gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""

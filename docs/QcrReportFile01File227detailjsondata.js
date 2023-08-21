@@ -211,7 +211,7 @@ var maDataBlocs = {
  , "c1" : "00481"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#481"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00481] For method postProcessParsedConfig arguments Map&lt;String,Object&gt;  parsedValues"
+ , "c3" : "QC-JAV000006[00481] For method postProcessParsedConfig arguments Map&lt;String ,Object &gt;  parsedValues"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -225,7 +225,7 @@ var maDataBlocs = {
  , "c1" : "00489"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#489"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00489] For method maybeOverrideClientId arguments Map&lt;String,Object&gt;  configs"
+ , "c3" : "QC-JAV000006[00489] For method maybeOverrideClientId arguments Map&lt;String ,Object &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -253,7 +253,7 @@ var maDataBlocs = {
  , "c1" : "00501"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#501"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00501] For method postProcessAndValidateIdempotenceConfigs arguments Map&lt;String,Object&gt;  configs"
+ , "c3" : "QC-JAV000006[00501] For method postProcessAndValidateIdempotenceConfigs arguments Map&lt;String ,Object &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -470,7 +470,7 @@ var maDataBlocs = {
  , "c1" : "00562"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#562"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00562] For method appendSerializerToConfig arguments Map&lt;String,Object&gt;  configs|Serializer&lt;?&gt;  keySerializer|Serializer&lt;?&gt;  valueSerializer"
+ , "c3" : "QC-JAV000006[00562] For method appendSerializerToConfig arguments Map&lt;String ,Object &gt;  configs|Serializer&lt;? &gt;  keySerializer|Serializer&lt;? &gt;  valueSerializer"
 }} 
 ,
 { "ligne" : {"" : ""

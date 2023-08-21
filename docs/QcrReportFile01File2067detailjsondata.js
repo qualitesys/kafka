@@ -309,7 +309,7 @@ var maDataBlocs = {
  , "c1" : "00074"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueToTimestampedKeyValueByteStoreAdapter.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00074] For method putAll arguments List&lt;KeyValue&lt;Bytes,byte[]&gt;&gt;  entries"
+ , "c3" : "QC-JAV000006[00074] For method putAll arguments List&lt;KeyValue&lt;Bytes ,byte[] &gt; &gt;  entries"
 }} 
 ,
 { "ligne" : {"" : ""

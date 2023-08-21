@@ -220,7 +220,7 @@ var maDataBlocs = {
  , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsResult.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method ofTopicIds arguments Map&lt;Uuid,KafkaFuture&lt;TopicDescription&gt;&gt;  topicIdFutures"
+ , "c3" : "QC-JAV000006[00055] For method ofTopicIds arguments Map&lt;Uuid ,KafkaFuture&lt;TopicDescription &gt; &gt;  topicIdFutures"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -234,7 +234,7 @@ var maDataBlocs = {
  , "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/DescribeTopicsResult.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00059] For method ofTopicNames arguments Map&lt;String,KafkaFuture&lt;TopicDescription&gt;&gt;  nameFutures"
+ , "c3" : "QC-JAV000006[00059] For method ofTopicNames arguments Map&lt;String ,KafkaFuture&lt;TopicDescription &gt; &gt;  nameFutures"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -478,7 +478,7 @@ var maDataBlocs = {
  , "c1" : "00172"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WindowKeySchema.java.html#172"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00172] For method toStoreKeyBinary arguments Windowed&lt;Bytes&gt;  timeKey|int  seqnum"
+ , "c3" : "QC-JAV000006[00172] For method toStoreKeyBinary arguments Windowed&lt;Bytes &gt;  timeKey|int  seqnum"
 }} 
 ,
 { "ligne" : {"" : ""

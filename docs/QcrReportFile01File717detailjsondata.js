@@ -154,7 +154,7 @@ var maDataBlocs = {
  , "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RequestUtils.java.html#50"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method flag arguments ProduceRequest  request|Predicate&lt;RecordBatch&gt;  predicate"
+ , "c3" : "QC-JAV000006[00050] For method flag arguments ProduceRequest  request|Predicate&lt;RecordBatch &gt;  predicate"
 }} 
 ,
 { "ligne" : {"" : ""

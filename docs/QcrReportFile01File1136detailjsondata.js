@@ -323,7 +323,7 @@ var maDataBlocs = {
  , "c1" : "00063"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00063] For method newDelegatingClassLoader arguments List&lt;String&gt;  paths"
+ , "c3" : "QC-JAV000006[00063] For method newDelegatingClassLoader arguments List&lt;String &gt;  paths"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -554,7 +554,7 @@ var maDataBlocs = {
  , "c1" : "00239"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#239"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00239] For method newTask arguments Class&lt;?extendsTask&gt;  taskClass"
+ , "c3" : "QC-JAV000006[00239] For method newTask arguments Class&lt;?  extends Task &gt;  taskClass"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -659,7 +659,7 @@ var maDataBlocs = {
  , "c1" : "00313"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#313"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00313] For method newInternalConverter arguments boolean  isKey|String  className|Map&lt;String,String&gt;  converterConfig"
+ , "c3" : "QC-JAV000006[00313] For method newInternalConverter arguments boolean  isKey|String  className|Map&lt;String ,String &gt;  converterConfig"
 }} 
 ,
 { "ligne" : {"" : ""

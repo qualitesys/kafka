@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1234px" preserveAspectRatio="none" style="width:953px;height:1234px;background:#FFFFFF;" version="1.1" viewBox="0 0 953 1234" width="953px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="603" x="5" y="16.1387">An error has occured : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="285" x="5" y="30.1074">Tu aurais vraiment du choisir un autre metier.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="44.0762"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="280" x="5" y="58.0449">Diagram size: 1256 lines / 31575 characters.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="72.0137"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="374" x="5" y="85.9824">PlantUML (1.2022.7) cannot parse result from dot/GraphViz.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="99.9512"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="390" x="5" y="113.9199">This version of PlantUML is 363 days old, so you should</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="398" x="5" y="127.8887">consider upgrading from https://plantuml.com/download</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="141.8574"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="492" x="5" y="155.8262">Please go to https://plantuml.com/graphviz-dot to check your GraphViz version.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="169.7949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="277" x="5" y="183.7637">Java Runtime: OpenJDK Runtime Environment</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="187" x="5" y="197.7324">JVM: OpenJDK 64-Bit Server VM</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="211.7012">Default Encoding: UTF-8</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="5" y="225.6699">Language: en</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="5" y="239.6387">Country: null</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="253.6074"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="172" x="5" y="267.5762">PLANTUML_LIMIT_SIZE: 4096</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="281.5449"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="295.5137">This may be caused by :</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="9" y="309.4824">- a bug in PlantUML</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="144" x="9" y="323.4512">- a problem in GraphViz</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="337.4199"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="300" x="5" y="351.3887">You should send this diagram and this image to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="145" x="309" y="351.3887">plantuml@gmail.com</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="13" x="458" y="351.3887">or</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="5" y="365.3574">post to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="168" x="54" y="365.3574">https://plantuml.com/qa</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="117" x="226" y="365.3574">to solve this issue.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="405" x="5" y="379.3262">You can try to turn arround this issue by simplifing your diagram.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="393.2949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="458" x="5" y="407.2637">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="477" x="13" y="421.2324">java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="548" x="13" y="435.2012">java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="474" x="13" y="449.1699">java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="351" x="13" y="463.1387">java.base/java.util.Objects.checkIndex(Objects.java:372)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="314" x="13" y="477.1074">java.base/java.util.ArrayList.get(ArrayList.java:459)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="878" x="13" y="491.0762">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createWithLinks(FtileFactoryDelegatorSwitch.java:103)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="852" x="13" y="505.0449">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createSwitch(FtileFactoryDelegatorSwitch.java:79)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="519.0137">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="532.9824">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="546.9512">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="560.9199">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="574.8887">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="588.8574">net.sourceforge.plantuml.activitydiagram3.InstructionSwitch.createFtile(InstructionSwitch.java:119)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="13" y="602.8262">net.sourceforge.plantuml.activitydiagram3.InstructionList.createFtile(InstructionList.java:131)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="499" x="13" y="616.7949">net.sourceforge.plantuml.activitydiagram3.Branch.updateFtile(Branch.java:130)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="630.7637">net.sourceforge.plantuml.activitydiagram3.InstructionSwitch.createFtile(InstructionSwitch.java:117)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="13" y="644.7324">net.sourceforge.plantuml.activitydiagram3.InstructionList.createFtile(InstructionList.java:131)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="536" x="13" y="658.7012">net.sourceforge.plantuml.activitydiagram3.ftile.Swimlanes.drawU(Swimlanes.java:229)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="805" x="13" y="672.6699">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.getPiecewiseAffineTransform(CompressionXorYBuilder.java:51)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="655" x="13" y="686.6387">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.build(CompressionXorYBuilder.java:44)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="686" x="13" y="700.6074">net.sourceforge.plantuml.activitydiagram3.ActivityDiagram3.exportDiagramInternal(ActivityDiagram3.java:210)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="714.5762">net.sourceforge.plantuml.UmlDiagram.exportDiagramNow(UmlDiagram.java:135)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="538" x="13" y="728.5449">net.sourceforge.plantuml.AbstractPSystem.exportDiagram(AbstractPSystem.java:178)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="742.5137">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:172)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="756.4824">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="693" x="13" y="770.4512">com.qualitesys.qcrmavenplugin.commun.QcrCommunPlantUml.genererFichierSvg(QcrCommunPlantUml.java:82)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="585" x="13" y="784.4199">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lireFichier(QcrReporting01Mojo.java:927)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="556" x="13" y="798.3887">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lister(QcrReporting01Mojo.java:453)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="591" x="13" y="812.3574">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.doReport(QcrReporting01Mojo.java:2037)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="625" x="13" y="826.3262">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.executeReport(QcrReporting01Mojo.java:1739)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="582" x="13" y="840.2949">org.apache.maven.reporting.AbstractMavenReport.generate(AbstractMavenReport.java:251)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="748" x="13" y="854.2637">org.apache.maven.plugins.site.render.ReportDocumentRenderer.renderDocument(ReportDocumentRenderer.java:226)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="607" x="13" y="868.2324">org.apache.maven.doxia.siterenderer.DefaultSiteRenderer.render(DefaultSiteRenderer.java:348)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="882.2012">org.apache.maven.plugins.site.render.SiteMojo.renderLocale(SiteMojo.java:194)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="470" x="13" y="896.1699">org.apache.maven.plugins.site.render.SiteMojo.execute(SiteMojo.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="649" x="13" y="910.1387">org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="924.1074">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:370)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="531" x="13" y="938.0762">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:351)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="952.0449">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:215)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="966.0137">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:171)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="979.9824">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:163)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="651" x="13" y="993.9512">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="643" x="13" y="1007.9199">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="747" x="13" y="1021.8887">org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="1035.8574">org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1049.8262">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:299)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1063.7949">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="412" x="13" y="1077.7637">org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="367" x="13" y="1091.7324">org.apache.maven.cli.MavenCli.execute(MavenCli.java:963)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="362" x="13" y="1105.7012">org.apache.maven.cli.MavenCli.doMain(MavenCli.java:296)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="347" x="13" y="1119.6699">org.apache.maven.cli.MavenCli.main(MavenCli.java:199)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="1133.6387">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="1147.6074">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="679" x="13" y="1161.5762">java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="373" x="13" y="1175.5449">java.base/java.lang.reflect.Method.invoke(Method.java:566)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="562" x="13" y="1189.5137">org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="499" x="13" y="1203.4824">org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="568" x="13" y="1217.4512">org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="487" x="13" y="1231.4199">org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)</text><image height="16" width="33" x="920" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAQCAYAAACYwhZnAAAAaUlEQVR4Xu2R4QqAIAyEJXpE8SHDRxytbkToCNpG/dsHByre7dBSkiRx0peVIVlvnaPSWWZgoFZF2NNOHJX4ryxzkdroNnz9EhDy54kP4NJowpkO9kj83hLgzxLzpBdGUz2/JyqdlSQWDs7DUvJ8WiLtAAAAAElFTkSuQmCC" y="6"/><!--MD5=[8186376e1f32f44dcd4a2c62a62e6d34]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1234px" preserveAspectRatio="none" style="width:937px;height:1234px;background:#FFFFFF;" version="1.1" viewBox="0 0 937 1234" width="937px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="603" x="5" y="16.1387">An error has occured : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="312" x="5" y="30.1074">Et rien vraiment ne change mais tout est different</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="44.0762"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="280" x="5" y="58.0449">Diagram size: 1246 lines / 31127 characters.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="72.0137"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="374" x="5" y="85.9824">PlantUML (1.2022.7) cannot parse result from dot/GraphViz.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="99.9512"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="390" x="5" y="113.9199">This version of PlantUML is 364 days old, so you should</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="398" x="5" y="127.8887">consider upgrading from https://plantuml.com/download</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="141.8574"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="492" x="5" y="155.8262">Please go to https://plantuml.com/graphviz-dot to check your GraphViz version.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="169.7949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="277" x="5" y="183.7637">Java Runtime: OpenJDK Runtime Environment</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="187" x="5" y="197.7324">JVM: OpenJDK 64-Bit Server VM</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="211.7012">Default Encoding: UTF-8</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="5" y="225.6699">Language: en</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="5" y="239.6387">Country: null</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="253.6074"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="172" x="5" y="267.5762">PLANTUML_LIMIT_SIZE: 4096</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="281.5449"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="295.5137">This may be caused by :</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="9" y="309.4824">- a bug in PlantUML</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="144" x="9" y="323.4512">- a problem in GraphViz</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="337.4199"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="300" x="5" y="351.3887">You should send this diagram and this image to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="145" x="309" y="351.3887">plantuml@gmail.com</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="13" x="458" y="351.3887">or</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="5" y="365.3574">post to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="168" x="54" y="365.3574">https://plantuml.com/qa</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="117" x="226" y="365.3574">to solve this issue.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="405" x="5" y="379.3262">You can try to turn arround this issue by simplifing your diagram.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="393.2949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="458" x="5" y="407.2637">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="477" x="13" y="421.2324">java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="548" x="13" y="435.2012">java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="474" x="13" y="449.1699">java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="351" x="13" y="463.1387">java.base/java.util.Objects.checkIndex(Objects.java:372)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="314" x="13" y="477.1074">java.base/java.util.ArrayList.get(ArrayList.java:459)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="878" x="13" y="491.0762">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createWithLinks(FtileFactoryDelegatorSwitch.java:103)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="852" x="13" y="505.0449">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createSwitch(FtileFactoryDelegatorSwitch.java:79)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="519.0137">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="532.9824">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="546.9512">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="560.9199">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="574.8887">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="588.8574">net.sourceforge.plantuml.activitydiagram3.InstructionSwitch.createFtile(InstructionSwitch.java:119)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="13" y="602.8262">net.sourceforge.plantuml.activitydiagram3.InstructionList.createFtile(InstructionList.java:131)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="499" x="13" y="616.7949">net.sourceforge.plantuml.activitydiagram3.Branch.updateFtile(Branch.java:130)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="630.7637">net.sourceforge.plantuml.activitydiagram3.InstructionSwitch.createFtile(InstructionSwitch.java:117)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="13" y="644.7324">net.sourceforge.plantuml.activitydiagram3.InstructionList.createFtile(InstructionList.java:131)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="536" x="13" y="658.7012">net.sourceforge.plantuml.activitydiagram3.ftile.Swimlanes.drawU(Swimlanes.java:229)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="805" x="13" y="672.6699">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.getPiecewiseAffineTransform(CompressionXorYBuilder.java:51)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="655" x="13" y="686.6387">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.build(CompressionXorYBuilder.java:44)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="686" x="13" y="700.6074">net.sourceforge.plantuml.activitydiagram3.ActivityDiagram3.exportDiagramInternal(ActivityDiagram3.java:210)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="714.5762">net.sourceforge.plantuml.UmlDiagram.exportDiagramNow(UmlDiagram.java:135)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="538" x="13" y="728.5449">net.sourceforge.plantuml.AbstractPSystem.exportDiagram(AbstractPSystem.java:178)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="742.5137">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:172)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="756.4824">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="693" x="13" y="770.4512">com.qualitesys.qcrmavenplugin.commun.QcrCommunPlantUml.genererFichierSvg(QcrCommunPlantUml.java:82)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="585" x="13" y="784.4199">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lireFichier(QcrReporting01Mojo.java:927)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="556" x="13" y="798.3887">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lister(QcrReporting01Mojo.java:453)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="591" x="13" y="812.3574">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.doReport(QcrReporting01Mojo.java:2037)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="625" x="13" y="826.3262">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.executeReport(QcrReporting01Mojo.java:1739)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="582" x="13" y="840.2949">org.apache.maven.reporting.AbstractMavenReport.generate(AbstractMavenReport.java:251)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="748" x="13" y="854.2637">org.apache.maven.plugins.site.render.ReportDocumentRenderer.renderDocument(ReportDocumentRenderer.java:226)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="607" x="13" y="868.2324">org.apache.maven.doxia.siterenderer.DefaultSiteRenderer.render(DefaultSiteRenderer.java:348)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="882.2012">org.apache.maven.plugins.site.render.SiteMojo.renderLocale(SiteMojo.java:194)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="470" x="13" y="896.1699">org.apache.maven.plugins.site.render.SiteMojo.execute(SiteMojo.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="649" x="13" y="910.1387">org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="924.1074">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:370)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="531" x="13" y="938.0762">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:351)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="952.0449">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:215)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="966.0137">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:171)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="979.9824">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:163)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="651" x="13" y="993.9512">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="643" x="13" y="1007.9199">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="747" x="13" y="1021.8887">org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="1035.8574">org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1049.8262">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:299)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1063.7949">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="412" x="13" y="1077.7637">org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="367" x="13" y="1091.7324">org.apache.maven.cli.MavenCli.execute(MavenCli.java:963)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="362" x="13" y="1105.7012">org.apache.maven.cli.MavenCli.doMain(MavenCli.java:296)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="347" x="13" y="1119.6699">org.apache.maven.cli.MavenCli.main(MavenCli.java:199)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="1133.6387">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="1147.6074">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="679" x="13" y="1161.5762">java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="373" x="13" y="1175.5449">java.base/java.lang.reflect.Method.invoke(Method.java:566)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="562" x="13" y="1189.5137">org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="499" x="13" y="1203.4824">org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="568" x="13" y="1217.4512">org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="487" x="13" y="1231.4199">org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)</text><image height="20" width="17" x="920" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAUCAYAAABroNZJAAAAi0lEQVR4Xu2PwQ2AIAxF2cKTc3jy5MkVHIENHEEH9vqlGAh8itFw1Jc0hPpfi8Z8Czi494gNE3YMWNHLDH/KXfqcVYEsd7VghHWiPTp/yj18YycjhNKa3fasd/1ffVAaKor67EZUqTKU3QgHi0oGspvBYe0l7BSwoBU7KlFQXsTZW3j76wEpTfJPGye1ptbrvRg5swAAAABJRU5ErkJggg==" y="6"/><!--MD5=[060d7e876014bafd181c90cc2302a550]
 @startuml
 !pragma layout smetana
 start
@@ -11,7 +11,7 @@ end note
 end
 start
 note right
-constructor ConfigDef(ConfigDef base)
+constructor ConfigDef(ConfigDefbase)
 end note
 :configKeys=new LinkedHashMap<>(base.configKeys);;
 :groups=new LinkedList<>(base.groups);;
@@ -19,16 +19,16 @@ end note
 end
 start
 note right
-Set<String> names()
+Set<String>names()
 end note
 :return Collections.unmodifiableSet(configKeys.keySet());;
 stop
 end
 start
 note right
-Map<String,Object> defaultValues()
+Map<String,Object>defaultValues()
 end note
-:Map<String,Object> defaultValues=new HashMap<>();;
+:Map<String,Object>defaultValues=new HashMap<>();;
 if (key.defaultValue!=NO_DEFAULT_VALUE) then (yes) 
 :defaultValues.put(key.name,key.defaultValue);;
 endif 
@@ -37,7 +37,7 @@ stop
 end
 start
 note right
-ConfigDef define(ConfigKey key)
+ConfigDefdefine(ConfigKeykey)
 end note
 if (configKeys.containsKey(key.name)) then (yes) 
 :throw new ConfigException("Configuration "+
@@ -53,11 +53,10 @@ stop
 end
 start
 note right
-ConfigDef define(String name,Type type,Object defaultValue,
-Validator validator,Importance importance,
-String documentation,String group,int orderInGroup,
-Width width,String displayName,List<String> dependents,
-Recommender recommender)
+ConfigDefdefine(Stringname,Typetype,ObjectdefaultValue,
+Validatorvalidator,Importanceimportance,Stringdocumentation,
+Stringgroup,intorderInGroup,Widthwidth,StringdisplayName,
+List<String>dependents,Recommenderrecommender)
 end note
 :return define(new ConfigKey(name,type,defaultValue,
 validator,importance,documentation,group,
@@ -67,10 +66,10 @@ stop
 end
 start
 note right
-ConfigDef define(String name,Type type,Object defaultValue,
-Validator validator,Importance importance,
-String documentation,String group,int orderInGroup,
-Width width,String displayName,List<String> dependents)
+ConfigDefdefine(Stringname,Typetype,ObjectdefaultValue,
+Validatorvalidator,Importanceimportance,Stringdocumentation,
+Stringgroup,intorderInGroup,Widthwidth,StringdisplayName,
+List<String>dependents)
 end note
 :return define(name,type,defaultValue,validator,
 importance,documentation,group,orderInGroup,
@@ -79,10 +78,10 @@ stop
 end
 start
 note right
-ConfigDef define(String name,Type type,Object defaultValue,
-Validator validator,Importance importance,
-String documentation,String group,int orderInGroup,
-Width width,String displayName,Recommender recommender)
+ConfigDefdefine(Stringname,Typetype,ObjectdefaultValue,
+Validatorvalidator,Importanceimportance,Stringdocumentation,
+Stringgroup,intorderInGroup,Widthwidth,StringdisplayName,
+Recommenderrecommender)
 end note
 :return define(name,type,defaultValue,validator,
 importance,documentation,group,orderInGroup,
@@ -92,23 +91,21 @@ stop
 end
 start
 note right
-ConfigDef define(String name,Type type,Object defaultValue,
-Validator validator,Importance importance,
-String documentation,String group,int orderInGroup,
-Width width,String displayName)
+ConfigDefdefine(Stringname,Typetype,ObjectdefaultValue,
+Validatorvalidator,Importanceimportance,Stringdocumentation,
+Stringgroup,intorderInGroup,Widthwidth,StringdisplayName)
 end note
 :return define(name,type,defaultValue,validator,
 importance,documentation,group,orderInGroup,
-width,displayName,Collections.<String >emptyList());;
+width,displayName,Collections.<String>emptyList());;
 stop
 end
 start
 note right
-ConfigDef define(String name,Type type,Object defaultValue,
-Importance importance,String documentation,
-String group,int orderInGroup,Width width,
-String displayName,List<String> dependents,
-Recommender recommender)
+ConfigDefdefine(Stringname,Typetype,ObjectdefaultValue,
+Importanceimportance,Stringdocumentation,
+Stringgroup,intorderInGroup,Widthwidth,StringdisplayName,
+List<String>dependents,Recommenderrecommender)
 end note
 :return define(name,type,defaultValue,null ,
 importance,documentation,group,orderInGroup,
@@ -117,10 +114,10 @@ stop
 end
 start
 note right
-ConfigDef define(String name,Type type,Object defaultValue,
-Importance importance,String documentation,
-String group,int orderInGroup,Width width,
-String displayName,List<String> dependents)
+ConfigDefdefine(Stringname,Typetype,ObjectdefaultValue,
+Importanceimportance,Stringdocumentation,
+Stringgroup,intorderInGroup,Widthwidth,StringdisplayName,
+List<String>dependents)
 end note
 :return define(name,type,defaultValue,null ,
 importance,documentation,group,orderInGroup,
@@ -129,10 +126,10 @@ stop
 end
 start
 note right
-ConfigDef define(String name,Type type,Object defaultValue,
-Importance importance,String documentation,
-String group,int orderInGroup,Width width,
-String displayName,Recommender recommender)
+ConfigDefdefine(Stringname,Typetype,ObjectdefaultValue,
+Importanceimportance,Stringdocumentation,
+Stringgroup,intorderInGroup,Widthwidth,StringdisplayName,
+Recommenderrecommender)
 end note
 :return define(name,type,defaultValue,null ,
 importance,documentation,group,orderInGroup,
@@ -142,22 +139,21 @@ stop
 end
 start
 note right
-ConfigDef define(String name,Type type,Object defaultValue,
-Importance importance,String documentation,
-String group,int orderInGroup,Width width,
-String displayName)
+ConfigDefdefine(Stringname,Typetype,ObjectdefaultValue,
+Importanceimportance,Stringdocumentation,
+Stringgroup,intorderInGroup,Widthwidth,StringdisplayName)
 end note
 :return define(name,type,defaultValue,null ,
 importance,documentation,group,orderInGroup,
-width,displayName,Collections.<String >emptyList());;
+width,displayName,Collections.<String>emptyList());;
 stop
 end
 start
 note right
-ConfigDef define(String name,Type type,Importance importance,
-String documentation,String group,int orderInGroup,
-Width width,String displayName,List<String> dependents,
-Recommender recommender)
+ConfigDefdefine(Stringname,Typetype,Importanceimportance,
+Stringdocumentation,Stringgroup,intorderInGroup,
+Widthwidth,StringdisplayName,List<String>dependents,
+Recommenderrecommender)
 end note
 :return define(name,type,NO_DEFAULT_VALUE,
 null ,importance,documentation,group,orderInGroup,
@@ -166,9 +162,9 @@ stop
 end
 start
 note right
-ConfigDef define(String name,Type type,Importance importance,
-String documentation,String group,int orderInGroup,
-Width width,String displayName,List<String> dependents)
+ConfigDefdefine(Stringname,Typetype,Importanceimportance,
+Stringdocumentation,Stringgroup,intorderInGroup,
+Widthwidth,StringdisplayName,List<String>dependents)
 end note
 :return define(name,type,NO_DEFAULT_VALUE,
 null ,importance,documentation,group,orderInGroup,
@@ -177,9 +173,9 @@ stop
 end
 start
 note right
-ConfigDef define(String name,Type type,Importance importance,
-String documentation,String group,int orderInGroup,
-Width width,String displayName,Recommender recommender)
+ConfigDefdefine(Stringname,Typetype,Importanceimportance,
+Stringdocumentation,Stringgroup,intorderInGroup,
+Widthwidth,StringdisplayName,Recommenderrecommender)
 end note
 :return define(name,type,NO_DEFAULT_VALUE,
 null ,importance,documentation,group,orderInGroup,
@@ -189,20 +185,19 @@ stop
 end
 start
 note right
-ConfigDef define(String name,Type type,Importance importance,
-String documentation,String group,int orderInGroup,
-Width width,String displayName)
+ConfigDefdefine(Stringname,Typetype,Importanceimportance,
+Stringdocumentation,Stringgroup,intorderInGroup,
+Widthwidth,StringdisplayName)
 end note
 :return define(name,type,NO_DEFAULT_VALUE,
 null ,importance,documentation,group,orderInGroup,
-width,displayName,Collections.<String >emptyList());;
+width,displayName,Collections.<String>emptyList());;
 stop
 end
 start
 note right
-ConfigDef define(String name,Type type,Object defaultValue,
-Validator validator,Importance importance,
-String documentation)
+ConfigDefdefine(Stringname,Typetype,ObjectdefaultValue,
+Validatorvalidator,Importanceimportance,Stringdocumentation)
 end note
 :return define(name,type,defaultValue,validator,
 importance,documentation,null ,-1,Width.NONE,
@@ -211,8 +206,8 @@ stop
 end
 start
 note right
-ConfigDef define(String name,Type type,Object defaultValue,
-Importance importance,String documentation)
+ConfigDefdefine(Stringname,Typetype,ObjectdefaultValue,
+Importanceimportance,Stringdocumentation)
 end note
 :return define(name,type,defaultValue,null ,
 importance,documentation);;
@@ -220,8 +215,8 @@ stop
 end
 start
 note right
-ConfigDef define(String name,Type type,Importance importance,
-String documentation)
+ConfigDefdefine(Stringname,Typetype,Importanceimportance,
+Stringdocumentation)
 end note
 :return define(name,type,NO_DEFAULT_VALUE,
 null ,importance,documentation);;
@@ -229,45 +224,43 @@ stop
 end
 start
 note right
-ConfigDef defineInternal(final String name,
-final Type type,final Object defaultValue,
-final Importance importance)
+ConfigDefdefineInternal(final Stringname,
+final Typetype,final ObjectdefaultValue,final Importanceimportance)
 end note
 :return define(new ConfigKey(name,type,defaultValue,
 null ,importance,"","",-1,Width.NONE,name,
-Collections.<String >emptyList(),null ,true));;
+Collections.<String>emptyList(),null ,true));;
 stop
 end
 start
 note right
-ConfigDef defineInternal(final String name,
-final Type type,final Object defaultValue,
-final Validator validator,final Importance importance,
-final String documentation)
+ConfigDefdefineInternal(final Stringname,
+final Typetype,final ObjectdefaultValue,final Validatorvalidator,
+final Importanceimportance,final Stringdocumentation)
 end note
 :return define(new ConfigKey(name,type,defaultValue,
 validator,importance,documentation,"",-1,
-Width.NONE,name,Collections.<String >emptyList(),
+Width.NONE,name,Collections.<String>emptyList(),
 null ,true));;
 stop
 end
 start
 note right
-Map<String,ConfigKey> configKeys()
+Map<String,ConfigKey>configKeys()
 end note
 :return configKeys;;
 stop
 end
 start
 note right
-List<String> groups()
+List<String>groups()
 end note
 :return groups;;
 stop
 end
 start
 note right
-ConfigDef withClientSslSupport()
+ConfigDefwithClientSslSupport()
 end note
 :SslConfigs.addClientSslSupport(this);;
 :return this;;
@@ -275,7 +268,7 @@ stop
 end
 start
 note right
-ConfigDef withClientSaslSupport()
+ConfigDefwithClientSaslSupport()
 end note
 :SaslConfigs.addClientSaslSupport(this);;
 :return this;;
@@ -283,17 +276,17 @@ stop
 end
 start
 note right
-Map<String,Object> parse(Map<?,?> props)
+Map<String,Object>parse(Map<? ,? >props)
 end note
-:List<String> undefinedConfigKeys=undefinedDependentConfigs();;
+:List<String>undefinedConfigKeys=undefinedDependentConfigs();;
 if (!undefinedConfigKeys.isEmpty()) then (yes) 
-:String joined=Utils.join(undefinedConfigKeys,
+:Stringjoined=Utils.join(undefinedConfigKeys,
 ",");;
 :throw new ConfigException("Some configurations in are referred in the dependents, but not defined: "+
 joined);;
 stop
 endif 
-:Map<String,Object> values=new HashMap<>();;
+:Map<String,Object>values=new HashMap<>();;
 :values.put(key.name,parseValue(key,props.get(key.name),
 props.containsKey(key.name)));;
 :return values;;
@@ -301,10 +294,10 @@ stop
 end
 start
 note right
-Object parseValue(ConfigKey key,Object value,
-boolean isSet)
+ObjectparseValue(ConfigKeykey,Objectvalue,
+booleanisSet)
 end note
-:Object parsedValue;;
+:ObjectparsedValue;;
 if (isSet) then (yes) 
 :parsedValue=parseType(key.name,value,key.type);;
 else if (NO_DEFAULT_VALUE.equals(key.defaultValue)) then (yes) 
@@ -322,7 +315,7 @@ stop
 end
 start
 note right
-List<ConfigValue> validate(Map<String,String> props)
+List<ConfigValue>validate(Map<String,String>props)
 end note
 :return new ArrayList<>(validateAll(props)
 .values());;
@@ -330,48 +323,48 @@ stop
 end
 start
 note right
-Map<String,ConfigValue> validateAll(Map<String,
-String> props)
+Map<String,ConfigValue>validateAll(Map<String,
+String>props)
 end note
-:Map<String,ConfigValue> configValues=new HashMap<>();;
+:Map<String,ConfigValue>configValues=new HashMap<>();;
 :configValues.put(name,new ConfigValue(name));;
-:List<String> undefinedConfigKeys=undefinedDependentConfigs();;
-:ConfigValue undefinedConfigValue=new ConfigValue(undefinedConfigKey);;
+:List<String>undefinedConfigKeys=undefinedDependentConfigs();;
+:ConfigValueundefinedConfigValue=new ConfigValue(undefinedConfigKey);;
 :undefinedConfigValue.addErrorMessage(undefinedConfigKey+
 " is referred in the dependents, but not defined.");;
 :undefinedConfigValue.visible(false);;
 :configValues.put(undefinedConfigKey,undefinedConfigValue);;
-:Map<String,Object> parsed=parseForValidate(props,
+:Map<String,Object>parsed=parseForValidate(props,
 configValues);;
 :return validate(parsed,configValues);;
 stop
 end
 start
 note right
-Map<String,Object> parseForValidate(Map<String,
-String> props,Map<String,ConfigValue> configValues)
+Map<String,Object>parseForValidate(Map<String,
+String>props,Map<String,ConfigValue>configValues)
 end note
-:Map<String,Object> parsed=new HashMap<>();;
-:Set<String> configsWithNoParent=getConfigsWithNoParent();;
+:Map<String,Object>parsed=new HashMap<>();;
+:Set<String>configsWithNoParent=getConfigsWithNoParent();;
 :parseForValidate(name,props,parsed,configValues);;
 :return parsed;;
 stop
 end
 start
 note right
-Map<String,ConfigValue> validate(Map<String,
-Object> parsed,Map<String,ConfigValue> configValues)
+Map<String,ConfigValue>validate(Map<String,
+Object>parsed,Map<String,ConfigValue>configValues)
 end note
-:Set<String> configsWithNoParent=getConfigsWithNoParent();;
+:Set<String>configsWithNoParent=getConfigsWithNoParent();;
 :validate(name,parsed,configValues);;
 :return configValues;;
 stop
 end
 start
 note right
-List<String> undefinedDependentConfigs()
+List<String>undefinedDependentConfigs()
 end note
-:Set<String> undefinedConfigKeys=new HashSet<>();;
+:Set<String>undefinedConfigKeys=new HashSet<>();;
 if (!configKeys.containsKey(dependent)) then (yes) 
 :undefinedConfigKeys.add(dependent);;
 endif 
@@ -380,16 +373,16 @@ stop
 end
 start
 note right
-Set<String> getConfigsWithNoParent()
+Set<String>getConfigsWithNoParent()
 end note
 if (this.configsWithNoParent!=null ) then (yes) 
 :return this.configsWithNoParent;;
 stop
 endif 
-:Set<String> configsWithParent=new HashSet<>();;
-:List<String> dependents=configKey.dependents;;
+:Set<String>configsWithParent=new HashSet<>();;
+:List<String>dependents=configKey.dependents;;
 :configsWithParent.addAll(dependents);;
-:Set<String> configs=new HashSet<>(configKeys.keySet());;
+:Set<String>configs=new HashSet<>(configKeys.keySet());;
 :configs.removeAll(configsWithParent);;
 :this.configsWithNoParent=configs;;
 :return configs;;
@@ -397,23 +390,23 @@ stop
 end
 start
 note right
-void parseForValidate(String name,Map<String,
-String> props,Map<String,Object> parsed,Map<String,
-ConfigValue> configs)
+void parseForValidate(Stringname,Map<String,
+String>props,Map<String,Object>parsed,Map<String,
+ConfigValue>configs)
 end note
 if (!configKeys.containsKey(name)) then (yes) 
 :return ;;
 stop
 endif 
-:ConfigKey key=configKeys.get(name);;
-:ConfigValue config=configs.get(name);;
-:Object value=null ;;
+:ConfigKeykey=configKeys.get(name);;
+:ConfigValueconfig=configs.get(name);;
+:Objectvalue=null ;;
 if (props.containsKey(key.name)) then (yes) 
 switch (try/catch block)
 case (try)
 :value=parseType(key.name,props.get(key.name),
 key.type);;
-case (catch (ConfigException e))
+case (catch (ConfigExceptione))
 :config.addErrorMessage(e.getMessage());;
 endswitch
 else if (NO_DEFAULT_VALUE.equals(key.defaultValue)) then (yes) 
@@ -426,7 +419,7 @@ if (key.validator!=null ) then (yes)
 switch (try/catch block)
 case (try)
 :key.validator.ensureValid(key.name,value);;
-case (catch (ConfigException e))
+case (catch (ConfigExceptione))
 :config.addErrorMessage(e.getMessage());;
 endswitch
 endif 
@@ -437,29 +430,29 @@ configs);;
 end
 start
 note right
-void validate(String name,Map<String,Object> parsed,
-Map<String,ConfigValue> configs)
+void validate(Stringname,Map<String,Object>parsed,
+Map<String,ConfigValue>configs)
 end note
 if (!configKeys.containsKey(name)) then (yes) 
 :return ;;
 stop
 endif 
-:ConfigKey key=configKeys.get(name);;
-:ConfigValue value=configs.get(name);;
+:ConfigKeykey=configKeys.get(name);;
+:ConfigValuevalue=configs.get(name);;
 if (key.recommender!=null ) then (yes) 
 switch (try/catch block)
 case (try)
-:List<Object> recommendedValues=key.recommender.validValues(name,
+:List<Object>recommendedValues=key.recommender.validValues(name,
 parsed);;
-:List<Object> originalRecommendedValues=value.recommendedValues();;
+:List<Object>originalRecommendedValues=value.recommendedValues();;
 if (!originalRecommendedValues.isEmpty()) then (yes) 
-:Set<Object> originalRecommendedValueSet=new HashSet<>(originalRecommendedValues);;
+:Set<Object>originalRecommendedValueSet=new HashSet<>(originalRecommendedValues);;
 :recommendedValues.removeIf(o->!originalRecommendedValueSet.contains(o));;
 endif 
 :value.recommendedValues(recommendedValues);;
 :value.visible(key.recommender.visible(name,
 parsed));;
-case (catch (ConfigException e))
+case (catch (ConfigExceptione))
 :value.addErrorMessage(e.getMessage());;
 endswitch
 endif 
@@ -468,8 +461,7 @@ endif
 end
 start
 note right
-Object parseType(String name,Object value,
-Type type)
+ObjectparseType(Stringname,Objectvalue,Typetype)
 end note
 switch (try/catch block)
 case (try)
@@ -477,17 +469,17 @@ if (value==null ) then (yes)
 :return null ;;
 stop
 endif 
-:String trimmed=null ;;
-if (value instanceof String ) then (yes) 
-:trimmed=((String )value).trim();;
+:Stringtrimmed=null ;;
+if (value instanceof String) then (yes) 
+:trimmed=((String)value).trim();;
 endif 
 switch (switch type)
 endswitch
-case (catch (NumberFormatException e))
+case (catch (NumberFormatExceptione))
 :throw new ConfigException(name,value,"Not a number of type "+
 type);;
 stop
-case (catch (ClassNotFoundException e))
+case (catch (ClassNotFoundExceptione))
 :throw new ConfigException(name,value,"Class "+
 value+" could not be found.");;
 stop
@@ -495,8 +487,7 @@ endswitch
 end
 start
 note right
-String convertToString(Object parsedValue,
-Type type)
+StringconvertToString(ObjectparsedValue,Typetype)
 end note
 if (parsedValue==null ) then (yes) 
 :return null ;;
@@ -511,17 +502,17 @@ endswitch
 end
 start
 note right
-Map<String,String> convertToStringMapWithPasswordValues(Map<String,
-?> configs)
+Map<String,String>convertToStringMapWithPasswordValues(Map<String,
+? >configs)
 end note
-:Map<String,String> result=new HashMap<>();;
-:Object value=entry.getValue();;
-:String strValue;;
-if (value instanceof Password ) then (yes) 
-:strValue=((Password )value).value();;
-else if (value instanceof List ) then (yes) 
+:Map<String,String>result=new HashMap<>();;
+:Objectvalue=entry.getValue();;
+:StringstrValue;;
+if (value instanceof Password) then (yes) 
+:strValue=((Password)value).value();;
+else if (value instanceof List) then (yes) 
 :strValue=convertToString(value,Type.LIST);;
-else if (value instanceof Class ) then (yes) 
+else if (value instanceof Class) then (yes) 
 :strValue=convertToString(value,Type.CLASS);;
 else (no)
 :strValue=convertToString(value,null );;
@@ -534,41 +525,41 @@ stop
 end
 start
 note right
-boolean isSensitive()
+booleanisSensitive()
 end note
 :return this==PASSWORD;;
 stop
 end
 start
 note right
-constructor Range(Number min,Number max)
+constructor Range(Numbermin,Numbermax)
 end note
 :this.min=min;;
 :this.max=max;;
 end
 start
 note right
-Range atLeast(Number min)
+RangeatLeast(Numbermin)
 end note
 :return new Range(min,null );;
 stop
 end
 start
 note right
-Range between(Number min,Number max)
+Rangebetween(Numbermin,Numbermax)
 end note
 :return new Range(min,max);;
 stop
 end
 start
 note right
-void ensureValid(String name,Object o)
+void ensureValid(Stringname,Objecto)
 end note
 if (o==null ) then (yes) 
 :throw new ConfigException(name,null ,"Value must be non-null");;
 stop
 endif 
-:Number n=(Number )o;;
+:Numbern=(Number)o;;
 if (min!=null &&n.doubleValue()<min.doubleValue()) then (yes) 
 :throw new ConfigException(name,o,"Value must be at least "+
 min);;
@@ -582,7 +573,7 @@ endif
 end
 start
 note right
-String toString()
+StringtoString()
 end note
 if (min==null &&max==null ) then (yes) 
 :return "[...]";;
@@ -600,49 +591,49 @@ endif
 end
 start
 note right
-constructor ValidList(List<String> validStrings)
+constructor ValidList(List<String>validStrings)
 end note
 :this.validString=new ValidString(validStrings);;
 end
 start
 note right
-ValidList in(String ... validStrings)
+ValidListin(String... validStrings)
 end note
 :return new ValidList(Arrays.asList(validStrings));;
 stop
 end
 start
 note right
-void ensureValid(final String name,final Object value)
+void ensureValid(final Stringname,final Objectvalue)
 end note
-:@SuppressWarnings ("unchecked")List<String> values=(List<String> )value;;
+:@SuppressWarnings ("unchecked")List<String>values=(List<String>)value;;
 :validString.ensureValid(name,string);;
 end
 start
 note right
-String toString()
+StringtoString()
 end note
 :return validString.toString();;
 stop
 end
 start
 note right
-constructor ValidString(List<String> validStrings)
+constructor ValidString(List<String>validStrings)
 end note
 :this.validStrings=validStrings;;
 end
 start
 note right
-ValidString in(String ... validStrings)
+ValidStringin(String... validStrings)
 end note
 :return new ValidString(Arrays.asList(validStrings));;
 stop
 end
 start
 note right
-void ensureValid(String name,Object o)
+void ensureValid(Stringname,Objecto)
 end note
-:String s=(String )o;;
+:Strings=(String)o;;
 if (!validStrings.contains(s)) then (yes) 
 :throw new ConfigException(name,o,"String must be one of: "+
 Utils.join(validStrings,", "));;
@@ -651,7 +642,7 @@ endif
 end
 start
 note right
-String toString()
+StringtoString()
 end note
 :return "["+Utils.join(validStrings,", ")+
 "]";;
@@ -659,23 +650,23 @@ stop
 end
 start
 note right
-constructor CaseInsensitiveValidString(List<String> validStrings)
+constructor CaseInsensitiveValidString(List<String>validStrings)
 end note
 :this.validStrings=validStrings.stream().map(s->s.toUpperCase(Locale.ROOT))
 .collect(Collectors.toSet());;
 end
 start
 note right
-CaseInsensitiveValidString in(String ... validStrings)
+CaseInsensitiveValidStringin(String... validStrings)
 end note
 :return new CaseInsensitiveValidString(Arrays.asList(validStrings));;
 stop
 end
 start
 note right
-void ensureValid(String name,Object o)
+void ensureValid(Stringname,Objecto)
 end note
-:String s=(String )o;;
+:Strings=(String)o;;
 if (s==null ||!validStrings.contains(s.toUpperCase(Locale.ROOT))) then (yes) 
 :throw new ConfigException(name,o,"String must be one of (case insensitive): "+
 Utils.join(validStrings,", "));;
@@ -684,7 +675,7 @@ endif
 end
 start
 note right
-String toString()
+StringtoString()
 end note
 :return "(case insensitive) ["+Utils.join(validStrings,", ")+
 "]";;
@@ -692,7 +683,7 @@ stop
 end
 start
 note right
-void ensureValid(String name,Object value)
+void ensureValid(Stringname,Objectvalue)
 end note
 if (value==null ) then (yes) 
 :throw new ConfigException(name,"null","entry must be non null");;
@@ -701,7 +692,7 @@ endif
 end
 start
 note right
-String toString()
+StringtoString()
 end note
 :return "non-null string";;
 stop
@@ -709,60 +700,60 @@ end
 start
 note right
 constructor LambdaValidator(BiConsumer<String,
-Object> ensureValid,Supplier<String> toStringFunction)
+Object>ensureValid,Supplier<String>toStringFunction)
 end note
 :this.ensureValid=ensureValid;;
 :this.toStringFunction=toStringFunction;;
 end
 start
 note right
-LambdaValidator with(BiConsumer<String,Object> ensureValid,
-Supplier<String> toStringFunction)
+LambdaValidatorwith(BiConsumer<String,Object>ensureValid,
+Supplier<String>toStringFunction)
 end note
 :return new LambdaValidator(ensureValid,toStringFunction);;
 stop
 end
 start
 note right
-void ensureValid(String name,Object value)
+void ensureValid(Stringname,Objectvalue)
 end note
 :ensureValid.accept(name,value);;
 end
 start
 note right
-String toString()
+StringtoString()
 end note
 :return toStringFunction.get();;
 stop
 end
 start
 note right
-constructor CompositeValidator(List<Validator> validators)
+constructor CompositeValidator(List<Validator>validators)
 end note
 :this.validators=Collections.unmodifiableList(validators);;
 end
 start
 note right
-CompositeValidator of(Validator ... validators)
+CompositeValidatorof(Validator... validators)
 end note
 :return new CompositeValidator(Arrays.asList(validators));;
 stop
 end
 start
 note right
-void ensureValid(String name,Object value)
+void ensureValid(Stringname,Objectvalue)
 end note
 :validator.ensureValid(name,value);;
 end
 start
 note right
-String toString()
+StringtoString()
 end note
 if (validators==null ) then (yes) 
 :return "";;
 stop
 endif 
-:StringBuilder desc=new StringBuilder();;
+:StringBuilderdesc=new StringBuilder();;
 if (desc.length()>0) then (yes) 
 :desc.append(',').append(' ');;
 endif 
@@ -772,9 +763,9 @@ stop
 end
 start
 note right
-void ensureValid(String name,Object o)
+void ensureValid(Stringname,Objecto)
 end note
-:String s=(String )o;;
+:Strings=(String)o;;
 if (s!=null &&s.isEmpty()) then (yes) 
 :throw new ConfigException(name,o,"String must be non-empty");;
 stop
@@ -782,23 +773,23 @@ endif
 end
 start
 note right
-String toString()
+StringtoString()
 end note
 :return "non-empty string";;
 stop
 end
 start
 note right
-NonEmptyStringWithoutControlChars nonEmptyStringWithoutControlChars()
+NonEmptyStringWithoutControlCharsnonEmptyStringWithoutControlChars()
 end note
 :return new NonEmptyStringWithoutControlChars();;
 stop
 end
 start
 note right
-void ensureValid(String name,Object value)
+void ensureValid(Stringname,Objectvalue)
 end note
-:String s=(String )value;;
+:Strings=(String)value;;
 if (s==null ) then (yes) 
 :return ;;
 stop
@@ -806,7 +797,7 @@ else if (s.isEmpty()) then (yes)
 :throw new ConfigException(name,value,"String may not be empty");;
 stop
 endif 
-:ArrayList<Integer> foundIllegalCharacters=new ArrayList<>();;
+:ArrayList<Integer>foundIllegalCharacters=new ArrayList<>();;
 if (Character.isISOControl(s.codePointAt(i))) then (yes) 
 :foundIllegalCharacters.add(s.codePointAt(i));;
 endif 
@@ -818,29 +809,29 @@ endif
 end
 start
 note right
-String toString()
+StringtoString()
 end note
 :return "non-empty string without ISO control characters";;
 stop
 end
 start
 note right
-constructor ListSize(final int maxSize)
+constructor ListSize(final intmaxSize)
 end note
 :this.maxSize=maxSize;;
 end
 start
 note right
-ListSize atMostOfSize(final int maxSize)
+ListSizeatMostOfSize(final intmaxSize)
 end note
 :return new ListSize(maxSize);;
 stop
 end
 start
 note right
-void ensureValid(final String name,final Object value)
+void ensureValid(final Stringname,final Objectvalue)
 end note
-:@SuppressWarnings ("unchecked")List<String> values=(List<String> )value;;
+:@SuppressWarnings ("unchecked")List<String>values=(List<String>)value;;
 if (values.size()>maxSize) then (yes) 
 :throw new ConfigException(name,value,"exceeds maximum list size of ["+
 maxSize+"].");;
@@ -849,7 +840,7 @@ endif
 end
 start
 note right
-String toString()
+StringtoString()
 end note
 :return "List containing maximum of "+maxSize+
 " elements";;
@@ -857,11 +848,11 @@ stop
 end
 start
 note right
-constructor ConfigKey(String name,Type type,
-Object defaultValue,Validator validator,Importance importance,
-String documentation,String group,int orderInGroup,
-Width width,String displayName,List<String> dependents,
-Recommender recommender,boolean internalConfig)
+constructor ConfigKey(Stringname,Typetype,
+ObjectdefaultValue,Validatorvalidator,Importanceimportance,
+Stringdocumentation,Stringgroup,intorderInGroup,
+Widthwidth,StringdisplayName,List<String>dependents,
+Recommenderrecommender,booleaninternalConfig)
 end note
 :this.name=name;;
 :this.type=type;;
@@ -883,21 +874,21 @@ endif
 end
 start
 note right
-boolean hasDefault()
+booleanhasDefault()
 end note
 :return !NO_DEFAULT_VALUE.equals(this.defaultValue);;
 stop
 end
 start
 note right
-Type type()
+Typetype()
 end note
 :return type;;
 stop
 end
 start
 note right
-List<String> headers()
+List<String>headers()
 end note
 :return Arrays.asList("Name","Description",
 "Type","Default","Valid Values","Importance");;
@@ -905,17 +896,17 @@ stop
 end
 start
 note right
-String getConfigValue(ConfigKey key,String headerName)
+StringgetConfigValue(ConfigKeykey,StringheaderName)
 end note
 switch (switch headerName)
 endswitch
 end
 start
 note right
-String niceMemoryUnits(long bytes)
+StringniceMemoryUnits(longbytes)
 end note
-:long value=bytes;;
-:int i=0;;
+:longvalue=bytes;;
+:inti=0;;
 while (value!=0&&i<4)
 if (value%1024L==0) then (yes) 
 :value/=1024L;;
@@ -929,13 +920,13 @@ endswitch
 end
 start
 note right
-String niceTimeUnits(long millis)
+StringniceTimeUnits(longmillis)
 end note
-:long value=millis;;
-:long[] divisors={1000,60,60,24};;
-:String[] units={"second","minute","hour",
+:longvalue=millis;;
+:long[]divisors={1000,60,60,24};;
+:String[]units={"second","minute","hour",
 "day"};;
-:int i=0;;
+:inti=0;;
 while (value!=0&&i<4)
 if (value%divisors[i]==0) then (yes) 
 :value/=divisors[i];;
@@ -953,15 +944,14 @@ stop
 end
 start
 note right
-String toHtmlTable()
+StringtoHtmlTable()
 end note
-:return toHtmlTable(Collections.<String ,
-String >emptyMap());;
+:return toHtmlTable(Collections.<String,String>emptyMap());;
 stop
 end
 start
 note right
-void addHeader(StringBuilder builder,String headerName)
+void addHeader(StringBuilderbuilder,StringheaderName)
 end note
 :builder.append("<th>");;
 :builder.append(headerName);;
@@ -969,8 +959,8 @@ end note
 end
 start
 note right
-void addColumnValue(StringBuilder builder,
-String value)
+void addColumnValue(StringBuilderbuilder,
+Stringvalue)
 end note
 :builder.append("<td>");;
 :builder.append(value);;
@@ -978,11 +968,11 @@ end note
 end
 start
 note right
-String toHtmlTable(Map<String,String> dynamicUpdateModes)
+StringtoHtmlTable(Map<String,String>dynamicUpdateModes)
 end note
-:boolean hasUpdateModes=!dynamicUpdateModes.isEmpty();;
-:List<ConfigKey> configs=sortedConfigs();;
-:StringBuilder b=new StringBuilder();;
+:booleanhasUpdateModes=!dynamicUpdateModes.isEmpty();;
+:List<ConfigKey>configs=sortedConfigs();;
+:StringBuilderb=new StringBuilder();;
 :b.append("<table class=\"data-table\"><tbody>\n");;
 :b.append("<tr>\n");;
 :addHeader(b,headerName);;
@@ -997,7 +987,7 @@ endif
 :addColumnValue(b,getConfigValue(key,headerName));;
 :b.append("</td>");;
 if (hasUpdateModes) then (yes) 
-:String updateMode=dynamicUpdateModes.get(key.name);;
+:StringupdateMode=dynamicUpdateModes.get(key.name);;
 if (updateMode==null ) then (yes) 
 :updateMode="read-only";;
 endif 
@@ -1010,9 +1000,9 @@ stop
 end
 start
 note right
-String toRst()
+StringtoRst()
 end note
-:StringBuilder b=new StringBuilder();;
+:StringBuilderb=new StringBuilder();;
 if (key.internalConfig) then (yes) 
 :continue ;;
 endif 
@@ -1023,17 +1013,17 @@ stop
 end
 start
 note right
-String toEnrichedRst()
+StringtoEnrichedRst()
 end note
-:StringBuilder b=new StringBuilder();;
-:String lastKeyGroupName="";;
+:StringBuilderb=new StringBuilder();;
+:StringlastKeyGroupName="";;
 if (key.internalConfig) then (yes) 
 :continue ;;
 endif 
 if (key.group!=null ) then (yes) 
 if (!lastKeyGroupName.equalsIgnoreCase(key.group)) then (yes) 
 :b.append(key.group).append("\n");;
-:char[] underLine=new char[key.group.length()];;
+:char[]underLine=new char[key.group.length()];;
 :Arrays.fill(underLine,'^');;
 :b.append(new String(underLine)).append("\n\n");;
 endif 
@@ -1041,7 +1031,7 @@ endif
 endif 
 :getConfigKeyRst(key,b);;
 if (key.dependents!=null &&key.dependents.size()>0) then (yes) 
-:int j=0;;
+:intj=0;;
 :b.append("  * Dependents: ");;
 :b.append("  ");;
 :b.append(dependent);;
@@ -1058,7 +1048,7 @@ stop
 end
 start
 note right
-void getConfigKeyRst(ConfigKey key,StringBuilder b)
+void getConfigKeyRst(ConfigKeykey,StringBuilderb)
 end note
 :b.append("  ").append(key.name).append("  ")
 .append("\n");;
@@ -1085,12 +1075,12 @@ endif
 end
 start
 note right
-List<ConfigKey> sortedConfigs()
+List<ConfigKey>sortedConfigs()
 end note
-:final Map<String,Integer> groupOrd=new HashMap<>(groups.size());;
-:int ord=0;;
+:final Map<String,Integer>groupOrd=new HashMap<>(groups.size());;
+:intord=0;;
 :groupOrd.put(group,ord++);;
-:List<ConfigKey> configs=new ArrayList<>(configKeys.values());;
+:List<ConfigKey>configs=new ArrayList<>(configKeys.values());;
 :Collections.sort(configs,(k1,k2)->compare(k1,
 k2,groupOrd));;
 :return configs;;
@@ -1098,10 +1088,10 @@ stop
 end
 start
 note right
-int compare(ConfigKey k1,ConfigKey k2,Map<String,
-Integer> groupOrd)
+intcompare(ConfigKeyk1,ConfigKeyk2,Map<String,
+Integer>groupOrd)
 end note
-:int cmp=k1.group==null ? (k2.group==null ? 0:-1):(k2.group==null ? 1:Integer.compare(groupOrd.get(k1.group),
+:intcmp=k1.group==null ? (k2.group==null ? 0:-1):(k2.group==null ? 1:Integer.compare(groupOrd.get(k1.group),
 groupOrd.get(k2.group)));;
 if (cmp==0) then (yes) 
 :cmp=Integer.compare(k1.orderInGroup,k2.orderInGroup);;
@@ -1124,10 +1114,10 @@ stop
 end
 start
 note right
-void embed(final String keyPrefix,final String groupPrefix,
-final int startingOrd,final ConfigDef child)
+void embed(final StringkeyPrefix,final StringgroupPrefix,
+final intstartingOrd,final ConfigDefchild)
 end note
-:int orderInGroup=startingOrd;;
+:intorderInGroup=startingOrd;;
 :define(new ConfigKey(keyPrefix+key.name,key.type,key.defaultValue,embeddedValidator(keyPrefix,key.validator),key.importance,key.documentation,groupPrefix+
 (key.group==null ? String.valueOf(""):String.valueOf(": ")+
 key.group),orderInGroup++,key.width,key.displayName,
@@ -1137,82 +1127,82 @@ key.internalConfig));;
 end
 start
 note right
-Validator embeddedValidator(final String keyPrefix,
-final Validator base)
+ValidatorembeddedValidator(final StringkeyPrefix,
+final Validatorbase)
 end note
 if (base==null ) then (yes) 
 :return null ;;
 stop
 endif 
-:return new Validator(){public void ensureValid(String name,
-Object value){base.ensureValid(name.substring(keyPrefix.length()),
-value);}@Override public String toString(){return base.toString();}};;
+:return new Validator(){public void ensureValid(Stringname,
+Objectvalue){base.ensureValid(name.substring(keyPrefix.length()),
+value);}@Override public StringtoString(){return base.toString();}};;
 stop
 end
 start
 note right
-List<String> embeddedDependents(final String keyPrefix,
-final List<String> dependents)
+List<String>embeddedDependents(final StringkeyPrefix,
+final List<String>dependents)
 end note
 if (dependents==null ) then (yes) 
 :return null ;;
 stop
 endif 
-:final List<String> updatedDependents=new ArrayList<>(dependents.size());;
+:final List<String>updatedDependents=new ArrayList<>(dependents.size());;
 :updatedDependents.add(keyPrefix+dependent);;
 :return updatedDependents;;
 stop
 end
 start
 note right
-Recommender embeddedRecommender(final String keyPrefix,
-final Recommender base)
+RecommenderembeddedRecommender(final StringkeyPrefix,
+final Recommenderbase)
 end note
 if (base==null ) then (yes) 
 :return null ;;
 stop
 endif 
-:return new Recommender(){private String unprefixed(String k){return k.substring(keyPrefix.length());}private Map<String,
-Object> unprefixed(Map<String,Object> parsedConfig){final Map<String,
-Object> unprefixedParsedConfig=new HashMap<>(parsedConfig.size());for (Map.Entry<String,
-Object> e:parsedConfig.entrySet()){if (e.getKey().startsWith(keyPrefix)){unprefixedParsedConfig.put(unprefixed(e.getKey()),
-e.getValue());}}return unprefixedParsedConfig;}@Override public List<Object> validValues(String name,
-Map<String,Object> parsedConfig){return base.validValues(unprefixed(name),
-unprefixed(parsedConfig));}@Override public boolean visible(String name,
-Map<String,Object> parsedConfig){return base.visible(unprefixed(name),
+:return new Recommender(){private Stringunprefixed(Stringk){return k.substring(keyPrefix.length());}private Map<String,
+Object>unprefixed(Map<String,Object>parsedConfig){final Map<String,
+Object>unprefixedParsedConfig=new HashMap<>(parsedConfig.size());for (Map.Entry<String,
+Object>e:parsedConfig.entrySet()){if (e.getKey().startsWith(keyPrefix)){unprefixedParsedConfig.put(unprefixed(e.getKey()),
+e.getValue());}}return unprefixedParsedConfig;}@Override public List<Object>validValues(Stringname,
+Map<String,Object>parsedConfig){return base.validValues(unprefixed(name),
+unprefixed(parsedConfig));}@Override public booleanvisible(Stringname,
+Map<String,Object>parsedConfig){return base.visible(unprefixed(name),
 unprefixed(parsedConfig));}};;
 stop
 end
 start
 note right
-String toHtml()
+StringtoHtml()
 end note
 :return toHtml(Collections.emptyMap());;
 stop
 end
 start
 note right
-String toHtml(int headerDepth,Function<String,
-String> idGenerator)
+StringtoHtml(intheaderDepth,Function<String,
+String>idGenerator)
 end note
 :return toHtml(headerDepth,idGenerator,Collections.emptyMap());;
 stop
 end
 start
 note right
-String toHtml(Map<String,String> dynamicUpdateModes)
+StringtoHtml(Map<String,String>dynamicUpdateModes)
 end note
 :return toHtml(4,Function.identity(),dynamicUpdateModes);;
 stop
 end
 start
 note right
-String toHtml(int headerDepth,Function<String,
-String> idGenerator,Map<String,String> dynamicUpdateModes)
+StringtoHtml(intheaderDepth,Function<String,
+String>idGenerator,Map<String,String>dynamicUpdateModes)
 end note
-:boolean hasUpdateModes=!dynamicUpdateModes.isEmpty();;
-:List<ConfigKey> configs=sortedConfigs();;
-:StringBuilder b=new StringBuilder();;
+:booleanhasUpdateModes=!dynamicUpdateModes.isEmpty();;
+:List<ConfigKey>configs=sortedConfigs();;
+:StringBuilderb=new StringBuilder();;
 :b.append("<ul class=\"config-list\">\n");;
 if (key.internalConfig) then (yes) 
 :continue ;;
@@ -1234,7 +1224,7 @@ endif
 :addConfigDetail(b,detail,getConfigValue(key,
 detail));;
 if (hasUpdateModes) then (yes) 
-:String updateMode=dynamicUpdateModes.get(key.name);;
+:StringupdateMode=dynamicUpdateModes.get(key.name);;
 if (updateMode==null ) then (yes) 
 :updateMode="read-only";;
 endif 
@@ -1248,8 +1238,8 @@ stop
 end
 start
 note right
-void addConfigDetail(StringBuilder builder,
-String name,String value)
+void addConfigDetail(StringBuilderbuilder,
+Stringname,Stringvalue)
 end note
 :builder.append("<tr>"+"<th>"+name+":</th>"+
 "<td>"+value+"</td>"+"</tr>\n");;

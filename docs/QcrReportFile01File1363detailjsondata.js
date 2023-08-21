@@ -215,7 +215,7 @@ var maDataBlocs = {
  , "c1" : "00054"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00054] For method toArray arguments List&lt;Integer&gt;  list"
+ , "c3" : "QC-JAV000006[00054] For method toArray arguments List&lt;Integer &gt;  list"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -460,7 +460,7 @@ var maDataBlocs = {
  , "c1" : "00150"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00150] For method contains arguments List&lt;Integer&gt;  a|int[]  b"
+ , "c3" : "QC-JAV000006[00150] For method contains arguments List&lt;Integer &gt;  a|int[]  b"
 }} 
 ,
 { "ligne" : {"" : ""

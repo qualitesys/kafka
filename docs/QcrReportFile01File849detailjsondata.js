@@ -184,7 +184,7 @@ var maDataBlocs = {
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#58"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00058] For method parseRules arguments List&lt;String&gt;  rules"
+ , "c3" : "QC-JAV000006[00058] For method parseRules arguments List&lt;String &gt;  rules"
 }} 
 ,
 { "ligne" : {"" : ""

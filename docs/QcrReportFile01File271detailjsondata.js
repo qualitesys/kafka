@@ -94,14 +94,14 @@ var maDataBlocs = {
  , "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#33"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00033] For method ofTopicIds arguments Collection&lt;Uuid&gt;  topics"
+ , "c3" : "QC-JAV000006[00033] For method ofTopicIds arguments Collection&lt;Uuid &gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/TopicCollection.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method ofTopicNames arguments Collection&lt;String&gt;  topics"
+ , "c3" : "QC-JAV000006[00040] For method ofTopicNames arguments Collection&lt;String &gt;  topics"
 }} 
 ]
 , 

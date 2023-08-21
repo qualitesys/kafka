@@ -718,7 +718,7 @@ var maDataBlocs = {
  , "c1" : "00330"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#330"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00330] For method schemaType arguments Class&lt;?&gt;  klass"
+ , "c3" : "QC-JAV000006[00330] For method schemaType arguments Class&lt;? &gt;  klass"
 }} 
 ,
 { "ligne" : {"" : ""

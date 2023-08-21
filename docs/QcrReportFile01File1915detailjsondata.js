@@ -143,7 +143,7 @@ var maDataBlocs = {
  , "c1" : "00053"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#53"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method addChild arguments ProcessorNode&lt;Void,Void,?,?&gt;  child"
+ , "c3" : "QC-JAV000006[00053] For method addChild arguments ProcessorNode&lt;Void ,Void ,? ,? &gt;  child"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -157,14 +157,14 @@ var maDataBlocs = {
  , "c1" : "00058"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#58"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00058] For method init arguments InternalProcessorContext&lt;Void,Void&gt;  context"
+ , "c3" : "QC-JAV000006[00058] For method init arguments InternalProcessorContext&lt;Void ,Void &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SinkNode.java.html#66"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method process arguments Record&lt;KIn,VIn&gt;  record"
+ , "c3" : "QC-JAV000006[00066] For method process arguments Record&lt;KIn ,VIn &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""

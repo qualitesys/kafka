@@ -176,7 +176,7 @@ var maDataBlocs = {
  , "c1" : "00119"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Printed.java.html#119"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00119] For method withKeyValueMapper arguments KeyValueMapper&lt;?superK,?superV,String&gt;  mapper"
+ , "c3" : "QC-JAV000006[00119] For method withKeyValueMapper arguments KeyValueMapper&lt;? super K ,? super V ,String &gt;  mapper"
 }} 
 ,
 { "ligne" : {"" : ""

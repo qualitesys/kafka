@@ -217,7 +217,7 @@ var maDataBlocs = {
  , "c1" : "00056"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#56"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method singletonFetchRequest arguments TopicPartition  topicPartition|Uuid  topicId|Consumer&lt;FetchRequestData.FetchPartition&gt;  partitionConsumer"
+ , "c3" : "QC-JAV000006[00056] For method singletonFetchRequest arguments TopicPartition  topicPartition|Uuid  topicId|Consumer&lt;FetchRequestData.FetchPartition &gt;  partitionConsumer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -238,7 +238,7 @@ var maDataBlocs = {
  , "c1" : "00076"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftUtil.java.html#76"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method singletonFetchResponse arguments TopicPartition  topicPartition|Uuid  topicId|Errors  topLevelError|Consumer&lt;FetchResponseData.PartitionData&gt;  partitionConsumer"
+ , "c3" : "QC-JAV000006[00076] For method singletonFetchResponse arguments TopicPartition  topicPartition|Uuid  topicId|Errors  topLevelError|Consumer&lt;FetchResponseData.PartitionData &gt;  partitionConsumer"
 }} 
 ,
 { "ligne" : {"" : ""

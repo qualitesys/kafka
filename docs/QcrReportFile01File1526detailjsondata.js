@@ -136,7 +136,7 @@ var maDataBlocs = {
  , "c1" : "00122"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/Commands.java.html#122"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00122] For method parseCommand arguments List&lt;String&gt;  arguments"
+ , "c3" : "QC-JAV000006[00122] For method parseCommand arguments List&lt;String &gt;  arguments"
 }} 
 ,
 { "ligne" : {"" : ""

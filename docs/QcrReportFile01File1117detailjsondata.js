@@ -200,7 +200,7 @@ var maDataBlocs = {
  , "c1" : "00077"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#77"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00077] For method createAndSetup arguments Map&lt;String,Object&gt;  adminProps|ConnectorTaskId  id|SinkConnectorConfig  sinkConfig|Map&lt;String,Object&gt;  producerProps|ErrorHandlingMetrics  errorHandlingMetrics"
+ , "c3" : "QC-JAV000006[00077] For method createAndSetup arguments Map&lt;String ,Object &gt;  adminProps|ConnectorTaskId  id|SinkConnectorConfig  sinkConfig|Map&lt;String ,Object &gt;  producerProps|ErrorHandlingMetrics  errorHandlingMetrics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -312,7 +312,7 @@ var maDataBlocs = {
  , "c1" : "00161"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#161"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00161] For method populateContextHeaders arguments ProducerRecord&lt;byte[],byte[]&gt;  producerRecord|ProcessingContext  context"
+ , "c3" : "QC-JAV000006[00161] For method populateContextHeaders arguments ProducerRecord&lt;byte[] ,byte[] &gt;  producerRecord|ProcessingContext  context"
 }} 
 ,
 { "ligne" : {"" : ""

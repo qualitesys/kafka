@@ -144,14 +144,14 @@ var maDataBlocs = {
  , "c1" : "00042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method setGlobalResult arguments QueryResult&lt;R&gt;  r"
+ , "c3" : "QC-JAV000006[00042] For method setGlobalResult arguments QueryResult&lt;R &gt;  r"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00049"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method addResult arguments int  partition|QueryResult&lt;R&gt;  r"
+ , "c3" : "QC-JAV000006[00049] For method addResult arguments int  partition|QueryResult&lt;R &gt;  r"
 }} 
 ,
 { "ligne" : {"" : ""

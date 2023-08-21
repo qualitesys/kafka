@@ -403,7 +403,7 @@ var maDataBlocs = {
  , "c1" : "00154"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html#154"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00154] For method put arguments Windowed&lt;Bytes&gt;  sessionKey|byte[]  aggregate"
+ , "c3" : "QC-JAV000006[00154] For method put arguments Windowed&lt;Bytes &gt;  sessionKey|byte[]  aggregate"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -452,7 +452,7 @@ var maDataBlocs = {
  , "c1" : "00182"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html#182"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00182] For method remove arguments Windowed&lt;Bytes&gt;  sessionKey"
+ , "c3" : "QC-JAV000006[00182] For method remove arguments Windowed&lt;Bytes &gt;  sessionKey"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -816,7 +816,7 @@ var maDataBlocs = {
  , "c1" : "00396"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html#396"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00396] For method registerNewIterator arguments Bytes  keyFrom|Bytes  keyTo|long  latestSessionStartTime|Iterator&lt;Entry&lt;Long,ConcurrentNavigableMap&lt;Bytes,ConcurrentNavigableMap&lt;Long,byte[]&gt;&gt;&gt;&gt;  endTimeIterator|boolean  forward"
+ , "c3" : "QC-JAV000006[00396] For method registerNewIterator arguments Bytes  keyFrom|Bytes  keyTo|long  latestSessionStartTime|Iterator&lt;Entry&lt;Long ,ConcurrentNavigableMap&lt;Bytes ,ConcurrentNavigableMap&lt;Long ,byte[] &gt; &gt; &gt; &gt;  endTimeIterator|boolean  forward"
 }} 
 ,
 { "ligne" : {"" : ""

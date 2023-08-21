@@ -179,7 +179,7 @@ var maDataBlocs = {
  , "c1" : "00126"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/LoginAccessTokenValidator.java.html#126"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00126] For method getClaim arguments Map&lt;String,Object&gt;  payload|String  claimName"
+ , "c3" : "QC-JAV000006[00126] For method getClaim arguments Map&lt;String ,Object &gt;  payload|String  claimName"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -161,7 +161,7 @@ var maDataBlocs = {
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ControlledShutdownResponse.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method prepareResponse arguments Errors  error|Set&lt;TopicPartition&gt;  tps"
+ , "c3" : "QC-JAV000006[00070] For method prepareResponse arguments Errors  error|Set&lt;TopicPartition &gt;  tps"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -139,7 +139,7 @@ var maDataBlocs = {
  , "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method configure arguments Map&lt;String,?&gt;  configs|String  mechanism|List&lt;AppConfigurationEntry&gt;  jaasConfigEntries"
+ , "c3" : "QC-JAV000006[00042] For method configure arguments Map&lt;String ,? &gt;  configs|String  mechanism|List&lt;AppConfigurationEntry &gt;  jaasConfigEntries"
 }} 
 ,
 { "ligne" : {"" : ""

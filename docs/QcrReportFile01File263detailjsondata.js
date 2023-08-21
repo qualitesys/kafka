@@ -183,7 +183,7 @@ var maDataBlocs = {
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method allOf arguments KafkaFuture&lt;?&gt;  ...futures"
+ , "c3" : "QC-JAV000006[00080] For method allOf arguments KafkaFuture&lt;? &gt;  ...futures"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -197,7 +197,7 @@ var maDataBlocs = {
  , "c1" : "00157"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/KafkaFuture.java.html#157"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00157] For method whenComplete arguments BiConsumer&lt;?superT,?superThrowable&gt;  action"
+ , "c3" : "QC-JAV000006[00157] For method whenComplete arguments BiConsumer&lt;? super T ,? super Throwable &gt;  action"
 }} 
 ,
 { "ligne" : {"" : ""

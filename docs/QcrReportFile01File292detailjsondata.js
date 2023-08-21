@@ -491,7 +491,7 @@ var maDataBlocs = {
  , "c1" : "00157"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#157"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00157] For method postProcessParsedConfig arguments Map&lt;String,Object&gt;  parsedValues"
+ , "c3" : "QC-JAV000006[00157] For method postProcessParsedConfig arguments Map&lt;String ,Object &gt;  parsedValues"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -624,7 +624,7 @@ var maDataBlocs = {
  , "c1" : "00235"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#235"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00235] For method originals arguments Map&lt;String,Object&gt;  configOverrides"
+ , "c3" : "QC-JAV000006[00235] For method originals arguments Map&lt;String ,Object &gt;  configOverrides"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -974,7 +974,7 @@ var maDataBlocs = {
  , "c1" : "00486"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#486"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00486] For method extractPotentialVariables arguments Map&lt;?,?&gt;  configMap"
+ , "c3" : "QC-JAV000006[00486] For method extractPotentialVariables arguments Map&lt;? ,? &gt;  configMap"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1009,7 +1009,7 @@ var maDataBlocs = {
  , "c1" : "00506"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#506"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00506] For method resolveConfigVariables arguments Map&lt;String,?&gt;  configProviderProps|Map&lt;String,Object&gt;  originals"
+ , "c3" : "QC-JAV000006[00506] For method resolveConfigVariables arguments Map&lt;String ,? &gt;  configProviderProps|Map&lt;String ,Object &gt;  originals"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1037,7 +1037,7 @@ var maDataBlocs = {
  , "c1" : "00535"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#535"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00535] For method configProviderProperties arguments String  configProviderPrefix|Map&lt;String,?&gt;  providerConfigProperties"
+ , "c3" : "QC-JAV000006[00535] For method configProviderProperties arguments String  configProviderPrefix|Map&lt;String ,? &gt;  providerConfigProperties"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1065,7 +1065,7 @@ var maDataBlocs = {
  , "c1" : "00556"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#556"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00556] For method instantiateConfigProviders arguments Map&lt;String,String&gt;  indirectConfigs|Map&lt;String,?&gt;  providerConfigProperties"
+ , "c3" : "QC-JAV000006[00556] For method instantiateConfigProviders arguments Map&lt;String ,String &gt;  indirectConfigs|Map&lt;String ,? &gt;  providerConfigProperties"
 }} 
 ,
 { "ligne" : {"" : ""

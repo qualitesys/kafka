@@ -173,7 +173,7 @@ var maDataBlocs = {
  , "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#48"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method configure arguments Map&lt;String,?&gt;  configs"
+ , "c3" : "QC-JAV000006[00048] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -187,7 +187,7 @@ var maDataBlocs = {
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00072] For method get arguments String  path|Set&lt;String&gt;  keys"
+ , "c3" : "QC-JAV000006[00072] For method get arguments String  path|Set&lt;String &gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -201,7 +201,7 @@ var maDataBlocs = {
  , "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/DirectoryConfigProvider.java.html#78"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00078] For method get arguments String  path|Predicate&lt;Path&gt;  fileFilter"
+ , "c3" : "QC-JAV000006[00078] For method get arguments String  path|Predicate&lt;Path &gt;  fileFilter"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -165,7 +165,7 @@ var maDataBlocs = {
  , "c1" : "00066"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#66"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method serialize arguments String  topic|SubscriptionResponseWrapper&lt;V&gt;  data"
+ , "c3" : "QC-JAV000006[00066] For method serialize arguments String  topic|SubscriptionResponseWrapper&lt;V &gt;  data"
 }} 
 ,
 { "ligne" : {"" : ""

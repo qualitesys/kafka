@@ -208,7 +208,7 @@ var maDataBlocs = {
  , "c1" : "00070"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasImage.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method write arguments Consumer&lt;List&lt;ApiMessageAndVersion&gt;&gt;  out"
+ , "c3" : "QC-JAV000006[00070] For method write arguments Consumer&lt;List&lt;ApiMessageAndVersion &gt; &gt;  out"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -397,7 +397,7 @@ var maDataBlocs = {
  , "c1" : "00140"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotasImage.java.html#140"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00140] For method matches arguments ClientQuotaEntity  entity|Map&lt;String,String&gt;  exactMatch|Set&lt;String&gt;  typeMatch|boolean  strict"
+ , "c3" : "QC-JAV000006[00140] For method matches arguments ClientQuotaEntity  entity|Map&lt;String ,String &gt;  exactMatch|Set&lt;String &gt;  typeMatch|boolean  strict"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -188,7 +188,7 @@ var maDataBlocs = {
  , "c1" : "00142"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#142"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00142] For method init arguments ProcessorContext&lt;K,Change&lt;V&gt;&gt;  context"
+ , "c3" : "QC-JAV000006[00142] For method init arguments ProcessorContext&lt;K ,Change&lt;V &gt; &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -209,7 +209,7 @@ var maDataBlocs = {
  , "c1" : "00157"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#157"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00157] For method process arguments Record&lt;K,Change&lt;V&gt;&gt;  record"
+ , "c3" : "QC-JAV000006[00157] For method process arguments Record&lt;K ,Change&lt;V &gt; &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -223,7 +223,7 @@ var maDataBlocs = {
  , "c1" : "00163"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#163"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00163] For method buffer arguments Record&lt;K,Change&lt;V&gt;&gt;  record"
+ , "c3" : "QC-JAV000006[00163] For method buffer arguments Record&lt;K ,Change&lt;V &gt; &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -265,7 +265,7 @@ var maDataBlocs = {
  , "c1" : "00200"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#200"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00200] For method emit arguments TimeOrderedKeyValueBuffer.Eviction&lt;K,V&gt;  toEmit"
+ , "c3" : "QC-JAV000006[00200] For method emit arguments TimeOrderedKeyValueBuffer.Eviction&lt;K ,V &gt;  toEmit"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -293,7 +293,7 @@ var maDataBlocs = {
  , "c1" : "00215"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#215"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00215] For method shouldForward arguments Change&lt;V&gt;  value"
+ , "c3" : "QC-JAV000006[00215] For method shouldForward arguments Change&lt;V &gt;  value"
 }} 
 ,
 { "ligne" : {"" : ""

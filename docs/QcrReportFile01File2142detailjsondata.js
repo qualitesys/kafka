@@ -153,7 +153,7 @@ var maDataBlocs = {
  , "c1" : "00079"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyValueStoreBuilder.java.html#79"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00079] For method maybeWrapCaching arguments KeyValueStore&lt;Bytes,byte[]&gt;  inner"
+ , "c3" : "QC-JAV000006[00079] For method maybeWrapCaching arguments KeyValueStore&lt;Bytes ,byte[] &gt;  inner"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -167,7 +167,7 @@ var maDataBlocs = {
  , "c1" : "00086"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyValueStoreBuilder.java.html#86"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00086] For method maybeWrapLogging arguments KeyValueStore&lt;Bytes,byte[]&gt;  inner"
+ , "c3" : "QC-JAV000006[00086] For method maybeWrapLogging arguments KeyValueStore&lt;Bytes ,byte[] &gt;  inner"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -216,7 +216,7 @@ var maDataBlocs = {
  , "c1" : "00130"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedKeyValueStoreBuilder.java.html#130"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00130] For method putAll arguments List&lt;KeyValue&lt;Bytes,byte[]&gt;&gt;  entries"
+ , "c3" : "QC-JAV000006[00130] For method putAll arguments List&lt;KeyValue&lt;Bytes ,byte[] &gt; &gt;  entries"
 }} 
 ,
 { "ligne" : {"" : ""

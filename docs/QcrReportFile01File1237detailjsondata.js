@@ -245,14 +245,14 @@ var maDataBlocs = {
  , "c1" : "00056"
  , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#56"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method setLogDirs arguments List&lt;File&gt;  logDirs"
+ , "c3" : "QC-JAV000006[00056] For method setLogDirs arguments List&lt;File &gt;  logDirs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/core/src/main/java/kafka/server/builders/LogManagerBuilder.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00061] For method setInitialOfflineDirs arguments List&lt;File&gt;  initialOfflineDirs"
+ , "c3" : "QC-JAV000006[00061] For method setInitialOfflineDirs arguments List&lt;File &gt;  initialOfflineDirs"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -179,21 +179,21 @@ var maDataBlocs = {
  , "c1" : "00076"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#76"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method initialize arguments ConnectorContext  ctx|List&lt;Map&lt;String,String&gt;&gt;  taskConfigs"
+ , "c3" : "QC-JAV000006[00076] For method initialize arguments ConnectorContext  ctx|List&lt;Map&lt;String ,String &gt; &gt;  taskConfigs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00097"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00097] For method start arguments Map&lt;String,String&gt;  props"
+ , "c3" : "QC-JAV000006[00097] For method start arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00107"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#107"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00107] For method reconfigure arguments Map&lt;String,String&gt;  props"
+ , "c3" : "QC-JAV000006[00107] For method reconfigure arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -207,7 +207,7 @@ var maDataBlocs = {
  , "c1" : "00137"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Connector.java.html#137"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00137] For method validate arguments Map&lt;String,String&gt;  connectorConfigs"
+ , "c3" : "QC-JAV000006[00137] For method validate arguments Map&lt;String ,String &gt;  connectorConfigs"
 }} 
 ,
 { "ligne" : {"" : ""

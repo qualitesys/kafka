@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1193px" preserveAspectRatio="none" style="width:960px;height:1193px;background:#FFFFFF;" version="1.1" viewBox="0 0 960 1193" width="960px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="603" x="5" y="16.1387">An error has occured : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="415" x="5" y="30.1074">I understand human emotions, although I do not feel them myself.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="44.0762"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="280" x="5" y="58.0449">Diagram size: 1203 lines / 30542 characters.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="72.0137"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="374" x="5" y="85.9824">PlantUML (1.2022.7) cannot parse result from dot/GraphViz.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="99.9512"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="390" x="5" y="113.9199">This version of PlantUML is 363 days old, so you should</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="398" x="5" y="127.8887">consider upgrading from https://plantuml.com/download</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="141.8574"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="492" x="5" y="155.8262">Please go to https://plantuml.com/graphviz-dot to check your GraphViz version.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="169.7949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="277" x="5" y="183.7637">Java Runtime: OpenJDK Runtime Environment</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="187" x="5" y="197.7324">JVM: OpenJDK 64-Bit Server VM</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="211.7012">Default Encoding: UTF-8</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="5" y="225.6699">Language: en</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="5" y="239.6387">Country: null</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="253.6074"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="172" x="5" y="267.5762">PLANTUML_LIMIT_SIZE: 4096</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="281.5449"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="295.5137">This may be caused by :</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="9" y="309.4824">- a bug in PlantUML</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="144" x="9" y="323.4512">- a problem in GraphViz</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="337.4199"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="300" x="5" y="351.3887">You should send this diagram and this image to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="145" x="309" y="351.3887">plantuml@gmail.com</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="13" x="458" y="351.3887">or</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="5" y="365.3574">post to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="168" x="54" y="365.3574">https://plantuml.com/qa</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="117" x="226" y="365.3574">to solve this issue.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="405" x="5" y="379.3262">You can try to turn arround this issue by simplifing your diagram.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="393.2949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="458" x="5" y="407.2637">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="477" x="13" y="421.2324">java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="548" x="13" y="435.2012">java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="474" x="13" y="449.1699">java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="351" x="13" y="463.1387">java.base/java.util.Objects.checkIndex(Objects.java:372)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="314" x="13" y="477.1074">java.base/java.util.ArrayList.get(ArrayList.java:459)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="878" x="13" y="491.0762">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createWithLinks(FtileFactoryDelegatorSwitch.java:103)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="852" x="13" y="505.0449">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createSwitch(FtileFactoryDelegatorSwitch.java:79)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="519.0137">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="532.9824">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="546.9512">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="560.9199">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="574.8887">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="588.8574">net.sourceforge.plantuml.activitydiagram3.InstructionSwitch.createFtile(InstructionSwitch.java:119)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="13" y="602.8262">net.sourceforge.plantuml.activitydiagram3.InstructionList.createFtile(InstructionList.java:131)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="536" x="13" y="616.7949">net.sourceforge.plantuml.activitydiagram3.ftile.Swimlanes.drawU(Swimlanes.java:229)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="805" x="13" y="630.7637">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.getPiecewiseAffineTransform(CompressionXorYBuilder.java:51)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="655" x="13" y="644.7324">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.build(CompressionXorYBuilder.java:44)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="686" x="13" y="658.7012">net.sourceforge.plantuml.activitydiagram3.ActivityDiagram3.exportDiagramInternal(ActivityDiagram3.java:210)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="672.6699">net.sourceforge.plantuml.UmlDiagram.exportDiagramNow(UmlDiagram.java:135)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="538" x="13" y="686.6387">net.sourceforge.plantuml.AbstractPSystem.exportDiagram(AbstractPSystem.java:178)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="700.6074">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:172)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="714.5762">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="693" x="13" y="728.5449">com.qualitesys.qcrmavenplugin.commun.QcrCommunPlantUml.genererFichierSvg(QcrCommunPlantUml.java:82)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="585" x="13" y="742.5137">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lireFichier(QcrReporting01Mojo.java:927)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="556" x="13" y="756.4824">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lister(QcrReporting01Mojo.java:453)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="591" x="13" y="770.4512">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.doReport(QcrReporting01Mojo.java:2037)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="625" x="13" y="784.4199">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.executeReport(QcrReporting01Mojo.java:1739)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="582" x="13" y="798.3887">org.apache.maven.reporting.AbstractMavenReport.generate(AbstractMavenReport.java:251)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="748" x="13" y="812.3574">org.apache.maven.plugins.site.render.ReportDocumentRenderer.renderDocument(ReportDocumentRenderer.java:226)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="607" x="13" y="826.3262">org.apache.maven.doxia.siterenderer.DefaultSiteRenderer.render(DefaultSiteRenderer.java:348)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="840.2949">org.apache.maven.plugins.site.render.SiteMojo.renderLocale(SiteMojo.java:194)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="470" x="13" y="854.2637">org.apache.maven.plugins.site.render.SiteMojo.execute(SiteMojo.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="649" x="13" y="868.2324">org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="882.2012">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:370)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="531" x="13" y="896.1699">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:351)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="910.1387">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:215)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="924.1074">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:171)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="938.0762">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:163)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="651" x="13" y="952.0449">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="643" x="13" y="966.0137">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="747" x="13" y="979.9824">org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="993.9512">org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1007.9199">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:299)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1021.8887">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="412" x="13" y="1035.8574">org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="367" x="13" y="1049.8262">org.apache.maven.cli.MavenCli.execute(MavenCli.java:963)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="362" x="13" y="1063.7949">org.apache.maven.cli.MavenCli.doMain(MavenCli.java:296)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="347" x="13" y="1077.7637">org.apache.maven.cli.MavenCli.main(MavenCli.java:199)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="1091.7324">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="1105.7012">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="679" x="13" y="1119.6699">java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="373" x="13" y="1133.6387">java.base/java.lang.reflect.Method.invoke(Method.java:566)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="562" x="13" y="1147.6074">org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="499" x="13" y="1161.5762">org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="568" x="13" y="1175.5449">org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="487" x="13" y="1189.5137">org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)</text><image height="71" width="40" x="920" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAABHCAYAAAB1XAXiAAAEVUlEQVR4Xs2Zy3HrMAxF4yJcgWtICSnADWTvDtKBC/A+BWTvDlyDW0gZyjvOnDcIQ+pPhZjhSKZI4vICBCD56WlFud1u3efnZ5f2NyHdP2kaIHK9Xrv7/d4mQBlsGuDpdOrO5zO3bYEE0MfHR7fb7R4NJpsCCRjB0Q6HQ5sAAUbjvirAXKjI9SkCvFwu3fv7+yiAfeutLoB5eXl5tOPx2L2+vg4C3FQAwyER3NxDUo1VwGDa5+fnB4sE7DkAq4kAYY9Y2CxATYy5mwP49vb2YI/rUDZZ1dfSxdLfCGAABYOAJNz0AVwkOQBDAhhAyR7mrgZwjgAG3wMgQJuMgzAng1NNPMdqkwQw8YBwnQKwugCGAC1ADktTABH9jwPSx2B1c+YEpbBGAxwprwRwNcntNNeHUBzAHAySRbiWxm4uMEXuNZPgg4SZZl6eBAhzBmnu55RcVVgHBKBkzjDTTEUjg/idp5jWFEBYkzn9cCibLDLnlMmAAAyMmU3wwc0LhhJoGTTMxPtNAZYEEKQ5Tq3B2vtmAJreDNSYupmy3zQna6Q5+qamu5ILLRYOh4E6pjquf55NYCiW+piWYE1fVTOPpVv/A4ihBaAyWg3gWEE5gKxmonnpK4WasQQsFpQTYjwUxkH7/jTUoBgQgAIIZo3mBiS/HZvOryooRHn8qtrXNi8cUAZzKZBSqwawz5mJcXzu1e8ws3kY81rh7Pf74hpKn57ZAiMoBySAOCR+H/TKM8ZUYa9PUBjLK4AQVswqNPpkdk75v0hQhlLAkTn0sSj0GXr+BCCmiz4XAXAPg4Qb/XBTgLBjcM5lDO5lzuqG+7hGNUE5rFj35V6QuDdoWzSkm5gtQ0ceJZjMKqZkPtbBzG6iNG5VQYFMEIABAZs5xY7FtIKrXt2wOD5lEIbB0pcs+uI3Q0NObuwqoqPrUyj0PxGf25xjlvFLAwDTMYuFHbM4yswMNN/grKL99GZs9E8d+glDztMCq70OABDGPBCCAqz3Nk0Z+0x93ntwVgveMphWKEsbDK4GkN2yqGaKpvZ3bOkY5qa/VwWo+XzfwFT6mNc4xo9I0T9pPPOzSOn0TxLNa/lEQxEMcFU57MRySyYFxjjneGhMk4tBoojdurDmgQUaLLEJlMFuvAeYjOkmrmOZNhsgEzEZC/vlFGXs3OALCMfmhGdGAMYz199sjI2WMlGvMAEmAKRZrF4EFkH0ieN8qbe60Y/pn2VqTpvVSDQPzyYv9vQ9x02yNuyx9uRCgoHsFAY1K0ABOHqRgjwW6L4LDbOT/jnK1AywdjNusVOuPk/nTBXWsBTTMrrOKFPjG3FH/IbFwYkThLXM2Yjg0leHH8KD+OnM+DfJPyYIa8IeoNBloZEN4HToD4AEmAF21dIoCDot3wzc6LM0+wUypjHNy+RfA1cU1oYIBGCy+ePAcGM5FE/UUtOOZR4dmBpyaPg7TP73R3Nr2rK+kJGxQEqCjhIGSPsCw/2b+SOFM5UAAAAASUVORK5CYII=" y="6"/><!--MD5=[f27e9510480eb2a5d0aaea5be78847c7]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1193px" preserveAspectRatio="none" style="width:939px;height:1193px;background:#FFFFFF;" version="1.1" viewBox="0 0 939 1193" width="939px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="603" x="5" y="16.1387">An error has occured : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="227" x="5" y="30.1074">Make like a tree and get out of here</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="44.0762"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="280" x="5" y="58.0449">Diagram size: 1201 lines / 30319 characters.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="72.0137"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="374" x="5" y="85.9824">PlantUML (1.2022.7) cannot parse result from dot/GraphViz.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="99.9512"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="390" x="5" y="113.9199">This version of PlantUML is 364 days old, so you should</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="398" x="5" y="127.8887">consider upgrading from https://plantuml.com/download</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="141.8574"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="492" x="5" y="155.8262">Please go to https://plantuml.com/graphviz-dot to check your GraphViz version.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="169.7949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="277" x="5" y="183.7637">Java Runtime: OpenJDK Runtime Environment</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="187" x="5" y="197.7324">JVM: OpenJDK 64-Bit Server VM</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="211.7012">Default Encoding: UTF-8</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="5" y="225.6699">Language: en</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="5" y="239.6387">Country: null</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="253.6074"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="172" x="5" y="267.5762">PLANTUML_LIMIT_SIZE: 4096</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="281.5449"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="295.5137">This may be caused by :</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="9" y="309.4824">- a bug in PlantUML</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="144" x="9" y="323.4512">- a problem in GraphViz</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="337.4199"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="300" x="5" y="351.3887">You should send this diagram and this image to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="145" x="309" y="351.3887">plantuml@gmail.com</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="13" x="458" y="351.3887">or</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="5" y="365.3574">post to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="168" x="54" y="365.3574">https://plantuml.com/qa</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="117" x="226" y="365.3574">to solve this issue.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="405" x="5" y="379.3262">You can try to turn arround this issue by simplifing your diagram.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="393.2949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="458" x="5" y="407.2637">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="477" x="13" y="421.2324">java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="548" x="13" y="435.2012">java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="474" x="13" y="449.1699">java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="351" x="13" y="463.1387">java.base/java.util.Objects.checkIndex(Objects.java:372)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="314" x="13" y="477.1074">java.base/java.util.ArrayList.get(ArrayList.java:459)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="878" x="13" y="491.0762">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createWithLinks(FtileFactoryDelegatorSwitch.java:103)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="852" x="13" y="505.0449">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createSwitch(FtileFactoryDelegatorSwitch.java:79)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="519.0137">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="532.9824">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="546.9512">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="560.9199">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="574.8887">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="588.8574">net.sourceforge.plantuml.activitydiagram3.InstructionSwitch.createFtile(InstructionSwitch.java:119)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="13" y="602.8262">net.sourceforge.plantuml.activitydiagram3.InstructionList.createFtile(InstructionList.java:131)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="536" x="13" y="616.7949">net.sourceforge.plantuml.activitydiagram3.ftile.Swimlanes.drawU(Swimlanes.java:229)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="805" x="13" y="630.7637">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.getPiecewiseAffineTransform(CompressionXorYBuilder.java:51)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="655" x="13" y="644.7324">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.build(CompressionXorYBuilder.java:44)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="686" x="13" y="658.7012">net.sourceforge.plantuml.activitydiagram3.ActivityDiagram3.exportDiagramInternal(ActivityDiagram3.java:210)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="672.6699">net.sourceforge.plantuml.UmlDiagram.exportDiagramNow(UmlDiagram.java:135)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="538" x="13" y="686.6387">net.sourceforge.plantuml.AbstractPSystem.exportDiagram(AbstractPSystem.java:178)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="700.6074">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:172)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="714.5762">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="693" x="13" y="728.5449">com.qualitesys.qcrmavenplugin.commun.QcrCommunPlantUml.genererFichierSvg(QcrCommunPlantUml.java:82)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="585" x="13" y="742.5137">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lireFichier(QcrReporting01Mojo.java:927)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="556" x="13" y="756.4824">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lister(QcrReporting01Mojo.java:453)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="591" x="13" y="770.4512">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.doReport(QcrReporting01Mojo.java:2037)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="625" x="13" y="784.4199">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.executeReport(QcrReporting01Mojo.java:1739)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="582" x="13" y="798.3887">org.apache.maven.reporting.AbstractMavenReport.generate(AbstractMavenReport.java:251)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="748" x="13" y="812.3574">org.apache.maven.plugins.site.render.ReportDocumentRenderer.renderDocument(ReportDocumentRenderer.java:226)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="607" x="13" y="826.3262">org.apache.maven.doxia.siterenderer.DefaultSiteRenderer.render(DefaultSiteRenderer.java:348)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="840.2949">org.apache.maven.plugins.site.render.SiteMojo.renderLocale(SiteMojo.java:194)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="470" x="13" y="854.2637">org.apache.maven.plugins.site.render.SiteMojo.execute(SiteMojo.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="649" x="13" y="868.2324">org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="882.2012">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:370)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="531" x="13" y="896.1699">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:351)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="910.1387">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:215)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="924.1074">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:171)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="938.0762">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:163)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="651" x="13" y="952.0449">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="643" x="13" y="966.0137">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="747" x="13" y="979.9824">org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="993.9512">org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1007.9199">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:299)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1021.8887">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="412" x="13" y="1035.8574">org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="367" x="13" y="1049.8262">org.apache.maven.cli.MavenCli.execute(MavenCli.java:963)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="362" x="13" y="1063.7949">org.apache.maven.cli.MavenCli.doMain(MavenCli.java:296)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="347" x="13" y="1077.7637">org.apache.maven.cli.MavenCli.main(MavenCli.java:199)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="1091.7324">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="1105.7012">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="679" x="13" y="1119.6699">java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="373" x="13" y="1133.6387">java.base/java.lang.reflect.Method.invoke(Method.java:566)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="562" x="13" y="1147.6074">org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="499" x="13" y="1161.5762">org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="568" x="13" y="1175.5449">org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="487" x="13" y="1189.5137">org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)</text><image height="20" width="19" x="920" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAUCAYAAABvVQZ0AAAAaUlEQVR4Xu2PywkAIQxE05L997AtRXBd0Ed+eHUfzGGSyYgiP9JUNx3BEqoMDz2l8CBTCMOZQpagPm3I83EZXuUxfVzIUFUmDFVlMpf8TuZZ8zKD3pHlw7IjmaxLK8wZ9xtcMEz/ze6jA/9BaSqaQt1qAAAAAElFTkSuQmCC" y="6"/><!--MD5=[398fe3a6c9533cc9355c0f987fd2fdbc]
 @startuml
 !pragma layout smetana
 start
 note right
-String toString()
+StringtoString()
 end note
 :return "SubscriptionState{"+"type="+subscriptionType+
 ", subscribedPattern="+subscribedPattern+
@@ -16,15 +16,15 @@ stop
 end
 start
 note right
-String prettyString()
+StringprettyString()
 end note
 switch (switch subscriptionType)
 endswitch
 end
 start
 note right
-constructor SubscriptionState(LogContext logContext,
-OffsetResetStrategy defaultResetStrategy)
+constructor SubscriptionState(LogContextlogContext,
+OffsetResetStrategydefaultResetStrategy)
 end note
 :this.log=logContext.logger(this.getClass());;
 :this.defaultResetStrategy=defaultResetStrategy;;
@@ -36,14 +36,14 @@ end note
 end
 start
 note right
-int assignmentId()
+intassignmentId()
 end note
 :return assignmentId;;
 stop
 end
 start
 note right
-void setSubscriptionType(SubscriptionType type)
+void setSubscriptionType(SubscriptionTypetype)
 end note
 if (this.subscriptionType==SubscriptionType.NONE) then (yes) 
 :this.subscriptionType=type;;
@@ -54,7 +54,7 @@ endif
 end
 start
 note right
-boolean subscribe(Set<String> topics,ConsumerRebalanceListener listener)
+booleansubscribe(Set<String>topics,ConsumerRebalanceListenerlistener)
 end note
 :registerRebalanceListener(listener);;
 :setSubscriptionType(SubscriptionType.AUTO_TOPICS);;
@@ -63,7 +63,7 @@ stop
 end
 start
 note right
-void subscribe(Pattern pattern,ConsumerRebalanceListener listener)
+void subscribe(Patternpattern,ConsumerRebalanceListenerlistener)
 end note
 :registerRebalanceListener(listener);;
 :setSubscriptionType(SubscriptionType.AUTO_PATTERN);;
@@ -71,7 +71,7 @@ end note
 end
 start
 note right
-boolean subscribeFromPattern(Set<String> topics)
+booleansubscribeFromPattern(Set<String>topics)
 end note
 if (subscriptionType!=SubscriptionType.AUTO_PATTERN) then (yes) 
 :throw new IllegalArgumentException("Attempt to subscribe from pattern while subscription type set to "+
@@ -83,7 +83,7 @@ stop
 end
 start
 note right
-boolean changeSubscription(Set<String> topicsToSubscribe)
+booleanchangeSubscription(Set<String>topicsToSubscribe)
 end note
 if (subscription.equals(topicsToSubscribe)) then (yes) 
 :return false;;
@@ -95,7 +95,7 @@ stop
 end
 start
 note right
-boolean groupSubscribe(Collection<String> topics)
+booleangroupSubscribe(Collection<String>topics)
 end note
 if (!hasAutoAssignedPartitions()) then (yes) 
 :throw new IllegalStateException(SUBSCRIPTION_EXCEPTION_MESSAGE);;
@@ -113,7 +113,7 @@ end note
 end
 start
 note right
-boolean assignFromUser(Set<TopicPartition> partitions)
+booleanassignFromUser(Set<TopicPartition>partitions)
 end note
 :setSubscriptionType(SubscriptionType.USER_ASSIGNED);;
 if (this.assignment.partitionSet().equals(partitions)) then (yes) 
@@ -121,9 +121,9 @@ if (this.assignment.partitionSet().equals(partitions)) then (yes)
 stop
 endif 
 :assignmentId++;;
-:Set<String> manualSubscribedTopics=new HashSet<>();;
-:Map<TopicPartition,TopicPartitionState> partitionToState=new HashMap<>();;
-:TopicPartitionState state=assignment.stateValue(partition);;
+:Set<String>manualSubscribedTopics=new HashSet<>();;
+:Map<TopicPartition,TopicPartitionState>partitionToState=new HashMap<>();;
+:TopicPartitionStatestate=assignment.stateValue(partition);;
 if (state==null ) then (yes) 
 :state=new TopicPartitionState();;
 endif 
@@ -135,7 +135,7 @@ stop
 end
 start
 note right
-boolean checkAssignmentMatchedSubscription(Collection<TopicPartition> assignments)
+booleancheckAssignmentMatchedSubscription(Collection<TopicPartition>assignments)
 end note
 if (this.subscribedPattern!=null ) then (yes) 
 if (!this.subscribedPattern.matcher(topicPartition.topic()).matches()) then (yes) 
@@ -157,14 +157,14 @@ stop
 end
 start
 note right
-void assignFromSubscribed(Collection<TopicPartition> assignments)
+void assignFromSubscribed(Collection<TopicPartition>assignments)
 end note
 if (!this.hasAutoAssignedPartitions()) then (yes) 
 :throw new IllegalArgumentException("Attempt to dynamically assign partitions while manual assignment in use");;
 stop
 endif 
-:Map<TopicPartition,TopicPartitionState> assignedPartitionStates=new HashMap<>(assignments.size());;
-:TopicPartitionState state=this.assignment.stateValue(tp);;
+:Map<TopicPartition,TopicPartitionState>assignedPartitionStates=new HashMap<>(assignments.size());;
+:TopicPartitionStatestate=this.assignment.stateValue(tp);;
 if (state==null ) then (yes) 
 :state=new TopicPartitionState();;
 endif 
@@ -174,7 +174,7 @@ endif
 end
 start
 note right
-void registerRebalanceListener(ConsumerRebalanceListener listener)
+void registerRebalanceListener(ConsumerRebalanceListenerlistener)
 end note
 if (listener==null ) then (yes) 
 :throw new IllegalArgumentException("RebalanceListener cannot be null");;
@@ -184,14 +184,14 @@ endif
 end
 start
 note right
-boolean hasPatternSubscription()
+booleanhasPatternSubscription()
 end note
 :return this.subscriptionType==SubscriptionType.AUTO_PATTERN;;
 stop
 end
 start
 note right
-boolean hasNoSubscriptionOrUserAssignment()
+booleanhasNoSubscriptionOrUserAssignment()
 end note
 :return this.subscriptionType==SubscriptionType.NONE;;
 stop
@@ -209,9 +209,9 @@ end note
 end
 start
 note right
-boolean matchesSubscribedPattern(String topic)
+booleanmatchesSubscribedPattern(Stringtopic)
 end note
-:Pattern pattern=this.subscribedPattern;;
+:Patternpattern=this.subscribedPattern;;
 if (hasPatternSubscription()&&pattern!=null ) then (yes) 
 :return pattern.matcher(topic).matches();;
 stop
@@ -221,7 +221,7 @@ stop
 end
 start
 note right
-Set<String> subscription()
+Set<String>subscription()
 end note
 if (hasAutoAssignedPartitions()) then (yes) 
 :return this.subscription;;
@@ -232,14 +232,14 @@ stop
 end
 start
 note right
-Set<TopicPartition> pausedPartitions()
+Set<TopicPartition>pausedPartitions()
 end note
 :return collectPartitions(TopicPartitionState::isPaused);;
 stop
 end
 start
 note right
-Set<String> metadataTopics()
+Set<String>metadataTopics()
 end note
 if (groupSubscription.isEmpty()) then (yes) 
 :return subscription;;
@@ -248,7 +248,7 @@ else if (groupSubscription.containsAll(subscription)) then (yes)
 :return groupSubscription;;
 stop
 else (no)
-:Set<String> topics=new HashSet<>(groupSubscription);;
+:Set<String>topics=new HashSet<>(groupSubscription);;
 :topics.addAll(subscription);;
 :return topics;;
 stop
@@ -256,16 +256,16 @@ endif
 end
 start
 note right
-boolean needsMetadata(String topic)
+booleanneedsMetadata(Stringtopic)
 end note
 :return subscription.contains(topic)||groupSubscription.contains(topic);;
 stop
 end
 start
 note right
-TopicPartitionState assignedState(TopicPartition tp)
+TopicPartitionStateassignedState(TopicPartitiontp)
 end note
-:TopicPartitionState state=this.assignment.stateValue(tp);;
+:TopicPartitionStatestate=this.assignment.stateValue(tp);;
 if (state==null ) then (yes) 
 :throw new IllegalStateException("No current assignment for partition "+
 tp);;
@@ -276,35 +276,35 @@ stop
 end
 start
 note right
-TopicPartitionState assignedStateOrNull(TopicPartition tp)
+TopicPartitionStateassignedStateOrNull(TopicPartitiontp)
 end note
 :return this.assignment.stateValue(tp);;
 stop
 end
 start
 note right
-void seekValidated(TopicPartition tp,FetchPosition position)
+void seekValidated(TopicPartitiontp,FetchPositionposition)
 end note
 :assignedState(tp).seekValidated(position);;
 end
 start
 note right
-void seek(TopicPartition tp,long offset)
+void seek(TopicPartitiontp,longoffset)
 end note
 :seekValidated(tp,new FetchPosition(offset));;
 end
 start
 note right
-void seekUnvalidated(TopicPartition tp,FetchPosition position)
+void seekUnvalidated(TopicPartitiontp,FetchPositionposition)
 end note
 :assignedState(tp).seekUnvalidated(position);;
 end
 start
 note right
-void maybeSeekUnvalidated(TopicPartition tp,
-FetchPosition position,OffsetResetStrategy requestedResetStrategy)
+void maybeSeekUnvalidated(TopicPartitiontp,
+FetchPositionposition,OffsetResetStrategyrequestedResetStrategy)
 end note
-:TopicPartitionState state=assignedStateOrNull(tp);;
+:TopicPartitionStatestate=assignedStateOrNull(tp);;
 if (state==null ) then (yes) 
 :log.debug("Skipping reset of partition {} since it is no longer assigned",
 tp);;
@@ -322,30 +322,30 @@ endif
 end
 start
 note right
-Set<TopicPartition> assignedPartitions()
+Set<TopicPartition>assignedPartitions()
 end note
 :return new HashSet<>(this.assignment.partitionSet());;
 stop
 end
 start
 note right
-List<TopicPartition> assignedPartitionsList()
+List<TopicPartition>assignedPartitionsList()
 end note
 :return new ArrayList<>(this.assignment.partitionSet());;
 stop
 end
 start
 note right
-int numAssignedPartitions()
+intnumAssignedPartitions()
 end note
 :return this.assignment.size();;
 stop
 end
 start
 note right
-List<TopicPartition> fetchablePartitions(Predicate<TopicPartition> isAvailable)
+List<TopicPartition>fetchablePartitions(Predicate<TopicPartition>isAvailable)
 end note
-:List<TopicPartition> result=new ArrayList<>();;
+:List<TopicPartition>result=new ArrayList<>();;
 :assignment.forEach((topicPartition,topicPartitionState)->{if (topicPartitionState.isFetchable()&&isAvailable.test(topicPartition)){result.add(topicPartition);
 :}});;
 :return result;;
@@ -353,24 +353,24 @@ stop
 end
 start
 note right
-boolean hasAutoAssignedPartitions()
+booleanhasAutoAssignedPartitions()
 end note
 :return this.subscriptionType==SubscriptionType.AUTO_TOPICS||this.subscriptionType==SubscriptionType.AUTO_PATTERN;;
 stop
 end
 start
 note right
-void position(TopicPartition tp,FetchPosition position)
+void position(TopicPartitiontp,FetchPositionposition)
 end note
 :assignedState(tp).position(position);;
 end
 start
 note right
-boolean maybeValidatePositionForCurrentLeader(ApiVersions apiVersions,
-TopicPartition tp,Metadata.LeaderAndEpoch leaderAndEpoch)
+booleanmaybeValidatePositionForCurrentLeader(ApiVersionsapiVersions,
+TopicPartitiontp,Metadata.LeaderAndEpochleaderAndEpoch)
 end note
 if (leaderAndEpoch.leader.isPresent()) then (yes) 
-:NodeApiVersions nodeApiVersions=apiVersions.get(leaderAndEpoch.leader.get()
+:NodeApiVersionsnodeApiVersions=apiVersions.get(leaderAndEpoch.leader.get()
 .idString());;
 if (nodeApiVersions==null ||hasUsableOffsetForLeaderEpochVersion(nodeApiVersions)) then (yes) 
 :return assignedState(tp).maybeValidatePosition(leaderAndEpoch);;
@@ -387,10 +387,10 @@ endif
 end
 start
 note right
-Optional<LogTruncation> maybeCompleteValidation(TopicPartition tp,
-FetchPosition requestPosition,EpochEndOffset epochEndOffset)
+Optional<LogTruncation>maybeCompleteValidation(TopicPartitiontp,
+FetchPositionrequestPosition,EpochEndOffsetepochEndOffset)
 end note
-:TopicPartitionState state=assignedStateOrNull(tp);;
+:TopicPartitionStatestate=assignedStateOrNull(tp);;
 if (state==null ) then (yes) 
 :log.debug("Skipping completed validation for partition {} which is not currently assigned.",
 tp);;
@@ -398,7 +398,7 @@ else if (!state.awaitingValidation()) then (yes)
 :log.debug("Skipping completed validation for partition {} which is no longer expecting validation.",
 tp);;
 else (no)
-:SubscriptionState.FetchPosition currentPosition=state.position;;
+:SubscriptionState.FetchPositioncurrentPosition=state.position;;
 if (!currentPosition.equals(requestPosition)) then (yes) 
 :log.debug("Skipping completed validation for partition {} since the current position {} "+
 "no longer matches the position {} when the request was sent",
@@ -417,7 +417,7 @@ stop
 endif 
 else if (epochEndOffset.endOffset()<currentPosition.offset) then (yes) 
 if (hasDefaultOffsetResetPolicy()) then (yes) 
-:SubscriptionState.FetchPosition newPosition=new SubscriptionState.FetchPosition(epochEndOffset.endOffset(),
+:SubscriptionState.FetchPositionnewPosition=new SubscriptionState.FetchPosition(epochEndOffset.endOffset(),
 Optional.of(epochEndOffset.leaderEpoch()),
 currentPosition.currentLeader);;
 :log.info("Truncation detected for partition {} at offset {}, resetting offset to "+
@@ -425,7 +425,7 @@ currentPosition.currentLeader);;
 currentPosition,newPosition);;
 :state.seekValidated(newPosition);;
 else (no)
-:OffsetAndMetadata divergentOffset=new OffsetAndMetadata(epochEndOffset.endOffset(),
+:OffsetAndMetadatadivergentOffset=new OffsetAndMetadata(epochEndOffset.endOffset(),
 Optional.of(epochEndOffset.leaderEpoch()),
 null );;
 :log.warn("Truncation detected for partition {} at offset {} (the end offset from the "+
@@ -444,36 +444,36 @@ stop
 end
 start
 note right
-boolean awaitingValidation(TopicPartition tp)
+booleanawaitingValidation(TopicPartitiontp)
 end note
 :return assignedState(tp).awaitingValidation();;
 stop
 end
 start
 note right
-void completeValidation(TopicPartition tp)
+void completeValidation(TopicPartitiontp)
 end note
 :assignedState(tp).completeValidation();;
 end
 start
 note right
-FetchPosition validPosition(TopicPartition tp)
+FetchPositionvalidPosition(TopicPartitiontp)
 end note
 :return assignedState(tp).validPosition();;
 stop
 end
 start
 note right
-FetchPosition position(TopicPartition tp)
+FetchPositionposition(TopicPartitiontp)
 end note
 :return assignedState(tp).position;;
 stop
 end
 start
 note right
-Long partitionLag(TopicPartition tp,IsolationLevel isolationLevel)
+LongpartitionLag(TopicPartitiontp,IsolationLevelisolationLevel)
 end note
-:TopicPartitionState topicPartitionState=assignedState(tp);;
+:TopicPartitionStatetopicPartitionState=assignedState(tp);;
 if (topicPartitionState.position==null ) then (yes) 
 :return null ;;
 stop
@@ -487,10 +487,9 @@ endif
 end
 start
 note right
-Long partitionEndOffset(TopicPartition tp,
-IsolationLevel isolationLevel)
+LongpartitionEndOffset(TopicPartitiontp,IsolationLevelisolationLevel)
 end note
-:TopicPartitionState topicPartitionState=assignedState(tp);;
+:TopicPartitionStatetopicPartitionState=assignedState(tp);;
 if (isolationLevel==IsolationLevel.READ_COMMITTED) then (yes) 
 :return topicPartitionState.lastStableOffset;;
 stop
@@ -501,62 +500,62 @@ endif
 end
 start
 note right
-void requestPartitionEndOffset(TopicPartition tp)
+void requestPartitionEndOffset(TopicPartitiontp)
 end note
-:TopicPartitionState topicPartitionState=assignedState(tp);;
+:TopicPartitionStatetopicPartitionState=assignedState(tp);;
 :topicPartitionState.requestEndOffset();;
 end
 start
 note right
-boolean partitionEndOffsetRequested(TopicPartition tp)
+booleanpartitionEndOffsetRequested(TopicPartitiontp)
 end note
-:TopicPartitionState topicPartitionState=assignedState(tp);;
+:TopicPartitionStatetopicPartitionState=assignedState(tp);;
 :return topicPartitionState.endOffsetRequested();;
 stop
 end
 start
 note right
-Long partitionLead(TopicPartition tp)
+LongpartitionLead(TopicPartitiontp)
 end note
-:TopicPartitionState topicPartitionState=assignedState(tp);;
+:TopicPartitionStatetopicPartitionState=assignedState(tp);;
 :return topicPartitionState.logStartOffset==null ? null :topicPartitionState.position.offset-topicPartitionState.logStartOffset;;
 stop
 end
 start
 note right
-void updateHighWatermark(TopicPartition tp,
-long highWatermark)
+void updateHighWatermark(TopicPartitiontp,
+longhighWatermark)
 end note
 :assignedState(tp).highWatermark(highWatermark);;
 end
 start
 note right
-void updateLogStartOffset(TopicPartition tp,
-long logStartOffset)
+void updateLogStartOffset(TopicPartitiontp,
+longlogStartOffset)
 end note
 :assignedState(tp).logStartOffset(logStartOffset);;
 end
 start
 note right
-void updateLastStableOffset(TopicPartition tp,
-long lastStableOffset)
+void updateLastStableOffset(TopicPartitiontp,
+longlastStableOffset)
 end note
 :assignedState(tp).lastStableOffset(lastStableOffset);;
 end
 start
 note right
-void updatePreferredReadReplica(TopicPartition tp,
-int preferredReadReplicaId,LongSupplier timeMs)
+void updatePreferredReadReplica(TopicPartitiontp,
+intpreferredReadReplicaId,LongSuppliertimeMs)
 end note
 :assignedState(tp).updatePreferredReadReplica(preferredReadReplicaId,
 timeMs);;
 end
 start
 note right
-Optional<Integer> preferredReadReplica(TopicPartition tp,
-long timeMs)
+Optional<Integer>preferredReadReplica(TopicPartitiontp,
+longtimeMs)
 end note
-:final TopicPartitionState topicPartitionState=assignedStateOrNull(tp);;
+:final TopicPartitionStatetopicPartitionState=assignedStateOrNull(tp);;
 if (topicPartitionState==null ) then (yes) 
 :return Optional.empty();;
 stop
@@ -567,16 +566,16 @@ endif
 end
 start
 note right
-Optional<Integer> clearPreferredReadReplica(TopicPartition tp)
+Optional<Integer>clearPreferredReadReplica(TopicPartitiontp)
 end note
 :return assignedState(tp).clearPreferredReadReplica();;
 stop
 end
 start
 note right
-Map<TopicPartition,OffsetAndMetadata> allConsumed()
+Map<TopicPartition,OffsetAndMetadata>allConsumed()
 end note
-:Map<TopicPartition,OffsetAndMetadata> allConsumed=new HashMap<>();;
+:Map<TopicPartition,OffsetAndMetadata>allConsumed=new HashMap<>();;
 :assignment.forEach((topicPartition,partitionState)->{if (partitionState.hasValidPosition())allConsumed.put(topicPartition,
 new OffsetAndMetadata(partitionState.position.offset,
 partitionState.position.offsetEpoch,""));});;
@@ -585,58 +584,58 @@ stop
 end
 start
 note right
-void requestOffsetReset(TopicPartition partition,
-OffsetResetStrategy offsetResetStrategy)
+void requestOffsetReset(TopicPartitionpartition,
+OffsetResetStrategyoffsetResetStrategy)
 end note
 :assignedState(partition).reset(offsetResetStrategy);;
 end
 start
 note right
-void requestOffsetReset(Collection<TopicPartition> partitions,
-OffsetResetStrategy offsetResetStrategy)
+void requestOffsetReset(Collection<TopicPartition>partitions,
+OffsetResetStrategyoffsetResetStrategy)
 end note
 :partitions.forEach(tp->{log.info("Seeking to {} offset of partition {}",
 offsetResetStrategy,tp);assignedState(tp).reset(offsetResetStrategy);});;
 end
 start
 note right
-void requestOffsetReset(TopicPartition partition)
+void requestOffsetReset(TopicPartitionpartition)
 end note
 :requestOffsetReset(partition,defaultResetStrategy);;
 end
 start
 note right
-void setNextAllowedRetry(Set<TopicPartition> partitions,
-long nextAllowResetTimeMs)
+void setNextAllowedRetry(Set<TopicPartition>partitions,
+longnextAllowResetTimeMs)
 end note
 :assignedState(partition).setNextAllowedRetry(nextAllowResetTimeMs);;
 end
 start
 note right
-boolean hasDefaultOffsetResetPolicy()
+booleanhasDefaultOffsetResetPolicy()
 end note
 :return defaultResetStrategy!=OffsetResetStrategy.NONE;;
 stop
 end
 start
 note right
-boolean isOffsetResetNeeded(TopicPartition partition)
+booleanisOffsetResetNeeded(TopicPartitionpartition)
 end note
 :return assignedState(partition).awaitingReset();;
 stop
 end
 start
 note right
-OffsetResetStrategy resetStrategy(TopicPartition partition)
+OffsetResetStrategyresetStrategy(TopicPartitionpartition)
 end note
 :return assignedState(partition).resetStrategy();;
 stop
 end
 start
 note right
-boolean hasAllFetchPositions()
+booleanhasAllFetchPositions()
 end note
-:Iterator<TopicPartitionState> it=assignment.stateIterator();;
+:Iterator<TopicPartitionState>it=assignment.stateIterator();;
 while (it.hasNext())
 if (!it.next().hasValidPosition()) then (yes) 
 :return false;;
@@ -648,16 +647,16 @@ stop
 end
 start
 note right
-Set<TopicPartition> initializingPartitions()
+Set<TopicPartition>initializingPartitions()
 end note
 :return collectPartitions(state->state.fetchState.equals(FetchStates.INITIALIZING));;
 stop
 end
 start
 note right
-Set<TopicPartition> collectPartitions(Predicate<TopicPartitionState> filter)
+Set<TopicPartition>collectPartitions(Predicate<TopicPartitionState>filter)
 end note
-:Set<TopicPartition> result=new HashSet<>();;
+:Set<TopicPartition>result=new HashSet<>();;
 :assignment.forEach((topicPartition,topicPartitionState)->{if (filter.test(topicPartitionState)){result.add(topicPartition);
 :}});;
 :return result;;
@@ -667,7 +666,7 @@ start
 note right
 void resetInitializingPositions()
 end note
-:final Set<TopicPartition> partitionsWithNoOffsets=new HashSet<>();;
+:final Set<TopicPartition>partitionsWithNoOffsets=new HashSet<>();;
 :assignment.forEach((tp,partitionState)->{if (partitionState.fetchState.equals(FetchStates.INITIALIZING)){if (defaultResetStrategy==OffsetResetStrategy.NONE)partitionsWithNoOffsets.add(tp);
 :else requestOffsetReset(tp);}});;
 if (!partitionsWithNoOffsets.isEmpty()) then (yes) 
@@ -677,80 +676,80 @@ endif
 end
 start
 note right
-Set<TopicPartition> partitionsNeedingReset(long nowMs)
+Set<TopicPartition>partitionsNeedingReset(longnowMs)
 end note
 :return collectPartitions(state->state.awaitingReset()&&!state.awaitingRetryBackoff(nowMs));;
 stop
 end
 start
 note right
-Set<TopicPartition> partitionsNeedingValidation(long nowMs)
+Set<TopicPartition>partitionsNeedingValidation(longnowMs)
 end note
 :return collectPartitions(state->state.awaitingValidation()&&!state.awaitingRetryBackoff(nowMs));;
 stop
 end
 start
 note right
-boolean isAssigned(TopicPartition tp)
+booleanisAssigned(TopicPartitiontp)
 end note
 :return assignment.contains(tp);;
 stop
 end
 start
 note right
-boolean isPaused(TopicPartition tp)
+booleanisPaused(TopicPartitiontp)
 end note
-:TopicPartitionState assignedOrNull=assignedStateOrNull(tp);;
+:TopicPartitionStateassignedOrNull=assignedStateOrNull(tp);;
 :return assignedOrNull!=null &&assignedOrNull.isPaused();;
 stop
 end
 start
 note right
-boolean isFetchable(TopicPartition tp)
+booleanisFetchable(TopicPartitiontp)
 end note
-:TopicPartitionState assignedOrNull=assignedStateOrNull(tp);;
+:TopicPartitionStateassignedOrNull=assignedStateOrNull(tp);;
 :return assignedOrNull!=null &&assignedOrNull.isFetchable();;
 stop
 end
 start
 note right
-boolean hasValidPosition(TopicPartition tp)
+booleanhasValidPosition(TopicPartitiontp)
 end note
-:TopicPartitionState assignedOrNull=assignedStateOrNull(tp);;
+:TopicPartitionStateassignedOrNull=assignedStateOrNull(tp);;
 :return assignedOrNull!=null &&assignedOrNull.hasValidPosition();;
 stop
 end
 start
 note right
-void pause(TopicPartition tp)
+void pause(TopicPartitiontp)
 end note
 :assignedState(tp).pause();;
 end
 start
 note right
-void resume(TopicPartition tp)
+void resume(TopicPartitiontp)
 end note
 :assignedState(tp).resume();;
 end
 start
 note right
-void requestFailed(Set<TopicPartition> partitions,
-long nextRetryTimeMs)
+void requestFailed(Set<TopicPartition>partitions,
+longnextRetryTimeMs)
 end note
-:final TopicPartitionState state=assignedStateOrNull(partition);;
+:final TopicPartitionStatestate=assignedStateOrNull(partition);;
 if (state!=null ) then (yes) 
 :state.requestFailed(nextRetryTimeMs);;
 endif 
 end
 start
 note right
-void movePartitionToEnd(TopicPartition tp)
+void movePartitionToEnd(TopicPartitiontp)
 end note
 :assignment.moveToEnd(tp);;
 end
 start
 note right
-ConsumerRebalanceListener rebalanceListener()
+ConsumerRebalanceListenerrebalanceListener()
 end note
 :return rebalanceListener;;
 stop
@@ -772,7 +771,7 @@ end note
 end
 start
 note right
-boolean endOffsetRequested()
+booleanendOffsetRequested()
 end note
 :return endOffsetRequested;;
 stop
@@ -785,10 +784,9 @@ end note
 end
 start
 note right
-void transitionState(FetchState newState,
-Runnable runIfTransitioned)
+void transitionState(FetchStatenewState,RunnablerunIfTransitioned)
 end note
-:FetchState nextState=this.fetchState.transitionTo(newState);;
+:FetchStatenextState=this.fetchState.transitionTo(newState);;
 if (nextState.equals(newState)) then (yes) 
 :this.fetchState=nextState;;
 :runIfTransitioned.run();;
@@ -803,7 +801,7 @@ endif
 end
 start
 note right
-Optional<Integer> preferredReadReplica(long timeMs)
+Optional<Integer>preferredReadReplica(longtimeMs)
 end note
 if (preferredReadReplicaExpireTimeMs!=null &&timeMs>preferredReadReplicaExpireTimeMs) then (yes) 
 :preferredReadReplica=null ;;
@@ -816,8 +814,8 @@ endif
 end
 start
 note right
-void updatePreferredReadReplica(int preferredReadReplica,
-LongSupplier timeMs)
+void updatePreferredReadReplica(intpreferredReadReplica,
+LongSuppliertimeMs)
 end note
 if (this.preferredReadReplica==null ||preferredReadReplica!=this.preferredReadReplica) then (yes) 
 :this.preferredReadReplica=preferredReadReplica;;
@@ -826,10 +824,10 @@ endif
 end
 start
 note right
-Optional<Integer> clearPreferredReadReplica()
+Optional<Integer>clearPreferredReadReplica()
 end note
 if (preferredReadReplica!=null ) then (yes) 
-:int removedReplicaId=this.preferredReadReplica;;
+:intremovedReplicaId=this.preferredReadReplica;;
 :this.preferredReadReplica=null ;;
 :this.preferredReadReplicaExpireTimeMs=null ;;
 :return Optional.of(removedReplicaId);;
@@ -841,14 +839,14 @@ endif
 end
 start
 note right
-void reset(OffsetResetStrategy strategy)
+void reset(OffsetResetStrategystrategy)
 end note
 :transitionState(FetchStates.AWAIT_RESET,
 ()->{this.resetStrategy=strategy;this.nextRetryTimeMs=null ;});;
 end
 start
 note right
-boolean maybeValidatePosition(Metadata.LeaderAndEpoch currentLeaderAndEpoch)
+booleanmaybeValidatePosition(Metadata.LeaderAndEpochcurrentLeaderAndEpoch)
 end note
 if (this.fetchState.equals(FetchStates.AWAIT_RESET)) then (yes) 
 :return false;;
@@ -859,7 +857,7 @@ if (!currentLeaderAndEpoch.leader.isPresent()) then (yes)
 stop
 endif 
 if (position!=null &&!position.currentLeader.equals(currentLeaderAndEpoch)) then (yes) 
-:FetchPosition newPosition=new FetchPosition(position.offset,
+:FetchPositionnewPosition=new FetchPosition(position.offset,
 position.offsetEpoch,currentLeaderAndEpoch);;
 :validatePosition(newPosition);;
 :preferredReadReplica=null ;;
@@ -869,7 +867,7 @@ stop
 end
 start
 note right
-void updatePositionLeaderNoValidation(Metadata.LeaderAndEpoch currentLeaderAndEpoch)
+void updatePositionLeaderNoValidation(Metadata.LeaderAndEpochcurrentLeaderAndEpoch)
 end note
 if (position!=null ) then (yes) 
 :transitionState(FetchStates.FETCHING,()->{this.position=new FetchPosition(position.offset,
@@ -878,7 +876,7 @@ endif
 end
 start
 note right
-void validatePosition(FetchPosition position)
+void validatePosition(FetchPositionposition)
 end note
 if (position.offsetEpoch.isPresent()&&position.currentLeader.epoch.isPresent()) then (yes) 
 :transitionState(FetchStates.AWAIT_VALIDATION,
@@ -898,75 +896,75 @@ endif
 end
 start
 note right
-boolean awaitingValidation()
+booleanawaitingValidation()
 end note
 :return fetchState.equals(FetchStates.AWAIT_VALIDATION);;
 stop
 end
 start
 note right
-boolean awaitingRetryBackoff(long nowMs)
+booleanawaitingRetryBackoff(longnowMs)
 end note
 :return nextRetryTimeMs!=null &&nowMs<nextRetryTimeMs;;
 stop
 end
 start
 note right
-boolean awaitingReset()
+booleanawaitingReset()
 end note
 :return fetchState.equals(FetchStates.AWAIT_RESET);;
 stop
 end
 start
 note right
-void setNextAllowedRetry(long nextAllowedRetryTimeMs)
+void setNextAllowedRetry(longnextAllowedRetryTimeMs)
 end note
 :this.nextRetryTimeMs=nextAllowedRetryTimeMs;;
 end
 start
 note right
-void requestFailed(long nextAllowedRetryTimeMs)
+void requestFailed(longnextAllowedRetryTimeMs)
 end note
 :this.nextRetryTimeMs=nextAllowedRetryTimeMs;;
 end
 start
 note right
-boolean hasValidPosition()
+booleanhasValidPosition()
 end note
 :return fetchState.hasValidPosition();;
 stop
 end
 start
 note right
-boolean hasPosition()
+booleanhasPosition()
 end note
 :return position!=null ;;
 stop
 end
 start
 note right
-boolean isPaused()
+booleanisPaused()
 end note
 :return paused;;
 stop
 end
 start
 note right
-void seekValidated(FetchPosition position)
+void seekValidated(FetchPositionposition)
 end note
 :transitionState(FetchStates.FETCHING,()->{this.position=position;
 :this.resetStrategy=null ;this.nextRetryTimeMs=null ;});;
 end
 start
 note right
-void seekUnvalidated(FetchPosition fetchPosition)
+void seekUnvalidated(FetchPositionfetchPosition)
 end note
 :seekValidated(fetchPosition);;
 :validatePosition(fetchPosition);;
 end
 start
 note right
-void position(FetchPosition position)
+void position(FetchPositionposition)
 end note
 if (!hasValidPosition()) then (yes) 
 :throw new IllegalStateException("Cannot set a new position without a valid current position");;
@@ -976,7 +974,7 @@ endif
 end
 start
 note right
-FetchPosition validPosition()
+FetchPositionvalidPosition()
 end note
 if (hasValidPosition()) then (yes) 
 :return position;;
@@ -1000,34 +998,34 @@ end note
 end
 start
 note right
-boolean isFetchable()
+booleanisFetchable()
 end note
 :return !paused&&hasValidPosition();;
 stop
 end
 start
 note right
-void highWatermark(Long highWatermark)
+void highWatermark(LonghighWatermark)
 end note
 :this.highWatermark=highWatermark;;
 :this.endOffsetRequested=false;;
 end
 start
 note right
-void logStartOffset(Long logStartOffset)
+void logStartOffset(LonglogStartOffset)
 end note
 :this.logStartOffset=logStartOffset;;
 end
 start
 note right
-void lastStableOffset(Long lastStableOffset)
+void lastStableOffset(LonglastStableOffset)
 end note
 :this.lastStableOffset=lastStableOffset;;
 :this.endOffsetRequested=false;;
 end
 start
 note right
-OffsetResetStrategy resetStrategy()
+OffsetResetStrategyresetStrategy()
 end note
 :return resetStrategy;;
 stop
@@ -1041,7 +1039,7 @@ stop
 endif 
 start
 note right
-Collection<FetchState> validTransitions()
+Collection<FetchState>validTransitions()
 end note
 :return Arrays.asList(FetchStates.FETCHING,
 FetchStates.AWAIT_RESET,FetchStates.AWAIT_VALIDATION);;
@@ -1049,21 +1047,21 @@ stop
 end
 start
 note right
-boolean requiresPosition()
+booleanrequiresPosition()
 end note
 :return false;;
 stop
 end
 start
 note right
-boolean hasValidPosition()
+booleanhasValidPosition()
 end note
 :return false;;
 stop
 end
 start
 note right
-Collection<FetchState> validTransitions()
+Collection<FetchState>validTransitions()
 end note
 :return Arrays.asList(FetchStates.FETCHING,
 FetchStates.AWAIT_RESET,FetchStates.AWAIT_VALIDATION);;
@@ -1071,21 +1069,21 @@ stop
 end
 start
 note right
-boolean requiresPosition()
+booleanrequiresPosition()
 end note
 :return true;;
 stop
 end
 start
 note right
-boolean hasValidPosition()
+booleanhasValidPosition()
 end note
 :return true;;
 stop
 end
 start
 note right
-Collection<FetchState> validTransitions()
+Collection<FetchState>validTransitions()
 end note
 :return Arrays.asList(FetchStates.FETCHING,
 FetchStates.AWAIT_RESET);;
@@ -1093,21 +1091,21 @@ stop
 end
 start
 note right
-boolean requiresPosition()
+booleanrequiresPosition()
 end note
 :return false;;
 stop
 end
 start
 note right
-boolean hasValidPosition()
+booleanhasValidPosition()
 end note
 :return false;;
 stop
 end
 start
 note right
-Collection<FetchState> validTransitions()
+Collection<FetchState>validTransitions()
 end note
 :return Arrays.asList(FetchStates.FETCHING,
 FetchStates.AWAIT_RESET,FetchStates.AWAIT_VALIDATION);;
@@ -1115,28 +1113,28 @@ stop
 end
 start
 note right
-boolean requiresPosition()
+booleanrequiresPosition()
 end note
 :return true;;
 stop
 end
 start
 note right
-boolean hasValidPosition()
+booleanhasValidPosition()
 end note
 :return false;;
 stop
 end
 start
 note right
-constructor FetchPosition(long offset)
+constructor FetchPosition(longoffset)
 end note
 :this(offset,Optional.empty(),Metadata.LeaderAndEpoch.noLeaderOrEpoch());;
 end
 start
 note right
-constructor FetchPosition(long offset,Optional<Integer> offsetEpoch,
-Metadata.LeaderAndEpoch currentLeader)
+constructor FetchPosition(longoffset,Optional<Integer>offsetEpoch,
+Metadata.LeaderAndEpochcurrentLeader)
 end note
 :this.offset=offset;;
 :this.offsetEpoch=Objects.requireNonNull(offsetEpoch);;
@@ -1144,7 +1142,7 @@ end note
 end
 start
 note right
-boolean equals(Object o)
+booleanequals(Objecto)
 end note
 if (this==o) then (yes) 
 :return true;;
@@ -1154,20 +1152,20 @@ if (o==null ||getClass()!=o.getClass()) then (yes)
 :return false;;
 stop
 endif 
-:FetchPosition that=(FetchPosition )o;;
+:FetchPositionthat=(FetchPosition)o;;
 :return offset==that.offset&&offsetEpoch.equals(that.offsetEpoch)&&currentLeader.equals(that.currentLeader);;
 stop
 end
 start
 note right
-int hashCode()
+inthashCode()
 end note
 :return Objects.hash(offset,offsetEpoch,currentLeader);;
 stop
 end
 start
 note right
-String toString()
+StringtoString()
 end note
 :return "FetchPosition{"+"offset="+offset+
 ", offsetEpoch="+offsetEpoch+", currentLeader="+
@@ -1176,8 +1174,8 @@ stop
 end
 start
 note right
-constructor LogTruncation(TopicPartition topicPartition,
-FetchPosition fetchPosition,Optional<OffsetAndMetadata> divergentOffsetOpt)
+constructor LogTruncation(TopicPartitiontopicPartition,
+FetchPositionfetchPosition,Optional<OffsetAndMetadata>divergentOffsetOpt)
 end note
 :this.topicPartition=topicPartition;;
 :this.fetchPosition=fetchPosition;;
@@ -1185,13 +1183,13 @@ end note
 end
 start
 note right
-String toString()
+StringtoString()
 end note
-:StringBuilder bldr=new StringBuilder().append("(partition=").append(topicPartition).append(",
+:StringBuilderbldr=new StringBuilder().append("(partition=").append(topicPartition).append(",
  fetchOffset=").append(fetchPosition.offset).append(",
  fetchEpoch=").append(fetchPosition.offsetEpoch);;
 if (divergentOffsetOpt.isPresent()) then (yes) 
-:OffsetAndMetadata divergentOffset=divergentOffsetOpt.get();;
+:OffsetAndMetadatadivergentOffset=divergentOffsetOpt.get();;
 :bldr.append(", divergentOffset=").append(divergentOffset.offset()).append(",
  divergentEpoch=").append(divergentOffset.leaderEpoch());;
 else (no)

@@ -160,7 +160,7 @@ var maDataBlocs = {
  , "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationUtils.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method validateClaimForExistenceAndType arguments OAuthBearerUnsecuredJws  jwt|boolean  required|String  claimName|Class&lt;?&gt;  ...allowedTypes"
+ , "c3" : "QC-JAV000006[00042] For method validateClaimForExistenceAndType arguments OAuthBearerUnsecuredJws  jwt|boolean  required|String  claimName|Class&lt;? &gt;  ...allowedTypes"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -307,7 +307,7 @@ var maDataBlocs = {
  , "c1" : "00171"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerValidationUtils.java.html#171"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00171] For method validateScope arguments OAuthBearerToken  token|List&lt;String&gt;  requiredScope"
+ , "c3" : "QC-JAV000006[00171] For method validateScope arguments OAuthBearerToken  token|List&lt;String &gt;  requiredScope"
 }} 
 ,
 { "ligne" : {"" : ""

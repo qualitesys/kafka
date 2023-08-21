@@ -228,7 +228,7 @@ var maDataBlocs = {
  , "c1" : "00084"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#84"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00084] For method validateKeys arguments Set&lt;CoordinatorKey&gt;  groupIds"
+ , "c3" : "QC-JAV000006[00084] For method validateKeys arguments Set&lt;CoordinatorKey &gt;  groupIds"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -263,7 +263,7 @@ var maDataBlocs = {
  , "c1" : "00092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00092] For method buildBatchedRequest arguments int  coordinatorId|Set&lt;CoordinatorKey&gt;  groupIds"
+ , "c3" : "QC-JAV000006[00092] For method buildBatchedRequest arguments int  coordinatorId|Set&lt;CoordinatorKey &gt;  groupIds"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -277,7 +277,7 @@ var maDataBlocs = {
  , "c1" : "00098"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#98"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00098] For method handleResponse arguments Node  coordinator|Set&lt;CoordinatorKey&gt;  groupIds|AbstractResponse  abstractResponse"
+ , "c3" : "QC-JAV000006[00098] For method handleResponse arguments Node  coordinator|Set&lt;CoordinatorKey &gt;  groupIds|AbstractResponse  abstractResponse"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -312,7 +312,7 @@ var maDataBlocs = {
  , "c1" : "00140"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#140"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00140] For method handleGroupError arguments CoordinatorKey  groupId|Errors  error|Map&lt;CoordinatorKey,Throwable&gt;  failed|Set&lt;CoordinatorKey&gt;  groupsToUnmap"
+ , "c3" : "QC-JAV000006[00140] For method handleGroupError arguments CoordinatorKey  groupId|Errors  error|Map&lt;CoordinatorKey ,Throwable &gt;  failed|Set&lt;CoordinatorKey &gt;  groupsToUnmap"
 }} 
 ,
 { "ligne" : {"" : ""

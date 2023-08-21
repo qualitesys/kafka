@@ -331,7 +331,7 @@ var maDataBlocs = {
  , "c1" : "00120"
  , "c1link" : "./qc/core/src/main/java/kafka/server/builders/KafkaApisBuilder.java.html#120"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00120] For method setAuthorizer arguments Optional&lt;Authorizer&gt;  authorizer"
+ , "c3" : "QC-JAV000006[00120] For method setAuthorizer arguments Optional&lt;Authorizer &gt;  authorizer"
 }} 
 ,
 { "ligne" : {"" : ""

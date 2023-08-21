@@ -200,21 +200,21 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method branch arguments Predicate&lt;?superK,?superV&gt;  predicate"
+ , "c3" : "QC-JAV000006[00057] For method branch arguments Predicate&lt;? super K ,? super V &gt;  predicate"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#62"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00062] For method branch arguments Predicate&lt;?superK,?superV&gt;  predicate|Branched&lt;K,V&gt;  branched"
+ , "c3" : "QC-JAV000006[00062] For method branch arguments Predicate&lt;? super K ,? super V &gt;  predicate|Branched&lt;K ,V &gt;  branched"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00074] For method defaultBranch arguments Branched&lt;K,V&gt;  branched"
+ , "c3" : "QC-JAV000006[00074] For method defaultBranch arguments Branched&lt;K ,V &gt;  branched"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -228,7 +228,7 @@ var maDataBlocs = {
  , "c1" : "00079"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#79"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00079] For method createBranch arguments Branched&lt;K,V&gt;  branched|int  index"
+ , "c3" : "QC-JAV000006[00079] For method createBranch arguments Branched&lt;K ,V &gt;  branched|int  index"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -242,7 +242,7 @@ var maDataBlocs = {
  , "c1" : "00093"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#93"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00093] For method getBranchChildName arguments int  index|BranchedInternal&lt;K,V&gt;  branchedInternal"
+ , "c3" : "QC-JAV000006[00093] For method getBranchChildName arguments int  index|BranchedInternal&lt;K ,V &gt;  branchedInternal"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -263,7 +263,7 @@ var maDataBlocs = {
  , "c1" : "00101"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#101"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00101] For method process arguments KStreamImpl&lt;K,V&gt;  branch|String  branchChildName|BranchedInternal&lt;K,V&gt;  branchedInternal"
+ , "c3" : "QC-JAV000006[00101] For method process arguments KStreamImpl&lt;K ,V &gt;  branch|String  branchChildName|BranchedInternal&lt;K ,V &gt;  branchedInternal"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -376,7 +376,7 @@ var maDataBlocs = {
  , "c1" : "00155"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#155"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00155] For method transform arguments ConsumerRecord&lt;Integer,String&gt;  record"
+ , "c3" : "QC-JAV000006[00155] For method transform arguments ConsumerRecord&lt;Integer ,String &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -425,7 +425,7 @@ var maDataBlocs = {
  , "c1" : "00160"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#160"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00160] For method messagesRemaining arguments KafkaConsumer&lt;Integer,String&gt;  consumer"
+ , "c3" : "QC-JAV000006[00160] For method messagesRemaining arguments KafkaConsumer&lt;Integer ,String &gt;  consumer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -460,7 +460,7 @@ var maDataBlocs = {
  , "c1" : "00177"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/ExactlyOnceMessageProcessor.java.html#177"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00177] For method resetToLastCommittedPositions arguments KafkaConsumer&lt;Integer,String&gt;  consumer"
+ , "c3" : "QC-JAV000006[00177] For method resetToLastCommittedPositions arguments KafkaConsumer&lt;Integer ,String &gt;  consumer"
 }} 
 ,
 { "ligne" : {"" : ""

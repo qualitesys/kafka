@@ -212,7 +212,7 @@ var maDataBlocs = {
  , "c1" : "00112"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewTopic.java.html#112"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00112] For method configs arguments Map&lt;String,String&gt;  configs"
+ , "c3" : "QC-JAV000006[00112] For method configs arguments Map&lt;String ,String &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""

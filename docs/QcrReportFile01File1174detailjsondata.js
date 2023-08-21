@@ -326,7 +326,7 @@ var maDataBlocs = {
  , "c1" : "00091"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#91"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00091] For method putConnectorConfig arguments String  connector|Map&lt;String,String&gt;  properties"
+ , "c3" : "QC-JAV000006[00091] For method putConnectorConfig arguments String  connector|Map&lt;String ,String &gt;  properties"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -417,7 +417,7 @@ var maDataBlocs = {
  , "c1" : "00124"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#124"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00124] For method putTaskConfigs arguments String  connector|List&lt;Map&lt;String,String&gt;&gt;  configs"
+ , "c3" : "QC-JAV000006[00124] For method putTaskConfigs arguments String  connector|List&lt;Map&lt;String ,String &gt; &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -536,7 +536,7 @@ var maDataBlocs = {
  , "c1" : "00184"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#184"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00184] For method taskConfigListAsMap arguments String  connector|List&lt;Map&lt;String,String&gt;&gt;  configs"
+ , "c3" : "QC-JAV000006[00184] For method taskConfigListAsMap arguments String  connector|List&lt;Map&lt;String ,String &gt; &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""

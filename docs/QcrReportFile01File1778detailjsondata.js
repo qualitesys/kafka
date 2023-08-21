@@ -93,7 +93,7 @@ var maDataBlocs = {
  , "c1" : "00043"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/WindowedStreamPartitioner.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method partition arguments String  topic|Windowed&lt;K&gt;  windowedKey|V  value|int  numPartitions"
+ , "c3" : "QC-JAV000006[00043] For method partition arguments String  topic|Windowed&lt;K &gt;  windowedKey|V  value|int  numPartitions"
 }} 
 ,
 { "ligne" : {"" : ""

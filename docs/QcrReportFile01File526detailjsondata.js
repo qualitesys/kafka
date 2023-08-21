@@ -267,7 +267,7 @@ var maDataBlocs = {
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method deepToString arguments Iterator&lt;?&gt;  iter"
+ , "c3" : "QC-JAV000006[00052] For method deepToString arguments Iterator&lt;? &gt;  iter"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -701,7 +701,7 @@ var maDataBlocs = {
  , "c1" : "00193"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#193"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00193] For method compareRawTaggedFields arguments List&lt;RawTaggedField&gt;  first|List&lt;RawTaggedField&gt;  second"
+ , "c3" : "QC-JAV000006[00193] For method compareRawTaggedFields arguments List&lt;RawTaggedField &gt;  first|List&lt;RawTaggedField &gt;  second"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -661,7 +661,7 @@ var maDataBlocs = {
  , "c1" : "00122"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#122"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00122] For method assignActiveTasks arguments Collection&lt;TaskId&gt;  tasks"
+ , "c3" : "QC-JAV000006[00122] For method assignActiveTasks arguments Collection&lt;TaskId &gt;  tasks"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -801,7 +801,7 @@ var maDataBlocs = {
  , "c1" : "00251"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#251"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00251] For method addPreviousActiveTasks arguments Set&lt;TaskId&gt;  prevTasks"
+ , "c3" : "QC-JAV000006[00251] For method addPreviousActiveTasks arguments Set&lt;TaskId &gt;  prevTasks"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -815,7 +815,7 @@ var maDataBlocs = {
  , "c1" : "00263"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#263"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00263] For method addPreviousStandbyTasks arguments Set&lt;TaskId&gt;  standbyTasks"
+ , "c3" : "QC-JAV000006[00263] For method addPreviousStandbyTasks arguments Set&lt;TaskId &gt;  standbyTasks"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -829,7 +829,7 @@ var maDataBlocs = {
  , "c1" : "00284"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#284"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00284] For method addOwnedPartitions arguments Collection&lt;TopicPartition&gt;  ownedPartitions|String  consumer"
+ , "c3" : "QC-JAV000006[00284] For method addOwnedPartitions arguments Collection&lt;TopicPartition &gt;  ownedPartitions|String  consumer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -843,7 +843,7 @@ var maDataBlocs = {
  , "c1" : "00290"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#290"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00290] For method addPreviousTasksAndOffsetSums arguments String  consumerId|Map&lt;TaskId,Long&gt;  taskOffsetSums"
+ , "c3" : "QC-JAV000006[00290] For method addPreviousTasksAndOffsetSums arguments String  consumerId|Map&lt;TaskId ,Long &gt;  taskOffsetSums"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -857,7 +857,7 @@ var maDataBlocs = {
  , "c1" : "00295"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#295"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00295] For method initializePrevTasks arguments Map&lt;TopicPartition,TaskId&gt;  taskForPartitionMap|boolean  hasNamedTopologies"
+ , "c3" : "QC-JAV000006[00295] For method initializePrevTasks arguments Map&lt;TopicPartition ,TaskId &gt;  taskForPartitionMap|boolean  hasNamedTopologies"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -871,7 +871,7 @@ var maDataBlocs = {
  , "c1" : "00306"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#306"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00306] For method maybeFilterUnknownPrevTasksAndPartitions arguments Map&lt;TopicPartition,TaskId&gt;  taskForPartitionMap|boolean  hasNamedTopologies"
+ , "c3" : "QC-JAV000006[00306] For method maybeFilterUnknownPrevTasksAndPartitions arguments Map&lt;TopicPartition ,TaskId &gt;  taskForPartitionMap|boolean  hasNamedTopologies"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -885,7 +885,7 @@ var maDataBlocs = {
  , "c1" : "00321"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#321"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00321] For method computeTaskLags arguments UUID  uuid|Map&lt;TaskId,Long&gt;  allTaskEndOffsetSums"
+ , "c3" : "QC-JAV000006[00321] For method computeTaskLags arguments UUID  uuid|Map&lt;TaskId ,Long &gt;  allTaskEndOffsetSums"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1186,7 +1186,7 @@ var maDataBlocs = {
  , "c1" : "00438"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#438"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00438] For method initializePrevActiveTasksFromOwnedPartitions arguments Map&lt;TopicPartition,TaskId&gt;  taskForPartitionMap"
+ , "c3" : "QC-JAV000006[00438] For method initializePrevActiveTasksFromOwnedPartitions arguments Map&lt;TopicPartition ,TaskId &gt;  taskForPartitionMap"
 }} 
 ,
 { "ligne" : {"" : ""

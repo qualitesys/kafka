@@ -1034,7 +1034,7 @@ var maDataBlocs = {
  , "c1" : "00723"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#723"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00723] For method appendIterable arguments StringBuilder  sb|Iterator&lt;?&gt;  iter"
+ , "c3" : "QC-JAV000006[00723] For method appendIterable arguments StringBuilder  sb|Iterator&lt;? &gt;  iter"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1657,7 +1657,7 @@ var maDataBlocs = {
  , "c1" : "01067"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#1067"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01067] For method alignListEntriesWithSchema arguments Schema  schema|List&lt;Object&gt;  input"
+ , "c3" : "QC-JAV000006[01067] For method alignListEntriesWithSchema arguments Schema  schema|List&lt;Object &gt;  input"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1692,7 +1692,7 @@ var maDataBlocs = {
  , "c1" : "01077"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#1077"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01077] For method alignMapKeysAndValuesWithSchema arguments Schema  mapSchema|Map&lt;Object,Object&gt;  input"
+ , "c3" : "QC-JAV000006[01077] For method alignMapKeysAndValuesWithSchema arguments Schema  mapSchema|Map&lt;Object ,Object &gt;  input"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1748,7 +1748,7 @@ var maDataBlocs = {
  , "c1" : "01089"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Values.java.html#1089"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01089] For method alignMapKeysWithSchema arguments Schema  mapSchema|Map&lt;Object,Object&gt;  input"
+ , "c3" : "QC-JAV000006[01089] For method alignMapKeysWithSchema arguments Schema  mapSchema|Map&lt;Object ,Object &gt;  input"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -369,14 +369,14 @@ var maDataBlocs = {
  , "c1" : "00102"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#102"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00102] For method setTargetIsr arguments List&lt;Integer&gt;  targetIsr"
+ , "c3" : "QC-JAV000006[00102] For method setTargetIsr arguments List&lt;Integer &gt;  targetIsr"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00107"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#107"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00107] For method setTargetReplicas arguments List&lt;Integer&gt;  targetReplicas"
+ , "c3" : "QC-JAV000006[00107] For method setTargetReplicas arguments List&lt;Integer &gt;  targetReplicas"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -390,14 +390,14 @@ var maDataBlocs = {
  , "c1" : "00117"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#117"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00117] For method setTargetRemoving arguments List&lt;Integer&gt;  targetRemoving"
+ , "c3" : "QC-JAV000006[00117] For method setTargetRemoving arguments List&lt;Integer &gt;  targetRemoving"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00122"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/PartitionChangeBuilder.java.html#122"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00122] For method setTargetAdding arguments List&lt;Integer&gt;  targetAdding"
+ , "c3" : "QC-JAV000006[00122] For method setTargetAdding arguments List&lt;Integer &gt;  targetAdding"
 }} 
 ,
 { "ligne" : {"" : ""

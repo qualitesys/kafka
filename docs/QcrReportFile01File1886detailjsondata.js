@@ -472,7 +472,7 @@ var maDataBlocs = {
  , "c1" : "00351"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#351"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00351] For method setUncaughtExceptionHandler arguments java.util.function.Consumer&lt;Throwable&gt;  streamsUncaughtExceptionHandler"
+ , "c3" : "QC-JAV000006[00351] For method setUncaughtExceptionHandler arguments java.util.function .Consumer&lt;Throwable &gt;  streamsUncaughtExceptionHandler"
 }} 
 ,
 { "ligne" : {"" : ""

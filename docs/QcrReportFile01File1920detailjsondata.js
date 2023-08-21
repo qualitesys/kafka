@@ -202,14 +202,14 @@ var maDataBlocs = {
  , "c1" : "00076"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#76"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method removeRevokedUnknownTasks arguments Set&lt;TaskId&gt;  assignedTasks"
+ , "c3" : "QC-JAV000006[00076] For method removeRevokedUnknownTasks arguments Set&lt;TaskId &gt;  assignedTasks"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method uncreatedTasksForTopologies arguments Set&lt;String&gt;  currentTopologies"
+ , "c3" : "QC-JAV000006[00080] For method uncreatedTasksForTopologies arguments Set&lt;String &gt;  currentTopologies"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -223,7 +223,7 @@ var maDataBlocs = {
  , "c1" : "00085"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00085] For method createTasks arguments Map&lt;TaskId,Set&lt;TopicPartition&gt;&gt;  tasksToBeCreated"
+ , "c3" : "QC-JAV000006[00085] For method createTasks arguments Map&lt;TaskId ,Set&lt;TopicPartition &gt; &gt;  tasksToBeCreated"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -314,7 +314,7 @@ var maDataBlocs = {
  , "c1" : "00139"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#139"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00139] For method createStandbyTaskFromActive arguments StreamTask  streamTask|Set&lt;TopicPartition&gt;  inputPartitions"
+ , "c3" : "QC-JAV000006[00139] For method createStandbyTaskFromActive arguments StreamTask  streamTask|Set&lt;TopicPartition &gt;  inputPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -335,7 +335,7 @@ var maDataBlocs = {
  , "c1" : "00156"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTaskCreator.java.html#156"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00156] For method createStandbyTask arguments TaskId  taskId|Set&lt;TopicPartition&gt;  inputPartitions|ProcessorTopology  topology|ProcessorStateManager  stateManager|InternalProcessorContext  context"
+ , "c3" : "QC-JAV000006[00156] For method createStandbyTask arguments TaskId  taskId|Set&lt;TopicPartition &gt;  inputPartitions|ProcessorTopology  topology|ProcessorStateManager  stateManager|InternalProcessorContext  context"
 }} 
 ,
 { "ligne" : {"" : ""

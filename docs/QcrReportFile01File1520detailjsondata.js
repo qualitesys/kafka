@@ -102,7 +102,7 @@ var maDataBlocs = {
  , "c1" : "00043"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/FilteringJmxReporter.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method updatePredicate arguments Predicate&lt;MetricName&gt;  predicate"
+ , "c3" : "QC-JAV000006[00043] For method updatePredicate arguments Predicate&lt;MetricName &gt;  predicate"
 }} 
 ]
 , 

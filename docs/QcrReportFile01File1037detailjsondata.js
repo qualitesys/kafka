@@ -228,14 +228,14 @@ var maDataBlocs = {
  , "c1" : "00040"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method newProducer arguments Map&lt;String,Object&gt;  props"
+ , "c3" : "QC-JAV000006[00040] For method newProducer arguments Map&lt;String ,Object &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00044"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00044] For method newConsumer arguments Map&lt;String,Object&gt;  props"
+ , "c3" : "QC-JAV000006[00044] For method newConsumer arguments Map&lt;String ,Object &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -305,7 +305,7 @@ var maDataBlocs = {
  , "c1" : "00064"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#64"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method unwrapPartition arguments Map&lt;String,?&gt;  wrapped"
+ , "c3" : "QC-JAV000006[00064] For method unwrapPartition arguments Map&lt;String ,? &gt;  wrapped"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -333,7 +333,7 @@ var maDataBlocs = {
  , "c1" : "00070"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method unwrapOffset arguments Map&lt;String,?&gt;  wrapped"
+ , "c3" : "QC-JAV000006[00070] For method unwrapOffset arguments Map&lt;String ,? &gt;  wrapped"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -417,7 +417,7 @@ var maDataBlocs = {
  , "c1" : "00086"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#86"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00086] For method compilePatternList arguments List&lt;String&gt;  fields"
+ , "c3" : "QC-JAV000006[00086] For method compilePatternList arguments List&lt;String &gt;  fields"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -466,14 +466,14 @@ var maDataBlocs = {
  , "c1" : "00101"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#101"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00101] For method createCompactedTopic arguments String  topicName|short  partitions|short  replicationFactor|Map&lt;String,Object&gt;  adminProps"
+ , "c3" : "QC-JAV000006[00101] For method createCompactedTopic arguments String  topicName|short  partitions|short  replicationFactor|Map&lt;String ,Object &gt;  adminProps"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00113"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#113"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00113] For method createSinglePartitionCompactedTopic arguments String  topicName|short  replicationFactor|Map&lt;String,Object&gt;  adminProps"
+ , "c3" : "QC-JAV000006[00113] For method createSinglePartitionCompactedTopic arguments String  topicName|short  replicationFactor|Map&lt;String ,Object &gt;  adminProps"
 }} 
 ,
 { "ligne" : {"" : ""

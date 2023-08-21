@@ -176,7 +176,7 @@ var maDataBlocs = {
  , "c1" : "00064"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationImage.java.html#64"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method write arguments ConfigResource  configResource|Consumer&lt;List&lt;ApiMessageAndVersion&gt;&gt;  out"
+ , "c3" : "QC-JAV000006[00064] For method write arguments ConfigResource  configResource|Consumer&lt;List&lt;ApiMessageAndVersion &gt; &gt;  out"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -252,7 +252,7 @@ var maDataBlocs = {
  , "c1" : "00097"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaveGroupResponse.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00097] For method getError arguments Errors  topLevelError|List&lt;MemberResponse&gt;  memberResponses"
+ , "c3" : "QC-JAV000006[00097] For method getError arguments Errors  topLevelError|List&lt;MemberResponse &gt;  memberResponses"
 }} 
 ,
 { "ligne" : {"" : ""

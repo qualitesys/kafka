@@ -186,21 +186,21 @@ var maDataBlocs = {
  , "c1" : "00065"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method configure arguments Map&lt;String,?&gt;  configs"
+ , "c3" : "QC-JAV000006[00065] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method validateReconfiguration arguments Map&lt;String,?&gt;  configs"
+ , "c3" : "QC-JAV000006[00075] For method validateReconfiguration arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method reconfigure arguments Map&lt;String,?&gt;  configs"
+ , "c3" : "QC-JAV000006[00080] For method reconfigure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -221,7 +221,7 @@ var maDataBlocs = {
  , "c1" : "00098"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#98"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00098] For method getMetricName arguments String  group|String  typeName|String  name|LinkedHashMap&lt;String,String&gt;  tags"
+ , "c3" : "QC-JAV000006[00098] For method getMetricName arguments String  group|String  typeName|String  name|LinkedHashMap&lt;String ,String &gt;  tags"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -263,7 +263,7 @@ var maDataBlocs = {
  , "c1" : "00121"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#121"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00121] For method toMBeanName arguments LinkedHashMap&lt;String,String&gt;  tags"
+ , "c3" : "QC-JAV000006[00121] For method toMBeanName arguments LinkedHashMap&lt;String ,String &gt;  tags"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -326,7 +326,7 @@ var maDataBlocs = {
  , "c1" : "00156"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/metrics/KafkaYammerMetrics.java.html#156"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00156] For method toScope arguments Map&lt;String,String&gt;  tags"
+ , "c3" : "QC-JAV000006[00156] For method toScope arguments Map&lt;String ,String &gt;  tags"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -277,7 +277,7 @@ var maDataBlocs = {
  , "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method updateCache arguments DelegationToken  token|Map&lt;String,ScramCredential&gt;  scramCredentialMap"
+ , "c3" : "QC-JAV000006[00060] For method updateCache arguments DelegationToken  token|Map&lt;String ,ScramCredential &gt;  scramCredentialMap"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -375,7 +375,7 @@ var maDataBlocs = {
  , "c1" : "00112"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#112"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00112] For method updateCredentials arguments String  tokenId|Map&lt;String,ScramCredential&gt;  scramCredentialMap"
+ , "c3" : "QC-JAV000006[00112] For method updateCredentials arguments String  tokenId|Map&lt;String ,ScramCredential &gt;  scramCredentialMap"
 }} 
 ,
 { "ligne" : {"" : ""

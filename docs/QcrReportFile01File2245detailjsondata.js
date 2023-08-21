@@ -234,7 +234,7 @@ var maDataBlocs = {
  , "c1" : "00115"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/task/TaskSpec.java.html#115"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00115] For method configOrEmptyMap arguments Map&lt;String,String&gt;  config"
+ , "c3" : "QC-JAV000006[00115] For method configOrEmptyMap arguments Map&lt;String ,String &gt;  config"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -118,7 +118,7 @@ var maDataBlocs = {
  , "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/SupportedVersionRange.java.html#39"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00039] For method fromMap arguments Map&lt;String,Short&gt;  versionRangeMap"
+ , "c3" : "QC-JAV000006[00039] For method fromMap arguments Map&lt;String ,Short &gt;  versionRangeMap"
 }} 
 ,
 { "ligne" : {"" : ""

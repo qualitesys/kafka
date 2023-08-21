@@ -142,7 +142,7 @@ var maDataBlocs = {
  , "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/NewPartitions.java.html#76"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method increaseTo arguments int  totalCount|List&lt;List&lt;Integer&gt;&gt;  newAssignments"
+ , "c3" : "QC-JAV000006[00076] For method increaseTo arguments int  totalCount|List&lt;List&lt;Integer &gt; &gt;  newAssignments"
 }} 
 ,
 { "ligne" : {"" : ""

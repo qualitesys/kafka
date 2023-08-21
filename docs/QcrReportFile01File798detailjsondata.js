@@ -420,7 +420,7 @@ var maDataBlocs = {
  , "c1" : "00194"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/unsecured/OAuthBearerUnsecuredJws.java.html#194"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00194] For method isClaimType arguments String  claimName|Class&lt;?&gt;  type"
+ , "c3" : "QC-JAV000006[00194] For method isClaimType arguments String  claimName|Class&lt;? &gt;  type"
 }} 
 ,
 { "ligne" : {"" : ""

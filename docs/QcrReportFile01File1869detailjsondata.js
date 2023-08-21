@@ -250,7 +250,7 @@ var maDataBlocs = {
  , "c1" : "00118"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#118"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00118] For method markChangelogAsCorrupted arguments Collection&lt;TopicPartition&gt;  partitions"
+ , "c3" : "QC-JAV000006[00118] For method markChangelogAsCorrupted arguments Collection&lt;TopicPartition &gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -299,7 +299,7 @@ var maDataBlocs = {
  , "c1" : "00153"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractTask.java.html#153"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00153] For method updateInputPartitions arguments Set&lt;TopicPartition&gt;  topicPartitions|Map&lt;String,List&lt;String&gt;&gt;  allTopologyNodesToSourceTopics"
+ , "c3" : "QC-JAV000006[00153] For method updateInputPartitions arguments Set&lt;TopicPartition &gt;  topicPartitions|Map&lt;String ,List&lt;String &gt; &gt;  allTopologyNodesToSourceTopics"
 }} 
 ,
 { "ligne" : {"" : ""

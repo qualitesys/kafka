@@ -141,7 +141,7 @@ var maDataBlocs = {
  , "c1" : "00055"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/InteractiveShell.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00055] For method complete arguments LineReader  reader|ParsedLine  line|List&lt;Candidate&gt;  candidates"
+ , "c3" : "QC-JAV000006[00055] For method complete arguments LineReader  reader|ParsedLine  line|List&lt;Candidate &gt;  candidates"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1234px" preserveAspectRatio="none" style="width:959px;height:1234px;background:#FFFFFF;" version="1.1" viewBox="0 0 959 1234" width="959px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="603" x="5" y="16.1387">An error has occured : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="237" x="5" y="30.1074">It's not treason. It's alternative loyalty</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="44.0762"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="272" x="5" y="58.0449">Diagram size: 655 lines / 22607 characters.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="72.0137"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="374" x="5" y="85.9824">PlantUML (1.2022.7) cannot parse result from dot/GraphViz.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="99.9512"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="390" x="5" y="113.9199">This version of PlantUML is 363 days old, so you should</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="398" x="5" y="127.8887">consider upgrading from https://plantuml.com/download</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="141.8574"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="492" x="5" y="155.8262">Please go to https://plantuml.com/graphviz-dot to check your GraphViz version.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="169.7949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="277" x="5" y="183.7637">Java Runtime: OpenJDK Runtime Environment</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="187" x="5" y="197.7324">JVM: OpenJDK 64-Bit Server VM</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="211.7012">Default Encoding: UTF-8</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="5" y="225.6699">Language: en</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="5" y="239.6387">Country: null</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="253.6074"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="172" x="5" y="267.5762">PLANTUML_LIMIT_SIZE: 4096</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="281.5449"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="295.5137">This may be caused by :</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="9" y="309.4824">- a bug in PlantUML</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="144" x="9" y="323.4512">- a problem in GraphViz</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="337.4199"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="300" x="5" y="351.3887">You should send this diagram and this image to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="145" x="309" y="351.3887">plantuml@gmail.com</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="13" x="458" y="351.3887">or</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="5" y="365.3574">post to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="168" x="54" y="365.3574">https://plantuml.com/qa</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="117" x="226" y="365.3574">to solve this issue.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="405" x="5" y="379.3262">You can try to turn arround this issue by simplifing your diagram.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="393.2949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="458" x="5" y="407.2637">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="477" x="13" y="421.2324">java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="548" x="13" y="435.2012">java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="474" x="13" y="449.1699">java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="351" x="13" y="463.1387">java.base/java.util.Objects.checkIndex(Objects.java:372)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="314" x="13" y="477.1074">java.base/java.util.ArrayList.get(ArrayList.java:459)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="878" x="13" y="491.0762">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createWithLinks(FtileFactoryDelegatorSwitch.java:103)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="852" x="13" y="505.0449">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createSwitch(FtileFactoryDelegatorSwitch.java:79)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="519.0137">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="532.9824">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="546.9512">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="560.9199">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="574.8887">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="588.8574">net.sourceforge.plantuml.activitydiagram3.InstructionSwitch.createFtile(InstructionSwitch.java:119)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="13" y="602.8262">net.sourceforge.plantuml.activitydiagram3.InstructionList.createFtile(InstructionList.java:131)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="499" x="13" y="616.7949">net.sourceforge.plantuml.activitydiagram3.Branch.updateFtile(Branch.java:130)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="630.7637">net.sourceforge.plantuml.activitydiagram3.InstructionSwitch.createFtile(InstructionSwitch.java:117)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="13" y="644.7324">net.sourceforge.plantuml.activitydiagram3.InstructionList.createFtile(InstructionList.java:131)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="536" x="13" y="658.7012">net.sourceforge.plantuml.activitydiagram3.ftile.Swimlanes.drawU(Swimlanes.java:229)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="805" x="13" y="672.6699">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.getPiecewiseAffineTransform(CompressionXorYBuilder.java:51)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="655" x="13" y="686.6387">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.build(CompressionXorYBuilder.java:44)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="686" x="13" y="700.6074">net.sourceforge.plantuml.activitydiagram3.ActivityDiagram3.exportDiagramInternal(ActivityDiagram3.java:210)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="714.5762">net.sourceforge.plantuml.UmlDiagram.exportDiagramNow(UmlDiagram.java:135)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="538" x="13" y="728.5449">net.sourceforge.plantuml.AbstractPSystem.exportDiagram(AbstractPSystem.java:178)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="742.5137">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:172)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="756.4824">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="693" x="13" y="770.4512">com.qualitesys.qcrmavenplugin.commun.QcrCommunPlantUml.genererFichierSvg(QcrCommunPlantUml.java:82)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="585" x="13" y="784.4199">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lireFichier(QcrReporting01Mojo.java:927)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="556" x="13" y="798.3887">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lister(QcrReporting01Mojo.java:453)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="591" x="13" y="812.3574">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.doReport(QcrReporting01Mojo.java:2037)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="625" x="13" y="826.3262">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.executeReport(QcrReporting01Mojo.java:1739)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="582" x="13" y="840.2949">org.apache.maven.reporting.AbstractMavenReport.generate(AbstractMavenReport.java:251)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="748" x="13" y="854.2637">org.apache.maven.plugins.site.render.ReportDocumentRenderer.renderDocument(ReportDocumentRenderer.java:226)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="607" x="13" y="868.2324">org.apache.maven.doxia.siterenderer.DefaultSiteRenderer.render(DefaultSiteRenderer.java:348)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="882.2012">org.apache.maven.plugins.site.render.SiteMojo.renderLocale(SiteMojo.java:194)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="470" x="13" y="896.1699">org.apache.maven.plugins.site.render.SiteMojo.execute(SiteMojo.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="649" x="13" y="910.1387">org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="924.1074">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:370)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="531" x="13" y="938.0762">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:351)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="952.0449">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:215)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="966.0137">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:171)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="979.9824">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:163)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="651" x="13" y="993.9512">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="643" x="13" y="1007.9199">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="747" x="13" y="1021.8887">org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="1035.8574">org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1049.8262">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:299)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1063.7949">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="412" x="13" y="1077.7637">org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="367" x="13" y="1091.7324">org.apache.maven.cli.MavenCli.execute(MavenCli.java:963)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="362" x="13" y="1105.7012">org.apache.maven.cli.MavenCli.doMain(MavenCli.java:296)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="347" x="13" y="1119.6699">org.apache.maven.cli.MavenCli.main(MavenCli.java:199)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="1133.6387">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="1147.6074">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="679" x="13" y="1161.5762">java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="373" x="13" y="1175.5449">java.base/java.lang.reflect.Method.invoke(Method.java:566)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="562" x="13" y="1189.5137">org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="499" x="13" y="1203.4824">org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="568" x="13" y="1217.4512">org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="487" x="13" y="1231.4199">org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)</text><image height="29" width="39" x="920" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAdCAYAAAApQnX+AAAAqklEQVR4Xu2Oyw2AMAxDOwvzsCwTgjgUoYestCmfCOVJPjSNHZeSJMkY0zKvuzgPQchytRTFvU9gqSzXCkuFKMcyIUpVWOrTcqoE5/x/BXWcc/4/ijqq5q3/t6COqHnr/6PccZwZSvSZDAeUa4YSfSYM8ATRY72bYSlPED3W+wKPU2rvnKGgR4m+Ay5Sau+coaBHib5uPIHctd5uflvOEn3deALpUaIv8bABelniyGc9jNIAAAAASUVORK5CYII=" y="6"/><!--MD5=[21aacac0e31f113a52ba2a5e979a68a5]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1234px" preserveAspectRatio="none" style="width:953px;height:1234px;background:#FFFFFF;" version="1.1" viewBox="0 0 953 1234" width="953px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="603" x="5" y="16.1387">An error has occured : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="286" x="5" y="30.1074">My force is a platform that you can climb on...</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="44.0762"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="272" x="5" y="58.0449">Diagram size: 655 lines / 22485 characters.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="72.0137"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="374" x="5" y="85.9824">PlantUML (1.2022.7) cannot parse result from dot/GraphViz.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="99.9512"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="390" x="5" y="113.9199">This version of PlantUML is 364 days old, so you should</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="398" x="5" y="127.8887">consider upgrading from https://plantuml.com/download</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="141.8574"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="492" x="5" y="155.8262">Please go to https://plantuml.com/graphviz-dot to check your GraphViz version.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="169.7949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="277" x="5" y="183.7637">Java Runtime: OpenJDK Runtime Environment</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="187" x="5" y="197.7324">JVM: OpenJDK 64-Bit Server VM</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="211.7012">Default Encoding: UTF-8</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="5" y="225.6699">Language: en</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="5" y="239.6387">Country: null</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="253.6074"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="172" x="5" y="267.5762">PLANTUML_LIMIT_SIZE: 4096</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="281.5449"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="295.5137">This may be caused by :</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="9" y="309.4824">- a bug in PlantUML</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="144" x="9" y="323.4512">- a problem in GraphViz</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="337.4199"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="300" x="5" y="351.3887">You should send this diagram and this image to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="145" x="309" y="351.3887">plantuml@gmail.com</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="13" x="458" y="351.3887">or</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="5" y="365.3574">post to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="168" x="54" y="365.3574">https://plantuml.com/qa</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="117" x="226" y="365.3574">to solve this issue.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="405" x="5" y="379.3262">You can try to turn arround this issue by simplifing your diagram.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="393.2949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="458" x="5" y="407.2637">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="477" x="13" y="421.2324">java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="548" x="13" y="435.2012">java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="474" x="13" y="449.1699">java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="351" x="13" y="463.1387">java.base/java.util.Objects.checkIndex(Objects.java:372)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="314" x="13" y="477.1074">java.base/java.util.ArrayList.get(ArrayList.java:459)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="878" x="13" y="491.0762">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createWithLinks(FtileFactoryDelegatorSwitch.java:103)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="852" x="13" y="505.0449">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createSwitch(FtileFactoryDelegatorSwitch.java:79)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="519.0137">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="532.9824">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="546.9512">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="560.9199">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="574.8887">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="588.8574">net.sourceforge.plantuml.activitydiagram3.InstructionSwitch.createFtile(InstructionSwitch.java:119)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="13" y="602.8262">net.sourceforge.plantuml.activitydiagram3.InstructionList.createFtile(InstructionList.java:131)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="499" x="13" y="616.7949">net.sourceforge.plantuml.activitydiagram3.Branch.updateFtile(Branch.java:130)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="630.7637">net.sourceforge.plantuml.activitydiagram3.InstructionSwitch.createFtile(InstructionSwitch.java:117)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="13" y="644.7324">net.sourceforge.plantuml.activitydiagram3.InstructionList.createFtile(InstructionList.java:131)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="536" x="13" y="658.7012">net.sourceforge.plantuml.activitydiagram3.ftile.Swimlanes.drawU(Swimlanes.java:229)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="805" x="13" y="672.6699">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.getPiecewiseAffineTransform(CompressionXorYBuilder.java:51)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="655" x="13" y="686.6387">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.build(CompressionXorYBuilder.java:44)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="686" x="13" y="700.6074">net.sourceforge.plantuml.activitydiagram3.ActivityDiagram3.exportDiagramInternal(ActivityDiagram3.java:210)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="714.5762">net.sourceforge.plantuml.UmlDiagram.exportDiagramNow(UmlDiagram.java:135)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="538" x="13" y="728.5449">net.sourceforge.plantuml.AbstractPSystem.exportDiagram(AbstractPSystem.java:178)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="742.5137">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:172)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="756.4824">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="693" x="13" y="770.4512">com.qualitesys.qcrmavenplugin.commun.QcrCommunPlantUml.genererFichierSvg(QcrCommunPlantUml.java:82)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="585" x="13" y="784.4199">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lireFichier(QcrReporting01Mojo.java:927)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="556" x="13" y="798.3887">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lister(QcrReporting01Mojo.java:453)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="591" x="13" y="812.3574">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.doReport(QcrReporting01Mojo.java:2037)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="625" x="13" y="826.3262">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.executeReport(QcrReporting01Mojo.java:1739)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="582" x="13" y="840.2949">org.apache.maven.reporting.AbstractMavenReport.generate(AbstractMavenReport.java:251)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="748" x="13" y="854.2637">org.apache.maven.plugins.site.render.ReportDocumentRenderer.renderDocument(ReportDocumentRenderer.java:226)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="607" x="13" y="868.2324">org.apache.maven.doxia.siterenderer.DefaultSiteRenderer.render(DefaultSiteRenderer.java:348)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="882.2012">org.apache.maven.plugins.site.render.SiteMojo.renderLocale(SiteMojo.java:194)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="470" x="13" y="896.1699">org.apache.maven.plugins.site.render.SiteMojo.execute(SiteMojo.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="649" x="13" y="910.1387">org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="924.1074">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:370)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="531" x="13" y="938.0762">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:351)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="952.0449">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:215)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="966.0137">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:171)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="979.9824">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:163)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="651" x="13" y="993.9512">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="643" x="13" y="1007.9199">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="747" x="13" y="1021.8887">org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="1035.8574">org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1049.8262">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:299)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1063.7949">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="412" x="13" y="1077.7637">org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="367" x="13" y="1091.7324">org.apache.maven.cli.MavenCli.execute(MavenCli.java:963)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="362" x="13" y="1105.7012">org.apache.maven.cli.MavenCli.doMain(MavenCli.java:296)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="347" x="13" y="1119.6699">org.apache.maven.cli.MavenCli.main(MavenCli.java:199)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="1133.6387">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="1147.6074">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="679" x="13" y="1161.5762">java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="373" x="13" y="1175.5449">java.base/java.lang.reflect.Method.invoke(Method.java:566)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="562" x="13" y="1189.5137">org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="499" x="13" y="1203.4824">org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="568" x="13" y="1217.4512">org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="487" x="13" y="1231.4199">org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)</text><image height="16" width="33" x="920" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAQCAYAAACYwhZnAAAAaUlEQVR4Xu2R4QqAIAyEJXpE8SHDRxytbkToCNpG/dsHByre7dBSkiRx0peVIVlvnaPSWWZgoFZF2NNOHJX4ryxzkdroNnz9EhDy54kP4NJowpkO9kj83hLgzxLzpBdGUz2/JyqdlSQWDs7DUvJ8WiLtAAAAAElFTkSuQmCC" y="6"/><!--MD5=[092eeb8bc1f2479d36115ef3ca8d2856]
 @startuml
 !pragma layout smetana
 start
 note right
 constructor SaslServerAuthenticator(Map<String,
-?> configs,Map<String,AuthenticateCallbackHandler> callbackHandlers,
-String connectionId,Map<String,Subject> subjects,
-KerberosShortNamer kerberosNameParser,ListenerName listenerName,
-SecurityProtocol securityProtocol,TransportLayer transportLayer,
-Map<String,Long> connectionsMaxReauthMsByMechanism,
-ChannelMetadataRegistry metadataRegistry,
-Time time,Supplier<ApiVersionsResponse> apiVersionSupplier)
+? >configs,Map<String,AuthenticateCallbackHandler>callbackHandlers,
+StringconnectionId,Map<String,Subject>subjects,
+KerberosShortNamerkerberosNameParser,ListenerNamelistenerName,
+SecurityProtocolsecurityProtocol,TransportLayertransportLayer,
+Map<String,Long>connectionsMaxReauthMsByMechanism,
+ChannelMetadataRegistrymetadataRegistry,Timetime,
+Supplier<ApiVersionsResponse>apiVersionSupplier)
 end note
 :this.callbackHandlers=callbackHandlers;;
 :this.connectionId=connectionId;;
@@ -25,7 +25,7 @@ end note
 :this.metadataRegistry=metadataRegistry;;
 :this.apiVersionSupplier=apiVersionSupplier;;
 :this.configs=configs;;
-:@SuppressWarnings ("unchecked")List<String> enabledMechanisms=(List<String> )this.configs.get(BrokerSecurityConfigs.SASL_ENABLED_MECHANISMS_CONFIG);;
+:@SuppressWarnings ("unchecked")List<String>enabledMechanisms=(List<String>)this.configs.get(BrokerSecurityConfigs.SASL_ENABLED_MECHANISMS_CONFIG);;
 if (enabledMechanisms==null ||enabledMechanisms.isEmpty()) then (yes) 
 :throw new IllegalArgumentException("No SASL mechanisms are enabled");;
 stop
@@ -48,18 +48,18 @@ kerberosNameParser,null );;
 end
 start
 note right
-void createSaslServer(String mechanism)
+void createSaslServer(Stringmechanism)
 end note
 :this.saslMechanism=mechanism;;
-:Subject subject=subjects.get(mechanism);;
-:final AuthenticateCallbackHandler callbackHandler=callbackHandlers.get(mechanism);;
+:Subjectsubject=subjects.get(mechanism);;
+:final AuthenticateCallbackHandlercallbackHandler=callbackHandlers.get(mechanism);;
 if (mechanism.equals(SaslConfigs.GSSAPI_MECHANISM)) then (yes) 
 :saslServer=createSaslKerberosServer(callbackHandler,
 configs,subject);;
 else (no)
 switch (try/catch block)
 case (try)
-:saslServer=Subject.doAs(subject,(PrivilegedExceptionAction<SaslServer> )()->Sasl.createSaslServer(saslMechanism,
+:saslServer=Subject.doAs(subject,(PrivilegedExceptionAction<SaslServer>)()->Sasl.createSaslServer(saslMechanism,
 "kafka",serverAddress().getHostName(),configs,
 callbackHandler));;
 if (saslServer==null ) then (yes) 
@@ -67,7 +67,7 @@ if (saslServer==null ) then (yes)
 saslMechanism);;
 stop
 endif 
-case (catch (PrivilegedActionException e))
+case (catch (PrivilegedActionExceptione))
 :throw new SaslException("Kafka Server failed to create a SaslServer to interact with a client during session authentication with server mechanism "+
 saslMechanism,e.getCause());;
 stop
@@ -76,30 +76,30 @@ endif
 end
 start
 note right
-SaslServer createSaslKerberosServer(final AuthenticateCallbackHandler saslServerCallbackHandler,
-final Map<String,?> configs,Subject subject)
+SaslServercreateSaslKerberosServer(final AuthenticateCallbackHandlersaslServerCallbackHandler,
+final Map<String,? >configs,Subjectsubject)
 end note
-:final String servicePrincipal=SaslClientAuthenticator.firstPrincipal(subject);;
-:KerberosName kerberosName;;
+:final StringservicePrincipal=SaslClientAuthenticator.firstPrincipal(subject);;
+:KerberosNamekerberosName;;
 switch (try/catch block)
 case (try)
 :kerberosName=KerberosName.parse(servicePrincipal);;
-case (catch (IllegalArgumentException e))
+case (catch (IllegalArgumentExceptione))
 :throw new KafkaException("Principal has name with unexpected format "+
 servicePrincipal);;
 stop
 endswitch
-:final String servicePrincipalName=kerberosName.serviceName();;
-:final String serviceHostname=kerberosName.hostName();;
+:final StringservicePrincipalName=kerberosName.serviceName();;
+:final StringserviceHostname=kerberosName.hostName();;
 :LOG.debug("Creating SaslServer for {} with mechanism {}",
 kerberosName,saslMechanism);;
 switch (try/catch block)
 case (try)
-:return Subject.doAs(subject,(PrivilegedExceptionAction<SaslServer> )()->Sasl.createSaslServer(saslMechanism,
+:return Subject.doAs(subject,(PrivilegedExceptionAction<SaslServer>)()->Sasl.createSaslServer(saslMechanism,
 servicePrincipalName,serviceHostname,configs,
 saslServerCallbackHandler));;
 stop
-case (catch (PrivilegedActionException e))
+case (catch (PrivilegedActionExceptione))
 :throw new SaslException("Kafka Server failed to create a SaslServer to interact with a client during session authentication",
 e.getCause());;
 stop
@@ -130,7 +130,7 @@ stop
 endif 
 :netInBuffer.payload().rewind();;
 endif 
-:byte[] clientToken=new byte[netInBuffer.payload()
+:byte[]clientToken=new byte[netInBuffer.payload()
 .remaining()];;
 :netInBuffer.payload().get(clientToken,0,
 clientToken.length);;
@@ -139,9 +139,9 @@ switch (try/catch block)
 case (try)
 switch (switch saslState)
 endswitch
-case (catch (AuthenticationException e))
+case (catch (AuthenticationExceptione))
 :setSaslState(SaslState.FAILED,e);;
-case (catch (Exception e))
+case (catch (Exceptione))
 :saslState=SaslState.FAILED;;
 :LOG.debug("Failed during {}: {}",reauthInfo.authenticationOrReauthenticationText(),
 e.getMessage());;
@@ -151,15 +151,15 @@ endswitch
 end
 start
 note right
-KafkaPrincipal principal()
+KafkaPrincipalprincipal()
 end note
-:Optional<SSLSession> sslSession=transportLayer instanceof SslTransportLayer ? Optional.of(((SslTransportLayer )transportLayer)
+:Optional<SSLSession>sslSession=transportLayer instanceof SslTransportLayer? Optional.of(((SslTransportLayer)transportLayer)
 .sslSession()):Optional.empty();;
-:SaslAuthenticationContext context=new SaslAuthenticationContext(saslServer,
+:SaslAuthenticationContextcontext=new SaslAuthenticationContext(saslServer,
 securityProtocol,clientAddress(),listenerName.value(),
 sslSession);;
-:KafkaPrincipal principal=principalBuilder.build(context);;
-if (ScramMechanism.isScram(saslMechanism)&&Boolean.parseBoolean((String )saslServer.getNegotiatedProperty(ScramLoginModule.TOKEN_AUTH_CONFIG))) then (yes) 
+:KafkaPrincipalprincipal=principalBuilder.build(context);;
+if (ScramMechanism.isScram(saslMechanism)&&Boolean.parseBoolean((String)saslServer.getNegotiatedProperty(ScramLoginModule.TOKEN_AUTH_CONFIG))) then (yes) 
 :principal.tokenAuthenticated(true);;
 endif 
 :return principal;;
@@ -167,14 +167,14 @@ stop
 end
 start
 note right
-Optional<KafkaPrincipalSerde> principalSerde()
+Optional<KafkaPrincipalSerde>principalSerde()
 end note
-:return principalBuilder instanceof KafkaPrincipalSerde ? Optional.of((KafkaPrincipalSerde )principalBuilder):Optional.empty();;
+:return principalBuilder instanceof KafkaPrincipalSerde? Optional.of((KafkaPrincipalSerde)principalBuilder):Optional.empty();;
 stop
 end
 start
 note right
-boolean complete()
+booleancomplete()
 end note
 :return saslState==SaslState.COMPLETE;;
 stop
@@ -189,8 +189,8 @@ start
 note right
 void close()
 end note
-if (principalBuilder instanceof Closeable ) then (yes) 
-:Utils.closeQuietly((Closeable )principalBuilder,
+if (principalBuilder instanceof Closeable) then (yes) 
+:Utils.closeQuietly((Closeable)principalBuilder,
 "principal builder");;
 endif 
 if (saslServer!=null ) then (yes) 
@@ -199,14 +199,14 @@ endif
 end
 start
 note right
-void reauthenticate(ReauthenticationContext reauthenticationContext)
+void reauthenticate(ReauthenticationContextreauthenticationContext)
 end note
-:NetworkReceive saslHandshakeReceive=reauthenticationContext.networkReceive();;
+:NetworkReceivesaslHandshakeReceive=reauthenticationContext.networkReceive();;
 if (saslHandshakeReceive==null ) then (yes) 
 :throw new IllegalArgumentException("Invalid saslHandshakeReceive in server-side re-authentication context: null");;
 stop
 endif 
-:SaslServerAuthenticator previousSaslServerAuthenticator=(SaslServerAuthenticator )reauthenticationContext.previousAuthenticator();;
+:SaslServerAuthenticatorpreviousSaslServerAuthenticator=(SaslServerAuthenticator)reauthenticationContext.previousAuthenticator();;
 :reauthInfo.reauthenticating(previousSaslServerAuthenticator.saslMechanism,
 previousSaslServerAuthenticator.principal(),
 reauthenticationContext.reauthenticationBeginNanos());;
@@ -220,34 +220,34 @@ this);;
 end
 start
 note right
-Long serverSessionExpirationTimeNanos()
+LongserverSessionExpirationTimeNanos()
 end note
 :return reauthInfo.sessionExpirationTimeNanos;;
 stop
 end
 start
 note right
-Long reauthenticationLatencyMs()
+LongreauthenticationLatencyMs()
 end note
 :return reauthInfo.reauthenticationLatencyMs();;
 stop
 end
 start
 note right
-boolean connectedClientSupportsReauthentication()
+booleanconnectedClientSupportsReauthentication()
 end note
 :return reauthInfo.connectedClientSupportsReauthentication;;
 stop
 end
 start
 note right
-void setSaslState(SaslState saslState)
+void setSaslState(SaslStatesaslState)
 end note
 :setSaslState(saslState,null );;
 end
 start
 note right
-void setSaslState(SaslState saslState,AuthenticationException exception)
+void setSaslState(SaslStatesaslState,AuthenticationExceptionexception)
 end note
 if (netOutBuffer!=null &&!netOutBuffer.completed()) then (yes) 
 :pendingSaslState=saslState;;
@@ -266,9 +266,9 @@ endif
 end
 start
 note right
-boolean flushNetOutBufferAndUpdateInterestOps()
+booleanflushNetOutBufferAndUpdateInterestOps()
 end note
-:boolean flushedCompletely=flushNetOutBuffer();;
+:booleanflushedCompletely=flushNetOutBuffer();;
 if (flushedCompletely) then (yes) 
 :transportLayer.removeInterestOps(SelectionKey.OP_WRITE);;
 if (pendingSaslState!=null ) then (yes) 
@@ -282,7 +282,7 @@ stop
 end
 start
 note right
-boolean flushNetOutBuffer()
+booleanflushNetOutBuffer()
 end note
 if (!netOutBuffer.completed()) then (yes) 
 :netOutBuffer.writeTo(transportLayer);;
@@ -292,7 +292,7 @@ stop
 end
 start
 note right
-InetAddress serverAddress()
+InetAddressserverAddress()
 end note
 :return transportLayer.socketChannel().socket()
 .getLocalAddress();;
@@ -300,7 +300,7 @@ stop
 end
 start
 note right
-InetAddress clientAddress()
+InetAddressclientAddress()
 end note
 :return transportLayer.socketChannel().socket()
 .getInetAddress();;
@@ -308,10 +308,10 @@ stop
 end
 start
 note right
-void handleSaslToken(byte[] clientToken)
+void handleSaslToken(byte[]clientToken)
 end note
 if (!enableKafkaSaslAuthenticateHeaders) then (yes) 
-:byte[] response=saslServer.evaluateResponse(clientToken);;
+:byte[]response=saslServer.evaluateResponse(clientToken);;
 if (saslServer.isComplete()) then (yes) 
 :reauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs();;
 if (reauthInfo.reauthenticating()) then (yes) 
@@ -323,17 +323,17 @@ if (response!=null ) then (yes)
 :flushNetOutBufferAndUpdateInterestOps();;
 endif 
 else (no)
-:ByteBuffer requestBuffer=ByteBuffer.wrap(clientToken);;
-:RequestHeader header=RequestHeader.parse(requestBuffer);;
-:ApiKeys apiKey=header.apiKey();;
-:short version=header.apiVersion();;
-:RequestContext requestContext=new RequestContext(header,
+:ByteBufferrequestBuffer=ByteBuffer.wrap(clientToken);;
+:RequestHeaderheader=RequestHeader.parse(requestBuffer);;
+:ApiKeysapiKey=header.apiKey();;
+:shortversion=header.apiVersion();;
+:RequestContextrequestContext=new RequestContext(header,
 connectionId,clientAddress(),KafkaPrincipal.ANONYMOUS,
 listenerName,securityProtocol,ClientInformation.EMPTY,
 false);;
-:RequestAndSize requestAndSize=requestContext.parseRequest(requestBuffer);;
+:RequestAndSizerequestAndSize=requestContext.parseRequest(requestBuffer);;
 if (apiKey!=ApiKeys.SASL_AUTHENTICATE) then (yes) 
-:IllegalSaslStateException e=new IllegalSaslStateException("Unexpected Kafka request of type "+
+:IllegalSaslStateExceptione=new IllegalSaslStateException("Unexpected Kafka request of type "+
 apiKey+" during SASL authentication.");;
 :buildResponseOnAuthenticateFailure(requestContext,
 requestAndSize.request.getErrorResponse(e));;
@@ -348,30 +348,30 @@ endif
 if (!reauthInfo.connectedClientSupportsReauthentication) then (yes) 
 :reauthInfo.connectedClientSupportsReauthentication=version>0;;
 endif 
-:SaslAuthenticateRequest saslAuthenticateRequest=(SaslAuthenticateRequest )requestAndSize.request;;
+:SaslAuthenticateRequestsaslAuthenticateRequest=(SaslAuthenticateRequest)requestAndSize.request;;
 switch (try/catch block)
 case (try)
-:byte[] responseToken=saslServer.evaluateResponse(Utils.copyArray(saslAuthenticateRequest.data()
+:byte[]responseToken=saslServer.evaluateResponse(Utils.copyArray(saslAuthenticateRequest.data()
 .authBytes()));;
 if (reauthInfo.reauthenticating()&&saslServer.isComplete()) then (yes) 
 :reauthInfo.ensurePrincipalUnchanged(principal());;
 endif 
-:byte[] responseBytes=responseToken==null ? new byte[0]:responseToken;;
-:long sessionLifetimeMs=!saslServer.isComplete()? 0L:reauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs();;
+:byte[]responseBytes=responseToken==null ? new byte[0]:responseToken;;
+:longsessionLifetimeMs=!saslServer.isComplete()? 0L:reauthInfo.calcCompletionTimesAndReturnSessionLifetimeMs();;
 :sendKafkaResponse(requestContext,new SaslAuthenticateResponse(new SaslAuthenticateResponseData()
 .setErrorCode(Errors.NONE.code()).setAuthBytes(responseBytes).setSessionLifetimeMs(sessionLifetimeMs)));;
-case (catch (SaslAuthenticationException e))
+case (catch (SaslAuthenticationExceptione))
 :buildResponseOnAuthenticateFailure(requestContext,
 new SaslAuthenticateResponse(new SaslAuthenticateResponseData().setErrorCode(Errors.SASL_AUTHENTICATION_FAILED.code()).setErrorMessage(e.getMessage())));;
 :throw e;;
 stop
-case (catch (SaslException e))
-:KerberosError kerberosError=KerberosError.fromException(e);;
+case (catch (SaslExceptione))
+:KerberosErrorkerberosError=KerberosError.fromException(e);;
 if (kerberosError!=null &&kerberosError.retriable()) then (yes) 
 :throw e;;
 stop
 else (no)
-:String errorMessage="Authentication failed during "+
+:StringerrorMessage="Authentication failed during "+
 reauthInfo.authenticationOrReauthenticationText()+
 " due to invalid credentials with SASL mechanism "+
 saslMechanism;;
@@ -385,15 +385,15 @@ endif
 end
 start
 note right
-boolean handleKafkaRequest(byte[] requestBytes)
+booleanhandleKafkaRequest(byte[]requestBytes)
 end note
-:boolean isKafkaRequest=false;;
-:String clientMechanism=null ;;
+:booleanisKafkaRequest=false;;
+:StringclientMechanism=null ;;
 switch (try/catch block)
 case (try)
-:ByteBuffer requestBuffer=ByteBuffer.wrap(requestBytes);;
-:RequestHeader header=RequestHeader.parse(requestBuffer);;
-:ApiKeys apiKey=header.apiKey();;
+:ByteBufferrequestBuffer=ByteBuffer.wrap(requestBytes);;
+:RequestHeaderheader=RequestHeader.parse(requestBuffer);;
+:ApiKeysapiKey=header.apiKey();;
 if (saslState==SaslState.INITIAL_REQUEST) then (yes) 
 :setSaslState(SaslState.HANDSHAKE_OR_VERSIONS_REQUEST);;
 endif 
@@ -405,22 +405,22 @@ stop
 endif 
 :LOG.debug("Handling Kafka request {} during {}",
 apiKey,reauthInfo.authenticationOrReauthenticationText());;
-:RequestContext requestContext=new RequestContext(header,
+:RequestContextrequestContext=new RequestContext(header,
 connectionId,clientAddress(),KafkaPrincipal.ANONYMOUS,
 listenerName,securityProtocol,ClientInformation.EMPTY,
 false);;
-:RequestAndSize requestAndSize=requestContext.parseRequest(requestBuffer);;
+:RequestAndSizerequestAndSize=requestContext.parseRequest(requestBuffer);;
 if (apiKey==ApiKeys.API_VERSIONS) then (yes) 
 :handleApiVersionsRequest(requestContext,
-(ApiVersionsRequest )requestAndSize.request);;
+(ApiVersionsRequest)requestAndSize.request);;
 else (no)
 :clientMechanism=handleHandshakeRequest(requestContext,
-(SaslHandshakeRequest )requestAndSize.request);;
+(SaslHandshakeRequest)requestAndSize.request);;
 endif 
-case (catch (InvalidRequestException e))
+case (catch (InvalidRequestExceptione))
 if (saslState==SaslState.INITIAL_REQUEST) then (yes) 
 if (LOG.isDebugEnabled()) then (yes) 
-:StringBuilder tokenBuilder=new StringBuilder();;
+:StringBuildertokenBuilder=new StringBuilder();;
 :tokenBuilder.append(String.format("%02x",
 b));;
 if (tokenBuilder.length()>=20) then (yes) 
@@ -453,12 +453,12 @@ stop
 end
 start
 note right
-String handleHandshakeRequest(RequestContext context,
-SaslHandshakeRequest handshakeRequest)
+StringhandleHandshakeRequest(RequestContextcontext,
+SaslHandshakeRequesthandshakeRequest)
 end note
-:String clientMechanism=handshakeRequest.data()
+:StringclientMechanism=handshakeRequest.data()
 .mechanism();;
-:short version=context.header.apiVersion();;
+:shortversion=context.header.apiVersion();;
 if (version>=1) then (yes) 
 :this.enableKafkaSaslAuthenticateHeaders(true);;
 endif 
@@ -481,14 +481,14 @@ endif
 end
 start
 note right
-void enableKafkaSaslAuthenticateHeaders(boolean flag)
+void enableKafkaSaslAuthenticateHeaders(booleanflag)
 end note
 :this.enableKafkaSaslAuthenticateHeaders=flag;;
 end
 start
 note right
-void handleApiVersionsRequest(RequestContext context,
-ApiVersionsRequest apiVersionsRequest)
+void handleApiVersionsRequest(RequestContextcontext,
+ApiVersionsRequestapiVersionsRequest)
 end note
 if (saslState!=SaslState.HANDSHAKE_OR_VERSIONS_REQUEST) then (yes) 
 :throw new IllegalStateException("Unexpected ApiVersions request received during SASL authentication state "+
@@ -510,8 +510,8 @@ endif
 end
 start
 note right
-void buildResponseOnAuthenticateFailure(RequestContext context,
-AbstractResponse response)
+void buildResponseOnAuthenticateFailure(RequestContextcontext,
+AbstractResponseresponse)
 end note
 :authenticationFailureSend=context.buildResponseSend(response);;
 end
@@ -528,22 +528,22 @@ endif
 end
 start
 note right
-void sendKafkaResponse(RequestContext context,
-AbstractResponse response)
+void sendKafkaResponse(RequestContextcontext,
+AbstractResponseresponse)
 end note
 :sendKafkaResponse(context.buildResponseSend(response));;
 end
 start
 note right
-void sendKafkaResponse(Send send)
+void sendKafkaResponse(Sendsend)
 end note
 :netOutBuffer=send;;
 :flushNetOutBufferAndUpdateInterestOps();;
 end
 start
 note right
-void reauthenticating(String previousSaslMechanism,
-KafkaPrincipal previousKafkaPrincipal,long reauthenticationBeginNanos)
+void reauthenticating(StringpreviousSaslMechanism,
+KafkaPrincipalpreviousKafkaPrincipal,longreauthenticationBeginNanos)
 end note
 :this.previousSaslMechanism=Objects.requireNonNull(previousSaslMechanism);;
 :this.previousKafkaPrincipal=Objects.requireNonNull(previousKafkaPrincipal);;
@@ -551,21 +551,21 @@ end note
 end
 start
 note right
-boolean reauthenticating()
+booleanreauthenticating()
 end note
 :return previousSaslMechanism!=null ;;
 stop
 end
 start
 note right
-String authenticationOrReauthenticationText()
+StringauthenticationOrReauthenticationText()
 end note
 :return reauthenticating()? String.valueOf("re-authentication"):String.valueOf("authentication");;
 stop
 end
 start
 note right
-void ensurePrincipalUnchanged(KafkaPrincipal reauthenticatedKafkaPrincipal)
+void ensurePrincipalUnchanged(KafkaPrincipalreauthenticatedKafkaPrincipal)
 end note
 if (!previousKafkaPrincipal.equals(reauthenticatedKafkaPrincipal)) then (yes) 
 :throw new SaslAuthenticationException(String.format("Cannot change principals during re-authentication from %s.%s: %s.%s",
@@ -577,7 +577,7 @@ endif
 end
 start
 note right
-boolean saslMechanismUnchanged(String clientMechanism)
+booleansaslMechanismUnchanged(StringclientMechanism)
 end note
 if (previousSaslMechanism.equals(clientMechanism)) then (yes) 
 :return true;;
@@ -592,14 +592,14 @@ stop
 end
 start
 note right
-long calcCompletionTimesAndReturnSessionLifetimeMs()
+longcalcCompletionTimesAndReturnSessionLifetimeMs()
 end note
-:long retvalSessionLifetimeMs=0L;;
-:long authenticationEndMs=time.milliseconds();;
+:longretvalSessionLifetimeMs=0L;;
+:longauthenticationEndMs=time.milliseconds();;
 :authenticationEndNanos=time.nanoseconds();;
-:Long credentialExpirationMs=(Long )saslServer.getNegotiatedProperty(SaslInternalConfigs.CREDENTIAL_LIFETIME_MS_SASL_NEGOTIATED_PROPERTY_KEY);;
-:Long connectionsMaxReauthMs=connectionsMaxReauthMsByMechanism.get(saslMechanism);;
-:boolean maxReauthSet=connectionsMaxReauthMs!=null &&connectionsMaxReauthMs>0;;
+:LongcredentialExpirationMs=(Long)saslServer.getNegotiatedProperty(SaslInternalConfigs.CREDENTIAL_LIFETIME_MS_SASL_NEGOTIATED_PROPERTY_KEY);;
+:LongconnectionsMaxReauthMs=connectionsMaxReauthMsByMechanism.get(saslMechanism);;
+:booleanmaxReauthSet=connectionsMaxReauthMs!=null &&connectionsMaxReauthMs>0;;
 if (credentialExpirationMs!=null ||maxReauthSet) then (yes) 
 if (credentialExpirationMs==null ) then (yes) 
 :retvalSessionLifetimeMs=zeroIfNegative(connectionsMaxReauthMs);;
@@ -635,20 +635,20 @@ stop
 end
 start
 note right
-Long reauthenticationLatencyMs()
+LongreauthenticationLatencyMs()
 end note
 if (!reauthenticating()) then (yes) 
 :return null ;;
 stop
 endif 
-:long latencyNanos=authenticationEndNanos-reauthenticationBeginNanos;;
+:longlatencyNanos=authenticationEndNanos-reauthenticationBeginNanos;;
 :return latencyNanos==0L? 0L:Math.max(1L,
 Math.round(latencyNanos/1000.0/1000.0));;
 stop
 end
 start
 note right
-long zeroIfNegative(long value)
+longzeroIfNegative(longvalue)
 end note
 :return Math.max(0L,value);;
 stop

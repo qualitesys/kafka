@@ -343,7 +343,7 @@ var maDataBlocs = {
  , "c1" : "00115"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#115"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00115] For method completeRestoration arguments java.util.function.Consumer&lt;Set&lt;TopicPartition&gt;&gt;  offsetResetter"
+ , "c3" : "QC-JAV000006[00115] For method completeRestoration arguments java.util.function .Consumer&lt;Set&lt;TopicPartition &gt; &gt;  offsetResetter"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -609,7 +609,7 @@ var maDataBlocs = {
  , "c1" : "00302"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#302"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00302] For method addRecords arguments TopicPartition  partition|Iterable&lt;ConsumerRecord&lt;byte[],byte[]&gt;&gt;  records"
+ , "c3" : "QC-JAV000006[00302] For method addRecords arguments TopicPartition  partition|Iterable&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""

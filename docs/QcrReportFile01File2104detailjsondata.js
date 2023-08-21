@@ -2999,7 +2999,7 @@ var maDataBlocs = {
  , "c1" : "00280"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#280"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00280] For method setDbPaths arguments Collection&lt;DbPath&gt;  dbPaths"
+ , "c3" : "QC-JAV000006[00280] For method setDbPaths arguments Collection&lt;DbPath &gt;  dbPaths"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3447,7 +3447,7 @@ var maDataBlocs = {
  , "c1" : "00923"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#923"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00923] For method setCompressionPerLevel arguments List&lt;CompressionType&gt;  compressionLevels"
+ , "c3" : "QC-JAV000006[00923] For method setCompressionPerLevel arguments List&lt;CompressionType &gt;  compressionLevels"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3769,7 +3769,7 @@ var maDataBlocs = {
  , "c1" : "01424"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1424"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01424] For method setListeners arguments List&lt;AbstractEventListener&gt;  listeners"
+ , "c3" : "QC-JAV000006[01424] For method setListeners arguments List&lt;AbstractEventListener &gt;  listeners"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3846,7 +3846,7 @@ var maDataBlocs = {
  , "c1" : "01523"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1523"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01523] For method setCfPaths arguments Collection&lt;DbPath&gt;  cfPaths"
+ , "c3" : "QC-JAV000006[01523] For method setCfPaths arguments Collection&lt;DbPath &gt;  cfPaths"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3944,14 +3944,14 @@ var maDataBlocs = {
  , "c1" : "01677"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1677"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01677] For method setCompactionFilter arguments AbstractCompactionFilter&lt;?extendsAbstractSlice&lt;?&gt;&gt;  compactionFilter"
+ , "c3" : "QC-JAV000006[01677] For method setCompactionFilter arguments AbstractCompactionFilter&lt;?  extends AbstractSlice&lt;? &gt; &gt;  compactionFilter"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01683"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1683"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01683] For method setCompactionFilterFactory arguments AbstractCompactionFilterFactory&lt;?extendsAbstractCompactionFilter&lt;?&gt;&gt;  compactionFilterFactory"
+ , "c3" : "QC-JAV000006[01683] For method setCompactionFilterFactory arguments AbstractCompactionFilterFactory&lt;?  extends AbstractCompactionFilter&lt;? &gt; &gt;  compactionFilterFactory"
 }} 
 ,
 { "ligne" : {"" : ""

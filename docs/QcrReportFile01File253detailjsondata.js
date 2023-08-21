@@ -526,7 +526,7 @@ var maDataBlocs = {
  , "c1" : "00211"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#211"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00211] For method bootstrap arguments List&lt;InetSocketAddress&gt;  addresses"
+ , "c3" : "QC-JAV000006[00211] For method bootstrap arguments List&lt;InetSocketAddress &gt;  addresses"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -568,7 +568,7 @@ var maDataBlocs = {
  , "c1" : "00223"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#223"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00223] For method withPartitions arguments Map&lt;TopicPartition,PartitionInfo&gt;  partitions"
+ , "c3" : "QC-JAV000006[00223] For method withPartitions arguments Map&lt;TopicPartition ,PartitionInfo &gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""

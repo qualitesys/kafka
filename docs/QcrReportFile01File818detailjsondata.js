@@ -196,7 +196,7 @@ var maDataBlocs = {
  , "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerValidatorCallbackHandler.java.html#120"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00120] For method configure arguments Map&lt;String,?&gt;  configs|String  saslMechanism|List&lt;AppConfigurationEntry&gt;  jaasConfigEntries"
+ , "c3" : "QC-JAV000006[00120] For method configure arguments Map&lt;String ,? &gt;  configs|String  saslMechanism|List&lt;AppConfigurationEntry &gt;  jaasConfigEntries"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -378,7 +378,7 @@ var maDataBlocs = {
  , "c1" : "00259"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/OAuthBearerValidatorCallbackHandler.java.html#259"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00259] For method resolveKey arguments JsonWebSignature  jws|List&lt;JsonWebStructure&gt;  nestingContext"
+ , "c3" : "QC-JAV000006[00259] For method resolveKey arguments JsonWebSignature  jws|List&lt;JsonWebStructure &gt;  nestingContext"
 }} 
 ,
 { "ligne" : {"" : ""

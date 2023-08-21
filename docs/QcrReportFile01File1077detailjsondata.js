@@ -197,7 +197,7 @@ var maDataBlocs = {
  , "c1" : "00092"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00092] For method validate arguments Map&lt;String,String&gt;  props"
+ , "c3" : "QC-JAV000006[00092] For method validate arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -274,7 +274,7 @@ var maDataBlocs = {
  , "c1" : "00127"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#127"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00127] For method hasTopicsConfig arguments Map&lt;String,String&gt;  props"
+ , "c3" : "QC-JAV000006[00127] For method hasTopicsConfig arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -288,7 +288,7 @@ var maDataBlocs = {
  , "c1" : "00132"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#132"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00132] For method hasTopicsRegexConfig arguments Map&lt;String,String&gt;  props"
+ , "c3" : "QC-JAV000006[00132] For method hasTopicsRegexConfig arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -302,7 +302,7 @@ var maDataBlocs = {
  , "c1" : "00137"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#137"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00137] For method hasDlqTopicConfig arguments Map&lt;String,String&gt;  props"
+ , "c3" : "QC-JAV000006[00137] For method hasDlqTopicConfig arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -316,7 +316,7 @@ var maDataBlocs = {
  , "c1" : "00143"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SinkConnectorConfig.java.html#143"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00143] For method parseTopicsList arguments Map&lt;String,String&gt;  props"
+ , "c3" : "QC-JAV000006[00143] For method parseTopicsList arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""

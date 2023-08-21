@@ -702,7 +702,7 @@ var maDataBlocs = {
  , "c1" : "00331"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#331"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00331] For method cancelInFlightRequests arguments String  nodeId|long  now|Collection&lt;ClientResponse&gt;  responses"
+ , "c3" : "QC-JAV000006[00331] For method cancelInFlightRequests arguments String  nodeId|long  now|Collection&lt;ClientResponse &gt;  responses"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1045,7 +1045,7 @@ var maDataBlocs = {
  , "c1" : "00580"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#580"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00580] For method completeResponses arguments List&lt;ClientResponse&gt;  responses"
+ , "c3" : "QC-JAV000006[00580] For method completeResponses arguments List&lt;ClientResponse &gt;  responses"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1290,7 +1290,7 @@ var maDataBlocs = {
  , "c1" : "00753"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#753"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00753] For method processDisconnection arguments List&lt;ClientResponse&gt;  responses|String  nodeId|long  now|ChannelState  disconnectState"
+ , "c3" : "QC-JAV000006[00753] For method processDisconnection arguments List&lt;ClientResponse &gt;  responses|String  nodeId|long  now|ChannelState  disconnectState"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1353,7 +1353,7 @@ var maDataBlocs = {
  , "c1" : "00792"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#792"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00792] For method handleTimedOutRequests arguments List&lt;ClientResponse&gt;  responses|long  now"
+ , "c3" : "QC-JAV000006[00792] For method handleTimedOutRequests arguments List&lt;ClientResponse &gt;  responses|long  now"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1367,7 +1367,7 @@ var maDataBlocs = {
  , "c1" : "00802"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#802"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00802] For method handleAbortedSends arguments List&lt;ClientResponse&gt;  responses"
+ , "c3" : "QC-JAV000006[00802] For method handleAbortedSends arguments List&lt;ClientResponse &gt;  responses"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1381,7 +1381,7 @@ var maDataBlocs = {
  , "c1" : "00815"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#815"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00815] For method handleTimedOutConnections arguments List&lt;ClientResponse&gt;  responses|long  now"
+ , "c3" : "QC-JAV000006[00815] For method handleTimedOutConnections arguments List&lt;ClientResponse &gt;  responses|long  now"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1409,7 +1409,7 @@ var maDataBlocs = {
  , "c1" : "00834"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#834"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00834] For method handleCompletedSends arguments List&lt;ClientResponse&gt;  responses|long  now"
+ , "c3" : "QC-JAV000006[00834] For method handleCompletedSends arguments List&lt;ClientResponse &gt;  responses|long  now"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1465,7 +1465,7 @@ var maDataBlocs = {
  , "c1" : "00869"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#869"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00869] For method handleCompletedReceives arguments List&lt;ClientResponse&gt;  responses|long  now"
+ , "c3" : "QC-JAV000006[00869] For method handleCompletedReceives arguments List&lt;ClientResponse &gt;  responses|long  now"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1549,7 +1549,7 @@ var maDataBlocs = {
  , "c1" : "00894"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#894"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00894] For method handleApiVersionsResponse arguments List&lt;ClientResponse&gt;  responses|InFlightRequest  req|long  now|ApiVersionsResponse  apiVersionsResponse"
+ , "c3" : "QC-JAV000006[00894] For method handleApiVersionsResponse arguments List&lt;ClientResponse &gt;  responses|InFlightRequest  req|long  now|ApiVersionsResponse  apiVersionsResponse"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1612,7 +1612,7 @@ var maDataBlocs = {
  , "c1" : "00934"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#934"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00934] For method handleDisconnections arguments List&lt;ClientResponse&gt;  responses|long  now"
+ , "c3" : "QC-JAV000006[00934] For method handleDisconnections arguments List&lt;ClientResponse &gt;  responses|long  now"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1815,7 +1815,7 @@ var maDataBlocs = {
  , "c1" : "01055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1055"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01055] For method handleServerDisconnect arguments long  now|String  destinationId|Optional&lt;AuthenticationException&gt;  maybeFatalException"
+ , "c3" : "QC-JAV000006[01055] For method handleServerDisconnect arguments long  now|String  destinationId|Optional&lt;AuthenticationException &gt;  maybeFatalException"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1850,7 +1850,7 @@ var maDataBlocs = {
  , "c1" : "01080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1080"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01080] For method handleFailedRequest arguments long  now|Optional&lt;KafkaException&gt;  maybeFatalException"
+ , "c3" : "QC-JAV000006[01080] For method handleFailedRequest arguments long  now|Optional&lt;KafkaException &gt;  maybeFatalException"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1990,7 +1990,7 @@ var maDataBlocs = {
  , "c1" : "01186"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1186"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01186] For method newClientRequest arguments String  nodeId|AbstractRequest.Builder&lt;?&gt;  requestBuilder|long  createdTimeMs|boolean  expectResponse"
+ , "c3" : "QC-JAV000006[01186] For method newClientRequest arguments String  nodeId|AbstractRequest.Builder&lt;? &gt;  requestBuilder|long  createdTimeMs|boolean  expectResponse"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2011,7 +2011,7 @@ var maDataBlocs = {
  , "c1" : "01203"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#1203"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01203] For method newClientRequest arguments String  nodeId|AbstractRequest.Builder&lt;?&gt;  requestBuilder|long  createdTimeMs|boolean  expectResponse|int  requestTimeoutMs|RequestCompletionHandler  callback"
+ , "c3" : "QC-JAV000006[01203] For method newClientRequest arguments String  nodeId|AbstractRequest.Builder&lt;? &gt;  requestBuilder|long  createdTimeMs|boolean  expectResponse|int  requestTimeoutMs|RequestCompletionHandler  callback"
 }} 
 ,
 { "ligne" : {"" : ""

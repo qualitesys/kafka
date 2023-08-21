@@ -158,7 +158,7 @@ var maDataBlocs = {
  , "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/internals/Topic.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method validate arguments String  name|String  logPrefix|Consumer&lt;String&gt;  throwableConsumer"
+ , "c3" : "QC-JAV000006[00046] For method validate arguments String  name|String  logPrefix|Consumer&lt;String &gt;  throwableConsumer"
 }} 
 ,
 { "ligne" : {"" : ""

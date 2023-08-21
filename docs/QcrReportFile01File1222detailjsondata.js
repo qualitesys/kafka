@@ -132,7 +132,7 @@ var maDataBlocs = {
  , "c1" : "00053"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/RegexRouter.java.html#53"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00053] For method configure arguments Map&lt;String,?&gt;  props"
+ , "c3" : "QC-JAV000006[00053] For method configure arguments Map&lt;String ,? &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""

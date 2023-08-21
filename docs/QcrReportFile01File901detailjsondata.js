@@ -1098,7 +1098,7 @@ var maDataBlocs = {
  , "c1" : "00682"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#682"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00682] For method sort arguments Comparator&lt;E&gt;  comparator"
+ , "c3" : "QC-JAV000006[00682] For method sort arguments Comparator&lt;E &gt;  comparator"
 }} 
 ,
 { "ligne" : {"" : ""

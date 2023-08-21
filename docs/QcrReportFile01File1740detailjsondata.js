@@ -123,7 +123,7 @@ var maDataBlocs = {
  , "c1" : "00076"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableOuterJoin.java.html#76"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method init arguments ProcessorContext&lt;K,Change&lt;VOut&gt;&gt;  context"
+ , "c3" : "QC-JAV000006[00076] For method init arguments ProcessorContext&lt;K ,Change&lt;VOut &gt; &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -137,7 +137,7 @@ var maDataBlocs = {
  , "c1" : "00087"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableOuterJoin.java.html#87"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00087] For method process arguments Record&lt;K,Change&lt;V1&gt;&gt;  record"
+ , "c3" : "QC-JAV000006[00087] For method process arguments Record&lt;K ,Change&lt;V1 &gt; &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -256,7 +256,7 @@ var maDataBlocs = {
  , "c1" : "00150"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableOuterJoin.java.html#150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00150] For method init arguments ProcessorContext&lt;?,?&gt;  context"
+ , "c3" : "QC-JAV000006[00150] For method init arguments ProcessorContext&lt;? ,? &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -162,7 +162,7 @@ var maDataBlocs = {
  , "c1" : "00049"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00049] For method configure arguments Map&lt;String,?&gt;  configs"
+ , "c3" : "QC-JAV000006[00049] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""

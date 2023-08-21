@@ -1104,7 +1104,7 @@ var maDataBlocs = {
  , "c1" : "00500"
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#500"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00500] For method headers arguments Consumer&lt;HttpHeaders&gt;  headersConsumer"
+ , "c3" : "QC-JAV000006[00500] For method headers arguments Consumer&lt;HttpHeaders &gt;  headersConsumer"
 }} 
 ,
 { "ligne" : {"" : ""

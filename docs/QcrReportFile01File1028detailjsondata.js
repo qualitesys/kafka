@@ -470,7 +470,7 @@ var maDataBlocs = {
  , "c1" : "00269"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.html#269"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00269] For method taskConfigForTopicPartitions arguments List&lt;TopicPartition&gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00269] For method taskConfigForTopicPartitions arguments List&lt;TopicPartition &gt;  topicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -498,7 +498,7 @@ var maDataBlocs = {
  , "c1" : "00278"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.html#278"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00278] For method taskConfigForConsumerGroups arguments List&lt;String&gt;  groups"
+ , "c3" : "QC-JAV000006[00278] For method taskConfigForConsumerGroups arguments List&lt;String &gt;  groups"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -987,7 +987,7 @@ var maDataBlocs = {
  , "c1" : "00440"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#440"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00440] For method registerNewWindowStoreIterator arguments Bytes  key|Iterator&lt;Map.Entry&lt;Long,ConcurrentNavigableMap&lt;Bytes,byte[]&gt;&gt;&gt;  segmentIterator|boolean  forward"
+ , "c3" : "QC-JAV000006[00440] For method registerNewWindowStoreIterator arguments Bytes  key|Iterator&lt;Map.Entry&lt;Long ,ConcurrentNavigableMap&lt;Bytes ,byte[] &gt; &gt; &gt;  segmentIterator|boolean  forward"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1001,7 +1001,7 @@ var maDataBlocs = {
  , "c1" : "00453"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#453"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00453] For method registerNewWindowedKeyValueIterator arguments Bytes  keyFrom|Bytes  keyTo|Iterator&lt;Map.Entry&lt;Long,ConcurrentNavigableMap&lt;Bytes,byte[]&gt;&gt;&gt;  segmentIterator|boolean  forward"
+ , "c3" : "QC-JAV000006[00453] For method registerNewWindowedKeyValueIterator arguments Bytes  keyFrom|Bytes  keyTo|Iterator&lt;Map.Entry&lt;Long ,ConcurrentNavigableMap&lt;Bytes ,byte[] &gt; &gt; &gt;  segmentIterator|boolean  forward"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -212,7 +212,7 @@ var maDataBlocs = {
  , "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#78"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00078] For method validateKeys arguments Set&lt;CoordinatorKey&gt;  groupIds"
+ , "c3" : "QC-JAV000006[00078] For method validateKeys arguments Set&lt;CoordinatorKey &gt;  groupIds"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -247,7 +247,7 @@ var maDataBlocs = {
  , "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#86"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00086] For method buildBatchedRequest arguments int  coordinatorId|Set&lt;CoordinatorKey&gt;  groupIds"
+ , "c3" : "QC-JAV000006[00086] For method buildBatchedRequest arguments int  coordinatorId|Set&lt;CoordinatorKey &gt;  groupIds"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -261,7 +261,7 @@ var maDataBlocs = {
  , "c1" : "00114"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#114"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00114] For method handleResponse arguments Node  coordinator|Set&lt;CoordinatorKey&gt;  groupIds|AbstractResponse  abstractResponse"
+ , "c3" : "QC-JAV000006[00114] For method handleResponse arguments Node  coordinator|Set&lt;CoordinatorKey &gt;  groupIds|AbstractResponse  abstractResponse"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -303,7 +303,7 @@ var maDataBlocs = {
  , "c1" : "00153"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#153"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00153] For method handleError arguments CoordinatorKey  groupId|TopicPartition  topicPartition|Errors  error|Map&lt;TopicPartition,Errors&gt;  partitionResults|Set&lt;CoordinatorKey&gt;  groupsToUnmap|Set&lt;CoordinatorKey&gt;  groupsToRetry"
+ , "c3" : "QC-JAV000006[00153] For method handleError arguments CoordinatorKey  groupId|TopicPartition  topicPartition|Errors  error|Map&lt;TopicPartition ,Errors &gt;  partitionResults|Set&lt;CoordinatorKey &gt;  groupsToUnmap|Set&lt;CoordinatorKey &gt;  groupsToRetry"
 }} 
 ,
 { "ligne" : {"" : ""

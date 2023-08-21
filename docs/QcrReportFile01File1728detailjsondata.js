@@ -157,7 +157,7 @@ var maDataBlocs = {
  , "c1" : "00108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00108] For method init arguments ProcessorContext&lt;Windowed&lt;KIn&gt;,Change&lt;VAgg&gt;&gt;  context"
+ , "c3" : "QC-JAV000006[00108] For method init arguments ProcessorContext&lt;Windowed&lt;KIn &gt; ,Change&lt;VAgg &gt; &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -192,7 +192,7 @@ var maDataBlocs = {
  , "c1" : "00143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#143"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00143] For method process arguments Record&lt;KIn,VIn&gt;  record"
+ , "c3" : "QC-JAV000006[00143] For method process arguments Record&lt;KIn ,VIn &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -248,7 +248,7 @@ var maDataBlocs = {
  , "c1" : "00196"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#196"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00196] For method maybeForwardUpdate arguments Windowed&lt;KIn&gt;  windowedkey|VAgg  oldAgg|VAgg  newAgg"
+ , "c3" : "QC-JAV000006[00196] For method maybeForwardUpdate arguments Windowed&lt;KIn &gt;  windowedkey|VAgg  oldAgg|VAgg  newAgg"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -269,7 +269,7 @@ var maDataBlocs = {
  , "c1" : "00209"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#209"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00209] For method maybeForwardFinalResult arguments Record&lt;KIn,VIn&gt;  record|long  windowCloseTime"
+ , "c3" : "QC-JAV000006[00209] For method maybeForwardFinalResult arguments Record&lt;KIn ,VIn &gt;  record|long  windowCloseTime"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -339,7 +339,7 @@ var maDataBlocs = {
  , "c1" : "00261"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#261"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00261] For method fetchAndEmit arguments Record&lt;KIn,VIn&gt;  record|long  windowCloseTime|long  emitRangeLowerBound|long  emitRangeUpperBound"
+ , "c3" : "QC-JAV000006[00261] For method fetchAndEmit arguments Record&lt;KIn ,VIn &gt;  record|long  windowCloseTime|long  emitRangeLowerBound|long  emitRangeUpperBound"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -549,7 +549,7 @@ var maDataBlocs = {
  , "c1" : "00372"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#372"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00372] For method init arguments ProcessorContext&lt;?,?&gt;  context"
+ , "c3" : "QC-JAV000006[00372] For method init arguments ProcessorContext&lt;? ,? &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -563,7 +563,7 @@ var maDataBlocs = {
  , "c1" : "00377"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSessionWindowAggregate.java.html#377"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00377] For method get arguments Windowed&lt;KIn&gt;  key"
+ , "c3" : "QC-JAV000006[00377] For method get arguments Windowed&lt;KIn &gt;  key"
 }} 
 ,
 { "ligne" : {"" : ""

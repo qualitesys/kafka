@@ -328,7 +328,7 @@ var maDataBlocs = {
  , "c1" : "00106"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginDesc.java.html#106"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00106] For method compareTo arguments PluginDesc&lt;T&gt;  other"
+ , "c3" : "QC-JAV000006[00106] For method compareTo arguments PluginDesc&lt;T &gt;  other"
 }} 
 ,
 { "ligne" : {"" : ""

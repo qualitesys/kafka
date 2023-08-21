@@ -523,7 +523,7 @@ var maDataBlocs = {
  , "c1" : "00204"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#204"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00204] For method connectorBaseConfig arguments SourceAndTarget  sourceAndTarget|Class&lt;?&gt;  connectorClass"
+ , "c3" : "QC-JAV000006[00204] For method connectorBaseConfig arguments SourceAndTarget  sourceAndTarget|Class&lt;? &gt;  connectorClass"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -579,7 +579,7 @@ var maDataBlocs = {
  , "c1" : "00243"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#243"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00243] For method transform arguments Map&lt;String,String&gt;  props"
+ , "c3" : "QC-JAV000006[00243] For method transform arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -642,7 +642,7 @@ var maDataBlocs = {
  , "c1" : "00286"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#286"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00286] For method clusterConfigsWithPrefix arguments String  prefix|Map&lt;String,String&gt;  props"
+ , "c3" : "QC-JAV000006[00286] For method clusterConfigsWithPrefix arguments String  prefix|Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -663,7 +663,7 @@ var maDataBlocs = {
  , "c1" : "00292"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMakerConfig.java.html#292"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00292] For method clientConfigsWithPrefix arguments String  prefix|Map&lt;String,String&gt;  props"
+ , "c3" : "QC-JAV000006[00292] For method clientConfigsWithPrefix arguments String  prefix|Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""

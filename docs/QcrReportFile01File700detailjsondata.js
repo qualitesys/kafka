@@ -440,7 +440,7 @@ var maDataBlocs = {
  , "c1" : "00198"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataRequest.java.html#198"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00198] For method convertToMetadataRequestTopic arguments Collection&lt;String&gt;  topics"
+ , "c3" : "QC-JAV000006[00198] For method convertToMetadataRequestTopic arguments Collection&lt;String &gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -454,7 +454,7 @@ var maDataBlocs = {
  , "c1" : "00204"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/MetadataRequest.java.html#204"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00204] For method convertTopicIdsToMetadataRequestTopic arguments Collection&lt;Uuid&gt;  topicIds"
+ , "c3" : "QC-JAV000006[00204] For method convertTopicIdsToMetadataRequestTopic arguments Collection&lt;Uuid &gt;  topicIds"
 }} 
 ,
 { "ligne" : {"" : ""

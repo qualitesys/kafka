@@ -273,14 +273,14 @@ var maDataBlocs = {
  , "c1" : "00140"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.html#140"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00140] For method addAssignmentsForPartitions arguments Set&lt;TopicIdPartition&gt;  partitions"
+ , "c3" : "QC-JAV000006[00140] For method addAssignmentsForPartitions arguments Set&lt;TopicIdPartition &gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/ConsumerManager.java.html#144"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00144] For method removeAssignmentsForPartitions arguments Set&lt;TopicIdPartition&gt;  partitions"
+ , "c3" : "QC-JAV000006[00144] For method removeAssignmentsForPartitions arguments Set&lt;TopicIdPartition &gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""

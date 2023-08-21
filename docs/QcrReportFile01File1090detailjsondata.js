@@ -159,7 +159,7 @@ var maDataBlocs = {
  , "c1" : "00052"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method transform arguments Map&lt;String,String&gt;  configs"
+ , "c3" : "QC-JAV000006[00052] For method transform arguments Map&lt;String ,String &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -173,7 +173,7 @@ var maDataBlocs = {
  , "c1" : "00056"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#56"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00056] For method transform arguments String  connectorName|Map&lt;String,String&gt;  configs"
+ , "c3" : "QC-JAV000006[00056] For method transform arguments String  connectorName|Map&lt;String ,String &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -208,7 +208,7 @@ var maDataBlocs = {
  , "c1" : "00074"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerConfigTransformer.java.html#74"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00074] For method scheduleReload arguments String  connectorName|Map&lt;String,Long&gt;  ttls"
+ , "c3" : "QC-JAV000006[00074] For method scheduleReload arguments String  connectorName|Map&lt;String ,Long &gt;  ttls"
 }} 
 ,
 { "ligne" : {"" : ""

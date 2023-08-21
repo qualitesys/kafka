@@ -136,7 +136,7 @@ var maDataBlocs = {
  , "c1" : "00042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheSessionStoreIterator.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method deserializeStorePair arguments KeyValue&lt;Windowed&lt;Bytes&gt;,byte[]&gt;  pair"
+ , "c3" : "QC-JAV000006[00042] For method deserializeStorePair arguments KeyValue&lt;Windowed&lt;Bytes &gt; ,byte[] &gt;  pair"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -171,14 +171,14 @@ var maDataBlocs = {
  , "c1" : "00061"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheSessionStoreIterator.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00061] For method deserializeStoreKey arguments Windowed&lt;Bytes&gt;  key"
+ , "c3" : "QC-JAV000006[00061] For method deserializeStoreKey arguments Windowed&lt;Bytes &gt;  key"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MergedSortedCacheSessionStoreIterator.java.html#66"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method compare arguments Bytes  cacheKey|Windowed&lt;Bytes&gt;  storeKey"
+ , "c3" : "QC-JAV000006[00066] For method compare arguments Bytes  cacheKey|Windowed&lt;Bytes &gt;  storeKey"
 }} 
 ,
 { "ligne" : {"" : ""

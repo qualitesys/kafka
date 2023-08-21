@@ -282,7 +282,7 @@ var maDataBlocs = {
  , "c1" : "00132"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java.html#132"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00132] For method setLevel arguments String  namedLogger|Map&lt;String,String&gt;  levelMap"
+ , "c3" : "QC-JAV000006[00132] For method setLevel arguments String  namedLogger|Map&lt;String ,String &gt;  levelMap"
 }} 
 ,
 { "ligne" : {"" : ""

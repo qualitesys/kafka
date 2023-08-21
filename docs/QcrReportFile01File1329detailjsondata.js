@@ -194,7 +194,7 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#57"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00057] For method write arguments ClientQuotaEntity  entity|Consumer&lt;List&lt;ApiMessageAndVersion&gt;&gt;  out"
+ , "c3" : "QC-JAV000006[00057] For method write arguments ClientQuotaEntity  entity|Consumer&lt;List&lt;ApiMessageAndVersion &gt; &gt;  out"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -229,7 +229,7 @@ var maDataBlocs = {
  , "c1" : "00080"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClientQuotaImage.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method dataToEntity arguments List&lt;EntityData&gt;  entityData"
+ , "c3" : "QC-JAV000006[00080] For method dataToEntity arguments List&lt;EntityData &gt;  entityData"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -332,7 +332,7 @@ var maDataBlocs = {
  , "c1" : "00160"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#160"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00160] For method resolveEffectiveTopicConfigs arguments Map&lt;String,?extendsObject&gt;  staticNodeConfig|Map&lt;String,?extendsObject&gt;  dynamicClusterConfigs|Map&lt;String,?extendsObject&gt;  dynamicNodeConfigs|Map&lt;String,?extendsObject&gt;  dynamicTopicConfigs"
+ , "c3" : "QC-JAV000006[00160] For method resolveEffectiveTopicConfigs arguments Map&lt;String ,?  extends Object &gt;  staticNodeConfig|Map&lt;String ,?  extends Object &gt;  dynamicClusterConfigs|Map&lt;String ,?  extends Object &gt;  dynamicNodeConfigs|Map&lt;String ,?  extends Object &gt;  dynamicTopicConfigs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -346,7 +346,7 @@ var maDataBlocs = {
  , "c1" : "00175"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#175"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00175] For method resolveEffectiveTopicConfig arguments ConfigDef.ConfigKey  configKey|Map&lt;String,?extendsObject&gt;  staticNodeConfig|Map&lt;String,?extendsObject&gt;  dynamicClusterConfigs|Map&lt;String,?extendsObject&gt;  dynamicNodeConfigs|Map&lt;String,?extendsObject&gt;  dynamicTopicConfigs"
+ , "c3" : "QC-JAV000006[00175] For method resolveEffectiveTopicConfig arguments ConfigDef.ConfigKey  configKey|Map&lt;String ,?  extends Object &gt;  staticNodeConfig|Map&lt;String ,?  extends Object &gt;  dynamicClusterConfigs|Map&lt;String ,?  extends Object &gt;  dynamicNodeConfigs|Map&lt;String ,?  extends Object &gt;  dynamicTopicConfigs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -395,7 +395,7 @@ var maDataBlocs = {
  , "c1" : "00208"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#208"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00208] For method toConfigEntry arguments ConfigDef.ConfigKey  configKey|Object  value|ConfigSource  source|Function&lt;String,String&gt;  converter"
+ , "c3" : "QC-JAV000006[00208] For method toConfigEntry arguments ConfigDef.ConfigKey  configKey|Object  value|ConfigSource  source|Function&lt;String ,String &gt;  converter"
 }} 
 ,
 { "ligne" : {"" : ""

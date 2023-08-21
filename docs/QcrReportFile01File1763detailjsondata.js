@@ -164,7 +164,7 @@ var maDataBlocs = {
  , "c1" : "00064"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedCogroupedKStreamImpl.java.html#64"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method aggregate arguments Initializer&lt;V&gt;  initializer|Merger&lt;?superK,V&gt;  sessionMerger"
+ , "c3" : "QC-JAV000006[00064] For method aggregate arguments Initializer&lt;V &gt;  initializer|Merger&lt;? super K ,V &gt;  sessionMerger"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -185,14 +185,14 @@ var maDataBlocs = {
  , "c1" : "00070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedCogroupedKStreamImpl.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00070] For method aggregate arguments Initializer&lt;V&gt;  initializer|Merger&lt;?superK,V&gt;  sessionMerger|Materialized&lt;K,V,SessionStore&lt;Bytes,byte[]&gt;&gt;  materialized"
+ , "c3" : "QC-JAV000006[00070] For method aggregate arguments Initializer&lt;V &gt;  initializer|Merger&lt;? super K ,V &gt;  sessionMerger|Materialized&lt;K ,V ,SessionStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00077"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedCogroupedKStreamImpl.java.html#77"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00077] For method aggregate arguments Initializer&lt;V&gt;  initializer|Merger&lt;?superK,V&gt;  sessionMerger|Named  named"
+ , "c3" : "QC-JAV000006[00077] For method aggregate arguments Initializer&lt;V &gt;  initializer|Merger&lt;? super K ,V &gt;  sessionMerger|Named  named"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -213,7 +213,7 @@ var maDataBlocs = {
  , "c1" : "00083"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedCogroupedKStreamImpl.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00083] For method aggregate arguments Initializer&lt;V&gt;  initializer|Merger&lt;?superK,V&gt;  sessionMerger|Named  named|Materialized&lt;K,V,SessionStore&lt;Bytes,byte[]&gt;&gt;  materialized"
+ , "c3" : "QC-JAV000006[00083] For method aggregate arguments Initializer&lt;V &gt;  initializer|Merger&lt;? super K ,V &gt;  sessionMerger|Named  named|Materialized&lt;K ,V ,SessionStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -269,7 +269,7 @@ var maDataBlocs = {
  , "c1" : "00109"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionWindowedCogroupedKStreamImpl.java.html#109"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00109] For method materialize arguments MaterializedInternal&lt;K,V,SessionStore&lt;Bytes,byte[]&gt;&gt;  materialized"
+ , "c3" : "QC-JAV000006[00109] For method materialize arguments MaterializedInternal&lt;K ,V ,SessionStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -369,7 +369,7 @@ var maDataBlocs = {
  , "c1" : "00125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#125"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00125] For method createApiVersionsResponse arguments int  throttleTimeMs|RecordVersion  minRecordVersion|Features&lt;SupportedVersionRange&gt;  latestSupportedFeatures|Map&lt;String,Short&gt;  finalizedFeatures|long  finalizedFeaturesEpoch|NodeApiVersions  controllerApiVersions|ListenerType  listenerType"
+ , "c3" : "QC-JAV000006[00125] For method createApiVersionsResponse arguments int  throttleTimeMs|RecordVersion  minRecordVersion|Features&lt;SupportedVersionRange &gt;  latestSupportedFeatures|Map&lt;String ,Short &gt;  finalizedFeatures|long  finalizedFeaturesEpoch|NodeApiVersions  controllerApiVersions|ListenerType  listenerType"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -390,7 +390,7 @@ var maDataBlocs = {
  , "c1" : "00151"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#151"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00151] For method createApiVersionsResponse arguments int  throttleTimeMs|ApiVersionCollection  apiVersions|Features&lt;SupportedVersionRange&gt;  latestSupportedFeatures|Map&lt;String,Short&gt;  finalizedFeatures|long  finalizedFeaturesEpoch"
+ , "c3" : "QC-JAV000006[00151] For method createApiVersionsResponse arguments int  throttleTimeMs|ApiVersionCollection  apiVersions|Features&lt;SupportedVersionRange &gt;  latestSupportedFeatures|Map&lt;String ,Short &gt;  finalizedFeatures|long  finalizedFeaturesEpoch"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -411,14 +411,14 @@ var maDataBlocs = {
  , "c1" : "00183"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#183"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00183] For method collectApis arguments Set&lt;ApiKeys&gt;  apiKeys"
+ , "c3" : "QC-JAV000006[00183] For method collectApis arguments Set&lt;ApiKeys &gt;  apiKeys"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00200"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#200"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00200] For method intersectForwardableApis arguments ApiMessageType.ListenerType  listenerType|RecordVersion  minRecordVersion|Map&lt;ApiKeys,ApiVersion&gt;  activeControllerApiVersions"
+ , "c3" : "QC-JAV000006[00200] For method intersectForwardableApis arguments ApiMessageType.ListenerType  listenerType|RecordVersion  minRecordVersion|Map&lt;ApiKeys ,ApiVersion &gt;  activeControllerApiVersions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -474,7 +474,7 @@ var maDataBlocs = {
  , "c1" : "00230"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#230"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00230] For method createApiVersionsResponseData arguments int  throttleTimeMs|Errors  error|ApiVersionCollection  apiKeys|Features&lt;SupportedVersionRange&gt;  latestSupportedFeatures|Map&lt;String,Short&gt;  finalizedFeatures|long  finalizedFeaturesEpoch"
+ , "c3" : "QC-JAV000006[00230] For method createApiVersionsResponseData arguments int  throttleTimeMs|Errors  error|ApiVersionCollection  apiKeys|Features&lt;SupportedVersionRange &gt;  latestSupportedFeatures|Map&lt;String ,Short &gt;  finalizedFeatures|long  finalizedFeaturesEpoch"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -488,7 +488,7 @@ var maDataBlocs = {
  , "c1" : "00249"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#249"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00249] For method createSupportedFeatureKeys arguments Features&lt;SupportedVersionRange&gt;  latestSupportedFeatures"
+ , "c3" : "QC-JAV000006[00249] For method createSupportedFeatureKeys arguments Features&lt;SupportedVersionRange &gt;  latestSupportedFeatures"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -516,7 +516,7 @@ var maDataBlocs = {
  , "c1" : "00264"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#264"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00264] For method createFinalizedFeatureKeys arguments Map&lt;String,Short&gt;  finalizedFeatures"
+ , "c3" : "QC-JAV000006[00264] For method createFinalizedFeatureKeys arguments Map&lt;String ,Short &gt;  finalizedFeatures"
 }} 
 ,
 { "ligne" : {"" : ""

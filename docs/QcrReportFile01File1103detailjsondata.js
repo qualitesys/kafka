@@ -482,7 +482,7 @@ var maDataBlocs = {
  , "c1" : "00618"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#618"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00618] For method validateVerificationAlgorithms arguments String  configName|List&lt;String&gt;  algorithms"
+ , "c3" : "QC-JAV000006[00618] For method validateVerificationAlgorithms arguments String  configName|List&lt;String &gt;  algorithms"
 }} 
 ,
 { "ligne" : {"" : ""

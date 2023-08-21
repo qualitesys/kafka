@@ -231,7 +231,7 @@ var maDataBlocs = {
  , "c1" : "00065"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointConnector.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00065] For method start arguments Map&lt;String,String&gt;  props"
+ , "c3" : "QC-JAV000006[00065] For method start arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""

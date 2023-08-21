@@ -136,7 +136,7 @@ var maDataBlocs = {
  , "c1" : "00040"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#40"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00040] For method start arguments Map&lt;String,String&gt;  props"
+ , "c3" : "QC-JAV000006[00040] For method start arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""

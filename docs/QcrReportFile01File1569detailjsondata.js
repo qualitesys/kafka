@@ -286,7 +286,7 @@ var maDataBlocs = {
  , "c1" : "00136"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManagerConfig.java.html#136"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00136] For method initializeProducerConsumerProperties arguments Map&lt;String,?&gt;  configs"
+ , "c3" : "QC-JAV000006[00136] For method initializeProducerConsumerProperties arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -307,7 +307,7 @@ var maDataBlocs = {
  , "c1" : "00201"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManagerConfig.java.html#201"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00201] For method createConsumerProps arguments HashMap&lt;String,Object&gt;  allConsumerConfigs"
+ , "c3" : "QC-JAV000006[00201] For method createConsumerProps arguments HashMap&lt;String ,Object &gt;  allConsumerConfigs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -342,7 +342,7 @@ var maDataBlocs = {
  , "c1" : "00213"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/TopicBasedRemoteLogMetadataManagerConfig.java.html#213"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00213] For method createProducerProps arguments HashMap&lt;String,Object&gt;  allProducerConfigs"
+ , "c3" : "QC-JAV000006[00213] For method createProducerProps arguments HashMap&lt;String ,Object &gt;  allProducerConfigs"
 }} 
 ,
 { "ligne" : {"" : ""

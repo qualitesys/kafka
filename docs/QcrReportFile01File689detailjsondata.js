@@ -228,7 +228,7 @@ var maDataBlocs = {
  , "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrResponse.java.html#78"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00078] For method partitionErrors arguments Map&lt;Uuid,String&gt;  topicNames"
+ , "c3" : "QC-JAV000006[00078] For method partitionErrors arguments Map&lt;Uuid ,String &gt;  topicNames"
 }} 
 ,
 { "ligne" : {"" : ""

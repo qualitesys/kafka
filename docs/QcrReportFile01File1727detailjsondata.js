@@ -132,7 +132,7 @@ var maDataBlocs = {
  , "c1" : "00066"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamReduce.java.html#66"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00066] For method init arguments ProcessorContext&lt;K,Change&lt;V&gt;&gt;  context"
+ , "c3" : "QC-JAV000006[00066] For method init arguments ProcessorContext&lt;K ,Change&lt;V &gt; &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -146,7 +146,7 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamReduce.java.html#82"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00082] For method process arguments Record&lt;K,V&gt;  record"
+ , "c3" : "QC-JAV000006[00082] For method process arguments Record&lt;K ,V &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -216,7 +216,7 @@ var maDataBlocs = {
  , "c1" : "00142"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamReduce.java.html#142"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00142] For method init arguments ProcessorContext&lt;?,?&gt;  context"
+ , "c3" : "QC-JAV000006[00142] For method init arguments ProcessorContext&lt;? ,? &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""

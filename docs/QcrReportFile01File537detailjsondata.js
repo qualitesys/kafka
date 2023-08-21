@@ -131,7 +131,7 @@ var maDataBlocs = {
  , "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/RawTaggedFieldWriter.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method forFields arguments List&lt;RawTaggedField&gt;  fields"
+ , "c3" : "QC-JAV000006[00038] For method forFields arguments List&lt;RawTaggedField &gt;  fields"
 }} 
 ,
 { "ligne" : {"" : ""

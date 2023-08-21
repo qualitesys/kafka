@@ -100,14 +100,14 @@ var maDataBlocs = {
  , "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/NoOpConsumerRebalanceListener.java.html#27"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00027] For method onPartitionsAssigned arguments Collection&lt;TopicPartition&gt;  partitions"
+ , "c3" : "QC-JAV000006[00027] For method onPartitionsAssigned arguments Collection&lt;TopicPartition &gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/NoOpConsumerRebalanceListener.java.html#30"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00030] For method onPartitionsRevoked arguments Collection&lt;TopicPartition&gt;  partitions"
+ , "c3" : "QC-JAV000006[00030] For method onPartitionsRevoked arguments Collection&lt;TopicPartition &gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""

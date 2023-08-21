@@ -264,7 +264,7 @@ var maDataBlocs = {
  , "c1" : "00100"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#100"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00100] For method handleCommit arguments BatchReader&lt;ApiMessageAndVersion&gt;  reader"
+ , "c3" : "QC-JAV000006[00100] For method handleCommit arguments BatchReader&lt;ApiMessageAndVersion &gt;  reader"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -285,7 +285,7 @@ var maDataBlocs = {
  , "c1" : "00112"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#112"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00112] For method handleSnapshot arguments SnapshotReader&lt;ApiMessageAndVersion&gt;  reader"
+ , "c3" : "QC-JAV000006[00112] For method handleSnapshot arguments SnapshotReader&lt;ApiMessageAndVersion &gt;  reader"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -320,7 +320,7 @@ var maDataBlocs = {
  , "c1" : "00130"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#130"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00130] For method create arguments MetadataVersion  metadataVersion|List&lt;ApiMessageAndVersion&gt;  records"
+ , "c3" : "QC-JAV000006[00130] For method create arguments MetadataVersion  metadataVersion|List&lt;ApiMessageAndVersion &gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -348,7 +348,7 @@ var maDataBlocs = {
  , "c1" : "00153"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#153"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00153] For method load arguments Path  bootstrapDir|Supplier&lt;MetadataVersion&gt;  fallbackVersionSupplier"
+ , "c3" : "QC-JAV000006[00153] For method load arguments Path  bootstrapDir|Supplier&lt;MetadataVersion &gt;  fallbackVersionSupplier"
 }} 
 ,
 { "ligne" : {"" : ""

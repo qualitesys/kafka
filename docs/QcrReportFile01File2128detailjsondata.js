@@ -555,7 +555,7 @@ var maDataBlocs = {
  , "c1" : "00169"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#169"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00169] For method toBinary arguments Windowed&lt;Bytes&gt;  sessionKey"
+ , "c3" : "QC-JAV000006[00169] For method toBinary arguments Windowed&lt;Bytes &gt;  sessionKey"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -576,7 +576,7 @@ var maDataBlocs = {
  , "c1" : "00181"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SessionKeySchema.java.html#181"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00181] For method writeBinary arguments ByteBuffer  buf|Windowed&lt;Bytes&gt;  sessionKey"
+ , "c3" : "QC-JAV000006[00181] For method writeBinary arguments ByteBuffer  buf|Windowed&lt;Bytes &gt;  sessionKey"
 }} 
 ,
 { "ligne" : {"" : ""

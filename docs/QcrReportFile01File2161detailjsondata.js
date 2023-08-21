@@ -300,7 +300,7 @@ var maDataBlocs = {
  , "c1" : "00112"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#112"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00112] For method pipeInput arguments TestRecord&lt;K,V&gt;  record"
+ , "c3" : "QC-JAV000006[00112] For method pipeInput arguments TestRecord&lt;K ,V &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -370,35 +370,35 @@ var maDataBlocs = {
  , "c1" : "00186"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#186"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00186] For method pipeRecordList arguments List&lt;?extendsTestRecord&lt;K,V&gt;&gt;  records"
+ , "c3" : "QC-JAV000006[00186] For method pipeRecordList arguments List&lt;?  extends TestRecord&lt;K ,V &gt; &gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00199"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#199"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00199] For method pipeKeyValueList arguments List&lt;KeyValue&lt;K,V&gt;&gt;  keyValues"
+ , "c3" : "QC-JAV000006[00199] For method pipeKeyValueList arguments List&lt;KeyValue&lt;K ,V &gt; &gt;  keyValues"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00212"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#212"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00212] For method pipeValueList arguments List&lt;V&gt;  values"
+ , "c3" : "QC-JAV000006[00212] For method pipeValueList arguments List&lt;V &gt;  values"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00226"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#226"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00226] For method pipeKeyValueList arguments List&lt;KeyValue&lt;K,V&gt;&gt;  keyValues|Instant  startTimestamp|Duration  advance"
+ , "c3" : "QC-JAV000006[00226] For method pipeKeyValueList arguments List&lt;KeyValue&lt;K ,V &gt; &gt;  keyValues|Instant  startTimestamp|Duration  advance"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00245"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TestInputTopic.java.html#245"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00245] For method pipeValueList arguments List&lt;V&gt;  values|Instant  startTimestamp|Duration  advance"
+ , "c3" : "QC-JAV000006[00245] For method pipeValueList arguments List&lt;V &gt;  values|Instant  startTimestamp|Duration  advance"
 }} 
 ,
 { "ligne" : {"" : ""

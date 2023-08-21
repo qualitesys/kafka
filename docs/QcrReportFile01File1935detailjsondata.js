@@ -141,7 +141,7 @@ var maDataBlocs = {
  , "c1" : "00052"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method onPartitionsAssigned arguments Collection&lt;TopicPartition&gt;  partitions"
+ , "c3" : "QC-JAV000006[00052] For method onPartitionsAssigned arguments Collection&lt;TopicPartition &gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -204,7 +204,7 @@ var maDataBlocs = {
  , "c1" : "00081"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#81"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00081] For method onPartitionsRevoked arguments Collection&lt;TopicPartition&gt;  partitions"
+ , "c3" : "QC-JAV000006[00081] For method onPartitionsRevoked arguments Collection&lt;TopicPartition &gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -253,7 +253,7 @@ var maDataBlocs = {
  , "c1" : "00103"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsRebalanceListener.java.html#103"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00103] For method onPartitionsLost arguments Collection&lt;TopicPartition&gt;  partitions"
+ , "c3" : "QC-JAV000006[00103] For method onPartitionsLost arguments Collection&lt;TopicPartition &gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""

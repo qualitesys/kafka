@@ -215,14 +215,14 @@ var maDataBlocs = {
  , "c1" : "00063"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#63"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00063] For method withConnectorAndWorkerStores arguments Supplier&lt;LoggingContext&gt;  loggingContext|OffsetBackingStore  workerStore|KafkaOffsetBackingStore  connectorStore|String  connectorOffsetsTopic|TopicAdmin  connectorStoreAdmin"
+ , "c3" : "QC-JAV000006[00063] For method withConnectorAndWorkerStores arguments Supplier&lt;LoggingContext &gt;  loggingContext|OffsetBackingStore  workerStore|KafkaOffsetBackingStore  connectorStore|String  connectorOffsetsTopic|TopicAdmin  connectorStoreAdmin"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00095"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#95"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00095] For method withOnlyWorkerStore arguments Supplier&lt;LoggingContext&gt;  loggingContext|OffsetBackingStore  workerStore|String  workerOffsetsTopic"
+ , "c3" : "QC-JAV000006[00095] For method withOnlyWorkerStore arguments Supplier&lt;LoggingContext &gt;  loggingContext|OffsetBackingStore  workerStore|String  workerOffsetsTopic"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -243,7 +243,7 @@ var maDataBlocs = {
  , "c1" : "00115"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#115"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00115] For method withOnlyConnectorStore arguments Supplier&lt;LoggingContext&gt;  loggingContext|KafkaOffsetBackingStore  connectorStore|String  connectorOffsetsTopic|TopicAdmin  connectorStoreAdmin"
+ , "c3" : "QC-JAV000006[00115] For method withOnlyConnectorStore arguments Supplier&lt;LoggingContext &gt;  loggingContext|KafkaOffsetBackingStore  connectorStore|String  connectorOffsetsTopic|TopicAdmin  connectorStoreAdmin"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -278,7 +278,7 @@ var maDataBlocs = {
  , "c1" : "00302"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#302"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00302] For method get arguments Collection&lt;ByteBuffer&gt;  keys"
+ , "c3" : "QC-JAV000006[00302] For method get arguments Collection&lt;ByteBuffer &gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -299,7 +299,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method set arguments Map&lt;ByteBuffer,ByteBuffer&gt;  values|Callback&lt;Void&gt;  callback"
+ , "c3" : "QC-JAV000006[00001] For method set arguments Map&lt;ByteBuffer ,ByteBuffer &gt;  values|Callback&lt;Void &gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -397,7 +397,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConnectorOffsetBackingStore.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00001] For method getFromStore arguments Optional&lt;?extendsOffsetBackingStore&gt;  store|Collection&lt;ByteBuffer&gt;  keys"
+ , "c3" : "QC-JAV000006[00001] For method getFromStore arguments Optional&lt;?  extends OffsetBackingStore &gt;  store|Collection&lt;ByteBuffer &gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""

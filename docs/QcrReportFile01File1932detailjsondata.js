@@ -691,14 +691,14 @@ var maDataBlocs = {
  , "c1" : "00309"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#309"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00309] For method onChange arguments Map&lt;HostInfo,Set&lt;TopicPartition&gt;&gt;  activePartitionHostMap|Map&lt;HostInfo,Set&lt;TopicPartition&gt;&gt;  standbyPartitionHostMap|Cluster  clusterMetadata"
+ , "c3" : "QC-JAV000006[00309] For method onChange arguments Map&lt;HostInfo ,Set&lt;TopicPartition &gt; &gt;  activePartitionHostMap|Map&lt;HostInfo ,Set&lt;TopicPartition &gt; &gt;  standbyPartitionHostMap|Cluster  clusterMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00316"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#316"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00316] For method hasPartitionsForAnyTopics arguments List&lt;String&gt;  topicNames|Set&lt;TopicPartition&gt;  partitionForHost"
+ , "c3" : "QC-JAV000006[00316] For method hasPartitionsForAnyTopics arguments List&lt;String &gt;  topicNames|Set&lt;TopicPartition &gt;  partitionForHost"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -726,7 +726,7 @@ var maDataBlocs = {
  , "c1" : "00325"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#325"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00325] For method getStoresOnHost arguments Map&lt;String,List&lt;String&gt;&gt;  storeToSourceTopics|Set&lt;TopicPartition&gt;  sourceTopicPartitions"
+ , "c3" : "QC-JAV000006[00325] For method getStoresOnHost arguments Map&lt;String ,List&lt;String &gt; &gt;  storeToSourceTopics|Set&lt;TopicPartition &gt;  sourceTopicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -747,7 +747,7 @@ var maDataBlocs = {
  , "c1" : "00337"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#337"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00337] For method rebuildMetadata arguments Map&lt;HostInfo,Set&lt;TopicPartition&gt;&gt;  activePartitionHostMap|Map&lt;HostInfo,Set&lt;TopicPartition&gt;&gt;  standbyPartitionHostMap"
+ , "c3" : "QC-JAV000006[00337] For method rebuildMetadata arguments Map&lt;HostInfo ,Set&lt;TopicPartition &gt; &gt;  activePartitionHostMap|Map&lt;HostInfo ,Set&lt;TopicPartition &gt; &gt;  standbyPartitionHostMap"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -775,7 +775,7 @@ var maDataBlocs = {
  , "c1" : "00356"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#356"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00356] For method rebuildMetadataForNamedTopologies arguments Map&lt;HostInfo,Set&lt;TopicPartition&gt;&gt;  activePartitionHostMap|Map&lt;HostInfo,Set&lt;TopicPartition&gt;&gt;  standbyPartitionHostMap"
+ , "c3" : "QC-JAV000006[00356] For method rebuildMetadataForNamedTopologies arguments Map&lt;HostInfo ,Set&lt;TopicPartition &gt; &gt;  activePartitionHostMap|Map&lt;HostInfo ,Set&lt;TopicPartition &gt; &gt;  standbyPartitionHostMap"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -810,7 +810,7 @@ var maDataBlocs = {
  , "c1" : "00427"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsMetadataState.java.html#427"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00427] For method rebuildMetadataForSingleTopology arguments Map&lt;HostInfo,Set&lt;TopicPartition&gt;&gt;  activePartitionHostMap|Map&lt;HostInfo,Set&lt;TopicPartition&gt;&gt;  standbyPartitionHostMap"
+ , "c3" : "QC-JAV000006[00427] For method rebuildMetadataForSingleTopology arguments Map&lt;HostInfo ,Set&lt;TopicPartition &gt; &gt;  activePartitionHostMap|Map&lt;HostInfo ,Set&lt;TopicPartition &gt; &gt;  standbyPartitionHostMap"
 }} 
 ,
 { "ligne" : {"" : ""

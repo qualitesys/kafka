@@ -406,7 +406,7 @@ var maDataBlocs = {
  , "c1" : "00162"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#162"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00162] For method combine arguments List&lt;Sample&gt;  samples|MetricConfig  config|long  now"
+ , "c3" : "QC-JAV000006[00162] For method combine arguments List&lt;Sample &gt;  samples|MetricConfig  config|long  now"
 }} 
 ,
 { "ligne" : {"" : ""

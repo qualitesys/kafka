@@ -331,7 +331,7 @@ var maDataBlocs = {
  , "c1" : "00099"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#99"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00099] For method responseData arguments Map&lt;Uuid,String&gt;  topicNames|short  version"
+ , "c3" : "QC-JAV000006[00099] For method responseData arguments Map&lt;Uuid ,String &gt;  topicNames|short  version"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -387,7 +387,7 @@ var maDataBlocs = {
  , "c1" : "00163"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#163"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00163] For method sizeOf arguments short  version|Iterator&lt;Map.Entry&lt;TopicIdPartition,FetchResponseData.PartitionData&gt;&gt;  partIterator"
+ , "c3" : "QC-JAV000006[00163] For method sizeOf arguments short  version|Iterator&lt;Map.Entry&lt;TopicIdPartition ,FetchResponseData.PartitionData &gt; &gt;  partIterator"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -618,7 +618,7 @@ var maDataBlocs = {
  , "c1" : "00232"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#232"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00232] For method of arguments Errors  error|int  throttleTimeMs|int  sessionId|LinkedHashMap&lt;TopicIdPartition,FetchResponseData.PartitionData&gt;  responseData"
+ , "c3" : "QC-JAV000006[00232] For method of arguments Errors  error|int  throttleTimeMs|int  sessionId|LinkedHashMap&lt;TopicIdPartition ,FetchResponseData.PartitionData &gt;  responseData"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -660,7 +660,7 @@ var maDataBlocs = {
  , "c1" : "00249"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#249"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00249] For method toMessage arguments Errors  error|int  throttleTimeMs|int  sessionId|Iterator&lt;Map.Entry&lt;TopicIdPartition,FetchResponseData.PartitionData&gt;&gt;  partIterator"
+ , "c3" : "QC-JAV000006[00249] For method toMessage arguments Errors  error|int  throttleTimeMs|int  sessionId|Iterator&lt;Map.Entry&lt;TopicIdPartition ,FetchResponseData.PartitionData &gt; &gt;  partIterator"
 }} 
 ,
 { "ligne" : {"" : ""

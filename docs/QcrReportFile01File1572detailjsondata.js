@@ -116,7 +116,7 @@ var maDataBlocs = {
  , "c1" : "00046"
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/serialization/RemoteLogSegmentMetadataSnapshotTransform.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00046] For method createSegmentLeaderEpochsEntry arguments Map&lt;Integer,Long&gt;  leaderEpochs"
+ , "c3" : "QC-JAV000006[00046] For method createSegmentLeaderEpochsEntry arguments Map&lt;Integer ,Long &gt;  leaderEpochs"
 }} 
 ,
 { "ligne" : {"" : ""

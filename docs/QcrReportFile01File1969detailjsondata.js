@@ -474,7 +474,7 @@ var maDataBlocs = {
  , "c1" : "00147"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#147"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00147] For method buildClientTagsFromMap arguments Map&lt;String,String&gt;  clientTags"
+ , "c3" : "QC-JAV000006[00147] For method buildClientTagsFromMap arguments Map&lt;String ,String &gt;  clientTags"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -488,7 +488,7 @@ var maDataBlocs = {
  , "c1" : "00159"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#159"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00159] For method setTaskOffsetSumDataWithNamedTopologiesFromTaskOffsetSumMap arguments Map&lt;TaskId,Long&gt;  taskOffsetSums"
+ , "c3" : "QC-JAV000006[00159] For method setTaskOffsetSumDataWithNamedTopologiesFromTaskOffsetSumMap arguments Map&lt;TaskId ,Long &gt;  taskOffsetSums"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -502,7 +502,7 @@ var maDataBlocs = {
  , "c1" : "00172"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#172"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00172] For method setTaskOffsetSumDataFromTaskOffsetSumMap arguments Map&lt;TaskId,Long&gt;  taskOffsetSums"
+ , "c3" : "QC-JAV000006[00172] For method setTaskOffsetSumDataFromTaskOffsetSumMap arguments Map&lt;TaskId ,Long &gt;  taskOffsetSums"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -537,7 +537,7 @@ var maDataBlocs = {
  , "c1" : "00194"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#194"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00194] For method setPrevAndStandbySetsFromParsedTaskOffsetSumMap arguments Map&lt;TaskId,Long&gt;  taskOffsetSums"
+ , "c3" : "QC-JAV000006[00194] For method setPrevAndStandbySetsFromParsedTaskOffsetSumMap arguments Map&lt;TaskId ,Long &gt;  taskOffsetSums"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -642,7 +642,7 @@ var maDataBlocs = {
  , "c1" : "00302"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#302"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00302] For method getActiveTasksFromTaskOffsetSumMap arguments Map&lt;TaskId,Long&gt;  taskOffsetSums"
+ , "c3" : "QC-JAV000006[00302] For method getActiveTasksFromTaskOffsetSumMap arguments Map&lt;TaskId ,Long &gt;  taskOffsetSums"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -656,7 +656,7 @@ var maDataBlocs = {
  , "c1" : "00306"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#306"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00306] For method getStandbyTasksFromTaskOffsetSumMap arguments Map&lt;TaskId,Long&gt;  taskOffsetSums"
+ , "c3" : "QC-JAV000006[00306] For method getStandbyTasksFromTaskOffsetSumMap arguments Map&lt;TaskId ,Long &gt;  taskOffsetSums"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -670,7 +670,7 @@ var maDataBlocs = {
  , "c1" : "00310"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#310"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00310] For method taskOffsetSumMapToTaskSet arguments Map&lt;TaskId,Long&gt;  taskOffsetSums|boolean  getActiveTasks"
+ , "c3" : "QC-JAV000006[00310] For method taskOffsetSumMapToTaskSet arguments Map&lt;TaskId ,Long &gt;  taskOffsetSums|boolean  getActiveTasks"
 }} 
 ,
 { "ligne" : {"" : ""

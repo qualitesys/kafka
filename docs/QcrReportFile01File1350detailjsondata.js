@@ -250,7 +250,7 @@ var maDataBlocs = {
  , "c1" : "00044"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00044] For method listenersToMap arguments Collection&lt;Endpoint&gt;  listeners"
+ , "c3" : "QC-JAV000006[00044] For method listenersToMap arguments Collection&lt;Endpoint &gt;  listeners"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -439,7 +439,7 @@ var maDataBlocs = {
  , "c1" : "00237"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/BrokerRegistration.java.html#237"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00237] For method cloneWith arguments Optional&lt;Boolean&gt;  fencingChange|Optional&lt;Boolean&gt;  inControlledShutdownChange"
+ , "c3" : "QC-JAV000006[00237] For method cloneWith arguments Optional&lt;Boolean &gt;  fencingChange|Optional&lt;Boolean &gt;  inControlledShutdownChange"
 }} 
 ,
 { "ligne" : {"" : ""

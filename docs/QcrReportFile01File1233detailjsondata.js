@@ -272,7 +272,7 @@ var maDataBlocs = {
  , "c1" : "00064"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/Requirements.java.html#64"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00064] For method requireSinkRecord arguments ConnectRecord&lt;?&gt;  record|String  purpose"
+ , "c3" : "QC-JAV000006[00064] For method requireSinkRecord arguments ConnectRecord&lt;? &gt;  record|String  purpose"
 }} 
 ,
 { "ligne" : {"" : ""

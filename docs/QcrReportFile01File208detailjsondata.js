@@ -165,7 +165,7 @@ var maDataBlocs = {
  , "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00069] For method add arguments Fetch&lt;K,V&gt;  fetch"
+ , "c3" : "QC-JAV000006[00069] For method add arguments Fetch&lt;K ,V &gt;  fetch"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -186,7 +186,7 @@ var maDataBlocs = {
  , "c1" : "00106"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetch.java.html#106"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00106] For method addRecords arguments Map&lt;TopicPartition,List&lt;ConsumerRecord&lt;K,V&gt;&gt;&gt;  records"
+ , "c3" : "QC-JAV000006[00106] For method addRecords arguments Map&lt;TopicPartition ,List&lt;ConsumerRecord&lt;K ,V &gt; &gt; &gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""

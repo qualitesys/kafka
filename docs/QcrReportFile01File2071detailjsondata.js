@@ -176,7 +176,7 @@ var maDataBlocs = {
  , "c1" : "00052"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/LeftOrRightValueDeserializer.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method configure arguments Map&lt;String,?&gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00052] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""

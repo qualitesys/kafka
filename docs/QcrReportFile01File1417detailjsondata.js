@@ -292,7 +292,7 @@ var maDataBlocs = {
  , "c1" : "00076"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#76"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00076] For method handleCommit arguments BatchReader&lt;Integer&gt;  reader"
+ , "c3" : "QC-JAV000006[00076] For method handleCommit arguments BatchReader&lt;Integer &gt;  reader"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -390,7 +390,7 @@ var maDataBlocs = {
  , "c1" : "00139"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#139"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00139] For method handleSnapshot arguments SnapshotReader&lt;Integer&gt;  reader"
+ , "c3" : "QC-JAV000006[00139] For method handleSnapshot arguments SnapshotReader&lt;Integer &gt;  reader"
 }} 
 ,
 { "ligne" : {"" : ""

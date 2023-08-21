@@ -145,7 +145,7 @@ var maDataBlocs = {
  , "c1" : "00050"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HoistField.java.html#50"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method configure arguments Map&lt;String,?&gt;  props"
+ , "c3" : "QC-JAV000006[00050] For method configure arguments Map&lt;String ,? &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""

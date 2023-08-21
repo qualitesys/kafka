@@ -130,7 +130,7 @@ var maDataBlocs = {
  , "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/WindowedSum.java.html#41"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00041] For method combine arguments List&lt;Sample&gt;  samples|MetricConfig  config|long  now"
+ , "c3" : "QC-JAV000006[00041] For method combine arguments List&lt;Sample &gt;  samples|MetricConfig  config|long  now"
 }} 
 ,
 { "ligne" : {"" : ""

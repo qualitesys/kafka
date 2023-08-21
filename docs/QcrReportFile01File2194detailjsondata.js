@@ -236,7 +236,7 @@ var maDataBlocs = {
  , "c1" : "00110"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#110"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00110] For method tasks arguments List&lt;String&gt;  taskId|long  firstStartMs|long  lastStartMs|long  firstEndMs|long  lastEndMs|String  state"
+ , "c3" : "QC-JAV000006[00110] For method tasks arguments List&lt;String &gt;  taskId|long  firstStartMs|long  lastStartMs|long  firstEndMs|long  lastEndMs|String  state"
 }} 
 ,
 { "ligne" : {"" : ""

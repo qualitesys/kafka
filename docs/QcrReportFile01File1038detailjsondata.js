@@ -217,7 +217,7 @@ var maDataBlocs = {
  , "c1" : "00086"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#86"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00086] For method deserializeRecord arguments ConsumerRecord&lt;byte[],byte[]&gt;  record"
+ , "c3" : "QC-JAV000006[00086] For method deserializeRecord arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""

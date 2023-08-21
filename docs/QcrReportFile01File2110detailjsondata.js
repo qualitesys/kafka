@@ -336,14 +336,14 @@ var maDataBlocs = {
  , "c1" : "00155"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#155"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00155] For method remove arguments Windowed&lt;Bytes&gt;  sessionKey"
+ , "c3" : "QC-JAV000006[00155] For method remove arguments Windowed&lt;Bytes &gt;  sessionKey"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00160"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionStore.java.html#160"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00160] For method put arguments Windowed&lt;Bytes&gt;  sessionKey|byte[]  aggregate"
+ , "c3" : "QC-JAV000006[00160] For method put arguments Windowed&lt;Bytes &gt;  sessionKey|byte[]  aggregate"
 }} 
 ,
 { "ligne" : {"" : ""

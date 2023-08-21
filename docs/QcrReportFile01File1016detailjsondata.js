@@ -500,7 +500,7 @@ var maDataBlocs = {
  , "c1" : "00236"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/MirrorClient.java.html#236"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00236] For method endOfStream arguments Consumer&lt;?,?&gt;  consumer|Collection&lt;TopicPartition&gt;  assignments"
+ , "c3" : "QC-JAV000006[00236] For method endOfStream arguments Consumer&lt;? ,? &gt;  consumer|Collection&lt;TopicPartition &gt;  assignments"
 }} 
 ,
 { "ligne" : {"" : ""

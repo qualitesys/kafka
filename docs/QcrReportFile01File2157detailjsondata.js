@@ -1028,161 +1028,161 @@ var maDataBlocs = {
  , "c1" : "00514"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#514"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00514] For method addNumEntriesActiveMemTableMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger&gt;  valueProvider"
+ , "c3" : "QC-JAV000006[00514] For method addNumEntriesActiveMemTableMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00526"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#526"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00526] For method addNumEntriesImmMemTablesMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger&gt;  valueProvider"
+ , "c3" : "QC-JAV000006[00526] For method addNumEntriesImmMemTablesMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00538"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#538"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00538] For method addNumDeletesImmMemTablesMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger&gt;  valueProvider"
+ , "c3" : "QC-JAV000006[00538] For method addNumDeletesImmMemTablesMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00550"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#550"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00550] For method addNumDeletesActiveMemTableMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger&gt;  valueProvider"
+ , "c3" : "QC-JAV000006[00550] For method addNumDeletesActiveMemTableMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00562"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#562"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00562] For method addNumImmutableMemTableMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger&gt;  valueProvider"
+ , "c3" : "QC-JAV000006[00562] For method addNumImmutableMemTableMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00574"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#574"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00574] For method addCurSizeActiveMemTable arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger&gt;  valueProvider"
+ , "c3" : "QC-JAV000006[00574] For method addCurSizeActiveMemTable arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00586"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#586"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00586] For method addCurSizeAllMemTables arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger&gt;  valueProvider"
+ , "c3" : "QC-JAV000006[00586] For method addCurSizeAllMemTables arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00598"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#598"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00598] For method addSizeAllMemTables arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger&gt;  valueProvider"
+ , "c3" : "QC-JAV000006[00598] For method addSizeAllMemTables arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00610"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#610"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00610] For method addMemTableFlushPending arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger&gt;  valueProvider"
+ , "c3" : "QC-JAV000006[00610] For method addMemTableFlushPending arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00622"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#622"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00622] For method addNumRunningFlushesMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger&gt;  valueProvider"
+ , "c3" : "QC-JAV000006[00622] For method addNumRunningFlushesMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00634"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#634"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00634] For method addCompactionPendingMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger&gt;  valueProvider"
+ , "c3" : "QC-JAV000006[00634] For method addCompactionPendingMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00646"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#646"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00646] For method addNumRunningCompactionsMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger&gt;  valueProvider"
+ , "c3" : "QC-JAV000006[00646] For method addNumRunningCompactionsMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00658"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#658"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00658] For method addEstimatePendingCompactionBytesMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger&gt;  valueProvider"
+ , "c3" : "QC-JAV000006[00658] For method addEstimatePendingCompactionBytesMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00670"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#670"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00670] For method addTotalSstFilesSizeMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger&gt;  valueProvider"
+ , "c3" : "QC-JAV000006[00670] For method addTotalSstFilesSizeMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00682"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#682"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00682] For method addLiveSstFilesSizeMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger&gt;  valueProvider"
+ , "c3" : "QC-JAV000006[00682] For method addLiveSstFilesSizeMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00694"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#694"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00694] For method addNumLiveVersionMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger&gt;  valueProvider"
+ , "c3" : "QC-JAV000006[00694] For method addNumLiveVersionMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00706"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#706"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00706] For method addBlockCacheCapacityMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger&gt;  valueProvider"
+ , "c3" : "QC-JAV000006[00706] For method addBlockCacheCapacityMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00718"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#718"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00718] For method addBlockCacheUsageMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger&gt;  valueProvider"
+ , "c3" : "QC-JAV000006[00718] For method addBlockCacheUsageMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00730"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#730"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00730] For method addBlockCachePinnedUsageMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger&gt;  valueProvider"
+ , "c3" : "QC-JAV000006[00730] For method addBlockCachePinnedUsageMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00742"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#742"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00742] For method addEstimateNumKeysMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger&gt;  valueProvider"
+ , "c3" : "QC-JAV000006[00742] For method addEstimateNumKeysMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00754"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#754"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00754] For method addEstimateTableReadersMemMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger&gt;  valueProvider"
+ , "c3" : "QC-JAV000006[00754] For method addEstimateTableReadersMemMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00766"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#766"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00766] For method addBackgroundErrorsMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger&gt;  valueProvider"
+ , "c3" : "QC-JAV000006[00766] For method addBackgroundErrorsMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00778"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/RocksDBMetrics.java.html#778"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00778] For method addMutableMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger&gt;  valueProvider|String  name|String  description"
+ , "c3" : "QC-JAV000006[00778] For method addMutableMetric arguments StreamsMetricsImpl  streamsMetrics|RocksDBMetricContext  metricContext|Gauge&lt;BigInteger &gt;  valueProvider|String  name|String  description"
 }} 
 ,
 { "ligne" : {"" : ""

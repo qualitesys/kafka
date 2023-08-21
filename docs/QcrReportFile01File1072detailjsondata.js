@@ -145,7 +145,7 @@ var maDataBlocs = {
  , "c1" : "00051"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/InternalSinkRecord.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00051] For method newRecord arguments String  topic|Integer  kafkaPartition|Schema  keySchema|Object  key|Schema  valueSchema|Object  value|Long  timestamp|Iterable&lt;Header&gt;  headers"
+ , "c3" : "QC-JAV000006[00051] For method newRecord arguments String  topic|Integer  kafkaPartition|Schema  keySchema|Object  key|Schema  valueSchema|Object  value|Long  timestamp|Iterable&lt;Header &gt;  headers"
 }} 
 ,
 { "ligne" : {"" : ""

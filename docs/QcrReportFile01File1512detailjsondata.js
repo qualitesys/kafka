@@ -150,7 +150,7 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method write arguments Collection&lt;T&gt;  entries"
+ , "c3" : "QC-JAV000006[00075] For method write arguments Collection&lt;T &gt;  entries"
 }} 
 ,
 { "ligne" : {"" : ""

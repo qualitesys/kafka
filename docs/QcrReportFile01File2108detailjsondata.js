@@ -488,7 +488,7 @@ var maDataBlocs = {
  , "c1" : "00175"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#175"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00175] For method openDB arguments Map&lt;String,Object&gt;  configs|File  stateDir"
+ , "c3" : "QC-JAV000006[00175] For method openDB arguments Map&lt;String ,Object &gt;  configs|File  stateDir"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -551,7 +551,7 @@ var maDataBlocs = {
  , "c1" : "00240"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#240"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00240] For method maybeSetUpStatistics arguments Map&lt;String,Object&gt;  configs"
+ , "c3" : "QC-JAV000006[00240] For method maybeSetUpStatistics arguments Map&lt;String ,Object &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -740,7 +740,7 @@ var maDataBlocs = {
  , "c1" : "00326"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#326"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00326] For method putAll arguments List&lt;KeyValue&lt;Bytes,byte[]&gt;&gt;  entries"
+ , "c3" : "QC-JAV000006[00326] For method putAll arguments List&lt;KeyValue&lt;Bytes ,byte[] &gt; &gt;  entries"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1062,7 +1062,7 @@ var maDataBlocs = {
  , "c1" : "00494"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#494"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00494] For method addToBatch arguments KeyValue&lt;byte[],byte[]&gt;  record|WriteBatch  batch"
+ , "c3" : "QC-JAV000006[00494] For method addToBatch arguments KeyValue&lt;byte[] ,byte[] &gt;  record|WriteBatch  batch"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1209,7 +1209,7 @@ var maDataBlocs = {
  , "c1" : "00625"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#625"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00625] For method prepareBatch arguments List&lt;KeyValue&lt;Bytes,byte[]&gt;&gt;  entries|WriteBatch  batch"
+ , "c3" : "QC-JAV000006[00625] For method prepareBatch arguments List&lt;KeyValue&lt;Bytes ,byte[] &gt; &gt;  entries|WriteBatch  batch"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1307,7 +1307,7 @@ var maDataBlocs = {
  , "c1" : "00704"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#704"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00704] For method prepareBatchForRestore arguments Collection&lt;KeyValue&lt;byte[],byte[]&gt;&gt;  records|WriteBatch  batch"
+ , "c3" : "QC-JAV000006[00704] For method prepareBatchForRestore arguments Collection&lt;KeyValue&lt;byte[] ,byte[] &gt; &gt;  records|WriteBatch  batch"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1335,7 +1335,7 @@ var maDataBlocs = {
  , "c1" : "00728"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#728"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00728] For method restoreBatch arguments Collection&lt;ConsumerRecord&lt;byte[],byte[]&gt;&gt;  records"
+ , "c3" : "QC-JAV000006[00728] For method restoreBatch arguments Collection&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  records"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -114,7 +114,7 @@ var maDataBlocs = {
  , "c1" : "00038"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SessionCacheFlushListener.java.html#38"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00038] For method apply arguments Record&lt;Windowed&lt;KOut&gt;,Change&lt;VOut&gt;&gt;  record"
+ , "c3" : "QC-JAV000006[00038] For method apply arguments Record&lt;Windowed&lt;KOut &gt; ,Change&lt;VOut &gt; &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""

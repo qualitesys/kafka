@@ -338,7 +338,7 @@ var maDataBlocs = {
  , "c1" : "00219"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#219"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00219] For method enrich arguments ConfigDef  baseConfigDef|Map&lt;String,String&gt;  props|AbstractConfig  defaultGroupConfig"
+ , "c3" : "QC-JAV000006[00219] For method enrich arguments ConfigDef  baseConfigDef|Map&lt;String ,String &gt;  props|AbstractConfig  defaultGroupConfig"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -429,7 +429,7 @@ var maDataBlocs = {
  , "c1" : "00268"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#268"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00268] For method usesTopicCreation arguments Map&lt;String,String&gt;  props"
+ , "c3" : "QC-JAV000006[00268] For method usesTopicCreation arguments Map&lt;String ,String &gt;  props"
 }} 
 ,
 { "ligne" : {"" : ""

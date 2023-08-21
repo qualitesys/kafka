@@ -763,7 +763,7 @@ var maDataBlocs = {
  , "c1" : "00256"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#256"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00256] For method connectorConfig arguments String  connName|Callback&lt;Map&lt;String,String&gt;&gt;  callback"
+ , "c3" : "QC-JAV000006[00256] For method connectorConfig arguments String  connName|Callback&lt;Map&lt;String ,String &gt; &gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -910,7 +910,7 @@ var maDataBlocs = {
  , "c1" : "00355"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#355"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00355] For method validateSinkConnectorConfig arguments SinkConnector  connector|ConfigDef  configDef|Map&lt;String,String&gt;  config"
+ , "c3" : "QC-JAV000006[00355] For method validateSinkConnectorConfig arguments SinkConnector  connector|ConfigDef  configDef|Map&lt;String ,String &gt;  config"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -924,7 +924,7 @@ var maDataBlocs = {
  , "c1" : "00359"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#359"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00359] For method validateSourceConnectorConfig arguments SourceConnector  connector|ConfigDef  configDef|Map&lt;String,String&gt;  config"
+ , "c3" : "QC-JAV000006[00359] For method validateSourceConnectorConfig arguments SourceConnector  connector|ConfigDef  configDef|Map&lt;String ,String &gt;  config"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -938,7 +938,7 @@ var maDataBlocs = {
  , "c1" : "00364"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#364"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00364] For method validateConnectorConfig arguments Map&lt;String,String&gt;  connectorProps|Callback&lt;ConfigInfos&gt;  callback"
+ , "c3" : "QC-JAV000006[00364] For method validateConnectorConfig arguments Map&lt;String ,String &gt;  connectorProps|Callback&lt;ConfigInfos &gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -952,7 +952,7 @@ var maDataBlocs = {
  , "c1" : "00369"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#369"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00369] For method validateConnectorConfig arguments Map&lt;String,String&gt;  connectorProps|Callback&lt;ConfigInfos&gt;  callback|boolean  doLog"
+ , "c3" : "QC-JAV000006[00369] For method validateConnectorConfig arguments Map&lt;String ,String &gt;  connectorProps|Callback&lt;ConfigInfos &gt;  callback|boolean  doLog"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1015,28 +1015,28 @@ var maDataBlocs = {
  , "c1" : "00427"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#427"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00427] For method connectorUsesConsumer arguments org.apache.kafka.connect.health.ConnectorType  connectorType|Map&lt;String,String&gt;  connProps"
+ , "c3" : "QC-JAV000006[00427] For method connectorUsesConsumer arguments org.apache.kafka.connect.health.ConnectorType  connectorType|Map&lt;String ,String &gt;  connProps"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00431"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#431"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00431] For method connectorUsesAdmin arguments org.apache.kafka.connect.health.ConnectorType  connectorType|Map&lt;String,String&gt;  connProps"
+ , "c3" : "QC-JAV000006[00431] For method connectorUsesAdmin arguments org.apache.kafka.connect.health.ConnectorType  connectorType|Map&lt;String ,String &gt;  connProps"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00439"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#439"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00439] For method connectorUsesProducer arguments org.apache.kafka.connect.health.ConnectorType  connectorType|Map&lt;String,String&gt;  connProps"
+ , "c3" : "QC-JAV000006[00439] For method connectorUsesProducer arguments org.apache.kafka.connect.health.ConnectorType  connectorType|Map&lt;String ,String &gt;  connProps"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00444"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#444"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00444] For method validateConnectorConfig arguments Map&lt;String,String&gt;  connectorProps|boolean  doLog"
+ , "c3" : "QC-JAV000006[00444] For method validateConnectorConfig arguments Map&lt;String ,String &gt;  connectorProps|boolean  doLog"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1190,7 +1190,7 @@ var maDataBlocs = {
  , "c1" : "00564"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#564"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00564] For method validateClientOverrides arguments String  connName|String  prefix|AbstractConfig  connectorConfig|ConfigDef  configDef|Class&lt;?extendsConnector&gt;  connectorClass|org.apache.kafka.connect.health.ConnectorType  connectorType|ConnectorClientConfigRequest.ClientType  clientType|ConnectorClientConfigOverridePolicy  connectorClientConfigOverridePolicy"
+ , "c3" : "QC-JAV000006[00564] For method validateClientOverrides arguments String  connName|String  prefix|AbstractConfig  connectorConfig|ConfigDef  configDef|Class&lt;?  extends Connector &gt;  connectorClass|org.apache.kafka.connect.health.ConnectorType  connectorType|ConnectorClientConfigRequest.ClientType  clientType|ConnectorClientConfigOverridePolicy  connectorClientConfigOverridePolicy"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1351,7 +1351,7 @@ var maDataBlocs = {
  , "c1" : "00613"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#613"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00613] For method generateResult arguments String  connType|Map&lt;String,ConfigKey&gt;  configKeys|List&lt;ConfigValue&gt;  configValues|List&lt;String&gt;  groups"
+ , "c3" : "QC-JAV000006[00613] For method generateResult arguments String  connType|Map&lt;String ,ConfigKey &gt;  configKeys|List&lt;ConfigValue &gt;  configValues|List&lt;String &gt;  groups"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1533,7 +1533,7 @@ var maDataBlocs = {
  , "c1" : "00702"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#702"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00702] For method connectorTypeForConfig arguments Map&lt;String,String&gt;  connConfig"
+ , "c3" : "QC-JAV000006[00702] For method connectorTypeForConfig arguments Map&lt;String ,String &gt;  connConfig"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1547,7 +1547,7 @@ var maDataBlocs = {
  , "c1" : "00714"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#714"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00714] For method maybeAddConfigErrors arguments ConfigInfos  configInfos|Callback&lt;Created&lt;ConnectorInfo&gt;&gt;  callback"
+ , "c3" : "QC-JAV000006[00714] For method maybeAddConfigErrors arguments ConfigInfos  configInfos|Callback&lt;Created&lt;ConnectorInfo &gt; &gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1645,7 +1645,7 @@ var maDataBlocs = {
  , "c1" : "00753"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#753"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00753] For method reverseTransform arguments String  connName|ClusterConfigState  configState|List&lt;Map&lt;String,String&gt;&gt;  configs"
+ , "c3" : "QC-JAV000006[00753] For method reverseTransform arguments String  connName|ClusterConfigState  configState|List&lt;Map&lt;String ,String &gt; &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1680,7 +1680,7 @@ var maDataBlocs = {
  , "c1" : "00775"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#775"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00775] For method keysWithVariableValues arguments Map&lt;String,String&gt;  rawConfig|Pattern  pattern"
+ , "c3" : "QC-JAV000006[00775] For method keysWithVariableValues arguments Map&lt;String ,String &gt;  rawConfig|Pattern  pattern"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -178,7 +178,7 @@ var maDataBlocs = {
  , "c1" : "00079"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringFormatter.java.html#79"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00079] For method prettyPrintGrid arguments List&lt;List&lt;String&gt;&gt;  lines"
+ , "c3" : "QC-JAV000006[00079] For method prettyPrintGrid arguments List&lt;List&lt;String &gt; &gt;  lines"
 }} 
 ,
 { "ligne" : {"" : ""

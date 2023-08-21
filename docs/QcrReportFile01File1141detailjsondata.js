@@ -274,7 +274,7 @@ var maDataBlocs = {
  , "c1" : "00114"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html#114"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00114] For method createConnectors arguments List&lt;String&gt;  listeners|List&lt;String&gt;  adminListeners"
+ , "c3" : "QC-JAV000006[00114] For method createConnectors arguments List&lt;String &gt;  listeners|List&lt;String &gt;  adminListeners"
 }} 
 ,
 { "ligne" : {"" : ""

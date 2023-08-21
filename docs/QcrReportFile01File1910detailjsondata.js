@@ -293,7 +293,7 @@ var maDataBlocs = {
  , "c1" : "00123"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordQueue.java.html#123"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00123] For method addRawRecords arguments Iterable&lt;ConsumerRecord&lt;byte[],byte[]&gt;&gt;  rawRecords"
+ , "c3" : "QC-JAV000006[00123] For method addRawRecords arguments Iterable&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  rawRecords"
 }} 
 ,
 { "ligne" : {"" : ""

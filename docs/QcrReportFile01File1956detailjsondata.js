@@ -182,7 +182,7 @@ var maDataBlocs = {
  , "c1" : "00054"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#54"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00054] For method assign arguments Map&lt;UUID,ClientState&gt;  clients|Set&lt;TaskId&gt;  allTaskIds|Set&lt;TaskId&gt;  statefulTaskIds|AssignorConfiguration.AssignmentConfigs  configs"
+ , "c3" : "QC-JAV000006[00054] For method assign arguments Map&lt;UUID ,ClientState &gt;  clients|Set&lt;TaskId &gt;  allTaskIds|Set&lt;TaskId &gt;  statefulTaskIds|AssignorConfiguration.AssignmentConfigs  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -245,7 +245,7 @@ var maDataBlocs = {
  , "c1" : "00108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00108] For method assignPendingStandbyTasksToLeastLoadedClients arguments Map&lt;UUID,ClientState&gt;  clients|int  numStandbyReplicas|ConstrainedPrioritySet  standbyTaskClientsByTaskLoad|Map&lt;TaskId,Integer&gt;  pendingStandbyTaskToNumberRemainingStandbys"
+ , "c3" : "QC-JAV000006[00108] For method assignPendingStandbyTasksToLeastLoadedClients arguments Map&lt;UUID ,ClientState &gt;  clients|int  numStandbyReplicas|ConstrainedPrioritySet  standbyTaskClientsByTaskLoad|Map&lt;TaskId ,Integer &gt;  pendingStandbyTaskToNumberRemainingStandbys"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -322,7 +322,7 @@ var maDataBlocs = {
  , "c1" : "00144"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#144"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00144] For method fillClientsTagStatistics arguments Map&lt;UUID,ClientState&gt;  clientStates|Map&lt;TagEntry,Set&lt;UUID&gt;&gt;  tagEntryToClients|Map&lt;String,Set&lt;String&gt;&gt;  tagKeyToValues"
+ , "c3" : "QC-JAV000006[00144] For method fillClientsTagStatistics arguments Map&lt;UUID ,ClientState &gt;  clientStates|Map&lt;TagEntry ,Set&lt;UUID &gt; &gt;  tagEntryToClients|Map&lt;String ,Set&lt;String &gt; &gt;  tagKeyToValues"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -364,7 +364,7 @@ var maDataBlocs = {
  , "c1" : "00159"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#159"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00159] For method assignStandbyTasksToClientsWithDifferentTags arguments int  numberOfStandbyClients|ConstrainedPrioritySet  standbyTaskClientsByTaskLoad|TaskId  activeTaskId|UUID  activeTaskClient|Set&lt;String&gt;  rackAwareAssignmentTags|Map&lt;UUID,ClientState&gt;  clientStates|Map&lt;TaskId,Integer&gt;  tasksToRemainingStandbys|Map&lt;String,Set&lt;String&gt;&gt;  tagKeyToValues|Map&lt;TagEntry,Set&lt;UUID&gt;&gt;  tagEntryToClients|Map&lt;TaskId,UUID&gt;  pendingStandbyTasksToClientId"
+ , "c3" : "QC-JAV000006[00159] For method assignStandbyTasksToClientsWithDifferentTags arguments int  numberOfStandbyClients|ConstrainedPrioritySet  standbyTaskClientsByTaskLoad|TaskId  activeTaskId|UUID  activeTaskClient|Set&lt;String &gt;  rackAwareAssignmentTags|Map&lt;UUID ,ClientState &gt;  clientStates|Map&lt;TaskId ,Integer &gt;  tasksToRemainingStandbys|Map&lt;String ,Set&lt;String &gt; &gt;  tagKeyToValues|Map&lt;TagEntry ,Set&lt;UUID &gt; &gt;  tagEntryToClients|Map&lt;TaskId ,UUID &gt;  pendingStandbyTasksToClientId"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -504,7 +504,7 @@ var maDataBlocs = {
  , "c1" : "00228"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#228"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00228] For method isClientUsedOnAnyOfTheTagEntries arguments UUID  client|Map&lt;TagEntry,Set&lt;UUID&gt;&gt;  tagEntryToUsedClients"
+ , "c3" : "QC-JAV000006[00228] For method isClientUsedOnAnyOfTheTagEntries arguments UUID  client|Map&lt;TagEntry ,Set&lt;UUID &gt; &gt;  tagEntryToUsedClients"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -518,7 +518,7 @@ var maDataBlocs = {
  , "c1" : "00233"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientTagAwareStandbyTaskAssignor.java.html#233"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00233] For method updateClientsOnAlreadyUsedTagEntries arguments UUID  usedClient|int  countOfUsedClients|Set&lt;String&gt;  rackAwareAssignmentTags|Map&lt;UUID,ClientState&gt;  clientStates|Map&lt;TagEntry,Set&lt;UUID&gt;&gt;  tagEntryToClients|Map&lt;String,Set&lt;String&gt;&gt;  tagKeyToValues|Map&lt;TagEntry,Set&lt;UUID&gt;&gt;  tagEntryToUsedClients"
+ , "c3" : "QC-JAV000006[00233] For method updateClientsOnAlreadyUsedTagEntries arguments UUID  usedClient|int  countOfUsedClients|Set&lt;String &gt;  rackAwareAssignmentTags|Map&lt;UUID ,ClientState &gt;  clientStates|Map&lt;TagEntry ,Set&lt;UUID &gt; &gt;  tagEntryToClients|Map&lt;String ,Set&lt;String &gt; &gt;  tagKeyToValues|Map&lt;TagEntry ,Set&lt;UUID &gt; &gt;  tagEntryToUsedClients"
 }} 
 ,
 { "ligne" : {"" : ""

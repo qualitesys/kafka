@@ -290,21 +290,21 @@ var maDataBlocs = {
  , "c1" : "00100"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/BaseRepartitionNode.java.html#100"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00100] For method withProcessorParameters arguments ProcessorParameters&lt;K,V,?,?&gt;  processorParameters"
+ , "c3" : "QC-JAV000006[00100] For method withProcessorParameters arguments ProcessorParameters&lt;K ,V ,? ,? &gt;  processorParameters"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/BaseRepartitionNode.java.html#105"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00105] For method withKeySerde arguments Serde&lt;K&gt;  keySerde"
+ , "c3" : "QC-JAV000006[00105] For method withKeySerde arguments Serde&lt;K &gt;  keySerde"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/BaseRepartitionNode.java.html#110"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00110] For method withValueSerde arguments Serde&lt;V&gt;  valueSerde"
+ , "c3" : "QC-JAV000006[00110] For method withValueSerde arguments Serde&lt;V &gt;  valueSerde"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -332,7 +332,7 @@ var maDataBlocs = {
  , "c1" : "00130"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/BaseRepartitionNode.java.html#130"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00130] For method withStreamPartitioner arguments StreamPartitioner&lt;K,V&gt;  partitioner"
+ , "c3" : "QC-JAV000006[00130] For method withStreamPartitioner arguments StreamPartitioner&lt;K ,V &gt;  partitioner"
 }} 
 ,
 { "ligne" : {"" : ""

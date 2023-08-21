@@ -153,7 +153,7 @@ var maDataBlocs = {
  , "c1" : "00083"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchWorker.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00083] For method start arguments Platform  platform|WorkerStatusTracker  status|KafkaFutureImpl&lt;String&gt;  doneFuture"
+ , "c3" : "QC-JAV000006[00083] For method start arguments Platform  platform|WorkerStatusTracker  status|KafkaFutureImpl&lt;String &gt;  doneFuture"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -349,7 +349,7 @@ var maDataBlocs = {
  , "c1" : "00174"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchWorker.java.html#174"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00174] For method populatePartitionsByTopic arguments KafkaConsumer&lt;byte[],byte[]&gt;  consumer|Map&lt;String,List&lt;TopicPartition&gt;&gt;  materializedTopics"
+ , "c3" : "QC-JAV000006[00174] For method populatePartitionsByTopic arguments KafkaConsumer&lt;byte[] ,byte[] &gt;  consumer|Map&lt;String ,List&lt;TopicPartition &gt; &gt;  materializedTopics"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -783,14 +783,14 @@ var maDataBlocs = {
  , "c1" : "00530"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchWorker.java.html#530"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00530] For method subscribe arguments Set&lt;String&gt;  topics"
+ , "c3" : "QC-JAV000006[00530] For method subscribe arguments Set&lt;String &gt;  topics"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00539"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchWorker.java.html#539"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00539] For method assign arguments Collection&lt;TopicPartition&gt;  partitions"
+ , "c3" : "QC-JAV000006[00539] For method assign arguments Collection&lt;TopicPartition &gt;  partitions"
 }} 
 ,
 { "ligne" : {"" : ""

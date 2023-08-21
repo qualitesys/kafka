@@ -461,7 +461,7 @@ var maDataBlocs = {
  , "c1" : "00317"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#317"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00317] For method readToEnd arguments Callback&lt;Void&gt;  callback"
+ , "c3" : "QC-JAV000006[00317] For method readToEnd arguments Callback&lt;Void &gt;  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -629,7 +629,7 @@ var maDataBlocs = {
  , "c1" : "00429"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/KafkaBasedLog.java.html#429"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00429] For method readEndOffsets arguments Set&lt;TopicPartition&gt;  assignment|boolean  shouldRetry"
+ , "c3" : "QC-JAV000006[00429] For method readEndOffsets arguments Set&lt;TopicPartition &gt;  assignment|boolean  shouldRetry"
 }} 
 ,
 { "ligne" : {"" : ""

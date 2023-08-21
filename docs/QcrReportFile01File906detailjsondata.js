@@ -203,7 +203,7 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method createSignalHandler arguments Map&lt;String,Object&gt;  jvmSignalHandlers"
+ , "c3" : "QC-JAV000006[00075] For method createSignalHandler arguments Map&lt;String ,Object &gt;  jvmSignalHandlers"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -245,7 +245,7 @@ var maDataBlocs = {
  , "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LoggingSignalHandler.java.html#100"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00100] For method register arguments String  signalName|Map&lt;String,Object&gt;  jvmSignalHandlers"
+ , "c3" : "QC-JAV000006[00100] For method register arguments String  signalName|Map&lt;String ,Object &gt;  jvmSignalHandlers"
 }} 
 ,
 { "ligne" : {"" : ""

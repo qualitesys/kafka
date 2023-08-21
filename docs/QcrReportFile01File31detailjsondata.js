@@ -129,7 +129,7 @@ var maDataBlocs = {
  , "c1" : "00225"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/AdminClientConfig.java.html#225"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00225] For method postProcessParsedConfig arguments Map&lt;String,Object&gt;  parsedValues"
+ , "c3" : "QC-JAV000006[00225] For method postProcessParsedConfig arguments Map&lt;String ,Object &gt;  parsedValues"
 }} 
 ,
 { "ligne" : {"" : ""

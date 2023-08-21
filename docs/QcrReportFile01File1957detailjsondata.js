@@ -165,7 +165,7 @@ var maDataBlocs = {
  , "c1" : "00048"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConstrainedPrioritySet.java.html#48"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method poll arguments TaskId  task|Function&lt;UUID,Boolean&gt;  extraConstraint"
+ , "c3" : "QC-JAV000006[00048] For method poll arguments TaskId  task|Function&lt;UUID ,Boolean &gt;  extraConstraint"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -214,7 +214,7 @@ var maDataBlocs = {
  , "c1" : "00073"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConstrainedPrioritySet.java.html#73"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00073] For method offerAll arguments Collection&lt;UUID&gt;  clients"
+ , "c3" : "QC-JAV000006[00073] For method offerAll arguments Collection&lt;UUID &gt;  clients"
 }} 
 ,
 { "ligne" : {"" : ""

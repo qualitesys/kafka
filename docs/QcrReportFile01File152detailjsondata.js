@@ -288,7 +288,7 @@ var maDataBlocs = {
  , "c1" : "00133"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#133"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00133] For method clear arguments Collection&lt;K&gt;  keys"
+ , "c3" : "QC-JAV000006[00133] For method clear arguments Collection&lt;K &gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -309,7 +309,7 @@ var maDataBlocs = {
  , "c1" : "00152"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#152"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00152] For method completeExceptionally arguments Map&lt;K,Throwable&gt;  errors"
+ , "c3" : "QC-JAV000006[00152] For method completeExceptionally arguments Map&lt;K ,Throwable &gt;  errors"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -323,7 +323,7 @@ var maDataBlocs = {
  , "c1" : "00159"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#159"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00159] For method completeLookupExceptionally arguments Map&lt;K,Throwable&gt;  errors"
+ , "c3" : "QC-JAV000006[00159] For method completeLookupExceptionally arguments Map&lt;K ,Throwable &gt;  errors"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -337,7 +337,7 @@ var maDataBlocs = {
  , "c1" : "00166"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#166"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00166] For method retryLookup arguments Collection&lt;K&gt;  keys"
+ , "c3" : "QC-JAV000006[00166] For method retryLookup arguments Collection&lt;K &gt;  keys"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -351,7 +351,7 @@ var maDataBlocs = {
  , "c1" : "00174"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#174"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00174] For method complete arguments Map&lt;K,V&gt;  values"
+ , "c3" : "QC-JAV000006[00174] For method complete arguments Map&lt;K ,V &gt;  values"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -365,7 +365,7 @@ var maDataBlocs = {
  , "c1" : "00181"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#181"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00181] For method completeLookup arguments Map&lt;K,Integer&gt;  brokerIdMapping"
+ , "c3" : "QC-JAV000006[00181] For method completeLookup arguments Map&lt;K ,Integer &gt;  brokerIdMapping"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -379,7 +379,7 @@ var maDataBlocs = {
  , "c1" : "00206"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#206"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00206] For method onResponse arguments long  currentTimeMs|RequestSpec&lt;K&gt;  spec|AbstractResponse  response|Node  node"
+ , "c3" : "QC-JAV000006[00206] For method onResponse arguments long  currentTimeMs|RequestSpec&lt;K &gt;  spec|AbstractResponse  response|Node  node"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -400,7 +400,7 @@ var maDataBlocs = {
  , "c1" : "00238"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#238"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00238] For method onFailure arguments long  currentTimeMs|RequestSpec&lt;K&gt;  spec|Throwable  t"
+ , "c3" : "QC-JAV000006[00238] For method onFailure arguments long  currentTimeMs|RequestSpec&lt;K &gt;  spec|Throwable  t"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -428,7 +428,7 @@ var maDataBlocs = {
  , "c1" : "00276"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#276"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00276] For method clearInflightRequest arguments long  currentTimeMs|RequestSpec&lt;K&gt;  spec"
+ , "c3" : "QC-JAV000006[00276] For method clearInflightRequest arguments long  currentTimeMs|RequestSpec&lt;K &gt;  spec"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -533,14 +533,14 @@ var maDataBlocs = {
  , "c1" : "00332"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#332"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00332] For method collectLookupRequests arguments List&lt;RequestSpec&lt;K&gt;&gt;  requests"
+ , "c3" : "QC-JAV000006[00332] For method collectLookupRequests arguments List&lt;RequestSpec&lt;K &gt; &gt;  requests"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00340"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#340"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00340] For method collectFulfillmentRequests arguments List&lt;RequestSpec&lt;K&gt;&gt;  requests"
+ , "c3" : "QC-JAV000006[00340] For method collectFulfillmentRequests arguments List&lt;RequestSpec&lt;K &gt; &gt;  requests"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -617,7 +617,7 @@ var maDataBlocs = {
  , "c1" : "00413"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#413"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00413] For method setInflight arguments RequestSpec&lt;K&gt;  spec"
+ , "c3" : "QC-JAV000006[00413] For method setInflight arguments RequestSpec&lt;K &gt;  spec"
 }} 
 ,
 { "ligne" : {"" : ""

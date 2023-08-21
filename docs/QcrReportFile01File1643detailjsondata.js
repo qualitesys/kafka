@@ -261,21 +261,21 @@ var maDataBlocs = {
  , "c1" : "00156"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#156"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00156] For method withKeySerde arguments Serde&lt;K&gt;  keySerde"
+ , "c3" : "QC-JAV000006[00156] For method withKeySerde arguments Serde&lt;K &gt;  keySerde"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00167"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#167"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00167] For method withValueSerde arguments Serde&lt;V&gt;  valueSerde"
+ , "c3" : "QC-JAV000006[00167] For method withValueSerde arguments Serde&lt;V &gt;  valueSerde"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00178"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Joined.java.html#178"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00178] For method withOtherValueSerde arguments Serde&lt;VO&gt;  otherValueSerde"
+ , "c3" : "QC-JAV000006[00178] For method withOtherValueSerde arguments Serde&lt;VO &gt;  otherValueSerde"
 }} 
 ,
 { "ligne" : {"" : ""

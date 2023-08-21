@@ -354,7 +354,7 @@ var maDataBlocs = {
  , "c1" : "00140"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FollowerState.java.html#140"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00140] For method setFetchingSnapshot arguments Optional&lt;RawSnapshotWriter&gt;  newSnapshot"
+ , "c3" : "QC-JAV000006[00140] For method setFetchingSnapshot arguments Optional&lt;RawSnapshotWriter &gt;  newSnapshot"
 }} 
 ,
 { "ligne" : {"" : ""

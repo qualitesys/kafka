@@ -273,21 +273,21 @@ var maDataBlocs = {
  , "c1" : "00147"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Produced.java.html#147"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00147] For method withStreamPartitioner arguments StreamPartitioner&lt;?superK,?superV&gt;  partitioner"
+ , "c3" : "QC-JAV000006[00147] For method withStreamPartitioner arguments StreamPartitioner&lt;? super K ,? super V &gt;  partitioner"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Produced.java.html#157"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00157] For method withValueSerde arguments Serde&lt;V&gt;  valueSerde"
+ , "c3" : "QC-JAV000006[00157] For method withValueSerde arguments Serde&lt;V &gt;  valueSerde"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00167"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Produced.java.html#167"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00167] For method withKeySerde arguments Serde&lt;K&gt;  keySerde"
+ , "c3" : "QC-JAV000006[00167] For method withKeySerde arguments Serde&lt;K &gt;  keySerde"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -355,7 +355,7 @@ var maDataBlocs = {
  , "c1" : "00155"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#155"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00155] For method checkForest arguments Set&lt;Sensor&gt;  sensors"
+ , "c3" : "QC-JAV000006[00155] For method checkForest arguments Set&lt;Sensor &gt;  sensors"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -224,7 +224,7 @@ var maDataBlocs = {
  , "c1" : "00091"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#91"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00091] For method configure arguments Map&lt;String,?&gt;  configs"
+ , "c3" : "QC-JAV000006[00091] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -252,7 +252,7 @@ var maDataBlocs = {
  , "c1" : "00105"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#105"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00105] For method parseRenameMappings arguments List&lt;String&gt;  mappings"
+ , "c3" : "QC-JAV000006[00105] For method parseRenameMappings arguments List&lt;String &gt;  mappings"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -301,7 +301,7 @@ var maDataBlocs = {
  , "c1" : "00117"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ReplaceField.java.html#117"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00117] For method invert arguments Map&lt;String,String&gt;  source"
+ , "c3" : "QC-JAV000006[00117] For method invert arguments Map&lt;String ,String &gt;  source"
 }} 
 ,
 { "ligne" : {"" : ""

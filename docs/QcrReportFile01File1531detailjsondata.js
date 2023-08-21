@@ -277,7 +277,7 @@ var maDataBlocs = {
  , "c1" : "00106"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/GlobVisitor.java.html#106"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00106] For method accept arguments List&lt;String&gt;  globComponents|int  componentIndex|MetadataNode  node|String[]  path"
+ , "c3" : "QC-JAV000006[00106] For method accept arguments List&lt;String &gt;  globComponents|int  componentIndex|MetadataNode  node|String[]  path"
 }} 
 ,
 { "ligne" : {"" : ""

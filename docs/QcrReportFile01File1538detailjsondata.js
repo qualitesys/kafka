@@ -223,7 +223,7 @@ var maDataBlocs = {
  , "c1" : "00091"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#91"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00091] For method handleCommit arguments BatchReader&lt;ApiMessageAndVersion&gt;  reader"
+ , "c3" : "QC-JAV000006[00091] For method handleCommit arguments BatchReader&lt;ApiMessageAndVersion &gt;  reader"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -286,7 +286,7 @@ var maDataBlocs = {
  , "c1" : "00108"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00108] For method handleSnapshot arguments SnapshotReader&lt;ApiMessageAndVersion&gt;  reader"
+ , "c3" : "QC-JAV000006[00108] For method handleSnapshot arguments SnapshotReader&lt;ApiMessageAndVersion &gt;  reader"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -419,7 +419,7 @@ var maDataBlocs = {
  , "c1" : "00173"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#173"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00173] For method visit arguments Consumer&lt;Data&gt;  consumer"
+ , "c3" : "QC-JAV000006[00173] For method visit arguments Consumer&lt;Data &gt;  consumer"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -447,7 +447,7 @@ var maDataBlocs = {
  , "c1" : "00182"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#182"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00182] For method appendEvent arguments String  name|Runnable  runnable|CompletableFuture&lt;?&gt;  future"
+ , "c3" : "QC-JAV000006[00182] For method appendEvent arguments String  name|Runnable  runnable|CompletableFuture&lt;? &gt;  future"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -811,7 +811,7 @@ var maDataBlocs = {
  , "c1" : "00341"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#341"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00341] For method clientQuotaRecordDirectories arguments List&lt;EntityData&gt;  entityData"
+ , "c3" : "QC-JAV000006[00341] For method clientQuotaRecordDirectories arguments List&lt;EntityData &gt;  entityData"
 }} 
 ,
 { "ligne" : {"" : ""

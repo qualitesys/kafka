@@ -407,7 +407,7 @@ var maDataBlocs = {
  , "c1" : "00166"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#166"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00166] For method prepareValueSerdeForStore arguments Serde&lt;V&gt;  valueSerde|SerdeGetter  getter"
+ , "c3" : "QC-JAV000006[00166] For method prepareValueSerdeForStore arguments Serde&lt;V &gt;  valueSerde|SerdeGetter  getter"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -442,7 +442,7 @@ var maDataBlocs = {
  , "c1" : "00194"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#194"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00194] For method setFlushListener arguments CacheFlushListener&lt;K,V&gt;  listener|boolean  sendOldValues"
+ , "c3" : "QC-JAV000006[00194] For method setFlushListener arguments CacheFlushListener&lt;K ,V &gt;  listener|boolean  sendOldValues"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -603,7 +603,7 @@ var maDataBlocs = {
  , "c1" : "00352"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#352"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00352] For method putAll arguments List&lt;KeyValue&lt;K,V&gt;&gt;  entries"
+ , "c3" : "QC-JAV000006[00352] For method putAll arguments List&lt;KeyValue&lt;K ,V &gt; &gt;  entries"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -750,7 +750,7 @@ var maDataBlocs = {
  , "c1" : "00434"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredKeyValueStore.java.html#434"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00434] For method innerEntries arguments List&lt;KeyValue&lt;K,V&gt;&gt;  from"
+ , "c3" : "QC-JAV000006[00434] For method innerEntries arguments List&lt;KeyValue&lt;K ,V &gt; &gt;  from"
 }} 
 ,
 { "ligne" : {"" : ""

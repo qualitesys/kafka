@@ -198,7 +198,7 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00075] For method validateKeys arguments Set&lt;CoordinatorKey&gt;  groupIds"
+ , "c3" : "QC-JAV000006[00075] For method validateKeys arguments Set&lt;CoordinatorKey &gt;  groupIds"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -233,21 +233,21 @@ var maDataBlocs = {
  , "c1" : "00083"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.html#83"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00083] For method buildBatchedRequest arguments int  coordinatorId|Set&lt;CoordinatorKey&gt;  groupIds"
+ , "c3" : "QC-JAV000006[00083] For method buildBatchedRequest arguments int  coordinatorId|Set&lt;CoordinatorKey &gt;  groupIds"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.html#104"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00104] For method handleResponse arguments Node  coordinator|Set&lt;CoordinatorKey&gt;  groupIds|AbstractResponse  abstractResponse"
+ , "c3" : "QC-JAV000006[00104] For method handleResponse arguments Node  coordinator|Set&lt;CoordinatorKey &gt;  groupIds|AbstractResponse  abstractResponse"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/DeleteConsumerGroupOffsetsHandler.java.html#136"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00136] For method handleGroupError arguments CoordinatorKey  groupId|Errors  error|Map&lt;CoordinatorKey,Throwable&gt;  failed|Set&lt;CoordinatorKey&gt;  groupsToUnmap"
+ , "c3" : "QC-JAV000006[00136] For method handleGroupError arguments CoordinatorKey  groupId|Errors  error|Map&lt;CoordinatorKey ,Throwable &gt;  failed|Set&lt;CoordinatorKey &gt;  groupsToUnmap"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -86,7 +86,7 @@ var maDataBlocs = {
  , "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/ScramExtensionsCallback.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00043] For method extensions arguments Map&lt;String,String&gt;  extensions"
+ , "c3" : "QC-JAV000006[00043] For method extensions arguments Map&lt;String ,String &gt;  extensions"
 }} 
 ]
 , 

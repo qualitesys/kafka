@@ -448,14 +448,14 @@ var maDataBlocs = {
  , "c1" : "00105"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#105"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00105] For method send arguments Node  node|AbstractRequest.Builder&lt;?&gt;  requestBuilder"
+ , "c3" : "QC-JAV000006[00105] For method send arguments Node  node|AbstractRequest.Builder&lt;? &gt;  requestBuilder"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#124"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00124] For method send arguments Node  node|AbstractRequest.Builder&lt;?&gt;  requestBuilder|int  requestTimeoutMs"
+ , "c3" : "QC-JAV000006[00124] For method send arguments Node  node|AbstractRequest.Builder&lt;? &gt;  requestBuilder|int  requestTimeoutMs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -546,7 +546,7 @@ var maDataBlocs = {
  , "c1" : "00200"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#200"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00200] For method poll arguments RequestFuture&lt;?&gt;  future"
+ , "c3" : "QC-JAV000006[00200] For method poll arguments RequestFuture&lt;? &gt;  future"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -560,7 +560,7 @@ var maDataBlocs = {
  , "c1" : "00213"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#213"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00213] For method poll arguments RequestFuture&lt;?&gt;  future|Timer  timer"
+ , "c3" : "QC-JAV000006[00213] For method poll arguments RequestFuture&lt;? &gt;  future|Timer  timer"
 }} 
 ,
 { "ligne" : {"" : ""

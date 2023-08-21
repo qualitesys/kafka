@@ -225,7 +225,7 @@ var maDataBlocs = {
  , "c1" : "00071"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00071] For method submit arguments Map&lt;String,Object&gt;  partition|Map&lt;String,Object&gt;  offset"
+ , "c3" : "QC-JAV000006[00071] For method submit arguments Map&lt;String ,Object &gt;  partition|Map&lt;String ,Object &gt;  offset"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -316,7 +316,7 @@ var maDataBlocs = {
  , "c1" : "00142"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#142"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00142] For method committableOffset arguments Deque&lt;SubmittedRecord&gt;  queuedRecords"
+ , "c3" : "QC-JAV000006[00142] For method committableOffset arguments Deque&lt;SubmittedRecord &gt;  queuedRecords"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -337,7 +337,7 @@ var maDataBlocs = {
  , "c1" : "00150"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SubmittedRecords.java.html#150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00150] For method canCommitHead arguments Deque&lt;SubmittedRecord&gt;  queuedRecords"
+ , "c3" : "QC-JAV000006[00150] For method canCommitHead arguments Deque&lt;SubmittedRecord &gt;  queuedRecords"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -885,7 +885,7 @@ var maDataBlocs = {
  , "c1" : "00238"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#238"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00238] For method bootstrap arguments List&lt;InetSocketAddress&gt;  addresses"
+ , "c3" : "QC-JAV000006[00238] For method bootstrap arguments List&lt;InetSocketAddress &gt;  addresses"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1235,7 +1235,7 @@ var maDataBlocs = {
  , "c1" : "00454"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#454"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00454] For method clearErrorsAndMaybeThrowException arguments Supplier&lt;KafkaException&gt;  recoverableExceptionSupplier"
+ , "c3" : "QC-JAV000006[00454] For method clearErrorsAndMaybeThrowException arguments Supplier&lt;KafkaException &gt;  recoverableExceptionSupplier"
 }} 
 ,
 { "ligne" : {"" : ""

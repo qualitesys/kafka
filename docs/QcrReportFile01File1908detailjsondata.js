@@ -484,7 +484,7 @@ var maDataBlocs = {
  , "c1" : "00252"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RecordCollectorImpl.java.html#252"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00252] For method recordSendError arguments String  topic|Exception  exception|ProducerRecord&lt;byte[],byte[]&gt;  serializedRecord"
+ , "c3" : "QC-JAV000006[00252] For method recordSendError arguments String  topic|Exception  exception|ProducerRecord&lt;byte[] ,byte[] &gt;  serializedRecord"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -233,7 +233,7 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchSnapshotResponse.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00088] For method singleton arguments TopicPartition  topicPartition|UnaryOperator&lt;FetchSnapshotResponseData.PartitionSnapshot&gt;  operator"
+ , "c3" : "QC-JAV000006[00088] For method singleton arguments TopicPartition  topicPartition|UnaryOperator&lt;FetchSnapshotResponseData.PartitionSnapshot &gt;  operator"
 }} 
 ,
 { "ligne" : {"" : ""

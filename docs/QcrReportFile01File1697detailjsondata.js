@@ -140,7 +140,7 @@ var maDataBlocs = {
  , "c1" : "00047"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method serializeParts arguments String  topic|Change&lt;T&gt;  data"
+ , "c3" : "QC-JAV000006[00047] For method serializeParts arguments String  topic|Change&lt;T &gt;  data"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -189,7 +189,7 @@ var maDataBlocs = {
  , "c1" : "00058"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/FullChangeSerde.java.html#58"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00058] For method deserializeParts arguments String  topic|Change&lt;byte[]&gt;  serialChange"
+ , "c3" : "QC-JAV000006[00058] For method deserializeParts arguments String  topic|Change&lt;byte[] &gt;  serialChange"
 }} 
 ,
 { "ligne" : {"" : ""

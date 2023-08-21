@@ -114,7 +114,7 @@ var maDataBlocs = {
  , "c1" : "00035"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#35"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00035] For method handle arguments ProcessorContext  context|ConsumerRecord&lt;byte[],byte[]&gt;  record|Exception  exception"
+ , "c3" : "QC-JAV000006[00035] For method handle arguments ProcessorContext  context|ConsumerRecord&lt;byte[] ,byte[] &gt;  record|Exception  exception"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -149,7 +149,7 @@ var maDataBlocs = {
  , "c1" : "00048"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/LogAndFailExceptionHandler.java.html#48"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method configure arguments Map&lt;String,?&gt;  configs"
+ , "c3" : "QC-JAV000006[00048] For method configure arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""

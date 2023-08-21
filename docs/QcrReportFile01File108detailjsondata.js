@@ -93,7 +93,7 @@ var maDataBlocs = {
  , "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ListConsumerGroupsOptions.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method inStates arguments Set&lt;ConsumerGroupState&gt;  states"
+ , "c3" : "QC-JAV000006[00042] For method inStates arguments Set&lt;ConsumerGroupState &gt;  states"
 }} 
 ,
 { "ligne" : {"" : ""

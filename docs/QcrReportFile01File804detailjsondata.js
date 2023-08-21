@@ -99,7 +99,7 @@ var maDataBlocs = {
  , "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java.html#48"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00048] For method create arguments Map&lt;String,?&gt;  configs|Map&lt;String,Object&gt;  jaasConfig"
+ , "c3" : "QC-JAV000006[00048] For method create arguments Map&lt;String ,? &gt;  configs|Map&lt;String ,Object &gt;  jaasConfig"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -113,7 +113,7 @@ var maDataBlocs = {
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method create arguments Map&lt;String,?&gt;  configs|String  saslMechanism|Map&lt;String,Object&gt;  jaasConfig"
+ , "c3" : "QC-JAV000006[00052] For method create arguments Map&lt;String ,? &gt;  configs|String  saslMechanism|Map&lt;String ,Object &gt;  jaasConfig"
 }} 
 ,
 { "ligne" : {"" : ""

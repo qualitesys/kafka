@@ -803,7 +803,7 @@ var maDataBlocs = {
  , "c1" : "00458"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#458"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00458] For method replayRegistrationChange arguments ApiMessage  record|int  brokerId|long  brokerEpoch|Optional&lt;Boolean&gt;  fencingChange|Optional&lt;Boolean&gt;  inControlledShutdownChange"
+ , "c3" : "QC-JAV000006[00458] For method replayRegistrationChange arguments ApiMessage  record|int  brokerId|long  brokerEpoch|Optional&lt;Boolean &gt;  fencingChange|Optional&lt;Boolean &gt;  inControlledShutdownChange"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1132,7 +1132,7 @@ var maDataBlocs = {
  , "c1" : "00589"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClusterControlManager.java.html#589"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00589] For method addReadyBrokersFuture arguments CompletableFuture&lt;Void&gt;  future|int  minBrokers"
+ , "c3" : "QC-JAV000006[00589] For method addReadyBrokersFuture arguments CompletableFuture&lt;Void &gt;  future|int  minBrokers"
 }} 
 ,
 { "ligne" : {"" : ""

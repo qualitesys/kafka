@@ -172,14 +172,14 @@ var maDataBlocs = {
  , "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#47"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00047] For method parseAndValidateAddresses arguments List&lt;String&gt;  urls|String  clientDnsLookupConfig"
+ , "c3" : "QC-JAV000006[00047] For method parseAndValidateAddresses arguments List&lt;String &gt;  urls|String  clientDnsLookupConfig"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00051] For method parseAndValidateAddresses arguments List&lt;String&gt;  urls|ClientDnsLookup  clientDnsLookup"
+ , "c3" : "QC-JAV000006[00051] For method parseAndValidateAddresses arguments List&lt;String &gt;  urls|ClientDnsLookup  clientDnsLookup"
 }} 
 ,
 { "ligne" : {"" : ""

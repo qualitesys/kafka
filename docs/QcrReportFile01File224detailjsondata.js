@@ -669,14 +669,14 @@ var maDataBlocs = {
  , "c1" : "00197"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#197"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00197] For method sendOffsetsToTransaction arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets|String  consumerGroupId"
+ , "c3" : "QC-JAV000006[00197] For method sendOffsetsToTransaction arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets|String  consumerGroupId"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#204"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00204] For method sendOffsetsToTransaction arguments Map&lt;TopicPartition,OffsetAndMetadata&gt;  offsets|ConsumerGroupMetadata  groupMetadata"
+ , "c3" : "QC-JAV000006[00204] For method sendOffsetsToTransaction arguments Map&lt;TopicPartition ,OffsetAndMetadata &gt;  offsets|ConsumerGroupMetadata  groupMetadata"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -816,7 +816,7 @@ var maDataBlocs = {
  , "c1" : "00294"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#294"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00294] For method send arguments ProducerRecord&lt;K,V&gt;  record"
+ , "c3" : "QC-JAV000006[00294] For method send arguments ProducerRecord&lt;K ,V &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -837,7 +837,7 @@ var maDataBlocs = {
  , "c1" : "00304"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#304"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00304] For method send arguments ProducerRecord&lt;K,V&gt;  record|Callback  callback"
+ , "c3" : "QC-JAV000006[00304] For method send arguments ProducerRecord&lt;K ,V &gt;  record|Callback  callback"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1145,7 +1145,7 @@ var maDataBlocs = {
  , "c1" : "00507"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/MockProducer.java.html#507"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00507] For method partition arguments ProducerRecord&lt;K,V&gt;  record|Cluster  cluster"
+ , "c3" : "QC-JAV000006[00507] For method partition arguments ProducerRecord&lt;K ,V &gt;  record|Cluster  cluster"
 }} 
 ,
 { "ligne" : {"" : ""

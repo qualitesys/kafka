@@ -181,7 +181,7 @@ var maDataBlocs = {
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/JaasOptionsUtils.java.html#52"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00052] For method getOptions arguments String  saslMechanism|List&lt;AppConfigurationEntry&gt;  jaasConfigEntries"
+ , "c3" : "QC-JAV000006[00052] For method getOptions arguments String  saslMechanism|List&lt;AppConfigurationEntry &gt;  jaasConfigEntries"
 }} 
 ,
 { "ligne" : {"" : ""

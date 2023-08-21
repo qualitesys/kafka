@@ -140,7 +140,7 @@ var maDataBlocs = {
  , "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#45"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00045] For method fromUnparsedRules arguments String  defaultRealm|List&lt;String&gt;  principalToLocalRules"
+ , "c3" : "QC-JAV000006[00045] For method fromUnparsedRules arguments String  defaultRealm|List&lt;String &gt;  principalToLocalRules"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -161,7 +161,7 @@ var maDataBlocs = {
  , "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosShortNamer.java.html#50"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00050] For method parseRules arguments String  defaultRealm|List&lt;String&gt;  rules"
+ , "c3" : "QC-JAV000006[00050] For method parseRules arguments String  defaultRealm|List&lt;String &gt;  rules"
 }} 
 ,
 { "ligne" : {"" : ""

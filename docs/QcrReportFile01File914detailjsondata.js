@@ -292,7 +292,7 @@ var maDataBlocs = {
  , "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/SecurityUtils.java.html#79"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00079] For method addConfiguredSecurityProviders arguments Map&lt;String,?&gt;  configs"
+ , "c3" : "QC-JAV000006[00079] For method addConfiguredSecurityProviders arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""

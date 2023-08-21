@@ -227,7 +227,7 @@ var maDataBlocs = {
  , "c1" : "00122"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#122"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00122] For method awaitFutures arguments Collection&lt;TopicPartition&gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00122] For method awaitFutures arguments Collection&lt;TopicPartition &gt;  topicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -241,7 +241,7 @@ var maDataBlocs = {
  , "c1" : "00137"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#137"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00137] For method cancelFutures arguments Collection&lt;TopicPartition&gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00137] For method cancelFutures arguments Collection&lt;TopicPartition &gt;  topicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -262,7 +262,7 @@ var maDataBlocs = {
  , "c1" : "00149"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/WorkerErrantRecordReporter.java.html#149"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00149] For method futuresFor arguments Collection&lt;TopicPartition&gt;  topicPartitions"
+ , "c3" : "QC-JAV000006[00149] For method futuresFor arguments Collection&lt;TopicPartition &gt;  topicPartitions"
 }} 
 ,
 { "ligne" : {"" : ""

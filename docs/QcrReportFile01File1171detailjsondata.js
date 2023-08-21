@@ -855,7 +855,7 @@ var maDataBlocs = {
  , "c1" : "00460"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#460"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00460] For method putConnectorConfig arguments String  connector|Map&lt;String,String&gt;  properties"
+ , "c3" : "QC-JAV000006[00460] For method putConnectorConfig arguments String  connector|Map&lt;String ,String &gt;  properties"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -953,7 +953,7 @@ var maDataBlocs = {
  , "c1" : "00517"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#517"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00517] For method putTaskConfigs arguments String  connector|List&lt;Map&lt;String,String&gt;&gt;  configs"
+ , "c3" : "QC-JAV000006[00517] For method putTaskConfigs arguments String  connector|List&lt;Map&lt;String ,String &gt; &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1366,7 +1366,7 @@ var maDataBlocs = {
  , "c1" : "00733"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#733"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00733] For method createKafkaBasedLog arguments String  topic|Map&lt;String,Object&gt;  producerProps|Map&lt;String,Object&gt;  consumerProps|Callback&lt;ConsumerRecord&lt;String,byte[]&gt;&gt;  consumedCallback|NewTopic  topicDescription|Supplier&lt;TopicAdmin&gt;  adminSupplier"
+ , "c3" : "QC-JAV000006[00733] For method createKafkaBasedLog arguments String  topic|Map&lt;String ,Object &gt;  producerProps|Map&lt;String ,Object &gt;  consumerProps|Callback&lt;ConsumerRecord&lt;String ,byte[] &gt; &gt;  consumedCallback|NewTopic  topicDescription|Supplier&lt;TopicAdmin &gt;  adminSupplier"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1401,7 +1401,7 @@ var maDataBlocs = {
  , "c1" : "00753"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#753"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00753] For method onCompletion arguments Throwable  error|ConsumerRecord&lt;String,byte[]&gt;  record"
+ , "c3" : "QC-JAV000006[00753] For method onCompletion arguments Throwable  error|ConsumerRecord&lt;String ,byte[] &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1849,7 +1849,7 @@ var maDataBlocs = {
  , "c1" : "00983"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#983"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00983] For method recordToRestartRequest arguments ConsumerRecord&lt;String,byte[]&gt;  record|SchemaAndValue  value"
+ , "c3" : "QC-JAV000006[00983] For method recordToRestartRequest arguments ConsumerRecord&lt;String ,byte[] &gt;  record|SchemaAndValue  value"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2101,7 +2101,7 @@ var maDataBlocs = {
  , "c1" : "01083"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#1083"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01083] For method taskIds arguments String  connector|Map&lt;ConnectorTaskId,Map&lt;String,String&gt;&gt;  configs"
+ , "c3" : "QC-JAV000006[01083] For method taskIds arguments String  connector|Map&lt;ConnectorTaskId ,Map&lt;String ,String &gt; &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2115,7 +2115,7 @@ var maDataBlocs = {
  , "c1" : "01095"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#1095"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[01095] For method completeTaskIdSet arguments Set&lt;Integer&gt;  idSet|int  expectedSize"
+ , "c3" : "QC-JAV000006[01095] For method completeTaskIdSet arguments Set&lt;Integer &gt;  idSet|int  expectedSize"
 }} 
 ,
 { "ligne" : {"" : ""

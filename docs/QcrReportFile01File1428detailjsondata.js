@@ -281,7 +281,7 @@ var maDataBlocs = {
  , "c1" : "00138"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#138"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00138] For method bytesNeeded arguments Collection&lt;T&gt;  records|ObjectSerializationCache  serializationCache"
+ , "c3" : "QC-JAV000006[00138] For method bytesNeeded arguments Collection&lt;T &gt;  records|ObjectSerializationCache  serializationCache"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -400,7 +400,7 @@ var maDataBlocs = {
  , "c1" : "00321"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchBuilder.java.html#321"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00321] For method bytesNeededForRecords arguments Collection&lt;T&gt;  records|ObjectSerializationCache  serializationCache"
+ , "c3" : "QC-JAV000006[00321] For method bytesNeededForRecords arguments Collection&lt;T &gt;  records|ObjectSerializationCache  serializationCache"
 }} 
 ,
 { "ligne" : {"" : ""

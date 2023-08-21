@@ -136,7 +136,7 @@ var maDataBlocs = {
  , "c1" : "00060"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/RepartitionTopicConfig.java.html#60"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00060] For method getProperties arguments Map&lt;String,String&gt;  defaultProperties|long  additionalRetentionMs"
+ , "c3" : "QC-JAV000006[00060] For method getProperties arguments Map&lt;String ,String &gt;  defaultProperties|long  additionalRetentionMs"
 }} 
 ,
 { "ligne" : {"" : ""

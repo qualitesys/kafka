@@ -206,7 +206,7 @@ var maDataBlocs = {
  , "c1" : "00069"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00069] For method alterClientQuotas arguments Collection&lt;ClientQuotaAlteration&gt;  quotaAlterations"
+ , "c3" : "QC-JAV000006[00069] For method alterClientQuotas arguments Collection&lt;ClientQuotaAlteration &gt;  quotaAlterations"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -283,7 +283,7 @@ var maDataBlocs = {
  , "c1" : "00121"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#121"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00121] For method alterClientQuotaEntity arguments ClientQuotaEntity  entity|Map&lt;String,Double&gt;  newQuotaConfigs|List&lt;ApiMessageAndVersion&gt;  outputRecords|Map&lt;ClientQuotaEntity,ApiError&gt;  outputResults"
+ , "c3" : "QC-JAV000006[00121] For method alterClientQuotaEntity arguments ClientQuotaEntity  entity|Map&lt;String ,Double &gt;  newQuotaConfigs|List&lt;ApiMessageAndVersion &gt;  outputRecords|Map&lt;ClientQuotaEntity ,ApiError &gt;  outputResults"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -374,7 +374,7 @@ var maDataBlocs = {
  , "c1" : "00188"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#188"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00188] For method configKeysForEntityType arguments Map&lt;String,String&gt;  entity|Map&lt;String,ConfigDef.ConfigKey&gt;  output"
+ , "c3" : "QC-JAV000006[00188] For method configKeysForEntityType arguments Map&lt;String ,String &gt;  entity|Map&lt;String ,ConfigDef.ConfigKey &gt;  output"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -430,7 +430,7 @@ var maDataBlocs = {
  , "c1" : "00221"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#221"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00221] For method validateQuotaKeyValue arguments Map&lt;String,ConfigDef.ConfigKey&gt;  validKeys|String  key|Double  value"
+ , "c3" : "QC-JAV000006[00221] For method validateQuotaKeyValue arguments Map&lt;String ,ConfigDef.ConfigKey &gt;  validKeys|String  key|Double  value"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -521,7 +521,7 @@ var maDataBlocs = {
  , "c1" : "00264"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#264"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00264] For method validateEntity arguments ClientQuotaEntity  entity|Map&lt;String,String&gt;  validatedEntityMap"
+ , "c3" : "QC-JAV000006[00264] For method validateEntity arguments ClientQuotaEntity  entity|Map&lt;String ,String &gt;  validatedEntityMap"
 }} 
 ,
 { "ligne" : {"" : ""

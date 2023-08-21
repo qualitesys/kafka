@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1193px" preserveAspectRatio="none" style="width:937px;height:1193px;background:#FFFFFF;" version="1.1" viewBox="0 0 937 1193" width="937px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="603" x="5" y="16.1387">An error has occured : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="498" x="5" y="30.1074">I'm not a real programmer. I throw together things until it works then I move on</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="44.0762"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="280" x="5" y="58.0449">Diagram size: 1281 lines / 45374 characters.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="72.0137"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="374" x="5" y="85.9824">PlantUML (1.2022.7) cannot parse result from dot/GraphViz.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="99.9512"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="390" x="5" y="113.9199">This version of PlantUML is 363 days old, so you should</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="398" x="5" y="127.8887">consider upgrading from https://plantuml.com/download</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="141.8574"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="492" x="5" y="155.8262">Please go to https://plantuml.com/graphviz-dot to check your GraphViz version.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="169.7949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="277" x="5" y="183.7637">Java Runtime: OpenJDK Runtime Environment</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="187" x="5" y="197.7324">JVM: OpenJDK 64-Bit Server VM</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="211.7012">Default Encoding: UTF-8</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="5" y="225.6699">Language: en</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="5" y="239.6387">Country: null</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="253.6074"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="172" x="5" y="267.5762">PLANTUML_LIMIT_SIZE: 4096</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="281.5449"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="295.5137">This may be caused by :</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="9" y="309.4824">- a bug in PlantUML</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="144" x="9" y="323.4512">- a problem in GraphViz</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="337.4199"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="300" x="5" y="351.3887">You should send this diagram and this image to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="145" x="309" y="351.3887">plantuml@gmail.com</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="13" x="458" y="351.3887">or</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="5" y="365.3574">post to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="168" x="54" y="365.3574">https://plantuml.com/qa</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="117" x="226" y="365.3574">to solve this issue.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="405" x="5" y="379.3262">You can try to turn arround this issue by simplifing your diagram.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="393.2949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="458" x="5" y="407.2637">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="477" x="13" y="421.2324">java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="548" x="13" y="435.2012">java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="474" x="13" y="449.1699">java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="351" x="13" y="463.1387">java.base/java.util.Objects.checkIndex(Objects.java:372)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="314" x="13" y="477.1074">java.base/java.util.ArrayList.get(ArrayList.java:459)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="878" x="13" y="491.0762">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createWithLinks(FtileFactoryDelegatorSwitch.java:103)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="852" x="13" y="505.0449">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createSwitch(FtileFactoryDelegatorSwitch.java:79)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="519.0137">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="532.9824">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="546.9512">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="560.9199">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="574.8887">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="588.8574">net.sourceforge.plantuml.activitydiagram3.InstructionSwitch.createFtile(InstructionSwitch.java:119)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="13" y="602.8262">net.sourceforge.plantuml.activitydiagram3.InstructionList.createFtile(InstructionList.java:131)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="536" x="13" y="616.7949">net.sourceforge.plantuml.activitydiagram3.ftile.Swimlanes.drawU(Swimlanes.java:229)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="805" x="13" y="630.7637">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.getPiecewiseAffineTransform(CompressionXorYBuilder.java:51)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="655" x="13" y="644.7324">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.build(CompressionXorYBuilder.java:44)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="686" x="13" y="658.7012">net.sourceforge.plantuml.activitydiagram3.ActivityDiagram3.exportDiagramInternal(ActivityDiagram3.java:210)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="672.6699">net.sourceforge.plantuml.UmlDiagram.exportDiagramNow(UmlDiagram.java:135)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="538" x="13" y="686.6387">net.sourceforge.plantuml.AbstractPSystem.exportDiagram(AbstractPSystem.java:178)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="700.6074">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:172)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="714.5762">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="693" x="13" y="728.5449">com.qualitesys.qcrmavenplugin.commun.QcrCommunPlantUml.genererFichierSvg(QcrCommunPlantUml.java:82)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="585" x="13" y="742.5137">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lireFichier(QcrReporting01Mojo.java:927)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="556" x="13" y="756.4824">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lister(QcrReporting01Mojo.java:453)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="591" x="13" y="770.4512">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.doReport(QcrReporting01Mojo.java:2037)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="625" x="13" y="784.4199">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.executeReport(QcrReporting01Mojo.java:1739)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="582" x="13" y="798.3887">org.apache.maven.reporting.AbstractMavenReport.generate(AbstractMavenReport.java:251)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="748" x="13" y="812.3574">org.apache.maven.plugins.site.render.ReportDocumentRenderer.renderDocument(ReportDocumentRenderer.java:226)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="607" x="13" y="826.3262">org.apache.maven.doxia.siterenderer.DefaultSiteRenderer.render(DefaultSiteRenderer.java:348)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="840.2949">org.apache.maven.plugins.site.render.SiteMojo.renderLocale(SiteMojo.java:194)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="470" x="13" y="854.2637">org.apache.maven.plugins.site.render.SiteMojo.execute(SiteMojo.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="649" x="13" y="868.2324">org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="882.2012">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:370)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="531" x="13" y="896.1699">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:351)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="910.1387">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:215)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="924.1074">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:171)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="938.0762">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:163)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="651" x="13" y="952.0449">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="643" x="13" y="966.0137">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="747" x="13" y="979.9824">org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="993.9512">org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1007.9199">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:299)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1021.8887">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="412" x="13" y="1035.8574">org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="367" x="13" y="1049.8262">org.apache.maven.cli.MavenCli.execute(MavenCli.java:963)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="362" x="13" y="1063.7949">org.apache.maven.cli.MavenCli.doMain(MavenCli.java:296)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="347" x="13" y="1077.7637">org.apache.maven.cli.MavenCli.main(MavenCli.java:199)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="1091.7324">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="1105.7012">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="679" x="13" y="1119.6699">java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="373" x="13" y="1133.6387">java.base/java.lang.reflect.Method.invoke(Method.java:566)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="562" x="13" y="1147.6074">org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="499" x="13" y="1161.5762">org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="568" x="13" y="1175.5449">org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="487" x="13" y="1189.5137">org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)</text><image height="20" width="17" x="920" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAUCAYAAABroNZJAAAAi0lEQVR4Xu2PwQ2AIAxF2cKTc3jy5MkVHIENHEEH9vqlGAh8itFw1Jc0hPpfi8Z8Czi494gNE3YMWNHLDH/KXfqcVYEsd7VghHWiPTp/yj18YycjhNKa3fasd/1ffVAaKor67EZUqTKU3QgHi0oGspvBYe0l7BSwoBU7KlFQXsTZW3j76wEpTfJPGye1ptbrvRg5swAAAABJRU5ErkJggg==" y="6"/><!--MD5=[325e6662922c5369ea7a33963af3ef3b]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1193px" preserveAspectRatio="none" style="width:948px;height:1193px;background:#FFFFFF;" version="1.1" viewBox="0 0 948 1193" width="948px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="603" x="5" y="16.1387">An error has occured : java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="685" x="5" y="30.1074">To sculpt an elephant from a big block of marble, just knock away all the bits that don't look like an elephant.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="44.0762"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="280" x="5" y="58.0449">Diagram size: 1280 lines / 45101 characters.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="72.0137"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="374" x="5" y="85.9824">PlantUML (1.2022.7) cannot parse result from dot/GraphViz.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="99.9512"> </text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="390" x="5" y="113.9199">This version of PlantUML is 364 days old, so you should</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="398" x="5" y="127.8887">consider upgrading from https://plantuml.com/download</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="141.8574"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="492" x="5" y="155.8262">Please go to https://plantuml.com/graphviz-dot to check your GraphViz version.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="169.7949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="277" x="5" y="183.7637">Java Runtime: OpenJDK Runtime Environment</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="187" x="5" y="197.7324">JVM: OpenJDK 64-Bit Server VM</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="211.7012">Default Encoding: UTF-8</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="86" x="5" y="225.6699">Language: en</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="78" x="5" y="239.6387">Country: null</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="253.6074"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="172" x="5" y="267.5762">PLANTUML_LIMIT_SIZE: 4096</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="281.5449"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="150" x="5" y="295.5137">This may be caused by :</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="120" x="9" y="309.4824">- a bug in PlantUML</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="144" x="9" y="323.4512">- a problem in GraphViz</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="337.4199"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="300" x="5" y="351.3887">You should send this diagram and this image to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="145" x="309" y="351.3887">plantuml@gmail.com</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="13" x="458" y="351.3887">or</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="45" x="5" y="365.3574">post to</text><text fill="#000000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="168" x="54" y="365.3574">https://plantuml.com/qa</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="117" x="226" y="365.3574">to solve this issue.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="405" x="5" y="379.3262">You can try to turn arround this issue by simplifing your diagram.</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="4" x="5" y="393.2949"> </text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="458" x="5" y="407.2637">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="477" x="13" y="421.2324">java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="548" x="13" y="435.2012">java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="474" x="13" y="449.1699">java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="351" x="13" y="463.1387">java.base/java.util.Objects.checkIndex(Objects.java:372)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="314" x="13" y="477.1074">java.base/java.util.ArrayList.get(ArrayList.java:459)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="878" x="13" y="491.0762">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createWithLinks(FtileFactoryDelegatorSwitch.java:103)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="852" x="13" y="505.0449">net.sourceforge.plantuml.activitydiagram3.ftile.vcompact.FtileFactoryDelegatorSwitch.createSwitch(FtileFactoryDelegatorSwitch.java:79)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="519.0137">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="532.9824">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="546.9512">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="560.9199">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="716" x="13" y="574.8887">net.sourceforge.plantuml.activitydiagram3.ftile.FtileFactoryDelegator.createSwitch(FtileFactoryDelegator.java:185)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="588.8574">net.sourceforge.plantuml.activitydiagram3.InstructionSwitch.createFtile(InstructionSwitch.java:119)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="583" x="13" y="602.8262">net.sourceforge.plantuml.activitydiagram3.InstructionList.createFtile(InstructionList.java:131)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="536" x="13" y="616.7949">net.sourceforge.plantuml.activitydiagram3.ftile.Swimlanes.drawU(Swimlanes.java:229)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="805" x="13" y="630.7637">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.getPiecewiseAffineTransform(CompressionXorYBuilder.java:51)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="655" x="13" y="644.7324">net.sourceforge.plantuml.ugraphic.comp.CompressionXorYBuilder.build(CompressionXorYBuilder.java:44)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="686" x="13" y="658.7012">net.sourceforge.plantuml.activitydiagram3.ActivityDiagram3.exportDiagramInternal(ActivityDiagram3.java:210)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="672.6699">net.sourceforge.plantuml.UmlDiagram.exportDiagramNow(UmlDiagram.java:135)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="538" x="13" y="686.6387">net.sourceforge.plantuml.AbstractPSystem.exportDiagram(AbstractPSystem.java:178)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="700.6074">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:172)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="566" x="13" y="714.5762">net.sourceforge.plantuml.SourceStringReader.outputImage(SourceStringReader.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="693" x="13" y="728.5449">com.qualitesys.qcrmavenplugin.commun.QcrCommunPlantUml.genererFichierSvg(QcrCommunPlantUml.java:82)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="585" x="13" y="742.5137">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lireFichier(QcrReporting01Mojo.java:927)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="556" x="13" y="756.4824">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.lister(QcrReporting01Mojo.java:453)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="591" x="13" y="770.4512">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.doReport(QcrReporting01Mojo.java:2037)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="625" x="13" y="784.4199">com.qualitesys.qcrmavenplugin.QcrReporting01Mojo.executeReport(QcrReporting01Mojo.java:1739)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="582" x="13" y="798.3887">org.apache.maven.reporting.AbstractMavenReport.generate(AbstractMavenReport.java:251)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="748" x="13" y="812.3574">org.apache.maven.plugins.site.render.ReportDocumentRenderer.renderDocument(ReportDocumentRenderer.java:226)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="607" x="13" y="826.3262">org.apache.maven.doxia.siterenderer.DefaultSiteRenderer.render(DefaultSiteRenderer.java:348)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="840.2949">org.apache.maven.plugins.site.render.SiteMojo.renderLocale(SiteMojo.java:194)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="470" x="13" y="854.2637">org.apache.maven.plugins.site.render.SiteMojo.execute(SiteMojo.java:143)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="649" x="13" y="868.2324">org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:137)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="882.2012">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2(MojoExecutor.java:370)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="531" x="13" y="896.1699">org.apache.maven.lifecycle.internal.MojoExecutor.doExecute(MojoExecutor.java:351)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="910.1387">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:215)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="924.1074">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:171)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="515" x="13" y="938.0762">org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:163)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="651" x="13" y="952.0449">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:117)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="643" x="13" y="966.0137">org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:81)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="747" x="13" y="979.9824">org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:56)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="539" x="13" y="993.9512">org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1007.9199">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:299)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="428" x="13" y="1021.8887">org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="412" x="13" y="1035.8574">org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="367" x="13" y="1049.8262">org.apache.maven.cli.MavenCli.execute(MavenCli.java:963)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="362" x="13" y="1063.7949">org.apache.maven.cli.MavenCli.doMain(MavenCli.java:296)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="347" x="13" y="1077.7637">org.apache.maven.cli.MavenCli.main(MavenCli.java:199)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="502" x="13" y="1091.7324">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="621" x="13" y="1105.7012">java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="679" x="13" y="1119.6699">java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="373" x="13" y="1133.6387">java.base/java.lang.reflect.Method.invoke(Method.java:566)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="562" x="13" y="1147.6074">org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:282)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="499" x="13" y="1161.5762">org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:225)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="568" x="13" y="1175.5449">org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:406)</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="487" x="13" y="1189.5137">org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:347)</text><image height="22" width="28" x="920" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAWCAYAAADTlvzyAAAAcElEQVR4Xu2NsQ2AQAwDf/8NGI0VWAKoKA4ZJ0qEvviT3MSOPcbiZtuP80vMl+EAxXwYFlXF/hd8qIr9Dwx2i3vzDLqc81UuHMz6KieDXeLe/4MK9+j8NK7Q+WFUUfYeRhVk75L0g8H22UCS7r7FXFyuuyV+5JbkOQAAAABJRU5ErkJggg==" y="6"/><!--MD5=[2f515d523e420acd14216fe0089a512d]
 @startuml
 !pragma layout smetana
 start
 note right
-constructor Builder(int nodeId,String clusterId)
+constructor Builder(intnodeId,StringclusterId)
 end note
 :this.nodeId=nodeId;;
 :this.clusterId=clusterId;;
 end
 start
 note right
-int nodeId()
+intnodeId()
 end note
 :return nodeId;;
 stop
 end
 start
 note right
-Builder setTime(Time time)
+BuildersetTime(Timetime)
 end note
 :this.time=time;;
 :return this;;
@@ -25,7 +25,7 @@ stop
 end
 start
 note right
-Builder setThreadNamePrefix(String threadNamePrefix)
+BuildersetThreadNamePrefix(StringthreadNamePrefix)
 end note
 :this.threadNamePrefix=threadNamePrefix;;
 :return this;;
@@ -33,7 +33,7 @@ stop
 end
 start
 note right
-Builder setLogContext(LogContext logContext)
+BuildersetLogContext(LogContextlogContext)
 end note
 :this.logContext=logContext;;
 :return this;;
@@ -41,7 +41,7 @@ stop
 end
 start
 note right
-Builder setConfigSchema(KafkaConfigSchema configSchema)
+BuildersetConfigSchema(KafkaConfigSchemaconfigSchema)
 end note
 :this.configSchema=configSchema;;
 :return this;;
@@ -49,7 +49,7 @@ stop
 end
 start
 note right
-Builder setRaftClient(RaftClient<ApiMessageAndVersion> logManager)
+BuildersetRaftClient(RaftClient<ApiMessageAndVersion>logManager)
 end note
 :this.raftClient=logManager;;
 :return this;;
@@ -57,7 +57,7 @@ stop
 end
 start
 note right
-Builder setQuorumFeatures(QuorumFeatures quorumFeatures)
+BuildersetQuorumFeatures(QuorumFeaturesquorumFeatures)
 end note
 :this.quorumFeatures=quorumFeatures;;
 :return this;;
@@ -65,7 +65,7 @@ stop
 end
 start
 note right
-Builder setDefaultReplicationFactor(short defaultReplicationFactor)
+BuildersetDefaultReplicationFactor(shortdefaultReplicationFactor)
 end note
 :this.defaultReplicationFactor=defaultReplicationFactor;;
 :return this;;
@@ -73,7 +73,7 @@ stop
 end
 start
 note right
-Builder setDefaultNumPartitions(int defaultNumPartitions)
+BuildersetDefaultNumPartitions(intdefaultNumPartitions)
 end note
 :this.defaultNumPartitions=defaultNumPartitions;;
 :return this;;
@@ -81,7 +81,7 @@ stop
 end
 start
 note right
-Builder setReplicaPlacer(ReplicaPlacer replicaPlacer)
+BuildersetReplicaPlacer(ReplicaPlacerreplicaPlacer)
 end note
 :this.replicaPlacer=replicaPlacer;;
 :return this;;
@@ -89,7 +89,7 @@ stop
 end
 start
 note right
-Builder setSnapshotMaxNewRecordBytes(long value)
+BuildersetSnapshotMaxNewRecordBytes(longvalue)
 end note
 :this.snapshotMaxNewRecordBytes=value;;
 :return this;;
@@ -97,7 +97,7 @@ stop
 end
 start
 note right
-Builder setLeaderImbalanceCheckIntervalNs(OptionalLong value)
+BuildersetLeaderImbalanceCheckIntervalNs(OptionalLongvalue)
 end note
 :this.leaderImbalanceCheckIntervalNs=value;;
 :return this;;
@@ -105,7 +105,7 @@ stop
 end
 start
 note right
-Builder setMaxIdleIntervalNs(OptionalLong value)
+BuildersetMaxIdleIntervalNs(OptionalLongvalue)
 end note
 :this.maxIdleIntervalNs=value;;
 :return this;;
@@ -113,7 +113,7 @@ stop
 end
 start
 note right
-Builder setSessionTimeoutNs(long sessionTimeoutNs)
+BuildersetSessionTimeoutNs(longsessionTimeoutNs)
 end note
 :this.sessionTimeoutNs=sessionTimeoutNs;;
 :return this;;
@@ -121,7 +121,7 @@ stop
 end
 start
 note right
-Builder setMetrics(ControllerMetrics controllerMetrics)
+BuildersetMetrics(ControllerMetricscontrollerMetrics)
 end note
 :this.controllerMetrics=controllerMetrics;;
 :return this;;
@@ -129,7 +129,7 @@ stop
 end
 start
 note right
-Builder setBootstrapMetadata(BootstrapMetadata bootstrapMetadata)
+BuildersetBootstrapMetadata(BootstrapMetadatabootstrapMetadata)
 end note
 :this.bootstrapMetadata=bootstrapMetadata;;
 :return this;;
@@ -137,7 +137,7 @@ stop
 end
 start
 note right
-Builder setCreateTopicPolicy(Optional<CreateTopicPolicy> createTopicPolicy)
+BuildersetCreateTopicPolicy(Optional<CreateTopicPolicy>createTopicPolicy)
 end note
 :this.createTopicPolicy=createTopicPolicy;;
 :return this;;
@@ -145,7 +145,7 @@ stop
 end
 start
 note right
-Builder setAlterConfigPolicy(Optional<AlterConfigPolicy> alterConfigPolicy)
+BuildersetAlterConfigPolicy(Optional<AlterConfigPolicy>alterConfigPolicy)
 end note
 :this.alterConfigPolicy=alterConfigPolicy;;
 :return this;;
@@ -153,7 +153,7 @@ stop
 end
 start
 note right
-Builder setConfigurationValidator(ConfigurationValidator configurationValidator)
+BuildersetConfigurationValidator(ConfigurationValidatorconfigurationValidator)
 end note
 :this.configurationValidator=configurationValidator;;
 :return this;;
@@ -161,7 +161,7 @@ stop
 end
 start
 note right
-Builder setAuthorizer(ClusterMetadataAuthorizer authorizer)
+BuildersetAuthorizer(ClusterMetadataAuthorizerauthorizer)
 end note
 :this.authorizer=Optional.of(authorizer);;
 :return this;;
@@ -169,7 +169,7 @@ stop
 end
 start
 note right
-Builder setStaticConfig(Map<String,Object> staticConfig)
+BuildersetStaticConfig(Map<String,Object>staticConfig)
 end note
 :this.staticConfig=staticConfig;;
 :return this;;
@@ -177,7 +177,7 @@ stop
 end
 start
 note right
-QuorumController build()
+QuorumControllerbuild()
 end note
 if (raftClient==null ) then (yes) 
 :throw new IllegalStateException("You must set a raft client.");;
@@ -198,10 +198,10 @@ if (logContext==null ) then (yes)
 nodeId));;
 endif 
 if (controllerMetrics==null ) then (yes) 
-:controllerMetrics=(ControllerMetrics )Class.forName("org.apache.kafka.controller.MockControllerMetrics")
+:controllerMetrics=(ControllerMetrics)Class.forName("org.apache.kafka.controller.MockControllerMetrics")
 .getConstructor().newInstance();;
 endif 
-:KafkaEventQueue queue=null ;;
+:KafkaEventQueuequeue=null ;;
 switch (try/catch block)
 case (try)
 :queue=new KafkaEventQueue(time,logContext,threadNamePrefix+
@@ -214,7 +214,7 @@ maxIdleIntervalNs,sessionTimeoutNs,controllerMetrics,
 createTopicPolicy,alterConfigPolicy,configurationValidator,
 authorizer,staticConfig,bootstrapMetadata);;
 stop
-case (catch (Exception e))
+case (catch (Exceptione))
 :Utils.closeQuietly(queue,"event queue");;
 :throw e;;
 stop
@@ -222,16 +222,16 @@ endswitch
 end
 start
 note right
-void accept(ConfigResource configResource)
+void accept(ConfigResourceconfigResource)
 end note
 switch (switch configResource.type())
 endswitch
 end
 start
 note right
-NotControllerException newNotControllerException()
+NotControllerExceptionnewNotControllerException()
 end note
-:OptionalInt latestController=raftClient.leaderAndEpoch()
+:OptionalIntlatestController=raftClient.leaderAndEpoch()
 .leaderId();;
 if (latestController.isPresent()) then (yes) 
 :return new NotControllerException(ACTIVE_CONTROLLER_EXCEPTION_TEXT_PREFIX+
@@ -244,7 +244,7 @@ endif
 end
 start
 note right
-int exceptionToApparentController(NotControllerException e)
+intexceptionToApparentController(NotControllerExceptione)
 end note
 if (e.getMessage().startsWith(ACTIVE_CONTROLLER_EXCEPTION_TEXT_PREFIX)) then (yes) 
 :return Integer.parseInt(e.getMessage().substring(ACTIVE_CONTROLLER_EXCEPTION_TEXT_PREFIX.length()));;
@@ -256,23 +256,23 @@ endif
 end
 start
 note right
-void handleEventEnd(String name,long startProcessingTimeNs)
+void handleEventEnd(Stringname,longstartProcessingTimeNs)
 end note
-:long endProcessingTime=time.nanoseconds();;
-:long deltaNs=endProcessingTime-startProcessingTimeNs;;
+:longendProcessingTime=time.nanoseconds();;
+:longdeltaNs=endProcessingTime-startProcessingTimeNs;;
 :log.debug("Processed {} in {} us",name,MICROSECONDS.convert(deltaNs,
 NANOSECONDS));;
 :controllerMetrics.updateEventQueueProcessingTime(NANOSECONDS.toMillis(deltaNs));;
 end
 start
 note right
-Throwable handleEventException(String name,
-OptionalLong startProcessingTimeNs,Throwable exception)
+ThrowablehandleEventException(Stringname,
+OptionalLongstartProcessingTimeNs,Throwableexception)
 end note
 if (!startProcessingTimeNs.isPresent()) then (yes) 
 :log.error("{}: unable to start processing because of {}.",
 name,exception.getClass().getSimpleName());;
-if (exception instanceof ApiException ) then (yes) 
+if (exception instanceof ApiException) then (yes) 
 :return exception;;
 stop
 else (no)
@@ -280,11 +280,11 @@ else (no)
 stop
 endif 
 endif 
-:long endProcessingTime=time.nanoseconds();;
-:long deltaNs=endProcessingTime-startProcessingTimeNs.getAsLong();;
-:long deltaUs=MICROSECONDS.convert(deltaNs,
+:longendProcessingTime=time.nanoseconds();;
+:longdeltaNs=endProcessingTime-startProcessingTimeNs.getAsLong();;
+:longdeltaUs=MICROSECONDS.convert(deltaNs,
 NANOSECONDS);;
-if (exception instanceof ApiException ) then (yes) 
+if (exception instanceof ApiException) then (yes) 
 :log.info("{}: failed with {} in {} us",name,
 exception.getClass().getSimpleName(),deltaUs);;
 :return exception;;
@@ -302,7 +302,7 @@ stop
 end
 start
 note right
-constructor ControlEvent(String name,Runnable handler)
+constructor ControlEvent(Stringname,Runnablehandler)
 end note
 :this.name=name;;
 :this.handler=handler;;
@@ -311,7 +311,7 @@ start
 note right
 void run()
 end note
-:long now=time.nanoseconds();;
+:longnow=time.nanoseconds();;
 :controllerMetrics.updateEventQueueTime(NANOSECONDS.toMillis(now-eventCreatedTimeNs));;
 :startProcessingTimeNs=OptionalLong.of(now);;
 :log.debug("Executing {}.",this);;
@@ -320,30 +320,30 @@ end note
 end
 start
 note right
-void handleException(Throwable exception)
+void handleException(Throwableexception)
 end note
 :handleEventException(name,startProcessingTimeNs,
 exception);;
 end
 start
 note right
-String toString()
+StringtoString()
 end note
 :return name;;
 stop
 end
 start
 note right
-void appendControlEvent(String name,Runnable handler)
+void appendControlEvent(Stringname,Runnablehandler)
 end note
-:ControlEvent event=new ControlEvent(name,
+:ControlEventevent=new ControlEvent(name,
 handler);;
 :queue.append(event);;
 end
 start
 note right
-void createSnapshotGenerator(long committedOffset,
-int committedEpoch,long committedTimestamp)
+void createSnapshotGenerator(longcommittedOffset,
+intcommittedEpoch,longcommittedTimestamp)
 end note
 if (generator!=null ) then (yes) 
 :throw new RuntimeException("Snapshot generator already exists.");;
@@ -354,7 +354,7 @@ if (!snapshotRegistry.hasSnapshot(committedOffset)) then (yes)
 committedOffset));;
 stop
 endif 
-:Optional<SnapshotWriter<ApiMessageAndVersion>> writer=raftClient.createSnapshot(committedOffset,
+:Optional<SnapshotWriter<ApiMessageAndVersion>>writer=raftClient.createSnapshot(committedOffset,
 committedEpoch,committedTimestamp);;
 if (writer.isPresent()) then (yes) 
 :generator=new SnapshotGenerator(logContext,
@@ -388,9 +388,9 @@ endif
 end
 start
 note right
-void reschedule(long delayNs)
+void reschedule(longdelayNs)
 end note
-:ControlEvent event=new ControlEvent(GENERATE_SNAPSHOT,
+:ControlEventevent=new ControlEvent(GENERATE_SNAPSHOT,
 this);;
 :queue.scheduleDeferred(event.name,new EarliestDeadlineFunction(time.nanoseconds()+
 delayNs),event);;
@@ -404,11 +404,11 @@ if (generator==null ) then (yes)
 :return ;;
 stop
 endif 
-:OptionalLong nextDelay;;
+:OptionalLongnextDelay;;
 switch (try/catch block)
 case (try)
 :nextDelay=generator.generateBatches();;
-case (catch (Exception e))
+case (catch (Exceptione))
 :log.error("Error while generating snapshot {}",
 generator.lastContainedLogOffset(),e);;
 :generator.writer().close();;
@@ -429,7 +429,7 @@ endif
 end
 start
 note right
-OptionalLong snapshotLastOffsetFromLog()
+OptionalLongsnapshotLastOffsetFromLog()
 end note
 if (generator==null ) then (yes) 
 :return OptionalLong.empty();;
@@ -440,16 +440,16 @@ stop
 end
 start
 note right
-constructor ControllerReadEvent(String name,
-Supplier<T> handler)
+constructor ControllerReadEvent(Stringname,
+Supplier<T>handler)
 end note
 :this.name=name;;
-:this.future=new CompletableFuture<T >();;
+:this.future=new CompletableFuture<T>();;
 :this.handler=handler;;
 end
 start
 note right
-CompletableFuture<T> future()
+CompletableFuture<T>future()
 end note
 :return future;;
 stop
@@ -458,23 +458,23 @@ start
 note right
 void run()
 end note
-:long now=time.nanoseconds();;
+:longnow=time.nanoseconds();;
 :controllerMetrics.updateEventQueueTime(NANOSECONDS.toMillis(now-eventCreatedTimeNs));;
 :startProcessingTimeNs=OptionalLong.of(now);;
-:T value=handler.get();;
+:Tvalue=handler.get();;
 :handleEventEnd(this.toString(),startProcessingTimeNs.getAsLong());;
 :future.complete(value);;
 end
 start
 note right
-void handleException(Throwable exception)
+void handleException(Throwableexception)
 end note
 :future.completeExceptionally(handleEventException(name,
 startProcessingTimeNs,exception));;
 end
 start
 note right
-String toString()
+StringtoString()
 end note
 :return name+"("+System.identityHashCode(this)+
 ")";;
@@ -482,19 +482,19 @@ stop
 end
 start
 note right
-ReplicationControlManager replicationControl()
+ReplicationControlManagerreplicationControl()
 end note
 :return replicationControl;;
 stop
 end
 start
 note right
-ClusterControlManager clusterControl()
+ClusterControlManagerclusterControl()
 end note
 :return clusterControl;;
 stop
 end
-:ControllerReadEvent<T> event=new ControllerReadEvent<T >(name,
+:ControllerReadEvent<T>event=new ControllerReadEvent<T>(name,
 handler);;
 if (deadlineNs.isPresent()) then (yes) 
 :queue.appendWithDeadline(deadlineNs.getAsLong(),
@@ -506,17 +506,17 @@ endif
 stop
 start
 note right
-constructor ControllerWriteEvent(String name,
-ControllerWriteOperation<T> op)
+constructor ControllerWriteEvent(Stringname,
+ControllerWriteOperation<T>op)
 end note
 :this.name=name;;
-:this.future=new CompletableFuture<T >();;
+:this.future=new CompletableFuture<T>();;
 :this.op=op;;
 :this.resultAndOffset=null ;;
 end
 start
 note right
-CompletableFuture<T> future()
+CompletableFuture<T>future()
 end note
 :return future;;
 stop
@@ -525,18 +525,18 @@ start
 note right
 void run()
 end note
-:long now=time.nanoseconds();;
+:longnow=time.nanoseconds();;
 :controllerMetrics.updateEventQueueTime(NANOSECONDS.toMillis(now-eventCreatedTimeNs));;
-:int controllerEpoch=curClaimEpoch;;
+:intcontrollerEpoch=curClaimEpoch;;
 if (controllerEpoch==-1) then (yes) 
 :throw newNotControllerException();;
 stop
 endif 
 :startProcessingTimeNs=OptionalLong.of(now);;
-:ControllerResult<T> result=op.generateRecordsAndResult();;
+:ControllerResult<T>result=op.generateRecordsAndResult();;
 if (result.records().isEmpty()) then (yes) 
 :op.processBatchEndOffset(writeOffset);;
-:OptionalLong maybeOffset=purgatory.highestPendingOffset();;
+:OptionalLongmaybeOffset=purgatory.highestPendingOffset();;
 if (!maybeOffset.isPresent()) then (yes) 
 :resultAndOffset=ControllerResultAndOffset.of(-1,
 result);;
@@ -550,7 +550,7 @@ result);;
 "reaches offset {}",this,resultAndOffset.offset());;
 endif 
 else (no)
-:final long offset;;
+:final longoffset;;
 if (result.isAtomic()) then (yes) 
 :offset=raftClient.scheduleAtomicAppend(controllerEpoch,
 result.records());;
@@ -575,13 +575,13 @@ endif
 end
 start
 note right
-void handleException(Throwable exception)
+void handleException(Throwableexception)
 end note
 :complete(exception);;
 end
 start
 note right
-void complete(Throwable exception)
+void complete(Throwableexception)
 end note
 if (exception==null ) then (yes) 
 :handleEventEnd(this.toString(),startProcessingTimeNs.getAsLong());;
@@ -593,18 +593,18 @@ endif
 end
 start
 note right
-String toString()
+StringtoString()
 end note
 :return name+"("+System.identityHashCode(this)+
 ")";;
 stop
 end
-:ControllerWriteEvent<T> event=new ControllerWriteEvent<>(name,
+:ControllerWriteEvent<T>event=new ControllerWriteEvent<>(name,
 op);;
 :queue.prepend(event);;
 :return event.future();;
 stop
-:ControllerWriteEvent<T> event=new ControllerWriteEvent<>(name,
+:ControllerWriteEvent<T>event=new ControllerWriteEvent<>(name,
 op);;
 if (deadlineNs.isPresent()) then (yes) 
 :queue.appendWithDeadline(deadlineNs.getAsLong(),
@@ -616,31 +616,31 @@ endif
 stop
 start
 note right
-void handleCommit(BatchReader<ApiMessageAndVersion> reader)
+void handleCommit(BatchReader<ApiMessageAndVersion>reader)
 end note
 :appendRaftEvent("handleCommit[baseOffset="+
-reader.baseOffset()+"]",()->{try {maybeCompleteAuthorizerInitialLoad();long processedRecordsSize=0;while (reader.hasNext()){Batch<ApiMessageAndVersion> batch=reader.next();long offset=batch.lastOffset();int epoch=batch.epoch();List<ApiMessageAndVersion> messages=batch.records();if (isActiveController()){log.debug("Completing purgatory items up to offset {} and epoch {}.",offset,epoch);purgatory.completeUpTo(offset);snapshotRegistry.deleteSnapshotsUpTo(snapshotGeneratorManager.snapshotLastOffsetFromLog().orElse(offset));}else {if (log.isDebugEnabled()){if (log.isTraceEnabled()){log.trace("Replaying commits from the active node up to "+"offset {} and epoch {}: {}.",offset,epoch,messages.stream().map(ApiMessageAndVersion::toString).collect(Collectors.joining(", ")));}else {log.debug("Replaying commits from the active node up to "+"offset {} and epoch {}.",offset,epoch);}}for (ApiMessageAndVersion messageAndVersion:messages){replay(messageAndVersion.message(),Optional.empty(),offset);}}updateLastCommittedState(offset,epoch,batch.appendTimestamp());processedRecordsSize+=batch.sizeInBytes();}maybeGenerateSnapshot(processedRecordsSize);}finally {reader.close();}});;
+reader.baseOffset()+"]",()->{try {maybeCompleteAuthorizerInitialLoad();longprocessedRecordsSize=0;while (reader.hasNext()){Batch<ApiMessageAndVersion>batch=reader.next();longoffset=batch.lastOffset();intepoch=batch.epoch();List<ApiMessageAndVersion>messages=batch.records();if (isActiveController()){log.debug("Completing purgatory items up to offset {} and epoch {}.",offset,epoch);purgatory.completeUpTo(offset);snapshotRegistry.deleteSnapshotsUpTo(snapshotGeneratorManager.snapshotLastOffsetFromLog().orElse(offset));}else {if (log.isDebugEnabled()){if (log.isTraceEnabled()){log.trace("Replaying commits from the active node up to "+"offset {} and epoch {}: {}.",offset,epoch,messages.stream().map(ApiMessageAndVersion::toString).collect(Collectors.joining(", ")));}else {log.debug("Replaying commits from the active node up to "+"offset {} and epoch {}.",offset,epoch);}}for (ApiMessageAndVersionmessageAndVersion:messages){replay(messageAndVersion.message(),Optional.empty(),offset);}}updateLastCommittedState(offset,epoch,batch.appendTimestamp());processedRecordsSize+=batch.sizeInBytes();}maybeGenerateSnapshot(processedRecordsSize);}finally {reader.close();}});;
 end
 start
 note right
-void handleSnapshot(SnapshotReader<ApiMessageAndVersion> reader)
+void handleSnapshot(SnapshotReader<ApiMessageAndVersion>reader)
 end note
 :appendRaftEvent(String.format("handleSnapshot[snapshotId=%s]",
 reader.snapshotId()),()->{try {if (isActiveController()){throw new IllegalStateException(String.format("Asked to load snapshot (%s) when it is the active controller (%d)",
 reader.snapshotId(),curClaimEpoch));}log.info("Starting to replay snapshot ({}),
  from last commit offset ({}) and epoch ({})",
-reader.snapshotId(),lastCommittedOffset,lastCommittedEpoch);resetState();while (reader.hasNext()){Batch<ApiMessageAndVersion> batch=reader.next();long offset=batch.lastOffset();List<ApiMessageAndVersion> messages=batch.records();if (log.isDebugEnabled()){if (log.isTraceEnabled()){log.trace("Replaying snapshot ({}) batch with last offset of {}: {}",reader.snapshotId(),offset,messages.stream().map(ApiMessageAndVersion::toString).collect(Collectors.joining(", ")));}else {log.debug("Replaying snapshot ({}) batch with last offset of {}",reader.snapshotId(),offset);}}for (ApiMessageAndVersion messageAndVersion:messages){replay(messageAndVersion.message(),Optional.of(reader.snapshotId()),offset);}}updateLastCommittedState(reader.lastContainedLogOffset(),reader.lastContainedLogEpoch(),reader.lastContainedLogTimestamp());snapshotRegistry.getOrCreateSnapshot(lastCommittedOffset);authorizer.ifPresent(a->a.loadSnapshot(aclControlManager.idToAcl()));}finally {reader.close();}});;
+reader.snapshotId(),lastCommittedOffset,lastCommittedEpoch);resetState();while (reader.hasNext()){Batch<ApiMessageAndVersion>batch=reader.next();longoffset=batch.lastOffset();List<ApiMessageAndVersion>messages=batch.records();if (log.isDebugEnabled()){if (log.isTraceEnabled()){log.trace("Replaying snapshot ({}) batch with last offset of {}: {}",reader.snapshotId(),offset,messages.stream().map(ApiMessageAndVersion::toString).collect(Collectors.joining(", ")));}else {log.debug("Replaying snapshot ({}) batch with last offset of {}",reader.snapshotId(),offset);}}for (ApiMessageAndVersionmessageAndVersion:messages){replay(messageAndVersion.message(),Optional.of(reader.snapshotId()),offset);}}updateLastCommittedState(reader.lastContainedLogOffset(),reader.lastContainedLogEpoch(),reader.lastContainedLogTimestamp());snapshotRegistry.getOrCreateSnapshot(lastCommittedOffset);authorizer.ifPresent(a->a.loadSnapshot(aclControlManager.idToAcl()));}finally {reader.close();}});;
 end
 start
 note right
-void handleLeaderChange(LeaderAndEpoch newLeader)
+void handleLeaderChange(LeaderAndEpochnewLeader)
 end note
 if (newLeader.isLeader(nodeId)) then (yes) 
-:final int newEpoch=newLeader.epoch();;
+:final intnewEpoch=newLeader.epoch();;
 :appendRaftEvent("handleLeaderChange["+newEpoch+
-"]",()->{int curEpoch=curClaimEpoch;if (curEpoch!=-1){throw new RuntimeException("Tried to claim controller epoch "+
+"]",()->{intcurEpoch=curClaimEpoch;if (curEpoch!=-1){throw new RuntimeException("Tried to claim controller epoch "+
 newEpoch+", but we never renounced controller epoch "+
-curEpoch);}curClaimEpoch=newEpoch;controllerMetrics.setActive(true);updateWriteOffset(lastCommittedOffset);clusterControl.activate();final MetadataVersion metadataVersion;if (!featureControl.sawMetadataVersion()){final CompletableFuture<Map<String,ApiError>> future;if (!bootstrapMetadata.metadataVersion().isKRaftSupported()){metadataVersion=MetadataVersion.MINIMUM_KRAFT_VERSION;future=new CompletableFuture<>();future.completeExceptionally(new IllegalStateException("Cannot become leader without a KRaft supported version. "+"Got "+bootstrapMetadata.metadataVersion()));}else {metadataVersion=bootstrapMetadata.metadataVersion();final List<ApiMessageAndVersion> bootstrapRecords=bootstrapMetadata.records();future=prependWriteEvent("bootstrapMetadata",()->{if (metadataVersion.isAtLeast(MetadataVersion.IBP_3_3_IV0)){log.info("Initializing metadata.version to {}",metadataVersion.featureLevel());}else {log.info("Upgrading KRaft cluster and initializing metadata.version to {}",metadataVersion.featureLevel());}return ControllerResult.atomicOf(bootstrapRecords,null );});}future.whenComplete((result,exception)->{if (exception!=null ){log.error("Failed to bootstrap metadata.",exception);appendRaftEvent("bootstrapMetadata["+curClaimEpoch+"]",()->{log.warn("Renouncing the leadership at oldEpoch {} since we could not bootstrap "+"metadata. Reverting to last committed offset {}.",curClaimEpoch,lastCommittedOffset);renounce();});}});}else {metadataVersion=featureControl.metadataVersion();}log.info("Becoming the active controller at epoch {}, committed offset {}, committed epoch {}, and metadata.version {}",newEpoch,lastCommittedOffset,lastCommittedEpoch,metadataVersion.featureLevel());snapshotRegistry.getOrCreateSnapshot(lastCommittedOffset);maybeScheduleNextBalancePartitionLeaders();maybeScheduleNextWriteNoOpRecord();});;
+curEpoch);}curClaimEpoch=newEpoch;controllerMetrics.setActive(true);updateWriteOffset(lastCommittedOffset);clusterControl.activate();final MetadataVersionmetadataVersion;if (!featureControl.sawMetadataVersion()){final CompletableFuture<Map<String,ApiError>>future;if (!bootstrapMetadata.metadataVersion().isKRaftSupported()){metadataVersion=MetadataVersion.MINIMUM_KRAFT_VERSION;future=new CompletableFuture<>();future.completeExceptionally(new IllegalStateException("Cannot become leader without a KRaft supported version. "+"Got "+bootstrapMetadata.metadataVersion()));}else {metadataVersion=bootstrapMetadata.metadataVersion();final List<ApiMessageAndVersion>bootstrapRecords=bootstrapMetadata.records();future=prependWriteEvent("bootstrapMetadata",()->{if (metadataVersion.isAtLeast(MetadataVersion.IBP_3_3_IV0)){log.info("Initializing metadata.version to {}",metadataVersion.featureLevel());}else {log.info("Upgrading KRaft cluster and initializing metadata.version to {}",metadataVersion.featureLevel());}return ControllerResult.atomicOf(bootstrapRecords,null );});}future.whenComplete((result,exception)->{if (exception!=null ){log.error("Failed to bootstrap metadata.",exception);appendRaftEvent("bootstrapMetadata["+curClaimEpoch+"]",()->{log.warn("Renouncing the leadership at oldEpoch {} since we could not bootstrap "+"metadata. Reverting to last committed offset {}.",curClaimEpoch,lastCommittedOffset);renounce();});}});}else {metadataVersion=featureControl.metadataVersion();}log.info("Becoming the active controller at epoch {}, committed offset {}, committed epoch {}, and metadata.version {}",newEpoch,lastCommittedOffset,lastCommittedEpoch,metadataVersion.featureLevel());snapshotRegistry.getOrCreateSnapshot(lastCommittedOffset);maybeScheduleNextBalancePartitionLeaders();maybeScheduleNextWriteNoOpRecord();});;
 else if (isActiveController()) then (yes) 
 :appendRaftEvent("handleRenounce["+curClaimEpoch+
 "]",()->{log.warn("Renouncing the leadership at oldEpoch {} due to a metadata "+
@@ -656,7 +656,7 @@ end note
 end
 start
 note right
-void appendRaftEvent(String name,Runnable runnable)
+void appendRaftEvent(Stringname,Runnablerunnable)
 end note
 :appendControlEvent(name,()->{if (this!=metaLogListener){log.debug("Ignoring {} raft event from an old registration",
 name);}else {try {runnable.run();}finally {maybeCompleteAuthorizerInitialLoad();}}});;
@@ -669,7 +669,7 @@ if (!needToCompleteAuthorizerLoad) then (yes)
 :return ;;
 stop
 endif 
-:OptionalLong highWatermark=raftClient.highWatermark();;
+:OptionalLonghighWatermark=raftClient.highWatermark();;
 if (highWatermark.isPresent()) then (yes) 
 if (lastCommittedOffset+1>=highWatermark.getAsLong()) then (yes) 
 :log.info("maybeCompleteAuthorizerInitialLoad: completing authorizer "+
@@ -688,14 +688,14 @@ endif
 end
 start
 note right
-boolean isActiveController()
+booleanisActiveController()
 end note
 :return curClaimEpoch!=-1;;
 stop
 end
 start
 note right
-void updateWriteOffset(long offset)
+void updateWriteOffset(longoffset)
 end note
 :writeOffset=offset;;
 if (isActiveController()) then (yes) 
@@ -708,8 +708,8 @@ endif
 end
 start
 note right
-void updateLastCommittedState(long offset,
-int epoch,long timestamp)
+void updateLastCommittedState(longoffset,
+intepoch,longtimestamp)
 end note
 :lastCommittedOffset=offset;;
 :lastCommittedEpoch=epoch;;
@@ -743,16 +743,16 @@ endif
 :cancelMaybeBalancePartitionLeaders();;
 :cancelNextWriteNoOpRecord();;
 end
-:ControllerWriteEvent<T> event=new ControllerWriteEvent<>(name,
+:ControllerWriteEvent<T>event=new ControllerWriteEvent<>(name,
 op);;
 :queue.scheduleDeferred(name,new EarliestDeadlineFunction(deadlineNs),
 event);;
-:event.future.exceptionally(e->{if (e instanceof UnknownServerException &&e.getCause()!=null &&e.getCause() instanceof RejectedExecutionException ){log.error("Cancelling deferred write event {} because the event queue "+"is now closed.",name);return null ;}else if (e instanceof NotControllerException ){log.debug("Cancelling deferred write event {} because this controller "+"is no longer active.",name);return null ;}log.error("Unexpected exception while executing deferred write event {}. "+"Rescheduling for a minute from now.",name,e);scheduleDeferredWriteEvent(name,deadlineNs+NANOSECONDS.convert(1,TimeUnit.MINUTES),op);return null ;});;
+:event.future.exceptionally(e->{if (e instanceof UnknownServerException&&e.getCause()!=null &&e.getCause() instanceof RejectedExecutionException){log.error("Cancelling deferred write event {} because the event queue "+"is now closed.",name);return null ;}else if (e instanceof NotControllerException){log.debug("Cancelling deferred write event {} because this controller "+"is no longer active.",name);return null ;}log.error("Unexpected exception while executing deferred write event {}. "+"Rescheduling for a minute from now.",name,e);scheduleDeferredWriteEvent(name,deadlineNs+NANOSECONDS.convert(1,TimeUnit.MINUTES),op);return null ;});;
 start
 note right
 void rescheduleMaybeFenceStaleBrokers()
 end note
-:long nextCheckTimeNs=clusterControl.heartbeatManager()
+:longnextCheckTimeNs=clusterControl.heartbeatManager()
 .nextCheckTimeNs();;
 if (nextCheckTimeNs==Long.MAX_VALUE) then (yes) 
 :cancelMaybeFenceReplicas();;
@@ -760,7 +760,7 @@ if (nextCheckTimeNs==Long.MAX_VALUE) then (yes)
 stop
 endif 
 :scheduleDeferredWriteEvent(MAYBE_FENCE_REPLICAS,
-nextCheckTimeNs,()->{ControllerResult<Void> result=replicationControl.maybeFenceOneStaleBroker();rescheduleMaybeFenceStaleBrokers();return result;});;
+nextCheckTimeNs,()->{ControllerResult<Void>result=replicationControl.maybeFenceOneStaleBroker();rescheduleMaybeFenceStaleBrokers();return result;});;
 end
 start
 note right
@@ -777,9 +777,9 @@ if (imbalancedScheduled!=ImbalanceSchedule.SCHEDULED&&leaderImbalanceCheckInterv
  checkIntervalNs ({}) and isImbalanced ({})",
 MAYBE_BALANCE_PARTITION_LEADERS,imbalancedScheduled,
 leaderImbalanceCheckIntervalNs,replicationControl.arePartitionLeadersImbalanced());;
-:ControllerWriteEvent<Boolean> event=new ControllerWriteEvent<>(MAYBE_BALANCE_PARTITION_LEADERS,
-()->{ControllerResult<Boolean> result=replicationControl.maybeBalancePartitionLeaders();if (result.response()){imbalancedScheduled=ImbalanceSchedule.IMMEDIATELY;}else {imbalancedScheduled=ImbalanceSchedule.DEFERRED;}return result;});;
-:long delayNs=time.nanoseconds();;
+:ControllerWriteEvent<Boolean>event=new ControllerWriteEvent<>(MAYBE_BALANCE_PARTITION_LEADERS,
+()->{ControllerResult<Boolean>result=replicationControl.maybeBalancePartitionLeaders();if (result.response()){imbalancedScheduled=ImbalanceSchedule.IMMEDIATELY;}else {imbalancedScheduled=ImbalanceSchedule.DEFERRED;}return result;});;
+:longdelayNs=time.nanoseconds();;
 if (imbalancedScheduled==ImbalanceSchedule.DEFERRED) then (yes) 
 :delayNs+=leaderImbalanceCheckIntervalNs.getAsLong();;
 else (no)
@@ -805,10 +805,10 @@ if (!noOpRecordScheduled&&maxIdleIntervalNs.isPresent()&&featureControl.metadata
 :log.debug("Scheduling write event for {} because maxIdleIntervalNs ({}) and metadataVersion ({})",
 WRITE_NO_OP_RECORD,maxIdleIntervalNs.getAsLong(),
 featureControl.metadataVersion());;
-:ControllerWriteEvent<Void> event=new ControllerWriteEvent<>(WRITE_NO_OP_RECORD,
+:ControllerWriteEvent<Void>event=new ControllerWriteEvent<>(WRITE_NO_OP_RECORD,
 ()->{noOpRecordScheduled=false;maybeScheduleNextWriteNoOpRecord();return ControllerResult.of(Arrays.asList(new ApiMessageAndVersion(new NoOpRecord(),
-(short )0)),null );});;
-:long delayNs=time.nanoseconds()+maxIdleIntervalNs.getAsLong();;
+(short)0)),null );});;
+:longdelayNs=time.nanoseconds()+maxIdleIntervalNs.getAsLong();;
 :queue.scheduleDeferred(WRITE_NO_OP_RECORD,
 new EarliestDeadlineFunction(delayNs),event);;
 :noOpRecordScheduled=true;;
@@ -835,15 +835,15 @@ endif
 end
 start
 note right
-void replay(ApiMessage message,Optional<OffsetAndEpoch> snapshotId,
-long offset)
+void replay(ApiMessagemessage,Optional<OffsetAndEpoch>snapshotId,
+longoffset)
 end note
 switch (try/catch block)
 case (try)
-:MetadataRecordType type=MetadataRecordType.fromId(message.apiKey());;
+:MetadataRecordTypetype=MetadataRecordType.fromId(message.apiKey());;
 switch (switch type)
 endswitch
-case (catch (Exception e))
+case (catch (Exceptione))
 if (snapshotId.isPresent()) then (yes) 
 :log.error("Error replaying record {} from snapshot {} at last offset {}.",
 message.toString(),snapshotId.get(),offset,e);;
@@ -855,7 +855,7 @@ endswitch
 end
 start
 note right
-void maybeGenerateSnapshot(long batchSizeInBytes)
+void maybeGenerateSnapshot(longbatchSizeInBytes)
 end note
 :newBytesSinceLastSnapshot+=batchSizeInBytes;;
 if (newBytesSinceLastSnapshot>=snapshotMaxNewRecordBytes&&snapshotGeneratorManager.generator==null ) then (yes) 
@@ -881,19 +881,18 @@ end note
 end
 start
 note right
-constructor QuorumController(LogContext logContext,
-int nodeId,String clusterId,KafkaEventQueue queue,
-Time time,KafkaConfigSchema configSchema,
-RaftClient<ApiMessageAndVersion> raftClient,
-QuorumFeatures quorumFeatures,short defaultReplicationFactor,
-int defaultNumPartitions,ReplicaPlacer replicaPlacer,
-long snapshotMaxNewRecordBytes,OptionalLong leaderImbalanceCheckIntervalNs,
-OptionalLong maxIdleIntervalNs,long sessionTimeoutNs,
-ControllerMetrics controllerMetrics,Optional<CreateTopicPolicy> createTopicPolicy,
-Optional<AlterConfigPolicy> alterConfigPolicy,
-ConfigurationValidator configurationValidator,
-Optional<ClusterMetadataAuthorizer> authorizer,
-Map<String,Object> staticConfig,BootstrapMetadata bootstrapMetadata)
+constructor QuorumController(LogContextlogContext,
+intnodeId,StringclusterId,KafkaEventQueuequeue,
+Timetime,KafkaConfigSchemaconfigSchema,RaftClient<ApiMessageAndVersion>raftClient,
+QuorumFeaturesquorumFeatures,shortdefaultReplicationFactor,
+intdefaultNumPartitions,ReplicaPlacerreplicaPlacer,
+longsnapshotMaxNewRecordBytes,OptionalLongleaderImbalanceCheckIntervalNs,
+OptionalLongmaxIdleIntervalNs,longsessionTimeoutNs,
+ControllerMetricscontrollerMetrics,Optional<CreateTopicPolicy>createTopicPolicy,
+Optional<AlterConfigPolicy>alterConfigPolicy,
+ConfigurationValidatorconfigurationValidator,
+Optional<ClusterMetadataAuthorizer>authorizer,
+Map<String,Object>staticConfig,BootstrapMetadatabootstrapMetadata)
 end note
 :this.logContext=logContext;;
 :this.log=logContext.logger(QuorumController.class );;
@@ -936,8 +935,8 @@ authorizer);;
 end
 start
 note right
-CompletableFuture<AlterPartitionResponseData> alterPartition(ControllerRequestContext context,
-AlterPartitionRequestData request)
+CompletableFuture<AlterPartitionResponseData>alterPartition(ControllerRequestContextcontext,
+AlterPartitionRequestDatarequest)
 end note
 if (request.topics().isEmpty()) then (yes) 
 :return CompletableFuture.completedFuture(new AlterPartitionResponseData());;
@@ -950,8 +949,8 @@ stop
 end
 start
 note right
-CompletableFuture<CreateTopicsResponseData> createTopics(ControllerRequestContext context,
-CreateTopicsRequestData request,Set<String> describable)
+CompletableFuture<CreateTopicsResponseData>createTopics(ControllerRequestContextcontext,
+CreateTopicsRequestDatarequest,Set<String>describable)
 end note
 if (request.topics().isEmpty()) then (yes) 
 :return CompletableFuture.completedFuture(new CreateTopicsResponseData());;
@@ -964,8 +963,8 @@ stop
 end
 start
 note right
-CompletableFuture<Void> unregisterBroker(ControllerRequestContext context,
-int brokerId)
+CompletableFuture<Void>unregisterBroker(ControllerRequestContextcontext,
+intbrokerId)
 end note
 :return appendWriteEvent("unregisterBroker",
 context.deadlineNs(),()->replicationControl.unregisterBroker(brokerId));;
@@ -973,8 +972,8 @@ stop
 end
 start
 note right
-CompletableFuture<Map<String,ResultOrError<Uuid>>> findTopicIds(ControllerRequestContext context,
-Collection<String> names)
+CompletableFuture<Map<String,ResultOrError<Uuid>>>findTopicIds(ControllerRequestContextcontext,
+Collection<String>names)
 end note
 if (names.isEmpty()) then (yes) 
 :return CompletableFuture.completedFuture(Collections.emptyMap());;
@@ -987,7 +986,7 @@ stop
 end
 start
 note right
-CompletableFuture<Map<String,Uuid>> findAllTopicIds(ControllerRequestContext context)
+CompletableFuture<Map<String,Uuid>>findAllTopicIds(ControllerRequestContextcontext)
 end note
 :return appendReadEvent("findAllTopicIds",
 context.deadlineNs(),()->replicationControl.findAllTopicIds(lastCommittedOffset));;
@@ -995,8 +994,8 @@ stop
 end
 start
 note right
-CompletableFuture<Map<Uuid,ResultOrError<String>>> findTopicNames(ControllerRequestContext context,
-Collection<Uuid> ids)
+CompletableFuture<Map<Uuid,ResultOrError<String>>>findTopicNames(ControllerRequestContextcontext,
+Collection<Uuid>ids)
 end note
 if (ids.isEmpty()) then (yes) 
 :return CompletableFuture.completedFuture(Collections.emptyMap());;
@@ -1009,8 +1008,8 @@ stop
 end
 start
 note right
-CompletableFuture<Map<Uuid,ApiError>> deleteTopics(ControllerRequestContext context,
-Collection<Uuid> ids)
+CompletableFuture<Map<Uuid,ApiError>>deleteTopics(ControllerRequestContextcontext,
+Collection<Uuid>ids)
 end note
 if (ids.isEmpty()) then (yes) 
 :return CompletableFuture.completedFuture(Collections.emptyMap());;
@@ -1023,8 +1022,8 @@ end
 start
 note right
 CompletableFuture<Map<ConfigResource,ResultOrError<Map<String,
-String>>>> describeConfigs(ControllerRequestContext context,
-Map<ConfigResource,Collection<String>> resources)
+String>>>>describeConfigs(ControllerRequestContextcontext,
+Map<ConfigResource,Collection<String>>resources)
 end note
 :return appendReadEvent("describeConfigs",
 context.deadlineNs(),()->configurationControl.describeConfigs(lastCommittedOffset,
@@ -1033,8 +1032,8 @@ stop
 end
 start
 note right
-CompletableFuture<ElectLeadersResponseData> electLeaders(ControllerRequestContext context,
-ElectLeadersRequestData request)
+CompletableFuture<ElectLeadersResponseData>electLeaders(ControllerRequestContextcontext,
+ElectLeadersRequestDatarequest)
 end note
 if (request.topicPartitions()!=null &&request.topicPartitions().isEmpty()) then (yes) 
 :return CompletableFuture.completedFuture(new ElectLeadersResponseData());;
@@ -1046,7 +1045,7 @@ stop
 end
 start
 note right
-CompletableFuture<FinalizedControllerFeatures> finalizedFeatures(ControllerRequestContext context)
+CompletableFuture<FinalizedControllerFeatures>finalizedFeatures(ControllerRequestContextcontext)
 end note
 :return appendReadEvent("getFinalizedFeatures",
 context.deadlineNs(),()->featureControl.finalizedFeatures(lastCommittedOffset));;
@@ -1054,9 +1053,9 @@ stop
 end
 start
 note right
-CompletableFuture<Map<ConfigResource,ApiError>> incrementalAlterConfigs(ControllerRequestContext context,
+CompletableFuture<Map<ConfigResource,ApiError>>incrementalAlterConfigs(ControllerRequestContextcontext,
 Map<ConfigResource,Map<String,Entry<OpType,
-String>>> configChanges,boolean validateOnly)
+String>>>configChanges,booleanvalidateOnly)
 end note
 if (configChanges.isEmpty()) then (yes) 
 :return CompletableFuture.completedFuture(Collections.emptyMap());;
@@ -1064,14 +1063,14 @@ stop
 endif 
 :return appendWriteEvent("incrementalAlterConfigs",
 context.deadlineNs(),()->{ControllerResult<Map<ConfigResource,
-ApiError>> result=configurationControl.incrementalAlterConfigs(configChanges,
+ApiError>>result=configurationControl.incrementalAlterConfigs(configChanges,
 false);if (validateOnly){return result.withoutRecords();}else {return result;}});;
 stop
 end
 start
 note right
-CompletableFuture<AlterPartitionReassignmentsResponseData> alterPartitionReassignments(ControllerRequestContext context,
-AlterPartitionReassignmentsRequestData request)
+CompletableFuture<AlterPartitionReassignmentsResponseData>alterPartitionReassignments(ControllerRequestContextcontext,
+AlterPartitionReassignmentsRequestDatarequest)
 end note
 if (request.topics().isEmpty()) then (yes) 
 :return CompletableFuture.completedFuture(new AlterPartitionReassignmentsResponseData());;
@@ -1083,8 +1082,8 @@ stop
 end
 start
 note right
-CompletableFuture<ListPartitionReassignmentsResponseData> listPartitionReassignments(ControllerRequestContext context,
-ListPartitionReassignmentsRequestData request)
+CompletableFuture<ListPartitionReassignmentsResponseData>listPartitionReassignments(ControllerRequestContextcontext,
+ListPartitionReassignmentsRequestDatarequest)
 end note
 if (request.topics()!=null &&request.topics().isEmpty()) then (yes) 
 :return CompletableFuture.completedFuture(new ListPartitionReassignmentsResponseData()
@@ -1097,9 +1096,9 @@ stop
 end
 start
 note right
-CompletableFuture<Map<ConfigResource,ApiError>> legacyAlterConfigs(ControllerRequestContext context,
-Map<ConfigResource,Map<String,String>> newConfigs,
-boolean validateOnly)
+CompletableFuture<Map<ConfigResource,ApiError>>legacyAlterConfigs(ControllerRequestContextcontext,
+Map<ConfigResource,Map<String,String>>newConfigs,
+booleanvalidateOnly)
 end note
 if (newConfigs.isEmpty()) then (yes) 
 :return CompletableFuture.completedFuture(Collections.emptyMap());;
@@ -1107,33 +1106,33 @@ stop
 endif 
 :return appendWriteEvent("legacyAlterConfigs",
 context.deadlineNs(),()->{ControllerResult<Map<ConfigResource,
-ApiError>> result=configurationControl.legacyAlterConfigs(newConfigs,
+ApiError>>result=configurationControl.legacyAlterConfigs(newConfigs,
 false);if (validateOnly){return result.withoutRecords();}else {return result;}});;
 stop
 end
 start
 note right
-CompletableFuture<BrokerHeartbeatReply> processBrokerHeartbeat(ControllerRequestContext context,
-BrokerHeartbeatRequestData request)
+CompletableFuture<BrokerHeartbeatReply>processBrokerHeartbeat(ControllerRequestContextcontext,
+BrokerHeartbeatRequestDatarequest)
 end note
 :return appendWriteEvent("processBrokerHeartbeat",
-context.deadlineNs(),new ControllerWriteOperation<BrokerHeartbeatReply >(){private final int brokerId=request.brokerId();private boolean inControlledShutdown=false;@Override public ControllerResult<BrokerHeartbeatReply> generateRecordsAndResult(){ControllerResult<BrokerHeartbeatReply> result=replicationControl.processBrokerHeartbeat(request,lastCommittedOffset);inControlledShutdown=result.response().inControlledShutdown();rescheduleMaybeFenceStaleBrokers();return result;}@Override public void processBatchEndOffset(long offset){if (inControlledShutdown){clusterControl.heartbeatManager().updateControlledShutdownOffset(brokerId,offset);}}});;
+context.deadlineNs(),new ControllerWriteOperation<BrokerHeartbeatReply>(){private final intbrokerId=request.brokerId();private booleaninControlledShutdown=false;@Override public ControllerResult<BrokerHeartbeatReply>generateRecordsAndResult(){ControllerResult<BrokerHeartbeatReply>result=replicationControl.processBrokerHeartbeat(request,lastCommittedOffset);inControlledShutdown=result.response().inControlledShutdown();rescheduleMaybeFenceStaleBrokers();return result;}@Override public void processBatchEndOffset(longoffset){if (inControlledShutdown){clusterControl.heartbeatManager().updateControlledShutdownOffset(brokerId,offset);}}});;
 stop
 end
 start
 note right
-CompletableFuture<BrokerRegistrationReply> registerBroker(ControllerRequestContext context,
-BrokerRegistrationRequestData request)
+CompletableFuture<BrokerRegistrationReply>registerBroker(ControllerRequestContextcontext,
+BrokerRegistrationRequestDatarequest)
 end note
-:return appendWriteEvent("registerBroker",context.deadlineNs(),()->{ControllerResult<BrokerRegistrationReply> result=clusterControl.registerBroker(request,writeOffset+
+:return appendWriteEvent("registerBroker",context.deadlineNs(),()->{ControllerResult<BrokerRegistrationReply>result=clusterControl.registerBroker(request,writeOffset+
 1,featureControl.finalizedFeatures(Long.MAX_VALUE));rescheduleMaybeFenceStaleBrokers();return result;});;
 stop
 end
 start
 note right
-CompletableFuture<Map<ClientQuotaEntity,ApiError>> alterClientQuotas(ControllerRequestContext context,
-Collection<ClientQuotaAlteration> quotaAlterations,
-boolean validateOnly)
+CompletableFuture<Map<ClientQuotaEntity,ApiError>>alterClientQuotas(ControllerRequestContextcontext,
+Collection<ClientQuotaAlteration>quotaAlterations,
+booleanvalidateOnly)
 end note
 if (quotaAlterations.isEmpty()) then (yes) 
 :return CompletableFuture.completedFuture(Collections.emptyMap());;
@@ -1141,13 +1140,13 @@ stop
 endif 
 :return appendWriteEvent("alterClientQuotas",
 context.deadlineNs(),()->{ControllerResult<Map<ClientQuotaEntity,
-ApiError>> result=clientQuotaControlManager.alterClientQuotas(quotaAlterations);if (validateOnly){return result.withoutRecords();}else {return result;}});;
+ApiError>>result=clientQuotaControlManager.alterClientQuotas(quotaAlterations);if (validateOnly){return result.withoutRecords();}else {return result;}});;
 stop
 end
 start
 note right
-CompletableFuture<AllocateProducerIdsResponseData> allocateProducerIds(ControllerRequestContext context,
-AllocateProducerIdsRequestData request)
+CompletableFuture<AllocateProducerIdsResponseData>allocateProducerIds(ControllerRequestContextcontext,
+AllocateProducerIdsRequestDatarequest)
 end note
 :return appendWriteEvent("allocateProducerIds",
 context.deadlineNs(),()->producerIdControlManager.generateNextProducerId(request.brokerId(),
@@ -1156,36 +1155,36 @@ stop
 end
 start
 note right
-CompletableFuture<UpdateFeaturesResponseData> updateFeatures(ControllerRequestContext context,
-UpdateFeaturesRequestData request)
+CompletableFuture<UpdateFeaturesResponseData>updateFeatures(ControllerRequestContextcontext,
+UpdateFeaturesRequestDatarequest)
 end note
 :return appendWriteEvent("updateFeatures",
-context.deadlineNs(),()->{Map<String,Short> updates=new HashMap<>();Map<String,
-FeatureUpdate.UpgradeType> upgradeTypes=new HashMap<>();request.featureUpdates().forEach(featureUpdate->{String featureName=featureUpdate.feature();upgradeTypes.put(featureName,
+context.deadlineNs(),()->{Map<String,Short>updates=new HashMap<>();Map<String,
+FeatureUpdate.UpgradeType>upgradeTypes=new HashMap<>();request.featureUpdates().forEach(featureUpdate->{StringfeatureName=featureUpdate.feature();upgradeTypes.put(featureName,
 FeatureUpdate.UpgradeType.fromCode(featureUpdate.upgradeType()));updates.put(featureName,
 featureUpdate.maxVersionLevel());});return featureControl.updateFeatures(updates,
 upgradeTypes,clusterControl.brokerSupportedVersions(),
-request.validateOnly());}).thenApply(result->{UpdateFeaturesResponseData responseData=new UpdateFeaturesResponseData();responseData.setResults(new UpdateFeaturesResponseData.UpdatableFeatureResultCollection(result.size()));result.forEach((featureName,error)->responseData.results().add(new UpdateFeaturesResponseData.UpdatableFeatureResult().setFeature(featureName).setErrorCode(error.error().code()).setErrorMessage(error.message())));return responseData;});;
+request.validateOnly());}).thenApply(result->{UpdateFeaturesResponseDataresponseData=new UpdateFeaturesResponseData();responseData.setResults(new UpdateFeaturesResponseData.UpdatableFeatureResultCollection(result.size()));result.forEach((featureName,error)->responseData.results().add(new UpdateFeaturesResponseData.UpdatableFeatureResult().setFeature(featureName).setErrorCode(error.error().code()).setErrorMessage(error.message())));return responseData;});;
 stop
 end
 start
 note right
-CompletableFuture<List<CreatePartitionsTopicResult>> createPartitions(ControllerRequestContext context,
-List<CreatePartitionsTopic> topics,boolean validateOnly)
+CompletableFuture<List<CreatePartitionsTopicResult>>createPartitions(ControllerRequestContextcontext,
+List<CreatePartitionsTopic>topics,booleanvalidateOnly)
 end note
 if (topics.isEmpty()) then (yes) 
 :return CompletableFuture.completedFuture(Collections.emptyList());;
 stop
 endif 
 :return appendWriteEvent("createPartitions",
-context.deadlineNs(),()->{final ControllerResult<List<CreatePartitionsTopicResult>> result=replicationControl.createPartitions(topics);if (validateOnly){log.debug("Validate-only CreatePartitions result(s): {}",result.response());return result.withoutRecords();}else {log.debug("CreatePartitions result(s): {}",result.response());return result;}});;
+context.deadlineNs(),()->{final ControllerResult<List<CreatePartitionsTopicResult>>result=replicationControl.createPartitions(topics);if (validateOnly){log.debug("Validate-only CreatePartitions result(s): {}",result.response());return result.withoutRecords();}else {log.debug("CreatePartitions result(s): {}",result.response());return result;}});;
 stop
 end
 start
 note right
-CompletableFuture<Long> beginWritingSnapshot()
+CompletableFuture<Long>beginWritingSnapshot()
 end note
-:CompletableFuture<Long> future=new CompletableFuture<>();;
+:CompletableFuture<Long>future=new CompletableFuture<>();;
 :appendControlEvent("beginWritingSnapshot",
 ()->{if (snapshotGeneratorManager.generator==null ){snapshotGeneratorManager.createSnapshotGenerator(lastCommittedOffset,
 lastCommittedEpoch,lastCommittedTimestamp);}future.complete(snapshotGeneratorManager.generator.lastContainedLogOffset());});;
@@ -1194,8 +1193,8 @@ stop
 end
 start
 note right
-CompletableFuture<List<AclCreateResult>> createAcls(ControllerRequestContext context,
-List<AclBinding> aclBindings)
+CompletableFuture<List<AclCreateResult>>createAcls(ControllerRequestContextcontext,
+List<AclBinding>aclBindings)
 end note
 :return appendWriteEvent("createAcls",context.deadlineNs(),
 ()->aclControlManager.createAcls(aclBindings));;
@@ -1203,8 +1202,8 @@ stop
 end
 start
 note right
-CompletableFuture<List<AclDeleteResult>> deleteAcls(ControllerRequestContext context,
-List<AclBindingFilter> filters)
+CompletableFuture<List<AclDeleteResult>>deleteAcls(ControllerRequestContextcontext,
+List<AclBindingFilter>filters)
 end note
 :return appendWriteEvent("deleteAcls",context.deadlineNs(),
 ()->aclControlManager.deleteAcls(filters));;
@@ -1212,9 +1211,9 @@ stop
 end
 start
 note right
-CompletableFuture<Void> waitForReadyBrokers(int minBrokers)
+CompletableFuture<Void>waitForReadyBrokers(intminBrokers)
 end note
-:final CompletableFuture<Void> future=new CompletableFuture<>();;
+:final CompletableFuture<Void>future=new CompletableFuture<>();;
 :appendControlEvent("waitForReadyBrokers",
 ()->{clusterControl.addReadyBrokersFuture(future,
 minBrokers);});;
@@ -1229,28 +1228,28 @@ end note
 end
 start
 note right
-int nodeId()
+intnodeId()
 end note
 :return nodeId;;
 stop
 end
 start
 note right
-String clusterId()
+StringclusterId()
 end note
 :return clusterId;;
 stop
 end
 start
 note right
-int curClaimEpoch()
+intcurClaimEpoch()
 end note
 :return curClaimEpoch;;
 stop
 end
 start
 note right
-MetadataVersion metadataVersion()
+MetadataVersionmetadataVersion()
 end note
 :return featureControl.metadataVersion();;
 stop
@@ -1264,17 +1263,17 @@ end note
 end
 start
 note right
-CountDownLatch pause()
+CountDownLatchpause()
 end note
-:final CountDownLatch latch=new CountDownLatch(1);;
-:appendControlEvent("pause",()->{try {latch.await();}catch (InterruptedException e){log.info("Interrupted while waiting for unpause.",
+:final CountDownLatchlatch=new CountDownLatch(1);;
+:appendControlEvent("pause",()->{try {latch.await();}catch (InterruptedExceptione){log.info("Interrupted while waiting for unpause.",
 e);}});;
 :return latch;;
 stop
 end
 start
 note right
-Time time()
+Timetime()
 end note
 :return time;;
 stop

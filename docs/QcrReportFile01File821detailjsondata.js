@@ -173,7 +173,7 @@ var maDataBlocs = {
  , "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/Retry.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00061] For method execute arguments Retryable&lt;R&gt;  retryable"
+ , "c3" : "QC-JAV000006[00061] For method execute arguments Retryable&lt;R &gt;  retryable"
 }} 
 ,
 { "ligne" : {"" : ""

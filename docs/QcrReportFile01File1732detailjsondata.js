@@ -146,7 +146,7 @@ var maDataBlocs = {
  , "c1" : "00068"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00068] For method init arguments ProcessorContext&lt;KIn,Change&lt;VAgg&gt;&gt;  context"
+ , "c3" : "QC-JAV000006[00068] For method init arguments ProcessorContext&lt;KIn ,Change&lt;VAgg &gt; &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -160,7 +160,7 @@ var maDataBlocs = {
  , "c1" : "00081"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#81"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00081] For method process arguments Record&lt;KIn,Change&lt;VIn&gt;&gt;  record"
+ , "c3" : "QC-JAV000006[00081] For method process arguments Record&lt;KIn ,Change&lt;VIn &gt; &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""

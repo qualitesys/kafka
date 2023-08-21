@@ -100,7 +100,7 @@ var maDataBlocs = {
  , "c1" : "00044"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00044] For method init arguments ProcessorContext&lt;K,V&gt;  context"
+ , "c3" : "QC-JAV000006[00044] For method init arguments ProcessorContext&lt;K ,V &gt;  context"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -114,7 +114,7 @@ var maDataBlocs = {
  , "c1" : "00051"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamJoinWindow.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00051] For method process arguments Record&lt;K,V&gt;  record"
+ , "c3" : "QC-JAV000006[00051] For method process arguments Record&lt;K ,V &gt;  record"
 }} 
 ,
 { "ligne" : {"" : ""

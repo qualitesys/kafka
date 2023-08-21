@@ -268,7 +268,7 @@ var maDataBlocs = {
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramCredentialUtils.java.html#80"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00080] For method createCache arguments CredentialCache  cache|Collection&lt;String&gt;  mechanisms"
+ , "c3" : "QC-JAV000006[00080] For method createCache arguments CredentialCache  cache|Collection&lt;String &gt;  mechanisms"
 }} 
 ,
 { "ligne" : {"" : ""

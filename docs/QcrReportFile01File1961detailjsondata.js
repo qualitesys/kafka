@@ -100,7 +100,7 @@ var maDataBlocs = {
  , "c1" : "00042"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/FallbackPriorTaskAssignor.java.html#42"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00042] For method assign arguments Map&lt;UUID,ClientState&gt;  clients|Set&lt;TaskId&gt;  allTaskIds|Set&lt;TaskId&gt;  statefulTaskIds|AssignmentConfigs  configs"
+ , "c3" : "QC-JAV000006[00042] For method assign arguments Map&lt;UUID ,ClientState &gt;  clients|Set&lt;TaskId &gt;  allTaskIds|Set&lt;TaskId &gt;  statefulTaskIds|AssignmentConfigs  configs"
 }} 
 ,
 { "ligne" : {"" : ""

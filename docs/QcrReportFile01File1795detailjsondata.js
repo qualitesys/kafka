@@ -147,7 +147,7 @@ var maDataBlocs = {
  , "c1" : "00067"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#67"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00067] For method configure arguments Map&lt;String,?&gt;  configs|boolean  isKey"
+ , "c3" : "QC-JAV000006[00067] For method configure arguments Map&lt;String ,? &gt;  configs|boolean  isKey"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -161,7 +161,7 @@ var maDataBlocs = {
  , "c1" : "00071"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00071] For method upgradeFromV0 arguments Map&lt;String,?&gt;  configs"
+ , "c3" : "QC-JAV000006[00071] For method upgradeFromV0 arguments Map&lt;String ,? &gt;  configs"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -203,7 +203,7 @@ var maDataBlocs = {
  , "c1" : "00103"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#103"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00103] For method serialize arguments String  ignored|SubscriptionWrapper&lt;K&gt;  data"
+ , "c3" : "QC-JAV000006[00103] For method serialize arguments String  ignored|SubscriptionWrapper&lt;K &gt;  data"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -266,7 +266,7 @@ var maDataBlocs = {
  , "c1" : "00121"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#121"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00121] For method serializePrimaryKey arguments SubscriptionWrapper&lt;K&gt;  data"
+ , "c3" : "QC-JAV000006[00121] For method serializePrimaryKey arguments SubscriptionWrapper&lt;K &gt;  data"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -287,7 +287,7 @@ var maDataBlocs = {
  , "c1" : "00132"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#132"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00132] For method serializeCommon arguments SubscriptionWrapper&lt;K&gt;  data|byte  version|int  extraLength"
+ , "c3" : "QC-JAV000006[00132] For method serializeCommon arguments SubscriptionWrapper&lt;K &gt;  data|byte  version|int  extraLength"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -357,7 +357,7 @@ var maDataBlocs = {
  , "c1" : "00155"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#155"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00155] For method serializeV0 arguments SubscriptionWrapper&lt;K&gt;  data"
+ , "c3" : "QC-JAV000006[00155] For method serializeV0 arguments SubscriptionWrapper&lt;K &gt;  data"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -378,7 +378,7 @@ var maDataBlocs = {
  , "c1" : "00159"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#159"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000006[00159] For method serializeV1 arguments SubscriptionWrapper&lt;K&gt;  data"
+ , "c3" : "QC-JAV000006[00159] For method serializeV1 arguments SubscriptionWrapper&lt;K &gt;  data"
 }} 
 ,
 { "ligne" : {"" : ""
